@@ -1,0 +1,1 @@
+(polygraph-python)polygraph/polygraph/schema.py:17: error: Argument 2 to NewType(...) must be subclassable (got "Union[Any, Any]")  [valid-newtype]

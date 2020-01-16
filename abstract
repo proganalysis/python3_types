@@ -1,0 +1,2 @@
+(OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83: error: Cannot instantiate abstract class 'Logging' with abstract attributes 'error', 'message' and 'warning'  [abstract]
+(healerkx)PySQLKits/deprecated/mysqlbinlog/sync_to_redis.py:90: error: Cannot instantiate abstract class 'RedisHandler' with abstract attributes 'delete_data', 'insert_data' and 'update_data'  [abstract]
