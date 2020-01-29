@@ -292,7 +292,7 @@ Reason:
 VS Code (pylint):
 	W0106: Expression "[self.channels.append(x) for x in channels if x in range(12)]" is assigned to nothing
 Insufficiencies in Mypy OR User error?
-	User error since Mypy knows the issude and decided to treat it as an error.
+	User error since Mypy knows the issue and decided to treat it as an error.
 Note:
 	Out of 28 [func-returns-value] errors, 21 are of this type (append/print/chmod/memset etc.).
 
@@ -678,19 +678,388 @@ Note:
 -------------------------------------------------------------------------------
 
 [valid-type] 150
-Example:
+Example: (kitchenbudapest)vr/surface.py:85, 116
+
+>	def __getitem__(self, identifier: 'index or name') -> 'KX_VertexProxy':
+        return self._vertices.children[identifier]
+
+>	def selected(self) -> 'tuples of index and KX_VertexProxy pair':
+        yield from self._selected.items()
+
 Error Message:
+	error: Invalid type comment or annotation  [valid-type]
 Reason:
+	Invalid annotation.
 VS Code (pylint):
+	No. complaint.
 Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (juancarlospaco)anglerfish/anglerfish/walk2dict.py:22
+
+	def walk2dict(folder: Path, topdown: bool=True,
+              onerror: object=None, followlinks: bool=False,
+>             showhidden: bool=False, strip: bool=False) -> namedtuple:
+
+Error Message:
+	error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+Reason:
+	"Examples of invalid types include bare integer literals, functions, variables, and modules." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note: 
+	Out of 805 [valid-type] errors, 467 are of type "Invalid type comment or annotation"
+								  , 310 are of type "Variable/Function ___ is not valid as a type"
+-------------------------------------------------------------------------------
+
+(TODO: Need more info)
+[union-attr] 152 
+Example: (slice)dogbot/dog/guild_config.py:66
+
+    def can_edit(self, user: discord.User, guild: GuildOrGuildID, *, with_config: dict = None) -> bool:
+        guild = self.resolve_guild(guild)
+        if not guild:
+            return False
+
+        if guild.owner == user:
+            return True
+
+        config = with_config or self.get(guild)
+        member = guild.get_member(user.id)
+
+        if config is None:
+            return member is not None and member.guild_permissions.ban_members
+
+>       editors = config.get('editors', [])
+
+Error Message:
+	error: Item "str" of "Union[Dict[Any, Any], str]" has no attribute "get"  [union-attr]
+Reason:
+	"If you access the attribute of a value with a union type, mypy checks that the attribute is defined for every type in that union. Otherwise the operation can fail at runtime. This also applies to optional types." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Probably user error(?)
+Note:
+	Out of 1007 [union-attr], 932 are of type "error: Item "None" of "Optional[___]" has no attribute "___"".
+	This can be overlook by --no-strict-optional 
 
 -------------------------------------------------------------------------------
 
-[]
+[return-value] 180
+Example: (tmthyjames)SQLCell/sqlcell/sqlcell.py:107
+
+    def sql(self, line: str="", cell: str="") -> None:
+       	(...)
+        if refresh and cell in self.refresh_options:
+            if cell in self.tables:
+                self.session.query(getattr(self.classes, cell)).delete()
+                self.session.commit()
+>           return ('Removed all records from ' + cell)
+        (...)
+
+Error Message:
+	error: No return value expected  [return-value]
+Reason:
+	Return str but type signature is None
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:66
+
+	def clean_boolean(value: str) -> bool:
+	    if value is None:
+	        return None
+	    value = clean_wikitext(value)
+
+	    if value in ["True", "true", True, "Yes", "yes"]:
+	        value = True
+	    elif value in ["False", "false", False, "No", "no"]:
+	        value = False
+	    else:
+	        # If unable to determine boolean, set to False
+	        value = False
+
+>	    return value
+
+Error Message:
+	error: Incompatible return value type (got "str", expected "bool")  [return-value]
+Reason:
+	Type of 'value' changes from str to bool. Mypy does not support this.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	In this case, Mypy. They acknowledged this. (https://mypy.readthedocs.io/en/stable/common_issues.html#redefinitions-with-incompatible-types)
+Note:
+	Out of 543 [return-value] errors, 495 are of type "Incompatible return value type (got "___", expected "___")"
+									, 48 are of type "Return value expected"
+									, 10 are of type "No return value expected"
+	192 has type "None" which can be overlook by --no-strict-optional.
+	115 has type "Optional[___]"
+	43 has type "Union[___]
+
+-------------------------------------------------------------------------------
+
+[syntax] 237
+Example:
+		(manerfan)python-game-snake/src/search/tools.py:20
+>	def cell_equal(cell1: (int, int), cell2: (int, int)):
+		(dhlab-epfl)cadasters/src/process.py:55, 98
+>	def get_rotation_matrix(image_shape: tuple, angle: float) -> (np.array, np.array):
+>	def find_orientation_blob(blob_contour: np.array) -> (Tuple, np.array, float):
+
+Error Message:
+	error: Syntax error in type annotation  [syntax]
+Reason:
+	"If the code being checked is not syntactically valid, mypy issues a syntax error. Most, but not all, syntax errors are blocking errors: they can’t be ignored with a # type: ignore comment." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (samuroi)SamuROI/doc/examples/masks.py:27
+
+	import sys
+	(...)
+>	sys.exit(app.exec_())
+
+Error Message:
+	error: invalid syntax  [syntax]
+Reason:
+	Invalid syntax
+VS Code (pylint):
+	E0001: invalid syntax (<unknown>, line 27) (syntax-error)
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	Out of 332 [syntax] errors, 125 are of type "Syntax error in type annotation".
+							  , 85 are of type "invalid syntax".
+							  , 52 are of type "Missing parentheses in call to 'print'. Did you mean print(___)?"
+
+
+-------------------------------------------------------------------------------
+
+[name-defined] 254
+Example: (benmoran56)esper/examples/pythonista_ios_example.py:7
+Error Message:
+	error: Name 'SpriteNode' is not defined  [name-defined]
+Reason:
+	All or most of the errors are resulting from the import error.
+VS Code (pylint):
+	Complaint sometime when it cannot import too.
+Insufficiencies in Mypy OR User error?
+	?
+Note: 
+	All 3785 [name-defined] errors are of type "Name ___ is not defined"
+
+-------------------------------------------------------------------------------
+
+[arg-type] 257
+Example: (Josca)im/im/display.py:11, 12
+
+	import curses
+	(...)
+>	self.scr.keypad(1)
+>	self.scr.nodelay(1)    
+
+Error Message:
+	error: Argument 1 to "keypad" of "_CursesWindow" has incompatible type "int"; expected "bool"  [arg-type]
+Reason:
+	"Mypy checks that argument types in a call match the declared argument types in the signature of the called function (if one exists)." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (seisatsu)Driftwood/src/widget.py:100
+
+	class Widget:
+		(...)
+		def __init__(self,
+		                 manager: 'widgetmanager.WidgetManager',
+		                 wid: int,
+		                 parent: Optional[int],
+		                 x: int,
+		                 y: int,
+		                 width: int,
+		                 height: int):
+		(...)
+
+	class ContainerWidget(Widget):
+	    def __init__(self,
+	                 manager: 'widgetmanager.WidgetManager',
+	                 wid: int,
+	                 parent: Optional[int],
+	                 image: filetype.ImageFile,
+	                 x: Optional[int],
+	                 y: Optional[int],
+	                 width: int,
+	                 height: int):
+>	        super(ContainerWidget, self).__init__(manager, wid, parent, x, y, width, height)
+
+Error Message:
+	error: Argument 4 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+	error: Argument 5 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+Reason:
+	Mismatch argument type
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All 843 [arg-type] errors are of type "Argument 1 to "_ensure_dir" has incompatible type ___; expected ___"
+	
+	About 500 have type "None"
+	About 338 have type "Optional[___]"
+	About 291 have type "Union[___]"
+	About 100 have type "bytes"
+	About 100 have type "Tuple[___]"
+	
+	Some of errors are because of changing variable type on the same variable (eg. from str to int). Mypy does not like this.
+
+-------------------------------------------------------------------------------
+
+[assignment] 366
+Example: (BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36: 
+
+    def __init__(self, url: Union[list, str], key: Union[list, str], ssl: Union[list, bool]=True,
+                 name: Union[list, str]='Unnamed'):
+        self.misp_connections = []
+        if type(url) is list:
+            for idx, server in enumerate(url):
+                verify = True
+                if os.path.isfile(ssl[idx]):
+                    verify = ssl[idx]
+                self.misp_connections.append(pymisp.PyMISP(url=server,
+                                                           key=key[idx],
+                                                           ssl=verify))
+        else:
+            verify = True
+            if os.path.isfile(ssl):
+>               verify = ssl
+
+Error Message: 
+	error: Incompatible types in assignment (expression has type "Union[List[Any], bool]", variable has type "bool")  [assignment]
+Reason:
+	"Mypy checks that the assigned expression is compatible with the assignment target (or targets)." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	Out of 1459 [assignment] errors, 1413 are of type "Incompatible types in assignment (expression has type ___, variable has type ___)""
+								   , 26 are of type "Incompatible default for argument ___ (default has type ___, argument has type ___)"
+
+-------------------------------------------------------------------------------
+
+[attr-defined] 449
+Example: (cernyd)gnunigma/data_handler.py:37-43
+
+	class Base:
+	    """Base initiation class for Tk and TopLevel derivatives"""
+	    def __init__(self, icon: str, wm_title: str):
+>	        self.attributes("-alpha", 0.0)
+>	        self.after(0, self.attributes, "-alpha", 1.0)
+>	        self.resizable(False, False)
+	        if platform == "Windows":
+>	            self.iconbitmap(path.join('icons', icon))
+>	        self.wm_title(wm_title)
+>	        self.grab_set()
+
+Error Message:
+	error: "Base" has no attribute "attributes"  [attr-defined]
+	error: "Base" has no attribute "after"  [attr-defined]
+	(...)
+Reason:
+	"Mypy checks that an attribute is defined in the target class or module when using the dot operator. This applies to both getting and setting an attribute." (1)
+VS Code (pylint):
+	E1101: Instance of 'Base' has no 'attributes' member (no-member)
+	E1101: Instance of 'Base' has no 'after' member (no-member)
+	(...)
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (alexheretic)apart-gtk/src/running_job.py:83
+
+	class RunningJob:
+	    def __init__(self, core: ApartCore, on_finish: Callable[[Dict], None]):
+	        (...)
+	        self.last_message = None  # Dict
+	        (...)
+	    (...)
+
+	    def handle_message(self, msg: Dict):
+	        if msg['type'] in ['clone', 'restore']:
+	            self.last_message = msg
+	            self.progress_bar.set_fraction(msg['complete'])
+	            if not self.start:
+	                self.start = msg['start'].replace(tzinfo=msg['start'].tzinfo or timezone.utc)
+	                self.update()
+	            if msg.get('finish'):
+	                self.finish()
+	            else:
+	                self.rate.value_label.set_text(msg.get('rate') or 'Initializing')
+>	                if not self.syncing and self.last_message.get('syncing'):
+	                	(...)
+
+Error Message:
+	error: "None" has no attribute "get"  [attr-defined]
+Reason:
+	"self.last_message" first got assigned as None. Then "self.last_message = msg" reassigned it. However, Mypy still thinks it's a type None.
+	Might be in the same case of reassigning type.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	?
+Note:
+	Out of 2509 [attr-defined] error, 394 are of type "Module has no attribute ___"
+	All of them are of type "___ has no attribute ___"
+	About 203 have type "None"
+
+-------------------------------------------------------------------------------
+
+[var-annotated] 476 
+Example: (132nd-etcher)EMFT/emft/core/properties/watched_property.py:39
+
+    def __init__(self, func: callable, default):
+        self.func = func
+        self._default = default
+>       self._watchers = []
+
+
+		(efenka)dropbox-paper-backup/dropbox-paper-backup.py:165
+	def replace_images(tracker: Tracker, folders: list, document_reference: str, body: bytes):
+	    pattern = re.compile(rb'(<img[^<]+src=)(?P<delimiter>[\'"])(?P<url>[^\'"]+)(?P=delimiter)([^>]*>)')
+	    relative_resource_dir = '.%s' % document_reference
+>	    cache = {}
+
+Error Message:
+	error: Need type annotation for '_watchers' (hint: "_watchers: List[<type>] = ...")  [var-annotated]
+	error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Reason:
+	Need to annoate type for a list or dictionary
+	"The type checker cannot always infer the type of a list or a dictionary. This often arises when creating an empty list or dictionary and assigning it to a new variable that doesn’t have an explicit variable type."
+	(https://mypy.readthedocs.io/en/latest/type_inference_and_annotations.html)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All of 1467 [var-annotated] errors are of type "Need type annotation for ___ (hint: ___)"
+	1179 has 'hint:'
+
+-------------------------------------------------------------------------------
+
+[] 
 Example:
 Error Message:
 Reason:
 VS Code (pylint):
 Insufficiencies in Mypy OR User error?
+Note:
 
 -------------------------------------------------------------------------------
