@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+class Movement:
+    motions: list
+    def __init__(self) -> None: ...
+    def append_motion(self, motion = ...) -> None: ...
+    def get_maximum_duration(self) -> Any: ...

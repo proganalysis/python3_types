@@ -1,0 +1,53 @@
+# (generated with --quick)
+
+import scraper
+from typing import Any, Optional, Tuple, Type
+
+BadRequest: Any
+ChatMigrated: Any
+CommandHandler: Any
+ConfigObj: Any
+Filters: Any
+MessageHandler: Any
+NetworkError: Any
+Scraper: Type[scraper.Scraper]
+ScraperConfig: Type[scraper.ScraperConfig]
+TelegramError: Any
+TimedOut: Any
+Unauthorized: Any
+Updater: Any
+cache_subs: str
+glob: module
+logging: module
+ntpath: module
+os: module
+random: module
+re: module
+shelve: module
+shelve_filename_keyword: str
+telegram: Any
+
+class BirbBot:
+    birbs_subreddit: Any
+    cache_file: Any
+    conf_file: Any
+    images_folder: Any
+    reddit_config: scraper.ScraperConfig
+    tinify_key: Any
+    def __init__(self, config_file) -> None: ...
+    def add_callback(self, bot, update, args) -> None: ...
+    def birb_callback(self, bot, update) -> None: ...
+    def callback_subs(self, bot, job) -> None: ...
+    def get_image_folder(self, path) -> str: ...
+    def send_birb(self, bot, chat) -> None: ...
+    def send_photo(self, bot, chat, command) -> None: ...
+    def show_help_callback(self, bot, update) -> None: ...
+    def start_bot(self, bot_token) -> None: ...
+    def start_callback(self, bot, update) -> None: ...
+    def subscribe_callback(self, bot, update, args) -> None: ...
+    def unknown_callback(self, bot, update) -> None: ...
+    def unsubscribe_callback(self, bot, update, args) -> None: ...
+
+def get_photo(cache_file, folder) -> Optional[Tuple[Any, Any]]: ...
+def get_photos(command) -> list: ...
+def start_new_scraper(subreddit, folder, reddit_config, tinify_key) -> None: ...
