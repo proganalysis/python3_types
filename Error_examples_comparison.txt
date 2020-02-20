@@ -1,0 +1,298 @@
+4 tools:
+Mypy - static type checker (mypy --show-error-codes --namespace-packages --ignore-missing-imports FILE.py)
+VS Code with Pylint as a dafulat linter (pylint FILE.py)
+PyCharm - a python IDE
+Pytype - a static analyzer that checks and infers types (pytype -k -d import-error FILE.py)
+
+Only care about type related errors, or errors on the same line as Mypy's error.
+
+[T] = Typed error
+[N] = Not a typed error
+
+Summary		#	[T]	[N]
+Mypy 		41	37	4
+Pyline		13	6	7
+PyCharm		12	10	2
+Pytype 		18	17	1
+
+
+
+
+
+1. [valid-newtype] (polygraph-python)polygraph/polygraph/schema.py:17
+Mypy [T]: error: Argument 2 to NewType(...) must be subclassable (got "Union[Any, Any]")
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+2. [abstract] (OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83
+Mypy [T]: error: Cannot instantiate abstract class 'Logging' with abstract attributes 'error', 'message' and 'warning'
+Pylint [T]: Abstract class 'Logging' with abstract methods instantiated (abstract-class-instantiated)
+PyCharm: NONE 
+Pytype [T]: Can't instantiate Logging with abstract methods error, message, warning [not-instantiable]
+
+
+3. [exit-return] (rmvanhees)pys5p/pys5p/l1b_patch.py:64
+Mypy [T]: error: "bool" is invalid as return type for "__exit__" that always returns False
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+4. [type-arg] (marrow)package/marrow/package/disport.py:30
+Mypy [T]: error: "Sequence" expects 1 type argument, but 2 given
+Pylint [N]: R0913: Too many arguments (6/5) (too-many-arguments)
+PyCharm: NONE
+Pytype [T]: in Importer: Invalid type annotation for typing.Sequence[_T] [invalid-annotation] Expected 1 parameter(s), got 2
+
+
+5. [dict-item] (Pitt-CSC)PittAPI/PittAPI/laundry.py:71-74
+Mypy [T]: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"
+Pylint: NONE
+PyCharm: NONE
+Pytype [T]: bad option in return type [bad-return-type]; Expected: Dict[str, str]; Actually returned: Dict[str, int]
+ 
+
+6. [dict-item] (mnot)redbot/redbot/message/link_parse.py:46-50
+Mypy [T]: error: Dict entry 1 has incompatible type "str": "Tuple[str, None]"; expected "str": "Tuple[str, List[str]]"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+7. [type-var] (mesgarpour)T-CARER/Features/FeatureParserThread.py:90,94
+Mypy [T]: error: Value of type variable "_Number" of "mean" cannot be "str"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+8. [type-var] (ahawker)scratchdir/scratchdir.py:107
+Mypy [T]: error: Value of type variable "_AnyPath" of "rmtree" cannot be "Optional[str]"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+9. [str-bytes-safe] (chengsoonong)acton/acton/cli.py:53
+Mypy [N]: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior
+Pylint [N]: W1202: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+PyCharm: NONE
+Pytype: NONE
+
+
+10. [list-item] (loopspace)microbit/ziphalo/ball.py:53-54
+Mypy [T]: error: List item 0 has incompatible type "float"; expected "int"
+Pylint: NONE
+PyCharm: NONE 
+Pytype: NONE
+
+11. [list-item] (sdadas)warsaw-transport/scripts/shape_data.py:28
+Mypy [T]: error: List item 0 has incompatible type "List[float]"; expected "float"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+12. [func-returns-value] (M1ND-B3ND3R)BoopSuite/boop/__init__.py:160, 163
+Mypy [T]: error: "append" of "list" does not return a value
+Pylint [N]: W0106: Expression "[self.channels.append(x) for x in channels if x in range(12)]" is assigned to nothing (expression-not-assigned)
+PyCharm: NONE 
+Pytype: NONE
+
+
+13. [has-type] (lpfann)fri/fri/genData.py:314-316
+Mypy [T]: error: Cannot determine type of 'Y_regression'
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+14. [has-type] (ChrisTimperley)roshammer/roshammer/bag.py:149
+Mypy [T]: error: Cannot determine type of 'msg'
+Pylint [T]: E0601: Using variable 'msg' before assignment (used-before-assignment) 
+PyCharm [T]: Unresolved reference 'msg'  
+Pytype [T]: in __call__: Name 'msg' is not defined [name-error]
+
+
+15. [override] (opethe1st)SameGame/src/same/views/pygame_client.py:51,60
+Mypy: error: Signature of "draw_score_board" incompatible with supertype "GuiClient"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+16. [call-overload] (emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55
+Mypy [T]: error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"
+Pylint: None
+PyCharm [T]: Unexpected type(s): (int, str) Possible types: (int, int) (slice, Union[Iterable[int], bytes])
+Pytype [T]: in write_str: unsupported operand type(s) for item assignment: 'bytearray' and 'str' [unsupported-operands]
+
+
+17. [str-format] (dylanbstorey)angreal/setup.py:19
+Mypy [N]: error: Not all arguments converted during string formatting
+Pylint [N]: E1305: Too many arguments for format string (too-many-format-args)
+PyCharm: NONE 
+Pytype: NONE
+
+
+18. [str-format] (mittagessen)kraken/kraken/repo.py:151
+Mypy [N]: error: Cannot find replacement for positional format specifier 1
+Pylint [N]: E1306: Not enough arguments for format string (too-few-format-args)
+PyCharm [N]: Too few arguments for format string
+Pytype: NONE
+
+
+19. [call-arg] (libnano)libnano/libnano/_virtualhelix/strand.py:68
+Mypy [T]: error: Too few arguments for "Strand"
+Pylint [T]: E1120: No value for argument 'oligo' in constructor call (no-value-for-parameter).
+PyCharm [T]: Parameter 'oligo' unfilled
+Pytype [T]: in UnknownStrand: Missing parameter 'oligo' in call to function Strand.__init__ [missing-parameter]; Expected: (self, seq, oligo, uid, ctx); Actually passed: (self, seq)
+
+
+20. [operator] (abiosoft)dotfiles/i3/window.py:243
+Mypy [T]: error: Unsupported operand types for in ("str" and "bytes")
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+21. [operatpr] (ChristophGaukel)ev3-python3/ev3_sound.py:313
+Mypy [T]: error: Unsupported operand types for + ("None" and "int") 
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+22. [operator] (wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:73,74
+Mypy [T]: error: Unsupported operand types for + ("int" and "str")
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+23. [index] (Beafantles)Asurix-bot/modules/utils/utils.py:75
+Mypy [T]: error: Value of type "int" is not indexable
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+24. [index] (jotyGill)openpyn-nordvpn/openpyn/filters.py:41
+Mypy [T]: error: Value of type "float" is not indexable
+Pylint: NONE
+PyCharm [T]: Class 'float' does not define '__getitem__', so the '[]' operator cannot be used on its instances 
+Pytype [T]: in filter_by_location: unsupported operand type(s) for item retrieval: 'float' and 'int' [unsupported-operands]; No attribute '__getitem__' on float
+
+
+25. [return] (Rafiot)uwhoisd/uwhoisd/helpers.py:58
+Mypy [T]: error: Missing return statement
+Pylint [T]: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+PyCharm: NONE
+Pytype: NONE
+
+
+26. [no-redef] (rachekalmir)pyJolt/pyjolt/transforms/shiftr.py:156
+Mypy [T]: error: Name 'spec' already defined on line 143
+Pylint: NONE
+PyCharm: NONE
+Pytype [T]: line 156, in shiftr: Invalid type annotation '(Any, Any)' for data [invalid-annotation]; Not a type
+
+
+27. [valid-type] (kitchenbudapest)vr/surface.py:85, 116
+Mypy [T]: error: Invalid type comment or annotation
+Pylint: NONE
+PyCharm [T]: Unresolved reference 'KX_VertexProxy' 
+Pytype [T]: line 85, in Surface: Name 'KX_VertexProxy' is not defined [name-error]
+
+
+28. [valid-type] (juancarlospaco)anglerfish/anglerfish/walk2dict.py:22
+Mypy [T]: error: Function "collections.namedtuple" is not valid as a type
+Pylint [N]: R0914: Too many local variables (27/15) (too-many-locals)
+PyCharm: NONE 
+Pytype [T]: line 22, in <module>: Invalid type annotation '<instance of Callable>' for return [invalid-annotation]; Not a type
+
+
+29. [union-attr] (slice)dogbot/dog/guild_config.py:66
+Mypy [T]: error: Item "str" of "Union[Dict[Any, Any], str]" has no attribute "get"
+Pylint: NONE
+PyCharm: NONE
+Pytype [T]: line 66, in can_edit: No attribute 'get' on str [attribute-error]; In Optional[Union[Any, dict, str]]
+
+
+30. [return-value] (tmthyjames)SQLCell/sqlcell/sqlcell.py:107
+Mypy [T]: error: No return value expected
+Pylint: NONE
+PyCharm [T]: Expected type 'None', got 'str' instead 
+Pytype [T]: in sql: bad option in return type [bad-return-type]; Expected: None; Actually returned: str
+
+
+31. [return-value] (osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:66
+Mypy [T]: error: Incompatible return value type (got "str", expected "bool")
+Pylint: NONE
+PyCharm [T]: Expected type 'bool', got 'None' instead  
+Pytype: NONE
+
+
+32. [syntax] (manerfan)python-game-snake/src/search/tools.py:20
+Mypy [T]: error: Syntax error in type annotation
+Pylint: NONE
+PyCharm: NONE
+Pytype [T]: in <module>: Invalid type annotation '(int, int)' for cell2 [invalid-annotation]; Not a type
+
+
+33. [syntax] (samuroi)SamuROI/doc/examples/masks.py:27
+Mypy [N]: error: invalid syntax
+Pylint [N]: E0001: invalid syntax (<unknown>, line 27) (syntax-error)
+PyCharm [N]: Indent expected
+Pytype [N]: line 27: expected an indented block [python-compiler-error]
+
+
+34. [name-defined] (benmoran56)esper/examples/pythonista_ios_example.py:7
+Mypy [T]: error: Name 'SpriteNode' is not defined
+Pylint [T]: E0602: Undefined variable 'SpriteNode' (undefined-variable)
+PyCharm [T]: Unresolved reference 'SpriteNode' 
+Pytype [T]: in __init__: Name 'SpriteNode' is not defined [name-error]
+
+
+35. [arg-type] (Josca)im/im/display.py:11, 12
+Mypy [T]: error: Argument 1 to "keypad" of "_CursesWindow" has incompatible type "int"; expected "bool"
+Pylint: NONE
+PyCharm: NONE
+Pytype [T]:  in __init__: Function _CursesWindow.keypad was called with the wrong arguments [wrong-arg-types]; Expected: (self, yes: Optional[bool]); Actually passed: (self, yes: int)
+
+
+37. [arg-type] (seisatsu)Driftwood/src/widget.py:100
+Mypy [T]: error: Argument 4 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+38. [assignment] (BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36
+Mypy [T]: error: Incompatible types in assignment (expression has type "Union[List[Any], bool]", variable has type "bool")
+Pylint: NONE
+PyCharm [T]: Expected type 'Union[bytes, str, PathLike]', got 'Union[list, bool]' instead 
+Pytype [T]: in __init__: Function os.path.isfile was called with the wrong arguments [wrong-arg-types]; Expected: (path: Union[_PathLike, bytes, str]); Actually passed: (path: Union[bool, list])
+
+
+39. [attr-defined] (cernyd)gnunigma/data_handler.py:37-43
+Mypy [T]: error: "Base" has no attribute "attributes"  [attr-defined]
+Pylint [T]: E1101: Instance of 'Base' has no 'attributes' member (no-member)
+PyCharm [T]: Unresolved attribute reference 'attributes' for class 'Base'
+Pytype [T]: in __init__: No attribute 'attributes' on Base [attribute-error]
+
+
+40. [attr-defined] (alexheretic)apart-gtk/src/running_job.py:83
+Mypy [T]: error: "None" has no attribute "get"
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
+
+
+41. [var-annotated] (132nd-etcher)EMFT/emft/core/properties/watched_property.py:39
+Mypy [T]: error: Need type annotation for '_watchers' (hint: "_watchers: List[<type>] = ...")
+Pylint: NONE
+PyCharm: NONE
+Pytype: NONE
