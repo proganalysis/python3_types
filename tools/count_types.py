@@ -1,7 +1,7 @@
 import re, os, sys
 
-func_stats = {"any": 0, "bool": 0, "str": 0, "int": 0}
-assign_stats = {"any": 0, "bool": 0, "str": 0, "int": 0}
+func_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0}
+assign_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0}
 func_total = 0
 assign_total = 0
 reg_func = "-> .+:"
@@ -22,6 +22,8 @@ def count(s, assign=False, func=False):
             assign_stats['str'] += 1
         elif 'int' in s:
             assign_stats['int'] += 1
+        elif 'None' in s:
+            assign_stats['None'] += 1
         assign_total += 1
     elif func:
         if 'Any' in s:
@@ -32,6 +34,8 @@ def count(s, assign=False, func=False):
             func_stats['str'] += 1
         elif 'int' in s:
             func_stats['int'] += 1
+        elif 'None' in s:
+            func_stats['None'] += 1
         func_total += 1
 
 
