@@ -1,7 +1,19 @@
-Total functions: 2595
-Any return types: 703
-Percent: 0.27090558766859346
+Total functions: 25749
+Total functions with any return type: 7185
+Percent of functions with this return type: 27.90399627169987
+Total functions with bool return type: 801
+Percent of functions with this return type: 3.1108004194337644
+Total functions with str return type: 1837
+Percent of functions with this return type: 7.1342576410734395
+Total functions with int return type: 557
+Percent of functions with this return type: 2.1631908035263505
 
-Total assignments: 7903
-Any-typed assignments: 2873
-Percent: 0.3635328356320385
+Total assignments: 73690
+Total assignments with any type: 26287
+Percent of assignments with this type: 35.672411453385806
+Total assignments with bool type: 826
+Percent of assignments with this type: 1.120911928348487
+Total assignments with str type: 6684
+Percent of assignments with this type: 9.07043018048582
+Total assignments with int type: 2617
+Percent of assignments with this type: 3.5513638214140317
