@@ -11,7 +11,7 @@ Only care about type related errors, or errors on the same line as Mypy's error.
 
 Summary		#	[T]	[N]
 Mypy 		41	37	4
-Pyline		13	6	7
+Pylint		13	6	7
 PyCharm		12	10	2
 Pytype 		18	17	1
 
@@ -87,6 +87,7 @@ Mypy [T]: error: List item 0 has incompatible type "float"; expected "int"
 Pylint: NONE
 PyCharm: NONE 
 Pytype: NONE
+
 
 11. [list-item] (sdadas)warsaw-transport/scripts/shape_data.py:28
 Mypy [T]: error: List item 0 has incompatible type "List[float]"; expected "float"
