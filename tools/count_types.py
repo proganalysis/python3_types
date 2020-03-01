@@ -1,11 +1,12 @@
 import re, os, sys
 
-func_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0}
-assign_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0}
+func_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0, "TypeVar": 0, "Dict": 0, "List": 0, "Union": 0}
+assign_stats = {"any": 0, "bool": 0, "str": 0, "int": 0, "None": 0, "TypeVar": 0, "Dict": 0, "List": 0, "Union": 0}
 func_total = 0
 assign_total = 0
 reg_func = "-> .+:"
 reg_assign = ": .+"
+type_reg = "_T[0-9]"
 
 def count(s, assign=False, func=False):
     global func_total
@@ -24,6 +25,14 @@ def count(s, assign=False, func=False):
             assign_stats['int'] += 1
         elif 'None' in s:
             assign_stats['None'] += 1
+        elif len(re.findall(type_reg, s)) > 0:
+            assign_stats['TypeVar'] += 1
+        elif "List" in s:
+            assign_stats["List"] += 1
+        elif "Union" in s:
+            assign_stats["Union"] += 1
+        elif "Dict" in s:
+            assign_stats["Dict"] += 1
         assign_total += 1
     elif func:
         if 'Any' in s:
@@ -36,6 +45,14 @@ def count(s, assign=False, func=False):
             func_stats['int'] += 1
         elif 'None' in s:
             func_stats['None'] += 1
+        elif len(re.findall(type_reg, s)) > 0:
+            func_stats["TypeVar"] += 1
+        elif "List" in s:
+            func_stats["List"] += 1
+        elif "Union" in s:
+            func_stats["Union"] += 1
+        elif "Dict" in s:
+            func_stats["Dict"] += 1
         func_total += 1
 
 
@@ -54,7 +71,7 @@ def analyze_files(f):
                 count(x, assign=True)
 
 def main():
-    d = "../big/allrepo/stripped/" 
+    d = "../big/allrepo/original/" 
     for root, dirs, files in os.walk(d):
         for file in files:
             if file.endswith(".pyi"):
@@ -68,6 +85,7 @@ def main():
     for x in assign_stats.keys():
         print(f"Total assignments with {x} type: {assign_stats[x]}") 
         print(f"Percent of assignments with this type: {(assign_stats[x]/assign_total) * 100}")
+
 
 if __name__ == "__main__":
     main()

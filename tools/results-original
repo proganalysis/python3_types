@@ -1,0 +1,39 @@
+Total functions: 26296
+Total functions with any return type: 6451
+Percent of functions with this return type: 24.532248250684514
+Total functions with bool return type: 891
+Percent of functions with this return type: 3.3883480377243687
+Total functions with str return type: 2303
+Percent of functions with this return type: 8.757986005476118
+Total functions with int return type: 693
+Percent of functions with this return type: 2.6353818071189536
+Total functions with None return type: 11856
+Percent of functions with this return type: 45.08670520231214
+Total functions with TypeVar return type: 227
+Percent of functions with this return type: 0.8632491633708548
+Total functions with Dict return type: 30
+Percent of functions with this return type: 0.11408579251597202
+Total functions with List return type: 153
+Percent of functions with this return type: 0.5818375418314573
+Total functions with Union return type: 25
+Percent of functions with this return type: 0.09507149376331002
+
+Total assignments: 75054
+Total assignments with any type: 26145
+Percent of assignments with this type: 34.834918858421936
+Total assignments with bool type: 1378
+Percent of assignments with this type: 1.8360114051216458
+Total assignments with str type: 9178
+Percent of assignments with this type: 12.22852879260266
+Total assignments with int type: 3321
+Percent of assignments with this type: 4.424814133823647
+Total assignments with None type: 853
+Percent of assignments with this type: 1.1365150425027313
+Total assignments with TypeVar type: 232
+Percent of assignments with this type: 0.30911077357635836
+Total assignments with Dict type: 160
+Percent of assignments with this type: 0.21317984384576438
+Total assignments with List type: 403
+Percent of assignments with this type: 0.5369467316865191
+Total assignments with Union type: 96
+Percent of assignments with this type: 0.12790790630745863

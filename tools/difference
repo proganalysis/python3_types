@@ -1,0 +1,18 @@
+Functions
+---------
+Any: 3%
+bool: 0.2%
+str: 1%
+None: 0.5%
+TypeVar: 0.5%
+Dict/Union/List: <0.05%
+
+
+Assignments: 
+Any: 1%
+bool: 0.6%
+str: 3%
+None: 0.5%
+TypeVar: 0.1%
+Dict/Union/List: <0.05%
+
