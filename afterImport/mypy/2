@@ -1,0 +1,866 @@
+[RRepo](ltworf)relational
+(ltworf)relational/relational/optimizer.py:27: error: Module 'relational' has no attribute 'optimizations'  [attr-defined]
+(ltworf)relational/relational/optimizer.py:87: error: Item "None" of "Optional[List[Any]]" has no attribute "append"  [union-attr]
+(ltworf)relational/relational/optimizer.py:93: error: Item "None" of "Optional[List[Any]]" has no attribute "append"  [union-attr]
+(ltworf)relational/relational_readline/linegui.py:222: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+
+[RRepo](GoogleCloudPlatform)serverless-store-demo
+(GoogleCloudPlatform)serverless-store-demo/app/helpers/carts/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/helpers/orders/helpers.py')  [misc]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](futuresimple)triggear
+(futuresimple)triggear/tests/async_mockito.py:15: error: Function "builtins.any" is not valid as a type  [valid-type]
+(futuresimple)triggear/tests/async_mockito.py:15: note: Perhaps you need "Callable[...]" or a callback protocol?
+(futuresimple)triggear/tests/async_mockito.py:17: error: Need type annotation for 'done' (hint: "done: List[<type>] = ...")  [var-annotated]
+(futuresimple)triggear/app/clients/github_client.py:17: error: Attribute '__async_github' already defined on line 13  [no-redef]
+(futuresimple)triggear/app/clients/async_client.py:44: error: Incompatible types in assignment (expression has type "None", variable has type "ClientSession")  [assignment]
+Found 4 errors in 3 files (checked 72 source files)
+
+[RRepo](alexram1313)doorsms
+Success: no issues found in 1 source file
+
+[RRepo](lucventurini)mikado
+(lucventurini)mikado/Mikado/subprograms/compare.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 74 source files)
+
+[RRepo](IDSIA)sacred
+(IDSIA)sacred/examples/ingredient.py: error: Duplicate module named 'ingredient' (also at '/home/bew/archive/typed_project/(IDSIA)sacred/sacred/ingredient.py')  [misc]
+Found 1 error in 1 file (checked 86 source files)
+
+[RRepo](angr)cle
+(angr)cle/cle/backends/pe/pe.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 67 source files)
+
+[RRepo](akashin)HSE_AI_Labs
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/ue_site.py:16: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/ue_site.py:17: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(akashin)HSE_AI_Labs/Lab_5/Content/Scripts/play.py:10: error: Name 'pickle' already defined (possibly by an import)  [no-redef]
+(akashin)HSE_AI_Labs/Lab_5/Content/Scripts/play.py:84: error: Incompatible types in assignment (expression has type "List[str]", target has type "Dict[str, float]")  [assignment]
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/controller.py:55: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/controller.py:56: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/controller.py:58: error: Not all arguments converted during string formatting  [str-format]
+(akashin)HSE_AI_Labs/Lab_4/Content/Scripts/controller.py:123: error: "PythonAIController" has no attribute "uobject"  [attr-defined]
+Found 8 errors in 3 files (checked 8 source files)
+
+[RRepo](GoogleCloudPlatform)professional-services
+(GoogleCloudPlatform)professional-services/tools/site-verification-group-sync/sync-owners.py:86: error: Missing parentheses in call to 'print'. Did you mean print(result)?  [syntax]
+Found 1 error in 1 file (checked 189 source files)
+
+[RRepo](trezor)python-trezor
+(trezor)python-trezor/trezorlib/nem.py:19: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 135 source files)
+
+[RRepo](DLR-SC)F2x
+(DLR-SC)F2x/src/F2x/parser/plyplus/source.py: error: Duplicate module named 'source' (also at '/home/bew/archive/typed_project/(DLR-SC)F2x/src/F2x/parser/source.py')  [misc]
+(DLR-SC)F2x/src/F2x/parser/plyplus/source.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 27 source files)
+
+[RRepo](ironmussa)Optimus
+(ironmussa)Optimus/optimus/ml/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(ironmussa)Optimus/optimus/dl/models.py')  [misc]
+Found 1 error in 1 file (checked 57 source files)
+
+[RRepo](shimpe)expremigen
+Success: no issues found in 51 source files
+
+[RRepo](balabit)typesafety
+(balabit)typesafety/typesafety/tests/test_autodecorator.py:39: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](liiight)notifiers
+(liiight)notifiers/notifiers/utils/schema/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(liiight)notifiers/notifiers/utils/helpers.py')  [misc]
+(liiight)notifiers/notifiers/utils/schema/helpers.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 49 source files)
+
+[RRepo](jamescooke)factory_djoy
+(jamescooke)factory_djoy/factory_djoy/factories.py:112: error: Need type annotation for 'used' (hint: "used: Set[<type>] = ...")  [var-annotated]
+
+[RRepo](fclesio)learning-space
+(fclesio)learning-space/Python/machine-learning/apriori.py:120: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](tebeka)pythonwise
+(tebeka)pythonwise/xmlrpc_file_server.py:49: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 164 source files)
+
+[RRepo](opensistemas-hub)osbrain
+(opensistemas-hub)osbrain/osbrain/proxy.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 42 source files)
+
+[RRepo](adsharma)flattools
+(adsharma)flattools/fbs/parser/parsetab.py:13: error: Need type annotation for '_lr_action' (hint: "_lr_action: Dict[<type>, <type>] = ...")  [var-annotated]
+(adsharma)flattools/fbs/parser/parsetab.py:22: error: Need type annotation for '_lr_goto' (hint: "_lr_goto: Dict[<type>, <type>] = ...")  [var-annotated]
+(adsharma)flattools/fbs/fbs.py:179: error: Unsupported dynamic base class "with_metaclass"  [misc]
+(adsharma)flattools/fbs/fbs.py:181: error: Incompatible types in assignment (expression has type "None", base class "object" defined the type as "Callable[[object], int]")  [assignment]
+(adsharma)flattools/flattools/pp.py:59: error: Need type annotation for 'pretty_printers_dict' (hint: "pretty_printers_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(adsharma)flattools/bin/flatc.py:95: error: Too few arguments for "get_type"  [call-arg]
+Found 6 errors in 4 files (checked 10 source files)
+
+[RRepo](DongjunLee)kino-bot
+(DongjunLee)kino-bot/kino/utils/data_loader.py: error: Duplicate module named 'data_loader' (also at '/home/bew/archive/typed_project/(DongjunLee)kino-bot/kino/skills/samhangsi/data_loader.py')  [misc]
+(DongjunLee)kino-bot/kino/utils/data_loader.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 60 source files)
+
+[RRepo](Rastii)pydev_docker
+Success: no issues found in 7 source files
+
+[RRepo](universal-ctags)ctags
+(universal-ctags)ctags/Units/parser-python.r/python-local-variables.d/input.py: error: Duplicate module named 'input' (also at '/home/bew/archive/typed_project/(universal-ctags)ctags/Units/fq-xref.d/input.py')  [misc]
+(universal-ctags)ctags/Units/parser-python.r/python-local-variables.d/input.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 32 source files)
+
+[RRepo](tensorflow)deepmath
+(tensorflow)deepmath/deepmath/deephol/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(tensorflow)deepmath/deepmath/holstep_baselines/main.py')  [misc]
+Found 1 error in 1 file (checked 113 source files)
+
+[RRepo](nbob)flask-multi-session
+Success: no issues found in 3 source files
+
+[RRepo](slightlynybbled)tk_tools
+(slightlynybbled)tk_tools/examples/label_grid.py:26: error: Cannot determine type of 'label_grid'  [has-type]
+(slightlynybbled)tk_tools/examples/entry_grid.py:36: error: Cannot determine type of 'entry_grid'  [has-type]
+(slightlynybbled)tk_tools/tk_tools/widgets.py:18: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(slightlynybbled)tk_tools/tk_tools/widgets.py:18: note: Perhaps you need "Callable[...]" or a callback protocol?
+(slightlynybbled)tk_tools/tk_tools/widgets.py:73: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(slightlynybbled)tk_tools/tk_tools/widgets.py:73: note: Perhaps you need "Callable[...]" or a callback protocol?
+(slightlynybbled)tk_tools/tk_tools/widgets.py:112: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(slightlynybbled)tk_tools/tk_tools/widgets.py:112: note: Perhaps you need "Callable[...]" or a callback protocol?
+(slightlynybbled)tk_tools/tk_tools/widgets.py:166: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(slightlynybbled)tk_tools/tk_tools/widgets.py:166: note: Perhaps you need "Callable[...]" or a callback protocol?
+Found 6 errors in 3 files (checked 27 source files)
+
+[RRepo](python-cmd2)cmd2
+(python-cmd2)cmd2/cmd2/history.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 40 source files)
+
+[RRepo](vrcmarcos)django-http-model
+(vrcmarcos)django-http-model/django_http_model/models/__init__.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(vrcmarcos)django-http-model/test_app/models.py')  [misc]
+(vrcmarcos)django-http-model/django_http_model/models/__init__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 9 source files)
+
+[RRepo](freeipa)freeipa-pr-ci
+(freeipa)freeipa-pr-ci/tasks/common.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](szastupov)aiotg
+Success: no issues found in 12 source files
+
+[RRepo](pecorarista)python-project-template
+Success: no issues found in 7 source files
+
+[RRepo](neurotechuoft)MindType
+(neurotechuoft)MindType/Code/src/deprecated/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(neurotechuoft)MindType/Code/src/main.py')  [misc]
+(neurotechuoft)MindType/Code/src/deprecated/main.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 229 source files)
+
+[RRepo](tonbut)RPiSpectrometer
+(tonbut)RPiSpectrometer/spectrometer.py:71: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(tonbut)RPiSpectrometer/spectrometer.py:151: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:156: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:157: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:180: error: Value of type "object" is not indexable  [index]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](aequitas)python-rflink
+(aequitas)python-rflink/rflink/__main__.py: error: Duplicate module named '__main__' (also at '/home/bew/archive/typed_project/(aequitas)python-rflink/rflinkproxy/__main__.py')  [misc]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](eliostvs)tomate-gtk
+(eliostvs)tomate-gtk/test/test_task_button.py:9: error: Module 'tomate_gtk.widgets' has no attribute 'TaskButton'  [attr-defined]
+(eliostvs)tomate-gtk/tomate_gtk/widgets/task_button.py:3: error: Module 'locale' has no attribute 'gettext'  [attr-defined]
+(eliostvs)tomate-gtk/tomate_gtk/widgets/task_button.py:14: error: Module has no attribute "textdomain"  [attr-defined]
+(eliostvs)tomate-gtk/tomate_gtk/dialogs/preference.py:3: error: Module 'locale' has no attribute 'gettext'  [attr-defined]
+(eliostvs)tomate-gtk/tomate_gtk/dialogs/preference.py:9: error: Module has no attribute "textdomain"  [attr-defined]
+(eliostvs)tomate-gtk/tomate_gtk/widgets/menu.py:2: error: Module 'locale' has no attribute 'gettext'  [attr-defined]
+
+[RRepo](Bisso1998)StairCase-Sequence
+(Bisso1998)StairCase-Sequence/codes_for_the_sequence/Python3/staircase_number_generator.py:18: error: Need type annotation for '__generated_numbers' (hint: "__generated_numbers: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](rliang)nvim-pygtk3
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:187: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:325: error: "object" has no attribute "vars"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:325: error: "object" has no attribute "channel_id"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:326: error: "object" has no attribute "subscribe"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:327: error: "object" has no attribute "options"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:328: error: "object" has no attribute "options"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:329: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:329: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:331: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:331: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:334: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:334: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:337: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:337: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:340: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:340: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:343: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:343: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:345: error: "object" has no attribute "run_loop"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:361: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:362: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:363: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:364: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:365: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:366: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:367: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:368: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:369: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:370: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:373: error: Missing return statement  [return]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:387: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:388: error: Value of type "object" is not indexable  [index]
+Found 32 errors in 1 file (checked 3 source files)
+
+[RRepo](blueman-project)blueman
+(blueman-project)blueman/blueman/bluez/obex/Manager.py: error: Duplicate module named 'Manager' (also at '/home/bew/archive/typed_project/(blueman-project)blueman/blueman/bluez/Manager.py')  [misc]
+(blueman-project)blueman/blueman/bluez/obex/Manager.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 94 source files)
+
+[RRepo](infilect)ml-course1
+(infilect)ml-course1/week2/autoencoder/train.py:28: error: Missing parentheses in call to 'print'. Did you mean print("Dataset size:", dataset_size)?  [syntax]
+Found 1 error in 1 file (checked 58 source files)
+
+[RRepo](zyga)snapd
+(zyga)snapd/tests/lib/snaps/test-snapd-location-control-provider/provider.py: error: Duplicate module named 'provider' (also at '/home/bew/archive/typed_project/(zyga)snapd/tests/lib/snaps/test-snapd-network-status-provider/provider.py')  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](joshbrooks)libuntl
+(joshbrooks)libuntl/libuntl/library/serializers.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](comtihon)coon
+(comtihon)coon/enot/compiler/rebar.py: error: Duplicate module named 'rebar' (also at '/home/bew/archive/typed_project/(comtihon)coon/enot/tool/rebar.py')  [misc]
+Found 1 error in 1 file (checked 60 source files)
+
+[RRepo](asphalt-framework)asphalt-sqlalchemy
+(asphalt-framework)asphalt-sqlalchemy/tests/test_testing_recipe.py:20: error: Variable "test_testing_recipe.Base" is not valid as a type  [valid-type]
+(asphalt-framework)asphalt-sqlalchemy/tests/test_testing_recipe.py:20: error: Invalid base class "Base"  [misc]
+(asphalt-framework)asphalt-sqlalchemy/examples/csvimport_orm.py:21: error: Variable "csvimport_orm.Base" is not valid as a type  [valid-type]
+(asphalt-framework)asphalt-sqlalchemy/examples/csvimport_orm.py:21: error: Invalid base class "Base"  [misc]
+Found 4 errors in 2 files (checked 8 source files)
+
+[RRepo](yuuki0xff)conoha-cli
+(yuuki0xff)conoha-cli/conoha/compute.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](IntelPNI)brainiak
+(IntelPNI)brainiak/setup.py:81: error: Unsupported right operand type for in ("Union[int, str, None]")  [operator]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](kiwicom)iwant-bot
+(kiwicom)iwant-bot/src/iwant_bot/request_acquisition.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](kkamkou)gitmostwanted.com
+(kkamkou)gitmostwanted.com/gitmostwanted/lib/bigquery/result.py:11: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(kkamkou)gitmostwanted.com/gitmostwanted/lib/bigquery/result.py:12: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(kkamkou)gitmostwanted.com/gitmostwanted/services/celery.py:1: error: Module 'celery' has no attribute 'Celery'; maybe "TheCelery"?  [attr-defined]
+(kkamkou)gitmostwanted.com/gitmostwanted/services/celery.py:1: error: Module 'celery' has no attribute 'Task'  [attr-defined]
+(kkamkou)gitmostwanted.com/migration/env.py:24: error: Name 'db' is not defined  [name-defined]
+(kkamkou)gitmostwanted.com/scripts/repository_mean_reset.py:56: error: Need type annotation for 'lst' (hint: "lst: Dict[<type>, <type>] = ...")  [var-annotated]
+(kkamkou)gitmostwanted.com/gitmostwanted/tasks/repo_status.py:72: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "List[Any]")  [assignment]
+Found 7 errors in 5 files (checked 67 source files)
+
+[RRepo](ztkIsAlreadyTaken)rain
+(ztkIsAlreadyTaken)rain/rain/redis/client.py: error: Duplicate module named 'client' (also at '/home/bew/archive/typed_project/(ztkIsAlreadyTaken)rain/rain/mysql/client.py')  [misc]
+Found 1 error in 1 file (checked 55 source files)
+
+[RRepo](wraeth)kcheck
+(wraeth)kcheck/kcheck/pm_portage.py:43: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:55: error: Need type annotation for 'symbols' (hint: "symbols: List[<type>] = ...")  [var-annotated]
+(wraeth)kcheck/kcheck/pm_portage.py:60: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:91: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:91: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:100: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:100: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:118: error: Too few arguments for "set" of "RawConfigParser"  [call-arg]
+(wraeth)kcheck/kcheck/pm_portage.py:120: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:120: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:120: error: Name 'yellow' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:126: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:126: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:126: error: Name 'yellow' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:126: error: Name 'green' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:134: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/pm_portage.py:134: error: Name 'green' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:27: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:37: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:51: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:51: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:54: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:54: error: Name 'yellow' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:61: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:66: error: Name 'yellow' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:66: error: Name 'red' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:66: error: Name 'green' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:69: error: Name 'green' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:75: error: Name 'bold' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:99: error: "DuplicateOptionError" has no attribute "message"  [attr-defined]
+(wraeth)kcheck/kcheck/checker.py:116: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(wraeth)kcheck/kcheck/checker.py:131: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(wraeth)kcheck/kcheck/checker.py:137: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/checker.py:157: error: Incompatible types in assignment (expression has type "Callable[[Union[str, bytes, int, _PathLike[Any]], str, int, Optional[str], Optional[str], Optional[str], bool, Optional[Callable[[str, int], int]]], IO[Any]]", variable has type "Callable[[Any, str, int, Optional[str], Optional[str], Optional[str]], IO[Any]]")  [assignment]
+(wraeth)kcheck/kcheck/checker.py:197: error: Name 'verbose_print' is not defined  [name-defined]
+(wraeth)kcheck/kcheck/command.py:8: error: Missing return statement  [return]
+(wraeth)kcheck/kcheck/command.py:65: error: Incompatible types in assignment (expression has type "NullHandler", variable has type "FileHandler")  [assignment]
+(wraeth)kcheck/kcheck/command.py:72: error: "debug" of "Logger" does not return a value  [func-returns-value]
+(wraeth)kcheck/kcheck/command.py:94: error: "print" does not return a value  [func-returns-value]
+(wraeth)kcheck/kcheck/command.py:107: error: Module has no attribute "generate_config"  [attr-defined]
+Found 40 errors in 3 files (checked 4 source files)
+
+[RRepo](echolox)smartbcr2k
+(echolox)smartbcr2k/gui/gui.py:18: error: Module 'devices' has no attribute 'BCR2k'  [attr-defined]
+(echolox)smartbcr2k/gui/gui.py:18: error: Module 'devices' has no attribute 'MidiLoop'  [attr-defined]
+(echolox)smartbcr2k/smci/clock.py:90: error: Decorated property not supported  [misc]
+(echolox)smartbcr2k/modifiers/basic.py:146: error: Incompatible types in assignment (expression has type Tuple[Any, Any, ... <9 more items>], base class "Modifier" defined the type as Tuple[Any])  [assignment]
+(echolox)smartbcr2k/modifiers/stepsequencer.py:10: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", base class "Modifier" defined the type as "Tuple[Any]")  [assignment]
+(echolox)smartbcr2k/targets/flex.py:85: error: Read-only property cannot override read-write property  [misc]
+Found 6 errors in 5 files (checked 24 source files)
+
+[RRepo](NanotrasenInc)YASSS13RTWCF
+Success: no issues found in 1 source file
+
+[RRepo](arthurdk)tinder-telegram-bot
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:30: error: Name 'Boolean' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:33: error: Name 'Boolean' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:35: error: Name 'String' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:39: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:41: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:43: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:45: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:46: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:47: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:52: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:57: error: Name 'Boolean' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:58: error: Name 'Range' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/admin.py:60: error: Name 'String' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/model.py:16: error: Need type annotation for 'current_votes' (hint: "current_votes: Dict[<type>, <type>] = ...")  [var-annotated]
+(arthurdk)tinder-telegram-bot/bot_app/model.py:17: error: Need type annotation for 'users' (hint: "users: List[<type>] = ...")  [var-annotated]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:16: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:25: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:30: error: Name 'send_custom_message' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:34: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:45: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:64: error: Name 'send_custom_message' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:84: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:92: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:96: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:106: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:110: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:156: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:164: error: Name 'send_error' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:169: error: Name 'send_custom_message' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:180: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:190: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:195: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:200: error: Name 'send_help' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:215: error: Name 'send_custom_message' is not defined  [name-defined]
+(arthurdk)tinder-telegram-bot/bot_app/chat.py:243: error: Name 'send_error' is not defined  [name-defined]
+Found 35 errors in 3 files (checked 10 source files)
+
+[RRepo](arkharin)OpenCool
+(arkharin)OpenCool/scr/logic/components/mixer_flow/theoretical.py: error: Duplicate module named 'theoretical' (also at '/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/components/expansion_valve/theoretical.py')  [misc]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](stemid)taiga-contrib-ad-auth
+(stemid)taiga-contrib-ad-auth/taiga_contrib_ad_auth/apps.py:24: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](bijij)mp3bot
+(bijij)mp3bot/bot/config.py:15: error: "Node" has no attribute "id"  [attr-defined]
+(bijij)mp3bot/bot/cogs/admin.py:22: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(bijij)mp3bot/bot/cogs/admin.py:39: error: Incompatible default for argument "code" (default has type "List[<nothing>]", argument has type "CodeConverter")  [assignment]
+Found 3 errors in 2 files (checked 11 source files)
+
+[RRepo](n-kats)arxiv2vec
+(n-kats)arxiv2vec/stabs/gensim/utils/__init__.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(n-kats)arxiv2vec/dataset/utils.py')  [misc]
+(n-kats)arxiv2vec/stabs/gensim/utils/__init__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 16 source files)
+
+[RRepo](tensorflow)tfx
+(tensorflow)tfx/tfx/extensions/google_cloud_ai_platform/pusher/executor_test.py: error: Duplicate module named 'executor_test' (also at '/home/bew/archive/typed_project/(tensorflow)tfx/tfx/extensions/google_cloud_ai_platform/trainer/executor_test.py')  [misc]
+Found 1 error in 1 file (checked 197 source files)
+
+[RRepo](avatao-content)challenge-toolbox
+(avatao-content)challenge-toolbox/templates/csharp/controller/opt/server.py: error: Duplicate module named 'server' (also at '/home/bew/archive/typed_project/(avatao-content)challenge-toolbox/templates/ssh/controller/opt/server.py')  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](Maillol)cricri
+(Maillol)cricri/cricri/inet/server.py:78: error: syntax error in type comment  [syntax]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](spritzle)spritzle
+(spritzle)spritzle/spritzle/daemon/resource/core.py: error: Duplicate module named 'core' (also at '/home/bew/archive/typed_project/(spritzle)spritzle/spritzle/daemon/core.py')  [misc]
+(spritzle)spritzle/spritzle/daemon/resource/core.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 35 source files)
+
+[RRepo](zancas)containenv
+(zancas)containenv/containment/types/environment.py:9: error: syntax error in type comment  [syntax]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](opethe1st)SameGame
+(opethe1st)SameGame/src/same/views/pygame_client.py:19: error: Name 'ColourScheme' is not defined  [name-defined]
+(opethe1st)SameGame/src/same/views/pygame_client.py:31: error: Name 'Ball' is not defined  [name-defined]
+(opethe1st)SameGame/src/same/views/pygame_client.py:31: error: Name 'Box' is not defined  [name-defined]
+(opethe1st)SameGame/src/same/views/pygame_client.py:51: error: Signature of "draw_score_board" incompatible with supertype "GuiClient"  [override]
+(opethe1st)SameGame/src/same/views/pygame_client.py:60: error: Signature of "game_over" incompatible with supertype "GuiClient"  [override]
+
+[RRepo](jwill89)clifford-discord-bot
+(jwill89)clifford-discord-bot/source/general.py:246: error: Not all arguments converted during string formatting  [str-format]
+(jwill89)clifford-discord-bot/source/helpers.py:24: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/helpers.py:24: error: Invalid index type "int" for "Union[Tuple[Any, ...], Dict[str, Any], None]"; expected type "str"  [index]
+(jwill89)clifford-discord-bot/source/helpers.py:40: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/helpers.py:40: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/helpers.py:40: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/helpers.py:40: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/helpers.py:40: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/helpers.py:58: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/helpers.py:58: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/helpers.py:58: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/helpers.py:58: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/helpers.py:58: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/helpers.py:72: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/helpers.py:72: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/helpers.py:72: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/helpers.py:72: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/helpers.py:72: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/scales.py:18: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/scales.py:18: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/scales.py:18: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/scales.py:18: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/scales.py:18: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/scales.py:45: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/scales.py:45: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/scales.py:45: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/scales.py:45: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/scales.py:45: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/scales.py:46: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/scales.py:46: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/scales.py:46: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/scales.py:46: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/scales.py:46: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/roster.py:42: error: Item "None" of "Optional[Tuple[Union[Tuple[Any, ...], Dict[str, Any]], ...]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(jwill89)clifford-discord-bot/source/roster.py:43: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/roster.py:43: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/roster.py:43: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/roster.py:43: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/roster.py:44: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/roster.py:44: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/roster.py:44: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/roster.py:44: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/events.py:97: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/events.py:97: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/events.py:97: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/events.py:97: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/events.py:97: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/events.py:102: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/events.py:102: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/events.py:102: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/events.py:102: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/events.py:102: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/events.py:135: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(jwill89)clifford-discord-bot/source/events.py:135: note: Possible overload variants:
+(jwill89)clifford-discord-bot/source/events.py:135: note:     def __getitem__(self, int) -> Any
+(jwill89)clifford-discord-bot/source/events.py:135: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(jwill89)clifford-discord-bot/source/events.py:135: error: Value of type "Union[Tuple[Any, ...], Dict[str, Any], None]" is not indexable  [index]
+(jwill89)clifford-discord-bot/source/music.py:150: error: Item "None" of "Optional[Any]" has no attribute "create_ytdl_player"  [union-attr]
+Found 25 errors in 6 files (checked 10 source files)
+
+[RRepo](xpac1985)pyASA
+(xpac1985)pyASA/pyASA/rulelogging.py:154: error: Argument 1 to "RuleLogging" has incompatible type "int"; expected "LogLevel"  [arg-type]
+(xpac1985)pyASA/pyASA/rulelogging.py:154: error: Argument 2 to "RuleLogging" has incompatible type "LogLevel"; expected "int"  [arg-type]
+(xpac1985)pyASA/pyASA/address.py:35: error: Argument 1 of "from_dict" is incompatible with supertype "BaseAddress"; supertype defines the argument type as "Dict[str, Union[str, Dict[Any, Any]]]"  [override]
+(xpac1985)pyASA/pyASA/address.py:106: error: Missing return statement  [return]
+(xpac1985)pyASA/pyASA/aliases.py:12: error: Need type annotation for 'by_alias' (hint: "by_alias: Dict[<type>, <type>] = ...")  [var-annotated]
+(xpac1985)pyASA/pyASA/aliases.py:12: error: Need type annotation for 'by_number' (hint: "by_number: Dict[<type>, <type>] = ...")  [var-annotated]
+(xpac1985)pyASA/pyASA/aliases.py:55: error: Need type annotation for 'aliases_inv' (hint: "aliases_inv: Dict[<type>, <type>] = ...")  [var-annotated]
+(xpac1985)pyASA/pyASA/aliases.py:61: error: Incompatible return value type (got "Tuple[Dict[str, Dict[str, int]], Dict[Any, Any]]", expected "Tuple[Dict[str, int], Dict[int, str]]")  [return-value]
+(xpac1985)pyASA/pyASA/acl.py:143: error: Need type annotation for 'rules' (hint: "rules: List[<type>] = ...")  [var-annotated]
+(xpac1985)pyASA/pyASA/acl.py:252: error: Need type annotation for 'matches' (hint: "matches: Dict[<type>, <type>] = ...")  [var-annotated]
+(xpac1985)pyASA/pyASA/caller.py:89: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(xpac1985)pyASA/pyASA/caller.py:124: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(xpac1985)pyASA/pyASA/caller.py:138: error: Incompatible types in assignment (expression has type "str", variable has type "Union[Dict[Any, Any], List[Any], None]")  [assignment]
+(xpac1985)pyASA/pyASA/caller.py:140: error: Incompatible types in assignment (expression has type "str", variable has type "Union[Dict[Any, Any], List[Any], None]")  [assignment]
+(xpac1985)pyASA/pyASA/caller.py:158: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(xpac1985)pyASA/pyASA/asa.py:272: error: Syntax error in type annotation  [syntax]
+(xpac1985)pyASA/pyASA/asa.py:272: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 16 errors in 6 files (checked 11 source files)
+
+[RRepo](kensk8er)chicksexer
+(kensk8er)chicksexer/preprocessor/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(kensk8er)chicksexer/chicksexer/util.py')  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](fluentpython)example-code
+(fluentpython)example-code/attic/concurrency/spinner_asyncio.py: error: Duplicate module named 'spinner_asyncio' (also at '/home/bew/archive/typed_project/(fluentpython)example-code/18-asyncio/spinner_asyncio.py')  [misc]
+(fluentpython)example-code/attic/concurrency/spinner_asyncio.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 278 source files)
+
+[RRepo](mathLab)RBniCS
+(mathLab)RBniCS/tutorials/09_advection_dominated/data/generate_mesh.py: error: Duplicate module named 'generate_mesh' (also at '/home/bew/archive/typed_project/(mathLab)RBniCS/tutorials/14_stokes_optimal_control/data/generate_mesh.py')  [misc]
+Found 1 error in 1 file (checked 631 source files)
+
+[RRepo](couchbase)couchbase-cli
+(couchbase)couchbase-cli/pbar.py:11: error: Module has no attribute "windll"  [attr-defined]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](yeonghoey)yeonghoey
+(yeonghoey)yeonghoey/content/statistics/with-mercy.py:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](5agado)data-science-learning
+(5agado)data-science-learning/graphics/morphogenesis/Morphogenesis.py:199: error: "None" has no attribute "intersection"  [attr-defined]
+(5agado)data-science-learning/graphics/morphogenesis/Morphogenesis.py:201: error: "None" has no attribute "intersection"  [attr-defined]
+(5agado)data-science-learning/graphics/sierpinski.py:34: error: Need type annotation for 'verts' (hint: "verts: List[<type>] = ...")  [var-annotated]
+(5agado)data-science-learning/graphics/sierpinski.py:35: error: Need type annotation for 'edges' (hint: "edges: List[<type>] = ...")  [var-annotated]
+(5agado)data-science-learning/graphics/sierpinski.py:36: error: Need type annotation for 'faces' (hint: "faces: List[<type>] = ...")  [var-annotated]
+(5agado)data-science-learning/graphics/sierpinski.py:86: error: Missing positional argument "name" in call to "Object"  [call-arg]
+(5agado)data-science-learning/graphics/sierpinski.py:91: error: Need type annotation for 'new_sub_objs' (hint: "new_sub_objs: List[<type>] = ...")  [var-annotated]
+(5agado)data-science-learning/graphics/sierpinski.py:119: error: Incompatible types in assignment (expression has type "float", base class "Object" defined the type as "None")  [assignment]
+(5agado)data-science-learning/graphics/sierpinski.py:168: error: Cannot determine type of 'sierpinski_scale'  [has-type]
+(5agado)data-science-learning/graphics/sierpinski.py:178: error: Incompatible types in assignment (expression has type "float", base class "Object" defined the type as "None")  [assignment]
+(5agado)data-science-learning/graphics/sierpinski.py:200: error: Cannot determine type of 'sierpinski_scale'  [has-type]
+(5agado)data-science-learning/graphics/sierpinski.py:227: error: Cannot determine type of 'sierpinski_scale'  [has-type]
+(5agado)data-science-learning/ds_utils/image_processing.py:10: error: Need type annotation for 'imgs_paths' (hint: "imgs_paths: List[<type>] = ...")  [var-annotated]
+(5agado)data-science-learning/ds_utils/image_processing.py:149: error: Name 'crop' already defined on line 130  [no-redef]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:27: error: Name 'init_grease_pencil' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:49: error: Name 'draw_circle' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:50: error: Name 'rotate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:51: error: Name 'translate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:66: error: Name 'draw_square' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:67: error: Name 'draw_cube' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:69: error: Name 'rotate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:79: error: Name 'draw_circle' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:81: error: Name 'rotate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:82: error: Name 'translate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:94: error: Name 'init_grease_pencil' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:118: error: Name 'pi' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:124: error: Name 'draw_circle' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:126: error: Name 'pi' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:128: error: Name 'rotate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py:129: error: Name 'translate_stroke' is not defined  [name-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:21: error: Name 'Flock' already defined (by an import)  [no-redef]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:22: error: Name 'Spirograph' already defined (by an import)  [no-redef]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:29: error: Module has no attribute "NB_DIMENSIONS"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:30: error: Module has no attribute "VELOCITY_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:32: error: Module has no attribute "COHESION_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:33: error: Module has no attribute "ALIGNMENT_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:34: error: Module has no attribute "SEPARATION_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:35: error: Module has no attribute "ATTRACTOR_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:36: error: Module has no attribute "VELOCITY_FACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:38: error: Module has no attribute "COHESION"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:39: error: Module has no attribute "ALIGNMENT"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:40: error: Module has no attribute "ATTRACTOR"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:41: error: Module has no attribute "SEPARATION"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:282: error: Module not callable  [operator]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:335: error: Module "agents.Flock" is not valid as a type  [valid-type]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:341: error: Flock? has no attribute "update"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:342: error: Flock? has no attribute "attractor_pos"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:342: error: Flock? has no attribute "attractor_obj"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:343: error: Flock? has no attribute "units"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:357: error: Module "agents.Flock" is not valid as a type  [valid-type]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:357: error: Module "spirograph.Spirograph" is not valid as a type  [valid-type]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:360: error: Flock? has no attribute "units"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:368: error: Flock? has no attribute "update"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:369: error: Spirograph? has no attribute "update"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:372: error: Flock? has no attribute "attractor_obj"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:373: error: Spirograph? has no attribute "get_hypotrochoid_loc"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:375: error: Flock? has no attribute "attractor_pos"  [attr-defined]
+(5agado)data-science-learning/graphics/agents/flock_blender.py:377: error: Flock? has no attribute "units"  [attr-defined]
+(5agado)data-science-learning/graphics/morphogenesis/morphogenesis_blender.py:17: error: Name 'Morphogenesis' already defined (by an import)  [no-redef]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:20: error: Name 'Spirograph' already defined (by an import)  [no-redef]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:24: error: Module "Spirograph" is not valid as a type  [valid-type]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:26: error: Spirograph? has no attribute "R"  [attr-defined]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:27: error: Spirograph? has no attribute "origin"  [attr-defined]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:28: error: Spirograph? has no attribute "r"  [attr-defined]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:29: error: Spirograph? has no attribute "get_inner_circle_center"  [attr-defined]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:34: error: Spirograph? has no attribute "d"  [attr-defined]
+(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py:77: error: Module not callable  [operator]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:13: error: Name 'LSystem' already defined (by an import)  [no-redef]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:112: error: Module "LSystem" is not valid as a type  [valid-type]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:116: error: LSystem? has no attribute "render_config"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:117: error: LSystem? has no attribute "axiom"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:118: error: LSystem? has no attribute "rules"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:123: error: LSystem? has no attribute "rewrite"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:124: error: LSystem? has no attribute "current_state"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:126: error: LSystem? has no attribute "azimuth_add"  [attr-defined]
+(5agado)data-science-learning/graphics/l_systems/l_system_blender.py:126: error: LSystem? has no attribute "inclination_add"  [attr-defined]
+(5agado)data-science-learning/cellular automata/automata_blender.py:145: error: Invalid type: try using Literal[10] instead?  [valid-type]
+(5agado)data-science-learning/cellular automata/automata_blender.py:191: error: Invalid type: try using Literal[10] instead?  [valid-type]
+(5agado)data-science-learning/cellular automata/snowflakes.py:62: error: List item 0 has incompatible type "float"; expected "Tuple[Any, Any, int]"  [list-item]
+(5agado)data-science-learning/cellular automata/snowflakes.py:62: error: List item 1 has incompatible type "float"; expected "Tuple[Any, Any, int]"  [list-item]
+(5agado)data-science-learning/cellular automata/snowflakes.py:62: error: List item 2 has incompatible type "int"; expected "Tuple[Any, Any, int]"  [list-item]
+Found 81 errors in 10 files (checked 47 source files)
+
+[RRepo](ze-phyr-us)fastenum
+(ze-phyr-us)fastenum/fastenum.py:20: error: "type" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:22: error: "type" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:26: error: No overload variant of "__new__" of "type" matches argument type "type"  [call-overload]
+(ze-phyr-us)fastenum/fastenum.py:26: note: Possible overload variants:
+(ze-phyr-us)fastenum/fastenum.py:26: note:     def __new__(cls, cls: Type[type], o: object) -> type
+(ze-phyr-us)fastenum/fastenum.py:26: note:     def __new__(cls, cls: Type[type], name: str, bases: Tuple[type, ...], namespace: Dict[str, Any]) -> type
+(ze-phyr-us)fastenum/fastenum.py:36: error: "type" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:40: error: "type" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:47: error: Signature of "__call__" incompatible with supertype "type"  [override]
+(ze-phyr-us)fastenum/fastenum.py:54: error: "EnumMeta" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:57: error: "EnumMeta" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:64: error: "EnumMeta" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:83: error: "Enum" has no attribute "_repr"; maybe "__repr__"?  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:86: error: "Enum" has no attribute "name"  [attr-defined]
+Found 11 errors in 1 file (checked 2 source files)
+
+[RRepo](alexd3rsan)rollingshutterpy
+Success: no issues found in 1 source file
+
+[RRepo](zhouyao1994)incubator-superset
+(zhouyao1994)incubator-superset/superset/connectors/druid/views.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 186 source files)
+
+[RRepo](OpenBapul)hml-equation-parser
+(OpenBapul)hml-equation-parser/hml_equation_parser/hulkReplaceMethod.py:133: error: Unsupported operand types for + ("str" and "object")  [operator]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hulkReplaceMethod.py:134: error: Unsupported operand types for + ("str" and "object")  [operator]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:29: error: Item "None" of "Optional[Element]" has no attribute "find"  [union-attr]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:33: error: Item "None" of "Union[Element, None, Any]" has no attribute "findall"  [union-attr]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:60: error: Item "None" of "Union[Element, None, Any]" has no attribute "text"  [union-attr]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:82: error: Incompatible return value type (got "ElementTree", expected "str")  [return-value]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:101: error: Argument 1 to "convertSpace2nbsp" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:103: error: Unsupported operand types for + ("str" and "None")  [operator]
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:103: note: Right operand is of type "Optional[str]"
+(OpenBapul)hml-equation-parser/hml_equation_parser/hmlParser.py:114: error: Incompatible types in assignment (expression has type "str", variable has type "ElementTree")  [assignment]
+Found 9 errors in 2 files (checked 3 source files)
+
+[RRepo](7sDream)zhihu-py3
+(7sDream)zhihu-py3/zhihu/column.py:12: error: Name 'class_common_init' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/column.py:12: error: Name 're_column_url' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/column.py:44: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/column.py:45: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/column.py:54: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/column.py:55: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/column.py:64: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/column.py:65: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:12: error: Name 'class_common_init' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:12: error: Name 're_post_url' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:71: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/post.py:72: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:88: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/post.py:89: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:107: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/post.py:108: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:117: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/post.py:118: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/post.py:127: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/post.py:128: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/example/analyze_user.py:19: error: Module 'zhihu' has no attribute 'ZhihuClient'  [attr-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:16: error: Name 'class_common_init' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:16: error: Name 're_ans_url' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:47: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:48: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:57: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:58: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:67: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:68: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:77: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:78: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:95: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:96: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:116: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:117: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:143: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:144: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:156: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:157: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:167: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:168: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:265: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:266: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/answer.py:376: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/answer.py:377: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:12: error: Name 'class_common_init' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:12: error: Name 're_collection_url' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:42: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/collection.py:43: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:53: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/collection.py:54: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:64: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/collection.py:65: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:75: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/collection.py:76: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/zhihu/collection.py:95: error: Decorated property not supported  [misc]
+(7sDream)zhihu-py3/zhihu/collection.py:96: error: Name 'check_soup' is not defined  [name-defined]
+(7sDream)zhihu-py3/test/test_post.py:9: error: Module 'zhihu' has no attribute 'Post'  [attr-defined]
+(7sDream)zhihu-py3/test/test_column.py:10: error: Module 'zhihu' has no attribute 'Column'  [attr-defined]
+(7sDream)zhihu-py3/test/test_column.py:10: error: Module 'zhihu' has no attribute 'Post'  [attr-defined]
+(7sDream)zhihu-py3/test/test_activity.py:9: error: Module 'zhihu' has no attribute 'Question'  [attr-defined]
+(7sDream)zhihu-py3/test/test_activity.py:9: error: Module 'zhihu' has no attribute 'Activity'  [attr-defined]
+(7sDream)zhihu-py3/test/test_activity.py:9: error: Module 'zhihu' has no attribute 'ActType'  [attr-defined]
+(7sDream)zhihu-py3/test/test_answer.py:8: error: Module 'zhihu' has no attribute 'Answer'  [attr-defined]
+(7sDream)zhihu-py3/test/test_question.py:9: error: Module 'zhihu' has no attribute 'Question'  [attr-defined]
+(7sDream)zhihu-py3/test/test_question.py:9: error: Module 'zhihu' has no attribute 'Author'  [attr-defined]
+(7sDream)zhihu-py3/test/test_question.py:9: error: Module 'zhihu' has no attribute 'Answer'  [attr-defined]
+(7sDream)zhihu-py3/test/test_collection.py:9: error: Module 'zhihu' has no attribute 'Collection'  [attr-defined]
+Found 68 errors in 11 files (checked 21 source files)
+
+[RRepo](pdjstone)cloudpets-web-bluetooth
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:36: error: Argument 1 to "memoryview" has incompatible type "array[int]"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:38: error: Argument 1 to "memoryview" has incompatible type "array[int]"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:52: error: Argument 1 to "writeframes" of "Wave_write" has incompatible type "array[int]"; expected "bytes"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_encode.py:77: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(pdjstone)cloudpets-web-bluetooth/cp_encode.py:77: error: Argument 1 to "hexlify" has incompatible type "Array[c_uint8]"; expected "bytes"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cloudpets_server.py:71: error: Name 'open_wav' is not defined  [name-defined]
+(pdjstone)cloudpets-web-bluetooth/cloudpets_server.py:72: error: Name 'encode_audio' is not defined  [name-defined]
+Found 7 errors in 3 files (checked 3 source files)
+
+[RRepo](timothycrosley)isort
+(timothycrosley)isort/isort/pylama_isort.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](nil0x42)phpsploit
+(nil0x42)phpsploit/src/api/server/path.py: error: Duplicate module named 'path' (also at '/home/bew/archive/typed_project/(nil0x42)phpsploit/src/utils/path.py')  [misc]
+(nil0x42)phpsploit/src/api/server/path.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 120 source files)
+
+[RRepo](nallath)PostProcessingPlugin
+
+[RRepo](qtile)qtile
+(qtile)qtile/libqtile/scratchpad.py:21: error: No parent module -- cannot perform relative import  [misc]
+(qtile)qtile/libqtile/scratchpad.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 133 source files)
+
+[RRepo](Korchy)BIS
+
+[RRepo](google-research)mixmatch
+(google-research)mixmatch/privacy/scripts/create_split.py: error: Duplicate module named 'create_split' (also at '/home/bew/archive/typed_project/(google-research)mixmatch/scripts/create_split.py')  [misc]
+(google-research)mixmatch/privacy/scripts/create_split.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 27 source files)
+
+[RRepo](imayhaveborkedit)discord.py
+(imayhaveborkedit)discord.py/docs/conf.py:88: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(imayhaveborkedit)discord.py/docs/conf.py:241: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(imayhaveborkedit)discord.py/discord/rtp.py:192: error: Incompatible types in assignment (expression has type "int", base class "RTCPPacket" defined the type as "None")  [assignment]
+(imayhaveborkedit)discord.py/discord/rtp.py:226: error: Incompatible types in assignment (expression has type "int", base class "RTCPPacket" defined the type as "None")  [assignment]
+(imayhaveborkedit)discord.py/discord/rtp.py:257: error: Incompatible types in assignment (expression has type "int", base class "RTCPPacket" defined the type as "None")  [assignment]
+(imayhaveborkedit)discord.py/discord/rtp.py:307: error: Incompatible types in assignment (expression has type "int", base class "RTCPPacket" defined the type as "None")  [assignment]
+(imayhaveborkedit)discord.py/discord/rtp.py:324: error: Incompatible types in assignment (expression has type "int", base class "RTCPPacket" defined the type as "None")  [assignment]
+(imayhaveborkedit)discord.py/discord/__init__.py:59: error: Name 'VersionInfo' is not defined  [name-defined]
+(imayhaveborkedit)discord.py/discord/__init__.py:64: error: Name 'NullHandler' already defined (possibly by an import)  [no-redef]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:33: error: Name 'discord.PCMVolumeTransformer' is not defined  [name-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:55: error: Name 'commands.Cog' is not defined  [name-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:59: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:60: error: Name 'discord.VoiceChannel' is not defined  [name-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:68: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:77: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:87: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:97: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:107: error: Module has no attribute "command"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:126: error: Module has no attribute "Bot"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_voice.py:126: error: Module has no attribute "when_mentioned_or"  [attr-defined]
+(imayhaveborkedit)discord.py/examples/basic_bot.py:9: error: Module has no attribute "Bot"  [attr-defined]
+(imayhaveborkedit)discord.py/discord/__main__.py:178: error: Generator has incompatible item type "Tuple[str, None]"; expected "Tuple[str, str]"  [misc]
+Found 22 errors in 6 files (checked 44 source files)
+
+[RRepo](Nic30)hwtHls
+(Nic30)hwtHls/hwtHls/allocator/allocator.py:26: error: Variable "allocator.TimeIndependentRtlResource.INVARIANT_TIME" is not valid as a type  [valid-type]
+(Nic30)hwtHls/hwtHls/allocator/allocator.py:91: error: Need type annotation for 'node2instance' (hint: "node2instance: Dict[<type>, <type>] = ...")  [var-annotated]
+(Nic30)hwtHls/hwtHls/codeOps.py:49: error: Name 'Hls' is not defined  [name-defined]
+(Nic30)hwtHls/hwtHls/codeOps.py:150: error: Name 'Hls' is not defined  [name-defined]
+(Nic30)hwtHls/hwtHls/codeOps.py:151: error: Argument 3 to "__init__" of "AbstractHlsOp" has incompatible type "None"; expected "int"  [arg-type]
+(Nic30)hwtHls/hwtHls/codeOps.py:196: error: Name 'Hls' is not defined  [name-defined]
+(Nic30)hwtHls/hwtHls/codeOps.py:197: error: Argument 3 to "__init__" of "AbstractHlsOp" has incompatible type "None"; expected "int"  [arg-type]
+(Nic30)hwtHls/hwtHls/codeOps.py:242: error: Name 'Hls' is not defined  [name-defined]
+(Nic30)hwtHls/hwtHls/hls.py:70: error: Name 'HlsMux' is not defined  [name-defined]
+(Nic30)hwtHls/hwtHls/hls.py:180: error: Need type annotation for 'inputs' (hint: "inputs: List[<type>] = ...")  [var-annotated]
+(Nic30)hwtHls/hwtHls/hls.py:181: error: Need type annotation for 'outputs' (hint: "outputs: List[<type>] = ...")  [var-annotated]
+(Nic30)hwtHls/hwtHls/hls.py:182: error: Need type annotation for '_io' (hint: "_io: Dict[<type>, <type>] = ...")  [var-annotated]
+(Nic30)hwtHls/hwtHls/scheduler/list_schedueling.py:17: error: Need type annotation for 'comp_per_clk' (hint: "comp_per_clk: Dict[<type>, <type>] = ...")  [var-annotated]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:46: error: "AbstractXilinxPlatform" has no attribute "OP_DELAYS"; maybe "CMP_DELAY"?  [attr-defined]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:53: error: Cannot determine type of 'BITWISE_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:57: error: Cannot determine type of 'CMP_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:70: error: Cannot determine type of 'ARC_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:71: error: Cannot determine type of 'LUT6_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:72: error: Cannot determine type of 'MUXF7_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:73: error: Cannot determine type of 'MUXF8_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:74: error: Cannot determine type of 'NET_DELAY'  [has-type]
+(Nic30)hwtHls/hwtHls/platform/xilinx/abstract.py:111: error: Cannot determine type of 'FF_DELAY_SETUP'  [has-type]
+(Nic30)hwtHls/hwtHls/tests/connection.py:109: error: Module has no attribute "makeSuite"  [attr-defined]
+(Nic30)hwtHls/hwtHls/examples/bitonicSort.py:62: error: Module has no attribute "makeSuite"  [attr-defined]
+(Nic30)hwtHls/hwtHls/examples/bitonicSort.py:63: error: Module has no attribute "makeSuite"  [attr-defined]
+(Nic30)hwtHls/hwtHls/examples/hls_expr_tree3.py:80: error: Module has no attribute "makeSuite"  [attr-defined]
+(Nic30)hwtHls/hwtHls/examples/alapAsapDiffExample.py:85: error: Module has no attribute "makeSuite"  [attr-defined]
+(Nic30)hwtHls/hwtHls/examples/mac.py:125: error: Module has no attribute "makeSuite"  [attr-defined]
+Found 28 errors in 10 files (checked 27 source files)
+
+[RRepo](tensorflow)minigo
+(tensorflow)minigo/cluster/eval_server/launch_eval.py: error: Duplicate module named 'launch_eval' (also at '/home/bew/archive/typed_project/(tensorflow)minigo/cluster/evaluator/launch_eval.py')  [misc]
+Found 1 error in 1 file (checked 70 source files)
+
+[RRepo](mementum)backtrader
+(mementum)backtrader/samples/pyfolio2/pyfoliotest.py: error: Duplicate module named 'pyfoliotest' (also at '/home/bew/archive/typed_project/(mementum)backtrader/samples/pyfoliotest/pyfoliotest.py')  [misc]
+Found 1 error in 1 file (checked 291 source files)
+
+[RRepo](ktok07b6)polyphony
+(ktok07b6)polyphony/polyphony/compiler/instantiator.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 523 source files)
+
+[RRepo](veryhappythings)discord-gather
+(veryhappythings)discord-gather/gather/discord_gather.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](tutorcruncher)morpheus
+(tutorcruncher)morpheus/morpheus/app/render/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(tutorcruncher)morpheus/morpheus/app/main.py')  [misc]
+(tutorcruncher)morpheus/morpheus/app/render/main.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 16 source files)
+
+[RRepo](rosemichaele)pyshare
+(rosemichaele)pyshare/pyshare/group.py:9: error: Invalid type comment or annotation  [valid-type]
+(rosemichaele)pyshare/pyshare/group.py:10: error: Invalid type comment or annotation  [valid-type]
+(rosemichaele)pyshare/pyshare/group.py:85: error: Need type annotation for 'party_debts' (hint: "party_debts: Dict[<type>, <type>] = ...")  [var-annotated]
+(rosemichaele)pyshare/pyshare/group.py:103: error: Need type annotation for 'party_payments' (hint: "party_payments: Dict[<type>, <type>] = ...")  [var-annotated]
+(rosemichaele)pyshare/pyshare/expense.py:7: error: Invalid type comment or annotation  [valid-type]
+Found 5 errors in 2 files (checked 10 source files)
+
+[RRepo](scop)bash-completion
+Success: no issues found in 690 source files
+
+[RRepo](physera)onelogin-aws-cli
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:39: error: "ConfigurationFile" has no attribute "default_section"  [attr-defined]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:96: error: "ConfigurationFile" has no attribute "default_section"  [attr-defined]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:108: error: Need type annotation for '_overrides' (hint: "_overrides: Dict[<type>, <type>] = ...")  [var-annotated]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:129: error: Argument "fallback" to "getboolean" of "RawConfigParser" has incompatible type "Optional[int]"; expected "bool"  [arg-type]
+(physera)onelogin-aws-cli/onelogin_aws_cli/credentials.py:22: error: Need type annotation for '_devices' (hint: "_devices: List[<type>] = ...")  [var-annotated]
+(physera)onelogin-aws-cli/onelogin_aws_cli/credentials.py:47: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(physera)onelogin-aws-cli/onelogin_aws_cli/__init__.py:97: error: Missing return statement  [return]
+Found 7 errors in 3 files (checked 15 source files)
+
+[RRepo](jacopofar)runtime_typecheck
+(jacopofar)runtime_typecheck/runtime_typecheck/runtime_typecheck.py:144: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(jacopofar)runtime_typecheck/runtime_typecheck/runtime_typecheck.py:158: error: Need type annotation for 'issues' (hint: "issues: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](Intrinsec)comission
+(Intrinsec)comission/comission/utilsCMS.py:200: error: Need type annotation for 'tmp_dir_list' (hint: "tmp_dir_list: List[<type>] = ...")  [var-annotated]
+
+[RRepo](benhoff)CHATIMUSMAXIMUS
+(benhoff)CHATIMUSMAXIMUS/chatimusmaximus/gui/models/settings_model.py:42: error: "OrderedDict[Any, Any]" has no attribute "parent"  [attr-defined]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](PrestigeDox)Watashi-SelfBot
+(PrestigeDox)Watashi-SelfBot/cogs/translate.py:89: error: Argument 1 to "set" has incompatible type "Optional[str]"; expected "Iterable[str]"  [arg-type]
+(PrestigeDox)Watashi-SelfBot/cogs/help.py:43: error: Argument 1 to "set" has incompatible type "Optional[str]"; expected "Iterable[str]"  [arg-type]
+(PrestigeDox)Watashi-SelfBot/cogs/weather.py:51: error: Name 'daytime' is not defined  [name-defined]
+Found 3 errors in 3 files (checked 29 source files)
+
+[RRepo](paulcwatts)drf-json-schema
+(paulcwatts)drf-json-schema/rest_framework_json_schema/schema.py:152: error: Argument 1 to "OrderedDict" has incompatible type "Tuple[Tuple[str, str], Tuple[str, str]]"; expected "Iterable[Tuple[str, Dict[Any, Any]]]"  [arg-type]
+(paulcwatts)drf-json-schema/rest_framework_json_schema/datetime.py:4: error: Module 'datetime' has no attribute 'datetime'  [attr-defined]
+
+[RRepo](jazzband)django-axes
+(jazzband)django-axes/axes/tests/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(jazzband)django-axes/axes/handlers/base.py')  [misc]
+Found 1 error in 1 file (checked 34 source files)
+
+[RRepo](elaeon)ML
+(elaeon)ML/src/ml/commands/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(elaeon)ML/src/ml/models.py')  [misc]
+(elaeon)ML/src/ml/commands/models.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 57 source files)
+
+[RRepo](danhedron)openrw
+Success: no issues found in 3 source files
+

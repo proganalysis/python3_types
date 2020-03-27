@@ -1,0 +1,338 @@
+DUPE = Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+RELATIVE = No parent module -- cannot perform relative import
+Success: =  no issues found in #NUMBER source files
+
+mypy stderr. Examples:
+  - error: INTERNAL ERROR -- Please try using mypy master on Github:
+  - 3MFReader is not a valid Python package name
+
+ *flags* = --show-error-codes --namespace-packages --ignore-missing-imports 
+
+-------------------------------------------------------------------------------
+
+mypy.py (mypy *flags* f1.py f2.py ...)
+  - Include all files in the repo
+
+GLOBAL SUMMARY: Total repo = 2678
+1412 misc, exclude 1154 
+- 714: DUPE
+- 440: RELATIVE
+56 mypy stderr 
+
+Remaining 1468 repo:
+
+  var-annotated 465
+  attr-defined 447
+  assignment 363
+  misc 258 (1412 - 714 - 440)
+  arg-type 254
+  name-defined 247
+  syntax 234
+  return-value 176
+  union-attr 151
+  valid-type 149
+  no-redef 115
+  return 100
+  index 98
+  operator 98
+  call-arg 59
+  str-format 54
+  call-overload 51
+  override 44
+  has-type 31
+  func-returns-value 18
+  list-item 18
+  str-bytes-safe 10
+  type-var 8
+  dict-item 7
+  type-arg 2
+  exit-return 2
+  abstract 2
+  valid-newtype 1
+
+Success = 246
+
+-------------------------------------------------------------------------------
+
+mypy2.py (mypy *flags" /dir/)
+  - Does nothing if no python file 
+    directly under /dir/
+  - Not checking all files, just those 
+    that mypy deems necessary.
+
+GLOBAL SUMMARY: Total repo = 2678
+153 misc, exclude 2
+- 0: DUPE
+- 2: RELATIVE
+1463 mypy stderr + Does nothing (Above)
+
+Remaining 1213 repo:
+
+  attr-defined 411
+  var-annotated 322
+  assignment 247
+  arg-type 163
+  misc 151 (153 - 2)
+  name-defined 112
+  union-attr 104
+  return-value 101
+  no-redef 86
+  valid-type 78
+  index 69
+  operator 69
+  return 54
+  syntax 46
+  call-arg 38
+  str-format 36
+  override 30
+  has-type 23
+  call-overload 22
+  func-returns-value 14
+  list-item 12
+  dict-item 10
+  type-var 7
+  str-bytes-safe 5
+  exit-return 1
+  abstract 1
+  type-arg 1
+
+Success = 469
+
+-------------------------------------------------------------------------------
+
+mypy3.py (mypy *flags* f1.py f2.py ... with NO dupe name)
+  - Exclude files with duplicate name. 
+    First discovered file is selected
+  - Resulting in potentially less files in some repo
+  - A quick workaround to 'Duplicate module named' issue
+  - Still some duplicate errors. 
+    Have something to do with __init__.py
+
+GLOBAL SUMMARY: Total repo = 2678
+1010 misc, exclude 558
+- 27: DUPE
+- 531: RELATIVE
+65 mypy stderr
+
+Remaining 2055 repo:
+
+  attr-defined 769
+  var-annotated 766
+  assignment 569
+  misc 452 (1010 - 27 - 531)
+  arg-type 401
+  name-defined 390
+  syntax 299
+  return-value 290
+  valid-type 229
+  no-redef 226
+  union-attr 225
+  operator 171
+  index 161
+  return 153
+  call-arg 100
+  str-format 96
+  call-overload 80
+  override 69
+  has-type 66
+  func-returns-value 37
+  list-item 24
+  str-bytes-safe 20
+  dict-item 16
+  type-var 14
+  abstract 5
+  type-arg 4
+  exit-return 3
+  valid-newtype 1
+
+Success = 277
+
+-------------------------------------------------------------------------------
+
+mypy4.py
+  - same as mypy3 but also excluding all files with:
+    "from . import xxx", "from .. import xxx", ...
+  - Resulting in even less files in some repo
+  - A quick workaround to 
+    'No parent module -- cannot perform relative import' issues
+  - Still has issue if some files import those files
+
+GLOBAL SUMMARY: Total repo = 2678
+740 misc, exclude 90
+- 38: DUPE
+- 52: RELATIVE
+97 mypy stderr
+
+Remaining 2491 repo:
+
+  attr-defined 1003
+  var-annotated 968
+  assignment 715
+  misc 650 (740 - 38 - 52)
+  name-defined 508
+  arg-type 494
+  syntax 349
+  return-value 348
+  no-redef 290
+  valid-type 285
+  union-attr 283
+  operator 205
+  index 196
+  return 182
+  str-format 127
+  call-arg 127
+  call-overload 95
+  override 82
+  has-type 82
+  func-returns-value 42
+  list-item 27
+  str-bytes-safe 24
+  dict-item 21
+  type-var 16
+  abstract 8
+  type-arg 7
+  exit-return 3
+  valid-newtype 1
+
+Success = 313
+
+-------------------------------------------------------------------------------
+
+ORIGINAL (mypy *flags* f1.py f2.py ...)
+  - Before installing packages 
+  - Include all files in the repo
+
+GLOBAL SUMMARY: Total repo = 2678
+1412 misc, exclude 1154 
+- 714: DUPE
+- 440: RELATIVE
+34 mypy stderr 
+
+Remaining 1494 repo:
+
+  var-annotated 476
+  attr-defined 449
+  assignment 366
+  misc 258 (1412 - 714 - 440)
+  arg-type 257
+  name-defined 254
+  syntax 237
+  return-value 180
+  union-attr 152
+  valid-type 150
+  no-redef 119
+  return 101
+  index 100
+  operator 100
+  call-arg 58
+  str-format 56
+  call-overload 50
+  override 43
+  has-type 33
+  func-returns-value 19
+  list-item 17
+  str-bytes-safe 11
+  type-var 8
+  dict-item 7
+  type-arg 2
+  exit-return 2
+  abstract 2
+  valid-newtype 1
+
+Success = 251
+
+-------------------------------------------------------------------------------
+
+# repo  = # of meaningful repos
+        = Total repo - (DUDE + RELATIVE + Mypy stderr)
+# files = # of checked files in meaningful repos.
+
+Meaingful repo = repo that is not 
+  1. DUPE error = Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+  2. RELATIVE error = No parent module -- cannot perform relative import
+  3. Mypy stderr
+
+# All repo = 2678
+# All files = 172842
+
+Mypy
+1
+# repo = 1468
+# files = 51031
+
+2
+# repo = 1213
+# files = 76222
+
+3
+# repo = 2055
+# files = 88451
+
+4
+# repo = 2491
+# files = 120455
+
+Pylint
+# repo = 2678
+# files = 172842
+
+Pytype 
+# repo = 2626
+# files = 172842 - (something)
+
+0
+# repo = 2678
+# files = 172842
+2678
+172842
+0
+Buak = 51437
+714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+440: No parent module -- cannot perform relative import
+34: Empty
+
+1
+# repo = 2678
+# files = 172842
+2678
+172842
+0
+Buak = 51031
+714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+440: No parent module -- cannot perform relative import
+56: Empty
+
+
+2
+# repo = 1215
+# files = ?
+2678
+172842
+0
+Buak = 76222
+0: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+2: No parent module -- cannot perform relative import
+1463: Empty
+
+
+3
+# repo = 2678
+# files = 144530
+2678
+144530
+0
+Buak = 88451
+27: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+531: No parent module -- cannot perform relative import
+65: Empty
+
+4
+# repo = 2678
+# files = 139069
+2678
+139069
+33773
+Buak = 120455
+38: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+52: No parent module -- cannot perform relative import
+96: Empty

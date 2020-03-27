@@ -1,0 +1,825 @@
+[RRepo](tensorflow)data-validation
+(tensorflow)data-validation/tensorflow_data_validation/types.py:105: error: Incompatible return value type (got "Tuple[str, ...]", expected "Tuple[Union[bytes, str]]")  [return-value]
+
+[RRepo](ActiveState)code
+(ActiveState)code/recipes/Python/302498_RE_match_replace_through_operator/recipe-302498.py:32: error: Missing parentheses in call to 'print'. Did you mean print("a :", a)?  [syntax]
+Found 1 error in 1 file (checked 3829 source files)
+
+[RRepo](tomchristie)apistar
+(tomchristie)apistar/tests/client/test_client.py:7: error: Module 'apistar.client' has no attribute 'Client'  [attr-defined]
+(tomchristie)apistar/apistar/tokenize/tokenize_json.py:3: error: Module 'json.decoder' has no attribute 'scanstring'  [attr-defined]
+
+[RRepo](miyakogi)m2r
+Success: no issues found in 3 source files
+
+[RRepo](ggravlingen)pytradfri
+(ggravlingen)pytradfri/tests/test_device.py:291: error: Unsupported operand types for * ("object" and "int")  [operator]
+(ggravlingen)pytradfri/tests/test_device.py:293: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(ggravlingen)pytradfri/tests/test_device.py:294: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(ggravlingen)pytradfri/tests/test_device.py:296: error: Value of type "int" is not indexable  [index]
+(ggravlingen)pytradfri/tests/test_device.py:298: error: "object" has no attribute "append"  [attr-defined]
+(ggravlingen)pytradfri/tests/test_gateway.py:40: error: Need type annotation for 'GATEWAY_INFO_EMPTY' (hint: "GATEWAY_INFO_EMPTY: Dict[<type>, <type>] = ...")  [var-annotated]
+(ggravlingen)pytradfri/pytradfri/api/libcoap_api.py:8: error: Relative import climbs too many namespaces  [misc]
+(ggravlingen)pytradfri/pytradfri/api/libcoap_api.py:9: error: Relative import climbs too many namespaces  [misc]
+(ggravlingen)pytradfri/pytradfri/api/libcoap_api.py:127: error: Not all arguments converted during string formatting  [str-format]
+(ggravlingen)pytradfri/examples/example_pair.py:184: error: Need type annotation for 'shutdown'  [var-annotated]
+(ggravlingen)pytradfri/pytradfri/api/aiocoap_api.py:12: error: Relative import climbs too many namespaces  [misc]
+(ggravlingen)pytradfri/pytradfri/api/aiocoap_api.py:13: error: Relative import climbs too many namespaces  [misc]
+Found 12 errors in 5 files (checked 29 source files)
+
+[RRepo](goranvrbaski)python-namesilo
+Success: no issues found in 3 source files
+
+[RRepo](divvun)kbdgen
+(divvun)kbdgen/kbdgen/base.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](TomasTriska)Robbie
+(TomasTriska)Robbie/robbie/src/programy/processors/post/cleanup.py: error: Duplicate module named 'cleanup' (also at '/home/bew/archive/typed_project/(TomasTriska)Robbie/robbie/src/programy/processors/pre/cleanup.py')  [misc]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](eurecom-s3)avatar-python
+(eurecom-s3)avatar-python/avatar/bintools/gdb/mi_parser.py:271: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(eurecom-s3)avatar-python/avatar/interfaces/gdb/protocol.py:223: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/interfaces/gdb/gdb_server.py:156: error: Too few arguments for "GdbServer"  [call-arg]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:108: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:119: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:127: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:140: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:156: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:166: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:175: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:190: error: Invalid type comment or annotation  [valid-type]
+(eurecom-s3)avatar-python/avatar/targets/openocd_target.py:213: error: Invalid type comment or annotation  [valid-type]
+Found 12 errors in 4 files (checked 37 source files)
+
+[RRepo](simde-utc)woolly-api
+(simde-utc)woolly-api/sales/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(simde-utc)woolly-api/payment/views.py')  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](Abjad)abjad
+(Abjad)abjad/abjad/boilerplate/Maker.py:4: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 474 source files)
+
+[RRepo](Firefly-Automation)Firefly
+(Firefly-Automation)Firefly/Firefly/services/alexa/alexa.py: error: Duplicate module named 'alexa' (also at '/home/bew/archive/typed_project/(Firefly-Automation)Firefly/Firefly/services/alexa.py')  [misc]
+(Firefly-Automation)Firefly/Firefly/services/alexa/alexa.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 102 source files)
+
+[RRepo](quantumlib)OpenFermion-Cirq
+(quantumlib)OpenFermion-Cirq/dev_tools/prepared_env.py:117: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+Found 1 error in 1 file (checked 71 source files)
+
+[RRepo](open-homeautomation)home-assistant
+(open-homeautomation)home-assistant/homeassistant/util/unit_system.py:108: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 877 source files)
+
+[RRepo](tucanlib)tucan-tools
+Success: no issues found in 9 source files
+
+[RRepo](alvarogzp)telegram-bot
+(alvarogzp)telegram-bot/bot/action/core/action.py: error: Duplicate module named 'action' (also at '/home/bew/archive/typed_project/(alvarogzp)telegram-bot/bot/action/standard/info/action.py')  [misc]
+(alvarogzp)telegram-bot/bot/action/core/action.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 98 source files)
+
+[RRepo](UBCMarsColony)airlock-masters
+(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_control_logic.py:33: error: unexpected indent  [syntax]
+Found 1 error in 1 file (checked 26 source files)
+
+[RRepo](cortesi)mitmproxy
+(cortesi)mitmproxy/mitmproxy/master.py:18: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 67 source files)
+
+[RRepo](beebyte)irisett
+(beebyte)irisett/irisett/webapi/middleware.py: error: Duplicate module named 'middleware' (also at '/home/bew/archive/typed_project/(beebyte)irisett/irisett/webmgmt/middleware.py')  [misc]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](hhstore)learning-notes
+(hhstore)learning-notes/python/src/exercise/py27/ex03_callable_usage.py:30: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](femueller)python-n26
+(femueller)python-n26/setup.py:5: error: Argument 1 to "getfile" has incompatible type "Optional[FrameType]"; expected "Union[Module, Type[Any], MethodType, FunctionType, TracebackType, FrameType, CodeType, Callable[..., Any]]"  [arg-type]
+(femueller)python-n26/n26/api.py:33: error: Need type annotation for '_token_data' (hint: "_token_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(femueller)python-n26/n26/api.py:183: error: Invalid type comment or annotation  [valid-type]
+
+[RRepo](iotile)coretools
+(iotile)coretools/iotilebuild/iotile/build/config/site_scons/dependencies.py: error: Duplicate module named 'dependencies' (also at '/home/bew/archive/typed_project/(iotile)coretools/iotilebuild/iotile/build/doc/dependencies.py')  [misc]
+(iotile)coretools/iotilebuild/iotile/build/config/site_scons/dependencies.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 532 source files)
+
+[RRepo](taniwha)io_object_mu
+
+[RRepo](tgbugs)pyontutils
+(tgbugs)pyontutils/neurondm/setup.py: error: Duplicate module named 'setup' (also at '/home/bew/archive/typed_project/(tgbugs)pyontutils/setup.py')  [misc]
+(tgbugs)pyontutils/neurondm/setup.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 93 source files)
+
+[RRepo](javipalanca)spade
+(javipalanca)spade/travis_pypi_setup.py:16: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+(javipalanca)spade/tests/utils.py:8: error: Module 'spade' has no attribute 'quit_spade'  [attr-defined]
+
+[RRepo](N-BodyPhysicsSimulator)Main
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body_state.py:8: error: Name 'BodyState' already defined on line 4  [no-redef]
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body_state.py:9: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body_state.py:9: note: Did you mean "List[...]"?
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body_state.py:54: error: Too many arguments for "BodyState"  [call-arg]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/numpy.py:4: error: Name 'numpy.ndarray' is not defined  [name-defined]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/numpy.py:15: error: Module has no attribute "array"  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/numpy.py:20: error: Name 'numpy.ndarray' is not defined  [name-defined]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/numpy.py:29: error: Name 'numpy.ndarray' is not defined  [name-defined]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/numpy.py:42: error: Name 'numpy.ndarray' is not defined  [name-defined]
+(N-BodyPhysicsSimulator)Main/nbp/decorators/entity.py:20: error: Incompatible return value type (got "Callable[[Any], Any]", expected "FunctionType")  [return-value]
+(N-BodyPhysicsSimulator)Main/tests/nbp/modifiers/test_modifier.py:5: error: Module 'nbp.modifiers' has no attribute 'Modifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/output_writers/test_json_input_provider_output_writer.py:6: error: Module 'nbp.io.input_providers' has no attribute 'JSONInputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/output_writers/test_json_input_provider_output_writer.py:7: error: Module 'nbp.io.output_writers' has no attribute 'JSONOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/output_writers/test_output_writer.py:5: error: Module 'nbp.io.output_writers' has no attribute 'OutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/output_writers/test_ws_output_writer.py:6: error: Module 'nbp.io.output_writers' has no attribute 'WSOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/input_providers/test_json_input_provider.py:6: error: Module 'nbp.io.input_providers' has no attribute 'JSONInputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/input_providers/test_input_provider.py:5: error: Module 'nbp.io.input_providers' has no attribute 'InputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/nbp/io/input_providers/test_csv_input_provider.py:6: error: Module 'nbp.io.input_providers' has no attribute 'CSVInputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/integration_tests/test_greater_than.py:6: error: Module 'nbp' has no attribute 'Cli'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/integration_tests/test_cli.py:6: error: Module 'nbp' has no attribute 'Cli'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:1: error: Module 'nbp.io.input_providers' has no attribute 'CSVInputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:1: error: Module 'nbp.io.input_providers' has no attribute 'JSONInputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:2: error: Module 'nbp.io.output_writers' has no attribute 'JSONOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:2: error: Module 'nbp.io.output_writers' has no attribute 'CSVOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:2: error: Module 'nbp.io.output_writers' has no attribute 'WSOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:2: error: Module 'nbp.io.output_writers' has no attribute 'CSVOneFileOutputWriter'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:3: error: Module 'nbp.modifiers' has no attribute 'DeltaTimeModifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/tests/test_entities.py:3: error: Module 'nbp.modifiers' has no attribute 'CalculationModifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/modifiers/delta_time_modifier.py:9: error: Module 'nbp.modifiers' has no attribute 'Modifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/modifiers/modifier_bundle.py:1: error: Module 'nbp.modifiers' has no attribute 'Modifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/modifiers/calculation_modifier.py:8: error: Module 'nbp.modifiers' has no attribute 'Modifier'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body.py:10: error: Name 'Body' already defined on line 6  [no-redef]
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body.py:11: error: Name 'numpy.ndarray' is not defined  [name-defined]
+(N-BodyPhysicsSimulator)Main/nbp/bodies/body.py:51: error: Too many arguments for "Body"  [call-arg]
+(N-BodyPhysicsSimulator)Main/nbp/helpers/validation.py:164: error: Incompatible return value type (got "Tuple[List[int], ...]", expected "List[Any]")  [return-value]
+(N-BodyPhysicsSimulator)Main/nbp/io/input_providers/csv_input_provider.py:7: error: Module 'nbp.io.input_providers' has no attribute 'InputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/io/input_providers/json_input_provider.py:9: error: Module 'nbp.io.input_providers' has no attribute 'InputProvider'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/cli.py:9: error: Module 'nbp.modifiers' has no attribute 'ModifierBundle'  [attr-defined]
+(N-BodyPhysicsSimulator)Main/nbp/cli.py:11: error: Module 'nbp.io.output_writers' has no attribute 'OutputWriterController'  [attr-defined]
+Found 38 errors in 21 files (checked 30 source files)
+
+[RRepo](mlindauer)GenericWrapper4AC
+(mlindauer)GenericWrapper4AC/genericWrapper4AC/generic_wrapper.py:207: error: Incompatible types in assignment (expression has type "str", variable has type "List[Any]")  [assignment]
+
+[RRepo](paxos-bankchain)subconscious
+Success: no issues found in 10 source files
+
+[RRepo](neitsa)PrepareLanding
+(neitsa)PrepareLanding/tools/pdb2mdb.py:18: error: Module "pathlib" is not valid as a type  [valid-type]
+(neitsa)PrepareLanding/tools/copy_to_rimworld.py:26: error: Module "pathlib" is not valid as a type  [valid-type]
+(neitsa)PrepareLanding/tools/appveyor/extract_archive.py:27: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:134: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:189: error: Argument 2 to "download_file" of "UrlDownloader" has incompatible type "Optional[Path]"; expected "Path"  [arg-type]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:204: error: Argument 2 to "download_file" of "UrlDownloader" has incompatible type "Optional[Path]"; expected "Path"  [arg-type]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:207: error: Incompatible types in assignment (expression has type "Optional[Path]", variable has type "None")  [assignment]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:303: error: Argument 1 to "setpassword" of "ZipFile" has incompatible type "str"; expected "bytes"  [arg-type]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:318: error: Argument 1 to "setpassword" of "ZipFile" has incompatible type "str"; expected "bytes"  [arg-type]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:319: error: Incompatible return value type (got "str", expected "Optional[Path]")  [return-value]
+(neitsa)PrepareLanding/tools/appveyor/download_dependencies.py:322: error: Missing return statement  [return]
+Found 11 errors in 4 files (checked 4 source files)
+
+[RRepo](lostatc)zielen
+(lostatc)zielen/zielen/fstools.py:82: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Set[str]")  [assignment]
+(lostatc)zielen/zielen/fstools.py:83: error: "Set[str]" has no attribute "sort"  [attr-defined]
+(lostatc)zielen/zielen/fstools.py:239: error: Missing return statement  [return]
+(lostatc)zielen/zielen/commands/init.py:181: error: Missing return statement  [return]
+(lostatc)zielen/zielen/commandbase.py:124: error: Incompatible types in assignment (expression has type "socket", variable has type "None")  [assignment]
+(lostatc)zielen/zielen/commandbase.py:129: error: "None" has no attribute "name"  [attr-defined]
+(lostatc)zielen/zielen/commandbase.py:130: error: "None" has no attribute "bind"  [attr-defined]
+(lostatc)zielen/zielen/cli.py:170: error: Return type "None" of "error" incompatible with return type "NoReturn" in supertype "ArgumentParser"  [override]
+(lostatc)zielen/zielen/utils.py:132: error: Argument 1 to "append" of "list" has incompatible type "None"; expected "str"  [arg-type]
+(lostatc)zielen/zielen/utils.py:324: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(lostatc)zielen/zielen/utils.py:352: error: No overload variant of "next" matches argument type "str"  [call-overload]
+(lostatc)zielen/zielen/utils.py:352: note: Possible overload variant:
+(lostatc)zielen/zielen/utils.py:352: note:     def [_T] next(Iterator[_T]) -> _T
+(lostatc)zielen/zielen/utils.py:352: note:     <1 more non-matching overload not shown>
+(lostatc)zielen/zielen/containerbase.py:47: error: Need type annotation for 'raw_vals' (hint: "raw_vals: Dict[<type>, <type>] = ...")  [var-annotated]
+(lostatc)zielen/zielen/containerbase.py:155: error: Incompatible types in assignment (expression has type "None", variable has type "Connection")  [assignment]
+(lostatc)zielen/zielen/containerbase.py:156: error: Incompatible types in assignment (expression has type "None", variable has type "Cursor")  [assignment]
+(lostatc)zielen/zielen/daemon.py:70: error: Need type annotation for '_files_queue'  [var-annotated]
+(lostatc)zielen/zielen/daemon.py:71: error: Need type annotation for '_cooldown_files' (hint: "_cooldown_files: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 16 errors in 7 files (checked 18 source files)
+
+[RRepo](balrok)Flashget
+(balrok)Flashget/flashget/commandline.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](Egor-Krivov)pdp
+(Egor-Krivov)pdp/prototypes/POC/simple/computations.py:9: error: Module has no attribute "size"  [attr-defined]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](kyuridenamida)atcoder-tools
+(kyuridenamida)atcoder-tools/atcodertools/tools/templates/default_template.py:2: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 76 source files)
+
+[RRepo](rdevon)cortex
+(rdevon)cortex/cortex/built_ins/datasets/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(rdevon)cortex/cortex/built_ins/models/utils.py')  [misc]
+Found 1 error in 1 file (checked 57 source files)
+
+[RRepo](em92)quakelive-local-ratings
+(em92)quakelive-local-ratings/qllr/db.py:17: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:19: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:22: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:24: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:27: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/endpoints.py:28: error: Return value expected  [return-value]
+(em92)quakelive-local-ratings/qllr/endpoints.py:59: error: Incompatible types in assignment (expression has type "Tuple[int, int, int, int, int, int]", variable has type "Optional[Tuple[int, int, int, int, int, int, int, int, int]]")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:101: error: Need type annotation for 'players' (hint: "players: Dict[<type>, <type>] = ...")  [var-annotated]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:109: error: Incompatible types in assignment (expression has type "Tuple[List[int], List[int]]", variable has type "Tuple[List[int], List[int], Any]")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:120: error: Incompatible types in assignment (expression has type "Dict[str, Any]", target has type "str")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:56: error: Need type annotation for 'last_ratings' (hint: "last_ratings: Dict[<type>, <type>] = ...")  [var-annotated]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:77: error: Incompatible types in assignment (expression has type "Dict[str, Any]", target has type "str")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:84: error: "str" has no attribute "append"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:84: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(em92)quakelive-local-ratings/tests/conftest.py:48: error: Incompatible types in assignment (expression has type "IO[Any]", variable has type "BinaryIO")  [assignment]
+Found 15 errors in 5 files (checked 41 source files)
+
+[RRepo](Technikradio)C3FOCSite
+(Technikradio)C3FOCSite/c3shop/frontpage/management/edit_post.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 49 source files)
+
+[RRepo](ActivityWatch)activitywatch
+Success: no issues found in 3 source files
+
+[RRepo](cuauv)software
+(cuauv)software/cave/videobox.py:12: error: Missing parentheses in call to 'print'. Did you mean print("python-opencv is required for video access. Please install.")?  [syntax]
+Found 1 error in 1 file (checked 306 source files)
+
+[RRepo](wanqizhu)mtg-python-engine
+(wanqizhu)mtg-python-engine/MTG/test/test_mana.py:7: error: Module 'MTG' has no attribute 'player'  [attr-defined]
+(wanqizhu)mtg-python-engine/MTG/test/test_player.py:4: error: Module 'MTG' has no attribute 'player'  [attr-defined]
+(wanqizhu)mtg-python-engine/MTG/cards.py:10: error: Module 'MTG' has no attribute 'triggers'  [attr-defined]
+(wanqizhu)mtg-python-engine/MTG/cards.py:13: error: Module 'MTG' has no attribute 'permanent'  [attr-defined]
+(wanqizhu)mtg-python-engine/MTG/cards.py:17: error: Need type annotation for 'name_to_id_dict' (hint: "name_to_id_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(wanqizhu)mtg-python-engine/MTG/gameobject.py:7: error: Module 'MTG' has no attribute 'cardtype'  [attr-defined]
+
+[RRepo](MuhammedHasan)metabolitics
+(MuhammedHasan)metabolitics/metabolitics/utils/tests.py: error: Duplicate module named 'tests' (also at '/home/bew/archive/typed_project/(MuhammedHasan)metabolitics/metabolitics/analysis/tests.py')  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](wtsi-hgi)hgi-systems
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:105: error: Incompatible types in assignment (expression has type "Set[str]", target has type "List[str]")  [assignment]
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:160: error: Need type annotation for 'reference_map'  [var-annotated]
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:203: error: Argument 2 to "_find_references" has incompatible type "Dict[str, List[str]]"; expected "Dict[str, Iterable[str]]"  [arg-type]
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:203: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:203: note: Consider using "Mapping" instead, which is covariant in the value type
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:204: error: Argument 2 to "_find_references" has incompatible type "Dict[str, List[str]]"; expected "Dict[str, Iterable[str]]"  [arg-type]
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:204: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(wtsi-hgi)hgi-systems/scripts/used-images/investigator/investigator.py:204: note: Consider using "Mapping" instead, which is covariant in the value type
+
+[RRepo](zalando)ghe-backup
+(zalando)ghe-backup/python/extract_decrypt_kms.py:24: error: "Type[Kms]" has no attribute "file"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:25: error: "Type[Kms]" has no attribute "key"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:26: error: "Type[Kms]" has no attribute "region"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:37: error: "Type[Kms]" has no attribute "file"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:38: error: "Type[Kms]" has no attribute "key"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:48: error: "Type[Kms]" has no attribute "region"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:55: error: "str" has no attribute "decrypt"  [attr-defined]
+(zalando)ghe-backup/python/extract_decrypt_kms.py:65: error: "str" has no attribute "encrypt"  [attr-defined]
+Found 8 errors in 1 file (checked 4 source files)
+
+[RRepo](FrostLuma)Mousey
+(FrostLuma)Mousey/mousey/bot/context.py: error: Duplicate module named 'context' (also at '/home/bew/archive/typed_project/(FrostLuma)Mousey/mousey/commands/context.py')  [misc]
+Found 1 error in 1 file (checked 46 source files)
+
+[RRepo](quarkslab)irma
+(quarkslab)irma/frontend/config/parser.py: error: Duplicate module named 'parser' (also at '/home/bew/archive/typed_project/(quarkslab)irma/brain/config/parser.py')  [misc]
+Found 1 error in 1 file (checked 176 source files)
+
+[RRepo](wax8280)web2kindle
+(wax8280)web2kindle/web2kindle/libs/log.py:12: error: Need type annotation for 'logger_dict' (hint: "logger_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/utils.py:229: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(wax8280)web2kindle/web2kindle/libs/utils.py:240: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(wax8280)web2kindle/web2kindle/libs/utils.py:241: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(wax8280)web2kindle/web2kindle/libs/utils.py:256: error: Need type annotation for 'meta_d'  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/db.py:47: error: Need type annotation for 'INSTANCES_FOR_THREAD' (hint: "INSTANCES_FOR_THREAD: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](ECP-CANDLE)Benchmarks
+(ECP-CANDLE)Benchmarks/Pilot1/Combo/infer.py: error: Duplicate module named 'infer' (also at '/home/bew/archive/typed_project/(ECP-CANDLE)Benchmarks/Pilot1/T29/infer.py')  [misc]
+Found 1 error in 1 file (checked 70 source files)
+
+[RRepo](Stiivi)entigen
+(Stiivi)entigen/entigen/types.py:87: error: Value of type "Optional[List[Type]]" is not indexable  [index]
+(Stiivi)entigen/entigen/writers/python.py:5: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:6: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:8: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:9: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:11: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:12: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/python.py:50: error: Unexpected keyword argument "name" for "__init_subclass__" of "object"  [call-arg]
+(Stiivi)entigen/entigen/writers/python.py:62: error: Item "None" of "Optional[Dict[str, str]]" has no attribute "get"  [union-attr]
+(Stiivi)entigen/entigen/writers/python.py:63: error: Item "None" of "Optional[Dict[str, str]]" has no attribute "get"  [union-attr]
+(Stiivi)entigen/entigen/writers/python.py:65: error: Item "None" of "Optional[Dict[str, str]]" has no attribute "get"  [union-attr]
+(Stiivi)entigen/entigen/writers/python.py:129: error: Incompatible types in assignment (expression has type "Optional[TypeImport]", variable has type "TypeImport")  [assignment]
+(Stiivi)entigen/entigen/writers/python.py:133: error: Incompatible types in assignment (expression has type "Optional[TypeImport]", variable has type "TypeImport")  [assignment]
+(Stiivi)entigen/entigen/writers/python.py:228: error: Not all arguments converted during string formatting  [str-format]
+(Stiivi)entigen/entigen/writers/python.py:277: error: Not all arguments converted during string formatting  [str-format]
+/usr/local/lib/python3.6/dist-packages/mypy/typeshed/stdlib/2and3/builtins.pyi:69: note: "__init_subclass__" of "object" defined here
+(Stiivi)entigen/entigen/writers/info.py:3: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/info.py:4: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/info.py:5: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/info.py:6: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/writers/info.py:8: error: Unexpected keyword argument "name" for "__init_subclass__" of "object"  [call-arg]
+(Stiivi)entigen/entigen/writers/info.py:21: error: Unsupported right operand type for in ("Optional[Dict[str, str]]")  [operator]
+/usr/local/lib/python3.6/dist-packages/mypy/typeshed/stdlib/2and3/builtins.pyi:69: note: "__init_subclass__" of "object" defined here
+(Stiivi)entigen/entigen/readers/csv.py:11: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/readers/csv.py:12: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/readers/csv.py:13: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/readers/csv.py:14: error: Relative import climbs too many namespaces  [misc]
+(Stiivi)entigen/entigen/readers/csv.py:23: error: Unexpected keyword argument "name" for "__init_subclass__" of "object"  [call-arg]
+(Stiivi)entigen/entigen/readers/csv.py:41: error: "object" has no attribute "DictReader"  [attr-defined]
+(Stiivi)entigen/entigen/readers/csv.py:102: error: "object" has no attribute "DictReader"  [attr-defined]
+/usr/local/lib/python3.6/dist-packages/mypy/typeshed/stdlib/2and3/builtins.pyi:69: note: "__init_subclass__" of "object" defined here
+Found 28 errors in 4 files (checked 11 source files)
+
+[RRepo](sirex)databot
+(sirex)databot/databot/db/services.py: error: Duplicate module named 'services' (also at '/home/bew/archive/typed_project/(sirex)databot/databot/services.py')  [misc]
+(sirex)databot/databot/db/services.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 60 source files)
+
+[RRepo](ZhukovAlexander)triegex
+Success: no issues found in 2 source files
+
+[RRepo](madeso)euphoria
+(madeso)euphoria/scripts/buildtools/cmake.py:21: error: Need type annotation for 'arguments' (hint: "arguments: List[<type>] = ...")  [var-annotated]
+
+[RRepo](desenho-sw-g5)service_control
+(desenho-sw-g5)service_control/Trabalho_2/module_control/modules/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/core/models.py')  [misc]
+(desenho-sw-g5)service_control/Trabalho_2/module_control/modules/models.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 17 source files)
+
+[RRepo](minlexx)whdbx_web
+(minlexx)whdbx_web/classes/signature.py:3: error: No parent module -- cannot perform relative import  [misc]
+(minlexx)whdbx_web/classes/signature.py:4: error: No parent module -- cannot perform relative import  [misc]
+(minlexx)whdbx_web/classes/signature.py:5: error: No parent module -- cannot perform relative import  [misc]
+(minlexx)whdbx_web/classes/signature.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 4 errors in 1 file (checked 15 source files)
+
+[RRepo](jkehler)unshortenit
+(jkehler)unshortenit/unshortenit/modules/linkbucks.py:41: error: Missing return statement  [return]
+(jkehler)unshortenit/unshortenit/unshortenit.py:6: error: Module 'unshortenit' has no attribute '__version__'  [attr-defined]
+(jkehler)unshortenit/unshortenit/unshortenit.py:20: error: Need type annotation for 'modules' (hint: "modules: Dict[<type>, <type>] = ...")  [var-annotated]
+(jkehler)unshortenit/unshortenit/module.py:11: error: Need type annotation for 'domains' (hint: "domains: Set[<type>] = ...")  [var-annotated]
+Found 4 errors in 3 files (checked 13 source files)
+
+[RRepo](BernardFW)bernard
+(BernardFW)bernard/src/bernard/cli/_base.py: error: Duplicate module named '_base' (also at '/home/bew/archive/typed_project/(BernardFW)bernard/src/bernard/reporter/_base.py')  [misc]
+Found 1 error in 1 file (checked 81 source files)
+
+[RRepo](django-id)website
+(django-id)website/app_forum/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(django-id)website/app_author/models.py')  [misc]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](googleapis)docuploader
+Success: no issues found in 8 source files
+
+[RRepo](abilian)abilian-sbe
+(abilian)abilian-sbe/abilian/sbe/apps/documents/webdav/views.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 93 source files)
+
+[RRepo](KeepSafe)translation-real-time-validaton
+(KeepSafe)translation-real-time-validaton/notifier/model.py:18: error: "Callable[[Type[_NT], Any, Any, Any], _NT]" has no attribute "__defaults__"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/model.py:24: error: "Callable[[Type[_NT], Any, Any], _NT]" has no attribute "__defaults__"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/translate.py:62: error: "Iterator[Any]" has no attribute "language"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/__init__.py:6: error: Module 'notifier' has no attribute 'const'  [attr-defined]
+Found 4 errors in 3 files (checked 24 source files)
+
+[RRepo](russss)ukparliament
+Success: no issues found in 3 source files
+
+[RRepo](intel-ctrlsys)actsys
+(intel-ctrlsys)actsys/datastore/datastore/__main__.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 174 source files)
+
+[RRepo](Rhilip)PT-help-server
+(Rhilip)PT-help-server/modules/geo/utils.py:216: error: Name 'ip' is not defined  [name-defined]
+
+[RRepo](dombold)MyHydroPi
+(dombold)MyHydroPi/Pool_Monitor/Hydropi_Website/python/restart.py:11: error: Missing parentheses in call to 'print'. Did you mean print(output)?  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](JonDoNym)peinjector
+(JonDoNym)peinjector/pe-injector-interceptor/peinjector_interceptor.py:235: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](alphagov)digitalmarketplace-api
+(alphagov)digitalmarketplace-api/app/main/views/outcomes.py:6: error: No parent module -- cannot perform relative import  [misc]
+(alphagov)digitalmarketplace-api/app/main/views/outcomes.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 209 source files)
+
+[RRepo](scipy)scipy
+(scipy)scipy/benchmarks/benchmarks/test_go_benchmark_functions.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 381 source files)
+
+[RRepo](bintoro)overloading.py
+(bintoro)overloading.py/tests/_test_classmethods.py:8: error: Name 'overloaded' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:12: error: Name 'f' already defined on line 7  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:12: error: Name 'overloads' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:16: error: Name 'f' already defined on line 7  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:16: error: Name 'overloads' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:21: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:22: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:22: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:22: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:22: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:23: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:23: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:24: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:24: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:24: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:28: error: Name 'overloaded' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:33: error: Name 'f' already defined on line 28  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:33: error: Name 'overloads' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:38: error: Name 'f' already defined on line 28  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:38: error: Name 'overloads' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:44: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:45: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:45: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:45: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:45: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:46: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:46: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:47: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:47: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:47: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:51: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:56: error: Name 'f' already defined on line 51  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:56: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:61: error: Name 'f' already defined on line 51  [no-redef]
+(bintoro)overloading.py/tests/_test_classmethods.py:61: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:67: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:68: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:68: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:68: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:68: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:69: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:69: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:70: error: "object" has no attribute "f"  [attr-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:70: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classmethods.py:70: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:7: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:11: error: Name 'f' already defined on line 7  [no-redef]
+(bintoro)overloading.py/tests/_test_classes.py:11: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:15: error: Name 'f' already defined on line 7  [no-redef]
+(bintoro)overloading.py/tests/_test_classes.py:15: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:22: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:23: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:23: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:23: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:24: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:25: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:25: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:29: error: Name 'overloads' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:34: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:35: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:35: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:36: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:36: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_classes.py:36: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:6: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:10: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:10: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:14: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:14: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:18: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:18: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:22: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:22: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:26: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:26: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:30: error: Name 'f' already defined on line 6  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:30: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:31: error: Name 'X' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:37: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:39: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:40: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:40: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:41: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:41: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:41: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:41: error: Name 'd' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:42: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:43: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:43: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:43: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:44: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:45: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:45: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:46: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:46: error: Name 'x' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:47: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:47: error: Name 'y' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:49: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:53: error: Name 'g' already defined on line 49  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:53: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:57: error: Name 'g' already defined on line 49  [no-redef]
+(bintoro)overloading.py/tests/_test_basics.py:57: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:63: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:65: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_basics.py:66: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/docs/conf.py:60: error: Need type annotation for 'html_theme_options' (hint: "html_theme_options: Dict[<type>, <type>] = ...")  [var-annotated]
+(bintoro)overloading.py/docs/conf.py:75: error: Need type annotation for 'html_extra_path' (hint: "html_extra_path: List[<type>] = ...")  [var-annotated]
+(bintoro)overloading.py/docs/conf.py:81: error: Need type annotation for 'html_additional_pages' (hint: "html_additional_pages: Dict[<type>, <type>] = ...")  [var-annotated]
+(bintoro)overloading.py/tests/_test_decorated.py:10: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:11: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:12: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:16: error: Name 'f' already defined on line 10  [no-redef]
+(bintoro)overloading.py/tests/_test_decorated.py:16: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:17: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:18: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:22: error: Name 'f' already defined on line 10  [no-redef]
+(bintoro)overloading.py/tests/_test_decorated.py:22: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:23: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:27: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:28: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:28: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:28: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:29: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:30: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:32: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:33: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:37: error: Name 'g' already defined on line 32  [no-redef]
+(bintoro)overloading.py/tests/_test_decorated.py:37: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:38: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:42: error: Name 'g' already defined on line 32  [no-redef]
+(bintoro)overloading.py/tests/_test_decorated.py:42: error: Name 'decorated' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:43: error: Name 'overload' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:47: error: Name 'rounds' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:48: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:48: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:48: error: Name 'c' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:49: error: Name 'a' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:50: error: Name 'b' is not defined  [name-defined]
+(bintoro)overloading.py/tests/_test_decorated.py:59: error: Name 'overload' is not defined  [name-defined]
+Found 139 errors in 5 files (checked 6 source files)
+
+[RRepo](mara)mara-db
+(mara)mara-db/mara_db/postgresql.py:7: error: Name 'psycopg2' is not defined  [name-defined]
+(mara)mara-db/mara_db/config.py:7: error: Invalid type comment or annotation  [valid-type]
+(mara)mara-db/mara_db/config.py:22: error: Incompatible return value type (got "str", expected "Pattern[Any]")  [return-value]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:32: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:37: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:44: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/views.py:125: error: Need type annotation for 'constrained_columns' (hint: "constrained_columns: Dict[<type>, <type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/views.py:199: error: Need type annotation for 'schema_colors' (hint: "schema_colors: Dict[<type>, <type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/auto_migration.py:18: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-db/mara_db/auto_migration.py:18: note: Did you mean "List[...]"?
+(mara)mara-db/mara_db/auto_migration.py:50: error: Name 'MetaData' is not defined  [name-defined]
+(mara)mara-db/mara_db/auto_migration.py:115: error: Need type annotation for 'models' (hint: "models: List[<type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/auto_migration.py:117: error: "str" not callable  [operator]
+(mara)mara-db/mara_db/auto_migration.py:119: error: Argument 2 to "isinstance" has incompatible type "_SpecialForm"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(mara)mara-db/mara_db/auto_migration.py:139: error: Unsupported dynamic base class "sqlalchemy.ext.declarative.declarative_base"  [misc]
+(mara)mara-db/mara_db/auto_migration.py:160: error: Name 'MyTable' already defined on line 139  [no-redef]
+(mara)mara-db/mara_db/auto_migration.py:160: error: Unsupported dynamic base class "sqlalchemy.ext.declarative.declarative_base"  [misc]
+Found 16 errors in 5 files (checked 9 source files)
+
+[RRepo](wintoncode)winton-kafka-streams
+(wintoncode)winton-kafka-streams/winton_kafka_streams/processor/processor_context.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 73 source files)
+
+[RRepo](Yelp)service_configuration_lib
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:100: error: "None" has no attribute "check_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:101: error: "None" has no attribute "read_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:102: error: "None" has no attribute "process_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:29: error: Cannot assign to a type  [misc]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:29: error: Incompatible types in assignment (expression has type "Type[SafeLoader]", variable has type "Type[CSafeLoader]")  [assignment]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:33: error: Need type annotation for '_yaml_cache' (hint: "_yaml_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 2 files (checked 6 source files)
+
+[RRepo](bastings)neuralmonkey
+(bastings)neuralmonkey/neuralmonkey/tf_manager.py:193: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 81 source files)
+
+[RRepo](wglas85)math
+(wglas85)math/src/mathx/builtins.py: error: Name '__builtins__.str' is not defined  [name-defined]
+(wglas85)math/src/mathx/builtins.py:55: error: Name 'abs' is not defined  [name-defined]
+
+[RRepo](ava-project)AVA
+(ava-project)AVA/ava/plugins/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(ava-project)AVA/ava/utils.py')  [misc]
+(ava-project)AVA/ava/plugins/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 37 source files)
+
+[RRepo](rmvanhees)pys5p
+(rmvanhees)pys5p/pys5p/tests/test_l1b_patch.py:16: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/tests/test_l1b_patch.py:17: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/tests/test_icm_io.py:25: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/tests/test_icm_io.py:26: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/tests/test_eng_io.py:21: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/tests/test_eng_io.py:22: error: Relative import climbs too many namespaces  [misc]
+(rmvanhees)pys5p/pys5p/l1b_patch.py:56: error: Need type annotation for '__patched_msm' (hint: "__patched_msm: List[<type>] = ...")  [var-annotated]
+(rmvanhees)pys5p/pys5p/l1b_patch.py:64: error: "bool" is invalid as return type for "__exit__" that always returns False  [exit-return]
+(rmvanhees)pys5p/pys5p/l1b_patch.py:64: note: Use "typing_extensions.Literal[False]" as the return type or change it to "None"
+(rmvanhees)pys5p/pys5p/l1b_patch.py:64: note: If return type of "__exit__" implies that it may return True, the context manager may swallow exceptions
+Found 8 errors in 4 files (checked 29 source files)
+
+[RRepo](BoPeng)simuPOP
+(BoPeng)simuPOP/doc/tools/convert.py:161: error: Missing parentheses in call to 'print'. Did you mean print('Warning: Failed to find included file for filename "%s".' % file)?  [syntax]
+Found 1 error in 1 file (checked 62 source files)
+
+[RRepo](hsolbrig)shexypy
+(hsolbrig)shexypy/shexypy/shexyparser/parser/ShExDocVisitor.py:10: error: Name 'ParseTreeVisitor' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/utils/dict_compare.py:83: error: Syntax error in type annotation  [syntax]
+(hsolbrig)shexypy/shexypy/utils/dict_compare.py:83: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(hsolbrig)shexypy/scripts/shex_parser.py:79: error: Name 'Lexer' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/shex_parser.py:87: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/shex_parser.py:87: error: Name 'Parser' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/shex_parser.py:117: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/shex_parser.py:168: error: Syntax error in type annotation  [syntax]
+(hsolbrig)shexypy/scripts/shex_parser.py:168: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(hsolbrig)shexypy/scripts/shex_eval.py:78: error: Incompatible return value type (got "None", expected "Namespace")  [return-value]
+(hsolbrig)shexypy/scripts/shex_eval.py:81: error: Incompatible return value type (got "None", expected "Namespace")  [return-value]
+(hsolbrig)shexypy/scripts/shex_eval.py:84: error: Incompatible return value type (got "None", expected "Namespace")  [return-value]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeCompiler.py:38: error: Name 'Shape' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeCompiler.py:43: error: Need type annotation for 'predmap' (hint: "predmap: Dict[<type>, <type>] = ...")  [var-annotated]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:47: error: Name 'Schema' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:56: error: Need type annotation for '_compiled_shapes' (hint: "_compiled_shapes: Dict[<type>, <type>] = ...")  [var-annotated]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:57: error: Need type annotation for '_triple_results' (hint: "_triple_results: Dict[<type>, <type>] = ...")  [var-annotated]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:91: error: Incompatible types in assignment (expression has type "List[Tuple[Any, ...]]", variable has type "Iterator[Tuple[Any, ...]]")  [assignment]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:91: note: 'list' is missing following 'Iterator' protocol member:
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:91: note:     __next__
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:104: error: Need type annotation for 'candidates' (hint: "candidates: Dict[<type>, <type>] = ...")  [var-annotated]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:120: error: Argument 4 to "i_tc_idx_entry" of "ShapeInterpreter" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:157: error: Name 'ShapeLabel' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:178: error: Name 'TripleConstraint' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:199: error: Name 'TripleConstraintValueClass' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:204: error: Name 'IRI' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:207: error: Name 'ShapeLabel' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:211: error: Name 'NodeType' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:212: error: Name 'NodeType' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:213: error: Name 'NodeType' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:215: error: Name 'IRI' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:221: error: Name 'ValueClassLabel' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:224: error: Name 'IRI' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:228: error: Name 'XSFacet' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:263: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:266: error: Name 'ValueSet' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:286: error: Name 'IRIRange' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:290: error: Name 'IRIStem' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/shexyinterpreter/ShapeInterpreter.py:293: error: Name 'RDFLiteral' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/xml_to_json.py:60: error: Name 'StringToDOM' is not defined  [name-defined]
+(hsolbrig)shexypy/scripts/xml_to_json.py:89: error: Syntax error in type annotation  [syntax]
+(hsolbrig)shexypy/scripts/xml_to_json.py:89: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(hsolbrig)shexypy/tests/test_manifest.py:37: error: Name 'Namespace' is not defined  [name-defined]
+(hsolbrig)shexypy/shexypy/utils/manifest.py:118: error: Missing return statement  [return]
+Found 39 errors in 9 files (checked 18 source files)
+
+[RRepo](Riamse)ceterach
+(Riamse)ceterach/ceterach/revision.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](marrow)WebCore
+(marrow)WebCore/example/extension.py: error: Duplicate module named 'extension' (also at '/home/bew/archive/typed_project/(marrow)WebCore/web/core/extension.py')  [misc]
+(marrow)WebCore/example/extension.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 65 source files)
+
+[RRepo](wilkeraziz)grasp
+(wilkeraziz)grasp/grasp/cfg/reader.py:8: error: No parent module -- cannot perform relative import  [misc]
+(wilkeraziz)grasp/grasp/cfg/reader.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 61 source files)
+
+[RRepo](cltk)cltk
+(cltk)cltk/cltk/phonology/middle_english/transcription.py: error: Duplicate module named 'transcription' (also at '/home/bew/archive/typed_project/(cltk)cltk/cltk/phonology/old_norse/transcription.py')  [misc]
+Found 1 error in 1 file (checked 47 source files)
+
+[RRepo](mitdbg)aurum-datadiscovery
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutations.py:25: error: Module 'nearpy.hashes' has no attribute 'LSHash'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutations.py:25: error: Module 'nearpy.hashes' has no attribute 'RandomBinaryProjections'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutations.py:25: error: Module 'nearpy.hashes' has no attribute 'PCABinaryProjections'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutations.py:25: error: Module 'nearpy.hashes' has no attribute 'RandomBinaryProjectionTree'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutations.py:26: error: Module 'nearpy.hashes.permutation' has no attribute 'Permutation'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutationmapper.py:25: error: Module 'nearpy.hashes' has no attribute 'LSHash'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutationmapper.py:25: error: Module 'nearpy.hashes' has no attribute 'RandomBinaryProjections'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutationmapper.py:25: error: Module 'nearpy.hashes' has no attribute 'PCABinaryProjections'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/permutation/hashpermutationmapper.py:25: error: Module 'nearpy.hashes' has no attribute 'RandomBinaryProjectionTree'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/pcabinaryprojections.py:29: error: Module 'nearpy.utils' has no attribute 'numpy_array_from_list_or_numpy_array'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/pcabinaryprojections.py:29: error: Module 'nearpy.utils' has no attribute 'perform_pca'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/pcadiscretizedprojections.py:29: error: Module 'nearpy.utils' has no attribute 'numpy_array_from_list_or_numpy_array'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/hashes/pcadiscretizedprojections.py:29: error: Module 'nearpy.utils' has no attribute 'perform_pca'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/experiments/distanceratioexperiment.py:31: error: Module 'nearpy.utils' has no attribute 'numpy_array_from_list_or_numpy_array'  [attr-defined]
+(mitdbg)aurum-datadiscovery/nearpy/experiments/recallprecisionexperiment.py:30: error: Module 'nearpy.utils' has no attribute 'numpy_array_from_list_or_numpy_array'  [attr-defined]
+(mitdbg)aurum-datadiscovery/DoD/material_view_analysis.py:200: error: "str" has no attribute "columns"  [attr-defined]
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:7: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:7: note: Did you mean "List[...]"?
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:24: error: Need type annotation for 'table_fulfilled_filters'  [var-annotated]
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:31: error: Incompatible types in assignment (expression has type "OrderedDict[Any, List[Any]]", variable has type "defaultdict[Any, List[Any]]")  [assignment]
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:45: error: Need type annotation for 'candidate_group_filters'  [var-annotated]
+(mitdbg)aurum-datadiscovery/DoD/experimental.py:52: error: Incompatible types in assignment (expression has type "OrderedDict[Any, List[Any]]", variable has type "defaultdict[Any, List[Any]]")  [assignment]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:32: error: Module "knowledgerepr.EKGapi" is not valid as a type  [valid-type]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:32: error: Invalid base class "EKGapi"  [misc]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:46: error: Syntax error in type annotation  [syntax]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:46: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:113: error: Item "None" of "Optional[Any]" has no attribute "get_num_nodes"  [union-attr]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:115: error: Item "None" of "Optional[Any]" has no attribute "get_num_edges"  [union-attr]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:120: error: Item "None" of "Optional[Any]" has no attribute "all_paths"  [union-attr]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:126: error: Item "None" of "Optional[Any]" has no attribute "release_array"  [union-attr]
+(mitdbg)aurum-datadiscovery/knowledgerepr/gindexekg.py:130: error: Item "None" of "Optional[Any]" has no attribute "serialize_graph_to_disk"  [union-attr]
+(mitdbg)aurum-datadiscovery/knowledgerepr/inmemoryekg.py:4: error: Module "knowledgerepr.EKGapi" is not valid as a type  [valid-type]
+(mitdbg)aurum-datadiscovery/knowledgerepr/inmemoryekg.py:4: error: Invalid base class "EKGapi"  [misc]
+(mitdbg)aurum-datadiscovery/knowledgerepr/EKGapi.py:59: error: Syntax error in type annotation  [syntax]
+(mitdbg)aurum-datadiscovery/knowledgerepr/EKGapi.py:59: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(mitdbg)aurum-datadiscovery/knowledgerepr/api_gindex.py:6: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(mitdbg)aurum-datadiscovery/knowledgerepr/api_gindex.py:8: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(mitdbg)aurum-datadiscovery/knowledgerepr/test-gindex.py:7: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(mitdbg)aurum-datadiscovery/knowledgerepr/test-gindex.py:9: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+
+[RRepo](schollii)pypubsub
+(schollii)pypubsub/docs/development/testpubsub.py:4: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 48 source files)
+
+[RRepo](PUNCH-Cyber)stoq
+(PUNCH-Cyber)stoq/stoq/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(PUNCH-Cyber)stoq/stoq/utils.py')  [misc]
+(PUNCH-Cyber)stoq/stoq/tests/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 40 source files)
+
+[RRepo](KSG-IT)ksg-nett
+(KSG-IT)ksg-nett/quotes/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/models.py')  [misc]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](project-callisto)callisto-core
+(project-callisto)callisto-core/callisto_core/delivery/models.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 105 source files)
+
+[RRepo](zydiig)Container
+(zydiig)Container/namespace.py:27: error: Name 'require_root' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:11: error: Name 'mount' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:17: error: Name 'try_unmount_all' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "uid_map"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "gid_map"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "hostname"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "env"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "cgroup_specs"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "custom_mounts"  [misc]
+Found 9 errors in 2 files (checked 3 source files)
+
+[RRepo](b-mueller)mythril
+(b-mueller)mythril/mythril/analysis/symbolic.py: error: Duplicate module named 'symbolic' (also at '/home/bew/archive/typed_project/(b-mueller)mythril/mythril/laser/ethereum/transaction/symbolic.py')  [misc]
+(b-mueller)mythril/mythril/analysis/symbolic.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 94 source files)
+
+[RRepo](mayhewj)greenstalk
+Success: no issues found in 2 source files
+
+[RRepo](A1014280203)elearning
+(A1014280203)elearning/app/sch/api.py:3: error: No parent module -- cannot perform relative import  [misc]
+(A1014280203)elearning/app/sch/api.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 11 source files)
+
+[RRepo](cybertec-postgresql)pgwatch2
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:8: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:8: note: Did you mean "List[...]"?
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:18: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:19: error: Argument 2 to "encrypt" of "AESGCM" has incompatible type "str"; expected "bytes"  [arg-type]
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:24: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(cybertec-postgresql)pgwatch2/webpy/crypto.py:27: error: Argument 2 to "decrypt" of "AESGCM" has incompatible type "str"; expected "bytes"  [arg-type]
+(cybertec-postgresql)pgwatch2/webpy/datadb.py:20: error: Name 'setConnectionString' already defined on line 10  [no-redef]
+Found 6 errors in 2 files (checked 4 source files)
+
+[RRepo](miniworld-project)miniworld_core
+(miniworld-project)miniworld_core/miniworld/util/CoreConfigFileParser.py:50: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 155 source files)
+
+[RRepo](arthurmensch)cogspaces
+(arthurmensch)cogspaces/cogspaces/setup.py: error: Duplicate module named 'setup' (also at '/home/bew/archive/typed_project/(arthurmensch)cogspaces/setup.py')  [misc]
+(arthurmensch)cogspaces/cogspaces/setup.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 23 source files)
+
+[RRepo](ihipop)TurboPydDNS
+(ihipop)TurboPydDNS/ddns/ddns.py:16: error: "Logger" has no attribute "_log"; maybe "log"?  [attr-defined]
+(ihipop)TurboPydDNS/ddns/ddns.py:17: error: "Type[Logger]" has no attribute "echo"  [attr-defined]
+(ihipop)TurboPydDNS/ddns/updater/base.py:17: error: Module has no attribute "__version__"  [attr-defined]
+(ihipop)TurboPydDNS/ddns/updater/base.py:42: error: Need type annotation for '_query' (hint: "_query: Dict[<type>, <type>] = ...")  [var-annotated]
+(ihipop)TurboPydDNS/ddns/updater/base.py:43: error: Need type annotation for '_data' (hint: "_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(ihipop)TurboPydDNS/ddns/updater/base.py:44: error: Need type annotation for '_headers' (hint: "_headers: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 2 files (checked 4 source files)
+
+[RRepo](Vadman97)PicoSim
+(Vadman97)PicoSim/hardware_sim/seven_segment_display.py:12: error: syntax error in type comment  [syntax]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](d-Rickyy-b)Python-BlackJackBot
+Success: no issues found in 13 source files
+
+[RRepo](aio-libs)aiohttp
+(aio-libs)aiohttp/aiohttp/web_routedef.py:20: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 86 source files)
+
+[RRepo](inviwo)inviwo
+(inviwo)inviwo/modules/python3qt/templates/templateprocessor.py:5: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 50 source files)
+
+[RRepo](xeroc)python-graphenelib
+(xeroc)python-graphenelib/graphenebase/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(xeroc)python-graphenelib/graphenecommon/utils.py')  [misc]
+Found 1 error in 1 file (checked 74 source files)
+
+[RRepo](tornadoweb)tornado
+(tornadoweb)tornado/demos/chat/chatdemo.py: error: Duplicate module named 'chatdemo' (also at '/home/bew/archive/typed_project/(tornadoweb)tornado/demos/websocket/chatdemo.py')  [misc]
+Found 1 error in 1 file (checked 68 source files)
+
+[RRepo](piqueserver)piqueserver
+(piqueserver)piqueserver/piqueserver/core_commands/player.py: error: Duplicate module named 'player' (also at '/home/bew/archive/typed_project/(piqueserver)piqueserver/piqueserver/player.py')  [misc]
+(piqueserver)piqueserver/piqueserver/core_commands/player.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 116 source files)
+

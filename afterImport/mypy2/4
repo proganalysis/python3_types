@@ -1,0 +1,792 @@
+[RRepo](e-gun)HipparchiaServer
+
+[RRepo](broadinstitute)gatk
+
+[RRepo](alexheretic)apart-gtk
+
+[RRepo](ampproject)amp-github-apps
+
+[RRepo](dcos)shakedown
+
+[RRepo](michaelchu)kaleidoscope
+(michaelchu)kaleidoscope/main.py:4: error: Name 'kd.Strategy' is not defined  [name-defined]
+(michaelchu)kaleidoscope/main.py:52: error: Module has no attribute "Backtest"  [attr-defined]
+(michaelchu)kaleidoscope/main.py:52: error: Module has no attribute "datafeeds"  [attr-defined]
+(michaelchu)kaleidoscope/main.py:55: error: Module has no attribute "Period"  [attr-defined]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](knossos-project)knossos_utils
+Success: no issues found in 1 source file
+
+[RRepo](icyblade)pynga
+(icyblade)pynga/pynga/user.py:70: error: Incompatible return value type (got "None", expected "datetime")  [return-value]
+(icyblade)pynga/pynga/user.py:89: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(icyblade)pynga/pynga/user.py:294: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(icyblade)pynga/pynga/user.py:300: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(icyblade)pynga/pynga/post.py:60: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(icyblade)pynga/pynga/post.py:69: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(icyblade)pynga/pynga/post.py:77: error: Incompatible return value type (got "None", expected "str")  [return-value]
+Found 7 errors in 2 files (checked 18 source files)
+
+[RRepo](ned14)outcome
+(ned14)outcome/make_reference_docs.py:47: error: Value of type "Optional[Tuple[str, int, str]]" is not indexable  [index]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](tr8dr).Net-Bridge
+
+[RRepo](myint)language-check
+(myint)language-check/download_lt.py:23: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+(myint)language-check/download_lt.py:23: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(myint)language-check/download_lt.py:24: error: Name 'urljoin' already defined (possibly by an import)  [no-redef]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](tahesse)pyCrow
+(tahesse)pyCrow/app.py:18: error: Module 'pyCrow.crowlib' has no attribute 'Action'  [attr-defined]
+(tahesse)pyCrow/app.py:56: error: Incompatible types in assignment (expression has type Module, variable has type "str")  [assignment]
+(tahesse)pyCrow/app.py:66: error: Incompatible types in assignment (expression has type Module, variable has type "str")  [assignment]
+(tahesse)pyCrow/app.py:74: error: Argument 1 to "issubclass" has incompatible type "str"; expected "type"  [arg-type]
+(tahesse)pyCrow/app.py:85: error: Item "str" of "Union[Type[Any], str]" has no attribute "start"  [union-attr]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](Yelp)paasta
+(Yelp)paasta/setup.py:21: error: Module 'paasta_tools' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](TeamSpen210)srctools
+(TeamSpen210)srctools/srctools/surfaceprop.py:158: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:159: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:160: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:161: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:162: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:164: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:165: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:166: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:167: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:168: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:169: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:170: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:171: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:172: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:173: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:174: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:176: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:177: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:178: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:180: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:181: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:182: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:184: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:185: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:186: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:187: error: Argument 1 to "_attr_value" has incompatible type "Optional[SurfaceProp]"; expected "SurfaceProp"  [arg-type]
+(TeamSpen210)srctools/srctools/surfaceprop.py:263: error: Incompatible types in assignment (expression has type "None", variable has type "SurfChar")  [assignment]
+(TeamSpen210)srctools/srctools/surfaceprop.py:312: error: Need type annotation for 'surf' (hint: "surf: Dict[<type>, <type>] = ...")  [var-annotated]
+(TeamSpen210)srctools/srctools/logger.py:76: error: Signature of "log" incompatible with supertype "LoggerAdapter"  [override]
+(TeamSpen210)srctools/srctools/logger.py:76: error: Signature of "log" incompatible with supertype "Logger"  [override]
+(TeamSpen210)srctools/srctools/logger.py:91: error: "Logger" has no attribute "_log"; maybe "log"?  [attr-defined]
+(TeamSpen210)srctools/srctools/logger.py:93: error: Argument 2 to "LogMessage" has incompatible type "Tuple[object, ...]"; expected "Tuple[object]"  [arg-type]
+(TeamSpen210)srctools/srctools/logger.py:107: error: Missing return statement  [return]
+(TeamSpen210)srctools/srctools/logger.py:182: error: Unsupported dynamic base class "logging.getLogRecordFactory"  [misc]
+(TeamSpen210)srctools/srctools/logger.py:247: error: Incompatible types in assignment (expression has type "NullStream", variable has type "TextIO")  [assignment]
+(TeamSpen210)srctools/srctools/logger.py:255: error: Incompatible types in assignment (expression has type "NullStream", variable has type "TextIO")  [assignment]
+(TeamSpen210)srctools/srctools/logger.py:273: error: "Logger" has no attribute "_log"; maybe "log"?  [attr-defined]
+(TeamSpen210)srctools/srctools/logger.py:285: error: Incompatible types in assignment (expression has type "Callable[[Arg(Type[BaseException], 'exc_type'), Arg(BaseException, 'exc_value'), Arg(TracebackType, 'exc_tb')], None]", variable has type "Callable[[Arg(Type[BaseException], 'type_'), Arg(BaseException, 'value'), Arg(TracebackType, 'traceback')], None]")  [assignment]
+(TeamSpen210)srctools/srctools/cmdseq.py:137: error: Incompatible types in assignment (expression has type "None", variable has type "List[Command]")  [assignment]
+(TeamSpen210)srctools/srctools/__init__.py:142: error: Item "bool" of "Union[str, bool]" has no attribute "casefold"  [union-attr]
+(TeamSpen210)srctools/srctools/__init__.py:171: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+(TeamSpen210)srctools/srctools/__init__.py:272: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(TeamSpen210)srctools/srctools/__init__.py:274: error: Incompatible types in assignment (expression has type "IO[Any]", variable has type "None")  [assignment]
+(TeamSpen210)srctools/srctools/__init__.py:275: error: Argument 1 to "open" has incompatible type "None"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(TeamSpen210)srctools/srctools/__init__.py:287: error: "bool" is invalid as return type for "__exit__" that always returns False  [exit-return]
+(TeamSpen210)srctools/srctools/__init__.py:287: note: Use "typing_extensions.Literal[False]" as the return type or change it to "None"
+(TeamSpen210)srctools/srctools/__init__.py:287: note: If return type of "__exit__" implies that it may return True, the context manager may swallow exceptions
+(TeamSpen210)srctools/srctools/__init__.py:294: error: "None" has no attribute "name"  [attr-defined]
+(TeamSpen210)srctools/srctools/__init__.py:295: error: "None" has no attribute "__exit__"  [attr-defined]
+(TeamSpen210)srctools/srctools/__init__.py:300: error: Argument 1 to "remove" has incompatible type "None"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(TeamSpen210)srctools/srctools/vmt.py:119: error: Need type annotation for 'proxies' (hint: "proxies: List[<type>] = ...")  [var-annotated]
+(TeamSpen210)srctools/srctools/vmt.py:304: error: Item "str" of "Union[str, Any]" has no attribute "has_children"  [union-attr]
+(TeamSpen210)srctools/srctools/vmt.py:306: error: Item "str" of "Union[str, Any]" has no attribute "name"  [union-attr]
+(TeamSpen210)srctools/srctools/vmt.py:306: error: Item "str" of "Union[str, Any]" has no attribute "value"  [union-attr]
+(TeamSpen210)srctools/srctools/run.py:72: error: Incompatible types in assignment (expression has type "IO[bytes]", variable has type "FileIO")  [assignment]
+(TeamSpen210)srctools/srctools/run.py:73: error: Incompatible types in assignment (expression has type "IO[bytes]", variable has type "FileIO")  [assignment]
+(TeamSpen210)srctools/srctools/run.py:75: error: Argument 1 to "extend" of "MutableSequence" has incompatible type "Optional[bytes]"; expected "Iterable[int]"  [arg-type]
+(TeamSpen210)srctools/srctools/run.py:76: error: Argument 1 to "extend" of "MutableSequence" has incompatible type "Optional[bytes]"; expected "Iterable[int]"  [arg-type]
+(TeamSpen210)srctools/srctools/game.py:56: error: Missing return statement  [return]
+(TeamSpen210)srctools/srctools/game.py:98: error: Missing return statement  [return]
+(TeamSpen210)srctools/srctools/_class_resources.py:23: error: Variable "srctools._class_resources._cls_res_type" is not valid as a type  [valid-type]
+(TeamSpen210)srctools/srctools/_class_resources.py:32: error: Unsupported target for indexed assignment  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:37: error: Unsupported target for indexed assignment  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:61: error: Unsupported target for indexed assignment  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:61: error: Value of type _cls_res_type? is not indexable  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:137: error: Unsupported target for indexed assignment  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:137: error: Value of type _cls_res_type? is not indexable  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:174: error: Unsupported target for indexed assignment  [index]
+(TeamSpen210)srctools/srctools/_class_resources.py:174: error: Value of type _cls_res_type? is not indexable  [index]
+(TeamSpen210)srctools/srctools/bsp_transform/__init__.py:64: error: Module 'srctools.bsp_transform' has no attribute 'antline'  [attr-defined]
+(TeamSpen210)srctools/srctools/bsp_transform/portal2.py:35: error: Missing return statement  [return]
+(TeamSpen210)srctools/srctools/bsp_transform/packing.py:148: error: Need type annotation for 'file_data' (hint: "file_data: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 70 errors in 11 files (checked 17 source files)
+
+[RRepo](DistributedSystemsGroup)swarm-dns
+(DistributedSystemsGroup)swarm-dns/swarm.py:53: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](flyinactor91)AVWX-Engine
+(flyinactor91)AVWX-Engine/avwx/structs.py:39: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:39: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:88: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:89: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:102: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:103: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:117: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:117: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:119: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:119: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:131: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:131: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:133: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:133: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:139: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:139: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:143: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:143: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:150: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:150: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:153: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:154: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:155: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:155: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:156: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:156: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:185: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:185: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:194: error: Incompatible types in assignment (expression has type "None", variable has type "Number")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:195: error: Incompatible types in assignment (expression has type "None", variable has type "Number")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:200: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:205: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:206: error: Incompatible types in assignment (expression has type "None", variable has type "Number")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:207: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:207: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/structs.py:208: error: Incompatible types in assignment (expression has type "None", variable has type "Number")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:209: error: Incompatible types in assignment (expression has type "None", variable has type "Icing")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:210: error: Incompatible types in assignment (expression has type "None", variable has type "Location")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:211: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:212: error: Incompatible types in assignment (expression has type "None", variable has type "Number")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:213: error: Incompatible types in assignment (expression has type "None", variable has type "Turbulance")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:214: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/structs.py:215: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/structs.py:215: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/service.py:25: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/service.py:43: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/service.py:43: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/service.py:59: error: Argument 1 to "_make_url" of "Service" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:59: error: Argument 2 to "_make_url" of "Service" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:59: error: Argument 3 to "_make_url" of "Service" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:62: error: Need type annotation for 'data'  [var-annotated]
+(flyinactor91)AVWX-Engine/avwx/service.py:63: error: Argument "data" to "urlopen" has incompatible type "Optional[Dict[Any, Any]]"; expected "Optional[bytes]"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:82: error: Argument 1 to "_make_url" of "Service" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:82: error: Argument 2 to "_make_url" of "Service" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:82: error: Argument 3 to "_make_url" of "Service" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:105: error: Incompatible types in assignment (expression has type "Tuple[str, str, str]", base class "Service" defined the type as "Tuple[str, str]")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/service.py:121: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/service.py:121: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/service.py:147: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/service.py:163: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/service.py:167: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/service.py:183: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/service.py:183: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/service.py:217: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/service.py:217: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/service.py:223: error: Signature of "_extract" incompatible with supertype "Service"  [override]
+(flyinactor91)AVWX-Engine/avwx/service.py:244: error: Incompatible return value type (got "Type[Service]", expected "Service")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/service.py:245: error: Incompatible return value type (got "Type[NOAA]", expected "Service")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:20: error: Incompatible types in assignment (expression has type "None", variable has type "datetime")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:23: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:26: error: Incompatible types in assignment (expression has type "None", variable has type "ReportData")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:29: error: Incompatible types in assignment (expression has type "None", variable has type "ReportTrans")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:32: error: Incompatible types in assignment (expression has type "None", variable has type "Units")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:34: error: Incompatible types in assignment (expression has type "None", variable has type "Station")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:41: error: "Service" not callable  [operator]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:118: error: Argument 1 to "metar" has incompatible type "ReportTrans"; expected "MetarTrans"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:127: error: Argument 1 to "metar" has incompatible type "ReportData"; expected "MetarData"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:141: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:141: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:147: error: "ReportTrans" has no attribute "forecast"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:156: error: Argument 1 to "taf" has incompatible type "ReportData"; expected "TafData"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:164: error: Incompatible types in assignment (expression has type "None", variable has type "datetime")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:167: error: Incompatible types in assignment (expression has type "None", variable has type "Station")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:169: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:169: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:170: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:170: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:175: error: Incompatible types in assignment (expression has type "Station", variable has type "Optional[str]")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:176: error: Incompatible types in assignment (expression has type "str", variable has type "Station")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:177: error: "str" has no attribute "latitude"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:178: error: "str" has no attribute "longitude"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:189: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:189: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:195: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:195: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:232: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:232: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:235: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:235: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:252: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:252: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/__init__.py:255: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/__init__.py:255: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/translate.py:77: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/translate.py:77: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/translate.py:98: error: Argument 1 to "get_cardinal_direction" has incompatible type "float"; expected "int"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/translate.py:132: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:137: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:155: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:158: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:173: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:177: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:181: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/translate.py:181: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/translate.py:231: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/translate.py:231: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/translate.py:248: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:253: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/translate.py:253: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/translate.py:299: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:301: error: Unsupported target for indexed assignment  [index]
+(flyinactor91)AVWX-Engine/avwx/translate.py:306: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/translate.py:311: error: "ReportData" has no attribute "visibility"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/translate.py:312: error: "ReportData" has no attribute "altimeter"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/translate.py:313: error: "ReportData" has no attribute "clouds"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/translate.py:314: error: "ReportData" has no attribute "other"  [attr-defined]
+(flyinactor91)AVWX-Engine/avwx/translate.py:342: error: Need type annotation for 'translations'  [var-annotated]
+(flyinactor91)AVWX-Engine/avwx/translate.py:354: error: Incompatible types in assignment (expression has type "str", target has type "List[Any]")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:354: error: Argument 1 to "min_max_temp" has incompatible type "float"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/translate.py:355: error: Incompatible types in assignment (expression has type "str", target has type "List[Any]")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/translate.py:355: error: Argument 1 to "min_max_temp" has incompatible type "float"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/translate.py:357: error: Argument 1 to "TafTrans" has incompatible type "**Dict[str, List[Any]]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/translate.py:357: error: Argument 1 to "TafTrans" has incompatible type "**Dict[str, List[Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/taf.py:17: error: Incompatible return value type (got "Tuple[None, None]", expected "TafData")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/taf.py:57: error: Value of type "Optional[str]" is not indexable  [index]
+(flyinactor91)AVWX-Engine/avwx/taf.py:61: error: Incompatible types in assignment (expression has type "List[TafLineData]", target has type "Optional[str]")  [assignment]
+(flyinactor91)AVWX-Engine/avwx/taf.py:62: error: Incompatible return value type (got "Tuple[TafData, Units]", expected "TafData")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/taf.py:62: error: Argument 1 to "TafData" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/taf.py:62: error: Argument 1 to "TafData" has incompatible type "**Dict[str, Optional[str]]"; expected "Timestamp"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/taf.py:62: error: Argument 1 to "TafData" has incompatible type "**Dict[str, Optional[str]]"; expected "float"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/taf.py:65: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/taf.py:65: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/taf.py:97: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/taf.py:114: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/speech.py:18: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/speech.py:18: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/speech.py:81: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/speech.py:81: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/remarks.py:17: error: Return value expected  [return-value]
+(flyinactor91)AVWX-Engine/avwx/remarks.py:82: error: Argument 2 to "_tdec" has incompatible type "None"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/remarks.py:83: error: Argument 2 to "_tdec" has incompatible type "None"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/remarks.py:87: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/remarks.py:106: error: Cannot call function of unknown type  [operator]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:43: error: Return value expected  [return-value]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:64: error: Argument 2 to "Location" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:64: error: Argument 3 to "Location" has incompatible type "Optional[str]"; expected "Number"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:64: error: Argument 4 to "Location" has incompatible type "Optional[str]"; expected "Number"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:73: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:89: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:89: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-Engine/avwx/pirep.py:111: error: Argument 1 to "Turbulance" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:111: error: Argument 1 to "Turbulance" has incompatible type "**Dict[str, Optional[str]]"; expected "Number"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:126: error: Argument 1 to "Icing" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:126: error: Argument 1 to "Icing" has incompatible type "**Dict[str, Optional[str]]"; expected "Number"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:140: error: Need type annotation for 'ret'  [var-annotated]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:175: error: Incompatible return value type (got "None", expected "PirepData")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "Timestamp"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "Number"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "Icing"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "Location"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/pirep.py:192: error: Argument 1 to "PirepData" has incompatible type "**Dict[str, Optional[str]]"; expected "Turbulance"  [arg-type]
+(flyinactor91)AVWX-Engine/avwx/metar.py:12: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/metar.py:12: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/metar.py:22: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/metar.py:22: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/metar.py:46: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-Engine/avwx/metar.py:46: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-Engine/avwx/airep.py:11: error: Incompatible return value type (got "None", expected "AirepData")  [return-value]
+(flyinactor91)AVWX-Engine/avwx/airep.py:17: error: Incompatible return value type (got "None", expected "AirepData")  [return-value]
+Found 143 errors in 10 files (checked 11 source files)
+
+[RRepo](1995parham)Learning
+
+[RRepo](pirate)bookmark-archiver
+
+[RRepo](gallmerci)bico
+
+[RRepo](pyslackers)sirbot-slack
+Success: no issues found in 1 source file
+
+[RRepo](micropython-IMU)micropython-bmx055
+Success: no issues found in 5 source files
+
+[RRepo](localhuman)neo-python
+(localhuman)neo-python/neo/Settings.py:14: error: Module 'neo' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](gajim)gajim
+(gajim)gajim/setup.py:14: error: Module 'distutils.util' has no attribute 'newer'  [attr-defined]
+(gajim)gajim/setup.py:181: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](antonrh)configfactory
+
+[RRepo](bbriggs)Legobot
+
+[RRepo](bheinzerling)bpemb
+
+[RRepo](harag-on-steam)se-blender
+
+[RRepo](balancehero)kinsumer
+Success: no issues found in 1 source file
+
+[RRepo](wakiyamap)electrum-mona
+
+[RRepo](fsr)course-management
+
+[RRepo](facebook)buck
+
+[RRepo](Bachsau)Mixtool
+
+[RRepo](damorim)compilers-cin
+
+[RRepo](Sakiut)FalltoSkyBot
+(Sakiut)FalltoSkyBot/cogs/music.py:136: error: Item "None" of "Optional[Any]" has no attribute "create_ytdl_player"  [union-attr]
+(Sakiut)FalltoSkyBot/cogs/messages.py:71: error: Need type annotation for 'End' (hint: "End: List[<type>] = ...")  [var-annotated]
+(Sakiut)FalltoSkyBot/cogs/messages.py:92: error: Name 'bot' is not defined  [name-defined]
+(Sakiut)FalltoSkyBot/cogs/messages.py:97: error: Name 'random' is not defined  [name-defined]
+(Sakiut)FalltoSkyBot/libraries/lol.py:134: error: Name 'EUROPE_WEST' is not defined  [name-defined]
+(Sakiut)FalltoSkyBot/libraries/lol.py:145: error: Name 'LoLException' is not defined  [name-defined]
+(Sakiut)FalltoSkyBot/libraries/lol.py:146: error: Name 'error_404' is not defined  [name-defined]
+(Sakiut)FalltoSkyBot/libraries/lol.py:268: error: Value of type "Response" is not indexable  [index]
+(Sakiut)FalltoSkyBot/libraries/lol.py:269: error: Value of type "Response" is not indexable  [index]
+(Sakiut)FalltoSkyBot/libraries/lol.py:270: error: Value of type "Response" is not indexable  [index]
+(Sakiut)FalltoSkyBot/libraries/lol.py:304: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:304: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:304: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:304: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:305: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:305: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:305: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:305: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:306: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:306: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:306: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:306: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:307: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:307: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:307: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:307: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:308: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:308: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:308: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:308: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:309: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:309: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:309: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:309: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:310: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:310: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:310: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:310: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:311: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:311: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:311: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:311: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:312: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:312: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:312: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:312: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:313: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:313: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:313: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:313: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:314: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:314: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:314: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:314: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:315: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:315: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:315: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:315: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:332: error: Value of type "Response" is not indexable  [index]
+(Sakiut)FalltoSkyBot/libraries/lol.py:357: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:357: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:357: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:357: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:358: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:358: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:358: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:358: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:359: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Sakiut)FalltoSkyBot/libraries/lol.py:359: note: Possible overload variants:
+(Sakiut)FalltoSkyBot/libraries/lol.py:359: note:     def __getitem__(self, int) -> int
+(Sakiut)FalltoSkyBot/libraries/lol.py:359: note:     def __getitem__(self, slice) -> bytes
+(Sakiut)FalltoSkyBot/libraries/lol.py:364: error: Unsupported operand types for / ("str" and "int")  [operator]
+(Sakiut)FalltoSkyBot/libraries/lol.py:368: error: Unsupported operand types for / ("str" and "int")  [operator]
+(Sakiut)FalltoSkyBot/libraries/lol.py:372: error: Unsupported operand types for / ("str" and "int")  [operator]
+(Sakiut)FalltoSkyBot/cogs/moderation.py:97: error: Name 'pickle' is not defined  [name-defined]
+Found 30 errors in 4 files (checked 1 source file)
+
+[RRepo](orf)wordinserter
+(orf)wordinserter/wordinserter/operations.py:14: error: Need type annotation for 'requires' (hint: "requires: Set[<type>] = ...")  [var-annotated]
+(orf)wordinserter/wordinserter/operations.py:15: error: Need type annotation for 'optional' (hint: "optional: Set[<type>] = ...")  [var-annotated]
+(orf)wordinserter/wordinserter/operations.py:16: error: Need type annotation for 'allowed_children' (hint: "allowed_children: Set[<type>] = ...")  [var-annotated]
+(orf)wordinserter/wordinserter/parsers/html.py:8: error: Module 'wordinserter.parsers.fixes' has no attribute 'correct_whitespace'  [attr-defined]
+(orf)wordinserter/wordinserter/parsers/html.py:8: error: Module 'wordinserter.parsers.fixes' has no attribute 'normalize_list_elements'  [attr-defined]
+(orf)wordinserter/wordinserter/parsers/html.py:8: error: Module 'wordinserter.parsers.fixes' has no attribute 'normalize_table_colspans'  [attr-defined]
+Found 6 errors in 2 files (checked 9 source files)
+
+[RRepo](mpi-sws-rse)thingflow-python
+
+[RRepo](fsmi)odie-server
+(fsmi)odie-server/jsonquery.py:13: error: Name 'basestring' is not defined  [name-defined]
+(fsmi)odie-server/db/fsmi.py:16: error: Name 'sqla.Model' is not defined  [name-defined]
+(fsmi)odie-server/db/fsmi.py:20: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:20: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:21: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:21: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:22: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:23: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:23: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:24: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:24: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:36: error: Name 'sqla.Model' is not defined  [name-defined]
+(fsmi)odie-server/db/fsmi.py:40: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:40: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:41: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:41: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:42: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:42: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:43: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:43: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:44: error: Cannot determine type of 'Column'  [has-type]
+(fsmi)odie-server/db/fsmi.py:44: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/db/fsmi.py:46: error: Cannot determine type of 'sqla'  [has-type]
+(fsmi)odie-server/default_config.py:106: error: Value of type "object" is not indexable  [index]
+(fsmi)odie-server/default_config.py:108: error: Value of type "object" is not indexable  [index]
+(fsmi)odie-server/api_utils.py:19: error: Module 'pytz' has no attribute 'reference'  [attr-defined]
+Found 26 errors in 4 files (checked 5 source files)
+
+[RRepo](joereynolds)reap-get
+
+[RRepo](mesosphere)universe
+
+[RRepo](CCI-Tools)cate-core
+
+[RRepo](OpenTrons)opentrons-api
+
+[RRepo](snowch)movie-recommender-demo
+
+[RRepo](snoonetIRC)CloudBot
+(snoonetIRC)CloudBot/cloudbot/hook.py:7: error: Module 'cloudbot.util' has no attribute 'HOOK_ATTR'  [attr-defined]
+(snoonetIRC)CloudBot/cloudbot/plugin_hooks.py:87: error: Not all arguments converted during string formatting  [str-format]
+(snoonetIRC)CloudBot/cloudbot/bot.py:18: error: Module 'cloudbot' has no attribute 'clients'  [attr-defined]
+(snoonetIRC)CloudBot/cloudbot/bot.py:25: error: Module 'cloudbot.util' has no attribute 'database'  [attr-defined]
+Found 4 errors in 3 files (checked 9 source files)
+
+[RRepo](CobwebOrg)cobweb-django
+
+[RRepo](lobnek)pyutil
+
+[RRepo](apacha)OMR-Datasets
+(apacha)OMR-Datasets/setup.py:43: error: Module has no attribute "__version__"  [attr-defined]
+(apacha)OMR-Datasets/setup.py:51: error: Module has no attribute "__version__"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](tomcatmanager)tomcatmanager
+Success: no issues found in 2 source files
+
+[RRepo](asphalt-framework)asphalt
+
+[RRepo](nabla-c0d3)nassl
+(nabla-c0d3)nassl/build_tasks.py:172: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(nabla-c0d3)nassl/tasks.py:6: error: Module 'nassl' has no attribute '__version__'  [attr-defined]
+Found 2 errors in 2 files (checked 2 source files)
+
+[RRepo](ustclug)mirrors-index
+(ustclug)mirrors-index/genservernews.py:27: error: Cannot determine type of 'logger'  [has-type]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](danionescu0)robot-camera-platform
+(danionescu0)robot-camera-platform/communication/Serial.py:24: error: "None" has no attribute "write"  [attr-defined]
+(danionescu0)robot-camera-platform/voice_commands.py:16: error: Need type annotation for 'communication_queue'  [var-annotated]
+Found 2 errors in 2 files (checked 2 source files)
+
+[RRepo](homeworkprod)byceps
+(homeworkprod)byceps/byceps/services/shop/sequence/models.py:30: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/sequence/models.py:37: error: Name 'purpose' already defined on line 33  [no-redef]
+(homeworkprod)byceps/byceps/services/shop/sequence/models.py:45: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/util/datetime/format.py:32: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(homeworkprod)byceps/byceps/services/shop/order/models/order_action.py:41: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/order/models/order_action.py:49: error: Name 'payment_state' already defined on line 45  [no-redef]
+(homeworkprod)byceps/byceps/services/shop/cart/models.py:50: error: Incompatible return value type (got "Union[Decimal, int]", expected "Decimal")  [return-value]
+(homeworkprod)byceps/byceps/services/user/models/detail.py:39: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(homeworkprod)byceps/byceps/services/user_avatar/models.py:38: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/user_avatar/models.py:38: error: Incompatible types in assignment (expression has type "ImageType", variable has type "Callable[..., Any]")  [assignment]
+(homeworkprod)byceps/byceps/services/user_avatar/models.py:46: error: Name 'image_type' already defined on line 40  [no-redef]
+(homeworkprod)byceps/byceps/services/user_avatar/models.py:53: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/services/user_avatar/models.py:69: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/redis.py:13: error: Module 'flask' has no attribute '_app_ctx_stack'  [attr-defined]
+(homeworkprod)byceps/byceps/config.py:29: error: "Type[SiteMode]" has no attribute "is_admin"  [attr-defined]
+(homeworkprod)byceps/byceps/config.py:30: error: "Type[SiteMode]" has no attribute "is_public"  [attr-defined]
+(homeworkprod)byceps/byceps/services/orga_team/service.py:144: error: Item "None" of "Optional[Any]" has no attribute "id"  [union-attr]
+(homeworkprod)byceps/byceps/services/orga_team/service.py:156: error: Item "None" of "Optional[Any]" has no attribute "brand_id"  [union-attr]
+(homeworkprod)byceps/byceps/services/snippet/models/snippet.py:51: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/snippet/models/snippet.py:51: error: Incompatible types in assignment (expression has type "SnippetType", variable has type "Callable[..., Any]")  [assignment]
+(homeworkprod)byceps/byceps/services/snippet/models/snippet.py:61: error: Name 'type_' already defined on line 57  [no-redef]
+(homeworkprod)byceps/byceps/services/seating/models/seat.py:51: error: Name 'coords' already defined on line 47  [no-redef]
+(homeworkprod)byceps/byceps/services/shop/order/models/order.py:82: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/order/models/order.py:83: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/order/models/order.py:89: error: Name 'payment_method' already defined on line 85  [no-redef]
+(homeworkprod)byceps/byceps/services/shop/order/models/order.py:98: error: Name 'payment_state' already defined on line 94  [no-redef]
+(homeworkprod)byceps/byceps/services/shop/order/models/order.py:173: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/application.py:15: error: Module 'byceps' has no attribute 'config_defaults'  [attr-defined]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:49: error: Argument 5 to "_build_order" has incompatible type "Optional[datetime]"; expected "datetime"  [arg-type]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:218: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:226: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:257: error: Cannot assign to a method  [assignment]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:264: error: "Callable[..., Any]" has no attribute "name"  [attr-defined]
+(homeworkprod)byceps/byceps/services/shop/order/service.py:278: error: Cannot assign to a method  [assignment]
+Found 34 errors in 14 files (checked 2 source files)
+
+[RRepo](erudit)eruditorg
+
+[RRepo](Contraz)demosys-py
+(Contraz)demosys-py/demosys/conf/__init__.py:6: error: Module 'demosys.conf' has no attribute 'default'  [attr-defined]
+(Contraz)demosys-py/demosys/conf/__init__.py:17: error: Need type annotation for 'PROGRAM_DIRS' (hint: "PROGRAM_DIRS: List[<type>] = ...")  [var-annotated]
+(Contraz)demosys-py/demosys/conf/__init__.py:18: error: Need type annotation for 'TEXTURE_DIRS' (hint: "TEXTURE_DIRS: List[<type>] = ...")  [var-annotated]
+(Contraz)demosys-py/demosys/conf/__init__.py:19: error: Need type annotation for 'DATA_DIRS' (hint: "DATA_DIRS: List[<type>] = ...")  [var-annotated]
+(Contraz)demosys-py/demosys/conf/__init__.py:20: error: Need type annotation for 'SCENE_DIRS' (hint: "SCENE_DIRS: List[<type>] = ...")  [var-annotated]
+(Contraz)demosys-py/demosys/management/__init__.py:31: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Contraz)demosys-py/demosys/management/__init__.py:41: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Contraz)demosys-py/demosys/management/__init__.py:47: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Contraz)demosys-py/demosys/context/__init__.py:20: error: Incompatible return value type (got "None", expected "BaseWindow")  [return-value]
+Found 9 errors in 3 files (checked 7 source files)
+
+[RRepo](joequant)algobroker
+(joequant)algobroker/algobroker/__init__.py:19: error: Cannot assign to a method  [assignment]
+(joequant)algobroker/algobroker/__init__.py:19: error: Invalid self argument "Formatter" to attribute function "converter" with type "Callable[[Optional[float]], struct_time]"  [misc]
+(joequant)algobroker/algobroker/broker_web.py:19: error: Need type annotation for 'subscriptions' (hint: "subscriptions: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 10 source files)
+
+[RRepo](pyfa-org)Pyfa
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'booster'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'character'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'damagePattern'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'implantSet'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'loadDefaultDatabaseValues'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'miscData'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'mutator'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'override'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'price'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'skill'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'targetProfile'  [attr-defined]
+(pyfa-org)Pyfa/eos/db/__init__.py:88: error: Module 'eos.db.saveddata' has no attribute 'user'  [attr-defined]
+(pyfa-org)Pyfa/pyfa.py:107: error: Item "None" of "Optional[Any]" has no attribute "threadbound"  [union-attr]
+(pyfa-org)Pyfa/pyfa.py:127: error: Argument 1 to "exists" has incompatible type "Optional[Any]"; expected "Union[Union[bytes, str, _PathLike[Any]], int]"  [arg-type]
+(pyfa-org)Pyfa/pyfa.py:128: error: Argument 1 to "mkdir" has incompatible type "Optional[Any]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+Found 15 errors in 2 files (checked 2 source files)
+
+[RRepo](rebase-helper)rebase-helper
+(rebase-helper)rebase-helper/setup.py:68: error: Name 'distutils.command.sdist.sdist' is not defined  [name-defined]
+(rebase-helper)rebase-helper/setup.py:70: error: Module has no attribute "sdist"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](fluxcapacitor)pipeline
+
+[RRepo](fferri)pygolog
+(fferri)pygolog/strips.py:9: error: Need type annotation for '_actions' (hint: "_actions: Dict[<type>, <type>] = ...")  [var-annotated]
+(fferri)pygolog/strips.py:53: error: Need type annotation for '_objects'  [var-annotated]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](Titan-C)helpful_scripts
+(Titan-C)helpful_scripts/org_agenda.py:26: error: Missing return statement  [return]
+(Titan-C)helpful_scripts/org_agenda.py:31: error: Incompatible return value type (got "bytes", expected "str")  [return-value]
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](Stibbons)dopplerr
+
+[RRepo](HerrSpace)CCC-Membership-Form
+Success: no issues found in 2 source files
+
+[RRepo](icgood)pymap
+
+[RRepo](ClaudiaSaxer)PlasoScaffolder
+
+[RRepo](osantana)prettyconf
+(osantana)prettyconf/setup.py:22: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](dundua)IG-Downloader
+Success: no issues found in 2 source files
+
+[RRepo](globality-corp)microcosm
+
+[RRepo](scarchik)opentsdb-py
+
+[RRepo](windelbouwman)ppci-mirror
+
+[RRepo](makerdao)keeper
+
+[RRepo](red8012)portkey
+
+[RRepo](bofm)python-caching
+Success: no issues found in 1 source file
+
+[RRepo](engineerapart)TheRemoteFreelancer
+
+[RRepo](foolcage)fooltrader
+(foolcage)fooltrader/fooltrader/datamanager/__init__.py:24: error: Cannot find replacement for positional format specifier 1  [str-format]
+(foolcage)fooltrader/fooltrader/__init__.py:99: error: Name 'logging' is not defined  [name-defined]
+(foolcage)fooltrader/fooltrader/spiders/chinafuture/shfe_trading_calendar_spider.py:19: error: Need type annotation for 'custom_settings' (hint: "custom_settings: Dict[<type>, <type>] = ...")  [var-annotated]
+(foolcage)fooltrader/fooltrader/spiders/chinafuture/future_shfe_spider.py:19: error: Need type annotation for 'custom_settings' (hint: "custom_settings: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 4 errors in 4 files (checked 15 source files)
+
+[RRepo](seece)SpriteBatchRender
+(seece)SpriteBatchRender/sprite_batch_render.py:65: error: Invalid type comment or annotation  [valid-type]
+(seece)SpriteBatchRender/sprite_batch_render.py:65: note: Suggestion: use StringProperty[...] instead of StringProperty(...)
+(seece)SpriteBatchRender/sprite_batch_render.py:73: error: Invalid type comment or annotation  [valid-type]
+(seece)SpriteBatchRender/sprite_batch_render.py:73: note: Suggestion: use IntProperty[...] instead of IntProperty(...)
+(seece)SpriteBatchRender/sprite_batch_render.py:79: error: Invalid type comment or annotation  [valid-type]
+(seece)SpriteBatchRender/sprite_batch_render.py:79: note: Suggestion: use StringProperty[...] instead of StringProperty(...)
+(seece)SpriteBatchRender/sprite_batch_render.py:86: error: Invalid type comment or annotation  [valid-type]
+(seece)SpriteBatchRender/sprite_batch_render.py:86: note: Suggestion: use StringProperty[...] instead of StringProperty(...)
+(seece)SpriteBatchRender/sprite_batch_render.py:93: error: Invalid type comment or annotation  [valid-type]
+(seece)SpriteBatchRender/sprite_batch_render.py:93: note: Suggestion: use StringProperty[...] instead of StringProperty(...)
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](myd7349)Ongoing-Study
+
+[RRepo](SciTools)cf_units
+(SciTools)cf_units/setup.py:26: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(SciTools)cf_units/setup.py:87: error: Argument 2 to "get" of "Mapping" has incompatible type "None"; expected "Union[str, bool]"  [arg-type]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](alberthdev)spasm-ng
+
+[RRepo](tkajder)elian-translator
+(tkajder)elian-translator/elian.py:65: error: Need type annotation for '_characters' (hint: "_characters: List[<type>] = ...")  [var-annotated]
+(tkajder)elian-translator/elian.py:71: error: Signature of "__getitem__" incompatible with supertype "MutableSequence"  [override]
+(tkajder)elian-translator/elian.py:71: error: Signature of "__getitem__" incompatible with supertype "Sequence"  [override]
+(tkajder)elian-translator/elian.py:74: error: Signature of "__delitem__" incompatible with supertype "MutableSequence"  [override]
+(tkajder)elian-translator/elian.py:77: error: Signature of "__setitem__" incompatible with supertype "MutableSequence"  [override]
+(tkajder)elian-translator/elian.py:123: error: Need type annotation for 'line' (hint: "line: List[<type>] = ...")  [var-annotated]
+(tkajder)elian-translator/elian.py:160: error: Generator has incompatible item type "Callable[[], str]"; expected "str"  [misc]
+(tkajder)elian-translator/elian.py:162: error: "str" has no attribute "middle"  [attr-defined]
+(tkajder)elian-translator/elian.py:164: error: Generator has incompatible item type "Callable[[], str]"; expected "str"  [misc]
+(tkajder)elian-translator/elian.py:177: error: Argument 1 to "_word_to_upper_middle_lower" of "ElianScript" has incompatible type "List[ElianCharacter]"; expected "str"  [arg-type]
+Found 10 errors in 1 file (checked 1 source file)
+
+[RRepo](Antergos)web-greeter
+
+[RRepo](CZ-NIC)deckard
+Success: no issues found in 3 source files
+
+[RRepo](PyCQA)pydocstyle
+
+[RRepo](ofir123)PyPrinter
+
+[RRepo](Armored-Dragon)goldmine
+(Armored-Dragon)goldmine/util/token.py:6: error: Module has no attribute "core_file"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:28: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:42: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:45: error: Module has no attribute "c_int_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:61: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:71: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:73: error: Module has no attribute "c_int16_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:95: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:97: error: Module has no attribute "c_float_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/encoder.py:116: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:27: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:33: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:34: error: Module has no attribute "c_int_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:50: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:70: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:90: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:113: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:133: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:150: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:153: error: Module has no attribute "c_int16_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:184: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:187: error: Module has no attribute "c_float_pointer"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:212: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/api/decoder.py:223: error: Module has no attribute "libopus"  [attr-defined]
+(Armored-Dragon)goldmine/opuslib/classes.py:55: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:60: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:65: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:70: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:73: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:78: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/classes.py:81: error: Module not callable  [operator]
+(Armored-Dragon)goldmine/opuslib/__init__.py:32: error: Name 'NullHandler' already defined (possibly by an import)  [no-redef]
+Found 32 errors in 5 files (checked 5 source files)
+
+[RRepo](dhlab-epfl)cadasters
+(dhlab-epfl)cadasters/src/process.py:55: error: Syntax error in type annotation  [syntax]
+(dhlab-epfl)cadasters/src/process.py:55: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dhlab-epfl)cadasters/src/process.py:98: error: Syntax error in type annotation  [syntax]
+(dhlab-epfl)cadasters/src/process.py:98: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dhlab-epfl)cadasters/process_cadaster.py:131: error: Argument 1 to "makedirs" has incompatible type "Optional[Any]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(dhlab-epfl)cadasters/process_cadaster.py:136: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "List[Optional[Any]]")  [assignment]
+(dhlab-epfl)cadasters/process_cadaster.py:140: error: Argument "segmentation_model_dir" to "process_cadaster" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(dhlab-epfl)cadasters/process_cadaster.py:141: error: Argument "transcription_model_dir" to "process_cadaster" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(dhlab-epfl)cadasters/process_cadaster.py:142: error: Argument "output_dir" to "process_cadaster" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+Found 7 errors in 2 files (checked 1 source file)
+
+[RRepo](Thessia)Liara
+
+[RRepo](HuberTRoy)MusicPlayer
+
+[RRepo](mozilla-releng)services
+
+[RRepo](jambonrose)roman-numerals
+Success: no issues found in 1 source file
+
+[RRepo](kobinpy)kobin
+Success: no issues found in 1 source file
+
+[RRepo](xnth97)IconPy
+(xnth97)IconPy/iconpy.py:52: error: Syntax error in type annotation  [syntax]
+(xnth97)IconPy/iconpy.py:52: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(xnth97)IconPy/iconpy.py:87: error: Syntax error in type annotation  [syntax]
+(xnth97)IconPy/iconpy.py:87: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](numerai)submission-criteria
+
+[RRepo](socialwifi)sqlalchemy-postgres-autocommit
+
+[RRepo](kosior)taktyk
+(kosior)taktyk/taktyk/settings.py:12: error: Need type annotation for 'STATIC_ARGS' (hint: "STATIC_ARGS: List[<type>] = ...")  [var-annotated]
+(kosior)taktyk/taktyk/settings.py:15: error: Need type annotation for 'EXTS' (hint: "EXTS: List[<type>] = ...")  [var-annotated]
+(kosior)taktyk/taktyk/settings.py:79: error: Need type annotation for 'SOURCE' (hint: "SOURCE: Dict[<type>, <type>] = ...")  [var-annotated]
+(kosior)taktyk/taktyk/settings.py:85: error: Need type annotation for 'DB_IDS' (hint: "DB_IDS: List[<type>] = ...")  [var-annotated]
+(kosior)taktyk/taktyk/db.py:133: error: Invalid type comment or annotation  [valid-type]
+Found 5 errors in 2 files (checked 15 source files)
+
+[RRepo](trailofbits)manticore
+Success: no issues found in 1 source file
+
+[RRepo](HearthSim)python-hearthstone
+
+[RRepo](hsoft)objp
+
+[RRepo](samsammurphy)ee-atmcorr-timeseries
+(samsammurphy)ee-atmcorr-timeseries/atmcorr/ee_requests.py:27: error: Method must have at least one argument  [misc]
+(samsammurphy)ee-atmcorr-timeseries/atmcorr/ee_requests.py:62: error: Method must have at least one argument  [misc]
+(samsammurphy)ee-atmcorr-timeseries/ee-atmcorr-coefficients-timeseries.py:130: error: Need type annotation for 'export_list' (hint: "export_list: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 1 source file)
+
+[RRepo](veegee)guv
+(veegee)guv/pyuv_cffi/__init__.py:39: error: Need type annotation for 'alive' (hint: "alive: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](space-wizards)space-station-14-content
+

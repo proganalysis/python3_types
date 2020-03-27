@@ -1,0 +1,753 @@
+[RRepo](adombeck)python-sgx
+
+[RRepo](GrxE)PyQJsonModel
+(GrxE)PyQJsonModel/PyQtJsonModel.py:141: error: Incompatible default for argument "role" (default has type "ellipsis", argument has type "int")  [assignment]
+(GrxE)PyQJsonModel/PyQtJsonModel.py:158: error: Incompatible default for argument "role" (default has type "ellipsis", argument has type "int")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](tqchen)tvm
+Success: no issues found in 1 source file
+
+[RRepo](PcBoy111)PCBOT
+
+[RRepo](chrislombaard)cryptopuppet
+Success: no issues found in 1 source file
+
+[RRepo](oscarmlage)django-cruds-adminlte
+
+[RRepo](TrafficSenseMSD)core
+Success: no issues found in 1 source file
+
+[RRepo](abhishek-ram)pyas2-lib
+
+[RRepo](AstroTech)workshop-python
+
+[RRepo](mnot)redbot
+
+[RRepo](nugget)python-insteonplm
+Success: no issues found in 1 source file
+
+[RRepo](nathbo)GO_DILab
+
+[RRepo](4dsolutions)Python5
+
+[RRepo](5monkeys)django-bananas
+(5monkeys)django-bananas/bananas/query.py:66: error: Incompatible import of "ModelDictQuerySetMixin" (imported name has type "Type[bananas.compat.django18.ModelDictQuerySetMixin]", local name has type "Type[bananas.query.ModelDictQuerySetMixin]")  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](ftCommunity)ftcommunity-apps
+
+[RRepo](icoxfog417)chainer_pong
+Success: no issues found in 1 source file
+
+[RRepo](eecs280staff)autograder-sandbox
+
+[RRepo](zeromq)pyre
+Success: no issues found in 1 source file
+
+[RRepo](explosion)spaCy
+(explosion)spaCy/setup.py:8: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(explosion)spaCy/setup.py:76: error: Need type annotation for 'LINK_OPTIONS'  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](python-bonobo)bonobo
+(python-bonobo)bonobo/setup.py:29: error: Need type annotation for 'tolines'  [var-annotated]
+(python-bonobo)bonobo/setup.py:36: error: Need type annotation for 'version_ns' (hint: "version_ns: Dict[<type>, <type>] = ...")  [var-annotated]
+(python-bonobo)bonobo/bonobo/util/api.py:1: error: Module 'bonobo.util' has no attribute 'get_name'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'CsvReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'CsvWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'FileReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'FileWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'JsonReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'JsonWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'PickleReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/registry.py:4: error: Module 'bonobo.nodes' has no attribute 'PickleWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/errors.py:1: error: Module 'bonobo.util' has no attribute 'get_name'  [attr-defined]
+(python-bonobo)bonobo/bonobo/execution/contexts/base.py:7: error: Module 'bonobo.util' has no attribute 'deprecated'  [attr-defined]
+(python-bonobo)bonobo/bonobo/structs/graphs.py:10: error: Module 'bonobo.util' has no attribute 'get_name'  [attr-defined]
+(python-bonobo)bonobo/bonobo/settings.py:20: error: Need type annotation for '__all__' (hint: "__all__: Dict[<type>, <type>] = ...")  [var-annotated]
+(python-bonobo)bonobo/bonobo/settings.py:95: error: Module has no attribute "_checkLevel"  [attr-defined]
+(python-bonobo)bonobo/bonobo/settings.py:96: error: Module has no attribute "_checkLevel"  [attr-defined]
+(python-bonobo)bonobo/bonobo/execution/contexts/graph.py:8: error: Module 'bonobo.config' has no attribute 'create_container'  [attr-defined]
+(python-bonobo)bonobo/bonobo/execution/strategies/executor.py:13: error: Module 'bonobo.util' has no attribute 'get_name'  [attr-defined]
+(python-bonobo)bonobo/bonobo/execution/strategies/executor.py:83: error: Incompatible types in assignment (expression has type "Type[AsyncGraphExecutionContext]", base class "Strategy" defined the type as "Type[GraphExecutionContext]")  [assignment]
+(python-bonobo)bonobo/bonobo/commands/base.py:10: error: Module 'bonobo.util' has no attribute 'get_name'  [attr-defined]
+(python-bonobo)bonobo/bonobo/_api.py:14: error: Module 'bonobo.nodes' has no attribute '__all__'  [attr-defined]
+(python-bonobo)bonobo/bonobo/_api.py:20: error: Need type annotation for '__all__' (hint: "__all__: List[<type>] = ...")  [var-annotated]
+(python-bonobo)bonobo/bonobo/_api.py:145: error: Name 'CsvReader' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:146: error: Name 'CsvWriter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:147: error: Name 'FileReader' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:148: error: Name 'FileWriter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:149: error: Name 'Filter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:150: error: Name 'FixedWindow' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:151: error: Name 'Format' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:152: error: Name 'JsonReader' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:153: error: Name 'JsonWriter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:154: error: Name 'LdjsonReader' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:155: error: Name 'LdjsonWriter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:156: error: Name 'Limit' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:157: error: Name 'MapFields' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:158: error: Name 'OrderFields' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:159: error: Name 'PickleReader' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:160: error: Name 'PickleWriter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:161: error: Name 'PrettyPrinter' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:162: error: Name 'RateLimited' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:163: error: Name 'Rename' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:164: error: Name 'SetFields' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:165: error: Name 'Tee' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:166: error: Name 'UnpackItems' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:167: error: Name 'count' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:168: error: Name 'identity' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/_api.py:169: error: Name 'noop' is not defined  [name-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'CsvReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'CsvWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'FileReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'FileWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'Filter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'FixedWindow'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'Format'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'JsonReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'JsonWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'LdjsonReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'LdjsonWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'Limit'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'MapFields'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'OrderFields'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'PickleReader'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'PickleWriter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'PrettyPrinter'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'RateLimited'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'Rename'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'SetFields'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'Tee'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'UnpackItems'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'count'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'identity'  [attr-defined]
+(python-bonobo)bonobo/bonobo/__init__.py:12: error: Module 'bonobo._api' has no attribute 'noop'  [attr-defined]
+(python-bonobo)bonobo/bonobo/util/resolvers.py:11: error: Module 'bonobo.util' has no attribute 'cast'  [attr-defined]
+(python-bonobo)bonobo/bonobo/commands/run.py:9: error: Incompatible types in assignment (expression has type "staticmethod", base class "BaseGraphCommand" defined the type as "None")  [assignment]
+(python-bonobo)bonobo/bonobo/commands/inspect.py:6: error: Incompatible types in assignment (expression has type "staticmethod", base class "BaseGraphCommand" defined the type as "None")  [assignment]
+Found 76 errors in 15 files (checked 22 source files)
+
+[RRepo](kyuupichan)electrum
+
+[RRepo](asfin)electrum
+(asfin)electrum/setup.py:26: error: Need type annotation for 'data_files' (hint: "data_files: List[<type>] = ...")  [var-annotated]
+(asfin)electrum/setup.py:73: error: Module has no attribute "ELECTRUM_VERSION"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](kervinck)gigatron-rom
+
+[RRepo](python)typeshed
+
+[RRepo](alexisrolland)data-quality
+
+[RRepo](austinmcconnell)mortgage
+Success: no issues found in 1 source file
+
+[RRepo](ziima)televize
+Success: no issues found in 2 source files
+
+[RRepo](yktoo)infopi
+(yktoo)infopi/provider/buienradar.py:164: error: Invalid index type "Optional[str]" for "Dict[str, str]"; expected type "str"  [index]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](peerchemist)finta
+
+[RRepo](mezz64)home-assistant
+
+[RRepo](Pythonicos)qdict
+
+[RRepo](Josca)im
+
+[RRepo](brainiak)brainiak
+(brainiak)brainiak/setup.py:81: error: Unsupported right operand type for in ("Union[int, str, None]")  [operator]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](rizal72)Cozmo-Voice-Commands
+
+[RRepo](rocky)python-xdis
+Success: no issues found in 1 source file
+
+[RRepo](nl253)Dot-files
+
+[RRepo](openatx)uiautomator2
+
+[RRepo](medeor413)Red_Star
+Success: no issues found in 1 source file
+
+[RRepo](LouvainVerificationLab)pynusmv
+
+[RRepo](mara)facebook-ads-performance-downloader
+(mara)facebook-ads-performance-downloader/facebook_downloader/config.py:52: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)facebook-ads-performance-downloader/facebook_downloader/config.py:52: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](rahiel)open_nsfw--
+Success: no issues found in 2 source files
+
+[RRepo](tibkiss)kelly-criterion
+
+[RRepo](Cirice)Teeka
+
+[RRepo](jessepeterson)commandment
+(jessepeterson)commandment/commandment/pki/models.py:268: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](tonyfast)whatever-forever
+Success: no issues found in 1 source file
+
+[RRepo](lablup)sorna-manager
+
+[RRepo](cole)aiosmtplib
+
+[RRepo](bcgov)gwells
+
+[RRepo](anki)cozmo-misc-sdk
+
+[RRepo](Kriechi)mitmproxy
+
+[RRepo](maplejune)nightwatch-imax
+
+[RRepo](nutils)nutils
+(nutils)nutils/examples/platewithhole-nurbs.py:17: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole-nurbs.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole-nurbs.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole-nurbs.py:22: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:37: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:38: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:47: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:65: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:71: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:76: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:80: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:90: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:98: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:100: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/platewithhole-nurbs.py:112: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:20: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:21: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:22: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:23: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:24: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:25: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:26: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/platewithhole.py:28: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:29: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:31: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:49: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:52: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:56: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:59: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:70: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:78: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/platewithhole.py:80: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/platewithhole.py:95: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/laplace.py:30: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/laplace.py:31: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/laplace.py:32: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/laplace.py:33: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/laplace.py:41: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/laplace.py:48: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/laplace.py:77: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/laplace.py:85: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/laplace.py:96: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/laplace.py:102: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/laplace.py:113: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/laplace.py:121: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/laplace.py:123: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/laplace.py:134: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/laplace.py:145: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:20: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:21: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:22: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:23: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:24: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:25: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/finitestrain.py:27: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:29: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:32: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:45: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:48: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:50: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:56: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:58: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:69: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:77: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/finitestrain.py:79: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:89: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/finitestrain.py:99: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:15: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/elasticity.py:16: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/elasticity.py:17: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/elasticity.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/elasticity.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/elasticity.py:21: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:23: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:35: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:38: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:42: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:53: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:61: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/elasticity.py:63: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:72: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:81: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/elasticity.py:93: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity-compatible.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity-compatible.py:20: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity-compatible.py:23: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:25: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:28: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:44: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:45: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:49: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:50: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:91: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:99: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:101: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/drivencavity-compatible.py:111: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:15: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity.py:16: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity.py:17: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/drivencavity.py:20: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:22: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:25: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:34: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:37: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:43: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:44: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:48: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:49: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:86: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:94: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/drivencavity.py:96: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/drivencavity.py:115: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:20: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:21: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:22: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:23: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:24: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:25: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cylinderflow.py:29: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:30: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:33: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:35: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:40: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:44: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:54: error: "Tuple[int, int]" has no attribute "dotnorm"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:56: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:59: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:71: error: Module has no attribute "util"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:73: error: Module has no attribute "util"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:75: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:75: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:81: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:95: error: Module has no attribute "util"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:103: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:111: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/cylinderflow.py:113: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/cylinderflow.py:126: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:15: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:16: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:17: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:20: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:21: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:22: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:23: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:24: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/cahnhilliard.py:28: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:31: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:33: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:36: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:44: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:63: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:63: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:65: error: Module has no attribute "sample"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:66: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:66: error: Incompatible types in string interpolation (expression has type "object", placeholder has type "Union[int, float]")  [str-format]
+(nutils)nutils/examples/cahnhilliard.py:69: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:70: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:81: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:89: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/cahnhilliard.py:98: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:107: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/cahnhilliard.py:117: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/burgers.py:14: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:15: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:16: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:17: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:18: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:19: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/burgers.py:21: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/burgers.py:23: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/burgers.py:35: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/burgers.py:39: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/burgers.py:39: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/burgers.py:41: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/burgers.py:53: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/burgers.py:61: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/burgers.py:63: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/burgers.py:69: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/burgers.py:76: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:23: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/adaptivity.py:24: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/adaptivity.py:25: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/adaptivity.py:26: error: Invalid type comment or annotation  [valid-type]
+(nutils)nutils/examples/adaptivity.py:28: error: Module has no attribute "mesh"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:31: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:33: error: Module has no attribute "util"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:35: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:37: error: Module has no attribute "function"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:44: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:47: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:50: error: Module has no attribute "solver"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:55: error: Module has no attribute "log"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:59: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:60: error: Module has no attribute "export"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:82: error: Module has no attribute "cli"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:90: error: Name 'nutils.testing.TestCase' is not defined  [name-defined]
+(nutils)nutils/examples/adaptivity.py:92: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:108: error: Module has no attribute "testing"  [attr-defined]
+(nutils)nutils/examples/adaptivity.py:122: error: Module has no attribute "testing"  [attr-defined]
+Found 208 errors in 11 files (checked 12 source files)
+
+[RRepo](Chaithi)Discord-Dice-Roller-Bot
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:107: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:109: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:111: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:113: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:115: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Chaithi)Discord-Dice-Roller-Bot/diceBot.py:118: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](oysstu)pyopencl-in-action
+Success: no issues found in 1 source file
+
+[RRepo](secureosv)pythia
+
+[RRepo](5j9)wikitextparser
+
+[RRepo](Harmon758)Harmonbot
+
+[RRepo](Diapolo10)RPGenie
+
+[RRepo](knowmetools)km-api
+
+[RRepo](sourcegraph)srclib-python
+(sourcegraph)srclib-python/grapher/django.py:83: error: Invalid "type: ignore" comment  [syntax]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](lskbr)invasores
+(lskbr)invasores/universo.py:50: error: Incompatible types in assignment (expression has type "None", variable has type "Callable[[ObjetoDoJogo, ObjetoDoJogo], int]")  [assignment]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](bioinformed)vgraph
+
+[RRepo](PonteIneptique)collatinus-python
+
+[RRepo](RoboJackets)robocup-software
+
+[RRepo](jleclanche)python-bna
+
+[RRepo](vntarasov)openpilot
+
+[RRepo](DiscordMusicBot)MusicBot
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:14: error: Need type annotation for 'DMCommandWhiteList' (hint: "DMCommandWhiteList: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:15: error: Need type annotation for 'DMCommandBlackList' (hint: "DMCommandBlackList: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:16: error: Need type annotation for 'CommandWhiteList' (hint: "CommandWhiteList: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:17: error: Need type annotation for 'CommandBlackList' (hint: "CommandBlackList: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:18: error: Need type annotation for 'IgnoreNonVoice' (hint: "IgnoreNonVoice: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:19: error: Need type annotation for 'GrantToRoles' (hint: "GrantToRoles: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/permissions.py:20: error: Need type annotation for 'UserList' (hint: "UserList: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/config.py:321: error: Need type annotation for 'dev_ids' (hint: "dev_ids: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/config.py:323: error: Need type annotation for 'bound_channels' (hint: "bound_channels: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/config.py:324: error: Need type annotation for 'autojoin_channels' (hint: "autojoin_channels: Set[<type>] = ...")  [var-annotated]
+(DiscordMusicBot)MusicBot/musicbot/config.py:350: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(DiscordMusicBot)MusicBot/musicbot/config.py:352: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(DiscordMusicBot)MusicBot/musicbot/config.py:354: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(DiscordMusicBot)MusicBot/musicbot/__init__.py:83: error: Argument 2 to "insert" of "list" has incompatible type "Yikes"; expected "MetaPathFinder"  [arg-type]
+(DiscordMusicBot)MusicBot/musicbot/__init__.py:125: error: Module has no attribute "EVERYTHING"  [attr-defined]
+Found 15 errors in 3 files (checked 11 source files)
+
+[RRepo](Aearsis)economy-game
+Success: no issues found in 1 source file
+
+[RRepo](edison7500)dugong
+
+[RRepo](XayOn)pyrcrack
+(XayOn)pyrcrack/pyrcrack/executor.py:33: error: Decorated property not supported  [misc]
+(XayOn)pyrcrack/pyrcrack/executor.py:96: error: Decorated property not supported  [misc]
+(XayOn)pyrcrack/pyrcrack/executor.py:103: error: Decorated property not supported  [misc]
+Found 3 errors in 1 file (checked 7 source files)
+
+[RRepo](vstconsulting)polemarch
+(vstconsulting)polemarch/setup.py:166: error: Need type annotation for 'extensions_dict' (hint: "extensions_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(vstconsulting)polemarch/setup.py:167: error: Need type annotation for 'static_exclude' (hint: "static_exclude: List[<type>] = ...")  [var-annotated]
+(vstconsulting)polemarch/setup.py:231: error: Need type annotation for 'exclude' (hint: "exclude: List[<type>] = ...")  [var-annotated]
+(vstconsulting)polemarch/setup.py:258: error: Need type annotation for 'exclude' (hint: "exclude: List[<type>] = ...")  [var-annotated]
+(vstconsulting)polemarch/setup.py:259: error: Need type annotation for 'static_exclude' (hint: "static_exclude: List[<type>] = ...")  [var-annotated]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](juancarlospaco)unicodemoticon
+(juancarlospaco)unicodemoticon/setup.py:44: error: Module 'unicodemoticon' has no attribute '__author__'  [attr-defined]
+(juancarlospaco)unicodemoticon/setup.py:44: error: Module 'unicodemoticon' has no attribute '__url__'  [attr-defined]
+(juancarlospaco)unicodemoticon/setup.py:44: error: Module 'unicodemoticon' has no attribute '__email__'  [attr-defined]
+(juancarlospaco)unicodemoticon/setup.py:44: error: Module 'unicodemoticon' has no attribute '__license__'  [attr-defined]
+(juancarlospaco)unicodemoticon/setup.py:44: error: Module 'unicodemoticon' has no attribute '__version__'  [attr-defined]
+(juancarlospaco)unicodemoticon/setup.py:60: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](sassoftware)saspy
+(sassoftware)saspy/saspy/sasutil.py:92: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasutil.py:93: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:93: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:98: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:98: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:121: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasutil.py:122: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:122: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:125: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:125: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:126: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:126: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:128: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:128: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:150: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasutil.py:151: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:151: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:152: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:152: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:154: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:154: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:156: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:156: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:157: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:157: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:175: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasutil.py:176: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:176: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:177: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:177: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:179: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:179: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:182: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:182: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasutil.py:184: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasutil.py:184: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasqc.py:86: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasqc.py:87: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasqc.py:87: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasqc.py:108: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasqc.py:109: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasqc.py:109: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasqc.py:129: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasqc.py:130: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasqc.py:130: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasqc.py:139: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasqc.py:139: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasqc.py:174: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasqc.py:175: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasqc.py:175: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:88: error: Argument 1 to "proc_decorator" has incompatible type "Set[str]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:89: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:89: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:92: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:92: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:94: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:94: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:95: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:95: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:117: error: Argument 1 to "proc_decorator" has incompatible type "Dict[<nothing>, <nothing>]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:118: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:118: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:122: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:122: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:142: error: Argument 1 to "proc_decorator" has incompatible type "Set[str]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:143: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:143: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:145: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:145: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:146: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:146: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:147: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:147: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:167: error: Argument 1 to "proc_decorator" has incompatible type "Set[str]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:168: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:168: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:171: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:171: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:173: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:173: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:175: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:175: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:176: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:176: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:177: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:177: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:202: error: Argument 1 to "proc_decorator" has incompatible type "Set[str]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:203: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:203: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:208: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:208: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:210: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:210: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:211: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:211: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:213: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:213: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:239: error: Argument 1 to "proc_decorator" has incompatible type "Set[str]"; expected "procDecorator"  [arg-type]
+(sassoftware)saspy/saspy/sasml.py:240: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:240: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:244: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:244: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:245: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:245: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sasml.py:248: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(sassoftware)saspy/saspy/sasml.py:248: note: Did you mean "List[...]"?
+(sassoftware)saspy/saspy/sastabulate.py:243: error: Missing return statement  [return]
+(sassoftware)saspy/saspy/sastabulate.py:261: error: Need type annotation for 'sets'  [var-annotated]
+(sassoftware)saspy/saspy/sastabulate.py:262: error: Item "Dict[Any, Any]" of "Optional[Dict[Any, Any]]" has no attribute "_gather"  [union-attr]
+(sassoftware)saspy/saspy/sastabulate.py:262: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "_gather"  [union-attr]
+(sassoftware)saspy/saspy/sastabulate.py:263: error: "Dict[Any, Any]" has no attribute "_gather"  [attr-defined]
+(sassoftware)saspy/saspy/sastabulate.py:276: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, Dict[Any, Any]]"; expected "Mapping[str, str]"  [arg-type]
+(sassoftware)saspy/saspy/sastabulate.py:301: error: Return value expected  [return-value]
+(sassoftware)saspy/saspy/sastabulate.py:327: error: Return value expected  [return-value]
+(sassoftware)saspy/saspy/__init__.py:43: error: Name 'get_ipython' is not defined  [name-defined]
+(sassoftware)saspy/saspy/autocfg.py:5: error: Module 'saspy' has no attribute 'sascfg'  [attr-defined]
+(sassoftware)saspy/saspy/autocfg.py:19: error: Argument 1 to "exists" has incompatible type "Optional[str]"; expected "Union[Union[bytes, str, _PathLike[Any]], int]"  [arg-type]
+(sassoftware)saspy/saspy/autocfg.py:20: error: Unsupported operand types for + ("str" and "None")  [operator]
+(sassoftware)saspy/saspy/autocfg.py:20: note: Right operand is of type "Optional[str]"
+(sassoftware)saspy/saspy/autocfg.py:150: error: Argument 1 to "open" has incompatible type "Optional[str]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(sassoftware)saspy/saspy/autocfg.py:154: error: Unsupported operand types for + ("str" and "None")  [operator]
+(sassoftware)saspy/saspy/autocfg.py:154: note: Right operand is of type "Optional[str]"
+(sassoftware)saspy/saspy/autocfg.py:159: error: No overload variant of "__setitem__" of "list" matches argument types "int", "None"  [call-overload]
+(sassoftware)saspy/saspy/autocfg.py:159: note: Possible overload variants:
+(sassoftware)saspy/saspy/autocfg.py:159: note:     def __setitem__(self, int, str) -> None
+(sassoftware)saspy/saspy/autocfg.py:159: note:     def __setitem__(self, slice, Iterable[str]) -> None
+Found 75 errors in 6 files (checked 10 source files)
+
+[RRepo](bit-bots)imagetagger
+
+[RRepo](douglasrizzo)catsim
+
+[RRepo](fumitoh)modelx
+Success: no issues found in 1 source file
+
+[RRepo](inmanta)inmanta
+
+[RRepo](tudinfse)fex
+(tudinfse)fex/core/environment.py:14: error: Need type annotation for 'default_variables' (hint: "default_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(tudinfse)fex/core/environment.py:18: error: Need type annotation for 'updated_variables' (hint: "updated_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(tudinfse)fex/core/environment.py:22: error: Need type annotation for 'forced_variables' (hint: "forced_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(tudinfse)fex/core/environment.py:26: error: Need type annotation for 'only_run_variables' (hint: "only_run_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(tudinfse)fex/core/environment.py:30: error: Need type annotation for 'only_build_variables' (hint: "only_build_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(tudinfse)fex/core/environment.py:34: error: Need type annotation for 'debug_variables' (hint: "debug_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](partizand)gnucashreport
+Success: no issues found in 2 source files
+
+[RRepo](barry-scott)scm-workbench
+
+[RRepo](python-hyper)wsproto
+Success: no issues found in 5 source files
+
+[RRepo](adyliu)jafka
+
+[RRepo](ReactiveX)RxPY
+
+[RRepo](Zwork101)backpack.py
+Success: no issues found in 1 source file
+
+[RRepo](SunDwarf)curiosity
+
+[RRepo](yonjuuni)namecheapapi
+
+[RRepo](codurance)task-list
+
+[RRepo](languitar)pass-git-helper
+Success: no issues found in 2 source files
+
+[RRepo](chris104957)django-carrot
+(chris104957)django-carrot/setup.py:3: error: Module 'carrot' has no attribute '__version__'  [attr-defined]
+(chris104957)django-carrot/carrot/utilities.py:14: error: Module 'carrot' has no attribute 'DEFAULT_BROKER'  [attr-defined]
+(chris104957)django-carrot/carrot/utilities.py:170: error: Need type annotation for 'interval_type'  [var-annotated]
+(chris104957)django-carrot/carrot/utilities.py:170: error: Need type annotation for 'count'  [var-annotated]
+Found 4 errors in 2 files (checked 2 source files)
+
+[RRepo](wlerin)showroom
+
+[RRepo](notion)a_sync
+(notion)a_sync/example.py:12: error: Module has no attribute "ThreadExecutor"  [attr-defined]
+(notion)a_sync/example.py:90: error: Module has no attribute "ThreadExecutor"  [attr-defined]
+(notion)a_sync/example.py:90: error: Module has no attribute "ExitOption"  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](mbdevpl)typed-astunparse
+(mbdevpl)typed-astunparse/setup_boilerplate.py:87: error: Need type annotation for 'versions_min' (hint: "versions_min: List[<type>] = ...")  [var-annotated]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:87: error: Need type annotation for 'versions_only' (hint: "versions_only: List[<type>] = ...")  [var-annotated]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:159: error: "reference" has no attribute "children"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:160: error: "reference" has no attribute "attributes"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:162: error: "reference" has no attribute "attributes"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:177: error: "reference" has no attribute "attributes"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:177: error: "reference" has no attribute "children"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:236: error: Need type annotation for 'package_data' (hint: "package_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:237: error: Need type annotation for 'exclude_package_data' (hint: "exclude_package_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:272: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:276: error: "str" has no attribute "suffix"  [attr-defined]
+(mbdevpl)typed-astunparse/setup_boilerplate.py:281: error: "str" has no attribute "suffix"  [attr-defined]
+Found 12 errors in 1 file (checked 3 source files)
+
+[RRepo](karellen)karellen-kombu-ext
+Success: no issues found in 1 source file
+
+[RRepo](CIRCL)url-abuse
+
+[RRepo](mark-nicholson)python-editline
+(mark-nicholson)python-editline/editline/editline.py:8: error: Module 'editline' has no attribute '_editline'  [attr-defined]
+(mark-nicholson)python-editline/editline/editline.py:49: error: Need type annotation for 'commands' (hint: "commands: Dict[<type>, <type>] = ...")  [var-annotated]
+(mark-nicholson)python-editline/editline/editline.py:74: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(mark-nicholson)python-editline/editline/editline.py:77: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(mark-nicholson)python-editline/editline/editline.py:77: note: Perhaps you need "Callable[...]" or a callback protocol?
+(mark-nicholson)python-editline/editline/editline.py:234: error: Syntax error in type annotation  [syntax]
+(mark-nicholson)python-editline/editline/editline.py:234: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 5 errors in 1 file (checked 3 source files)
+
+[RRepo](Netherdrake)conductor
+
+[RRepo](webpwnized)cryptography
+(webpwnized)cryptography/visionary.py:101: error: Incompatible types in assignment (expression has type "bytes", variable has type "bytearray")  [assignment]
+(webpwnized)cryptography/substitute.py:189: error: Incompatible types in assignment (expression has type "bytes", variable has type "bytearray")  [assignment]
+(webpwnized)cryptography/shifty.py:67: error: Incompatible types in assignment (expression has type "bytes", variable has type "bytearray")  [assignment]
+(webpwnized)cryptography/hill-involutary-keys.py:104: error: Argument 2 to "get_adjunct" has incompatible type "int"; expected "List[Any]"  [arg-type]
+(webpwnized)cryptography/content-scrambing-system.py:147: error: Incompatible types in assignment (expression has type "bytes", variable has type "bytearray")  [assignment]
+(webpwnized)cryptography/affinity.py:23: error: Missing return statement  [return]
+(webpwnized)cryptography/affinity.py:201: error: Incompatible types in assignment (expression has type "bytes", variable has type "bytearray")  [assignment]
+Found 7 errors in 6 files (checked 7 source files)
+
+[RRepo](ozmartian)vidcutter
+Success: no issues found in 1 source file
+
+[RRepo](crashtua)hvapi
+(crashtua)hvapi/hvapi/clr/powershell.py:8: error: Name 'PSObject' already defined (possibly by an import)  [no-redef]
+(crashtua)hvapi/hvapi/disk/vhd.py:62: error: Invalid type comment or annotation  [valid-type]
+(crashtua)hvapi/hvapi/disk/vhd.py:62: note: Suggestion: use type[...] instead of type(...)
+(crashtua)hvapi/hvapi/disk/vhd.py:70: error: Invalid type comment or annotation  [valid-type]
+(crashtua)hvapi/hvapi/disk/vhd.py:70: note: Suggestion: use type[...] instead of type(...)
+(crashtua)hvapi/hvapi/disk/vhd.py:78: error: Invalid type comment or annotation  [valid-type]
+(crashtua)hvapi/hvapi/disk/vhd.py:78: note: Suggestion: use type[...] instead of type(...)
+(crashtua)hvapi/example.py:29: error: Module 'hvapi.disk.vhd' has no attribute 'VirtualStorageType'  [attr-defined]
+(crashtua)hvapi/example.py:39: error: "VHDDisk" has no attribute "properties"  [attr-defined]
+Found 6 errors in 3 files (checked 1 source file)
+
+[RRepo](eseifert)madam
+

@@ -1,0 +1,793 @@
+[RRepo](dcos)dcos
+Success: no issues found in 2 source files
+
+[RRepo](o19s)elasticsearch-learning-to-rank
+
+[RRepo](dslab-epfl)bugbase
+(dslab-epfl)bugbase/lib/__init__.py:13: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(dslab-epfl)bugbase/lib/__init__.py:13: note: Perhaps you need "Callable[...]" or a callback protocol?
+(dslab-epfl)bugbase/lib/__init__.py:21: error: callable? has no attribute "__subclasses__"  [attr-defined]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:16: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:16: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:32: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:32: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:54: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:54: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:65: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:65: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:84: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/lib/configuration/update/validators.py:84: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/lib/parsers/arguments.py:23: error: Signature of "parse_args" incompatible with supertype "ArgumentParser"  [override]
+(dslab-epfl)bugbase/lib/parsers/arguments.py:32: error: Incompatible types in assignment (expression has type "Namespace", variable has type "Optional[List[Any]]")  [assignment]
+(dslab-epfl)bugbase/lib/parsers/arguments.py:35: error: Incompatible return value type (got "Optional[List[Any]]", expected "Namespace")  [return-value]
+(dslab-epfl)bugbase/lib/parsers/arguments.py:54: error: Incompatible return value type (got "Optional[List[Any]]", expected "Namespace")  [return-value]
+(dslab-epfl)bugbase/lib/parsers/arguments.py:69: error: Module has no attribute "VERBOSE"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:14: error: Module 'configparser' has no attribute '_UNSET'  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:76: error: "Type[SectionProxy]" has no attribute "getlist"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:77: error: "Type[SectionProxy]" has no attribute "get_core_path"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:78: error: "Type[SectionProxy]" has no attribute "getdir"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:79: error: "Type[SectionProxy]" has no attribute "get_executable"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:80: error: "Type[SectionProxy]" has no attribute "get_library"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:119: error: "TypedConfigParser" has no attribute "_get"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:137: error: "TypedConfigParser" has no attribute "_get"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:155: error: Argument 1 of "read" is incompatible with supertype "RawConfigParser"; supertype defines the argument type as "Union[Union[str, _PathLike[str]], Iterable[Union[str, _PathLike[str]]]]"  [override]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:155: error: Return type "None" of "read" incompatible with return type "List[str]" in supertype "RawConfigParser"  [override]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:171: error: "None" has no attribute "get"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:173: error: "None" has no attribute "get"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:235: error: Argument 1 of "read" is incompatible with supertype "RawConfigParser"; supertype defines the argument type as "Union[Union[str, _PathLike[str]], Iterable[Union[str, _PathLike[str]]]]"  [override]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:235: error: Return type "None" of "read" incompatible with return type "List[str]" in supertype "RawConfigParser"  [override]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:250: error: "CompilerParser" has no attribute "_unify_values"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:255: error: "Mapping[str, str]" has no attribute "clear"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:262: error: "None" has no attribute "get"  [attr-defined]
+(dslab-epfl)bugbase/lib/parsers/configuration.py:264: error: "None" has no attribute "get"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:35: error: "Logger" has no attribute "_log"; maybe "log"?  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:49: error: "RootLogger" has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:57: error: "Type[Logger]" has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:58: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:59: error: Module has no attribute "VERBOSE"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:66: error: Module has no attribute "VERBOSE"  [attr-defined]
+(dslab-epfl)bugbase/lib/logger.py:70: error: Module has no attribute "VERBOSE"  [attr-defined]
+(dslab-epfl)bugbase/lib/helper.py:151: error: "CalledProcessError" has no attribute "error_msg"  [attr-defined]
+(dslab-epfl)bugbase/lib/helper.py:157: error: Item "None" of "Optional[Any]" has no attribute "decode"  [union-attr]
+(dslab-epfl)bugbase/lib/helper.py:175: error: Argument 1 to "launch_and_log" has incompatible type "str"; expected "List[Any]"  [arg-type]
+(dslab-epfl)bugbase/lib/configuration/update/__init__.py:40: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(dslab-epfl)bugbase/lib/configuration/update/__init__.py:51: error: Argument 1 to "format_closed_question" has incompatible type "str"; expected "bool"  [arg-type]
+(dslab-epfl)bugbase/lib/configuration/update/__init__.py:339: error: No return value expected  [return-value]
+(dslab-epfl)bugbase/lib/configuration/update/__init__.py:367: error: "update_conf" does not return a value  [func-returns-value]
+(dslab-epfl)bugbase/lib/configuration/update/__init__.py:370: error: No return value expected  [return-value]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:82: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:83: error: Need type annotation for 'results' (hint: "results: List[<type>] = ...")  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:98: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:109: error: Need type annotation for 'triggers' (hint: "triggers: List[<type>] = ...")  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:131: error: Need type annotation for 'results' (hint: "results: List[<type>] = ...")  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:141: error: Need type annotation for 'results_queue'  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:174: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:197: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/benchmark.py:223: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/configuration/dependencies.py:14: error: Module 'lib.installer' has no attribute 'Installer'  [attr-defined]
+(dslab-epfl)bugbase/lib/configuration/dependencies.py:40: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/configuration/dependencies.py:44: error: Module has no attribute "real_prefix"  [attr-defined]
+(dslab-epfl)bugbase/lib/configuration/dependencies.py:55: error: Need type annotation for 'dependencies' (hint: "dependencies: List[<type>] = ...")  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:144: error: Incompatible return value type (got "Type[BaseBenchmark]", expected "BaseBenchmark")  [return-value]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:146: error: Signature of "check_success" incompatible with supertype "RawTrigger"  [override]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:160: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:161: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:169: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:173: error: Argument 1 to "launch_and_log" has incompatible type "str"; expected "List[Any]"  [arg-type]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:235: error: Incompatible return value type (got "Type[BenchmarkWithHelper]", expected "BenchmarkWithHelper")  [return-value]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:242: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:257: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:264: error: Need type annotation for 'results_queue'  [var-annotated]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:267: error: "BaseHelper" not callable  [operator]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:302: error: Return type "ApacheBenchmark" of "benchmark" incompatible with return type "BenchmarkWithHelper" in supertype "TriggerWithHelper"  [override]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:306: error: Incompatible return value type (got "Type[ApacheBenchmark]", expected "ApacheBenchmark")  [return-value]
+(dslab-epfl)bugbase/lib/trigger/__init__.py:362: error: Incompatible return value type (got "Type[UrlFetcherHelper]", expected "UrlFetcherHelper")  [return-value]
+(dslab-epfl)bugbase/lib/plugins.py:16: error: Module 'lib.installer' has no attribute 'Installer'  [attr-defined]
+(dslab-epfl)bugbase/lib/plugins.py:105: error: Signature of "register_for_trigger" incompatible with supertype "BasePlugin"  [override]
+(dslab-epfl)bugbase/lib/plugins.py:161: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/plugins.py:162: error: Return value expected  [return-value]
+(dslab-epfl)bugbase/lib/plugins.py:167: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/lib/plugins.py:228: error: Signature of "register_for_install" incompatible with supertype "BasePlugin"  [override]
+(dslab-epfl)bugbase/lib/plugins.py:255: error: Signature of "register_for_trigger" incompatible with supertype "BasePlugin"  [override]
+(dslab-epfl)bugbase/lib/hooks.py:17: error: Need type annotation for 'JANITORS' (hint: "JANITORS: List[<type>] = ...")  [var-annotated]
+(dslab-epfl)bugbase/lib/hooks.py:91: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(dslab-epfl)bugbase/lib/hooks.py:91: note: Perhaps you need "Callable[...]" or a callback protocol?
+(dslab-epfl)bugbase/lib/hooks.py:176: error: callable? not callable  [misc]
+(dslab-epfl)bugbase/run.py:67: error: Missing return statement  [return]
+(dslab-epfl)bugbase/run.py:80: error: Module has no attribute "Trigger"  [attr-defined]
+(dslab-epfl)bugbase/run.py:84: error: Dict entry 0 has incompatible type "str": "MainPlugin"; expected "str": "Dict[Any, Any]"  [dict-item]
+(dslab-epfl)bugbase/run.py:92: error: Argument 1 to "pre_trigger_run" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "MainPlugin"  [arg-type]
+(dslab-epfl)bugbase/run.py:96: error: Argument 1 to "check_trigger_success" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "MainPlugin"  [arg-type]
+(dslab-epfl)bugbase/run.py:101: error: Argument 1 to "post_trigger_run" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "MainPlugin"  [arg-type]
+(dslab-epfl)bugbase/run.py:104: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/run.py:105: error: Argument 1 to "post_trigger_clean" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "MainPlugin"  [arg-type]
+(dslab-epfl)bugbase/run.py:108: error: Invalid type comment or annotation  [valid-type]
+(dslab-epfl)bugbase/run.py:144: error: No return value expected  [return-value]
+(dslab-epfl)bugbase/run.py:151: error: "main" does not return a value  [func-returns-value]
+(dslab-epfl)bugbase/install.py:19: error: Module 'lib.installer' has no attribute 'Installer'  [attr-defined]
+(dslab-epfl)bugbase/install.py:29: error: Syntax error in type annotation  [syntax]
+(dslab-epfl)bugbase/install.py:29: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dslab-epfl)bugbase/configure.py:52: error: "update" does not return a value  [func-returns-value]
+(dslab-epfl)bugbase/configure.py:54: error: No return value expected  [return-value]
+(dslab-epfl)bugbase/configure.py:66: error: No return value expected  [return-value]
+(dslab-epfl)bugbase/configure.py:69: error: Module has no attribute "verbose"  [attr-defined]
+(dslab-epfl)bugbase/configure.py:75: error: "main" does not return a value  [func-returns-value]
+Found 100 errors in 15 files (checked 12 source files)
+
+[RRepo](eliostvs)tomate-indicator-plugin
+Success: no issues found in 2 source files
+
+[RRepo](plugaai)aioinflux
+
+[RRepo](centaurialpha)pireal
+Success: no issues found in 1 source file
+
+[RRepo](jerryjiahaha)spe2fits
+(jerryjiahaha)spe2fits/spe2fits.py:260: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(jerryjiahaha)spe2fits/spe2fits.py:260: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](ariebovenberg)snug
+(ariebovenberg)snug/setup.py:12: error: Need type annotation for 'metadata' (hint: "metadata: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ms-iot)python
+
+[RRepo](terrycain)razer-drivers
+
+[RRepo](PyCQA)pylint
+(PyCQA)pylint/pylint/message/message_definition.py:10: error: Module 'pylint.utils' has no attribute 'normalize_text'  [attr-defined]
+(PyCQA)pylint/setup.py:50: error: Need type annotation for '__pkginfo__' (hint: "__pkginfo__: Dict[<type>, <type>] = ...")  [var-annotated]
+(PyCQA)pylint/pylint/checkers/base_checker.py:22: error: Module 'pylint.utils' has no attribute 'get_rst_section'  [attr-defined]
+(PyCQA)pylint/pylint/checkers/base_checker.py:22: error: Module 'pylint.utils' has no attribute 'get_rst_title'  [attr-defined]
+(PyCQA)pylint/pylint/checkers/__init__.py:43: error: Module 'pylint.utils' has no attribute 'register_plugins'  [attr-defined]
+(PyCQA)pylint/pylint/checkers/misc.py:27: error: Module 'pylint.message' has no attribute 'MessagesHandlerMixIn'  [attr-defined]
+(PyCQA)pylint/pylint/testutils.py:42: error: Module 'pylint.utils' has no attribute 'ASTWalker'  [attr-defined]
+(PyCQA)pylint/pylint/testutils.py:164: error: Incompatible types in assignment (expression has type "None", base class "object" defined the type as "Callable[[object], int]")  [assignment]
+(PyCQA)pylint/pylint/testutils.py:223: error: Need type annotation for 'CONFIG' (hint: "CONFIG: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 9 errors in 6 files (checked 23 source files)
+
+[RRepo](xenu256)QProb
+Success: no issues found in 1 source file
+
+[RRepo](jpurma)Kataja
+Success: no issues found in 1 source file
+
+[RRepo](GoC-Spending)fuzzy-tribble
+
+[RRepo](MattiasFredriksson)Blender-Projection_Ops
+
+[RRepo](parrt)AniML
+
+[RRepo](ceddie)bptc_wallet
+(ceddie)bptc_wallet/bptc/data/member.py:68: error: Item "None" of "Optional[Any]" has no attribute "info"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/event.py:50: error: Need type annotation for 'votes' (hint: "votes: Dict[<type>, <type>] = ...")  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/event.py:66: error: Need type annotation for 'can_see_cache' (hint: "can_see_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/event.py:103: error: Argument 2 to "Event" has incompatible type "Optional[List[Any]]"; expected "List[Transaction]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/event.py:139: error: Argument 2 to "Event" has incompatible type "Optional[List[Any]]"; expected "List[Transaction]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/event.py:183: error: Argument 2 to "Event" has incompatible type "Optional[List[Any]]"; expected "List[Transaction]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/event.py:213: error: "None" has no attribute "encode"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/consensus.py:68: error: Need type annotation for 'result'  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/consensus.py:98: error: Need type annotation for 'members_on_paths'  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/consensus.py:100: error: Need type annotation for 'visited' (hint: "visited: Set[<type>] = ...")  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/consensus.py:129: error: Need type annotation for 'result'  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/consensus.py:190: error: Syntax error in type annotation  [syntax]
+(ceddie)bptc_wallet/bptc/data/consensus.py:190: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:82: error: Need type annotation for 'visited' (hint: "visited: Set[<type>] = ...")  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:135: error: Item "None" of "Optional[Any]" has no attribute "warn"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:152: error: Item "None" of "Optional[Any]" has no attribute "debug"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:166: error: Item "None" of "Optional[Any]" has no attribute "error"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:170: error: Item "None" of "Optional[Any]" has no attribute "error"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:178: error: Argument 2 to "Event" has incompatible type "None"; expected "List[Transaction]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:194: error: Item "None" of "Optional[Any]" has no attribute "debug"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/hashgraph.py:287: error: Item "None" of "Optional[Any]" has no attribute "warn"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:21: error: Argument 1 to "connect" has incompatible type "None"; expected "Union[bytes, str]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/db.py:36: error: Module "sqlite3" is not valid as a type  [valid-type]
+(ceddie)bptc_wallet/bptc/data/db.py:40: error: Item "None" of "Optional[Connection]" has no attribute "cursor"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:52: error: sqlite3? has no attribute "execute"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/db.py:65: error: sqlite3? has no attribute "execute"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/db.py:87: error: "None" has no attribute "replace"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/db.py:96: error: Item "None" of "Optional[Connection]" has no attribute "commit"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:100: error: Item "None" of "Optional[Any]" has no attribute "error"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:101: error: Item "None" of "Optional[Connection]" has no attribute "commit"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:111: error: sqlite3? has no attribute "execute"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/db.py:119: error: sqlite3? has no attribute "execute"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/db.py:135: error: Item "None" of "Optional[Any]" has no attribute "warn"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/db.py:157: error: Need type annotation for 'ordered_events' (hint: "ordered_events: List[<type>] = ...")  [var-annotated]
+(ceddie)bptc_wallet/bptc/data/db.py:167: error: Item "None" of "Optional[Any]" has no attribute "debug"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/network.py:45: error: Argument 2 to "Event" has incompatible type "None"; expected "List[Transaction]"  [arg-type]
+(ceddie)bptc_wallet/bptc/data/network.py:107: error: Item "None" of "Optional[Any]" has no attribute "debug"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/network.py:140: error: Item "None" of "Optional[Any]" has no attribute "debug"  [union-attr]
+(ceddie)bptc_wallet/bptc/data/network.py:258: error: Incompatible types in assignment (expression has type "PushingClientThread", variable has type "None")  [assignment]
+(ceddie)bptc_wallet/bptc/data/network.py:259: error: "None" has no attribute "daemon"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/network.py:260: error: "None" has no attribute "start"  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/network.py:265: error: "None" has no attribute "stop"  [attr-defined]
+(ceddie)bptc_wallet/viz.py:155: error: Not all arguments converted during string formatting  [str-format]
+Found 42 errors in 7 files (checked 3 source files)
+
+[RRepo](cernyd)gnunigma
+(cernyd)gnunigma/data_handler.py:23: error: Incompatible types in assignment (expression has type "str", variable has type Module)  [assignment]
+(cernyd)gnunigma/data_handler.py:37: error: "Base" has no attribute "attributes"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:38: error: "Base" has no attribute "after"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:38: error: "Base" has no attribute "attributes"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:39: error: "Base" has no attribute "resizable"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:41: error: "Base" has no attribute "iconbitmap"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:42: error: "Base" has no attribute "wm_title"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:43: error: "Base" has no attribute "grab_set"  [attr-defined]
+Found 8 errors in 1 file (checked 3 source files)
+
+[RRepo](vovanbo)aiohttp_json_api
+(vovanbo)aiohttp_json_api/aiohttp_json_api/abc/field.py:23: error: Overloaded method has both abstract and non-abstract variants  [misc]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/abc/field.py:28: error: Decorated property not supported  [misc]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/abc/field.py:33: error: Overloaded method has both abstract and non-abstract variants  [misc]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/abc/field.py:38: error: Decorated property not supported  [misc]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/fields/base.py:116: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/fields/base.py:120: error: Incompatible return value type (got "None", expected "JSONPointer")  [return-value]
+(vovanbo)aiohttp_json_api/travis_pypi_setup.py:19: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/helpers.py:204: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:131: error: Argument 2 to "setdefault" of "dict" has incompatible type "OrderedDict[<nothing>, <nothing>]"; expected "List[Any]"  [arg-type]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:132: error: No overload variant of "__setitem__" of "list" matches argument types "str", "str"  [call-overload]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:132: note: Possible overload variants:
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:132: note:     def __setitem__(self, int, Any) -> None
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:132: note:     def __setitem__(self, slice, Iterable[Any]) -> None
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:134: error: "List[Any]" has no attribute "update"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:140: error: Argument 2 to "setdefault" of "dict" has incompatible type "OrderedDict[<nothing>, <nothing>]"; expected "List[Any]"  [arg-type]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:143: error: "List[Any]" has no attribute "update"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:144: error: "List[Any]" has no attribute "update"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/utils.py:147: error: "List[Any]" has no attribute "update"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:69: error: "Type[BaseSchema]" has no attribute "_declared_fields"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:117: error: "BaseSchema" has no attribute "opts"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:120: error: "BaseSchema" has no attribute "_attributes"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:121: error: "BaseSchema" has no attribute "_relationships"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:122: error: "BaseSchema" has no attribute "_meta"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:123: error: "BaseSchema" has no attribute "_links"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/schema.py:127: error: "BaseSchema" has no attribute "opts"  [attr-defined]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:68: error: Item "None" of "Optional[SchemaABC]" has no attribute "deserialize_resource"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:71: error: Item "SchemaABC" of "Optional[SchemaABC]" has no attribute "map_data_to_schema"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:71: error: Item "None" of "Optional[SchemaABC]" has no attribute "map_data_to_schema"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:130: error: Item "None" of "Optional[SchemaABC]" has no attribute "deserialize_resource"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:173: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:185: error: Item "None" of "Optional[SchemaABC]" has no attribute "serialize_relationship"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:201: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:216: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:221: error: Item "None" of "Optional[SchemaABC]" has no attribute "pre_validate_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:233: error: Item "None" of "Optional[SchemaABC]" has no attribute "serialize_relationship"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:249: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:263: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:266: error: Item "None" of "Optional[SchemaABC]" has no attribute "pre_validate_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:278: error: Item "None" of "Optional[SchemaABC]" has no attribute "serialize_relationship"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:294: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:309: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:314: error: Item "None" of "Optional[SchemaABC]" has no attribute "pre_validate_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:326: error: Item "None" of "Optional[SchemaABC]" has no attribute "serialize_relationship"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:342: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+(vovanbo)aiohttp_json_api/aiohttp_json_api/handlers.py:355: error: Item "None" of "Optional[SchemaABC]" has no attribute "get_relationship_field"  [union-attr]
+Found 42 errors in 7 files (checked 13 source files)
+
+[RRepo](Hardtack)Flask-Swag
+(Hardtack)Flask-Swag/setup.py:9: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+(Hardtack)Flask-Swag/flask_swag/utils.py:64: error: Argument 2 to "get" of "Mapping" has incompatible type "None"; expected "Union[Dict[str, str], Dict[Any, Any]]"  [arg-type]
+(Hardtack)Flask-Swag/flask_swag/__init__.py:16: error: Module 'flask_swag.extractor' has no attribute 'Extractor'  [attr-defined]
+(Hardtack)Flask-Swag/flask_swag/__init__.py:16: error: Module 'flask_swag.extractor' has no attribute 'MarkExtractor'  [attr-defined]
+Found 4 errors in 3 files (checked 8 source files)
+
+[RRepo](JLuebben)Floppy
+
+[RRepo](cenkalti)kuyruk
+Success: no issues found in 1 source file
+
+[RRepo](SunDwarf)OWAPI
+
+[RRepo](conferency)find-my-reviewers
+Success: no issues found in 3 source files
+
+[RRepo](tomer8007)kik-bot-api-unofficial
+
+[RRepo](chovanecm)sacredboard
+Success: no issues found in 1 source file
+
+[RRepo](tjcsl)ion
+Success: no issues found in 2 source files
+
+[RRepo](codesardine)Jade-Application-Kit
+
+[RRepo](claudio-walser)gitcd
+Success: no issues found in 1 source file
+
+[RRepo](mattsb42)pypi-parker
+Success: no issues found in 1 source file
+
+[RRepo](wegamekinglc)alpha-mind
+
+[RRepo](itsthejoker)TranscribersOfReddit
+(itsthejoker)TranscribersOfReddit/setup.py:12: error: Module 'tor' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](dronecrew)ulog_tools
+
+[RRepo](introlab)OpenIMU
+
+[RRepo](phauer)comment-sidecar
+
+[RRepo](ClaudiuGeorgiu)PlaystoreDownloader
+(ClaudiuGeorgiu)PlaystoreDownloader/flask_app.py:21: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](BigBrotherTrade)dashboard
+
+[RRepo](betterclever)susi_hardware
+Success: no issues found in 1 source file
+
+[RRepo](scivision)piradar
+(scivision)piradar/Looper.py:60: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/Looper.py:62: error: "ArgumentParser" has no attribute "fs"  [attr-defined]
+(scivision)piradar/Looper.py:64: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/Looper.py:64: error: "ArgumentParser" has no attribute "tlim"  [attr-defined]
+(scivision)piradar/FMCWteam.py:82: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/FMCWteam.py:84: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/FMCWteam.py:84: error: "ArgumentParser" has no attribute "start"  [attr-defined]
+(scivision)piradar/FMCWteam.py:84: error: "ArgumentParser" has no attribute "end"  [attr-defined]
+(scivision)piradar/CWsubspace.py:197: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/CWsubspace.py:199: error: "ArgumentParser" has no attribute "fs"  [attr-defined]
+(scivision)piradar/CWsubspace.py:201: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/CWsubspace.py:202: error: "ArgumentParser" has no attribute "Np"  [attr-defined]
+(scivision)piradar/CWsubspace.py:202: error: "ArgumentParser" has no attribute "T"  [attr-defined]
+(scivision)piradar/CWsubspace.py:204: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/CWsubspace.py:204: error: "ArgumentParser" has no attribute "tlim"  [attr-defined]
+(scivision)piradar/CWsubspace.py:205: error: "ArgumentParser" has no attribute "fx0"  [attr-defined]
+(scivision)piradar/CWsubspace.py:208: error: "ArgumentParser" has no attribute "noest"  [attr-defined]
+(scivision)piradar/CWsubspace.py:209: error: "ArgumentParser" has no attribute "Nt"  [attr-defined]
+(scivision)piradar/CWsubspace.py:209: error: "ArgumentParser" has no attribute "method"  [attr-defined]
+(scivision)piradar/CWsubspace.py:209: error: "ArgumentParser" has no attribute "python"  [attr-defined]
+(scivision)piradar/CWsubspace.py:209: error: "ArgumentParser" has no attribute "all"  [attr-defined]
+(scivision)piradar/CWsubspace.py:213: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/rp_eclipse.py:21: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/rp_eclipse.py:23: error: "ArgumentParser" has no attribute "outstem"  [attr-defined]
+(scivision)piradar/rp_eclipse.py:25: error: "ArgumentParser" has no attribute "iface"  [attr-defined]
+(scivision)piradar/rp_eclipse.py:30: error: "ArgumentParser" has no attribute "freqMHz"  [attr-defined]
+(scivision)piradar/rp_eclipse.py:38: error: "ArgumentParser" has no attribute "freqMHz"  [attr-defined]
+(scivision)piradar/receive.py:30: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/receive.py:32: error: "ArgumentParser" has no attribute "fntx"  [attr-defined]
+(scivision)piradar/receive.py:32: error: "ArgumentParser" has no attribute "fnrx"  [attr-defined]
+(scivision)piradar/receive.py:32: error: "ArgumentParser" has no attribute "fs"  [attr-defined]
+(scivision)piradar/piradar/plots.py:94: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[str, str]")  [assignment]
+(scivision)piradar/piradar/plots.py:97: error: Incompatible types in string interpolation (expression has type "str", placeholder has type "Union[int, float]")  [str-format]
+(scivision)piradar/StreamingChirpRX.py:129: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/StreamingChirpRX.py:132: error: "ArgumentParser" has no attribute "outfn"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:134: error: "ArgumentParser" has no attribute "rxfn"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:136: error: "ArgumentParser" has no attribute "txfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:138: error: "ArgumentParser" has no attribute "rxfn"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:139: error: "ArgumentParser" has no attribute "rxfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:143: error: "ArgumentParser" has no attribute "txfn"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:144: error: "ArgumentParser" has no attribute "txfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:145: error: "ArgumentParser" has no attribute "pri"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:146: error: "ArgumentParser" has no attribute "Nchirp"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:147: error: "ArgumentParser" has no attribute "tm"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:148: error: "ArgumentParser" has no attribute "t0"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:150: error: "ArgumentParser" has no attribute "verbose"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:153: error: "ArgumentParser" has no attribute "txfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:153: error: "ArgumentParser" has no attribute "rxfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:154: error: Incompatible types in assignment (expression has type "Fraction", target has type "Optional[Path]")  [assignment]
+(scivision)piradar/StreamingChirpRX.py:154: error: "ArgumentParser" has no attribute "txfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:154: error: "ArgumentParser" has no attribute "rxfs"  [attr-defined]
+(scivision)piradar/StreamingChirpRX.py:156: error: Item "None" of "Optional[Path]" has no attribute "suffix"  [union-attr]
+(scivision)piradar/StreamingChirpRX.py:158: error: Item "None" of "Optional[Path]" has no attribute "suffix"  [union-attr]
+(scivision)piradar/PlotSpectrum.py:76: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/PlotSpectrum.py:78: error: "ArgumentParser" has no attribute "tlim"  [attr-defined]
+(scivision)piradar/PlotSpectrum.py:82: error: "ArgumentParser" has no attribute "fx0"  [attr-defined]
+(scivision)piradar/PlotSpectrum.py:87: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/PlotSpectrum.py:87: error: "ArgumentParser" has no attribute "fx0"  [attr-defined]
+(scivision)piradar/PlotSimple.py:76: error: "ArgumentParser" has no attribute "audiobw"  [attr-defined]
+(scivision)piradar/PlotSimple.py:76: error: "ArgumentParser" has no attribute "frumble"  [attr-defined]
+(scivision)piradar/PlotSimple.py:78: error: "ArgumentParser" has no attribute "audiobw"  [attr-defined]
+(scivision)piradar/PlotSimple.py:101: error: Incompatible types in assignment (expression has type "Namespace", variable has type "ArgumentParser")  [assignment]
+(scivision)piradar/PlotSimple.py:103: error: "ArgumentParser" has no attribute "fn"  [attr-defined]
+(scivision)piradar/PlotSimple.py:104: error: "ArgumentParser" has no attribute "rxfs"  [attr-defined]
+(scivision)piradar/PlotSimple.py:105: error: "ArgumentParser" has no attribute "txfn"  [attr-defined]
+(scivision)piradar/PlotSimple.py:106: error: "ArgumentParser" has no attribute "txfs"  [attr-defined]
+(scivision)piradar/PlotSimple.py:107: error: "ArgumentParser" has no attribute "demod"  [attr-defined]
+(scivision)piradar/PlotSimple.py:108: error: "ArgumentParser" has no attribute "pri"  [attr-defined]
+(scivision)piradar/PlotSimple.py:109: error: "ArgumentParser" has no attribute "Npulse"  [attr-defined]
+(scivision)piradar/PlotSimple.py:110: error: "ArgumentParser" has no attribute "amplitude"  [attr-defined]
+(scivision)piradar/PlotSimple.py:111: error: "ArgumentParser" has no attribute "fc"  [attr-defined]
+(scivision)piradar/PlotSimple.py:112: error: "ArgumentParser" has no attribute "tlim"  [attr-defined]
+(scivision)piradar/PlotSimple.py:119: error: "ArgumentParser" has no attribute "zeropad"  [attr-defined]
+(scivision)piradar/PlotSimple.py:121: error: Argument 3 to "plotraw" has incompatible type "float"; expected "int"  [arg-type]
+(scivision)piradar/PlotSimple.py:122: error: Argument 2 to "spec" has incompatible type "float"; expected "int"  [arg-type]
+(scivision)piradar/PlotSimple.py:124: error: "ArgumentParser" has no attribute "wavfn"  [attr-defined]
+Found 76 errors in 9 files (checked 14 source files)
+
+[RRepo](wtsi-hgi)python-json
+Success: no issues found in 1 source file
+
+[RRepo](CactusDev)CactusBot
+
+[RRepo](mirumee)google-measurement-protocol
+
+[RRepo](sat2707)aicups
+
+[RRepo](jmackie4)activityio
+
+[RRepo](home-assistant)home-assistant
+
+[RRepo](ikbenlike)Xenon
+
+[RRepo](Dejust)flask-base
+
+[RRepo](socialwifi)dila
+
+[RRepo](RasaHQ)rasa_core
+
+[RRepo](Phelimb)cbg
+
+[RRepo](couchbase)perfrunner
+(couchbase)perfrunner/logger.py:57: error: "Logger" has no attribute "interrupt"  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/worker.py:12: error: Module 'perfrunner' has no attribute 'celerylocal'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/worker.py:12: error: Module 'perfrunner' has no attribute 'celeryremote'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/worker.py:141: error: "Callable[..., Any]" has no attribute "apply_async"  [attr-defined]
+(couchbase)perfrunner/cbagent/stores.py:13: error: Need type annotation for 'dbs' (hint: "dbs: Set[<type>] = ...")  [var-annotated]
+(couchbase)perfrunner/cbagent/stores.py:36: error: "None" has no attribute "post"  [attr-defined]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:29: error: Need type annotation for 'COLLECTORS' (hint: "COLLECTORS: Dict[<type>, <type>] = ...")  [var-annotated]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:55: error: Need type annotation for 'cbmonitor_snapshots' (hint: "cbmonitor_snapshots: List[<type>] = ...")  [var-annotated]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:56: error: Need type annotation for 'cbmonitor_clusters' (hint: "cbmonitor_clusters: List[<type>] = ...")  [var-annotated]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:134: error: Missing return statement  [return]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:139: error: Missing return statement  [return]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:141: error: "PerfTest" has no attribute "rebalance_settings"  [attr-defined]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:142: error: "PerfTest" has no attribute "rebalance_settings"  [attr-defined]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:143: error: Return value expected  [return-value]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:150: error: Missing return statement  [return]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:151: error: "RemoteHelper" has no attribute "detect_core_dumps"  [attr-defined]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:257: error: "WorkerManager" has no attribute "run_tasks"  [attr-defined]
+(couchbase)perfrunner/perfrunner/tests/__init__.py:259: error: "WorkerManager" has no attribute "wait_for_workers"  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'IO'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'PS'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'ActiveTasks'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'AnalyticsStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'Disk'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'DurabilityLatency'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'ElasticStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'EventingConsumerStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'EventingPerNodeStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'EventingStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'FTSCollector'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'JTSCollector'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'KVLatency'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'Memory'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'N1QLStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'Net'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'NSServer'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'NSServerOverview'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'NSServerSystem'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'ObserveIndexLatency'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'ObserveSecondaryIndexLatency'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'PageCache'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'QueryLatency'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryDebugStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryDebugStatsBucket'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryDebugStatsIndex'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryLatencyStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryStorageStats'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'SecondaryStorageStatsMM'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'Sysdig'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'TypePerf'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'XdcrLag'  [attr-defined]
+(couchbase)perfrunner/perfrunner/helpers/cbmonitor.py:10: error: Module 'cbagent.collectors' has no attribute 'XdcrStats'  [attr-defined]
+(couchbase)perfrunner/perfdaily/__init__.py:17: error: Incompatible types in assignment (expression has type "DailyReporter", variable has type "ShowFastReporter")  [assignment]
+(couchbase)perfrunner/perfrunner/tests/tools.py:148: error: Signature of "_report_kpi" incompatible with supertype "PerfTest"  [override]
+(couchbase)perfrunner/perfrunner/tests/tools.py:211: error: Signature of "_report_kpi" incompatible with supertype "PerfTest"  [override]
+(couchbase)perfrunner/perfrunner/tests/tools.py:379: error: Signature of "_report_kpi" incompatible with supertype "PerfTest"  [override]
+(couchbase)perfrunner/perfrunner/tests/tools.py:447: error: Signature of "_report_kpi" incompatible with supertype "PerfTest"  [override]
+(couchbase)perfrunner/perfrunner/tests/tools.py:489: error: Signature of "_report_kpi" incompatible with supertype "PerfTest"  [override]
+Found 58 errors in 7 files (checked 3 source files)
+
+[RRepo](seanegoodwin)PandaViewer
+(seanegoodwin)PandaViewer/PandaViewer/logger.py:9: error: "Logger" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:42: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:109: error: Syntax error in type annotation  [syntax]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:109: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:130: error: Module has no attribute "windll"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:134: error: Syntax error in type annotation  [syntax]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:134: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:29: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:29: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:36: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:36: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:53: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:53: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:28: error: Variable "PandaViewer.ex_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:28: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:47: error: Variable "PandaViewer.ex_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:47: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:35: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:53: error: Item "None" of "Optional[Metadata]" has no attribute "save"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: error: No overload variant of "pop" of "MutableMapping" matches argument type "None"  [call-overload]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note: Possible overload variants:
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note:     def pop(self, k: str) -> Metadata
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note:     def [_T] pop(self, k: str, default: Union[Metadata, _T] = ...) -> Union[Metadata, _T]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:103: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:118: error: "None" not callable  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:156: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:199: error: "None" not callable  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:226: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:230: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:234: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:238: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:242: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:246: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:250: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:250: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:254: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:276: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:280: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:292: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:305: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:306: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:307: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:308: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:317: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:317: error: Incompatible return value type (got "Optional[Any]", expected "int")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:321: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:325: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:325: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:329: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:342: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:342: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:346: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:347: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:348: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:349: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:369: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:22: error: "Logger" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:31: error: Module has no attribute "windll"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:35: error: Module 'PandaViewer' has no attribute 'program'  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:35: error: Module 'PandaViewer' has no attribute 'threads'  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/config.py:210: error: Cannot assign to a type  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/config.py:210: error: Incompatible types in assignment (expression has type "Config", variable has type "Type[Config]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:17: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:18: error: "Type[Search]" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:21: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:25: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:41: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:45: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:48: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:84: error: Missing return statement  [return]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:85: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:88: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:95: error: Missing return statement  [return]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:96: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:97: error: "Type[Search]" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:100: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/views.py:2: error: Module 'PandaViewer' has no attribute 'flask_app'  [attr-defined]
+Found 72 errors in 9 files (checked 13 source files)
+
+[RRepo](SymbiFlow)symbiflow-arch-defs
+
+[RRepo](khardix)mccurse
+(khardix)mccurse/setup.py:3: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](alexmick)emoji-data-python
+
+[RRepo](guyingbo)shadowproxy
+
+[RRepo](artificilabs)trelliolibs
+
+[RRepo](infopz)VotiFermiBot
+Success: no issues found in 1 source file
+
+[RRepo](pydcs)dcs
+
+[RRepo](0h-n0)forex_py
+Success: no issues found in 1 source file
+
+[RRepo](marczellm)tkpf
+
+[RRepo](kubeflow)kfserving
+
+[RRepo](pdt256)kata
+
+[RRepo](eaudeweb)lcc-toolkit
+
+[RRepo](cylc)cylc
+(cylc)cylc/setup.py:68: error: Unsupported left operand type for + ("object")  [operator]
+(cylc)cylc/setup.py:69: error: Unsupported left operand type for + ("object")  [operator]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](tek)amino
+
+[RRepo](tkukushkin)asynqp-consumer
+
+[RRepo](agraubert)agutil
+
+[RRepo](mikeckennedy)write-pythonic-code-demos
+
+[RRepo](OpenNFT)OpenNFT
+(OpenNFT)OpenNFT/setup.py:10: error: Module 'distutils.core' has no attribute 'DistutilsOptionError'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](agdsn)sipa
+(agdsn)sipa/sipa/backends/exceptions.py:8: error: Too many arguments for "__init__" of "BaseException"  [call-arg]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:34: error: The type alias is invalid in runtime context  [misc]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:46: error: "object" has no attribute "_name"  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:50: error: "Type[List[Any]]" has no attribute "_name"  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:59: error: "TypeAlias" has no attribute "_name"  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:96: error: "TypeAlias" has no attribute "_name"  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/unserialize.py:117: error: 'property' used with a non-method  [misc]
+(agdsn)sipa/sipa/model/misc.py:6: error: Module 'sipa.backends' has no attribute 'backends'  [attr-defined]
+(agdsn)sipa/sipa/model/hss/ldap.py:144: error: Need type annotation for 'DEFAULT_CONNECT_ARGS' (hint: "DEFAULT_CONNECT_ARGS: Dict[<type>, <type>] = ...")  [var-annotated]
+(agdsn)sipa/sipa/model/hss/ldap.py:145: error: Need type annotation for 'DEFAULT_SERVER_ARGS' (hint: "DEFAULT_SERVER_ARGS: Dict[<type>, <type>] = ...")  [var-annotated]
+(agdsn)sipa/sipa/backends/datasource.py:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(agdsn)sipa/sipa/base.py:13: error: Module 'sipa.backends' has no attribute 'backends'  [attr-defined]
+(agdsn)sipa/sipa/backends/extension.py:2: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(agdsn)sipa/sipa/backends/extension.py:307: error: "Type[UserLike]" has no attribute "from_ip"  [attr-defined]
+(agdsn)sipa/sipa/model/user.py:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(agdsn)sipa/sipa/mail.py:125: error: Item "None" of "Optional[Dormitory]" has no attribute "datasource"  [union-attr]
+(agdsn)sipa/sipa/mail.py:129: error: Item "None" of "Optional[Dormitory]" has no attribute "display_name"  [union-attr]
+(agdsn)sipa/sipa/mail.py:174: error: "None" has no attribute "mail_server"  [attr-defined]
+(agdsn)sipa/sipa/mail.py:175: error: "None" has no attribute "support_mail"  [attr-defined]
+(agdsn)sipa/sipa/mail.py:200: error: "send_mail" gets multiple values for keyword argument "subject"  [misc]
+(agdsn)sipa/sipa/mail.py:200: error: "send_mail" gets multiple values for keyword argument "message"  [misc]
+(agdsn)sipa/sipa/model/hss/user.py:173: error: Name 'network_access_active' already defined on line 169  [no-redef]
+(agdsn)sipa/sipa/model/hss/user.py:185: error: Name 'mac' already defined on line 180  [no-redef]
+(agdsn)sipa/sipa/model/hss/user.py:267: error: Name 'use_cache' already defined on line 226  [no-redef]
+(agdsn)sipa/sipa/model/hss/user.py:279: error: Name 'use_cache' already defined on line 267  [no-redef]
+(agdsn)sipa/sipa/model/pycroft/user.py:25: error: Incompatible types in assignment (expression has type "LocalProxy", variable has type "PycroftApi")  [assignment]
+(agdsn)sipa/sipa/model/pycroft/user.py:113: error: Name 'network_access_active' already defined on line 106  [no-redef]
+(agdsn)sipa/sipa/model/pycroft/user.py:128: error: Name 'mac' already defined on line 100  [no-redef]
+(agdsn)sipa/sipa/model/pycroft/user.py:149: error: Name 'mail' already defined on line 145  [no-redef]
+(agdsn)sipa/sipa/model/pycroft/user.py:158: error: Name 'mail' already defined on line 145  [no-redef]
+(agdsn)sipa/sipa/model/pycroft/user.py:191: error: Name 'use_cache' already defined on line 179  [no-redef]
+(agdsn)sipa/sipa/model/hss/__init__.py:5: error: Module 'sipa.backends' has no attribute 'DataSource'  [attr-defined]
+(agdsn)sipa/sipa/model/hss/__init__.py:5: error: Module 'sipa.backends' has no attribute 'Dormitory'  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/__init__.py:5: error: Module 'sipa.backends' has no attribute 'DataSource'  [attr-defined]
+(agdsn)sipa/sipa/model/pycroft/__init__.py:5: error: Module 'sipa.backends' has no attribute 'Dormitory'  [attr-defined]
+(agdsn)sipa/sipa/model/__init__.py:4: error: Module 'sipa.backends' has no attribute 'Backends'  [attr-defined]
+(agdsn)sipa/sipa/model/__init__.py:14: error: Module has no attribute "datasource"  [attr-defined]
+Found 37 errors in 14 files (checked 32 source files)
+
+[RRepo](attwad)python-osc
+
+[RRepo](etataurov)asyncio-apns
+
+[RRepo](ReagentX)HLTV-Scraper
+
+[RRepo](samuelcolvin)arq
+
+[RRepo](c3cashdesk)c6sh
+
+[RRepo](ytanay)thinglang
+
+[RRepo](fastats)fastats
+(fastats)fastats/tests/test_name_error_nested.py:12: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/test_name_error_multi.py:4: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/test_name_error_minimal.py:12: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/test_name_error_addition.py:18: error: Module 'fastats' has no attribute 'fs'  [attr-defined]
+(fastats)fastats/setup.py:35: error: Item "_Loader" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(fastats)fastats/setup.py:35: error: Item "None" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(fastats)fastats/setup.py:37: error: Module has no attribute "VERSION"  [attr-defined]
+Found 7 errors in 5 files (checked 8 source files)
+
+[RRepo](getnikola)nikola
+Success: no issues found in 2 source files
+
+[RRepo](prkumar)uplink
+(prkumar)uplink/setup.py:13: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](raiden-network)raiden
+Success: no issues found in 1 source file
+
+[RRepo](containerum)chkit
+
+[RRepo](joliveros)bitmex-websocket
+Success: no issues found in 2 source files
+
+[RRepo](StarbotDiscord)Starbot
+Success: no issues found in 1 source file
+
+[RRepo](igemsoftware2016)USTC-Software-2016
+(igemsoftware2016)USTC-Software-2016/plugin.py:7: error: Module 'models' has no attribute 'Document'  [attr-defined]
+(igemsoftware2016)USTC-Software-2016/plugin.py:7: error: Module 'models' has no attribute 'PluginDocument'  [attr-defined]
+(igemsoftware2016)USTC-Software-2016/plugin.py:76: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(igemsoftware2016)USTC-Software-2016/database.py:10: error: Name 'create_engine' is not defined  [name-defined]
+(igemsoftware2016)USTC-Software-2016/database.py:10: error: Cannot determine type of 'app'  [has-type]
+(igemsoftware2016)USTC-Software-2016/database.py:17: error: Name 'app' already defined (by an import)  [no-redef]
+(igemsoftware2016)USTC-Software-2016/database.py:30: error: Module has no attribute "teardown_appcontext"  [attr-defined]
+(igemsoftware2016)USTC-Software-2016/app/__init__.py:18: error: Module 'models' has no attribute 'User'  [attr-defined]
+(igemsoftware2016)USTC-Software-2016/app/__init__.py:29: error: Name 'home' is not defined  [name-defined]
+(igemsoftware2016)USTC-Software-2016/app/__init__.py:30: error: Name 'plugin' is not defined  [name-defined]
+Found 10 errors in 3 files (checked 4 source files)
+
+[RRepo](Ajapaik)ajapaik-web
+
+[RRepo](jr-minnaar)bitrader
+
+[RRepo](sameersingh)uci-statnlp
+
+[RRepo](CAB-LAB)cablab-core
+Success: no issues found in 1 source file
+
+[RRepo](lopter)lightsd
+
+[RRepo](wylee)runcommands
+(wylee)runcommands/runcommands/util/misc.py:55: error: Argument 1 to "flatten_args" has incompatible type "Union[List[Any], Tuple[Any, ...]]"; expected "List[Any]"  [arg-type]
+(wylee)runcommands/runcommands/commands.py:17: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:17: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:61: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:104: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:104: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:106: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:106: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:109: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:109: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:110: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:110: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:111: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:111: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:204: error: Incompatible types in assignment (expression has type "CompletedProcess[Any]", variable has type "Result")  [assignment]
+(wylee)runcommands/runcommands/commands.py:205: error: Argument 1 to "from_subprocess_result" of "Result" has incompatible type "Result"; expected "CompletedProcess[Any]"  [arg-type]
+(wylee)runcommands/runcommands/commands.py:214: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:214: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:222: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:222: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:225: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:225: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:226: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:226: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:277: error: Need type annotation for 'remote_cmd' (hint: "remote_cmd: List[<type>] = ...")  [var-annotated]
+(wylee)runcommands/runcommands/commands.py:298: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(wylee)runcommands/runcommands/commands.py:299: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(wylee)runcommands/runcommands/commands.py:300: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(wylee)runcommands/runcommands/commands.py:300: error: Argument 1 to "quote" has incompatible type "List[str]"; expected "str"  [arg-type]
+(wylee)runcommands/runcommands/commands.py:303: error: Incompatible types in assignment (expression has type "str", variable has type "List[List[str]]")  [assignment]
+(wylee)runcommands/runcommands/commands.py:303: error: Argument 1 to "join" of "str" has incompatible type "List[List[str]]"; expected "Iterable[str]"  [arg-type]
+(wylee)runcommands/runcommands/commands.py:327: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:327: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:328: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/runcommands/commands.py:328: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/runcommands/commands.py:349: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[str, str]")  [assignment]
+(wylee)runcommands/commands.py:49: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:49: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/commands.py:50: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:50: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/commands.py:51: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:123: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:124: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:125: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:136: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:136: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/commands.py:137: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:137: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/commands.py:138: error: Invalid type comment or annotation  [valid-type]
+(wylee)runcommands/commands.py:138: note: Suggestion: use arg[...] instead of arg(...)
+(wylee)runcommands/commands.py:151: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+Found 34 errors in 3 files (checked 1 source file)
+
+[RRepo](nfqsolutions)pylm
+
+[RRepo](psy0rz)meowton
+
+[RRepo](i2y)mochi
+(i2y)mochi/setup.py:7: error: Module 'mochi' has no attribute '__author__'  [attr-defined]
+(i2y)mochi/setup.py:7: error: Module 'mochi' has no attribute '__version__'  [attr-defined]
+(i2y)mochi/setup.py:7: error: Module 'mochi' has no attribute '__license__'  [attr-defined]
+(i2y)mochi/setup.py:7: error: Module 'mochi' has no attribute 'GE_PYTHON_34'  [attr-defined]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](pilotak)HomeAssistant-CustomComponents
+Success: no issues found in 1 source file
+
+[RRepo](Joklost).vimrc
+Success: no issues found in 1 source file
+
+[RRepo](mikeckennedy)consuming_services_python_demos
+
+[RRepo](dpgaspar)Flask-AppBuilder
+(dpgaspar)Flask-AppBuilder/setup.py:9: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](DLR-SC)prov2bigchaindb
+
+[RRepo](faneshion)MatchZoo
+

@@ -1,0 +1,756 @@
+[RRepo](CrazyPython)ssapp
+
+[RRepo](achimnol)aiotools
+
+[RRepo](theawless)Dict-O-nator
+(theawless)Dict-O-nator/dictonator/settings.py:35: error: Need type annotation for 'settings' (hint: "settings: Dict[<type>, <type>] = ...")  [var-annotated]
+(theawless)Dict-O-nator/dictonator/settings.py:70: error: Need type annotation for 'settings_dictionary' (hint: "settings_dictionary: Dict[<type>, <type>] = ...")  [var-annotated]
+(theawless)Dict-O-nator/dictonator/statesacts.py:124: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(theawless)Dict-O-nator/dictonator/statesacts.py:208: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(theawless)Dict-O-nator/dictonator/recogspeech.py:32: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(theawless)Dict-O-nator/dictonator/recogspeech.py:32: note: Perhaps you need "Callable[...]" or a callback protocol?
+(theawless)Dict-O-nator/dictonator/actionhandler.py:37: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:37: note: Perhaps you need "Callable[...]" or a callback protocol?
+(theawless)Dict-O-nator/dictonator/actionhandler.py:108: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:112: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:117: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:121: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:138: error: Value of type "object" is not indexable  [index]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:146: error: "None" has no attribute "goto_line"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:237: error: "None" has no attribute "create_tab"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:246: error: "None" has no attribute "get_text"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:246: error: "None" has no attribute "get_start_iter"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:246: error: "None" has no attribute "get_end_iter"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:270: error: "None" has no attribute "get_unsaved_documents"  [attr-defined]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:274: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/actionhandler.py:276: error: callable? not callable  [misc]
+(theawless)Dict-O-nator/dictonator/__init__.py:141: error: Module "time" is not valid as a type  [valid-type]
+Found 20 errors in 5 files (checked 12 source files)
+
+[RRepo](pytest-dev)pytest
+Success: no issues found in 1 source file
+
+[RRepo](matrix-org)sygnal
+Success: no issues found in 1 source file
+
+[RRepo](Galarzaa90)NabBot
+(Galarzaa90)NabBot/cogs/utils/__init__.py:103: error: Missing return statement  [return]
+(Galarzaa90)NabBot/nabbot.py:136: error: Argument 1 to "get_member_named" of "NabBot" has incompatible type "Union[str, int]"; expected "str"  [arg-type]
+(Galarzaa90)NabBot/nabbot.py:163: error: Item "List[Any]" of "Union[Any, List[Any], None]" has no attribute "members"  [union-attr]
+(Galarzaa90)NabBot/nabbot.py:163: error: Item "None" of "Union[Any, List[Any], None]" has no attribute "members"  [union-attr]
+(Galarzaa90)NabBot/launcher.py:16: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(Galarzaa90)NabBot/launcher.py:17: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(Galarzaa90)NabBot/launcher.py:18: error: Module has no attribute "_srcfile"  [attr-defined]
+(Galarzaa90)NabBot/launcher.py:22: error: "TimedRotatingFileHandler" has no attribute "suffix"  [attr-defined]
+Found 8 errors in 3 files (checked 2 source files)
+
+[RRepo](duganchen)wine_env
+Success: no issues found in 2 source files
+
+[RRepo](martinbenson)deep-photo-styletransfer
+Success: no issues found in 1 source file
+
+[RRepo](NotSoSuper)NotSoBot
+
+[RRepo](tobiasraabe)otree_virtual_machine_manager
+
+[RRepo](aicenter)roadmap-processing
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:8: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:9: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:10: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:11: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:12: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:13: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:14: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:15: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:16: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:17: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:18: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:19: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:20: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:21: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:22: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:23: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(aicenter)roadmap-processing/roadmaptools/config/roadmaptools_config.py:24: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+
+[RRepo](DynamicGravitySystems)DGP
+
+[RRepo](heyitswither)Alpha-Bot
+(heyitswither)Alpha-Bot/utils/prettyoutput.py:67: error: Too few arguments for "_status"  [call-arg]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](kidosoft)Morelia
+Success: no issues found in 9 source files
+
+[RRepo](arcticicestudio)igloo
+
+[RRepo](bynil)sov2ex
+Success: no issues found in 3 source files
+
+[RRepo](MD2Korg)CerebralCortex
+
+[RRepo](morganics)bayesianpy
+(morganics)bayesianpy/bayesianpy/reader.py:85: error: Cannot assign to a method  [assignment]
+(morganics)bayesianpy/bayesianpy/__init__.py:6: error: Module 'bayesianpy' has no attribute 'model'  [attr-defined]
+(morganics)bayesianpy/bayesianpy/__init__.py:8: error: Module 'bayesianpy' has no attribute 'output'  [attr-defined]
+(morganics)bayesianpy/bayesianpy/__init__.py:10: error: Module 'bayesianpy' has no attribute 'template'  [attr-defined]
+(morganics)bayesianpy/bayesianpy/visual.py:165: error: Cannot determine type of 'k'  [has-type]
+(morganics)bayesianpy/bayesianpy/visual.py:168: error: Cannot determine type of 'fig'  [has-type]
+(morganics)bayesianpy/bayesianpy/visual.py:197: error: Cannot determine type of 'fig'  [has-type]
+(morganics)bayesianpy/bayesianpy/distribution.py:28: error: Value of type "Optional[Dict[str, int]]" is not indexable  [index]
+(morganics)bayesianpy/bayesianpy/distribution.py:32: error: Value of type "Optional[Dict[str, int]]" is not indexable  [index]
+(morganics)bayesianpy/bayesianpy/distribution.py:59: error: Incompatible return value type (got "List[float]", expected "float")  [return-value]
+(morganics)bayesianpy/bayesianpy/distribution.py:151: error: "object" has no attribute "getName"  [attr-defined]
+(morganics)bayesianpy/bayesianpy/distribution.py:250: error: "object" has no attribute "getName"  [attr-defined]
+(morganics)bayesianpy/bayesianpy/analysis.py:68: error: Need type annotation for 'll'  [var-annotated]
+(morganics)bayesianpy/bayesianpy/analysis.py:132: error: Need type annotation for '_models' (hint: "_models: List[<type>] = ...")  [var-annotated]
+(morganics)bayesianpy/bayesianpy/analysis.py:272: error: Need type annotation for 'll'  [var-annotated]
+Found 15 errors in 5 files (checked 10 source files)
+
+[RRepo](catch22)pw
+
+[RRepo](atomgomba)txtable
+
+[RRepo](5j9)farhangestan
+(5j9)farhangestan/app.py:20: error: Argument 1 to "maketrans" of "str" has incompatible type "Dict[str, str]"; expected "str"  [arg-type]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](skytoup)AppServer
+(skytoup)AppServer/app/__init__.py:16: error: Name 'static_blueprint' is not defined  [name-defined]
+(skytoup)AppServer/app/__init__.py:17: error: Name 'upload_blueprint' is not defined  [name-defined]
+(skytoup)AppServer/app/__init__.py:18: error: Name 'apps_blueprint' is not defined  [name-defined]
+(skytoup)AppServer/app/__init__.py:19: error: Name 'app_versions_blueprint' is not defined  [name-defined]
+(skytoup)AppServer/app/__init__.py:20: error: Name 'exception_blueprint' is not defined  [name-defined]
+(skytoup)AppServer/app/__init__.py:21: error: Name 'short_chain_blueprint' is not defined  [name-defined]
+Found 6 errors in 1 file (checked 3 source files)
+
+[RRepo](benhoff)vexbot
+(benhoff)vexbot/vexbot/dynamic_entities.py:4: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](all-of-us)raw-data-repository
+(all-of-us)raw-data-repository/rdr_service/provider.py:8: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(all-of-us)raw-data-repository/rdr_service/singletons.py:7: error: Need type annotation for 'singletons_map' (hint: "singletons_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirsearch.py:122: error: Need type annotation for 'handlers' (hint: "handlers: List[<type>] = ...")  [var-annotated]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirsearch.py:205: error: Incompatible types in assignment (expression has type "List[str]", base class "FHIRSearchParamHandler" defined the type as "None")  [assignment]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirsearch.py:221: error: Incompatible types in assignment (expression has type "List[str]", base class "FHIRSearchParamHandler" defined the type as "None")  [assignment]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirsearch.py:230: error: Incompatible types in assignment (expression has type "List[str]", base class "FHIRSearchParamHandler" defined the type as "None")  [assignment]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirsearch.py:256: error: Incompatible types in assignment (expression has type "List[str]", base class "FHIRSearchParamHandler" defined the type as "None")  [assignment]
+(all-of-us)raw-data-repository/rdr_service/lib_fhir/fhirclient_1_0_6/models/fhirabstractresource.py:191: error: Module 'rdr_service.lib_fhir.fhirclient_1_0_6.models' has no attribute 'fhirelementfactory'  [attr-defined]
+(all-of-us)raw-data-repository/rdr_service/cloud_utils/bigquery.py:52: error: Name '__next__' already defined on line 44  [no-redef]
+(all-of-us)raw-data-repository/rdr_service/services/system_utils.py:428: error: Missing return statement  [return]
+(all-of-us)raw-data-repository/rdr_service/participant_enums.py:374: error: List item 0 has incompatible type "str"; expected "int"  [list-item]
+(all-of-us)raw-data-repository/rdr_service/offline/metrics_config.py:232: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(all-of-us)raw-data-repository/rdr_service/app_util.py:221: error: Name 'get_validated_user_info' already defined on line 107  [no-redef]
+Found 13 errors in 9 files (checked 22 source files)
+
+[RRepo](lovelylain)pyctp
+Success: no issues found in 1 source file
+
+[RRepo](tableau)TabPy
+
+[RRepo](NervanaSystems)coach
+
+[RRepo](gdude2002)InfoBot
+
+[RRepo](hideaki-t)sqlite-fts-python
+
+[RRepo](AVSystem)Anjay
+(AVSystem)Anjay/test_duplicates.py:117: error: Need type annotation for 'function_files'  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](juancarlospaco)css-html-js-minify
+(juancarlospaco)css-html-js-minify/setup.py:44: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](DonJayamanne)pythonVSCode
+
+[RRepo](zhaofengli)refill
+
+[RRepo](pooler)electrum-ltc
+
+[RRepo](noisebridge)PythonClass
+
+[RRepo](nyxxxie)spade
+
+[RRepo](gdassori)ssshare
+(gdassori)ssshare/ssshare/services/fxc/api.py:11: error: Name 'SharedSessionSecret' is not defined  [name-defined]
+(gdassori)ssshare/ssshare/services/fxc/api.py:11: error: Name 'Shares' is not defined  [name-defined]
+(gdassori)ssshare/ssshare/services/fxc/api.py:14: error: Name 'SharedSessionSecret' is not defined  [name-defined]
+(gdassori)ssshare/ssshare/domain/session.py:4: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+(gdassori)ssshare/ssshare/domain/session.py:4: error: Module 'ssshare' has no attribute 'settings'  [attr-defined]
+(gdassori)ssshare/ssshare/domain/session.py:63: error: Missing positional argument "session" in call to "from_dict" of "SharedSession"  [call-arg]
+(gdassori)ssshare/ssshare/domain/session.py:79: error: Name 'uuid.UUID' is not defined  [name-defined]
+(gdassori)ssshare/ssshare/domain/session.py:79: error: Syntax error in type annotation  [syntax]
+(gdassori)ssshare/ssshare/domain/session.py:79: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(gdassori)ssshare/ssshare/domain/session.py:119: error: Name 'SharedSessionSecret' is not defined  [name-defined]
+(gdassori)ssshare/ssshare/domain/split.py:15: error: Incompatible types in assignment (expression has type "str", base class "SharedSession" defined the type as "Type[NotImplementedError]")  [assignment]
+(gdassori)ssshare/ssshare/domain/combine.py:13: error: Incompatible types in assignment (expression has type "str", base class "SharedSession" defined the type as "Type[NotImplementedError]")  [assignment]
+(gdassori)ssshare/ssshare/domain/secret.py:4: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+(gdassori)ssshare/ssshare/domain/secret.py:4: error: Module 'ssshare' has no attribute 'settings'  [attr-defined]
+(gdassori)ssshare/ssshare/blueprints/validators.py:7: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+(gdassori)ssshare/ssshare/blueprints/validators.py:7: error: Module 'ssshare' has no attribute 'settings'  [attr-defined]
+(gdassori)ssshare/ssshare/blueprints/combine.py:3: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+(gdassori)ssshare/ssshare/blueprints/split.py:3: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+(gdassori)ssshare/ssshare/app.py:3: error: Module 'ssshare' has no attribute 'settings'  [attr-defined]
+(gdassori)ssshare/ssshare/app.py:3: error: Module 'ssshare' has no attribute 'exceptions'  [attr-defined]
+Found 19 errors in 9 files (checked 4 source files)
+
+[RRepo](mifth)mifthtools
+
+[RRepo](bmintz)reactor-bot
+Success: no issues found in 2 source files
+
+[RRepo](jbms)beancount-import
+
+[RRepo](psi4)psi4
+
+[RRepo](marcosfede)algorithms
+
+[RRepo](comic)comic-django
+
+[RRepo](palmtree5)palmtree5-cogs
+(palmtree5)palmtree5-cogs/banrole/banrole.py:11: error: Need type annotation for 'default_role'  [var-annotated]
+(palmtree5)palmtree5-cogs/lockdown/lockdown.py:30: error: Need type annotation for 'default_member'  [var-annotated]
+(palmtree5)palmtree5-cogs/mcsvr/helpers.py:39: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(palmtree5)palmtree5-cogs/hpapi/helpers.py:4: error: Name 'datetime' already defined (possibly by an import)  [no-redef]
+(palmtree5)palmtree5-cogs/hpapi/helpers.py:17: error: "Type[datetime]" has no attribute "timedelta"  [attr-defined]
+(palmtree5)palmtree5-cogs/mcsvr/mcsvr.py:34: error: Need type annotation for '_svr_cache' (hint: "_svr_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(palmtree5)palmtree5-cogs/hpapi/hpapi.py:309: error: "None" has no attribute "_session"  [attr-defined]
+(palmtree5)palmtree5-cogs/hpapi/hpapi.py:313: error: "None" has no attribute "session"  [attr-defined]
+(palmtree5)palmtree5-cogs/tweets/tweets.py:115: error: "None" has no attribute "api"  [attr-defined]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:125: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:126: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:127: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:148: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:149: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/eventmaker/eventmaker.py:150: error: Value of type "Optional[Any]" is not indexable  [index]
+(palmtree5)palmtree5-cogs/srrecords/srrecords.py:95: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(palmtree5)palmtree5-cogs/reddit/reddit.py:31: error: Need type annotation for 'default_guild'  [var-annotated]
+(palmtree5)palmtree5-cogs/reddit/reddit.py:33: error: Need type annotation for 'default_channel'  [var-annotated]
+Found 18 errors in 10 files (checked 27 source files)
+
+[RRepo](Stvad)CrowdAnki
+
+[RRepo](Cognexa)cxflow
+
+[RRepo](sprout42)StarStruct
+Success: no issues found in 2 source files
+
+[RRepo](maas)maas
+(maas)maas/ez_setup.py:26: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(maas)maas/ez_setup.py:247: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(maas)maas/ez_setup.py:263: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(maas)maas/ez_setup.py:279: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(maas)maas/ez_setup.py:294: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(maas)maas/bootstrap-buildout.py:86: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(maas)maas/bootstrap-buildout.py:88: error: Need type annotation for 'ez' (hint: "ez: Dict[<type>, <type>] = ...")  [var-annotated]
+(maas)maas/bootstrap-buildout.py:132: error: Item "None" of "Optional[Distribution]" has no attribute "location"  [union-attr]
+Found 8 errors in 2 files (checked 3 source files)
+
+[RRepo](tjmcginnis)tmj
+
+[RRepo](erdewit)tws_async
+
+[RRepo](marshmallow-code)marshmallow
+Success: no issues found in 1 source file
+
+[RRepo](raphaelm)cockatiel
+
+[RRepo](pynayzr)pynayzr
+
+[RRepo](TheImagingSource)tiscamera
+
+[RRepo](brmc)django-octopus
+
+[RRepo](thomann)plotVR
+
+[RRepo](oinume)dmm-eikaiwa-tsc
+(oinume)dmm-eikaiwa-tsc/setup.py:27: error: Module has no attribute "__version__"  [attr-defined]
+(oinume)dmm-eikaiwa-tsc/tsc/models.py:147: error: Incompatible return value type (got "None", expected "str")  [return-value]
+Found 2 errors in 2 files (checked 2 source files)
+
+[RRepo](paultag)moxie
+
+[RRepo](renzon)wttd
+
+[RRepo](dreipol)djangocms-spa
+Success: no issues found in 1 source file
+
+[RRepo](allianceauth)allianceauth
+
+[RRepo](layday)instawow
+
+[RRepo](mackeyja92)django-asyncio-redis
+(mackeyja92)django-asyncio-redis/setup.py:3: error: Module 'django_asyncio_redis' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](lbryio)lbry
+
+[RRepo](nils-wisiol)pypuf
+(nils-wisiol)pypuf/study.py:7: error: Module 'pypuf.experiments' has no attribute 'Experimenter'  [attr-defined]
+(nils-wisiol)pypuf/plot.py:7: error: Module 'pypuf.experiments' has no attribute 'Experimenter'  [attr-defined]
+Found 2 errors in 2 files (checked 9 source files)
+
+[RRepo](gavinfish)leetcode-share
+
+[RRepo](googleapis)google-api-java-client-services
+(googleapis)google-api-java-client-services/synth.py:137: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-api-java-client-services/synth.py:138: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-api-java-client-services/synth.py:139: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](hronecviktor)py-parsehub
+Success: no issues found in 1 source file
+
+[RRepo](maestromusic)maestro
+(maestromusic)maestro/maestro/utils/images.py:22: error: Need type annotation for 'namedPixmaps' (hint: "namedPixmaps: Dict[<type>, <type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/utils/images.py:72: error: Need type annotation for 'cachedIcons' (hint: "cachedIcons: Dict[<type>, <type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/core/tagcommands.py:22: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/core/tagcommands.py:22: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/core/tagcommands.py:23: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/treebuilder.py:22: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'StandardDelegate'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/delegate.py:23: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/delegate.py:23: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/model.py:25: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/model.py:25: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/model.py:27: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/model.py:65: error: Need type annotation for 'instances'  [var-annotated]
+(maestromusic)maestro/maestro/config/__init__.py:119: error: Name 'collections' is not defined  [name-defined]
+(maestromusic)maestro/maestro/config/__init__.py:179: error: Name 'collections' is not defined  [name-defined]
+(maestromusic)maestro/maestro/config/__init__.py:200: error: Name 'os' is not defined  [name-defined]
+(maestromusic)maestro/maestro/core/domains.py:24: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/core/domains.py:27: error: Need type annotation for 'domains' (hint: "domains: List[<type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/gui/selection.py:202: error: Incompatible return value type (got "None", expected "Selection")  [return-value]
+(maestromusic)maestro/maestro/gui/selection.py:210: error: "None" has no attribute "emit"  [attr-defined]
+(maestromusic)maestro/maestro/player.py:24: error: Module 'maestro' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/core/urls.py:25: error: Need type annotation for 'fileBackends' (hint: "fileBackends: List[<type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/core/urls.py:57: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(maestromusic)maestro/maestro/core/flags.py:22: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/models/rootedtreemodel.py:25: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/models/rootedtreemodel.py:25: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/core/covers.py:26: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/core/covers.py:39: error: Need type annotation for 'providerClasses' (hint: "providerClasses: List[<type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/core/covers.py:43: error: Need type annotation for 'cacheSizes' (hint: "cacheSizes: List[<type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/gui/treeview.py:22: error: Module 'maestro.gui' has no attribute 'actions'  [attr-defined]
+(maestromusic)maestro/maestro/search/__init__.py:19: error: Module 'maestro.search' has no attribute 'criteria'  [attr-defined]
+(maestromusic)maestro/maestro/search/__init__.py:21: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/search/__init__.py:53: error: Cannot find replacement for named format specifier "p"  [str-format]
+(maestromusic)maestro/maestro/widgets/tageditor/flageditormodel.py:24: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/tageditor/flageditormodel.py:24: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/delegate.py:21: error: Module 'maestro.gui.delegates' has no attribute 'abstractdelegate'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/delegate.py:21: error: Module 'maestro.gui.delegates' has no attribute 'StandardDelegate'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/delegate.py:21: error: Module 'maestro.gui.delegates' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/nodes.py:23: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/delegate.py:21: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'StandardDelegate'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'TextItem'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/delegate.py:22: error: Module 'maestro.gui.delegates' has no attribute 'DelegateStyle'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/actions.py:22: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/actions.py:23: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/actions.py:24: error: Module 'maestro.gui' has no attribute 'actions'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/__init__.py:95: error: Need type annotation for '__registeredClasses' (hint: "__registeredClasses: List[<type>] = ...")  [var-annotated]
+(maestromusic)maestro/maestro/widgets/details.py:25: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/details.py:25: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/gui.py:22: error: Module 'maestro' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/gui.py:23: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/gui.py:25: error: Module 'maestro.gui' has no attribute 'actions'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/playlist/gui.py:27: error: Module 'maestro.gui.preferences' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/gui.py:22: error: Module 'maestro' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/gui.py:23: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/gui.py:23: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/editor/gui.py:27: error: Module 'maestro.gui.preferences' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:25: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:25: error: Module 'maestro' has no attribute 'profiles'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:26: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:26: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:28: error: Module 'maestro.gui' has no attribute 'actions'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:29: error: Module 'maestro.gui.delegates' has no attribute 'abstractdelegate'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/dialogs.py:35: error: Name 'delegates.StandardDelegate' is not defined  [name-defined]
+(maestromusic)maestro/maestro/filesystem/__init__.py:22: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/__init__.py:22: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/__init__.py:23: error: Module 'maestro' has no attribute 'stack'  [attr-defined]
+(maestromusic)maestro/maestro/filesystem/__init__.py:169: error: Incompatible types in assignment (expression has type "str", base class "BackendFile" defined the type as "None")  [assignment]
+(maestromusic)maestro/maestro/filesystem/browser.py:28: error: Module 'maestro.core' has no attribute 'levels'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/dialog.py:25: error: Module 'maestro.core' has no attribute 'tags'  [attr-defined]
+(maestromusic)maestro/maestro/widgets/browser/dialog.py:27: error: Module 'maestro.gui.preferences' has no attribute 'profiles'  [attr-defined]
+Found 73 errors in 28 files (checked 34 source files)
+
+[RRepo](coldfix)udiskie
+(coldfix)udiskie/setup.py:3: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](LarsSchy)SMAC-M
+
+[RRepo](sollidsnake)pipman
+
+[RRepo](WhiteHalmos)emailer
+
+[RRepo](SergejPr)NooLite-F
+
+[RRepo](tmrowco)electricitymap
+Success: no issues found in 1 source file
+
+[RRepo](PolyCortex)pyMuse
+
+[RRepo](baradrb)hackujhazard
+
+[RRepo](vlasovskikh)intellij-micropython
+
+[RRepo](ruchee)vimrc
+
+[RRepo](XZiar)RayRenderer
+(XZiar)RayRenderer/xzbuild/Environment.py:31: error: Incompatible types in assignment (expression has type "List[<nothing>]", target has type "str")  [assignment]
+(XZiar)RayRenderer/xzbuild/Environment.py:32: error: Incompatible types in assignment (expression has type "List[<nothing>]", target has type "str")  [assignment]
+(XZiar)RayRenderer/xzbuild/Environment.py:33: error: Unsupported operand types for + ("str" and "List[str]")  [operator]
+(XZiar)RayRenderer/xzbuild/Environment.py:35: error: Need type annotation for 'defs' (hint: "defs: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Environment.py:39: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "List[Any]")  [assignment]
+(XZiar)RayRenderer/xzbuild/Environment.py:40: error: Argument 1 to "splitPaths" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(XZiar)RayRenderer/xzbuild/Environment.py:41: error: Incompatible types in assignment (expression has type "Set[str]", target has type "str")  [assignment]
+(XZiar)RayRenderer/xzbuild/Environment.py:43: error: Incompatible types in assignment (expression has type "Optional[int]", target has type "str")  [assignment]
+(XZiar)RayRenderer/build.py:31: error: Need type annotation for 'dependency' (hint: "dependency: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/build.py:86: error: Need type annotation for 'solved' (hint: "solved: Set[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/build.py:94: error: Need type annotation for 'builded' (hint: "builded: Set[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/build.py:135: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(XZiar)RayRenderer/build.py:138: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(XZiar)RayRenderer/ResourceCompiler.py:32: error: Incompatible types in assignment (expression has type "str", variable has type Module)  [assignment]
+(XZiar)RayRenderer/ResourceCompiler.py:47: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(XZiar)RayRenderer/ResourceCompiler.py:51: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(XZiar)RayRenderer/ResourceCompiler.py:52: error: Incompatible types in assignment (expression has type "Set[Union[str, Any]]", variable has type "List[Union[str, Any]]")  [assignment]
+(XZiar)RayRenderer/ResourceCompiler.py:53: error: "List[Union[str, Any]]" has no attribute "difference_update"  [attr-defined]
+(XZiar)RayRenderer/ResourceCompiler.py:80: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(XZiar)RayRenderer/ResourceCompiler.py:81: error: No overload variant of "write" of "BinaryIO" matches argument type "str"  [call-overload]
+(XZiar)RayRenderer/ResourceCompiler.py:81: note: Possible overload variants:
+(XZiar)RayRenderer/ResourceCompiler.py:81: note:     def write(self, s: bytearray) -> int
+(XZiar)RayRenderer/ResourceCompiler.py:81: note:     def write(self, s: bytes) -> int
+(XZiar)RayRenderer/ResourceCompiler.py:82: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(XZiar)RayRenderer/ResourceCompiler.py:83: error: No overload variant of "write" of "BinaryIO" matches argument type "str"  [call-overload]
+(XZiar)RayRenderer/ResourceCompiler.py:83: note: Possible overload variants:
+(XZiar)RayRenderer/ResourceCompiler.py:83: note:     def write(self, s: bytearray) -> int
+(XZiar)RayRenderer/ResourceCompiler.py:83: note:     def write(self, s: bytes) -> int
+(XZiar)RayRenderer/xzbuild/Target.py:15: error: Method must have at least one argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:35: error: Need type annotation for 'sources' (hint: "sources: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:36: error: Need type annotation for 'flags' (hint: "flags: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:45: error: Attribute function "prefix" with type "Callable[[], str]" does not accept self argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:57: error: Attribute function "prefix" with type "Callable[[], str]" does not accept self argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:67: error: Method must have at least one argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:71: error: Need type annotation for 'defines' (hint: "defines: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:72: error: Need type annotation for 'incpath' (hint: "incpath: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:101: error: Attribute function "prefix" with type "Callable[[], str]" does not accept self argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:103: error: Attribute function "langVersion" with type "Callable[[], str]" does not accept self argument  [misc]
+(XZiar)RayRenderer/xzbuild/Target.py:153: error: Need type annotation for 'incpath' (hint: "incpath: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:235: error: Need type annotation for 'defines' (hint: "defines: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:236: error: Need type annotation for 'incpath' (hint: "incpath: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Target.py:241: error: Need type annotation for 'arch' (hint: "arch: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:23: error: Need type annotation for 'dependency' (hint: "dependency: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:29: error: Need type annotation for 'targets' (hint: "targets: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:30: error: Need type annotation for 'linkflags' (hint: "linkflags: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:31: error: Need type annotation for 'libDirs' (hint: "libDirs: List[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:59: error: Need type annotation for 'nestedDeps' (hint: "nestedDeps: Set[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild/Project.py:68: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(XZiar)RayRenderer/xzbuild.py:70: error: Need type annotation for 'solved' (hint: "solved: Set[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild.py:78: error: Need type annotation for 'builded' (hint: "builded: Set[<type>] = ...")  [var-annotated]
+(XZiar)RayRenderer/xzbuild.py:105: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(XZiar)RayRenderer/xzbuild.py:108: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(XZiar)RayRenderer/xzbuild.py:197: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "List[List[str]]")  [assignment]
+(XZiar)RayRenderer/xzbuild.py:198: error: Argument 2 to "main" has incompatible type "List[List[str]]"; expected "Dict[Any, Any]"  [arg-type]
+Found 48 errors in 6 files (checked 3 source files)
+
+[RRepo](paulrbrenner)GOS
+Success: no issues found in 1 source file
+
+[RRepo](tomix86)hpcpm
+
+[RRepo](bkircher)python-rpm-spec
+
+[RRepo](fastai)fastai
+(fastai)fastai/setup.py:186: error: Name '__version__' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](c-bata)feedy
+(c-bata)feedy/feedy.py:106: error: Need type annotation for 'feeds' (hint: "feeds: Dict[<type>, <type>] = ...")  [var-annotated]
+(c-bata)feedy/feedy.py:107: error: Need type annotation for 'plugins' (hint: "plugins: List[<type>] = ...")  [var-annotated]
+(c-bata)feedy/feedy.py:196: error: Incompatible types in assignment (expression has type "Tuple[int, int, int, int]", variable has type "Tuple[int]")  [assignment]
+(c-bata)feedy/feedy.py:214: error: Too few arguments for "load_module" of "InspectLoader"  [call-arg]
+(c-bata)feedy/feedy.py:221: error: Unexpected keyword argument "status" for "exit"  [call-arg]
+(c-bata)feedy/example.py:2: error: Module 'feedy_plugins' has no attribute 'social_share_plugin'  [attr-defined]
+Found 6 errors in 2 files (checked 2 source files)
+
+[RRepo](philipodonnell)paperbroker
+(philipodonnell)paperbroker/paperbroker/assets.py:44: error: Item "None" of "Optional[str]" has no attribute "upper"  [union-attr]
+(philipodonnell)paperbroker/paperbroker/estimators.py:21: error: Unsupported operand types for < ("float" and "None")  [operator]
+(philipodonnell)paperbroker/paperbroker/estimators.py:63: error: Incompatible types in assignment (expression has type "float", variable has type "Optional[int]")  [assignment]
+(philipodonnell)paperbroker/paperbroker/estimators.py:63: error: Argument 2 to "copysign" has incompatible type "Optional[int]"; expected "SupportsFloat"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/orders.py:63: error: Argument 1 to "int" has incompatible type "Optional[int]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/orders.py:77: error: Argument "order_type" to "Leg" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/logic/maintenance_margin.py:39: error: Item "None" of "Optional[QuoteAdapter]" has no attribute "get_quote"  [union-attr]
+(philipodonnell)paperbroker/paperbroker/logic/close_expired_options.py:49: error: Module "paperbroker.adapters.markets.MarketAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/logic/fill_order.py:19: error: Module "paperbroker.adapters.quotes.QuoteAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/adapters/markets/PaperMarketAdapter.py:22: error: Module "paperbroker.adapters.quotes.QuoteAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/adapters/markets/PaperMarketAdapter.py:23: error: Need type annotation for 'pending_orders' (hint: "pending_orders: List[<type>] = ...")  [var-annotated]
+(philipodonnell)paperbroker/paperbroker/adapters/markets/PaperMarketAdapter.py:27: error: Module "paperbroker.adapters.quotes.QuoteAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:30: error: Module "paperbroker.adapters.quotes.QuoteAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:30: error: Module "paperbroker.adapters.accounts.AccountAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:30: error: Module "paperbroker.adapters.markets.MarketAdapter" is not valid as a type  [valid-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:31: error: Module not callable  [operator]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:32: error: Module not callable  [operator]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:61: error: Argument 1 to "enter_order" of "PaperBroker" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:66: error: Argument 1 to "enter_order" of "PaperBroker" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:71: error: Argument 1 to "enter_order" of "PaperBroker" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:76: error: Argument 1 to "enter_order" of "PaperBroker" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:102: error: Need type annotation for 'btc' (hint: "btc: Dict[<type>, <type>] = ...")  [var-annotated]
+(philipodonnell)paperbroker/paperbroker/PaperBroker.py:103: error: Need type annotation for 'stc' (hint: "stc: Dict[<type>, <type>] = ...")  [var-annotated]
+(philipodonnell)paperbroker/server.py:7: error: Module not callable  [operator]
+Found 24 errors in 9 files (checked 1 source file)
+
+[RRepo](acrisci)i3ipc-python
+Success: no issues found in 1 source file
+
+[RRepo](1connect)nginx-config-formatter
+Success: no issues found in 2 source files
+
+[RRepo](MeteoSwiss-APN)dawn
+
+[RRepo](mark-r-g)hydrus
+Success: no issues found in 1 source file
+
+[RRepo](ForceBru)PyVM
+(ForceBru)PyVM/VM/debug.py:24: error: Incompatible return value type (got "object", expected "str")  [return-value]
+(ForceBru)PyVM/VM/util.py:12: error: Too many arguments for IntEnum()  [misc]
+(ForceBru)PyVM/VM/util.py:59: error: Need type annotation for 'instruction_set' (hint: "instruction_set: Set[<type>] = ...")  [var-annotated]
+(ForceBru)PyVM/VM/util.py:155: error: Need type annotation for 'opcodes_names' (hint: "opcodes_names: Dict[<type>, <type>] = ...")  [var-annotated]
+(ForceBru)PyVM/VM/util.py:156: error: Need type annotation for 'concrete_names' (hint: "concrete_names: List[<type>] = ...")  [var-annotated]
+(ForceBru)PyVM/VM/FPU.py:161: error: Syntax error in type annotation  [syntax]
+(ForceBru)PyVM/VM/FPU.py:161: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(ForceBru)PyVM/VM/FPU.py:184: error: Syntax error in type annotation  [syntax]
+(ForceBru)PyVM/VM/FPU.py:184: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(ForceBru)PyVM/VM/Memory.py:108: error: Item "None" of "Optional[Any]" has no attribute "from_address"  [union-attr]
+(ForceBru)PyVM/VM/Memory.py:112: error: Item "None" of "Optional[Any]" has no attribute "from_address"  [union-attr]
+(ForceBru)PyVM/VM/Memory.py:116: error: Value of type "Optional[Any]" is not indexable  [index]
+(ForceBru)PyVM/VM/Memory.py:134: error: Value of type "Optional[Any]" is not indexable  [index]
+(ForceBru)PyVM/VM/Memory.py:150: error: Item "None" of "Optional[Any]" has no attribute "from_address"  [union-attr]
+(ForceBru)PyVM/VM/Memory.py:154: error: Item "None" of "Optional[Any]" has no attribute "from_address"  [union-attr]
+(ForceBru)PyVM/VM/Memory.py:158: error: Value of type "Optional[Any]" is not indexable  [index]
+(ForceBru)PyVM/VM/Memory.py:162: error: Incompatible return value type (got "bytes", expected "int")  [return-value]
+(ForceBru)PyVM/VM/Memory.py:162: error: Value of type "Optional[Any]" is not indexable  [index]
+(ForceBru)PyVM/VM/Memory.py:208: error: "memset" does not return a value  [func-returns-value]
+(ForceBru)PyVM/VM/Memory.py:224: error: Unsupported target for indexed assignment  [index]
+(ForceBru)PyVM/VM/Memory.py:239: error: Unsupported target for indexed assignment  [index]
+(ForceBru)PyVM/VM/Memory.py:242: error: Unsupported target for indexed assignment  [index]
+(ForceBru)PyVM/VM/Memory.py:244: error: Unsupported target for indexed assignment  [index]
+(ForceBru)PyVM/VM/Memory.py:262: error: Unsupported target for indexed assignment  [index]
+(ForceBru)PyVM/VM/instructions/repeatables.py:23: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/repeatables.py:24: error: "STOS" has no attribute "operand_size"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:26: error: "STOS" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:27: error: "STOS" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:27: error: "STOS" has no attribute "address_size"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:29: error: "STOS" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:29: error: "Type[SegmentRegs]" has no attribute "ES"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:30: error: "STOS" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:31: error: "STOS" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:31: error: "Type[SegmentRegs]" has no attribute "DS"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:33: error: "STOS" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:38: error: "STOS" has no attribute "address_size"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:40: error: "STOS" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:40: error: "STOS" has no attribute "address_size"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:57: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/repeatables.py:58: error: "REP" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:58: error: Cannot determine type of 'eip'  [has-type]
+(ForceBru)PyVM/VM/instructions/repeatables.py:59: error: Cannot determine type of 'eip'  [has-type]
+(ForceBru)PyVM/VM/instructions/repeatables.py:61: error: "REP" has no attribute "address_size"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:63: error: "REP" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:68: error: Cannot determine type of 'eip'  [has-type]
+(ForceBru)PyVM/VM/instructions/repeatables.py:82: error: "REP" has no attribute "execute_opcode"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/repeatables.py:89: error: "REP" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:29: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/floating.py:37: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:59: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:59: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/floating.py:72: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:112: error: "FST" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:112: error: "FST" has no attribute "eip"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:118: error: "FST" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:121: error: "FST" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:123: error: "FST" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:128: error: "FST" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:150: error: "FIST" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:150: error: "FIST" has no attribute "eip"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:156: error: "FIST" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:159: error: "FIST" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:161: error: "FIST" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:164: error: "FIST" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:182: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:183: error: "FMUL" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:184: error: "FMUL" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:201: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:202: error: "FADDP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:206: error: "FADDP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:230: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:238: error: "FDIV" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:241: error: "FDIV" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:246: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:247: error: "FDIV" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:248: error: "FDIV" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:295: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:299: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:312: error: "FCOMP" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:314: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:317: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:321: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:322: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:335: error: "FCOMP" has no attribute "reg"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:337: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:340: error: "FCOMP" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:353: error: "FLDCW" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:353: error: "FLDCW" has no attribute "eip"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:359: error: "FLDCW" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:362: error: "FLDCW" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:363: error: "FLDCW" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:379: error: "FSTCW" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:379: error: "FSTCW" has no attribute "eip"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:385: error: "FSTCW" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:388: error: "FSTCW" has no attribute "mem"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:388: error: "FSTCW" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:392: error: "FSTCW" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:394: error: "FSTCW" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:407: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/floating.py:408: error: "FXCH" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:409: error: "FXCH" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:410: error: "FXCH" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/floating.py:412: error: "FXCH" has no attribute "fpu"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:23: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:23: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:29: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:29: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:30: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:93: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:93: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:104: error: Unsupported operand types for & ("int" and "None")  [operator]
+(ForceBru)PyVM/VM/instructions/control.py:104: note: Right operand is of type "Optional[int]"
+(ForceBru)PyVM/VM/instructions/control.py:115: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:119: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:135: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:137: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:142: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:143: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:147: error: "Memory" has no attribute "bounds"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:164: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:164: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:165: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:169: error: Argument 1 to "to_int" has incompatible type "int"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:174: error: "Memory" has no attribute "bounds"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:199: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:199: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:201: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:224: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:224: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:227: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:259: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:259: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:262: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:282: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:285: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:328: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:328: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:329: error: "CPU32" has no attribute "descriptors"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:333: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:333: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:337: error: "CPU32" has no attribute "interrupt"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:363: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:367: error: "CPU32" has no attribute "process_ModRM"  [attr-defined]
+(ForceBru)PyVM/VM/instructions/control.py:397: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:397: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:433: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:433: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:442: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:442: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:466: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:480: error: Argument 1 to "stack_push" of "CPU32" has incompatible type "bytes"; expected "int"  [arg-type]
+(ForceBru)PyVM/VM/instructions/control.py:484: error: Unsupported operand types for & ("int" and "None")  [operator]
+(ForceBru)PyVM/VM/instructions/control.py:484: note: Right operand is of type "Optional[int]"
+(ForceBru)PyVM/VM/instructions/control.py:502: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:502: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:530: error: Invalid type: try using Literal[True] instead?  [valid-type]
+(ForceBru)PyVM/VM/instructions/control.py:530: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/instructions/control.py:576: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:3: error: Module 'VM.ELF' has no attribute 'ELF32'  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:3: error: Module 'VM.ELF' has no attribute 'enums'  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:14: error: The erased type of self "VM.CPU.CPU32" is not a supertype of its class "VM.fetchLoop.FetchLoopMixin"  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:56: error: The erased type of self "VM.CPU.CPU32" is not a supertype of its class "VM.fetchLoop.FetchLoopMixin"  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:66: error: "Type[SegmentRegs]" has no attribute "CS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:67: error: "Type[SegmentRegs]" has no attribute "SS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:68: error: "Type[SegmentRegs]" has no attribute "DS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:69: error: "Type[SegmentRegs]" has no attribute "ES"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:70: error: "Type[SegmentRegs]" has no attribute "FS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:71: error: "Type[SegmentRegs]" has no attribute "GS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:126: error: "CPU32" has no attribute "execute_opcode"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:137: error: "Type[SegmentRegs]" has no attribute "DS"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:154: error: Incompatible types in assignment (expression has type "Tuple[str, str, str]", base class "FetchLoopMixin" defined the type as "Tuple[str, str, str, str, str, str, str]")  [assignment]
+(ForceBru)PyVM/VM/fetchLoop.py:157: error: The erased type of self "VM.CPU.CPU32" is not a supertype of its class "VM.fetchLoop.ExecuteBytes"  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:157: error: Signature of "execute" incompatible with supertype "ExecutionMixin"  [override]
+(ForceBru)PyVM/VM/fetchLoop.py:165: error: "CPU32" has no attribute "run"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:169: error: Incompatible types in assignment (expression has type "Tuple[str, str, str]", base class "FetchLoopMixin" defined the type as "Tuple[str, str, str, str, str, str, str]")  [assignment]
+(ForceBru)PyVM/VM/fetchLoop.py:172: error: The erased type of self "VM.CPU.CPU32" is not a supertype of its class "VM.fetchLoop.ExecuteFlat"  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:172: error: Signature of "execute" incompatible with supertype "ExecutionMixin"  [override]
+(ForceBru)PyVM/VM/fetchLoop.py:182: error: "CPU32" has no attribute "run"  [attr-defined]
+(ForceBru)PyVM/VM/fetchLoop.py:186: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str]", base class "FetchLoopMixin" defined the type as "Tuple[str, str, str, str, str, str, str]")  [assignment]
+(ForceBru)PyVM/VM/fetchLoop.py:189: error: The erased type of self "VM.CPU.CPU32" is not a supertype of its class "VM.fetchLoop.ExecuteELF"  [misc]
+(ForceBru)PyVM/VM/fetchLoop.py:189: error: Signature of "execute" incompatible with supertype "ExecutionMixin"  [override]
+(ForceBru)PyVM/VM/fetchLoop.py:235: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(ForceBru)PyVM/VM/fetchLoop.py:237: error: Argument 3 to "set_bytes" of "Memory" has incompatible type "str"; expected "bytes"  [arg-type]
+(ForceBru)PyVM/VM/fetchLoop.py:261: error: "CPU32" has no attribute "run"  [attr-defined]
+(ForceBru)PyVM/VM/__init__.py:4: error: Module 'VM.kernel' has no attribute 'Kernel'  [attr-defined]
+(ForceBru)PyVM/VM/__init__.py:11: error: Definition of "current_mode" in base class "CPU32" is incompatible with definition in base class "FetchLoopMixin"  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Definition of "current_mode" in base class "CPU32" is incompatible with definition in base class "FetchLoopMixin"  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Definition of "_funcs_" in base class "ExecuteELF" is incompatible with definition in base class "ExecuteBytes"  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Definition of "_funcs_" in base class "ExecuteELF" is incompatible with definition in base class "ExecuteFlat"  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Cannot determine type of '_attrs_' in base class 'ExecuteELF'  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Cannot determine type of '_attrs_' in base class 'ExecuteBytes'  [misc]
+(ForceBru)PyVM/VM/__init__.py:34: error: Cannot determine type of '_attrs_' in base class 'ExecuteFlat'  [misc]
+(ForceBru)PyVM/VM/__init__.py:35: error: Signature of "execute" incompatible with supertype "ExecuteELF"  [override]
+(ForceBru)PyVM/VM/__init__.py:35: error: Signature of "execute" incompatible with supertype "ExecuteBytes"  [override]
+(ForceBru)PyVM/VM/__init__.py:35: error: Signature of "execute" incompatible with supertype "ExecuteFlat"  [override]
+(ForceBru)PyVM/VM/__init__.py:35: error: Signature of "execute" incompatible with supertype "ExecutionMixin"  [override]
+(ForceBru)PyVM/example_ELF.py:84: error: Incompatible types in assignment (expression has type "str", variable has type "Path")  [assignment]
+(ForceBru)PyVM/compile_asm.py:54: error: No overload variant of "run" matches argument types "Tuple[str, str, str, str, str, str, str, str]", "bool", "int"  [call-overload]
+(ForceBru)PyVM/compile_asm.py:54: note: Possible overload variants:
+(ForceBru)PyVM/compile_asm.py:54: note:     def run(args: Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]], bufsize: int = ..., executable: Union[bytes, str, _PathLike[Any]] = ..., stdin: Union[None, int, IO[Any]] = ..., stdout: Union[None, int, IO[Any]] = ..., stderr: Union[None, int, IO[Any]] = ..., preexec_fn: Callable[[], Any] = ..., close_fds: bool = ..., shell: bool = ..., cwd: Union[bytes, str, _PathLike[Any], None] = ..., env: Union[Mapping[bytes, Union[bytes, str]], Mapping[str, Union[bytes, str]], None] = ..., universal_newlines: bool = ..., startupinfo: Any = ..., creationflags: int = ..., restore_signals: bool = ..., start_new_session: bool = ..., pass_fds: Any = ..., *, check: bool = ..., encoding: str, errors: Optional[str] = ..., input: Optional[str] = ..., timeout: Optional[float] = ...) -> CompletedProcess[str]
+(ForceBru)PyVM/compile_asm.py:54: note:     def run(args: Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]], bufsize: int = ..., executable: Union[bytes, str, _PathLike[Any]] = ..., stdin: Union[None, int, IO[Any]] = ..., stdout: Union[None, int, IO[Any]] = ..., stderr: Union[None, int, IO[Any]] = ..., preexec_fn: Callable[[], Any] = ..., close_fds: bool = ..., shell: bool = ..., cwd: Union[bytes, str, _PathLike[Any], None] = ..., env: Union[Mapping[bytes, Union[bytes, str]], Mapping[str, Union[bytes, str]], None] = ..., universal_newlines: bool = ..., startupinfo: Any = ..., creationflags: int = ..., restore_signals: bool = ..., start_new_session: bool = ..., pass_fds: Any = ..., *, check: bool = ..., encoding: Optional[str] = ..., errors: str, input: Optional[str] = ..., timeout: Optional[float] = ...) -> CompletedProcess[str]
+(ForceBru)PyVM/compile_asm.py:54: note:     <3 more similar overloads not shown, out of 5 total overloads>
+(ForceBru)PyVM/compile_asm.py:119: error: "VM" has no attribute "execute_file"  [attr-defined]
+Found 195 errors in 11 files (checked 20 source files)
+
+[RRepo](cornell-cup)cs-minibot
+
+[RRepo](aioworkers)aioworkers
+
+[RRepo](ghtmtt)DataPlotly
+Success: no issues found in 4 source files
+
+[RRepo](Antergos)whither
+
+[RRepo](AliceAndTheBuilders)es-tenso
+
+[RRepo](spbpython)kdpv_generator
+(spbpython)kdpv_generator/run.py:3: error: Module 'kdpv_generator' has no attribute 'KDPVGenerator'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](hltj)kotlin-web-site-cn
+(hltj)kotlin-web-site-cn/src/grammar.py:86: error: "Sequence[str]" has no attribute "append"  [attr-defined]
+(hltj)kotlin-web-site-cn/src/grammar.py:91: error: "Sequence[str]" has no attribute "append"  [attr-defined]
+(hltj)kotlin-web-site-cn/src/pdf.py:111: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(hltj)kotlin-web-site-cn/kotlin-website.py:333: error: Name 'page' already defined on line 327  [no-redef]
+(hltj)kotlin-web-site-cn/kotlin-website.py:359: error: Name 'api_page' already defined on line 343  [no-redef]
+(hltj)kotlin-web-site-cn/kotlin-website.py:394: error: Name 'asset' already defined on line 384  [no-redef]
+(hltj)kotlin-web-site-cn/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "Union[int, str, None]"  [arg-type]
+(hltj)kotlin-web-site-cn/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "bool"  [arg-type]
+Found 8 errors in 3 files (checked 1 source file)
+
+[RRepo](KDE)labplot
+
+[RRepo](matthiaskoenig)sbmlutils
+Success: no issues found in 1 source file
+

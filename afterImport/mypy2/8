@@ -1,0 +1,497 @@
+[RRepo](gleb812)pch2csd
+(gleb812)pch2csd/setup.py:14: error: Module has no attribute "__version__"  [attr-defined]
+(gleb812)pch2csd/setup.py:20: error: Module has no attribute "__homepage__"  [attr-defined]
+(gleb812)pch2csd/pch2csd/patch.py:170: error: Need type annotation for 'modules' (hint: "modules: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/patch.py:171: error: Need type annotation for 'cables' (hint: "cables: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/patch.py:172: error: Need type annotation for 'mod_params' (hint: "mod_params: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/patch.py:209: error: Incompatible types in assignment (expression has type "Optional[Cable]", variable has type "Cable")  [assignment]
+(gleb812)pch2csd/pch2csd/parse.py:15: error: Argument 2 to "unpack" has incompatible type "Optional[bytes]"; expected "Union[array[int], bytes, bytearray, memoryview, mmap]"  [arg-type]
+(gleb812)pch2csd/pch2csd/parse.py:16: error: "Patch" has no attribute "ver"  [attr-defined]
+(gleb812)pch2csd/pch2csd/parse.py:17: error: "Patch" has no attribute "type"  [attr-defined]
+(gleb812)pch2csd/pch2csd/parse.py:84: error: Argument 1 to "parse_header" has incompatible type "BinaryIO"; expected "FileIO"  [arg-type]
+(gleb812)pch2csd/pch2csd/udo.py:92: error: Need type annotation for 'types' (hint: "types: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/udo.py:93: error: Need type annotation for 'names' (hint: "names: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/udo.py:101: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "List[Any]")  [assignment]
+(gleb812)pch2csd/pch2csd/udo.py:204: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/udo.py:222: error: Need type annotation for 'errors' (hint: "errors: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/udo.py:261: error: Item "None" of "Optional[List[str]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(gleb812)pch2csd/pch2csd/udo.py:324: error: Need type annotation for 'excluded_modules' (hint: "excluded_modules: List[<type>] = ...")  [var-annotated]
+(gleb812)pch2csd/pch2csd/csdgen.py:156: error: Module has no attribute "get_io_cable_colors"  [attr-defined]
+(gleb812)pch2csd/pch2csd/csdgen.py:158: error: Module has no attribute "get_io_cable_colors"  [attr-defined]
+(gleb812)pch2csd/pch2csd/app.py:8: error: Module 'pch2csd' has no attribute '__version__'  [attr-defined]
+(gleb812)pch2csd/pch2csd/app.py:8: error: Module 'pch2csd' has no attribute '__homepage__'  [attr-defined]
+(gleb812)pch2csd/pch2csd/app.py:72: error: Item "None" of "Optional[Module]" has no attribute "type_name"  [union-attr]
+(gleb812)pch2csd/pch2csd/app.py:73: error: Item "None" of "Optional[Module]" has no attribute "type_name"  [union-attr]
+(gleb812)pch2csd/tests/test_csdgen.py:35: error: Argument 1 to "skip" has incompatible type "Callable[[TestPolymorphism], Any]"; expected "str"  [arg-type]
+(gleb812)pch2csd/tests/test_csdgen.py:50: error: Argument 1 to "skip" has incompatible type "Callable[[TestParameterMapping], Any]"; expected "str"  [arg-type]
+Found 25 errors in 7 files (checked 7 source files)
+
+[RRepo](Leixb)jutge_cli
+
+[RRepo](vixcess)falcon-sqlalchemy
+
+[RRepo](gomjellie)SoongSiri
+
+[RRepo](stasfilin)fastread
+(stasfilin)fastread/setup.py:6: error: Module 'fastread' has no attribute '__version__'  [attr-defined]
+(stasfilin)fastread/setup.py:13: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](peterhinch)micropython-tft-gui
+(peterhinch)micropython-tft-gui/touch_bytecode.py:42: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:43: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:44: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:45: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:49: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:50: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:51: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:52: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:54: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:55: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:43: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:44: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:45: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:46: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:50: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:51: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:52: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:53: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:55: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:56: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:243: error: Name 'micropython' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:245: error: Name 'ptr16' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:246: error: Name 'ptr16' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:52: error: Name 'YELLOW' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:123: error: Name 'YELLOW' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:166: error: Name 'WHITE' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:167: error: Name 'LIGHTGREEN' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:212: error: Name 'WHITE' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:213: error: Name 'LIGHTGREEN' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/bmp_to_icon.py:39: error: Need type annotation for 'icon_table' (hint: "icon_table: List[<type>] = ...")  [var-annotated]
+(peterhinch)micropython-tft-gui/asyn.py:12: error: Name 'asyncio' already defined (possibly by an import)  [no-redef]
+Found 31 errors in 5 files (checked 21 source files)
+
+[RRepo](bioconda)bioconda-utils
+
+[RRepo](jiny2001)dcscn-super-resolution
+(jiny2001)dcscn-super-resolution/convert_y.py:16: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/augmentation.py:18: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/train.py:17: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/evaluate.py:35: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+Found 4 errors in 4 files (checked 5 source files)
+
+[RRepo](RasaHQ)rasa_nlu
+
+[RRepo](samshadwell)TrumpScript
+
+[RRepo](pablodav)burp_server_reports
+Success: no issues found in 1 source file
+
+[RRepo](niwinz)cobrascript
+
+[RRepo](rmtew)peasauce
+
+[RRepo](vitchyr)rlkit
+
+[RRepo](jython234)PyRakLib
+(jython234)PyRakLib/pyraklib/Queue.py:24: error: Need type annotation for 'objects' (hint: "objects: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](Kilerd)nougat
+
+[RRepo](manerfan)python-game-snake
+
+[RRepo](algorhythms)LeetCode
+(algorhythms)LeetCode/001 Two Sum.py:57: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 718 source files)
+
+[RRepo](dbader)photosorter
+Success: no issues found in 2 source files
+
+[RRepo](nkmk)python-snippets
+
+[RRepo](TeamHG-Memex)scrapy-cdr
+
+[RRepo](fin-ger)color-harmonization
+
+[RRepo](bruecksen)impacts-world
+Success: no issues found in 1 source file
+
+[RRepo](puhitaku)typedmarshal
+Success: no issues found in 1 source file
+
+[RRepo](GerritCodeReview)gerrit
+
+[RRepo](magicgoose)simple_dr_meter
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:127: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:131: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:132: error: Incompatible types in assignment (expression has type "Number", variable has type "str")  [assignment]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:164: error: Need type annotation for 'tracks' (hint: "tracks: List[<type>] = ...")  [var-annotated]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:288: error: Need type annotation for 'd'  [var-annotated]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:314: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(magicgoose)simple_dr_meter/main.py:12: error: Module 'audio_io' has no attribute 'read_audio_info'  [attr-defined]
+(magicgoose)simple_dr_meter/main.py:12: error: Module 'audio_io' has no attribute 'read_audio_data'  [attr-defined]
+(magicgoose)simple_dr_meter/main.py:14: error: Module 'audio_metrics' has no attribute 'compute_dr'  [attr-defined]
+(magicgoose)simple_dr_meter/main.py:84: error: Incompatible types in assignment (expression has type "Tuple[Tuple[AudioSourceInfo, Iterable[Tuple[int, float, float, int, str]]], ...]", variable has type "Iterator[Tuple[AudioSourceInfo, Iterable[Tuple[int, float, float, int, str]]]]")  [assignment]
+(magicgoose)simple_dr_meter/main.py:84: note: 'tuple' is missing following 'Iterator' protocol member:
+(magicgoose)simple_dr_meter/main.py:84: note:     __next__
+Found 10 errors in 2 files (checked 1 source file)
+
+[RRepo](getpelican)pelican-plugins
+Success: no issues found in 2 source files
+
+[RRepo](drewm1980)multi_view_stereo_benchmark
+(drewm1980)multi_view_stereo_benchmark/camera_models.py:229: error: Name 'test_division_model_invertability' is not defined  [name-defined]
+(drewm1980)multi_view_stereo_benchmark/camera_models.py:230: error: Name 'test_division_model_invertability' is not defined  [name-defined]
+(drewm1980)multi_view_stereo_benchmark/reconstruct.py:14: error: Need type annotation for 'allOptionNames' (hint: "allOptionNames: List[<type>] = ...")  [var-annotated]
+(drewm1980)multi_view_stereo_benchmark/reconstruct.py:15: error: Need type annotation for 'allOptionsDict' (hint: "allOptionsDict: Dict[<type>, <type>] = ...")  [var-annotated]
+(drewm1980)multi_view_stereo_benchmark/load_ply_test.py:13: error: Name 'test_save_ply_file' is not defined  [name-defined]
+Found 5 errors in 3 files (checked 14 source files)
+
+[RRepo](jbaiter)demetsiiify
+(jbaiter)demetsiiify/demetsiiify/mets.py:2: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(jbaiter)demetsiiify/demetsiiify/iiif.py:249: error: 'builtins.object*' object is not iterable  [misc]
+(jbaiter)demetsiiify/demetsiiify/iiif.py:249: error: Item "None" of "Optional[Tuple[int, str, int]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(jbaiter)demetsiiify/demetsiiify/iiif.py:257: error: Too few arguments for "make_manifest_collection"  [call-arg]
+(jbaiter)demetsiiify/demetsiiify/iiif.py:258: error: Argument 4 to "make_manifest_collection" has incompatible type "None"; expected "int"  [arg-type]
+(jbaiter)demetsiiify/demetsiiify/models.py:345: error: Not all arguments converted during string formatting  [str-format]
+(jbaiter)demetsiiify/demetsiiify/imgfetch.py:40: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "CaseInsensitiveDict[str]")  [assignment]
+Found 7 errors in 4 files (checked 8 source files)
+
+[RRepo](maxmalysh)tiny-py-interpreter
+
+[RRepo](leyhline)vix-term-structure
+Success: no issues found in 5 source files
+
+[RRepo](Dioptas)Dioptas
+(Dioptas)Dioptas/dioptas/controller/integration/OptionsController.py:23: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/widgets/MaskWidget.py:24: error: Module 'dioptas.widgets.plot_widgets' has no attribute 'MaskImgWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/integration/phase/PhaseInCakeController.py:25: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/integration/phase/PhaseInPatternController.py:26: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/integration/phase/PhaseController.py:36: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/integration/BackgroundController.py:29: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/widgets/MainWidget.py:28: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/integration/IntegrationController.py:32: error: Module 'dioptas.widgets.integration' has no attribute 'IntegrationWidget'  [attr-defined]
+(Dioptas)Dioptas/dioptas/controller/MainController.py:31: error: Module 'dioptas.controller' has no attribute 'CalibrationController'  [attr-defined]
+Found 9 errors in 9 files (checked 2 source files)
+
+[RRepo](coreGreenberet)homematicip-rest-api
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:23: error: Incompatible return value type (got "None", expected "HmipConfig")  [return-value]
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:34: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:41: error: "ConfigParser" has no attribute "_sections"  [attr-defined]
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:46: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:46: note: Did you mean "List[...]"?
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:55: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(coreGreenberet)homematicip-rest-api/homematicip/__init__.py:58: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(coreGreenberet)homematicip-rest-api/homematicip/functionalHomes.py:17: error: Signature of "from_json" incompatible with supertype "HomeMaticIPObject"  [override]
+(coreGreenberet)homematicip-rest-api/homematicip/functionalHomes.py:45: error: Signature of "from_json" incompatible with supertype "HomeMaticIPObject"  [override]
+(coreGreenberet)homematicip-rest-api/homematicip/functionalHomes.py:77: error: Signature of "from_json" incompatible with supertype "HomeMaticIPObject"  [override]
+(coreGreenberet)homematicip-rest-api/homematicip/functionalHomes.py:112: error: Signature of "from_json" incompatible with supertype "HomeMaticIPObject"  [override]
+Found 10 errors in 2 files (checked 10 source files)
+
+[RRepo](EconForge)dolo
+
+[RRepo](Trilarion)imperialism-remake
+Success: no issues found in 1 source file
+
+[RRepo](fsinfuhh)Bitpoll
+
+[RRepo](CommunicationsSecurityEstablishment)spartacus
+Success: no issues found in 4 source files
+
+[RRepo](pvizeli)ha-ffmpeg
+
+[RRepo](diyclassics)cltk
+
+[RRepo](mesosphere)dcos-kafka-service
+(mesosphere)dcos-kafka-service/conftest.py:117: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](DXsmiley)mathbot
+
+[RRepo](ginoledesma)curb_energy
+
+[RRepo](ament)ament_lint
+
+[RRepo](robinkjoy)systemrdl-compiler
+
+[RRepo](secrary)SSMA
+
+[RRepo](google)pikov
+
+[RRepo](JuliusKunze)speechless
+(JuliusKunze)speechless/speechless/tools.py:12: error: String argument 1 'Element' to TypeVar(...) does not match variable name 'E'  [misc]
+(JuliusKunze)speechless/speechless/tools.py:12: error: "object" not callable  [operator]
+(JuliusKunze)speechless/speechless/tools.py:15: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:23: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:67: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:71: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:75: error: String argument 1 'Key' to TypeVar(...) does not match variable name 'K'  [misc]
+(JuliusKunze)speechless/speechless/tools.py:75: error: "object" not callable  [operator]
+(JuliusKunze)speechless/speechless/tools.py:76: error: String argument 1 'Value' to TypeVar(...) does not match variable name 'V'  [misc]
+(JuliusKunze)speechless/speechless/tools.py:76: error: "object" not callable  [operator]
+(JuliusKunze)speechless/speechless/tools.py:79: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:79: error: Variable "speechless.tools.K" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:79: error: Variable "speechless.tools.V" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:80: error: Generator has incompatible item type "Tuple[K?, Tuple[V?, ...]]"; expected "Tuple[K?, Tuple[V?]]"  [misc]
+(JuliusKunze)speechless/speechless/tools.py:87: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/tools.py:98: error: Variable "speechless.tools.E" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/labeled_example.py:85: error: Argument "id" to "__init__" of "LabeledSpectrogram" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(JuliusKunze)speechless/speechless/labeled_example.py:85: error: Argument "label" to "__init__" of "LabeledSpectrogram" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(JuliusKunze)speechless/speechless/labeled_example.py:97: error: Item "None" of "Optional[str]" has no attribute "count"  [union-attr]
+(JuliusKunze)speechless/speechless/corpus.py:82: error: "LabeledExample" has no attribute "audio_file"  [attr-defined]
+(JuliusKunze)speechless/speechless/corpus.py:83: error: "LabeledExample" has no attribute "audio_file"  [attr-defined]
+(JuliusKunze)speechless/speechless/corpus.py:105: error: Cannot instantiate abstract class 'Corpus' with abstract attributes 'csv_rows' and 'summary'  [abstract]
+(JuliusKunze)speechless/speechless/corpus.py:109: error: String argument 1 'Key' to TypeVar(...) does not match variable name 'K'  [misc]
+(JuliusKunze)speechless/speechless/corpus.py:109: error: "object" not callable  [operator]
+(JuliusKunze)speechless/speechless/corpus.py:111: error: Variable "speechless.corpus.Corpus.K" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/corpus.py:120: error: Cannot instantiate abstract class 'Corpus' with abstract attributes 'csv_rows' and 'summary'  [abstract]
+(JuliusKunze)speechless/speechless/corpus.py:148: error: Need type annotation for 'training_only'  [var-annotated]
+(JuliusKunze)speechless/speechless/corpus.py:149: error: Need type annotation for 'test_only'  [var-annotated]
+(JuliusKunze)speechless/speechless/corpus.py:177: error: "LabeledExample" has no attribute "audio_directory"  [attr-defined]
+(JuliusKunze)speechless/speechless/corpus.py:222: error: Incompatible return value type (got "List[CachedLabeledSpectrogram]", expected "List[LabeledSpectrogram]")  [return-value]
+(JuliusKunze)speechless/speechless/corpus.py:222: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(JuliusKunze)speechless/speechless/corpus.py:222: note: Consider using "Sequence" instead, which is covariant
+(JuliusKunze)speechless/speechless/configuration.py:41: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/configuration.py:41: note: Perhaps you need "Callable[...]" or a callback protocol?
+(JuliusKunze)speechless/speechless/configuration.py:163: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/configuration.py:163: note: Perhaps you need "Callable[...]" or a callback protocol?
+(JuliusKunze)speechless/main.py:208: error: Need type annotation for 'results_with_epochs' (hint: "results_with_epochs: List[<type>] = ...")  [var-annotated]
+Found 33 errors in 5 files (checked 1 source file)
+
+[RRepo](brettcannon)free-labour
+
+[RRepo](popcorn9499)chatBot
+(popcorn9499)chatBot/testLog.py:31: error: Incompatible types in assignment (expression has type "Logger", variable has type "Callable[[Any], Any]")  [assignment]
+(popcorn9499)chatBot/testLog.py:33: error: "Callable[[Any], Any]" has no attribute "setLevel"  [attr-defined]
+(popcorn9499)chatBot/testLog.py:46: error: "Callable[[Any], Any]" has no attribute "addHandler"  [attr-defined]
+(popcorn9499)chatBot/testLog.py:58: error: "Callable[[Any], Any]" has no attribute "debug"  [attr-defined]
+(popcorn9499)chatBot/main.py:3: error: Module 'modules' has no attribute 'variables'  [attr-defined]
+(popcorn9499)chatBot/main.py:4: error: Module 'modules' has no attribute 'mainBot'  [attr-defined]
+(popcorn9499)chatBot/main.py:5: error: Module 'modules' has no attribute 'fileIO'  [attr-defined]
+(popcorn9499)chatBot/main.py:6: error: Module 'modules' has no attribute 'youtube'  [attr-defined]
+(popcorn9499)chatBot/main.py:7: error: Module 'modules' has no attribute 'discordBot'  [attr-defined]
+(popcorn9499)chatBot/main.py:36: error: Module 'modules' has no attribute 'irc'  [attr-defined]
+Found 10 errors in 2 files (checked 3 source files)
+
+[RRepo](Cloudzero)cloudzero-reactor-aws
+(Cloudzero)cloudzero-reactor-aws/reactor/aws/provider.py:10: error: Module 'reactor.utils' has no attribute 'boto3_service_name'  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/utils/bootstrap.py:8: error: Module 'reactor.database.models.dynamodb' has no attribute 'CZReactorEventMapping'  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/database/models/dynamodb/cz_reactor_environments.py:28: error: Incompatible types in assignment (expression has type "Dict[str, object]", base class "CZReactorModel" defined the type as "None")  [assignment]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/resources/observations.py:20: error: Need type annotation for 'seen_kinesis_invokes' (hint: "seen_kinesis_invokes: Set[<type>] = ...")  [var-annotated]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/vpc_flowlog_event_source/ingest.py:28: error: Need type annotation for 'seen_resource_timestamps' (hint: "seen_resource_timestamps: Dict[<type>, <type>] = ...")  [var-annotated]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/accounts/account_resources.py:23: error: Module has no attribute "CZReactorEnvironments"  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/resources/reconcile.py:23: error: Module has no attribute "CZReactorReconciledResources"  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/resources/reconcile.py:24: error: Need type annotation for 'account_contexts' (hint: "account_contexts: Dict[<type>, <type>] = ...")  [var-annotated]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/resources/enrich.py:27: error: Need type annotation for 'account_contexts' (hint: "account_contexts: Dict[<type>, <type>] = ...")  [var-annotated]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:12: error: Module 'reactor.database.models.dynamodb' has no attribute 'CZReactorMetrics'  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:13: error: Module 'reactor.features.accounts' has no attribute 'InvalidSystemSettings'  [attr-defined]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:171: error: No overload variant of "update" of "dict" matches argument types "bool", "str", "bool"  [call-overload]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:171: note: Possible overload variant:
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:171: note:     def update(self, **kwargs: bool) -> None
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:171: note:     <2 more non-matching overloads not shown>
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:177: error: Argument "coresync_bucket" to "update" of "dict" has incompatible type "Union[str, Any]"; expected "bool"  [arg-type]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:181: error: No overload variant of "update" of "dict" matches argument types "bool", "str", "Dict[str, bool]"  [call-overload]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:181: note: Possible overload variant:
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:181: note:     def update(self, **kwargs: bool) -> None
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:181: note:     <2 more non-matching overloads not shown>
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:189: error: No overload variant of "update" of "dict" matches argument types "bool", "str", "Dict[str, bool]"  [call-overload]
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:189: note: Possible overload variant:
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:189: note:     def update(self, **kwargs: bool) -> None
+(Cloudzero)cloudzero-reactor-aws/reactor/features/system.py:189: note:     <2 more non-matching overloads not shown>
+Found 15 errors in 9 files (checked 1 source file)
+
+[RRepo](Karaage-Cluster)python-tldap
+Success: no issues found in 1 source file
+
+[RRepo](baffelli)pyperator
+
+[RRepo](scienceopen)pymap3d
+(scienceopen)pymap3d/radec2azel.py:7: error: Module 'pymap3d' has no attribute 'radec2azel'  [attr-defined]
+(scienceopen)pymap3d/azel2radec.py:7: error: Module 'pymap3d' has no attribute 'azel2radec'  [attr-defined]
+Found 2 errors in 2 files (checked 5 source files)
+
+[RRepo](IniterWorker)epitech-stats-notes
+Success: no issues found in 1 source file
+
+[RRepo](h2non)siringa
+Success: no issues found in 2 source files
+
+[RRepo](SergeySatskiy)cdm-flowparser
+
+[RRepo](qiime2)qiime2
+(qiime2)qiime2/qiime2/__init__.py:9: error: Module 'qiime2.sdk' has no attribute 'Artifact'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:9: error: Module 'qiime2.sdk' has no attribute 'Visualization'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:10: error: Module 'qiime2.metadata' has no attribute 'Metadata'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:10: error: Module 'qiime2.metadata' has no attribute 'MetadataColumn'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:10: error: Module 'qiime2.metadata' has no attribute 'CategoricalMetadataColumn'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:10: error: Module 'qiime2.metadata' has no attribute 'NumericMetadataColumn'  [attr-defined]
+(qiime2)qiime2/qiime2/__init__.py:12: error: Module 'qiime2.plugin' has no attribute 'Citations'  [attr-defined]
+(qiime2)qiime2/qiime2/plugins.py:13: error: Need type annotation for '__path__' (hint: "__path__: List[<type>] = ...")  [var-annotated]
+(qiime2)qiime2/qiime2/plugins.py:102: error: List item 0 has incompatible type "QIIMEArtifactAPIImporter"; expected "MetaPathFinder"  [list-item]
+Found 9 errors in 2 files (checked 3 source files)
+
+[RRepo](repology)repology
+(repology)repology/repology/packagemaker/__init__.py:136: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:141: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:145: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:152: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:158: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:168: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:172: error: Argument 1 to "_simple_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:176: error: Argument 1 to "_omnivorous_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:180: error: Argument 1 to "_omnivorous_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:186: error: Argument 1 to "_omnivorous_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:192: error: Argument 1 to "_omnivorous_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+(repology)repology/repology/packagemaker/__init__.py:196: error: Argument 1 to "_omnivorous_setter" has incompatible type "str"; expected "PackageMakerBase"  [arg-type]
+Found 12 errors in 1 file (checked 5 source files)
+
+[RRepo](mrachinskiy)commotion
+
+[RRepo](jstasiak)python-zeroconf
+
+[RRepo](leofnch)kc
+
+[RRepo](ClearcodeHQ)pytest-postgresql
+Success: no issues found in 1 source file
+
+[RRepo](Stewori)pytypes
+
+[RRepo](vinitkumar)instabote
+
+[RRepo](Kane610)axis
+
+[RRepo](emeric254)PyHawaiiBiosReader
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"  [call-overload]
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note: Possible overload variants:
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note:     def __setitem__(self, int, int) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note:     def __setitem__(self, slice, Union[Iterable[int], bytes]) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"  [call-overload]
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note: Possible overload variants:
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note:     def __setitem__(self, int, int) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note:     def __setitem__(self, slice, Union[Iterable[int], bytes]) -> None
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](egnyte)gitlabform
+Success: no issues found in 1 source file
+
+[RRepo](Yelp)nerve-tools
+
+[RRepo](azogue)hass_config
+(azogue)hass_config/cronip.py:288: error: "print" does not return a value  [func-returns-value]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](lgautier)mashing-pumpkins
+
+[RRepo](jhartz)gradefast
+
+[RRepo](openfisca)openfisca-france
+
+[RRepo](google)graphicsfuzz
+
+[RRepo](leosac)leosac
+
+[RRepo](databricks-edu)build-tooling
+(databricks-edu)build-tooling/setup.py:14: error: Module 'distutils.command.sdist' has no attribute 'sdist'  [attr-defined]
+(databricks-edu)build-tooling/setup.py:55: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:106: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:126: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:158: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:168: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:175: error: Item "None" of "Optional[EnhancedTextWrapper]" has no attribute "fill"  [union-attr]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:178: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:188: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:197: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:206: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:230: error: Incompatible types in "yield" (actual type "str", expected type "None")  [misc]
+(databricks-edu)build-tooling/gendbc/__init__.py:125: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:155: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:173: error: Need type annotation for 'paths' (hint: "paths: Set[<type>] = ...")  [var-annotated]
+(databricks-edu)build-tooling/gendbc/__init__.py:213: error: Implicit return in function which does not return  [misc]
+(databricks-edu)build-tooling/gendbc/__init__.py:213: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:304: error: Name 'parse_source_notebook' is not defined  [name-defined]
+Found 18 errors in 3 files (checked 3 source files)
+
+[RRepo](yunity)foodsaving-backend
+Success: no issues found in 1 source file
+
+[RRepo](ANR-COMPASS)shesha
+
+[RRepo](TadLeonard)tfatool
+(TadLeonard)tfatool/tfatool/cgi.py:30: error: Name 'prepared_request' is not defined  [name-defined]
+(TadLeonard)tfatool/tfatool/sync.py:27: error: Name 'scandir' already defined on line 25  [no-redef]
+(TadLeonard)tfatool/tfatool/sync.py:28: error: overloaded function has no attribute "scandir"  [attr-defined]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](RagtagOpen)bidwire
+
+[RRepo](RalphLipe)somfyrts
+Success: no issues found in 2 source files
+
+[RRepo](twitter)pants
+
+[RRepo](undystopia)libjournal
+
+[RRepo](darcamo)pyphysim
+Success: no issues found in 1 source file
+
+[RRepo](Clinical-Genomics)scout
+(Clinical-Genomics)scout/setup.py:57: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+(Clinical-Genomics)scout/setup.py:65: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](PetrPPetrov)beautiful-capi
+
+[RRepo](hpparvi)PyTransit
+
+[RRepo](mdklatt)cookiecutter-python-app
+
+[RRepo](samuelbroscheit)elvis
+
+[RRepo](ros2)rclpy
+
+[RRepo](REGOVAR)Annso
+
+[RRepo](MrBenGriffin)Amaze
+(MrBenGriffin)Amaze/Maze/util.py:62: error: "Com" has no attribute "opposite"  [attr-defined]
+(MrBenGriffin)Amaze/Maze/util.py:66: error: "Com" has no attribute "opposite"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](EeOneDown)spbu4u
+(EeOneDown)spbu4u/telebot_login/help_decorators.py:5: error: Module 'requests' has no attribute 'ConnectTimeout'  [attr-defined]
+(EeOneDown)spbu4u/telebot_login/help_decorators.py:5: error: Module 'requests' has no attribute 'ReadTimeout'; maybe "Timeout"?  [attr-defined]
+(EeOneDown)spbu4u/telebot_login/help_decorators.py:11: error: Module 'tg_bot' has no attribute 'bot'  [attr-defined]
+(EeOneDown)spbu4u/telebot_login/help_decorators.py:12: error: Module 'tg_bot.keyboards' has no attribute 'link_button'  [attr-defined]
+(EeOneDown)spbu4u/tg_schedule_sender.py:3: error: Module 'app' has no attribute 'new_functions'  [attr-defined]
+(EeOneDown)spbu4u/tg_schedule_sender.py:6: error: Module 'tg_bot' has no attribute 'bot'  [attr-defined]
+(EeOneDown)spbu4u/schedule_watcher.py:6: error: Module 'tg_bot' has no attribute 'bot'  [attr-defined]
+(EeOneDown)spbu4u/schedule_watcher.py:7: error: Module 'tg_bot.keyboards' has no attribute 'current_week_keyboard'  [attr-defined]
+(EeOneDown)spbu4u/telebot_login/__init__.py:9: error: Module 'tg_bot' has no attribute 'bot'  [attr-defined]
+Found 9 errors in 4 files (checked 7 source files)
+
+[RRepo](abertal)alpha
+
+[RRepo](texta-tk)texta
+Success: no issues found in 1 source file
+
+[RRepo](xahhy)Django-vod
+
+[RRepo](hadware)katalixia
+
+[RRepo](cpcloud)slumba
+Success: no issues found in 5 source files
+
+[RRepo](Ryp)Reaper
+
+[RRepo](JetBrains)kotlin-web-site
+(JetBrains)kotlin-web-site/src/pdf.py:109: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(JetBrains)kotlin-web-site/kotlin-website.py:333: error: Name 'page' already defined on line 327  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:359: error: Name 'api_page' already defined on line 343  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:394: error: Name 'asset' already defined on line 384  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "Union[int, str, None]"  [arg-type]
+(JetBrains)kotlin-web-site/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "bool"  [arg-type]
+Found 6 errors in 2 files (checked 1 source file)
+
+[RRepo](emeric254)microservice-squeleton
+Success: no issues found in 1 source file
+

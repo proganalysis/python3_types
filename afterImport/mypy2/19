@@ -1,0 +1,454 @@
+[RRepo](jwodder)aptrepo
+
+[RRepo](tvorogme)gotosite
+
+[RRepo](Ex-Mente)auxi.0
+
+[RRepo](maldoinc)mamba
+(maldoinc)mamba/mamba/symbol_table.py:9: error: Need type annotation for '__table'  [var-annotated]
+(maldoinc)mamba/mamba/__init__.py:15: error: Name 'environment' is not defined  [name-defined]
+Found 2 errors in 2 files (checked 7 source files)
+
+[RRepo](Linaro)test-definitions
+Success: no issues found in 1 source file
+
+[RRepo](reillysiemens)wb2k
+(reillysiemens)wb2k/layabout.py:81: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(reillysiemens)wb2k/wb2k.py:33: error: Name 'sys' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:33: error: Name 'bail' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:42: error: Name 'sys' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:42: error: Name 'bail' is not defined  [name-defined]
+Found 5 errors in 2 files (checked 2 source files)
+
+[RRepo](YU6326)YU6326.github.io
+
+[RRepo](aclowes)yawn
+
+[RRepo](mozillazg)pinyin-data
+(mozillazg)pinyin-data/merge_unihan.py:68: error: Need type annotation for 'raw_pinyin_map' (hint: "raw_pinyin_map: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](edx)repo-tools
+(edx)repo-tools/count_logo_referrers.py:69: error: Need type annotation for 'uris'  [var-annotated]
+(edx)repo-tools/count_logo_referrers.py:70: error: Need type annotation for 'hosts'  [var-annotated]
+(edx)repo-tools/count_logo_referrers.py:77: error: "defaultdict[Any, HostInfo]" has no attribute "iteritems"  [attr-defined]
+(edx)repo-tools/barcalendar.py:88: error: Unsupported operand types for + ("None" and "int")  [operator]
+(edx)repo-tools/barcalendar.py:90: error: Unsupported operand types for + ("None" and "int")  [operator]
+(edx)repo-tools/barcalendar.py:94: error: Unsupported operand types for + ("int" and "None")  [operator]
+(edx)repo-tools/barcalendar.py:94: note: Right operand is of type "Optional[int]"
+(edx)repo-tools/barcalendar.py:96: error: Incompatible types in assignment (expression has type "Tuple[int, Optional[int]]", variable has type "Tuple[None, None]")  [assignment]
+(edx)repo-tools/yamldata.py:14: error: Need type annotation for '_the_data' (hint: "_the_data: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 8 errors in 3 files (checked 22 source files)
+
+[RRepo](ManuelLR)Notmail_Bot
+(ManuelLR)Notmail_Bot/services/__init__.py:18: error: Need type annotation for 'emailsServices' (hint: "emailsServices: Dict[<type>, <type>] = ...")  [var-annotated]
+(ManuelLR)Notmail_Bot/config/loadConfig.py:213: error: "OSError" has no attribute "winerror"  [attr-defined]
+(ManuelLR)Notmail_Bot/utils/imap.py:25: error: Module has no attribute "_MAXLINE"  [attr-defined]
+(ManuelLR)Notmail_Bot/commands/account.py:203: error: Incompatible types in assignment (expression has type "range", variable has type "int")  [assignment]
+Found 4 errors in 4 files (checked 7 source files)
+
+[RRepo](aaugustin)websockets
+
+[RRepo](eachiaradia)IOGeopaparazzi
+
+[RRepo](spoqa)geofront
+Success: no issues found in 7 source files
+
+[RRepo](ampotty)uip-pc3
+
+[RRepo](angr)angr
+(angr)angr/setup.py:40: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(angr)angr/setup.py:41: error: Module 'distutils.command.clean' has no attribute 'clean'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](Geotab)mygeotab-python
+
+[RRepo](knowsuchagency)ninjadog
+(knowsuchagency)ninjadog/fabfile.py:6: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:16: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:25: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:33: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:41: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:53: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:62: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:72: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:95: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:123: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:131: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:141: error: Name 'task' is not defined  [name-defined]
+Found 12 errors in 1 file (checked 2 source files)
+
+[RRepo](sourcelair)ceryx
+
+[RRepo](PlattsSEC)HackerRank
+
+[RRepo](GoogleCloudPlatform)pubsub
+
+[RRepo](CZ-NIC)foris
+(CZ-NIC)foris/setup.py:11: error: Module 'foris' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](bureaucratic-labs)pinkerton
+
+[RRepo](kozbot)kecb
+(kozbot)kecb/generate_dxf.py:1: error: Module 'exporter' has no attribute 'DxfExporter'  [attr-defined]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](plone)plone.server
+(plone)plone.server/bootstrap-buildout.py:77: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(plone)plone.server/bootstrap-buildout.py:79: error: Need type annotation for 'ez' (hint: "ez: Dict[<type>, <type>] = ...")  [var-annotated]
+(plone)plone.server/bootstrap-buildout.py:127: error: Item "None" of "Optional[Distribution]" has no attribute "location"  [union-attr]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](dani0805)django_workflow
+
+[RRepo](ThaWeatherman)notify_labor
+(ThaWeatherman)notify_labor/utils.py:25: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](Ultimaker)cura-build
+
+[RRepo](markstory)lint-review
+(markstory)lint-review/lintreview/docker.py:79: error: Need type annotation for 'results' (hint: "results: List[<type>] = ...")  [var-annotated]
+(markstory)lint-review/lintreview/docker.py:138: error: Incompatible types in assignment (expression has type "int", target has type "Union[bool, Dict[str, Dict[str, str]], Sequence[str], Dict[str, str], None]")  [assignment]
+(markstory)lint-review/lintreview/git.py:157: error: Cannot find replacement for positional format specifier 2  [str-format]
+(markstory)lint-review/tests/__init__.py:51: error: Need type annotation for '_images' (hint: "_images: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 4 errors in 3 files (checked 9 source files)
+
+[RRepo](adtac)exterminate
+
+[RRepo](jumpman24)leela-analysis-36
+(jumpman24)leela-analysis-36/problem_parser.py:105: error: Value of type "Optional[List[Any]]" is not indexable  [index]
+(jumpman24)leela-analysis-36/problem_parser.py:106: error: Value of type "Optional[List[Any]]" is not indexable  [index]
+(jumpman24)leela-analysis-36/problem_parser.py:113: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(jumpman24)leela-analysis-36/problem_parser.py:140: error: Argument 2 to "make_sgf" has incompatible type "str"; expected "Optional[List[Any]]"  [arg-type]
+Found 4 errors in 1 file (checked 4 source files)
+
+[RRepo](TheReverend403)ricedb
+
+[RRepo](desec-io)desec-stack
+
+[RRepo](pyther)nrfeed
+
+[RRepo](finaldie)DNSTurbo
+
+[RRepo](harvard-vpal)bridge-adaptivity
+
+[RRepo](fujicoin)electrum-fjc
+
+[RRepo](Microsoft)bond
+
+[RRepo](singnet)singnet
+
+[RRepo](AndreiDrang)python-rucaptcha
+(AndreiDrang)python-rucaptcha/setup.py:33: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](roberthangu)snn_object_recognition
+(roberthangu)snn_object_recognition/visualizer.py:77: error: Name 'raw_input' is not defined  [name-defined]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:47: error: Need type annotation for 'layer_collection' (hint: "layer_collection: Dict[<type>, <type>] = ...")  [var-annotated]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:52: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:54: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:56: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:58: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:63: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images.py:54: error: Need type annotation for 'layer_collection' (hint: "layer_collection: Dict[<type>, <type>] = ...")  [var-annotated]
+(roberthangu)snn_object_recognition/classify-images.py:59: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:61: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:63: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:67: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images.py:70: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:50: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:52: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:54: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:56: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:58: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:63: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:240: error: "str" not callable  [operator]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:242: error: Unexpected keyword argument "protocol" for "open"  [call-arg]
+Found 21 errors in 4 files (checked 8 source files)
+
+[RRepo](JustFixNYC)who-owns-what
+Success: no issues found in 1 source file
+
+[RRepo](rachmadaniHaryono)iqdb_tagger
+
+[RRepo](honux77)practice
+
+[RRepo](notnami)phonemes
+(notnami)phonemes/phonemeviewer.py:8: error: Module 'phonemelib' has no attribute 'Phoneme'  [attr-defined]
+(notnami)phonemes/phonemeviewer.py:8: error: Module 'phonemelib' has no attribute 'FeatureValue'  [attr-defined]
+(notnami)phonemes/phonemeviewer.py:8: error: Module 'phonemelib' has no attribute 'phonemes'  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](sk89q)Plumeria
+
+[RRepo](FRCDiscord)Dozer
+
+[RRepo](Admicos)userfirefox
+(Admicos)userfirefox/userfirefox/UserFirefox.py:120: error: Argument 2 to "next" has incompatible type "None"; expected "FFProfile"  [arg-type]
+(Admicos)userfirefox/userfirefox/Repo.py:34: error: Need type annotation for '_modules' (hint: "_modules: List[<type>] = ...")  [var-annotated]
+(Admicos)userfirefox/userfirefox/Repo.py:35: error: Need type annotation for '_installed' (hint: "_installed: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 1 source file)
+
+[RRepo](googlestadia)renderdoc
+
+[RRepo](GeoscienceAustralia)eo-datasets
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:24: error: Need type annotation for 'out'  [var-annotated]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:66: error: Unsupported right operand type for in ("Optional[Tuple[str, ...]]")  [operator]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:67: error: Argument 1 to "join" of "str" has incompatible type "Optional[Tuple[str, ...]]"; expected "Iterable[str]"  [arg-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:282: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:297: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:314: error: Incompatible return value type (got "Tuple[Optional[Any], Optional[Any]]", expected "Tuple[datetime, datetime]")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:326: error: Function "eodatasets3.properties.EoFields.datetime" is not valid as a type  [valid-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:326: note: Perhaps you need "Callable[...]" or a callback protocol?
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:333: error: Missing return statement  [return]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:333: error: Function "eodatasets3.properties.EoFields.datetime" is not valid as a type  [valid-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:333: note: Perhaps you need "Callable[...]" or a callback protocol?
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:337: error: Function "eodatasets3.properties.EoFields.datetime" is not valid as a type  [valid-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:337: note: Perhaps you need "Callable[...]" or a callback protocol?
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:366: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:387: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:422: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:62: error: Item "None" of "Optional[Any]" has no attribute "shape"  [union-attr]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:67: error: Item "None" of "Optional[Any]" has no attribute "attrs"  [union-attr]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:70: error: Value of type "Optional[Any]" is not indexable  [index]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:29: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:30: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:57: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:221: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:235: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:297: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:323: error: Incompatible types in assignment (expression has type "None", variable has type "UUID")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:324: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:325: error: Incompatible types in assignment (expression has type "None", variable has type "ProductDoc")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:326: error: Incompatible types in assignment (expression has type "None", variable has type "List[str]")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:328: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:330: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[str, GridDoc]")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/model.py:334: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[str, MeasurementDoc]")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/serialise.py:50: error: Item "None" of "Optional[timedelta]" has no attribute "total_seconds"  [union-attr]
+(GeoscienceAustralia)eo-datasets/eodatasets3/serialise.py:91: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/serialise.py:92: error: Incompatible types in assignment (expression has type "bool", variable has type "None")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/serialise.py:219: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", variable has type "CommentedMap")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/documents.py:151: error: Incompatible types in assignment (expression has type "Callable[[Any, str, int, Optional[str], Optional[str], Optional[str]], IO[Any]]", variable has type "Callable[[Union[str, bytes, int, _PathLike[Any]], str, int, Optional[str], Optional[str], Optional[str], bool, Optional[Callable[[str, int], int]]], IO[Any]]")  [assignment]
+(GeoscienceAustralia)eo-datasets/eodatasets3/documents.py:232: error: Name 'value' already defined on line 229  [no-redef]
+Found 35 errors in 5 files (checked 10 source files)
+
+[RRepo](aio-libs)aioppspp
+
+[RRepo](fastogt)fastonosql
+
+[RRepo](Talanor)findmyhash
+(Talanor)findmyhash/findmyhash/cracker.py:21: error: Name 'HashNotFound' is not defined  [name-defined]
+(Talanor)findmyhash/findmyhash/cracker.py:23: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(Talanor)findmyhash/findmyhash/cracker.py:27: error: Module has no attribute "Service"  [attr-defined]
+(Talanor)findmyhash/findmyhash/cracker.py:33: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Talanor)findmyhash/findmyhash/cracker.py:51: error: Argument 1 to "decodestring" has incompatible type "str"; expected "bytes"  [arg-type]
+(Talanor)findmyhash/findmyhash/cracker.py:72: error: Module has no attribute "Service"  [attr-defined]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](jromang)picochess
+(jromang)picochess/utilities.py:40: error: Need type annotation for 'evt_queue'  [var-annotated]
+(jromang)picochess/utilities.py:41: error: Need type annotation for 'dispatch_queue'  [var-annotated]
+(jromang)picochess/dispatcher.py:36: error: Need type annotation for 'devices' (hint: "devices: Set[<type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:37: error: Need type annotation for 'maxtimer' (hint: "maxtimer: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:38: error: Need type annotation for 'maxtimer_running' (hint: "maxtimer_running: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:39: error: Need type annotation for 'clock_connected' (hint: "clock_connected: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:41: error: Need type annotation for 'tasks' (hint: "tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:43: error: Need type annotation for 'display_hash' (hint: "display_hash: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:44: error: Need type annotation for 'process_lock' (hint: "process_lock: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 9 errors in 2 files (checked 4 source files)
+
+[RRepo](mozilla)http-observatory
+
+[RRepo](eliostvs)tomate-notify-plugin
+Success: no issues found in 2 source files
+
+[RRepo](DataONEorg)d1_python
+
+[RRepo](Scille)parsec-cloud
+(Scille)parsec-cloud/setup.py:64: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(Scille)parsec-cloud/setup.py:88: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(Scille)parsec-cloud/setup.py:133: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(Scille)parsec-cloud/setup.py:199: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](Yelp)synapse-tools
+
+[RRepo](SunDwarf)Jokusoramame
+(SunDwarf)Jokusoramame/jokusoramame/utils.py:71: error: Incompatible return value type (got "List[Tuple[float, ...]]", expected "List[Tuple[float, float, float]]")  [return-value]
+(SunDwarf)Jokusoramame/jokusoramame/utils.py:80: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](axsemantics)rohrpost
+(axsemantics)rohrpost/setup.py:3: error: Module 'rohrpost' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](felipecustodio)algorithms
+
+[RRepo](kitchenbudapest)vr
+(kitchenbudapest)vr/utils.py:53: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:80: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:85: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:85: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:90: error: Missing return statement  [return]
+(kitchenbudapest)vr/surface.py:91: error: Need type annotation for 'coords' (hint: "coords: List[<type>] = ...")  [var-annotated]
+(kitchenbudapest)vr/surface.py:116: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:121: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:121: error: Name 'boolean' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:126: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:126: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:137: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:137: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:144: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:151: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:151: error: Name 'boolean' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:156: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:161: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:161: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:168: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:168: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:173: error: Invalid type comment or annotation  [valid-type]
+Found 22 errors in 2 files (checked 10 source files)
+
+[RRepo](MisterBianco)BoopSuite
+
+[RRepo](masc3d)btrfs-sxbackup
+(masc3d)btrfs-sxbackup/setup.py:18: error: Module 'btrfs_sxbackup' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](fcracker79)accrocchio
+(fcracker79)accrocchio/accrocchio/observers.py:14: error: Need type annotation for 'ACCROCCHIO_OBSERVERS' (hint: "ACCROCCHIO_OBSERVERS: Dict[<type>, <type>] = ...")  [var-annotated]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:251: error: String argument 1 'Accrocchio' to TypeVar(...) does not match variable name '_AccrocchioType'  [misc]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:251: error: "object" not callable  [operator]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:254: error: Variable "accrocchio.badgeofshame._AccrocchioType" is not valid as a type  [valid-type]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:258: error: Variable "accrocchio.badgeofshame._AccrocchioType" is not valid as a type  [valid-type]
+Found 5 errors in 2 files (checked 4 source files)
+
+[RRepo](kirbyfan64)rejit
+Success: no issues found in 1 source file
+
+[RRepo](scherroman)mugen
+
+[RRepo](n1amr)dotfiles
+
+[RRepo](mjirik)io3d
+
+[RRepo](lablup)sorna-agent
+
+[RRepo](gwax)mtg_ssm
+
+[RRepo](MaxwellBo)neoreader
+
+[RRepo](qutebrowser)qutebrowser
+(qutebrowser)qutebrowser/scripts/setupcommon.py:34: error: Incompatible types in assignment (expression has type "Callable[[str, str, str, str, int], StreamReaderWriter]", variable has type "Callable[[Union[str, bytes, int, _PathLike[Any]], str, int, Optional[str], Optional[str], Optional[str], bool, Optional[Callable[[str, int], int]]], IO[Any]]")  [assignment]
+(qutebrowser)qutebrowser/setup.py:37: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 2 errors in 2 files (checked 1 source file)
+
+[RRepo](tox-dev)tox
+
+[RRepo](Neo23x0)sigma
+
+[RRepo](MRPT)mrpt
+
+[RRepo](redkyn)assigner
+(redkyn)assigner/assigner/backends/base.py:128: error: Cannot redefine 'T' as a type variable  [misc]
+(redkyn)assigner/assigner/backends/base.py:128: error: Invalid assignment target  [misc]
+(redkyn)assigner/assigner/backends/base.py:128: error: "object" not callable  [operator]
+(redkyn)assigner/assigner/backends/base.py:145: error: Cannot redefine 'T' as a type variable  [misc]
+(redkyn)assigner/assigner/backends/base.py:145: error: Invalid assignment target  [misc]
+(redkyn)assigner/assigner/backends/base.py:145: error: "object" not callable  [operator]
+(redkyn)assigner/assigner/backends/base.py:160: error: Incompatible types in assignment (expression has type "Type[RepoBase]", variable has type "RepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/base.py:161: error: Incompatible types in assignment (expression has type "Type[TemplateRepoBase]", variable has type "TemplateRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/base.py:162: error: Incompatible types in assignment (expression has type "Type[StudentRepoBase]", variable has type "StudentRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:268: error: Incompatible types in assignment (expression has type "Type[MockRepo]", variable has type "RepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:269: error: Incompatible types in assignment (expression has type "Type[MockTemplateRepo]", variable has type "TemplateRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:270: error: Incompatible types in assignment (expression has type "Type[MockStudentRepo]", variable has type "StudentRepoBase")  [assignment]
+Found 12 errors in 2 files (checked 10 source files)
+
+[RRepo](tomkdickinson)parsemis_wrapper
+
+[RRepo](google-research)data-driven-pdes
+
+[RRepo](SP2RC-Coding-Club)Codes
+
+[RRepo](LionelAuroux)pyrser
+Success: no issues found in 1 source file
+
+[RRepo](tomv564)LSP
+Success: no issues found in 1 source file
+
+[RRepo](signalfx)integrations
+Success: no issues found in 1 source file
+
+[RRepo](HTTP-APIs)hydrus
+(HTTP-APIs)hydrus/hydrus/data/user.py:42: error: Unsupported operand types for > ("datetime" and "timedelta")  [operator]
+(HTTP-APIs)hydrus/cli.py:106: error: Too few arguments for "load_module" of "InspectLoader"  [call-arg]
+(HTTP-APIs)hydrus/cli.py:106: error: Module has no attribute "doc"  [attr-defined]
+(HTTP-APIs)hydrus/cli.py:112: error: Exception must be derived from BaseException  [misc]
+Found 4 errors in 2 files (checked 1 source file)
+
+[RRepo](petervaro)python
+
+[RRepo](errbotio)errbot
+Success: no issues found in 1 source file
+
+[RRepo](enihsyou)PackageTracker
+
+[RRepo](openforis)sepal
+
+[RRepo](RudolfCardinal)crate
+
+[RRepo](HeartUnchange)aiospider
+
+[RRepo](SkygearIO)chat
+(SkygearIO)chat/chat/pubsub.py:9: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/pubsub.py:9: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/pubsub.py:23: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/pubsub.py:23: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/user_conversation.py:18: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/receipt.py:11: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message_history.py:10: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message.py:15: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message.py:56: error: Missing return statement  [return]
+(SkygearIO)chat/chat/conversation.py:14: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/receipt_handlers.py:26: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/receipt_handlers.py:26: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/receipt_handlers.py:38: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/receipt_handlers.py:38: note: Did you mean "List[...]"?
+Found 10 errors in 7 files (checked 25 source files)
+
+[RRepo](borevitzlab)3D-tools
+(borevitzlab)3D-tools/conf.py:53: error: Need type annotation for 'templates_path' (hint: "templates_path: List[<type>] = ...")  [var-annotated]
+(borevitzlab)3D-tools/conf.py:111: error: Need type annotation for 'html_static_path' (hint: "html_static_path: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](ccubed)PyMoe
+(ccubed)PyMoe/Pymoe/Kitsu/mappings.py:21: error: Argument "params" has incompatible type "Dict[str, object]"; expected <union: 9 items>  [arg-type]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](albemala)almoviesrenamer
+(albemala)almoviesrenamer/upload2google.py:187: error: Missing parentheses in call to 'print'. Did you mean print('Please enter your googlecode.com password.')?  [syntax]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](msincenselee)vnpy
+
+[RRepo](mrachinskiy)booltron
+
+[RRepo](brython-dev)brython
+(brython-dev)brython/server.py:43: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(brython-dev)brython/server.py:173: error: Argument 2 to "ThreadingTCPServer" has incompatible type "Type[RequestHandler]"; expected "Callable[..., BaseRequestHandler]"  [arg-type]
+(brython-dev)brython/server.py:174: error: "ThreadingTCPServer" has no attribute "server_name"  [attr-defined]
+(brython-dev)brython/server.py:175: error: "ThreadingTCPServer" has no attribute "server_port"  [attr-defined]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](Michael-F-Bryan)auto-changelog
+(Michael-F-Bryan)auto-changelog/auto_changelog/domain_model.py:67: error: Incompatible return value type (got "Tuple[Note, ...]", expected "Tuple[Note]")  [return-value]
+(Michael-F-Bryan)auto-changelog/auto_changelog/domain_model.py:104: error: Incompatible return value type (got "Tuple[Release, ...]", expected "Tuple[Release]")  [return-value]
+(Michael-F-Bryan)auto-changelog/auto_changelog/repository.py:39: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, str, str]", variable has type "Tuple[str, Any, Any]")  [assignment]
+(Michael-F-Bryan)auto-changelog/auto_changelog/repository.py:46: error: Need type annotation for 'reverse_tag_index' (hint: "reverse_tag_index: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 4 errors in 2 files (checked 5 source files)
+
+[RRepo](sloria)ped
+Success: no issues found in 7 source files
+

@@ -1,0 +1,748 @@
+[RRepo](DiNitride)GAFBot
+
+[RRepo](jaantoots)bridgeview
+(jaantoots)bridgeview/generate.py:45: error: Module has no attribute "labels"  [attr-defined]
+(jaantoots)bridgeview/generate.py:47: error: Module has no attribute "textures"  [attr-defined]
+(jaantoots)bridgeview/generate.py:51: error: Module has no attribute "render"  [attr-defined]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](CivicTechTO)ttc_subway_times
+(CivicTechTO)ttc_subway_times/setup.py:23: error: Need type annotation for 'setup_requires' (hint: "setup_requires: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](pytest-dev)pluggy
+Success: no issues found in 1 source file
+
+[RRepo](romanpitak)torrentfile
+Success: no issues found in 1 source file
+
+[RRepo](BlackHC)mdp
+
+[RRepo](siddhantgoel)tornado-sqlalchemy
+Success: no issues found in 1 source file
+
+[RRepo](paulhoule)gastrodon
+
+[RRepo](kovidgoyal)kitty
+(kovidgoyal)kitty/kittens/tui/operations.py:70: error: Cannot call function of unknown type  [operator]
+(kovidgoyal)kitty/kittens/tui/operations.py:74: error: Cannot call function of unknown type  [operator]
+(kovidgoyal)kitty/kittens/tui/operations.py:154: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kittens/tui/operations.py:157: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kittens/tui/operations.py:160: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'HOME'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'END'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'BACKSPACE'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'DELETE'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'LEFT'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/line_edit.py:6: error: Module 'kitty.key_encoding' has no attribute 'RIGHT'  [attr-defined]
+(kovidgoyal)kitty/kitty/borders.py:15: error: Incompatible import of "IntFlag" (imported name has type "Type[IntEnum]", local name has type "Type[IntFlag]")  [misc]
+(kovidgoyal)kitty/kitty/terminfo.py:410: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, str]"; expected "Mapping[str, int]"  [arg-type]
+(kovidgoyal)kitty/kitty/keys.py:99: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "int")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:100: error: "int" has no attribute "update"  [attr-defined]
+(kovidgoyal)kitty/kitty/keys.py:108: error: "int" has no attribute "items"  [attr-defined]
+(kovidgoyal)kitty/kitty/keys.py:109: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:119: error: Value expression in dictionary comprehension has incompatible type "Tuple[int]"; expected type "bytes"  [misc]
+(kovidgoyal)kitty/kitty/keys.py:123: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:124: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:125: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:126: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:127: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:128: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:129: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:130: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:131: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:132: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kitty/keys.py:133: error: Incompatible types in assignment (expression has type "Tuple[int]", target has type "bytes")  [assignment]
+(kovidgoyal)kitty/kittens/icat/main.py:389: error: Module has no attribute "cli_docs"  [attr-defined]
+(kovidgoyal)kitty/kittens/icat/main.py:390: error: Module has no attribute "cli_docs"  [attr-defined]
+(kovidgoyal)kitty/kittens/icat/main.py:391: error: Module has no attribute "cli_docs"  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/loop.py:21: error: Module 'kitty.key_encoding' has no attribute 'C'  [attr-defined]
+(kovidgoyal)kitty/kittens/tui/loop.py:21: error: Module 'kitty.key_encoding' has no attribute 'D'  [attr-defined]
+(kovidgoyal)kitty/kittens/choose/main.py:11: error: Module 'kittens.choose' has no attribute 'subseq_matcher'  [attr-defined]
+(kovidgoyal)kitty/publish.py:30: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(kovidgoyal)kitty/publish.py:31: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(kovidgoyal)kitty/kitty/main.py:154: error: "Callable[[Any, Any, Any], Any]" has no attribute "cached_values_name"  [attr-defined]
+(kovidgoyal)kitty/kitty/main.py:155: error: "Callable[[Any, Any, Any], Any]" has no attribute "first_window_callback"  [attr-defined]
+(kovidgoyal)kitty/kitty/main.py:156: error: "Callable[[Any, Any, Any], Any]" has no attribute "initial_window_size_func"  [attr-defined]
+Found 40 errors in 10 files (checked 16 source files)
+
+[RRepo](mbourqui)django-celery-growthmonitor
+
+[RRepo](legoktm)toolforge
+Success: no issues found in 1 source file
+
+[RRepo](dpausp)arguments
+Success: no issues found in 1 source file
+
+[RRepo](clarkgrubb)data-tools
+Success: no issues found in 1 source file
+
+[RRepo](liweitianux)atoolbox
+
+[RRepo](just806me)voiceru_bot
+(just806me)voiceru_bot/extentions.py:56: error: "Enum" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(just806me)voiceru_bot/extentions.py:120: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(just806me)voiceru_bot/extentions.py:121: error: Argument 1 to "md5" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](ICTU)quality-time
+
+[RRepo](Karaage-Cluster)karaage
+Success: no issues found in 1 source file
+
+[RRepo](mokemokechicken)keras_npi
+
+[RRepo](Codepoints)unidump
+(Codepoints)unidump/unidump/cli.py:147: error: Incompatible types in assignment (expression has type "None", variable has type "IO[bytes]")  [assignment]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](EpicEricEE)ShopChest
+
+[RRepo](hsoft)dupeguru
+(hsoft)dupeguru/core/scanner.py:16: error: Module 'core' has no attribute 'engine'  [attr-defined]
+(hsoft)dupeguru/run.py:19: error: Module 'qt' has no attribute 'dg_rc'  [attr-defined]
+(hsoft)dupeguru/run.py:21: error: Module 'core' has no attribute '__version__'  [attr-defined]
+(hsoft)dupeguru/run.py:21: error: Module 'core' has no attribute '__appname__'; maybe "__name__"?  [attr-defined]
+Found 4 errors in 2 files (checked 3 source files)
+
+[RRepo](larbibaraka)Bitly_clone
+
+[RRepo](haifengat)hf_at_py
+Success: no issues found in 1 source file
+
+[RRepo](kubeflow)examples
+
+[RRepo](codeforboston)cornerwise
+
+[RRepo](aamalev)aiohttp_apiset
+Success: no issues found in 2 source files
+
+[RRepo](GOVCERT-LU)eml_parser
+
+[RRepo](telegram-bots)telegram-channels-feed
+
+[RRepo](raphaelm)python-fints
+
+[RRepo](hrsetyono)theme_pacific
+
+[RRepo](pfalcon)micropython
+
+[RRepo](tfeldmann)organize
+Success: no issues found in 1 source file
+
+[RRepo](ziirish)burp-ui
+(ziirish)burp-ui/setup.py:100: error: Too few arguments  [call-arg]
+(ziirish)burp-ui/setup.py:128: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(ziirish)burp-ui/setup.py:145: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](klieret)anki-template-tester
+(klieret)anki-template-tester/previewtemplate.py:115: error: Syntax error in type annotation  [syntax]
+(klieret)anki-template-tester/previewtemplate.py:115: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(klieret)anki-template-tester/previewtemplate.py:134: error: Argument 1 to "groups" of "Match" has incompatible type "int"; expected "str"  [arg-type]
+(klieret)anki-template-tester/previewtemplate.py:165: error: Incompatible return value type (got "Union[str, bool]", expected "bool")  [return-value]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](vladcalin)gemstone
+Success: no issues found in 1 source file
+
+[RRepo](apirobot)shmitter
+
+[RRepo](labsquare)CuteVariant
+
+[RRepo](jreese)tasky
+
+[RRepo](eliasdorneles)drawingapp-voc
+
+[RRepo](taige)PyTools
+(taige)PyTools/tsproxy/https_listener.py:4: error: Name 'HttpListener' is not defined  [name-defined]
+(taige)PyTools/tsproxy/__init__.py:25: error: Need type annotation for 'conf_path' (hint: "conf_path: List[<type>] = ...")  [var-annotated]
+(taige)PyTools/tsproxy/streams.py:7: error: Module 'tsproxy' has no attribute 'topendns'  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:318: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(taige)PyTools/tsproxy/streams.py:321: error: "StreamReader" has no attribute "_limit"  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:325: error: "StreamReader" has no attribute "_loop"  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:327: error: "yield from" can't be applied to "Coroutine[Any, Any, bytes]"  [misc]
+(taige)PyTools/tsproxy/streams.py:329: error: "yield from" can't be applied to "Coroutine[Any, Any, bytes]"  [misc]
+(taige)PyTools/tsproxy/streams.py:340: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(taige)PyTools/tsproxy/streams.py:340: error: Signature of "read" incompatible with supertype "StreamReader"  [override]
+(taige)PyTools/tsproxy/streams.py:344: error: Function does not return a value  [func-returns-value]
+(taige)PyTools/tsproxy/shell.py:18: error: Module 'tsproxy' has no attribute 'topendns'  [attr-defined]
+Found 12 errors in 4 files (checked 4 source files)
+
+[RRepo](rtfd)readthedocs.org
+(rtfd)readthedocs.org/conftest.py:15: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, bool], Tuple[str, bool], Tuple[str, str], Tuple[str, str]]", variable has type "Tuple[]")  [assignment]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](xgouchet)AutoMergeTool
+
+[RRepo](NEU-Partner)NEU_Scripts
+
+[RRepo](s-leger)archipack
+(s-leger)archipack/archipack_2d_layout.py:92: error: Value of type "object" is not indexable  [index]
+(s-leger)archipack/archipack_2d_layout.py:93: error: Value of type "object" is not indexable  [index]
+(s-leger)archipack/archipack_snap.py:96: error: Need type annotation for 'sel' (hint: "sel: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 18 source files)
+
+[RRepo](ZeoAlliance)aiomongo
+(ZeoAlliance)aiomongo/aiomongo/gridfs.py:12: error: Name 'aiomongo' is not defined  [name-defined]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:49: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:52: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:56: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:58: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:89: error: Incompatible return value type (got "Callable[[Any, Connection], Coroutine[Any, Any, None]]", expected "Callable[[Any, Connection], None]")  [return-value]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:51: error: Need type annotation for '__request_futures' (hint: "__request_futures: Dict[<type>, <type>] = ...")  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:63: error: Incompatible types in assignment (expression has type "StreamReader", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:63: error: Incompatible types in assignment (expression has type "StreamWriter", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:67: error: Incompatible types in assignment (expression has type "StreamReader", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:67: error: Incompatible types in assignment (expression has type "StreamWriter", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:71: error: "None" has no attribute "transport"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:79: error: Incompatible types in assignment (expression has type "Future[None]", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:146: error: Need type annotation for 'response_future'  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:162: error: "None" has no attribute "write"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:236: error: Incompatible types in "await" (actual type "None", expected type "Awaitable[Any]")  [misc]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:279: error: "None" has no attribute "readexactly"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:291: error: "None" has no attribute "readexactly"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/client.py:29: error: Need type annotation for '_pool' (hint: "_pool: List[<type>] = ...")  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/command_cursor.py:79: error: No return value expected  [return-value]
+(ZeoAlliance)aiomongo/aiomongo/command_cursor.py:117: error: No return value expected  [return-value]
+Found 21 errors in 5 files (checked 7 source files)
+
+[RRepo](Otetz)modulbank
+(Otetz)modulbank/setup.py:14: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:12: error: Need type annotation for '_fields' (hint: "_fields: List[<type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:13: error: Need type annotation for '_mandatory_fields' (hint: "_mandatory_fields: List[<type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:100: error: Need type annotation for '_mandatory_fields' (hint: "_mandatory_fields: List[<type>] = ...")  [var-annotated]
+Found 4 errors in 2 files (checked 3 source files)
+
+[RRepo](the-it)WS_THEbotIT
+(the-it)WS_THEbotIT/tools/template_handler.py:29: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(the-it)WS_THEbotIT/tools/bots.py:252: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(the-it)WS_THEbotIT/tools/bots.py:343: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bots.py:345: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bots.py:350: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bots.py:351: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bots.py:353: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bots.py:358: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:12: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:12: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:12: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[Any]")  [assignment]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:13: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:13: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:13: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[int, Tuple[Any]]")  [assignment]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:14: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:14: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:14: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[int, Tuple[Any]]")  [assignment]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:15: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:15: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:15: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[Any]")  [assignment]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:26: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:26: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:30: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:30: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:34: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:34: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:38: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:38: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:42: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:42: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:46: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:46: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:50: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:50: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:54: error: Invalid type comment or annotation  [valid-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:54: note: Suggestion: use type[...] instead of type(...)
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:60: error: Cannot determine type of 'logger'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:63: error: Cannot determine type of 'wiki'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:64: error: Cannot determine type of 'logger'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:64: error: Cannot determine type of 'timestamp'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:67: error: Cannot determine type of 'logger'  [has-type]
+(the-it)WS_THEbotIT/tools/bot_scheduler.py:112: error: Incompatible types in assignment (expression has type "List[Type[TestBot]]", variable has type "Tuple[Any]")  [assignment]
+(the-it)WS_THEbotIT/tools/petscan.py:178: error: Module "datetime" is not valid as a type  [valid-type]
+(the-it)WS_THEbotIT/tools/petscan.py:179: error: datetime? has no attribute "strftime"  [attr-defined]
+(the-it)WS_THEbotIT/tools/petscan.py:181: error: Module "datetime" is not valid as a type  [valid-type]
+(the-it)WS_THEbotIT/tools/petscan.py:182: error: datetime? has no attribute "strftime"  [attr-defined]
+Found 34 errors in 4 files (checked 12 source files)
+
+[RRepo](PythonJS)PythonJS
+
+[RRepo](Reaktoro)Reaktoro
+(Reaktoro)Reaktoro/tasks.py:50: error: Incompatible return value type (got "Tuple[Path, Path]", expected "Path")  [return-value]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](DerAtrox)backup-rotation.py
+Success: no issues found in 1 source file
+
+[RRepo](fnl)medic
+
+[RRepo](KmolYuan)Pyslvs-PyQt5
+(KmolYuan)Pyslvs-PyQt5/core/QtModules.py:152: error: Unsupported dynamic base class "type"  [misc]
+(KmolYuan)Pyslvs-PyQt5/core/QtModules.py:152: error: Name 'QObject' is not defined  [name-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'slvs_solve'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'edges_view'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'graph2vpoints'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'vpoints_configure'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'VJoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'VPoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'VLink'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'data_collecting'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'expr_solving'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'vpoint_dof'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'vpoint_solving'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:21: error: Module 'core.libs' has no attribute 'Graph'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:155: error: Argument 1 to "get_triangle" of "SolverMethodInterface" has incompatible type "Tuple[Any, ...]"; expected "Optional[Tuple[Any]]"  [arg-type]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:164: error: Incompatible types in assignment (expression has type "Tuple[Tuple[Any, Any, Any], ...]", variable has type "Tuple[]")  [assignment]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:225: error: Need type annotation for 'used_point' (hint: "used_point: Set[<type>] = ...")  [var-annotated]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:331: error: Need type annotation for 'status' (hint: "status: Dict[<type>, <type>] = ...")  [var-annotated]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/solver.py:367: error: Incompatible return value type (got "Callable[[], int]", expected "int")  [return-value]
+(KmolYuan)Pyslvs-PyQt5/core/io/dxf.py:26: error: Module 'core.libs' has no attribute 'VPoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/dxf.py:27: error: Module 'core.graphics' has no attribute 'convex_hull'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/dxf.py:28: error: Module 'core.io.slvs' has no attribute 'boundaryloop'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/dxf.py:62: error: Need type annotation for 'vlinks' (hint: "vlinks: Dict[<type>, <type>] = ...")  [var-annotated]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:17: error: Module 'core.QtModules' has no attribute 'QApplication'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:17: error: Module 'core.QtModules' has no attribute 'QListWidgetItem'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:17: error: Module 'core.QtModules' has no attribute 'QInputDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:17: error: Module 'core.QtModules' has no attribute 'QMessageBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:24: error: Module 'core.widgets' has no attribute 'AddStorage'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:24: error: Module 'core.widgets' has no attribute 'DeleteStorage'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:24: error: Module 'core.widgets' has no attribute 'AddStorageName'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:24: error: Module 'core.widgets' has no attribute 'ClearStorageName'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/storage.py:30: error: Module 'core.libs' has no attribute 'parse_params'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:5: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:25: error: Module 'core.QtModules' has no attribute 'Qt'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:25: error: Module 'core.QtModules' has no attribute 'QApplication'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:25: error: Module 'core.QtModules' has no attribute 'QDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:25: error: Module 'core.QtModules' has no attribute 'QTextEdit'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:25: error: Module 'core.QtModules' has no attribute 'QWidget'; maybe "QtWidgets"?  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/script.py:36: error: Module 'core.widgets' has no attribute 'MainWindowBase'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/overview.py:17: error: Module 'core.QtModules' has no attribute 'QWidget'; maybe "QtWidgets"?  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/overview.py:17: error: Module 'core.QtModules' has no attribute 'QDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/overview.py:17: error: Module 'core.QtModules' has no attribute 'QListWidgetItem'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'Qt'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QDir'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QMessageBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QFileDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QTextEdit'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QWidget'; maybe "QtWidgets"?  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QLabel'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QComboBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QCheckBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QDoubleSpinBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QHBoxLayout'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QSizePolicy'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QSpacerItem'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QIcon'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:20: error: Module 'core.QtModules' has no attribute 'QPixmap'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:40: error: Module 'core.libs' has no attribute 'VPoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:41: error: Module 'core.io.slvs' has no attribute 'slvs_frame'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:41: error: Module 'core.io.slvs' has no attribute 'slvs_part'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:158: error: Return value expected  [return-value]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:170: error: Return value expected  [return-value]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:173: error: Need type annotation for 'vlinks' (hint: "vlinks: Dict[<type>, <type>] = ...")  [var-annotated]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:186: error: Return value expected  [return-value]
+(KmolYuan)Pyslvs-PyQt5/core/io/output_option.py:245: error: Return value expected  [return-value]
+(KmolYuan)Pyslvs-PyQt5/core/io/logging_handler.py:13: error: Module 'core.QtModules' has no attribute 'QObject'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/logging_handler.py:23: error: Argument 1 of "emit" is incompatible with supertype "Handler"; supertype defines the argument type as "LogRecord"  [override]
+(KmolYuan)Pyslvs-PyQt5/core/io/logging_handler.py:25: error: Argument 1 to "format" of "Handler" has incompatible type "str"; expected "LogRecord"  [arg-type]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:12: error: Module 'core.QtModules' has no attribute 'QAction'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:12: error: Module 'core.QtModules' has no attribute 'QApplication'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:12: error: Module 'core.QtModules' has no attribute 'QPoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:18: error: Module 'core.widgets' has no attribute 'AddTable'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:18: error: Module 'core.widgets' has no attribute 'EditPointTable'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/actions.py:18: error: Module 'core.widgets' has no attribute 'EditLinkTable'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/pyslvs_yaml.py:5: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/pyslvs_yaml.py:21: error: Module 'core.QtModules' has no attribute 'QObject'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/pyslvs_yaml.py:22: error: Module 'core.libs' has no attribute 'VJoint'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/pyslvs_yaml.py:23: error: Module 'core.info' has no attribute '__version__'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/pyslvs_yaml.py:28: error: Module 'core.widgets' has no attribute 'MainWindowBase'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/io/__init__.py:11: error: Module 'core.io.slvs' has no attribute 'SlvsParser'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/__init__.py:20: error: Module 'core.QtModules' has no attribute 'QMessageBox'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/__init__.py:20: error: Module 'core.QtModules' has no attribute 'QInputDialog'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/__init__.py:20: error: Module 'core.QtModules' has no attribute 'QTextCursor'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/main_window/__init__.py:27: error: Module 'core.info' has no attribute 'ARGUMENTS'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/__init__.py:12: error: Module 'core.QtModules' has no attribute 'QApplication'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/__init__.py:14: error: Module 'core.info' has no attribute 'ARGUMENTS'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/__init__.py:14: error: Module 'core.info' has no attribute 'INFO'  [attr-defined]
+(KmolYuan)Pyslvs-PyQt5/core/__init__.py:14: error: Module 'core.info' has no attribute 'Splash'  [attr-defined]
+Found 89 errors in 13 files (checked 18 source files)
+
+[RRepo](Zo0x)hedhes
+
+[RRepo](MTgeophysics)mtpy
+(MTgeophysics)mtpy/tests/imaging/__init__.py:259: error: "Type[ImageCompare]" has no attribute "_thread_lock"  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/__init__.py:9: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'VisualizationBase'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_strike.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'Strike'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_phase_tensor_map.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'PhaseTensorMap'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_phase_tensor_map.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'PhaseTensorPseudoSection'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_phase_tensor_map.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'ResistivityPhasePseudoSection'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_penetration_depth.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'Depth1D'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_penetration_depth.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'Depth2D'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_penetration_depth.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'Depth3D'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_penetration_depth.py:31: error: Name 'TestGUIPlotPenetrationDepth2D' already defined on line 21  [no-redef]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_multiple_mt_response.py:1: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'MultipleMTResponses'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_gui_plot_mt_response.py:3: error: Module 'mtpy.gui.SmartMT.visualization' has no attribute 'MTResponse'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_frequencySelectionFromFile.py:13: error: Module 'mtpy.gui.SmartMT.Components.PlotParameter' has no attribute 'FrequencySelectionFromFile'  [attr-defined]
+(MTgeophysics)mtpy/tests/SmartMT/test_frequencySelect.py:10: error: Module 'mtpy.gui.SmartMT.Components.PlotParameter' has no attribute 'FrequencySelection'  [attr-defined]
+Found 14 errors in 9 files (checked 33 source files)
+
+[RRepo](winpython)winpython_afterdoc
+
+[RRepo](IgniparousTempest)py-minutiae-viewer
+
+[RRepo](denisenkom)pytds
+Success: no issues found in 2 source files
+
+[RRepo](mdevaev)emonoda
+Success: no issues found in 1 source file
+
+[RRepo](rokups)paste2box
+
+[RRepo](ralph-group)pymeasure
+
+[RRepo](kensk8er)langdist
+Success: no issues found in 1 source file
+
+[RRepo](zhuoju36)StructEngPy
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:15: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:85: error: Name 'eigen_mode' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:121: error: Need type annotation for 'R' (hint: "R: List[<type>] = ...")  [var-annotated]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:141: error: Name 'R_' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:152: error: Name 'eigen_mode' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:167: error: Name 'm' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:212: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:218: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:226: error: Name 'pd' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:244: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:255: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:268: error: Name 'pd' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/static.py:12: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+(zhuoju36)StructEngPy/object_model/__init__.py:9: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+(zhuoju36)StructEngPy/object_model/quick_material.py:9: error: Module 'object_model.material' has no attribute 'Metal'  [attr-defined]
+(zhuoju36)StructEngPy/object_model/quick_material.py:9: error: Module 'object_model.material' has no attribute 'Concrete'  [attr-defined]
+(zhuoju36)StructEngPy/test.py:12: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+Found 17 errors in 5 files (checked 17 source files)
+
+[RRepo](sourcegraph)python-langserver
+(sourcegraph)python-langserver/langserver/fs.py:26: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:30: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:38: error: Invalid self argument "FileSystem" to attribute function "listdir" with type "Callable[[str, Any], List[str]]"  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:149: error: Signature of "open" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:154: error: Signature of "listdir" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:158: error: Need type annotation for 'entries' (hint: "entries: Dict[<type>, <type>] = ...")  [var-annotated]
+(sourcegraph)python-langserver/langserver/fs.py:173: error: Incompatible return value type (got "ValuesView[Entry]", expected "List[Entry]")  [return-value]
+(sourcegraph)python-langserver/langserver/fs.py:183: error: Signature of "open" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:195: error: Signature of "listdir" incompatible with supertype "FileSystem"  [override]
+Found 9 errors in 1 file (checked 1 source file)
+
+[RRepo](mosen)commandment
+(mosen)commandment/commandment/mutablelist.py:14: error: Name 'MutableList' already defined (possibly by an import)  [no-redef]
+(mosen)commandment/commandment/plistutil/nonewriter.py:2: error: Module 'plistlib' has no attribute '_PlistWriter'  [attr-defined]
+(mosen)commandment/commandment/plistutil/nonewriter.py:2: error: Module 'plistlib' has no attribute '_FORMATS'  [attr-defined]
+(mosen)commandment/commandment/vpp/models.py:20: error: Name 'stoken' already defined on line 16  [no-redef]
+(mosen)commandment/commandment/pki/serialization.py:12: error: Argument 1 to "load_pem_x509_certificate" has incompatible type "str"; expected "bytes"  [arg-type]
+(mosen)commandment/commandment/pki/serialization.py:22: error: Argument 2 to "load_der_private_key" has incompatible type "Optional[str]"; expected "Optional[bytes]"  [arg-type]
+(mosen)commandment/commandment/pki/serialization.py:30: error: Argument 2 to "load_pem_private_key" has incompatible type "Optional[str]"; expected "Optional[bytes]"  [arg-type]
+(mosen)commandment/commandment/pki/serialization.py:36: error: Incompatible return value type (got "bytes", expected "str")  [return-value]
+(mosen)commandment/commandment/pki/serialization.py:55: error: Incompatible return value type (got "bytes", expected "str")  [return-value]
+(mosen)commandment/commandment/pki/serialization.py:66: error: Unexpected keyword argument "format" for "public_bytes" of "Certificate"  [call-arg]
+(mosen)commandment/commandment/pki/serialization.py:66: error: Unexpected keyword argument "encryption_algorithm" for "public_bytes" of "Certificate"  [call-arg]
+(mosen)commandment/commandment/pki/serialization.py:68: error: "Type[PublicFormat]" has no attribute "PKCS8"  [attr-defined]
+(mosen)commandment/commandment/pki/ssl.py:9: error: Syntax error in type annotation  [syntax]
+(mosen)commandment/commandment/pki/ssl.py:9: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(mosen)commandment/commandment/pki/ssl.py:46: error: Syntax error in type annotation  [syntax]
+(mosen)commandment/commandment/pki/ssl.py:46: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(mosen)commandment/commandment/profiles/plist_schema.py:11: error: Module 'commandment.profiles' has no attribute 'PayloadScope'  [attr-defined]
+(mosen)commandment/commandment/profiles/plist_schema.py:25: error: Incompatible return value type (got "Union[Schema, None, Type[Schema]]", expected "Optional[Type[Schema]]")  [return-value]
+(mosen)commandment/commandment/profiles/plist_schema.py:32: error: Incompatible types in assignment (expression has type "Type[Schema]", target has type "Schema")  [assignment]
+(mosen)commandment/commandment/sso/saml/__init__.py:59: error: Need type annotation for 'user_store' (hint: "user_store: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosen)commandment/commandment/mdm/routers.py:64: error: Module "flask.app" is not valid as a type  [valid-type]
+(mosen)commandment/commandment/mdm/routers.py:66: error: app? has no attribute "add_url_rule"  [attr-defined]
+(mosen)commandment/commandment/cms/decorators.py:53: error: Too many arguments for "verify" of "DSAPublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:53: error: Too many arguments for "verify" of "Ed25519PublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:53: error: Too many arguments for "verify" of "Ed448PublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:53: error: Too many arguments for "verify" of "EllipticCurvePublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:56: error: Argument 3 to "verify" of "DSAPublicKey" has incompatible type "PKCS1v15"; expected "Union[HashAlgorithm, Prehashed]"  [arg-type]
+(mosen)commandment/commandment/cms/decorators.py:56: error: Argument 3 to "verify" of "EllipticCurvePublicKey" has incompatible type "PKCS1v15"; expected "EllipticCurveSignatureAlgorithm"  [arg-type]
+(mosen)commandment/commandment/cms/decorators.py:60: error: Too many arguments for "verify" of "DSAPublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:60: error: Too many arguments for "verify" of "Ed25519PublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:60: error: Too many arguments for "verify" of "Ed448PublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:60: error: Too many arguments for "verify" of "EllipticCurvePublicKey"  [call-arg]
+(mosen)commandment/commandment/cms/decorators.py:63: error: Argument 3 to "verify" of "DSAPublicKey" has incompatible type "PKCS1v15"; expected "Union[HashAlgorithm, Prehashed]"  [arg-type]
+(mosen)commandment/commandment/cms/decorators.py:63: error: Argument 3 to "verify" of "EllipticCurvePublicKey" has incompatible type "PKCS1v15"; expected "EllipticCurveSignatureAlgorithm"  [arg-type]
+(mosen)commandment/commandment/enroll/util.py:11: error: Module 'commandment.profiles' has no attribute 'PayloadScope'  [attr-defined]
+(mosen)commandment/commandment/enroll/util.py:35: error: Value of type variable "AnyStr" of "dirname" cannot be "Optional[str]"  [type-var]
+(mosen)commandment/commandment/enroll/util.py:35: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(mosen)commandment/commandment/dep/app.py:11: error: Module 'commandment.profiles' has no attribute 'PROFILE_CONTENT_TYPE'  [attr-defined]
+(mosen)commandment/commandment/enroll/app.py:7: error: Module 'commandment.enroll' has no attribute 'AllDeviceAttributes'  [attr-defined]
+(mosen)commandment/commandment/enroll/app.py:10: error: Module 'commandment.profiles' has no attribute 'PROFILE_CONTENT_TYPE'  [attr-defined]
+(mosen)commandment/commandment/enroll/app.py:10: error: Module 'commandment.profiles' has no attribute 'PayloadScope'  [attr-defined]
+(mosen)commandment/commandment/mdm/handlers.py:20: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:30: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:50: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:105: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:131: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:167: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:174: error: Cannot determine type of 'command_router'  [has-type]
+(mosen)commandment/commandment/mdm/handlers.py:190: error: Cannot determine type of 'command_router'  [has-type]
+Found 47 errors in 13 files (checked 21 source files)
+
+[RRepo](josuemontano)API-platform
+
+[RRepo](halcy)MastodonToTwitter
+Success: no issues found in 5 source files
+
+[RRepo](evernym)sovrin-client-rust
+
+[RRepo](socialwifi)jsonapi-requests
+
+[RRepo](jkbrzt)cointrol
+
+[RRepo](chfoo)tellnext
+Success: no issues found in 1 source file
+
+[RRepo](Frizz925)gbf-autopilot
+(Frizz925)gbf-autopilot/server.py:13: error: Module 'controller.window' has no attribute 'Window'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14: error: Module 'controller' has no attribute 'JsonRpcMethods'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14: error: Module 'controller' has no attribute 'JsonRpcClient'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14: error: Module 'controller' has no attribute 'InputController'  [attr-defined]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](blackmatrix7)apizen
+(blackmatrix7)apizen/app/exts.py:13: error: Module 'app.apizen' has no attribute 'ApiZenManager'  [attr-defined]
+(blackmatrix7)apizen/app/database/__init__.py:55: error: Name 'db.Model' is not defined  [name-defined]
+(blackmatrix7)apizen/app/__init__.py:10: error: Module 'app.user' has no attribute 'user'  [attr-defined]
+(blackmatrix7)apizen/manage.py:24: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 4 errors in 4 files (checked 6 source files)
+
+[RRepo](rtfd)sphinx-autoapi
+
+[RRepo](timabbott)zulip
+
+[RRepo](meyt)sqlalchemy-dict
+
+[RRepo](Morwenn)cpp-sort
+Success: no issues found in 1 source file
+
+[RRepo](IlyaGusev)rnnmorph
+
+[RRepo](MaT1g3R)YasenBaka
+(MaT1g3R)YasenBaka/tests/__init__.py:4: error: Module 'data_manager' has no attribute 'DataManager'  [attr-defined]
+(MaT1g3R)YasenBaka/tests/test_data_manager.py:5: error: Module 'data_manager' has no attribute 'DataManager'  [attr-defined]
+(MaT1g3R)YasenBaka/tests/test_data_manager.py:55: error: Need type annotation for 'expected' (hint: "expected: Dict[<type>, <type>] = ...")  [var-annotated]
+(MaT1g3R)YasenBaka/yasen-baka.py:11: error: Module 'bot' has no attribute 'AnimeSearcher'  [attr-defined]
+(MaT1g3R)YasenBaka/yasen-baka.py:11: error: Module 'bot' has no attribute 'Yasen'  [attr-defined]
+(MaT1g3R)YasenBaka/yasen-baka.py:11: error: Module 'bot' has no attribute 'version_info'  [attr-defined]
+(MaT1g3R)YasenBaka/yasen-baka.py:14: error: Module 'config' has no attribute 'Config'  [attr-defined]
+(MaT1g3R)YasenBaka/yasen-baka.py:16: error: Module 'data_manager' has no attribute 'DataManager'  [attr-defined]
+(MaT1g3R)YasenBaka/yasen-baka.py:18: error: Module 'world_of_warships' has no attribute 'WowsManager'  [attr-defined]
+Found 9 errors in 3 files (checked 3 source files)
+
+[RRepo](calebj)Red-DiscordBot
+(calebj)Red-DiscordBot/redbot/core/i18n.py:19: error: Need type annotation for '_translators' (hint: "_translators: List[<type>] = ...")  [var-annotated]
+(calebj)Red-DiscordBot/redbot/core/i18n.py:108: error: Invalid base class "Callable"  [misc]
+(calebj)Red-DiscordBot/redbot/core/i18n.py:126: error: Need type annotation for 'translations' (hint: "translations: Dict[<type>, <type>] = ...")  [var-annotated]
+(calebj)Red-DiscordBot/redbot/core/i18n.py:173: error: "type" has no attribute "__translator__"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/i18n.py:175: error: Module has no attribute "Group"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/i18n.py:175: error: Module has no attribute "Command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/global_checks.py:19: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:255: error: Generator has incompatible item type "int"; expected "Generator[int, None, None]"  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:255: error: Argument 2 to "next" has incompatible type "int"; expected "Generator[int, None, None]"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:257: error: Argument 1 to "max" has incompatible type "Generator[int, None, None]"; expected "Iterable[Generator[int, None, None]]"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:258: error: Incompatible types in assignment (expression has type "object", variable has type "Generator[int, None, None]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:260: error: Slice index must be an integer or None  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:262: error: Slice index must be an integer or None  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:265: error: Slice index must be an integer or None  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/chat_formatting.py:408: error: Item "None" of "Optional[timedelta]" has no attribute "total_seconds"  [union-attr]
+(calebj)Red-DiscordBot/redbot/core/data_manager.py:139: error: Value of type "Optional[Any]" is not indexable  [index]
+(calebj)Red-DiscordBot/redbot/core/data_manager.py:157: error: Value of type "Optional[Any]" is not indexable  [index]
+(calebj)Red-DiscordBot/redbot/core/data_manager.py:169: error: Name 'commands.Cog' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/data_manager.py:213: error: Value of type "Optional[Any]" is not indexable  [index]
+(calebj)Red-DiscordBot/redbot/core/data_manager.py:228: error: Value of type "Optional[Any]" is not indexable  [index]
+(calebj)Red-DiscordBot/redbot/__init__.py:97: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[str, int]]"; expected "int"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:97: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[str, int]]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:97: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[str, int]]"; expected "Optional[int]"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:106: error: Argument 1 to "VersionInfo" has incompatible type "*List[Union[int, str]]"; expected "int"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:106: error: Argument 1 to "VersionInfo" has incompatible type "*List[Union[int, str]]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:106: error: Argument 1 to "VersionInfo" has incompatible type "*List[Union[int, str]]"; expected "Optional[int]"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:108: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[int, str]]"; expected "int"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:108: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[int, str]]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:108: error: Argument 1 to "VersionInfo" has incompatible type "**Dict[str, Union[int, str]]"; expected "Optional[int]"  [arg-type]
+(calebj)Red-DiscordBot/redbot/__init__.py:116: error: Dict entry 4 has incompatible type "str": "Optional[int]"; expected "str": "Union[int, str]"  [dict-item]
+(calebj)Red-DiscordBot/redbot/__init__.py:117: error: Dict entry 5 has incompatible type "str": "Optional[int]"; expected "str": "Union[int, str]"  [dict-item]
+(calebj)Red-DiscordBot/redbot/__init__.py:118: error: Dict entry 6 has incompatible type "str": "Optional[int]"; expected "str": "Union[int, str]"  [dict-item]
+(calebj)Red-DiscordBot/redbot/__init__.py:147: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(calebj)Red-DiscordBot/redbot/__init__.py:147: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(calebj)Red-DiscordBot/redbot/__init__.py:147: note:     def __eq__(self, other: object) -> bool:
+(calebj)Red-DiscordBot/redbot/__init__.py:147: note:         if not isinstance(other, VersionInfo):
+(calebj)Red-DiscordBot/redbot/__init__.py:147: note:             return NotImplemented
+(calebj)Red-DiscordBot/redbot/__init__.py:147: note:         return <logic to compare two VersionInfo instances>
+(calebj)Red-DiscordBot/redbot/core/utils/mod.py:8: error: Module 'redbot.core' has no attribute 'Config'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/utils/mod.py:10: error: Module 'redbot.core.commands' has no attribute 'Context'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:32: error: Module 'redbot.core.commands' has no attribute 'Command'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:32: error: Module 'redbot.core.commands' has no attribute 'Context'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:103: error: Item "AsyncIterable[_T]" of "Union[AsyncIterable[_T], Iterable[_T]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:104: error: Incompatible types in "await" (actual type "Union[bool, Awaitable[bool]]", expected type "Awaitable[Any]")  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:108: error: Item "Iterable[_T]" of "Union[AsyncIterable[_T], Iterable[_T]]" has no attribute "__aiter__" (not async iterable)  [union-attr]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:113: error: Item "Iterable[_T]" of "Union[AsyncIterable[_T], Iterable[_T]]" has no attribute "__aiter__" (not async iterable)  [union-attr]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:114: error: Incompatible types in "await" (actual type "Union[bool, Awaitable[bool]]", expected type "Awaitable[Any]")  [misc]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:224: error: Return value expected  [return-value]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:235: error: Return value expected  [return-value]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:245: error: Return value expected  [return-value]
+(calebj)Red-DiscordBot/redbot/core/utils/__init__.py:252: error: Return value expected  [return-value]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'bot_has_permissions'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'has_permissions'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'is_owner'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'guildowner'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'guildowner_or_permissions'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'admin'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'admin_or_permissions'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'mod'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'mod_or_permissions'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:6: error: Module 'redbot.core.commands' has no attribute 'check'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/checks.py:26: error: Module 'redbot.core.commands' has no attribute 'Context'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:30: error: Name 'commands.Cog' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:64: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:78: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:134: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:199: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:289: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/dev_commands.py:302: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:38: error: Module has no attribute "__path__"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:130: error: Item "str" of "Union[Path, str]" has no attribute "exists"  [union-attr]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:133: error: Incompatible return value type (got "Union[Path, str]", expected "Path")  [return-value]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:265: error: Incompatible return value type (got "Optional[ModuleSpec]", expected "ModuleSpec")  [return-value]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:268: error: Missing return statement  [return]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:311: error: Name 'commands.Cog' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:314: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:316: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:336: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:338: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:353: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:355: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:375: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:377: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:404: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:406: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:428: error: Module has no attribute "command"  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:430: error: Name 'commands.Context' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:440: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:441: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:444: error: Incompatible types in assignment (expression has type "str", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:445: error: Incompatible types in assignment (expression has type "str", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:447: error: Argument 1 to "pagify" has incompatible type "Set[Any]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:451: error: Argument 1 to "pagify" has incompatible type "Set[Any]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:456: error: Incompatible types in assignment (expression has type "str", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:458: error: Incompatible types in assignment (expression has type "str", variable has type "Set[Any]")  [assignment]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:461: error: Argument 1 to "pagify" has incompatible type "Set[Any]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/cog_manager.py:470: error: Argument 1 to "pagify" has incompatible type "Set[Any]"; expected "str"  [arg-type]
+(calebj)Red-DiscordBot/redbot/core/events.py:16: error: Module 'redbot.core.commands' has no attribute 'RedHelpFormatter'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/core/events.py:284: error: Name 'commands.Command' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/core/events.py:320: error: Name 'commands.Cog' is not defined  [name-defined]
+(calebj)Red-DiscordBot/redbot/__main__.py:36: error: Module 'redbot.core' has no attribute '__version__'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/__main__.py:36: error: Module 'redbot.core' has no attribute 'modlog'  [attr-defined]
+(calebj)Red-DiscordBot/redbot/__main__.py:36: error: Module 'redbot.core' has no attribute 'bank'  [attr-defined]
+Found 98 errors in 12 files (checked 3 source files)
+
+[RRepo](fedora-infra)bodhi
+(fedora-infra)bodhi/bootstrap.py:174: error: Not all arguments converted during string formatting  [str-format]
+(fedora-infra)bodhi/bootstrap.py:188: error: Not all arguments converted during string formatting  [str-format]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](ingokegel)intellij-community
+
+[RRepo](CompLab-StonyBrook)mgproc
+
+[RRepo](googleapis)google-cloud-java
+
+[RRepo](mgerst)pyquiz
+
+[RRepo](JuezUN)INGInious
+
+[RRepo](soxofaan)dahuffman
+
+[RRepo](darkfeline)mir.dlsite
+Success: no issues found in 1 source file
+
+[RRepo](KeepSafe)aiohttp
+(KeepSafe)aiohttp/setup.py:5: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](mapsme)omim
+
+[RRepo](openatx)facebook-wda
+
+[RRepo](olivierkes)manuskript
+
+[RRepo](google)python-spanner-orm
+
+[RRepo](TingPing)transmission-remote-gnome
+
+[RRepo](bogdanvuk)sydpy
+(bogdanvuk)sydpy/sydpy/_simulator.py:148: error: Not all arguments converted during string formatting  [str-format]
+(bogdanvuk)sydpy/sydpy/intfs/iseq.py:5: error: Module 'sydpy.types' has no attribute 'bit'  [attr-defined]
+(bogdanvuk)sydpy/sydpy/simulator.py:78: error: Not all arguments converted during string formatting  [str-format]
+(bogdanvuk)sydpy/sydpy/simulator.py:88: error: Invalid type comment or annotation  [valid-type]
+(bogdanvuk)sydpy/sydpy/simulator.py:88: note: Suggestion: use Dependency[...] instead of Dependency(...)
+(bogdanvuk)sydpy/sydpy/simulator.py:89: error: Need type annotation for 'delay_pool' (hint: "delay_pool: Dict[<type>, <type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/simulator.py:90: error: Need type annotation for 'trig_pool' (hint: "trig_pool: Set[<type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/simulator.py:91: error: Need type annotation for 'update_pool' (hint: "update_pool: Set[<type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/simulator.py:92: error: Need type annotation for '_ready_pool' (hint: "_ready_pool: Set[<type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/simulator.py:93: error: Need type annotation for '_proc_pool' (hint: "_proc_pool: List[<type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/process.py:14: error: Invalid type comment or annotation  [valid-type]
+(bogdanvuk)sydpy/sydpy/process.py:14: note: Suggestion: use Dependency[...] instead of Dependency(...)
+(bogdanvuk)sydpy/sydpy/component.py:14: error: Need type annotation for 'comp' (hint: "comp: Dict[<type>, <type>] = ...")  [var-annotated]
+(bogdanvuk)sydpy/sydpy/_module.py:26: error: Incompatible import of "Component" (imported name has type "Type[sydpy.component.Component]", local name has type "Type[sydpy._component.Component]")  [misc]
+Found 12 errors in 6 files (checked 20 source files)
+
+[RRepo](pydata)xarray
+Success: no issues found in 1 source file
+
+[RRepo](ze-phyr-us)pearhash
+Success: no issues found in 2 source files
+
+[RRepo](pektin)jam
+Success: no issues found in 1 source file
+
+[RRepo](piontec)docker-enforcer
+(piontec)docker-enforcer/dockerenforcer/config.py:22: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/config.py:23: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/docker_image_helper.py:24: error: Not all arguments converted during string formatting  [str-format]
+(piontec)docker-enforcer/dockerenforcer/docker_helper.py:11: error: Module 'requests' has no attribute 'ReadTimeout'; maybe "Timeout"?  [attr-defined]
+(piontec)docker-enforcer/dockerenforcer/docker_helper.py:193: error: Incompatible return value type (got "Optional[Any]", expected "Iterable[Any]")  [return-value]
+(piontec)docker-enforcer/dockerenforcer/killer.py:28: error: Incompatible types in assignment (expression has type "Optional[Iterable[str]]", variable has type "Iterable[str]")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/killer.py:49: error: Incompatible types in assignment (expression has type "Iterable[str]", variable has type "Optional[Dict[str, str]]")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/killer.py:68: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "owner"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:70: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:71: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:72: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:73: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:74: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:75: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "params"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:76: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "cid"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:77: error: Item "Dict[str, Any]" of "Union[Container, Dict[str, Any]]" has no attribute "check_source"  [union-attr]
+(piontec)docker-enforcer/dockerenforcer/killer.py:132: error: Incompatible types in assignment (expression has type "Optional[DockerImageHelper]", variable has type "DockerImageHelper")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/killer.py:143: error: Incompatible return value type (got "Tuple[Union[Dict[str, Any], bool], Any]", expected "Tuple[bool, str]")  [return-value]
+(piontec)docker-enforcer/dockerenforcer/killer.py:187: error: "str" not callable  [operator]
+(piontec)docker-enforcer/dockerenforcer/killer.py:187: error: Too many arguments  [call-arg]
+(piontec)docker-enforcer/dockerenforcer/killer.py:198: error: Argument 1 to "_on_global_whitelist" of "Judge" has incompatible type "Union[Container, Dict[str, Any]]"; expected "Container"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:203: error: Argument 1 to "_on_per_rule_whitelist" of "Judge" has incompatible type "Union[Container, Dict[str, Any]]"; expected "Container"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:203: error: Argument 2 to "_on_per_rule_whitelist" of "Judge" has incompatible type "Union[str, Callable[[Any], bool]]"; expected "str"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:204: error: Argument 1 to "_on_custom_whitelist" of "Judge" has incompatible type "Union[Container, Dict[str, Any]]"; expected "Container"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:204: error: Argument 2 to "_on_custom_whitelist" of "Judge" has incompatible type "Union[str, Callable[[Any], bool]]"; expected "str"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:207: error: "str" not callable  [operator]
+(piontec)docker-enforcer/dockerenforcer/killer.py:215: error: Argument 3 to "Verdict" has incompatible type "List[Union[str, Callable[[Any], bool]]]"; expected "Optional[Iterable[str]]"  [arg-type]
+(piontec)docker-enforcer/dockerenforcer/killer.py:235: error: Incompatible return value type (got "Tuple[List[Pattern[str]], Dict[str, List[Pattern[str]]]]", expected "Tuple[Iterable[Any], Dict[str, Iterable[Any]]]")  [return-value]
+(piontec)docker-enforcer/dockerenforcer/killer.py:251: error: Argument 1 to "kill_container" of "DockerHelper" has incompatible type "Union[Container, Dict[str, Any]]"; expected "Container"  [arg-type]
+Found 29 errors in 4 files (checked 1 source file)
+
+[RRepo](illagrenan)django-brotli
+Success: no issues found in 1 source file
+
+[RRepo](massmutual)py4jdbc
+(massmutual)py4jdbc/setup.py:8: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(massmutual)py4jdbc/setup.py:9: error: Module 'distutils.command.clean' has no attribute 'clean'  [attr-defined]
+(massmutual)py4jdbc/setup.py:10: error: Module 'distutils.command.sdist' has no attribute 'sdist'  [attr-defined]
+(massmutual)py4jdbc/setup.py:21: error: Name '__version__' is not defined  [name-defined]
+(massmutual)py4jdbc/setup.py:22: error: Name '__version__' is not defined  [name-defined]
+Found 5 errors in 1 file (checked 1 source file)
+

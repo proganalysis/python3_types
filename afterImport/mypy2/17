@@ -1,0 +1,584 @@
+[RRepo](maas)python-libmaas
+Success: no issues found in 1 source file
+
+[RRepo](miyakogi)syncer
+Success: no issues found in 1 source file
+
+[RRepo](EnergieID)entsoe-py
+(EnergieID)entsoe-py/tests.py:6: error: Module 'entsoe' has no attribute 'EntsoeRawClient'  [attr-defined]
+(EnergieID)entsoe-py/tests.py:6: error: Module 'entsoe' has no attribute 'EntsoePandasClient'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](beerfactory)hbmqtt
+
+[RRepo](MycroftAI)mycroft-core
+Success: no issues found in 1 source file
+
+[RRepo](valesi)CloudBot
+(valesi)CloudBot/cloudbot/__main__.py:15: error: Argument 2 to "insert" of "list" has incompatible type "Path"; expected "str"  [arg-type]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](mmathioudakis)geotopics
+(mmathioudakis)geotopics/model/plotting.py:5: error: Module 'model' has no attribute 'Statistics'  [attr-defined]
+(mmathioudakis)geotopics/model/utils.py:6: error: Module 'model' has no attribute 'ModelParameters'  [attr-defined]
+(mmathioudakis)geotopics/model/utils.py:77: error: Need type annotation for 'topic_labels'  [var-annotated]
+(mmathioudakis)geotopics/poly_gaussian.py:70: error: Module has no attribute "load"  [attr-defined]
+(mmathioudakis)geotopics/visualization/utils.py:9: error: Module 'model' has no attribute 'ModelParameters'  [attr-defined]
+(mmathioudakis)geotopics/visualization/utils.py:321: error: Unsupported right operand type for in ("Optional[Any]")  [operator]
+(mmathioudakis)geotopics/visualization/utils.py:322: error: Value of type "Optional[Any]" is not indexable  [index]
+(mmathioudakis)geotopics/visualize.py:102: error: Incompatible types in assignment (expression has type "Dict[str, int]", variable has type "List[str]")  [assignment]
+(mmathioudakis)geotopics/visualize.py:103: error: No overload variant of "__setitem__" of "list" matches argument types "str", "int"  [call-overload]
+(mmathioudakis)geotopics/visualize.py:103: note: Possible overload variants:
+(mmathioudakis)geotopics/visualize.py:103: note:     def __setitem__(self, int, str) -> None
+(mmathioudakis)geotopics/visualize.py:103: note:     def __setitem__(self, slice, Iterable[str]) -> None
+Found 9 errors in 5 files (checked 5 source files)
+
+[RRepo](gratefulfrog)ArduGuitar
+
+[RRepo](morefigs)pymba
+
+[RRepo](OpenNetworkingFoundation)Snowmass-ONFOpenTransport
+
+[RRepo](Scthe)MeshFromCurve_blender
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:258: error: Invalid type comment or annotation  [valid-type]
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:258: note: Suggestion: use IntProperty[...] instead of IntProperty(...)
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:265: error: Invalid type comment or annotation  [valid-type]
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:265: note: Suggestion: use BoolProperty[...] instead of BoolProperty(...)
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](kubeflow)code-intelligence
+
+[RRepo](asphalt-framework)asphalt-web
+
+[RRepo](kolypto)py-mongosql
+
+[RRepo](slackapi)python-slackclient
+(slackapi)python-slackclient/setup.py:24: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](IlyaGusev)PoetryCorpus
+
+[RRepo](mbouchenoire)discloud
+
+[RRepo](ssola)python-flask-microservice
+(ssola)python-flask-microservice/services/elasticsearch.py:41: error: "None" has no attribute "indices"  [attr-defined]
+(ssola)python-flask-microservice/services/elasticsearch.py:42: error: "None" has no attribute "indices"  [attr-defined]
+(ssola)python-flask-microservice/app.py:18: error: Argument 2 to "ElasticSearchFactory" has incompatible type "str"; expected "int"  [arg-type]
+Found 3 errors in 2 files (checked 1 source file)
+
+[RRepo](chwarr)bond
+
+[RRepo](firetools)blenderfds
+(firetools)blenderfds/zzz_blenderfds/exceptions.py:17: error: Name 'layout' is not defined  [name-defined]
+(firetools)blenderfds/zzz_blenderfds/exceptions.py:28: error: Name 'List' is not defined  [name-defined]
+(firetools)blenderfds/zzz_blenderfds/exceptions.py:28: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(firetools)blenderfds/zzz_blenderfds/custom_list_operators.py:36: error: Incompatible types in assignment (expression has type "str", base class "CUSTOM_LIST_OT" defined the type as "None")  [assignment]
+(firetools)blenderfds/zzz_blenderfds/custom_list_operators.py:37: error: Incompatible types in assignment (expression has type "str", base class "CUSTOM_LIST_OT" defined the type as "None")  [assignment]
+(firetools)blenderfds/zzz_blenderfds/custom_list_operators.py:38: error: Incompatible types in assignment (expression has type "str", base class "CUSTOM_LIST_OT" defined the type as "None")  [assignment]
+(firetools)blenderfds/zzz_blenderfds/__init__.py:21: error: Module 'zzz_blenderfds' has no attribute 'lang'  [attr-defined]
+(firetools)blenderfds/blenderfds_tools/__init__.py:122: error: Invalid type comment or annotation  [valid-type]
+(firetools)blenderfds/blenderfds_tools/__init__.py:132: error: Name 'BFException' is not defined  [name-defined]
+Found 8 errors in 4 files (checked 5 source files)
+
+[RRepo](ibis-project)ibis
+(ibis-project)ibis/ibis/util.py:97: error: Cannot use a covariant type variable as a parameter  [misc]
+(ibis-project)ibis/ibis/bigquery/api.py:15: error: Module 'ibis.bigquery.udf' has no attribute 'udf'  [attr-defined]
+(ibis-project)ibis/ibis/spark/datatypes.py:75: error: Need type annotation for 'spark_dtype'  [var-annotated]
+(ibis-project)ibis/ibis/spark/datatypes.py:75: error: Argument 1 to "singledispatch" has incompatible type "str"; expected "Callable[..., <nothing>]"  [arg-type]
+(ibis-project)ibis/ibis/clickhouse/api.py:14: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(ibis-project)ibis/ibis/spark/udf.py:20: error: Need type annotation for '_udf_name_cache'  [var-annotated]
+(ibis-project)ibis/ibis/pandas/execution/selection.py:21: error: Module 'ibis.pandas.execution' has no attribute 'constants'  [attr-defined]
+(ibis-project)ibis/ibis/pandas/client.py:339: error: "Type[Schema]" has no attribute "to_pandas"  [attr-defined]
+(ibis-project)ibis/ibis/pandas/client.py:340: error: "Type[Schema]" has no attribute "apply_to"  [attr-defined]
+(ibis-project)ibis/ibis/pandas/client.py:457: error: Incompatible return value type (got "Tuple[str, ...]", expected "str")  [return-value]
+(ibis-project)ibis/ibis/pandas/api.py:7: error: Module 'ibis.pandas.execution' has no attribute 'execute'  [attr-defined]
+(ibis-project)ibis/ibis/pandas/api.py:7: error: Module 'ibis.pandas.execution' has no attribute 'execute_node'  [attr-defined]
+(ibis-project)ibis/ibis/pandas/api.py:78: error: Need type annotation for '_rewrites' (hint: "_rewrites: Dict[<type>, <type>] = ...")  [var-annotated]
+(ibis-project)ibis/ibis/pandas/api.py:86: error: Incompatible types in assignment (expression has type "Type[PandasDialect]", variable has type "None")  [assignment]
+Found 14 errors in 8 files (checked 5 source files)
+
+[RRepo](linsalrob)EdwardsLab
+
+[RRepo](kprestel)PyInvestment
+
+[RRepo](ERA-URBAN)wrfpy
+Success: no issues found in 1 source file
+
+[RRepo](DatapuntAmsterdam)handelsregister
+
+[RRepo](hasadna)knesset-data-pipelines
+
+[RRepo](decathorpe)kentauros
+(decathorpe)kentauros/setup.py:10: error: Module 'kentauros' has no attribute 'KTR_VERSION'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](metacontainer)metac
+
+[RRepo](ekiro)chaps
+Success: no issues found in 1 source file
+
+[RRepo](Celeo)Preston
+
+[RRepo](amcat)amcat
+(amcat)amcat/setup.py:17: error: Incompatible types in assignment (expression has type "str", variable has type "TextIO")  [assignment]
+(amcat)amcat/setup.py:18: error: "TextIO" has no attribute "split"  [attr-defined]
+(amcat)amcat/amcat/forms/forms.py:121: error: Name 'ModelForm' is not defined  [name-defined]
+(amcat)amcat/amcat/tools/progress.py:79: error: "__init__" gets multiple values for keyword argument "log"  [misc]
+(amcat)amcat/amcat/models/coding/serialiser.py:150: error: Need type annotation for '_memo' (hint: "_memo: Dict[<type>, <type>] = ...")  [var-annotated]
+(amcat)amcat/amcat/tools/dateparsing.py:19: error: Name 'dateparser' is not defined  [name-defined]
+(amcat)amcat/amcat/tools/dateparsing.py:84: error: Name 'dateparser' is not defined  [name-defined]
+(amcat)amcat/amcat/tools/dateparsing.py:88: error: No overload variant of "dict" matches argument type "Hashable"  [call-overload]
+(amcat)amcat/amcat/tools/dateparsing.py:88: note: Possible overload variants:
+(amcat)amcat/amcat/tools/dateparsing.py:88: note:     def [_KT, _VT] dict(self, map: Mapping[_KT, _VT], **kwargs: _VT) -> Dict[_KT, _VT]
+(amcat)amcat/amcat/tools/dateparsing.py:88: note:     def [_KT, _VT] dict(self, iterable: Iterable[Tuple[_KT, _VT]], **kwargs: _VT) -> Dict[_KT, _VT]
+(amcat)amcat/amcat/tools/dateparsing.py:88: note:     <1 more non-matching overload not shown>
+(amcat)amcat/amcat/tools/dateparsing.py:109: error: Missing return statement  [return]
+(amcat)amcat/amcat/contrib/oset.py:172: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+(amcat)amcat/amcat/models/articleset.py:157: error: Set comprehension has incompatible type Set[bytes]; expected Set[str]  [misc]
+(amcat)amcat/amcat/models/articleset.py:160: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(amcat)amcat/amcat/models/project.py:33: error: Module 'amcat.models' has no attribute 'ProjectRole'  [attr-defined]
+(amcat)amcat/amcat/models/project.py:200: error: Name 'amcat.models.User' is not defined  [name-defined]
+(amcat)amcat/navigator/utils/auth.py:31: error: Name 'settings' already defined (possibly by an import)  [no-redef]
+Found 15 errors in 9 files (checked 8 source files)
+
+[RRepo](ChrisTimperley)roshammer
+(ChrisTimperley)roshammer/roshammer/bag.py:149: error: Cannot determine type of 'msg'  [has-type]
+(ChrisTimperley)roshammer/example.py:8: error: Module 'roshammer' has no attribute 'ROSHammer'  [attr-defined]
+Found 2 errors in 2 files (checked 1 source file)
+
+[RRepo](mulonemartin)kaira
+Success: no issues found in 1 source file
+
+[RRepo](aio-libs)aiopg
+Success: no issues found in 6 source files
+
+[RRepo](foursquare)fsqio
+
+[RRepo](arghblargh)feh-inheritance-tool
+
+[RRepo](bmassman)fake_news
+
+[RRepo](sloria)sir
+Success: no issues found in 1 source file
+
+[RRepo](DeflatedPickle)Colony
+(DeflatedPickle)Colony/gametime.py:8: error: Module 'colony.entities.attributes' has no attribute 'Age'  [attr-defined]
+(DeflatedPickle)Colony/debug.py:6: error: Module 'colony.entities.attributes' has no attribute 'Inventory'  [attr-defined]
+(DeflatedPickle)Colony/debug.py:6: error: Module 'colony.entities.attributes' has no attribute 'Gender'  [attr-defined]
+(DeflatedPickle)Colony/debug.py:6: error: Module 'colony.entities.attributes' has no attribute 'Energy'  [attr-defined]
+Found 4 errors in 2 files (checked 12 source files)
+
+[RRepo](manly-man)moodle-destroyer-tools
+(manly-man)moodle-destroyer-tools/commands/__init__.py:7: error: Name '__path__' is not defined  [name-defined]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:23: error: Need type annotation for 'modules' (hint: "modules: Dict[<type>, <type>] = ...")  [var-annotated]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:26: error: Name '__path__' is not defined  [name-defined]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:33: error: Name '__path__' is not defined  [name-defined]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:41: error: Name '__path__' is not defined  [name-defined]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:44: error: Name '__path__' is not defined  [name-defined]
+(manly-man)moodle-destroyer-tools/commands/__init__.py:49: error: "str" has no attribute "register_subcommand"  [attr-defined]
+(manly-man)moodle-destroyer-tools/frontend/commands.py:12: error: Module 'frontend' has no attribute 'MoodleFrontend'  [attr-defined]
+Found 8 errors in 2 files (checked 3 source files)
+
+[RRepo](weka-io)easypy
+(weka-io)easypy/test_package.py:6: error: Module has no attribute "__path__"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](michaelkuty)mbot
+(michaelkuty)mbot/travis_pypi_setup.py:19: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](parttimenerd)temci
+Success: no issues found in 1 source file
+
+[RRepo](mynlp)jigg
+
+[RRepo](lk-geimfari)mimesis
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__author__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__author_email__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__description__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__license__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__title__'; maybe "__file__"?  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__url__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:10: error: Module 'mimesis' has no attribute '__version__'  [attr-defined]
+(lk-geimfari)mimesis/setup.py:32: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 8 errors in 1 file (checked 1 source file)
+
+[RRepo](MagicStack)asyncpg
+(MagicStack)asyncpg/setup.py:57: error: Need type annotation for 'LDFLAGS' (hint: "LDFLAGS: List[<type>] = ...")  [var-annotated]
+(MagicStack)asyncpg/setup.py:137: error: Name 'distutils_build_ext.build_ext' is not defined  [name-defined]
+(MagicStack)asyncpg/setup.py:139: error: Module has no attribute "build_ext"  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/fuzzer.py:13: error: Module 'asyncpg' has no attribute 'cluster'  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/fuzzer.py:34: error: Need type annotation for 'connections' (hint: "connections: Dict[<type>, <type>] = ...")  [var-annotated]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:22: error: Module 'asyncpg' has no attribute 'cluster'  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:23: error: Module 'asyncpg' has no attribute 'connection'  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:24: error: Module 'asyncpg' has no attribute 'pool'  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:51: error: Unsupported dynamic base class "type"  [misc]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:149: error: "TestCase" has no attribute "loop"  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:150: error: "TestCase" has no attribute "loop"  [attr-defined]
+(MagicStack)asyncpg/asyncpg/_testbase/__init__.py:164: error: "TestCase" has no attribute "loop"  [attr-defined]
+(MagicStack)asyncpg/tests/test_timeout.py:11: error: Module 'asyncpg' has no attribute 'connection'  [attr-defined]
+(MagicStack)asyncpg/tests/test_introspection.py:12: error: Module 'asyncpg' has no attribute 'connection'  [attr-defined]
+Found 14 errors in 5 files (checked 16 source files)
+
+[RRepo](MrLeeh)pdftools
+(MrLeeh)pdftools/pdftools/parseutil.py:2: error: Module 'pdftools' has no attribute '__version__'  [attr-defined]
+(MrLeeh)pdftools/pdftools/parseutil.py:23: error: Need type annotation for 'pageset' (hint: "pageset: Set[<type>] = ...")  [var-annotated]
+(MrLeeh)pdftools/pdftools/pdftools.py:16: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:16: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:57: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:57: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:111: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:111: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:142: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:142: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:170: error: Item "None" of "Optional[BinaryIO]" has no attribute "close"  [union-attr]
+(MrLeeh)pdftools/pdftools/pdftools.py:189: error: Item "None" of "Optional[BinaryIO]" has no attribute "closed"  [union-attr]
+(MrLeeh)pdftools/pdftools/pdftools.py:191: error: Item "None" of "Optional[BinaryIO]" has no attribute "close"  [union-attr]
+(MrLeeh)pdftools/pdftools/pdftools.py:249: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:249: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:282: error: Unsupported operand types for - ("None" and "int")  [operator]
+(MrLeeh)pdftools/pdftools/pdftools.py:282: note: Left operand is of type "Optional[int]"
+(MrLeeh)pdftools/pdftools/pdftools.py:315: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:315: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:354: error: Argument 1 to "remove" has incompatible type "IO[bytes]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(MrLeeh)pdftools/pdftools/pdftools.py:357: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:357: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdfzip.py:5: error: Module 'pdftools' has no attribute 'pdf_zip'  [attr-defined]
+(MrLeeh)pdftools/pdfsplit.py:5: error: Module 'pdftools' has no attribute 'pdf_split'  [attr-defined]
+(MrLeeh)pdftools/pdfrotate.py:5: error: Module 'pdftools' has no attribute 'pdf_rotate'  [attr-defined]
+(MrLeeh)pdftools/pdfremove.py:6: error: Module 'pdftools' has no attribute 'pdf_remove'  [attr-defined]
+(MrLeeh)pdftools/pdfmerge.py:5: error: Module 'pdftools' has no attribute 'pdf_merge'  [attr-defined]
+(MrLeeh)pdftools/pdfinsert.py:5: error: Module 'pdftools' has no attribute 'pdf_insert'  [attr-defined]
+(MrLeeh)pdftools/pdfadd.py:6: error: Module 'pdftools' has no attribute 'pdf_add'  [attr-defined]
+Found 21 errors in 9 files (checked 9 source files)
+
+[RRepo](Egregors)django-cbrf
+
+[RRepo](1337)yesterday-i-learned
+
+[RRepo](rosjat)python-scsi
+(rosjat)python-scsi/setup.py:8: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(rosjat)python-scsi/setup.py:165: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[str]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[Extension]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Type[Distribution]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Any]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Union[List[str], str]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Type[Command]]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[Tuple[str, List[str]]]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, str]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Mapping[str, Tuple[Any, Any]]]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, List[str]]"  [arg-type]
+(rosjat)python-scsi/setup.py:166: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(rosjat)python-scsi/setup.py:167: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[str]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[Extension]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Type[Distribution]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Any]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Union[List[str], str]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Type[Command]]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "List[Tuple[str, List[str]]]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, str]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, Mapping[str, Tuple[Any, Any]]]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "Mapping[str, List[str]]"  [arg-type]
+(rosjat)python-scsi/setup.py:168: error: Argument 1 to "setup" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+Found 27 errors in 1 file (checked 1 source file)
+
+[RRepo](AlertaDengue)AlertaDengue
+
+[RRepo](pantsbuild)pants
+
+[RRepo](ajbouh)tfi
+(ajbouh)tfi/setup.py:28: error: Need type annotation for 'INSTALL_REQUIRES' (hint: "INSTALL_REQUIRES: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](Moe-Team)MysteryOnline
+Success: no issues found in 1 source file
+
+[RRepo](precedenceguo)mxnet
+
+[RRepo](facebook)FBSimulatorControl
+Success: no issues found in 1 source file
+
+[RRepo](CloudBoltSoftware)cloudbolt-forge
+
+[RRepo](catb0t)mouse16
+(catb0t)mouse16/mouseStack.py:61: error: Need type annotation for '__stack__' (hint: "__stack__: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](roosemberth)dotfiles
+
+[RRepo](atbentley)aiohttp-rest
+(atbentley)aiohttp-rest/aiohttp_rest.py:5: error: Module 'aiohttp' has no attribute 'HttpMethodNotAllowed'  [attr-defined]
+(atbentley)aiohttp-rest/aiohttp_rest.py:5: error: Module 'aiohttp' has no attribute 'HttpBadRequest'  [attr-defined]
+(atbentley)aiohttp-rest/example.py:12: error: Need type annotation for 'people' (hint: "people: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 3 source files)
+
+[RRepo](dr-leo)pandaSDMX
+(dr-leo)pandaSDMX/pandasdmx/util.py:2: error: Module 'typing' has no attribute 'KT'; maybe "_KT"?  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:2: error: Module 'typing' has no attribute 'VT'; maybe "_VT"?  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:10: error: Module 'typing' has no attribute 'OrderedDict'  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:15: error: Module 'typing' has no attribute '_alias'  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:89: error: Need type annotation for 'validate_assignment_exclude' (hint: "validate_assignment_exclude: List[<type>] = ...")  [var-annotated]
+(dr-leo)pandaSDMX/pandasdmx/experimental.py:33: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/experimental.py:34: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/source/__init__.py:17: error: Need type annotation for 'sources' (hint: "sources: Dict[<type>, <type>] = ...")  [var-annotated]
+(dr-leo)pandaSDMX/tests/excluded_test_structspec_dataset.py:8: error: Argument 1 to "getfile" has incompatible type "Optional[FrameType]"; expected "Union[Module, Type[Any], MethodType, FunctionType, TracebackType, FrameType, CodeType, Callable[..., Any]]"  [arg-type]
+(dr-leo)pandaSDMX/tests/__init__.py:14: error: Need type annotation for '_test_files' (hint: "_test_files: List[<type>] = ...")  [var-annotated]
+(dr-leo)pandaSDMX/tests/test_dsd.py:11: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dsd.py:42: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:41: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:42: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:43: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:44: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:71: error: Incompatible types in assignment (expression has type "None", variable has type "Footer")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:73: error: Incompatible types in assignment (expression has type "None", variable has type "Response")  [assignment]
+(dr-leo)pandaSDMX/pandasdmx/message.py:93: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:94: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:95: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:96: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:97: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:98: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:99: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:100: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/source/estat.py:6: error: Module 'requests.compat' has no attribute 'urlparse'  [attr-defined]
+(dr-leo)pandaSDMX/tests/test_sources.py:91: error: Need type annotation for 'xfail' (hint: "xfail: Dict[<type>, <type>] = ...")  [var-annotated]
+(dr-leo)pandaSDMX/tests/test_sources.py:111: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:115: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:144: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:174: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:178: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:192: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:204: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:219: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:247: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:253: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:257: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:261: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:277: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_sources.py:281: error: Incompatible types in assignment (expression has type "str", base class "DataSourceTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dataset.py:14: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dataset.py:59: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dataset.py:196: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dataset.py:241: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+(dr-leo)pandaSDMX/tests/test_dataset.py:264: error: Incompatible types in assignment (expression has type "str", base class "MessageTest" defined the type as "None")  [assignment]
+Found 47 errors in 10 files (checked 35 source files)
+
+[RRepo](ClearcodeHQ)mirakuru
+Success: no issues found in 5 source files
+
+[RRepo](coq)coq
+
+[RRepo](laanwj)bitcoin
+
+[RRepo](AVSystem)avs_commons
+Success: no issues found in 1 source file
+
+[RRepo](instantshare)instantshare
+
+[RRepo](mrachinskiy)jewelcraft
+
+[RRepo](nonemaw)Flask_nonemaw
+Success: no issues found in 10 source files
+
+[RRepo](dpnova)pynerstat
+Success: no issues found in 1 source file
+
+[RRepo](un-def)polypie
+(un-def)polypie/polypie.py:13: error: Need type annotation for '_registry' (hint: "_registry: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ErikBjare)dotfiles
+
+[RRepo](132nd-etcher)EMFT
+Success: no issues found in 1 source file
+
+[RRepo](junjihashimoto)mathflow
+
+[RRepo](WZQ1397)automatic-repo
+
+[RRepo](jfcherng)Sublime-ASS
+(jfcherng)Sublime-ASS/AssToggleComment.py:59: error: Need type annotation for 'comment_points' (hint: "comment_points: Set[<type>] = ...")  [var-annotated]
+(jfcherng)Sublime-ASS/functions.py:217: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+Found 2 errors in 2 files (checked 4 source files)
+
+[RRepo](ento)elm-doc
+(ento)elm-doc/dodo.py:44: error: "str" has no attribute "parent"  [attr-defined]
+(ento)elm-doc/dodo.py:65: error: Argument 1 to "_create_tarball" has incompatible type "str"; expected "Path"  [arg-type]
+(ento)elm-doc/dodo.py:126: error: Item "None" of "Optional[IO[bytes]]" has no attribute "read"  [union-attr]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](flyinactor91)AVWX-API
+(flyinactor91)AVWX-API/avwx_api/validators.py:24: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/validators.py:24: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/validators.py:28: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/validators.py:45: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/validators.py:45: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/validators.py:49: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/validators.py:62: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/validators.py:62: note: Suggestion: Is there a spurious trailing comma?
+(flyinactor91)AVWX-API/avwx_api/validators.py:69: error: Incompatible return value type (got "List[<nothing>]", expected "str")  [return-value]
+(flyinactor91)AVWX-API/avwx_api/validators.py:74: error: Incompatible return value type (got "List[str]", expected "str")  [return-value]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:37: error: Name 'stringable' is not defined  [name-defined]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:38: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:38: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/cache.py:54: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/cache.py:68: error: Argument 1 to "has_expired" has incompatible type "Optional[Any]"; expected "datetime"  [arg-type]
+(flyinactor91)AVWX-API/avwx_api/cache.py:77: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:19: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:19: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:34: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:35: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:35: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:60: error: Argument 2 to "get" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:62: error: Incompatible types in assignment (expression has type "str", target has type "Dict[str, datetime]")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:68: error: Dict entry 1 has incompatible type "str": "str"; expected "str": "datetime"  [dict-item]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:33: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:33: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:58: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:58: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:108: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:108: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:109: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:109: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:140: error: Incompatible types in assignment (expression has type "str", target has type "Dict[str, datetime]")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:146: error: Dict entry 1 has incompatible type "str": "str"; expected "str": "datetime"  [dict-item]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:21: error: Module 'avwx_api' has no attribute 'structs'  [attr-defined]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:68: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:69: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:73: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:76: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:78: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:78: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:85: error: Missing return statement  [return]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:92: error: Return value expected  [return-value]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:304: error: Name 'err' is not defined  [name-defined]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 51 errors in 7 files (checked 14 source files)
+
+[RRepo](bieberg0n)bjdns
+(bieberg0n)bjdns/cache.py:15: error: Function "builtins.map" is not valid as a type  [valid-type]
+(bieberg0n)bjdns/cache.py:15: note: Perhaps you need "Callable[...]" or a callback protocol?
+(bieberg0n)bjdns/cache.py:19: error: map? has no attribute "get"  [attr-defined]
+(bieberg0n)bjdns/cache.py:27: error: Function "builtins.map" is not valid as a type  [valid-type]
+(bieberg0n)bjdns/cache.py:27: note: Perhaps you need "Callable[...]" or a callback protocol?
+(bieberg0n)bjdns/cache.py:28: error: map? has no attribute "get"  [attr-defined]
+(bieberg0n)bjdns/cache.py:49: error: Value of type map? is not indexable  [index]
+Found 5 errors in 1 file (checked 6 source files)
+
+[RRepo](GoogleCloudPlatform)cloud-opensource-python
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:26: error: Module has no attribute "session"  [attr-defined]
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:40: error: Module has no attribute "session"  [attr-defined]
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:41: error: Module has no attribute "parametrize"  [attr-defined]
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:64: error: Module has no attribute "session"  [attr-defined]
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:65: error: Module has no attribute "parametrize"  [attr-defined]
+(GoogleCloudPlatform)cloud-opensource-python/nox.py:97: error: Module has no attribute "session"  [attr-defined]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](OpenMined)PySyft
+(OpenMined)PySyft/run_websocket_server.py:4: error: Module 'syft.workers' has no attribute 'WebsocketServerWorker'  [attr-defined]
+(OpenMined)PySyft/run_websocket_server.py:9: error: Module has no attribute "TorchHook"  [attr-defined]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](guillemborrell)pyledger
+
+[RRepo](sloria)environs
+(sloria)environs/environs.py:94: error: Incompatible types in assignment (expression has type "Type[Meta]", target has type "Field")  [assignment]
+(sloria)environs/environs.py:99: error: Invalid index type "Union[Type[Any], Callable[..., Any]]" for "Dict[type, Type[Field]]"; expected type "type"  [index]
+(sloria)environs/environs.py:151: error: Signature of "deserialize" incompatible with supertype "Field"  [override]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](AdrianP-)gym_trading
+(AdrianP-)gym_trading/run.py:108: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](mesonbuild)wrapweb
+
+[RRepo](JasonMWhite)python_template
+Success: no issues found in 2 source files
+
+[RRepo](adamcaudill)yawast
+(adamcaudill)yawast/setup.py:15: error: Name 'Executable' already defined (possibly by an import)  [no-redef]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](hl037)torefl
+(hl037)torefl/setup.py:22: error: Need type annotation for 'EXTRAS' (hint: "EXTRAS: Dict[<type>, <type>] = ...")  [var-annotated]
+(hl037)torefl/torefl/formatters/ASCIIFormatter.py:22: error: List or tuple expected as variable arguments  [misc]
+Found 2 errors in 2 files (checked 8 source files)
+
+[RRepo](coala)coala-bears
+Success: no issues found in 2 source files
+
+[RRepo](fyookball)electrum
+(fyookball)electrum/setup.py:24: error: Need type annotation for 'data_files' (hint: "data_files: List[<type>] = ...")  [var-annotated]
+(fyookball)electrum/setup.py:99: error: Module has no attribute "PACKAGE_VERSION"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](J-CPelletier)webcomix
+Success: no issues found in 1 source file
+
+[RRepo](Paulius-Maruska)python-isign
+
+[RRepo](salsita)shishito
+Success: no issues found in 1 source file
+
+[RRepo](uyamazak)oceanus
+
+[RRepo](moddevices)mod-ui
+(moddevices)mod-ui/bluetooth.py:21: error: Missing parentheses in call to 'print'. Did you mean print("Can't connect")?  [syntax]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](mesosphere)dcos-commons
+(mesosphere)dcos-commons/conftest.py:136: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](pgjones)flake8-sql
+
+[RRepo](JulyJ)MindBot
+Success: no issues found in 1 source file
+
+[RRepo](rigetticomputing)grove
+
+[RRepo](Mondanzo)vlt-Music
+(Mondanzo)vlt-Music/log.py:15: error: Name 'get_time' already defined on line 7  [no-redef]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](drhagen)parsita
+

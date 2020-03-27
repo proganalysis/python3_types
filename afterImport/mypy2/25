@@ -1,0 +1,592 @@
+[RRepo](cyberkov)home-assistant-config
+
+[RRepo](leonidumanskiy)scheduledtask
+
+[RRepo](cedricbonhomme)Stegano
+
+[RRepo](lbryio)lbrycrd
+
+[RRepo](danthelion)pyet
+
+[RRepo](padmec-reservoir)ELLIPTIc
+
+[RRepo](SectorLabs)django-localized-fields
+(SectorLabs)django-localized-fields/setup.py:9: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](saurabh1e)SuperFlaskSeed
+
+[RRepo](ulikoehler)UliEngineering
+
+[RRepo](flopp)unicode-explorer
+
+[RRepo](jamesacampbell)python-examples
+(jamesacampbell)python-examples/tor-example.py:29: error: Cannot assign to a type  [misc]
+(jamesacampbell)python-examples/tor-example.py:48: error: Module has no attribute "error"  [attr-defined]
+(jamesacampbell)python-examples/scrape_twitter-example.py:41: error: Need type annotation for 'diction' (hint: "diction: List[<type>] = ...")  [var-annotated]
+(jamesacampbell)python-examples/scrape_twitter-example.py:42: error: Need type annotation for 'subset' (hint: "subset: List[<type>] = ...")  [var-annotated]
+(jamesacampbell)python-examples/stem_tor-example.py:16: error: Cannot find replacement for positional format specifier 1  [str-format]
+(jamesacampbell)python-examples/flask-example.py:40: error: Missing return statement  [return]
+Found 6 errors in 4 files (checked 26 source files)
+
+[RRepo](Techcable)DiffUtils
+
+[RRepo](idaks)PW-explorer
+
+[RRepo](Debith)py3traits
+Success: no issues found in 1 source file
+
+[RRepo](snakeleon)YouCompleteMe-x86
+Success: no issues found in 2 source files
+
+[RRepo](dmlc)mxnet
+(dmlc)mxnet/dev_menu.py:81: error: Incompatible return value type (got "List[str]", expected "str")  [return-value]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](renskiy)fabricio
+(renskiy)fabricio/tests/test_decorators.py:12: error: Name 'docker.Container' is not defined  [name-defined]
+(renskiy)fabricio/tests/test_decorators.py:14: error: Module has no attribute "Image"  [attr-defined]
+(renskiy)fabricio/fabricio/utils.py:94: error: Incompatible types in assignment (expression has type "Callable[[Dict[_KT, _VT], _KT, _VT], None]", base class "object" defined the type as "Callable[[object, str, Any], None]")  [assignment]
+Found 3 errors in 2 files (checked 4 source files)
+
+[RRepo](wright-group)WrightTools
+Success: no issues found in 1 source file
+
+[RRepo](apache)ignite
+
+[RRepo](shobute)go-slack
+(shobute)go-slack/goban.py:35: error: Missing return statement  [return]
+(shobute)go-slack/goban.py:51: error: Need type annotation for 'votes' (hint: "votes: Dict[<type>, <type>] = ...")  [var-annotated]
+(shobute)go-slack/goban.py:56: error: Argument 1 to "update" of "dict" has incompatible type "Dict[Tuple[int, int], None]"; expected "Mapping[str, str]"  [arg-type]
+(shobute)go-slack/goban.py:148: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:148: error: Incompatible types in assignment (expression has type "str", target has type "None")  [assignment]
+(shobute)go-slack/goban.py:153: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:174: error: Cannot access "__init__" directly  [misc]
+(shobute)go-slack/goban.py:187: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:194: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:197: error: Incompatible return value type (got "int", expected "bool")  [return-value]
+(shobute)go-slack/goban.py:200: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:204: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:210: error: Invalid index type "Optional[Tuple[int, int]]" for "Dict[Tuple[int, int], None]"; expected type "Tuple[int, int]"  [index]
+(shobute)go-slack/goban.py:216: error: 'None' object is not iterable  [misc]
+(shobute)go-slack/goban.py:248: error: 'None' object is not iterable  [misc]
+(shobute)go-slack/goban.py:254: error: Invalid index type "None" for "Dict[str, Any]"; expected type "str"  [index]
+(shobute)go-slack/goban.py:256: error: Invalid index type "None" for "Dict[str, Any]"; expected type "str"  [index]
+(shobute)go-slack/gobot.py:27: error: Missing return statement  [return]
+(shobute)go-slack/gobot.py:63: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(shobute)go-slack/gobot.py:97: error: Unsupported right operand type for in ("Optional[str]")  [operator]
+(shobute)go-slack/gobot.py:105: error: Incompatible return value type (got "Optional[Match[str]]", expected "bool")  [return-value]
+Found 21 errors in 2 files (checked 2 source files)
+
+[RRepo](mrgambal)vulyk
+
+[RRepo](akapur)pyiqfeed
+
+[RRepo](adamcharnock)lightbus
+
+[RRepo](nooperpudd)quantbube
+
+[RRepo](phanrahan)magmathon
+
+[RRepo](HBPNeurorobotics)BlenderRobotDesigner
+(HBPNeurorobotics)BlenderRobotDesigner/robot_designer_plugin/core/gui.py:51: error: Need type annotation for 'global_messages' (hint: "global_messages: List[<type>] = ...")  [var-annotated]
+(HBPNeurorobotics)BlenderRobotDesigner/robot_designer_plugin/__init__.py:40: error: Module has no attribute "PluginManager"  [attr-defined]
+(HBPNeurorobotics)BlenderRobotDesigner/robot_designer_plugin/__init__.py:47: error: Module has no attribute "PluginManager"  [attr-defined]
+Found 3 errors in 2 files (checked 1 source file)
+
+[RRepo](MaT1g3R)Roboragi
+(MaT1g3R)Roboragi/roboragi/utils/helpers.py:32: error: Incompatible types in assignment (expression has type "Tuple[]", variable has type "Tuple[str, str]")  [assignment]
+(MaT1g3R)Roboragi/roboragi/web_api/ani_list.py:5: error: Module 'roboragi.session_manager' has no attribute 'SessionManager'  [attr-defined]
+(MaT1g3R)Roboragi/roboragi/web_api/ani_list.py:47: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MaT1g3R)Roboragi/roboragi/web_api/ani_list.py:83: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MaT1g3R)Roboragi/example.py:3: error: Module 'roboragi' has no attribute 'Medium'  [attr-defined]
+(MaT1g3R)Roboragi/example.py:3: error: Module 'roboragi' has no attribute 'Roboragi'  [attr-defined]
+(MaT1g3R)Roboragi/example.py:3: error: Module 'roboragi' has no attribute 'Site'  [attr-defined]
+(MaT1g3R)Roboragi/tests/utils.py:74: error: Need type annotation for 'res' (hint: "res: Dict[<type>, <type>] = ...")  [var-annotated]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:37: error: Return value expected  [return-value]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:42: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:43: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:43: error: Item "None" of "Union[str, None, Any]" has no attribute "split"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:46: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:47: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:48: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:50: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:51: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:52: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:53: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:54: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:55: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:56: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:60: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:61: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:62: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:64: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:65: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:66: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:67: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:68: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:69: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:70: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:71: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:97: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:116: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:122: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MaT1g3R)Roboragi/roboragi/web_api/mal.py:126: error: Missing return statement  [return]
+(MaT1g3R)Roboragi/roboragi/utils/pre_cache.py:6: error: Module 'roboragi.data_controller' has no attribute 'DataController'  [attr-defined]
+(MaT1g3R)Roboragi/roboragi/utils/pre_cache.py:8: error: Module 'roboragi.session_manager' has no attribute 'SessionManager'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_sqlite.py:6: error: Module 'roboragi.data_controller' has no attribute 'SqliteController'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_postgres.py:7: error: Module 'roboragi' has no attribute 'get_default_logger'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_postgres.py:8: error: Module 'roboragi.data_controller' has no attribute 'PostgresController'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'DataController'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'Medium'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'PostgresController'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'Roboragi'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'Site'  [attr-defined]
+(MaT1g3R)Roboragi/tests/test_imports.py:4: error: Module 'roboragi' has no attribute 'SqliteController'  [attr-defined]
+Found 48 errors in 9 files (checked 6 source files)
+
+[RRepo](lablup)sorna-client
+(lablup)sorna-client/setup.py:35: error: Need type annotation for 'ci_requires' (hint: "ci_requires: List[<type>] = ...")  [var-annotated]
+(lablup)sorna-client/setup.py:36: error: Unsupported operand types for + ("List[<nothing>]" and "List[str]")  [operator]
+Found 2 errors in 1 file (checked 17 source files)
+
+[RRepo](tommz9)wrf_runner
+
+[RRepo](enchantner)python-zero
+
+[RRepo](shlinx)cloudflare-ddns
+
+[RRepo](DonaldWhyte)deep-learning-with-rnns
+
+[RRepo](berylTechnologies)redcap
+
+[RRepo](EdmundMartin)SearchScraperAPI
+
+[RRepo](smeenka)esp32
+
+[RRepo](changyuheng)pywinwifi
+
+[RRepo](GoogleCloudPlatform)training-data-analyst
+
+[RRepo](algorithm-ninja)territoriali-backend
+Success: no issues found in 1 source file
+
+[RRepo](erdewit)ib_insync
+
+[RRepo](idobrusin)RocLang
+
+[RRepo](google)pybadges
+(google)pybadges/pybadges/precalculated_text_measurer.py:56: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(google)pybadges/pybadges/precalculated_text_measurer.py:57: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(google)pybadges/pybadges/__init__.py:100: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+Found 3 errors in 2 files (checked 9 source files)
+
+[RRepo](oser-cs)oser-website
+Success: no issues found in 1 source file
+
+[RRepo](sonata-nfv)son-cli
+
+[RRepo](missionpinball)mpf-docs
+(missionpinball)mpf-docs/_doc_tools/build_events_reference_docs.py:250: error: Need type annotation for 'dont_delete_files' (hint: "dont_delete_files: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](SpiroGanas)MIMIC3py
+
+[RRepo](penguinolog)logwrap
+(penguinolog)logwrap/setup.py:73: error: Name 'build_ext.build_ext' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](mlperf)training_results_v0.6
+
+[RRepo](QQuick)Transcrypt
+Success: no issues found in 1 source file
+
+[RRepo](DFO-Ocean-Navigator)Ocean-Data-Map-Project
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/data/data.py:194: error: Signature of "__getitem__" incompatible with supertype "list"  [override]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/data/data.py:194: error: Signature of "__getitem__" incompatible with supertype "MutableSequence"  [override]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/data/data.py:194: error: Signature of "__getitem__" incompatible with supertype "Sequence"  [override]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/oceannavigator/dataset_config.py:94: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/oceannavigator/dataset_config.py:96: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/oceannavigator/dataset_config.py:105: error: "str" has no attribute "items"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/oceannavigator/dataset_config.py:119: error: "str" has no attribute "items"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/oceannavigator/dataset_config.py:136: error: "str" has no attribute "items"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:20: error: Incompatible types in assignment (expression has type "str", variable has type "Dict[Any, Any]")  [assignment]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:24: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:36: error: "Plotter" has no attribute "plottype"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:69: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:92: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:93: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:94: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:95: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:96: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:97: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:100: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:108: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:110: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:120: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:121: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:122: error: Unsupported target for indexed assignment  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:122: error: Value of type "bool" is not indexable  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:124: error: "bool" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:125: error: Unsupported target for indexed assignment  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:129: error: Unsupported target for indexed assignment  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:129: error: Value of type "bool" is not indexable  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:134: error: Unsupported target for indexed assignment  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:134: error: Value of type "bool" is not indexable  [index]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:138: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:143: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:151: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:165: error: "str" has no attribute "get"  [attr-defined]
+(DFO-Ocean-Navigator)Ocean-Data-Map-Project/plotting/plotter.py:166: error: "str" has no attribute "get"  [attr-defined]
+Found 36 errors in 3 files (checked 10 source files)
+
+[RRepo](yokawasa)azure-functions-python-samples
+
+[RRepo](the-c0d3r)pynmap
+(the-c0d3r)pynmap/portscan.py:40: error: Missing parentheses in call to 'print'. Did you mean print(banner)?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](stoklund)portable-simd
+(stoklund)portable-simd/simdspec.py:13: error: Incompatible types in assignment (expression has type "None", variable has type "Interpretation")  [assignment]
+(stoklund)portable-simd/simdspec.py:62: error: Incompatible return value type (got "None", expected "Interpretation")  [return-value]
+(stoklund)portable-simd/simdspec.py:183: error: Argument 5 to "Signature" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](mara)mara-app
+(mara)mara-app/mara_app/monkey_patch.py:16: error: Invalid type comment or annotation  [valid-type]
+(mara)mara-app/mara_app/config.py:7: error: Invalid type comment or annotation  [valid-type]
+(mara)mara-app/mara_app/views.py:97: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/views.py:97: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/views.py:100: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/views.py:100: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/layout.py:26: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/layout.py:26: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/layout.py:38: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/layout.py:38: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/layout.py:53: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/layout.py:53: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/layout.py:94: error: Incompatible return value type (got "List[Any]", expected "str")  [return-value]
+(mara)mara-app/mara_app/app.py:19: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-app/mara_app/app.py:19: note: Did you mean "List[...]"?
+(mara)mara-app/mara_app/app.py:30: error: Argument 2 to "isinstance" has incompatible type "_SpecialForm"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(mara)mara-app/mara_app/app.py:124: error: Invalid type comment or annotation  [valid-type]
+Found 11 errors in 5 files (checked 7 source files)
+
+[RRepo](PJB3005)MoMMI
+Success: no issues found in 3 source files
+
+[RRepo](yoeo)guesslang
+Success: no issues found in 1 source file
+
+[RRepo](Zoidster)BirbBot
+
+[RRepo](ekaj2)rock_builder
+Success: no issues found in 1 source file
+
+[RRepo](osm-fr)osmose-backend
+Success: no issues found in 2 source files
+
+[RRepo](DeflatedPickle)Quiver
+(DeflatedPickle)Quiver/dialog.py:6: error: Module 'tkinter' has no attribute 'font'  [attr-defined]
+(DeflatedPickle)Quiver/dialog.py:234: error: "__init__" gets multiple values for keyword argument "title"  [misc]
+(DeflatedPickle)Quiver/dialog.py:234: error: "__init__" gets multiple values for keyword argument "transient"  [misc]
+(DeflatedPickle)Quiver/dialog.py:234: error: "__init__" gets multiple values for keyword argument "geometry"  [misc]
+Found 4 errors in 1 file (checked 8 source files)
+
+[RRepo](Floens)uchan
+(Floens)uchan/uchan/filter/text_parser.py:5: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/flask/__init__.py:45: error: Name 'server_error_handler' already defined on line 40  [no-redef]
+(Floens)uchan/uchan/__init__.py:12: error: Incompatible types in assignment (expression has type "None", variable has type "UchanConfiguration")  [assignment]
+(Floens)uchan/uchan/filter/app_filters.py:10: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:18: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:23: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:28: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:72: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:81: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:86: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:97: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/filter/app_filters.py:104: error: Item "None" of "Optional[Any]" has no attribute "template_filter"  [union-attr]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:40: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:40: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:55: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:55: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:67: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:67: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:82: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:82: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:101: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:101: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:125: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:125: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:135: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:135: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:143: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:143: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:160: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:160: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:176: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:176: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:196: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:196: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:207: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:207: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:218: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:218: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:232: error: Variable "uchan.lib.database.OrmModelBase" is not valid as a type  [valid-type]
+(Floens)uchan/uchan/lib/ormmodel/__init__.py:232: error: Invalid base class "OrmModelBase"  [misc]
+(Floens)uchan/uchan/lib/repository/board_moderators.py:3: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/lib/repository/moderators.py:5: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/lib/service/file_service.py:102: error: Incompatible types in assignment (expression has type "None", variable has type "FileCdn")  [assignment]
+(Floens)uchan/uchan/lib/action_authorizer.py:4: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/lib/service/ban_service.py:9: error: Module 'uchan.lib.repository' has no attribute 'posts'  [attr-defined]
+(Floens)uchan/uchan/lib/service/moderator_service.py:3: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/boards.py:19: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/lib/repository/reports.py:8: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/banned.py:10: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/lib/tasks/post_task.py:29: error: Item "None" of "Optional[Any]" has no attribute "task"  [union-attr]
+(Floens)uchan/uchan/lib/tasks/post_task.py:57: error: Item "None" of "Optional[Any]" has no attribute "task"  [union-attr]
+(Floens)uchan/uchan/lib/tasks/report_task.py:18: error: Item "None" of "Optional[Any]" has no attribute "task"  [union-attr]
+(Floens)uchan/uchan/lib/service/post_helper.py:10: error: Module 'uchan.lib.repository' has no attribute 'posts'  [attr-defined]
+(Floens)uchan/uchan/lib/service/post_manage_helper.py:6: error: Module 'uchan.lib.repository' has no attribute 'posts'  [attr-defined]
+(Floens)uchan/uchan/lib/service/report_service.py:63: error: Argument 4 to "find_by_moderator" has incompatible type "Optional[List[Any]]"; expected "List[Any]"  [arg-type]
+(Floens)uchan/uchan/lib/service/posts_service.py:4: error: Module 'uchan.lib.repository' has no attribute 'posts'  [attr-defined]
+(Floens)uchan/uchan/view/page.py:7: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/index.py:7: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/thread.py:45: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/thread.py:46: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/thread.py:79: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/thread.py:110: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:27: error: Item "None" of "Optional[Any]" has no attribute "context_processor"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:49: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:54: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:59: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:129: error: Item "None" of "Optional[Any]" has no attribute "jinja_env"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:130: error: Item "None" of "Optional[Any]" has no attribute "jinja_env"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:131: error: Item "None" of "Optional[Any]" has no attribute "jinja_env"  [union-attr]
+(Floens)uchan/uchan/view/__init__.py:132: error: Item "None" of "Optional[Any]" has no attribute "jinja_env"  [union-attr]
+(Floens)uchan/uchan/view/verify.py:10: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/post.py:26: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/post.py:221: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/post.py:318: error: Item "None" of "Optional[Any]" has no attribute "route"  [union-attr]
+(Floens)uchan/uchan/view/post.py:333: error: Item "None" of "Optional[Any]" has no attribute "jinja_env"  [union-attr]
+(Floens)uchan/uchan/view/mod/__init__.py:5: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_site.py:5: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_report.py:3: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_page.py:5: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_moderator.py:6: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_moderator.py:93: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(Floens)uchan/uchan/view/mod/mod_moderator.py:94: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(Floens)uchan/uchan/view/mod/mod_board.py:6: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+(Floens)uchan/uchan/view/mod/mod_bans.py:7: error: Module 'uchan.lib' has no attribute 'roles'  [attr-defined]
+Found 84 errors in 33 files (checked 28 source files)
+
+[RRepo](AeonGames)AeonEngine
+
+[RRepo](facebook)fbthrift
+
+[RRepo](FrancescoCeruti)linux-show-player
+(FrancescoCeruti)linux-show-player/setup.py:26: error: Module has no attribute "__author__"  [attr-defined]
+(FrancescoCeruti)linux-show-player/setup.py:27: error: Module has no attribute "__email__"  [attr-defined]
+(FrancescoCeruti)linux-show-player/setup.py:28: error: Module has no attribute "__version__"  [attr-defined]
+(FrancescoCeruti)linux-show-player/setup.py:29: error: Module has no attribute "__license__"  [attr-defined]
+(FrancescoCeruti)linux-show-player/setup.py:30: error: Module has no attribute "__email__"  [attr-defined]
+(FrancescoCeruti)linux-show-player/i18n_update.py:30: error: Name 'scandir' already defined (possibly by an import)  [no-redef]
+Found 6 errors in 2 files (checked 2 source files)
+
+[RRepo](phodge)dotfiles
+
+[RRepo](telminov)django-park-keeper
+Success: no issues found in 1 source file
+
+[RRepo](funkyfuture)deck-chores
+
+[RRepo](miyakogi)wdom
+Success: no issues found in 1 source file
+
+[RRepo](Ultimaker)Uranium
+(Ultimaker)Uranium/run_mypy.py:8: error: Incompatible default for argument "search_path" (default has type "Optional[str]", argument has type "str")  [assignment]
+(Ultimaker)Uranium/run_mypy.py:20: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "List[str]")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](pypa)linehaul
+
+[RRepo](wa1tnr)ainsuSPI
+
+[RRepo](welbornprod)colr
+(welbornprod)colr/benchmark.py:23: error: Module 'colr' has no attribute 'AnimatedProgress'  [attr-defined]
+(welbornprod)colr/benchmark.py:23: error: Module 'colr' has no attribute 'Colr'  [attr-defined]
+(welbornprod)colr/benchmark.py:23: error: Module 'colr' has no attribute 'Frames'  [attr-defined]
+(welbornprod)colr/benchmark.py:23: error: Module 'colr' has no attribute 'color'  [attr-defined]
+(welbornprod)colr/benchmark.py:23: error: Module 'colr' has no attribute 'docopt'  [attr-defined]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](WoodNeck)tataru
+Success: no issues found in 1 source file
+
+[RRepo](tuna)fishroom
+
+[RRepo](mattrberry)csgoSkinStatistics
+(mattrberry)csgoSkinStatistics/skinstats.py:30: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(mattrberry)csgoSkinStatistics/skinstats.py:31: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(mattrberry)csgoSkinStatistics/skinstats.py:35: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(mattrberry)csgoSkinStatistics/skinstats.py:36: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(mattrberry)csgoSkinStatistics/skinstats.py:37: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](cclauss)Ten-lines-or-less
+Success: no issues found in 27 source files
+
+[RRepo](jmcs)ecological
+
+[RRepo](dainst)gazetteer
+
+[RRepo](mirumee)django-prices-openexchangerates
+Success: no issues found in 3 source files
+
+[RRepo](lnmds)jose
+(lnmds)jose/ext/common.py:165: error: Function "builtins.any" is not valid as a type  [valid-type]
+(lnmds)jose/ext/common.py:165: note: Perhaps you need "Callable[...]" or a callback protocol?
+(lnmds)jose/jose.py:195: error: Invalid type comment or annotation  [valid-type]
+Found 2 errors in 2 files (checked 1 source file)
+
+[RRepo](tchellomello)home-assistant
+
+[RRepo](loopspace)microbit
+
+[RRepo](evancasey)demeter
+
+[RRepo](DeflatedPickle)pkinter
+(DeflatedPickle)pkinter/pkinter_test.py:21: error: Module has no attribute "Toolbar"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:35: error: Module has no attribute "Statusbar"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:57: error: Module has no attribute "ToggledLabelFrame"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:65: error: Module has no attribute "LabeledSeparator"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:70: error: Module has no attribute "RoundingScale"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:75: error: Module has no attribute "EntryText"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:80: error: Module has no attribute "LimitedEntry"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:85: error: Module has no attribute "ColourPickerButton"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:90: error: Module has no attribute "EditableLabel"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:95: error: Module has no attribute "CollapsiblePane"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:103: error: Module has no attribute "Hyperlink"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:108: error: Module has no attribute "PageView"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:129: error: Module has no attribute "BoundButton"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:134: error: Module has no attribute "ValidEntry"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:139: error: Module has no attribute "ChoiceBook"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:156: error: Module has no attribute "PasswordEntry"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:161: error: Module has no attribute "InvalidEntry"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:166: error: Module has no attribute "ListBook"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:183: error: Module has no attribute "AccelLabel"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:188: error: Module has no attribute "InfoBar"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:193: error: Module has no attribute "LockButton"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:198: error: Module has no attribute "ToggleButton"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:203: error: Module has no attribute "ScaleSwitch"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:208: error: Module has no attribute "ButtonSwitch"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:213: error: Module has no attribute "FilePicker"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:218: error: Module has no attribute "DirectoryPicker"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:223: error: Module has no attribute "center_on_screen"  [attr-defined]
+(DeflatedPickle)pkinter/pkinter_test.py:228: error: Module has no attribute "center_on_parent"  [attr-defined]
+Found 28 errors in 1 file (checked 1 source file)
+
+[RRepo](naturalness)sensibility
+Success: no issues found in 1 source file
+
+[RRepo](benmoran56)esper
+(benmoran56)esper/esper.py:63: error: "Processor" has no attribute "priority"  [attr-defined]
+(benmoran56)esper/esper.py:64: error: Incompatible types in assignment (expression has type "World", variable has type "None")  [assignment]
+(benmoran56)esper/esper.py:78: error: Missing return statement  [return]
+(benmoran56)esper/esper.py:248: error: Incompatible types in "yield" (actual type "Tuple[Any, List[Any]]", expected type "Tuple[int, ...]")  [misc]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](automl)RoBO
+
+[RRepo](damoti)shipmaster
+
+[RRepo](wagtail)wagtail
+Success: no issues found in 2 source files
+
+[RRepo](crate)crate-admin
+(crate)crate-admin/setup.py:39: error: Name 'Path' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](kevinkahn)softconsole
+(kevinkahn)softconsole/status.py:12: error: Need type annotation for 'nodetable' (hint: "nodetable: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/status.py:15: error: Need type annotation for 'nodes'  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:7: error: Need type annotation for 'DimIdleList' (hint: "DimIdleList: List[<type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:8: error: Need type annotation for 'DimIdleTimes' (hint: "DimIdleTimes: List[<type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:9: error: Need type annotation for 'MainDict' (hint: "MainDict: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:10: error: Need type annotation for 'SecondaryDict' (hint: "SecondaryDict: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:11: error: Need type annotation for 'ExtraDict' (hint: "ExtraDict: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:12: error: Need type annotation for 'ExtraChain' (hint: "ExtraChain: List[<type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screens/__screens.py:18: error: Need type annotation for 'screentypes' (hint: "screentypes: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/historybuffer.py:17: error: Need type annotation for 'Buffers' (hint: "Buffers: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/controlevents.py:16: error: Need type annotation for 'ConsoleOpsQueue'  [var-annotated]
+(kevinkahn)softconsole/timers.py:12: error: Need type annotation for 'TimerList' (hint: "TimerList: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/stores/valuestore.py:9: error: Need type annotation for 'ValueStores'  [var-annotated]
+(kevinkahn)softconsole/utilities.py:17: error: Need type annotation for 'globdoc' (hint: "globdoc: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/utilities.py:18: error: Need type annotation for 'moddoc' (hint: "moddoc: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/utilities.py:19: error: Need type annotation for 'paramlog' (hint: "paramlog: List[<type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/utilities.py:57: error: Need type annotation for 'clslst' (hint: "clslst: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/screen.py:53: error: Need type annotation for 'screenparamuse' (hint: "screenparamuse: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/configobjects.py:15: error: Need type annotation for 'GoToTargetList' (hint: "GoToTargetList: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/alerttasks.py:20: error: Need type annotation for 'alertprocs' (hint: "alertprocs: Dict[<type>, <type>] = ...")  [var-annotated]
+(kevinkahn)softconsole/debug.py:52: error: Need type annotation for 'DebugFlagKeys' (hint: "DebugFlagKeys: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 21 errors in 11 files (checked 29 source files)
+
+[RRepo](muddyfish)PYKE
+(muddyfish)PYKE/type/type_time.py:177: error: "Type[TypeTime]" has no attribute "default_time"  [attr-defined]
+(muddyfish)PYKE/nodes.py:15: error: Need type annotation for 'nodes' (hint: "nodes: Dict[<type>, <type>] = ...")  [var-annotated]
+(muddyfish)PYKE/lang_ast.py:11: error: Module has no attribute "sys"  [attr-defined]
+(muddyfish)PYKE/lang_ast.py:47: error: Name 'run' already defined on line 16  [no-redef]
+(muddyfish)PYKE/lang_ast.py:131: error: Cannot infer type of lambda  [misc]
+(muddyfish)PYKE/lang_ast.py:131: error: Argument 2 to "signal" has incompatible type "Callable[[], None]"; expected "Union[Callable[[Signals, FrameType], None], int, Handlers, None]"  [arg-type]
+(muddyfish)PYKE/lang_ast.py:133: error: Cannot infer type of lambda  [misc]
+(muddyfish)PYKE/lang_ast.py:133: error: Argument 2 to "signal" has incompatible type "Callable[[], None]"; expected "Union[Callable[[Signals, FrameType], None], int, Handlers, None]"  [arg-type]
+(muddyfish)PYKE/node/create_list.py:10: error: Incompatible types in assignment (expression has type "int", base class "Node" defined the type as "None")  [assignment]
+(muddyfish)PYKE/node/create_list.py:11: error: Need type annotation for 'contents' (hint: "contents: List[<type>] = ...")  [var-annotated]
+(muddyfish)PYKE/node/create_list.py:13: error: Variable "nodes.Node.NumericLiteral" is not valid as a type  [valid-type]
+(muddyfish)PYKE/main.py:47: error: Unsupported dynamic base class "type"  [misc]
+(muddyfish)PYKE/main.py:137: error: Too few arguments for "run"  [call-arg]
+(muddyfish)PYKE/main.py:137: error: "run" does not return a value  [func-returns-value]
+(muddyfish)PYKE/main.py:140: error: Name 'stack' is not defined  [name-defined]
+(muddyfish)PYKE/explainer.py:13: error: Argument 1 to "count" of "str" has incompatible type "bytes"; expected "str"  [arg-type]
+(muddyfish)PYKE/web.py:41: error: Module has no attribute "sys"  [attr-defined]
+Found 17 errors in 7 files (checked 7 source files)
+
+[RRepo](Jokiva)Computational-Physics
+
+[RRepo](hail-is)hail
+
+[RRepo](the-c0d3r)admin-finder
+(the-c0d3r)admin-finder/lib/connection.py:21: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(the-c0d3r)admin-finder/lib/connection.py:21: note: Did you mean "List[...]"?
+(the-c0d3r)admin-finder/lib/connection.py:62: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(the-c0d3r)admin-finder/lib/connection.py:62: note: Did you mean "List[...]"?
+(the-c0d3r)admin-finder/lib/connection.py:71: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(the-c0d3r)admin-finder/lib/connection.py:71: note: Did you mean "List[...]"?
+(the-c0d3r)admin-finder/lib/connection.py:105: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Dict[Any, Any]")  [assignment]
+(the-c0d3r)admin-finder/lib/worker.py:10: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(the-c0d3r)admin-finder/lib/worker.py:10: note: Did you mean "List[...]"?
+Found 5 errors in 2 files (checked 1 source file)
+
+[RRepo](nismod)smif
+Success: no issues found in 1 source file
+
+[RRepo](lkorigin)laniakea
+Success: no issues found in 1 source file
+
+[RRepo](CenterForOpenScience)modular-file-renderer
+(CenterForOpenScience)modular-file-renderer/mfr/core/remote_logging.py:7: error: Module 'mfr.server' has no attribute 'settings'  [attr-defined]
+(CenterForOpenScience)modular-file-renderer/mfr/server/handlers/core.py:16: error: Module 'mfr.server' has no attribute 'settings'  [attr-defined]
+(CenterForOpenScience)modular-file-renderer/mfr/server/handlers/render.py:8: error: Module 'mfr.server' has no attribute 'settings'  [attr-defined]
+(CenterForOpenScience)modular-file-renderer/mfr/server/handlers/export.py:9: error: Module 'mfr.server' has no attribute 'settings'  [attr-defined]
+(CenterForOpenScience)modular-file-renderer/mfr/server/app.py:13: error: Module 'mfr.server' has no attribute 'settings'  [attr-defined]
+Found 5 errors in 5 files (checked 1 source file)
+
+[RRepo](ChristianKuehnel)plantgateway
+(ChristianKuehnel)plantgateway/setup.py:12: error: Module 'plantgw' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](mirceamironenco)GANs
+Success: no issues found in 1 source file
+
+[RRepo](MobSF)Mobile-Security-Framework-MobSF
+

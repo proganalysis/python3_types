@@ -1,0 +1,715 @@
+[RRepo](guardian)alerta
+Success: no issues found in 1 source file
+
+[RRepo](michaeljoseph)changes
+(michaeljoseph)changes/changes/models/__init__.py:102: error: Argument 1 to "RawConfigParser" has incompatible type "str"; expected "Optional[Mapping[str, str]]"  [arg-type]
+(michaeljoseph)changes/changes/models/repository.py:189: error: Name 'description' already defined on line 183  [no-redef]
+(michaeljoseph)changes/changes/models/repository.py:193: error: Name 'author' already defined on line 184  [no-redef]
+(michaeljoseph)changes/changes/probe.py:8: error: Module 'changes' has no attribute 'exceptions'  [attr-defined]
+Found 4 errors in 3 files (checked 22 source files)
+
+[RRepo](HoldYourBreath)Library
+
+[RRepo](gaborvecsei)Color-Tracker
+
+[RRepo](chongkong)rocat
+
+[RRepo](juancarlospaco)anglerfish
+(juancarlospaco)anglerfish/anglerfish/json2xml.py:13: error: Need type annotation for 'result_deque'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/string2stealth.py:16: error: Incompatible types in assignment (expression has type "object", variable has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/stealth2string.py:24: error: Argument 1 to "decode" has incompatible type "str"; expected "bytes"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_watch.py:12: error: Missing return statement  [return]
+(juancarlospaco)anglerfish/anglerfish/make_watch.py:18: error: "object" has no attribute "debug"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_watch.py:18: error: "print" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/make_watch.py:33: error: "object" has no attribute "debug"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_watch.py:33: error: "print" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:28: error: Missing return statement  [return]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:30: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:31: error: "str" has no attribute "suffixes"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:32: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:33: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:33: error: "str" has no attribute "is_file"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:34: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:35: error: Incompatible return value type (got "bool", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:36: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:37: error: Incompatible return value type (got "bool", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:38: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:40: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:41: error: "str" has no attribute "rename"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:42: error: Incompatible return value type (got "str", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:43: error: "str" has no attribute "is_file"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:45: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:46: error: "str" has no attribute "rename"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_autochecksum.py:47: error: Incompatible return value type (got "str", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:25: error: Incompatible return type for "__new__" (returns "object", but must return a subtype of "AutoSlots_meta")  [misc]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:26: error: Need type annotation for 'original_slots' (hint: "original_slots: List[<type>] = ...")  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:31: error: No overload variant of "__new__" of "type" matches argument types "Type[AutoSlots_meta]", "str", "List[Any]", "Dict[Any, Any]"  [call-overload]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:31: note: Possible overload variant:
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:31: note:     def __new__(cls, cls: Type[type], name: str, bases: Tuple[type, ...], namespace: Dict[str, Any]) -> type
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:31: note:     <1 more non-matching overload not shown>
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:41: error: "expr" has no attribute "attr"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:55: error: No overload variant of "__new__" of "type" matches argument types "Type[AutoSlots_meta]", "str", "List[Any]", "Dict[Any, Any]"  [call-overload]
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:55: note: Possible overload variant:
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:55: note:     def __new__(cls, cls: Type[type], name: str, bases: Tuple[type, ...], namespace: Dict[str, Any]) -> type
+(juancarlospaco)anglerfish/anglerfish/autoslots_meta.py:55: note:     <1 more non-matching overload not shown>
+(juancarlospaco)anglerfish/anglerfish/walk2list.py:15: error: Incompatible import of "dumps" (imported name has type "Callable[[Any, bool, bool, bool, bool, Optional[Type[JSONEncoder]], Union[None, int, str], Optional[Tuple[str, str]], Optional[Callable[[Any], Any]], bool, KwArg(Any)], str]", local name has type "Callable[[Any, bool, int, bool, bool, bool, int], str]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/walk2list.py:20: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/walk2list.py:20: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/walk2list.py:32: error: Argument "onerror" to "walk" has incompatible type "Optional[object]"; expected "Optional[Callable[[OSError], Any]]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/walk2list.py:40: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:17: error: Incompatible import of "dumps" (imported name has type "Callable[[Any, bool, bool, bool, bool, Optional[Type[JSONEncoder]], Union[None, int, str], Optional[Tuple[str, str]], Optional[Callable[[Any], Any]], bool, KwArg(Any)], str]", local name has type "Callable[[Any, bool, int, bool, bool, bool, int], str]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:22: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:22: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:32: error: Argument "onerror" to "walk" has incompatible type "Optional[object]"; expected "Optional[Callable[[OSError], Any]]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:50: error: Incompatible types in assignment (expression has type "List[str]", target has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:51: error: Incompatible types in assignment (expression has type "List[<nothing>]", target has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:58: error: 'os.stat_result' object is not iterable  [misc]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:60: error: Cannot determine type of 'mode'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:61: error: Cannot determine type of 'ino'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:62: error: Cannot determine type of 'dev'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:63: error: Cannot determine type of 'nlink'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:64: error: Cannot determine type of 'uid'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:65: error: Cannot determine type of 'gid'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:66: error: Cannot determine type of 'size'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:67: error: Cannot determine type of 'atime'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:68: error: Cannot determine type of 'mtime'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:69: error: Cannot determine type of 'ctime'  [has-type]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:70: error: "str" has no attribute "append"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/walk2dict.py:76: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/set_single_instance.py:23: error: Incompatible types in assignment (expression has type "None", variable has type "socket")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/set_display_off.py:14: error: Missing return statement  [return]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:15: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:15: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:33: error: "chmod" of "Path" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:33: error: "debug" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:42: error: "chmod" of "Path" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:42: error: "debug" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:44: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/set_desktop_launcher.py:44: error: Argument 1 to "tuple" has incompatible type "Path"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:19: error: Incompatible import of "dumps" (imported name has type "Callable[[Any, bool, bool, bool, bool, Optional[Type[JSONEncoder]], Union[None, int, str], Optional[Tuple[str, str]], Optional[Callable[[Any], Any]], bool, KwArg(Any)], str]", local name has type "Callable[[Any, bool, int, bool, bool, bool, int], str]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:22: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:22: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:36: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:41: error: Argument 1 to "tuple" has incompatible type "int"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:46: error: Need type annotation for 'time_parts'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:106: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:113: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:113: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:118: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:118: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:120: error: Argument 1 to "timestamp2human" has incompatible type "float"; expected "int"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:123: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:123: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/seconds2human.py:126: error: Argument 1 to "timestamp2human" has incompatible type "float"; expected "int"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:22: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:23: error: "str" has no attribute "is_file"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:26: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:27: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:29: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:32: error: "str" has no attribute "stem"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:40: error: "str" has no attribute "as_posix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:44: error: Item "None" of "Optional[_Loader]" has no attribute "load_module"  [union-attr]
+(juancarlospaco)anglerfish/anglerfish/path2import.py:44: error: Too few arguments for "load_module" of "_Loader"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/make_template_python.py:28: error: "str" has no attribute "read"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_template_python.py:32: error: Need type annotation for 'tokens'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/make_template_python.py:48: error: Need type annotation for 'html'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/make_notification.py:42: error: Argument 1 to "run" has incompatible type "Tuple[Optional[str], str, str, str, str]"; expected "Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_notification.py:45: error: Incompatible types in assignment (expression has type "Tuple[Optional[str], str, str, str, str, str, str, str]", variable has type "Tuple[Optional[str], str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_notification.py:49: error: Argument 1 to "run" has incompatible type "Tuple[Optional[str], str, str, str, str]"; expected "Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_notification.py:52: error: Incompatible types in assignment (expression has type "Tuple[Optional[str], str, str, str, str, str]", variable has type "Tuple[Optional[str], str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_notification.py:56: error: Argument 1 to "run" has incompatible type "Tuple[Optional[str], str, str, str, str]"; expected "Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_log_exception.py:26: error: Item "None" of "Optional[TracebackType]" has no attribute "tb_next"  [union-attr]
+(juancarlospaco)anglerfish/anglerfish/make_log_exception.py:28: error: Item "None" of "Optional[TracebackType]" has no attribute "tb_next"  [union-attr]
+(juancarlospaco)anglerfish/anglerfish/make_log_exception.py:30: error: Item "None" of "Optional[TracebackType]" has no attribute "tb_frame"  [union-attr]
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:15: error: Incompatible import of "dumps" (imported name has type "Callable[[Any, bool, bool, bool, bool, Optional[Type[JSONEncoder]], Union[None, int, str], Optional[Tuple[str, str]], Optional[Callable[[Any], Any]], bool, KwArg(Any)], str]", local name has type "Callable[[Any, bool, int, bool, bool, bool, int], str]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:18: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:18: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:24: error: namedtuple? has no attribute "keys"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:25: error: Value of type namedtuple? is not indexable  [index]
+(juancarlospaco)anglerfish/anglerfish/make_json_flat.py:29: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/make_beep.py:30: error: Need type annotation for 'wavedeque'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:192: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:192: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:194: error: Argument 2 to "unpack" has incompatible type "str"; expected "Union[array[int], bytes, bytearray, memoryview, mmap]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:197: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:197: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:217: error: Incompatible types in assignment (expression has type Tuple[str, str, ... <27 more items>], variable has type Tuple[str, str, ... <30 more items>])  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:219: error: Incompatible types in assignment (expression has type Tuple[str, str, ... <59 more items>], variable has type Tuple[str, str, ... <30 more items>])  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:222: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:227: error: namedtuple? has no attribute "red"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:227: error: namedtuple? has no attribute "green"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:227: error: namedtuple? has no attribute "blue"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:228: error: namedtuple? has no attribute "red"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:228: error: namedtuple? has no attribute "green"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:228: error: namedtuple? has no attribute "blue"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:229: error: namedtuple? has no attribute "red"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:229: error: namedtuple? has no attribute "green"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:229: error: namedtuple? has no attribute "blue"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:231: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:231: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[float, float, float]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:232: error: Argument 1 to "tuple" has incompatible type "float"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:233: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:233: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[float, float, float]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:234: error: Argument 1 to "tuple" has incompatible type "float"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:235: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:235: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[float, float, float]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:236: error: Argument 1 to "tuple" has incompatible type "float"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:239: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:241: error: namedtuple? has no attribute "red"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:241: error: namedtuple? has no attribute "green"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:241: error: namedtuple? has no attribute "blue"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:242: error: namedtuple? has no attribute "red"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:242: error: namedtuple? has no attribute "green"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_pastel_color.py:242: error: namedtuple? has no attribute "blue"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:29: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:41: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:65: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type <tuple: 101 items>)  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:87: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type <tuple: 92 items>)  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:107: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type <tuple: 80 items>)  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_random_font.py:117: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/get_free_port.py:14: error: Missing return statement  [return]
+(juancarlospaco)anglerfish/anglerfish/get_clipboard.py:90: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/get_clipboard.py:90: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/get_clipboard.py:95: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/extended_json.py:48: error: Incompatible return value type (got "float", expected "str")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/extended_json.py:83: error: "dumps" gets multiple values for keyword argument "indent"  [misc]
+(juancarlospaco)anglerfish/anglerfish/extended_json.py:83: error: "dumps" gets multiple values for keyword argument "separators"  [misc]
+(juancarlospaco)anglerfish/anglerfish/extended_json.py:83: error: "dumps" gets multiple values for keyword argument "default"  [misc]
+(juancarlospaco)anglerfish/anglerfish/extended_json.py:83: error: "dumps" gets multiple values for keyword argument "sort_keys"  [misc]
+(juancarlospaco)anglerfish/anglerfish/check_encoding.py:23: error: Module has no attribute "getfilesystemencodeerrors"; maybe "getfilesystemencoding"?  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:15: error: Incompatible import of "dumps" (imported name has type "Callable[[Any, bool, bool, bool, bool, Optional[Type[JSONEncoder]], Union[None, int, str], Optional[Tuple[str, str]], Optional[Callable[[Any], Any]], bool, KwArg(Any)], str]", local name has type "Callable[[Any, bool, int, bool, bool, bool, int], str]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:18: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:18: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:31: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:34: error: Argument 1 to "tuple" has incompatible type "int"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:37: error: Need type annotation for 'bytes_parts'  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/bytes2human.py:88: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/make_postexec_message.py:21: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_multiprocess.py:36: error: Value of type "int" is not indexable  [index]
+(juancarlospaco)anglerfish/anglerfish/make_multiprocess.py:38: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_multiprocess.py:85: error: Incompatible return value type (got "List[List[float]]", expected "int")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_multiprocess.py:92: error: Incompatible return value type (got "List[Any]", expected "__MultiProcessed")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_multiprocess.py:92: error: Argument 3 to "_multi_cpu" of "__MultiProcessed" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_chainable_future.py:52: error: "ChainableFuture" has no attribute "set_exception_info"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_chainable_future.py:85: error: "ChainableFuture" has no attribute "set_exception_info"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_chainable_future.py:97: error: "ChainableFuture" has no attribute "set_exception_info"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:44: error: Argument "data" to "urlopen" has incompatible type "Dict[Any, Any]"; expected "Optional[bytes]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:44: error: Argument "context" to "urlopen" has incompatible type "object"; expected "Optional[SSLContext]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:63: error: Argument "data" to "urlopen" has incompatible type "Dict[Any, Any]"; expected "Optional[bytes]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:63: error: Argument "context" to "urlopen" has incompatible type "object"; expected "Optional[SSLContext]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:76: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:78: error: Argument "data" to "urlopen" has incompatible type "Dict[Any, Any]"; expected "Optional[bytes]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:78: error: Argument "context" to "urlopen" has incompatible type "object"; expected "Optional[SSLContext]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:105: error: Incompatible return value type (got "str", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:106: error: Need type annotation for 'dataDict' (hint: "dataDict: Dict[<type>, <type>] = ...")  [var-annotated]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:112: error: namedtuple? has no attribute "human"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:113: error: Argument "data" to "_get_size" has incompatible type "Optional[Dict[Any, Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:113: error: Argument "timeout" to "_get_size" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:118: error: Argument "data" to "_download_simple" has incompatible type "Optional[Dict[Any, Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:119: error: Argument "timeout" to "_download_simple" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:122: error: Incompatible types in assignment (expression has type "Path", variable has type "Optional[str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:141: error: Incompatible types in assignment (expression has type "Path", variable has type "Optional[str]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:151: error: namedtuple? has no attribute "human"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:152: error: namedtuple? has no attribute "human"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:153: error: namedtuple? has no attribute "human"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:154: error: namedtuple? has no attribute "human"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:157: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:157: error: Incompatible return value type (got "Tuple[Any, ...]", expected "Path")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/url2path.py:163: error: Argument 1 to "tuple" has incompatible type "Path"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_tinyslation.py:15: error: Incompatible import of "loads" (imported name has type "Callable[[Union[str, bytes, bytearray], Any, Optional[Type[JSONDecoder]], Optional[Callable[[Dict[Any, Any]], Any]], Optional[Callable[[str], Any]], Optional[Callable[[str], Any]], Optional[Callable[[str], Any]], Optional[Callable[[List[Tuple[Any, Any]]], Any]], KwArg(Any)], Any]", local name has type "Callable[[AnyStr, bool], Any]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/make_tinyslation.py:18: error: Value of type "Optional[str]" is not indexable  [index]
+(juancarlospaco)anglerfish/anglerfish/make_tinyslation.py:26: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:37: error: Incompatible default for argument "cwebp" (default has type "Optional[str]", argument has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:41: error: Incompatible return value type (got "Path", expected "str")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:46: error: Incompatible return value type (got "Path", expected "str")  [return-value]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:64: error: Argument 1 to "urlsafe_b64encode" has incompatible type "str"; expected "bytes"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:74: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:75: error: "str" has no attribute "suffix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:77: error: Argument 1 to "make" of "DataURI" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:77: error: "str" has no attribute "suffix"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:78: error: "str" has no attribute "read_bytes"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:87: error: Incompatible return type for "__new__" (returns "str", but must return a subtype of "DataURI")  [misc]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:89: error: Too many arguments for "__new__" of "object"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:104: error: namedtuple? has no attribute "mimetype"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:114: error: namedtuple? has no attribute "is_base64"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:119: error: namedtuple? has no attribute "data"  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:122: error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:122: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:131: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:132: error: Too many arguments for "tuple"  [call-arg]
+(juancarlospaco)anglerfish/anglerfish/make_datauri.py:133: error: Argument 1 to "tuple" has incompatible type "Optional[str]"; expected "Iterable[Any]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/get_public_ip.py:12: error: Function "ipaddress.ip_address" is not valid as a type  [valid-type]
+(juancarlospaco)anglerfish/anglerfish/get_public_ip.py:12: note: Perhaps you need "Callable[...]" or a callback protocol?
+(juancarlospaco)anglerfish/anglerfish/check_folder.py:17: error: Incompatible import of "bytes2human" (imported name has type Module, local name has type "Callable[[int], namedtuple?]")  [misc]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:28: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:51: error: Module 'anglerfish.get_random_pastel_color' has no attribute 'get_random_pasteldark_color'; maybe "get_random_pastel_color"?  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:51: error: Module 'anglerfish.get_random_pastel_color' has no attribute 'get_random_pastelight_color'; maybe "get_random_pastel_color"?  [attr-defined]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:206: error: Incompatible types in assignment (expression has type "Type[_ZipRotator]", variable has type "Optional[Callable[[str, str], None]]")  [assignment]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:217: error: "enable" does not return a value  [func-returns-value]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:217: error: Argument 1 to "enable" has incompatible type "object"; expected "Union[_HasFileno, int]"  [arg-type]
+(juancarlospaco)anglerfish/anglerfish/__init__.py:220: error: Missing return statement  [return]
+Found 213 errors in 34 files (checked 45 source files)
+
+[RRepo](martin-ejdestig)rayni-staging
+
+[RRepo](usc-isi-i2)etk
+
+[RRepo](vmagamedov)asyncgrpc
+
+[RRepo](lk-geimfari)elizabeth
+
+[RRepo](Simon-Tang)py_dream_cheeky
+(Simon-Tang)py_dream_cheeky/py_dream_cheeky/__init__.py:21: error: Need type annotation for 'event_queue'  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](IfcOpenShell)IfcOpenShell
+
+[RRepo](tmercswims)tmerc-cogs
+(tmercswims)tmerc-cogs/streamrole/streamrole.py:13: error: Unsupported dynamic base class "getattr"  [misc]
+(tmercswims)tmerc-cogs/massdm/massdm.py:11: error: Unsupported dynamic base class "getattr"  [misc]
+(tmercswims)tmerc-cogs/nestedcommands/nestedcommands.py:19: error: Unsupported dynamic base class "getattr"  [misc]
+(tmercswims)tmerc-cogs/randimals/randimals.py:15: error: Unsupported dynamic base class "getattr"  [misc]
+(tmercswims)tmerc-cogs/lenny/lenny.py:33: error: Unsupported dynamic base class "getattr"  [misc]
+(tmercswims)tmerc-cogs/catfact/catfact.py:11: error: Unsupported dynamic base class "getattr"  [misc]
+Found 6 errors in 6 files (checked 14 source files)
+
+[RRepo](isogeo)isogeo-plugin-qgis
+
+[RRepo](eightnoteight)aschedule
+
+[RRepo](jreese)aiosqlite
+
+[RRepo](samuelcolvin)grablib
+
+[RRepo](uthcode)learntosolveit
+
+[RRepo](benwebber)sqlite3-uuid
+
+[RRepo](timercrack)pydatacoll
+
+[RRepo](GehirnInc)python-jwt
+
+[RRepo](mfussenegger)cr8
+
+[RRepo](all3fox)algos-py
+
+[RRepo](BpArCuCTeMbI)VKMP
+(BpArCuCTeMbI)VKMP/main.py:9: error: Missing return statement  [return]
+(BpArCuCTeMbI)VKMP/main.py:9: error: Invalid type comment or annotation  [valid-type]
+(BpArCuCTeMbI)VKMP/main.py:78: error: Argument 1 to "remove" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(BpArCuCTeMbI)VKMP/main.py:119: error: Argument 1 to "remove" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(BpArCuCTeMbI)VKMP/main.py:135: error: Argument 1 to "remove" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(BpArCuCTeMbI)VKMP/main.py:171: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(BpArCuCTeMbI)VKMP/main.py:189: error: Argument 1 to "remove" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+Found 7 errors in 1 file (checked 1 source file)
+
+[RRepo](googleapis)gapic-generator-python
+Success: no issues found in 1 source file
+
+[RRepo](nesdis)djongo
+Success: no issues found in 1 source file
+
+[RRepo](purduesigbots)pros-cli
+
+[RRepo](nhumrich)small-prox
+
+[RRepo](thepoly)Pipeline
+
+[RRepo](JasonMWhite)gitlawca-runner
+
+[RRepo](SirCmpwn)pass-rotate
+Success: no issues found in 3 source files
+
+[RRepo](SunDwarf)ButterflyNet
+Success: no issues found in 1 source file
+
+[RRepo](jotyGill)openpyn-nordvpn
+
+[RRepo](derfenix)django_stored_procedures
+(derfenix)django_stored_procedures/django_sp/loader.py:26: error: Need type annotation for '_sp_list' (hint: "_sp_list: List[<type>] = ...")  [var-annotated]
+(derfenix)django_stored_procedures/django_sp/loader.py:91: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Tuple[Any, ...]")  [assignment]
+(derfenix)django_stored_procedures/django_sp/loader.py:102: error: Argument 2 to "_get_res" of "Loader" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(derfenix)django_stored_procedures/django_sp/loader.py:123: error: Argument 2 to "_get_res" of "Loader" has incompatible type "Optional[List[Any]]"; expected "List[Any]"  [arg-type]
+(derfenix)django_stored_procedures/django_sp/loader.py:139: error: Incompatible types in assignment (expression has type "List[Optional[Dict[Any, Any]]]", variable has type "Optional[Dict[Any, Any]]")  [assignment]
+(derfenix)django_stored_procedures/django_sp/loader.py:141: error: Incompatible types in assignment (expression has type "List[Optional[Dict[Any, Any]]]", variable has type "Optional[Dict[Any, Any]]")  [assignment]
+(derfenix)django_stored_procedures/django_sp/loader.py:146: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Optional[Dict[Any, Any]]")  [assignment]
+(derfenix)django_stored_procedures/django_sp/loader.py:148: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Optional[Dict[Any, Any]]")  [assignment]
+(derfenix)django_stored_procedures/django_sp/loader.py:152: error: Incompatible return value type (got "Optional[Dict[Any, Any]]", expected "Union[List[Any], Dict[Any, Any], Cursor]")  [return-value]
+(derfenix)django_stored_procedures/django_sp/loader.py:156: error: "Cursor" has no attribute "description"  [attr-defined]
+(derfenix)django_stored_procedures/django_sp/loader.py:166: error: "None" has no attribute "keys"  [attr-defined]
+(derfenix)django_stored_procedures/django_sp/loader.py:169: error: Value of type "None" is not indexable  [index]
+(derfenix)django_stored_procedures/django_sp/loader.py:174: error: Unsupported right operand type for in ("None")  [operator]
+(derfenix)django_stored_procedures/django_sp/loader.py:180: error: Argument 1 to "len" has incompatible type "None"; expected "Sized"  [arg-type]
+(derfenix)django_stored_procedures/django_sp/loader.py:183: error: Unsupported right operand type for in ("None")  [operator]
+(derfenix)django_stored_procedures/django_sp/loader.py:186: error: "None" has no attribute "keys"  [attr-defined]
+Found 16 errors in 1 file (checked 2 source files)
+
+[RRepo](valhallasw)gerrit-reviewer-bot
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:36: error: Incompatible types in "yield" (actual type "bytes", expected type "str")  [misc]
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:43: error: Incompatible types in assignment (expression has type "Message", variable has type "bytes")  [assignment]
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:49: error: "bytes" has no attribute "get_payload"  [attr-defined]
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:50: error: "bytes" has no attribute "get_payload"  [attr-defined]
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:52: error: Incompatible types in "yield" (actual type "Tuple[bytes, Any]", expected type "Tuple[Message, str]")  [misc]
+(valhallasw)gerrit-reviewer-bot/pop3bot.py:52: error: "bytes" has no attribute "get_payload"  [attr-defined]
+Found 6 errors in 1 file (checked 3 source files)
+
+[RRepo](nion-software)nionswift
+
+[RRepo](Azure)azure-webjobs-sdk-templates
+
+[RRepo](canihavesomecoffee)sample-platform
+(canihavesomecoffee)sample-platform/mod_test/nicediff/diff.py:4: error: Need type annotation for 'index' (hint: "index: Dict[<type>, <type>] = ...")  [var-annotated]
+(canihavesomecoffee)sample-platform/database.py:97: error: Need type annotation for '_reg' (hint: "_reg: Dict[<type>, <type>] = ...")  [var-annotated]
+(canihavesomecoffee)sample-platform/mod_sample/models.py:95: error: Too many arguments  [misc]
+(canihavesomecoffee)sample-platform/run.py:27: error: Cannot assign to a method  [assignment]
+(canihavesomecoffee)sample-platform/run.py:204: error: Incompatible types in assignment (expression has type "Tuple[Any, Any]", variable has type "Optional[str]")  [assignment]
+Found 5 errors in 4 files (checked 6 source files)
+
+[RRepo](NicolasLM)spinach
+
+[RRepo](ci-group)revolve
+(ci-group)revolve/pyrevolve/revolve_bot/render/canvas.py:16: error: Need type annotation for 'movement_stack' (hint: "movement_stack: List[<type>] = ...")  [var-annotated]
+(ci-group)revolve/pyrevolve/revolve_bot/render/canvas.py:19: error: Need type annotation for 'sensors' (hint: "sensors: List[<type>] = ...")  [var-annotated]
+(ci-group)revolve/pyrevolve/tol/manage/measures.py:3: error: Module 'pyrevolve.SDF.math' has no attribute 'Vector3'  [attr-defined]
+(ci-group)revolve/pyrevolve/tol/manage/measures.py:4: error: Module 'pyrevolve.util' has no attribute 'Time'  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/revolve_bot_sdf_builder.py:109: error: Module has no attribute "Quaternion"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/revolve_bot_sdf_builder.py:160: error: Argument 2 to "_sdf_attach_module" has incompatible type "None"; expected "float"  [arg-type]
+(ci-group)revolve/pyrevolve/SDF/sensor.py:38: error: Incompatible types in assignment (expression has type "str", base class "Sensor" defined the type as "None")  [assignment]
+(ci-group)revolve/pyrevolve/SDF/sensor.py:50: error: Incompatible types in assignment (expression has type "str", base class "Sensor" defined the type as "None")  [assignment]
+(ci-group)revolve/pyrevolve/SDF/sensor.py:93: error: Incompatible types in assignment (expression has type "str", base class "Sensor" defined the type as "None")  [assignment]
+(ci-group)revolve/pyrevolve/SDF/joint.py:13: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/joint.py:72: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/joint.py:85: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:10: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:10: error: Name 'SDF.math.Quaternion' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:12: error: Module has no attribute "Vector3"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:13: error: Module has no attribute "Quaternion"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:55: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:58: error: Name 'SDF.math.Quaternion' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:61: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:64: error: Name 'SDF.math.Quaternion' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:67: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:79: error: Module has no attribute "Quaternion"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:104: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:114: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:125: error: Name 'SDF.math.Vector3' is not defined  [name-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:220: error: Module has no attribute "RotationMatrix"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/pose.py:221: error: Module has no attribute "RotationMatrix"  [attr-defined]
+(ci-group)revolve/pyrevolve/SDF/link.py:21: error: Need type annotation for 'collisions' (hint: "collisions: List[<type>] = ...")  [var-annotated]
+(ci-group)revolve/pyrevolve/SDF/link.py:22: error: Need type annotation for 'joints' (hint: "joints: List[<type>] = ...")  [var-annotated]
+(ci-group)revolve/pyrevolve/revolve_bot/revolve_bot.py:13: error: Module 'pyrevolve.revolve_bot.brain' has no attribute 'Brain'  [attr-defined]
+(ci-group)revolve/pyrevolve/revolve_bot/revolve_bot.py:13: error: Module 'pyrevolve.revolve_bot.brain' has no attribute 'BrainNN'  [attr-defined]
+(ci-group)revolve/test_robots.py:3: error: Module 'pyrevolve' has no attribute 'parser'  [attr-defined]
+(ci-group)revolve/test_robots.py:5: error: Module 'pyrevolve.tol.manage' has no attribute 'World'  [attr-defined]
+(ci-group)revolve/pyrevolve/gazebo/analyze.py:2: error: Module 'pyrevolve.SDF.math' has no attribute 'Vector3'  [attr-defined]
+(ci-group)revolve/pyrevolve/gazebo/analyze.py:3: error: Module 'pyrevolve.spec' has no attribute 'BodyAnalysisResponse'  [attr-defined]
+(ci-group)revolve/experiments/examples/only_gazebo.py:5: error: Module 'pyrevolve' has no attribute 'parser'  [attr-defined]
+(ci-group)revolve/experiments/examples/only_gazebo.py:6: error: Module 'pyrevolve.tol.manage' has no attribute 'World'  [attr-defined]
+(ci-group)revolve/pyrevolve/data_analisys/visualize_robot.py:6: error: Module 'pyrevolve' has no attribute 'parser'  [attr-defined]
+(ci-group)revolve/pyrevolve/data_analisys/visualize_robot.py:9: error: Module 'pyrevolve.SDF.math' has no attribute 'Vector3'  [attr-defined]
+(ci-group)revolve/pyrevolve/data_analisys/visualize_robot.py:10: error: Module 'pyrevolve.tol.manage' has no attribute 'World'  [attr-defined]
+(ci-group)revolve/pyrevolve/data_analisys/check_robot_collision.py:8: error: Module 'pyrevolve' has no attribute 'parser'  [attr-defined]
+(ci-group)revolve/revolve.py:9: error: Module 'pyrevolve' has no attribute 'parser'  [attr-defined]
+Found 42 errors in 14 files (checked 2 source files)
+
+[RRepo](UltimatePancake)Pancake-Cogs
+
+[RRepo](azag0)fcompile
+
+[RRepo](doakey3)Subsimport
+
+[RRepo](EOSIO)eos
+
+[RRepo](night-crawler)django-docker-helpers
+Success: no issues found in 1 source file
+
+[RRepo](tuxxi)OpenBurn
+
+[RRepo](TotallyNotRobots)znc-modules
+
+[RRepo](ak110)pytoolkit
+(ak110)pytoolkit/pytoolkit/__init__.py:29: error: Name 'keras' already defined on line 26  [no-redef]
+(ak110)pytoolkit/pytoolkit/__init__.py:42: error: Module 'pytoolkit' has no attribute 'gbm'  [attr-defined]
+(ak110)pytoolkit/pytoolkit/__init__.py:45: error: Module 'pytoolkit' has no attribute 'image'; maybe "ndimage"?  [attr-defined]
+(ak110)pytoolkit/pytoolkit/__init__.py:46: error: Module 'pytoolkit' has no attribute 'layers'  [attr-defined]
+(ak110)pytoolkit/pytoolkit/__init__.py:51: error: Module 'pytoolkit' has no attribute 'models'  [attr-defined]
+(ak110)pytoolkit/pytoolkit/__init__.py:52: error: Module 'pytoolkit' has no attribute 'ndimage'; maybe "image"?  [attr-defined]
+(ak110)pytoolkit/pytoolkit/__init__.py:53: error: Module 'pytoolkit' has no attribute 'od'  [attr-defined]
+(ak110)pytoolkit/pytoolkit/training.py:13: error: Name 'keras.models.Model' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/training.py:169: error: Name 'keras.models.Model' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/training.py:238: error: Name 'keras.models.Model' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/optimizers.py:14: error: Name 'keras.optimizers.SGD' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/optimizers.py:93: error: Name 'keras.optimizers.Adam' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/data.py:161: error: Name 'keras.utils.Sequence' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:13: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:47: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:84: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:148: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:178: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:229: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:280: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+(ak110)pytoolkit/pytoolkit/callbacks.py:329: error: Name 'keras.callbacks.Callback' is not defined  [name-defined]
+Found 21 errors in 5 files (checked 24 source files)
+
+[RRepo](UW-Hydro)MetSim
+
+[RRepo](MasterKale)django-cra-helper
+
+[RRepo](crowdcomms)faker-e164
+Success: no issues found in 1 source file
+
+[RRepo](Kurbezz)flibusta_bot
+
+[RRepo](vatlab)SOS
+Success: no issues found in 1 source file
+
+[RRepo](wikimedia)labs-tools-wikibugs2
+Success: no issues found in 10 source files
+
+[RRepo](Djaler)ZloyBot
+(Djaler)ZloyBot/utils.py:45: error: Item "None" of "Optional[FrameType]" has no attribute "f_back"  [union-attr]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](skorokithakis)catt
+
+[RRepo](daveoncode)pyvaru
+(daveoncode)pyvaru/pyvaru/__init__.py:59: error: "object" not callable  [operator]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](duniter)duniter-python-api
+(duniter)duniter-python-api/setup.py:48: error: Module has no attribute "__version__"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](yunojuno)elasticsearch-django
+
+[RRepo](linheimx)Husky
+Success: no issues found in 1 source file
+
+[RRepo](chaosbot)Chaos
+(chaosbot)Chaos/github_api/__init__.py:10: error: Module 'github_api' has no attribute 'exceptions'  [attr-defined]
+(chaosbot)Chaos/patch.py:13: error: Module 'memoize' has no attribute 'memoize'  [attr-defined]
+Found 2 errors in 2 files (checked 20 source files)
+
+[RRepo](tripack45)GirlsFrontline-Assistant
+(tripack45)GirlsFrontline-Assistant/image.py:33: error: Name 'config' is not defined  [name-defined]
+(tripack45)GirlsFrontline-Assistant/image.py:98: error: Name 'config' is not defined  [name-defined]
+(tripack45)GirlsFrontline-Assistant/image.py:99: error: Name 'config' is not defined  [name-defined]
+(tripack45)GirlsFrontline-Assistant/image.py:103: error: Name 'config' is not defined  [name-defined]
+(tripack45)GirlsFrontline-Assistant/device.py:9: error: Module 'ctypes' has no attribute 'windll'  [attr-defined]
+(tripack45)GirlsFrontline-Assistant/resource/cache.py:3: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(tripack45)GirlsFrontline-Assistant/getBoxByGui.py:47: error: Name 'config' is not defined  [name-defined]
+Found 7 errors in 4 files (checked 6 source files)
+
+[RRepo](BridgeCityBicycleCoop)workstand
+
+[RRepo](concretecloud)chirp
+
+[RRepo](megapctr)Yak
+
+[RRepo](black-security)cyber-security-framework
+(black-security)cyber-security-framework/network/modules/socket.py:28: error: Incompatible types in assignment (expression has type "ParseResult", variable has type "str")  [assignment]
+(black-security)cyber-security-framework/network/modules/socket.py:29: error: "str" has no attribute "scheme"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:30: error: "str" has no attribute "hostname"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:31: error: "str" has no attribute "port"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:32: error: "str" has no attribute "username"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:33: error: "str" has no attribute "password"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:34: error: "str" has no attribute "scheme"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:39: error: Name 'socket' already defined (possibly by an import)  [no-redef]
+(black-security)cyber-security-framework/network/modules/socket.py:55: error: Too many arguments for "__init__" of "object"  [call-arg]
+(black-security)cyber-security-framework/network/modules/socket.py:73: error: Need type annotation for 'connections' (hint: "connections: Dict[<type>, <type>] = ...")  [var-annotated]
+(black-security)cyber-security-framework/network/modules/socket.py:167: error: "sniffer" has no attribute "ioctl"  [attr-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:167: error: Name 'SIO_RCVALL' is not defined  [name-defined]
+(black-security)cyber-security-framework/network/modules/socket.py:167: error: Name 'RCVALL_ON' is not defined  [name-defined]
+(black-security)cyber-security-framework/core/modules/console.py:20: error: Incompatible types in assignment (expression has type Module, variable has type "str")  [assignment]
+(black-security)cyber-security-framework/core/modules/console.py:24: error: Incompatible types in assignment (expression has type Module, variable has type "str")  [assignment]
+(black-security)cyber-security-framework/core/modules/console.py:25: error: Item "_Loader" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(black-security)cyber-security-framework/core/modules/console.py:25: error: Item "None" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(black-security)cyber-security-framework/core/modules/console.py:57: error: Value of type "Union[Tuple[Any, ...], List[Any], Set[Any]]" is not indexable  [index]
+(black-security)cyber-security-framework/core/modules/console.py:59: error: Module has no attribute "COLORS"  [attr-defined]
+(black-security)cyber-security-framework/core/modules/console.py:100: error: Item "Set[Any]" of "Union[List[Any], Tuple[Any, ...], Set[Any]]" has no attribute "index"  [union-attr]
+(black-security)cyber-security-framework/csf.py:15: error: Need type annotation for 'tree' (hint: "tree: Dict[<type>, <type>] = ...")  [var-annotated]
+(black-security)cyber-security-framework/csf.py:103: error: Cannot assign multiple types to name "csf" without an explicit "Type[...]" annotation  [misc]
+(black-security)cyber-security-framework/csf.py:103: error: Incompatible types in assignment (expression has type "CSF", variable has type "Type[CSF]")  [assignment]
+(black-security)cyber-security-framework/csf.py:104: error: Too few arguments for "run"  [call-arg]
+Found 24 errors in 3 files (checked 1 source file)
+
+[RRepo](guillemborrell)gtable
+Success: no issues found in 5 source files
+
+[RRepo](sdadas)warsaw-transport
+
+[RRepo](cbrichford)docker-ipsec
+
+[RRepo](TuSimple)mxnet
+
+[RRepo](sinnwerkstatt)landmatrix
+(sinnwerkstatt)landmatrix/public_comments/forms.py:12: error: Variable "public_comments.forms.ThreadedCommentForm" is not valid as a type  [valid-type]
+(sinnwerkstatt)landmatrix/public_comments/forms.py:12: error: Invalid base class "ThreadedCommentForm"  [misc]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](kmyk)online-judge-tools
+Success: no issues found in 1 source file
+
+[RRepo](sfu-fas)coursys
+Success: no issues found in 1 source file
+
+[RRepo](virtool)virtool
+
+[RRepo](opn-oss)autobahn-python-repl
+
+[RRepo](NLeSC)noodles
+
+[RRepo](johnbywater)eventsourcing
+
+[RRepo](Xaxetrov)OSCAR
+
+[RRepo](andmatand)midi-to-pico8
+(andmatand)midi-to-pico8/translator/note.py:2: error: Module 'translator' has no attribute 'MIDI_TO_PICO8_PITCH_SUBTRAHEND'  [attr-defined]
+(andmatand)midi-to-pico8/translator/sfxcompactor.py:4: error: Module 'translator' has no attribute 'PICO8_NUM_SFX'  [attr-defined]
+(andmatand)midi-to-pico8/translator/translator.py:9: error: Module 'translator' has no attribute 'PICO8_MIN_NOTE_DURATION'  [attr-defined]
+(andmatand)midi-to-pico8/translator/translator.py:10: error: Module 'translator' has no attribute 'PICO8_MAX_PITCH'  [attr-defined]
+(andmatand)midi-to-pico8/translator/translator.py:11: error: Module 'translator' has no attribute 'PICO8_NOTES_PER_SFX'  [attr-defined]
+(andmatand)midi-to-pico8/translator/translator.py:35: error: Item "None" of "Optional[TranslatorSettings]" has no attribute "ticksPerNoteOverride"  [union-attr]
+(andmatand)midi-to-pico8/translator/translator.py:37: error: Item "None" of "Optional[TranslatorSettings]" has no attribute "ticksPerNoteOverride"  [union-attr]
+(andmatand)midi-to-pico8/translator/translator.py:38: error: Item "None" of "Optional[TranslatorSettings]" has no attribute "ticksPerNoteOverride"  [union-attr]
+(andmatand)midi-to-pico8/translator/translator.py:378: error: Not all arguments converted during string formatting  [str-format]
+(andmatand)midi-to-pico8/awyeah.py:141: error: "TranslatorSettings" has no attribute "trimSilence"  [attr-defined]
+(andmatand)midi-to-pico8/awyeah.py:158: error: Incompatible types in assignment (expression has type "Translator", variable has type Module)  [assignment]
+(andmatand)midi-to-pico8/awyeah.py:160: error: Module has no attribute "analyze"  [attr-defined]
+(andmatand)midi-to-pico8/awyeah.py:164: error: Module has no attribute "get_sfx_lists"  [attr-defined]
+(andmatand)midi-to-pico8/awyeah.py:178: error: Value of type "int" is not indexable  [index]
+(andmatand)midi-to-pico8/awyeah.py:232: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(andmatand)midi-to-pico8/awyeah.py:234: error: Value of type "int" is not indexable  [index]
+(andmatand)midi-to-pico8/awyeah.py:314: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+Found 17 errors in 4 files (checked 1 source file)
+
+[RRepo](jamesob)tinychain
+Success: no issues found in 2 source files
+
+[RRepo](nathants)py-web
+(nathants)py-web/web/__init__.py:34: error: Need type annotation for 'rep'  [var-annotated]
+(nathants)py-web/web/__init__.py:59: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-web/web/__init__.py:67: error: Variable "web.schemas.rep" is not valid as a type  [valid-type]
+(nathants)py-web/web/__init__.py:68: error: schemas.rep? has no attribute "get"  [attr-defined]
+(nathants)py-web/web/__init__.py:70: error: schemas.rep? has no attribute "get"  [attr-defined]
+(nathants)py-web/web/__init__.py:71: error: schemas.rep? has no attribute "get"  [attr-defined]
+(nathants)py-web/web/__init__.py:75: error: Variable "web.schemas.req" is not valid as a type  [valid-type]
+(nathants)py-web/web/__init__.py:75: error: Name 'query' is not defined  [name-defined]
+(nathants)py-web/web/__init__.py:82: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(nathants)py-web/web/__init__.py:82: note: Did you mean "List[...]"?
+(nathants)py-web/web/__init__.py:82: error: Variable "web.schemas.req" is not valid as a type  [valid-type]
+(nathants)py-web/web/__init__.py:82: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-web/web/__init__.py:84: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(nathants)py-web/web/__init__.py:103: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(nathants)py-web/web/__init__.py:103: note: Did you mean "List[...]"?
+(nathants)py-web/web/__init__.py:166: error: Variable "web.schemas.rep" is not valid as a type  [valid-type]
+(nathants)py-web/web/__init__.py:168: error: Argument 2 to "get" of "Mapping" has incompatible type "str"; expected "Dict[Any, Any]"  [arg-type]
+(nathants)py-web/web/__init__.py:173: error: Argument 2 to "add_timeout" of "IOLoop" has incompatible type "Callable[[], Union[bool, Any]]"; expected "Callable[..., None]"  [arg-type]
+(nathants)py-web/web/__init__.py:173: error: "Awaitable[HTTPResponse]" has no attribute "done"  [attr-defined]
+(nathants)py-web/web/__init__.py:173: error: "Awaitable[HTTPResponse]" has no attribute "set_exception"  [attr-defined]
+Found 18 errors in 1 file (checked 1 source file)
+
+[RRepo](openrazer)openrazer
+
+[RRepo](CityOfNewYork)NYCOpenRecords
+(CityOfNewYork)NYCOpenRecords/app/lib/jinja_filters.py:1: error: Module 'app.constants' has no attribute 'response_type'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/config.py:6: error: Module 'app.constants' has no attribute 'OPENRECORDS_DL_EMAIL'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/config.py:173: error: Incompatible types in assignment (expression has type "Union[str, int]", base class "Config" defined the type as "Optional[str]")  [assignment]
+(CityOfNewYork)NYCOpenRecords/config.py:181: error: Incompatible types in assignment (expression has type "Optional[str]", base class "Config" defined the type as "str")  [assignment]
+(CityOfNewYork)NYCOpenRecords/config.py:192: error: Incompatible types in assignment (expression has type "int", base class "Config" defined the type as "Optional[str]")  [assignment]
+(CityOfNewYork)NYCOpenRecords/app/lib/pdf.py:7: error: Module 'tempfile' has no attribute '_get_candidate_names'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/__init__.py:26: error: Module 'app' has no attribute 'celery_config'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/__init__.py:27: error: Module 'app.constants' has no attribute 'OPENRECORDS_DL_EMAIL'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/__init__.py:40: error: Argument "port" to "Redis" has incompatible type "str"; expected "int"  [arg-type]
+(CityOfNewYork)NYCOpenRecords/app/__init__.py:46: error: Argument "port" to "Redis" has incompatible type "str"; expected "int"  [arg-type]
+(CityOfNewYork)NYCOpenRecords/app/__init__.py:48: error: Argument "port" to "Redis" has incompatible type "str"; expected "int"  [arg-type]
+(CityOfNewYork)NYCOpenRecords/app/lib/db_utils.py:9: error: Module 'app.constants' has no attribute 'HIDDEN_AGENCIES'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/main/views.py:16: error: Module 'app.constants' has no attribute 'OPENRECORDS_DL_EMAIL'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/user/utils.py:14: error: Module 'app.constants' has no attribute 'role_name'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/user/utils.py:14: error: Module 'app.constants' has no attribute 'user_type_request'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/jobs.py:10: error: Module 'app.constants' has no attribute 'OPENRECORDS_DL_EMAIL'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/jobs.py:10: error: Module 'app.constants' has no attribute 'request_status'  [attr-defined]
+(CityOfNewYork)NYCOpenRecords/app/lib/redis_utils.py:7: error: Name 'pickle' already defined (possibly by an import)  [no-redef]
+(CityOfNewYork)NYCOpenRecords/app/lib/permission_utils.py:7: error: Module 'app.constants' has no attribute 'permission'  [attr-defined]
+Found 19 errors in 10 files (checked 18 source files)
+
+[RRepo](eReuse)workbench
+
+[RRepo](ubuntunux)PyEngine3D
+(ubuntunux)PyEngine3D/PyEngine3D/Utilities/Logger.py:13: error: Need type annotation for 'LOGGER'  [var-annotated]
+(ubuntunux)PyEngine3D/main.py:44: error: Module 'PyEngine3D.Common' has no attribute 'CustomQueue'  [attr-defined]
+(ubuntunux)PyEngine3D/main.py:44: error: Module 'PyEngine3D.Common' has no attribute 'CustomPipe'  [attr-defined]
+(ubuntunux)PyEngine3D/main.py:45: error: Module 'PyEngine3D.App' has no attribute 'CoreManager'  [attr-defined]
+(ubuntunux)PyEngine3D/main.py:49: error: Module "PyEngine3D.Utilities.AutoEnum" is not valid as a type  [valid-type]
+(ubuntunux)PyEngine3D/main.py:49: error: Invalid base class "AutoEnum"  [misc]
+Found 6 errors in 2 files (checked 1 source file)
+
+[RRepo](nypl-spacetime)map-vectorizer
+
+[RRepo](yardstick17)extract_phrase
+
+[RRepo](fruitnuke)catan
+Success: no issues found in 2 source files
+
+[RRepo](materialsproject)MPContribs
+
+[RRepo](DesertBot)DesertBot
+
+[RRepo](benhoff)vexparser
+
+[RRepo](pypa)virtualenv
+Success: no issues found in 1 source file
+
+[RRepo](ensky)taiga-contrib-ldap-auth
+
+[RRepo](larsyencken)csvdiff
+Success: no issues found in 4 source files
+
+[RRepo](pracedru)PracedruDesign
+(pracedru)PracedruDesign/WebViewQt.py:9: error: Name 'QApplication' is not defined  [name-defined]
+(pracedru)PracedruDesign/WebViewQt.py:17: error: Name 'QWidget' is not defined  [name-defined]
+(pracedru)PracedruDesign/Data/Vertex.py:73: error: Name 'x' already defined on line 61  [no-redef]
+(pracedru)PracedruDesign/Data/Vertex.py:73: error: "Callable[[Vertex], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Vertex.py:77: error: Name 'y' already defined on line 65  [no-redef]
+(pracedru)PracedruDesign/Data/Vertex.py:77: error: "Callable[[Vertex], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Vertex.py:81: error: Name 'z' already defined on line 69  [no-redef]
+(pracedru)PracedruDesign/Data/Vertex.py:81: error: "Callable[[Vertex], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Point3d.py:41: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(pracedru)PracedruDesign/Data/Point3d.py:43: error: Need type annotation for '_edges' (hint: "_edges: List[<type>] = ...")  [var-annotated]
+(pracedru)PracedruDesign/Data/Point3d.py:169: error: Name 'x' already defined on line 157  [no-redef]
+(pracedru)PracedruDesign/Data/Point3d.py:169: error: "Callable[[KeyPoint], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Point3d.py:173: error: Name 'y' already defined on line 161  [no-redef]
+(pracedru)PracedruDesign/Data/Point3d.py:173: error: "Callable[[KeyPoint], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Point3d.py:177: error: Name 'z' already defined on line 165  [no-redef]
+(pracedru)PracedruDesign/Data/Point3d.py:177: error: "Callable[[KeyPoint], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Drawings.py:66: error: Too many arguments  [misc]
+(pracedru)PracedruDesign/Data/Areas.py:13: error: Name 'Enum' is not defined  [name-defined]
+(pracedru)PracedruDesign/Data/Areas.py:51: error: Name 'brush_name' already defined on line 35  [no-redef]
+(pracedru)PracedruDesign/Data/Areas.py:51: error: "Callable[[Area], Any]" has no attribute "setter"  [attr-defined]
+(pracedru)PracedruDesign/Data/Areas.py:186: error: Name 'Edge' is not defined  [name-defined]
+(pracedru)PracedruDesign/Data/Areas.py:187: error: Name 'EdgeType' is not defined  [name-defined]
+(pracedru)PracedruDesign/Data/Transformer.py:4: error: Module 'Data.Areas' has no attribute 'Edge'  [attr-defined]
+(pracedru)PracedruDesign/Business/SketchActions.py:104: error: Name 'Sketch' is not defined  [name-defined]
+(pracedru)PracedruDesign/Business/SketchActions.py:116: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(pracedru)PracedruDesign/Business/SketchActions.py:116: note: Did you mean "List[...]"?
+(pracedru)PracedruDesign/Business/SketchActions.py:116: error: Name 'Sketch' is not defined  [name-defined]
+(pracedru)PracedruDesign/Business/SketchActions.py:127: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(pracedru)PracedruDesign/Business/SketchActions.py:127: note: Did you mean "List[...]"?
+(pracedru)PracedruDesign/Business/SketchActions.py:127: error: Name 'Sketch' is not defined  [name-defined]
+(pracedru)PracedruDesign/Business/SketchActions.py:240: error: Name 'Sketch' is not defined  [name-defined]
+(pracedru)PracedruDesign/Business/SketchActions.py:246: error: Need type annotation for 'unique_branches' (hint: "unique_branches: List[<type>] = ...")  [var-annotated]
+Found 30 errors in 7 files (checked 39 source files)
+
+[RRepo](polyaxon)polyaxon
+Success: no issues found in 1 source file
+
+[RRepo](aio-libs)aiomonitor
+(aio-libs)aiomonitor/setup.py:19: error: Need type annotation for 'extras_require' (hint: "extras_require: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](allenai)deep_qa
+
+[RRepo](CanopyTax)asyncpgsa
+
+[RRepo](lostatc)linotype
+

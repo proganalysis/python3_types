@@ -1,0 +1,555 @@
+[RRepo](Den1al)JSShell
+(Den1al)JSShell/shell/utils/screen.py:22: error: Missing return statement  [return]
+(Den1al)JSShell/shell/utils/general.py:6: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(Den1al)JSShell/shell/utils/general.py:6: note: Perhaps you need "Callable[...]" or a callback protocol?
+(Den1al)JSShell/common/utils.py:29: error: Module "datetime" is not valid as a type  [valid-type]
+(Den1al)JSShell/common/utils.py:50: error: Module "datetime" is not valid as a type  [valid-type]
+(Den1al)JSShell/web/__init__.py:5: error: Module 'common.models' has no attribute 'db'  [attr-defined]
+(Den1al)JSShell/web/__init__.py:14: error: Module 'web.api' has no attribute 'api'  [attr-defined]
+(Den1al)JSShell/web/__init__.py:17: error: Module 'web.content' has no attribute 'content'  [attr-defined]
+(Den1al)JSShell/web/__init__.py:20: error: Module 'web.main' has no attribute 'main'  [attr-defined]
+(Den1al)JSShell/common/models/output.py:1: error: Module 'common.models' has no attribute 'db'  [attr-defined]
+(Den1al)JSShell/common/models/command.py:3: error: Module 'common.models' has no attribute 'db'  [attr-defined]
+(Den1al)JSShell/common/models/client.py:3: error: Module 'common.models' has no attribute 'db'  [attr-defined]
+(Den1al)JSShell/common/models/client.py:30: error: Item "None" of "Optional[Command]" has no attribute "created_on"  [union-attr]
+(Den1al)JSShell/shell/base.py:22: error: Need type annotation for 'terminators' (hint: "terminators: List[<type>] = ...")  [var-annotated]
+(Den1al)JSShell/shell/base.py:111: error: Missing return statement  [return]
+(Den1al)JSShell/shell/__init__.py:20: error: Can use starred expression only as assignment target  [misc]
+(Den1al)JSShell/shell/__init__.py:20: error: Invalid base class  [misc]
+(Den1al)JSShell/manage.py:20: error: "None" not callable  [misc]
+(Den1al)JSShell/shell/plugins/execute.py:22: error: callable? not callable  [misc]
+(Den1al)JSShell/shell/plugins/dump.py:70: error: Unsupported left operand type for + ("None")  [operator]
+(Den1al)JSShell/shell/plugins/dump.py:70: error: Unsupported operand types for + ("str" and "None")  [operator]
+(Den1al)JSShell/shell/plugins/dump.py:70: note: Right operand is of type "Optional[str]"
+(Den1al)JSShell/shell/plugins/dump.py:70: note: Left operand is of type "Optional[str]"
+(Den1al)JSShell/shell/plugins/dump.py:76: error: Argument 1 to "write" of "IO" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(Den1al)JSShell/shell/plugins/commands.py:27: error: callable? not callable  [misc]
+(Den1al)JSShell/shell/plugins/commands.py:29: error: callable? not callable  [misc]
+(Den1al)JSShell/shell/plugins/commands.py:62: error: Unsupported left operand type for + ("None")  [operator]
+(Den1al)JSShell/shell/plugins/commands.py:62: note: Left operand is of type "Optional[str]"
+(Den1al)JSShell/shell/plugins/commands.py:64: error: Unsupported operand types for + ("str" and "None")  [operator]
+(Den1al)JSShell/shell/plugins/commands.py:64: note: Both left and right operands are unions
+(Den1al)JSShell/shell/plugins/clients.py:65: error: Dict entry 4 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(Den1al)JSShell/shell/plugins/back.py:18: error: callable? not callable  [misc]
+(Den1al)JSShell/shell/plugins/back.py:24: error: Argument 1 to "select_client" of "BasePlugin" has incompatible type "None"; expected "Client"  [arg-type]
+Found 28 errors in 15 files (checked 11 source files)
+
+[RRepo](lnmds)jorge
+Success: no issues found in 1 source file
+
+[RRepo](frictionlessdata)datapackage-pipelines
+Success: no issues found in 1 source file
+
+[RRepo](adolfosilva)libgen.py
+Success: no issues found in 1 source file
+
+[RRepo](SectorLabs)django-postgres-extra
+(SectorLabs)django-postgres-extra/setup.py:9: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](aluminiumgeek)cc-telegram
+(aluminiumgeek)cc-telegram/telegram.py:18: error: Incompatible types in assignment (expression has type "bool", variable has type Module)  [assignment]
+(aluminiumgeek)cc-telegram/telegram.py:53: error: Incompatible return value type (got "Future[Any]", expected "Task[Any]")  [return-value]
+(aluminiumgeek)cc-telegram/telegram.py:57: error: Incompatible types in "await" (actual type "Optional[str]", expected type "Awaitable[Any]")  [misc]
+(aluminiumgeek)cc-telegram/telegram.py:192: error: Missing return statement  [return]
+(aluminiumgeek)cc-telegram/telegram.py:210: error: Return value expected  [return-value]
+(aluminiumgeek)cc-telegram/telegram.py:219: error: Return value expected  [return-value]
+Found 6 errors in 1 file (checked 2 source files)
+
+[RRepo](prihoda)golem
+
+[RRepo](status-im)status-react
+
+[RRepo](xjdr)xio
+
+[RRepo](srusskih)SublimeJEDI
+
+[RRepo](jahan-addison)gridpaste
+
+[RRepo](tioover)ika
+(tioover)ika/ika/utils.py:13: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1: error: Module 'ika.struct' has no attribute 'Function'  [attr-defined]
+(tioover)ika/ika/evaluator/instruction.py:2: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/evaluator/instruction.py:2: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'String'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'Number'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'Float'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/parser.py:3: error: Module 'ika.struct' has no attribute 'IkaType'  [attr-defined]
+(tioover)ika/ika/parser.py:37: error: "Type[Empty]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:42: error: "Type[Quote]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:43: error: "Type[Vector]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:48: error: "Type[List]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/test.py:5: error: Module 'ika.struct' has no attribute 'Function'  [attr-defined]
+Found 17 errors in 5 files (checked 2 source files)
+
+[RRepo](SpoopySaitama)snake
+
+[RRepo](ZhukovAlexander)rafter
+
+[RRepo](alehander42)pseudo-python
+(alehander42)pseudo-python/pseudo_python/builtin_typed_api.py:125: error: Unsupported format character ':'  [str-format]
+(alehander42)pseudo-python/pseudo_python/api_translator.py:106: error: Name 'Node' is not defined  [name-defined]
+Found 2 errors in 2 files (checked 9 source files)
+
+[RRepo](Trim21)BGmi
+(Trim21)BGmi/bgmi/config.py:71: error: Incompatible types in assignment (expression has type Tuple[str, str, ... <32 more items>], variable has type Tuple[str, str, ... <16 more items>])  [assignment]
+(Trim21)BGmi/bgmi/config.py:108: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")  [assignment]
+(Trim21)BGmi/bgmi/config.py:111: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(Trim21)BGmi/bgmi/config.py:345: error: Need type annotation for 'KEYWORDS_WEIGHT' (hint: "KEYWORDS_WEIGHT: Dict[<type>, <type>] = ...")  [var-annotated]
+(Trim21)BGmi/bgmi/config.py:353: error: No overload variant of "__add__" of "tuple" matches argument type "object"  [operator]
+(Trim21)BGmi/bgmi/config.py:353: note: Possible overload variants:
+(Trim21)BGmi/bgmi/config.py:353: note:     def __add__(self, Tuple[str, ...]) -> Tuple[str, ...]
+(Trim21)BGmi/bgmi/config.py:353: note:     def __add__(self, Tuple[Any, ...]) -> Tuple[Any, ...]
+(Trim21)BGmi/bgmi/lib/db_models/_db.py:28: error: "Type[T]" has no attribute "select"  [attr-defined]
+(Trim21)BGmi/bgmi/lib/db_models/_db.py:30: error: "Type[T]" has no attribute "DoesNotExist"  [attr-defined]
+(Trim21)BGmi/setup.py:3: error: Module 'distutils.command.clean' has no attribute 'clean'  [attr-defined]
+(Trim21)BGmi/setup.py:7: error: Module 'bgmi' has no attribute '__author__'  [attr-defined]
+(Trim21)BGmi/setup.py:7: error: Module 'bgmi' has no attribute '__email__'  [attr-defined]
+(Trim21)BGmi/setup.py:7: error: Module 'bgmi' has no attribute '__version__'  [attr-defined]
+(Trim21)BGmi/setup.py:16: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(Trim21)BGmi/bgmi/lib/db_models/_tables.py:155: error: Need type annotation for 'weekly_list'  [var-annotated]
+(Trim21)BGmi/bgmi/lib/db_models/_tables.py:159: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "defaultdict[Any, List[Any]]")  [assignment]
+(Trim21)BGmi/bgmi/lib/db_models/__init__.py:16: error: Need type annotation for 'weekly_list'  [var-annotated]
+Found 15 errors in 5 files (checked 2 source files)
+
+[RRepo](NZSmartie)PyHIDParser
+(NZSmartie)PyHIDParser/hidparser/UsagePage.py:108: error: Function "builtins.object.__class__" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/UsagePage.py:108: note: Perhaps you need "Callable[...]" or a callback protocol?
+(NZSmartie)PyHIDParser/hidparser/Physical.py:95: error: Need type annotation for 'descriptors' (hint: "descriptors: List[<type>] = ...")  [var-annotated]
+(NZSmartie)PyHIDParser/hidparser/DeviceBuilder.py:126: error: Function "builtins.object.__class__" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/DeviceBuilder.py:126: note: Perhaps you need "Callable[...]" or a callback protocol?
+(NZSmartie)PyHIDParser/hidparser/Item.py:44: error: Incompatible types in assignment (expression has type "Optional[array[Any]]", variable has type "array[Any]")  [assignment]
+(NZSmartie)PyHIDParser/hidparser/Item.py:77: error: Incompatible default for argument "data" (default has type "List[<nothing>]", argument has type "array[Any]")  [assignment]
+(NZSmartie)PyHIDParser/hidparser/Item.py:79: error: Need type annotation for '_item_map' (hint: "_item_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:19: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:20: error: DeviceBuilder? has no attribute "set_usage_page"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:35: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:36: error: DeviceBuilder? has no attribute "set_logical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:48: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:49: error: DeviceBuilder? has no attribute "set_logical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:61: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:62: error: DeviceBuilder? has no attribute "set_physical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:74: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:75: error: DeviceBuilder? has no attribute "set_physical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:87: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:88: error: DeviceBuilder? has no attribute "unit_exponent"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:100: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:101: error: DeviceBuilder? has no attribute "unit"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:117: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:118: error: DeviceBuilder? has no attribute "report_size"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:134: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:135: error: DeviceBuilder? has no attribute "set_report_id"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:151: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:152: error: DeviceBuilder? has no attribute "report_count"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:164: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:165: error: DeviceBuilder? has no attribute "push"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:177: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:178: error: DeviceBuilder? has no attribute "pop"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/__init__.py:3: error: Incompatible import of "DeviceBuilder" (imported name has type Module, local name has type "Type[DeviceBuilder]")  [misc]
+Found 31 errors in 6 files (checked 10 source files)
+
+[RRepo](frostidaho)qtile
+Success: no issues found in 1 source file
+
+[RRepo](evernym)ledger
+Success: no issues found in 1 source file
+
+[RRepo](allrod5)extra-trees
+
+[RRepo](mefyl)drake
+
+[RRepo](technomaniac)trellio
+(technomaniac)trellio/setup.py:40: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ajyoon)brown
+
+[RRepo](3liz)QgisCadastrePlugin
+
+[RRepo](systemd)systemd-stable
+
+[RRepo](lipschultz)gnumeric-py
+(lipschultz)gnumeric-py/gnumeric/utils.py:66: error: Incompatible types in assignment (expression has type "str", variable has type "bool")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/utils.py:67: error: Incompatible return value type (got "int", expected "str")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/utils.py:67: error: Unsupported operand types for + ("bool" and "str")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:76: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/utils.py:77: error: Unsupported operand types for < ("str" and "int")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:80: error: Unsupported operand types for - ("str" and "int")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:94: error: 'builtins.int' object is not iterable  [misc]
+(lipschultz)gnumeric-py/gnumeric/utils.py:96: error: Argument 1 to "row_to_spreadsheet" has incompatible type "Union[int, Tuple[int, int]]"; expected "int"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/expression_evaluation.py:215: error: Incompatible return value type (got "Tuple[Any, ...]", expected "CellReference")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/expression.py:90: error: Missing return statement  [return]
+(lipschultz)gnumeric-py/gnumeric/cell.py:40: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(lipschultz)gnumeric-py/gnumeric/cell.py:117: error: Item "None" of "Optional[str]" has no attribute "startswith"  [union-attr]
+(lipschultz)gnumeric-py/gnumeric/cell.py:124: error: Incompatible return value type (got "Union[bool, Match[str], None]", expected "bool")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/cell.py:141: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(lipschultz)gnumeric-py/gnumeric/cell.py:143: error: Argument 1 to "int" has incompatible type "Optional[str]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:145: error: Argument 1 to "float" has incompatible type "Optional[str]"; expected "Union[SupportsFloat, _SupportsIndex, str, bytes, bytearray]"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:151: error: Cannot determine type of '__cached_value'  [has-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:156: error: Incompatible return value type (got "Optional[str]", expected "Union[bool, int, float, Expression, str]")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/cell.py:181: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:183: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:185: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:188: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:190: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:192: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:218: error: Argument 1 to "__set_type" of "Cell" has incompatible type "str"; expected "int"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:219: error: Incompatible types in assignment (expression has type "Union[bool, int, float, Expression, str]", variable has type "int")  [assignment]
+Found 26 errors in 4 files (checked 8 source files)
+
+[RRepo](msiemens)RusTiny
+
+[RRepo](hell03end)hse_ruz
+
+[RRepo](tensorflow)models
+
+[RRepo](greenmoss)PyWavefront
+(greenmoss)PyWavefront/pywavefront/visualization.py:43: error: Name 'GL_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:44: error: Name 'GL_C3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:45: error: Name 'GL_N3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:46: error: Name 'GL_T2F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:48: error: Name 'GL_T2F_C3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:49: error: Name 'GL_T2F_N3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:75: error: Name 'GL_FRONT_AND_BACK' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/cache.py:127: error: Not all arguments converted during string formatting  [str-format]
+Found 8 errors in 2 files (checked 8 source files)
+
+[RRepo](BotDevGroup)marvin
+(BotDevGroup)marvin/marvinbot/plugins.py:158: error: Incompatible return value type (got "None", expected "Blueprint")  [return-value]
+(BotDevGroup)marvin/marvinbot/core.py:17: error: Need type annotation for 'PERIODIC_TASKS'  [var-annotated]
+(BotDevGroup)marvin/marvinbot/core.py:21: error: Need type annotation for 'ADAPTER_REGISTRY' (hint: "ADAPTER_REGISTRY: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 1 source file)
+
+[RRepo](letsmeet-click)letsmeet.click
+
+[RRepo](eweast)BencodePy
+
+[RRepo](nathanielksmith)prosaic
+(nathanielksmith)prosaic/prosaic/models.py:66: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:66: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/models.py:77: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:77: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/models.py:102: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:102: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/parsing.py:92: error: "IOBase" has no attribute "peek"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:95: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:106: error: Need type annotation for 'futures' (hint: "futures: List[<type>] = ...")  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:110: error: Need type annotation for 'line_queue'  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:111: error: Need type annotation for 'error_queue'  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:116: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:147: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/generation.py:29: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(nathanielksmith)prosaic/prosaic/generation.py:29: note: Did you mean "List[...]"?
+(nathanielksmith)prosaic/prosaic/generation.py:43: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(nathanielksmith)prosaic/prosaic/generation.py:46: error: Argument 1 to "dict" has incompatible type "Iterator[List[Any]]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(nathanielksmith)prosaic/prosaic/generation.py:46: error: Argument 1 to "map" has incompatible type "Callable[[Any], List[Any]]"; expected "Callable[[Any], Tuple[Any, Any]]"  [arg-type]
+(nathanielksmith)prosaic/prosaic/generation.py:46: error: Incompatible return value type (got "List[Any]", expected "Tuple[Any, Any]")  [return-value]
+(nathanielksmith)prosaic/prosaic/generation.py:69: error: Incompatible return value type (got "Tuple[str]", expected "str")  [return-value]
+(nathanielksmith)prosaic/prosaic/commands.py:68: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:69: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:71: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:72: error: Cannot determine type of '_db'  [has-type]
+Found 23 errors in 4 files (checked 9 source files)
+
+[RRepo](Vinc3r)BlenderScripts
+(Vinc3r)BlenderScripts/src/__init__.py:64: error: Invalid type comment or annotation  [valid-type]
+(Vinc3r)BlenderScripts/src/__init__.py:64: note: Suggestion: use StringProperty[...] instead of StringProperty(...)
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](boggard)jira-telegram-bot
+Success: no issues found in 2 source files
+
+[RRepo](hardbyte)python-can
+
+[RRepo](Shopify)shopify_python
+(Shopify)shopify_python/shopify_python/__init__.py:6: error: Module 'shopify_python' has no attribute 'google_styleguide'  [attr-defined]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](tuanavu)python-cookbook-3rd
+
+[RRepo](vforgione)logging2
+(vforgione)logging2/logging2/levels.py:38: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(vforgione)logging2/logging2/levels.py:38: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(vforgione)logging2/logging2/levels.py:38: note:     def __eq__(self, other: object) -> bool:
+(vforgione)logging2/logging2/levels.py:38: note:         if not isinstance(other, LogLevel):
+(vforgione)logging2/logging2/levels.py:38: note:             return NotImplemented
+(vforgione)logging2/logging2/levels.py:38: note:         return <logic to compare two LogLevel instances>
+(vforgione)logging2/logging2/handlers/streaming.py:60: error: Argument "stream" to "__init__" of "StreamingHandler" has incompatible type "TextIO"; expected "TextIOWrapper"  [arg-type]
+(vforgione)logging2/logging2/handlers/streaming.py:78: error: Argument "stream" to "__init__" of "StreamingHandler" has incompatible type "TextIO"; expected "TextIOWrapper"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44: error: Argument "mode" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44: error: Argument "encoding" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44: error: Argument "errors" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:45: error: Argument "buffering" to "open" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:47: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(vforgione)logging2/logging2/loggers.py:52: error: Incompatible types in assignment (expression has type "Optional[bool]", variable has type "bool")  [assignment]
+(vforgione)logging2/logging2/loggers.py:56: error: Incompatible types in assignment (expression has type "Optional[LogLevel]", variable has type "LogLevel")  [assignment]
+(vforgione)logging2/logging2/loggers.py:57: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(vforgione)logging2/logging2/loggers.py:58: error: Incompatible types in assignment (expression has type "None", variable has type "Set[str]")  [assignment]
+(vforgione)logging2/logging2/loggers.py:182: error: Item "None" of "Optional[Dict[str, Union[object, Callable[..., Any]]]]" has no attribute "items"  [union-attr]
+(vforgione)logging2/logging2/loggers.py:184: error: "object" not callable  [operator]
+Found 14 errors in 4 files (checked 4 source files)
+
+[RRepo](aaronduino)asciidots
+
+[RRepo](Infiziert90)Discord-Skype-Bot
+(Infiziert90)Discord-Skype-Bot/skype_client.py:197: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/skype_client.py:203: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/skype_client.py:209: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251: error: Item "Match[Any]" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251: error: Item "None" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:260: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267: error: Item "Match[Any]" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267: error: Item "None" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+Found 10 errors in 2 files (checked 5 source files)
+
+[RRepo](terrencepreilly)darglint
+(terrencepreilly)darglint/setup.py:21: error: Need type annotation for 'requirements' (hint: "requirements: List[<type>] = ...")  [var-annotated]
+(terrencepreilly)darglint/setup.py:28: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(terrencepreilly)darglint/setup.py:53: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](ischurov)qqmbr
+
+[RRepo](ctxis)cvsslib
+(ctxis)cvsslib/cvsslib/base_enum.py:7: error: Name 'lru_cache' already defined (possibly by an import)  [no-redef]
+(ctxis)cvsslib/cvsslib/utils.py:8: error: Name 'lru_cache' already defined (possibly by an import)  [no-redef]
+(ctxis)cvsslib/cvsslib/__init__.py:11: error: Unsupported dynamic base class "class_mixin"  [misc]
+(ctxis)cvsslib/cvsslib/__init__.py:15: error: Unsupported dynamic base class "class_mixin"  [misc]
+Found 4 errors in 3 files (checked 6 source files)
+
+[RRepo](otris)ews-cpp
+
+[RRepo](MegaShow)college-programming
+
+[RRepo](sassoftware)sas_kernel
+
+[RRepo](poidl)yassy
+
+[RRepo](RedFantom)GSF-Parser
+(RedFantom)GSF-Parser/parsing/ships.py:11: error: Module 'data' has no attribute 'abilities'  [attr-defined]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:25: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:25: note: Perhaps you need "Callable[...]" or a callback protocol?
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:43: error: Need type annotation for 'category_frames'  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:44: error: Need type annotation for 'member_buttons'  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:44: error: Need type annotation for 'member_icons'  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:45: error: Need type annotation for 'copilots' (hint: "copilots: Dict[<type>, <type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:45: error: Need type annotation for 'copilot_dicts' (hint: "copilot_dicts: Dict[<type>, <type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:46: error: Need type annotation for 'copilot_icons' (hint: "copilot_icons: Dict[<type>, <type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:46: error: Need type annotation for 'copilot_buttons' (hint: "copilot_buttons: Dict[<type>, <type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:47: error: Need type annotation for 'category_variables' (hint: "category_variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/crew_list.py:107: error: callable? not callable  [misc]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'FileFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'SettingsFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'RealTimeFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'BuildsFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'CharactersFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'ShipFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'StatsFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'StrategiesFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'ToolsFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:17: error: Module 'frames' has no attribute 'ChatFrame'  [attr-defined]
+(RedFantom)GSF-Parser/gui.py:117: error: Incompatible types in assignment (expression has type "None", variable has type "BootSplash")  [assignment]
+(RedFantom)GSF-Parser/widgets/builds/component.py:105: error: Need type annotation for 'buttons' (hint: "buttons: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:105: error: Need type annotation for 'photos' (hint: "photos: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:105: error: Need type annotation for 'balloons' (hint: "balloons: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:105: error: Need type annotation for 'bools' (hint: "bools: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:108: error: Need type annotation for 'button' (hint: "button: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:108: error: Need type annotation for 'photo' (hint: "photo: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:108: error: Need type annotation for 'balloon' (hint: "balloon: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:108: error: Need type annotation for 'var' (hint: "var: List[<type>] = ...")  [var-annotated]
+(RedFantom)GSF-Parser/widgets/builds/component.py:119: error: Syntax error in type annotation  [syntax]
+(RedFantom)GSF-Parser/widgets/builds/component.py:119: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(RedFantom)GSF-Parser/widgets/__init__.py:18: error: Name 'Balloon' already defined (possibly by an import)  [no-redef]
+(RedFantom)GSF-Parser/main.py:21: error: Module 'settings' has no attribute 'Settings'  [attr-defined]
+Found 33 errors in 6 files (checked 3 source files)
+
+[RRepo](vijos)vj4
+
+[RRepo](googleapis)releasetool
+Success: no issues found in 1 source file
+
+[RRepo](pravic)pysciter
+(pravic)pysciter/sciter/capi/sctypes.py:59: error: Signature of "value" incompatible with supertype "_SimpleCData"  [override]
+(pravic)pysciter/sciter/capi/sctypes.py:60: error: Too many arguments  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:107: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(pravic)pysciter/sciter/capi/sctypes.py:108: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(pravic)pysciter/sciter/capi/sctypes.py:131: error: Cannot assign multiple types to name "HWINDOW" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:132: error: Cannot assign multiple types to name "HDC" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:134: error: Cannot assign multiple types to name "BOOL" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:134: error: Incompatible types in assignment (expression has type "Type[c_byte]", variable has type "Type[c_int32]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:135: error: Incompatible types in assignment (expression has type "Type[c_utf16_p]", variable has type "Type[c_wchar_p]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:146: error: Cannot assign multiple types to name "HWINDOW" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:147: error: Cannot assign multiple types to name "HDC" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:149: error: Cannot assign multiple types to name "BOOL" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:149: error: Incompatible types in assignment (expression has type "Type[c_byte]", variable has type "Type[c_int32]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:150: error: Incompatible types in assignment (expression has type "Type[c_utf16_p]", variable has type "Type[c_wchar_p]")  [assignment]
+(pravic)pysciter/sciter/event.py:16: error: Name 'EVENT_GROUPS' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:17: error: Name 'EVENT_GROUPS' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:106: error: Name 'EVENT_GROUPS' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:115: error: Name 'BEHAVIOR_EVENTS' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:115: error: Name 'PHASE_MASK' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:115: error: Name 'CLICK_REASON' is not defined  [name-defined]
+(pravic)pysciter/sciter/event.py:119: error: Name 'DATA_ARRIVED_PARAMS' is not defined  [name-defined]
+(pravic)pysciter/sciter/platform.py:45: error: Module has no attribute "windll"  [attr-defined]
+(pravic)pysciter/sciter/platform.py:45: error: "WindowsWindow" has no attribute "hwnd"  [attr-defined]
+(pravic)pysciter/sciter/platform.py:158: error: Cannot assign multiple types to name "BaseWindow" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/platform.py:158: error: Incompatible types in assignment (expression has type "Type[OsxWindow]", variable has type "Type[WindowsWindow]")  [assignment]
+(pravic)pysciter/sciter/platform.py:356: error: Cannot assign multiple types to name "BaseWindow" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/platform.py:356: error: Incompatible types in assignment (expression has type "Type[LinuxWindow]", variable has type "Type[WindowsWindow]")  [assignment]
+Found 27 errors in 3 files (checked 6 source files)
+
+[RRepo](gasabr)AtoD
+Success: no issues found in 1 source file
+
+[RRepo](Ghadjeres)DeepBach
+(Ghadjeres)DeepBach/DeepBach/helpers.py:18: error: "Variable" has no attribute "data"  [attr-defined]
+(Ghadjeres)DeepBach/DeepBach/helpers.py:20: error: "Variable" has no attribute "data"  [attr-defined]
+(Ghadjeres)DeepBach/musescore_flask_server.py:241: error: Name 'get_fermatas_tensor' already defined on line 133  [no-redef]
+(Ghadjeres)DeepBach/flask_server.py:325: error: Item "None" of "Optional[Any]" has no attribute "dataset"  [union-attr]
+(Ghadjeres)DeepBach/flask_server.py:335: error: Argument 1 to "view" of "Tensor" has incompatible type "Optional[Any]"; expected "Union[Size, List[int], Tuple[int, ...]]"  [arg-type]
+(Ghadjeres)DeepBach/flask_server.py:345: error: Item "None" of "Optional[Any]" has no attribute "dataset"  [union-attr]
+Found 6 errors in 3 files (checked 3 source files)
+
+[RRepo](BrighterCommand)Brightside
+Success: no issues found in 1 source file
+
+[RRepo](VieVie31)scene_detection
+
+[RRepo](eliostvs)tomate-launcher-plugin
+Success: no issues found in 2 source files
+
+[RRepo](prcutler)nflpool
+(prcutler)nflpool/nflpool/infrastructure/static_cache.py:22: error: Need type annotation for '__hash_lookup' (hint: "__hash_lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](apache)airflow
+(apache)airflow/setup.py:36: error: Module has no attribute "util"  [attr-defined]
+(apache)airflow/setup.py:38: error: Module has no attribute "util"  [attr-defined]
+(apache)airflow/airflow/macros/__init__.py:24: error: Module 'airflow.macros' has no attribute 'hive'  [attr-defined]
+(apache)airflow/airflow/__init__.py:28: error: Module 'airflow' has no attribute 'version'; maybe "__version__"?  [attr-defined]
+(apache)airflow/airflow/__init__.py:37: error: Module 'airflow.models' has no attribute 'DAG'  [attr-defined]
+(apache)airflow/airflow/__init__.py:56: error: Module has no attribute "_integrate_plugins"  [attr-defined]
+(apache)airflow/airflow/__init__.py:57: error: Module has no attribute "_integrate_plugins"  [attr-defined]
+(apache)airflow/airflow/__init__.py:58: error: Module has no attribute "_integrate_plugins"  [attr-defined]
+Found 8 errors in 3 files (checked 14 source files)
+
+[RRepo](SergeyPirogov)testcontainers-python
+
+[RRepo](MicroFocus)CX
+
+[RRepo](DeDop)dedop-core
+
+[RRepo](GrinningHermit)Cozmo-Explorer-Tool
+(GrinningHermit)Cozmo-Explorer-Tool/explorer_tool.py:45: error: Need type annotation for 'lists' (hint: "lists: List[<type>] = ...")  [var-annotated]
+(GrinningHermit)Cozmo-Explorer-Tool/explorer_tool.py:53: error: Need type annotation for 'q'  [var-annotated]
+Found 2 errors in 1 file (checked 7 source files)
+
+[RRepo](chupikov)sendmail.py
+Success: no issues found in 1 source file
+
+[RRepo](softappeal)yass
+
+[RRepo](remipassmoilesel)linux-utils
+
+[RRepo](BigEgg)LeetCode
+
+[RRepo](laike9m)pdir2
+
+[RRepo](quantumlib)Cirq
+
+[RRepo](Naam)shup
+
+[RRepo](kayhayen)Nuitka
+(kayhayen)Nuitka/setup.py:27: error: Need type annotation for 'scripts' (hint: "scripts: List[<type>] = ...")  [var-annotated]
+(kayhayen)Nuitka/setup.py:150: error: 'classmethod' used with a non-method  [misc]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](jmbr)diffusion-maps
+
+[RRepo](facebook)folly
+
+[RRepo](CameronLonsdale)lantern
+
+[RRepo](cemfi)meico
+
+[RRepo](taigaio)taiga-back
+
+[RRepo](spegelius)filaswitch
+
+[RRepo](apacha)MusicSymbolClassifier
+
+[RRepo](PrivacyScore)PrivacyScore
+
+[RRepo](DistributedSystemsGroup)zoe
+
+[RRepo](kaiterra)api
+
+[RRepo](Pink-Silver)PyDoom
+(Pink-Silver)PyDoom/pydoom.py:34: error: Name 'GITVERSION' already defined on line 32  [no-redef]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](eliben)code-for-blog
+
+[RRepo](sigrokproject)libsigrokdecode
+
+[RRepo](nextcloud)appstore
+
+[RRepo](gumblex)coinpricebot
+Success: no issues found in 1 source file
+
+[RRepo](rasguanabana)function-pattern-matching
+
+[RRepo](paultag)aiodocker
+
+[RRepo](sztanko)exaquery
+
+[RRepo](vprusso)youtube_tutorials
+
+[RRepo](nad2000)memrise-scraper
+Success: no issues found in 3 source files
+
+[RRepo](UrbanCCD-UChicago)plenario
+(UrbanCCD-UChicago)plenario/plenario/utils/typeinference.py:104: error: The type alias is invalid in runtime context  [misc]
+(UrbanCCD-UChicago)plenario/plenario/utils/typeinference.py:127: error: The type alias is invalid in runtime context  [misc]
+(UrbanCCD-UChicago)plenario/plenario/models/User.py:7: error: Module 'plenario.models' has no attribute 'bcrypt'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/models/SensorNetwork.py:110: error: Need type annotation for 'keys' (hint: "keys: List[<type>] = ...")  [var-annotated]
+(UrbanCCD-UChicago)plenario/plenario/models/SensorNetwork.py:178: error: Need type annotation for 'feature_set' (hint: "feature_set: Set[<type>] = ...")  [var-annotated]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:16: error: Module 'plenario.models' has no attribute 'MetaTable'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:42: error: Module has no attribute "dataset_name"  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:150: error: Module has no attribute "update_freq"  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:151: error: Module has no attribute "is_ingested"  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:254: error: Need type annotation for 'tar_groups' (hint: "tar_groups: Dict[<type>, <type>] = ...")  [var-annotated]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:295: error: Need type annotation for 'files' (hint: "files: Dict[<type>, <type>] = ...")  [var-annotated]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:317: error: Incompatible types in assignment (expression has type "TextIO", variable has type "str")  [assignment]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:318: error: "str" has no attribute "seek"  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/tasks.py:319: error: "str" has no attribute "close"  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/api/common.py:13: error: Module 'plenario.models' has no attribute 'MetaTable'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/api/fields.py:5: error: Module 'plenario.models' has no attribute 'MetaTable'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/api/timeseries.py:18: error: Module 'plenario.models' has no attribute 'MetaTable'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/api/timeseries.py:40: error: Name 'defaults' already defined on line 30  [no-redef]
+(UrbanCCD-UChicago)plenario/plenario/server.py:11: error: Module 'plenario.models' has no attribute 'bcrypt'  [attr-defined]
+(UrbanCCD-UChicago)plenario/manage.py:57: error: Name 'worker' already defined (possibly by an import)  [no-redef]
+Found 20 errors in 9 files (checked 2 source files)
+
+[RRepo](pratyushprakash)HackerFeed
+
+[RRepo](jenerestain)smart-student
+
+[RRepo](reimandlab)ActiveDriverDB
+
+[RRepo](pynamodb)PynamoDB
+Success: no issues found in 1 source file
+
+[RRepo](James-Yu)LaTeX-Workshop
+
+[RRepo](darkfeline)animanager
+Success: no issues found in 1 source file
+
+[RRepo](bryanforbes)Erasmus
+

@@ -1,0 +1,1042 @@
+[RRepo](kalaspuff)tomodachi
+(kalaspuff)tomodachi/tomodachi/helpers/middleware.py:20: error: Argument 1 to "len" has incompatible type "Optional[Tuple[Any, ...]]"; expected "Sized"  [arg-type]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:10: error: Name 'logging.Formatter' is not defined  [name-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:10: error: Name 'logging.Logger' is not defined  [name-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:16: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:17: error: Module has no attribute "DEBUG"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:26: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:29: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:36: error: Module has no attribute "Formatter"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:38: error: Module has no attribute "Formatter"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:40: error: Module has no attribute "Formatter"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:91: error: Module has no attribute "INFO"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/helpers/logging.py:93: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/discovery/aws_sns_registration.py:21: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/discovery/aws_sns_registration.py:31: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/discovery/aws_sns_registration.py:39: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/discovery/dummy_registry.py:17: error: Module has no attribute "getLogger"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/discovery/dummy_registry.py:23: error: Module has no attribute "getLogger"  [attr-defined]
+
+[RRepo](aio-libs)aiozmq
+(aio-libs)aiozmq/tests/selectors_test.py:16: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(aio-libs)aiozmq/tests/rpc_namespace_test.py:9: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_namespace_test.py:11: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_namespace_test.py:18: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:18: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:20: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:26: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:32: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:34: error: Function "rpc_func_annotations.my_checker" is not valid as a type  [valid-type]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:34: note: Perhaps you need "Callable[...]" or a callback protocol?
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:38: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:38: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:44: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:44: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_func_annotations.py:50: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_translators_test.py:29: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_translators_test.py:31: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:11: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:18: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:22: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:27: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:31: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:35: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pipeline_test.py:40: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:11: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:18: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:23: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:28: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:32: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:36: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/tests/rpc_pubsub_test.py:41: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_simple.py:5: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_simple.py:7: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_custom_translator.py:25: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_custom_translator.py:26: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_dict_handler.py:5: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_dict_handler.py:10: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_pubsub.py:6: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_pubsub.py:11: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_pipeline.py:6: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_pipeline.py:11: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_with_subhandlers.py:5: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_with_subhandlers.py:11: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_with_subhandlers.py:16: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_with_subhandlers.py:22: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_dynamic.py:5: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_dynamic.py:16: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_exception_translator.py:16: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_exception_translator.py:17: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/examples/rpc_incorrect_calls.py:5: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/examples/rpc_incorrect_calls.py:7: error: Module has no attribute "method"  [attr-defined]
+(aio-libs)aiozmq/aiozmq/rpc/base.py:134: error: Return type "AwaitableGenerator[Any, Any, Any, Any]" of "wait_closed" incompatible with return type "Coroutine[Any, Any, None]" in supertype "AbstractServer"  [override]
+(aio-libs)aiozmq/benchmarks/simple.py:244: error: Name 'aiozmq.rpc.AttrHandler' is not defined  [name-defined]
+(aio-libs)aiozmq/benchmarks/simple.py:246: error: Module has no attribute "method"  [attr-defined]
+Found 53 errors in 17 files (checked 42 source files)
+
+[RRepo](thorgate)tg-utils
+(thorgate)tg-utils/tg_utils/health_check/checks/phantomjs/apps.py: error: Duplicate module named 'apps' (also at '/home/bew/archive/typed_project/(thorgate)tg-utils/tg_utils/health_check/checks/elvis/apps.py')  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](PPACI)yast
+(PPACI)yast/Test/test_yase.py:4: error: Module 'unittest.mock' has no attribute '_patch_object'  [attr-defined]
+(PPACI)yast/Test/test_yase.py:9: error: Module 'yase' has no attribute 'yase'  [attr-defined]
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](SpiffSpaceman)TradingTools
+(SpiffSpaceman)TradingTools/EventStudy/settings.py: error: Duplicate module named 'settings' (also at '/home/bew/archive/typed_project/(SpiffSpaceman)TradingTools/OrderManIB/settings.py')  [misc]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](justthetips)PerformanceAnalytics
+(justthetips)PerformanceAnalytics/performanceanalytics/drawdowns.py:60: error: Item "None" of "Optional[DrawdownHolder]" has no attribute "min_value"  [union-attr]
+(justthetips)PerformanceAnalytics/performanceanalytics/drawdowns.py:61: error: Item "None" of "Optional[DrawdownHolder]" has no attribute "trough_date"  [union-attr]
+(justthetips)PerformanceAnalytics/performanceanalytics/drawdowns.py:66: error: Item "None" of "Optional[DrawdownHolder]" has no attribute "end_date"  [union-attr]
+Found 3 errors in 1 file (checked 13 source files)
+
+[RRepo](TzuChieh)Photon-v2
+(TzuChieh)Photon-v2/scripts/SDL_Interface/PythonGenerator/PythonGenerator.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 36 source files)
+
+[RRepo](zutn)ACME
+(zutn)ACME/acme/tests/get_storages_fluxes.py: error: Duplicate module named 'get_storages_fluxes' (also at '/home/bew/archive/typed_project/(zutn)ACME/acme/visualization/get_storages_fluxes.py')  [misc]
+Found 1 error in 1 file (checked 22 source files)
+
+[RRepo](SangRyul)bamboo
+(SangRyul)bamboo/scaling/scaling.py:104: error: Need type annotation for 'd' (hint: "d: Dict[<type>, <type>] = ...")  [var-annotated]
+(SangRyul)bamboo/scaling/readFile.py:15: error: Name 'date' is not defined  [name-defined]
+(SangRyul)bamboo/scaling/readFile.py:16: error: Name 'data' is not defined  [name-defined]
+(SangRyul)bamboo/scaling/readFile.py:22: error: Name 'data' is not defined  [name-defined]
+(SangRyul)bamboo/web_scraper/bamboo.py:21: error: Need type annotation for 'notExistDays' (hint: "notExistDays: Set[<type>] = ...")  [var-annotated]
+Found 5 errors in 3 files (checked 7 source files)
+
+[RRepo](viaict)viaduct
+(viaict)viaduct/app/service/group_service.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 238 source files)
+
+[RRepo](dean0x7d)pybinding
+(dean0x7d)pybinding/docs/examples/ribbons/bilayer_graphene.py: error: Duplicate module named 'bilayer_graphene' (also at '/home/bew/archive/typed_project/(dean0x7d)pybinding/docs/examples/lattice/bilayer_graphene.py')  [misc]
+Found 1 error in 1 file (checked 63 source files)
+
+[RRepo](PyPlanet)PyPlanet
+(PyPlanet)PyPlanet/pyplanet/contrib/player/manager.py: error: Duplicate module named 'manager' (also at '/home/bew/archive/typed_project/(PyPlanet)PyPlanet/pyplanet/contrib/permission/manager.py')  [misc]
+Found 1 error in 1 file (checked 192 source files)
+
+[RRepo](openai)kubernetes-ec2-autoscaler
+(openai)kubernetes-ec2-autoscaler/autoscaler/azure.py:104: error: Need type annotation for 'tags' (hint: "tags: Dict[<type>, <type>] = ...")  [var-annotated]
+(openai)kubernetes-ec2-autoscaler/autoscaler/azure.py:127: error: Need type annotation for 'no_schedule_taints' (hint: "no_schedule_taints: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](XayOn)katcr
+Success: no issues found in 11 source files
+
+[RRepo](lucianopuccio)golem
+(lucianopuccio)golem/golem/cli/commands.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 49 source files)
+
+[RRepo](CloverHealth)pycon2017
+(CloverHealth)pycon2017/etl_nested/tests/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(CloverHealth)pycon2017/etl_nested/conftest.py')  [misc]
+(CloverHealth)pycon2017/etl_nested/tests/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 29 source files)
+
+[RRepo](statgen)pheweb
+(statgen)pheweb/pheweb/load/wsgi.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](adaptive-learning)robomission
+(adaptive-learning)robomission/backend/learn/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(adaptive-learning)robomission/backend/monitoring/views.py')  [misc]
+Found 1 error in 1 file (checked 57 source files)
+
+[RRepo](channelcat)sanic
+(channelcat)sanic/examples/websocket.py: error: Duplicate module named 'websocket' (also at '/home/bew/archive/typed_project/(channelcat)sanic/sanic/websocket.py')  [misc]
+Found 1 error in 1 file (checked 86 source files)
+
+[RRepo](jansenm)ansible-jenkins-roles
+(jansenm)ansible-jenkins-roles/doc/ansible/__init__.py:50: error: Argument "names" to "Field" has incompatible type "str"; expected "Tuple[str, ...]"  [arg-type]
+(jansenm)ansible-jenkins-roles/doc/ansible/__init__.py:93: error: Need type annotation for 'initial_data'  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](katajakasa)aiohttp-spyne
+Success: no issues found in 9 source files
+
+[RRepo](LuminosoInsight)langcodes
+(LuminosoInsight)langcodes/langcodes/distance.py:9: error: Need type annotation for '_DISTANCE_CACHE' (hint: "_DISTANCE_CACHE: Dict[<type>, <type>] = ...")  [var-annotated]
+(LuminosoInsight)langcodes/langcodes/names.py:9: error: Need type annotation for 'TRIES' (hint: "TRIES: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 6 source files)
+
+[RRepo](wings27)songci
+(wings27)songci/nlp/pingze.py:10: error: Invalid type comment or annotation  [valid-type]
+(wings27)songci/nlp/pingze.py:14: error: Invalid type comment or annotation  [valid-type]
+
+[RRepo](knights-lab)SHOGUN
+(knights-lab)SHOGUN/shogun/scripts/old/shogun_utree_functional.py:100: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 42 source files)
+
+[RRepo](Zubax)zubax_chibios
+Success: no issues found in 2 source files
+
+[RRepo](carpyncho)feets
+(carpyncho)feets/feets/core.py:48: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 60 source files)
+
+[RRepo](yutiansut)QUANTAXIS
+(yutiansut)QUANTAXIS/QUANTAXIS/QASelector/multilevel.py:34: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 164 source files)
+
+[RRepo](lucene4ir)lucene4ir
+(lucene4ir)lucene4ir/scripts/pubmedextract.py:16: error: Missing return statement  [return]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](ahawker)scratchdir
+(ahawker)scratchdir/scratchdir.py:86: error: Argument 1 to "exists" has incompatible type "Optional[str]"; expected "Union[Union[bytes, str, _PathLike[Any]], int]"  [arg-type]
+(ahawker)scratchdir/scratchdir.py:107: error: Value of type variable "_AnyPath" of "rmtree" cannot be "Optional[str]"  [type-var]
+(ahawker)scratchdir/scratchdir.py:294: error: Argument 1 to "join" of "str" has incompatible type "Tuple[Optional[str], str, Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(ahawker)scratchdir/scratchdir.py:306: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(ahawker)scratchdir/tests.py:16: error: Name 'pathlib' already defined (by an import)  [no-redef]
+Found 5 errors in 2 files (checked 3 source files)
+
+[RRepo](alekLukanen)pyDist
+Success: no issues found in 33 source files
+
+[RRepo](Darkness4)csgo-gsi-arduino-lcd
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/messenger.py:87: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/messenger.py:97: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/messenger.py:107: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/messenger.py:138: error: Incompatible return value type (got "None", expected "Tuple[Any, ...]")  [return-value]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/tableviewer.py:58: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:81: error: "BaseServer" has no attribute "is_waiting"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:95: error: "BaseServer" has no attribute "bomb"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:96: error: "BaseServer" has no attribute "bomb"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:98: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:100: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:102: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:104: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:105: error: "BaseServer" has no attribute "state"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:106: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:107: error: "BaseServer" has no attribute "state"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:109: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:109: error: Value of type "Optional[Dict[str, Any]]" is not indexable  [index]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:110: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:110: error: Value of type "Optional[Dict[str, Any]]" is not indexable  [index]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:111: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:111: error: Value of type "Optional[Dict[str, Any]]" is not indexable  [index]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:112: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:112: error: Value of type "Optional[Dict[str, Any]]" is not indexable  [index]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:113: error: Value of type "Optional[Dict[str, Any]]" is not indexable  [index]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:115: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:117: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:118: error: "BaseServer" has no attribute "is_waiting"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:119: error: "BaseServer" has no attribute "is_waiting"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:120: error: "BaseServer" has no attribute "messenger"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:123: error: "BaseServer" has no attribute "payload_viewer"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:124: error: "BaseServer" has no attribute "payload_viewer"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:125: error: "BaseServer" has no attribute "payload_viewer"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/httpserver.py:126: error: "BaseServer" has no attribute "payload_viewer"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:136: error: Incompatible types in assignment (expression has type "ServerThread", variable has type "None")  [assignment]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:137: error: "None" has no attribute "start"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:153: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:154: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:155: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:156: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:157: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:158: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:176: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:177: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:188: error: "None" has no attribute "server"  [attr-defined]
+(Darkness4)csgo-gsi-arduino-lcd/csgo_gsi_arduino_lcd/appui.py:189: error: "None" has no attribute "server"  [attr-defined]
+Found 45 errors in 4 files (checked 7 source files)
+
+[RRepo](MarcoGlauser)huey-queue-stats
+Success: no issues found in 4 source files
+
+[RRepo](drootnar)asynckraken
+(drootnar)asynckraken/asynckraken/client.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](Troxid)vrep-api-python
+(Troxid)vrep-api-python/pyrep/sensors.py:13: error: Syntax error in type annotation  [syntax]
+(Troxid)vrep-api-python/pyrep/sensors.py:13: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Troxid)vrep-api-python/pyrep/sensors.py:65: error: Syntax error in type annotation  [syntax]
+(Troxid)vrep-api-python/pyrep/sensors.py:65: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Troxid)vrep-api-python/pyrep/sensors.py:99: error: Syntax error in type annotation  [syntax]
+(Troxid)vrep-api-python/pyrep/sensors.py:99: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:31: error: Name 'List' is not defined  [name-defined]
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:33: error: Incompatible return value type (got "Union[Any, float]", expected "int")  [return-value]
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:36: error: Name 'List' is not defined  [name-defined]
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:36: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(Troxid)vrep-api-python/examples/line_follower_pioneer.py:38: error: Incompatible return value type (got "Union[Any, float]", expected "int")  [return-value]
+Found 7 errors in 2 files (checked 7 source files)
+
+[RRepo](MShel)PyChatBot
+(MShel)PyChatBot/transport/AbstractTransport.py:40: error: "None" has no attribute "get_available_plugins"  [attr-defined]
+(MShel)PyChatBot/transport/AbstractTransport.py:42: error: "None" has no attribute "get_plugin"  [attr-defined]
+
+[RRepo](clearlinux)autospec
+(clearlinux)autospec/autospec/buildpattern.py:24: error: Need type annotation for 'sources'  [var-annotated]
+(clearlinux)autospec/autospec/buildpattern.py:25: error: Need type annotation for 'source_index' (hint: "source_index: Dict[<type>, <type>] = ...")  [var-annotated]
+(clearlinux)autospec/autospec/buildpattern.py:26: error: Need type annotation for 'archive_details' (hint: "archive_details: Dict[<type>, <type>] = ...")  [var-annotated]
+(clearlinux)autospec/autospec/build.py:38: error: Need type annotation for 'warned_about' (hint: "warned_about: Set[<type>] = ...")  [var-annotated]
+(clearlinux)autospec/autospec/license.py:40: error: Need type annotation for 'licenses' (hint: "licenses: List[<type>] = ...")  [var-annotated]
+Found 5 errors in 3 files (checked 31 source files)
+
+[RRepo](pyannote)pyannote-audio
+(pyannote)pyannote-audio/pyannote/audio/labeling/models.py:36: error: No parent module -- cannot perform relative import  [misc]
+(pyannote)pyannote-audio/pyannote/audio/labeling/models.py:37: error: No parent module -- cannot perform relative import  [misc]
+(pyannote)pyannote-audio/pyannote/audio/labeling/models.py:38: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 49 source files)
+
+[RRepo](saisankargochhayat)algo_quest
+(saisankargochhayat)algo_quest/heap_implementation.py:12: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 95 source files)
+
+[RRepo](mosra)magnum-examples
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:38: error: Name 'Color4' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:45: error: Name 'Matrix4' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:49: error: Name 'Color3' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:51: error: Name 'Color3' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:95: error: Name 'Color3' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:96: error: Name 'Deg' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:102: error: Name 'Vector2' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:103: error: Name 'Vector2' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:104: error: Name 'Rad' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives-scenegraph.py:105: error: Name 'Rad' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:73: error: Name 'Color3' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:73: error: Name 'Deg' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:79: error: Name 'Vector2' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:80: error: Name 'Vector2' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:82: error: Name 'Matrix4' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:82: error: Name 'Rad' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:84: error: Name 'Matrix4' is not defined  [name-defined]
+(mosra)magnum-examples/src/python/magnum-primitives.py:84: error: Name 'Rad' is not defined  [name-defined]
+Found 18 errors in 2 files (checked 3 source files)
+
+[RRepo](abiosoft)dotfiles
+(abiosoft)dotfiles/i3/window.py:191: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(abiosoft)dotfiles/i3/window.py:234: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(abiosoft)dotfiles/i3/window.py:243: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(abiosoft)dotfiles/i3/window.py:245: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(abiosoft)dotfiles/i3/window.py:247: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(abiosoft)dotfiles/i3/window.py:249: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(abiosoft)dotfiles/i3/window.py:251: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(abiosoft)dotfiles/i3/window.py:253: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(abiosoft)dotfiles/i3/window.py:266: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(abiosoft)dotfiles/sway/windows.py:10: error: Need type annotation for 'windows' (hint: "windows: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 10 errors in 2 files (checked 2 source files)
+
+[RRepo](biolink)ontobio
+(biolink)ontobio/ontobio/vocabulary/relations.py: error: Duplicate module named 'relations' (also at '/home/bew/archive/typed_project/(biolink)ontobio/ontobio/rdfgen/relations.py')  [misc]
+Found 1 error in 1 file (checked 104 source files)
+
+[RRepo](GNOME)meld
+(GNOME)meld/meld/vc/__init__.py:25: error: Module 'vc' has no attribute 'bzr'  [attr-defined]
+(GNOME)meld/meld/vc/__init__.py:25: error: Module 'vc' has no attribute 'darcs'  [attr-defined]
+(GNOME)meld/meld/vc/__init__.py:25: error: Module 'vc' has no attribute 'git'  [attr-defined]
+(GNOME)meld/meld/vc/__init__.py:25: error: Module 'vc' has no attribute 'mercurial'  [attr-defined]
+(GNOME)meld/meld/vc/__init__.py:25: error: Module 'vc' has no attribute 'svn'  [attr-defined]
+(GNOME)meld/meld/vc/cvs.py:30: error: Module 'vc' has no attribute '_vc'  [attr-defined]
+(GNOME)meld/meld/style.py:87: error: Item "None" of "Optional[Any]" has no attribute "get_style"  [union-attr]
+
+[RRepo](samuelcolvin)pydantic
+(samuelcolvin)pydantic/pydantic/utils.py:62: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 52 source files)
+
+[RRepo](iheanyi)bandcamp-dl
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcampjson.py:11: error: Need type annotation for 'json_data' (hint: "json_data: List[<type>] = ...")  [var-annotated]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcampjson.py:45: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcamp.py:17: error: Invalid type comment or annotation  [valid-type]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcamp.py:114: error: Invalid type comment or annotation  [valid-type]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcamp.py:139: error: Item "None" of "Optional[Any]" has no attribute "replace"  [union-attr]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcamp.py:155: error: Missing return statement  [return]
+(iheanyi)bandcamp-dl/bandcamp_dl/bandcamp.py:163: error: Exception type must be derived from BaseException  [misc]
+Found 7 errors in 2 files (checked 6 source files)
+
+[RRepo](MasuqaT-NET)BlogExamples
+Success: no issues found in 17 source files
+
+[RRepo](nathants)py-aws
+(nathants)py-aws/aws/emr.py:35: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/emr.py:130: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/emr.py:131: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/emr.py:135: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/emr.py:136: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/ddb.py:70: error: Name 'capacity' is not defined  [name-defined]
+(nathants)py-aws/aws/s3.py:32: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/s3.py:70: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/s3.py:71: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/s3.py:72: error: Invalid type comment or annotation  [valid-type]
+(nathants)py-aws/aws/s3.py:173: error: Invalid type comment or annotation  [valid-type]
+Found 11 errors in 3 files (checked 6 source files)
+
+[RRepo](mosra)m.css
+(mosra)m.css/plugins/m/test/__init__.py: error: Duplicate module named 'test' (also at '/home/bew/archive/typed_project/(mosra)m.css/pelican-theme/test/__init__.py')  [misc]
+(mosra)m.css/plugins/m/test/__init__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 75 source files)
+
+[RRepo](CenterForOpenScience)SHARE
+(CenterForOpenScience)SHARE/share/models/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(CenterForOpenScience)SHARE/share/disambiguation/strategies/base.py')  [misc]
+(CenterForOpenScience)SHARE/share/models/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 271 source files)
+
+[RRepo](micropython)micropython
+(micropython)micropython/tests/micropython/viper_addr.py:3: error: Name 'micropython' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:4: error: Name 'ptr' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:7: error: Name 'micropython' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:8: error: Name 'ptr8' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:12: error: Name 'micropython' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:13: error: Name 'ptr8' is not defined  [name-defined]
+(micropython)micropython/tests/micropython/viper_addr.py:20: error: Argument 1 to "bytearray" has incompatible type "str"; expected "Iterable[int]"  [arg-type]
+(micropython)micropython/tests/micropython/viper_addr.py:20: note: Following member(s) of "str" have conflicts:
+(micropython)micropython/tests/micropython/viper_addr.py:20: note:     Expected:
+(micropython)micropython/tests/micropython/viper_addr.py:20: note:         def __iter__(self) -> Iterator[int]
+(micropython)micropython/tests/micropython/viper_addr.py:20: note:     Got:
+(micropython)micropython/tests/micropython/viper_addr.py:20: note:         def __iter__(self) -> Iterator[str]
+(micropython)micropython/tests/basics/builtin_override.py:7: error: Incompatible types in assignment (expression has type "Callable[[SupportsAbs[_T]], int]", variable has type "Callable[[SupportsAbs[_T]], _T]")  [assignment]
+(micropython)micropython/tests/basics/builtin_override.py:7: error: Unsupported operand types for + ("SupportsAbs[_T]" and "int")  [operator]
+(micropython)micropython/tests/basics/builtin_override.py:7: error: Incompatible return value type (got "int", expected "_T")  [return-value]
+(micropython)micropython/tests/basics/builtin_override.py:15: error: Name '__build_class__' is not defined  [name-defined]
+(micropython)micropython/tests/basics/builtin_override.py:16: error: Module has no attribute "__build_class__"  [attr-defined]
+(micropython)micropython/tests/basics/builtin_override.py:20: error: Module has no attribute "__build_class__"  [attr-defined]
+(micropython)micropython/tests/basics/builtin_override.py:29: error: Incompatible types in assignment (expression has type "Callable[[Any, Any, Any, Any, Any], Any]", variable has type "Callable[[str, Optional[Mapping[str, Any]], Optional[Mapping[str, Any]], Sequence[str], int], Any]")  [assignment]
+(micropython)micropython/tests/basics/builtin_override.py:30: error: Argument 4 to "__import__" has incompatible type "None"; expected "Sequence[str]"  [arg-type]
+(micropython)micropython/tests/basics/builtin_override.py:36: error: Relative import climbs too many namespaces  [misc]
+(micropython)micropython/tests/inlineasm/asmsum.py:1: error: Name 'micropython' is not defined  [name-defined]
+(micropython)micropython/tests/inlineasm/asmsum.py:25: error: Name 'micropython' is not defined  [name-defined]
+(micropython)micropython/tests/inlineasm/asmsum.py:59: error: Incompatible types in assignment (expression has type "bytes", variable has type "array[int]")  [assignment]
+(micropython)micropython/py/makeqstrdata.py:20: error: Incompatible types in assignment (expression has type "Type[bytes]", variable has type "Callable[[Any, Any], bytearray]")  [assignment]
+Found 20 errors in 4 files (checked 7 source files)
+
+[RRepo](funkyfuture)inxs
+(funkyfuture)inxs/inxs/utils.py:33: error: Incompatible return value type (got "Dict[int, Optional[int]]", expected "Dict[int, str]")  [return-value]
+(funkyfuture)inxs/tests/test_cli/mods_to_tei.py:5: error: Module 'inxs' has no attribute 'If'  [attr-defined]
+(funkyfuture)inxs/tests/test_cli/mods_to_tei.py:5: error: Module 'inxs' has no attribute 'Once'  [attr-defined]
+(funkyfuture)inxs/tests/test_cli/mods_to_tei.py:5: error: Module 'inxs' has no attribute 'Ref'  [attr-defined]
+(funkyfuture)inxs/tests/test_cli/mods_to_tei.py:5: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_cli/mods_to_tei.py:5: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/tests/test_wikipedia_examples.py:5: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_wikipedia_examples.py:5: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Ref'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+
+[RRepo](OphisMusic)ophis
+(OphisMusic)ophis/ophis/tonus/pitch.py:6: error: No parent module -- cannot perform relative import  [misc]
+(OphisMusic)ophis/ophis/tonus/pitch.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 9 source files)
+
+[RRepo](nitely)regexy
+(nitely)regexy/regexy/process/match.py:25: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](bayesimpact)bob-emploi
+(bayesimpact)bob-emploi/data_analysis/lib/job_offers.py: error: Duplicate module named 'job_offers' (also at '/home/bew/archive/typed_project/(bayesimpact)bob-emploi/data_analysis/importer/job_offers.py')  [misc]
+Found 1 error in 1 file (checked 193 source files)
+
+[RRepo](y-usuzumi)survive-the-course
+(y-usuzumi)survive-the-course/leetcode/39.Combination_Sum/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(y-usuzumi)survive-the-course/leetcode/24.Swap_Nodes_in_Pairs/main.py')  [misc]
+Found 1 error in 1 file (checked 70 source files)
+
+[RRepo](ZingBallyhoo)OverwatchDataManager
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:80: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:81: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:83: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:84: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:87: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:88: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:90: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:91: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:93: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:94: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:98: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:99: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:100: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:101: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:103: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:104: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:106: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:107: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:108: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:109: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:111: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:112: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:113: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:114: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:116: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:117: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:118: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:119: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:121: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:122: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:123: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:124: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:126: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:127: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:128: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:129: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:131: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:132: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:133: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:134: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:136: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:137: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:138: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:139: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:141: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:142: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:143: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:144: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:146: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:147: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:148: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/gamemode.py:149: error: Item "None" of "Optional[Any]" has no attribute "Header"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/lootbox.py:30: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/lootbox.py:31: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/lootbox.py:32: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/string.py:21: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/version.py:61: error: Argument 1 to "OverwatchVersionComplex" has incompatible type "**Dict[str, str]"; expected "Dict[str, str]"  [arg-type]
+(ZingBallyhoo)OverwatchDataManager/pyow/version.py:61: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(ZingBallyhoo)OverwatchDataManager/pyow/version.py:61: note: Consider using "Mapping" instead, which is covariant in the value type
+(ZingBallyhoo)OverwatchDataManager/pyow/lib/withhacks/frameutils.py:14: error: Name 'threading' already defined (by an import)  [no-redef]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/__init__.py:74: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/__init__.py:75: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:36: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:56: error: Item "None" of "Optional[Any]" has no attribute "Position"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:62: error: Item "None" of "Optional[Any]" has no attribute "Close"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:63: error: "object" has no attribute "Header"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:64: error: "object" has no attribute "Header"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:65: error: "object" has no attribute "Header"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:73: error: "object" has no attribute "Save"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:78: error: "object" has no attribute "Save"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:81: error: Function "tempfile.NamedTemporaryFile" is not valid as a type  [valid-type]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:88: error: Function "tempfile.NamedTemporaryFile" is not valid as a type  [valid-type]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:88: note: Perhaps you need "Callable[...]" or a callback protocol?
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:91: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:92: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:95: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:105: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:107: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:108: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:118: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:120: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:121: error: NamedTemporaryFile? has no attribute "name"  [attr-defined]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:206: error: Item "None" of "Optional[Any]" has no attribute "open_record"  [union-attr]
+(ZingBallyhoo)OverwatchDataManager/pyow/owtypes/texture.py:222: error: Argument 1 to "basename" has incompatible type "Optional[Any]"; expected "_PathLike[Any]"  [arg-type]
+(ZingBallyhoo)OverwatchDataManager/trials & tests/proc2.py:44: error: Need type annotation for 'tasks'  [var-annotated]
+(ZingBallyhoo)OverwatchDataManager/trials & tests/proc2.py:45: error: Need type annotation for 'results'  [var-annotated]
+(ZingBallyhoo)OverwatchDataManager/trials & tests/diff.py:7: error: Module 'filecmp' has no attribute '_cmp'; maybe "cmp"?  [attr-defined]
+Found 84 errors in 9 files (checked 20 source files)
+
+[RRepo](bggardner)simplisafe-rf
+(bggardner)simplisafe-rf/examples/keypad.py:36: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](FrederichRiver)neutrino
+(FrederichRiver)neutrino/applications/old_code/libstock.py: error: Duplicate module named 'libstock' (also at '/home/bew/archive/typed_project/(FrederichRiver)neutrino/applications/libstock.py')  [misc]
+(FrederichRiver)neutrino/applications/old_code/libstock.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 26 source files)
+
+[RRepo](csxeba)brainforge
+(csxeba)brainforge/layers/core.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 52 source files)
+
+[RRepo](ZhukovAlexander)quic-py
+(ZhukovAlexander)quic-py/quic/flowcontrol.py:125: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](HurricaneLabs)machinae
+(HurricaneLabs)machinae/src/machinae/outputs.py:46: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(HurricaneLabs)machinae/src/machinae/outputs.py:68: error: Incompatible types in assignment (expression has type "Iterator[Tuple[Any, str]]", variable has type "Iterator[str]")  [assignment]
+(HurricaneLabs)machinae/src/machinae/outputs.py:69: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Iterator[str]")  [assignment]
+(HurricaneLabs)machinae/src/machinae/outputs.py:69: note: 'list' is missing following 'Iterator' protocol member:
+(HurricaneLabs)machinae/src/machinae/outputs.py:69: note:     __next__
+(HurricaneLabs)machinae/src/machinae/sites/base.py:20: error: Name 'exceptions' already defined (by an import)  [no-redef]
+Found 4 errors in 2 files (checked 11 source files)
+
+[RRepo](stencila)hub
+(stencila)hub/director/users/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(stencila)hub/director/views.py')  [misc]
+(stencila)hub/director/users/views.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 66 source files)
+
+[RRepo](suminb)transporter
+(suminb)transporter/transporter/models.py:49: error: "Bound" has no attribute "sw_latitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:49: error: "Bound" has no attribute "ne_latitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:50: error: "Bound" has no attribute "sw_longitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:50: error: "Bound" has no attribute "ne_longitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:190: error: Need type annotation for 'queue'  [var-annotated]
+(suminb)transporter/transporter/models.py:245: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/models.py:390: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/models.py:402: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/utils.py:25: error: "DictMapper" has no attribute "mapper"  [attr-defined]
+(suminb)transporter/transporter/utils.py:62: error: Signature of "transform" incompatible with supertype "DictMapper"  [override]
+(suminb)transporter/transporter/utils.py:91: error: Argument 2 to "transform" of "DictMapper" has incompatible type "Tuple[Tuple[str, str, Callable[[str], Any]], Tuple[str, str, Type[float]], Tuple[str, str, Type[float]]]"; expected "Optional[List[Any]]"  [arg-type]
+(suminb)transporter/transporter/utils.py:93: error: Signature of "transform" incompatible with supertype "DictMapper"  [override]
+(suminb)transporter/transporter/utils.py:104: error: Argument 2 to "transform" of "DictMapper" has incompatible type "Tuple[Tuple[str, str, Type[int]], Tuple[str, str, Callable[[Any], Any]]]"; expected "Optional[List[Any]]"  [arg-type]
+(suminb)transporter/transporter/utils.py:288: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+Found 14 errors in 2 files (checked 8 source files)
+
+[RRepo](devunt)ika
+(devunt)ika/ika/services/core/events/server.py: error: Duplicate module named 'server' (also at '/home/bew/archive/typed_project/(devunt)ika/ika/server.py')  [misc]
+(devunt)ika/ika/services/core/events/server.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 59 source files)
+
+[RRepo](pystitch)stitch
+Success: no issues found in 6 source files
+
+[RRepo](UltrosBot)Ultros3K
+(UltrosBot)Ultros3K/src/ultros/core/storage/config/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(UltrosBot)Ultros3K/src/ultros/core/storage/base.py')  [misc]
+(UltrosBot)Ultros3K/src/ultros/core/storage/config/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 48 source files)
+
+[RRepo](istio)tools
+(istio)tools/perf/docker/rabbitmq/client.py: error: Duplicate module named 'client' (also at '/home/bew/archive/typed_project/(istio)tools/perf/docker/redis/client.py')  [misc]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](Linko-3D)AssetGen
+
+[RRepo](protocollabs)dmpr-core
+(protocollabs)dmpr-core/dmpr/path.py:49: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(protocollabs)dmpr-core/dmpr/path.py:59: error: Need type annotation for '_global_attributes' (hint: "_global_attributes: Dict[<type>, <type>] = ...")  [var-annotated]
+(protocollabs)dmpr-core/dmpr/path.py:60: error: Need type annotation for 'policy_cache' (hint: "policy_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](cgre-aachen)gempy
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:15: error: Name 'warnings' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:20: error: Name 'Series' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:24: error: Name 'Surfaces' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:25: error: Name 'np' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:29: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:30: error: Name 'Series' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:31: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:33: error: Name 'Grid' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/aux_func.py:35: error: Name 'Grid' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:15: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:15: error: Name 'SurfacePoints' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:19: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:19: error: Name 'Orientations' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:23: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:23: error: Name 'Series' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:27: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:27: error: Name 'Surfaces' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:30: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:30: error: Name 'SurfacePoints' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:34: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:34: error: Name 'Orientations' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:38: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:38: error: Name 'Series' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:42: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:42: error: Name 'Surfaces' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:46: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:46: error: Name 'SurfacePoints' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:49: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:49: error: Name 'Orientations' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:53: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:53: error: Name 'Series' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:56: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:56: error: Name 'Surfaces' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:59: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:59: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:62: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:62: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:63: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:65: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:68: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:68: error: Name 'Faults' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:71: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:71: error: Name 'Options' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:74: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:74: error: Name 'KrigingParameters' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:77: error: Name 'Model' is not defined  [name-defined]
+(cgre-aachen)gempy/gempy/core/api_modules/data_mutation.py:77: error: Name 'RescaledData' is not defined  [name-defined]
+(cgre-aachen)gempy/docs/source/conf.py:171: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(cgre-aachen)gempy/gempy/core/solution.py:66: error: Need type annotation for 'mask_matrix_pad' (hint: "mask_matrix_pad: List[<type>] = ...")  [var-annotated]
+(cgre-aachen)gempy/gempy/core/solution.py:70: error: Need type annotation for 'vertices' (hint: "vertices: List[<type>] = ...")  [var-annotated]
+(cgre-aachen)gempy/gempy/core/solution.py:71: error: Need type annotation for 'edges' (hint: "edges: List[<type>] = ...")  [var-annotated]
+(cgre-aachen)gempy/gempy/core/solution.py:123: error: Item "None" of "Optional[Any]" has no attribute "get_grid_args"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:124: error: Item "None" of "Optional[Any]" has no attribute "length"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:169: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:170: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:171: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:173: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:179: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:180: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:181: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:183: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:188: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:189: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/core/solution.py:190: error: Item "None" of "Optional[Any]" has no attribute "regular_grid"  [union-attr]
+(cgre-aachen)gempy/gempy/utils/extract_geomodeller_data.py:11: error: Name 'ET' already defined (by an import)  [no-redef]
+Found 65 errors in 5 files (checked 36 source files)
+
+[RRepo](cs01)gdbgui
+(cs01)gdbgui/make_executable.py:10: error: Module 'gdbgui' has no attribute '__version__'  [attr-defined]
+(cs01)gdbgui/tests/test_app.py:10: error: Module 'gdbgui' has no attribute 'backend'  [attr-defined]
+Found 2 errors in 2 files (checked 6 source files)
+
+[RRepo](vert-x3)vertx-web
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/linecache2/tests/inspect_fodder2.py:83: error: Method must have at least one argument  [misc]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/ws4py/server/cherrypyserver.py:382: error: Name 'EchoWebSocketHandler' is not defined  [name-defined]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/compatibility.py:11: error: All conditional function variants must have identical signatures  [misc]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/compatibility.py:91: error: Name 'catch_warnings' already defined (possibly by an import)  [no-redef]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/compatibility.py:190: error: Module has no attribute "_recursive_repr"  [attr-defined]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/signals.py:41: error: Need type annotation for '_results'  [var-annotated]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/runner.py:14: error: All conditional function variants must have identical signatures  [misc]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/main.py:14: error: Incompatible types in assignment (expression has type "None", variable has type "Callable[[], Any]")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/suite.py:35: error: Incompatible types in assignment (expression has type "None", base class "object" defined the type as "Callable[[object], int]")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:11: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:274: error: Incompatible types in assignment (expression has type "Callable[[int, FrameType], None]", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:281: error: Incompatible types in assignment (expression has type "Handlers", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:288: error: Incompatible types in assignment (expression has type "Handlers", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:294: error: Name 'TestBreakDefaultIntHandler' already defined on line 272  [no-redef]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:296: error: Incompatible types in assignment (expression has type "Callable[[int, FrameType], None]", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:301: error: Name 'TestBreakSignalIgnored' already defined on line 279  [no-redef]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:303: error: Incompatible types in assignment (expression has type "Handlers", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:308: error: Name 'TestBreakSignalDefault' already defined on line 286  [no-redef]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:310: error: Incompatible types in assignment (expression has type "Handlers", base class "TestBreak" defined the type as "None")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_break.py:318: error: Cannot assign to a type  [misc]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/linecache2/tests/test_linecache.py:17: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(vert-x3)vertx-web/vertx-web/src/test/sockjs-protocol/unittest2/test/test_program.py:124: error: Incompatible types in assignment (expression has type "str", base class "TestProgram" defined the type as "None")  [assignment]
+Found 22 errors in 10 files (checked 32 source files)
+
+[RRepo](theheros)kbengine
+(theheros)kbengine/demo/res/scripts/cell/GameObject.py: error: Duplicate module named 'GameObject' (also at '/home/bew/archive/typed_project/(theheros)kbengine/demo/res/scripts/base/GameObject.py')  [misc]
+Found 1 error in 1 file (checked 1741 source files)
+
+[RRepo](opensyllabus)osp-api
+(opensyllabus)osp-api/osp_api/utils.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](geometalab)osmaxx
+(geometalab)osmaxx/osmaxx/excerptexport/models/export.py:129: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 138 source files)
+
+[RRepo](orf)xcat
+(orf)xcat/xcat/algorithms.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](freedomofpress)securedrop
+(freedomofpress)securedrop/securedrop/tests/test_store.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 129 source files)
+
+[RRepo](Bertrand256)dash-masternode-tool
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:130: error: Name 'getDongle' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:131: error: Name 'btchip' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:157: error: Need type annotation for 'bip32_to_address' (hint: "bip32_to_address: Dict[<type>, <type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:162: error: Invalid index type "object" for "Dict[str, str]"; expected type "str"  [index]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:164: error: Invalid index type "object" for "Dict[str, str]"; expected type "str"  [index]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:167: error: Name 'bitcoinTransaction' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:170: error: Unsupported operand types for > ("int" and "object")  [operator]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:170: error: Unsupported operand types for < ("int" and "object")  [operator]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:179: error: Name 'compress_public_key' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:201: error: Name 'bitcoinTransaction' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:204: error: Name 'bitcoinOutput' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:206: error: Argument 1 to "to_bytes" of "int" has incompatible type "object"; expected "int"  [arg-type]
+(Bertrand256)dash-masternode-tool/src/test/ledger_transaction_test.py:220: error: Name 'bitcoinInput' is not defined  [name-defined]
+(Bertrand256)dash-masternode-tool/src/psw_cache.py:15: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/trezor-t-emu.py:29: error: Module has no attribute "_MEIPASS"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/app_cache.py:31: error: Need type annotation for '__data' (hint: "__data: Dict[<type>, <type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/app_defs.py:78: error: Need type annotation for 'll' (hint: "ll: List[<type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/app_defs.py:81: error: "Type[Logger]" has no attribute "manager"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/app_defs.py:82: error: "Type[Logger]" has no attribute "manager"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/thread_utils.py:34: error: Need type annotation for 'lock_list' (hint: "lock_list: List[<type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/dash_masternode_tool.py:33: error: Module has no attribute "_MEIPASS"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/ext_item_model.py:75: error: Incompatible types in assignment (expression has type "None", variable has type "ColumnedSortFilterProxyModel")  [assignment]
+(Bertrand256)dash-masternode-tool/src/ext_item_model.py:173: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(Bertrand256)dash-masternode-tool/src/sign_message_dlg.py:20: error: Optional[...] must have exactly one type argument  [misc]
+(Bertrand256)dash-masternode-tool/src/cmd_console_dlg.py:154: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(Bertrand256)dash-masternode-tool/src/cmd_console_dlg.py:276: error: "Type[Logger]" has no attribute "manager"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/cmd_console_dlg.py:277: error: "Type[Logger]" has no attribute "manager"  [attr-defined]
+(Bertrand256)dash-masternode-tool/src/app_utils.py:139: error: Incompatible return value type (got "Tuple[Sequence[int], Any]", expected "Tuple[bytearray, int]")  [return-value]
+(Bertrand256)dash-masternode-tool/src/hw_common.py:64: error: Need type annotation for '__locks' (hint: "__locks: Dict[<type>, <type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/hw_common.py:71: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(Bertrand256)dash-masternode-tool/src/hw_common.py:202: error: Need type annotation for 'device_radiobutton_list' (hint: "device_radiobutton_list: List[<type>] = ...")  [var-annotated]
+(Bertrand256)dash-masternode-tool/src/encrypted_files.py:30: error: Missing return statement  [return]
+(Bertrand256)dash-masternode-tool/src/encrypted_files.py:91: error: Argument 1 to "Fernet" has incompatible type "ByteString"; expected "bytes"  [arg-type]
+(Bertrand256)dash-masternode-tool/src/encrypted_files.py:158: error: Argument "hw_connect_function" to "HwSessionInfo" has incompatible type "None"; expected "Callable[[object], None]"  [arg-type]
+(Bertrand256)dash-masternode-tool/src/encrypted_files.py:159: error: Argument "hw_disconnect_function" to "HwSessionInfo" has incompatible type "None"; expected "Callable[[], None]"  [arg-type]
+Found 35 errors in 13 files (checked 49 source files)
+
+[RRepo](dotpot)InAppPy
+(dotpot)InAppPy/inapppy/asyncio/appstore.py: error: Duplicate module named 'appstore' (also at '/home/bew/archive/typed_project/(dotpot)InAppPy/inapppy/appstore.py')  [misc]
+(dotpot)InAppPy/inapppy/asyncio/appstore.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 10 source files)
+
+[RRepo](garyd203)flying-circus
+(garyd203)flying-circus/oldsrc/fcspike/service/iam.py: error: Duplicate module named 'iam' (also at '/home/bew/archive/typed_project/(garyd203)flying-circus/oldsrc/fcspike/_raw/iam.py')  [misc]
+Found 1 error in 1 file (checked 36 source files)
+
+[RRepo](pythonfoo)pythonfooLite
+(pythonfoo)pythonfooLite/Level_08/fibonacci.py: error: Duplicate module named 'fibonacci' (also at '/home/bew/archive/typed_project/(pythonfoo)pythonfooLite/Level_05/fibonacci.py')  [misc]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](jardiacaj)finem_imperii
+(jardiacaj)finem_imperii/character/views/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(jardiacaj)finem_imperii/account/views.py')  [misc]
+(jardiacaj)finem_imperii/character/views/views.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 120 source files)
+
+[RRepo](mrklees)cy-automation-library
+(mrklees)cy-automation-library/cyautomation/cyschoolhouse/student.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](SunDwarf)asyncqlio
+(SunDwarf)asyncqlio/tests/test_2table.py:56: error: Name 'Person' is not defined  [name-defined]
+(SunDwarf)asyncqlio/tests/test_2table.py:56: error: Name 'Car' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/orm/schema/history.py:101: error: "ColumnChange" has no attribute "_previous"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/utils.py:58: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:236: error: Argument 1 of "generate_sql" is incompatible with supertype "BaseOperator"; supertype defines the argument type as "Callable[[], Tuple[str, str]]"  [override]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:241: error: Too few arguments  [call-arg]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:275: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:289: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:303: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:310: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:317: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:324: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:331: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/operators.py:342: error: Incompatible types in assignment (expression has type "str", base class "ComparisonOp" defined the type as "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/backends/mysql/__init__.py:22: error: Cannot determine type of '__path__'  [has-type]
+(SunDwarf)asyncqlio/asyncqlio/meta.py:68: error: Incompatible types in assignment (expression has type "classmethod", variable has type "Callable[[], Any]")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/schema/index.py:83: error: Item "None" of "Optional[Any]" has no attribute "__tablename__"  [union-attr]
+(SunDwarf)asyncqlio/asyncqlio/orm/schema/column.py:128: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/schema/column.py:137: error: Attribute 'type' already defined on line 134  [no-redef]
+(SunDwarf)asyncqlio/asyncqlio/orm/schema/column.py:399: error: Incompatible return value type (got "None", expected "Column")  [return-value]
+(SunDwarf)asyncqlio/asyncqlio/backends/postgresql/__init__.py:24: error: Cannot determine type of '__path__'  [has-type]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/__init__.py:22: error: Cannot determine type of '__path__'  [has-type]
+(SunDwarf)asyncqlio/asyncqlio/db.py:56: error: Incompatible types in assignment (expression has type "object", variable has type "str")  [assignment]
+(SunDwarf)asyncqlio/tests/conftest.py:32: error: Unsupported dynamic base class "table_base"  [misc]
+(SunDwarf)asyncqlio/asyncqlio/orm/ddl/migration_tool.py:67: error: Incompatible types in assignment (expression has type "DummyTqdmFile", variable has type "TextIO")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/orm/ddl/migration_tool.py:177: error: Need type annotation for 'd' (hint: "d: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)asyncqlio/asyncqlio/orm/ddl/migration_tool.py:380: error: Need type annotation for 'loc' (hint: "loc: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)asyncqlio/asyncqlio/backends/postgresql/asyncpg.py:135: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Optional[Mapping[str, Any]]")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/backends/postgresql/asyncpg.py:135: error: Argument 2 to "get_param_query" has incompatible type "Optional[Mapping[str, Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(SunDwarf)asyncqlio/asyncqlio/backends/postgresql/asyncpg.py:155: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Optional[Mapping[str, Any]]")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/backends/postgresql/asyncpg.py:155: error: Argument 2 to "get_param_query" has incompatible type "Optional[Mapping[str, Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:27: error: Need type annotation for 'queue'  [var-annotated]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:31: error: Name 'sqlite3.Connection' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:33: error: "object" has no attribute "connect"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:35: error: "object" has no attribute "Row"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:49: error: Name 'sqlite3.Connection' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:55: error: Name 'sqlite3.Connection' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:91: error: Incompatible types in assignment (expression has type "None", variable has type "_SqlitePool")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:97: error: Incompatible types in assignment (expression has type "AbstractEventLoop", variable has type "None")  [assignment]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:128: error: Name 'sqlite3.Connection' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:153: error: "object" has no attribute "IntegrityError"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:155: error: "object" has no attribute "OperationalError"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:209: error: "object" has no attribute "OperationalError"  [attr-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:229: error: Name 'sqlite3.Cursor' is not defined  [name-defined]
+(SunDwarf)asyncqlio/asyncqlio/backends/sqlite3/aiosqlite3.py:236: error: Incompatible return value type (got "None", expected "Iterable[str]")  [return-value]
+Found 45 errors in 15 files (checked 24 source files)
+
+[RRepo](mbdevpl)open-fortran-parser-xml
+(mbdevpl)open-fortran-parser-xml/open_fortran_parser/dependencies.py:16: error: Name 'urllib.parse.ParseResult' is not defined  [name-defined]
+(mbdevpl)open-fortran-parser-xml/open_fortran_parser/dependencies.py:30: error: Module has no attribute "parse"  [attr-defined]
+Found 2 errors in 1 file (checked 9 source files)
+
+[RRepo](pydanny)cookiecutter-django
+(pydanny)cookiecutter-django/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/conftest.py:5: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](osrsbox)osrsbox-db
+(osrsbox)osrsbox-db/extraction_tools_cache/extract_item_inventory_actions.py:42: error: Need type annotation for 'inventory_actions'  [var-annotated]
+(osrsbox)osrsbox-db/extraction_tools_cache/extract_item_inventory_actions.py:54: error: Incompatible types in assignment (expression has type "List[Tuple[Any, int]]", variable has type "defaultdict[Any, int]")  [assignment]
+(osrsbox)osrsbox-db/test/test_quests_database.py:46: error: Incompatible types in assignment (expression has type "List[Path]", variable has type "Generator[Path, None, None]")  [assignment]
+(osrsbox)osrsbox-db/test/test_monsters_database.py:46: error: Incompatible types in assignment (expression has type "List[Path]", variable has type "Generator[Path, None, None]")  [assignment]
+(osrsbox)osrsbox-db/test/test_items_database.py:44: error: Incompatible types in assignment (expression has type "List[Path]", variable has type "Generator[Path, None, None]")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_cache/osrs_cache_data.py:165: error: Incompatible types in assignment (expression has type "List[Path]", variable has type "Generator[Path, None, None]")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_cache/extract_summary_model_ids.py:69: error: Need type annotation for 'all_models' (hint: "all_models: List[<type>] = ...")  [var-annotated]
+(osrsbox)osrsbox-db/extraction_tools_cache/extract_summary_model_ids.py:105: error: Incompatible types in assignment (expression has type "str", variable has type "PurePath")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_cache/extract_summary_model_ids.py:114: error: Argument 2 to "extract_model_ids" has incompatible type "PurePath"; expected "str"  [arg-type]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:59: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:61: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:64: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:66: error: Incompatible return value type (got "str", expected "bool")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:79: error: Incompatible return value type (got "int", expected "bool")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:85: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:88: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:90: error: Incompatible return value type (got "str", expected "bool")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:110: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:113: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:116: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:121: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:173: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:180: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:183: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:186: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:189: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:192: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:195: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:198: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:201: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:203: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:205: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:207: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:209: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:211: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:214: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:215: error: Incompatible return value type (got "str", expected "float")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:230: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:232: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:234: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:237: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:239: error: Incompatible return value type (got "str", expected "bool")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:257: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:260: error: Incompatible types in assignment (expression has type "datetime", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:261: error: "str" has no attribute "date"  [attr-defined]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:267: error: "str" has no attribute "date"  [attr-defined]
+(osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:269: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_wiki_data.py:54: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_wiki_data.py:58: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_wiki_data.py:70: error: Incompatible types in assignment (expression has type "datetime", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_wiki_data.py:124: error: Unsupported operand types for < ("datetime" and "str")  [operator]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:93: error: Need type annotation for 'categories_weapon_names'  [var-annotated]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:113: error: Need type annotation for 'table_output'  [var-annotated]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:132: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:135: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:138: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:141: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:144: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/extract_weapon_data.py:244: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:56: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:57: error: Incompatible return value type (got "Set[Any]", expected "List[Any]")  [return-value]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:62: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:63: error: Incompatible return value type (got "Set[Any]", expected "List[Any]")  [return-value]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:68: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:69: error: Incompatible return value type (got "Set[Any]", expected "List[Any]")  [return-value]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:74: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Set[Any]")  [assignment]
+(osrsbox)osrsbox-db/scripts/update_items/determine_new_items.py:75: error: Incompatible return value type (got "Set[Any]", expected "List[Any]")  [return-value]
+(osrsbox)osrsbox-db/extraction_tools_wiki/wiki_page_titles.py:120: error: Incompatible types in assignment (expression has type "None", target has type "str")  [assignment]
+(osrsbox)osrsbox-db/extraction_tools_wiki/wiki_page_titles.py:137: error: Need type annotation for 'last_continue' (hint: "last_continue: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 69 errors in 11 files (checked 27 source files)
+
+[RRepo](clarkerubber)irwin
+(clarkerubber)irwin/webapp/Env.py: error: Duplicate module named 'Env' (also at '/home/bew/archive/typed_project/(clarkerubber)irwin/Env.py')  [misc]
+(clarkerubber)irwin/webapp/Env.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 49 source files)
+
+[RRepo](1995parham)yepc
+(1995parham)yepc/yepc/http/route.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](RedMadRobot)rmr_django
+(RedMadRobot)rmr_django/rmr/utils/range.py: error: Duplicate module named 'range' (also at '/home/bew/archive/typed_project/(RedMadRobot)rmr_django/rmr/models/fields/range.py')  [misc]
+(RedMadRobot)rmr_django/rmr/utils/range.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 29 source files)
+
+[RRepo](aleksigron)kokko
+
+[RRepo](ceos-seo)data_cube_utilities
+(ceos-seo)data_cube_utilities/data_cube_utilities/dc_water_quality.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 48 source files)
+
+[RRepo](andreroggeri)pynubank
+(andreroggeri)pynubank/pynubank/nubank.py:79: error: Argument 1 has incompatible type "None"; expected "Union[str, bytes]"  [arg-type]
+(andreroggeri)pynubank/pynubank/nubank.py:110: error: Value of type "None" is not indexable  [index]
+(andreroggeri)pynubank/pynubank/nubank.py:127: error: Argument 1 has incompatible type "None"; expected "Union[str, bytes]"  [arg-type]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](SuLab)scheduled-bots
+(SuLab)scheduled-bots/scheduled_bots/faers/bot.py: error: Duplicate module named 'bot' (also at '/home/bew/archive/typed_project/(SuLab)scheduled-bots/scheduled_bots/drugs/mesh_pa/bot.py')  [misc]
+(SuLab)scheduled-bots/scheduled_bots/faers/bot.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 77 source files)
+
+[RRepo](atten)bucket_throttling
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:6: error: Relative import climbs too many namespaces  [misc]
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:7: error: Relative import climbs too many namespaces  [misc]
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:50: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:50: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:50: error: Name 'RuleList' is not defined  [name-defined]
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:50: error: Name 'ThrottlingRule' is not defined  [name-defined]
+(atten)bucket_throttling/bucket_throttling/integrations/django.py:52: error: Name 'ThrottlingOptions' is not defined  [name-defined]
+(atten)bucket_throttling/bucket_throttling/integrations/rest_framework.py:3: error: Relative import climbs too many namespaces  [misc]
+(atten)bucket_throttling/bucket_throttling/integrations/rest_framework.py:5: error: Relative import climbs too many namespaces  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:39: error: Need type annotation for 'redis_options' (hint: "redis_options: Dict[<type>, <type>] = ...")  [var-annotated]
+(atten)bucket_throttling/bucket_throttling/__init__.py:67: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:67: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:99: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:99: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:101: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:105: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:105: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:107: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:118: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:118: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:125: error: Item "None" of "Optional[ThrottlingRule]" has no attribute "interval"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:126: error: Item "None" of "Optional[ThrottlingRule]" has no attribute "interval"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/utils.py:15: error: Need type annotation for 'ret' (hint: "ret: List[<type>] = ...")  [var-annotated]
+Found 18 errors in 4 files (checked 6 source files)
+
+[RRepo](meetmangukiya)chubby
+(meetmangukiya)chubby/chubby/chubby.py:8: error: Module 'chubby' has no attribute 'VERSION'  [attr-defined]
+(meetmangukiya)chubby/chubby/chubby.py:16: error: Not all arguments converted during string formatting  [str-format]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](openfisca)openfisca-france-data
+(openfisca)openfisca-france-data/openfisca_france_data/felin/input_data_builder/create_variables_individuelles.py: error: Duplicate module named 'create_variables_individuelles' (also at '/home/bew/archive/typed_project/(openfisca)openfisca-france-data/openfisca_france_data/dads/input_data_builder/create_variables_individuelles.py')  [misc]
+Found 1 error in 1 file (checked 44 source files)
+
+[RRepo](alainrinder)quoridor.py
+(alainrinder)quoridor.py/src/action/PawnMove.py:13: error: Name 'IAction' is not defined  [name-defined]
+
+[RRepo](CenterForOpenScience)waterbutler
+(CenterForOpenScience)waterbutler/tests/providers/figshare/test_metadata.py: error: Duplicate module named 'test_metadata' (also at '/home/bew/archive/typed_project/(CenterForOpenScience)waterbutler/tests/providers/googlecloud/test_metadata.py')  [misc]
+Found 1 error in 1 file (checked 143 source files)
+
+[RRepo](drssoccer55)RLBot
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_agent.py:81: error: Name 'MatchConfig' is not defined  [name-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_agent.py:125: error: "None" not callable  [misc]
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_agent.py:129: error: "None" not callable  [misc]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:69: error: "None" has no attribute "config_directory"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:70: error: "None" has no attribute "set_value"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:79: error: Item "None" of "Optional[Any]" has no attribute "looks_path"  [union-attr]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:81: error: "None" has no attribute "set_value"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:88: error: "None" has no attribute "set_value"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:96: error: "None" has no attribute "set_value"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/gui/gui_agent.py:103: error: "None" has no attribute "set_value"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/parsing/bot_config_bundle.py:17: error: Argument 2 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(drssoccer55)RLBot/src/main/python/rlbot/matchconfig/match_config.py:147: error: Need type annotation for 'name_dict' (hint: "name_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/training/training.py:202: error: Missing return statement  [return]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:127: error: "None" has no attribute "UpdateLiveDataPacket"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:132: error: "None" has no attribute "UpdateFieldInfo"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:264: error: "None" has no attribute "SetGameState"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:287: error: "None" has no attribute "UpdateRigidBodyTick"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:296: error: "None" has no attribute "UpdateFieldInfoFlatbuffer"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:302: error: "None" has no attribute "Free"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:307: error: "None" has no attribute "GetBallPredictionStruct"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:315: error: "None" has no attribute "GetBallPrediction"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_interface.py:321: error: "None" has no attribute "Free"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_data_struct.py:122: error: Unsupported operand types for * ("Type[BoostPadState]" and "int")  [operator]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_data_struct.py:126: error: Unsupported operand types for * ("Type[TileInfo]" and "int")  [operator]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_data_struct.py:128: error: Unsupported operand types for * ("Type[TeamInfo]" and "int")  [operator]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_data_struct.py:144: error: Unsupported operand types for * ("Type[BoostPad]" and "int")  [operator]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/game_data_struct.py:146: error: Unsupported operand types for * ("Type[GoalInfo]" and "int")  [operator]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/rendering/rendering_manager.py:351: error: Incompatible types in assignment (expression has type "Number", variable has type "float")  [assignment]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/rendering/rendering_manager.py:352: error: Incompatible types in assignment (expression has type "Number", variable has type "float")  [assignment]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/rendering/rendering_manager.py:357: error: Incompatible types in assignment (expression has type "Number", variable has type "float")  [assignment]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Bodies' (hint: "Bodies: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Wheels' (hint: "Wheels: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Boosts' (hint: "Boosts: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Antennas' (hint: "Antennas: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Decals' (hint: "Decals: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Toppers' (hint: "Toppers: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Trails' (hint: "Trails: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Goal_Explosions' (hint: "Goal_Explosions: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Paints' (hint: "Paints: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Banners' (hint: "Banners: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/item_id_parser.py:7: error: Need type annotation for 'Engine_Audio' (hint: "Engine_Audio: List[<type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/test/python/integration_test/training_test.py:92: error: Missing return statement  [return]
+(drssoccer55)RLBot/src/test/python/integration_test/training_test.py:115: error: Name 'ratio_over_time' is not defined  [name-defined]
+(drssoccer55)RLBot/src/test/python/integration_test/training_test.py:174: error: Missing return statement  [return]
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_subprocess_agent.py:25: error: Function "multiprocessing.Event" is not valid as a type  [valid-type]
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_subprocess_agent.py:25: note: Perhaps you need "Callable[...]" or a callback protocol?
+(drssoccer55)RLBot/src/main/python/rlbot/agents/base_subprocess_agent.py:38: error: Event? has no attribute "wait"  [attr-defined]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/helper_process_manager.py:16: error: Function "multiprocessing.Event" is not valid as a type  [valid-type]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/helper_process_manager.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/helper_process_manager.py:18: error: Need type annotation for 'helper_process_map' (hint: "helper_process_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/helper_process_manager.py:32: error: Need type annotation for 'metadata_queue'  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/helper_process_manager.py:44: error: Incompatible types in assignment (expression has type "Popen[bytes]", variable has type "Process")  [assignment]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/bot_helper_process.py:11: error: Function "multiprocessing.Event" is not valid as a type  [valid-type]
+(drssoccer55)RLBot/src/main/python/rlbot/botmanager/bot_helper_process.py:11: note: Perhaps you need "Callable[...]" or a callback protocol?
+(drssoccer55)RLBot/src/main/python/rlbot/utils/structures/quick_chats.py:84: error: Need type annotation for 'bot_queues' (hint: "bot_queues: Dict[<type>, <type>] = ...")  [var-annotated]
+(drssoccer55)RLBot/src/main/python/rlbot/utils/public_utils.py:10: error: Name 'httplib' already defined (possibly by an import)  [no-redef]
+Found 53 errors in 15 files (checked 68 source files)
+
+[RRepo](astraw)stdeb
+(astraw)stdeb/test_data/py2_only_pkg/py2_only_pkg/py2_module.py:4: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 12 source files)
+

@@ -1,0 +1,695 @@
+[RRepo](AlexandreDecan)sismic
+
+[RRepo](appleseedhq)blenderseed
+
+[RRepo](upsight)doctor
+
+[RRepo](pnuckowski)aioresponses
+
+[RRepo](davidhamann)python-fmrest
+
+[RRepo](Cepesp-Fgv)tse-dados
+
+[RRepo](JosXa)BotListBot
+
+[RRepo](google-research)morph-net
+
+[RRepo](foozmeat)lack
+Success: no issues found in 1 source file
+
+[RRepo](google)tmppy
+
+[RRepo](oysstu)pyxtf
+(oysstu)pyxtf/pyxtf/xtf_io.py:23: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:23: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:23: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:24: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:24: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:24: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:40: error: Name 'XTFFileHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:40: error: Name 'XTFPacket' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:40: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:40: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:40: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:54: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:54: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:54: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:61: error: Name 'XTFFileHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:78: error: Name 'XTFPacketClasses' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:78: error: Name 'XTFUnknownPacket' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:82: error: Name 'XTFUnknownPacket' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:84: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:94: error: Name 'XTFPacketStart' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:98: error: "BinaryIO" has no attribute "peek"  [attr-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:105: error: "BinaryIO" has no attribute "readinto"  [attr-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:106: error: Name 'XTFPacketStart' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:111: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:113: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:120: error: Name 'XTFPacketClasses' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:120: error: Name 'XTFUnknownPacket' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:123: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:126: error: Name 'XTFUnknownPacket' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:150: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:150: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:150: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:150: error: Name 'XTFFileHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:162: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:162: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:162: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:165: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:167: error: Name 'XTFHeaderType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:177: error: Name 'List' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:177: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(oysstu)pyxtf/pyxtf/xtf_io.py:177: error: Name 'XTFPingHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:178: error: Name 'XTFFileHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:180: error: Name 'np' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:190: error: Name 'XTFPingHeader' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:198: error: Name 'np' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:203: error: Name 'np' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:207: error: Name 'XTFChannelType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:210: error: Name 'XTFChannelType' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/xtf_io.py:223: error: Name 'np' is not defined  [name-defined]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:174: error: Unsupported operand types for * ("Type[KMRawRangeAngle78_TX]" and "int")  [operator]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:175: error: Unsupported operand types for * ("Type[KMRawRangeAngle78_RX]" and "int")  [operator]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:183: error: List item 0 has incompatible type "Type[bytes]"; expected "Type[bytes]"  [list-item]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:184: error: Incompatible types in assignment (expression has type "BytesIO", variable has type "IOBase")  [assignment]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:184: error: Argument 1 to "BytesIO" has incompatible type "IOBase"; expected "bytes"  [arg-type]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:187: error: "IOBase" has no attribute "read"  [attr-defined]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:193: error: "IOBase" has no attribute "read"  [attr-defined]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:200: error: Unsupported operand types for * ("Type[KMRawRangeAngle78_TX]" and "int")  [operator]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:201: error: Unsupported operand types for * ("Type[KMRawRangeAngle78_RX]" and "int")  [operator]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:209: error: "type" has no attribute "from_buffer_copy"  [attr-defined]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:212: error: "type" has no attribute "DatagramType"  [attr-defined]
+(oysstu)pyxtf/pyxtf/vendors/kongsberg.py:212: error: "type" has no attribute "EndID"  [attr-defined]
+Found 54 errors in 2 files (checked 1 source file)
+
+[RRepo](quantmind)pulsar
+(quantmind)pulsar/extensions/ext.py:7: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(quantmind)pulsar/setup.py:12: error: Name 'cmds.Test' is not defined  [name-defined]
+(quantmind)pulsar/setup.py:42: error: Module has no attribute "__version__"  [attr-defined]
+(quantmind)pulsar/setup.py:44: error: Module has no attribute "__author__"  [attr-defined]
+Found 4 errors in 2 files (checked 1 source file)
+
+[RRepo](LordAmit)epub-highlighter
+(LordAmit)epub-highlighter/epub_highlighter.py:47: error: Unsupported operand types for + ("str" and "None")  [operator]
+(LordAmit)epub-highlighter/epub_highlighter.py:47: note: Right operand is of type "Optional[Any]"
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](guyingbo)cowfish
+
+[RRepo](MichaelYusko)Bot-Chucky
+
+[RRepo](EnergieID)ediel
+
+[RRepo](chenpota)python
+
+[RRepo](Rafiot)uwhoisd
+(Rafiot)uwhoisd/uwhoisd/helpers.py:58: error: Missing return statement  [return]
+(Rafiot)uwhoisd/uwhoisd/helpers.py:72: error: Incompatible return value type (got "int", expected "bool")  [return-value]
+Found 2 errors in 1 file (checked 5 source files)
+
+[RRepo](josiah-wolf-oberholtzer)supriya
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:108: error: Module 'supriya.midi' has no attribute 'Device'  [attr-defined]
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:110: error: Module 'supriya.nonrealtime' has no attribute 'Session'  [attr-defined]
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:111: error: Module 'supriya.realtime' has no attribute 'Buffer'  [attr-defined]
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:111: error: Module 'supriya.realtime' has no attribute 'Server'  [attr-defined]
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:122: error: Module 'supriya.synthdefs' has no attribute 'SynthDef'  [attr-defined]
+(josiah-wolf-oberholtzer)supriya/supriya/__init__.py:122: error: Module 'supriya.synthdefs' has no attribute 'SynthDefFactory'  [attr-defined]
+Found 6 errors in 1 file (checked 15 source files)
+
+[RRepo](keon)algorithms
+Success: no issues found in 1 source file
+
+[RRepo](AntoineGagne)cmus-notify
+Success: no issues found in 1 source file
+
+[RRepo](airbnb)superset
+(airbnb)superset/superset/connectors/connector_registry.py:24: error: Need type annotation for 'sources' (hint: "sources: Dict[<type>, <type>] = ...")  [var-annotated]
+(airbnb)superset/superset/models/helpers.py:51: error: Need type annotation for 'export_children' (hint: "export_children: List[<type>] = ...")  [var-annotated]
+(airbnb)superset/superset/models/helpers.py:55: error: Need type annotation for 'export_fields' (hint: "export_fields: List[<type>] = ...")  [var-annotated]
+(airbnb)superset/superset/__init__.py:34: error: Module 'superset' has no attribute 'config'; maybe "conf"?  [attr-defined]
+(airbnb)superset/superset/__init__.py:110: error: Item "None" of "Optional[Any]" has no attribute "__iter__" (not iterable)  [union-attr]
+(airbnb)superset/superset/__init__.py:145: error: Argument "format" to "basicConfig" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(airbnb)superset/superset/__init__.py:146: error: Argument 1 to "setLevel" of "Logger" has incompatible type "Optional[Any]"; expected "Union[int, str]"  [arg-type]
+(airbnb)superset/superset/__init__.py:149: error: Argument 1 to "setLevel" of "Logger" has incompatible type "Optional[Any]"; expected "Union[int, str]"  [arg-type]
+(airbnb)superset/superset/__init__.py:151: error: Argument 1 to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(airbnb)superset/superset/__init__.py:152: error: Argument "when" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(airbnb)superset/superset/__init__.py:153: error: Argument "interval" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "int"  [arg-type]
+(airbnb)superset/superset/__init__.py:154: error: Argument "backupCount" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "int"  [arg-type]
+(airbnb)superset/superset/__init__.py:162: error: Cannot assign to a method  [assignment]
+(airbnb)superset/superset/__init__.py:177: error: Cannot assign to a method  [assignment]
+(airbnb)superset/superset/__init__.py:181: error: Argument 1 to "makedirs" has incompatible type "Optional[Any]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(airbnb)superset/superset/__init__.py:185: error: Item "None" of "Optional[Any]" has no attribute "__iter__" (not iterable)  [union-attr]
+(airbnb)superset/superset/__init__.py:186: error: Cannot assign to a method  [assignment]
+(airbnb)superset/superset/__init__.py:234: error: Item "None" of "Optional[Any]" has no attribute "update"  [union-attr]
+(airbnb)superset/superset/models/tags.py:187: error: Incompatible types in assignment (expression has type "str", base class "ObjectUpdater" defined the type as "None")  [assignment]
+(airbnb)superset/superset/models/tags.py:196: error: Incompatible types in assignment (expression has type "str", base class "ObjectUpdater" defined the type as "None")  [assignment]
+(airbnb)superset/superset/models/tags.py:205: error: Incompatible types in assignment (expression has type "str", base class "ObjectUpdater" defined the type as "None")  [assignment]
+(airbnb)superset/superset/jinja_context.py:183: error: Incompatible types in assignment (expression has type "str", base class "BaseTemplateProcessor" defined the type as "None")  [assignment]
+(airbnb)superset/superset/forms.py:29: error: Module 'superset.models' has no attribute 'core'  [attr-defined]
+(airbnb)superset/superset/forms.py:62: error: Method must have at least one argument  [misc]
+Found 24 errors in 6 files (checked 11 source files)
+
+[RRepo](gilmarsquinelato)gulpy
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'Task'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'run_task'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'log'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'ok'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'warn'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'fail'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:2: error: Module 'gulpy' has no attribute 'Stream'  [attr-defined]
+(gilmarsquinelato)gulpy/gul.py:3: error: Module 'gulpy.pipes' has no attribute 'Concat'  [attr-defined]
+Found 8 errors in 1 file (checked 1 source file)
+
+[RRepo](DataReply)persistable
+
+[RRepo](PyconUK)ConferenceScheduler
+
+[RRepo](MTG)dunya
+Success: no issues found in 1 source file
+
+[RRepo](q2apro)graph-padowan
+
+[RRepo](axbaretto)beam
+
+[RRepo](zhreshold)mxnet
+(zhreshold)mxnet/dev_menu.py:84: error: Incompatible return value type (got "List[str]", expected "str")  [return-value]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](inb-co)easy-job
+Success: no issues found in 11 source files
+
+[RRepo](kayak)fireant
+Success: no issues found in 1 source file
+
+[RRepo](AndreaOrru)Gilgamesh
+
+[RRepo](ozmartian)tvlinker
+Success: no issues found in 1 source file
+
+[RRepo](legalese)legalese-compiler
+
+[RRepo](Brig13Team)Operation_Kerberos
+
+[RRepo](creativecommons)open-ledger
+Success: no issues found in 1 source file
+
+[RRepo](fraserxiong)sudoku_solver
+(fraserxiong)sudoku_solver/sudoku.py:53: error: Need type annotation for '_3d' (hint: "_3d: List[<type>] = ...")  [var-annotated]
+(fraserxiong)sudoku_solver/sudoku.py:68: error: Need type annotation for '_2d' (hint: "_2d: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](ascoderu)opwen-webapp
+(ascoderu)opwen-webapp/opwen_email_client/domain/modem/__init__.py:8: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(ascoderu)opwen-webapp/opwen_email_client/domain/modem/__init__.py:9: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(ascoderu)opwen-webapp/opwen_email_client/domain/modem/__init__.py:11: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/store.py:100: error: Invalid index type "str" for "Union[str, Dict[Any, Any]]"; expected type "Union[int, slice]"  [index]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/store.py:102: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "str")  [return-value]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/store.py:106: error: Need type annotation for 'recipients' (hint: "recipients: Set[<type>] = ...")  [var-annotated]
+(ascoderu)opwen-webapp/opwen_email_client/domain/sim/__init__.py:23: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "Path")  [assignment]
+(ascoderu)opwen-webapp/opwen_email_client/domain/sim/__init__.py:24: error: Argument 2 to "_start_dialer" has incompatible type "Path"; expected "IO[Any]"  [arg-type]
+(ascoderu)opwen-webapp/opwen_email_client/util/serialization.py:27: error: Argument 1 of "serialize" is incompatible with supertype "Serializer"; supertype defines the argument type as "T"  [override]
+(ascoderu)opwen-webapp/opwen_email_client/util/serialization.py:36: error: Missing return statement  [return]
+(ascoderu)opwen-webapp/opwen_email_client/util/serialization.py:36: error: Return type "Dict[Any, Any]" of "deserialize" incompatible with return type "T" in supertype "Serializer"  [override]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/login.py:26: error: Module 'opwen_email_client.webapp' has no attribute 'app'  [attr-defined]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/login.py:40: error: Name '_db.Model' is not defined  [name-defined]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/login.py:90: error: Name '_db.Model' is not defined  [name-defined]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/client.py:71: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/client.py:71: error: Argument 2 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/sync.py:67: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(ascoderu)opwen-webapp/opwen_email_client/domain/email/sync.py:132: error: Argument 1 to "join" of "str" has incompatible type "List[Download]"; expected "Iterable[str]"  [arg-type]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/actions.py:18: error: Module 'opwen_email_client.domain.modem' has no attribute 'e303'  [attr-defined]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/actions.py:19: error: Module 'opwen_email_client.domain.modem' has no attribute 'e353'  [attr-defined]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/actions.py:20: error: Module 'opwen_email_client.domain.modem' has no attribute 'e3131'  [attr-defined]
+(ascoderu)opwen-webapp/opwen_email_client/webapp/actions.py:161: error: Module has no attribute "wvdial"  [attr-defined]
+(ascoderu)opwen-webapp/manage.py:14: error: Module 'opwen_email_client.webapp' has no attribute 'app'  [attr-defined]
+Found 23 errors in 9 files (checked 1 source file)
+
+[RRepo](vigojug)reto
+
+[RRepo](KlausPopp)Moddy
+Success: no issues found in 1 source file
+
+[RRepo](numberoverzero)bottom
+(numberoverzero)bottom/setup.py:14: error: Need type annotation for 'REQUIREMENTS' (hint: "REQUIREMENTS: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](gorgitko)molminer
+
+[RRepo](jamesstidard)sanic-envconfig
+(jamesstidard)sanic-envconfig/setup.py:13: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(jamesstidard)sanic-envconfig/setup.py:26: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(jamesstidard)sanic-envconfig/setup.py:73: error: Argument "classifiers" to "setup" has incompatible type "Tuple[str, str, str, str, str]"; expected "List[str]"  [arg-type]
+(jamesstidard)sanic-envconfig/sanic_envconfig/envconfig.py:11: error: Need type annotation for 'config' (hint: "config: Dict[<type>, <type>] = ...")  [var-annotated]
+(jamesstidard)sanic-envconfig/sanic_envconfig/envconfig.py:12: error: Need type annotation for 'parsers' (hint: "parsers: Dict[<type>, <type>] = ...")  [var-annotated]
+(jamesstidard)sanic-envconfig/sanic_envconfig/envconfig.py:16: error: Argument 2 to "__set_name__" of "EnvVar" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 6 errors in 2 files (checked 4 source files)
+
+[RRepo](eruvanos)openbrokerapi
+(eruvanos)openbrokerapi/tests/test_serve.py:17: error: Need type annotation for 'instances' (hint: "instances: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](JHUISI)charm
+(JHUISI)charm/setup.py:27: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(JHUISI)charm/setup.py:112: error: Incompatible types in assignment (expression has type "None", variable has type "List[str]")  [assignment]
+(JHUISI)charm/setup.py:149: error: Item "None" of "Optional[Any]" has no attribute "split"  [union-attr]
+(JHUISI)charm/setup.py:150: error: Item "None" of "Optional[Any]" has no attribute "split"  [union-attr]
+(JHUISI)charm/setup.py:151: error: Item "None" of "Optional[Any]" has no attribute "split"  [union-attr]
+(JHUISI)charm/setup.py:161: error: Argument "define_macros" to "Extension" has incompatible type "Optional[List[Tuple[str, str]]]"; expected "List[Tuple[str, Optional[str]]]"  [arg-type]
+(JHUISI)charm/setup.py:176: error: Argument "define_macros" to "Extension" has incompatible type "Optional[List[Tuple[str, str]]]"; expected "List[Tuple[str, Optional[str]]]"  [arg-type]
+(JHUISI)charm/setup.py:191: error: Argument "define_macros" to "Extension" has incompatible type "Optional[List[Tuple[str, str]]]"; expected "List[Tuple[str, Optional[str]]]"  [arg-type]
+(JHUISI)charm/setup.py:192: error: Argument "extra_compile_args" to "Extension" has incompatible type "None"; expected "List[str]"  [arg-type]
+(JHUISI)charm/setup.py:204: error: Argument "define_macros" to "Extension" has incompatible type "Optional[List[Tuple[str, str]]]"; expected "List[Tuple[str, Optional[str]]]"  [arg-type]
+(JHUISI)charm/setup.py:215: error: Argument "define_macros" to "Extension" has incompatible type "Optional[List[Tuple[str, str]]]"; expected "List[Tuple[str, Optional[str]]]"  [arg-type]
+(JHUISI)charm/setup.py:243: error: "Extension" has no attribute "sources"  [attr-defined]
+(JHUISI)charm/setup.py:244: error: "Extension" has no attribute "sources"  [attr-defined]
+(JHUISI)charm/setup.py:245: error: "Extension" has no attribute "sources"  [attr-defined]
+Found 14 errors in 1 file (checked 1 source file)
+
+[RRepo](foliant-docs)foliant
+
+[RRepo](SolarLune)SolHelp
+
+[RRepo](Microvellum)Fluid-Designer
+
+[RRepo](rahiel)BismillahBot
+(rahiel)BismillahBot/bismillah.py:28: error: Module 'bismillahbot' has no attribute 'Quran'  [attr-defined]
+(rahiel)BismillahBot/bismillah.py:28: error: Module 'bismillahbot' has no attribute 'make_index'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](siddhantgoel)streaming-form-data
+Success: no issues found in 1 source file
+
+[RRepo](Rhilip)Byrbt-Autoseed
+
+[RRepo](endlessm)chromium-browser
+
+[RRepo](madvirus)kotlin-web-site
+(madvirus)kotlin-web-site/src/pdf_ko.py:60: error: Module "src.pages.MyFlatPages" is not valid as a type  [valid-type]
+(madvirus)kotlin-web-site/src/pdf_ko.py:82: error: MyFlatPages? has no attribute "get"  [attr-defined]
+(madvirus)kotlin-web-site/src/pdf_ko.py:107: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(madvirus)kotlin-web-site/src/pdf.py:59: error: Module "src.pages.MyFlatPages" is not valid as a type  [valid-type]
+(madvirus)kotlin-web-site/src/pdf.py:81: error: MyFlatPages? has no attribute "get"  [attr-defined]
+(madvirus)kotlin-web-site/src/pdf.py:107: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(madvirus)kotlin-web-site/kotlin-website.py:261: error: Name 'page' already defined on line 255  [no-redef]
+(madvirus)kotlin-web-site/kotlin-website.py:274: error: Name 'api_page' already defined on line 266  [no-redef]
+(madvirus)kotlin-web-site/kotlin-website.py:309: error: Name 'asset' already defined on line 299  [no-redef]
+Found 9 errors in 3 files (checked 1 source file)
+
+[RRepo](taigaio)taiga-contrib-gitlab-auth
+
+[RRepo](samclane)Snake-Cogs
+
+[RRepo](ItsCalebJones)SpaceLaunchNow-Server
+(ItsCalebJones)SpaceLaunchNow-Server/bot.py:18: error: Module 'spacelaunchnow' has no attribute 'config'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](marius92mc)github-stargazers
+(marius92mc)github-stargazers/github_stargazers/github.py:69: error: 'None' object is not iterable  [misc]
+(marius92mc)github-stargazers/github_stargazers/github.py:101: error: Item "None" of "Optional[Any]" has no attribute "find_all"  [union-attr]
+Found 2 errors in 1 file (checked 5 source files)
+
+[RRepo](HuimingCheng)AutoGrading
+
+[RRepo](kiwitcms)Kiwi
+(kiwitcms)Kiwi/kiwi_lint/empty.py:48: error: Need type annotation for 'all_python_files' (hint: "all_python_files: Set[<type>] = ...")  [var-annotated]
+(kiwitcms)Kiwi/kiwi_lint/empty.py:51: error: Need type annotation for 'discovered_python_files' (hint: "discovered_python_files: Set[<type>] = ...")  [var-annotated]
+(kiwitcms)Kiwi/setup.py:40: error: Module has no attribute "__version__"  [attr-defined]
+(kiwitcms)Kiwi/kiwi_lint/docstring.py:21: error: Need type annotation for '_string_tokens' (hint: "_string_tokens: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 4 errors in 3 files (checked 16 source files)
+
+[RRepo](stoq)stoqdrivers
+
+[RRepo](pyvideo)pyvideo
+(pyvideo)pyvideo/pelicanconf.py:133: error: Argument 1 to "int" has incompatible type "Optional[str]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(pyvideo)pyvideo/pelicanconf.py:135: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](Yottabits)102shows
+
+[RRepo](tuomas2)serviceform
+
+[RRepo](timeyyy)piefuzz
+(timeyyy)piefuzz/setup.py:3: error: Module 'distutils.command.install' has no attribute 'INSTALL_SCHEMES'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](gcarq)freqtrade
+
+[RRepo](sedders123)phial
+Success: no issues found in 1 source file
+
+[RRepo](geome-mitbbs)QTS_Research
+(geome-mitbbs)QTS_Research/Portfolio.py:3: error: No parent module -- cannot perform relative import  [misc]
+(geome-mitbbs)QTS_Research/Portfolio.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 7 source files)
+
+[RRepo](M1ND-B3ND3R)BoopSuite
+(M1ND-B3ND3R)BoopSuite/boop/__init__.py:77: error: Need type annotation for 'handler_map'  [var-annotated]
+(M1ND-B3ND3R)BoopSuite/boop/__init__.py:160: error: "append" of "list" does not return a value  [func-returns-value]
+(M1ND-B3ND3R)BoopSuite/boop/__init__.py:163: error: "append" of "list" does not return a value  [func-returns-value]
+(M1ND-B3ND3R)BoopSuite/boop/__main__.py:9: error: "BoopSniff" has no attribute "packets"  [attr-defined]
+(M1ND-B3ND3R)BoopSuite/boop/__main__.py:16: error: Name 'pkt' already defined on line 11  [no-redef]
+Found 5 errors in 2 files (checked 3 source files)
+
+[RRepo](jgoppert)pymola
+(jgoppert)pymola/setup.py:59: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](madedotcom)photon-pump
+Deferral trace:
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+    photonpump.messages:10
+    photonpump.messages:-1
+    photonpump.messages:131
+    photonpump.messages:132
+    photonpump.messages:134
+    photonpump.messages:456
+    photonpump.messages:458
+    photonpump.messages:460
+    photonpump.messages:463
+    photonpump:5
+(madedotcom)photon-pump/photonpump/__init__.py: error: INTERNAL ERROR: maximum semantic analysis iteration count reached  [misc]
+(madedotcom)photon-pump/photonpump/messages.py:402: error: Cannot resolve name "messages_pb2.ResolvedEvent" (possible cyclic definition)  [misc]
+(madedotcom)photon-pump/photonpump/messages.py:404: error: Cannot resolve name "messages_pb2" (possible cyclic definition)  [misc]
+(madedotcom)photon-pump/photonpump/messages.py:468: error: Variable "photonpump.messages.SubscriptionResult" is not valid as a type  [valid-type]
+Found 4 errors in 2 files (checked 6 source files)
+
+[RRepo](lpfann)fri
+
+[RRepo](HackFSU)hackfsu_com
+
+[RRepo](chaicko)AlgorithmicToolbox
+
+[RRepo](veegee)amqpy
+Success: no issues found in 1 source file
+
+[RRepo](zz-systems)zacc
+
+[RRepo](ajinabraham)Mobile-Security-Framework-MobSF
+
+[RRepo](meraki-analytics)merakicommons
+
+[RRepo](subdownloader)subdownloader
+(subdownloader)subdownloader/subdownloader/project.py:95: error: Need type annotation for 'TRANSLATORS' (hint: "TRANSLATORS: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](luckydonald)teleflask
+
+[RRepo](RookieGameDevs)revived
+
+[RRepo](beancount)fava
+
+[RRepo](kreopt)aioweb
+(kreopt)aioweb/aioweb/conf/__init__.py:15: error: Module 'aioweb.conf' has no attribute 'global_settings'  [attr-defined]
+(kreopt)aioweb/aioweb/modules/template/__init__.py:4: error: "Settings" has no attribute "TEMPLATE_BACKEND"  [attr-defined]
+(kreopt)aioweb/aioweb/util/conf_reader/__init__.py:14: error: "Settings" has no attribute "BASE_DIR"  [attr-defined]
+(kreopt)aioweb/aioweb/util/conf_reader/__init__.py:17: error: "Settings" has no attribute "BASE_DIR"  [attr-defined]
+(kreopt)aioweb/aioweb/core/router/mutidirstatic.py:9: error: Module 'yarl' has no attribute 'unquote'  [attr-defined]
+Found 5 errors in 4 files (checked 11 source files)
+
+[RRepo](littlezz)island-backup
+
+[RRepo](malaonline)Server
+
+[RRepo](atiq-cs)Problem-Solving
+
+[RRepo](pecryptfs)pecryptfs
+
+[RRepo](BogyMitutoyoCTL)CalculatorCV
+(BogyMitutoyoCTL)CalculatorCV/Window.py:6: error: Module "Settings" is not valid as a type  [valid-type]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:21: error: Settings? has no attribute "change_lower_h"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:22: error: Settings? has no attribute "change_upper_h"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:23: error: Settings? has no attribute "change_lower_s"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:24: error: Settings? has no attribute "change_upper_s"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:25: error: Settings? has no attribute "change_lower_v"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:26: error: Settings? has no attribute "change_upper_v"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:28: error: Settings? has no attribute "change_factor"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/Window.py:32: error: Settings? has no attribute "change_recognition_size"  [attr-defined]
+(BogyMitutoyoCTL)CalculatorCV/ImageProcessing.py:53: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(BogyMitutoyoCTL)CalculatorCV/ImageProcessing.py:54: error: Value of type "int" is not indexable  [index]
+(BogyMitutoyoCTL)CalculatorCV/ImageProcessing.py:57: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BogyMitutoyoCTL)CalculatorCV/ImageProcessing.py:57: note: Did you mean "List[...]"?
+(BogyMitutoyoCTL)CalculatorCV/ImageProcessing.py:84: error: Incompatible return value type (got "Tuple[List[int], List[Any]]", expected "Tuple[int, int]")  [return-value]
+(BogyMitutoyoCTL)CalculatorCV/ButtonGenerator.py:116: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BogyMitutoyoCTL)CalculatorCV/ButtonGenerator.py:116: note: Did you mean "List[...]"?
+(BogyMitutoyoCTL)CalculatorCV/HistoryData.py:6: error: Module "datetime" is not valid as a type  [valid-type]
+(BogyMitutoyoCTL)CalculatorCV/History.py:20: error: Module "datetime" is not valid as a type  [valid-type]
+(BogyMitutoyoCTL)CalculatorCV/History.py:43: error: Unsupported left operand type for - (datetime?)  [operator]
+(BogyMitutoyoCTL)CalculatorCV/History.py:81: error: Unsupported left operand type for - (datetime?)  [operator]
+(BogyMitutoyoCTL)CalculatorCV/KeyListener.py:11: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(BogyMitutoyoCTL)CalculatorCV/KeyListener.py:12: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(BogyMitutoyoCTL)CalculatorCV/MainMouse.py:137: error: Need type annotation for 'queue'  [var-annotated]
+(BogyMitutoyoCTL)CalculatorCV/Main.py:164: error: Need type annotation for 'queue'  [var-annotated]
+Found 22 errors in 8 files (checked 15 source files)
+
+[RRepo](JohnStarich)python-pool-performance
+(JohnStarich)python-pool-performance/pools/standard_library.py:1: error: Module 'pools' has no attribute 'PoolTest'  [attr-defined]
+(JohnStarich)python-pool-performance/pools/multiprocessing.py:1: error: Module 'pools' has no attribute 'PoolTest'  [attr-defined]
+(JohnStarich)python-pool-performance/pools/gevent.py:1: error: Module 'pools' has no attribute 'PoolTest'  [attr-defined]
+(JohnStarich)python-pool-performance/pools/eventlet.py:1: error: Module 'pools' has no attribute 'PoolTest'  [attr-defined]
+(JohnStarich)python-pool-performance/pools.py:38: error: Incompatible return value type (got "List[Mapping[Any, Any]]", expected "Mapping[Any, Any]")  [return-value]
+(JohnStarich)python-pool-performance/pools.py:187: error: Incompatible types in assignment (expression has type "OrderedDict[str, Any]", variable has type "Iterator[Tuple[str, Any]]")  [assignment]
+(JohnStarich)python-pool-performance/pools.py:187: note: 'OrderedDict' is missing following 'Iterator' protocol member:
+(JohnStarich)python-pool-performance/pools.py:187: note:     __next__
+(JohnStarich)python-pool-performance/pools.py:187: note: Following member(s) of "OrderedDict[str, Any]" have conflicts:
+(JohnStarich)python-pool-performance/pools.py:187: note:     Expected:
+(JohnStarich)python-pool-performance/pools.py:187: note:         def __iter__(self) -> Iterator[Tuple[str, Any]]
+(JohnStarich)python-pool-performance/pools.py:187: note:     Got:
+(JohnStarich)python-pool-performance/pools.py:187: note:         def __iter__(self) -> Iterator[str]
+(JohnStarich)python-pool-performance/pools.py:191: error: "Iterator[Tuple[str, Any]]" has no attribute "items"  [attr-defined]
+(JohnStarich)python-pool-performance/pools.py:228: error: "Iterator[Tuple[str, Any]]" has no attribute "keys"  [attr-defined]
+Found 8 errors in 5 files (checked 4 source files)
+
+[RRepo](mugwort-rc)py2cpp
+
+[RRepo](opensyllabus)osp-pipeline
+(opensyllabus)osp-pipeline/osp_pipeline/institutions/models.py:24: error: Incompatible types in assignment (expression has type "int", base class "Model" defined the type as "None")  [assignment]
+(opensyllabus)osp-pipeline/osp_pipeline/institutions/models.py:113: error: Incompatible types in assignment (expression has type "int", base class "Model" defined the type as "None")  [assignment]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](choderalab)openmmtools
+
+[RRepo](sonusz)PhasorToolBox
+Success: no issues found in 1 source file
+
+[RRepo](zalandoresearch)fashion-mnist
+(zalandoresearch)fashion-mnist/utils/argparser.py:9: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:12: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:16: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:18: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:20: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:29: error: Need type annotation for 'd'  [var-annotated]
+(zalandoresearch)fashion-mnist/utils/argparser.py:33: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "str")  [assignment]
+(zalandoresearch)fashion-mnist/utils/argparser.py:38: error: Incompatible types in assignment (expression has type "Union[str, float]", target has type "List[Any]")  [assignment]
+(zalandoresearch)fashion-mnist/benchmark/runner.py:76: error: Unsupported left operand type for - ("None")  [operator]
+(zalandoresearch)fashion-mnist/benchmark/runner.py:108: error: Need type annotation for 'pending_q'  [var-annotated]
+Found 10 errors in 2 files (checked 2 source files)
+
+[RRepo](flacjacket)pywayland
+(flacjacket)pywayland/setup.py:22: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(flacjacket)pywayland/setup.py:116: error: Module 'pywayland' has no attribute '__wayland_version__'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](IPMITMO)statan
+
+[RRepo](tmthyjames)SQLCell
+
+[RRepo](veltzer)openbook
+
+[RRepo](crowsonkb)style_transfer
+(crowsonkb)style_transfer/log_utils.py:8: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](Caronthir)FYS3150
+
+[RRepo](NephyProject)PyChroner
+

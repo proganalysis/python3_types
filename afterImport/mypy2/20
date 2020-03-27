@@ -1,0 +1,428 @@
+[RRepo](efenka)dropbox-paper-backup
+(efenka)dropbox-paper-backup/dropbox-paper-backup.py:165: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](firebase)firebase-android-sdk
+
+[RRepo](jonathanslenders)python-prompt-toolkit
+Success: no issues found in 1 source file
+
+[RRepo](BigBrotherTrade)trader
+
+[RRepo](unicef)un-partner-portal
+Success: no issues found in 1 source file
+
+[RRepo](Khrisbie)blender-woodworking
+(Khrisbie)blender-woodworking/woodwork/__init__.py:16: error: Not enough arguments for format string  [str-format]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:20: error: Cannot resolve name "mortise" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:22: error: Cannot resolve name "tenon" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:25: error: Cannot resolve name "piece_properties" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:26: error: Cannot resolve name "piece" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:32: error: Cannot resolve name "translations" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:35: error: Not enough arguments for format string  [str-format]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:38: error: Module 'woodwork' has no attribute 'mortise'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:40: error: Module 'woodwork' has no attribute 'tenon'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:43: error: Module 'woodwork' has no attribute 'piece_properties'; maybe "mortise_properties"?  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:44: error: Module 'woodwork' has no attribute 'piece'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:50: error: Module 'woodwork' has no attribute 'translations'  [attr-defined]
+Found 12 errors in 1 file (checked 9 source files)
+
+[RRepo](galactics)beyond
+
+[RRepo](Admicos)DiscordBot
+(Admicos)DiscordBot/bot/stuff.py:2: error: Module 'bot.commands' has no attribute 'NoneCommand'  [attr-defined]
+(Admicos)DiscordBot/bot/stuff.py:2: error: Module 'bot.commands' has no attribute 'Command'  [attr-defined]
+(Admicos)DiscordBot/bot/stuff.py:6: error: Need type annotation for 'muted_chans' (hint: "muted_chans: Dict[<type>, <type>] = ...")  [var-annotated]
+(Admicos)DiscordBot/bot/stuff.py:11: error: Need type annotation for 'timeout' (hint: "timeout: Dict[<type>, <type>] = ...")  [var-annotated]
+(Admicos)DiscordBot/bot/config.py:5: error: Need type annotation for 'template_conf' (hint: "template_conf: Dict[<type>, <type>] = ...")  [var-annotated]
+(Admicos)DiscordBot/bot/Bot.py:12: error: Need type annotation for 'cfg' (hint: "cfg: Dict[<type>, <type>] = ...")  [var-annotated]
+(Admicos)DiscordBot/bot/Bot.py:19: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Dict[Any, Any]")  [assignment]
+(Admicos)DiscordBot/bot/Bot.py:29: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(Admicos)DiscordBot/bot/Bot.py:29: note: Possible overload variants:
+(Admicos)DiscordBot/bot/Bot.py:29: note:     def __getitem__(self, int) -> Any
+(Admicos)DiscordBot/bot/Bot.py:29: note:     def __getitem__(self, slice) -> List[Any]
+Found 8 errors in 3 files (checked 1 source file)
+
+[RRepo](dcos)dcos-launch
+(dcos)dcos-launch/dcos_launch/util.py:127: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:134: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:142: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:170: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(dcos)dcos-launch/dcos_launch/util.py:171: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/terraform.py:16: error: Module 'dcos_launch.platforms' has no attribute 'aws'  [attr-defined]
+(dcos)dcos-launch/dcos_launch/terraform.py:177: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(dcos)dcos-launch/dcos_launch/terraform.py:238: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(dcos)dcos-launch/dcos_launch/gcp.py:8: error: Module 'dcos_launch.platforms' has no attribute 'gcp'  [attr-defined]
+(dcos)dcos-launch/dcos_launch/gcp.py:87: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(dcos)dcos-launch/dcos_launch/gcp.py:87: note: Did you mean "List[...]"?
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:117: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:118: error: Argument 2 to "dump" has incompatible type "BinaryIO"; expected "IO[str]"  [arg-type]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:124: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:126: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:227: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:228: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(dcos)dcos-launch/dcos_launch/dcos_engine.py:229: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(dcos)dcos-launch/dcos_launch/aws.py:9: error: Module 'dcos_launch.platforms' has no attribute 'aws'  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:52: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:75: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:85: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:113: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:141: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+Found 23 errors in 6 files (checked 9 source files)
+
+[RRepo](raphaelm)django-i18nfield
+
+[RRepo](BigBorg)Blog
+
+[RRepo](unosviluppatore)antlr-mega-tutorial
+
+[RRepo](strongrandom)awesome-fedora
+(strongrandom)awesome-fedora/generate.py:154: error: Need type annotation for 'dict_all' (hint: "dict_all: Dict[<type>, <type>] = ...")  [var-annotated]
+(strongrandom)awesome-fedora/generate.py:155: error: Need type annotation for 'dict_essential' (hint: "dict_essential: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](SEL-Columbia)dokomoforms
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/util.py:13: error: Module 'dokomoforms.models' has no attribute 'User'  [attr-defined]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/util.py:13: error: Module 'dokomoforms.models' has no attribute 'Administrator'  [attr-defined]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/util.py:145: error: Incompatible return value type (got "Optional[bytes]", expected "str")  [return-value]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/util.py:159: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/debug.py:10: error: Module 'dokomoforms.models' has no attribute 'User'  [attr-defined]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/debug.py:10: error: Module 'dokomoforms.models' has no attribute 'Administrator'  [attr-defined]
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/debug.py:10: error: Module 'dokomoforms.models' has no attribute 'Email'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:37: error: Module 'dokomoforms.models' has no attribute 'create_engine'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:37: error: Module 'dokomoforms.models' has no attribute 'Base'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:37: error: Module 'dokomoforms.models' has no attribute 'UUID_REGEX'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:38: error: Module 'dokomoforms.handlers.api.v0' has no attribute 'SurveyResource'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:38: error: Module 'dokomoforms.handlers.api.v0' has no attribute 'SubmissionResource'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:38: error: Module 'dokomoforms.handlers.api.v0' has no attribute 'PhotoResource'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:38: error: Module 'dokomoforms.handlers.api.v0' has no attribute 'NodeResource'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:38: error: Module 'dokomoforms.handlers.api.v0' has no attribute 'UserResource'  [attr-defined]
+(SEL-Columbia)dokomoforms/webapp.py:356: error: Argument "datefmt" to "LogFormatter" has incompatible type "None"; expected "str"  [arg-type]
+Found 16 errors in 3 files (checked 1 source file)
+
+[RRepo](bede)kindel
+
+[RRepo](SUSE)DeepSea
+
+[RRepo](sphinx-doc)sphinx-intl
+
+[RRepo](MrSenko)Kiwi
+Success: no issues found in 3 source files
+
+[RRepo](LucaVazz)DualisWatcher
+(LucaVazz)DualisWatcher/version_recorder.py:5: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/version_recorder.py:5: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/version_recorder.py:5: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/version_recorder.py:90: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(LucaVazz)DualisWatcher/version_recorder.py:130: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/version_recorder.py:130: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/config_helper.py:28: error: Function "builtins.any" is not valid as a type  [valid-type]
+(LucaVazz)DualisWatcher/config_helper.py:28: note: Perhaps you need "Callable[...]" or a callback protocol?
+(LucaVazz)DualisWatcher/config_helper.py:34: error: Function "builtins.any" is not valid as a type  [valid-type]
+(LucaVazz)DualisWatcher/config_helper.py:34: note: Perhaps you need "Callable[...]" or a callback protocol?
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:25: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:36: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:36: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/notification_services/mail/mail_shooter.py:17: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/dualis_connector/request_helper.py:51: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/dualis_connector/request_helper.py:51: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/dualis_connector/request_helper.py:58: error: Module has no attribute "parse"  [attr-defined]
+(LucaVazz)DualisWatcher/dhbw_ma_schedule_connector/schedule_service.py:12: error: Value of type any? is not indexable  [index]
+(LucaVazz)DualisWatcher/dhbw_ma_schedule_connector/schedule_service.py:91: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/dhbw_ma_schedule_connector/schedule_service.py:91: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/dualis_connector/results_handler.py:13: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/dualis_connector/results_handler.py:13: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/dualis_connector/results_handler.py:24: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/dualis_connector/results_handler.py:24: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/dualis_connector/results_handler.py:45: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/dualis_connector/login_helper.py:38: error: Incompatible return value type (got "Tuple[Any, Any]", expected "str")  [return-value]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:179: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:179: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:199: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:199: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:199: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:262: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:262: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:262: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:262: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:281: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:281: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:288: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py:288: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:44: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:44: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:55: error: Need type annotation for 'courses' (hint: "courses: List[<type>] = ...")  [var-annotated]
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:56: error: Need type annotation for 'results' (hint: "results: Dict[<type>, <type>] = ...")  [var-annotated]
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:83: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py:83: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:66: error: Syntax error in type annotation  [syntax]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:66: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:77: error: Value of type any? is not indexable  [index]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:78: error: Value of type any? is not indexable  [index]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:81: error: Value of type any? is not indexable  [index]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:89: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:93: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:93: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py:98: error: any? has no attribute "get"  [attr-defined]
+Found 35 errors in 11 files (checked 3 source files)
+
+[RRepo](thomasleese)mo
+
+[RRepo](citizenlabsgr)voter-engagement
+Success: no issues found in 1 source file
+
+[RRepo](guyingbo)socks5
+
+[RRepo](tum-i22)macke
+
+[RRepo](hsoft)pdfmasher
+Success: no issues found in 3 source files
+
+[RRepo](ric2b)Vivaldi-browser
+
+[RRepo](HackBinghamton)club
+
+[RRepo](smerkousdavid)drunkbot
+Success: no issues found in 1 source file
+
+[RRepo](GalAvineri)ISIC-Archive-Downloader
+(GalAvineri)ISIC-Archive-Downloader/download_single_item.py:87: error: Missing return statement  [return]
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note: Possible overload variants:
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note:     def __getitem__(self, int) -> Any
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note:     def __getitem__(self, slice) -> List[Any]
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:188: error: Not all arguments converted during string formatting  [str-format]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](kchawla-pi)united-states-of-browsers
+
+[RRepo](Chandlercjy)OnePy
+
+[RRepo](Ultimaker)Cura
+(Ultimaker)Cura/run_mypy.py:8: error: Incompatible default for argument "search_path" (default has type "Optional[str]", argument has type "str")  [assignment]
+(Ultimaker)Cura/run_mypy.py:20: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "List[str]")  [assignment]
+(Ultimaker)Cura/cura_app.py:51: error: Argument 1 to "CDLL" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](cvem8165)KodeFest12
+
+[RRepo](sjtug)mirror-docker
+
+[RRepo](prusnak)micropython-extmod-generator
+Success: no issues found in 1 source file
+
+[RRepo](kupiakos)LapisMirror
+
+[RRepo](robertmuth)PyZwaver
+(robertmuth)PyZwaver/pyzwaver/command_translator.py:73: error: Need type annotation for '_listeners' (hint: "_listeners: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](SBRG)EscherConverter
+
+[RRepo](mlindauer)asapy
+
+[RRepo](ResolveWang)algrithm_qa
+
+[RRepo](Ge0)okita-poc
+Success: no issues found in 1 source file
+
+[RRepo](Beafantles)Asurix-bot
+(Beafantles)Asurix-bot/modules/utils/utils.py:11: error: Module "json" is not valid as a type  [valid-type]
+(Beafantles)Asurix-bot/modules/utils/utils.py:73: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(Beafantles)Asurix-bot/modules/utils/utils.py:74: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(Beafantles)Asurix-bot/modules/utils/utils.py:75: error: Value of type "int" is not indexable  [index]
+Found 4 errors in 1 file (checked 3 source files)
+
+[RRepo](sdlm)dev_idwell_bot
+(sdlm)dev_idwell_bot/test_bamboo_api.py:3: error: Module 'bamboo_api' has no attribute 'BambooAPIClient'  [attr-defined]
+(sdlm)dev_idwell_bot/utils.py:8: error: Module 'bamboo_api' has no attribute 'BambooAPIClient'  [attr-defined]
+Found 2 errors in 2 files (checked 4 source files)
+
+[RRepo](zulip)zulip
+
+[RRepo](jwodder)ghutil
+
+[RRepo](nordledger)eireg
+
+[RRepo](rmariano)compr
+
+[RRepo](seisatsu)Driftwood
+
+[RRepo](bvanrijn)rules-bot
+Success: no issues found in 3 source files
+
+[RRepo](getninjas)adwords-client
+Success: no issues found in 1 source file
+
+[RRepo](fyabc)MiniGames
+
+[RRepo](afg984)thegame
+
+[RRepo](gengstrand)clojure-news-feed
+
+[RRepo](lap00zza)arc
+
+[RRepo](harrystech)arthur-redshift-etl
+
+[RRepo](HugoSoaresFontes)robotic-arm-control-lynxmotion
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:10: error: Name 'Braco' is not defined  [name-defined]
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:33: error: Name 'QSlider' already defined (possibly by an import)  [no-redef]
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:48: error: Name 'QDial' already defined (possibly by an import)  [no-redef]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](CodersOfTheNight)oshino
+
+[RRepo](rljacobson)FoxySheep
+
+[RRepo](DoumanAsh)collectionScripts
+
+[RRepo](readdy)readdy
+
+[RRepo](tensorflow)federated
+
+[RRepo](esPass)pretix-espass
+(esPass)pretix-espass/pretix_espass/espass.py:160: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "ZipFile")  [assignment]
+(esPass)pretix-espass/pretix_espass/espass.py:162: error: Incompatible return value type (got "Tuple[str, str, bytes]", expected "Tuple[str, str, str]")  [return-value]
+(esPass)pretix-espass/pretix_espass/espass.py:162: error: Too few arguments for "read" of "ZipFile"  [call-arg]
+(esPass)pretix-espass/pretix_espass/signals.py:17: error: Name 'register_global_settings' already defined (possibly by an import)  [no-redef]
+Found 4 errors in 2 files (checked 4 source files)
+
+[RRepo](mjj4791)python-buienradar
+Success: no issues found in 1 source file
+
+[RRepo](uclouvain)osis
+
+[RRepo](pythondigest)pythondigest
+
+[RRepo](item4)item4.net
+
+[RRepo](delph-in)pydelphin
+
+[RRepo](kirbyUK)pkmntcg-discord-bot
+
+[RRepo](LazoCoder)Pokemon-Terminal
+Success: no issues found in 1 source file
+
+[RRepo](portfoliome)postpy
+(portfoliome)postpy/setup.py:12: error: Need type annotation for 'version_ns' (hint: "version_ns: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](alerta)python-alerta-client
+Success: no issues found in 1 source file
+
+[RRepo](Thomasedv)Grabber
+Success: no issues found in 1 source file
+
+[RRepo](elarivie)linter-mypy
+
+[RRepo](ucloud)uai-sdk
+Success: no issues found in 1 source file
+
+[RRepo](outlierbio)ob-pipelines
+(outlierbio)ob-pipelines/ob_pipelines/entities/experiment.py:27: error: Name 'name' already defined on line 19  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/experiment.py:27: error: "Callable[[Experiment], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:66: error: Name 'name' already defined on line 42  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:66: error: "Callable[[Task], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:70: error: Name 'status' already defined on line 58  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:70: error: "Callable[[Task], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:76: error: Name 'started_at' already defined on line 50  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:76: error: "Callable[[Task], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:80: error: Name 'completed_at' already defined on line 54  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:80: error: "Callable[[Task], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:84: error: Name 'exception' already defined on line 62  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/task.py:84: error: "Callable[[Task], Any]" has no attribute "setter"  [attr-defined]
+(outlierbio)ob-pipelines/ob_pipelines/s3.py:13: error: Name 'urlparse' already defined (possibly by an import)  [no-redef]
+(outlierbio)ob-pipelines/ob_pipelines/entities/sample.py:35: error: Not all arguments converted during string formatting  [str-format]
+(outlierbio)ob-pipelines/ob_pipelines/entities/persistence.py:71: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(outlierbio)ob-pipelines/ob_pipelines/entities/persistence.py:71: note: Did you mean "List[...]"?
+(outlierbio)ob-pipelines/ob_pipelines/__init__.py:27: error: Property "name" defined in "Task" is read-only  [misc]
+(outlierbio)ob-pipelines/ob_pipelines/__init__.py:28: error: Property "status" defined in "Task" is read-only  [misc]
+(outlierbio)ob-pipelines/ob_pipelines/__init__.py:29: error: Property "started_at" defined in "Task" is read-only  [misc]
+Found 18 errors in 6 files (checked 5 source files)
+
+[RRepo](jfcherng)Sublime-AutoSetSyntax
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:45: error: Module has no attribute "_levelNames"; maybe "_levelToName"?  [attr-defined]
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:47: error: Module has no attribute "_levelNames"; maybe "_levelToName"?  [attr-defined]
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:223: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:24: error: Need type annotation for 'syntax_mappings' (hint: "syntax_mappings: List[<type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:27: error: Need type annotation for 'syntax_files' (hint: "syntax_files: List[<type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:78: error: Need type annotation for 'syntax_files' (hint: "syntax_files: List[<type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:86: error: Need type annotation for 'syntax_griddle' (hint: "syntax_griddle: Dict[<type>, <type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:124: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:132: error: Item "None" of "Optional[Logger]" has no attribute "info"  [union-attr]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:145: error: Item "None" of "Optional[Logger]" has no attribute "error"  [union-attr]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:169: error: Item "None" of "Optional[Logger]" has no attribute "error"  [union-attr]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:204: error: Item "None" of "Optional[Logger]" has no attribute "error"  [union-attr]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:264: error: Incompatible types in assignment (expression has type "Iterator[Any]", variable has type "List[Any]")  [assignment]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:289: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:305: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+Found 15 errors in 2 files (checked 5 source files)
+
+[RRepo](opentracing)basictracer-python
+
+[RRepo](Mazuh)Algs
+
+[RRepo](ascoderu)opwen-cloudserver
+
+[RRepo](SteemData)steemdata-mongo
+
+[RRepo](sportorg)pysport
+Success: no issues found in 1 source file
+
+[RRepo](SlashNephy)PyChroner-Bot
+
+[RRepo](PUNCH-Cyber)stoq-plugins-public
+
+[RRepo](hoh)reloadr
+Success: no issues found in 1 source file
+
+[RRepo](SuLab)WikidataIntegrator
+
+[RRepo](ceos-seo)data_cube_notebooks
+Success: no issues found in 2 source files
+
+[RRepo](3Scan)3scan-skeleton
+
+[RRepo](Entscheider)SeamEater
+Success: no issues found in 1 source file
+
+[RRepo](youtux)wikidump
+Success: no issues found in 1 source file
+
+[RRepo](samuelcolvin)harrier
+
+[RRepo](mighty-justice)django-super-deduper
+
+[RRepo](toast254)SimpleDaemon
+
+[RRepo](JockeTF)fimfarchive
+(JockeTF)fimfarchive/setup.py:31: error: Module 'fimfarchive' has no attribute '__author__'  [attr-defined]
+(JockeTF)fimfarchive/setup.py:31: error: Module 'fimfarchive' has no attribute '__license__'  [attr-defined]
+(JockeTF)fimfarchive/setup.py:31: error: Module 'fimfarchive' has no attribute '__version__'  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](dpshelio)sunpy
+
+[RRepo](DEIB-GECO)PyGMQL
+(DEIB-GECO)PyGMQL/gmql/settings.py:25: error: Need type annotation for '__init_configs_spark' (hint: "__init_configs_spark: Dict[<type>, <type>] = ...")  [var-annotated]
+(DEIB-GECO)PyGMQL/gmql/dataset/loaders/Loader.py:86: error: Module 'gmql.dataset' has no attribute 'GMQLDataset'  [attr-defined]
+Found 2 errors in 2 files (checked 28 source files)
+
+[RRepo](samdroid-apps)something-for-reddit
+
+[RRepo](henrymzhao)csss-minion
+(henrymzhao)csss-minion/levels.py:23: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](googleapis)proto-plus-python
+Success: no issues found in 1 source file
+
+[RRepo](aawadall)PyProjMan
+Success: no issues found in 1 source file
+
+[RRepo](kashifrazzaqui)vyked
+(kashifrazzaqui)vyked/setup.py:39: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](spanezz)egt
+

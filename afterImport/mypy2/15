@@ -1,0 +1,536 @@
+[RRepo](Pinafore)qb
+(Pinafore)qb/setup.py:44: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(Pinafore)qb/security_groups.py:64: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Optional[str]")  [assignment]
+(Pinafore)qb/qanta/datasets/quiz_bowl.py:149: error: Incompatible return value type (got "Tuple[List[List[str]], List[Optional[str]], None]", expected "Tuple[List[List[str]], List[str], Optional[List[Dict[str, Any]]]]")  [return-value]
+(Pinafore)qb/protobowl_user.py:12: error: Module 'qanta.buzzer.util' has no attribute 'load_protobowl'  [attr-defined]
+(Pinafore)qb/qanta/wikipedia/cached_wikipedia.py:184: error: No overload variant of "__add__" of "tuple" matches argument type "str"  [operator]
+(Pinafore)qb/qanta/wikipedia/cached_wikipedia.py:184: note: Possible overload variants:
+(Pinafore)qb/qanta/wikipedia/cached_wikipedia.py:184: note:     def __add__(self, Tuple[Any, ...]) -> Tuple[Any, ...]
+(Pinafore)qb/qanta/ingestion/preprocess.py:12: error: Need type annotation for 'nlp_ref' (hint: "nlp_ref: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 6 files (checked 9 source files)
+
+[RRepo](datawire)ambassador
+
+[RRepo](geneontology)go-site
+
+[RRepo](tofuSCHNITZEL)pi_video_looper
+
+[RRepo](FRC-RS)FRS
+(FRC-RS)FRS/util/strutils.py:26: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:29: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:34: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(FRC-RS)FRS/util/strutils.py:34: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(FRC-RS)FRS/util/strutils.py:34: note:     def __eq__(self, other: object) -> bool:
+(FRC-RS)FRS/util/strutils.py:34: note:         if not isinstance(other, TemplateString):
+(FRC-RS)FRS/util/strutils.py:34: note:             return NotImplemented
+(FRC-RS)FRS/util/strutils.py:34: note:         return <logic to compare two TemplateString instances>
+(FRC-RS)FRS/util/strutils.py:36: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:38: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:44: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:47: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:50: error: Argument 1 to "bytes" has incompatible type "str"; expected "Iterable[int]"  [arg-type]
+(FRC-RS)FRS/util/strutils.py:50: note: Following member(s) of "str" have conflicts:
+(FRC-RS)FRS/util/strutils.py:50: note:     Expected:
+(FRC-RS)FRS/util/strutils.py:50: note:         def __iter__(self) -> Iterator[int]
+(FRC-RS)FRS/util/strutils.py:50: note:     Got:
+(FRC-RS)FRS/util/strutils.py:50: note:         def __iter__(self) -> Iterator[str]
+(FRC-RS)FRS/util/strutils.py:54: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:56: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:60: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/util/strutils.py:62: error: Cannot determine type of '_format_string'  [has-type]
+(FRC-RS)FRS/FRS/config/_cfg.py:41: error: Argument 1 to "TemplateString" has incompatible type "Union[str, TemplateString]"; expected "str"  [arg-type]
+(FRC-RS)FRS/FRS/config/_cfg.py:121: error: Need type annotation for 'nonnegative'  [var-annotated]
+(FRC-RS)FRS/FRS/config/_cfg.py:122: error: Need type annotation for 'negative'  [var-annotated]
+(FRC-RS)FRS/FRS/config/_cfg.py:123: error: Need type annotation for 'is_number'  [var-annotated]
+(FRC-RS)FRS/util/viewutils.py:101: error: "str" has no attribute "method"  [attr-defined]
+(FRC-RS)FRS/FRS/config/tba.py:32: error: Argument 1 to "is_type" has incompatible type "Type[str]"; expected "Iterable[Type[Any]]"  [arg-type]
+(FRC-RS)FRS/FRS/config/tba.py:35: error: Argument 1 to "is_type" has incompatible type "Type[TbawUrlDefinition]"; expected "Iterable[Type[Any]]"  [arg-type]
+(FRC-RS)FRS/FRS/config/tba.py:36: error: Argument 1 to "is_type" has incompatible type "Type[TbawUrlDefinition]"; expected "Iterable[Type[Any]]"  [arg-type]
+(FRC-RS)FRS/api/views.py:10: error: Module 'TBAW.models' has no attribute 'Team'  [attr-defined]
+(FRC-RS)FRS/api/views.py:10: error: Module 'TBAW.models' has no attribute 'Event'  [attr-defined]
+(FRC-RS)FRS/api/__init__.py:8: error: Need type annotation for '_refs'  [var-annotated]
+(FRC-RS)FRS/api/resources.py:11: error: Module 'TBAW.models' has no attribute 'Team'  [attr-defined]
+(FRC-RS)FRS/api/resources.py:11: error: Module 'TBAW.models' has no attribute 'Event'  [attr-defined]
+Found 25 errors in 7 files (checked 3 source files)
+
+[RRepo](FoglyOgly)Meowth
+
+[RRepo](Katharine)ponytone
+(Katharine)ponytone/importmlk.py:22: error: List item 1 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:24: error: List item 3 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:25: error: List item 4 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:26: error: List item 5 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:27: error: List item 6 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:28: error: List item 7 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:29: error: List item 8 has incompatible type "Tuple[str, str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:32: error: List item 11 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(Katharine)ponytone/importmlk.py:59: error: Item "None" of "Optional[IO[bytes]]" has no attribute "read"  [union-attr]
+(Katharine)ponytone/importmlk.py:92: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+Found 10 errors in 1 file (checked 1 source file)
+
+[RRepo](aguai)TMDLang
+
+[RRepo](numberoverzero)bloop
+
+[RRepo](will4906)PatentCrawler
+(will4906)PatentCrawler/entity/crawler_item.py:18: error: Need type annotation for 'crawler_list'  [var-annotated]
+(will4906)PatentCrawler/config/crawler_config.py:19: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:20: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:33: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:34: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:46: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:47: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:80: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:81: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:90: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:91: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:100: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:101: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:110: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:111: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:120: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:121: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:130: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:131: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:140: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:141: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:150: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:151: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:160: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:161: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:170: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:171: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:182: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:183: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:192: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:193: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:202: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:203: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:213: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:214: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:215: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:233: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:234: error: Incompatible types in assignment (expression has type "str", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:235: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:262: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/crawler_config.py:263: error: Incompatible types in assignment (expression has type "List[str]", base class "BaseItem" defined the type as "None")  [assignment]
+(will4906)PatentCrawler/config/base_settings.py:100: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(will4906)PatentCrawler/service/info.py:18: error: Need type annotation for 'crawler_dict'  [var-annotated]
+(will4906)PatentCrawler/service/account.py:17: error: Name 'Logger' is not defined  [name-defined]
+Found 44 errors in 5 files (checked 3 source files)
+
+[RRepo](ImageMarkup)isic-archive
+(ImageMarkup)isic-archive/isic_archive/models/image.py:18: error: Module 'isic_archive.models.segmentation_helpers' has no attribute 'ScikitSegmentationHelper'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/models/segmentation.py:17: error: Module 'isic_archive.models.segmentation_helpers' has no attribute 'OpenCVSegmentationHelper'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/models/segmentation.py:17: error: Module 'isic_archive.models.segmentation_helpers' has no attribute 'ScikitSegmentationHelper'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/models/annotation.py:12: error: Module 'isic_archive.models.segmentation_helpers' has no attribute 'ScikitSegmentationHelper'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Annotation'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Batch'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Dataset'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Image'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Segmentation'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'Study'  [attr-defined]
+(ImageMarkup)isic-archive/isic_archive/__init__.py:11: error: Module 'isic_archive.models' has no attribute 'User'  [attr-defined]
+Found 11 errors in 4 files (checked 4 source files)
+
+[RRepo](ThaWeatherman)trackopy
+(ThaWeatherman)trackopy/trackopy/trackobot.py:156: error: Item "None" of "Optional[datetime]" has no attribute "strftime"  [union-attr]
+(ThaWeatherman)trackopy/trackopy/trackobot.py:158: error: Dict entry 0 has incompatible type "str": "Optional[int]"; expected "str": "str"  [dict-item]
+(ThaWeatherman)trackopy/trackopy/trackobot.py:158: error: Dict entry 1 has incompatible type "str": "Optional[int]"; expected "str": "str"  [dict-item]
+(ThaWeatherman)trackopy/trackopy/trackobot.py:160: error: Dict entry 0 has incompatible type "str": "Optional[str]"; expected "str": "str"  [dict-item]
+(ThaWeatherman)trackopy/trackopy/trackobot.py:160: error: Dict entry 1 has incompatible type "str": "Optional[str]"; expected "str": "str"  [dict-item]
+(ThaWeatherman)trackopy/trackopy/trackobot.py:226: error: Incompatible types in assignment (expression has type "str", target has type "int")  [assignment]
+(ThaWeatherman)trackopy/trackopy/__init__.py:15: error: Name 'NullHandler' already defined (possibly by an import)  [no-redef]
+(ThaWeatherman)trackopy/trackopy/__init__.py:15: error: Name 'logging.handler' is not defined  [name-defined]
+Found 8 errors in 2 files (checked 2 source files)
+
+[RRepo](renewables-ninja)gsee
+
+[RRepo](mynlp)ccg2lambda
+Success: no issues found in 1 source file
+
+[RRepo](acatton)ohneio
+(acatton)ohneio/ohneio.py:10: error: "deque" is not subscriptable, use "typing.Deque" instead  [misc]
+(acatton)ohneio/ohneio.py:323: error: Argument 1 to "len" has incompatible type "Optional[Buffer]"; expected "Sized"  [arg-type]
+(acatton)ohneio/ohneio.py:324: error: Item "None" of "Optional[Buffer]" has no attribute "read"  [union-attr]
+(acatton)ohneio/ohneio.py:359: error: Item "None" of "Optional[Buffer]" has no attribute "write"  [union-attr]
+(acatton)ohneio/ohneio.py:360: error: Argument 1 to "len" has incompatible type "Optional[Buffer]"; expected "Sized"  [arg-type]
+(acatton)ohneio/setup.py:14: error: Need type annotation for 'install_requires' (hint: "install_requires: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 2 files (checked 3 source files)
+
+[RRepo](elastacloud)parquet-dotnet
+
+[RRepo](skftn)findex-gui
+Success: no issues found in 1 source file
+
+[RRepo](dbrattli)aioreactive
+
+[RRepo](portfoliome)pgawedge
+(portfoliome)pgawedge/setup.py:12: error: Need type annotation for 'version_ns' (hint: "version_ns: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](Pr0Ger)PyAPNs2
+
+[RRepo](albertyw)git-browse
+
+[RRepo](futursolo)botodesu
+(futursolo)botodesu/setup.py:39: error: Module has no attribute "util"  [attr-defined]
+(futursolo)botodesu/setup.py:44: error: Module has no attribute "util"  [attr-defined]
+(futursolo)botodesu/botodesu/exceptions.py:39: error: Too many arguments for "__init__" of "BaseException"  [call-arg]
+(futursolo)botodesu/botodesu/exceptions.py:42: error: Need type annotation for 'content'  [var-annotated]
+(futursolo)botodesu/botodesu/body.py:97: error: Incompatible types in assignment (expression has type "FormData", variable has type "str")  [assignment]
+(futursolo)botodesu/botodesu/body.py:99: error: Incompatible return value type (got "Tuple[Dict[str, str], str]", expected "Tuple[Dict[str, str], Union[bytes, FormData]]")  [return-value]
+(futursolo)botodesu/botodesu/__init__.py:54: error: Name 'version' is not defined  [name-defined]
+(futursolo)botodesu/botodesu/__init__.py:201: error: Incompatible types in assignment (expression has type "None", variable has type "ClientSession")  [assignment]
+Found 8 errors in 4 files (checked 6 source files)
+
+[RRepo](SanPen)GridCal
+
+[RRepo](zixia)node-facenet
+
+[RRepo](Reading-eScience-Centre)pycovjson
+(Reading-eScience-Centre)pycovjson/setup.py:28: error: Need type annotation for '_namespaces' (hint: "_namespaces: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](robertnishihara)ray
+
+[RRepo](scott-zhou)jedy
+(scott-zhou)jedy/lib/frame.py:2: error: Module 'lib' has no attribute 'class_loader'  [attr-defined]
+(scott-zhou)jedy/lib/run_time_data.py:2: error: Module 'lib' has no attribute 'class_loader'  [attr-defined]
+(scott-zhou)jedy/lib/run_time_data.py:12: error: Need type annotation for 'heap' (hint: "heap: List[<type>] = ...")  [var-annotated]
+(scott-zhou)jedy/lib/run_time_data.py:25: error: Need type annotation for 'class_static_fields'  [var-annotated]
+(scott-zhou)jedy/lib/run_time_data.py:27: error: Need type annotation for 'thread_pool' (hint: "thread_pool: List[<type>] = ...")  [var-annotated]
+(scott-zhou)jedy/lib/hijack_jre_methods.py:13: error: Need type annotation for '_NATIVE_IMPS'  [var-annotated]
+(scott-zhou)jedy/lib/hijack_jre_methods.py:14: error: Need type annotation for '_JDK_M_IMPLS'  [var-annotated]
+(scott-zhou)jedy/lib/thread.py:5: error: Module 'lib' has no attribute 'instruction'  [attr-defined]
+(scott-zhou)jedy/jedy.py:7: error: Module 'lib' has no attribute 'class_loader'  [attr-defined]
+Found 9 errors in 5 files (checked 1 source file)
+
+[RRepo](ozmartian)QRoundProgressBar
+Success: no issues found in 2 source files
+
+[RRepo](vfaronov)mitmproxy-httpolice
+(vfaronov)mitmproxy-httpolice/mitmproxy_httpolice.py:245: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](voipir)python-sii
+
+[RRepo](rbenji)DynamicDNS-for-NameSilo
+(rbenji)DynamicDNS-for-NameSilo/ddns_manager.py:128: error: Incompatible types in assignment (expression has type "Element", variable has type "Response")  [assignment]
+(rbenji)DynamicDNS-for-NameSilo/ddns_manager.py:131: error: "Response" has no attribute "find"  [attr-defined]
+(rbenji)DynamicDNS-for-NameSilo/ddns_manager.py:136: error: Incompatible return value type (got "Response", expected "ElementTree")  [return-value]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](ChrisCummins)clgen
+(ChrisCummins)clgen/labm8/archive.py:64: error: Cannot infer type of lambda  [misc]
+(ChrisCummins)clgen/labm8/archive.py:64: error: Incompatible types in assignment (expression has type "Callable[[Any], TarFile]", variable has type "Type[ZipFile]")  [assignment]
+(ChrisCummins)clgen/labm8/bazelutil.py:14: error: Module 'labm8' has no attribute 'fs'  [attr-defined]
+(ChrisCummins)clgen/labm8/bazelutil.py:64: error: Incompatible return value type (got "Optional[Path]", expected "Path")  [return-value]
+(ChrisCummins)clgen/labm8/bazelutil.py:175: error: Incompatible return value type (got "Optional[str]", expected "Optional[Path]")  [return-value]
+(ChrisCummins)clgen/labm8/bazelutil.py:217: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(ChrisCummins)clgen/build_info.py:23: error: Module 'labm8' has no attribute 'pbutil'  [attr-defined]
+(ChrisCummins)clgen/build_info.py:86: error: Name 'FullRevision' is not defined  [name-defined]
+(ChrisCummins)clgen/conftest.py:11: error: Module 'labm8' has no attribute 'app'  [attr-defined]
+(ChrisCummins)clgen/conftest.py:20: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(ChrisCummins)clgen/conftest.py:27: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(ChrisCummins)clgen/conftest.py:34: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(ChrisCummins)clgen/conftest.py:41: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 13 errors in 4 files (checked 2 source files)
+
+[RRepo](Ikusaba-san)Chiaki-Nanami
+(Ikusaba-san)Chiaki-Nanami/core/migration.py:8: error: Module 'cogs.utils.db' has no attribute 'all_tables'  [attr-defined]
+(Ikusaba-san)Chiaki-Nanami/chiaki.py:19: error: Module 'core' has no attribute 'Chiaki'  [attr-defined]
+Found 2 errors in 2 files (checked 1 source file)
+
+[RRepo](walnutgeek)hashstore
+Success: no issues found in 2 source files
+
+[RRepo](gjcarneiro)yacron
+
+[RRepo](fr0der1c)EveryClass-server
+(fr0der1c)EveryClass-server/everyclass/server/config/default.py:112: error: Need type annotation for 'MAINTENANCE_CREDENTIALS' (hint: "MAINTENANCE_CREDENTIALS: Dict[<type>, <type>] = ...")  [var-annotated]
+(fr0der1c)EveryClass-server/everyclass/server/calendar/ics_generator.py:58: error: Argument 4 to "_get_datetime" has incompatible type "Semester"; expected "Tuple[int, int, int]"  [arg-type]
+(fr0der1c)EveryClass-server/everyclass/server/calendar/ics_generator.py:59: error: Argument 4 to "_get_datetime" has incompatible type "Semester"; expected "Tuple[int, int, int]"  [arg-type]
+(fr0der1c)EveryClass-server/everyclass/server/calendar/ics_generator.py:93: error: "datetime" gets multiple values for keyword argument "tzinfo"  [misc]
+(fr0der1c)EveryClass-server/server.py:12: error: Module has no attribute "freeze"  [attr-defined]
+Found 5 errors in 3 files (checked 1 source file)
+
+[RRepo](marcelobelli)PyNFSe
+
+[RRepo](Chibuzor-IN)python-paystack
+
+[RRepo](alvinwan)squeezeDetMX
+(alvinwan)squeezeDetMX/setup.py:6: error: Need type annotation for 'install_requires' (hint: "install_requires: List[<type>] = ...")  [var-annotated]
+(alvinwan)squeezeDetMX/squeezeDetMX/utils.py:76: error: List item 0 has incompatible type "float"; expected "int"  [list-item]
+(alvinwan)squeezeDetMX/squeezeDetMX/utils.py:77: error: List item 1 has incompatible type "float"; expected "int"  [list-item]
+(alvinwan)squeezeDetMX/squeezeDetMX/utils.py:315: error: Need type annotation for 'taken_anchor_indices' (hint: "taken_anchor_indices: Set[<type>] = ...")  [var-annotated]
+(alvinwan)squeezeDetMX/squeezeDetMX/kitti.py:40: error: Incompatible return value type (got "Iterator[Any]", expected "Tuple[List[Any], List[Any]]")  [return-value]
+(alvinwan)squeezeDetMX/squeezeDetMX/kitti.py:53: error: Argument 1 to "bbox_transform_inv" has incompatible type "*Iterator[float]"; expected "int"  [arg-type]
+Found 6 errors in 3 files (checked 3 source files)
+
+[RRepo](Enether)python_wow
+(Enether)python_wow/classes.py:196: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](irmen)bouldercaves
+
+[RRepo](tuchfarber)ThatBeanGame
+
+[RRepo](switch-education)pxt
+
+[RRepo](managedbyq)mbq.metrics
+
+[RRepo](afrieder)matcher
+(afrieder)matcher/matcher.py:34: error: Incompatible types in assignment (expression has type "None", variable has type "_T")  [assignment]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](bgrimstad)splinter
+
+[RRepo](KevinFasusi)supplychainpy
+
+[RRepo](SamLau95)nbinteract
+Success: no issues found in 2 source files
+
+[RRepo](hjacobs)kube-ops-view
+Success: no issues found in 1 source file
+
+[RRepo](araichev)gtfstk
+
+[RRepo](pyecore)pyecore
+
+[RRepo](solus-impar)slack-topics
+
+[RRepo](healerkx)PySQLKits
+
+[RRepo](ijustbsd)mfTBot
+(ijustbsd)mfTBot/bot.py:29: error: Need type annotation for 'last_msg_time' (hint: "last_msg_time: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](SunyataZero)mindfulness-at-the-computer
+
+[RRepo](sergei-maertens)discord-bot
+Success: no issues found in 1 source file
+
+[RRepo](kushaldas)tunir
+Success: no issues found in 6 source files
+
+[RRepo](phillipbonhomme)cmake.nvim
+
+[RRepo](zepto)webbrowser2
+
+[RRepo](undertherain)vsmlib
+Success: no issues found in 2 source files
+
+[RRepo](vnpy)vnpy
+(vnpy)vnpy/setup.py:27: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(vnpy)vnpy/setup.py:117: error: Need type annotation for 'ext_modules' (hint: "ext_modules: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](PerchLive)django-broadcast
+Success: no issues found in 2 source files
+
+[RRepo](demisto)content
+(demisto)content/content_creator.py:75: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](bitmovin)bitmovin-python
+
+[RRepo](BetaRavener)uPyLoader
+(BetaRavener)uPyLoader/flash.py:52: error: Missing parentheses in call to 'print'. Did you mean print("Done writing new firmware.")?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](LocutusOfPenguin)picochess
+(LocutusOfPenguin)picochess/utilities.py:40: error: Need type annotation for 'evtobserver_queue'  [var-annotated]
+(LocutusOfPenguin)picochess/utilities.py:41: error: Need type annotation for 'dgtobserver_queue'  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:36: error: Need type annotation for 'devices' (hint: "devices: Set[<type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:37: error: Need type annotation for 'maxtimer' (hint: "maxtimer: Dict[<type>, <type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:38: error: Need type annotation for 'maxtimer_running' (hint: "maxtimer_running: Dict[<type>, <type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:39: error: Need type annotation for 'clock_connected' (hint: "clock_connected: Dict[<type>, <type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:41: error: Need type annotation for 'tasks' (hint: "tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:43: error: Need type annotation for 'display_hash' (hint: "display_hash: Dict[<type>, <type>] = ...")  [var-annotated]
+(LocutusOfPenguin)picochess/dispatcher.py:44: error: Need type annotation for 'process_lock' (hint: "process_lock: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 9 errors in 2 files (checked 4 source files)
+
+[RRepo](SunDwarf)curious
+
+[RRepo](alessandro-zomparelli)tissue
+
+[RRepo](pirate)bitcoin-trader
+Success: no issues found in 4 source files
+
+[RRepo](openfisca)openfisca-core
+
+[RRepo](openmicroanalysis)pyxray
+(openmicroanalysis)pyxray/pyxray/descriptor.py:114: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:115: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:116: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:117: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:118: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:119: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:255: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:256: error: Incompatible types in assignment (expression has type "None", variable has type "float")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:305: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:306: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:307: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:308: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:309: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:310: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:311: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:312: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:313: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:314: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:315: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:316: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:317: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:318: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:319: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:320: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:321: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:322: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:323: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:324: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(openmicroanalysis)pyxray/pyxray/descriptor.py:325: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 29 errors in 1 file (checked 1 source file)
+
+[RRepo](LukaszObara)LeNet5
+Success: no issues found in 3 source files
+
+[RRepo](xdlinux)xidian-scripts
+
+[RRepo](ngolin)webdict
+Success: no issues found in 1 source file
+
+[RRepo](Oneiroe)PySimpleAutomata
+
+[RRepo](acrisci)playerctl
+
+[RRepo](uclmr)inferbeddings
+
+[RRepo](GEMPACKsoftware)HARPY
+Success: no issues found in 1 source file
+
+[RRepo](rgeorgi)intent
+
+[RRepo](pydo)vlc-gif-creator
+(pydo)vlc-gif-creator/gif_creator.py:51: error: Item "None" of "Optional[Element]" has no attribute "get"  [union-attr]
+(pydo)vlc-gif-creator/gif_creator.py:52: error: Argument 1 to "unquote" has incompatible type "Union[str, None, Any]"; expected "str"  [arg-type]
+(pydo)vlc-gif-creator/gif_creator.py:73: error: Item "None" of "Optional[Element]" has no attribute "text"  [union-attr]
+(pydo)vlc-gif-creator/gif_creator.py:73: error: Argument 1 to "int" has incompatible type "Union[str, None, Any]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](Chainmail-Project)Chainmail
+
+[RRepo](google)TensorNetwork
+(google)TensorNetwork/tensornetwork/visualization/graphviz.py:50: error: Need type annotation for 'seen_edges' (hint: "seen_edges: Set[<type>] = ...")  [var-annotated]
+(google)TensorNetwork/tensornetwork/ncon_interface.py:226: error: Need type annotation for 'edges' (hint: "edges: Dict[<type>, <type>] = ...")  [var-annotated]
+(google)TensorNetwork/tensornetwork/__init__.py:8: error: Module 'tensornetwork' has no attribute 'config'  [attr-defined]
+Found 3 errors in 3 files (checked 5 source files)
+
+[RRepo](caterinaurban)Typpete
+
+[RRepo](z2s8)erettsegit
+(z2s8)erettsegit/erettsegit.py:35: error: Need type annotation for 'MESSAGES'  [var-annotated]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](hydroffice)hyo_soundspeed
+Success: no issues found in 1 source file
+
+[RRepo](cf-platform-eng)aws-pcf-quickstart
+
+[RRepo](Brazelton-Lab)bio_utils
+
+[RRepo](Jwely)cdo-api-py
+
+[RRepo](AntoineToubhans)MongoTs
+
+[RRepo](adnanaziz)epicode
+
+[RRepo](AwesomeTTS)awesometts-anki-addon
+
+[RRepo](chaostoolkit)chaostoolkit
+(chaostoolkit)chaostoolkit/setup.py:11: error: Missing return statement  [return]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](maateen)battery-monitor
+
+[RRepo](mikeshardmind)SinbadCogs
+(mikeshardmind)SinbadCogs/embedmaker/__init__.py:1: error: Module 'embedmaker' has no attribute 'embedmaker'  [attr-defined]
+(mikeshardmind)SinbadCogs/bansync/__init__.py:1: error: Module 'bansync' has no attribute 'bansync'  [attr-defined]
+(mikeshardmind)SinbadCogs/scheduler/converters.py:71: error: Item "None" of "Optional[timedelta]" has no attribute "total_seconds"  [union-attr]
+(mikeshardmind)SinbadCogs/filter/filter.py:31: error: Need type annotation for 'default_channel_settings'  [var-annotated]
+(mikeshardmind)SinbadCogs/embedmaker/yaml_parse.py:19: error: Need type annotation for 'ret'  [var-annotated]
+(mikeshardmind)SinbadCogs/embedmaker/yaml_parse.py:55: error: Unsupported target for indexed assignment  [index]
+(mikeshardmind)SinbadCogs/sinbad_libs/tools.py:16: error: Unexpected keyword argument "name" for "__init_subclass__" of "object"  [call-arg]
+(mikeshardmind)SinbadCogs/scheduler/message.py:84: error: Need type annotation for 'mentions' (hint: "mentions: List[<type>] = ...")  [var-annotated]
+(mikeshardmind)SinbadCogs/scheduler/message.py:87: error: Need type annotation for 'channel_mentions' (hint: "channel_mentions: List[<type>] = ...")  [var-annotated]
+(mikeshardmind)SinbadCogs/scheduler/message.py:92: error: Need type annotation for 'role_mentions' (hint: "role_mentions: List[<type>] = ...")  [var-annotated]
+(mikeshardmind)SinbadCogs/roomtools/tempchannels.py:139: error: No overload variant of "update" of "dict" matches argument type "int"  [call-overload]
+(mikeshardmind)SinbadCogs/roomtools/tempchannels.py:139: note: Possible overload variant:
+(mikeshardmind)SinbadCogs/roomtools/tempchannels.py:139: note:     def update(self, **kwargs: Dict[Any, Any]) -> None
+(mikeshardmind)SinbadCogs/roomtools/tempchannels.py:139: note:     <2 more non-matching overloads not shown>
+(mikeshardmind)SinbadCogs/roomtools/__init__.py:12: error: Unsupported dynamic base class "type"  [misc]
+Found 12 errors in 9 files (checked 61 source files)
+
+[RRepo](mosquito)aio-pika
+(mosquito)aio-pika/aio_pika/pool.py:30: error: Need type annotation for '__items'  [var-annotated]
+(mosquito)aio-pika/aio_pika/pool.py:78: error: Incompatible return value type (got "None", expected "T")  [return-value]
+(mosquito)aio-pika/tests/test_connect.py:5: error: Module 'aio_pika' has no attribute 'connect'  [attr-defined]
+(mosquito)aio-pika/tests/__init__.py:13: error: Module 'aio_pika' has no attribute 'Connection'  [attr-defined]
+(mosquito)aio-pika/tests/__init__.py:13: error: Module 'aio_pika' has no attribute 'connect'  [attr-defined]
+(mosquito)aio-pika/tests/__init__.py:13: error: Module 'aio_pika' has no attribute 'Channel'  [attr-defined]
+(mosquito)aio-pika/tests/__init__.py:13: error: Module 'aio_pika' has no attribute 'Queue'  [attr-defined]
+(mosquito)aio-pika/tests/__init__.py:13: error: Module 'aio_pika' has no attribute 'Exchange'  [attr-defined]
+(mosquito)aio-pika/aio_pika/queue.py:82: error: Attribute 'declaration_result' already defined on line 46  [no-redef]
+(mosquito)aio-pika/aio_pika/queue.py:258: error: Return value expected  [return-value]
+(mosquito)aio-pika/aio_pika/queue.py:379: error: Need type annotation for '_queue'  [var-annotated]
+(mosquito)aio-pika/tests/test_pool.py:27: error: Incompatible types in assignment (expression has type "int", base class "BaseTestCase" defined the type as "None")  [assignment]
+(mosquito)aio-pika/tests/test_pool.py:87: error: Incompatible types in assignment (expression has type "int", base class "BaseTestCase" defined the type as "None")  [assignment]
+(mosquito)aio-pika/tests/test_amqp_without_publisher_confirms_robust.py:3: error: Module 'aio_pika' has no attribute 'connect_robust'  [attr-defined]
+(mosquito)aio-pika/aio_pika/channel.py:55: error: Need type annotation for '_return_callbacks' (hint: "_return_callbacks: Set[<type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/channel.py:57: error: Need type annotation for '_done_callbacks' (hint: "_done_callbacks: Set[<type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/channel.py:66: error: Incompatible types in assignment (expression has type "None", variable has type "Exchange")  [assignment]
+(mosquito)aio-pika/aio_pika/channel.py:215: error: Argument "type" has incompatible type "Union[ExchangeType, str]"; expected "ExchangeType"  [arg-type]
+(mosquito)aio-pika/aio_pika/robust_exchange.py:34: error: Need type annotation for '_bindings' (hint: "_bindings: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:70: error: Need type annotation for 'futures' (hint: "futures: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:72: error: Need type annotation for 'routes' (hint: "routes: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:73: error: Need type annotation for 'queues' (hint: "queues: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:74: error: Need type annotation for 'consumer_tags' (hint: "consumer_tags: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:205: error: Argument 1 to "set_exception" of "Future" has incompatible type "bytes"; expected "Union[type, BaseException]"  [arg-type]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:224: error: Need type annotation for 'result'  [var-annotated]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:295: error: Too many arguments  [call-arg]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:295: error: Too few arguments  [call-arg]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:324: error: "None" has no attribute "name"  [attr-defined]
+(mosquito)aio-pika/aio_pika/patterns/rpc.py:326: error: "None" has no attribute "name"  [attr-defined]
+(mosquito)aio-pika/aio_pika/connection.py:14: error: Module 'yarl' has no attribute 'DEFAULT_PORTS'  [attr-defined]
+(mosquito)aio-pika/aio_pika/connection.py:118: error: Attribute 'connection' already defined on line 54  [no-redef]
+(mosquito)aio-pika/aio_pika/connection.py:120: error: Argument "timeout" to "wait_for" has incompatible type "Optional[TimeoutError]"; expected "Optional[float]"  [arg-type]
+(mosquito)aio-pika/aio_pika/connection.py:289: error: Incompatible types in assignment (expression has type "URL", variable has type "Optional[str]")  [assignment]
+(mosquito)aio-pika/aio_pika/robust_queue.py:44: error: Need type annotation for '_consumers' (hint: "_consumers: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/robust_queue.py:45: error: Need type annotation for '_bindings' (hint: "_bindings: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/robust_queue.py:88: error: Argument 1 of "consume" is incompatible with supertype "Queue"; supertype defines the argument type as "Callable[[Any], Any]"  [override]
+(mosquito)aio-pika/aio_pika/robust_queue.py:100: error: Argument 2 to "consume" of "Queue" has incompatible type "**Dict[str, object]"; expected "Callable[[Any], Any]"  [arg-type]
+(mosquito)aio-pika/aio_pika/robust_queue.py:100: error: Argument 2 to "consume" of "Queue" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(mosquito)aio-pika/aio_pika/robust_queue.py:100: error: Argument 2 to "consume" of "Queue" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[Any, Any]]"  [arg-type]
+(mosquito)aio-pika/aio_pika/robust_channel.py:47: error: Need type annotation for '_exchanges' (hint: "_exchanges: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/robust_channel.py:48: error: Need type annotation for '_queues' (hint: "_queues: Dict[<type>, <type>] = ...")  [var-annotated]
+(mosquito)aio-pika/aio_pika/robust_channel.py:90: error: Signature of "declare_exchange" incompatible with supertype "Channel"  [override]
+(mosquito)aio-pika/tests/test_rpc.py:6: error: Module 'aio_pika' has no attribute 'Message'  [attr-defined]
+(mosquito)aio-pika/tests/test_rpc.py:6: error: Module 'aio_pika' has no attribute 'connect_robust'  [attr-defined]
+(mosquito)aio-pika/aio_pika/robust_connection.py:30: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, Any, str], Tuple[str, Any, str]]", base class "Connection" defined the type as "Tuple[]")  [assignment]
+(mosquito)aio-pika/tests/test_kwargs.py:1: error: Module 'aio_pika' has no attribute 'connect'  [attr-defined]
+(mosquito)aio-pika/tests/test_kwargs.py:68: error: Incompatible types in assignment (expression has type "Type[MockConnectionRobust]", base class "TestCase" defined the type as "Type[MockConnection]")  [assignment]
+(mosquito)aio-pika/tests/test_amqp_robust.py:10: error: Module 'aio_pika' has no attribute 'connect_robust'  [attr-defined]
+(mosquito)aio-pika/tests/test_amqp_robust.py:10: error: Module 'aio_pika' has no attribute 'Message'  [attr-defined]
+Found 49 errors in 16 files (checked 10 source files)
+
+[RRepo](przemyslawjanpietrzak)pyMonet
+
+[RRepo](gsuitedevs)hangouts-chat-samples
+
+[RRepo](cjdrake)boolexpr
+
+[RRepo](ivandardi)RustbotPython
+Success: no issues found in 1 source file
+
+[RRepo](joelowj)Udacity-Projects
+

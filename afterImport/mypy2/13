@@ -1,0 +1,781 @@
+[RRepo](subutux)HUD
+
+[RRepo](chfoo)chatbot383
+
+[RRepo](appu1232)Selfbot-for-Discord
+
+[RRepo](TadLeonard)husl-numpy
+(TadLeonard)husl-numpy/nphusl/transform.py:251: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(TadLeonard)husl-numpy/nphusl/transform.py:251: note: Perhaps you need "Callable[...]" or a callback protocol?
+(TadLeonard)husl-numpy/nphusl/transform.py:259: error: Item "None" of "Optional[Any]" has no attribute "shape"  [union-attr]
+(TadLeonard)husl-numpy/nphusl/transform.py:264: error: callable? not callable  [misc]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:22: error: Module 'nphusl' has no attribute 'constants'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:62: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:64: error: Module 'nphusl' has no attribute '_cython_opt'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:69: error: Module 'nphusl' has no attribute '_simd_opt'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:189: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(TadLeonard)husl-numpy/nphusl/nphusl.py:189: note: Perhaps you need "Callable[...]" or a callback protocol?
+(TadLeonard)husl-numpy/nphusl/__init__.py:29: error: Module 'nphusl' has no attribute 'constants'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/__init__.py:36: error: Module 'nphusl' has no attribute '_cython_opt'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/__init__.py:40: error: Module 'nphusl' has no attribute '_simd_opt'  [attr-defined]
+(TadLeonard)husl-numpy/nphusl/_numexpr_opt.py:107: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(TadLeonard)husl-numpy/nphusl/_numexpr_opt.py:107: note: Perhaps you need "Callable[...]" or a callback protocol?
+(TadLeonard)husl-numpy/nphusl/_numexpr_opt.py:143: error: iter? has no attribute "__iter__" (not iterable)  [attr-defined]
+Found 13 errors in 4 files (checked 6 source files)
+
+[RRepo](alvations)pywsd
+
+[RRepo](benhoff)microphone
+
+[RRepo](VenomzGaming)SP-admin-server
+
+[RRepo](piontas)python-aada
+
+[RRepo](datamachine)telex
+
+[RRepo](Mereng)pyVKApi
+Success: no issues found in 2 source files
+
+[RRepo](chernals)georges
+Success: no issues found in 1 source file
+
+[RRepo](spesmilo)electrum
+
+[RRepo](GoogleCloudPlatform)plspm-python
+
+[RRepo](foglamp)FogLAMP
+
+[RRepo](Instanssi)Instanssi.org
+
+[RRepo](the-virtual-brain)tvb-hpc
+
+[RRepo](ChatSecure)chatsecure.github.io
+
+[RRepo](futursolo)sketchbook
+(futursolo)sketchbook/_load_version.py:30: error: Item "_Loader" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(futursolo)sketchbook/_load_version.py:30: error: Item "None" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(futursolo)sketchbook/_load_version.py:32: error: Module has no attribute "__version__"  [attr-defined]
+(futursolo)sketchbook/sketchbook/printer.py:25: error: Module 'sketchbook' has no attribute 'statements'  [attr-defined]
+(futursolo)sketchbook/sketchbook/sketch.py:30: error: Module 'sketchbook' has no attribute 'statements'  [attr-defined]
+(futursolo)sketchbook/sketchbook/context.py:21: error: Module 'sketchbook' has no attribute 'statements'  [attr-defined]
+(futursolo)sketchbook/sketchbook/parser.py:20: error: Module 'sketchbook' has no attribute 'statements'  [attr-defined]
+Found 7 errors in 5 files (checked 12 source files)
+
+[RRepo](CERT-BDF)Cortex-Analyzers
+
+[RRepo](wagnerpeer)gitexplorer
+
+[RRepo](MahjongRepository)tenhou-python-bot
+
+[RRepo](code4romania)czl-scrape
+
+[RRepo](stuxcrystal)yuuno
+(stuxcrystal)yuuno/setup.py:22: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(stuxcrystal)yuuno/setup.py:110: error: Need type annotation for 'test_requirements' (hint: "test_requirements: List[<type>] = ...")  [var-annotated]
+(stuxcrystal)yuuno/yuuno_ipython/utils.py:26: error: All conditional function variants must have identical signatures  [misc]
+Found 3 errors in 2 files (checked 4 source files)
+
+[RRepo](Eyra-is)Eyra
+
+[RRepo](HumanBrainProject)neuroglancer-scripts
+Success: no issues found in 1 source file
+
+[RRepo](sloria)webargs
+Success: no issues found in 1 source file
+
+[RRepo](fastogt)fastotv
+
+[RRepo](aioworkers)aioworkers-redis
+
+[RRepo](cheevahagadog)barker
+Success: no issues found in 1 source file
+
+[RRepo](SilentChaos512)SilentGems
+
+[RRepo](missionpinball)mpf
+
+[RRepo](chmeldax)microservice_example
+Success: no issues found in 1 source file
+
+[RRepo](yotam180)xAI
+
+[RRepo](ICL-SML)Doubly-Stochastic-DGP
+
+[RRepo](ThatIndividual)midas
+
+[RRepo](ArnaudPel)CamKifu
+
+[RRepo](ultmaster)eoj3
+(ultmaster)eoj3/blog/models.py:4: error: Module 'problem.models' has no attribute 'Problem'  [attr-defined]
+(ultmaster)eoj3/utils/comment.py:12: error: Module 'problem.models' has no attribute 'Problem'  [attr-defined]
+Found 2 errors in 2 files (checked 27 source files)
+
+[RRepo](Transkribus)TranskribusDU
+
+[RRepo](chuckus)chromewhip
+(chuckus)chromewhip/chromewhip/helpers.py:49: error: Need type annotation for 'hashable' (hint: "hashable: List[<type>] = ...")  [var-annotated]
+(chuckus)chromewhip/chromewhip/helpers.py:77: error: Incompatible return value type (got "None", expected "BaseEvent")  [return-value]
+(chuckus)chromewhip/chromewhip/helpers.py:80: error: Incompatible return value type (got "None", expected "BaseEvent")  [return-value]
+(chuckus)chromewhip/chromewhip/protocol/browser.py:61: error: Invalid type comment or annotation  [valid-type]
+(chuckus)chromewhip/chromewhip/protocol/browser.py:76: error: Invalid type comment or annotation  [valid-type]
+(chuckus)chromewhip/chromewhip/protocol/browser.py:77: error: Name 'Target' is not defined  [name-defined]
+(chuckus)chromewhip/chromewhip/protocol/browser.py:98: error: Name 'Target' is not defined  [name-defined]
+(chuckus)chromewhip/chromewhip/protocol/browser.py:260: error: Name 'Target' is not defined  [name-defined]
+(chuckus)chromewhip/chromewhip/views.py:8: error: Module 'chromewhip.protocol' has no attribute 'page'  [attr-defined]
+(chuckus)chromewhip/chromewhip/views.py:8: error: Module 'chromewhip.protocol' has no attribute 'emulation'  [attr-defined]
+(chuckus)chromewhip/chromewhip/views.py:8: error: Module 'chromewhip.protocol' has no attribute 'dom'  [attr-defined]
+(chuckus)chromewhip/chromewhip/views.py:8: error: Module 'chromewhip.protocol' has no attribute 'runtime'  [attr-defined]
+(chuckus)chromewhip/chromewhip/__init__.py:81: error: Argument "loop" to "create_subprocess_exec" has incompatible type "Optional[AbstractEventLoop]"; expected "AbstractEventLoop"  [arg-type]
+(chuckus)chromewhip/chromewhip/__init__.py:101: error: Argument "loop" to "create_subprocess_exec" has incompatible type "Optional[AbstractEventLoop]"; expected "AbstractEventLoop"  [arg-type]
+(chuckus)chromewhip/chromewhip/__init__.py:154: error: "setup_app" gets multiple values for keyword argument "loop"  [misc]
+Found 15 errors in 4 files (checked 7 source files)
+
+[RRepo](ufal)neuralmonkey
+
+[RRepo](allejok96)jw-scripts
+
+[RRepo](adminq80)Interactive_estimation
+
+[RRepo](dmulholland)ivy
+(dmulholland)ivy/ivy/site.py:123: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(dmulholland)ivy/ivy/site.py:124: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(dmulholland)ivy/ivy/loader.py:15: error: Need type annotation for 'meta' (hint: "meta: Dict[<type>, <type>] = ...")  [var-annotated]
+(dmulholland)ivy/ivy/hashes.py:24: error: Need type annotation for '_hashes'  [var-annotated]
+(dmulholland)ivy/ivy/hashes.py:32: error: Incompatible types in assignment (expression has type "str", target has type "Dict[Any, Any]")  [assignment]
+(dmulholland)ivy/ivy/hashes.py:33: error: Incompatible return value type (got "Dict[Any, Any]", expected "str")  [return-value]
+(dmulholland)ivy/ivy/nodes.py:78: error: Incompatible types in assignment (expression has type "Optional[Node]", variable has type "Node")  [assignment]
+(dmulholland)ivy/ivy/nodes.py:127: error: Function "ivy.nodes.Node.str" is not valid as a type  [valid-type]
+(dmulholland)ivy/ivy/nodes.py:127: note: Perhaps you need "Callable[...]" or a callback protocol?
+(dmulholland)ivy/ivy/nodes.py:137: error: Function "ivy.nodes.Node.str" is not valid as a type  [valid-type]
+(dmulholland)ivy/ivy/nodes.py:137: note: Perhaps you need "Callable[...]" or a callback protocol?
+Found 9 errors in 4 files (checked 19 source files)
+
+[RRepo](andrealani)COOLFluiD
+
+[RRepo](Petr-By)qtpyvis
+(Petr-By)qtpyvis/util/resources.py:72: error: Incompatible types in assignment (expression has type "None", variable has type "_component")  [assignment]
+(Petr-By)qtpyvis/util/resources.py:77: error: Incompatible types in assignment (expression has type "None", variable has type "_component")  [assignment]
+(Petr-By)qtpyvis/util/resources.py:90: error: Name 'os' is not defined  [name-defined]
+(Petr-By)qtpyvis/util/resources.py:92: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(Petr-By)qtpyvis/util/__init__.py:60: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(Petr-By)qtpyvis/util/__init__.py:113: error: Need type annotation for '_timer_callbacks' (hint: "_timer_callbacks: List[<type>] = ...")  [var-annotated]
+(Petr-By)qtpyvis/maximize_activation.py:20: error: Module 'tools.am' has no attribute 'Engine'  [attr-defined]
+(Petr-By)qtpyvis/maximize_activation.py:20: error: Module 'tools.am' has no attribute 'Config'  [attr-defined]
+(Petr-By)qtpyvis/main.py:14: error: Module 'toolbox' has no attribute 'Toolbox'  [attr-defined]
+(Petr-By)qtpyvis/main.py:21: error: Module 'datasources' has no attribute 'Predefined'  [attr-defined]
+(Petr-By)qtpyvis/downloader.py:23: error: Module has no attribute "datasources"  [attr-defined]
+Found 11 errors in 5 files (checked 6 source files)
+
+[RRepo](idlesign)steampak
+
+[RRepo](xorpd)fcatalog_server
+
+[RRepo](ahawker)ulid
+Success: no issues found in 1 source file
+
+[RRepo](relekang)python-semantic-release
+(relekang)python-semantic-release/semantic_release/history/parser_tag.py:41: error: Not all arguments converted during string formatting  [str-format]
+(relekang)python-semantic-release/semantic_release/history/parser_tag.py:47: error: Not all arguments converted during string formatting  [str-format]
+(relekang)python-semantic-release/setup.py:15: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+Found 3 errors in 2 files (checked 13 source files)
+
+[RRepo](isudox)leetcode-solution
+
+[RRepo](ybotkiller)ybotkiller
+Success: no issues found in 5 source files
+
+[RRepo](dvhbru)dvhb-hybrid
+
+[RRepo](jason-neal)eniric
+(jason-neal)eniric/eniric/broaden.py:18: error: Module 'eniric' has no attribute 'config'  [attr-defined]
+(jason-neal)eniric/eniric/atmosphere.py:10: error: Module 'eniric' has no attribute 'config'  [attr-defined]
+(jason-neal)eniric/conftest.py:10: error: Module 'eniric' has no attribute 'config'  [attr-defined]
+Found 3 errors in 3 files (checked 1 source file)
+
+[RRepo](bcb)jsonrpcclient
+(bcb)jsonrpcclient/jsonrpcclient/async_client.py:26: error: Return type "Coroutine[Any, Any, Response]" of "send_message" incompatible with return type "Response" in supertype "Client"  [override]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](pushkin-consortium)pushkin
+
+[RRepo](JoseLlarena)britfoner
+
+[RRepo](theQRL)QRL
+Success: no issues found in 1 source file
+
+[RRepo](ClusterLabs)pcs
+(ClusterLabs)pcs/setup.py:11: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(ClusterLabs)pcs/setup.py:50: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](dbrattli)OSlash
+
+[RRepo](streettraffic)streettraffic
+(streettraffic)streettraffic/server_multiple_cities.py:59: error: Need type annotation for 'traffic_matrix' (hint: "traffic_matrix: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](bcb)jsonrpcserver
+
+[RRepo](Drakulix)knex
+(Drakulix)knex/backend/__init__.py:69: error: "object" has no attribute "update"  [attr-defined]
+(Drakulix)knex/backend/__init__.py:71: error: "object" has no attribute "update"  [attr-defined]
+(Drakulix)knex/backend/__init__.py:73: error: "object" has no attribute "update"  [attr-defined]
+(Drakulix)knex/backend/__init__.py:82: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:84: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:85: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:86: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:87: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:127: error: Name 'init_global_mongoclient' already defined on line 93  [no-redef]
+(Drakulix)knex/backend/__init__.py:152: error: Name 'DB.Document' is not defined  [name-defined]
+(Drakulix)knex/backend/__init__.py:170: error: Name 'DB.Document' is not defined  [name-defined]
+(Drakulix)knex/backend/__init__.py:294: error: Name 'index' already defined on line 285  [no-redef]
+(Drakulix)knex/backend/__init__.py:315: error: Value of type "object" is not indexable  [index]
+(Drakulix)knex/backend/__init__.py:316: error: Value of type "object" is not indexable  [index]
+Found 14 errors in 1 file (checked 1 source file)
+
+[RRepo](s3rvac)blog
+
+[RRepo](michal-stuglik)django-blastplus
+
+[RRepo](Junnplus)leetcode
+
+[RRepo](syncrypt)client
+(syncrypt)client/syncrypt/utils/version.py:43: error: Argument 1 to "getfile" has incompatible type "Optional[FrameType]"; expected "Union[Module, Type[Any], MethodType, FunctionType, TracebackType, FrameType, CodeType, Callable[..., Any]]"  [arg-type]
+(syncrypt)client/setup.py:8: error: Name 'setup' already defined (possibly by an import)  [no-redef]
+(syncrypt)client/setup.py:25: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(syncrypt)client/setup.py:62: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(syncrypt)client/setup.py:94: error: Incompatible types in assignment (expression has type "Type[DeployCommand]", target has type "Type[DistCommand]")  [assignment]
+Found 5 errors in 2 files (checked 1 source file)
+
+[RRepo](RoboCupULaval)StrategyIA
+(RoboCupULaval)StrategyIA/Util/singleton.py:7: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Util/area.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:8: error: Module has no attribute "Position"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:15: error: Variable "Util.pose.Position" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/Util/pose.py:19: error: Position? has no attribute "copy"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:35: error: Position? has no attribute "x"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:43: error: Position? has no attribute "y"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:46: error: Variable "Util.pose.Position" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/Util/pose.py:50: error: Variable "Util.pose.Position" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/Util/pose.py:51: error: Position? has no attribute "copy"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:55: error: Position? has no attribute "norm"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:74: error: Variable "Util.pose.Position" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/Util/pose.py:78: error: Variable "Util.pose.Position" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/Util/pose.py:79: error: Unsupported operand type for unary - (Position?)  [operator]
+(RoboCupULaval)StrategyIA/Util/pose.py:81: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(RoboCupULaval)StrategyIA/Util/pose.py:81: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(RoboCupULaval)StrategyIA/Util/pose.py:81: note:     def __eq__(self, other: object) -> bool:
+(RoboCupULaval)StrategyIA/Util/pose.py:81: note:         if not isinstance(other, Pose):
+(RoboCupULaval)StrategyIA/Util/pose.py:81: note:             return NotImplemented
+(RoboCupULaval)StrategyIA/Util/pose.py:81: note:         return <logic to compare two Pose instances>
+(RoboCupULaval)StrategyIA/Util/pose.py:82: error: Module has no attribute "compare_angle"  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/pose.py:85: error: Unsupported left operand type for == (Position?)  [operator]
+(RoboCupULaval)StrategyIA/Util/pose.py:88: error: Argument 1 of "__ne__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(RoboCupULaval)StrategyIA/Util/position.py:104: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(RoboCupULaval)StrategyIA/Util/position.py:104: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(RoboCupULaval)StrategyIA/Util/position.py:104: note:     def __eq__(self, other: object) -> bool:
+(RoboCupULaval)StrategyIA/Util/position.py:104: note:         if not isinstance(other, Position):
+(RoboCupULaval)StrategyIA/Util/position.py:104: note:             return NotImplemented
+(RoboCupULaval)StrategyIA/Util/position.py:104: note:         return <logic to compare two Position instances>
+(RoboCupULaval)StrategyIA/Util/position.py:107: error: Argument 1 of "__ne__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(RoboCupULaval)StrategyIA/Engine/Tracker/Filters/ball_kalman_filter.py:4: error: Module 'Engine.Tracker.Filters' has no attribute 'KalmanFilter'  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/path.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/path.py:44: error: Incompatible types in assignment (expression has type "Sequence[Any]", variable has type "List[Any]")  [assignment]
+(RoboCupULaval)StrategyIA/Util/path.py:82: error: Signature of "__setitem__" incompatible with supertype "MutableSequence"  [override]
+(RoboCupULaval)StrategyIA/Util/path.py:85: error: Signature of "__delitem__" incompatible with supertype "MutableSequence"  [override]
+(RoboCupULaval)StrategyIA/install_all.py:9: error: Unsupported left operand type for + ("None")  [operator]
+(RoboCupULaval)StrategyIA/install_all.py:9: note: Left operand is of type "Optional[str]"
+(RoboCupULaval)StrategyIA/install_all.py:107: error: "print" does not return a value  [func-returns-value]
+(RoboCupULaval)StrategyIA/ai/Algorithm/path_partitionner.py:8: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/role_mapper.py:7: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/Util/role_mapper.py:16: error: Need type annotation for 'LOCKED_ROLES' (hint: "LOCKED_ROLES: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Util/geometry.py:50: error: Item "Position" of "Union[Pose, Position]" has no attribute "position"  [union-attr]
+(RoboCupULaval)StrategyIA/Util/geometry.py:52: error: Argument 1 to "point_inside" of "Area" has incompatible type "Union[Pose, Position]"; expected "Position"  [arg-type]
+(RoboCupULaval)StrategyIA/config/config.py:5: error: Module 'Util' has no attribute 'Singleton'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:6: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:9: error: Module 'ai.GameDomainObjects' has no attribute 'Ball'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:102: error: Need type annotation for 'field_arcs' (hint: "field_arcs: Dict[<type>, <type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:114: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:114: note: Did you mean "List[...]"?
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:119: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/field.py:119: note: Did you mean "List[...]"?
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/player.py:19: error: Property "pose" defined in "Player" is read-only  [misc]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/player.py:48: error: Name 'pose' already defined on line 40  [no-redef]
+(RoboCupULaval)StrategyIA/ai/GameDomainObjects/player.py:48: error: "Callable[[Player], Any]" has no attribute "setter"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:3: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:3: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:3: error: Module 'Util' has no attribute 'Path'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:40: error: Incompatible types in assignment (expression has type "Optional[float]", variable has type "float")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:54: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:60: error: Unsupported left operand type for - ("None")  [operator]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:60: note: Both left and right operands are unions
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:63: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:68: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:73: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:78: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:83: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:88: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:93: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:98: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/Engine/Controller/robot.py:104: error: Missing return statement  [return]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:11: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:15: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:34: error: Item "None" of "Optional[Position]" has no attribute "x"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:35: error: Item "None" of "Optional[Position]" has no attribute "y"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:44: error: Item "None" of "Optional[Position]" has no attribute "x"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:44: error: Item "None" of "Optional[Position]" has no attribute "y"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:45: error: Item "None" of "Optional[Position]" has no attribute "x"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:46: error: Item "None" of "Optional[Position]" has no attribute "y"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:51: error: Item "None" of "Optional[Position]" has no attribute "x"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:52: error: Item "None" of "Optional[Position]" has no attribute "y"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:80: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(RoboCupULaval)StrategyIA/ai/STA/Action/GoBehind.py:82: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Controller/path_smoother.py:3: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/path_smoother.py:3: error: Module 'Util' has no attribute 'Path'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/path_smoother.py:25: error: Too many arguments for "compute_turn_radius"  [call-arg]
+(RoboCupULaval)StrategyIA/Engine/Controller/path_smoother.py:25: error: "compute_turn_radius" gets multiple values for keyword argument "acc"  [misc]
+(RoboCupULaval)StrategyIA/Engine/Communication/receiver/receiver_base_class.py:5: error: Module 'multiprocessing.managers' has no attribute 'DictProxy'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:4: error: Module 'multiprocessing.managers' has no attribute 'DictProxy'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:12: error: Module 'ai.GameDomainObjects' has no attribute 'Ball'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:12: error: Module 'ai.GameDomainObjects' has no attribute 'Team'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:12: error: Module 'ai.GameDomainObjects' has no attribute 'Field'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:149: error: Name 'ball' already defined on line 133  [no-redef]
+(RoboCupULaval)StrategyIA/ai/states/game_state.py:149: error: "Callable[[GameState], Any]" has no attribute "setter"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:4: error: Module 'multiprocessing.managers' has no attribute 'DictProxy'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:11: error: Module 'Engine.Tracker.Filters' has no attribute 'RobotFilter'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:13: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:13: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:45: error: Incompatible return value type (got "Dict[str, Union[float, List[Dict[str, Any]]]]", expected "Dict[str, List[Dict[str, Any]]]")  [return-value]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:115: error: Need type annotation for 'new_robots'  [var-annotated]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:190: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "float")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:191: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "float")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:192: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "float")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:193: error: Incompatible return value type (got "Dict[str, float]", expected "Dict[str, Union[float, List[Dict[str, Any]]]]")  [return-value]
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:193: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:193: note: Consider using "Mapping" instead, which is covariant in the value type
+(RoboCupULaval)StrategyIA/Engine/Tracker/tracker.py:193: note: Perhaps you need a type annotation for "game_fields"? Suggestion: "Dict[str, Union[float, List[Dict[str, Any]]]]"
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:7: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:7: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:87: error: Need type annotation for 'cmd' (hint: "cmd: Dict[<type>, <type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:113: error: Need type annotation for 'raw_path_cmds' (hint: "raw_path_cmds: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:113: error: Need type annotation for 'path_cmds' (hint: "path_cmds: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:123: error: Need type annotation for 'cmds' (hint: "cmds: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Debug/debug_command_factory.py:130: error: Need type annotation for 'cmds' (hint: "cmds: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/tactic.py:8: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/tactic.py:8: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/tactic.py:13: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/tactic.py:59: error: Variable "Util.ai_command.Idle" is not valid as a type  [valid-type]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/tactic.py:69: error: Idle? has no attribute "target"  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/Algorithm/evaluation_module.py:12: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/pathfinder_module.py:6: error: Module 'Util' has no attribute 'AICommand'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/pathfinder_module.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/pathfinder_module.py:6: error: Module 'Util' has no attribute 'Path'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/pathfinder_module.py:8: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/pathfinder_module.py:72: error: Need type annotation for 'sub_paths' (hint: "sub_paths: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:13: error: Module 'Engine.Controller.Regulators' has no attribute 'VelocityRegulator'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:17: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:42: error: Value of type "Robot" is not indexable  [index]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:43: error: Value of type "Robot" is not indexable  [index]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:44: error: Value of type "Robot" is not indexable  [index]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:58: error: Incompatible types in assignment (expression has type "float", variable has type "None")  [assignment]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:59: error: "None" has no attribute "execute"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:73: error: "None" has no attribute "kick_type"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:74: error: "None" has no attribute "kick_force"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:75: error: "None" has no attribute "charge_kick"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:76: error: "None" has no attribute "dribbler_state"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:86: error: Unsupported operand type for unary - ("Optional[float]")  [operator]
+(RoboCupULaval)StrategyIA/Engine/Controller/controller.py:108: error: "None" has no attribute "norm"  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Communication/receiver/vision_receiver.py:10: error: Module 'multiprocessing.managers' has no attribute 'DictProxy'  [attr-defined]
+(RoboCupULaval)StrategyIA/Engine/Communication/receiver/referee_receiver.py:13: error: Module 'ai.GameDomainObjects' has no attribute 'RefereeState'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/position_for_pass.py:5: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/position_for_pass.py:5: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/position_for_pass.py:9: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stress_test_robot.py:1: error: Module 'queue' has no attribute 'deque'; maybe "Deque"?  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stress_test_robot.py:4: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stress_test_robot.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stress_test_robot.py:7: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stop.py:2: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stop.py:3: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stay_away_from_ball.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/stay_away_from_ball.py:9: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/rotate_around_ball.py:8: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/rotate_around_ball.py:8: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/rotate_around_ball.py:11: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/receive_pass.py:6: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/receive_pass.py:6: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/receive_pass.py:14: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/place_ball.py:7: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/place_ball.py:7: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/place_ball.py:10: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/place_ball.py:140: error: Item "None" of "Optional[Any]" has no attribute "position"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/pass_to_player.py:8: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/pass_to_player.py:11: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_to_random_pose_in_zone.py:5: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_to_random_pose_in_zone.py:5: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_to_position.py:5: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_to_position.py:24: error: Value of type "Optional[List[str]]" is not indexable  [index]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick_experimental_sequence.py:8: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick_experimental_sequence.py:8: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick_experimental_sequence.py:13: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick_experimental_sequence.py:53: error: Need type annotation for 'points_sequence' (hint: "points_sequence: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick_experimental_sequence.py:143: error: Item "None" of "Optional[Any]" has no attribute "position"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick.py:9: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick.py:9: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick.py:14: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/go_kick.py:185: error: Item "None" of "Optional[Any]" has no attribute "position"  [union-attr]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/face_target.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/face_target.py:6: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/demo_follow_robot.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/demo_follow_robot.py:7: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/demo_follow_ball.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/demo_follow_ball.py:7: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/align_around_the_ball.py:5: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/align_around_the_ball.py:5: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/align_around_the_ball.py:9: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/align_to_defense_wall.py:6: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/align_to_defense_wall.py:13: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/leeroy_jenkins.py:3: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/leeroy_jenkins.py:6: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/goalkeeper.py:3: error: Module 'unittest.suite' has no attribute '_DebugResult'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/goalkeeper.py:16: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/goalkeeper.py:16: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Tactic/goalkeeper.py:21: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/strategy.py:7: error: Module 'Util' has no attribute 'AICommand'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/strategy.py:11: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/strategy.py:45: error: Incompatible return value type (got "List[<nothing>]", expected "Dict[Role, Callable[..., Any]]")  [return-value]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/strategy.py:83: error: Need type annotation for 'cmds_debug' (hint: "cmds_debug: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/defense_wall.py:40: error: Need type annotation for 'robots_in_wall_formation' (hint: "robots_in_wall_formation: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/defense_wall.py:41: error: Need type annotation for 'robots_in_cover_formation' (hint: "robots_in_cover_formation: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/defense_wall.py:42: error: Need type annotation for 'attackers' (hint: "attackers: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/defense_wall.py:43: error: Need type annotation for 'cover_to_coveree' (hint: "cover_to_coveree: Dict[<type>, <type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/defense_wall.py:44: error: Need type annotation for 'cover_to_formation' (hint: "cover_to_formation: Dict[<type>, <type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/ball_placement.py:3: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/lineup.py:4: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/STA/Strategy/lineup.py:4: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/states/play_state.py:6: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:37: error: Signature of "update" incompatible with supertype "IntelligentModule"  [override]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:110: error: Signature of "update" incompatible with supertype "AutoPlay"  [override]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:110: error: Signature of "update" incompatible with supertype "IntelligentModule"  [override]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:115: error: Incompatible types in assignment (expression has type "SimpleAutoPlayState", variable has type "None")  [assignment]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:143: error: Argument 1 to "_on_ref_state_change" of "SimpleAutoPlay" has incompatible type "RawRefereeCommand"; expected "RefereeCommand"  [arg-type]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:145: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(RoboCupULaval)StrategyIA/ai/Algorithm/auto_play.py:147: error: Incompatible types in assignment (expression has type "RawRefereeCommand", variable has type "RefereeCommand")  [assignment]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:10: error: Module 'Util' has no attribute 'Pose'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:10: error: Module 'Util' has no attribute 'Position'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:10: error: Module 'Util' has no attribute 'AICommand'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:10: error: Module 'Util' has no attribute 'EngineCommand'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:10: error: Module 'Util' has no attribute 'Path'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:13: error: Module 'ai.GameDomainObjects' has no attribute 'Player'  [attr-defined]
+(RoboCupULaval)StrategyIA/ai/executors/play_executor.py:36: error: Need type annotation for 'ref_states' (hint: "ref_states: List[<type>] = ...")  [var-annotated]
+(RoboCupULaval)StrategyIA/ai/executors/debug_executor.py:33: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+Found 205 errors in 53 files (checked 4 source files)
+
+[RRepo](SF-Zhou)quite
+
+[RRepo](GNOME)gnome-builder
+
+[RRepo](evanunderscore)defopt
+
+[RRepo](lukas)ml-class
+
+[RRepo](kashifrazzaqui)json-streamer
+
+[RRepo](ruuda)hoff
+
+[RRepo](timofurrer)pyobservable
+(timofurrer)pyobservable/setup.py:22: error: Need type annotation for 'required' (hint: "required: List[<type>] = ...")  [var-annotated]
+(timofurrer)pyobservable/setup.py:29: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(timofurrer)pyobservable/setup.py:63: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](malinoff)amqproto
+
+[RRepo](crowd4u)crowd4py
+
+[RRepo](madhavajay)nd889
+
+[RRepo](karellen)karellen-sqlite
+Success: no issues found in 1 source file
+
+[RRepo](thought-machine)please
+
+[RRepo](dmlc)xgboost
+
+[RRepo](levjj)wahlomat-visualization
+(levjj)wahlomat-visualization/render.py:19: error: Need type annotation for 'answers' (hint: "answers: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](pyta-uoft)pyta
+(pyta-uoft)pyta/python_ta/utils.py:3: error: Module 'typing' has no attribute 'ForwardRef'  [attr-defined]
+(pyta-uoft)pyta/python_ta/utils.py:3: error: Module 'typing' has no attribute '_GenericAlias'  [attr-defined]
+(pyta-uoft)pyta/python_ta/cfg/graph.py:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(pyta-uoft)pyta/python_ta/cfg/graph.py:112: error: Missing return statement  [return]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:35: error: Item "None" of "Optional[CFGBlock]" has no attribute "add_statement"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:53: error: Item "None" of "Optional[CFGBlock]" has no attribute "add_statement"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:78: error: Item "None" of "Optional[CFGBlock]" has no attribute "add_statement"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:83: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:93: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:99: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:100: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:101: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:101: error: Argument 1 to "link_or_merge" of "ControlFlowGraph" has incompatible type "Optional[CFGBlock]"; expected "CFGBlock"  [arg-type]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:109: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:112: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:112: error: Argument 1 to "link_or_merge" of "ControlFlowGraph" has incompatible type "Optional[CFGBlock]"; expected "CFGBlock"  [arg-type]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:114: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:121: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:126: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:132: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:138: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:143: error: Item "None" of "Optional[CFGBlock]" has no attribute "add_statement"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:147: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:149: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:149: error: Argument 1 to "link_or_merge" of "ControlFlowGraph" has incompatible type "Optional[CFGBlock]"; expected "CFGBlock"  [arg-type]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:151: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:158: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:163: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:169: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:175: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link_or_merge"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:191: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "link"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:191: error: Argument 1 to "link" of "ControlFlowGraph" has incompatible type "Optional[CFGBlock]"; expected "CFGBlock"  [arg-type]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:192: error: Item "None" of "Optional[CFGBlock]" has no attribute "add_statement"  [union-attr]
+(pyta-uoft)pyta/python_ta/cfg/visitor.py:197: error: Item "None" of "Optional[ControlFlowGraph]" has no attribute "create_block"  [union-attr]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:33: error: Module has no attribute "NL"  [attr-defined]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:35: error: Module has no attribute "COMMENT"  [attr-defined]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:152: error: Cannot determine type of 'or_test'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:152: error: Cannot determine type of 'test'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:153: error: Cannot determine type of 'lambdef'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:154: error: Cannot determine type of 'not_test'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:154: error: Cannot determine type of 'comparison'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:157: error: Cannot determine type of 'lambdef_nocond'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:162: error: Cannot determine type of 'yield_expr'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:162: error: Cannot determine type of 'testlist_comp'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:163: error: Cannot determine type of 'testlist_comp'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:164: error: Cannot determine type of 'dictorsetmaker'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:179: error: Cannot determine type of 'arglist'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:184: error: Cannot determine type of 'factor'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:204: error: Cannot determine type of 'comp_for'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:204: error: Cannot determine type of 'comp_if'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:269: error: Cannot determine type of 'simple_stmt'  [has-type]
+(pyta-uoft)pyta/python_ta/parser/__init__.py:271: error: Cannot determine type of 'stmt'  [has-type]
+(pyta-uoft)pyta/python_ta/__init__.py:20: error: Module has no attribute "_"  [attr-defined]
+(pyta-uoft)pyta/python_ta/__init__.py:36: error: Module 'python_ta.reporters' has no attribute 'REPORTERS'  [attr-defined]
+Found 54 errors in 5 files (checked 10 source files)
+
+[RRepo](yadayada)acd_cli
+(yadayada)acd_cli/acdcli/utils/progress.py:84: error: Argument 1 to "speed_str" has incompatible type "float"; expected "int"  [arg-type]
+(yadayada)acd_cli/acdcli/utils/progress.py:92: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(yadayada)acd_cli/acdcli/utils/progress.py:100: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(yadayada)acd_cli/acdcli/cache/query.py:10: error: Incompatible types in assignment (expression has type "datetime", variable has type "str")  [assignment]
+(yadayada)acd_cli/acdcli/cache/query.py:12: error: Incompatible types in assignment (expression has type "datetime", variable has type "str")  [assignment]
+(yadayada)acd_cli/acdcli/cache/query.py:13: error: Incompatible return value type (got "str", expected "datetime")  [return-value]
+(yadayada)acd_cli/acdcli/cache/query.py:143: error: Name 'Union' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:143: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Union")
+(yadayada)acd_cli/acdcli/cache/query.py:144: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:155: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:161: error: Name 'Union' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:161: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Union")
+(yadayada)acd_cli/acdcli/cache/query.py:164: error: "QueryMixin" has no attribute "root_id"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:166: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:167: error: "QueryMixin" has no attribute "root_id"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:171: error: "QueryMixin" has no attribute "root_id"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:173: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:196: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:196: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:197: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:207: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:213: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:219: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:231: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:237: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:242: error: Name 'Union' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:242: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Union")
+(yadayada)acd_cli/acdcli/cache/query.py:243: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:251: error: Name 'Tuple' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:251: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(yadayada)acd_cli/acdcli/cache/query.py:251: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:251: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:255: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:269: error: Name 'Tuple' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:269: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(yadayada)acd_cli/acdcli/cache/query.py:269: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:269: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:276: error: "QueryMixin" has no attribute "root_id"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:278: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:282: error: "QueryMixin" has no attribute "root_id"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:286: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:286: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:288: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:296: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:296: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:298: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:306: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:306: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/cache/query.py:308: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/query.py:317: error: "QueryMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:14: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", variable has type "Iterator[str]")  [assignment]
+(yadayada)acd_cli/acdcli/cache/format.py:14: note: 'dict' is missing following 'Iterator' protocol member:
+(yadayada)acd_cli/acdcli/cache/format.py:14: note:     __next__
+(yadayada)acd_cli/acdcli/cache/format.py:14: error: Argument 1 to "dict" has incompatible type "Generator[List[str], None, None]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(yadayada)acd_cli/acdcli/cache/format.py:17: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", variable has type "Iterator[str]")  [assignment]
+(yadayada)acd_cli/acdcli/cache/format.py:17: note: 'dict' is missing following 'Iterator' protocol member:
+(yadayada)acd_cli/acdcli/cache/format.py:17: note:     __next__
+(yadayada)acd_cli/acdcli/cache/format.py:20: error: "Iterator[str]" has no attribute "get"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:21: error: "Iterator[str]" has no attribute "get"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:22: error: "Iterator[str]" has no attribute "get"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:49: error: "Iterator[str]" has no attribute "get"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:107: error: Name 'Generator' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:113: error: "FormatterMixin" has no attribute "list_trashed_children"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:115: error: "FormatterMixin" has no attribute "list_children"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:126: error: "FormatterMixin" has no attribute "num_children"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:150: error: Name 'Generator' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:160: error: "FormatterMixin" has no attribute "list_children"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:170: error: Name 'Generator' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:174: error: Name 'Generator' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/cache/format.py:176: error: "FormatterMixin" has no attribute "first_path"  [attr-defined]
+(yadayada)acd_cli/setup.py:16: error: Module has no attribute "__version__"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/sync.py:40: error: "SyncMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/sync.py:90: error: "SyncMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/sync.py:109: error: "SyncMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/sync.py:135: error: "SyncMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/acdcli/cache/sync.py:140: error: "SyncMixin" has no attribute "_conn"  [attr-defined]
+(yadayada)acd_cli/tests/test_helper.py:70: error: Need type annotation for 'folders' (hint: "folders: List[<type>] = ...")  [var-annotated]
+(yadayada)acd_cli/acdcli/cache/db.py:25: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/cache/db.py:26: error: Dict entry 0 has incompatible type "str": "List[<nothing>]"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/cache/db.py:91: error: Missing return statement  [return]
+(yadayada)acd_cli/acdcli/cache/db.py:126: error: Variable "acdcli.cache.db.NodeCache.IntegrityCheckType" is not valid as a type  [valid-type]
+(yadayada)acd_cli/tests/test_actions.py:23: error: Missing return statement  [return]
+(yadayada)acd_cli/acdcli/api/common.py:10: error: Incompatible import of "ReadTimeoutError" (imported name has type "Type[ReadTimeoutError]", local name has type "Type[ReadTimeout]")  [misc]
+(yadayada)acd_cli/acdcli/api/common.py:12: error: Name 'ReadTimeoutError' already defined (possibly by an import)  [no-redef]
+(yadayada)acd_cli/acdcli/api/common.py:56: error: Incompatible return value type (got "Union[bool, Match[str], None]", expected "bool")  [return-value]
+(yadayada)acd_cli/acdcli/api/__init__.py:64: error: Module has no attribute "old_dau"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/__init__.py:69: error: Incompatible types in assignment (expression has type "Callable[[], Any]", variable has type "Callable[[Any], Any]")  [assignment]
+(yadayada)acd_cli/acdcli/api/trash.py:12: error: "TrashMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:12: error: "TrashMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:15: error: "TrashMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:15: error: "TrashMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:21: error: "TrashMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:21: error: "TrashMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:28: error: "TrashMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/trash.py:28: error: "TrashMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:19: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:19: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:77: error: Name 'Generator' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:148: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:148: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:157: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:157: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:166: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:166: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:175: error: Missing return statement  [return]
+(yadayada)acd_cli/acdcli/api/metadata.py:185: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:185: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:189: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:189: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:198: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:198: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:206: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:207: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:221: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:221: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:249: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:249: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:264: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:264: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:274: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:274: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:284: error: "MetadataMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:285: error: "MetadataMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:289: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/api/metadata.py:289: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/api/backoff_req.py:20: error: Name 'Tuple' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/api/backoff_req.py:20: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(yadayada)acd_cli/acdcli/api/backoff_req.py:68: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/api/backoff_req.py:68: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/api/backoff_req.py:139: error: Name 'List' is not defined  [name-defined]
+(yadayada)acd_cli/acdcli/api/backoff_req.py:139: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(yadayada)acd_cli/acdcli/api/backoff_req.py:143: error: Need type annotation for 'node_list' (hint: "node_list: List[<type>] = ...")  [var-annotated]
+(yadayada)acd_cli/acdcli/api/account.py:11: error: Need type annotation for 'dict_' (hint: "dict_: Dict[<type>, <type>] = ...")  [var-annotated]
+(yadayada)acd_cli/acdcli/api/account.py:53: error: Incompatible return value type (got "Tuple[str, str]", expected "str")  [return-value]
+(yadayada)acd_cli/acdcli/api/account.py:54: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(yadayada)acd_cli/acdcli/api/account.py:55: error: Incompatible return value type (got "Tuple[str, str]", expected "str")  [return-value]
+(yadayada)acd_cli/acdcli/api/account.py:61: error: "AccountMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/account.py:61: error: "AccountMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/account.py:65: error: "AccountMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/account.py:65: error: "AccountMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/account.py:68: error: Incompatible return value type (got "_Usage", expected "str")  [return-value]
+(yadayada)acd_cli/acdcli/api/account.py:71: error: "AccountMixin" has no attribute "BOReq"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/account.py:71: error: "AccountMixin" has no attribute "metadata_url"  [attr-defined]
+(yadayada)acd_cli/acdcli/api/oauth.py:48: error: Argument 1 of "__call__" is incompatible with supertype "AuthBase"; supertype defines the argument type as "PreparedRequest"  [override]
+(yadayada)acd_cli/acdcli/api/client.py:26: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:27: error: Dict entry 0 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:27: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:28: error: Dict entry 2 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:28: error: Dict entry 3 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:28: error: Dict entry 4 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(yadayada)acd_cli/acdcli/api/client.py:88: error: Trying to read deleted variable 'e'  [misc]
+(yadayada)acd_cli/acdcli/api/client.py:89: error: Trying to read deleted variable 'e'  [misc]
+Found 133 errors in 16 files (checked 7 source files)
+
+[RRepo](Djaler)VkGraph
+
+[RRepo](DrPandemic)aigar.io
+
+[RRepo](mdutkin)m2core
+
+[RRepo](beltashazzer)jmpy
+
+[RRepo](meadowfrey)OctoPrint-Dashboard
+
+[RRepo](QuantumGhost)env_conf
+Success: no issues found in 3 source files
+
+[RRepo](mesonbuild)meson
+(mesonbuild)meson/mesonbuild/mdist.py:28: error: Module 'mesonbuild' has no attribute 'build'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mconf.py:16: error: Module 'mesonbuild' has no attribute 'build'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mconf.py:16: error: Module 'mesonbuild' has no attribute 'mintro'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mconf.py:17: error: Module 'mesonbuild.ast' has no attribute 'AstIDGenerator'  [attr-defined]
+(mesonbuild)meson/mesonbuild/msetup.py:26: error: Module 'mesonbuild' has no attribute 'interpreter'  [attr-defined]
+(mesonbuild)meson/mesonbuild/msetup.py:27: error: Module 'mesonbuild' has no attribute 'build'  [attr-defined]
+(mesonbuild)meson/mesonbuild/msetup.py:29: error: Module 'mesonbuild' has no attribute 'mintro'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mesonmain.py:25: error: Module 'mesonbuild' has no attribute 'minit'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mesonmain.py:25: error: Module 'mesonbuild' has no attribute 'minstall'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mesonmain.py:25: error: Module 'mesonbuild' has no attribute 'mintro'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mesonmain.py:25: error: Module 'mesonbuild' has no attribute 'mtest'  [attr-defined]
+(mesonbuild)meson/mesonbuild/mesonmain.py:25: error: Module 'mesonbuild' has no attribute 'rewriter'  [attr-defined]
+(mesonbuild)meson/run_tests.py:32: error: Module 'mesonbuild' has no attribute 'mtest'  [attr-defined]
+(mesonbuild)meson/run_tests.py:96: error: Incompatible types in assignment (expression has type "None", variable has type "List[str]")  [assignment]
+Found 14 errors in 5 files (checked 5 source files)
+
+[RRepo](thomaxxl)safrs
+(thomaxxl)safrs/safrs/request.py:33: error: Need type annotation for 'filters' (hint: "filters: Dict[<type>, <type>] = ...")  [var-annotated]
+(thomaxxl)safrs/safrs/api_methods.py:11: error: 'classmethod' used with a non-method  [misc]
+(thomaxxl)safrs/safrs/api_methods.py:55: error: 'classmethod' used with a non-method  [misc]
+(thomaxxl)safrs/safrs/api_methods.py:83: error: 'classmethod' used with a non-method  [misc]
+(thomaxxl)safrs/safrs/api_methods.py:121: error: 'classmethod' used with a non-method  [misc]
+(thomaxxl)safrs/safrs/__init__.py:109: error: Need type annotation for 'config' (hint: "config: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 3 files (checked 9 source files)
+
+[RRepo](camconn)spigot-monitor
+(camconn)spigot-monitor/wrapper.py:75: error: Incompatible return value type (got "None", expected "Tuple[Any, ...]")  [return-value]
+(camconn)spigot-monitor/wrapper.py:84: error: Incompatible return value type (got "Iterator[Any]", expected "Tuple[Any, ...]")  [return-value]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](GreenDelta)olca-app
+
+[RRepo](MissionCriticalCloud)cosmic
+
+[RRepo](audiohacked)pyBusPirate
+
+[RRepo](Polyconseil)libcanardbc
+
+[RRepo](vmagamedov)hiku
+
+[RRepo](openego)oeplatform
+
+[RRepo](mattHawthorn)sk-torch
+
+[RRepo](samuroi)SamuROI
+

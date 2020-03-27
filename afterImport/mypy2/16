@@ -1,0 +1,678 @@
+[RRepo](stsouko)CGRtools
+
+[RRepo](jamesmishra)nlp-playground
+
+[RRepo](valerius21)ERMA17
+(valerius21)ERMA17/ERMA17_alpha.py:19: error: Name 'dispatcher' already defined (possibly by an import)  [no-redef]
+(valerius21)ERMA17/ERMA17_alpha.py:49: error: "object" has no attribute "message"  [attr-defined]
+(valerius21)ERMA17/ERMA17_alpha.py:250: error: Argument 2 to "dispatcher" has incompatible type "Callable[[object, object], object]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:251: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:252: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:253: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:254: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:255: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+(valerius21)ERMA17/ERMA17_alpha.py:256: error: Argument 2 to "dispatcher" has incompatible type "Callable[[Any, Any], Any]"; expected "Dict[int, Any]"  [arg-type]
+Found 9 errors in 1 file (checked 1 source file)
+
+[RRepo](FrodeSolheim)fs-uae-launcher
+(FrodeSolheim)fs-uae-launcher/OpenGL/plugins.py:44: error: Need type annotation for 'registry' (hint: "registry: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/plugins.py:60: error: Need type annotation for 'registry' (hint: "registry: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/_bytes.py:63: error: Module has no attribute "maxint"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:18: error: "Type[Logger]" has no attribute "getException"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:19: error: "Type[Logger]" has no attribute "err"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:20: error: "Type[Logger]" has no attribute "DEBUG"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:21: error: "Type[Logger]" has no attribute "WARN"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:22: error: "Type[Logger]" has no attribute "INFO"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:23: error: "Type[Logger]" has no attribute "ERR"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/logs.py:23: error: "Type[Logger]" has no attribute "ERROR"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/latebind.py:2: error: Module 'OpenGL' has no attribute 'acceleratesupport'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/latebind.py:6: error: Name 'LateBind' already defined on line 3  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/latebind.py:6: error: Name 'Curry' already defined on line 3  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/latebind.py:10: error: Name 'LateBind' already defined on line 3  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/latebind.py:47: error: Name 'Curry' already defined on line 3  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/images.py:147: error: Need type annotation for 'COMPONENT_COUNTS' (hint: "COMPONENT_COUNTS: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/images.py:150: error: Need type annotation for 'TYPE_TO_BITS' (hint: "TYPE_TO_BITS: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/images.py:153: error: Need type annotation for 'TYPE_TO_ARRAYTYPE' (hint: "TYPE_TO_ARRAYTYPE: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/images.py:156: error: Need type annotation for 'TIGHT_PACK_FORMATS' (hint: "TIGHT_PACK_FORMATS: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/images.py:158: error: Need type annotation for 'RANK_PACKINGS' (hint: "RANK_PACKINGS: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/constant.py:59: error: Cannot assign to a type  [misc]
+(FrodeSolheim)fs-uae-launcher/OpenGL/constant.py:59: error: Incompatible types in assignment (expression has type "Type[IntConstant]", variable has type "Type[LongConstant]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/constant.py:78: error: "Constant" has no attribute "name"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/_opaque.py:7: error: Unsupported dynamic base class "ctypes.POINTER"  [misc]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/ctypesloader.py:10: error: Module has no attribute "__version__"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/launcher/launcher_signal.py:9: error: Need type annotation for 'listeners' (hint: "listeners: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/lazywrapper.py:5: error: Variable "OpenGL.latebind.Curry" is not valid as a type  [valid-type]
+(FrodeSolheim)fs-uae-launcher/OpenGL/lazywrapper.py:5: error: Invalid base class "Curry"  [misc]
+(FrodeSolheim)fs-uae-launcher/OpenGL/lazywrapper.py:45: error: Module 'OpenGL.raw' has no attribute 'GLU'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/raw/GL/_types.py:129: error: Module 'OpenGL.platform' has no attribute 'PLATFORM'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/error.py:163: error: Module 'OpenGL' has no attribute 'acceleratesupport'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/error.py:167: error: Name '_ErrorChecker' already defined on line 164  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/error.py:171: error: Name '_ErrorChecker' already defined on line 164  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/win32.py:4: error: Module 'OpenGL.platform' has no attribute 'baseplatform'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/win32.py:62: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/win32.py:65: error: Module has no attribute "windll"  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/osmesa.py:10: error: Module 'OpenGL.platform' has no attribute 'baseplatform'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/osmesa.py:12: error: Module 'OpenGL.raw.osmesa' has no attribute '_types'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/glx.py:4: error: Module 'OpenGL.platform' has no attribute 'baseplatform'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/egl.py:3: error: Module 'OpenGL.platform' has no attribute 'baseplatform'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/platform/darwin.py:25: error: Module 'OpenGL.platform' has no attribute 'baseplatform'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/extensions.py:14: error: Need type annotation for 'AVAILABLE_GL_EXTENSIONS' (hint: "AVAILABLE_GL_EXTENSIONS: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/extensions.py:15: error: Need type annotation for 'AVAILABLE_GLU_EXTENSIONS' (hint: "AVAILABLE_GLU_EXTENSIONS: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/extensions.py:91: error: Need type annotation for 'registered' (hint: "registered: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/extensions.py:215: error: Variable "OpenGL.latebind.LateBind" is not valid as a type  [valid-type]
+(FrodeSolheim)fs-uae-launcher/OpenGL/extensions.py:215: error: Invalid base class "LateBind"  [misc]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:109: error: Module 'OpenGL' has no attribute 'acceleratesupport'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:113: error: Name 'CallFuncPyConverter' already defined on line 110  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:128: error: Name 'CallFuncPyConverter' already defined on line 110  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:136: error: Name 'DefaultCConverter' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:159: error: Name 'getPyArgsName' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:165: error: Incompatible types in assignment (expression has type "Tuple[str]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:166: error: Incompatible types in assignment (expression has type "List[Tuple[str, str, str]]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:175: error: Name 'Output' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:189: error: Incompatible types in assignment (expression has type "Tuple[str, str, str]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:190: error: Incompatible types in assignment (expression has type "List[Tuple[str, str, str]]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:214: error: Name 'OutputOrInput' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:222: error: Name 'SizedOutput' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:246: error: Name 'SizedOutputOrInput' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:253: error: Name 'returnCArgument' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:255: error: Incompatible types in assignment (expression has type "Tuple[str]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:256: error: Incompatible types in assignment (expression has type "List[Tuple[str, str, str]]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:262: error: Name 'returnPyArgument' already defined (possibly by an import)  [no-redef]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:264: error: Incompatible types in assignment (expression has type "Tuple[str]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:265: error: Incompatible types in assignment (expression has type "List[Tuple[str, str, str]]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:289: error: Incompatible types in assignment (expression has type "Tuple[str]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/converters.py:290: error: Incompatible types in assignment (expression has type "List[Tuple[str, str, str]]", base class "Converter" defined the type as "Tuple[]")  [assignment]
+(FrodeSolheim)fs-uae-launcher/OpenGL/contextdata.py:23: error: Need type annotation for 'storedPointers' (hint: "storedPointers: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/OpenGL/contextdata.py:26: error: Need type annotation for 'storedWeakPointers' (hint: "storedWeakPointers: Dict[<type>, <type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/fsui/res/__init__.py:12: error: All conditional function variants must have identical signatures  [misc]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/qt.py:44: error: Name 'QApplication' is not defined  [name-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/windowbase.py:2: error: Module 'fsui.qt.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/windowbase.py:2: error: Module 'fsui.qt.qt' has no attribute 'QDesktopWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/helpers.py:1: error: Module 'fsui.qt' has no attribute 'QWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QDesktopWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QEvent'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QObject'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QCoreApplication'; maybe "QtBaseApplication"?  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QTimer'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QMessageBox'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/__init__.py:5: error: Module 'fsui.qt.qt' has no attribute 'QCursor'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/legacydialog.py:2: error: Module 'fsui.qt' has no attribute 'QDialog'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/dialog.py:1: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/dialog.py:1: error: Module 'fsui.qt' has no attribute 'QDialog'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/dialog.py:6: error: Unsupported dynamic base class "WindowBase"  [misc]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Menu.py:2: error: Module 'fsui.qt' has no attribute 'QMenu'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Menu.py:2: error: Module 'fsui.qt' has no attribute 'QPoint'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Image.py:2: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Image.py:2: error: Module 'fsui.qt' has no attribute 'QImage'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Image.py:2: error: Module 'fsui.qt' has no attribute 'QIcon'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Image.py:2: error: Module 'fsui.qt' has no attribute 'QPixmap'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/FileDialog.py:1: error: Module 'fsui.qt' has no attribute 'QFileDialog'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Color.py:1: error: Module 'fsui.qt' has no attribute 'QColor'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Icon.py:1: error: Module 'fsui.qt' has no attribute 'QPixmap'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Icon.py:1: error: Module 'fsui.qt' has no attribute 'QImage'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Icon.py:1: error: Module 'fsui.qt' has no attribute 'QIcon'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QPoint'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QRect'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QPen'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QBrush'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QLinearGradient'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:1: error: Module 'fsui.qt' has no attribute 'QColor'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DrawingContext.py:2: error: Module 'fsui.qt' has no attribute 'QFont'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/DirDialog.py:1: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget_mixin.py:2: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget_mixin.py:2: error: Module 'fsui.qt' has no attribute 'QPoint'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget_mixin.py:3: error: Module 'fsui.qt' has no attribute 'QFontMetrics'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget_mixin.py:3: error: Module 'fsui.qt' has no attribute 'QPalette'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget_mixin.py:3: error: Module 'fsui.qt' has no attribute 'QWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget.py:4: error: Module 'fsui.qt' has no attribute 'QPoint'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget.py:5: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget.py:5: error: Module 'fsui.qt' has no attribute 'QFontMetrics'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget.py:5: error: Module 'fsui.qt' has no attribute 'QWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/widget.py:5: error: Module 'fsui.qt' has no attribute 'QPalette'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/scrollarea.py:2: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/scrollarea.py:2: error: Module 'fsui.qt' has no attribute 'QScrollArea'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/scrollarea.py:2: error: Module 'fsui.qt' has no attribute 'QFrame'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/label.py:2: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/label.py:7: error: Name 'fsui.qt.QLabel' is not defined  [name-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/label.py:33: error: Name 'fsui.qt.QLabel' is not defined  [name-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/VerticalItemView.py:2: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/VerticalItemView.py:2: error: Module 'fsui.qt' has no attribute 'QSize'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/VerticalItemView.py:2: error: Module 'fsui.qt' has no attribute 'QAbstractListModel'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/VerticalItemView.py:2: error: Module 'fsui.qt' has no attribute 'QListView'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/VerticalItemView.py:2: error: Module 'fsui.qt' has no attribute 'QBrush'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/TextField.py:1: error: Module 'fsui.qt' has no attribute 'QLineEdit'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/TextArea.py:5: error: Name 'fsui.qt.QTextEdit' is not defined  [name-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/SpinCtrl.py:2: error: Module 'fsui.qt.qt' has no attribute 'QSpinBox'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Panel.py:4: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Panel.py:4: error: Module 'fsui.qt' has no attribute 'QWidget'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Panel.py:4: error: Module 'fsui.qt' has no attribute 'QPainter'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:1: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:1: error: Module 'fsui.qt' has no attribute 'QSize'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:1: error: Module 'fsui.qt' has no attribute 'QFont'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:2: error: Module 'fsui.qt' has no attribute 'QListView'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:2: error: Module 'fsui.qt' has no attribute 'QStandardItemModel'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ListView.py:2: error: Module 'fsui.qt' has no attribute 'QStandardItem'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ImageView.py:2: error: Module 'fsui.qt.qt' has no attribute 'QLabel'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ImageButton.py:6: error: Module 'fsui.qt' has no attribute 'QPushButton'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/ComboBox.py:1: error: Module 'fsui.qt' has no attribute 'QComboBox'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Choice.py:1: error: Module 'fsui.qt' has no attribute 'QComboBox'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Choice.py:1: error: Module 'fsui.qt' has no attribute 'Qt'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/CheckBox.py:1: error: Module 'fsui.qt' has no attribute 'QCheckBox'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/Button.py:3: error: Module 'fsui.qt' has no attribute 'QPushButton'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/__init__.py:44: error: Need type annotation for 'default_window_parent' (hint: "default_window_parent: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/fsui/__init__.py:45: error: Need type annotation for 'default_window_center' (hint: "default_window_center: List[<type>] = ...")  [var-annotated]
+(FrodeSolheim)fs-uae-launcher/workspace/ui/label.py:2: error: Module 'fsui.qt' has no attribute 'QFont'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/workspace/ui/font.py:7: error: Module 'fsui.qt' has no attribute 'QFont'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/fsui/qt/web_view.py:1: error: Module 'fsui.qt' has no attribute 'QUrl'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/workspace/util/application_runner.py:5: error: Module 'fsui.qt' has no attribute 'QFont'  [attr-defined]
+(FrodeSolheim)fs-uae-launcher/workspace/util/application_runner.py:6: error: Module 'fsui.qt' has no attribute 'QFontDatabase'  [attr-defined]
+Found 152 errors in 55 files (checked 79 source files)
+
+[RRepo](micolous)metrodroid
+
+[RRepo](Python-Tools)pmfp
+
+[RRepo](jiadaizhao)LeetCode
+
+[RRepo](igorcoding)asynctnt-queue
+(igorcoding)asynctnt-queue/tests/test_tube.py:1: error: Module 'asynctnt_queue' has no attribute 'Queue'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_tube.py:1: error: Module 'asynctnt_queue' has no attribute 'Tube'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_tube.py:1: error: Module 'asynctnt_queue' has no attribute 'Task'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_task.py:1: error: Module 'asynctnt_queue' has no attribute 'Queue'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_task.py:1: error: Module 'asynctnt_queue' has no attribute 'Tube'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_task.py:1: error: Module 'asynctnt_queue' has no attribute 'Task'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_queue.py:1: error: Module 'asynctnt_queue' has no attribute 'Queue'  [attr-defined]
+(igorcoding)asynctnt-queue/tests/test_queue.py:1: error: Module 'asynctnt_queue' has no attribute 'Tube'  [attr-defined]
+Found 8 errors in 3 files (checked 6 source files)
+
+[RRepo](flopp)GpxTrackPoster
+Success: no issues found in 1 source file
+
+[RRepo](conda-forge)conda-smithy
+(conda-forge)conda-smithy/bootstrap-obvious-ci-and-miniconda.py:18: error: Module 'urllib' has no attribute 'urlretrieve'  [attr-defined]
+(conda-forge)conda-smithy/bootstrap-obvious-ci-and-miniconda.py:18: error: Name 'urlretrieve' already defined (possibly by an import)  [no-redef]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](GoogleCloudPlatform)err-stackdriver
+(GoogleCloudPlatform)err-stackdriver/charts/timeseries.py:133: error: Need type annotation for 'out' (hint: "out: List[<type>] = ...")  [var-annotated]
+(GoogleCloudPlatform)err-stackdriver/charts/__init__.py:56: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(GoogleCloudPlatform)err-stackdriver/charts/__init__.py:58: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(GoogleCloudPlatform)err-stackdriver/charts/__init__.py:60: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(GoogleCloudPlatform)err-stackdriver/charts/__init__.py:62: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(GoogleCloudPlatform)err-stackdriver/bigquery.py:201: error: Need type annotation for 'series'  [var-annotated]
+(GoogleCloudPlatform)err-stackdriver/bigquery.py:227: error: Incompatible types in assignment (expression has type "List[<nothing>]", variable has type "str")  [assignment]
+(GoogleCloudPlatform)err-stackdriver/bigquery.py:230: error: "str" has no attribute "append"  [attr-defined]
+(GoogleCloudPlatform)err-stackdriver/bigquery.py:232: error: Argument "values" to "generate_barchart" has incompatible type "str"; expected "List[Number]"  [arg-type]
+Found 9 errors in 3 files (checked 9 source files)
+
+[RRepo](abilian)abilian-core
+Success: no issues found in 1 source file
+
+[RRepo](MeGotsThis)Hanabi-AI
+
+[RRepo](pyfisch)rust-language-tags
+
+[RRepo](MrChens)iOS_Tools
+
+[RRepo](ZoranPandovski)al-go-rithms
+
+[RRepo](raiden-network)raiden-token
+
+[RRepo](samba-team)samba
+
+[RRepo](agile-geoscience)seisplot
+(agile-geoscience)seisplot/utils.py:388: error: "OSError" has no attribute "winerror"  [attr-defined]
+(agile-geoscience)seisplot/utils.py:436: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](noxern)graph
+Success: no issues found in 1 source file
+
+[RRepo](sourcebots)robotd
+
+[RRepo](JonSnowWhite)discord-soundboard-bot
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:41: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:48: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:64: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:68: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:80: error: Argument 1 to "int" has incompatible type "Optional[int]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:84: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:87: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:90: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:118: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:120: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:122: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/admin_cog.py:169: error: "None" not callable  [misc]
+(JonSnowWhite)discord-soundboard-bot/cogs/sound_cog.py:101: error: "None" not callable  [misc]
+Found 13 errors in 2 files (checked 2 source files)
+
+[RRepo](OrDuan)cool_commits
+
+[RRepo](robcarver17)pysystemtrade
+Success: no issues found in 1 source file
+
+[RRepo](MarkdownForAcademia)markdown_for_academia
+
+[RRepo](rigetticomputing)pyquil
+Success: no issues found in 1 source file
+
+[RRepo](nitely)kua
+(nitely)kua/kua/routes.py:64: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[Tuple[Any, ...], Tuple[str, str]]")  [assignment]
+(nitely)kua/kua/routes.py:210: error: Need type annotation for '_routes' (hint: "_routes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nitely)kua/kua/routes.py:246: error: Incompatible types in assignment (expression has type "None", variable has type "RouteResolved")  [assignment]
+(nitely)kua/kua/routes.py:247: error: Incompatible types in assignment (expression has type "Tuple[<nothing>, ...]", variable has type "Tuple[Tuple[Any, ...], Tuple[str, str]]")  [assignment]
+(nitely)kua/kua/routes.py:263: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[Tuple[Any, ...], Tuple[str, str]]")  [assignment]
+(nitely)kua/kua/routes.py:298: error: "RouteResolved" has no attribute "key_parts"  [attr-defined]
+Found 6 errors in 1 file (checked 2 source files)
+
+[RRepo](antidot)Pyckson
+
+[RRepo](kanhua)pypvcell
+Success: no issues found in 9 source files
+
+[RRepo](mulhod)reviewer_experience_prediction
+(mulhod)reviewer_experience_prediction/data/__init__.py:37: error: "List[Any]" has no attribute "split"  [attr-defined]
+(mulhod)reviewer_experience_prediction/setup.py:15: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(mulhod)reviewer_experience_prediction/setup.py:27: error: Need type annotation for 'cmdclass' (hint: "cmdclass: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](iScrE4m)pyCardDeck
+(iScrE4m)pyCardDeck/setup.py:36: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(iScrE4m)pyCardDeck/setup.py:53: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](williame)obiwan
+
+[RRepo](iduartgomez)rustypy
+
+[RRepo](citp)BlockSci
+
+[RRepo](fperez)conda-edev
+Success: no issues found in 1 source file
+
+[RRepo](firemark)grazyna
+(firemark)grazyna/grazyna/test_mocks/importer.py:16: error: Need type annotation for 'whois_heap' (hint: "whois_heap: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](korsimoro)indy-sdk
+
+[RRepo](AbeelLab)phasm
+Success: no issues found in 1 source file
+
+[RRepo](openzim)zimfarm
+
+[RRepo](nginxinc)kubernetes-ingress
+
+[RRepo](encode)apistar
+Success: no issues found in 1 source file
+
+[RRepo](toms3t)Propalyzer
+
+[RRepo](markuswissinger)ducktestpy
+
+[RRepo](TkTech)Jawa
+
+[RRepo](pioneers)PieCentral
+
+[RRepo](ogroleg)svhammer
+Success: no issues found in 3 source files
+
+[RRepo](Sanic-Extensions)sanic-mongo
+(Sanic-Extensions)sanic-mongo/example_gridfs.py:11: error: Module 'sanic_mongo' has no attribute 'GridFS'  [attr-defined]
+(Sanic-Extensions)sanic-mongo/example.py:11: error: Module 'sanic_mongo' has no attribute 'Mongo'  [attr-defined]
+Found 2 errors in 2 files (checked 2 source files)
+
+[RRepo](evgfilim1)spin_everyday_bot
+(evgfilim1)spin_everyday_bot/core.py:35: error: Need type annotation for 'auto_spins' (hint: "auto_spins: Dict[<type>, <type>] = ...")  [var-annotated]
+(evgfilim1)spin_everyday_bot/core.py:38: error: Need type annotation for 'announcement_chats' (hint: "announcement_chats: List[<type>] = ...")  [var-annotated]
+(evgfilim1)spin_everyday_bot/core.py:52: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(evgfilim1)spin_everyday_bot/core.py:52: note: Perhaps you need "Callable[...]" or a callback protocol?
+(evgfilim1)spin_everyday_bot/core.py:74: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(evgfilim1)spin_everyday_bot/core.py:74: note: Perhaps you need "Callable[...]" or a callback protocol?
+(evgfilim1)spin_everyday_bot/core.py:80: error: callable? not callable  [misc]
+(evgfilim1)spin_everyday_bot/core.py:118: error: Item "None" of "Optional[Logger]" has no attribute "info"  [union-attr]
+(evgfilim1)spin_everyday_bot/core.py:137: error: Item "None" of "Optional[Logger]" has no attribute "info"  [union-attr]
+(evgfilim1)spin_everyday_bot/core.py:155: error: Item "None" of "Optional[tzinfo]" has no attribute "utcoffset"  [union-attr]
+(evgfilim1)spin_everyday_bot/core.py:155: error: Item "None" of "Union[timedelta, None, Any]" has no attribute "seconds"  [union-attr]
+(evgfilim1)spin_everyday_bot/core.py:170: error: Item "None" of "Optional[Logger]" has no attribute "debug"  [union-attr]
+(evgfilim1)spin_everyday_bot/core.py:186: error: Syntax error in type annotation  [syntax]
+(evgfilim1)spin_everyday_bot/core.py:186: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(evgfilim1)spin_everyday_bot/core.py:221: error: Item "None" of "Optional[Logger]" has no attribute "warning"  [union-attr]
+Found 12 errors in 1 file (checked 2 source files)
+
+[RRepo](rindeal)rindeal-ebuild-repo
+
+[RRepo](pfink)nuimo-openhab-python
+(pfink)nuimo-openhab-python/nuimo_menue/model.py:15: error: Need type annotation for 'children' (hint: "children: List[<type>] = ...")  [var-annotated]
+(pfink)nuimo-openhab-python/nuimo_openhab/util/config.py:25: error: Argument 1 to "append" of "list" has incompatible type "StreamHandler"; expected "FileHandler"  [arg-type]
+(pfink)nuimo-openhab-python/nuimo_openhab/util/config.py:32: error: Incompatible types in assignment (expression has type "NuimoOpenHabConfiguration", target has type Module)  [assignment]
+(pfink)nuimo-openhab-python/nuimo_menue/listener.py:75: error: Value of type Module is not indexable  [index]
+(pfink)nuimo-openhab-python/nuimo_menue/listener.py:76: error: Value of type Module is not indexable  [index]
+(pfink)nuimo-openhab-python/nuimo_menue/listener.py:77: error: Value of type Module is not indexable  [index]
+(pfink)nuimo-openhab-python/nuimo_menue/listener.py:79: error: Value of type Module is not indexable  [index]
+(pfink)nuimo-openhab-python/nuimo_openhab/listener.py:19: error: Need type annotation for 'widgets' (hint: "widgets: List[<type>] = ...")  [var-annotated]
+(pfink)nuimo-openhab-python/nuimo_openhab/listener.py:20: error: Need type annotation for 'sliderWidgets' (hint: "sliderWidgets: List[<type>] = ...")  [var-annotated]
+(pfink)nuimo-openhab-python/nuimo_openhab/app_builder.py:11: error: Need type annotation for 'sitemap' (hint: "sitemap: Dict[<type>, <type>] = ...")  [var-annotated]
+(pfink)nuimo-openhab-python/nuimo_openhab/app_builder.py:53: error: Item "None" of "Optional[App]" has no attribute "getListener"  [union-attr]
+Found 11 errors in 5 files (checked 1 source file)
+
+[RRepo](jleclanche)fireplace
+
+[RRepo](hacktoberfest17)programming
+(hacktoberfest17)programming/TempFileCleanup.py:5: error: Name 'Tk' is not defined  [name-defined]
+(hacktoberfest17)programming/TempFileCleanup.py:16: error: Name 'Button' is not defined  [name-defined]
+(hacktoberfest17)programming/TempFileCleanup.py:18: error: Name 'Button' is not defined  [name-defined]
+(hacktoberfest17)programming/TempFileCleanup.py:20: error: Name 'mainloop' is not defined  [name-defined]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](SURFscz)SCZ-deploy
+
+[RRepo](GeosoftInc)gxapi
+(GeosoftInc)gxapi/test.py:136: error: Invalid type comment or annotation  [valid-type]
+(GeosoftInc)gxapi/test.py:136: note: Suggestion: use type[...] instead of type(...)
+(GeosoftInc)gxapi/gen_python.py:2: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_python.py:3: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_obsolete_gxh.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxlib.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:2: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxdefine.py:3: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/validate_gx_abi_stability.py:11: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/update_param_names.py:27: error: Need type annotation for 'funclookup'  [var-annotated]
+(GeosoftInc)gxapi/update_param_names.py:75: error: Incompatible types in assignment (expression has type "List[str]", variable has type "TextIO")  [assignment]
+(GeosoftInc)gxapi/update_param_names.py:76: error: Value of type "TextIO" is not indexable  [index]
+(GeosoftInc)gxapi/update_param_names.py:85: error: Value of type "TextIO" is not indexable  [index]
+(GeosoftInc)gxapi/update_param_names.py:88: error: Need type annotation for 'sources'  [var-annotated]
+(GeosoftInc)gxapi/update_param_names.py:101: error: Not all arguments converted during string formatting  [str-format]
+(GeosoftInc)gxapi/gen_gxh_docs.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh_docs.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_gxh.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_class_wrappers.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:3: error: Module 'gen' has no attribute 'CodeGeneratorBase'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Type'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Availability'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Constant'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Define'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Parameter'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Method'  [attr-defined]
+(GeosoftInc)gxapi/gen_xml_spec.py:4: error: Module 'spec' has no attribute 'Class'  [attr-defined]
+Found 78 errors in 11 files (checked 11 source files)
+
+[RRepo](geometalab)Vector-Tiles-Reader-QGIS-Plugin
+
+[RRepo](google)data-driven-discretization-1d
+
+[RRepo](rmst)chi
+
+[RRepo](r-lyeh)scriptorium
+
+[RRepo](tetherless-world)graphene
+
+[RRepo](fnl)libfnl
+
+[RRepo](saltyrtc)saltyrtc-server-python
+Success: no issues found in 1 source file
+
+[RRepo](Dentosal)python-sc2
+(Dentosal)python-sc2/sc2/position.py:25: error: Name 'Unit' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:40: error: Name 'Units' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:44: error: Incompatible return value type (got "Union[Any, Point2]", expected "List[Point2]")  [return-value]
+(Dentosal)python-sc2/sc2/position.py:47: error: Argument 1 to "_distance_squared" of "Pointlike" has incompatible type "Pointlike"; expected "Point2"  [arg-type]
+(Dentosal)python-sc2/sc2/position.py:49: error: Name 'Units' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:49: error: Name 'Unit' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:53: error: Value of type "Union[Any, List[Point2], Set[Point2]]" is not indexable  [index]
+(Dentosal)python-sc2/sc2/position.py:65: error: Name 'Units' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:77: error: Name 'Units' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:77: error: Name 'Unit' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:81: error: Value of type "Union[Any, List[Point2], Set[Point2]]" is not indexable  [index]
+(Dentosal)python-sc2/sc2/position.py:93: error: Name 'Units' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:112: error: Name 'Unit' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/position.py:205: error: Argument 1 to <set> has incompatible type "Pointlike"; expected "Point2"  [arg-type]
+(Dentosal)python-sc2/sc2/position.py:205: error: Argument 2 to <set> has incompatible type "Pointlike"; expected "Point2"  [arg-type]
+(Dentosal)python-sc2/sc2/position.py:228: error: Signature of "__add__" incompatible with supertype "tuple"  [override]
+(Dentosal)python-sc2/sc2/position.py:229: error: Incompatible return value type (got "Pointlike", expected "Point2")  [return-value]
+(Dentosal)python-sc2/sc2/position.py:254: error: Unsupported operand types for / ("float" and "Point2")  [operator]
+(Dentosal)python-sc2/sc2/position.py:254: note: Right operand is of type "Union[int, float, Point2]"
+(Dentosal)python-sc2/sc2/position.py:323: error: Too many arguments for "Size"  [call-arg]
+(Dentosal)python-sc2/sc2/units.py:90: error: Incompatible return value type (got "List[Any]", expected "Units")  [return-value]
+(Dentosal)python-sc2/sc2/units.py:97: error: Function "builtins.any" is not valid as a type  [valid-type]
+(Dentosal)python-sc2/sc2/units.py:97: note: Perhaps you need "Callable[...]" or a callback protocol?
+(Dentosal)python-sc2/sc2/units.py:160: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(Dentosal)python-sc2/sc2/units.py:160: note: Perhaps you need "Callable[...]" or a callback protocol?
+(Dentosal)python-sc2/sc2/units.py:163: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(Dentosal)python-sc2/sc2/units.py:163: note: Perhaps you need "Callable[...]" or a callback protocol?
+(Dentosal)python-sc2/sc2/game_info.py:82: error: "Pointlike" has no attribute "circle_intersection"  [attr-defined]
+(Dentosal)python-sc2/sc2/game_info.py:95: error: "Pointlike" has no attribute "circle_intersection"  [attr-defined]
+(Dentosal)python-sc2/sc2/game_info.py:110: error: "Pointlike" has no attribute "circle_intersection"  [attr-defined]
+(Dentosal)python-sc2/sc2/game_info.py:129: error: Incompatible return value type (got "Pointlike", expected "Point2")  [return-value]
+(Dentosal)python-sc2/sc2/game_info.py:183: error: No overload variant of "__getitem__" of "list" matches argument type "float"  [call-overload]
+(Dentosal)python-sc2/sc2/game_info.py:183: note: Possible overload variants:
+(Dentosal)python-sc2/sc2/game_info.py:183: note:     def __getitem__(self, int) -> List[int]
+(Dentosal)python-sc2/sc2/game_info.py:183: note:     def __getitem__(self, slice) -> List[List[int]]
+(Dentosal)python-sc2/sc2/game_info.py:195: error: Name 'Deque' is not defined  [name-defined]
+(Dentosal)python-sc2/sc2/game_info.py:211: error: No overload variant of "__getitem__" of "list" matches argument type "float"  [call-overload]
+(Dentosal)python-sc2/sc2/game_info.py:211: note: Possible overload variants:
+(Dentosal)python-sc2/sc2/game_info.py:211: note:     def __getitem__(self, int) -> List[int]
+(Dentosal)python-sc2/sc2/game_info.py:211: note:     def __getitem__(self, slice) -> List[List[int]]
+(Dentosal)python-sc2/sc2/game_info.py:213: error: Name 'point' already defined on line 191  [no-redef]
+(Dentosal)python-sc2/sc2/main.py:21: error: Need type annotation for 'window' (hint: "window: List[<type>] = ...")  [var-annotated]
+(Dentosal)python-sc2/sc2/main.py:39: error: Incompatible return value type (got "str", expected "float")  [return-value]
+(Dentosal)python-sc2/sc2/game_data.py:21: error: Unsupported left operand type for + ("Iterable[Any]")  [operator]
+(Dentosal)python-sc2/sc2/game_data.py:21: error: Value of type "Iterable[Any]" is not indexable  [index]
+(Dentosal)python-sc2/sc2/game_data.py:150: error: Incompatible return value type (got "None", expected "AbilityData")  [return-value]
+(Dentosal)python-sc2/sc2/game_data.py:152: error: Incompatible return value type (got "None", expected "AbilityData")  [return-value]
+Found 37 errors in 5 files (checked 25 source files)
+
+[RRepo](pyQuest)mount-api
+
+[RRepo](msouto)20171-redes-2t-programacao-redes
+
+[RRepo](FunTimeCoding)virtual-box-tools
+Success: no issues found in 2 source files
+
+[RRepo](Logan1x)Python-Scripts
+
+[RRepo](PX4)Firmware
+
+[RRepo](scanner-research)scanner
+Success: no issues found in 1 source file
+
+[RRepo](lintyleo)seleniumpro
+
+[RRepo](mislavcimpersak)xkcd-excuse-generator
+(mislavcimpersak)xkcd-excuse-generator/app.py:129: error: Need type annotation for 'errors' (hint: "errors: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](adrinjalali)clue-hackathon
+(adrinjalali)clue-hackathon/submit.py:18: error: Name 'raw_input' is not defined  [name-defined]
+(adrinjalali)clue-hackathon/submit.py:26: error: Need type annotation for 'STATICE_CHECK_FUNCTIONS' (hint: "STATICE_CHECK_FUNCTIONS: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](mvondracek)wifimitm
+Success: no issues found in 1 source file
+
+[RRepo](BrighterCommand)FutureStack
+
+[RRepo](logpai)logparser
+
+[RRepo](kissf-lu)jupyter_app
+
+[RRepo](space-wizards)space-station-14
+
+[RRepo](verginer)disamby
+
+[RRepo](blueset)ehForwarderBot
+(blueset)ehForwarderBot/bump.py:32: error: Incompatible types in assignment (expression has type "Optional[Tuple[str, int]]", variable has type "Optional[int]")  [assignment]
+(blueset)ehForwarderBot/bump.py:33: error: Incompatible types in assignment (expression has type "Optional[Tuple[str, int]]", variable has type "Optional[int]")  [assignment]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](fabioz)Pydev
+(fabioz)Pydev/update_version.py:47: error: Missing parentheses in call to 'print'. Did you mean print(top)?  [syntax]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ChristianSi)lytspel
+(ChristianSi)lytspel/lytspel/util.py:20: error: Incompatible return value type (got "None", expected "T")  [return-value]
+(ChristianSi)lytspel/lytspel/dict.py:301: error: Incompatible return value type (got "None", expected "str")  [return-value]
+Found 2 errors in 2 files (checked 3 source files)
+
+[RRepo](skioo)django-customer-billing
+
+[RRepo](Dubrzr)dsfaker
+Success: no issues found in 1 source file
+
+[RRepo](TMiguelT)PandasSchema
+(TMiguelT)PandasSchema/setup.py:16: error: Incompatible types in assignment (expression has type "TextIO", variable has type "Path")  [assignment]
+(TMiguelT)PandasSchema/setup.py:17: error: "Path" has no attribute "read"  [attr-defined]
+(TMiguelT)PandasSchema/setup.py:22: error: Name 'distutils.cmd.Command' is not defined  [name-defined]
+(TMiguelT)PandasSchema/setup.py:24: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(TMiguelT)PandasSchema/setup.py:39: error: Name 'distutils.cmd.Command' is not defined  [name-defined]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](itu-oss-project-team)oss-github-analysis-project
+
+[RRepo](polygraph-python)polygraph
+
+[RRepo](phac-nml)bio_hansel
+(phac-nml)bio_hansel/bio_hansel/subtype_stats.py:54: error: Syntax error in type annotation  [syntax]
+(phac-nml)bio_hansel/bio_hansel/subtype_stats.py:54: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(phac-nml)bio_hansel/bio_hansel/subtype_stats.py:55: error: Need type annotation for 'kmers'  [var-annotated]
+(phac-nml)bio_hansel/bio_hansel/subtype_stats.py:56: error: Need type annotation for 'neg_kmers'  [var-annotated]
+(phac-nml)bio_hansel/bio_hansel/utils.py:64: error: Need type annotation for 'l' (hint: "l: List[<type>] = ...")  [var-annotated]
+(phac-nml)bio_hansel/bio_hansel/utils.py:89: error: Missing return statement  [return]
+(phac-nml)bio_hansel/bio_hansel/utils.py:116: error: Incompatible return value type (got "List[Tuple[List[str], str]]", expected "List[Union[str, Tuple[List[str], str]]]")  [return-value]
+(phac-nml)bio_hansel/bio_hansel/utils.py:116: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(phac-nml)bio_hansel/bio_hansel/utils.py:116: note: Consider using "Sequence" instead, which is covariant
+(phac-nml)bio_hansel/bio_hansel/utils.py:116: note: Perhaps you need a type annotation for "reads_from_dir"? Suggestion: "List[Union[str, Tuple[List[str], str]]]"
+(phac-nml)bio_hansel/bio_hansel/utils.py:136: error: Need type annotation for 'genome_fastqs'  [var-annotated]
+(phac-nml)bio_hansel/bio_hansel/utils.py:184: error: Argument 1 to "get_scheme_params" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:42: error: Argument "subtype_result" to "check_for_missing_kmers" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:51: error: Item "None" of "Optional[str]" has no attribute "split"  [union-attr]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:52: error: "int" has no attribute "split"  [attr-defined]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:62: error: Unsupported operand types for + ("None" and "int")  [operator]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:62: note: Left operand is of type "Optional[int]"
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:73: error: Argument 2 to "filter" has incompatible type "List[Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:142: error: Argument 1 to "sorted" has incompatible type "Optional[str]"; expected "Iterable[str]"  [arg-type]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:173: error: Item "None" of "Optional[str]" has no attribute "split"  [union-attr]
+(phac-nml)bio_hansel/bio_hansel/qc/checks.py:235: error: Item "None" of "Optional[Any]" has no attribute "shape"  [union-attr]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:19: error: List item 0 has incompatible type "Callable[[Subtype, Any, SubtypingParams], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:20: error: List item 1 has incompatible type "Callable[[Subtype, Any, VarArg(Any)], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:21: error: List item 2 has incompatible type "Callable[[Subtype, Any, SubtypingParams], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:22: error: List item 3 has incompatible type "Callable[[Subtype, VarArg(Any)], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:23: error: List item 4 has incompatible type "Callable[[Subtype, Any, SubtypingParams], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+(phac-nml)bio_hansel/bio_hansel/qc/__init__.py:24: error: List item 5 has incompatible type "Callable[[Subtype, Any, SubtypingParams], Tuple[Optional[str], Optional[str]]]"; expected "Callable[[Subtype, Any, SubtypingParams], Tuple[str, str]]"  [list-item]
+Found 22 errors in 4 files (checked 7 source files)
+
+[RRepo](avanzzzi)hypy
+
+[RRepo](mrm-xiefan)lunania-ai
+
+[RRepo](saurabh1e)open-pos-api
+(saurabh1e)open-pos-api/src/orders/models.py:4: error: Module 'src' has no attribute 'db'  [attr-defined]
+(saurabh1e)open-pos-api/src/orders/models.py:4: error: Module 'src' has no attribute 'BaseMixin'  [attr-defined]
+(saurabh1e)open-pos-api/src/orders/models.py:4: error: Module 'src' has no attribute 'ReprMixin'  [attr-defined]
+(saurabh1e)open-pos-api/src/orders/models.py:61: error: Name 'items_count' already defined on line 57  [no-redef]
+(saurabh1e)open-pos-api/src/orders/models.py:122: error: Name 'retail_shop_id' already defined on line 118  [no-redef]
+(saurabh1e)open-pos-api/src/user/models.py:8: error: Module 'src' has no attribute 'db'  [attr-defined]
+(saurabh1e)open-pos-api/src/user/models.py:8: error: Module 'src' has no attribute 'BaseMixin'  [attr-defined]
+(saurabh1e)open-pos-api/src/user/models.py:8: error: Module 'src' has no attribute 'ReprMixin'  [attr-defined]
+(saurabh1e)open-pos-api/src/user/models.py:155: error: Name 'retail_shop_ids' already defined on line 151  [no-redef]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'api'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'db'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'ma'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'create_app'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'configs'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'bp'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'security'  [attr-defined]
+(saurabh1e)open-pos-api/manager.py:8: error: Module 'src' has no attribute 'admin'  [attr-defined]
+(saurabh1e)open-pos-api/tests/test_users.py:8: error: Module 'src' has no attribute 'configs'  [attr-defined]
+Found 18 errors in 4 files (checked 4 source files)
+
+[RRepo](mittagessen)kraken
+
+[RRepo](annaelde)forum-app
+
+[RRepo](yotchang4s)cafebabepy
+
+[RRepo](Vogtinator)micropython
+
+[RRepo](Koala-Kaolin)pyweb
+(Koala-Kaolin)pyweb/print.py:113: error: "Callable[[VarArg(object), DefaultNamedArg(Optional[str], 'sep'), DefaultNamedArg(Optional[str], 'end'), DefaultNamedArg(Optional[_Writer], 'file'), DefaultNamedArg(bool, 'flush')], None]" has no attribute "initial"  [attr-defined]
+(Koala-Kaolin)pyweb/print.py:116: error: "Callable[[VarArg(object), DefaultNamedArg(Optional[str], 'sep'), DefaultNamedArg(Optional[str], 'end'), DefaultNamedArg(Optional[_Writer], 'file'), DefaultNamedArg(bool, 'flush')], None]" has no attribute "initial"  [attr-defined]
+(Koala-Kaolin)pyweb/lab.py:92: error: Invalid type comment or annotation  [valid-type]
+(Koala-Kaolin)pyweb/lab.py:93: error: Name 'header' is not defined  [name-defined]
+(Koala-Kaolin)pyweb/lab.py:94: error: Invalid type comment or annotation  [valid-type]
+(Koala-Kaolin)pyweb/lab.py:95: error: Name 'file' is not defined  [name-defined]
+(Koala-Kaolin)pyweb/lab.py:111: error: Invalid type: try using Literal[403] instead?  [valid-type]
+(Koala-Kaolin)pyweb/lab.py:145: error: Invalid type comment or annotation  [valid-type]
+(Koala-Kaolin)pyweb/lab.py:208: error: Name 'un' is not defined  [name-defined]
+(Koala-Kaolin)pyweb/lab.py:208: error: Name 'deux' is not defined  [name-defined]
+(Koala-Kaolin)pyweb/lab.py:236: error: Name 'path' is not defined  [name-defined]
+Found 11 errors in 2 files (checked 3 source files)
+
+[RRepo](openkamer)openkamer
+Success: no issues found in 1 source file
+
+[RRepo](timediv)speechT
+
+[RRepo](masashi-y)depccg
+Success: no issues found in 1 source file
+
+[RRepo](The-Compiler)qutebrowser
+
+[RRepo](morucci)repoxplorer
+Success: no issues found in 1 source file
+
+[RRepo](data-refinery)data_refinery
+

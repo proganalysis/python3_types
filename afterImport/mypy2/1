@@ -1,0 +1,1169 @@
+[RRepo](kalaspuff)tomodachi
+(kalaspuff)tomodachi/tomodachi/__init__.py:82: error: Argument 1 to "get" of "Mapping" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(kalaspuff)tomodachi/tomodachi/container.py:12: error: Module 'tomodachi.invoker' has no attribute 'FUNCTION_ATTRIBUTE'  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/container.py:12: error: Module 'tomodachi.invoker' has no attribute 'START_ATTRIBUTE'  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/launcher.py:148: error: Module has no attribute "base"  [attr-defined]
+(kalaspuff)tomodachi/tomodachi/cli/__init__.py:108: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+Found 5 errors in 4 files (checked 11 source files)
+
+[RRepo](aio-libs)aiozmq
+Success: no issues found in 8 source files
+
+[RRepo](thorgate)tg-utils
+
+[RRepo](PPACI)yast
+
+[RRepo](SpiffSpaceman)TradingTools
+
+[RRepo](justthetips)PerformanceAnalytics
+
+[RRepo](TzuChieh)Photon-v2
+
+[RRepo](zutn)ACME
+(zutn)ACME/setup.py:27: error: Module has no attribute "__version__"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](SangRyul)bamboo
+
+[RRepo](viaict)viaduct
+(viaict)viaduct/app/__init__.py:16: error: Module 'app' has no attribute 'constants'  [attr-defined]
+(viaict)viaduct/app/__init__.py:63: error: Value of type variable "AnyStr" of "dirname" cannot be "Optional[str]"  [type-var]
+(viaict)viaduct/app/__init__.py:63: error: Value of type variable "AnyStr" of "abspath" cannot be "Optional[str]"  [type-var]
+(viaict)viaduct/app/__init__.py:98: error: Module 'app' has no attribute 'jinja_env'  [attr-defined]
+(viaict)viaduct/test/test_user_service.py:20: error: "StringIO" has no attribute "filename"  [attr-defined]
+(viaict)viaduct/app/decorators.py:12: error: Module has no attribute "getLogger"  [attr-defined]
+Found 6 errors in 3 files (checked 59 source files)
+
+[RRepo](dean0x7d)pybinding
+(dean0x7d)pybinding/pybinding/support/inspect.py:9: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(dean0x7d)pybinding/pybinding/support/inspect.py:9: note: Perhaps you need "Callable[...]" or a callback protocol?
+(dean0x7d)pybinding/pybinding/pltutils.py:9: error: Module 'pybinding.utils' has no attribute 'with_defaults'  [attr-defined]
+(dean0x7d)pybinding/pybinding/support/pickle.py:7: error: Module 'pybinding.utils' has no attribute 'decorator_decorator'  [attr-defined]
+(dean0x7d)pybinding/pybinding/shape.py:7: error: Module 'pybinding.utils' has no attribute 'with_defaults'  [attr-defined]
+(dean0x7d)pybinding/pybinding/parallel.py:13: error: Module 'pybinding.utils' has no attribute 'decorator_decorator'  [attr-defined]
+(dean0x7d)pybinding/pybinding/__init__.py:1: error: Name '__doc__' already defined (possibly by an import)  [no-redef]
+(dean0x7d)pybinding/pybinding/__init__.py:44: error: Module 'pybinding' has no attribute 'solver'  [attr-defined]
+Found 7 errors in 6 files (checked 9 source files)
+
+[RRepo](PyPlanet)PyPlanet
+(PyPlanet)PyPlanet/pyplanet/conf/backends/base.py:1: error: Module 'pyplanet.conf' has no attribute 'default_settings'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/conf/backends/yaml.py:9: error: Incompatible types in assignment (expression has type "str", base class "FileConfigBackend" defined the type as "None")  [assignment]
+(PyPlanet)PyPlanet/pyplanet/conf/backends/yaml.py:10: error: Incompatible types in assignment (expression has type "List[str]", base class "FileConfigBackend" defined the type as "None")  [assignment]
+(PyPlanet)PyPlanet/pyplanet/conf/backends/python.py:9: error: Incompatible types in assignment (expression has type "str", base class "ConfigBackend" defined the type as "None")  [assignment]
+(PyPlanet)PyPlanet/pyplanet/conf/backends/json.py:9: error: Incompatible types in assignment (expression has type "str", base class "FileConfigBackend" defined the type as "None")  [assignment]
+(PyPlanet)PyPlanet/pyplanet/conf/backends/json.py:10: error: Incompatible types in assignment (expression has type "List[str]", base class "FileConfigBackend" defined the type as "None")  [assignment]
+(PyPlanet)PyPlanet/pyplanet/conf/__init__.py:10: error: Module 'pyplanet.conf' has no attribute 'default_settings'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/utils/log.py:10: error: Module 'pyplanet' has no attribute '__version__'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/storage/storage.py:8: error: Module 'pyplanet.core.storage' has no attribute 'StorageDriver'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/storage/storage.py:8: error: Module 'pyplanet.core.storage' has no attribute 'StorageInterface'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/ui/__init__.py:6: error: Module 'pyplanet.apps.core.maniaplanet.models' has no attribute 'Player'  [attr-defined]
+(PyPlanet)PyPlanet/tests/integration/__init__.py:4: error: Module 'pyplanet.core' has no attribute 'Controller'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/utils/analytics.py:7: error: Module 'pyplanet' has no attribute '__version__'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:14: error: Module 'pyplanet' has no attribute '__version__'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:16: error: Module 'pyplanet.apps' has no attribute 'Apps'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:19: error: Module 'pyplanet.core.events' has no attribute 'SignalManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:22: error: Module 'pyplanet.core.gbx' has no attribute 'GbxClient'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:29: error: Module 'pyplanet.contrib.player' has no attribute 'PlayerManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:30: error: Module 'pyplanet.contrib.command' has no attribute 'CommandManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:31: error: Module 'pyplanet.contrib.permission' has no attribute 'PermissionManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:32: error: Module 'pyplanet.contrib.setting' has no attribute 'GlobalSettingManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:33: error: Module 'pyplanet.contrib.mode' has no attribute 'ModeManager'  [attr-defined]
+(PyPlanet)PyPlanet/pyplanet/core/instance.py:34: error: Module 'pyplanet.contrib.chat' has no attribute 'ChatManager'  [attr-defined]
+Found 23 errors in 11 files (checked 5 source files)
+
+[RRepo](openai)kubernetes-ec2-autoscaler
+Success: no issues found in 1 source file
+
+[RRepo](XayOn)katcr
+Success: no issues found in 2 source files
+
+[RRepo](lucianopuccio)golem
+(lucianopuccio)golem/setup.py:26: error: Module has no attribute "__version__"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](CloverHealth)pycon2017
+
+[RRepo](statgen)pheweb
+
+[RRepo](adaptive-learning)robomission
+Success: no issues found in 5 source files
+
+[RRepo](channelcat)sanic
+(channelcat)sanic/release.py:50: error: Argument "loader" to "Environment" has incompatible type "Type[BaseLoader]"; expected "Optional[BaseLoader]"  [arg-type]
+(channelcat)sanic/release.py:163: error: Unsupported target for indexed assignment  [index]
+(channelcat)sanic/release.py:163: error: Value of type "Optional[List[str]]" is not indexable  [index]
+(channelcat)sanic/release.py:164: error: Argument "command" to "_run_shell_command" has incompatible type "Optional[List[str]]"; expected "List[Any]"  [arg-type]
+(channelcat)sanic/release.py:169: error: Need type annotation for 'commit_details'  [var-annotated]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](jansenm)ansible-jenkins-roles
+
+[RRepo](katajakasa)aiohttp-spyne
+
+[RRepo](LuminosoInsight)langcodes
+
+[RRepo](wings27)songci
+(wings27)songci/nlp/pingze.py:10: error: Invalid type comment or annotation  [valid-type]
+(wings27)songci/nlp/pingze.py:14: error: Invalid type comment or annotation  [valid-type]
+(wings27)songci/writer/songci_writer.py:22: error: Syntax error in type annotation  [syntax]
+(wings27)songci/writer/songci_writer.py:22: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(wings27)songci/writer/songci_writer.py:47: error: Syntax error in type annotation  [syntax]
+(wings27)songci/writer/songci_writer.py:47: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 4 errors in 2 files (checked 2 source files)
+
+[RRepo](knights-lab)SHOGUN
+(knights-lab)SHOGUN/shogun/coverage/__init__.py:13: error: Module 'shogun.redistribute' has no attribute 'summarize_bayes_at_level'  [attr-defined]
+(knights-lab)SHOGUN/shogun/coverage/__init__.py:13: error: Module 'shogun.redistribute' has no attribute 'Taxonomy'  [attr-defined]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](Zubax)zubax_chibios
+
+[RRepo](carpyncho)feets
+(carpyncho)feets/ez_setup.py:26: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(carpyncho)feets/ez_setup.py:247: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(carpyncho)feets/ez_setup.py:263: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(carpyncho)feets/ez_setup.py:279: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+(carpyncho)feets/ez_setup.py:294: error: "Callable[[Any, Any], Any]" has no attribute "viable"  [attr-defined]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](yutiansut)QUANTAXIS
+(yutiansut)QUANTAXIS/setup_cython.py:46: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(yutiansut)QUANTAXIS/setup_cython.py:47: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(yutiansut)QUANTAXIS/setup.py:46: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(yutiansut)QUANTAXIS/setup.py:47: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(yutiansut)QUANTAXIS/QUANTAXIS/QAEngine/QAThreadEngine.py:265: error: Need type annotation for 'q'  [var-annotated]
+(yutiansut)QUANTAXIS/QUANTAXIS/QAFetch/QAWind.py:46: error: Module 'QUANTAXIS.QAFetch' has no attribute 'data_list'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/QASU/main.py:26: error: Module 'QUANTAXIS.QASU' has no attribute 'save_tdx'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/QASU/main.py:27: error: Module 'QUANTAXIS.QASU' has no attribute 'save_tdx_parallelism'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:53: error: Module 'QUANTAXIS.QACmd' has no attribute 'QA_cmd'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_calc_marketvalue'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_ctptick_resample'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_day_resample'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_marketvalue'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_min_resample'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_stock_to_fq'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_tick_resample'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_tick_resample_1min'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_futuremin_resample_series'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_futuremin_resample'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_futuremin_resample_tb_kq'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_data_futuremin_resample_tb_kq2'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Day'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Financial'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Future_day'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Future_min'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Index_day'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Index_min'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Indicators'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Min'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Series'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Stock_block'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Stock_day'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Stock_min'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Stock_realtime'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QA_DataStruct_Stock_transaction'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QDS_IndexDayWarpper'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QDS_IndexMinWarpper'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QDS_StockDayWarpper'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'QDS_StockMinWarpper'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:55: error: Module 'QUANTAXIS.QAData' has no attribute 'from_tushare'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_AsyncExec'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_AsyncQueue'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_AsyncScheduler'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_AsyncTask'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_AsyncThread'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_Engine'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_Event'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_Task'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_Thread'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:90: error: Module 'QUANTAXIS.QAEngine' has no attribute 'QA_Worker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_BacktestBroker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_Broker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_Dealer'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_Market'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_Order'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_OrderHandler'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_OrderQueue'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_Position'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_RandomBroker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_RealBroker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_SimulatedBroker'  [attr-defined]
+(yutiansut)QUANTAXIS/QUANTAXIS/__init__.py:190: error: Module 'QUANTAXIS.QAMarket' has no attribute 'QA_TTSBroker'  [attr-defined]
+Found 62 errors in 6 files (checked 45 source files)
+
+[RRepo](lucene4ir)lucene4ir
+
+[RRepo](ahawker)scratchdir
+(ahawker)scratchdir/scratchdir.py:86: error: Argument 1 to "exists" has incompatible type "Optional[str]"; expected "Union[Union[bytes, str, _PathLike[Any]], int]"  [arg-type]
+(ahawker)scratchdir/scratchdir.py:107: error: Value of type variable "_AnyPath" of "rmtree" cannot be "Optional[str]"  [type-var]
+(ahawker)scratchdir/scratchdir.py:294: error: Argument 1 to "join" of "str" has incompatible type "Tuple[Optional[str], str, Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(ahawker)scratchdir/scratchdir.py:306: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(ahawker)scratchdir/tests.py:16: error: Name 'pathlib' already defined (by an import)  [no-redef]
+Found 5 errors in 2 files (checked 3 source files)
+
+[RRepo](alekLukanen)pyDist
+
+[RRepo](Darkness4)csgo-gsi-arduino-lcd
+Success: no issues found in 1 source file
+
+[RRepo](MarcoGlauser)huey-queue-stats
+
+[RRepo](drootnar)asynckraken
+(drootnar)asynckraken/setup.py:13: error: Name '__version__' is not defined  [name-defined]
+(drootnar)asynckraken/setup.py:18: error: Name '__url__' is not defined  [name-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](Troxid)vrep-api-python
+
+[RRepo](MShel)PyChatBot
+Success: no issues found in 1 source file
+
+[RRepo](clearlinux)autospec
+Success: no issues found in 1 source file
+
+[RRepo](pyannote)pyannote-audio
+
+[RRepo](saisankargochhayat)algo_quest
+(saisankargochhayat)algo_quest/heap_implementation.py:12: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](mosra)magnum-examples
+
+[RRepo](abiosoft)dotfiles
+
+[RRepo](biolink)ontobio
+
+[RRepo](GNOME)meld
+Success: no issues found in 1 source file
+
+[RRepo](samuelcolvin)pydantic
+(samuelcolvin)pydantic/setup.py:44: error: Too few arguments for "load_module" of "InspectLoader"  [call-arg]
+(samuelcolvin)pydantic/setup.py:68: error: Module has no attribute "VERSION"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](iheanyi)bandcamp-dl
+
+[RRepo](MasuqaT-NET)BlogExamples
+
+[RRepo](nathants)py-aws
+
+[RRepo](mosra)m.css
+
+[RRepo](CenterForOpenScience)SHARE
+
+[RRepo](micropython)micropython
+
+[RRepo](funkyfuture)inxs
+(funkyfuture)inxs/inxs/utils.py:33: error: Incompatible return value type (got "Dict[int, Optional[int]]", expected "Dict[int, str]")  [return-value]
+(funkyfuture)inxs/tests/test_wikipedia_examples.py:5: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_wikipedia_examples.py:5: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Ref'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_lib.py:7: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'TRAVERSE_DEPTH_FIRST'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'TRAVERSE_BOTTOM_TO_TOP'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'TRAVERSE_LEFT_TO_RIGHT'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'Not'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/inxs/contrib.py:5: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:17: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:72: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(funkyfuture)inxs/inxs/cli.py:76: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(funkyfuture)inxs/inxs/cli.py:80: error: Module has no attribute "util"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:83: error: Module has no attribute "util"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:131: error: Incompatible types in assignment (expression has type "Namespace", variable has type "Optional[Sequence[str]]")  [assignment]
+(funkyfuture)inxs/inxs/cli.py:132: error: "Sequence[str]" has no attribute "verbose"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:134: error: "Sequence[str]" has no attribute "transformation"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:135: error: Argument 1 to "parse_file" has incompatible type "Sequence[str]"; expected "Namespace"  [arg-type]
+(funkyfuture)inxs/inxs/cli.py:136: error: "Sequence[str]" has no attribute "inplace"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:137: error: "Sequence[str]" has no attribute "input"  [attr-defined]
+(funkyfuture)inxs/inxs/cli.py:141: error: Argument 2 to "write_result" has incompatible type "Sequence[str]"; expected "Namespace"  [arg-type]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute '__version__'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'AbortRule'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'AbortTransformation'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'If'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'Not'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'Ref'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'SkipToNextNode'  [attr-defined]
+(funkyfuture)inxs/tests/test_core.py:8: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'Any'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'If'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'MatchesAttributes'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'MatchesXPath'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'Not'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'OneOf'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'Rule'  [attr-defined]
+(funkyfuture)inxs/tests/test_conditions.py:7: error: Module 'inxs' has no attribute 'Transformation'  [attr-defined]
+(funkyfuture)inxs/tests/conftest.py:6: error: Module 'inxs' has no attribute 'logger'  [attr-defined]
+Found 42 errors in 8 files (checked 9 source files)
+
+[RRepo](OphisMusic)ophis
+Success: no issues found in 1 source file
+
+[RRepo](nitely)regexy
+Success: no issues found in 1 source file
+
+[RRepo](bayesimpact)bob-emploi
+
+[RRepo](y-usuzumi)survive-the-course
+
+[RRepo](ZingBallyhoo)OverwatchDataManager
+
+[RRepo](bggardner)simplisafe-rf
+Success: no issues found in 2 source files
+
+[RRepo](FrederichRiver)neutrino
+
+[RRepo](csxeba)brainforge
+
+[RRepo](ZhukovAlexander)quic-py
+
+[RRepo](HurricaneLabs)machinae
+
+[RRepo](stencila)hub
+Success: no issues found in 1 source file
+
+[RRepo](suminb)transporter
+(suminb)transporter/transporter/models.py:49: error: "Bound" has no attribute "sw_latitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:49: error: "Bound" has no attribute "ne_latitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:50: error: "Bound" has no attribute "sw_longitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:50: error: "Bound" has no attribute "ne_longitude"  [attr-defined]
+(suminb)transporter/transporter/models.py:190: error: Need type annotation for 'queue'  [var-annotated]
+(suminb)transporter/transporter/models.py:245: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/models.py:390: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/models.py:402: error: Name 'db.Model' is not defined  [name-defined]
+(suminb)transporter/transporter/utils.py:25: error: "DictMapper" has no attribute "mapper"  [attr-defined]
+(suminb)transporter/transporter/utils.py:62: error: Signature of "transform" incompatible with supertype "DictMapper"  [override]
+(suminb)transporter/transporter/utils.py:91: error: Argument 2 to "transform" of "DictMapper" has incompatible type "Tuple[Tuple[str, str, Callable[[str], Any]], Tuple[str, str, Type[float]], Tuple[str, str, Type[float]]]"; expected "Optional[List[Any]]"  [arg-type]
+(suminb)transporter/transporter/utils.py:93: error: Signature of "transform" incompatible with supertype "DictMapper"  [override]
+(suminb)transporter/transporter/utils.py:104: error: Argument 2 to "transform" of "DictMapper" has incompatible type "Tuple[Tuple[str, str, Type[int]], Tuple[str, str, Callable[[Any], Any]]]"; expected "Optional[List[Any]]"  [arg-type]
+(suminb)transporter/transporter/utils.py:288: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+Found 14 errors in 2 files (checked 5 source files)
+
+[RRepo](devunt)ika
+(devunt)ika/ika/utils.py:21: error: Syntax error in type annotation  [syntax]
+(devunt)ika/ika/utils.py:21: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(devunt)ika/ika/utils.py:22: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Tuple[Any, ...]")  [assignment]
+(devunt)ika/ika/utils.py:23: error: Need type annotation for 'adds' (hint: "adds: Dict[<type>, <type>] = ...")  [var-annotated]
+(devunt)ika/ika/utils.py:24: error: Need type annotation for 'removes' (hint: "removes: Dict[<type>, <type>] = ...")  [var-annotated]
+(devunt)ika/ika/utils.py:33: error: "Tuple[Any, ...]" has no attribute "pop"  [attr-defined]
+(devunt)ika/ika/utils.py:35: error: "Tuple[Any, ...]" has no attribute "pop"  [attr-defined]
+(devunt)ika/ika/utils.py:41: error: Syntax error in type annotation  [syntax]
+(devunt)ika/ika/utils.py:41: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 7 errors in 1 file (checked 1 source file)
+
+[RRepo](pystitch)stitch
+
+[RRepo](UltrosBot)Ultros3K
+(UltrosBot)Ultros3K/setup.py:4: error: Module 'distutils.command.install' has no attribute 'INSTALL_SCHEMES'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](istio)tools
+
+[RRepo](Linko-3D)AssetGen
+
+[RRepo](protocollabs)dmpr-core
+(protocollabs)dmpr-core/dmpr/path.py:49: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(protocollabs)dmpr-core/dmpr/path.py:59: error: Need type annotation for '_global_attributes' (hint: "_global_attributes: Dict[<type>, <type>] = ...")  [var-annotated]
+(protocollabs)dmpr-core/dmpr/path.py:60: error: Need type annotation for 'policy_cache' (hint: "policy_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(protocollabs)dmpr-core/test_dmpr.py:1: error: Module 'dmpr' has no attribute 'DMPR'  [attr-defined]
+Found 4 errors in 2 files (checked 1 source file)
+
+[RRepo](cgre-aachen)gempy
+
+[RRepo](cs01)gdbgui
+(cs01)gdbgui/make_executable.py:10: error: Module 'gdbgui' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](vert-x3)vertx-web
+
+[RRepo](theheros)kbengine
+
+[RRepo](opensyllabus)osp-api
+(opensyllabus)osp-api/osp_api/users.py:31: error: Name 'db.Model' is not defined  [name-defined]
+(opensyllabus)osp-api/osp_api/users.py:37: error: Name 'db.Model' is not defined  [name-defined]
+(opensyllabus)osp-api/osp_api/argschemas.py:81: error: Unsupported left operand type for % ("None")  [operator]
+(opensyllabus)osp-api/osp_api/argschemas.py:81: note: Left operand is of type "Optional[str]"
+(opensyllabus)osp-api/osp_api/argschemas.py:127: error: Argument 1 to "NotStandardArg" has incompatible type "KeyError"; expected "str"  [arg-type]
+(opensyllabus)osp-api/osp_api/limits.py:8: error: Module 'osp_api' has no attribute 'config'  [attr-defined]
+(opensyllabus)osp-api/osp_api/utils.py:11: error: Module 'osp_api' has no attribute 'config'  [attr-defined]
+(opensyllabus)osp-api/osp_api/utils.py:39: error: Unsupported left operand type for % ("None")  [operator]
+(opensyllabus)osp-api/osp_api/utils.py:39: note: Left operand is of type "Optional[str]"
+(opensyllabus)osp-api/osp_api/utils.py:267: error: Item "None" of "Optional[bytes]" has no attribute "decode"  [union-attr]
+(opensyllabus)osp-api/osp_api/app.py:27: error: Module 'osp_api' has no attribute 'config'  [attr-defined]
+(opensyllabus)osp-api/osp_api/app.py:27: error: Module 'osp_api' has no attribute '__version__'  [attr-defined]
+(opensyllabus)osp-api/manage.py:12: error: Module 'osp_api.app' has no attribute 'create_app'  [attr-defined]
+Found 11 errors in 6 files (checked 1 source file)
+
+[RRepo](geometalab)osmaxx
+Success: no issues found in 5 source files
+
+[RRepo](orf)xcat
+
+[RRepo](freedomofpress)securedrop
+
+[RRepo](Bertrand256)dash-masternode-tool
+
+[RRepo](dotpot)InAppPy
+Success: no issues found in 1 source file
+
+[RRepo](garyd203)flying-circus
+Success: no issues found in 1 source file
+
+[RRepo](pythonfoo)pythonfooLite
+
+[RRepo](jardiacaj)finem_imperii
+Success: no issues found in 4 source files
+
+[RRepo](mrklees)cy-automation-library
+Success: no issues found in 1 source file
+
+[RRepo](SunDwarf)asyncqlio
+
+[RRepo](mbdevpl)open-fortran-parser-xml
+
+[RRepo](pydanny)cookiecutter-django
+
+[RRepo](osrsbox)osrsbox-db
+
+[RRepo](clarkerubber)irwin
+(clarkerubber)irwin/modules/auth/Token.py:7: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:9: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/auth/Token.py:9: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:12: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:12: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/auth/Token.py:19: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:19: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/auth/Token.py:26: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:26: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/auth/Token.py:32: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/auth/Token.py:32: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Token.py:38: error: Variable "modules.auth.Token.TokenID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/Token.py:38: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/Origin.py:3: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:8: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:9: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:10: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:11: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:13: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/auth/User.py:13: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:18: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/auth/User.py:21: error: Variable "modules.auth.User.Username" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/User.py:21: error: Variable "modules.auth.User.Password" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/User.py:21: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:21: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/auth/User.py:27: error: Username? has no attribute "lower"  [attr-defined]
+(clarkerubber)irwin/modules/auth/User.py:35: error: Variable "modules.auth.User.Password" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/User.py:35: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:35: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:35: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/auth/User.py:42: error: Unsupported left operand type for + (Password?)  [operator]
+(clarkerubber)irwin/modules/auth/User.py:42: note: Right operand is of type "Union[str, Any]"
+(clarkerubber)irwin/modules/auth/User.py:45: error: Variable "modules.auth.User.Password" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/User.py:53: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:53: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/auth/User.py:62: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:62: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/auth/User.py:71: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/auth/User.py:71: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/User.py:77: error: Variable "modules.auth.User.UserID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/auth/User.py:77: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:7: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/EngineEval.py:7: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:8: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:8: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:9: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:12: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:12: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/EngineEval.py:15: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:15: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/EngineEval.py:22: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:26: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(clarkerubber)irwin/modules/game/EngineEval.py:31: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/EngineEval.py:31: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/EngineEval.py:34: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(clarkerubber)irwin/modules/game/EngineEval.py:34: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineEval.py:34: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/conf/ConfigWrapper.py:9: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/conf/ConfigWrapper.py:9: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/conf/ConfigWrapper.py:36: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/conf/ConfigWrapper.py:36: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Player.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/Player.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:17: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:17: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Player.py:24: error: Name 'RuntimeTypeError' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:25: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:30: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:30: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Player.py:38: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(clarkerubber)irwin/modules/game/Player.py:38: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:38: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Player.py:47: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/Player.py:47: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:50: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:54: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:57: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:57: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Player.py:61: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:61: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Player.py:68: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:75: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:75: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Player.py:78: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Player.py:78: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/db/DBManager.py:8: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/db/DBManager.py:8: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:16: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:17: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:18: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:18: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:18: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:20: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:20: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:20: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:20: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:21: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:21: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:21: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:23: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/Game.py:23: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:27: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:27: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:28: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:28: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:28: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:32: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:32: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Game.py:43: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:43: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Game.py:93: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:106: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:109: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:110: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:111: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:112: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:134: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:134: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:134: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:139: error: Variable "modules.game.Game.Analysis" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/Game.py:139: error: Variable "modules.game.Game.Emt" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/Game.py:139: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:139: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:139: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:139: error: Variable "modules.game.Game.MoveTensor" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/Game.py:141: error: Value of type Analysis? is not indexable  [index]
+(clarkerubber)irwin/modules/game/Game.py:142: error: Value of type Analysis? is not indexable  [index]
+(clarkerubber)irwin/modules/game/Game.py:153: error: Variable "modules.game.Game.MoveTensor" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/Game.py:162: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:162: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Game.py:172: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:172: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Game.py:182: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/Game.py:182: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:185: error: Variable "modules.game.Game.GameID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/Game.py:185: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:189: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:189: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:193: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:193: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:196: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:196: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Game.py:202: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Game.py:202: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/BasicGameModel.py:85: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/BasicGameModel.py:85: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/BasicGameModel.py:85: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:12: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:14: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:16: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:21: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:22: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:22: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:24: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:24: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:29: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:29: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:31: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:31: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:33: error: Unsupported left operand type for + (Rank?)  [operator]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:46: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:46: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:49: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:52: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:61: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:67: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:70: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:73: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:82: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:88: error: Variable "modules.game.AnalysedMove.TrueRank" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:91: error: Variable "modules.game.AnalysedMove.Rank" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:94: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:104: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:110: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:115: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:115: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:115: error: Variable "modules.game.AnalysedMove.Analysis" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:122: error: Variable "modules.game.AnalysedMove.Analysis" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:122: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:122: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:124: error: Analysis? has no attribute "uci"  [attr-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:125: error: Analysis? has no attribute "engineEval"  [attr-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:131: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:131: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedMove.py:141: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedMove.py:141: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/lichess/Request.py:7: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/lichess/Request.py:7: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/lichess/Request.py:10: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/lichess/Request.py:10: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:8: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:9: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:19: error: Variable "modules.irwin.training.BasicGameActivation.Prediction" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:29: error: Variable "modules.irwin.training.BasicGameActivation.BasicGameActivationID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:34: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:34: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:43: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:43: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:52: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:52: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:55: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:55: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:58: error: Variable "modules.irwin.training.BasicGameActivation.Prediction" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:58: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:58: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:58: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:70: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicGameActivation.py:70: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:18: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:18: error: Variable "modules.queue.IrwinQueue.IrwinQueue" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:24: error: Variable "modules.queue.IrwinQueue.IrwinQueue" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:24: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:24: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:26: error: IrwinQueue? has no attribute "id"  [attr-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:27: error: IrwinQueue? has no attribute "origin"  [attr-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:31: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:31: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:34: error: Variable "modules.queue.IrwinQueue.IrwinQueue" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:36: error: IrwinQueue? has no attribute "id"  [attr-defined]
+(clarkerubber)irwin/modules/queue/IrwinQueue.py:43: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:9: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:13: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:20: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:20: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:26: error: Variable "modules.game.AnalysedPosition.AnalysedPositionID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:31: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:36: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:36: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:36: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:42: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:42: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:54: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:54: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedPosition.py:57: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/fishnet/fishnet.py:18: error: Name 'httplib' already defined (possibly by an import)  [no-redef]
+(clarkerubber)irwin/modules/fishnet/fishnet.py:23: error: Name 'urlparse' already defined (possibly by an import)  [no-redef]
+(clarkerubber)irwin/modules/fishnet/fishnet.py:28: error: Name 'urllib' already defined (by an import)  [no-redef]
+(clarkerubber)irwin/modules/client/Job.py:7: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/client/Job.py:7: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:9: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:9: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/client/Job.py:10: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:10: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/client/Job.py:13: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/client/Job.py:17: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:25: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:25: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/client/Job.py:32: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Job.py:32: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:15: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:17: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:19: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:19: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:23: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:23: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:30: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:30: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:38: error: Variable "modules.game.AnalysedGame.AnalysedGameID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:41: error: Variable "modules.game.AnalysedGame.AnalysedGameTensor" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:52: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:55: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:61: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:61: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:64: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:64: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:64: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:67: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:67: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:67: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:70: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:70: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:70: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:73: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:73: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:73: error: Name 'Number' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:91: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:91: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:95: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:95: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:105: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:105: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:111: error: Need type annotation for 'data'  [var-annotated]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:112: error: Need type annotation for 'labels'  [var-annotated]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:114: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:114: note: Possible overload variants:
+(clarkerubber)irwin/modules/game/AnalysedGame.py:114: note:     def __setitem__(self, int, List[Any]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:114: note:     def __setitem__(self, slice, Iterable[List[Any]]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:115: error: No overload variant of "__setitem__" of "list" matches argument types "int", "str"  [call-overload]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:115: note: Possible overload variants:
+(clarkerubber)irwin/modules/game/AnalysedGame.py:115: note:     def __setitem__(self, int, List[Any]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:115: note:     def __setitem__(self, slice, Iterable[List[Any]]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:118: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:118: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:121: error: Need type annotation for 'data'  [var-annotated]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:123: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:123: note: Possible overload variants:
+(clarkerubber)irwin/modules/game/AnalysedGame.py:123: note:     def __setitem__(self, int, List[Any]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:123: note:     def __setitem__(self, slice, Iterable[List[Any]]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:124: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:124: note: Possible overload variants:
+(clarkerubber)irwin/modules/game/AnalysedGame.py:124: note:     def __setitem__(self, int, List[Any]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:124: note:     def __setitem__(self, slice, Iterable[List[Any]]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:129: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:129: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:132: error: Need type annotation for 'data'  [var-annotated]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:134: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:134: note: Possible overload variants:
+(clarkerubber)irwin/modules/game/AnalysedGame.py:134: note:     def __setitem__(self, int, List[Any]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:134: note:     def __setitem__(self, slice, Iterable[List[Any]]) -> None
+(clarkerubber)irwin/modules/game/AnalysedGame.py:138: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:138: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:138: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:138: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:145: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:145: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:145: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:145: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:152: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:152: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:152: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:152: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:164: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:164: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:187: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:187: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:195: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:195: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:203: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:203: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:212: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:212: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:215: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:215: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:218: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:218: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:221: error: Variable "modules.game.AnalysedGame.AnalysedGameID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:221: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:225: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/AnalysedGame.py:225: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/AnalysedGame.py:236: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/GameStore.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:13: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:14: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:14: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:20: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:20: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:29: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:32: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:32: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:39: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:39: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:40: error: "addAnalysedGame" of "GameStore" does not return a value  [func-returns-value]
+(clarkerubber)irwin/modules/game/GameStore.py:42: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:42: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:48: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:48: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:52: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:52: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/GameStore.py:53: error: Too many arguments for "gameTensors" of "GameStore"  [call-arg]
+(clarkerubber)irwin/modules/game/GameStore.py:55: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/GameStore.py:55: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:22: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:23: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:25: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:26: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:28: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:28: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:30: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:30: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:31: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:40: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:40: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:43: error: Variable "modules.irwin.AnalysedGameModel.WeightedGamePrediction" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:129: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:129: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/AnalysedGameModel.py:129: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineTools.py:25: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/EngineTools.py:25: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineTools.py:43: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineTools.py:46: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineTools.py:49: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/EngineTools.py:63: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/MoveReport.py:6: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/MoveReport.py:6: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/game/Api.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:14: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:14: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Api.py:14: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:14: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/game/Api.py:20: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:23: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:23: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Api.py:40: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:40: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/game/Api.py:43: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/game/Api.py:43: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/client/Env.py:8: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:10: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:12: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:12: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:33: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:33: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:42: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:42: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:51: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:51: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:54: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:54: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:57: error: Variable "modules.irwin.training.AnalysedGameActivation.Prediction" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:57: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:57: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:69: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedGameActivation.py:69: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/GameReport.py:11: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/GameReport.py:13: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/GameReport.py:13: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/GameReport.py:18: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/GameReport.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/GameReport.py:31: error: Variable "modules.irwin.GameReport.GameReportID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/client/Api.py:14: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/client/Api.py:14: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:17: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:17: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:17: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/client/Api.py:23: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:27: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:27: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/client/Api.py:27: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/client/Api.py:38: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:14: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:19: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:19: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:24: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:27: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:28: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:35: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:45: error: Need type annotation for 'tensors' (hint: "tensors: List[<type>] = ...")  [var-annotated]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:48: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:53: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:56: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:67: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:77: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:92: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:96: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:96: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:96: error: Variable "modules.irwin.training.BasicModelTraining.Batch" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:100: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:101: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:103: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/BasicModelTraining.py:108: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:16: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:18: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:21: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:21: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:26: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:29: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:30: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:32: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:39: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:51: error: Need type annotation for 'tensors' (hint: "tensors: List[<type>] = ...")  [var-annotated]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:54: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:59: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:62: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:74: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:97: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:98: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:100: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:104: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:104: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:104: error: Variable "modules.irwin.training.AnalysedModelTraining.Batch" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:113: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:130: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:131: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/AnalysedModelTraining.py:132: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:13: error: Name 'TypeVar' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import TypeVar")
+(clarkerubber)irwin/modules/auth/Auth.py:15: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:17: error: Name 'TypeVar' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:17: note: Did you forget to import it from "typing"? (Suggestion: "from typing import TypeVar")
+(clarkerubber)irwin/modules/auth/Auth.py:19: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/auth/Auth.py:19: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:20: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:20: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/auth/Auth.py:20: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:32: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:32: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/auth/Auth.py:32: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:38: error: Name 'env' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:39: error: Name 'env' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:43: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:43: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/auth/Auth.py:43: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:52: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:52: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/auth/Auth.py:52: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:61: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:61: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:61: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/auth/Auth.py:61: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/auth/Auth.py:61: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/client.py:29: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:30: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:31: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:32: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:33: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:34: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:37: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:38: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:39: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:40: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:47: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:47: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/client.py:47: error: Name 'Iterable' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:47: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Iterable")
+(clarkerubber)irwin/client.py:52: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:58: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:62: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:64: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:74: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:76: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:78: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/client.py:80: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:16: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:18: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:18: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:23: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:23: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:31: error: Name 'Iterable' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Iterable")
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:31: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:44: error: Variable "modules.irwin.PlayerReport.PlayerReportID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:48: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:48: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:64: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/PlayerReport.py:64: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:16: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:17: error: Name 'NewType' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:19: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:19: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:22: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:22: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:29: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:29: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:29: error: Name 'Tuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:29: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:84: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:84: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:95: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:95: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:106: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:106: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:114: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:114: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/queue/EngineQueue.py:117: error: Variable "modules.queue.EngineQueue.EngineQueueID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:117: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:121: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:128: error: Variable "modules.queue.EngineQueue.EngineQueueID" is not valid as a type  [valid-type]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:149: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:155: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:159: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:169: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/EngineQueue.py:169: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/modules/irwin/training/Evaluation.py:11: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/irwin/training/Evaluation.py:11: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/Evaluation.py:15: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/training/Evaluation.py:55: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/Queue.py:9: error: Unsupported dynamic base class "NamedTuple"  [misc]
+(clarkerubber)irwin/modules/queue/Queue.py:9: error: Name 'NamedTuple' is not defined  [name-defined]
+(clarkerubber)irwin/modules/queue/Queue.py:10: error: Name 'Opt' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/Irwin.py:24: error: Name 'logging' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/Irwin.py:31: error: Name 'List' is not defined  [name-defined]
+(clarkerubber)irwin/modules/irwin/Irwin.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(clarkerubber)irwin/lichess-listener.py:8: error: Module 'requests.packages.urllib3.exceptions' has no attribute 'NewConnectionError'; maybe "ConnectionError" or "ConnectTimeoutError"?  [attr-defined]
+(clarkerubber)irwin/lichess-listener.py:48: error: Name 'Dict' is not defined  [name-defined]
+(clarkerubber)irwin/lichess-listener.py:48: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+Found 439 errors in 36 files (checked 3 source files)
+
+[RRepo](1995parham)yepc
+
+[RRepo](RedMadRobot)rmr_django
+
+[RRepo](aleksigron)kokko
+
+[RRepo](ceos-seo)data_cube_utilities
+
+[RRepo](andreroggeri)pynubank
+
+[RRepo](SuLab)scheduled-bots
+Success: no issues found in 13 source files
+
+[RRepo](atten)bucket_throttling
+(atten)bucket_throttling/bucket_throttling/__init__.py:39: error: Need type annotation for 'redis_options' (hint: "redis_options: Dict[<type>, <type>] = ...")  [var-annotated]
+(atten)bucket_throttling/bucket_throttling/__init__.py:67: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:67: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:99: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:99: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:101: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:105: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:105: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:107: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:118: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(atten)bucket_throttling/bucket_throttling/__init__.py:118: note: Did you mean "List[...]"?
+(atten)bucket_throttling/bucket_throttling/__init__.py:125: error: Item "None" of "Optional[ThrottlingRule]" has no attribute "interval"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/__init__.py:126: error: Item "None" of "Optional[ThrottlingRule]" has no attribute "interval"  [union-attr]
+(atten)bucket_throttling/bucket_throttling/utils.py:15: error: Need type annotation for 'ret' (hint: "ret: List[<type>] = ...")  [var-annotated]
+Found 10 errors in 2 files (checked 4 source files)
+
+[RRepo](meetmangukiya)chubby
+
+[RRepo](openfisca)openfisca-france-data
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:7: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:11: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:12: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:14: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:17: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:19: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:25: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:28: error: Name 'Famille' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:30: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:36: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:39: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:41: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:47: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:50: error: Name 'Famille' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:52: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:58: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:61: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:63: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:69: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:73: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:75: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:78: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:81: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:83: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:86: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:89: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/survey_variables.py:91: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:20: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:22: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:24: error: Name 'MONTH' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:39: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:41: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:43: error: Name 'MONTH' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:51: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:53: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:55: error: Name 'MONTH' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:63: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:64: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:65: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:66: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:67: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:69: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:85: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:86: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:87: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:88: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:89: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:91: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:107: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:108: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:109: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:110: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:111: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:113: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:127: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:128: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:129: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:130: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:131: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:133: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:144: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:145: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:146: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:147: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:148: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:150: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:166: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:167: error: Name 'Enum' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:168: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:169: error: Name 'Deciles' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:170: error: Name 'FoyerFiscal' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:172: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:185: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:187: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:189: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:204: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:206: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:208: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:225: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:227: error: Name 'Menage' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/model/common.py:229: error: Name 'YEAR' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/reforms/inversion_directe_salaires.py:17: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/reforms/inversion_directe_salaires.py:19: error: Name 'Individu' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/reforms/inversion_directe_salaires.py:21: error: Name 'MONTH' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/reforms/inversion_directe_salaires.py:24: error: Name 'Variable' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/reforms/inversion_directe_salaires.py:25: error: Name 'MONTH' is not defined  [name-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/__init__.py:15: error: Module 'openfisca_france_data.model' has no attribute 'id_variables'  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/base_survey.py:50: error: Need type annotation for 'reform_by_full_key' (hint: "reform_by_full_key: Dict[<type>, <type>] = ...")  [var-annotated]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/__init__.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_02_imputation_loyer'; maybe "imputation_loyer"?  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/__init__.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_04_famille'  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/__init__.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_06_rebuild'  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/run_all.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_02_imputation_loyer'; maybe "imputation_loyer"?  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/run_all.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_04_famille'  [attr-defined]
+(openfisca)openfisca-france-data/openfisca_france_data/erfs/input_data_builder/run_all.py:10: error: Module 'openfisca_france_data.erfs.input_data_builder' has no attribute 'step_06_rebuild'  [attr-defined]
+Found 94 errors in 7 files (checked 14 source files)
+
+[RRepo](alainrinder)quoridor.py
+Success: no issues found in 1 source file
+
+[RRepo](CenterForOpenScience)waterbutler
+(CenterForOpenScience)waterbutler/setup.py:12: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+(CenterForOpenScience)waterbutler/waterbutler/tasks/app.py:7: error: Module 'waterbutler.tasks' has no attribute 'settings'  [attr-defined]
+(CenterForOpenScience)waterbutler/waterbutler/server/app.py:16: error: Module 'waterbutler.server' has no attribute 'settings'  [attr-defined]
+Found 3 errors in 3 files (checked 2 source files)
+
+[RRepo](drssoccer55)RLBot
+
+[RRepo](astraw)stdeb
+

@@ -1,0 +1,571 @@
+[RRepo](ltworf)relational
+(ltworf)relational/relational_readline/linegui.py:222: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ltworf)relational/relational/optimizer.py:27: error: Module 'relational' has no attribute 'optimizations'  [attr-defined]
+(ltworf)relational/relational/optimizer.py:87: error: Item "None" of "Optional[List[Any]]" has no attribute "append"  [union-attr]
+(ltworf)relational/relational/optimizer.py:93: error: Item "None" of "Optional[List[Any]]" has no attribute "append"  [union-attr]
+(ltworf)relational/relational_gui.py:89: error: Module 'relational_gui' has no attribute 'guihandler'  [attr-defined]
+(ltworf)relational/relational_gui.py:89: error: Module 'relational_gui' has no attribute 'about'  [attr-defined]
+Found 6 errors in 3 files (checked 2 source files)
+
+[RRepo](GoogleCloudPlatform)serverless-store-demo
+
+[RRepo](futuresimple)triggear
+
+[RRepo](alexram1313)doorsms
+Success: no issues found in 1 source file
+
+[RRepo](lucventurini)mikado
+(lucventurini)mikado/Mikado/parsers/gfannotation.py:22: error: Need type annotation for '__negative_order' (hint: "__negative_order: List[<type>] = ...")  [var-annotated]
+(lucventurini)mikado/Mikado/parsers/gfannotation.py:23: error: Need type annotation for '__positive_order' (hint: "__positive_order: List[<type>] = ...")  [var-annotated]
+(lucventurini)mikado/Mikado/parsers/__init__.py:101: error: Module 'Mikado.parsers' has no attribute 'bed12'  [attr-defined]
+(lucventurini)mikado/Mikado/parsers/__init__.py:103: error: Module 'Mikado.parsers' has no attribute 'blast_utils'  [attr-defined]
+(lucventurini)mikado/Mikado/scales/gene_dict.py:28: error: Need type annotation for '__cache' (hint: "__cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(lucventurini)mikado/Mikado/configuration/daijin_configurator.py:4: error: Name 'json' already defined (by an import)  [no-redef]
+(lucventurini)mikado/Mikado/scales/__init__.py:17: error: Module 'Mikado.utilities' has no attribute 'intervaltree'  [attr-defined]
+(lucventurini)mikado/Mikado/scales/__init__.py:43: error: Module 'Mikado.scales' has no attribute 'compare'  [attr-defined]
+(lucventurini)mikado/Mikado/__init__.py:32: error: Module 'Mikado' has no attribute 'picking'  [attr-defined]
+Found 9 errors in 6 files (checked 14 source files)
+
+[RRepo](IDSIA)sacred
+
+[RRepo](angr)cle
+
+[RRepo](akashin)HSE_AI_Labs
+
+[RRepo](GoogleCloudPlatform)professional-services
+
+[RRepo](trezor)python-trezor
+(trezor)python-trezor/setup.py:63: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](DLR-SC)F2x
+
+[RRepo](ironmussa)Optimus
+(ironmussa)Optimus/setup.py:33: error: Need type annotation for 'dependency_links' (hint: "dependency_links: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](shimpe)expremigen
+
+[RRepo](balabit)typesafety
+Success: no issues found in 8 source files
+
+[RRepo](liiight)notifiers
+Success: no issues found in 1 source file
+
+[RRepo](jamescooke)factory_djoy
+(jamescooke)factory_djoy/setup.py:11: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](fclesio)learning-space
+
+[RRepo](tebeka)pythonwise
+(tebeka)pythonwise/animals.py:23: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 104 source files)
+
+[RRepo](opensistemas-hub)osbrain
+
+[RRepo](adsharma)flattools
+
+[RRepo](DongjunLee)kino-bot
+
+[RRepo](Rastii)pydev_docker
+
+[RRepo](universal-ctags)ctags
+
+[RRepo](tensorflow)deepmath
+
+[RRepo](nbob)flask-multi-session
+Success: no issues found in 3 source files
+
+[RRepo](slightlynybbled)tk_tools
+
+[RRepo](python-cmd2)cmd2
+Success: no issues found in 1 source file
+
+[RRepo](vrcmarcos)django-http-model
+
+[RRepo](freeipa)freeipa-pr-ci
+Success: no issues found in 1 source file
+
+[RRepo](szastupov)aiotg
+
+[RRepo](pecorarista)python-project-template
+
+[RRepo](neurotechuoft)MindType
+
+[RRepo](tonbut)RPiSpectrometer
+(tonbut)RPiSpectrometer/spectrometer.py:71: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(tonbut)RPiSpectrometer/spectrometer.py:151: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:156: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:157: error: Value of type "object" is not indexable  [index]
+(tonbut)RPiSpectrometer/spectrometer.py:180: error: Value of type "object" is not indexable  [index]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](aequitas)python-rflink
+Success: no issues found in 1 source file
+
+[RRepo](eliostvs)tomate-gtk
+Success: no issues found in 1 source file
+
+[RRepo](Bisso1998)StairCase-Sequence
+
+[RRepo](rliang)nvim-pygtk3
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:187: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:325: error: "object" has no attribute "vars"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:325: error: "object" has no attribute "channel_id"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:326: error: "object" has no attribute "subscribe"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:327: error: "object" has no attribute "options"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:328: error: "object" has no attribute "options"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:329: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:329: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:331: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:331: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:334: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:334: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:337: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:337: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:340: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:340: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:343: error: "object" has no attribute "async_call"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:343: error: "object" has no attribute "command"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:345: error: "object" has no attribute "run_loop"  [attr-defined]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:361: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:362: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:363: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:364: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:365: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:366: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:367: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:368: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:369: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:370: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:373: error: Missing return statement  [return]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:387: error: Value of type "object" is not indexable  [index]
+(rliang)nvim-pygtk3/nvim_pygtk3/window.py:388: error: Value of type "object" is not indexable  [index]
+Found 32 errors in 1 file (checked 3 source files)
+
+[RRepo](blueman-project)blueman
+
+[RRepo](infilect)ml-course1
+
+[RRepo](zyga)snapd
+Success: no issues found in 2 source files
+
+[RRepo](joshbrooks)libuntl
+
+[RRepo](comtihon)coon
+(comtihon)coon/enot/packages/dep.py:2: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/setup.py:33: error: Module has no attribute "APPNAME"  [attr-defined]
+(comtihon)coon/setup.py:34: error: Module has no attribute "APPVSN"  [attr-defined]
+(comtihon)coon/setup.py:36: error: Module has no attribute "APPAUTHOR"  [attr-defined]
+(comtihon)coon/enot/utils/logger.py:25: error: Module has no attribute "APPNAME"  [attr-defined]
+(comtihon)coon/enot/utils/file_utils.py:61: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/utils/file_utils.py:76: error: Missing return statement  [return]
+(comtihon)coon/enot/utils/file_utils.py:106: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/utils/file_utils.py:121: error: Module has no attribute "errno"; maybe "error"?  [attr-defined]
+(comtihon)coon/enot/utils/erl_file_utils.py:8: error: Syntax error in type annotation  [syntax]
+(comtihon)coon/enot/utils/erl_file_utils.py:8: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(comtihon)coon/enot/utils/erl_file_utils.py:14: error: Syntax error in type annotation  [syntax]
+(comtihon)coon/enot/utils/erl_file_utils.py:14: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(comtihon)coon/enot/utils/erl_file_utils.py:72: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/utils/erl_file_utils.py:80: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/application_config.py:21: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/application_config.py:36: error: Item "None" of "Optional[IO[bytes]]" has no attribute "read"  [union-attr]
+(comtihon)coon/enot/packages/application_config.py:36: error: Argument 1 to "parse_app_config_content" has incompatible type "Union[bytes, Any]"; expected "str"  [arg-type]
+(comtihon)coon/enot/packages/config/config.py:70: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/config.py:74: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/config.py:82: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/config.py:183: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:185: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:188: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:191: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:194: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:200: error: Incompatible types in assignment (expression has type "str", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:202: error: Incompatible types in assignment (expression has type "str", target has type "bool")  [assignment]
+(comtihon)coon/enot/packages/config/config.py:204: error: Incompatible types in assignment (expression has type "List[Any]", target has type "bool")  [assignment]
+(comtihon)coon/enot/tool/tool.py:25: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/erlang_mk.py:2: error: Module 'distutils.sysconfig' has no attribute 'parse_makefile'  [attr-defined]
+(comtihon)coon/enot/compiler/abstract.py:13: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/abstract.py:14: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/abstract.py:78: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/abstract.py:85: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/rebar.py:36: error: Need type annotation for '_platform_defines' (hint: "_platform_defines: List[<type>] = ...")  [var-annotated]
+(comtihon)coon/enot/compiler/erlang_mk.py:22: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/c_compiler.py:28: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/c_compiler.py:37: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/relx.py:23: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/relx.py:24: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/relx.py:25: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/rebar.py:15: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:50: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:88: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:97: error: Need type annotation for 'first' (hint: "first: Dict[<type>, <type>] = ...")  [var-annotated]
+(comtihon)coon/enot/compiler/enot.py:103: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:123: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:160: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/compiler/enot.py:177: error: Incompatible types in assignment (expression has type "List[Any]", target has type "str")  [assignment]
+(comtihon)coon/enot/compiler/enot.py:199: error: Syntax error in type annotation  [syntax]
+(comtihon)coon/enot/compiler/enot.py:199: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(comtihon)coon/enot/action/action_factory.py:6: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/config/enot.py:66: error: Item "None" of "Optional[IO[bytes]]" has no attribute "read"  [union-attr]
+(comtihon)coon/enot/packages/package.py:19: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package.py:24: error: Need type annotation for '_deps' (hint: "_deps: List[<type>] = ...")  [var-annotated]
+(comtihon)coon/enot/packages/package.py:25: error: Need type annotation for '_test_deps' (hint: "_test_deps: List[<type>] = ...")  [var-annotated]
+(comtihon)coon/enot/packages/package.py:40: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package.py:48: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package.py:76: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package.py:257: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/cache.py:77: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/remote_cache.py:20: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/local_cache.py:28: error: Need type annotation for '_locks' (hint: "_locks: Dict[<type>, <type>] = ...")  [var-annotated]
+(comtihon)coon/enot/pac_cache/local_cache.py:43: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/local_cache.py:49: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/local_cache.py:100: error: Module has no attribute "APPNAME"  [attr-defined]
+(comtihon)coon/enot/pac_cache/enot_cache.py:24: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/enot_cache.py:40: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(comtihon)coon/enot/pac_cache/enot_cache.py:40: note: Did you mean "List[...]"?
+(comtihon)coon/enot/pac_cache/cache_man.py:16: error: Need type annotation for '_caches' (hint: "_caches: Dict[<type>, <type>] = ...")  [var-annotated]
+(comtihon)coon/enot/pac_cache/cache_man.py:31: error: Incompatible return value type (got "Optional[LocalCache]", expected "LocalCache")  [return-value]
+(comtihon)coon/enot/pac_cache/cache_man.py:34: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/pac_cache/cache_man.py:80: error: Missing return statement  [return]
+(comtihon)coon/enot/global_properties.py:20: error: Name 'user_cache_dir' is not defined  [name-defined]
+(comtihon)coon/enot/global_properties.py:20: error: Module has no attribute "APPNAME"  [attr-defined]
+(comtihon)coon/enot/global_properties.py:20: error: Module has no attribute "APPAUTHOR"  [attr-defined]
+(comtihon)coon/enot/global_properties.py:30: error: Name 'os' is not defined  [name-defined]
+(comtihon)coon/enot/global_properties.py:31: error: Name 'os' is not defined  [name-defined]
+(comtihon)coon/enot/global_properties.py:33: error: Name 'os' is not defined  [name-defined]
+(comtihon)coon/enot/global_properties.py:34: error: Module has no attribute "APPNAME"  [attr-defined]
+(comtihon)coon/enot/global_properties.py:40: error: Name 'user_config_dir' is not defined  [name-defined]
+(comtihon)coon/enot/packages/package_builder.py:25: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package_builder.py:29: error: Need type annotation for '_packages' (hint: "_packages: Dict[<type>, <type>] = ...")  [var-annotated]
+(comtihon)coon/enot/packages/package_builder.py:110: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package_controller.py:32: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package_controller.py:36: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package_controller.py:76: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/packages/package_controller.py:86: error: Invalid type comment or annotation  [valid-type]
+(comtihon)coon/enot/__main__.py:39: error: Module 'enot' has no attribute 'APPVSN'  [attr-defined]
+Found 86 errors in 28 files (checked 11 source files)
+
+[RRepo](asphalt-framework)asphalt-sqlalchemy
+
+[RRepo](yuuki0xff)conoha-cli
+
+[RRepo](IntelPNI)brainiak
+(IntelPNI)brainiak/setup.py:81: error: Unsupported right operand type for in ("Union[int, str, None]")  [operator]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](kiwicom)iwant-bot
+
+[RRepo](kkamkou)gitmostwanted.com
+
+[RRepo](ztkIsAlreadyTaken)rain
+Success: no issues found in 1 source file
+
+[RRepo](wraeth)kcheck
+
+[RRepo](echolox)smartbcr2k
+(echolox)smartbcr2k/targets/flex.py:85: error: Read-only property cannot override read-write property  [misc]
+(echolox)smartbcr2k/modifiers/stepsequencer.py:10: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", base class "Modifier" defined the type as "Tuple[Any]")  [assignment]
+(echolox)smartbcr2k/modifiers/basic.py:146: error: Incompatible types in assignment (expression has type Tuple[Any, Any, ... <9 more items>], base class "Modifier" defined the type as Tuple[Any])  [assignment]
+Found 3 errors in 3 files (checked 17 source files)
+
+[RRepo](NanotrasenInc)YASSS13RTWCF
+
+[RRepo](arthurdk)tinder-telegram-bot
+
+[RRepo](arkharin)OpenCool
+
+[RRepo](stemid)taiga-contrib-ad-auth
+
+[RRepo](bijij)mp3bot
+
+[RRepo](n-kats)arxiv2vec
+(n-kats)arxiv2vec/actions/infer.py:55: error: "Model" has no attribute "infer_vector"  [attr-defined]
+(n-kats)arxiv2vec/actions/infer.py:62: error: "Model" has no attribute "infer_vector"  [attr-defined]
+(n-kats)arxiv2vec/actions/infer.py:63: error: "Model" has no attribute "infer_vector"  [attr-defined]
+(n-kats)arxiv2vec/actions/infer.py:78: error: "Model" has no attribute "infer_vector"  [attr-defined]
+(n-kats)arxiv2vec/actions/infer.py:79: error: "Model" has no attribute "find_neighbors"  [attr-defined]
+(n-kats)arxiv2vec/actions/infer.py:104: error: "Model" has no attribute "infer_vector"  [attr-defined]
+(n-kats)arxiv2vec/dataset/merge_json.py:9: error: Need type annotation for 'data' (hint: "data: List[<type>] = ...")  [var-annotated]
+Found 7 errors in 2 files (checked 7 source files)
+
+[RRepo](tensorflow)tfx
+(tensorflow)tfx/setup.py:38: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(tensorflow)tfx/setup.py:72: error: Need type annotation for 'globals_dict' (hint: "globals_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](avatao-content)challenge-toolbox
+(avatao-content)challenge-toolbox/start.py:22: error: Need type annotation for 'CONNECTION_USAGE'  [var-annotated]
+(avatao-content)challenge-toolbox/start.py:76: error: Syntax error in type annotation  [syntax]
+(avatao-content)challenge-toolbox/start.py:76: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](Maillol)cricri
+
+[RRepo](spritzle)spritzle
+
+[RRepo](zancas)containenv
+
+[RRepo](opethe1st)SameGame
+
+[RRepo](jwill89)clifford-discord-bot
+
+[RRepo](xpac1985)pyASA
+
+[RRepo](kensk8er)chicksexer
+(kensk8er)chicksexer/trainer.py:57: error: Module 'chicksexer' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](fluentpython)example-code
+
+[RRepo](mathLab)RBniCS
+(mathLab)RBniCS/rbnics/utils/decorators/sync_setters.py:19: error: Module 'rbnics.utils.test' has no attribute 'PatchInstanceMethod'  [attr-defined]
+(mathLab)RBniCS/rbnics/utils/decorators/sync_setters.py:146: error: Need type annotation for '_original_setters' (hint: "_original_setters: Dict[<type>, <type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/utils/decorators/sync_setters.py:147: error: Need type annotation for '_synced_setters' (hint: "_synced_setters: Dict[<type>, <type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/utils/decorators/sync_setters.py:148: error: Need type annotation for '_synced_setters__decorators' (hint: "_synced_setters__decorators: Dict[<type>, <type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/utils/decorators/sync_setters.py:149: error: Need type annotation for '_synced_setters__disabled_methods' (hint: "_synced_setters__disabled_methods: Set[<type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/utils/decorators/backend_for.py:44: error: Module has no attribute "__all__"  [attr-defined]
+(mathLab)RBniCS/rbnics/utils/config/config.py:22: error: Module 'rbnics.utils.decorators' has no attribute 'overload'  [attr-defined]
+(mathLab)RBniCS/rbnics/utils/config/config.py:22: error: Module 'rbnics.utils.decorators' has no attribute 'set_of'  [attr-defined]
+(mathLab)RBniCS/rbnics/utils/config/config.py:62: error: Unsupported target for indexed assignment  [index]
+(mathLab)RBniCS/rbnics/utils/config/config.py:118: error: Name '_value_to_parser' already defined on line 113  [no-redef]
+(mathLab)RBniCS/rbnics/utils/config/config.py:123: error: Name '_value_to_parser' already defined on line 113  [no-redef]
+(mathLab)RBniCS/rbnics/utils/decorators/exact_problem.py:19: error: Module 'rbnics.utils.cache' has no attribute 'Cache'  [attr-defined]
+(mathLab)RBniCS/rbnics/backends/online/__init__.py:24: error: Need type annotation for '__all__' (hint: "__all__: List[<type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/backends/online/__init__.py:58: error: Module has no attribute "get"  [attr-defined]
+(mathLab)RBniCS/rbnics/backends/__init__.py:23: error: Need type annotation for '__all__' (hint: "__all__: List[<type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/backends/__init__.py:97: error: Module has no attribute "get"  [attr-defined]
+(mathLab)RBniCS/rbnics/backends/__init__.py:101: error: Module 'rbnics.backends.abstract' has no attribute 'LinearProblemWrapper'  [attr-defined]
+(mathLab)RBniCS/rbnics/backends/__init__.py:101: error: Module 'rbnics.backends.abstract' has no attribute 'NonlinearProblemWrapper'  [attr-defined]
+(mathLab)RBniCS/rbnics/backends/__init__.py:101: error: Module 'rbnics.backends.abstract' has no attribute 'TimeDependentProblemWrapper'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:20: error: Need type annotation for '__all__' (hint: "__all__: List[<type>] = ...")  [var-annotated]
+(mathLab)RBniCS/rbnics/__init__.py:26: error: Module 'rbnics.eim.problems' has no attribute 'DEIM'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:26: error: Module 'rbnics.eim.problems' has no attribute 'EIM'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:26: error: Module 'rbnics.eim.problems' has no attribute 'ExactParametrizedFunctions'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:27: error: Module 'rbnics.problems.elliptic' has no attribute 'EllipticCoerciveCompliantProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:27: error: Module 'rbnics.problems.elliptic' has no attribute 'EllipticCoerciveProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:27: error: Module 'rbnics.problems.elliptic' has no attribute 'EllipticProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:28: error: Module 'rbnics.problems.elliptic_optimal_control' has no attribute 'EllipticOptimalControlProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:29: error: Module 'rbnics.problems.navier_stokes' has no attribute 'NavierStokesProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:30: error: Module 'rbnics.problems.navier_stokes_unsteady' has no attribute 'NavierStokesUnsteadyProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:31: error: Module 'rbnics.problems.nonlinear_elliptic' has no attribute 'NonlinearEllipticProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:32: error: Module 'rbnics.problems.nonlinear_parabolic' has no attribute 'NonlinearParabolicProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:33: error: Module 'rbnics.problems.parabolic' has no attribute 'ParabolicCoerciveProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:33: error: Module 'rbnics.problems.parabolic' has no attribute 'ParabolicProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:34: error: Module 'rbnics.problems.stokes' has no attribute 'StokesProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:35: error: Module 'rbnics.problems.stokes_optimal_control' has no attribute 'StokesOptimalControlProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:36: error: Module 'rbnics.problems.stokes_unsteady' has no attribute 'StokesUnsteadyProblem'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:37: error: Module 'rbnics.sampling.distributions' has no attribute 'DrawFrom'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:37: error: Module 'rbnics.sampling.distributions' has no attribute 'EquispacedDistribution'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:37: error: Module 'rbnics.sampling.distributions' has no attribute 'LogEquispacedDistribution'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:37: error: Module 'rbnics.sampling.distributions' has no attribute 'LogUniformDistribution'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:37: error: Module 'rbnics.sampling.distributions' has no attribute 'UniformDistribution'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:38: error: Module 'rbnics.scm.problems' has no attribute 'ExactStabilityFactor'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:38: error: Module 'rbnics.scm.problems' has no attribute 'SCM'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:39: error: Module 'rbnics.shape_parametrization.problems' has no attribute 'AffineShapeParametrization'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:39: error: Module 'rbnics.shape_parametrization.problems' has no attribute 'ShapeParametrization'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:40: error: Module 'rbnics.utils.decorators' has no attribute 'CustomizeReducedProblemFor'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:40: error: Module 'rbnics.utils.decorators' has no attribute 'CustomizeReductionMethodFor'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:41: error: Module 'rbnics.utils.factories' has no attribute 'ReducedBasis'  [attr-defined]
+(mathLab)RBniCS/rbnics/__init__.py:41: error: Module 'rbnics.utils.factories' has no attribute 'PODGalerkin'  [attr-defined]
+Found 49 errors in 7 files (checked 4 source files)
+
+[RRepo](couchbase)couchbase-cli
+(couchbase)couchbase-cli/pbar.py:11: error: Module has no attribute "windll"  [attr-defined]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](yeonghoey)yeonghoey
+
+[RRepo](5agado)data-science-learning
+
+[RRepo](ze-phyr-us)fastenum
+(ze-phyr-us)fastenum/fastenum.py:20: error: "type" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:22: error: "type" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:26: error: No overload variant of "__new__" of "type" matches argument type "type"  [call-overload]
+(ze-phyr-us)fastenum/fastenum.py:26: note: Possible overload variants:
+(ze-phyr-us)fastenum/fastenum.py:26: note:     def __new__(cls, cls: Type[type], o: object) -> type
+(ze-phyr-us)fastenum/fastenum.py:26: note:     def __new__(cls, cls: Type[type], name: str, bases: Tuple[type, ...], namespace: Dict[str, Any]) -> type
+(ze-phyr-us)fastenum/fastenum.py:36: error: "type" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:40: error: "type" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:47: error: Signature of "__call__" incompatible with supertype "type"  [override]
+(ze-phyr-us)fastenum/fastenum.py:54: error: "EnumMeta" has no attribute "_value2member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:57: error: "EnumMeta" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:64: error: "EnumMeta" has no attribute "_member_map_"  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:83: error: "Enum" has no attribute "_repr"; maybe "__repr__"?  [attr-defined]
+(ze-phyr-us)fastenum/fastenum.py:86: error: "Enum" has no attribute "name"  [attr-defined]
+Found 11 errors in 1 file (checked 2 source files)
+
+[RRepo](alexd3rsan)rollingshutterpy
+Success: no issues found in 1 source file
+
+[RRepo](zhouyao1994)incubator-superset
+(zhouyao1994)incubator-superset/superset/connectors/connector_registry.py:8: error: Need type annotation for 'sources' (hint: "sources: Dict[<type>, <type>] = ...")  [var-annotated]
+(zhouyao1994)incubator-superset/superset/models/helpers.py:35: error: Need type annotation for 'export_children' (hint: "export_children: List[<type>] = ...")  [var-annotated]
+(zhouyao1994)incubator-superset/superset/models/helpers.py:39: error: Need type annotation for 'export_fields' (hint: "export_fields: List[<type>] = ...")  [var-annotated]
+(zhouyao1994)incubator-superset/superset/__init__.py:16: error: Module 'superset' has no attribute 'config'; maybe "conf"?  [attr-defined]
+(zhouyao1994)incubator-superset/superset/__init__.py:90: error: Item "None" of "Optional[Any]" has no attribute "__iter__" (not iterable)  [union-attr]
+(zhouyao1994)incubator-superset/superset/__init__.py:125: error: Argument "format" to "basicConfig" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:126: error: Argument 1 to "setLevel" of "Logger" has incompatible type "Optional[Any]"; expected "Union[int, str]"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:129: error: Argument 1 to "setLevel" of "Logger" has incompatible type "Optional[Any]"; expected "Union[int, str]"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:131: error: Argument 1 to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:132: error: Argument "when" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:133: error: Argument "interval" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "int"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:134: error: Argument "backupCount" to "TimedRotatingFileHandler" has incompatible type "Optional[Any]"; expected "int"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:142: error: Cannot assign to a method  [assignment]
+(zhouyao1994)incubator-superset/superset/__init__.py:157: error: Cannot assign to a method  [assignment]
+(zhouyao1994)incubator-superset/superset/__init__.py:161: error: Argument 1 to "makedirs" has incompatible type "Optional[Any]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(zhouyao1994)incubator-superset/superset/__init__.py:165: error: Item "None" of "Optional[Any]" has no attribute "__iter__" (not iterable)  [union-attr]
+(zhouyao1994)incubator-superset/superset/__init__.py:166: error: Cannot assign to a method  [assignment]
+(zhouyao1994)incubator-superset/superset/__init__.py:197: error: Item "None" of "Optional[Any]" has no attribute "update"  [union-attr]
+(zhouyao1994)incubator-superset/superset/jinja_context.py:156: error: Incompatible types in assignment (expression has type "str", base class "BaseTemplateProcessor" defined the type as "None")  [assignment]
+(zhouyao1994)incubator-superset/superset/forms.py:13: error: Module 'superset.models' has no attribute 'core'  [attr-defined]
+(zhouyao1994)incubator-superset/superset/forms.py:46: error: Method must have at least one argument  [misc]
+Found 21 errors in 5 files (checked 11 source files)
+
+[RRepo](OpenBapul)hml-equation-parser
+
+[RRepo](7sDream)zhihu-py3
+Success: no issues found in 1 source file
+
+[RRepo](pdjstone)cloudpets-web-bluetooth
+(pdjstone)cloudpets-web-bluetooth/cp_encode.py:77: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(pdjstone)cloudpets-web-bluetooth/cp_encode.py:77: error: Argument 1 to "hexlify" has incompatible type "Array[c_uint8]"; expected "bytes"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:36: error: Argument 1 to "memoryview" has incompatible type "array[int]"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:38: error: Argument 1 to "memoryview" has incompatible type "array[int]"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cp_decode.py:52: error: Argument 1 to "writeframes" of "Wave_write" has incompatible type "array[int]"; expected "bytes"  [arg-type]
+(pdjstone)cloudpets-web-bluetooth/cloudpets_server.py:71: error: Name 'open_wav' is not defined  [name-defined]
+(pdjstone)cloudpets-web-bluetooth/cloudpets_server.py:72: error: Name 'encode_audio' is not defined  [name-defined]
+Found 7 errors in 3 files (checked 3 source files)
+
+[RRepo](timothycrosley)isort
+
+[RRepo](nil0x42)phpsploit
+Success: no issues found in 1 source file
+
+[RRepo](nallath)PostProcessingPlugin
+
+[RRepo](qtile)qtile
+Success: no issues found in 1 source file
+
+[RRepo](Korchy)BIS
+
+[RRepo](google-research)mixmatch
+(google-research)mixmatch/libml/data.py:185: error: Need type annotation for 'DATASETS' (hint: "DATASETS: Dict[<type>, <type>] = ...")  [var-annotated]
+(google-research)mixmatch/libml/data_pair.py:35: error: Need type annotation for 'DATASETS' (hint: "DATASETS: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 7 source files)
+
+[RRepo](imayhaveborkedit)discord.py
+Success: no issues found in 1 source file
+
+[RRepo](Nic30)hwtHls
+
+[RRepo](tensorflow)minigo
+(tensorflow)minigo/validate.py:54: error: All conditional function variants must have identical signatures  [misc]
+(tensorflow)minigo/train.py:142: error: Invalid type comment or annotation  [valid-type]
+(tensorflow)minigo/train.py:173: error: All conditional function variants must have identical signatures  [misc]
+Found 3 errors in 2 files (checked 22 source files)
+
+[RRepo](mementum)backtrader
+
+[RRepo](ktok07b6)polyphony
+(ktok07b6)polyphony/polyphony/_internal/_verilog.py:1: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_verilog.py:6: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:4: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:9: error: Name 'inlinelib' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:14: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:19: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:24: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_timing.py:29: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:2: error: The return type of "__init__" must be None  [misc]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:2: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:5: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:8: error: Name 'mutable' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:9: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:12: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:17: error: The return type of "__init__" must be None  [misc]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:17: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:20: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:23: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:26: error: Name 'generic' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:29: error: Name 'predicate' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_io.py:33: error: Name 'predicate' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:2: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:7: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:12: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:13: error: Name 'uint' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:17: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:22: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:23: error: Name 'typeclass' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:25: error: The return type of "__init__" must be None  [misc]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:25: error: Incompatible default for argument "i" (default has type "builtins.int", argument has type "polyphony._internal._builtins.int")  [assignment]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:29: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:30: error: Name 'typeclass' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:32: error: The return type of "__init__" must be None  [misc]
+(ktok07b6)polyphony/polyphony/_internal/_builtins.py:32: error: Incompatible default for argument "b" (default has type "int", argument has type "bool")  [assignment]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:5: error: Name 'decorator' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:10: error: Name 'decorator' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:19: error: Name 'decorator' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:24: error: Name 'decorator' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:29: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/_internal/__init__.py:34: error: Name 'builtin' is not defined  [name-defined]
+(ktok07b6)polyphony/polyphony/io.py:29: error: Need type annotation for '_monitoring_ports' (hint: "_monitoring_ports: Dict[<type>, <type>] = ...")  [var-annotated]
+(ktok07b6)polyphony/polyphony/__init__.py:7: error: Module 'polyphony' has no attribute 'version'; maybe "__version__"?  [attr-defined]
+(ktok07b6)polyphony/suite.py:90: error: Need type annotation for 'default_ignores' (hint: "default_ignores: List[<type>] = ...")  [var-annotated]
+Found 43 errors in 8 files (checked 13 source files)
+
+[RRepo](veryhappythings)discord-gather
+
+[RRepo](tutorcruncher)morpheus
+(tutorcruncher)morpheus/cli.py:138: error: No overload variant of "option" matches argument types "str", "File", "None"  [call-overload]
+(tutorcruncher)morpheus/cli.py:138: note: Possible overload variants:
+(tutorcruncher)morpheus/cli.py:138: note:     def option(*param_decls: str, cls: Type[Option] = ..., show_default: Union[bool, str] = ..., prompt: Union[bool, str] = ..., confirmation_prompt: bool = ..., hide_input: bool = ..., is_flag: Optional[bool] = ..., flag_value: Optional[Any] = ..., multiple: bool = ..., count: bool = ..., allow_from_autoenv: bool = ..., type: Union[type, _ParamType, Tuple[Union[type, _ParamType], ...], Callable[[str], Any], Callable[[Optional[str]], Any], None] = ..., help: Optional[str] = ..., show_choices: bool = ..., default: Optional[Any] = ..., required: bool = ..., callback: Optional[Callable[[Context, Union[Option, Parameter], Any], Any]] = ..., nargs: Optional[int] = ..., metavar: Optional[str] = ..., expose_value: bool = ..., is_eager: bool = ..., envvar: Union[str, List[str], None] = ..., **kwargs: Any) -> Callable[[_F], _F]
+(tutorcruncher)morpheus/cli.py:138: note:     def [_T] option(*param_decls: str, cls: Type[Option] = ..., show_default: Union[bool, str] = ..., prompt: Union[bool, str] = ..., confirmation_prompt: bool = ..., hide_input: bool = ..., is_flag: Optional[bool] = ..., flag_value: Optional[Any] = ..., multiple: bool = ..., count: bool = ..., allow_from_autoenv: bool = ..., type: _T = ..., help: Optional[str] = ..., show_choices: bool = ..., default: Optional[Any] = ..., required: bool = ..., callback: Optional[Callable[[Context, Union[Option, Parameter], Union[bool, int, str]], _T]] = ..., nargs: Optional[int] = ..., metavar: Optional[str] = ..., expose_value: bool = ..., is_eager: bool = ..., envvar: Union[str, List[str], None] = ..., **kwargs: Any) -> Callable[[_F], _F]
+(tutorcruncher)morpheus/cli.py:138: note:     <2 more similar overloads not shown, out of 4 total overloads>
+(tutorcruncher)morpheus/cli.py:140: error: No overload variant of "option" matches argument types "str", "File", "None"  [call-overload]
+(tutorcruncher)morpheus/cli.py:140: note: Possible overload variants:
+(tutorcruncher)morpheus/cli.py:140: note:     def option(*param_decls: str, cls: Type[Option] = ..., show_default: Union[bool, str] = ..., prompt: Union[bool, str] = ..., confirmation_prompt: bool = ..., hide_input: bool = ..., is_flag: Optional[bool] = ..., flag_value: Optional[Any] = ..., multiple: bool = ..., count: bool = ..., allow_from_autoenv: bool = ..., type: Union[type, _ParamType, Tuple[Union[type, _ParamType], ...], Callable[[str], Any], Callable[[Optional[str]], Any], None] = ..., help: Optional[str] = ..., show_choices: bool = ..., default: Optional[Any] = ..., required: bool = ..., callback: Optional[Callable[[Context, Union[Option, Parameter], Any], Any]] = ..., nargs: Optional[int] = ..., metavar: Optional[str] = ..., expose_value: bool = ..., is_eager: bool = ..., envvar: Union[str, List[str], None] = ..., **kwargs: Any) -> Callable[[_F], _F]
+(tutorcruncher)morpheus/cli.py:140: note:     def [_T] option(*param_decls: str, cls: Type[Option] = ..., show_default: Union[bool, str] = ..., prompt: Union[bool, str] = ..., confirmation_prompt: bool = ..., hide_input: bool = ..., is_flag: Optional[bool] = ..., flag_value: Optional[Any] = ..., multiple: bool = ..., count: bool = ..., allow_from_autoenv: bool = ..., type: _T = ..., help: Optional[str] = ..., show_choices: bool = ..., default: Optional[Any] = ..., required: bool = ..., callback: Optional[Callable[[Context, Union[Option, Parameter], Union[bool, int, str]], _T]] = ..., nargs: Optional[int] = ..., metavar: Optional[str] = ..., expose_value: bool = ..., is_eager: bool = ..., envvar: Union[str, List[str], None] = ..., **kwargs: Any) -> Callable[[_F], _F]
+(tutorcruncher)morpheus/cli.py:140: note:     <2 more similar overloads not shown, out of 4 total overloads>
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](rosemichaele)pyshare
+
+[RRepo](scop)bash-completion
+
+[RRepo](physera)onelogin-aws-cli
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:39: error: "ConfigurationFile" has no attribute "default_section"  [attr-defined]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:96: error: "ConfigurationFile" has no attribute "default_section"  [attr-defined]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:108: error: Need type annotation for '_overrides' (hint: "_overrides: Dict[<type>, <type>] = ...")  [var-annotated]
+(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py:129: error: Argument "fallback" to "getboolean" of "RawConfigParser" has incompatible type "Optional[int]"; expected "bool"  [arg-type]
+(physera)onelogin-aws-cli/onelogin_aws_cli/credentials.py:22: error: Need type annotation for '_devices' (hint: "_devices: List[<type>] = ...")  [var-annotated]
+(physera)onelogin-aws-cli/onelogin_aws_cli/credentials.py:47: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(physera)onelogin-aws-cli/onelogin_aws_cli/__init__.py:97: error: Missing return statement  [return]
+Found 7 errors in 3 files (checked 6 source files)
+
+[RRepo](jacopofar)runtime_typecheck
+
+[RRepo](Intrinsec)comission
+(Intrinsec)comission/comission/utilsCMS.py:200: error: Need type annotation for 'tmp_dir_list' (hint: "tmp_dir_list: List[<type>] = ...")  [var-annotated]
+(Intrinsec)comission/comission/CMS/GenericCMS.py:99: error: Incompatible types in assignment (expression has type "Optional[Match[Any]]", variable has type "str")  [assignment]
+(Intrinsec)comission/comission/CMS/GenericCMS.py:101: error: "str" has no attribute "group"  [attr-defined]
+(Intrinsec)comission/comission/CMS/GenericCMS.py:163: error: Need type annotation for 'alterations' (hint: "alterations: List[<type>] = ...")  [var-annotated]
+(Intrinsec)comission/comission/CMS/Drupal/GenericDrupal.py:128: error: Return type "List[Addon]" of "check_vulns_addon" incompatible with return type "List[Vulnerability]" in supertype "GenericCMS"  [override]
+(Intrinsec)comission/comission/CMS/Drupal/GenericDrupal.py:173: error: "GenericDPL" has no attribute "regex_version_addon"; maybe "regex_version_addon_web"?  [attr-defined]
+Found 6 errors in 3 files (checked 1 source file)
+
+[RRepo](benhoff)CHATIMUSMAXIMUS
+
+[RRepo](PrestigeDox)Watashi-SelfBot
+Success: no issues found in 2 source files
+
+[RRepo](paulcwatts)drf-json-schema
+Success: no issues found in 1 source file
+
+[RRepo](jazzband)django-axes
+Success: no issues found in 12 source files
+
+[RRepo](elaeon)ML
+
+[RRepo](danhedron)openrw
+Success: no issues found in 1 source file
+

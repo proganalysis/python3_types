@@ -1,0 +1,962 @@
+[RRepo](argaen)aiocache
+(argaen)aiocache/examples/plugins.py: error: Duplicate module named 'plugins' (also at '/home/bew/archive/typed_project/(argaen)aiocache/aiocache/plugins.py')  [misc]
+Found 1 error in 1 file (checked 43 source files)
+
+[RRepo](thismachinechills)pyscreencapture
+(thismachinechills)pyscreencapture/screenshot/get_window_id.py:26: error: Invalid index type "Iterable[str]" for "Dict[str, Any]"; expected type "str"  [index]
+(thismachinechills)pyscreencapture/screenshot/get_window_id.py:43: error: Incompatible types in "yield" (actual type "Tuple[Union[Any, int], Union[Any, int], Union[Any, int]]", expected type "Tuple[int, str, str]")  [misc]
+(thismachinechills)pyscreencapture/screenshot/get_window_id.py:53: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(thismachinechills)pyscreencapture/screenshot/get_window_id.py:54: error: Argument 1 to "get_window_info" has incompatible type "str"; expected "int"  [arg-type]
+(thismachinechills)pyscreencapture/screenshot/screencapture.py:32: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[List[str]]")  [assignment]
+Found 5 errors in 2 files (checked 2 source files)
+
+[RRepo](City-of-Helsinki)linkedevents
+(City-of-Helsinki)linkedevents/events/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(City-of-Helsinki)linkedevents/events/utils.py')  [misc]
+(City-of-Helsinki)linkedevents/events/tests/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 66 source files)
+
+[RRepo](trin5tensa)pigjar
+(trin5tensa)pigjar/pigjar/payeesmenu.py:66: error: No overload variant of "fromkeys" of "dict" matches argument types "Tuple[str]", "str"  [call-overload]
+(trin5tensa)pigjar/pigjar/payeesmenu.py:66: note: Possible overload variants:
+(trin5tensa)pigjar/pigjar/payeesmenu.py:66: note:     def fromkeys() -> Dict[<nothing>, Any]
+(trin5tensa)pigjar/pigjar/payeesmenu.py:66: note:     def [_S] fromkeys(value: _S) -> Dict[<nothing>, _S]
+(trin5tensa)pigjar/pigjar/payeesmenu.py:77: error: Return value expected  [return-value]
+(trin5tensa)pigjar/pigjar/payeesmenu.py:84: error: Return value expected  [return-value]
+(trin5tensa)pigjar/pigjar/register.py:17: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(trin5tensa)pigjar/pigjar/observerpattern.py:94: error: Signature of "notify" incompatible with supertype "Observable"  [override]
+(trin5tensa)pigjar/pigjar/pig.py:128: error: Incompatible types in assignment (expression has type "List[EventqItem]", target has type "Dict[Any, Any]")  [assignment]
+(trin5tensa)pigjar/pigjar/pig.py:131: error: Incompatible types in assignment (expression has type "List[EventqItem]", target has type "Dict[Any, Any]")  [assignment]
+(trin5tensa)pigjar/pigjar/pig.py:173: error: Name 'payee' is not defined  [name-defined]
+(trin5tensa)pigjar/pigjar/pig.py:174: error: Name 'account' is not defined  [name-defined]
+(trin5tensa)pigjar/pigjar/pig.py:248: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(trin5tensa)pigjar/pigjar/pig.py:269: error: Cannot infer type argument 1 of "heappush"  [misc]
+(trin5tensa)pigjar/pigjar/cashflow.py:51: error: Incompatible types in assignment (expression has type "Tuple[None, None]", variable has type "Tuple[Decimal]")  [assignment]
+(trin5tensa)pigjar/pigjar/cashflow.py:85: error: Unsupported target for indexed assignment  [index]
+(trin5tensa)pigjar/pigjar/cashflow.py:86: error: Incompatible types in assignment (expression has type "Tuple[Any, Any]", variable has type "Tuple[Decimal]")  [assignment]
+(trin5tensa)pigjar/pigjar/cashflow.py:110: error: No overload variant of "next" matches argument type "Tuple[Any, Decimal, Decimal]"  [call-overload]
+(trin5tensa)pigjar/pigjar/cashflow.py:110: note: Possible overload variant:
+(trin5tensa)pigjar/pigjar/cashflow.py:110: note:     def [_T] next(Iterator[_T]) -> _T
+(trin5tensa)pigjar/pigjar/cashflow.py:110: note:     <1 more non-matching overload not shown>
+(trin5tensa)pigjar/pigjar/cashflow.py:118: error: Unsupported target for indexed assignment  [index]
+(trin5tensa)pigjar/pigjar/cashflow.py:119: error: Unsupported target for indexed assignment  [index]
+(trin5tensa)pigjar/pigjar/cashflow.py:131: error: Need type annotation for 'spendq' (hint: "spendq: List[<type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/cashflow.py:132: error: Need type annotation for 'svgq' (hint: "svgq: List[<type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:95: error: Need type annotation for 'accounts_memo' (hint: "accounts_memo: Dict[<type>, <type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:96: error: Need type annotation for 'pigs_memo' (hint: "pigs_memo: Dict[<type>, <type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:97: error: Need type annotation for 'payees_memo' (hint: "payees_memo: Set[<type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:98: error: Need type annotation for 'assembler' (hint: "assembler: Dict[<type>, <type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:99: error: Need type annotation for 'clearances' (hint: "clearances: List[<type>] = ...")  [var-annotated]
+(trin5tensa)pigjar/pigjar/impexp.py:229: error: Incompatible types in assignment (expression has type "Tuple[Any, Any, Any, Decimal]", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/impexp.py:266: error: Incompatible return value type (got "Tuple[Any, Optional[Any], Optional[Any]]", expected "Tuple[bool, bool, bool]")  [return-value]
+(trin5tensa)pigjar/pigjar/impexp.py:305: error: Incompatible return value type (got "Tuple[Any, Optional[bool], Any]", expected "Tuple[bool, bool, Any]")  [return-value]
+(trin5tensa)pigjar/pigjar/test/test_payeesmenu.py:42: error: No overload variant of "fromkeys" of "dict" matches argument types "Tuple[str]", "str"  [call-overload]
+(trin5tensa)pigjar/pigjar/test/test_payeesmenu.py:42: note: Possible overload variants:
+(trin5tensa)pigjar/pigjar/test/test_payeesmenu.py:42: note:     def fromkeys() -> Dict[<nothing>, Any]
+(trin5tensa)pigjar/pigjar/test/test_payeesmenu.py:42: note:     def [_S] fromkeys(value: _S) -> Dict[<nothing>, _S]
+(trin5tensa)pigjar/pigjar/userhandlers.py:16: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(trin5tensa)pigjar/pigjar/userhandlers.py:34: error: Name 'tk' is not defined  [name-defined]
+(trin5tensa)pigjar/pigjar/userhandlers.py:230: error: Name 'guipanes' is not defined  [name-defined]
+(trin5tensa)pigjar/pigjar/userhandlers.py:235: error: Name 'guipanes' is not defined  [name-defined]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:125: error: Incompatible types in assignment (expression has type "Pattern[str]", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:128: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:131: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:151: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:152: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:153: error: Argument 1 to "abs" has incompatible type "str"; expected "SupportsAbs[<nothing>]"  [arg-type]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:154: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:159: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:162: error: Numeric flags are only allowed for numeric types  [str-format]
+(trin5tensa)pigjar/pigjar/guimainwindow.py:183: error: Argument 3 to "_place_menu_cascade" of "MainWindow" has incompatible type "Optional[Callable[..., Any]]"; expected "Callable[..., Any]"  [arg-type]
+Found 42 errors in 9 files (checked 26 source files)
+
+[RRepo](Berserker66)omnitool
+(Berserker66)omnitool/omnitool/render_lib.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](deepmind)bsuite
+(deepmind)bsuite/bsuite/baselines/boot_dqn/run_test.py: error: Duplicate module named 'run_test' (also at '/home/bew/archive/typed_project/(deepmind)bsuite/bsuite/baselines/dqn_jax/run_test.py')  [misc]
+Found 1 error in 1 file (checked 123 source files)
+
+[RRepo](Twinters007)robotpy-wpilib-utilities
+(Twinters007)robotpy-wpilib-utilities/robotpy_ext/common_drivers/xl_max_sonar_ez.py:8: error: No parent module -- cannot perform relative import  [misc]
+(Twinters007)robotpy-wpilib-utilities/robotpy_ext/common_drivers/xl_max_sonar_ez.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 44 source files)
+
+[RRepo](kenkov)smt
+Success: no issues found in 12 source files
+
+[RRepo](PayloadSecurity)VxAPI
+(PayloadSecurity)VxAPI/cli/cli_helper.py: error: Duplicate module named 'cli_helper' (also at '/home/bew/archive/typed_project/(PayloadSecurity)VxAPI/helper_classes/cli_helper.py')  [misc]
+Found 1 error in 1 file (checked 83 source files)
+
+[RRepo](StoDevX)cs251-toolkit
+(StoDevX)cs251-toolkit/cs251tk/formatters/gist.py: error: Duplicate module named 'gist' (also at '/home/bew/archive/typed_project/(StoDevX)cs251-toolkit/cs251tk/toolkit/gist.py')  [misc]
+Found 1 error in 1 file (checked 66 source files)
+
+[RRepo](jeffmahoney)crash-python
+(jeffmahoney)crash-python/contrib/mods.py:27: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 88 source files)
+
+[RRepo](tmerr)bank_wrangler
+(tmerr)bank_wrangler/bank_wrangler/bank_wrangler.py:12: error: Module 'bank_wrangler' has no attribute 'aggregate'  [attr-defined]
+(tmerr)bank_wrangler/bank_wrangler/bank_wrangler.py:12: error: Module 'bank_wrangler' has no attribute 'deduplicate'  [attr-defined]
+(tmerr)bank_wrangler/bank_wrangler/bank_wrangler.py:12: error: Module 'bank_wrangler' has no attribute 'rules'  [attr-defined]
+(tmerr)bank_wrangler/bank_wrangler/bank_wrangler.py:12: error: Module 'bank_wrangler' has no attribute 'report'  [attr-defined]
+(tmerr)bank_wrangler/bank_wrangler/report/__init__.py:81: error: Argument 1 to "map" has incompatible type overloaded function; expected "Callable[[str], AnyStr]"  [arg-type]
+(tmerr)bank_wrangler/bank_wrangler/report/__init__.py:82: error: Argument 1 to "map" has incompatible type overloaded function; expected "Callable[[str], AnyStr]"  [arg-type]
+(tmerr)bank_wrangler/bank_wrangler/report/__init__.py:82: error: List item 0 has incompatible type "str"; expected "AnyStr"  [list-item]
+(tmerr)bank_wrangler/bank_wrangler/rules.py:5: error: Module 'bank_wrangler' has no attribute 'tresult'  [attr-defined]
+Found 8 errors in 3 files (checked 21 source files)
+
+[RRepo](telminov)django-voximplant
+(telminov)django-voximplant/voximplant/admin.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](X-DataInitiative)tick
+(X-DataInitiative)tick/tick/hawkes/simulation/hawkes_kernels/hawkes_kernel_sum_exp.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 223 source files)
+
+[RRepo](Microsoft)PTVS
+(Microsoft)PTVS/Python/Tests/TestData/Copy of SteppingTest4.py:3: error: Missing parentheses in call to 'print'. Did you mean print(i)?  [syntax]
+Found 1 error in 1 file (checked 655 source files)
+
+[RRepo](mabuchilab)QNET
+(mabuchilab)QNET/src/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(mabuchilab)QNET/docs/conftest.py')  [misc]
+Found 1 error in 1 file (checked 71 source files)
+
+[RRepo](NB0174)AbricotGame
+(NB0174)AbricotGame/client/pathfinding.py: error: Duplicate module named 'pathfinding' (also at '/home/bew/archive/typed_project/(NB0174)AbricotGame/serveur/pathfinding.py')  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](henridwyer)pyhomekit
+(henridwyer)pyhomekit/pyhomekit/utils.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](turbinenreiter)micropython
+(turbinenreiter)micropython/drivers/onewire/ds18x20.py: error: Duplicate module named 'ds18x20' (also at '/home/bew/archive/typed_project/(turbinenreiter)micropython/esp8266/modules/ds18x20.py')  [misc]
+Found 1 error in 1 file (checked 98 source files)
+
+[RRepo](bagage)cadastre-conflation
+(bagage)cadastre-conflation/back/app.py: error: Duplicate module named 'app' (also at '/home/bew/archive/typed_project/(bagage)cadastre-conflation/citystats-refresher/app.py')  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](languitar)autosuspend
+(languitar)autosuspend/src/autosuspend/checks/wakeup.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](a-slide)pycoQC
+(a-slide)pycoQC/pycoQC/pycoQC_parse.py:58: error: Name 'get_logger' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:16: error: Module 'pycoQC' has no attribute '__version__'  [attr-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:90: error: Name 'get_logger' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:94: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:95: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:96: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:97: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:98: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:99: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:100: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:101: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:102: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:103: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:104: error: Name 'check_arg' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:107: error: Name 'dict_to_str' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC.py:109: error: Name 'dict_to_str' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/common.py:92: error: Invalid conversion specifier in format string: unexpected }  [str-format]
+(a-slide)pycoQC/pycoQC/common.py:215: error: Invalid type comment or annotation  [valid-type]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:77: error: Invalid type comment or annotation  [valid-type]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:79: error: Invalid type comment or annotation  [valid-type]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:112: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:114: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:116: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:119: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:132: error: Need type annotation for 'in_q'  [var-annotated]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:133: error: Need type annotation for 'out_q'  [var-annotated]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:134: error: Need type annotation for 'error_q'  [var-annotated]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:135: error: Need type annotation for 'counter_q'  [var-annotated]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:151: error: Need type annotation for 'tb'  [var-annotated]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:152: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/Fast5_to_seq_summary.py:158: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/__main__.py:21: error: Module 'pycoQC' has no attribute '__version__'  [attr-defined]
+(a-slide)pycoQC/pycoQC/pycoQC_report.py:17: error: Module 'pycoQC' has no attribute '__version__'  [attr-defined]
+(a-slide)pycoQC/pycoQC/pycoQC_report.py:52: error: Name 'get_logger' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC_report.py:57: error: Name 'pycoQCError' is not defined  [name-defined]
+(a-slide)pycoQC/pycoQC/pycoQC_report.py:107: error: Name 'pycoQCError' is not defined  [name-defined]
+Found 36 errors in 6 files (checked 6 source files)
+
+[RRepo](consbio)seedsource
+(consbio)seedsource/source/seedsource/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(consbio)seedsource/source/interfaces/tiles/views.py')  [misc]
+(consbio)seedsource/source/seedsource/views.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 23 source files)
+
+[RRepo](benchmeeting)booking
+Success: no issues found in 3 source files
+
+[RRepo](Nocturnal42)runmyrobot
+(Nocturnal42)runmyrobot/hardware/pololu.py:5: error: unindent does not match any outer indentation level  [syntax]
+Found 1 error in 1 file (checked 35 source files)
+
+[RRepo](boriel)zxbasic
+(boriel)zxbasic/symbols/asm.py: error: Duplicate module named 'asm' (also at '/home/bew/archive/typed_project/(boriel)zxbasic/asm.py')  [misc]
+(boriel)zxbasic/symbols/asm.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 120 source files)
+
+[RRepo](sloria)aiohttp_utils
+(sloria)aiohttp_utils/aiohttp_utils/runner.py:78: error: Item "None" of "Optional[Application]" has no attribute "debug"  [union-attr]
+(sloria)aiohttp_utils/aiohttp_utils/negotiation.py:240: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(sloria)aiohttp_utils/aiohttp_utils/negotiation.py:240: note: Perhaps you need "Callable[...]" or a callback protocol?
+(sloria)aiohttp_utils/aiohttp_utils/negotiation.py:241: error: Incompatible default for argument "renderers" (default has type "object", argument has type "OrderedDict[Any, Any]")  [assignment]
+(sloria)aiohttp_utils/aiohttp_utils/negotiation.py:242: error: Incompatible default for argument "force_negotiation" (default has type "object", argument has type "bool")  [assignment]
+(sloria)aiohttp_utils/aiohttp_utils/negotiation.py:243: error: Incompatible default for argument "force_rendering" (default has type "object", argument has type "bool")  [assignment]
+(sloria)aiohttp_utils/aiohttp_utils/routing.py:74: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[Any, ...]")  [assignment]
+(sloria)aiohttp_utils/aiohttp_utils/routing.py:131: error: Argument 1 to "import_module" has incompatible type "Union[str, bytes]"; expected "str"  [arg-type]
+(sloria)aiohttp_utils/aiohttp_utils/routing.py:239: error: Argument 1 to "import_module" has incompatible type "Union[str, bytes]"; expected "str"  [arg-type]
+(sloria)aiohttp_utils/aiohttp_utils/routing.py:256: error: Argument 2 to "getattr" has incompatible type "Union[str, bytes]"; expected "str"  [arg-type]
+(sloria)aiohttp_utils/aiohttp_utils/routing.py:267: error: "UrlDispatcher" has no attribute "add_resource_object"; maybe "add_resource"?  [attr-defined]
+
+[RRepo](tildetown)tilde-wiki
+(tildetown)tilde-wiki/tildewiki/main.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](albertz)PyOverheadGame
+(albertz)PyOverheadGame/game/app.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](OpenSourcePolicyCenter)webapp-public
+(OpenSourcePolicyCenter)webapp-public/webapp/apps/taxbrain/models.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 53 source files)
+
+[RRepo](mikonapoli)grakn-python
+(mikonapoli)grakn-python/features/steps/steps.py:9: error: Name 'use_step_matcher' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:12: error: Name 'given' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:17: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:17: error: Name 'given' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:22: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:22: error: Name 'given' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:27: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:27: error: Name 'given' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:32: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:32: error: Name 'given' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:37: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:37: error: Name 'when' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:42: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:42: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:48: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:48: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:53: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:53: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:61: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:61: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:67: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:67: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:72: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:72: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/features/steps/steps.py:77: error: Name 'step_impl' already defined on line 12  [no-redef]
+(mikonapoli)grakn-python/features/steps/steps.py:77: error: Name 'then' is not defined  [name-defined]
+(mikonapoli)grakn-python/tests/test_grakn.py:28: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(mikonapoli)grakn-python/tests/test_grakn.py:29: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(mikonapoli)grakn-python/tests/test_grakn.py:30: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(mikonapoli)grakn-python/tests/test_grakn.py:34: error: Incompatible types in assignment (expression has type "CaseInsensitiveDict[str]", variable has type "Dict[Any, Any]")  [assignment]
+(mikonapoli)grakn-python/tests/test_grakn.py:35: error: Incompatible types in assignment (expression has type "Union[bytes, str, None]", variable has type "str")  [assignment]
+Found 31 errors in 2 files (checked 4 source files)
+
+[RRepo](gopythongo)aptly-api-client
+(gopythongo)aptly-api-client/aptly_api/tests/repos.py: error: Duplicate module named 'repos' (also at '/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/repos.py')  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](marketcoin)marketcoin
+(marketcoin)marketcoin/mockrpc.py:7: error: Need type annotation for 'balance'  [var-annotated]
+(marketcoin)marketcoin/mockrpc.py:10: error: Need type annotation for 'transactions'  [var-annotated]
+Found 2 errors in 1 file (checked 7 source files)
+
+[RRepo](jsandovalc)poster
+(jsandovalc)poster/poster/migrations/env.py:25: error: Module has no attribute "metadata"  [attr-defined]
+(jsandovalc)poster/poster/app.py:26: error: The return type of an async generator function should be "AsyncGenerator" or one of its supertypes  [misc]
+(jsandovalc)poster/poster/app.py:50: error: List item 0 has incompatible type "Callable[[Application], None]"; expected "Callable[[Application], AsyncIterator[None]]"  [list-item]
+
+[RRepo](der-michik)c3bottles
+(der-michik)c3bottles/c3bottles/model/user.py:16: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/user.py:24: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:25: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:27: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:137: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:172: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:186: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/location.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:39: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:43: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/visit.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:38: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/report.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:44: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:45: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:14: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:11: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:58: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:73: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:82: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/translations/translate-js.py:6: error: Module has no attribute "sys"  [attr-defined]
+(der-michik)c3bottles/c3bottles/model/user.py:16: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/user.py:24: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:25: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:27: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:137: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:172: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:186: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/visit.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:38: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/location.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:39: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:43: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:14: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/report.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:44: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:45: error: Cannot determine type of 'db'  [has-type]
+Found 105 errors in 7 files (checked 33 source files)
+
+[RRepo](OpenSlides)OpenSlides
+(OpenSlides)OpenSlides/openslides/users/apps.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 141 source files)
+
+[RRepo](robotpy)pyfrc
+(robotpy)pyfrc/lib/pyfrc/configloader.py:53: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](UTNkar)moore
+(UTNkar)moore/src/members/forms.py: error: Duplicate module named 'forms' (also at '/home/bew/archive/typed_project/(UTNkar)moore/src/utils/forms.py')  [misc]
+Found 1 error in 1 file (checked 53 source files)
+
+[RRepo](groutr)conda-tools
+(groutr)conda-tools/src/conda_tools/cache/__init__.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](OParl)liboparl
+Success: no issues found in 1 source file
+
+[RRepo](fkie-cad)FACT_core
+(fkie-cad)FACT_core/src/analysis/PluginBase.py: error: Duplicate module named 'PluginBase' (also at '/home/bew/archive/typed_project/(fkie-cad)FACT_core/src/compare/PluginBase.py')  [misc]
+Found 1 error in 1 file (checked 282 source files)
+
+[RRepo](sorgloomer)websocket_terminal
+Success: no issues found in 12 source files
+
+[RRepo](jrabbit)pyborg-1up
+(jrabbit)pyborg-1up/misc/pyborg-telnet.py:42: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 32 source files)
+
+[RRepo](python-hyper)hyper-h2
+(python-hyper)hyper-h2/test/test_utility_functions.py:19: error: Name 'xrange' is not defined  [name-defined]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:41: error: Argument 1 of "connection_made" is incompatible with supertype "BaseProtocol"; supertype defines the argument type as "BaseTransport"  [override]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:79: error: Incompatible types in assignment (expression has type "OrderedDict[str, str]", variable has type "List[Tuple[str, str]]")  [assignment]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:80: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:80: note: Possible overload variants:
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:80: note:     def __getitem__(self, int) -> Tuple[str, str]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:80: note:     def __getitem__(self, slice) -> List[Tuple[str, str]]
+(python-hyper)hyper-h2/examples/asyncio/asyncio-server.py:201: error: Value of type "Optional[List[socket]]" is not indexable  [index]
+Found 5 errors in 2 files (checked 13 source files)
+
+[RRepo](awslabs)sockeye
+(awslabs)sockeye/sockeye/lexicon.py:26: error: No parent module -- cannot perform relative import  [misc]
+(awslabs)sockeye/sockeye/lexicon.py:27: error: No parent module -- cannot perform relative import  [misc]
+(awslabs)sockeye/sockeye/lexicon.py:28: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 55 source files)
+
+[RRepo](TheAlgorithms)Python
+(TheAlgorithms)Python/project_euler/problem_13/sol1.py: error: Duplicate module named 'sol1' (also at '/home/bew/archive/typed_project/(TheAlgorithms)Python/project_euler/problem_22/sol1.py')  [misc]
+Found 1 error in 1 file (checked 320 source files)
+
+[RRepo](trezor)micropython
+(trezor)micropython/ports/cc3200/boards/make-pins.py: error: Duplicate module named 'make-pins' (also at '/home/bew/archive/typed_project/(trezor)micropython/ports/teensy/make-pins.py')  [misc]
+(trezor)micropython/ports/cc3200/boards/make-pins.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 82 source files)
+
+[RRepo](littlezz)ESL-Model
+(littlezz)ESL-Model/esl_model/ch11/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(littlezz)ESL-Model/esl_model/ch4/models.py')  [misc]
+Found 1 error in 1 file (checked 13 source files)
+
+[RRepo](sussexstudent)falmer
+(sussexstudent)falmer/falmer/auth/types.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 92 source files)
+
+[RRepo](python)the-knights-who-say-ni
+(python)the-knights-who-say-ni/ni/__main__.py:11: error: No parent module -- cannot perform relative import  [misc]
+(python)the-knights-who-say-ni/ni/__main__.py:12: error: No parent module -- cannot perform relative import  [misc]
+(python)the-knights-who-say-ni/ni/__main__.py:13: error: No parent module -- cannot perform relative import  [misc]
+(python)the-knights-who-say-ni/ni/__main__.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 4 errors in 1 file (checked 9 source files)
+
+[RRepo](mitmproxy)mitmproxy
+(mitmproxy)mitmproxy/pathod/test.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 385 source files)
+
+[RRepo](sliceofcode)dogbot
+(sliceofcode)dogbot/dog/core/bot.py:16: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 51 source files)
+
+[RRepo](movidius)ncappzoo
+(movidius)ncappzoo/apps/simple_classifier_py/run.py: error: Duplicate module named 'run' (also at '/home/bew/archive/typed_project/(movidius)ncappzoo/apps/simple_classifier_py_camera/run.py')  [misc]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](portfoliome)foil
+(portfoliome)foil/foil/counting.py:10: error: Need type annotation for 'counter'  [var-annotated]
+
+[RRepo](coblo)pyiscclib
+(coblo)pyiscclib/src/iscclib/data.py:83: error: Need type annotation for 'ids' (hint: "ids: Set[<type>] = ...")  [var-annotated]
+(coblo)pyiscclib/src/iscclib/instance.py:111: error: Need type annotation for 'ids' (hint: "ids: Set[<type>] = ...")  [var-annotated]
+(coblo)pyiscclib/ci/appveyor-bootstrap.py:17: error: Module 'urllib' has no attribute 'urlretrieve'  [attr-defined]
+(coblo)pyiscclib/ci/appveyor-bootstrap.py:17: error: Name 'urlretrieve' already defined (possibly by an import)  [no-redef]
+Found 4 errors in 3 files (checked 26 source files)
+
+[RRepo](motion-planning)rrt-algorithms
+Success: no issues found in 12 source files
+
+[RRepo](Nexterot)labyrinth-project
+Success: no issues found in 14 source files
+
+[RRepo](c3cashdesk)postix
+(c3cashdesk)postix/src/postix/api/auth.py: error: Duplicate module named 'auth' (also at '/home/bew/archive/typed_project/(c3cashdesk)postix/src/postix/troubleshooter/views/auth.py')  [misc]
+(c3cashdesk)postix/src/postix/api/auth.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 94 source files)
+
+[RRepo](raster-foundry)raster-foundry
+(raster-foundry)raster-foundry/app-tasks/rf/src/rf/uploads/modis/factories.py: error: Duplicate module named 'factories' (also at '/home/bew/archive/typed_project/(raster-foundry)raster-foundry/app-tasks/rf/src/rf/uploads/geotiff/factories.py')  [misc]
+Found 1 error in 1 file (checked 46 source files)
+
+[RRepo](eliostvs)tomate-statusicon-plugin
+Success: no issues found in 3 source files
+
+[RRepo](rr-)szurubooru
+(rr-)szurubooru/server/szurubooru/func/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(rr-)szurubooru/server/szurubooru/search/configs/util.py')  [misc]
+(rr-)szurubooru/server/szurubooru/func/util.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 140 source files)
+
+[RRepo](Netflix-Skunkworks)iep-apps
+Success: no issues found in 2 source files
+
+[RRepo](Pitt-CSC)PittAPI
+(Pitt-CSC)PittAPI/PittAPI/people.py:93: error: Incompatible return value type (got "List[Generator[Any, None, None]]", expected "List[Iterator[str]]")  [return-value]
+(Pitt-CSC)PittAPI/PittAPI/people.py:93: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(Pitt-CSC)PittAPI/PittAPI/people.py:93: note: Consider using "Sequence" instead, which is covariant
+(Pitt-CSC)PittAPI/PittAPI/people.py:93: note: Perhaps you need a type annotation for "url_list"? Suggestion: "List[Iterator[str]]"
+(Pitt-CSC)PittAPI/tests/people_test.py:24: error: Argument 1 to "skip" has incompatible type "Type[PeopleTest]"; expected "str"  [arg-type]
+(Pitt-CSC)PittAPI/tests/library_test.py:24: error: Argument 1 to "skip" has incompatible type "Type[LibraryTest]"; expected "str"  [arg-type]
+(Pitt-CSC)PittAPI/tests/news_test.py:24: error: Argument 1 to "skip" has incompatible type "Type[NewsTest]"; expected "str"  [arg-type]
+(Pitt-CSC)PittAPI/PittAPI/textbook.py:178: error: "str" has no attribute "json"  [attr-defined]
+(Pitt-CSC)PittAPI/PittAPI/textbook.py:196: error: Argument 3 to "_extract_id" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(Pitt-CSC)PittAPI/PittAPI/textbook.py:196: error: Argument 4 to "_extract_id" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:71: error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:71: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:72: error: Dict entry 2 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:72: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:73: error: Dict entry 3 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:73: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:74: error: Dict entry 4 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+(Pitt-CSC)PittAPI/PittAPI/laundry.py:74: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+Found 15 errors in 6 files (checked 19 source files)
+
+[RRepo](arthurmensch)modl
+(arthurmensch)modl/modl/setup.py: error: Duplicate module named 'setup' (also at '/home/bew/archive/typed_project/(arthurmensch)modl/setup.py')  [misc]
+(arthurmensch)modl/modl/setup.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 48 source files)
+
+[RRepo](steinitzu)spotify-api
+(steinitzu)spotify-api/spotify/client.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](globality-corp)microcosm-flask
+(globality-corp)microcosm-flask/microcosm_flask/swagger/naming.py: error: Duplicate module named 'naming' (also at '/home/bew/archive/typed_project/(globality-corp)microcosm-flask/microcosm_flask/naming.py')  [misc]
+(globality-corp)microcosm-flask/microcosm_flask/swagger/naming.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 123 source files)
+
+[RRepo](rokups)Urho3D
+(rokups)Urho3D/script/AutoSwig/walkcpp/generator.py:82: error: Name 'Module' is not defined  [name-defined]
+(rokups)Urho3D/script/AutoSwig/walkcpp/generator.py:93: error: Need type annotation for 'pass_factories' (hint: "pass_factories: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](gilesknap)gphotos-sync
+(gilesknap)gphotos-sync/gphotos/LocalFilesMedia.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](steven-zou)harbor
+(steven-zou)harbor/contrib/registryapi/cli.py:35: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 60 source files)
+
+[RRepo](horazont)aioxmpp
+(horazont)aioxmpp/aioxmpp/bookmarks/xso.py: error: Duplicate module named 'xso' (also at '/home/bew/archive/typed_project/(horazont)aioxmpp/aioxmpp/disco/xso.py')  [misc]
+Found 1 error in 1 file (checked 162 source files)
+
+[RRepo](zillow)aiographite
+(zillow)aiographite/tests/test_graphite_send.py:5: error: Module 'asyncio' has no attribute 'test_utils'  [attr-defined]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](ChristophGaukel)ev3-python3
+(ChristophGaukel)ev3-python3/ev3_sound.py:306: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:313: error: Unsupported operand types for + ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:313: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:317: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:319: error: Missing return statement  [return]
+(ChristophGaukel)ev3-python3/ev3_sound.py:321: error: Unsupported operand types for + ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:321: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:322: error: Unsupported operand types for % ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:322: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_file.py:91: error: Name 'SysCmdError' is not defined  [name-defined]
+(ChristophGaukel)ev3-python3/ev3_file.py:170: error: Name 'SysCmdError' is not defined  [name-defined]
+Found 11 errors in 2 files (checked 2 source files)
+
+[RRepo](jaywink)federation
+(jaywink)federation/federation/protocols/activitypub/protocol.py: error: Duplicate module named 'protocol' (also at '/home/bew/archive/typed_project/(jaywink)federation/federation/protocols/diaspora/protocol.py')  [misc]
+Found 1 error in 1 file (checked 64 source files)
+
+[RRepo](ScheduledOvers)quizwipe
+(ScheduledOvers)quizwipe/backend/backend.py:5: error: Need type annotation for 'sessions' (hint: "sessions: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](jopohl)urh
+(jopohl)urh/src/urh/ui/ui_send_recv_sniff_settings.py:211: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 293 source files)
+
+[RRepo](ysavary)WindMobile2-Server
+(ysavary)WindMobile2-Server/providers/yvbeach.py:7: error: Module 'commons' has no attribute 'user_agents'  [attr-defined]
+(ysavary)WindMobile2-Server/providers/meteoswiss_web.py:5: error: Module 'commons' has no attribute 'user_agents'  [attr-defined]
+(ysavary)WindMobile2-Server/providers/thunerwetter.py:8: error: Module 'commons' has no attribute 'user_agents'  [attr-defined]
+(ysavary)WindMobile2-Server/providers/iweathar.py:8: error: Module 'commons' has no attribute 'user_agents'  [attr-defined]
+Found 4 errors in 4 files (checked 24 source files)
+
+[RRepo](flycheck)flycheck
+(flycheck)flycheck/test/resources/language/python/invalid_type.py:2: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(flycheck)flycheck/test/resources/language/python/test.py:5: error: Module 'python' has no attribute 'antigravit'; maybe "antigravity"?  [attr-defined]
+(flycheck)flycheck/test/resources/language/python/test.py:22: error: Name 'antigravity' is not defined  [name-defined]
+Found 3 errors in 2 files (checked 6 source files)
+
+[RRepo](timothycrosley)hug
+(timothycrosley)hug/examples/authentication.py: error: Duplicate module named 'authentication' (also at '/home/bew/archive/typed_project/(timothycrosley)hug/hug/authentication.py')  [misc]
+Found 1 error in 1 file (checked 105 source files)
+
+[RRepo](ColumbiaSC-Tech)botty_mcbotface
+(ColumbiaSC-Tech)botty_mcbotface/test_botty/tests/test_plugins/test_help.py:3: error: Module 'test_botty.mocks' has no attribute 'MockMessage'  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/botty/db/routines/routine_populate_db.py:3: error: Module 'botty_mcbotface.botty.db' has no attribute 'Channel'  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/botty/db/routines/routine_populate_db.py:3: error: Module 'botty_mcbotface.botty.db' has no attribute 'User'  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/plugins/flipper.py:12: error: Cannot infer type argument 2 of "defaultdict"  [misc]
+(ColumbiaSC-Tech)botty_mcbotface/test_botty/tests/test_plugins/test_seen.py:5: error: Module 'test_botty.mocks' has no attribute 'MockMessage'  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/test_botty/tests/test_plugins/test_seen.py:5: error: Module 'test_botty.mocks' has no attribute 'MockRequestGET'  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/plugins/calendar.py:32: error: Need type annotation for '_CACHE' (hint: "_CACHE: Dict[<type>, <type>] = ...")  [var-annotated]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/plugins/calendar.py:66: error: "Type[datetime]" has no attribute "fromisoformat"  [attr-defined]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/plugins/calendar.py:102: error: Unexpected type declaration  [misc]
+(ColumbiaSC-Tech)botty_mcbotface/botty_mcbotface/plugins/calendar.py:120: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+
+[RRepo](fametrano)BitcoinBlockchainTechnology
+(fametrano)BitcoinBlockchainTechnology/btclib/dsa.py:190: error: "Sequence[Any]" has no attribute "append"  [attr-defined]
+(fametrano)BitcoinBlockchainTechnology/btclib/dsa.py:194: error: "Sequence[Any]" has no attribute "append"  [attr-defined]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:26: error: Argument 1 to "int" has incompatible type "Union[str, int, bytes]"; expected "Union[str, bytes, bytearray]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:28: error: Unsupported right operand type for in ("Union[int, Tuple[Any, ...]]")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:28: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:29: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:31: error: Incompatible return value type (got "Union[str, int, bytes]", expected "str")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:33: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:35: error: Unsupported right operand type for in ("Union[int, Tuple[Any, ...]]")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:38: error: Argument 1 to "from_bytes" of "int" has incompatible type "Union[str, int, bytes]"; expected "Sequence[int]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:42: error: Unsupported operand types for < ("str" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:42: error: Unsupported operand types for < ("bytes" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:42: note: Left operand is of type "Union[str, int, bytes]"
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:43: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:44: error: Argument 1 to "bin" has incompatible type "Union[str, int, bytes]"; expected "Union[int, _SupportsIndex]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:46: error: Unsupported right operand type for in ("Union[int, Tuple[Any, ...]]")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:58: error: Argument 1 to "int" has incompatible type "Union[str, int, bytes]"; expected "Union[str, bytes, bytearray]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:60: error: Unsupported operand types for < ("str" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:60: error: Unsupported operand types for < ("bytes" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:60: note: Left operand is of type "Union[str, int, bytes]"
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:61: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:62: error: Incompatible return value type (got "Union[str, int, bytes]", expected "int")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:64: error: Argument 1 to "from_bytes" of "int" has incompatible type "Union[str, int, bytes]"; expected "Sequence[int]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:77: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:78: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:80: error: Incompatible return value type (got "Union[str, int, bytes]", expected "bytes")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:82: error: Argument 1 to "len" has incompatible type "Union[str, int, bytes]"; expected "Sized"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:87: error: Argument 1 to "int" has incompatible type "Union[str, int, bytes]"; expected "Union[str, bytes, bytearray]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:90: error: Unsupported operand types for < ("str" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:90: error: Unsupported operand types for < ("bytes" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:90: note: Left operand is of type "Union[str, int, bytes]"
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:91: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:92: error: Item "str" of "Union[str, int, bytes]" has no attribute "bit_length"  [union-attr]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:92: error: Item "bytes" of "Union[str, int, bytes]" has no attribute "bit_length"  [union-attr]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:97: error: Item "str" of "Union[str, int, bytes]" has no attribute "to_bytes"  [union-attr]
+(fametrano)BitcoinBlockchainTechnology/btclib/entropy.py:97: error: Item "bytes" of "Union[str, int, bytes]" has no attribute "to_bytes"  [union-attr]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:75: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:76: error: Incompatible types in assignment (expression has type "int", target has type "None")  [assignment]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:78: error: Incompatible types in assignment (expression has type "List[str]", target has type "None")  [assignment]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:82: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:86: error: Incompatible return value type (got "None", expected "List[str]")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:90: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:106: error: Unsupported operand types for divmod ("int" and "None")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:111: error: Unsupported operand types for / ("int" and "None")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:123: error: Value of type "None" is not indexable  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:132: error: "None" has no attribute "index"  [attr-defined]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:141: error: Unsupported operand types for * ("int" and "None")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/mnemonic.py:147: error: Unsupported operand types for * ("int" and "None")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/base58.py:127: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:49: error: Too few arguments  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:70: error: Too few arguments  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:74: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:75: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:76: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:77: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:82: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:87: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/rfc6979.py:88: error: Argument 3 to "new" has incompatible type "Callable[[Any], Any]"; expected "Union[str, Callable[[], Any], Module, None]"  [arg-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:62: error: Too many arguments for "HMAC"  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:134: error: Too many arguments for "HMAC"  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:152: error: Too many arguments for "HMAC"  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:154: error: Too many arguments for "HMAC"  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:191: error: Incompatible types in assignment (expression has type "Sequence[int]", variable has type "List[int]")  [assignment]
+(fametrano)BitcoinBlockchainTechnology/btclib/bip32.py:249: error: Too many arguments for "HMAC"  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:78: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:79: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:87: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:91: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:94: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:96: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:127: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/borromean.py:134: error: Unsupported target for indexed assignment  [index]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:30: error: Too few arguments  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:32: error: Too few arguments  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:42: error: Too few arguments  [call-arg]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:99: error: Unsupported operand types for + ("None" and "int")  [operator]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:99: note: Left operand is of type "Union[int, Any, None]"
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:247: error: Invalid type comment or annotation  [valid-type]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:247: note: Suggestion: use Sequence[...] instead of Sequence(...)
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:265: error: "Sequence[Any]" has no attribute "append"  [attr-defined]
+(fametrano)BitcoinBlockchainTechnology/btclib/ssa.py:267: error: "Sequence[Any]" has no attribute "append"  [attr-defined]
+Found 76 errors in 8 files (checked 31 source files)
+
+[RRepo](carbonblack)cb-integration
+(carbonblack)cb-integration/cbint/globals.py:25: error: Need type annotation for 'g_status' (hint: "g_status: Dict[<type>, <type>] = ...")  [var-annotated]
+(carbonblack)cb-integration/cbint/binary_collector.py:6: error: Name 'datetime' already defined (by an import)  [no-redef]
+Found 2 errors in 2 files (checked 11 source files)
+
+[RRepo](Islandman93)reinforcepy
+(Islandman93)reinforcepy/reinforcepy/networks/dqn/theanolasagne/dqn_inits.py: error: Duplicate module named 'dqn_inits' (also at '/home/bew/archive/typed_project/(Islandman93)reinforcepy/reinforcepy/networks/dqn/tflow/dqn_inits.py')  [misc]
+Found 1 error in 1 file (checked 53 source files)
+
+[RRepo](laramies)theHarvester
+(laramies)theHarvester/tests/discovery/test_githubcode.py:33: error: Cannot assign to a method  [assignment]
+(laramies)theHarvester/tests/discovery/test_githubcode.py:37: error: Cannot assign to a method  [assignment]
+(laramies)theHarvester/tests/discovery/test_githubcode.py:42: error: Cannot assign to a method  [assignment]
+(laramies)theHarvester/tests/discovery/test_githubcode.py:64: error: Cannot assign to a method  [assignment]
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:23: error: Function "builtins.any" is not valid as a type  [valid-type]
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:23: note: Perhaps you need "Callable[...]" or a callback protocol?
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:59: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:59: error: List item 0 has incompatible type "None"; expected "str"  [list-item]
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:61: error: Incompatible return value type (got "Union[str, int]", expected "Optional[int]")  [return-value]
+(laramies)theHarvester/theHarvester/discovery/githubcode.py:86: error: Name 'Core' is not defined  [name-defined]
+Found 9 errors in 2 files (checked 46 source files)
+
+[RRepo](playpauseandstop)rororo
+(playpauseandstop)rororo/rororo/schemas/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/utils.py')  [misc]
+(playpauseandstop)rororo/rororo/schemas/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](PhilipTrauner)cmus-osx
+(PhilipTrauner)cmus-osx/cmus_osx/__init__.py:42: error: "__new__" must return a class instance (got "Optional[_CmusConfig]")  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](CoolProp)CoolProp
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:34: error: Name 'Python' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:42: error: Name 'Octave' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:44: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:52: error: Name 'Java' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:54: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:63: error: Name 'Csharp' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:65: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:74: error: Name 'R' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/LinuxRun.py:76: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:34: error: Name 'Python' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:42: error: Name 'Octave' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:44: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:52: error: Name 'Java' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:54: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:63: error: Name 'Csharp' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:65: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:74: error: Name 'R' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/OSXRun.py:76: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/viscosity_builder.py:111: error: Name 'Model' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/viscosity_builder.py:112: error: Name 'Data' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/viscosity_builder.py:113: error: Name 'ODR' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:91: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:101: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:111: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:121: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:131: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:141: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:151: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/dev/scripts/derivative_tester.py:161: error: Name 'f' already defined on line 81  [no-redef]
+(CoolProp)CoolProp/wrappers/Python/CoolProp/Plots/Tests.py:4: error: Module 'CoolProp.Plots' has no attribute 'PropertyPlot'  [attr-defined]
+(CoolProp)CoolProp/wrappers/Python/CoolProp/Plots/PsychChart.py:185: error: Argument 1 to "write" of "IO" has incompatible type "bytes"; expected "str"  [arg-type]
+(CoolProp)CoolProp/wrappers/Python/CoolProp/Plots/PsychChart.py:187: error: Name 'execfile' is not defined  [name-defined]
+(CoolProp)CoolProp/Web/scripts/__init__.py:49: error: Incompatible types in assignment (expression has type "time", variable has type "datetime")  [assignment]
+(CoolProp)CoolProp/Web/scripts/__init__.py:50: error: Incompatible types in assignment (expression has type "time", variable has type "datetime")  [assignment]
+(CoolProp)CoolProp/Web/scripts/__init__.py:57: error: Unsupported operand types for <= ("datetime" and "time")  [operator]
+(CoolProp)CoolProp/dev/Tickets/1443.py:245: error: Need type annotation for 'results' (hint: "results: Dict[<type>, <type>] = ...")  [var-annotated]
+(CoolProp)CoolProp/dev/Tickets/351.py:2: error: Module 'CoolProp.Plots' has no attribute 'PropertyPlot'  [attr-defined]
+(CoolProp)CoolProp/dev/Tickets/1118.py:78: error: Module 'CoolProp.Plots' has no attribute 'PropertyPlot'  [attr-defined]
+(CoolProp)CoolProp/dev/scripts/fit_saturation_critical_splines.py:209: error: Need type annotation for 'e' (hint: "e: Dict[<type>, <type>] = ...")  [var-annotated]
+(CoolProp)CoolProp/dev/scripts/fit_saturation_critical_splines.py:277: error: Incompatible types in assignment (expression has type "QuadraticFitter", variable has type "CubicFitter")  [assignment]
+(CoolProp)CoolProp/dev/scripts/fit_saturation_critical_splines.py:297: error: Incompatible types in assignment (expression has type "QuadraticFitter", variable has type "CubicFitter")  [assignment]
+(CoolProp)CoolProp/dev/scripts/fit_saturation_critical_splines.py:384: error: Trying to read deleted variable 'V'  [misc]
+(CoolProp)CoolProp/dev/scripts/convert_FLD.py:130: error: Need type annotation for 'ALPHA0' (hint: "ALPHA0: List[<type>] = ...")  [var-annotated]
+(CoolProp)CoolProp/dev/scripts/fit_avoid_ECS.py:84: error: Name 'Model' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/fit_avoid_ECS.py:85: error: Name 'Data' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/fit_avoid_ECS.py:87: error: Name 'ODR' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:219: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "bool"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:219: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Type[JSONEncoder]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:219: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Tuple[str, str]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:219: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Callable[[Any], Any]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:244: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "bool"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:244: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Type[JSONEncoder]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:244: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Tuple[str, str]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/fit_rational_functions.py:244: error: Argument 2 to "dumps" has incompatible type "**Dict[str, int]"; expected "Optional[Callable[[Any], Any]]"  [arg-type]
+(CoolProp)CoolProp/dev/scripts/ideal_curves.py:144: error: Module has no attribute "iT_triple"  [attr-defined]
+(CoolProp)CoolProp/dev/scripts/ideal_curves.py:145: error: Module has no attribute "iT_critical"  [attr-defined]
+(CoolProp)CoolProp/dev/TTSE/validate_TTSE.py:4: error: Module 'CoolProp.Plots' has no attribute 'Ph'  [attr-defined]
+(CoolProp)CoolProp/dev/TTSE/check_TTSE_v5.py:159: error: Unsupported operand types for / ("List[float]" and "float")  [operator]
+(CoolProp)CoolProp/dev/TTSE/check_TTSE_v5.py:169: error: Unsupported operand types for / ("List[float]" and "float")  [operator]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:1: error: Module 'CoolProp.Plots' has no attribute 'Ph'  [attr-defined]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:296: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:316: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:323: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:353: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:373: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/TTSE_ranges.py:380: error: Name 'get_Z' already defined on line 26  [no-redef]
+(CoolProp)CoolProp/dev/TTSE/check_TTSE_v4.py:172: error: Unsupported operand types for / ("List[float]" and "float")  [operator]
+(CoolProp)CoolProp/dev/TTSE/check_TTSE_v4.py:182: error: Unsupported operand types for / ("List[float]" and "float")  [operator]
+(CoolProp)CoolProp/dev/incompressible_liquids/CPIncomp/__init__.py:10: error: Module 'CPIncomp' has no attribute 'MelinderFluids'; maybe "getMelinderFluids"?  [attr-defined]
+(CoolProp)CoolProp/dev/incompressible_liquids/CPIncomp/__init__.py:10: error: Module 'CPIncomp' has no attribute 'SolutionFluids'; maybe "getSolutionFluids"?  [attr-defined]
+(CoolProp)CoolProp/dev/incompressible_liquids/all_incompressibles.py:70: error: Need type annotation for 'doneObjs' (hint: "doneObjs: List[<type>] = ...")  [var-annotated]
+(CoolProp)CoolProp/dev/incompressible_liquids/all_incompressibles.py:74: error: Need type annotation for 'solObjs' (hint: "solObjs: List[<type>] = ...")  [var-annotated]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:19: error: Name 'Python' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:22: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:25: error: Name 'Octave' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:29: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:32: error: Name 'Java' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:36: error: Name 'sys' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/examples/win64run.py:41: error: Name 'Csharp' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:8: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:9: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:20: error: Name 'oauth2_token' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:28: error: Name 'Request' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:31: error: Name 'oauth2_token' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:35: error: Name 'urlopen' is not defined  [name-defined]
+(CoolProp)CoolProp/dev/scripts/milestone2rst.py:87: error: Incompatible types in assignment (expression has type "object", variable has type "str")  [assignment]
+(CoolProp)CoolProp/wrappers/Python/generate_meta_info.py:78: error: Incompatible types in assignment (expression has type "Template", variable has type "str")  [assignment]
+(CoolProp)CoolProp/wrappers/Python/generate_meta_info.py:81: error: "str" has no attribute "render"  [attr-defined]
+(CoolProp)CoolProp/wrappers/Python/generate_meta_info.py:148: error: Incompatible types in assignment (expression has type "Template", variable has type "str")  [assignment]
+(CoolProp)CoolProp/wrappers/Python/generate_meta_info.py:151: error: "str" has no attribute "render"  [attr-defined]
+Found 90 errors in 24 files (checked 62 source files)
+
+[RRepo](alex-ta)Fontinator
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ProcessingPipeline.py:26: error: Syntax error in type annotation  [syntax]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ProcessingPipeline.py:26: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ProcessingPipeline.py:44: error: Need type annotation for 'labels' (hint: "labels: List[<type>] = ...")  [var-annotated]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ImageLoader.py:10: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ImageLoader.py:11: error: Need type annotation for '_font_names' (hint: "_font_names: List[<type>] = ...")  [var-annotated]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ImageLoader.py:12: error: Need type annotation for '_img_count_per_font' (hint: "_img_count_per_font: List[<type>] = ...")  [var-annotated]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ImageLoader.py:40: error: Missing return statement  [return]
+(alex-ta)Fontinator/DataGenerator/libs/WordDict.py:16: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:15: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:16: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:17: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:18: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:91: error: "List[Any]" has no attribute "tolist"  [attr-defined]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:93: error: "List[Any]" has no attribute "tolist"  [attr-defined]
+(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py:96: error: Argument 1 to "open" has incompatible type "Optional[Path]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+Found 14 errors in 4 files (checked 15 source files)
+
+[RRepo](c3nav)c3nav
+(c3nav)c3nav/src/c3nav/control/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(c3nav)c3nav/src/c3nav/routing/models.py')  [misc]
+Found 1 error in 1 file (checked 111 source files)
+
+[RRepo](w1ll1am23)simplisafe-python
+(w1ll1am23)simplisafe-python/tests/test_sensor.py:7: error: Module 'simplipy' has no attribute 'API'  [attr-defined]
+(w1ll1am23)simplisafe-python/tests/test_api.py:11: error: Module 'simplipy' has no attribute 'API'  [attr-defined]
+(w1ll1am23)simplisafe-python/tests/test_system.py:10: error: Module 'simplipy' has no attribute 'API'  [attr-defined]
+(w1ll1am23)simplisafe-python/example.py:9: error: Module 'simplipy' has no attribute 'API'  [attr-defined]
+Found 4 errors in 4 files (checked 11 source files)
+
+[RRepo](gjbex)training-material
+(gjbex)training-material/DataStorage/Hdf5/PythonSamples/compute_avg.py:10: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 285 source files)
+
+[RRepo](numba)numba
+(numba)numba/numba/typeconv/typeconv.py:6: error: No parent module -- cannot perform relative import  [misc]
+(numba)numba/numba/typeconv/typeconv.py:18: error: No parent module -- cannot perform relative import  [misc]
+(numba)numba/numba/typeconv/typeconv.py:19: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 514 source files)
+
+[RRepo](project-everest)vale
+(project-everest)vale/tools/scripts/collect-fstar-times.py:83: error: Missing parentheses in call to 'print'. Did you mean print("WARNING: Found existing pickled file %s.  No data written.  Consider moving or deleting it." % pickle_file)?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](yi-jiayu)bus-eta-bot
+Success: no issues found in 2 source files
+
+[RRepo](Tobotimus)Tobo-Cogs
+(Tobotimus)Tobo-Cogs/register/register.py:47: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/filterhelp/formatter.py:58: error: Missing return statement  [return]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:38: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:170: error: Name 'last_message' already defined on line 168  [no-redef]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:177: error: "int" has no attribute "delete"  [attr-defined]
+(Tobotimus)Tobo-Cogs/docref/types.py:184: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:191: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:192: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:193: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:196: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:197: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:198: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:199: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/reactkarma/reactkarma.py:38: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:53: error: Need type annotation for 'lines'  [var-annotated]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: error: Need type annotation for 'new_lines'  [var-annotated]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: error: Unsupported operand types for - ("None" and "int")  [operator]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: note: Left operand is of type "Optional[int]"
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:62: error: Unsupported operand types for >= ("int" and "None")  [operator]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:62: note: Right operand is of type "Optional[int]"
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:150: error: "None" has no attribute "delete"  [attr-defined]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:154: error: "None" has no attribute "id"  [attr-defined]
+(Tobotimus)Tobo-Cogs/updatered/updatered.py:40: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/errorlogs/errorlogs.py:123: error: Module has no attribute "create_task"  [attr-defined]
+Found 22 errors in 8 files (checked 24 source files)
+
+[RRepo](ranisalt)moita-ufsc-crawler
+(ranisalt)moita-ufsc-crawler/moita/spiders/cagr.py:9: error: Relative import climbs too many namespaces  [misc]
+(ranisalt)moita-ufsc-crawler/moita/spiders/cagr.py:24: error: Need type annotation for 'subject' (hint: "subject: Dict[<type>, <type>] = ...")  [var-annotated]
+(ranisalt)moita-ufsc-crawler/moita/spiders/cagr.py:24: error: Need type annotation for 'campus'  [var-annotated]
+(ranisalt)moita-ufsc-crawler/moita/spiders/cagr.py:25: error: Need type annotation for 'campi_names'  [var-annotated]
+(ranisalt)moita-ufsc-crawler/moita/pipelines.py:25: error: Need type annotation for 'data'  [var-annotated]
+Found 5 errors in 2 files (checked 2 source files)
+
+[RRepo](HenriWahl)Nagstamon
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/protocol/structs.py:23: error: Module 'Xlib.protocol' has no attribute 'rq'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/xobject/resource.py:19: error: Module 'Xlib.protocol' has no attribute 'request'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/error.py:23: error: Module 'Xlib.protocol' has no attribute 'rq'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/ext/composite.py:34: error: Module 'Xlib.protocol' has no attribute 'rq'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/ext/composite.py:35: error: Module 'Xlib.xobject' has no attribute 'drawable'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/ext/record.py:20: error: Module 'Xlib.protocol' has no attribute 'rq'  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/Xlib/ext/xtest.py:20: error: Module 'Xlib.protocol' has no attribute 'rq'  [attr-defined]
+
+[RRepo](seznam)fastrpc
+(seznam)fastrpc/python/example/client_example2.py:13: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](lostatc)codot
+(lostatc)codot/codot/commands/role.py:62: error: "None" has no attribute "dir_path"  [attr-defined]
+(lostatc)codot/codot/commands/role.py:66: error: "None" has no attribute "get_configs"  [attr-defined]
+(lostatc)codot/codot/commands/role.py:73: error: "None" has no attribute "selected"  [attr-defined]
+(lostatc)codot/codot/commands/role.py:82: error: "None" has no attribute "get_config_by_name"  [attr-defined]
+(lostatc)codot/codot/commands/rm_template.py:79: error: Need type annotation for 'template_identifiers' (hint: "template_identifiers: Set[<type>] = ...")  [var-annotated]
+(lostatc)codot/codot/commands/list.py:90: error: List item 0 has incompatible type "Tuple[str]"; expected "Tuple[str, str]"  [list-item]
+(lostatc)codot/codot/commands/list.py:92: error: Generator has incompatible item type "Tuple[str]"; expected "Tuple[str, str]"  [misc]
+(lostatc)codot/codot/commandbase.py:69: error: Incompatible types in assignment (expression has type "socket", variable has type "None")  [assignment]
+(lostatc)codot/codot/commandbase.py:71: error: "None" has no attribute "bind"  [attr-defined]
+(lostatc)codot/codot/cli.py:165: error: Return type "None" of "error" incompatible with return type "NoReturn" in supertype "ArgumentParser"  [override]
+(lostatc)codot/codot/container.py:59: error: Missing return statement  [return]
+(lostatc)codot/codot/container.py:61: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(lostatc)codot/codot/container.py:70: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(lostatc)codot/codot/container.py:86: error: Name 'last_sync' already defined on line 72  [no-redef]
+(lostatc)codot/codot/container.py:113: error: Need type annotation for 'raw_vals' (hint: "raw_vals: Dict[<type>, <type>] = ...")  [var-annotated]
+(lostatc)codot/codot/container.py:120: error: Name 'vals' already defined on line 115  [no-redef]
+(lostatc)codot/codot/container.py:126: error: Missing return statement  [return]
+(lostatc)codot/codot/container.py:147: error: 'None' object is not iterable  [misc]
+(lostatc)codot/codot/container.py:207: error: Need type annotation for '_req_keys' (hint: "_req_keys: List[<type>] = ...")  [var-annotated]
+(lostatc)codot/codot/container.py:228: error: Name 'vals' already defined on line 220  [no-redef]
+(lostatc)codot/codot/container.py:233: error: Missing return statement  [return]
+(lostatc)codot/codot/container.py:293: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", variable has type "None")  [assignment]
+(lostatc)codot/codot/container.py:297: error: Unsupported target for indexed assignment  [index]
+(lostatc)codot/codot/user_files.py:198: error: Need type annotation for 'config_values' (hint: "config_values: Dict[<type>, <type>] = ...")  [var-annotated]
+(lostatc)codot/codot/user_files.py:226: error: Argument 1 to "isfile" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(lostatc)codot/codot/utils.py:217: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(lostatc)codot/codot/utils.py:245: error: No overload variant of "next" matches argument type "str"  [call-overload]
+(lostatc)codot/codot/utils.py:245: note: Possible overload variant:
+(lostatc)codot/codot/utils.py:245: note:     def [_T] next(Iterator[_T]) -> _T
+(lostatc)codot/codot/utils.py:245: note:     <1 more non-matching overload not shown>
+Found 27 errors in 8 files (checked 12 source files)
+
+[RRepo](pycrystem)pycrystem
+(pycrystem)pycrystem/tests/test_signals/test_crystallographic_map.py:177: error: Name 'test_Crystallographic_Map_io' already defined on line 169  [no-redef]
+(pycrystem)pycrystem/tests/test_physical/test_orientation_mapping_nonphys.py:41: error: Need type annotation for 'dp_sim_list' (hint: "dp_sim_list: List[<type>] = ...")  [var-annotated]
+(pycrystem)pycrystem/tests/test_physical/test_orientation_mapping_nonphys.py:43: error: Need type annotation for 'library' (hint: "library: Dict[<type>, <type>] = ...")  [var-annotated]
+(pycrystem)pycrystem/docs/source/conf.py:104: error: Need type annotation for 'exclude_patterns' (hint: "exclude_patterns: List[<type>] = ...")  [var-annotated]
+(pycrystem)pycrystem/docs/source/conf.py:262: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 5 errors in 3 files (checked 54 source files)
+
+[RRepo](meng89)wpi
+(meng89)wpi/wpi/__init__.py:5: error: Need type annotation for '_modules' (hint: "_modules: Dict[<type>, <type>] = ...")  [var-annotated]
+(meng89)wpi/wpi/main.py:21: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(meng89)wpi/wpi/main.py:416: error: Not all arguments converted during string formatting  [str-format]
+Found 3 errors in 2 files (checked 14 source files)
+

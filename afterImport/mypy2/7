@@ -1,0 +1,1035 @@
+[RRepo](argaen)aiocache
+
+[RRepo](thismachinechills)pyscreencapture
+
+[RRepo](City-of-Helsinki)linkedevents
+
+[RRepo](trin5tensa)pigjar
+
+[RRepo](Berserker66)omnitool
+(Berserker66)omnitool/worldview.py:164: error: Module has no attribute "windll"  [attr-defined]
+(Berserker66)omnitool/worldview.py:186: error: Incompatible types in assignment (expression has type "Process", variable has type "str")  [assignment]
+(Berserker66)omnitool/worldview.py:188: error: "str" has no attribute "is_alive"  [attr-defined]
+(Berserker66)omnitool/worldview.py:190: error: Too few arguments for "join" of "str"  [call-arg]
+(Berserker66)omnitool/worldview.py:191: error: Argument 1 to "remove" of "list" has incompatible type "str"; expected "Process"  [arg-type]
+Found 5 errors in 1 file (checked 4 source files)
+
+[RRepo](deepmind)bsuite
+
+[RRepo](Twinters007)robotpy-wpilib-utilities
+
+[RRepo](kenkov)smt
+
+[RRepo](PayloadSecurity)VxAPI
+Success: no issues found in 2 source files
+
+[RRepo](StoDevX)cs251-toolkit
+
+[RRepo](jeffmahoney)crash-python
+(jeffmahoney)crash-python/crash/types/list.py:6: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/cache/syscache.py:12: error: Module 'crash.util' has no attribute 'array_size'  [attr-defined]
+(jeffmahoney)crash-python/crash/cache/syscache.py:143: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(jeffmahoney)crash-python/crash/types/klist.py:6: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/types/page.py:9: error: Module 'crash.util' has no attribute 'find_member_variant'  [attr-defined]
+(jeffmahoney)crash-python/crash/addrxlat.py:7: error: Module 'crash.util' has no attribute 'offsetof'  [attr-defined]
+(jeffmahoney)crash-python/crash/types/classdev.py:10: error: Module 'crash.util' has no attribute 'struct_has_member'  [attr-defined]
+(jeffmahoney)crash-python/crash/types/classdev.py:10: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/commands/lsmod.py:36: error: Module 'crash.util' has no attribute 'struct_has_member'  [attr-defined]
+(jeffmahoney)crash-python/crash/types/zone.py:6: error: Module 'crash.util' has no attribute 'array_for_each'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/storage/__init__.py:6: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/__init__.py:6: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/__init__.py:6: error: Module 'crash.util' has no attribute 'get_typed_pointer'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/__init__.py:6: error: Module 'crash.util' has no attribute 'decode_flags'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/mount.py:19: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/mount.py:19: error: Module 'crash.util' has no attribute 'decode_flags'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/mount.py:19: error: Module 'crash.util' has no attribute 'struct_has_member'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/btrfs.py:7: error: Module 'crash.util' has no attribute 'decode_uuid'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/btrfs.py:7: error: Module 'crash.util' has no attribute 'struct_has_member'  [attr-defined]
+(jeffmahoney)crash-python/crash/subsystem/filesystem/btrfs.py:7: error: Module 'crash.util' has no attribute 'container_of'  [attr-defined]
+(jeffmahoney)crash-python/crash/commands/xfs.py:43: error: Module 'crash.util' has no attribute 'decode_flags'  [attr-defined]
+(jeffmahoney)crash-python/crash/commands/xfs.py:43: error: Module 'crash.util' has no attribute 'struct_has_member'  [attr-defined]
+(jeffmahoney)crash-python/crash/commands/kmem.py:32: error: Module 'crash.util' has no attribute 'get_symbol_value'  [attr-defined]
+Found 23 errors in 14 files (checked 26 source files)
+
+[RRepo](tmerr)bank_wrangler
+
+[RRepo](telminov)django-voximplant
+
+[RRepo](X-DataInitiative)tick
+
+[RRepo](Microsoft)PTVS
+
+[RRepo](mabuchilab)QNET
+Success: no issues found in 1 source file
+
+[RRepo](NB0174)AbricotGame
+
+[RRepo](henridwyer)pyhomekit
+
+[RRepo](turbinenreiter)micropython
+
+[RRepo](bagage)cadastre-conflation
+
+[RRepo](languitar)autosuspend
+Success: no issues found in 8 source files
+
+[RRepo](a-slide)pycoQC
+
+[RRepo](consbio)seedsource
+
+[RRepo](benchmeeting)booking
+
+[RRepo](Nocturnal42)runmyrobot
+(Nocturnal42)runmyrobot/watchdog.py:7: error: Need type annotation for 'watches' (hint: "watches: Dict[<type>, <type>] = ...")  [var-annotated]
+(Nocturnal42)runmyrobot/tts/tts.py:15: error: Need type annotation for 'banned' (hint: "banned: List[<type>] = ...")  [var-annotated]
+(Nocturnal42)runmyrobot/networking.py:38: error: Need type annotation for 'messengerQueue' (hint: "messengerQueue: List[<type>] = ...")  [var-annotated]
+(Nocturnal42)runmyrobot/extended_command.py:62: error: Need type annotation for 'mods' (hint: "mods: List[<type>] = ...")  [var-annotated]
+(Nocturnal42)runmyrobot/controller.py:293: error: Module has no attribute "setup"  [attr-defined]
+(Nocturnal42)runmyrobot/controller.py:294: error: Module has no attribute "move"  [attr-defined]
+(Nocturnal42)runmyrobot/controller.py:316: error: Module has no attribute "setup"  [attr-defined]
+(Nocturnal42)runmyrobot/controller.py:317: error: Module has no attribute "start"  [attr-defined]
+(Nocturnal42)runmyrobot/controller.py:334: error: Module has no attribute "setup"  [attr-defined]
+Found 9 errors in 5 files (checked 8 source files)
+
+[RRepo](boriel)zxbasic
+(boriel)zxbasic/symbols/symbol_.py:13: error: Module 'ast_' has no attribute 'Ast'  [attr-defined]
+(boriel)zxbasic/asm.py:12: error: Need type annotation for 'Z80_re' (hint: "Z80_re: Dict[<type>, <type>] = ...")  [var-annotated]
+(boriel)zxbasic/prepro/output.py:11: error: Need type annotation for 'CURRENT_FILE' (hint: "CURRENT_FILE: List[<type>] = ...")  [var-annotated]
+(boriel)zxbasic/asmlex.py:150: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")  [assignment]
+(boriel)zxbasic/api/optimize.py:4: error: Module 'ast_' has no attribute 'NodeVisitor'  [attr-defined]
+(boriel)zxbasic/api/optimize.py:28: error: Module has no attribute "NOP"  [attr-defined]
+(boriel)zxbasic/arch/zx48k/optimizer/asm.py:8: error: Need type annotation for 'Z80_PATTERN' (hint: "Z80_PATTERN: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 7 errors in 6 files (checked 9 source files)
+
+[RRepo](sloria)aiohttp_utils
+Success: no issues found in 2 source files
+
+[RRepo](tildetown)tilde-wiki
+
+[RRepo](albertz)PyOverheadGame
+
+[RRepo](OpenSourcePolicyCenter)webapp-public
+Success: no issues found in 1 source file
+
+[RRepo](mikonapoli)grakn-python
+
+[RRepo](gopythongo)aptly-api-client
+
+[RRepo](marketcoin)marketcoin
+(marketcoin)marketcoin/mockrpc.py:7: error: Need type annotation for 'balance'  [var-annotated]
+(marketcoin)marketcoin/mockrpc.py:10: error: Need type annotation for 'transactions'  [var-annotated]
+Found 2 errors in 1 file (checked 5 source files)
+
+[RRepo](jsandovalc)poster
+(jsandovalc)poster/poster/app.py:26: error: The return type of an async generator function should be "AsyncGenerator" or one of its supertypes  [misc]
+(jsandovalc)poster/poster/app.py:50: error: List item 0 has incompatible type "Callable[[Application], None]"; expected "Callable[[Application], AsyncIterator[None]]"  [list-item]
+(jsandovalc)poster/conftest.py:7: error: Module 'poster.migrations' has no attribute 'metadata'  [attr-defined]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](der-michik)c3bottles
+(der-michik)c3bottles/c3bottles/model/location.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/location.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:39: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/location.py:43: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:16: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/user.py:24: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:25: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:27: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:29: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:137: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:172: error: Cannot determine type of 'lm'  [has-type]
+(der-michik)c3bottles/c3bottles/model/user.py:186: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/visit.py:28: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:30: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:38: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/visit.py:41: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:9: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/report.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:40: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:42: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:44: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/report.py:45: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:14: error: Name 'db.Model' is not defined  [name-defined]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:31: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:32: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:33: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:34: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:35: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:36: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/model/drop_point.py:37: error: Cannot determine type of 'db'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:11: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:58: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:73: error: Cannot determine type of 'app'  [has-type]
+(der-michik)c3bottles/c3bottles/views/__init__.py:82: error: Cannot determine type of 'app'  [has-type]
+Found 54 errors in 6 files (checked 19 source files)
+
+[RRepo](OpenSlides)OpenSlides
+
+[RRepo](robotpy)pyfrc
+
+[RRepo](UTNkar)moore
+
+[RRepo](groutr)conda-tools
+
+[RRepo](OParl)liboparl
+
+[RRepo](fkie-cad)FACT_core
+
+[RRepo](sorgloomer)websocket_terminal
+
+[RRepo](jrabbit)pyborg-1up
+Success: no issues found in 1 source file
+
+[RRepo](python-hyper)hyper-h2
+
+[RRepo](awslabs)sockeye
+(awslabs)sockeye/setup.py:93: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Namespace")  [assignment]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](TheAlgorithms)Python
+
+[RRepo](trezor)micropython
+
+[RRepo](littlezz)ESL-Model
+
+[RRepo](sussexstudent)falmer
+
+[RRepo](python)the-knights-who-say-ni
+
+[RRepo](mitmproxy)mitmproxy
+
+[RRepo](sliceofcode)dogbot
+(sliceofcode)dogbot/dog.py:9: error: Module 'dog' has no attribute 'Dogbot'  [attr-defined]
+(sliceofcode)dogbot/dog.py:10: error: Module 'dog.core.utils' has no attribute 'setup_logging'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](movidius)ncappzoo
+
+[RRepo](portfoliome)foil
+(portfoliome)foil/setup.py:12: error: Need type annotation for 'version_ns' (hint: "version_ns: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](coblo)pyiscclib
+Success: no issues found in 1 source file
+
+[RRepo](motion-planning)rrt-algorithms
+
+[RRepo](Nexterot)labyrinth-project
+Success: no issues found in 2 source files
+
+[RRepo](c3cashdesk)postix
+
+[RRepo](raster-foundry)raster-foundry
+
+[RRepo](eliostvs)tomate-statusicon-plugin
+Success: no issues found in 2 source files
+
+[RRepo](rr-)szurubooru
+
+[RRepo](Netflix-Skunkworks)iep-apps
+
+[RRepo](Pitt-CSC)PittAPI
+
+[RRepo](arthurmensch)modl
+Success: no issues found in 1 source file
+
+[RRepo](steinitzu)spotify-api
+(steinitzu)spotify-api/spotify/client.py:19: error: Incompatible types in assignment (expression has type "Api", variable has type Module)  [assignment]
+(steinitzu)spotify-api/spotify/client.py:20: error: Module has no attribute "request"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](globality-corp)microcosm-flask
+
+[RRepo](rokups)Urho3D
+
+[RRepo](gilesknap)gphotos-sync
+
+[RRepo](steven-zou)harbor
+
+[RRepo](horazont)aioxmpp
+(horazont)aioxmpp/aioxmpp/network.py:347: error: Incompatible types in assignment (expression has type "Tuple[Any, Any, Tuple[bytes, Any]]", target has type "Tuple[Any, Any, Tuple[str, Any]]")  [assignment]
+(horazont)aioxmpp/aioxmpp/benchtest/__init__.py:311: error: Need type annotation for '_registry'  [var-annotated]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:31: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:59: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:61: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:63: error: Module has no attribute "Integer"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:66: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:75: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:78: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:80: error: Module has no attribute "Text"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:83: error: Name 'aioxmpp.xso.AbstractElementType' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:99: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:136: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:138: error: Module has no attribute "ChildValueMultiMap"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:154: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:164: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:168: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:183: error: Module has no attribute "Child"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/httpupload/xso.py:185: error: Module has no attribute "Child"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:123: error: Module 'aioxmpp.presence' has no attribute 'PresenceClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:123: error: Module 'aioxmpp.presence' has no attribute 'PresenceServer'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:124: error: Module 'aioxmpp.roster' has no attribute 'RosterClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:125: error: Module 'aioxmpp.disco' has no attribute 'DiscoServer'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:125: error: Module 'aioxmpp.disco' has no attribute 'DiscoClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:126: error: Module 'aioxmpp.entitycaps' has no attribute 'EntityCapsService'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:127: error: Module 'aioxmpp.muc' has no attribute 'MUCClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:129: error: Module 'aioxmpp.shim' has no attribute 'SHIMService'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:130: error: Module 'aioxmpp.adhoc' has no attribute 'AdHocClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:130: error: Module 'aioxmpp.adhoc' has no attribute 'AdHocServer'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:131: error: Module 'aioxmpp.avatar' has no attribute 'AvatarService'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:132: error: Module 'aioxmpp.blocking' has no attribute 'BlockingClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:133: error: Module 'aioxmpp.carbons' has no attribute 'CarbonsClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:134: error: Module 'aioxmpp.ping' has no attribute 'PingService'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:136: error: Module 'aioxmpp.bookmarks' has no attribute 'BookmarkClient'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:137: error: Module 'aioxmpp.version' has no attribute 'VersionServer'  [attr-defined]
+(horazont)aioxmpp/aioxmpp/__init__.py:138: error: Module 'aioxmpp.mdr' has no attribute 'DeliveryReceiptsService'  [attr-defined]
+(horazont)aioxmpp/tests/test_errors.py:108: error: Name 'test_gone_new_address' already defined on line 98  [no-redef]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:42: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:51: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:69: error: Module has no attribute "Child"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:72: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:90: error: Module has no attribute "ChildText"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:92: error: Module has no attribute "JID"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/rfc6120.py:95: error: Module has no attribute "ChildText"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:219: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:235: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:239: error: Module has no attribute "Text"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:240: error: Module has no attribute "Base64Binary"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:258: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:269: error: Module has no attribute "Attr"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:287: error: Name 'xso.AbstractElementType' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:299: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:309: error: Module has no attribute "ChildValueMap"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:314: error: Name 'xso.AbstractElementType' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:326: error: Name 'xso.XSO' is not defined  [name-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:335: error: Module has no attribute "ChildValueList"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:356: error: Module has no attribute "DiscoClient"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:357: error: Module has no attribute "DiscoServer"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/hashes.py:360: error: Module has no attribute "register_feature"  [attr-defined]
+(horazont)aioxmpp/aioxmpp/connector.py:181: error: Need type annotation for 'features_future'  [var-annotated]
+(horazont)aioxmpp/tests/test_e2e.py:37: error: Name 'aioxmpp.xso.XSO' is not defined  [name-defined]
+Found 61 errors in 9 files (checked 30 source files)
+
+[RRepo](zillow)aiographite
+Success: no issues found in 1 source file
+
+[RRepo](ChristophGaukel)ev3-python3
+(ChristophGaukel)ev3-python3/ev3_sound.py:306: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:313: error: Unsupported operand types for + ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:313: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:317: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:319: error: Missing return statement  [return]
+(ChristophGaukel)ev3-python3/ev3_sound.py:321: error: Unsupported operand types for + ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:321: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_sound.py:322: error: Unsupported operand types for % ("None" and "int")  [operator]
+(ChristophGaukel)ev3-python3/ev3_sound.py:322: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(ChristophGaukel)ev3-python3/ev3_file.py:91: error: Name 'SysCmdError' is not defined  [name-defined]
+(ChristophGaukel)ev3-python3/ev3_file.py:170: error: Name 'SysCmdError' is not defined  [name-defined]
+Found 11 errors in 2 files (checked 2 source files)
+
+[RRepo](jaywink)federation
+(jaywink)federation/federation/__init__.py:25: error: Incompatible return value type (got Module, expected "str")  [return-value]
+(jaywink)federation/federation/entities/mixins.py:12: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(jaywink)federation/federation/entities/mixins.py:13: error: Incompatible types in assignment (expression has type "None", variable has type "Set[Any]")  [assignment]
+(jaywink)federation/federation/entities/mixins.py:14: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(jaywink)federation/federation/entities/mixins.py:17: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(jaywink)federation/federation/entities/mixins.py:20: error: Incompatible types in assignment (expression has type "None", variable has type "ActivityType")  [assignment]
+(jaywink)federation/federation/inbound.py:45: error: Module has no attribute "message_to_objects"  [attr-defined]
+(jaywink)federation/federation/entities/base.py:120: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(jaywink)federation/federation/fetchers.py:28: error: Module has no attribute "retrieve_and_parse_content"  [attr-defined]
+(jaywink)federation/federation/fetchers.py:40: error: Module has no attribute "retrieve_and_parse_profile"  [attr-defined]
+(jaywink)federation/federation/utils/network.py:21: error: Missing return statement  [return]
+(jaywink)federation/federation/protocols/activitypub/signing.py:11: error: Module 'Crypto.PublicKey.RSA' has no attribute 'RsaKey'  [attr-defined]
+(jaywink)federation/federation/outbound.py:7: error: Module 'Crypto.PublicKey.RSA' has no attribute 'RsaKey'  [attr-defined]
+(jaywink)federation/federation/outbound.py:41: error: Module has no attribute "Protocol"  [attr-defined]
+(jaywink)federation/federation/outbound.py:42: error: Module has no attribute "get_outbound_entity"  [attr-defined]
+(jaywink)federation/federation/outbound.py:46: error: Module has no attribute "build_send"  [attr-defined]
+(jaywink)federation/federation/outbound.py:116: error: Need type annotation for 'public_payloads'  [var-annotated]
+(jaywink)federation/federation/outbound.py:145: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:146: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:147: error: Item "str" of "Union[str, Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(jaywink)federation/federation/outbound.py:148: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:148: error: Invalid index type "str" for "Union[str, Dict[Any, Any]]"; expected type "Union[int, slice]"  [index]
+(jaywink)federation/federation/outbound.py:149: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:149: error: Invalid index type "str" for "Union[str, Dict[Any, Any]]"; expected type "Union[int, slice]"  [index]
+(jaywink)federation/federation/outbound.py:151: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:152: error: Item "str" of "Union[str, Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(jaywink)federation/federation/outbound.py:153: error: Unsupported target for indexed assignment  [index]
+(jaywink)federation/federation/outbound.py:153: error: Invalid index type "str" for "Union[str, Dict[Any, Any]]"; expected type "Union[int, slice]"  [index]
+(jaywink)federation/federation/outbound.py:154: error: Incompatible types in assignment (expression has type "bytes", variable has type "Union[str, Dict[Any, Any]]")  [assignment]
+(jaywink)federation/federation/outbound.py:171: error: Incompatible types in assignment (expression has type "Union[str, Dict[Any, Any]]", target has type "Optional[Set[Any]]")  [assignment]
+(jaywink)federation/federation/outbound.py:176: error: Item "None" of "Optional[Set[Any]]" has no attribute "add"  [union-attr]
+Found 31 errors in 8 files (checked 5 source files)
+
+[RRepo](ScheduledOvers)quizwipe
+
+[RRepo](jopohl)urh
+(jopohl)urh/src/urh/dev/native/ExtensionHelper.py:206: error: Value of type "object" is not indexable  [index]
+(jopohl)urh/src/urh/dev/native/ExtensionHelper.py:241: error: Incompatible types in assignment (expression has type "None", variable has type "List[str]")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](ysavary)WindMobile2-Server
+
+[RRepo](flycheck)flycheck
+
+[RRepo](timothycrosley)hug
+(timothycrosley)hug/setup.py:38: error: Module has no attribute "pypy_version_info"; maybe "_version_info" or "version_info"?  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ColumbiaSC-Tech)botty_mcbotface
+Success: no issues found in 3 source files
+
+[RRepo](fametrano)BitcoinBlockchainTechnology
+
+[RRepo](carbonblack)cb-integration
+
+[RRepo](Islandman93)reinforcepy
+Success: no issues found in 1 source file
+
+[RRepo](laramies)theHarvester
+
+[RRepo](playpauseandstop)rororo
+
+[RRepo](PhilipTrauner)cmus-osx
+(PhilipTrauner)cmus-osx/cmus_osx/__init__.py:42: error: "__new__" must return a class instance (got "Optional[_CmusConfig]")  [misc]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](CoolProp)CoolProp
+
+[RRepo](alex-ta)Fontinator
+
+[RRepo](c3nav)c3nav
+
+[RRepo](w1ll1am23)simplisafe-python
+(w1ll1am23)simplisafe-python/example.py:9: error: Module 'simplipy' has no attribute 'API'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](gjbex)training-material
+
+[RRepo](numba)numba
+(numba)numba/numba/debuginfo.py:256: error: Incompatible types in assignment (expression has type "None", base class "DIBuilder" defined the type as "int")  [assignment]
+(numba)numba/setup.py:21: error: Unsupported target for indexed assignment  [index]
+(numba)numba/setup.py:24: error: Name 'build.build' is not defined  [name-defined]
+(numba)numba/setup.py:48: error: Need type annotation for 'install_name_tool_fixer' (hint: "install_name_tool_fixer: List[<type>] = ...")  [var-annotated]
+(numba)numba/numba/pycc/platform.py:4: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(numba)numba/numba/pycc/platform.py:73: error: Need type annotation for 'libraries' (hint: "libraries: List[<type>] = ...")  [var-annotated]
+(numba)numba/numba/targets/cffiimpl.py:13: error: Module has no attribute "Buffer"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:14: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:15: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:16: error: Module has no attribute "complex64"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:17: error: Module has no attribute "complex128"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:21: error: Module has no attribute "ByteArray"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:22: error: Module has no attribute "PyArray"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:25: error: Module has no attribute "MemoryView"  [attr-defined]
+(numba)numba/numba/typing/bufproto.py:27: error: Module has no attribute "Bytes"  [attr-defined]
+(numba)numba/numba/roc/hsadrv/devices.py:118: error: Module has no attribute "TLStack"  [attr-defined]
+(numba)numba/numba/targets/options.py:9: error: Need type annotation for 'OPTIONS' (hint: "OPTIONS: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/cuda/kernels/reduction.py:164: error: Need type annotation for '_cache' (hint: "_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/tracing.py:213: error: Module has no attribute "TRACE"  [attr-defined]
+(numba)numba/numba/targets/cpu.py:9: error: Module 'numba' has no attribute '_dynfunc'  [attr-defined]
+(numba)numba/numba/targets/cpu.py:14: error: Module 'numba.targets' has no attribute 'setobj'  [attr-defined]
+(numba)numba/numba/targets/cpu.py:18: error: Module 'numba.runtime' has no attribute 'rtsys'  [attr-defined]
+(numba)numba/numba/targets/cpu.py:26: error: Module has no attribute "pyobject"  [attr-defined]
+(numba)numba/numba/targets/cpu.py:31: error: Module has no attribute "pyobject"  [attr-defined]
+(numba)numba/numba/targets/cpu.py:32: error: Module has no attribute "pyobject"  [attr-defined]
+(numba)numba/numba/typing/typeof.py:76: error: Module has no attribute "_CFuncPtr"; maybe "_FuncPointer"?  [attr-defined]
+(numba)numba/numba/typing/typeof.py:109: error: Name '_typeof_bool' already defined on line 105  [no-redef]
+(numba)numba/numba/typing/typeof.py:113: error: Name '_typeof_bool' already defined on line 105  [no-redef]
+(numba)numba/numba/typing/typeof.py:231: error: Module has no attribute "NumberClass"  [attr-defined]
+(numba)numba/numba/typing/typeof.py:241: error: Name 'typeof_typeref' already defined on line 236  [no-redef]
+(numba)numba/numba/npyufunc/__init__.py:6: error: Module 'numba.npyufunc' has no attribute 'array_exprs'  [attr-defined]
+(numba)numba/numba/npyufunc/__init__.py:6: error: Module 'numba.npyufunc' has no attribute 'parfor'  [attr-defined]
+(numba)numba/numba/__init__.py:38: error: Module 'numba.jitclass' has no attribute 'jitclass'  [attr-defined]
+(numba)numba/numba/__init__.py:68: error: Module has no attribute "__all__"  [attr-defined]
+(numba)numba/numba/__init__.py:180: error: Module has no attribute "USING_SVML"  [attr-defined]
+(numba)numba/numba/npyufunc/dufunc.py:10: error: Module 'numba' has no attribute 'array_analysis'  [attr-defined]
+(numba)numba/numba/targets/printimpl.py:35: error: Name 'print_item_impl' already defined on line 17  [no-redef]
+(numba)numba/numba/targets/printimpl.py:66: error: Module has no attribute "VarArg"  [attr-defined]
+(numba)numba/numba/targets/printimpl.py:66: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:16: error: Module 'numba.typing' has no attribute 'signature'  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:215: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:221: error: Module has no attribute "Integer"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:227: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:233: error: Module has no attribute "Integer"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:240: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:246: error: Module has no attribute "Integer"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:252: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:265: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:282: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:282: error: Module has no attribute "intc"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:299: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:307: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:315: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:335: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:345: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:355: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:386: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:397: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:408: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:409: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/targets/mathimpl.py:409: error: Module has no attribute "Integer"  [attr-defined]
+(numba)numba/numba/cuda/simulator/cudadrv/devicearray.py:236: error: Name 'is_cuda_ndarray' already defined on line 16  [no-redef]
+(numba)numba/numba/typing/cffi_utils.py:25: error: Need type annotation for '_ool_func_types' (hint: "_ool_func_types: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/typing/cffi_utils.py:26: error: Need type annotation for '_ool_func_ptr' (hint: "_ool_func_ptr: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/typing/cffi_utils.py:27: error: Need type annotation for '_ffi_instances' (hint: "_ffi_instances: Set[<type>] = ...")  [var-annotated]
+(numba)numba/numba/typing/cffi_utils.py:207: error: Module has no attribute "ffi"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:16: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:18: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:19: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:20: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:21: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:23: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:24: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:25: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:26: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:28: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:29: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:31: error: Module has no attribute "voidptr"  [attr-defined]
+(numba)numba/numba/typing/ctypes_utils.py:32: error: Module has no attribute "ffi_forced_object"  [attr-defined]
+(numba)numba/numba/roc/stubs.py:2: error: Module 'numba' has no attribute 'macro'  [attr-defined]
+(numba)numba/numba/cuda/stubs.py:8: error: Module 'numba' has no attribute 'macro'  [attr-defined]
+(numba)numba/numba/cuda/stubs.py:9: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/cuda/stubs.py:28: error: Module has no attribute "signature"  [attr-defined]
+(numba)numba/numba/cuda/stubs.py:28: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/hlc/hlc.py:15: error: Module 'numba.roc.hlc' has no attribute 'TRIPLE'  [attr-defined]
+(numba)numba/numba/roc/hlc/hlc.py:37: error: Name 'check_call' already defined (possibly by an import)  [no-redef]
+(numba)numba/numba/ccallback.py:15: error: Module 'numba.typing' has no attribute 'signature'  [attr-defined]
+(numba)numba/numba/roc/compiler.py:11: error: Module 'numba.roc.hsadrv' has no attribute 'enums'  [attr-defined]
+(numba)numba/numba/roc/compiler.py:11: error: Module 'numba.roc.hsadrv' has no attribute 'drvapi'  [attr-defined]
+(numba)numba/numba/roc/api.py:4: error: Module 'numba' has no attribute 'mviewbuf'  [attr-defined]
+(numba)numba/numba/cuda/device_init.py:12: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/cuda/__init__.py:6: error: Module has no attribute "ENABLE_CUDASIM"  [attr-defined]
+(numba)numba/numba/typeconv/typeconv.py:6: error: Module 'numba.typeconv' has no attribute '_typeconv'  [attr-defined]
+(numba)numba/numba/typeconv/typeconv.py:18: error: Module 'numba.typeconv' has no attribute 'Conversion'  [attr-defined]
+(numba)numba/numba/annotations/type_annotations.py:56: error: Need type annotation for 'func_data'  [var-annotated]
+(numba)numba/numba/typing/cmathdecl.py:29: error: Module has no attribute "complex_domain"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:35: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:36: error: Module has no attribute "complex_domain"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:48: error: Module has no attribute "complex_domain"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:50: error: Module has no attribute "complex_domain"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:55: error: Module has no attribute "complex128"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:55: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:56: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:56: error: Module has no attribute "complex64"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:71: error: Module has no attribute "complex128"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:72: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:73: error: Module has no attribute "complex64"  [attr-defined]
+(numba)numba/numba/typing/cmathdecl.py:73: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/postproc.py:3: error: Module 'numba' has no attribute 'analysis'  [attr-defined]
+(numba)numba/numba/postproc.py:60: error: Need type annotation for 'ir_extension_insert_dels' (hint: "ir_extension_insert_dels: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/itanium_mangler.py:72: error: Module has no attribute "void"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:73: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:74: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:75: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:76: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:77: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:78: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:79: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:80: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:81: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:82: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/itanium_mangler.py:83: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/consts.py:43: error: Assignment to variable 'exc' outside except: block  [misc]
+(numba)numba/numba/tests/test_vectorization_type_inference.py:2: error: Module 'numba' has no attribute 'bool_'  [attr-defined]
+(numba)numba/numba/tests/test_vectorization_type_inference.py:2: error: Module 'numba' has no attribute 'double'  [attr-defined]
+(numba)numba/numba/tests/test_vectorization_type_inference.py:2: error: Module 'numba' has no attribute 'int_'  [attr-defined]
+(numba)numba/numba/tests/test_vectorization_type_inference.py:2: error: Module 'numba' has no attribute 'float_'  [attr-defined]
+(numba)numba/numba/tests/test_vectorization_type_inference.py:2: error: Module 'numba' has no attribute 'int8'  [attr-defined]
+(numba)numba/numba/tests/test_unpack_sequence.py:51: error: Need more than 2 values to unpack (3 expected)  [misc]
+(numba)numba/numba/tests/test_unpack_sequence.py:56: error: Too many values to unpack (3 expected, 4 provided)  [misc]
+(numba)numba/numba/tests/test_unpack_sequence.py:61: error: Need more than 2 values to unpack (3 expected)  [misc]
+(numba)numba/numba/tests/test_unpack_sequence.py:66: error: Too many values to unpack (3 expected, 4 provided)  [misc]
+(numba)numba/numba/tests/test_support.py:26: error: Name 'long' is not defined  [name-defined]
+(numba)numba/numba/tests/test_optional.py:10: error: Module 'numba' has no attribute 'lowering'  [attr-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:10: error: Name 'Structure' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:13: error: Name 'c_void_p' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:14: error: Name 'c_void_p' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:15: error: Name 'c_ssize_t' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:16: error: Name 'c_ssize_t' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:17: error: Name 'c_void_p' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:18: error: Name 'c_ssize_t' is not defined  [name-defined]
+(numba)numba/numba/tests/test_numpyadapt.py:19: error: Name 'c_ssize_t' is not defined  [name-defined]
+(numba)numba/numba/tests/test_nrt_refct.py:13: error: Module 'numba.runtime' has no attribute 'rtsys'  [attr-defined]
+(numba)numba/numba/tests/test_nested_calls.py:8: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/tests/test_nested_calls.py:8: error: Module 'numba' has no attribute 'int64'  [attr-defined]
+(numba)numba/numba/tests/test_locals.py:3: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/test_interproc.py:5: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/tests/test_inlining.py:15: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_inlining.py:19: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_hashing.py:17: error: Module 'numba.targets' has no attribute 'hashing'  [attr-defined]
+(numba)numba/numba/tests/test_gil.py:25: error: Module has no attribute "windll"  [attr-defined]
+(numba)numba/numba/tests/test_gil.py:30: error: Argument 1 to "CDLL" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(numba)numba/numba/tests/test_exceptions.py:309: error: Name 'test_user_code_error_traceback' already defined on line 306  [no-redef]
+(numba)numba/numba/tests/test_errorhandling.py:6: error: Module 'numba' has no attribute 'int64'  [attr-defined]
+(numba)numba/numba/tests/test_errorhandling.py:15: error: Module has no attribute "Dict"  [attr-defined]
+(numba)numba/numba/tests/test_dyn_func.py:46: error: Name 'unittest' is not defined  [name-defined]
+(numba)numba/numba/tests/test_deprecations.py:126: error: Module has no attribute "ENABLE_CUDASIM"  [attr-defined]
+(numba)numba/numba/tests/test_cgutils.py:18: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/tests/test_annotations.py:14: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(numba)numba/numba/tests/test_alignment.py:4: error: Module 'numba' has no attribute 'void'  [attr-defined]
+(numba)numba/numba/tests/test_alignment.py:40: error: Name 'unittest' is not defined  [name-defined]
+(numba)numba/numba/tests/serialize_usecases.py:12: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/orphaned_semaphore_usecase.py:22: error: "BaseContext" has no attribute "Process"  [attr-defined]
+(numba)numba/numba/tests/matmul_usecase.py:27: error: Need type annotation for 'ns' (hint: "ns: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/tests/ctypes_usecases.py:79: error: Name 'windll' is not defined  [name-defined]
+(numba)numba/numba/tests/cffi_usecases.py:7: error: Module 'numba' has no attribute 'cffi_support'  [attr-defined]
+(numba)numba/numba/tests/cffi_usecases.py:9: error: Module 'numba.types' has no attribute 'complex128'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:8: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:8: error: Module 'numba' has no attribute 'uint32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:8: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:8: error: Module 'numba' has no attribute 'float64'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:92: error: Incompatible types in assignment (expression has type "str", base class "BaseVectorizeDecor" defined the type as "None")  [assignment]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:97: error: Incompatible types in assignment (expression has type "str", base class "BaseVectorizeDecor" defined the type as "None")  [assignment]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:101: error: Incompatible types in assignment (expression has type "str", base class "BaseVectorizeDecor" defined the type as "None")  [assignment]
+(numba)numba/numba/tests/npyufunc/test_vectorize_decor.py:102: error: Incompatible types in assignment (expression has type "staticmethod", base class "BaseVectorizeDecor" defined the type as "None")  [assignment]
+(numba)numba/numba/tests/npyufunc/test_ufunc.py:6: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_parallel_low_work.py:10: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_parallel_low_work.py:10: error: Module 'numba' has no attribute 'float64'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_parallel_low_work.py:10: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_parallel_low_work.py:10: error: Module 'numba' has no attribute 'uint32'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_gufunc.py:7: error: Module 'numba' has no attribute 'void'  [attr-defined]
+(numba)numba/numba/tests/npyufunc/test_gufunc.py:7: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/__init__.py:18: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(numba)numba/numba/testing/notebook.py:20: error: Name 'Empty' already defined (possibly by an import)  [no-redef]
+(numba)numba/numba/roc/mathdecl.py:14: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:130: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:130: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:131: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:131: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:132: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:133: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:204: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:204: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:205: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:205: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:206: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:207: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:268: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:269: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:284: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:285: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:286: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:286: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:287: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:287: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:294: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:294: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:295: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:295: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:296: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:296: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:297: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:297: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:304: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:304: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:305: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:305: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:306: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:306: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:307: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:307: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:311: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:312: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:313: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:314: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:315: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:316: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:317: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:318: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:319: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:320: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:321: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:322: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:323: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:324: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:325: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:326: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:327: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:328: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:329: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:330: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:331: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:333: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:334: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:335: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:336: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:337: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:338: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:339: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:340: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:341: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:342: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:343: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:344: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:345: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/mathdecl.py:346: error: Module has no attribute "Function"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:24: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:24: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:30: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:30: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:36: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:36: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:42: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:42: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:48: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:54: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:54: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:60: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:60: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:66: error: Module has no attribute "void"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:66: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:67: error: Module has no attribute "void"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:73: error: Module has no attribute "void"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:73: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:79: error: Module has no attribute "void"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:86: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:86: error: Module has no attribute "bool_"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:87: error: Module has no attribute "integer_domain"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:87: error: Module has no attribute "real_domain"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:92: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:93: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:93: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:94: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:94: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:95: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:95: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:117: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:141: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:151: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/hsadecl.py:201: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/roc/codegen.py:7: error: Module 'numba.roc.hlc' has no attribute 'DATALAYOUT'  [attr-defined]
+(numba)numba/numba/roc/codegen.py:7: error: Module 'numba.roc.hlc' has no attribute 'TRIPLE'  [attr-defined]
+(numba)numba/numba/roc/tests/hsapy/test_scan.py:6: error: Module 'numba' has no attribute 'intp'  [attr-defined]
+(numba)numba/numba/roc/tests/hsapy/test_scan.py:6: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/roc/tests/hsapy/test_reduction.py:6: error: Module 'numba' has no attribute 'intp'  [attr-defined]
+(numba)numba/numba/roc/tests/hsapy/test_matmul.py:7: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/roc/tests/hsapy/test_barrier.py:6: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/pycc/cc.py:32: error: Need type annotation for '_extra_cflags' (hint: "_extra_cflags: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/pycc/cc.py:37: error: Need type annotation for '_extra_ldflags' (hint: "_extra_ldflags: Dict[<type>, <type>] = ...")  [var-annotated]
+(numba)numba/numba/cuda/random.py:4: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/cuda/random.py:4: error: Module 'numba' has no attribute 'float64'  [attr-defined]
+(numba)numba/numba/cuda/random.py:4: error: Module 'numba' has no attribute 'uint32'  [attr-defined]
+(numba)numba/numba/cuda/random.py:4: error: Module 'numba' has no attribute 'int64'  [attr-defined]
+(numba)numba/numba/cuda/random.py:4: error: Module 'numba' has no attribute 'uint64'  [attr-defined]
+(numba)numba/numba/cuda/nvvmutils.py:4: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:11: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:11: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:65: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:65: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:66: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:66: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:69: error: Need type annotation for 'booleans' (hint: "booleans: List[<type>] = ...")  [var-annotated]
+(numba)numba/numba/cuda/libdevice.py:73: error: Need type annotation for 'unarys' (hint: "unarys: List[<type>] = ...")  [var-annotated]
+(numba)numba/numba/cuda/libdevice.py:100: error: Need type annotation for 'binarys' (hint: "binarys: List[<type>] = ...")  [var-annotated]
+(numba)numba/numba/cuda/libdevice.py:109: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:110: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:111: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:112: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:116: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:117: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:118: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:119: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:122: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:123: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:124: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/libdevice.py:125: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:97: error: Module has no attribute "none"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:103: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:109: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:115: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:121: error: Module has no attribute "none"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:127: error: Module has no attribute "none"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:133: error: Module has no attribute "none"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:139: error: Module has no attribute "none"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:139: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:146: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:146: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:146: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:147: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:147: error: Module has no attribute "i8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:147: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:147: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:148: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:148: error: Module has no attribute "f4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:148: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:148: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:149: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:149: error: Module has no attribute "f8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:149: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:149: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:156: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:156: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:156: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:163: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:164: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:164: error: Module has no attribute "i8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:165: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:165: error: Module has no attribute "f4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:166: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:166: error: Module has no attribute "f8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:174: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:174: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:174: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:175: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:175: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:175: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:175: error: Module has no attribute "i8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:176: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:176: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:176: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:176: error: Module has no attribute "f4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:177: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:177: error: Module has no attribute "i4"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:177: error: Module has no attribute "b1"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:177: error: Module has no attribute "f8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:189: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:190: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:191: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:192: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:193: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:194: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:195: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:196: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:207: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:208: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:216: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:217: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:229: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:230: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:231: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:232: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:233: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:234: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:235: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:236: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:248: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:249: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:250: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:251: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:252: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:253: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:254: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:255: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:339: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:353: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:367: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:381: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:395: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:403: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:411: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:419: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:436: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/cudadecl.py:529: error: Module has no attribute "Module"  [attr-defined]
+(numba)numba/numba/cuda/codegen.py:6: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'int32'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'int64'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'uint32'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'uint64'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:8: error: Module 'numba' has no attribute 'float64'  [attr-defined]
+(numba)numba/numba/tests/test_itanium_mangler.py:9: error: Module 'numba.types' has no attribute 'range_iter32_type'  [attr-defined]
+(numba)numba/numba/tests/test_ir_utils.py:14: error: Module has no attribute "List"  [attr-defined]
+(numba)numba/numba/tests/test_ir_utils.py:14: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/tests/test_debug.py:35: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:11: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:12: error: Module has no attribute "boolean"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:15: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:16: error: Module has no attribute "pyobject"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:19: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:20: error: Module has no attribute "int8"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:23: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:24: error: Module has no attribute "int16"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:27: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:28: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:31: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:32: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:35: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:36: error: Module has no attribute "uint8"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:39: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:40: error: Module has no attribute "uint16"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:43: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:44: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:47: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:48: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:51: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:52: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:55: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:56: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:59: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:60: error: Module has no attribute "complex64"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:63: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:64: error: Module has no attribute "complex128"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:67: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:68: error: Module has no attribute "CPointer"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:68: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:71: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:72: error: Module has no attribute "UniTuple"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:72: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:75: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:76: error: Module has no attribute "UniTuple"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:76: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:79: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:80: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:80: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:80: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:83: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:84: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:87: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:88: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:88: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:91: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:92: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:92: error: Module has no attribute "complex128"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:95: error: Unsupported dynamic base class "test_factory"  [misc]
+(numba)numba/numba/tests/test_datamodel.py:96: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/tests/test_datamodel.py:96: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/tests/test_cffi.py:8: error: Module 'numba' has no attribute 'cffi_support'  [attr-defined]
+(numba)numba/numba/tests/cache_usecases.py:95: error: Name 'ambiguous_function' already defined on line 89  [no-redef]
+(numba)numba/numba/roc/target.py:15: error: Module 'numba.roc.hlc' has no attribute 'DATALAYOUT'  [attr-defined]
+(numba)numba/numba/roc/target.py:25: error: Name 'typing.BaseContext' is not defined  [name-defined]
+(numba)numba/numba/roc/target.py:51: error: Name 'datamodel.PrimitiveModel' is not defined  [name-defined]
+(numba)numba/numba/roc/hsaimpl.py:65: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:74: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:83: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:92: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:109: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:118: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:127: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:146: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:164: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:164: error: Module has no attribute "uint32"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:164: error: Module has no attribute "bool_"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:206: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:207: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:209: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:209: error: Module has no attribute "intp"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:209: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:210: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:211: error: Module has no attribute "UniTuple"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:211: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:212: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:212: error: Module has no attribute "Tuple"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:213: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:240: error: Module has no attribute "UniTuple"  [attr-defined]
+(numba)numba/numba/roc/hsaimpl.py:240: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:15: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:15: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:16: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:16: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:17: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:18: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:19: error: Module has no attribute "float32"  [attr-defined]
+(numba)numba/numba/roc/mathimpl.py:20: error: Module has no attribute "float64"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:28: error: Module has no attribute "Integer"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:29: error: Module has no attribute "IntegerLiteral"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:41: error: Module has no attribute "Float"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:46: error: Module has no attribute "StringLiteral"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:55: error: Module has no attribute "VarArg"  [attr-defined]
+(numba)numba/numba/cuda/printimpl.py:55: error: Module has no attribute "Any"  [attr-defined]
+(numba)numba/numba/extending.py:15: error: Module 'numba.datamodel' has no attribute 'register_default'  [attr-defined]
+(numba)numba/numba/extending.py:229: error: Need type annotation for '_memo'  [var-annotated]
+(numba)numba/numba/extending.py:232: error: Need type annotation for '_recent'  [var-annotated]
+(numba)numba/numba/extending.py:232: error: Module has no attribute "FUNCTION_CACHE_SIZE"  [attr-defined]
+(numba)numba/numba/tests/test_typeconv.py:8: error: Module 'numba.typeconv' has no attribute 'Conversion'  [attr-defined]
+(numba)numba/numba/tests/compile_with_pycc.py:5: error: Module 'numba' has no attribute 'float32'  [attr-defined]
+(numba)numba/numba/cuda/target.py:12: error: Module 'numba.targets' has no attribute 'cmathimpl'  [attr-defined]
+(numba)numba/numba/cuda/target.py:16: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/cuda/target.py:25: error: Name 'typing.BaseContext' is not defined  [name-defined]
+(numba)numba/numba/unsafe/refcount.py:42: error: Not all arguments converted during string formatting  [str-format]
+(numba)numba/numba/targets/rangeobj.py:14: error: Module 'numba.typing' has no attribute 'signature'  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:167: error: Module has no attribute "int32"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:167: error: Module has no attribute "range_state32_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:167: error: Module has no attribute "range_iter32_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:168: error: Module has no attribute "int64"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:168: error: Module has no attribute "range_state64_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:168: error: Module has no attribute "range_iter64_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:169: error: Module has no attribute "uint64"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:169: error: Module has no attribute "unsigned_range_state64_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:169: error: Module has no attribute "unsigned_range_iter64_type"  [attr-defined]
+(numba)numba/numba/targets/rangeobj.py:175: error: Module has no attribute "RangeType"  [attr-defined]
+(numba)numba/numba/typedobjectutils.py:13: error: Module 'numba.typeconv' has no attribute 'Conversion'  [attr-defined]
+(numba)numba/numba/tests/pdlike_usecase.py:38: error: Name 'types.Buffer' is not defined  [name-defined]
+(numba)numba/numba/tests/pdlike_usecase.py:88: error: Name 'types.ArrayCompatible' is not defined  [name-defined]
+(numba)numba/numba/tests/pdlike_usecase.py:190: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/tests/pdlike_usecase.py:196: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/tests/pdlike_usecase.py:204: error: Module has no attribute "Array"  [attr-defined]
+(numba)numba/numba/cuda/tests/nocuda/test_nvvm.py:4: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+(numba)numba/numba/cuda/tests/nocuda/test_library_lookup.py:9: error: Module 'numba.cuda.cudadrv' has no attribute 'nvvm'  [attr-defined]
+Found 548 errors in 96 files (checked 247 source files)
+
+[RRepo](project-everest)vale
+
+[RRepo](yi-jiayu)bus-eta-bot
+
+[RRepo](Tobotimus)Tobo-Cogs
+(Tobotimus)Tobo-Cogs/register/register.py:47: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:38: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:170: error: Name 'last_message' already defined on line 168  [no-redef]
+(Tobotimus)Tobo-Cogs/welcomecount/welcomecount.py:177: error: "int" has no attribute "delete"  [attr-defined]
+(Tobotimus)Tobo-Cogs/filterhelp/formatter.py:58: error: Missing return statement  [return]
+(Tobotimus)Tobo-Cogs/docref/types.py:184: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:191: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:192: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:193: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:196: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:197: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:198: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/docref/types.py:199: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(Tobotimus)Tobo-Cogs/updatered/updatered.py:40: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/reactkarma/reactkarma.py:38: error: Unsupported dynamic base class "getattr"  [misc]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:53: error: Need type annotation for 'lines'  [var-annotated]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: error: Need type annotation for 'new_lines'  [var-annotated]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: error: Unsupported operand types for - ("None" and "int")  [operator]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:55: note: Left operand is of type "Optional[int]"
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:62: error: Unsupported operand types for >= ("int" and "None")  [operator]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:62: note: Right operand is of type "Optional[int]"
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:150: error: "None" has no attribute "delete"  [attr-defined]
+(Tobotimus)Tobo-Cogs/errorlogs/reaction_menu.py:154: error: "None" has no attribute "id"  [attr-defined]
+(Tobotimus)Tobo-Cogs/errorlogs/errorlogs.py:123: error: Module has no attribute "create_task"  [attr-defined]
+Found 22 errors in 8 files (checked 22 source files)
+
+[RRepo](ranisalt)moita-ufsc-crawler
+
+[RRepo](HenriWahl)Nagstamon
+(HenriWahl)Nagstamon/Nagstamon/thirdparty/zenoss_api.py:45: error: Name 'json' already defined (by an import)  [no-redef]
+(HenriWahl)Nagstamon/Nagstamon/Servers/Zenoss.py:27: error: Name 'datetime' already defined (by an import)  [no-redef]
+(HenriWahl)Nagstamon/Nagstamon/Servers/Sensu.py:33: error: Need type annotation for 'SEVERITY_CODE_TEXT_MAP' (hint: "SEVERITY_CODE_TEXT_MAP: Dict[<type>, <type>] = ...")  [var-annotated]
+(HenriWahl)Nagstamon/Nagstamon/Servers/Sensu.py:34: error: Need type annotation for 'SEVERITY_STATUS_TEXT_MAP'  [var-annotated]
+(HenriWahl)Nagstamon/Nagstamon/Servers/Sensu.py:194: error: "None" has no attribute "post_silence_request"  [attr-defined]
+(HenriWahl)Nagstamon/Nagstamon/Servers/__init__.py:50: error: Need type annotation for 'servers'  [var-annotated]
+(HenriWahl)Nagstamon/Nagstamon/Servers/__init__.py:56: error: Need type annotation for 'SERVER_TYPES'  [var-annotated]
+Found 7 errors in 4 files (checked 1 source file)
+
+[RRepo](seznam)fastrpc
+
+[RRepo](lostatc)codot
+
+[RRepo](pycrystem)pycrystem
+
+[RRepo](meng89)wpi
+(meng89)wpi/wpi/__init__.py:5: error: Need type annotation for '_modules' (hint: "_modules: Dict[<type>, <type>] = ...")  [var-annotated]
+(meng89)wpi/wpi/main.py:12: error: Module 'wpi' has no attribute 'version'  [attr-defined]
+(meng89)wpi/wpi/main.py:21: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(meng89)wpi/wpi/main.py:416: error: Not all arguments converted during string formatting  [str-format]
+Found 4 errors in 2 files (checked 13 source files)
+

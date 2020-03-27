@@ -1,0 +1,846 @@
+[RRepo](dcos)dcos
+(dcos)dcos/pkgpanda/cli.py: error: Duplicate module named 'cli' (also at '/home/bew/archive/typed_project/(dcos)dcos/dcos_installer/cli.py')  [misc]
+Found 1 error in 1 file (checked 127 source files)
+
+[RRepo](o19s)elasticsearch-learning-to-rank
+(o19s)elasticsearch-learning-to-rank/demo/utils.py:18: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[str, str]")  [assignment]
+(o19s)elasticsearch-learning-to-rank/demo/utils.py:19: error: Incompatible types in assignment (expression has type "None", variable has type "HTTPBasicAuth")  [assignment]
+Found 2 errors in 1 file (checked 9 source files)
+
+[RRepo](dslab-epfl)bugbase
+(dslab-epfl)bugbase/tests/integration_tests.py: error: Duplicate module named 'integration_tests' (also at '/home/bew/archive/typed_project/(dslab-epfl)bugbase/plugins/base/tests/integration_tests.py')  [misc]
+(dslab-epfl)bugbase/tests/integration_tests.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 51 source files)
+
+[RRepo](eliostvs)tomate-indicator-plugin
+Success: no issues found in 3 source files
+
+[RRepo](plugaai)aioinflux
+(plugaai)aioinflux/docs/conf.py:24: error: Need type annotation for 'meta' (hint: "meta: Dict[<type>, <type>] = ...")  [var-annotated]
+(plugaai)aioinflux/docs/conf.py:125: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(plugaai)aioinflux/tests/testing_utils.py:12: error: Name 'pd' is not defined  [name-defined]
+(plugaai)aioinflux/tests/testing_utils.py:12: error: Name 'no_pandas_warning' is not defined  [name-defined]
+(plugaai)aioinflux/tests/testing_utils.py:13: error: Name 'aioredis' is not defined  [name-defined]
+(plugaai)aioinflux/tests/testing_utils.py:13: error: Name 'no_redis_warning' is not defined  [name-defined]
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:21: error: Name 'df' already defined on line 18  [no-redef]
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:54: error: Name 'series' already defined on line 48  [no-redef]
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:123: error: No overload variant of "sub" matches argument types "Any", "Any"  [call-overload]
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:123: note: Possible overload variants:
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:123: note:     def [AnyStr in (str, bytes)] sub(pattern: AnyStr, repl: AnyStr, string: AnyStr, count: int = ..., flags: Union[int, RegexFlag] = ...) -> AnyStr
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:123: note:     def [AnyStr in (str, bytes)] sub(pattern: AnyStr, repl: Callable[[Match[AnyStr]], AnyStr], string: AnyStr, count: int = ..., flags: Union[int, RegexFlag] = ...) -> AnyStr
+(plugaai)aioinflux/aioinflux/serialization/dataframe.py:123: note:     <2 more similar overloads not shown, out of 4 total overloads>
+Found 9 errors in 3 files (checked 15 source files)
+
+[RRepo](centaurialpha)pireal
+(centaurialpha)pireal/src/gui/query_container/tab_widget.py:25: error: Module 'src' has no attribute 'translations'  [attr-defined]
+(centaurialpha)pireal/src/core/interpreter/rast.py:14: error: Incompatible types in assignment (expression has type "date", variable has type "str")  [assignment]
+(centaurialpha)pireal/src/core/interpreter/rast.py:17: error: Incompatible types in assignment (expression has type "date", variable has type "str")  [assignment]
+(centaurialpha)pireal/src/gui/dialogs/about_dialog.py:34: error: Module 'src' has no attribute 'translations'  [attr-defined]
+
+[RRepo](jerryjiahaha)spe2fits
+(jerryjiahaha)spe2fits/spe2fits.py:260: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(jerryjiahaha)spe2fits/spe2fits.py:260: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](ariebovenberg)snug
+(ariebovenberg)snug/examples/ns/query.py: error: Duplicate module named 'query' (also at '/home/bew/archive/typed_project/(ariebovenberg)snug/snug/query.py')  [misc]
+(ariebovenberg)snug/examples/ns/query.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 35 source files)
+
+[RRepo](ms-iot)python
+(ms-iot)python/cpython/Tools/hg/hgtouch.py:18: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 326 source files)
+
+[RRepo](terrycain)razer-drivers
+(terrycain)razer-drivers/scripts/driver/goliathus/test.py: error: Duplicate module named 'test' (also at '/home/bew/archive/typed_project/(terrycain)razer-drivers/scripts/driver/mamba_chroma_wireless_mouse/test.py')  [misc]
+Found 1 error in 1 file (checked 63 source files)
+
+[RRepo](PyCQA)pylint
+(PyCQA)pylint/pylint/pyreverse/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(PyCQA)pylint/pylint/utils/utils.py')  [misc]
+Found 1 error in 1 file (checked 156 source files)
+
+[RRepo](xenu256)QProb
+(xenu256)QProb/aggregator/amazon.py:15: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 36 source files)
+
+[RRepo](jpurma)Kataja
+(jpurma)Kataja/kataja/syntax/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(jpurma)Kataja/kataja/utils.py')  [misc]
+(jpurma)Kataja/kataja/syntax/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 220 source files)
+
+[RRepo](GoC-Spending)fuzzy-tribble
+
+[RRepo](MattiasFredriksson)Blender-Projection_Ops
+(MattiasFredriksson)Blender-Projection_Ops/2.79/projection_ops/uv_project.py: error: Duplicate module named 'projection_ops.uv_project' (also at '/home/bew/archive/typed_project/(MattiasFredriksson)Blender-Projection_Ops/2.8/projection_ops/uv_project.py')  [misc]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](parrt)AniML
+
+[RRepo](ceddie)bptc_wallet
+(ceddie)bptc_wallet/bptc/utils/toposort.py:1: error: Module 'toposort' has no attribute 'toposort_flatten'  [attr-defined]
+(ceddie)bptc_wallet/bptc/utils/toposort.py:1: error: Module 'toposort' has no attribute 'toposort_flatten'  [attr-defined]
+(ceddie)bptc_wallet/bptc/data/member.py:68: error: Item "None" of "Optional[Any]" has no attribute "info"  [union-attr]
+
+[RRepo](cernyd)gnunigma
+(cernyd)gnunigma/data_handler.py:23: error: Incompatible types in assignment (expression has type "str", variable has type Module)  [assignment]
+(cernyd)gnunigma/data_handler.py:37: error: "Base" has no attribute "attributes"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:38: error: "Base" has no attribute "after"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:38: error: "Base" has no attribute "attributes"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:39: error: "Base" has no attribute "resizable"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:41: error: "Base" has no attribute "iconbitmap"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:42: error: "Base" has no attribute "wm_title"  [attr-defined]
+(cernyd)gnunigma/data_handler.py:43: error: "Base" has no attribute "grab_set"  [attr-defined]
+Found 8 errors in 1 file (checked 3 source files)
+
+[RRepo](vovanbo)aiohttp_json_api
+(vovanbo)aiohttp_json_api/examples/fantasy/controllers.py: error: Duplicate module named 'controllers' (also at '/home/bew/archive/typed_project/(vovanbo)aiohttp_json_api/examples/simple/controllers.py')  [misc]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](Hardtack)Flask-Swag
+(Hardtack)Flask-Swag/setup.py:9: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+(Hardtack)Flask-Swag/flask_swag/utils.py:64: error: Argument 2 to "get" of "Mapping" has incompatible type "None"; expected "Union[Dict[str, str], Dict[Any, Any]]"  [arg-type]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:15: error: Relative import climbs too many namespaces  [misc]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:16: error: Relative import climbs too many namespaces  [misc]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:100: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:107: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:116: error: Item "None" of "Optional[Parameter]" has no attribute "annotation"  [union-attr]
+(Hardtack)Flask-Swag/flask_swag/extractor/base.py:218: error: Need type annotation for 'endpoints' (hint: "endpoints: Dict[<type>, <type>] = ...")  [var-annotated]
+(Hardtack)Flask-Swag/flask_swag/__init__.py:16: error: Module 'flask_swag.extractor' has no attribute 'Extractor'  [attr-defined]
+(Hardtack)Flask-Swag/flask_swag/__init__.py:16: error: Module 'flask_swag.extractor' has no attribute 'MarkExtractor'  [attr-defined]
+(Hardtack)Flask-Swag/tests/test_extractor.py:10: error: Module 'flask_swag.extractor' has no attribute 'Extractor'  [attr-defined]
+(Hardtack)Flask-Swag/tests/test_mark.py:10: error: Module 'flask_swag.extractor' has no attribute 'MarkExtractor'  [attr-defined]
+Found 12 errors in 6 files (checked 15 source files)
+
+[RRepo](JLuebben)Floppy
+(JLuebben)Floppy/floppy/templates.py:196: error: Need type annotation for 'ELEMENTS' (hint: "ELEMENTS: List[<type>] = ...")  [var-annotated]
+(JLuebben)Floppy/floppy/templates.py:243: error: List item 1 has incompatible type "Type[StdoutElement]"; expected "Type[IOElement]"  [list-item]
+(JLuebben)Floppy/floppy/templates.py:247: error: List item 1 has incompatible type "Type[DocElement]"; expected "Type[IOElement]"  [list-item]
+(JLuebben)Floppy/floppy/reportWidget.py:12: error: Variable "reportWidget.WebView" is not valid as a type  [valid-type]
+(JLuebben)Floppy/floppy/reportWidget.py:12: error: Invalid base class "WebView"  [misc]
+(JLuebben)Floppy/floppy/floppySettings.py:4: error: Name 'QDialog' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:106: error: Name 'QLineEdit' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:120: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:140: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:161: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:182: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:203: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:224: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:245: error: Name 'QPushButton' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:264: error: Name 'QSpinBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:280: error: Name 'QLineEdit' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/floppySettings.py:295: error: Name 'QComboBox' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/nodeLib.py:17: error: Too few arguments for "load_module" of "InspectLoader"  [call-arg]
+(JLuebben)Floppy/floppy/nodeLib.py:24: error: Name 'QLineEdit' is not defined  [name-defined]
+(JLuebben)Floppy/floppy/nodeLib.py:108: error: Name 'QListView' is not defined  [name-defined]
+Found 20 errors in 4 files (checked 13 source files)
+
+[RRepo](cenkalti)kuyruk
+(cenkalti)kuyruk/tests/integration/forever.py:21: error: Missing parentheses in call to 'print'. Did you mean print("Done.")?  [syntax]
+Found 1 error in 1 file (checked 22 source files)
+
+[RRepo](SunDwarf)OWAPI
+(SunDwarf)OWAPI/owapi/util.py:93: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:53: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:68: error: Unsupported target for indexed assignment  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:69: error: Unsupported target for indexed assignment  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:72: error: Value of type "object" is not indexable  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:73: error: Value of type "object" is not indexable  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:75: error: Value of type "object" is not indexable  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:76: error: Value of type "object" is not indexable  [index]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:95: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:105: error: Need type annotation for 'd'  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:126: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:136: error: Need type annotation for 'd'  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:163: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:173: error: Need type annotation for 'd'  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:196: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:206: error: Need type annotation for 'd'  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:240: error: Need type annotation for 'built_dict' (hint: "built_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)OWAPI/owapi/v3/__init__.py:265: error: Need type annotation for 'built_dict'  [var-annotated]
+(SunDwarf)OWAPI/owapi/app.py:85: error: Argument 1 to "InternalServerError" has incompatible type "Exception"; expected "Optional[str]"  [arg-type]
+(SunDwarf)OWAPI/owapi/app.py:138: error: Name 'root' already defined on line 31  [no-redef]
+(SunDwarf)OWAPI/owapi/blizz_interface.py:191: error: Argument 1 to "HTTPException" has incompatible type "int"; expected "Optional[str]"  [arg-type]
+(SunDwarf)OWAPI/owapi/blizz_interface.py:205: error: Argument 1 to "HTTPException" has incompatible type "int"; expected "Optional[str]"  [arg-type]
+Found 22 errors in 4 files (checked 5 source files)
+
+[RRepo](conferency)find-my-reviewers
+(conferency)find-my-reviewers/app/api/results.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 25 source files)
+
+[RRepo](tomer8007)kik-bot-api-unofficial
+(tomer8007)kik-bot-api-unofficial/kik_unofficial/datatypes/xmpp/roster.py:129: error: Name 'self.GroupSearchEntry' is not defined  [name-defined]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](chovanecm)sacredboard
+(chovanecm)sacredboard/sacredboard/app/data/pymongo/filesdao.py: error: Duplicate module named 'filesdao' (also at '/home/bew/archive/typed_project/(chovanecm)sacredboard/sacredboard/app/data/filesdao.py')  [misc]
+(chovanecm)sacredboard/sacredboard/app/data/pymongo/filesdao.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 40 source files)
+
+[RRepo](tjcsl)ion
+(tjcsl)ion/intranet/apps/users/forms.py: error: Duplicate module named 'forms' (also at '/home/bew/archive/typed_project/(tjcsl)ion/intranet/apps/polls/forms.py')  [misc]
+Found 1 error in 1 file (checked 158 source files)
+
+[RRepo](codesardine)Jade-Application-Kit
+(codesardine)Jade-Application-Kit/JAK/Utils.py:9: error: Need type annotation for 'register' (hint: "register: Dict[<type>, <type>] = ...")  [var-annotated]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:25: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:25: note: Possible overload variants:
+(codesardine)Jade-Application-Kit/JAK/Utils.py:25: note:     def __getitem__(self, int) -> Any
+(codesardine)Jade-Application-Kit/JAK/Utils.py:25: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:27: error: Incompatible types in assignment (expression has type "str", variable has type "Tuple[Any, ...]")  [assignment]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:31: error: No overload variant of "__getitem__" of "tuple" matches argument type "str"  [call-overload]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:31: note: Possible overload variants:
+(codesardine)Jade-Application-Kit/JAK/Utils.py:31: note:     def __getitem__(self, int) -> Any
+(codesardine)Jade-Application-Kit/JAK/Utils.py:31: note:     def __getitem__(self, slice) -> Tuple[Any, ...]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:33: error: Incompatible types in assignment (expression has type "str", variable has type "Tuple[Any, ...]")  [assignment]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:69: error: Invalid type comment or annotation  [valid-type]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:144: error: "JavaScript" has no attribute "page"  [attr-defined]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:147: error: Missing return statement  [return]
+(codesardine)Jade-Application-Kit/JAK/Utils.py:158: error: Incompatible return value type (got "bool", expected "str")  [return-value]
+(codesardine)Jade-Application-Kit/JAK/IPC.py:6: error: Name 'JavaScript' already defined (possibly by an import)  [no-redef]
+(codesardine)Jade-Application-Kit/JAK/IPC.py:46: error: "object" has no attribute "view"  [attr-defined]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:27: error: "str" has no attribute "isValid"  [attr-defined]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:29: error: "str" has no attribute "toString"  [attr-defined]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:61: error: Name 'JCancelConfirmDialog' already defined (possibly by an import)  [no-redef]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:89: error: Name '_Communication' already defined (possibly by an import)  [no-redef]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:155: error: "str" has no attribute "toString"  [attr-defined]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:157: error: No return value expected  [return-value]
+(codesardine)Jade-Application-Kit/JAK/WebEngine.py:315: error: Name 'InfoDialog' already defined (possibly by an import)  [no-redef]
+Found 18 errors in 3 files (checked 9 source files)
+
+[RRepo](claudio-walser)gitcd
+(claudio-walser)gitcd/gitcd/interface/kivy/__init__.py: error: Duplicate module named 'kivy' (also at '/home/bew/archive/typed_project/(claudio-walser)gitcd/gitcd/bin/kivy.py')  [misc]
+(claudio-walser)gitcd/gitcd/interface/kivy/__init__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 42 source files)
+
+[RRepo](mattsb42)pypi-parker
+(mattsb42)pypi-parker/docs/conf.py:160: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](wegamekinglc)alpha-mind
+(wegamekinglc)alpha-mind/alphamind/formula/utilities.py: error: Duplicate module named 'utilities' (also at '/home/bew/archive/typed_project/(wegamekinglc)alpha-mind/alphamind/utilities.py')  [misc]
+(wegamekinglc)alpha-mind/alphamind/formula/utilities.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 75 source files)
+
+[RRepo](itsthejoker)TranscribersOfReddit
+(itsthejoker)TranscribersOfReddit/tor/helpers/reddit_ids.py:8: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(itsthejoker)TranscribersOfReddit/tor/helpers/reddit_ids.py:8: note: Did you mean "List[...]"?
+
+[RRepo](dronecrew)ulog_tools
+(dronecrew)ulog_tools/ulog_tools/_lqrofb.py:121: error: Type signature has too few arguments  [syntax]
+(dronecrew)ulog_tools/ulog_tools/_sysid.py:80: error: Function has duplicate type signatures  [syntax]
+(dronecrew)ulog_tools/ulog_tools/_sysid.py:168: error: Function has duplicate type signatures  [syntax]
+(dronecrew)ulog_tools/ulog_tools/_sysid.py:168: error: Type signature has too few arguments  [syntax]
+Found 4 errors in 2 files (checked 6 source files)
+
+[RRepo](introlab)OpenIMU
+(introlab)OpenIMU/python/libopenimu/qt/ImportMatchDialog.py:10: error: Need type annotation for 'data_match' (hint: "data_match: Dict[<type>, <type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/qt/ProcessSelectWindow.py:48: error: "None" has no attribute "info"  [attr-defined]
+(introlab)OpenIMU/python/libopenimu/algorithms/BaseAlgorithm.py:30: error: Need type annotation for 'factories' (hint: "factories: List[<type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/algorithms/BaseAlgorithm.py:67: error: "BaseAlgorithmFactory" has no attribute "configure"  [attr-defined]
+(introlab)OpenIMU/python/libopenimu/qt/BackgroundProcess.py:17: error: Module "string" is not valid as a type  [valid-type]
+(introlab)OpenIMU/python/libopenimu/qt/BackgroundProcess.py:37: error: Module "string" is not valid as a type  [valid-type]
+(introlab)OpenIMU/python/libopenimu/qt/BackgroundProcess.py:71: error: Module "string" is not valid as a type  [valid-type]
+(introlab)OpenIMU/python/libopenimu/qt/BackgroundProcess.py:91: error: Need type annotation for 'work_speed_estimates' (hint: "work_speed_estimates: List[<type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/qt/BackgroundProcess.py:159: error: Name 'QTimerEvent' is not defined  [name-defined]
+(introlab)OpenIMU/python/libopenimu/qt/StreamWindow.py:19: error: Need type annotation for 'file_rows' (hint: "file_rows: Dict[<type>, <type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/qt/ImportWindow.py:18: error: Need type annotation for 'participants' (hint: "participants: List[<type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/qt/ImportWindow.py:19: error: Need type annotation for 'groups' (hint: "groups: List[<type>] = ...")  [var-annotated]
+(introlab)OpenIMU/python/libopenimu/importers/BaseImporter.py:42: error: Need type annotation for 'recordsets' (hint: "recordsets: List[<type>] = ...")  [var-annotated]
+Found 13 errors in 7 files (checked 69 source files)
+
+[RRepo](phauer)comment-sidecar
+(phauer)comment-sidecar/import/import_disqus_comments.py:86: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(phauer)comment-sidecar/import/import_disqus_comments.py:88: error: Unsupported operand types for + ("str" and "None")  [operator]
+(phauer)comment-sidecar/import/import_disqus_comments.py:118: error: Argument "reply_to" to "Comment" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](ClaudiuGeorgiu)PlaystoreDownloader
+(ClaudiuGeorgiu)PlaystoreDownloader/test/test_playstore_api.py:9: error: Module 'playstore' has no attribute 'playstore_proto_pb2'  [attr-defined]
+
+[RRepo](BigBrotherTrade)dashboard
+(BigBrotherTrade)dashboard/panel/views.py:148: error: Name 'Instrument' is not defined  [name-defined]
+(BigBrotherTrade)dashboard/panel/views.py:150: error: Name 'to_df' is not defined  [name-defined]
+(BigBrotherTrade)dashboard/panel/views.py:150: error: Name 'MainBar' is not defined  [name-defined]
+(BigBrotherTrade)dashboard/panel/views.py:153: error: Name 'pd' is not defined  [name-defined]
+(BigBrotherTrade)dashboard/panel/views.py:155: error: Name 'pd' is not defined  [name-defined]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](betterclever)susi_hardware
+(betterclever)susi_hardware/main/hotword_engine/snowboy/snowboydecoder.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](scivision)piradar
+(scivision)piradar/reference/hf_analyze.py:133: error: Missing parentheses in call to 'print'. Did you mean print("Done processing. Sleeping 60 seconds")?  [syntax]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](wtsi-hgi)python-json
+(wtsi-hgi)python-json/hgijson/tests/_serializers.py: error: Duplicate module named '_serializers' (also at '/home/bew/archive/typed_project/(wtsi-hgi)python-json/hgijson/json_converters/_serializers.py')  [misc]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](CactusDev)CactusBot
+(CactusDev)CactusBot/cactusbot/commands/magic/cactus.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 45 source files)
+
+[RRepo](mirumee)google-measurement-protocol
+(mirumee)google-measurement-protocol/google_measurement_protocol/report.py:14: error: Argument 2 to "_make_request" has incompatible type "Optional[Dict[str, str]]"; expected "Dict[str, str]"  [arg-type]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](sat2707)aicups
+(sat2707)aicups/baseline/python3_client/strategy.py: error: Duplicate module named 'strategy' (also at '/home/bew/archive/typed_project/(sat2707)aicups/baseline/python2_client/strategy.py')  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](jmackie4)activityio
+(jmackie4)activityio/activityio/pwx/_reading.py: error: Duplicate module named '_reading' (also at '/home/bew/archive/typed_project/(jmackie4)activityio/activityio/gpx/_reading.py')  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](home-assistant)home-assistant
+(home-assistant)home-assistant/script/hassfest/__main__.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 2411 source files)
+
+[RRepo](ikbenlike)Xenon
+(ikbenlike)Xenon/PyXenon/src/vm_utils.py:6: error: Name 'XenonStackItem' is not defined  [name-defined]
+(ikbenlike)Xenon/PyXenon/src/vm_utils.py:102: error: Name 'XenonStackItem' is not defined  [name-defined]
+(ikbenlike)Xenon/PyXenon/src/parser.py:25: error: Need type annotation for 'tokens' (hint: "tokens: List[<type>] = ...")  [var-annotated]
+(ikbenlike)Xenon/PyXenon/src/parser.py:28: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(ikbenlike)Xenon/PyXenon/src/parser.py:28: note: Did you mean "List[...]"?
+(ikbenlike)Xenon/PyXenon/src/parser.py:91: error: Missing return statement  [return]
+Found 5 errors in 2 files (checked 2 source files)
+
+[RRepo](Dejust)flask-base
+(Dejust)flask-base/app/config/__init__.py:43: error: Incompatible types in assignment (expression has type "str", base class "CommonConfig" defined the type as "None")  [assignment]
+(Dejust)flask-base/app/config/__init__.py:51: error: Incompatible types in assignment (expression has type "str", base class "CommonConfig" defined the type as "None")  [assignment]
+(Dejust)flask-base/app/config/__init__.py:59: error: Incompatible types in assignment (expression has type "str", base class "CommonConfig" defined the type as "None")  [assignment]
+(Dejust)flask-base/app/config/__init__.py:65: error: Incompatible types in assignment (expression has type "str", base class "CommonConfig" defined the type as "None")  [assignment]
+Found 4 errors in 1 file (checked 7 source files)
+
+[RRepo](socialwifi)dila
+(socialwifi)dila/dila/application/languages.py: error: Duplicate module named 'languages' (also at '/home/bew/archive/typed_project/(socialwifi)dila/dila/frontend/flask/languages.py')  [misc]
+(socialwifi)dila/dila/application/languages.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 41 source files)
+
+[RRepo](RasaHQ)rasa_core
+(RasaHQ)rasa_core/rasa/cli/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(RasaHQ)rasa_core/rasa/utils.py')  [misc]
+(RasaHQ)rasa_core/rasa/cli/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 103 source files)
+
+[RRepo](Phelimb)cbg
+(Phelimb)cbg/bigsi/__main__.py:155: error: Invalid type comment or annotation  [valid-type]
+(Phelimb)cbg/bigsi/__main__.py:155: note: Suggestion: use hug.types.one_of[...] instead of hug.types.one_of(...)
+(Phelimb)cbg/bigsi/tests/base.py:22: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, int]"; expected "Mapping[str, Collection[str]]"  [arg-type]
+(Phelimb)cbg/bigsi/tests/base.py:28: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, int]"; expected "Mapping[str, Collection[str]]"  [arg-type]
+(Phelimb)cbg/bigsi/tests/base.py:34: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, int]"; expected "Mapping[str, Collection[str]]"  [arg-type]
+Found 4 errors in 2 files (checked 35 source files)
+
+[RRepo](couchbase)perfrunner
+(couchbase)perfrunner/perfrunner/__main__.py: error: Duplicate module named '__main__' (also at '/home/bew/archive/typed_project/(couchbase)perfrunner/spring/__main__.py')  [misc]
+Found 1 error in 1 file (checked 91 source files)
+
+[RRepo](seanegoodwin)PandaViewer
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:6: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:7: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:8: error: Name 'Table' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:9: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:9: error: Name 'INTEGER' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:10: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:10: error: Name 'BOOLEAN' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:11: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:11: error: Name 'TEXT' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:12: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:12: error: Name 'INTEGER' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:13: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:13: error: Name 'TEXT' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:14: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:14: error: Name 'TEXT' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:15: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:15: error: Name 'TEXT' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:16: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:16: error: Name 'INTEGER' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:17: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:17: error: Name 'INTEGER' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:18: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:18: error: Name 'INTEGER' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:19: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:19: error: Name 'BOOLEAN' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:22: error: Name 'Table' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:23: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:23: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:24: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:24: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:25: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:25: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:25: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:26: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:26: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:27: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:27: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:28: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:28: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:29: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:29: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:30: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:30: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:31: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:31: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:32: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:32: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:32: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:33: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/004_migration.py:33: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:6: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:7: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:8: error: Name 'Table' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:9: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:9: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:10: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:10: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:11: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:11: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:11: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:12: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:12: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:13: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:13: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:14: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:14: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:15: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:15: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:16: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:16: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:17: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:17: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:18: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:18: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:18: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:19: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/003_migration.py:19: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:6: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:7: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:8: error: Name 'Table' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:9: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:9: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:10: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:10: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:11: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:11: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:11: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:12: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:12: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:13: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:13: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:14: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:14: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:14: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:15: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:15: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:16: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:16: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:17: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:17: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:18: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:18: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:19: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:19: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:19: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:20: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/005_migration.py:20: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:6: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:7: error: Name 'MetaData' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:8: error: Name 'Table' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:9: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:9: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:10: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:10: error: Name 'Boolean' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:10: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:11: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:11: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:12: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:12: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:13: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:13: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:14: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:14: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:15: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:15: error: Name 'Text' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:16: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:16: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:17: error: Name 'Column' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:17: error: Name 'Integer' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/migrate_repo/versions/002_migration.py:17: error: Name 'ColumnDefault' is not defined  [name-defined]
+(seanegoodwin)PandaViewer/PandaViewer/logger.py:9: error: "Logger" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:42: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:109: error: Syntax error in type annotation  [syntax]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:109: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:130: error: Module has no attribute "windll"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:134: error: Syntax error in type annotation  [syntax]
+(seanegoodwin)PandaViewer/PandaViewer/utils.py:134: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:28: error: Variable "PandaViewer.ex_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:28: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:47: error: Variable "PandaViewer.ex_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/ex_database.py:47: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:29: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:29: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:36: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:36: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:53: error: Variable "PandaViewer.user_database.base" is not valid as a type  [valid-type]
+(seanegoodwin)PandaViewer/PandaViewer/user_database.py:53: error: Invalid base class "base"  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:22: error: "Logger" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:31: error: Module has no attribute "windll"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:35: error: Module 'PandaViewer' has no attribute 'program'  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/__init__.py:35: error: Module 'PandaViewer' has no attribute 'threads'  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:35: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:53: error: Item "None" of "Optional[Metadata]" has no attribute "save"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: error: No overload variant of "pop" of "MutableMapping" matches argument type "None"  [call-overload]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note: Possible overload variants:
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note:     def pop(self, k: str) -> Metadata
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:98: note:     def [_T] pop(self, k: str, default: Union[Metadata, _T] = ...) -> Union[Metadata, _T]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:103: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:118: error: "None" not callable  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:156: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:199: error: "None" not callable  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:226: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:230: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:234: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:238: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:242: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:246: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:250: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:250: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:254: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:276: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:280: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:292: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:305: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:306: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:307: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:308: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:317: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:317: error: Incompatible return value type (got "Optional[Any]", expected "int")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:321: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:325: error: Item "None" of "Optional[Dict[Any, Any]]" has no attribute "get"  [union-attr]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:325: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:329: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:342: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:342: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:346: error: Incompatible types in assignment (expression has type "str", base class "Metadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:347: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:348: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:349: error: Incompatible types in assignment (expression has type "str", base class "WebMetadata" defined the type as "None")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/metadata.py:369: error: Unsupported target for indexed assignment  [index]
+(seanegoodwin)PandaViewer/PandaViewer/config.py:210: error: Cannot assign to a type  [misc]
+(seanegoodwin)PandaViewer/PandaViewer/config.py:210: error: Incompatible types in assignment (expression has type "Config", variable has type "Type[Config]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:17: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:18: error: "Type[Search]" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:21: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:25: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:41: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:45: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:48: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:84: error: Missing return statement  [return]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:85: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:88: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:95: error: Missing return statement  [return]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:96: error: Incompatible types in assignment (expression has type "Search", variable has type "Type[Search]")  [assignment]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:97: error: "Type[Search]" has no attribute "name"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/search.py:100: error: "Callable[[PandaViewer.logger.Logger], logging.Logger]" has no attribute "info"  [attr-defined]
+(seanegoodwin)PandaViewer/PandaViewer/views.py:2: error: Module 'PandaViewer' has no attribute 'flask_app'  [attr-defined]
+Found 202 errors in 13 files (checked 18 source files)
+
+[RRepo](SymbiFlow)symbiflow-arch-defs
+(SymbiFlow)symbiflow-arch-defs/utils/vlog/yosys/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(SymbiFlow)symbiflow-arch-defs/utils/lib/rr_graph_xml/utils.py')  [misc]
+Found 1 error in 1 file (checked 95 source files)
+
+[RRepo](khardix)mccurse
+(khardix)mccurse/mccurse/proxy.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](alexmick)emoji-data-python
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:45: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:53: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "int")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:54: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "int")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:57: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "List[str]")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:59: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "List[str]")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:62: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "int")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:63: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:65: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:66: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:67: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:68: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:69: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+(alexmick)emoji-data-python/emoji_data_python/emoji_char.py:70: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "bool")  [assignment]
+Found 13 errors in 1 file (checked 8 source files)
+
+[RRepo](guyingbo)shadowproxy
+(guyingbo)shadowproxy/shadowproxy/utils.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](artificilabs)trelliolibs
+(artificilabs)trelliolibs/trelliolibs/pigeon/channels.py:54: error: Incompatible types in assignment (expression has type "Dict[str, Any]", base class "BaseChannel" defined the type as "None")  [assignment]
+(artificilabs)trelliolibs/trelliolibs/pigeon/channels.py:54: error: Name 'DefaultEmailTemplate' is not defined  [name-defined]
+(artificilabs)trelliolibs/trelliolibs/utils/helpers.py:11: error: Name 'json' already defined (by an import)  [no-redef]
+(artificilabs)trelliolibs/trelliolibs/utils/helpers.py:18: error: Incompatible default for argument "records" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(artificilabs)trelliolibs/trelliolibs/contrib/rbac/middlewares.py:6: error: Name 'json' already defined (by an import)  [no-redef]
+Found 5 errors in 3 files (checked 14 source files)
+
+[RRepo](infopz)VotiFermiBot
+Success: no issues found in 1 source file
+
+[RRepo](pydcs)dcs
+(pydcs)dcs/dcs/goals.py:2: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 26 source files)
+
+[RRepo](0h-n0)forex_py
+(0h-n0)forex_py/frxpy/simulator/simple_simulator.py:78: error: Missing return statement  [return]
+(0h-n0)forex_py/frxpy/simulator/simple_simulator.py:82: error: Incompatible return value type (got "str", expected "bool")  [return-value]
+(0h-n0)forex_py/frxpy/data/csvfile.py:48: error: "CSVFile" has no attribute "datetime"  [attr-defined]
+Found 3 errors in 2 files (checked 5 source files)
+
+[RRepo](marczellm)tkpf
+(marczellm)tkpf/example/ExampleModel.py:10: error: Decorated property not supported  [misc]
+(marczellm)tkpf/tkpf/AutoProperty.py:12: error: Name 'self.dtype' is not defined  [name-defined]
+(marczellm)tkpf/tkpf/Window.py:5: error: Need type annotation for '_windows' (hint: "_windows: List[<type>] = ...")  [var-annotated]
+(marczellm)tkpf/tkpf/Directive.py:26: error: Need type annotation for 'directives' (hint: "directives: Dict[<type>, <type>] = ...")  [var-annotated]
+(marczellm)tkpf/tkpf/Component.py:49: error: "Widget" has no attribute "children"  [attr-defined]
+Found 5 errors in 5 files (checked 15 source files)
+
+[RRepo](kubeflow)kfserving
+(kubeflow)kfserving/python/sklearnserver/sklearnserver/model.py: error: Duplicate module named 'model' (also at '/home/bew/archive/typed_project/(kubeflow)kfserving/python/kfserving/kfserving/model.py')  [misc]
+Found 1 error in 1 file (checked 605 source files)
+
+[RRepo](pdt256)kata
+(pdt256)kata/python/src/PrimeFactors/test_PrimeFactors.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](eaudeweb)lcc-toolkit
+(eaudeweb)lcc-toolkit/lcc/templatetags/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(eaudeweb)lcc-toolkit/lcc/utils.py')  [misc]
+(eaudeweb)lcc-toolkit/lcc/templatetags/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 35 source files)
+
+[RRepo](cylc)cylc
+(cylc)cylc/cylc/flow/tests/parsec/test_config.py: error: Duplicate module named 'test_config' (also at '/home/bew/archive/typed_project/(cylc)cylc/cylc/flow/tests/test_config.py')  [misc]
+(cylc)cylc/cylc/flow/tests/parsec/test_config.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 126 source files)
+
+[RRepo](tek)amino
+(tek)amino/templates/state.py:123: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 117 source files)
+
+[RRepo](tkukushkin)asynqp-consumer
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/records.py:11: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/records.py:88: error: Incompatible types in assignment (expression has type "int", target has type "Optional[str]")  [assignment]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/records.py:93: error: Argument 1 to "ConnectionParams" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/records.py:93: error: Argument 1 to "ConnectionParams" has incompatible type "**Dict[str, Optional[str]]"; expected "int"  [arg-type]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:73: error: Name 'Iterator' is not defined  [name-defined]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:73: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Iterator")
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:80: error: Incompatible types in assignment (expression has type "None", variable has type "Future[Any]")  [assignment]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:89: error: Argument "loop" to "_connect" of "Consumer" has incompatible type "Optional[BaseEventLoop]"; expected "BaseEventLoop"  [arg-type]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:93: error: Argument "loop" to "_process_queue" of "Consumer" has incompatible type "Optional[BaseEventLoop]"; expected "BaseEventLoop"  [arg-type]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:94: error: Argument "loop" to "_check_bulk" of "Consumer" has incompatible type "Optional[BaseEventLoop]"; expected "BaseEventLoop"  [arg-type]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:112: error: Incompatible types in assignment (expression has type "None", variable has type "Future[Any]")  [assignment]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py:159: error: Need type annotation for 'messages_queue'  [var-annotated]
+(tkukushkin)asynqp-consumer/src/asynqp_consumer/connect.py:13: error: Incompatible types in assignment (expression has type "AbstractEventLoop", variable has type "Optional[BaseEventLoop]")  [assignment]
+Found 12 errors in 3 files (checked 12 source files)
+
+[RRepo](agraubert)agutil
+(agraubert)agutil/agutil/io/src/mplexsocket.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](mikeckennedy)write-pythonic-code-demos
+(mikeckennedy)write-pythonic-code-demos/code/ch_05_functions/_05_variable_length_arguments.py:12: error: Name 'biggest' already defined on line 1  [no-redef]
+(mikeckennedy)write-pythonic-code-demos/code/ch_05_functions/_05_variable_length_arguments.py:20: error: Too many arguments for "biggest"  [call-arg]
+(mikeckennedy)write-pythonic-code-demos/code/ch_05_functions/_03_no_overloading.py:6: error: Name 'simple' already defined on line 3  [no-redef]
+(mikeckennedy)write-pythonic-code-demos/code/ch_05_functions/_03_no_overloading.py:10: error: Too many arguments for "simple"  [call-arg]
+(mikeckennedy)write-pythonic-code-demos/code/ch_02_foundations/_01_truthiness.py:14: error: Need type annotation for 'seq' (hint: "seq: List[<type>] = ...")  [var-annotated]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:157: error: Name 'sys' is not defined  [name-defined]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:158: error: Name 'os' is not defined  [name-defined]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:159: error: Name 'multiprocessing' is not defined  [name-defined]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:160: error: Name 'path' is not defined  [name-defined]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:161: error: Name 'chmod' is not defined  [name-defined]
+(mikeckennedy)write-pythonic-code-demos/code/ch_01_pep8/_01_pep8.py:163: error: Name 'mean' is not defined  [name-defined]
+Found 11 errors in 4 files (checked 30 source files)
+
+[RRepo](OpenNFT)OpenNFT
+(OpenNFT)OpenNFT/opennft/_logging.py:6: error: Module 'opennft' has no attribute 'config'  [attr-defined]
+(OpenNFT)OpenNFT/opennft/utils.py:22: error: Module 'opennft' has no attribute 'config'  [attr-defined]
+(OpenNFT)OpenNFT/setup.py:10: error: Module 'distutils.core' has no attribute 'DistutilsOptionError'  [attr-defined]
+(OpenNFT)OpenNFT/opennft/mlproc.py:29: error: Module 'opennft' has no attribute 'config'  [attr-defined]
+(OpenNFT)OpenNFT/opennft/mlproc.py:137: error: Function "multiprocessing.Event" is not valid as a type  [valid-type]
+(OpenNFT)OpenNFT/opennft/mlproc.py:137: note: Perhaps you need "Callable[...]" or a callback protocol?
+(OpenNFT)OpenNFT/opennft/mlproc.py:147: error: mp.Event? has no attribute "clear"  [attr-defined]
+(OpenNFT)OpenNFT/opennft/mlproc.py:166: error: mp.Event? has no attribute "set"  [attr-defined]
+
+[RRepo](agdsn)sipa
+(agdsn)sipa/sipa/__init__.py: error: Duplicate module named 'sipa' (also at '/home/bew/archive/typed_project/(agdsn)sipa/sipa.py')  [misc]
+(agdsn)sipa/sipa/__init__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 69 source files)
+
+[RRepo](attwad)python-osc
+(attwad)python-osc/examples/dispatcher.py: error: Duplicate module named 'dispatcher' (also at '/home/bew/archive/typed_project/(attwad)python-osc/pythonosc/dispatcher.py')  [misc]
+Found 1 error in 1 file (checked 25 source files)
+
+[RRepo](etataurov)asyncio-apns
+(etataurov)asyncio-apns/asyncio_apns/apns_connection.py:93: error: Argument 4 to "_prepare_request" of "APNsConnection" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(etataurov)asyncio-apns/asyncio_apns/apns_connection.py:95: error: "None" has no attribute "send_request"  [attr-defined]
+(etataurov)asyncio-apns/asyncio_apns/h2_client.py:226: error: Argument 1 to "connect" of "H2ClientProtocol" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 3 errors in 2 files (checked 10 source files)
+
+[RRepo](ReagentX)HLTV-Scraper
+(ReagentX)HLTV-Scraper/hltv_scraper/get_match_ids.py:20: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(ReagentX)HLTV-Scraper/hltv_scraper/get_match_ids.py:28: error: Unsupported operand types for + ("str" and "int")  [operator]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](samuelcolvin)arq
+(samuelcolvin)arq/arq/cron.py: error: Duplicate module named 'cron' (also at '/home/bew/archive/typed_project/(samuelcolvin)arq/docs/examples/cron.py')  [misc]
+(samuelcolvin)arq/arq/cron.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 20 source files)
+
+[RRepo](c3cashdesk)c6sh
+(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_constraints.py:3: error: Relative import climbs too many namespaces  [misc]
+(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_preorder.py:3: error: Relative import climbs too many namespaces  [misc]
+(c3cashdesk)c6sh/src/postix/core/admin.py:18: error: Need type annotation for 'exclude' (hint: "exclude: List[<type>] = ...")  [var-annotated]
+(c3cashdesk)c6sh/src/postix/core/admin.py:74: error: Need type annotation for 'filter_horizontal' (hint: "filter_horizontal: List[<type>] = ...")  [var-annotated]
+(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_desk.py:5: error: Relative import climbs too many namespaces  [misc]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:13: error: Relative import climbs too many namespaces  [misc]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:14: error: Relative import climbs too many namespaces  [misc]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:207: error: Need type annotation for 'transaction_dict'  [var-annotated]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:208: error: Need type annotation for 'movement_dict'  [var-annotated]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:209: error: Need type annotation for 'post_movement_dict'  [var-annotated]
+(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py:281: error: Incompatible return value type (got "Union[Any, int]", expected "Decimal")  [return-value]
+Found 11 errors in 5 files (checked 15 source files)
+
+[RRepo](ytanay)thinglang
+(ytanay)thinglang/thinglang/compiler/serializer.py: error: Duplicate module named 'serializer' (also at '/home/bew/archive/typed_project/(ytanay)thinglang/thinglang/foundation/serializer.py')  [misc]
+Found 1 error in 1 file (checked 107 source files)
+
+[RRepo](fastats)fastats
+(fastats)fastats/fastats/linear_algebra/pca.py:4: error: Module 'fastats.scaling' has no attribute 'demean'  [attr-defined]
+(fastats)fastats/fastats/maths/correlation/pearson.py:4: error: Module 'fastats.scaling' has no attribute 'standard'  [attr-defined]
+(fastats)fastats/tests/core/ast_transforms/test_basic_sanity_deep_hierarchy.py:2: error: Module 'fastats' has no attribute 'fs'  [attr-defined]
+(fastats)fastats/tests/core/test_windowed_stateful_pass.py:5: error: Module 'fastats' has no attribute 'windowed_stateful_pass'  [attr-defined]
+(fastats)fastats/tests/core/test_single_pass.py:7: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/core/test_windowed_pass.py:5: error: Module 'fastats' has no attribute 'windowed_pass'  [attr-defined]
+(fastats)fastats/tests/core/test_windowed_pass.py:5: error: Module 'fastats' has no attribute 'windowed_pass_2d'  [attr-defined]
+(fastats)fastats/tests/core/test_windowed_pass.py:6: error: Module 'fastats.linear_algebra' has no attribute 'r_squared'  [attr-defined]
+(fastats)fastats/tests/utilities/test_arrays.py:4: error: Module 'fastats.utilities' has no attribute 'is_square'  [attr-defined]
+(fastats)fastats/tests/maths/test_logistic.py:5: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/maths/test_activations.py:6: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/maths/test_activations.py:7: error: Module 'fastats.maths' has no attribute 'relu'  [attr-defined]
+(fastats)fastats/tests/maths/test_activations.py:7: error: Module 'fastats.maths' has no attribute 'softplus'  [attr-defined]
+(fastats)fastats/tests/test_name_error_minimal.py:12: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/test_name_error_nested.py:12: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+(fastats)fastats/tests/test_name_error_addition.py:18: error: Module 'fastats' has no attribute 'fs'  [attr-defined]
+(fastats)fastats/tests/test_name_error_multi.py:4: error: Module 'fastats' has no attribute 'single_pass'  [attr-defined]
+
+[RRepo](getnikola)nikola
+(getnikola)nikola/nikola/state.py:35: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 92 source files)
+
+[RRepo](prkumar)uplink
+(prkumar)uplink/examples/async-requests/github.py: error: Duplicate module named 'github' (also at '/home/bew/archive/typed_project/(prkumar)uplink/examples/marshmallow/github.py')  [misc]
+Found 1 error in 1 file (checked 76 source files)
+
+[RRepo](raiden-network)raiden
+(raiden-network)raiden/raiden/transfer/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(raiden-network)raiden/raiden/utils/__init__.py')  [misc]
+Found 1 error in 1 file (checked 194 source files)
+
+[RRepo](containerum)chkit
+Success: no issues found in 8 source files
+
+[RRepo](joliveros)bitmex-websocket
+(joliveros)bitmex-websocket/tests/test_websocket.py:3: error: Module 'bitmex_websocket' has no attribute 'BitMEXWebsocket'  [attr-defined]
+(joliveros)bitmex-websocket/bitmex_websocket/_instrument.py:22: error: Invalid type comment or annotation  [valid-type]
+
+[RRepo](StarbotDiscord)Starbot
+(StarbotDiscord)Starbot/plugins/wikia.py: error: Duplicate module named 'wikia' (also at '/home/bew/archive/typed_project/(StarbotDiscord)Starbot/api/wikia.py')  [misc]
+Found 1 error in 1 file (checked 45 source files)
+
+[RRepo](igemsoftware2016)USTC-Software-2016
+(igemsoftware2016)USTC-Software-2016/app/views/plugin.py: error: Duplicate module named 'plugin' (also at '/home/bew/archive/typed_project/(igemsoftware2016)USTC-Software-2016/plugin.py')  [misc]
+(igemsoftware2016)USTC-Software-2016/app/views/plugin.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 38 source files)
+
+[RRepo](Ajapaik)ajapaik-web
+(Ajapaik)ajapaik-web/ajapaik/ajapaik/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(Ajapaik)ajapaik-web/ajapaik/utils.py')  [misc]
+(Ajapaik)ajapaik-web/ajapaik/ajapaik/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 91 source files)
+
+[RRepo](jr-minnaar)bitrader
+(jr-minnaar)bitrader/bitrader/arbitrage_tools.py:361: error: Argument 5 to "arbitrage" has incompatible type "**Dict[str, str]"; expected "bool"  [arg-type]
+(jr-minnaar)bitrader/bitrader/api_tools.py:50: error: Need type annotation for 'endpoint_options' (hint: "endpoint_options: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 4 source files)
+
+[RRepo](sameersingh)uci-statnlp
+Success: no issues found in 13 source files
+
+[RRepo](CAB-LAB)cablab-core
+(CAB-LAB)cablab-core/esdl/cube_access.py:144: error: Need type annotation for 'data_arrays' (hint: "data_arrays: Dict[<type>, <type>] = ...")  [var-annotated]
+(CAB-LAB)cablab-core/esdl/cate/esdc.py:32: error: Module has no attribute "Cube"  [attr-defined]
+(CAB-LAB)cablab-core/esdl/cate/esdc.py:40: error: Name 'esdl.Cube' is not defined  [name-defined]
+(CAB-LAB)cablab-core/esdl/cate/esdc.py:63: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "str")  [assignment]
+(CAB-LAB)cablab-core/esdl/cube_store.py:36: error: Module has no attribute "request"  [attr-defined]
+(CAB-LAB)cablab-core/esdl/cube_store.py:44: error: Need type annotation for '_dataset_cache' (hint: "_dataset_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(CAB-LAB)cablab-core/esdl/cube_config.py:188: error: Need type annotation for 'config' (hint: "config: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](lopter)lightsd
+(lopter)lightsd/apps/monolight/monolight/monolight.py:26: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](wylee)runcommands
+(wylee)runcommands/runcommands/commands.py: error: Duplicate module named 'commands' (also at '/home/bew/archive/typed_project/(wylee)runcommands/commands.py')  [misc]
+(wylee)runcommands/runcommands/commands.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 20 source files)
+
+[RRepo](nfqsolutions)pylm
+(nfqsolutions)pylm/examples/tee/server.py: error: Duplicate module named 'server' (also at '/home/bew/archive/typed_project/(nfqsolutions)pylm/pylm/remote/server.py')  [misc]
+Found 1 error in 1 file (checked 42 source files)
+
+[RRepo](psy0rz)meowton
+(psy0rz)meowton/micropython/lib/hx711.py:36: error: Incompatible types in assignment (expression has type "int", variable has type "Tuple[Any, ...]")  [assignment]
+(psy0rz)meowton/micropython/lib/hx711.py:72: error: Missing return statement  [return]
+(psy0rz)meowton/micropython/lib/ulogging.py:71: error: Need type annotation for '_loggers' (hint: "_loggers: Dict[<type>, <type>] = ...")  [var-annotated]
+(psy0rz)meowton/micropython/lib/pkg_resources.py:3: error: Need type annotation for 'c' (hint: "c: Dict[<type>, <type>] = ...")  [var-annotated]
+(psy0rz)meowton/micropython/timer.py:10: error: Module has no attribute "ticks_add"  [attr-defined]
+(psy0rz)meowton/micropython/timer.py:12: error: Module has no attribute "ticks_diff"  [attr-defined]
+(psy0rz)meowton/micropython/lib/uasyncio/__init__.py:18: error: Name 'EventLoop' is not defined  [name-defined]
+(psy0rz)meowton/micropython/lib/esp8266_i2c_lcd.py:6: error: Module 'time' has no attribute 'sleep_ms'; maybe "sleep"?  [attr-defined]
+(psy0rz)meowton/micropython/meowton.py:35: error: Incompatible types in assignment (expression has type "Db", variable has type Module)  [assignment]
+Found 9 errors in 7 files (checked 23 source files)
+
+[RRepo](i2y)mochi
+(i2y)mochi/mochi/utils/pycloader.py:6: error: Module 'mochi.core' has no attribute 'init'  [attr-defined]
+(i2y)mochi/mochi/utils/pycloader.py:6: error: Module 'mochi.core' has no attribute 'pyc_compile_monkeypatch'  [attr-defined]
+(i2y)mochi/mochi/core/constants.py:4: error: Module 'mochi.parser' has no attribute 'Symbol'  [attr-defined]
+
+[RRepo](pilotak)HomeAssistant-CustomComponents
+(pilotak)HomeAssistant-CustomComponents/clientraw/sensor.py: error: Duplicate module named 'sensor' (also at '/home/bew/archive/typed_project/(pilotak)HomeAssistant-CustomComponents/attributes/sensor.py')  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](Joklost).vimrc
+Success: no issues found in 1 source file
+
+[RRepo](mikeckennedy)consuming_services_python_demos
+(mikeckennedy)consuming_services_python_demos/services/consuming_services_apis/consuming_services_apis/data/memory_db.py:8: error: Need type annotation for 'data_lookup' (hint: "data_lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+(mikeckennedy)consuming_services_python_demos/services/consuming_services_apis/consuming_services_apis/data/memory_db.py:9: error: Need type annotation for 'base_data' (hint: "base_data: List[<type>] = ...")  [var-annotated]
+
+[RRepo](dpgaspar)Flask-AppBuilder
+(dpgaspar)Flask-AppBuilder/flask_appbuilder/console.py:16: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 125 source files)
+
+[RRepo](DLR-SC)prov2bigchaindb
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:108: error: Invalid type comment or annotation  [valid-type]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:124: error: Argument 1 of "get_document" is incompatible with supertype "BaseClient"; supertype defines the argument type as "object"  [override]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:159: error: Need type annotation for 'accounts' (hint: "accounts: List[<type>] = ...")  [var-annotated]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:176: error: Need type annotation for 'relations'  [var-annotated]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:188: error: Invalid type comment or annotation  [valid-type]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:224: error: Argument 1 of "get_document" is incompatible with supertype "BaseClient"; supertype defines the argument type as "object"  [override]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:267: error: Need type annotation for 'accounts' (hint: "accounts: List[<type>] = ...")  [var-annotated]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:322: error: Invalid type comment or annotation  [valid-type]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:336: error: Need type annotation for 'id_mapping' (hint: "id_mapping: Dict[<type>, <type>] = ...")  [var-annotated]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/clients.py:351: error: Argument 1 of "get_document" is incompatible with supertype "BaseClient"; supertype defines the argument type as "object"  [override]
+(DLR-SC)prov2bigchaindb/prov2bigchaindb/core/utils.py:18: error: Invalid type comment or annotation  [valid-type]
+Found 11 errors in 2 files (checked 10 source files)
+
+[RRepo](faneshion)MatchZoo
+(faneshion)MatchZoo/matchzoo/data_generator/callbacks/lambda_callback.py: error: Duplicate module named 'lambda_callback' (also at '/home/bew/archive/typed_project/(faneshion)MatchZoo/matchzoo/auto/tuner/callbacks/lambda_callback.py')  [misc]
+(faneshion)MatchZoo/matchzoo/data_generator/callbacks/lambda_callback.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 103 source files)
+

@@ -1,0 +1,1627 @@
+[RRepo](illagrenan)block-timer
+Success: no issues found in 3 source files
+
+[RRepo](AlvarBer)Persimmon
+(AlvarBer)Persimmon/persimmon/view/blocks/smart_bubble.py:50: error: Incompatible types in assignment (expression has type "Iterator[Any]", variable has type "Generator[Any, None, None]")  [assignment]
+(AlvarBer)Persimmon/persimmon/view/blocks/smart_bubble.py:97: error: "object" has no attribute "typesafe"  [attr-defined]
+Found 2 errors in 1 file (checked 26 source files)
+
+[RRepo](manzyun)Setsuna
+
+[RRepo](Brachi)albam
+(Brachi)albam/albam/ui/blender/operators.py:13: error: Invalid type comment or annotation  [valid-type]
+(Brachi)albam/albam/ui/blender/operators.py:13: note: Suggestion: use bpy.props.StringProperty[...] instead of bpy.props.StringProperty(...)
+(Brachi)albam/albam/ui/blender/operators.py:14: error: Invalid type comment or annotation  [valid-type]
+(Brachi)albam/albam/ui/blender/operators.py:14: note: Suggestion: use bpy.props.CollectionProperty[...] instead of bpy.props.CollectionProperty(...)
+(Brachi)albam/albam/ui/blender/operators.py:15: error: Invalid type comment or annotation  [valid-type]
+(Brachi)albam/albam/ui/blender/operators.py:15: note: Suggestion: use bpy.props.StringProperty[...] instead of bpy.props.StringProperty(...)
+(Brachi)albam/albam/ui/blender/operators.py:71: error: Invalid type comment or annotation  [valid-type]
+(Brachi)albam/albam/ui/blender/operators.py:71: note: Suggestion: use bpy.props.StringProperty[...] instead of bpy.props.StringProperty(...)
+Found 4 errors in 1 file (checked 16 source files)
+
+[RRepo](kdechant)eamon
+Success: no issues found in 9 source files
+
+[RRepo](ehouarn-perret)EhouarnPerret.Python.HackerRank
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:27: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:28: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:29: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:30: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:31: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:32: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/2 - Data Structures/3 - Trees/3 - Postorder Traversal.py:33: error: Name 'Node' is not defined  [name-defined]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: error: Argument 1 to "bytearray" has incompatible type "str"; expected "Iterable[int]"  [arg-type]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: note: Following member(s) of "str" have conflicts:
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: note:     Expected:
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: note:         def __iter__(self) -> Iterator[int]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: note:     Got:
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/1 - Algorithms/1 - Implementation/8 - Bigger is Greater.py:38: note:         def __iter__(self) -> Iterator[str]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/0 - Tutorials/10 Days of Statistics/Day 0 - Mean Median and Mode.py:6: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/0 - Tutorials/10 Days of Statistics/Day 0 - Mean Median and Mode.py:20: error: Need type annotation for 'counters' (hint: "counters: Dict[<type>, <type>] = ...")  [var-annotated]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/0 - Tutorials/10 Days of Statistics/Day 0 - Mean Median and Mode.py:31: error: Incompatible return value type (got "Optional[Any]", expected "int")  [return-value]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/0 - Tutorials/10 Days of Statistics/Day 1 - Standard Deviation.py:7: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(ehouarn-perret)EhouarnPerret.Python.HackerRank/6 - Python/Classes/1 - Find The Torsional Angle.py:14: error: Not all arguments converted during string formatting  [str-format]
+Found 13 errors in 5 files (checked 51 source files)
+
+[RRepo](vadimadr)python-algorithms
+(vadimadr)python-algorithms/algorithms/graph/searching.py:9: error: Module 'algorithms.graph' has no attribute 'BaseGraph'  [attr-defined]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:5: error: Module 'algorithms.graph' has no attribute 'BaseGraph'  [attr-defined]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:95: error: Need type annotation for 'adj_list'  [var-annotated]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:117: error: Need type annotation for 'edge_set' (hint: "edge_set: Set[<type>] = ...")  [var-annotated]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:125: error: Incompatible types in assignment (expression has type "Tuple[int, int]", variable has type "Tuple[int, int, Any]")  [assignment]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:126: error: Incompatible types in assignment (expression has type "Tuple[int, int]", variable has type "Tuple[int, int, Any]")  [assignment]
+(vadimadr)python-algorithms/algorithms/graph/utils.py:220: error: Need type annotation for 'edges' (hint: "edges: Dict[<type>, <type>] = ...")  [var-annotated]
+(vadimadr)python-algorithms/algorithms/graph/problems.py:3: error: Module 'algorithms.graph' has no attribute 'Graph'  [attr-defined]
+(vadimadr)python-algorithms/algorithms/graph/problems.py:30: error: Need type annotation for 'q'  [var-annotated]
+(vadimadr)python-algorithms/tests/test_sorting.py:89: error: Name 'bubble_sort' is not defined  [name-defined]
+(vadimadr)python-algorithms/tests/test_sorting.py:93: error: Name 'quick_sort' is not defined  [name-defined]
+(vadimadr)python-algorithms/tests/test_sorting.py:97: error: Name 'insertion_sort' is not defined  [name-defined]
+(vadimadr)python-algorithms/tests/test_sorting.py:101: error: Name 'selection_sort' is not defined  [name-defined]
+(vadimadr)python-algorithms/tests/test_sorting.py:105: error: Name 'heap_sort' is not defined  [name-defined]
+Found 14 errors in 4 files (checked 34 source files)
+
+[RRepo](sgelb)impositioner
+(sgelb)impositioner/impositioner/core.py:137: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(sgelb)impositioner/impositioner/core.py:142: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(sgelb)impositioner/impositioner/core.py:147: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(sgelb)impositioner/impositioner/core.py:226: error: Incompatible types in assignment (expression has type "None", variable has type "List[int]")  [assignment]
+Found 4 errors in 1 file (checked 3 source files)
+
+[RRepo](pandas-dev)pandas
+(pandas-dev)pandas/pandas/tests/io/formats/test_console.py:3: error: Module 'pandas._config' has no attribute 'detect_console_encoding'  [attr-defined]
+(pandas-dev)pandas/pandas/io/formats/css.py:232: error: Argument 1 to "_side_expander" has incompatible type "str"; expected "CSSResolver"  [arg-type]
+(pandas-dev)pandas/pandas/io/formats/css.py:233: error: Argument 1 to "_side_expander" has incompatible type "str"; expected "CSSResolver"  [arg-type]
+(pandas-dev)pandas/pandas/io/formats/css.py:234: error: Argument 1 to "_side_expander" has incompatible type "str"; expected "CSSResolver"  [arg-type]
+(pandas-dev)pandas/pandas/io/formats/css.py:235: error: Argument 1 to "_side_expander" has incompatible type "str"; expected "CSSResolver"  [arg-type]
+(pandas-dev)pandas/pandas/io/formats/css.py:236: error: Argument 1 to "_side_expander" has incompatible type "str"; expected "CSSResolver"  [arg-type]
+(pandas-dev)pandas/pandas/core/computation/expressions.py:13: error: Module 'pandas._config' has no attribute 'get_option'  [attr-defined]
+(pandas-dev)pandas/pandas/tests/extension/json/array.py:24: error: Module 'pandas.core.arrays' has no attribute 'ExtensionArray'  [attr-defined]
+(pandas-dev)pandas/pandas/tests/extension/json/array.py:30: error: Need type annotation for 'na_value'  [var-annotated]
+
+[RRepo](habedi)-myPython-LanguageCodes
+(habedi)-myPython-LanguageCodes/codes/ca.py:130: error: Missing parentheses in call to 'print'. Did you mean print(Cells[mx, my].Lneigh)?  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](sipb)homeworld
+(sipb)homeworld/platform/spire/src/keycrypt.py:14: error: Argument 1 to "isfile" has incompatible type "Optional[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(sipb)homeworld/platform/spire/src/keycrypt.py:16: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(sipb)homeworld/platform/bazel/cache-compute.py:13: error: Need type annotation for 'version_cache' (hint: "version_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(sipb)homeworld/platform/upload/src/gendebs.py:44: error: Need type annotation for 'hash_to_deb' (hint: "hash_to_deb: Dict[<type>, <type>] = ...")  [var-annotated]
+(sipb)homeworld/platform/spire/src/authority.py:89: error: Item "None" of "Optional[IO[bytes]]" has no attribute "__enter__"  [union-attr]
+(sipb)homeworld/platform/spire/src/authority.py:89: error: Item "None" of "Optional[IO[bytes]]" has no attribute "__exit__"  [union-attr]
+(sipb)homeworld/platform/spire/src/access.py:42: error: Incompatible return value type (got "Tuple[str, None]", expected "Tuple[str, str]")  [return-value]
+(sipb)homeworld/platform/spire/src/access.py:58: error: Incompatible return value type (got "Tuple[str, None]", expected "Tuple[str, str]")  [return-value]
+(sipb)homeworld/platform/spire/src/access.py:146: error: On Python 3 '%s' % b'abc' produces "b'abc'"; use %r if this is a desired behavior  [str-bytes-safe]
+(sipb)homeworld/platform/spire/src/access.py:162: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(sipb)homeworld/platform/spire/src/access.py:202: error: Argument 1 to "call_etcdctl" has incompatible type "Tuple[str, ...]"; expected "List[Any]"  [arg-type]
+(sipb)homeworld/platform/spire/src/packages.py:57: error: Need type annotation for 'kvs' (hint: "kvs: Dict[<type>, <type>] = ...")  [var-annotated]
+(sipb)homeworld/platform/spire/src/packages.py:95: error: Syntax error in type annotation  [syntax]
+(sipb)homeworld/platform/spire/src/packages.py:95: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(sipb)homeworld/platform/spire/src/packages.py:119: error: Need type annotation for 'lookup' (hint: "lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+(sipb)homeworld/platform/spire/src/packages.py:133: error: Syntax error in type annotation  [syntax]
+(sipb)homeworld/platform/spire/src/packages.py:133: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(sipb)homeworld/platform/spire/src/packages.py:148: error: Missing return statement  [return]
+Found 16 errors in 6 files (checked 27 source files)
+
+[RRepo](rlishtaba)py-algorithms
+(rlishtaba)py-algorithms/py_algorithms/stacks/finding_spans.py:3: error: Relative import climbs too many namespaces  [misc]
+(rlishtaba)py-algorithms/py_algorithms/challenges/various/quarantine/dp/_possible_change_ways.py:27: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/challenges/various/quarantine/arrays/_sum_swap.py:18: error: Need type annotation for 'solutions' (hint: "solutions: List[<type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/challenges/various/quarantine/arrays/_sum_swap.py:25: error: Incompatible return value type (got "List[Tuple[Any, Any]]", expected "Optional[List[Tuple[Any, ...]]]")  [return-value]
+(rlishtaba)py-algorithms/py_algorithms/challenges/coderbyte/weighted_path.py:12: error: Need type annotation for 'adj' (hint: "adj: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/challenges/coderbyte/weighted_path.py:13: error: Need type annotation for 'edges' (hint: "edges: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/challenges/coderbyte/weighted_path.py:66: error: Argument 2 to "fw_traverse" of "WeightedPath" has incompatible type "List[List[str]]"; expected "List[Tuple[str, str, int]]"  [arg-type]
+(rlishtaba)py-algorithms/py_algorithms/challenges/coderbyte/two_sum.py:15: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/challenges/coderbyte/two_sum.py:23: error: Incompatible return value type (got "List[List[int]]", expected "List[int]")  [return-value]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/deque.py:28: error: Too many arguments  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/deque.py:40: error: Too many arguments  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:28: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:33: error: Need type annotation for '_stored' (hint: "_stored: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:85: error: Function "builtins.any" is not valid as a type  [valid-type]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:85: note: Perhaps you need "Callable[...]" or a callback protocol?
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:100: error: Incompatible types in assignment (expression has type "_HeapNode", variable has type "None")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/heap.py:104: error: "None" has no attribute "right"  [attr-defined]
+(rlishtaba)py-algorithms/py_algorithms/graph/adt/graph.py:12: error: Need type annotation for '_outgoing' (hint: "_outgoing: Dict[<type>, <type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/py_algorithms/graph/adt/graph.py:29: error: Need type annotation for 'result' (hint: "result: Set[<type>] = ...")  [var-annotated]
+(rlishtaba)py-algorithms/tests/py_algorithms/strings/boyer_moore_find_test.py:1: error: Module 'py_algorithms.strings' has no attribute 'new_boyer_moore_find'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/strings/levenshtein_distance_test.py:1: error: Module 'py_algorithms.strings' has no attribute 'new_levenshtein_distance'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/in_order_traversal_test.py:1: error: Module 'py_algorithms.trees' has no attribute 'in_order_traversal'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/in_order_traversal_test.py:2: error: Module 'py_algorithms.trees' has no attribute 'new_bst_from_list'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/horizontal_level_order_traversal_test.py:1: error: Module 'py_algorithms.trees' has no attribute 'horizontal_level_order_traversal'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/horizontal_level_order_traversal_test.py:2: error: Module 'py_algorithms.trees' has no attribute 'new_bst_from_list'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/find_range_in_bst_test.py:1: error: Module 'py_algorithms.trees' has no attribute 'find_range_in_bst'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/find_range_in_bst_test.py:2: error: Module 'py_algorithms.trees' has no attribute 'new_bst_from_list'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/level_order_traversal_test.py:1: error: Module 'py_algorithms.trees' has no attribute 'level_order_traversal'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/trees/level_order_traversal_test.py:2: error: Module 'py_algorithms.trees' has no attribute 'new_bst_from_list'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/lists/find_merge_point_test.py:3: error: Module 'py_algorithms.lists' has no attribute 'new_singly_linked_node'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/lists/find_merge_point_test.py:4: error: Module 'py_algorithms.lists' has no attribute 'Node'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/lists/merge_two_sorted_test.py:3: error: Module 'py_algorithms.lists' has no attribute 'new_singly_linked_node'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/lists/merge_two_sorted_test.py:4: error: Module 'py_algorithms.lists' has no attribute 'Node'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/bubble_sort_test.py:5: error: Module 'py_algorithms.sort' has no attribute 'new_bubble_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/shell_sort_test.py:6: error: Module 'py_algorithms.sort' has no attribute 'new_shell_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/heap_sort_test.py:6: error: Module 'py_algorithms.sort' has no attribute 'new_heap_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/merge_sort_test.py:3: error: Module 'py_algorithms.sort' has no attribute 'new_merge_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/quick_sort_test.py:6: error: Module 'py_algorithms.sort' has no attribute 'new_quick_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/selection_sort_test.py:6: error: Module 'py_algorithms.sort' has no attribute 'new_selection_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sort/comb_sort_test.py:6: error: Module 'py_algorithms.sort' has no attribute 'new_comb_sort'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/suffix_array_test.py:3: error: Module 'py_algorithms.data_structures' has no attribute 'new_suffix_array'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/deque_test.py:6: error: Module 'py_algorithms.data_structures' has no attribute 'new_deque'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/max_heap_test.py:1: error: Module 'py_algorithms.data_structures' has no attribute 'new_max_heap'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/min_heap_test.py:1: error: Module 'py_algorithms.data_structures' has no attribute 'new_min_heap'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/stack_test.py:6: error: Module 'py_algorithms.data_structures' has no attribute 'new_stack'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/queue_test.py:6: error: Module 'py_algorithms.data_structures' has no attribute 'new_queue'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/heap_test.py:3: error: Module 'py_algorithms.data_structures' has no attribute 'Heap'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/heap_test.py:4: error: Module 'py_algorithms.data_structures' has no attribute 'new_heap'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/data_structures/priority_queue_test.py:1: error: Module 'py_algorithms.data_structures' has no attribute 'new_priority_queue'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/adt/graph_test.py:1: error: Module 'py_algorithms.graph' has no attribute 'new_undirected_graph'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/dijkstra_shortest_path_test.py:1: error: Module 'py_algorithms.graph' has no attribute 'new_dijkstra_shortest_path'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/dijkstra_shortest_path_test.py:2: error: Module 'py_algorithms.graph' has no attribute 'new_undirected_graph'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/dijkstra_shortest_path_test.py:3: error: Module 'py_algorithms.graph' has no attribute 'reconstruct_dijkstra_path_tree'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/reconstruct_dijkstra_path_tree_test.py:1: error: Module 'py_algorithms.graph' has no attribute 'new_dijkstra_shortest_path'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/reconstruct_dijkstra_path_tree_test.py:2: error: Module 'py_algorithms.graph' has no attribute 'new_undirected_graph'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/reconstruct_dijkstra_path_tree_test.py:3: error: Module 'py_algorithms.graph' has no attribute 'reconstruct_dijkstra_path_tree'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/topological_sort_test.py:1: error: Module 'py_algorithms.graph' has no attribute 'new_directed_graph'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/graph/topological_sort_test.py:1: error: Module 'py_algorithms.graph' has no attribute 'topological_sort_f1'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/search/common_test.py:5: error: Module 'py_algorithms.search' has no attribute 'new_binary_search'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/search/common_test.py:6: error: Module 'py_algorithms.search' has no attribute 'Search'  [attr-defined]
+(rlishtaba)py-algorithms/tests/py_algorithms/sets/powerset_test.py:1: error: Module 'py_algorithms.sets' has no attribute 'new_powerset'  [attr-defined]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/min_heap.py:9: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/max_heap.py:9: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/stack.py:13: error: Name 'Deque' is not defined  [name-defined]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/queue.py:13: error: Name 'Deque' is not defined  [name-defined]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:35: error: Incompatible default for argument "collection" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:36: error: Incompatible types in assignment (expression has type "None", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:37: error: Incompatible types in assignment (expression has type "None", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:47: error: Incompatible types in assignment (expression has type "None", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:48: error: Incompatible types in assignment (expression has type "None", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:72: error: Property "left" defined in "_Node" is read-only  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:72: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "Optional[_Node]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:73: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:75: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:84: error: Property "right" defined in "_Node" is read-only  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:84: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "Optional[_Node]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:85: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:87: error: Incompatible types in assignment (expression has type "_NodeImpl", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:102: error: Item "None" of "Optional[_Node]" has no attribute "left"  [union-attr]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:102: error: Property "left" defined in "_Node" is read-only  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:103: error: Incompatible types in assignment (expression has type "Optional[_Node]", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:118: error: Item "None" of "Optional[_Node]" has no attribute "right"  [union-attr]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:118: error: Property "right" defined in "_Node" is read-only  [misc]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/doubly_linked_list_deque.py:119: error: Incompatible types in assignment (expression has type "Optional[_Node]", variable has type "_Node")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:38: error: Incompatible default for argument "collection" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:48: error: Incompatible default for argument "collection" (default has type "Tuple[]", argument has type "List[T]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:58: error: Incompatible default for argument "collection" (default has type "Tuple[]", argument has type "List[T]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:68: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:89: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+(rlishtaba)py-algorithms/py_algorithms/data_structures/__init__.py:99: error: Incompatible default for argument "xs" (default has type "Tuple[]", argument has type "List[Any]")  [assignment]
+
+[RRepo](joshbuddy)slick
+
+[RRepo](ksindi)implements
+(ksindi)implements/tests.py:458: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](BitLooter)htmlark
+(BitLooter)htmlark/htmlark.py:21: error: Incompatible types in assignment (expression has type "None", variable has type "Callable[[Union[str, bytes], <union: 9 items>, KwArg(Any)], Response]")  [assignment]
+(BitLooter)htmlark/htmlark.py:23: error: Name 'RequestException' already defined (possibly by an import)  [no-redef]
+(BitLooter)htmlark/htmlark.py:44: error: Syntax error in type annotation  [syntax]
+(BitLooter)htmlark/htmlark.py:44: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(BitLooter)htmlark/htmlark.py:64: error: Incompatible types in assignment (expression has type "Tuple[Optional[str], Optional[str]]", variable has type "str")  [assignment]
+(BitLooter)htmlark/htmlark.py:71: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(BitLooter)htmlark/htmlark.py:184: error: Need type annotation for 'tags' (hint: "tags: List[<type>] = ...")  [var-annotated]
+(BitLooter)htmlark/tests/test_htmlark.py:10: error: Module has no attribute "util"  [attr-defined]
+Found 7 errors in 2 files (checked 2 source files)
+
+[RRepo](mikeckennedy)cookiecutter-course
+(mikeckennedy)cookiecutter-course/src/ch8_sharing_your_template/show_off_web_app/show_off_web_app/infrastructure/static_cache.py:22: error: Need type annotation for '__hash_lookup' (hint: "__hash_lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 22 source files)
+
+[RRepo](Synedh)showdown-battle-bot
+(Synedh)showdown-battle-bot/src/io_process.py:8: error: Need type annotation for 'battles' (hint: "battles: List[<type>] = ...")  [var-annotated]
+(Synedh)showdown-battle-bot/src/io_process.py:23: error: Invalid type comment or annotation  [valid-type]
+(Synedh)showdown-battle-bot/src/move_efficiency.py:20: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(Synedh)showdown-battle-bot/src/move_efficiency.py:20: note: Did you mean "List[...]"?
+(Synedh)showdown-battle-bot/src/move_efficiency.py:35: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+Found 4 errors in 2 files (checked 8 source files)
+
+[RRepo](pdasigi)neural-event-model
+Success: no issues found in 4 source files
+
+[RRepo](klen)muffin
+(klen)muffin/setup.py:17: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(klen)muffin/setup.py:18: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(klen)muffin/setup.py:19: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(klen)muffin/muffin/utils.py:119: error: Need type annotation for '__loops__' (hint: "__loops__: Dict[<type>, <type>] = ...")  [var-annotated]
+(klen)muffin/muffin/utils.py:164: error: Need type annotation for '__loops__' (hint: "__loops__: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](pantsbuild)setup
+Success: no issues found in 7 source files
+
+[RRepo](ros2)launch
+(ros2)launch/launch_xml/launch_xml/launch_description_sources/xml_launch_description_source.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch_testing/launch_testing/event_handlers/stdout_ready_listener.py:37: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(ros2)launch/launch_testing/launch_testing/event_handlers/stdout_ready_listener.py:37: note: Did you mean "List[...]"?
+(ros2)launch/launch_testing/launch_testing/asserts/assert_exit_codes.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch_testing/launch_testing/asserts/assert_output.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch_testing/launch_testing/actions/test.py:59: error: Missing return statement  [return]
+(ros2)launch/launch_testing/launch_testing/parse_arguments.py:33: error: Incompatible return value type (got "_OrderedDictItemsView[str, str]", expected "List[Tuple[str, str]]")  [return-value]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:42: error: Name 'Action' is not defined  [name-defined]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:50: error: Overloaded function signature 2 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:53: error: Name 'Action' is not defined  [name-defined]
+(ros2)launch/launch/launch/event_handlers/on_execution_complete.py:62: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:34: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_start.py:54: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_io.py:48: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_include_launch_description.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_include_launch_description.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_include_launch_description.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:34: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_process_exit.py:54: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handlers/on_shutdown.py:43: error: Overloaded function signature 2 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(ros2)launch/launch/launch/event_handlers/event_named.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/perform_substitutions_impl.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/perform_substitutions_impl.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/normalize_to_list_of_substitutions_impl.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/normalize_to_list_of_substitutions_impl.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/normalize_to_list_of_substitutions_impl.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/unless_condition.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/unless_condition.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/if_condition.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/if_condition.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/if_condition.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/if_condition.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/evaluate_condition_expression_impl.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/evaluate_condition_expression_impl.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/evaluate_condition_expression_impl.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/conditions/invalid_condition_expression_error.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/process_targeted_event.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/process_targeted_event.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/shutdown_process.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/process_matchers.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/running_process_event.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/running_process_event.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/shutdown.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/timer_event.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/timer_event.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/execution_complete.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/execution_complete.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/matchers.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file_dir.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file_dir.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file_dir.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file_dir.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file_dir.py:38: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/path_join_substitution.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/path_join_substitution.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/path_join_substitution.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/path_join_substitution.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:55: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:64: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:66: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:67: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:68: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:87: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/environment_variable.py:100: error: Incompatible return value type (got "Union[str, List[Any]]", expected "str")  [return-value]
+(ros2)launch/launch/launch/substitutions/find_executable.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/find_executable.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/find_executable.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/find_executable.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/find_executable.py:42: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/find_executable.py:48: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/find_executable.py:50: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/find_executable.py:63: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:45: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:63: error: Attribute '__default' already defined on line 48  [no-redef]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:70: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:73: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:74: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:75: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/launch_configuration.py:94: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/local_substitution.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/local_substitution.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/local_substitution.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/this_launch_file.py:38: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/text_substitution.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/text_substitution.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:48: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/substitutions/python_expression.py:54: error: Argument 1 to "len" has incompatible type "Iterable[Any]"; expected "Sized"  [arg-type]
+(ros2)launch/launch/launch/substitutions/python_expression.py:56: error: Value of type "Iterable[Any]" is not indexable  [index]
+(ros2)launch/launch/launch/substitutions/python_expression.py:69: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/frontend/type_utils.py:187: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Tuple[Type[int], Type[float], Type[bool], Type[str]]")  [assignment]
+(ros2)launch/launch/launch/frontend/type_utils.py:192: error: "object" not callable  [operator]
+(ros2)launch/launch/launch/frontend/type_utils.py:230: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[Type[int], Type[float], Type[bool], Type[List[Any]], Type[str]]")  [assignment]
+(ros2)launch/launch/launch/frontend/type_utils.py:240: error: Argument 1 to "coerce_list" has incompatible type "Union[str, List[str]]"; expected "List[str]"  [arg-type]
+(ros2)launch/launch/launch/frontend/type_utils.py:245: error: Argument 1 to "coerce_scalar" has incompatible type "Union[str, List[str]]"; expected "str"  [arg-type]
+(ros2)launch/launch/launch/launch_description_sources/python_launch_description_source.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/python_launch_description_source.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/any_launch_description_source.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/any_launch_description_source.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_file_utilities.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_file_utilities.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_file_utilities.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/any_launch_file_utilities.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/any_launch_file_utilities.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/any_launch_file_utilities.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_description_source.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_description_source.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/frontend_launch_description_source.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_launch_configuration.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:32: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:33: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/include_launch_description.py:34: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/log_info.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/log_info.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/log_info.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/log_info.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unset_environment_variable.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_function.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_function.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_function.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_environment_variable.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/emit_event.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/emit_event.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/emit_event.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/emit_event.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/declare_launch_argument.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/pop_launch_configurations.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/pop_launch_configurations.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/set_launch_configuration.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:25: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:26: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/group_action.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/register_event_handler.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/register_event_handler.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/register_event_handler.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/push_launch_configurations.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/push_launch_configurations.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unregister_event_handler.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unregister_event_handler.py:18: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/unregister_event_handler.py:19: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/event_handler.py:92: error: Missing return statement  [return]
+(ros2)launch/launch_yaml/launch_yaml/launch_description_sources/yaml_launch_description_source.py:20: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch_yaml/launch_yaml/entity.py:31: error: The return type of "__init__" must be None  [misc]
+(ros2)launch/launch_yaml/launch_yaml/entity.py:31: error: Missing return statement  [return]
+(ros2)launch/launch_yaml/launch_yaml/entity.py:46: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(ros2)launch/launch_testing/test/launch_testing/test_examples.py:35: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_testing/launch_testing/asserts/assert_sequential_output.py:17: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/test/launch/frontend/test_expose_decorators.py:31: error: Need type annotation for 'register' (hint: "register: Dict[<type>, <type>] = ...")  [var-annotated]
+(ros2)launch/launch/test/launch/actions/test_emulate_tty.py:37: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch/test/launch/test_execute_process.py:27: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch/launch/frontend/expose.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/frontend/expose.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/frontend/expose.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/frontend/expose.py:30: error: Need type annotation for 'action_parse_methods' (hint: "action_parse_methods: Dict[<type>, <type>] = ...")  [var-annotated]
+(ros2)launch/launch/launch/frontend/expose.py:31: error: Need type annotation for 'substitution_parse_methods' (hint: "substitution_parse_methods: Dict[<type>, <type>] = ...")  [var-annotated]
+(ros2)launch/launch_yaml/test/test_pep257.py:19: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_yaml/test/test_pep257.py:20: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_yaml/test/test_flake8.py:19: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_yaml/test/test_flake8.py:20: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_yaml/test/test_copyright.py:19: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch_yaml/test/test_copyright.py:20: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch/test/launch/test_logging.py:26: error: Module has no attribute "fixture"  [attr-defined]
+(ros2)launch/launch/test/launch/test_logging.py:62: error: Module has no attribute "mark"  [attr-defined]
+(ros2)launch/launch/launch/events/process/signal_process.py:24: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/events/process/signal_process.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/frontend/parse_substitution.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/launch_description_sources/python_launch_file_utilities.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/shutdown_action.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/shutdown_action.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/shutdown_action.py:23: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/logging/handlers.py:78: error: Incompatible types in assignment (expression has type "_module_wrapper", target has type Module)  [assignment]
+(ros2)launch/launch_yaml/launch_yaml/parser.py:34: error: Syntax error in type annotation  [syntax]
+(ros2)launch/launch_yaml/launch_yaml/parser.py:34: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(ros2)launch/launch_yaml/launch_yaml/parser.py:37: error: Incompatible types in assignment (expression has type "TextIO", variable has type "Union[str, TextIOBase]")  [assignment]
+(ros2)launch/launch_yaml/launch_yaml/parser.py:38: error: Argument 1 to "safe_load" has incompatible type "Union[str, TextIOBase]"; expected "Union[bytes, IO[bytes], str, IO[str]]"  [arg-type]
+(ros2)launch/launch/launch/utilities/visit_all_entities_and_collect_futures_impl.py:21: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/utilities/visit_all_entities_and_collect_futures_impl.py:22: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:27: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:28: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:29: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:30: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:31: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:32: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:73: error: Argument 1 to "iscoroutinefunction" has incompatible type "Coroutine[Any, Any, Any]"; expected "Callable[..., Any]"  [arg-type]
+(ros2)launch/launch/launch/actions/opaque_coroutine.py:106: error: "Coroutine[Any, Any, Any]" not callable  [operator]
+(ros2)launch/launch/launch/actions/timer_action.py:33: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:34: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:35: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:36: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:37: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:38: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:39: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:40: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:41: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:42: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:43: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:44: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:45: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:46: error: Relative import climbs too many namespaces  [misc]
+(ros2)launch/launch/launch/actions/timer_action.py:139: error: Item "None" of "Optional[Future[Any]]" has no attribute "set_result"  [union-attr]
+Found 292 errors in 78 files (checked 195 source files)
+
+[RRepo](grahame)dividebatur
+(grahame)dividebatur/dividebatur/tests/test_ticket_sort_key.py:1: error: Relative import climbs too many namespaces  [misc]
+(grahame)dividebatur/dividebatur/aecdata/pre2015.py:6: error: Relative import climbs too many namespaces  [misc]
+Found 2 errors in 2 files (checked 7 source files)
+
+[RRepo](tucuprum)jjal_downloader
+(tucuprum)jjal_downloader/crawler/page_analyze.py:13: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(tucuprum)jjal_downloader/crawler/page_analyze.py:14: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(tucuprum)jjal_downloader/crawler/page_analyze.py:15: error: Need type annotation for 'images' (hint: "images: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 12 source files)
+
+[RRepo](SKA-ScienceDataProcessor)algorithm-reference-library
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/calibration/calibration_control.py:17: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/calibration/calibration_control.py:18: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/calibration/calibration_control.py:19: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/visibility/gather_scatter.py:19: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/visibility/gather_scatter.py:20: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/workflows/scripts/pipelines/performance/pipelines-timings/csd3/plot_results.py:68: error: Need type annotation for 'td' (hint: "td: Dict[<type>, <type>] = ...")  [var-annotated]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_library/imaging/imaging_params.py:65: error: Item "None" of "Optional[Any]" has no attribute "polarisation_frame"  [union-attr]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/visibility/gather_scatter.py:19: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/visibility/gather_scatter.py:20: error: Relative import climbs too many namespaces  [misc]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/simulation/configurations.py:33: error: Item "None" of "Optional[Any]" has no attribute "geodetic"  [union-attr]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/simulation/configurations.py:35: error: Item "None" of "Optional[Any]" has no attribute "geocentric"  [union-attr]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/simulation/configurations.py:36: error: Item "None" of "Optional[Any]" has no attribute "geocentric"  [union-attr]
+(SKA-ScienceDataProcessor)algorithm-reference-library/processing_components/simulation/configurations.py:37: error: Item "None" of "Optional[Any]" has no attribute "geocentric"  [union-attr]
+
+[RRepo](PaulKlinger)Enhance-GoodReads-Export
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export.py:79: error: Name 'e' is not defined  [name-defined]
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export.py:136: error: Incompatible return value type (got "List[Tuple[None, datetime]]", expected "List[Tuple[datetime, datetime]]")  [return-value]
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export_gui.py:24: error: Incompatible types in assignment (expression has type "IOQueue", variable has type "TextIO")  [assignment]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](ambv)retype
+Success: no issues found in 4 source files
+
+[RRepo](Hagi17)Public
+(Hagi17)Public/python/utility.py:30: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(Hagi17)Public/python/utility.py:59: error: Item "None" of "Optional[str]" has no attribute "strip"  [union-attr]
+(Hagi17)Public/python/utility.py:81: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(Hagi17)Public/python/utility.py:106: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(Hagi17)Public/python/utility.py:130: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(Hagi17)Public/python/utility.py:154: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(Hagi17)Public/python/utility.py:178: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+Found 7 errors in 1 file (checked 1 source file)
+
+[RRepo](memento7)KINCluster
+(memento7)KINCluster/tests/test_cluster.py:20: error: Name 'Pipeline' already defined (possibly by an import)  [no-redef]
+(memento7)KINCluster/tests/test_pipeline.py:14: error: Name 'Pipeline' already defined (possibly by an import)  [no-redef]
+(memento7)KINCluster/tests/test_extractor.py:22: error: Name 'Pipeline' already defined (possibly by an import)  [no-redef]
+(memento7)KINCluster/KINCluster/core/extractor.py:26: error: Need type annotation for 's' (hint: "s: Dict[<type>, <type>] = ...")  [var-annotated]
+(memento7)KINCluster/KINCluster/core/extractor.py:70: error: Incompatible return value type (got "Tuple[Any, int]", expected "int")  [return-value]
+(memento7)KINCluster/KINCluster/core/extractor.py:73: error: Need type annotation for 'counter'  [var-annotated]
+(memento7)KINCluster/KINCluster/core/extractor.py:78: error: Incompatible return value type (got "Counter[Any]", expected "Union[Set[Any], List[Counter[Any]]]")  [return-value]
+(memento7)KINCluster/KINCluster/core/extractor.py:103: error: 'builtins.int' object is not iterable  [misc]
+(memento7)KINCluster/KINCluster/core/extractor.py:104: error: Cannot determine type of 'index'  [has-type]
+(memento7)KINCluster/KINCluster/core/extractor.py:126: error: Need type annotation for 'w'  [var-annotated]
+(memento7)KINCluster/KINCluster/core/extractor.py:127: error: Incompatible return value type (got "List[Tuple[Any, float]]", expected "List[str]")  [return-value]
+(memento7)KINCluster/KINCluster/KINCluster.py:6: error: Module 'KINCluster' has no attribute 'settings'  [attr-defined]
+(memento7)KINCluster/KINCluster/core/cluster.py:6: error: Module 'KINCluster' has no attribute 'settings'  [attr-defined]
+(memento7)KINCluster/KINCluster/lib/tokenizer.py:6: error: Module 'KINCluster' has no attribute 'settings'  [attr-defined]
+(memento7)KINCluster/KINCluster/lib/tokenizer.py:15: error: Need type annotation for 's' (hint: "s: Dict[<type>, <type>] = ...")  [var-annotated]
+(memento7)KINCluster/KINCluster/lib/tokenizer.py:100: error: Incompatible return value type (got "Tuple[List[Any], Any]", expected "Union[List[str], str]")  [return-value]
+(memento7)KINCluster/KINCluster/lib/tokenizer.py:115: error: "str" has no attribute "pop"  [attr-defined]
+Found 17 errors in 7 files (checked 12 source files)
+
+[RRepo](SkierPGP)Skier
+(SkierPGP)Skier/db.py:11: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:75: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:94: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:105: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/skier/pgp.py:65: error: Item "None" of "Optional[bytes]" has no attribute "decode"  [union-attr]
+(SkierPGP)Skier/skier/pgp.py:80: error: Incompatible return value type (got "None", expected "str")  [return-value]
+
+[RRepo](Buchhold)QLever
+(Buchhold)QLever/misc/fix_nt_file.py:26: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](hemberg-lab)scRNA.seq.course
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:79: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:79: error: Item "None" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:80: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:80: error: Item "None" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:82: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "cell_axis"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:82: error: Item "None" of "Optional[List[Any]]" has no attribute "cell_axis"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:83: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "skip_rows"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:83: error: Item "None" of "Optional[List[Any]]" has no attribute "skip_rows"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:84: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "skip_columns"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:84: error: Item "None" of "Optional[List[Any]]" has no attribute "skip_columns"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:85: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:85: error: Item "None" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:86: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:86: error: Item "None" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:87: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "gene_name_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:87: error: Item "None" of "Optional[List[Any]]" has no attribute "gene_name_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:88: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:88: error: Item "None" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:89: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:89: error: Item "None" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:90: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "use_ensemble_ids"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:90: error: Item "None" of "Optional[List[Any]]" has no attribute "use_ensemble_ids"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:92: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:92: error: Item "None" of "Optional[List[Any]]" has no attribute "filetype"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:93: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:93: error: Item "None" of "Optional[List[Any]]" has no attribute "data_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:93: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "genome"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:93: error: Item "None" of "Optional[List[Any]]" has no attribute "genome"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:94: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "use_ensemble_ids"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:94: error: Item "None" of "Optional[List[Any]]" has no attribute "use_ensemble_ids"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:96: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "mols_per_cell_min"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:96: error: Item "None" of "Optional[List[Any]]" has no attribute "mols_per_cell_min"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:96: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "mols_per_cell_max"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:96: error: Item "None" of "Optional[List[Any]]" has no attribute "mols_per_cell_max"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:98: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "no_normalize"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:98: error: Item "None" of "Optional[List[Any]]" has no attribute "no_normalize"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:101: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "log_transform"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:101: error: Item "None" of "Optional[List[Any]]" has no attribute "log_transform"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:102: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "log_transform"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:102: error: Item "None" of "Optional[List[Any]]" has no attribute "log_transform"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "pca_components"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "None" of "Optional[List[Any]]" has no attribute "pca_components"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "pca_non_random"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "None" of "Optional[List[Any]]" has no attribute "pca_non_random"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "t"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:104: error: Item "None" of "Optional[List[Any]]" has no attribute "t"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "k"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "None" of "Optional[List[Any]]" has no attribute "k"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "ka"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "None" of "Optional[List[Any]]" has no attribute "ka"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "epsilon"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "None" of "Optional[List[Any]]" has no attribute "epsilon"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "rescale"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:105: error: Item "None" of "Optional[List[Any]]" has no attribute "rescale"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:107: error: Item "List[Any]" of "Optional[List[Any]]" has no attribute "output_file"  [union-attr]
+(hemberg-lab)scRNA.seq.course/course_files/utils/MAGIC.py:107: error: Item "None" of "Optional[List[Any]]" has no attribute "output_file"  [union-attr]
+Found 56 errors in 1 file (checked 1 source file)
+
+[RRepo](playpauseandstop)aiohttp-middlewares
+Success: no issues found in 12 source files
+
+[RRepo](jfde)augentbot
+(jfde)augentbot/scripts/pymarkovchain_dynamic/MarkovChain.py:6: error: Name 'pickle' already defined (possibly by an import)  [no-redef]
+
+[RRepo](Kowlin)refactored-cogs
+(Kowlin)refactored-cogs/githubcards/githubcards.py:184: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](SecuredByTHEM)ndr
+Success: no issues found in 29 source files
+
+[RRepo](kevinkwl)AoAReader
+(kevinkwl)AoAReader/aoareader/Dataset.py:77: error: Incompatible types in assignment (expression has type "Tensor", variable has type "LongTensor")  [assignment]
+(kevinkwl)AoAReader/aoareader/Dataset.py:77: error: Argument 1 to "stack" has incompatible type "LongTensor"; expected "Union[Tuple[Tensor, ...], List[Tensor]]"  [arg-type]
+(kevinkwl)AoAReader/aoareader/Dataset.py:78: error: Incompatible types in assignment (expression has type "Tensor", variable has type "LongTensor")  [assignment]
+(kevinkwl)AoAReader/aoareader/Dataset.py:80: error: Incompatible types in assignment (expression has type "Tensor", variable has type "LongTensor")  [assignment]
+(kevinkwl)AoAReader/aoareader/Dataset.py:81: error: Too many arguments for "Variable"  [call-arg]
+(kevinkwl)AoAReader/aoareader/Dataset.py:81: error: Unexpected keyword argument "volatile" for "Variable"  [call-arg]
+(kevinkwl)AoAReader/aoareader/Dataset.py:81: error: Unexpected keyword argument "requires_grad" for "Variable"  [call-arg]
+(kevinkwl)AoAReader/aoareader/Dataset.py:81: error: Incompatible types in assignment (expression has type "Variable", variable has type "LongTensor")  [assignment]
+(kevinkwl)AoAReader/preprocess.py:86: error: Too many arguments for "LongTensor"  [call-arg]
+(kevinkwl)AoAReader/preprocess.py:86: error: Incompatible types in assignment (expression has type "LongTensor", variable has type "List[Any]")  [assignment]
+Found 10 errors in 2 files (checked 6 source files)
+
+[RRepo](ivandardi)StreamNotificationBot
+
+[RRepo](NEAT-project)neat
+
+[RRepo](ErikBjare)pyzenobase
+(ErikBjare)pyzenobase/examples/upload_lifelogger_spreadsheet/main.py:53: error: Not all arguments converted during string formatting  [str-format]
+(ErikBjare)pyzenobase/examples/upload_lifelogger_spreadsheet/main.py:63: error: Invalid type comment or annotation  [valid-type]
+(ErikBjare)pyzenobase/examples/upload_lifelogger_spreadsheet/main.py:89: error: Invalid type comment or annotation  [valid-type]
+(ErikBjare)pyzenobase/examples/upload_lifelogger_spreadsheet/main.py:122: error: Need type annotation for 'table' (hint: "table: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 4 errors in 1 file (checked 5 source files)
+
+[RRepo](ResolveWang)WeiboSpider
+(ResolveWang)WeiboSpider/db/models.py:6: error: Name 'login_info' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:10: error: Name 'wbuser' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:17: error: Name 'seed_ids' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:21: error: Name 'keywords' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:25: error: Name 'weibo_data' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:32: error: Name 'keywords_wbdata' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:36: error: Name 'weibo_comment' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:42: error: Name 'weibo_praise' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:49: error: Name 'weibo_repost' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:59: error: Name 'user_relation' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/db/models.py:76: error: Name 'weibo_dialogue' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/tasks/login.py:5: error: Module 'login' has no attribute 'get_session'  [attr-defined]
+(ResolveWang)WeiboSpider/tests/conftest.py:7: error: Module 'login' has no attribute 'get_cookies'  [attr-defined]
+(ResolveWang)WeiboSpider/tests/test_log.py:21: error: Name 'crawler' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/tests/test_log.py:21: error: Name 'parser' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/tests/test_log.py:21: error: Name 'storage' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/tests/test_log.py:21: error: Name 'other' is not defined  [name-defined]
+(ResolveWang)WeiboSpider/page_parse/user/person.py:6: error: Relative import climbs too many namespaces  [misc]
+(ResolveWang)WeiboSpider/tests/test_utils.py:7: error: Name 'mock' already defined (by an import)  [no-redef]
+Found 19 errors in 6 files (checked 37 source files)
+
+[RRepo](Parbhat)cookiecutter-django-foundation
+(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/tests/test_forms.py:3: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](Rhilip)cn-mooc-dl
+(Rhilip)cn-mooc-dl/model/download.py:78: error: Need type annotation for 'queue'  [var-annotated]
+(Rhilip)cn-mooc-dl/model/download.py:92: error: Invalid type comment or annotation  [valid-type]
+(Rhilip)cn-mooc-dl/model/download.py:92: note: Suggestion: use requests.Session[...] instead of requests.Session(...)
+(Rhilip)cn-mooc-dl/model/login.py:13: error: Need type annotation for 'cookie'  [var-annotated]
+(Rhilip)cn-mooc-dl/model/login.py:20: error: Invalid type comment or annotation  [valid-type]
+(Rhilip)cn-mooc-dl/model/login.py:20: note: Suggestion: use requests.session[...] instead of requests.session(...)
+Found 4 errors in 2 files (checked 7 source files)
+
+[RRepo](irmen)Tale
+(irmen)Tale/stories/circle/zones/circledata/circle_mobs.py:448: error: Incompatible types in assignment (expression has type "Type[object]", variable has type "Type[CircleMob]")  [assignment]
+(irmen)Tale/stories/circle/zones/circledata/circle_mobs.py:459: error: Item "None" of "Optional[Match[Any]]" has no attribute "groups"  [union-attr]
+(irmen)Tale/tale/cmds/__init__.py:55: error: Module 'tale.cmds' has no attribute 'wizard'  [attr-defined]
+(irmen)Tale/tale/cmds/__init__.py:56: error: Module 'tale.cmds' has no attribute 'normal'  [attr-defined]
+(irmen)Tale/tale/main.py:13: error: Module 'tale.tio' has no attribute 'DEFAULT_SCREEN_DELAY'  [attr-defined]
+(irmen)Tale/tale/main.py:49: error: Module 'tale.tio' has no attribute 'tkinter_io'  [attr-defined]
+(irmen)Tale/stories/circle/zones/circledata/parse_zon_files.py:133: error: Argument 4 to "ZMobile" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(irmen)Tale/stories/circle/zones/circledata/circle_locations.py:126: error: Item "None" of "Union[PetShop, Garbagedump, None]" has no attribute "circle_vnum"  [union-attr]
+(irmen)Tale/stories/circle/zones/circledata/circle_locations.py:127: error: Item "None" of "Union[PetShop, Garbagedump, None]" has no attribute "circle_zone"  [union-attr]
+(irmen)Tale/stories/circle/zones/circledata/circle_locations.py:129: error: Item "None" of "Union[PetShop, Garbagedump, None]" has no attribute "add_extradesc"  [union-attr]
+(irmen)Tale/stories/circle/zones/circledata/circle_locations.py:145: error: Item "None" of "Union[PetShop, Garbagedump, None]" has no attribute "exits"  [union-attr]
+(irmen)Tale/stories/circle/zones/circledata/circle_locations.py:153: error: Item "None" of "Union[PetShop, Garbagedump, None]" has no attribute "description"  [union-attr]
+(irmen)Tale/stories/demo/zones/town.py:62: error: Item "None" of "Optional[Any]" has no attribute "privileges"  [union-attr]
+
+[RRepo](dekarrin)moe-serifu-agent
+(dekarrin)moe-serifu-agent/python/msa/config.py:13: error: Need type annotation for '_arr' (hint: "_arr: Dict[<type>, <type>] = ...")  [var-annotated]
+(dekarrin)moe-serifu-agent/python/msa/config.py:72: error: Need type annotation for 'sections' (hint: "sections: Dict[<type>, <type>] = ...")  [var-annotated]
+(dekarrin)moe-serifu-agent/python/msa/config.py:100: error: Invalid index type "Optional[str]" for "Dict[str, Section]"; expected type "str"  [index]
+(dekarrin)moe-serifu-agent/python/sphinx/conf.py:128: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(dekarrin)moe-serifu-agent/python/msa/core/event.py:78: error: Incompatible types in assignment (expression has type "Optional[Dict[Any, Any]]", variable has type "None")  [assignment]
+Found 5 errors in 3 files (checked 23 source files)
+
+[RRepo](corpnewt)CorpBot.py
+(corpnewt)CorpBot.py/Cogs/RateLimit.py:94: error: Argument 1 to "int" has incompatible type "Optional[int]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Errors.py:7: error: Module 'Cogs' has no attribute 'Message'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/GameLookup.py:9: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/GameLookup.py:10: error: Module 'Cogs' has no attribute 'Message'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/DrBeer.py:5: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/Calc.py:6: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/Calc.py:95: error: Name 'cmp' is not defined  [name-defined]
+(corpnewt)CorpBot.py/Cogs/EightBall.py:5: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/CheckRoles.py:4: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/CheckRoles.py:82: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/CheckRoles.py:100: error: Item "None" of "Optional[Any]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/Mute.py:71: error: Name 'onjoin' already defined on line 24  [no-redef]
+(corpnewt)CorpBot.py/Cogs/Channel.py:8: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/Channel.py:365: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(corpnewt)CorpBot.py/Cogs/Channel.py:368: error: No overload variant of "write" of "BinaryIO" matches argument type "str"  [call-overload]
+(corpnewt)CorpBot.py/Cogs/Channel.py:368: note: Possible overload variants:
+(corpnewt)CorpBot.py/Cogs/Channel.py:368: note:     def write(self, s: bytearray) -> int
+(corpnewt)CorpBot.py/Cogs/Channel.py:368: note:     def write(self, s: bytes) -> int
+(corpnewt)CorpBot.py/Cogs/Actions.py:17: error: Need type annotation for 'nothingList' (hint: "nothingList: List[<type>] = ...")  [var-annotated]
+(corpnewt)CorpBot.py/Cogs/Actions.py:18: error: Need type annotation for 'botList' (hint: "botList: List[<type>] = ...")  [var-annotated]
+(corpnewt)CorpBot.py/Cogs/Actions.py:19: error: Need type annotation for 'selfList' (hint: "selfList: List[<type>] = ...")  [var-annotated]
+(corpnewt)CorpBot.py/Cogs/Actions.py:20: error: Need type annotation for 'memberList' (hint: "memberList: List[<type>] = ...")  [var-annotated]
+(corpnewt)CorpBot.py/Cogs/Actions.py:21: error: Need type annotation for 'itemList' (hint: "itemList: List[<type>] = ...")  [var-annotated]
+(corpnewt)CorpBot.py/Cogs/Actions.py:223: error: Argument 1 to "computeAction" has incompatible type "Type[eating]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Actions.py:231: error: Argument 1 to "computeAction" has incompatible type "Type[drinking]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Actions.py:239: error: Argument 1 to "computeAction" has incompatible type "Type[booping]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Actions.py:250: error: Argument 1 to "computeAction" has incompatible type "Type[spooky]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Actions.py:258: error: Argument 1 to "computeAction" has incompatible type "Type[highfives]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/Actions.py:266: error: Argument 1 to "computeAction" has incompatible type "Type[petting]"; expected "actionable"  [arg-type]
+(corpnewt)CorpBot.py/Cogs/CogManager.py:10: error: Module 'Cogs' has no attribute 'Settings'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/CogManager.py:11: error: Module 'Cogs' has no attribute 'Message'  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/CogManager.py:140: error: Assignment to variable 'e' outside except: block  [misc]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:88: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:105: error: Item "str" of "Optional[str]" has no attribute "id"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:105: error: Item "None" of "Optional[str]" has no attribute "id"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:107: error: Item "str" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:107: error: Item "None" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:115: error: Item "str" of "Optional[str]" has no attribute "id"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:115: error: Item "None" of "Optional[str]" has no attribute "id"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:115: error: Item "str" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:115: error: Item "None" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:118: error: Item "str" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:118: error: Item "None" of "Optional[str]" has no attribute "name"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:158: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:168: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:180: error: "str" has no attribute "id"  [attr-defined]
+(corpnewt)CorpBot.py/Cogs/DJRoles.py:184: error: "str" has no attribute "name"  [attr-defined]
+
+[RRepo](threema-ch)ocspresponder
+Success: no issues found in 3 source files
+
+[RRepo](alexarnautu)deenux
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:35: error: Name 'Structure' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:37: error: Name 'c_char_p' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:38: error: Name 'c_char_p' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:39: error: Name 'c_char_p' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:40: error: Name 'c_char_p' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:41: error: Name 'dz_on_event_cb_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:42: error: Name 'c_void_p' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_connect.py:43: error: Name 'dz_connect_crash_reporting_delegate_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_player.py:61: error: Name 'sys' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_player.py:62: error: Name 'sys' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_player.py:63: error: Name 'sys' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/wrapper/deezer_player.py:64: error: Name 'sys' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:36: error: Name 'platform' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:39: error: Name 'Connection' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:47: error: Name 'dz_on_event_cb_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:48: error: Name 'dz_activity_operation_cb_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:53: error: Name 'Player' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:61: error: Name 'dz_activity_operation_cb_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:62: error: Name 'dz_activity_operation_cb_func' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Jukebox.py:64: error: Need type annotation for 'event_handlers' (hint: "event_handlers: Dict[<type>, <type>] = ...")  [var-annotated]
+(alexarnautu)deenux/src/deenuxapi/deezer/Model.py:13: error: Need type annotation for 'basic_cache'  [var-annotated]
+(alexarnautu)deenux/src/components/toolbar/Toolbar.py:27: error: Too few arguments for "Toolbar"  [call-arg]
+(alexarnautu)deenux/src/components/sidemenu/Sidemenu.py:27: error: Too few arguments for "Sidemenu"  [call-arg]
+(alexarnautu)deenux/src/components/songlist/Songlist.py:63: error: Too few arguments for "Songlist"  [call-arg]
+(alexarnautu)deenux/src/deenuxapi/deezer/ResourceManager.py:47: error: "Type[ResourceManager]" has no attribute "API"  [attr-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/DeezerProvider.py:29: error: Property "token" defined in "DeezerProvider" is read-only  [misc]
+(alexarnautu)deenux/src/deenuxapi/deezer/DeezerProvider.py:43: error: Name 'token' already defined on line 31  [no-redef]
+(alexarnautu)deenux/src/deenuxapi/deezer/DeezerProvider.py:43: error: "Callable[[DeezerProvider], Any]" has no attribute "setter"  [attr-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Request.py:52: error: Name 'HTTP_METHOD' is not defined  [name-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Request.py:55: error: "Response" has no attribute "decode"  [attr-defined]
+(alexarnautu)deenux/src/deenuxapi/deezer/Request.py:56: error: Incompatible types in assignment (expression has type Module, variable has type "Response")  [assignment]
+(alexarnautu)deenux/src/deenuxapi/deezer/Request.py:57: error: Name 'api_conn' is not defined  [name-defined]
+Found 32 errors in 10 files (checked 35 source files)
+
+[RRepo](BatedUrGonnaDie)salty_bot
+(BatedUrGonnaDie)salty_bot/salty_listener.py:111: error: Missing parentheses in call to 'print'. Did you mean print(address)?  [syntax]
+Found 1 error in 1 file (checked 51 source files)
+
+[RRepo](opendoor-labs)rets
+(opendoor-labs)rets/rets/client/resource_class.py:43: error: Incompatible types in assignment (expression has type "FrozenSet[Any]", variable has type "None")  [assignment]
+(opendoor-labs)rets/rets/client/resource_class.py:44: error: Incompatible return value type (got "None", expected "FrozenSet[str]")  [return-value]
+(opendoor-labs)rets/rets/client/resource_class.py:79: error: Argument 1 to "_assert_fields" of "ResourceClass" has incompatible type "Mapping[str, str]"; expected "Sequence[str]"  [arg-type]
+(opendoor-labs)rets/tests/client/http_client_test.py:3: error: Module 'mock' has no attribute 'mock'  [attr-defined]
+(opendoor-labs)rets/rets/http/parsers/parse_object.py:29: error: Incompatible return value type (got "object", expected "Sequence[Any]")  [return-value]
+(opendoor-labs)rets/rets/http/parsers/parse_object.py:138: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(opendoor-labs)rets/rets/http/parsers/parse.py:61: error: Generator has incompatible item type "Generator[Any, None, None]"; expected "Tuple[Any, Any]"  [misc]
+(opendoor-labs)rets/rets/http/parsers/parse.py:135: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(opendoor-labs)rets/rets/http/parsers/parse.py:140: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[Dict[Any, Any], ...]")  [assignment]
+Found 9 errors in 4 files (checked 14 source files)
+
+[RRepo](spencer404)PyLoom
+(spencer404)PyLoom/pyloom/worker/prod.py:4: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/task/tasks.py:8: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/common.py:43: error: Need type annotation for 'loggers' (hint: "loggers: Dict[<type>, <type>] = ...")  [var-annotated]
+(spencer404)PyLoom/pyloom/common.py:124: error: Need type annotation for '_dbs' (hint: "_dbs: Dict[<type>, <type>] = ...")  [var-annotated]
+(spencer404)PyLoom/pyloom/debugger/launcher.py:8: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/debugger/launcher.py:9: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/debugger/launcher.py:10: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/debugger/launcher.py:11: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/debugger/launcher.py:12: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/scheduler/client.py:3: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/server/web.py:12: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/server/web.py:13: error: Relative import climbs too many namespaces  [misc]
+(spencer404)PyLoom/pyloom/server/web.py:26: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(spencer404)PyLoom/pyloom/server/web.py:26: note: Did you mean "List[...]"?
+(spencer404)PyLoom/pyloom/server/web.py:80: error: Function "web.Args.str" is not valid as a type  [valid-type]
+(spencer404)PyLoom/pyloom/server/web.py:80: note: Perhaps you need "Callable[...]" or a callback protocol?
+(spencer404)PyLoom/pyloom/server/web.py:99: error: Function "web.Args.str" is not valid as a type  [valid-type]
+(spencer404)PyLoom/pyloom/server/web.py:99: note: Perhaps you need "Callable[...]" or a callback protocol?
+(spencer404)PyLoom/pyloom/server/web.py:120: error: Function "web.Args.str" is not valid as a type  [valid-type]
+(spencer404)PyLoom/pyloom/server/web.py:120: note: Perhaps you need "Callable[...]" or a callback protocol?
+(spencer404)PyLoom/pyloom/server/web.py:131: error: Function "web.Args.str" is not valid as a type  [valid-type]
+(spencer404)PyLoom/pyloom/server/web.py:131: note: Perhaps you need "Callable[...]" or a callback protocol?
+(spencer404)PyLoom/pyloom/server/web.py:142: error: Function "web.Args.str" is not valid as a type  [valid-type]
+(spencer404)PyLoom/pyloom/server/web.py:142: note: Perhaps you need "Callable[...]" or a callback protocol?
+(spencer404)PyLoom/pyloom/server/web.py:295: error: Argument 1 to "url_unescape" has incompatible type "Optional[str]"; expected "Union[str, bytes]"  [arg-type]
+(spencer404)PyLoom/pyloom/server/web.py:304: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 20 errors in 6 files (checked 15 source files)
+
+[RRepo](BurntSushi)pdoc
+(BurntSushi)pdoc/pdoc/extract.py:57: error: Module has no attribute "util"  [attr-defined]
+(BurntSushi)pdoc/pdoc/extract.py:58: error: Module has no attribute "util"  [attr-defined]
+Found 2 errors in 1 file (checked 14 source files)
+
+[RRepo](stanta)darfchain
+(stanta)darfchain/darfchain/models/sale_order.py:73: error: Missing parentheses in call to 'print'. Did you mean print(hash_of_synchronaze)?  [syntax]
+Found 1 error in 1 file (checked 132 source files)
+
+[RRepo](mancellin)capytaine
+(mancellin)capytaine/capytaine/meshes/collections.py:153: error: Decorated property not supported  [misc]
+(mancellin)capytaine/capytaine/meshes/collections.py:153: error: Decorated property not supported  [misc]
+(mancellin)capytaine/capytaine/ui/vtk/helpers.py:19: error: Module has no attribute "vtkPoints"  [attr-defined]
+(mancellin)capytaine/capytaine/ui/vtk/helpers.py:24: error: Module has no attribute "vtkCellArray"  [attr-defined]
+(mancellin)capytaine/capytaine/ui/vtk/helpers.py:29: error: Module has no attribute "vtkTriangle"  [attr-defined]
+(mancellin)capytaine/capytaine/ui/vtk/helpers.py:33: error: Module has no attribute "vtkQuad"  [attr-defined]
+(mancellin)capytaine/capytaine/ui/vtk/helpers.py:40: error: Module has no attribute "vtkPolyData"  [attr-defined]
+(mancellin)capytaine/capytaine/meshes/symmetric.py:283: error: Argument 1 to "len" has incompatible type "Iterable[float]"; expected "Sized"  [arg-type]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:279: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockCirculantMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:279: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockSymmetricToeplitzMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:279: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockToeplitzMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:283: error: Incompatible return value type (got "Set[Tuple[int, int]]", expected "List[Tuple[int, int]]")  [return-value]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:287: error: Incompatible return value type (got "Set[Tuple[int, int]]", expected "List[Tuple[int, int]]")  [return-value]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:317: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockCirculantMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:317: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockSymmetricToeplitzMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:317: error: Return type "List[Tuple[int, int]]" of "_block_indices_of" incompatible with return type "Set[Tuple[int, int]]" in supertype "BlockToeplitzMatrix"  [override]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:321: error: Incompatible return value type (got "Set[Tuple[int, int]]", expected "List[Tuple[int, int]]")  [return-value]
+(mancellin)capytaine/capytaine/matrices/block_toeplitz.py:325: error: Incompatible return value type (got "Set[Tuple[int, int]]", expected "List[Tuple[int, int]]")  [return-value]
+
+[RRepo](joelgrus)data-science-from-scratch
+(joelgrus)data-science-from-scratch/scratch/introduction.py:25: error: Need type annotation for 'friendships'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/introduction.py:131: error: Need type annotation for 'user_ids_by_interest'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/introduction.py:137: error: Need type annotation for 'interests_by_user_id'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/introduction.py:157: error: Need type annotation for 'salary_by_tenure'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/introduction.py:202: error: Need type annotation for 'salary_by_tenure_bucket'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/databases.py:130: error: Need type annotation for 'grouped_rows'  [var-annotated]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/plot_state_borders.py:5: error: Need type annotation for 'points' (hint: "points: List[<type>] = ...")  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/mapreduce.py:33: error: Need type annotation for 'collector'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/mapreduce.py:64: error: Need type annotation for 'collector'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/mapreduce.py:120: error: Need type annotation for 'results_by_index'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/mapreduce.py:176: error: Need type annotation for 'word_counts'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/clustering.py:17: error: Need type annotation for 'clusters'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/clustering.py:38: error: Value of type "None" is not indexable  [index]
+(joelgrus)data-science-from-scratch/scratch/clustering.py:47: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "None")  [assignment]
+(joelgrus)data-science-from-scratch/scratch/clustering.py:57: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "None")  [assignment]
+(joelgrus)data-science-from-scratch/scratch/clustering.py:195: error: Value of type "None" is not indexable  [index]
+(joelgrus)data-science-from-scratch/scratch/gradient_descent.py:23: error: Name 'partial_difference_quotient' is not defined  [name-defined]
+(joelgrus)data-science-from-scratch/scratch/network_analysis.py:59: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(joelgrus)data-science-from-scratch/scratch/recommender_systems.py:96: error: Name 'Dict' is not defined  [name-defined]
+(joelgrus)data-science-from-scratch/scratch/recommender_systems.py:96: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Dict")
+(joelgrus)data-science-from-scratch/scratch/recommender_systems.py:152: error: Need type annotation for 'suggestions'  [var-annotated]
+(joelgrus)data-science-from-scratch/scratch/recommender_systems.py:161: error: Incompatible types in assignment (expression has type "List[Tuple[Any, float]]", variable has type "defaultdict[Any, float]")  [assignment]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:41: error: List comprehension has incompatible type List[Tuple[List[float], str]]; expected List[Tuple[float, float, str]]  [misc]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:112: error: Too many values to unpack (2 expected, 3 provided)  [misc]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:116: error: Cannot determine type of 'location'  [has-type]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:116: error: Cannot determine type of 'actual_language'  [has-type]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:118: error: Cannot determine type of 'location'  [has-type]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/nearest_neighbors.py:120: error: Cannot determine type of 'actual_language'  [has-type]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:171: error: Need type annotation for 'document_topic_counts'  [var-annotated]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:174: error: Need type annotation for 'topic_word_counts'  [var-annotated]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:247: error: Need type annotation for 'transitions'  [var-annotated]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:260: error: Need type annotation for 'trigram_transitions'  [var-annotated]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:309: error: Incompatible types in assignment (expression has type "Counter[Any]", variable has type "List[int]")  [assignment]
+(joelgrus)data-science-from-scratch/first-edition/code-python3/natural_language_processing.py:311: error: "List[int]" has no attribute "most_common"  [attr-defined]
+Found 33 errors in 10 files (checked 27 source files)
+
+[RRepo](mmgen)mmgen
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/boolean.py:1: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/lists.py:6: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/lists.py:8: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/text.py:1: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/text.py:2: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/binary.py:1: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/binary.py:2: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/raw.py:8: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/raw.py:9: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/big_endian_int.py:1: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/sedes/big_endian_int.py:2: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/altcoins/eth/rlp/codec.py:3: error: Relative import climbs too many namespaces  [misc]
+(mmgen)mmgen/mmgen/filename.py:27: error: Name 'MMGenObject' is not defined  [name-defined]
+(mmgen)mmgen/mmgen/filename.py:76: error: Name 'MMGenObject' is not defined  [name-defined]
+
+[RRepo](andrewrothstein)dcb
+(andrewrothstein)dcb/src/dcb/registry.py:11: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:13: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:14: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:15: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:30: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:31: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:32: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:33: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:36: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:37: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/registry.py:38: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:14: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:14: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:14: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:15: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:15: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:15: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:19: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:26: error: Name 'resolve_setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:41: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:41: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:41: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:42: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:45: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:45: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:45: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:46: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:49: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:49: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:49: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:51: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:52: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:53: error: Name 'OwnerFromSlugSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:54: error: Name 'OwnerFromSlugSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:55: error: Name 'ParentCwdSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:59: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:59: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:59: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:61: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:62: error: Name 'EnvSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:63: error: Name 'ProjectFromSlugSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:64: error: Name 'ProjectFromSlugSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:65: error: Name 'CwdSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:69: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:69: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:69: error: Name 'Setting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:70: error: Name 'summarize_settings' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:78: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:79: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:89: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:90: error: Name 'LiteralSetting' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:97: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:97: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:99: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:99: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:107: error: Name 'os' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:108: error: Name 'os' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:113: error: Not all arguments converted during string formatting  [str-format]
+(andrewrothstein)dcb/src/dcb/image.py:128: error: Missing return statement  [return]
+(andrewrothstein)dcb/src/dcb/image.py:128: error: Name 'List' is not defined  [name-defined]
+(andrewrothstein)dcb/src/dcb/image.py:128: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+(andrewrothstein)dcb/src/dcb/image.py:143: error: Missing return statement  [return]
+(andrewrothstein)dcb/src/dcb/image.py:158: error: Missing return statement  [return]
+Found 53 errors in 2 files (checked 10 source files)
+
+[RRepo](vertexproject)synapse
+(vertexproject)synapse/scripts/pep8_staged_files.py:23: error: Need type annotation for 'ignore_codes' (hint: "ignore_codes: List[<type>] = ...")  [var-annotated]
+(vertexproject)synapse/scripts/syntax_check.py:28: error: Need type annotation for 'ignore_codes' (hint: "ignore_codes: List[<type>] = ...")  [var-annotated]
+(vertexproject)synapse/scripts/benchmark_cortex.py:10: error: Module 'time' has no attribute 'perf_counter'  [attr-defined]
+(vertexproject)synapse/synapse/lib/platforms/windows.py:18: error: Module has no attribute "windll"  [attr-defined]
+(vertexproject)synapse/synapse/lib/platforms/windows.py:43: error: Module has no attribute "windll"  [attr-defined]
+(vertexproject)synapse/synapse/lib/msgpack.py:9: error: Module has no attribute "Packer"  [attr-defined]
+
+[RRepo](vialectrum)vialectrum
+(vialectrum)vialectrum/vialectrum/gui/kivy/uix/dialogs/wallets.py:10: error: Relative import climbs too many namespaces  [misc]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:118: error: "Type[_patched_functions]" has no attribute "orig_mul"  [attr-defined]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:136: error: Argument 1 to "from_bytes" of "int" has incompatible type "List[bytes]"; expected "Sequence[int]"  [arg-type]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:137: error: Argument 1 to "from_bytes" of "int" has incompatible type "List[bytes]"; expected "Sequence[int]"  [arg-type]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:144: error: "Type[_patched_functions]" has no attribute "orig_sign"  [attr-defined]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:153: error: Argument 1 to "from_bytes" of "int" has incompatible type "List[bytes]"; expected "Sequence[int]"  [arg-type]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:154: error: Argument 1 to "from_bytes" of "int" has incompatible type "List[bytes]"; expected "Sequence[int]"  [arg-type]
+(vialectrum)vialectrum/vialectrum/ecc_fast.py:160: error: "Type[_patched_functions]" has no attribute "orig_verify"  [attr-defined]
+(vialectrum)vialectrum/vialectrum/constants.py:46: error: "Type[AbstractNet]" has no attribute "CHECKPOINTS"  [attr-defined]
+(vialectrum)vialectrum/vialectrum/constants.py:116: error: Need type annotation for 'CHECKPOINTS' (hint: "CHECKPOINTS: List[<type>] = ...")  [var-annotated]
+(vialectrum)vialectrum/vialectrum/constants.py:124: error: Need type annotation for 'CHECKPOINTS' (hint: "CHECKPOINTS: List[<type>] = ...")  [var-annotated]
+(vialectrum)vialectrum/vialectrum/scripts/block_headers.py:21: error: Need type annotation for 'header_queue'  [var-annotated]
+(vialectrum)vialectrum/vialectrum/daemon.py:247: error: Return value expected  [return-value]
+(vialectrum)vialectrum/vialectrum/daemon.py:250: error: Return value expected  [return-value]
+(vialectrum)vialectrum/vialectrum/daemon.py:253: error: Return value expected  [return-value]
+(vialectrum)vialectrum/vialectrum/daemon.py:255: error: Return value expected  [return-value]
+(vialectrum)vialectrum/vialectrum/daemon.py:257: error: Return value expected  [return-value]
+(vialectrum)vialectrum/vialectrum/gui/kivy/uix/dialogs/crash_reporter.py:5: error: Module 'kivy' has no attribute 'base'  [attr-defined]
+Found 18 errors in 6 files (checked 62 source files)
+
+[RRepo](JulienBalestra)enjoliver
+(JulienBalestra)enjoliver/app/model.py:37: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:37: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:74: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:74: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:85: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:85: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:99: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:99: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:143: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:143: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:164: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:164: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:209: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:209: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:229: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:229: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:246: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:246: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:273: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:273: error: Invalid base class "BASE"  [misc]
+(JulienBalestra)enjoliver/app/model.py:288: error: Variable "app.model.BASE" is not valid as a type  [valid-type]
+(JulienBalestra)enjoliver/app/model.py:288: error: Invalid base class "BASE"  [misc]
+
+[RRepo](mikeckennedy)python-for-entrepreneurs-course-demos
+(mikeckennedy)python-for-entrepreneurs-course-demos/17_logging_and_monitoring/start_17_blue_yellow_app_monitoring/blue_yellow_app/services/albums_service.py:57: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mikeckennedy)python-for-entrepreneurs-course-demos/17_logging_and_monitoring/start_17_blue_yellow_app_monitoring/blue_yellow_app/services/albums_service.py:57: note: Did you mean "List[...]"?
+(mikeckennedy)python-for-entrepreneurs-course-demos/03-design-section/designable_web/designable_web/static_cache.py:21: error: Need type annotation for '__hash_lookup' (hint: "__hash_lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 32 source files)
+
+[RRepo](surelyourejoking)ElectrodynamicsPy
+(surelyourejoking)ElectrodynamicsPy/point_charges_2D.py:7: error: Need type annotation for 'registry' (hint: "registry: List[<type>] = ...")  [var-annotated]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:48: error: List item 0 has incompatible type "int"; expected "None"  [list-item]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:53: error: List comprehension has incompatible type List[int]; expected List[None]  [misc]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:53: error: Unsupported operand types for * ("int" and "None")  [operator]
+Found 4 errors in 2 files (checked 3 source files)
+
+[RRepo](urda)django-letsencrypt
+(urda)django-letsencrypt/letsencrypt/admin.py:37: error: "Callable[[AcmeChallengeAdmin, Any], Any]" has no attribute "short_description"  [attr-defined]
+(urda)django-letsencrypt/scripts/version_manager.py:166: error: Need type annotation for 'version_counter'  [var-annotated]
+(urda)django-letsencrypt/scripts/version_manager.py:183: error: Argument "version_result" to "FileVersionResult" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+Found 3 errors in 2 files (checked 5 source files)
+
+[RRepo](artscoop)django-approval
+(artscoop)django-approval/approval/admin/approval.py: error: Duplicate module named 'approval' (also at '/home/bew/archive/typed_project/(artscoop)django-approval/approval/__init__.py')  [misc]
+(artscoop)django-approval/approval/admin/approval.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 6 source files)
+
+[RRepo](consbio)landscapesim
+(consbio)landscapesim/landscapesim/importers/project.py:55: error: Name 'TransitionTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/project.py:55: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/project.py:73: error: Name 'AttributeGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/project.py:79: error: Name 'AttributeGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:9: error: Name 'DistributionTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:31: error: Name 'DistributionTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:37: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:37: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:43: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:43: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:43: error: Name 'TransitionTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:56: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:56: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:56: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:69: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:69: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:69: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:75: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:75: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:75: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:75: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:76: error: Name 'TransitionMultiplierTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:82: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:82: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:88: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:88: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:94: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:94: error: Name 'TransitionMultiplierTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:100: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:100: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:100: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:100: error: Name 'StateAttributeTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:106: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:106: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:106: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:106: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:107: error: Name 'TransitionAttributeTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:113: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:113: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/scenario.py:113: error: Name 'TransitionAttributeTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:34: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:34: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:34: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:41: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:41: error: Name 'TransitionGroupFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:41: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:48: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:48: error: Name 'TransitionTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:48: error: Name 'StateClassFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:48: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:55: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:55: error: Name 'StateAttributeTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:55: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:62: error: Name 'StratumFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:62: error: Name 'TransitionAttributeTypeFilter' is not defined  [name-defined]
+(consbio)landscapesim/landscapesim/importers/report.py:62: error: Name 'SecondaryStratumFilter' is not defined  [name-defined]
+
+[RRepo](utarsuno)quasar_source
+(utarsuno)quasar_source/libraries/python/universal_utilities/interactive_script.py:89: error: Need type annotation for '_choices' (hint: "_choices: List[<type>] = ...")  [var-annotated]
+(utarsuno)quasar_source/libraries/python/common_traits/trait_doubly_linked_lists.py:46: error: "object" has no attribute "_prev"  [attr-defined]
+(utarsuno)quasar_source/libraries/python/common_traits/trait_doubly_linked_lists.py:51: error: "object" has no attribute "_next"  [attr-defined]
+(utarsuno)quasar_source/deprecated/finance/finance_simulations/models/m0_net_resistance.py:129: error: Name 'FinanceModel' is not defined  [name-defined]
+(utarsuno)quasar_source/deprecated/neural_networks/test_network.py:140: error: Name 'all_data' is not defined  [name-defined]
+(utarsuno)quasar_source/deprecated/code_api/js_file.py:16: error: Name 'LoadedCodeFile' is not defined  [name-defined]
+(utarsuno)quasar_source/deprecated/code_api/js_file.py:79: error: Unsupported operand types for + ("str" and "None")  [operator]
+(utarsuno)quasar_source/deprecated/code_api/js_file.py:79: note: Right operand is of type "Optional[Any]"
+(utarsuno)quasar_source/deprecated/code_api/js_file.py:82: error: Name 'GeneratedCodeFile' is not defined  [name-defined]
+(utarsuno)quasar_source/libraries/python/docker/project.py:21: error: Need type annotation for 'containers' (hint: "containers: Dict[<type>, <type>] = ...")  [var-annotated]
+(utarsuno)quasar_source/libraries/python/docker/project.py:23: error: Need type annotation for 'build_order' (hint: "build_order: List[<type>] = ...")  [var-annotated]
+(utarsuno)quasar_source/libraries/python/docker/container.py:35: error: "None" has no attribute "kill"  [attr-defined]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:72: error: Incompatible return value type (got "Type[Day]", expected "Day")  [return-value]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:152: error: Function "datetime.datetime.date" is not valid as a type  [valid-type]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:152: note: Perhaps you need "Callable[...]" or a callback protocol?
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:167: error: Unsupported left operand type for - (datetime.date?)  [operator]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:169: error: Unsupported left operand type for + (datetime.date?)  [operator]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:195: error: Function "datetime.datetime.date" is not valid as a type  [valid-type]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:195: note: Perhaps you need "Callable[...]" or a callback protocol?
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:200: error: Function "datetime.datetime.date" is not valid as a type  [valid-type]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:200: note: Perhaps you need "Callable[...]" or a callback protocol?
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:202: error: Unsupported left operand type for - (datetime.date?)  [operator]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:205: error: Function "datetime.datetime.date" is not valid as a type  [valid-type]
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:205: note: Perhaps you need "Callable[...]" or a callback protocol?
+(utarsuno)quasar_source/libraries/python/universal_utilities/time_abstraction.py:207: error: Unsupported left operand type for - (datetime.date?)  [operator]
+(utarsuno)quasar_source/deprecated/c_processes/c_process_manager.py:15: error: Need type annotation for '_c_threads' (hint: "_c_threads: List[<type>] = ...")  [var-annotated]
+(utarsuno)quasar_source/deprecated/c_processes/c_process_manager.py:16: error: Need type annotation for '_results_queue'  [var-annotated]
+(utarsuno)quasar_source/deprecated/c_processes/c_process_manager.py:17: error: Need type annotation for '_results' (hint: "_results: List[<type>] = ...")  [var-annotated]
+(utarsuno)quasar_source/libraries/python/universal_utilities/files/file_utilities.py:9: error: Missing return statement  [return]
+Found 24 errors in 10 files (checked 46 source files)
+
+[RRepo](tomerfiliba)plumbum
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessExecutionError'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'CommandNotFound'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessTimedOut'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessLineTimedOut'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'FG'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'BG'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'TEE'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'TF'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'RETCODE'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'ERROUT'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'NOHUP'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'Path'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'LocalPath'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'RemotePath'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'BaseRemoteMachine'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'SshMachine'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'PuttyMachine'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/lib.py:43: error: Cannot assign to a type  [misc]
+(tomerfiliba)plumbum/plumbum/lib.py:43: error: Incompatible types in assignment (expression has type "ABCMeta", variable has type "Type[ABC]")  [assignment]
+(tomerfiliba)plumbum/plumbum/lib.py:43: note: "ABCMeta.__call__" has type "Callable[[VarArg(Any), KwArg(Any)], Any]"
+(tomerfiliba)plumbum/plumbum/commands/processes.py:151: error: Need type annotation for '_timeout_queue'  [var-annotated]
+(tomerfiliba)plumbum/tests/test_clicolor.py:87: error: Name 'NotSoSimpleApp' is not defined  [name-defined]
+(tomerfiliba)plumbum/tests/test_3_cli.py:4: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/tests/test_3_cli.py:15: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/tests/test_config.py:6: error: Module 'plumbum.cli' has no attribute 'Config'  [attr-defined]
+(tomerfiliba)plumbum/tests/test_config.py:6: error: Module 'plumbum.cli' has no attribute 'ConfigINI'  [attr-defined]
+(tomerfiliba)plumbum/examples/alignment.py:4: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/alignment.py:7: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/examples/alignment.py:13: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/alignment.py:14: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/examples/SimpleColorCLI.py:7: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/SimpleColorCLI.py:11: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/examples/simple_cli.py:42: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/simple_cli.py:43: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/examples/simple_cli.py:44: error: Module has no attribute "SwitchAttr"  [attr-defined]
+(tomerfiliba)plumbum/examples/simple_cli.py:46: error: Module has no attribute "switch"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:51: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/geet.py:59: error: Module has no attribute "SwitchAttr"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:59: error: Module has no attribute "Set"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:62: error: Module has no attribute "SwitchAttr"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:62: error: Module has no attribute "Set"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:67: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/geet.py:70: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:71: error: Module has no attribute "SwitchAttr"  [attr-defined]
+(tomerfiliba)plumbum/examples/geet.py:79: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/examples/geet.py:82: error: Module has no attribute "Flag"  [attr-defined]
+(tomerfiliba)plumbum/plumbum/fs/atomic.py:17: error: Name 'thread' already defined (possibly by an import)  [no-redef]
+
+[RRepo](declension)squeeze-alexa
+(declension)squeeze-alexa/bin/deploy.py:229: error: "Type[TarFile]" has no attribute "gzopen"  [attr-defined]
+(declension)squeeze-alexa/bin/deploy.py:261: error: "Dict[Any, Any]" has no attribute "detach_policy"  [attr-defined]
+(declension)squeeze-alexa/bin/deploy.py:262: error: "Dict[Any, Any]" has no attribute "delete"  [attr-defined]
+(declension)squeeze-alexa/squeezealexa/transport/ssl_wrap.py:128: error: Return type "Optional[str]" of "communicate" incompatible with return type "List[str]" in supertype "Transport"  [override]
+(declension)squeeze-alexa/squeezealexa/transport/mqtt.py:113: error: Need type annotation for 'message' (hint: "message: List[<type>] = ...")  [var-annotated]
+(declension)squeeze-alexa/squeezealexa/transport/mqtt.py:146: error: Signature of "communicate" incompatible with supertype "Transport"  [override]
+
+[RRepo](wongcyrus)ExcelLexBot
+(wongcyrus)ExcelLexBot/builder/converter/SlotJsonConverter.py:17: error: Incompatible types in assignment (expression has type "List[Any]", target has type "str")  [assignment]
+(wongcyrus)ExcelLexBot/setup.py:73: error: Not all arguments converted during string formatting  [str-format]
+(wongcyrus)ExcelLexBot/builder/converter/BotJsonConverter.py:17: error: Incompatible types in assignment (expression has type "List[str]", target has type "str")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:36: error: Argument 1 to "decode" has incompatible type "str"; expected "bytes"  [arg-type]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:43: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:44: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:72: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:73: error: Unsupported operand types for + ("int" and "str")  [operator]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:74: error: Unsupported operand types for + ("int" and "str")  [operator]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:81: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:82: error: Unsupported operand types for + ("int" and "str")  [operator]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:83: error: Unsupported operand types for + ("int" and "str")  [operator]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:85: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:90: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:91: error: Unsupported operand types for + ("int" and "str")  [operator]
+
+[RRepo](eliostvs)tomate
+(eliostvs)tomate/tests/test_config.py:22: error: Argument 3 to "__call__" of "_patcher" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(eliostvs)tomate/tests/test_config.py:116: error: Argument 3 to "__call__" of "_patcher" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+Found 2 errors in 1 file (checked 24 source files)
+
+[RRepo](awsdocs)aws-doc-sdk-examples
+(awsdocs)aws-doc-sdk-examples/python/example_code/deeplens/deeplens_inference_lambda.py:143: error: unexpected indent  [syntax]
+Found 1 error in 1 file (checked 127 source files)
+
+[RRepo](bblfsh)python-driver
+(bblfsh)python-driver/fixtures/bench_ethopian_multiplication.py:15: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 59 source files)
+
+[RRepo](AJudge-team)AJudge
+(AJudge-team)AJudge/validator/string_validator.py:10: error: Argument 1 to "validate" of "StringValidator" has incompatible type "List[str]"; expected "str"  [arg-type]
+(AJudge-team)AJudge/validator/string_validator.py:10: error: Argument 2 to "validate" of "StringValidator" has incompatible type "List[str]"; expected "str"  [arg-type]
+(AJudge-team)AJudge/validator/validator_mixin.py:7: error: Function "builtins.any" is not valid as a type  [valid-type]
+(AJudge-team)AJudge/validator/validator_mixin.py:7: note: Perhaps you need "Callable[...]" or a callback protocol?
+(AJudge-team)AJudge/dto/judge_context.py:13: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(AJudge-team)AJudge/dto/judge_context.py:24: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(AJudge-team)AJudge/dto/judge_context.py:35: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(AJudge-team)AJudge/dto/problem_metadata.py:19: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(AJudge-team)AJudge/sandbox/sandbox.py:54: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(AJudge-team)AJudge/sandbox/sandbox.py:55: error: "str" has no attribute "is_absolute"  [attr-defined]
+(AJudge-team)AJudge/sandbox/sandbox.py:55: error: "str" has no attribute "is_file"  [attr-defined]
+(AJudge-team)AJudge/sandbox/sandbox.py:59: error: "str" has no attribute "name"  [attr-defined]
+(AJudge-team)AJudge/sandbox/sandbox.py:100: error: Item "None" of "Optional[IO[bytes]]" has no attribute "read"  [union-attr]
+(AJudge-team)AJudge/consts/programming_language.py:29: error: Incompatible return value type (got "Optional[ProgrammingLanguage]", expected "ProgrammingLanguage")  [return-value]
+(AJudge-team)AJudge/dto/runtime_context.py:1: error: Module 'consts' has no attribute 'ProgrammingLanguage'  [attr-defined]
+(AJudge-team)AJudge/dto/runtime_context.py:24: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(AJudge-team)AJudge/provider/problem_provider.py:1: error: Module 'dto' has no attribute 'ProblemMetadata'  [attr-defined]
+(AJudge-team)AJudge/runner/cpp_runner.py:3: error: Module 'dto' has no attribute 'RuntimeContext'  [attr-defined]
+(AJudge-team)AJudge/runner/cpp_runner.py:16: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "bool")  [assignment]
+(AJudge-team)AJudge/runner/cpp_runner.py:17: error: "bool" has no attribute "get"  [attr-defined]
+(AJudge-team)AJudge/runner/cpp_runner.py:20: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "bool")  [assignment]
+(AJudge-team)AJudge/runner/cpp_runner.py:21: error: "bool" has no attribute "get"  [attr-defined]
+(AJudge-team)AJudge/runner/runner.py:2: error: Module 'dto' has no attribute 'RuntimeContext'  [attr-defined]
+(AJudge-team)AJudge/runner/runner.py:3: error: Module 'sandbox' has no attribute 'SandboxMixin'  [attr-defined]
+(AJudge-team)AJudge/tests/test_string_validator.py:3: error: Module 'validator' has no attribute 'StringValidator'  [attr-defined]
+(AJudge-team)AJudge/tests/test_base_controller.py:4: error: Module 'controller' has no attribute 'BaseController'  [attr-defined]
+(AJudge-team)AJudge/controller/controller_mixin.py:2: error: Module 'dto' has no attribute 'JudgeContext'  [attr-defined]
+(AJudge-team)AJudge/controller/controller_mixin.py:2: error: Module 'dto' has no attribute 'JudgeResult'  [attr-defined]
+(AJudge-team)AJudge/controller/controller_mixin.py:2: error: Module 'dto' has no attribute 'RuntimeContext'  [attr-defined]
+(AJudge-team)AJudge/controller/controller_mixin.py:4: error: Module 'validator' has no attribute 'ValidatorMixin'  [attr-defined]
+(AJudge-team)AJudge/controller/controller_mixin.py:5: error: Module 'provider' has no attribute 'ProblemProvider'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:2: error: Module 'dto' has no attribute 'JudgeContext'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:2: error: Module 'dto' has no attribute 'RuntimeContext'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:2: error: Module 'dto' has no attribute 'JudgeResult'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:4: error: Module 'consts' has no attribute 'ProgrammingLanguage'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:5: error: Module 'provider' has no attribute 'ProblemProvider'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:7: error: Module 'validator' has no attribute 'ValidatorMixin'  [attr-defined]
+(AJudge-team)AJudge/controller/base_controller.py:50: error: Item "None" of "Optional[Any]" has no attribute "get_problem_metadata_by_id"  [union-attr]
+(AJudge-team)AJudge/controller/base_controller.py:97: error: Item "None" of "Optional[Any]" has no attribute "validate"  [union-attr]
+(AJudge-team)AJudge/start.py:4: error: Module 'provider' has no attribute 'ProblemProvider'  [attr-defined]
+(AJudge-team)AJudge/start.py:5: error: Module 'validator' has no attribute 'StringValidator'  [attr-defined]
+Found 40 errors in 15 files (checked 20 source files)
+
+[RRepo](TsarFox)chandere2
+(TsarFox)chandere2/chandere/loader.py:39: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(TsarFox)chandere2/chandere/loader.py:45: error: Module has no attribute "__path__"  [attr-defined]
+(TsarFox)chandere2/chandere/loader.py:83: error: Module has no attribute "util"  [attr-defined]
+(TsarFox)chandere2/chandere/loader.py:84: error: Module has no attribute "util"  [attr-defined]
+(TsarFox)chandere2/chandere/loader.py:95: error: Module has no attribute "util"  [attr-defined]
+(TsarFox)chandere2/chandere/loader.py:96: error: Module has no attribute "util"  [attr-defined]
+
+[RRepo](Vim-cn)Vinergy
+Success: no issues found in 5 source files
+
+[RRepo](doctaphred)phredutils
+(doctaphred)phredutils/funccools.py:58: error: "Callable[[Any], Any]" has no attribute "csvoss_edition"  [attr-defined]
+(doctaphred)phredutils/retry.py:88: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(doctaphred)phredutils/retry.py:89: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(doctaphred)phredutils/zmqrpc.py:50: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(doctaphred)phredutils/locksmith.py:87: error: "Locksmith" has no attribute "check"  [attr-defined]
+(doctaphred)phredutils/testgen.py:51: error: Cannot determine type of '__actual'  [has-type]
+(doctaphred)phredutils/testgen.py:101: error: Need type annotation for 'tested'  [var-annotated]
+Found 7 errors in 5 files (checked 40 source files)
+
+[RRepo](austinbyers)esprima-ast-visitor
+Success: no issues found in 2 source files
+
+[RRepo](liqd)a4-meinberlin
+(liqd)a4-meinberlin/meinberlin/test/factories/__init__.py:59: error: Need type annotation for 'features' (hint: "features: Dict[<type>, <type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/cms/models/pages.py:25: error: Need type annotation for 'subpage_types' (hint: "subpage_types: List[<type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/cms/models/pages.py:39: error: Need type annotation for 'subpage_types' (hint: "subpage_types: List[<type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/cms/models/pages.py:98: error: Need type annotation for 'subpage_types' (hint: "subpage_types: List[<type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/contrib/forms.py:13: error: Need type annotation for 'forms' (hint: "forms: Dict[<type>, <type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/contrib/forms.py:104: error: Need type annotation for 'objects' (hint: "objects: Dict[<type>, <type>] = ...")  [var-annotated]
+(liqd)a4-meinberlin/meinberlin/apps/adminlog/admin.py:58: error: "Callable[[LogEntryAdmin, Any], Any]" has no attribute "short_description"  [attr-defined]
+(liqd)a4-meinberlin/meinberlin/apps/contrib/predicates.py:4: error: Module has no attribute "predicate"  [attr-defined]
+(liqd)a4-meinberlin/meinberlin/apps/contrib/predicates.py:9: error: Module has no attribute "predicate"  [attr-defined]
+Found 9 errors in 5 files (checked 139 source files)
+
+[RRepo](Redjumpman)Jumper-Cogs
+(Redjumpman)Jumper-Cogs/casino/data.py:134: error: Unsupported target for indexed assignment  [index]
+(Redjumpman)Jumper-Cogs/dicetable/dicetable.py:23: error: Variable "dicetable.dicetable.BaseCog" is not valid as a type  [valid-type]
+(Redjumpman)Jumper-Cogs/dicetable/dicetable.py:23: error: Invalid base class "BaseCog"  [misc]
+(Redjumpman)Jumper-Cogs/jisho/jisho.py:18: error: Variable "jisho.jisho.BaseCog" is not valid as a type  [valid-type]
+(Redjumpman)Jumper-Cogs/jisho/jisho.py:18: error: Invalid base class "BaseCog"  [misc]
+Found 5 errors in 3 files (checked 12 source files)
+
+[RRepo](nabla-c0d3)sslyze
+(nabla-c0d3)sslyze/sslyze/utils/http_request_generator.py:16: error: Module has no attribute "__version__"  [attr-defined]
+
+[RRepo](Kaggle)docker-python
+(Kaggle)docker-python/patches/log.py:55: error: Module has no attribute "_srcfile"  [attr-defined]
+Found 1 error in 1 file (checked 70 source files)
+
+[RRepo](nnadeau)pybotics
+(nnadeau)pybotics/pybotics/optimization.py:7: error: Module 'pybotics' has no attribute 'Robot'  [attr-defined]
+(nnadeau)pybotics/tests/test_tool.py:5: error: Module 'pybotics' has no attribute 'Tool'  [attr-defined]
+(nnadeau)pybotics/utilities/print_system_specs.py:17: error: Incompatible types in assignment (expression has type "List[Dict[Any, Any]]", target has type "str")  [assignment]
+
+[RRepo](markusressel)raspyrfm-client
+(markusressel)raspyrfm-client/setup.py:8: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(markusressel)raspyrfm-client/setup.py:23: error: On Python 3 '%s' % b'abc' produces "b'abc'"; use %r if this is a desired behavior  [str-bytes-safe]
+(markusressel)raspyrfm-client/setup.py:26: error: Missing return statement  [return]
+(markusressel)raspyrfm-client/setup.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:34: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/setup.py:39: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:39: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/setup.py:43: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:43: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/base.py:50: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "None")  [assignment]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/base.py:63: error: Invalid type comment or annotation  [valid-type]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/base.py:69: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/base.py:69: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/universal/HX2262Compatible.py:26: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/universal/HX2262Compatible.py:26: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/universal/HX2262Compatible.py:53: error: Need type annotation for 'tuples' (hint: "tuples: List[<type>] = ...")  [var-annotated]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/universal/HX2262Compatible.py:78: error: Need type annotation for 'bits' (hint: "bits: List[<type>] = ...")  [var-annotated]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/intertechno/IT1500.py:17: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/intertechno/IT1500.py:17: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/gateway/base.py:41: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/logilink/logilightec000x.py:30: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/logilink/logilightec000x.py:30: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/logilink/logilightec000x.py:41: error: Need type annotation for 'tuples' (hint: "tuples: List[<type>] = ...")  [var-annotated]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/voltcraft/rc30.py:17: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/voltcraft/rc30.py:17: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/voltcraft/rc30.py:30: error: Need type annotation for 'raw' (hint: "raw: List[<type>] = ...")  [var-annotated]
+(markusressel)raspyrfm-client/raspyrfm_client/device_implementations/controlunit/manufacturer/voltcraft/rc30.py:68: error: Need type annotation for 'tuples' (hint: "tuples: List[<type>] = ...")  [var-annotated]
+
+[RRepo](HelpAssistHer)help-assist-her
+
+[RRepo](python-dirbtuves)it-brandos-egzaminai
+(python-dirbtuves)it-brandos-egzaminai/conftest.py:7: error: Invalid base class  [misc]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](cbg-ethz)rnaiutilities
+(cbg-ethz)rnaiutilities/tests/test_query_query.py:30: error: Module 'rnaiutilities' has no attribute 'Query'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_query_query.py:163: error: Name 'test_compose_creates_unit_variance_columns' already defined on line 157  [no-redef]
+(cbg-ethz)rnaiutilities/tests/test_config.py:24: error: Module 'rnaiutilities' has no attribute 'Config'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_query_insert.py:28: error: Module 'rnaiutilities' has no attribute 'Query'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_query_insert.py:97: error: Name 'test_number_of_sirna_elements' already defined on line 92  [no-redef]
+(cbg-ethz)rnaiutilities/tests/test_parse.py:30: error: Module 'io' has no attribute 'StringIO'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_parse.py:36: error: Module 'rnaiutilities' has no attribute 'Parser'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_parse.py:36: error: Module 'rnaiutilities' has no attribute 'Config'  [attr-defined]
+(cbg-ethz)rnaiutilities/tests/test_parse.py:173: error: Name 'test_perinuclei_data_file_values' already defined on line 158  [no-redef]
+Found 9 errors in 4 files (checked 39 source files)
+
+[RRepo](pyecore)pyecoregen
+(pyecore)pyecoregen/pyecoregen/ecore.py:67: error: Need type annotation for 'imported_dict' (hint: "imported_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(pyecore)pyecoregen/pyecoregen/ecore.py:98: error: Need type annotation for 'imported_dict' (hint: "imported_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](samuelcolvin)aiohttp-devtools
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/start/template/app/views.py:60: error: Name 'index' already defined on line 29  [no-redef]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/config.py:10: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/config.py:11: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/config.py:50: error: Incompatible types in assignment (expression has type "None", variable has type "Path")  [assignment]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/config.py:59: error: Argument 1 to "_resolve_path" of "Config" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/config.py:61: error: Argument 1 to "_resolve_path" of "Config" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/main.py:8: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/watch.py:10: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/watch.py:11: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/serve.py:16: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/serve.py:17: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/serve.py:18: error: Relative import climbs too many namespaces  [misc]
+(samuelcolvin)aiohttp-devtools/aiohttp_devtools/runserver/serve.py:19: error: Relative import climbs too many namespaces  [misc]
+Found 13 errors in 5 files (checked 21 source files)
+
+[RRepo](asphalt-framework)asphalt-serialization
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/msgpack.py:4: error: Module 'msgpack' has no attribute 'packb'; maybe "unpackb"?  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/msgpack.py:4: error: Module 'msgpack' has no attribute 'unpackb'; maybe "packb"?  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/msgpack.py:4: error: Module 'msgpack' has no attribute 'ExtType'  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py:20: error: Module has no attribute "HIGHEST_PROTOCOL"  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py:22: error: Module has no attribute "HIGHEST_PROTOCOL"  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py:23: error: Module has no attribute "HIGHEST_PROTOCOL"  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py:28: error: Module has no attribute "dumps"  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py:31: error: Module has no attribute "loads"  [attr-defined]
+(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/yaml.py:40: error: Incompatible return value type (got "Optional[str]", expected "bytes")  [return-value]
+Found 9 errors in 3 files (checked 13 source files)
+
+[RRepo](cache-rules)email_hunter_python
+Success: no issues found in 2 source files
+
+[RRepo](KarolBedkowski)webmon
+(KarolBedkowski)webmon/webmon/config.py:20: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(KarolBedkowski)webmon/webmon/config.py:39: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(KarolBedkowski)webmon/webmon/config.py:52: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(KarolBedkowski)webmon/webmon/config.py:63: error: Incompatible return value type (got "None", expected "List[Any]")  [return-value]
+(KarolBedkowski)webmon/webmon/config.py:80: error: Incompatible return value type (got "None", expected "List[Any]")  [return-value]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](bosondata)chrome-prerender
+(bosondata)chrome-prerender/prerender/mhtml.py:23: error: Argument 1 to "b64encode" has incompatible type "str"; expected "bytes"  [arg-type]
+(bosondata)chrome-prerender/prerender/cache/s3.py:50: error: Return value expected  [return-value]
+(bosondata)chrome-prerender/prerender/cache/s3.py:69: error: Return value expected  [return-value]
+(bosondata)chrome-prerender/prerender/cache/disk.py:20: error: Missing return statement  [return]
+(bosondata)chrome-prerender/prerender/cache/disk.py:37: error: Return value expected  [return-value]
+(bosondata)chrome-prerender/prerender/app.py:33: error: Incompatible types in assignment (expression has type "Tuple[Any, Any]", variable has type "Tuple[Callable[[str], str]]")  [assignment]
+(bosondata)chrome-prerender/prerender/app.py:41: error: Need type annotation for '_BREAKERS'  [var-annotated]
+(bosondata)chrome-prerender/prerender/app.py:105: error: Missing return statement  [return]
+(bosondata)chrome-prerender/prerender/prerender.py:28: error: Need type annotation for '_pages' (hint: "_pages: Set[<type>] = ...")  [var-annotated]
+(bosondata)chrome-prerender/prerender/prerender.py:39: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+Found 10 errors in 5 files (checked 10 source files)
+
+[RRepo](garciparedes)python-examples
+(garciparedes)python-examples/visualization/bokeh/grouped_bar_plot_example_01.py:24: error: Need type annotation for 'counts'  [var-annotated]
+(garciparedes)python-examples/visualization/bokeh/grouped_bar_plot_example_01.py:24: error: No overload variant of "zip" matches argument types "object", "object", "object"  [call-overload]
+(garciparedes)python-examples/visualization/bokeh/grouped_bar_plot_example_01.py:24: note: Possible overload variant:
+(garciparedes)python-examples/visualization/bokeh/grouped_bar_plot_example_01.py:24: note:     def [_T1, _T2, _T3] zip(Iterable[_T1], Iterable[_T2], Iterable[_T3]) -> Iterator[Tuple[_T1, _T2, _T3]]
+(garciparedes)python-examples/visualization/bokeh/grouped_bar_plot_example_01.py:24: note:     <5 more non-matching overloads not shown>
+(garciparedes)python-examples/scripting/fabric/hello_world/fabfile.py:1: error: Module 'fabric' has no attribute 'task'  [attr-defined]
+(garciparedes)python-examples/scripting/fire/calculator.py:12: error: Module has no attribute "Fire"  [attr-defined]
+(garciparedes)python-examples/competitive/other/maze_solver.py:30: error: Incompatible return value type (got "Optional[Sequence[Tuple[int, int]]]", expected "Sequence[Tuple[int, int]]")  [return-value]
+(garciparedes)python-examples/competitive/other/backup_discs.py:11: error: Incompatible types in "yield" (actual type "Tuple[float, ...]", expected type "List[float]")  [misc]
+(garciparedes)python-examples/competitive/other/backup_discs.py:23: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(garciparedes)python-examples/competitive/other/backup_discs.py:26: error: Need type annotation for 'best_group'  [var-annotated]
+(garciparedes)python-examples/competitive/other/backup_discs.py:28: error: Argument 1 to "improves_result" has incompatible type "Tuple[Any, ...]"; expected "List[float]"  [arg-type]
+(garciparedes)python-examples/competitive/other/backup_discs.py:30: error: Incompatible types in assignment (expression has type "List[float]", variable has type "Tuple[Any, ...]")  [assignment]
+(garciparedes)python-examples/competitive/other/backup_discs.py:39: error: Incompatible return value type (got "List[Tuple[Any, ...]]", expected "List[Tuple[float]]")  [return-value]
+(garciparedes)python-examples/web/django/django_first_app/polls/models.py:21: error: "Callable[[Question], Any]" has no attribute "admin_order_field"  [attr-defined]
+(garciparedes)python-examples/web/django/django_first_app/polls/models.py:22: error: "Callable[[Question], Any]" has no attribute "boolean"  [attr-defined]
+(garciparedes)python-examples/web/django/django_first_app/polls/models.py:23: error: "Callable[[Question], Any]" has no attribute "short_description"  [attr-defined]
+(garciparedes)python-examples/concurrency/asyncio/hello_world.py:11: error: Module has no attribute "run"  [attr-defined]
+Found 15 errors in 7 files (checked 74 source files)
+
+[RRepo](alexsavio)hansel
+(alexsavio)hansel/hansel/_utils.py:20: error: Incompatible return value type (got "Iterable[Tuple[str, Optional[str], Optional[str], Optional[str]]]", expected "Iterator[str]")  [return-value]
+(alexsavio)hansel/hansel/_utils.py:20: note: 'Iterable' is missing following 'Iterator' protocol member:
+(alexsavio)hansel/hansel/_utils.py:20: note:     __next__
+(alexsavio)hansel/hansel/_utils.py:20: note: Following member(s) of "Iterable[Tuple[str, Optional[str], Optional[str], Optional[str]]]" have conflicts:
+(alexsavio)hansel/hansel/_utils.py:20: note:     Expected:
+(alexsavio)hansel/hansel/_utils.py:20: note:         def __iter__(self) -> Iterator[str]
+(alexsavio)hansel/hansel/_utils.py:20: note:     Got:
+(alexsavio)hansel/hansel/_utils.py:20: note:         def __iter__(self) -> Iterator[Tuple[str, Optional[str], Optional[str], Optional[str]]]
+(alexsavio)hansel/hansel/_utils.py:24: error: Generator has incompatible item type "Optional[str]"; expected "str"  [misc]
+(alexsavio)hansel/hansel/_utils.py:30: error: Incompatible types in "yield from" (actual type "Tuple[int, Tuple[str, Optional[str], Optional[str], Optional[str]]]", expected type "Tuple[int, str]")  [misc]
+(alexsavio)hansel/hansel/_utils.py:37: error: Incompatible types in assignment (expression has type "slice", variable has type "Optional[int]")  [assignment]
+(alexsavio)hansel/hansel/_utils.py:43: error: Invalid index type "Optional[int]" for "str"; expected type "Union[int, slice]"  [index]
+(alexsavio)hansel/hansel/_utils.py:58: error: Argument 2 to "_depth_items" has incompatible type "slice"; expected "Optional[int]"  [arg-type]
+(alexsavio)hansel/hansel/_utils.py:114: error: Missing return statement  [return]
+(alexsavio)hansel/hansel/_utils.py:120: error: Missing return statement  [return]
+(alexsavio)hansel/hansel/_utils.py:170: error: "str" has no attribute "_path"  [attr-defined]
+
+[RRepo](jeromecc)doctoctocbot
+(jeromecc)doctoctocbot/src/crowdfunding/hooks.py:19: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 51 source files)
+
+[RRepo](fugwenna)bunkbot
+(fugwenna)bunkbot/src/cogs/weather/radar_result.py:8: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/cogs/weather/radar_result.py:8: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/cogs/weather/radar_result.py:10: error: Value of type any? is not indexable  [index]
+
+[RRepo](ahuei123456)Ruby-Bot
+(ahuei123456)Ruby-Bot/rubybot/cogs/utils/dbconn.py:207: error: Cannot combine automatic field numbering and manual field specification  [str-format]
+
+[RRepo](slice)dogbot
+(slice)dogbot/dog/ext/mod.py:82: error: Signature of "perform_on_user" incompatible with supertype "ModAction"  [override]
+(slice)dogbot/dog/formatting.py:4: error: Missing return statement  [return]
+(slice)dogbot/dog/ext/time/map.py:30: error: Need type annotation for 'timezones'  [var-annotated]
+(slice)dogbot/dog/ext/time/cog.py:60: error: Function "time.converters.hour_minute" is not valid as a type  [valid-type]
+(slice)dogbot/dog/ext/time/cog.py:60: note: Perhaps you need "Callable[...]" or a callback protocol?
+(slice)dogbot/dog/ext/time/cog.py:65: error: Unsupported left operand type for - (hour_minute?)  [operator]
+(slice)dogbot/dog/ext/time/cog.py:74: error: hour_minute? has no attribute "strftime"  [attr-defined]
+(slice)dogbot/dog/ext/time/cog.py:105: error: Function "time.converters.hour_minute" is not valid as a type  [valid-type]
+(slice)dogbot/dog/ext/time/cog.py:105: note: Perhaps you need "Callable[...]" or a callback protocol?
+(slice)dogbot/dog/ext/time/cog.py:117: error: Item "None" of "Optional[datetime]" has no attribute "hour"  [union-attr]
+(slice)dogbot/dog/ext/time/cog.py:117: error: Item "None" of "Optional[datetime]" has no attribute "minute"  [union-attr]
+(slice)dogbot/dog/ext/time/cog.py:221: error: Item "None" of "Optional[datetime]" has no attribute "hour"  [union-attr]
+(slice)dogbot/dog/ext/time/cog.py:223: error: Item "None" of "Optional[datetime]" has no attribute "hour"  [union-attr]
+(slice)dogbot/dog/ext/quoting/cog.py:62: error: Invalid type comment or annotation  [valid-type]
+(slice)dogbot/dog/ext/quoting/cog.py:62: note: Suggestion: use QuoteName[...] instead of QuoteName(...)
+(slice)dogbot/dog/ext/quoting/cog.py:121: error: Invalid type comment or annotation  [valid-type]
+(slice)dogbot/dog/ext/quoting/cog.py:121: note: Suggestion: use QuoteName[...] instead of QuoteName(...)
+(slice)dogbot/dog/ext/quoting/cog.py:135: error: Need type annotation for 'quoted' (hint: "quoted: List[<type>] = ...")  [var-annotated]
+(slice)dogbot/dog/ext/quoting/cog.py:158: error: Module has no attribute "time"  [attr-defined]
+(slice)dogbot/dog/ext/quoting/cog.py:197: error: Invalid type comment or annotation  [valid-type]
+(slice)dogbot/dog/ext/quoting/cog.py:197: note: Suggestion: use QuoteName[...] instead of QuoteName(...)
+(slice)dogbot/dog/ext/quoting/cog.py:198: error: Invalid type comment or annotation  [valid-type]
+(slice)dogbot/dog/ext/quoting/cog.py:198: note: Suggestion: use QuoteName[...] instead of QuoteName(...)
+(slice)dogbot/dog/ext/quoting/cog.py:212: error: Invalid type comment or annotation  [valid-type]
+(slice)dogbot/dog/ext/quoting/cog.py:212: note: Suggestion: use QuoteName[...] instead of QuoteName(...)
+(slice)dogbot/dog/web/ratelimit.py:1: error: Module 'time' has no attribute 'monotonic'  [attr-defined]
+(slice)dogbot/dog/web/ratelimit.py:8: error: Need type annotation for 'buckets' (hint: "buckets: Dict[<type>, <type>] = ...")  [var-annotated]
+(slice)dogbot/dog/ext/gatekeeper/checks.py:42: error: Incompatible return value type (got "Dict[Any, Any]", expected "List[Any]")  [return-value]
+(slice)dogbot/dog/ext/gatekeeper/cog.py:82: error: Module has no attribute "asynccontextmanager"; maybe "contextmanager" or "AsyncContextManager"?  [attr-defined]
+(slice)dogbot/dog/guild_config.py:27: error: Need type annotation for 'parsed_cache' (hint: "parsed_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(slice)dogbot/dog/guild_config.py:66: error: Item "str" of "Union[Dict[Any, Any], str]" has no attribute "get"  [union-attr]
+(slice)dogbot/dog/guild_config.py:126: error: Incompatible return value type (got "Optional[T]", expected "Union[Dict[Any, Any], str, T]")  [return-value]
+(slice)dogbot/dog/guild_config.py:142: error: Incompatible return value type (got "Optional[T]", expected "Union[Dict[Any, Any], str, T]")  [return-value]
+(slice)dogbot/dog/guild_config.py:148: error: Incompatible return value type (got "Union[Dict[Any, Any], str]", expected "str")  [return-value]
+Found 27 errors in 9 files (checked 26 source files)
+
+[RRepo](jjkester)moneybird-python
+(jjkester)moneybird-python/moneybird/api.py:43: error: "None" has no attribute "get"  [attr-defined]
+(jjkester)moneybird-python/moneybird/api.py:44: error: Argument 1 to "_get_url" of "MoneyBird" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(jjkester)moneybird-python/moneybird/api.py:65: error: "None" has no attribute "post"  [attr-defined]
+(jjkester)moneybird-python/moneybird/api.py:66: error: Argument 1 to "_get_url" of "MoneyBird" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(jjkester)moneybird-python/moneybird/api.py:83: error: "None" has no attribute "patch"  [attr-defined]
+(jjkester)moneybird-python/moneybird/api.py:84: error: Argument 1 to "_get_url" of "MoneyBird" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(jjkester)moneybird-python/moneybird/api.py:100: error: "None" has no attribute "delete"  [attr-defined]
+(jjkester)moneybird-python/moneybird/api.py:101: error: Argument 1 to "_get_url" of "MoneyBird" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(jjkester)moneybird-python/moneybird/api.py:182: error: "None" not callable  [misc]
+(jjkester)moneybird-python/moneybird/authentication.py:131: error: Argument 1 to "OAuthError" has incompatible type "List[str]"; expected "str"  [arg-type]
+(jjkester)moneybird-python/moneybird/authentication.py:131: error: Argument 2 to "OAuthError" has incompatible type "Union[List[str], str, None]"; expected "Optional[str]"  [arg-type]
+Found 11 errors in 2 files (checked 3 source files)
+
+[RRepo](scottwernervt)cloudstorage
+(scottwernervt)cloudstorage/src/cloudstorage/helpers.py:108: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(scottwernervt)cloudstorage/src/cloudstorage/helpers.py:129: error: Argument 1 to "guess_type" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(scottwernervt)cloudstorage/src/cloudstorage/exceptions.py:7: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/conftest.py:8: error: Name 'os' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_local.py:16: error: Name 'LOCAL_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_local.py:17: error: Name 'LOCAL_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_local.py:19: error: Name 'LOCAL_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_local.py:160: error: Name 'LOCAL_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_google.py:8: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/test_drivers_google.py:25: error: Name 'GOOGLE_CREDENTIALS' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_amazon.py:5: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/test_drivers_amazon.py:21: error: Name 'AMAZON_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_rackspace.py:5: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/test_drivers_rackspace.py:21: error: Name 'RACKSPACE_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_minio.py:5: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/test_drivers_minio.py:23: error: Name 'MINIO_ACCESS_KEY' is not defined  [name-defined]
+(scottwernervt)cloudstorage/tests/test_drivers_microsoft.py:5: error: Name 'HTTPStatus' already defined (possibly by an import)  [no-redef]
+(scottwernervt)cloudstorage/tests/test_drivers_microsoft.py:22: error: Name 'AZURE_ACCOUNT_NAME' is not defined  [name-defined]
+Found 18 errors in 9 files (checked 16 source files)
+

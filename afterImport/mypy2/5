@@ -1,0 +1,565 @@
+[RRepo](tensorflow)data-validation
+(tensorflow)data-validation/setup.py:44: error: Need type annotation for 'globals_dict' (hint: "globals_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ActiveState)code
+
+[RRepo](tomchristie)apistar
+Success: no issues found in 1 source file
+
+[RRepo](miyakogi)m2r
+Success: no issues found in 1 source file
+
+[RRepo](ggravlingen)pytradfri
+
+[RRepo](goranvrbaski)python-namesilo
+
+[RRepo](divvun)kbdgen
+
+[RRepo](TomasTriska)Robbie
+
+[RRepo](eurecom-s3)avatar-python
+
+[RRepo](simde-utc)woolly-api
+(simde-utc)woolly-api/core/permissions.py:16: error: Need type annotation for 'permission_functions' (hint: "permission_functions: List[<type>] = ...")  [var-annotated]
+(simde-utc)woolly-api/core/permissions.py:17: error: Need type annotation for 'object_permission_functions' (hint: "object_permission_functions: List[<type>] = ...")  [var-annotated]
+(simde-utc)woolly-api/woolly_api/settings.py:14: error: Module 'woolly_api' has no attribute 'settings_confidential'  [attr-defined]
+(simde-utc)woolly-api/sales/permissions.py:15: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/sales/permissions.py:21: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/sales/permissions.py:41: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/sales/permissions.py:50: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/sales/permissions.py:51: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/sales/permissions.py:61: error: Incompatible types in assignment (expression has type "Tuple[Callable[[Any, Any, Any], Any], Callable[[Any, Any, Any], Any]]", base class "CustomPermission" defined the type as "List[Any]")  [assignment]
+(simde-utc)woolly-api/scripts.py:165: error: "List[Dict[str, Any]]" has no attribute "to_excel"  [attr-defined]
+(simde-utc)woolly-api/scripts.py:205: error: "List[Dict[str, Any]]" has no attribute "to_excel"  [attr-defined]
+Found 11 errors in 4 files (checked 1 source file)
+
+[RRepo](Abjad)abjad
+Success: no issues found in 1 source file
+
+[RRepo](Firefly-Automation)Firefly
+(Firefly-Automation)Firefly/Firefly/helpers/events.py:1: error: Module 'Firefly' has no attribute 'logging'  [attr-defined]
+(Firefly-Automation)Firefly/Firefly/helpers/events.py:2: error: Module 'Firefly' has no attribute 'aliases'  [attr-defined]
+(Firefly-Automation)Firefly/Firefly/helpers/events.py:6: error: String argument 1 'COMMAND' to TypeVar(...) does not match variable name 'COMMAND_TYPE'  [misc]
+(Firefly-Automation)Firefly/Firefly/helpers/events.py:6: error: "object" not callable  [operator]
+(Firefly-Automation)Firefly/Firefly/helpers/events.py:48: error: Variable "Firefly.helpers.events.COMMAND_TYPE" is not valid as a type  [valid-type]
+(Firefly-Automation)Firefly/Firefly/services/api_ai.py:3: error: Module 'Firefly' has no attribute 'aliases'  [attr-defined]
+(Firefly-Automation)Firefly/Firefly/api.py:8: error: Module 'Firefly' has no attribute 'logging'  [attr-defined]
+(Firefly-Automation)Firefly/Firefly/api.py:237: error: Incompatible return value type (got "Response", expected "AwaitableGenerator[Any, Any, Any, Any]")  [return-value]
+Found 8 errors in 3 files (checked 1 source file)
+
+[RRepo](quantumlib)OpenFermion-Cirq
+
+[RRepo](open-homeautomation)home-assistant
+
+[RRepo](tucanlib)tucan-tools
+Success: no issues found in 7 source files
+
+[RRepo](alvarogzp)telegram-bot
+
+[RRepo](UBCMarsColony)airlock-masters
+
+[RRepo](cortesi)mitmproxy
+
+[RRepo](beebyte)irisett
+
+[RRepo](hhstore)learning-notes
+
+[RRepo](femueller)python-n26
+(femueller)python-n26/setup.py:5: error: Argument 1 to "getfile" has incompatible type "Optional[FrameType]"; expected "Union[Module, Type[Any], MethodType, FunctionType, TracebackType, FrameType, CodeType, Callable[..., Any]]"  [arg-type]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](iotile)coretools
+
+[RRepo](taniwha)io_object_mu
+
+[RRepo](tgbugs)pyontutils
+
+[RRepo](javipalanca)spade
+(javipalanca)spade/travis_pypi_setup.py:16: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](N-BodyPhysicsSimulator)Main
+
+[RRepo](mlindauer)GenericWrapper4AC
+Success: no issues found in 1 source file
+
+[RRepo](paxos-bankchain)subconscious
+
+[RRepo](neitsa)PrepareLanding
+
+[RRepo](lostatc)zielen
+
+[RRepo](balrok)Flashget
+(balrok)Flashget/flashget/helper.py:5: error: Name 'entitydefs' already defined (possibly by an import)  [no-redef]
+(balrok)Flashget/flashget/helper.py:135: error: Need type annotation for '_calc_eta_cache' (hint: "_calc_eta_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(balrok)Flashget/flashget/config.py:5: error: Name 'configparser' already defined (possibly by an import)  [no-redef]
+(balrok)Flashget/flashget/log.py:45: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(balrok)Flashget/flashget/log.py:46: error: Value of type "object" is not indexable  [index]
+(balrok)Flashget/flashget/log.py:47: error: Unsupported target for indexed assignment  [index]
+(balrok)Flashget/flashget/log.py:58: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(balrok)Flashget/flashget/log.py:59: error: Value of type "object" is not indexable  [index]
+(balrok)Flashget/flashget/log.py:60: error: Unsupported target for indexed assignment  [index]
+(balrok)Flashget/tests/cache.py:3: error: Module has no attribute "dummy"  [attr-defined]
+(balrok)Flashget/tests/urlmgr.py:3: error: Module has no attribute "dummy"  [attr-defined]
+(balrok)Flashget/flashget/page.py:93: error: Need type annotation for 'subs' (hint: "subs: List[<type>] = ...")  [var-annotated]
+(balrok)Flashget/flashget/page.py:124: error: Need type annotation for '_cache' (hint: "_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(balrok)Flashget/flashget/page.py:146: error: Incompatible types in assignment (expression has type "str", base class "BaseMedia" defined the type as "None")  [assignment]
+(balrok)Flashget/flashget/page.py:185: error: Incompatible types in assignment (expression has type "str", base class "BaseMedia" defined the type as "None")  [assignment]
+(balrok)Flashget/flashget/page.py:210: error: Incompatible types in assignment (expression has type "str", base class "BaseMedia" defined the type as "None")  [assignment]
+(balrok)Flashget/flashget/page.py:239: error: Incompatible types in assignment (expression has type "str", base class "BaseMedia" defined the type as "None")  [assignment]
+(balrok)Flashget/tests/stream.py:9: error: Module has no attribute "dummy"  [attr-defined]
+(balrok)Flashget/tests/stream.py:10: error: Module 'flashget.stream' has no attribute 'VideoInfo'  [attr-defined]
+(balrok)Flashget/tests/stream.py:10: error: Module 'flashget.stream' has no attribute 'getStreamByLink'  [attr-defined]
+(balrok)Flashget/tests/stream.py:10: error: Module 'flashget.stream' has no attribute 'flashExt'  [attr-defined]
+(balrok)Flashget/flashget/commandline.py:3: error: Module 'flashget' has no attribute '__version__'  [attr-defined]
+(balrok)Flashget/tests/page.py:5: error: Module has no attribute "dummy"  [attr-defined]
+(balrok)Flashget/tests/page.py:7: error: Module 'flashget.page' has no attribute 'getPageByLink'  [attr-defined]
+(balrok)Flashget/flashget/downloader.py:9: error: Name 'raw_input' is not defined  [name-defined]
+(balrok)Flashget/tests/downloader.py:11: error: Module has no attribute "dummy"  [attr-defined]
+(balrok)Flashget/tests/downloader.py:13: error: Module 'flashget.stream' has no attribute 'VideoInfo'  [attr-defined]
+(balrok)Flashget/test.py:8: error: Module has no attribute "dummy"  [attr-defined]
+Found 28 errors in 12 files (checked 1 source file)
+
+[RRepo](Egor-Krivov)pdp
+
+[RRepo](kyuridenamida)atcoder-tools
+Success: no issues found in 1 source file
+
+[RRepo](rdevon)cortex
+
+[RRepo](em92)quakelive-local-ratings
+(em92)quakelive-local-ratings/qllr/db.py:17: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:19: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:22: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:24: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/db.py:27: error: "Callable[[Any], Coroutine[Any, Any, Any]]" has no attribute "cache"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/endpoints.py:28: error: Return value expected  [return-value]
+(em92)quakelive-local-ratings/qllr/endpoints.py:59: error: Incompatible types in assignment (expression has type "Tuple[int, int, int, int, int, int]", variable has type "Optional[Tuple[int, int, int, int, int, int, int, int, int]]")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:101: error: Need type annotation for 'players' (hint: "players: Dict[<type>, <type>] = ...")  [var-annotated]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:109: error: Incompatible types in assignment (expression has type "Tuple[List[int], List[int]]", variable has type "Tuple[List[int], List[int], Any]")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/balance_api/methods.py:120: error: Incompatible types in assignment (expression has type "Dict[str, Any]", target has type "str")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:56: error: Need type annotation for 'last_ratings' (hint: "last_ratings: Dict[<type>, <type>] = ...")  [var-annotated]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:77: error: Incompatible types in assignment (expression has type "Dict[str, Any]", target has type "str")  [assignment]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:84: error: "str" has no attribute "append"  [attr-defined]
+(em92)quakelive-local-ratings/qllr/blueprints/deprecated/methods.py:84: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+Found 14 errors in 4 files (checked 28 source files)
+
+[RRepo](Technikradio)C3FOCSite
+
+[RRepo](ActivityWatch)activitywatch
+
+[RRepo](cuauv)software
+(cuauv)software/auvlog/client.py:18: error: Module 'auvlog' has no attribute 'config'  [attr-defined]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](wanqizhu)mtg-python-engine
+Success: no issues found in 1 source file
+
+[RRepo](MuhammedHasan)metabolitics
+
+[RRepo](wtsi-hgi)hgi-systems
+
+[RRepo](zalando)ghe-backup
+
+[RRepo](FrostLuma)Mousey
+
+[RRepo](quarkslab)irma
+(quarkslab)irma/setup.py:10: error: Module 'distutils.command.sdist' has no attribute 'sdist'  [attr-defined]
+(quarkslab)irma/setup.py:85: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(quarkslab)irma/setup.py:86: error: Need type annotation for 'boolean_options' (hint: "boolean_options: List[<type>] = ...")  [var-annotated]
+(quarkslab)irma/setup.py:153: error: Argument "package_data" to "setup" has incompatible type "bool"; expected "Mapping[str, List[str]]"  [arg-type]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](wax8280)web2kindle
+(wax8280)web2kindle/web2kindle/libs/log.py:12: error: Need type annotation for 'logger_dict' (hint: "logger_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/utils.py:229: error: Value of type "Optional[Match[str]]" is not indexable  [index]
+(wax8280)web2kindle/web2kindle/libs/utils.py:240: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(wax8280)web2kindle/web2kindle/libs/utils.py:241: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(wax8280)web2kindle/web2kindle/libs/utils.py:256: error: Need type annotation for 'meta_d'  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/db.py:47: error: Need type annotation for 'INSTANCES_FOR_THREAD' (hint: "INSTANCES_FOR_THREAD: Dict[<type>, <type>] = ...")  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'KINDLE_GEN_PATH_LINUX'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'KINDLE_GEN_PATH_MAC'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'KINDLE_GEN_PATH_WINDOWS'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'TEMPLATES_KINDLE_CONTENT'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'TEMPLATES_KINDLE_NCX'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'TEMPLATES_KINDLE_OPF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:15: error: Module 'web2kindle' has no attribute 'TEMPLATES_KINDLE_TABLE'  [attr-defined]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:42: error: Need type annotation for 'to_remove' (hint: "to_remove: Set[<type>] = ...")  [var-annotated]
+(wax8280)web2kindle/web2kindle/libs/html2kindle.py:61: error: Invalid type comment or annotation  [valid-type]
+(wax8280)web2kindle/web2kindle/libs/send_email.py:11: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/qdaily.py:18: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/qdaily.py:18: error: Module 'web2kindle' has no attribute 'CONFIG_QDAILY'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_wenji.py:14: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_wenji.py:14: error: Module 'web2kindle' has no attribute 'CONFIG_JIANSHU_WENJI'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_wenji.py:14: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_user.py:14: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_user.py:14: error: Module 'web2kindle' has no attribute 'CONFIG_JIANSHU_USER'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_user.py:14: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_zhuanti.py:14: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_zhuanti.py:14: error: Module 'web2kindle' has no attribute 'CONFIG_JIANSHU_ZHUANTI'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/jianshu_zhuanti.py:14: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_collection.py:15: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_collection.py:15: error: Module 'web2kindle' has no attribute 'CONFIG_ZHIHU_COLLECTION'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_collection.py:15: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_zhuanlan.py:15: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_zhuanlan.py:15: error: Module 'web2kindle' has no attribute 'CONFIG_ZHIHU_ZHUANLAN'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_zhuanlan.py:15: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_answers.py:14: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_answers.py:14: error: Module 'web2kindle' has no attribute 'CONFIG_ZHIHU_ANSWERS'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_answers.py:14: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_answers.py:104: error: Not all arguments converted during string formatting  [str-format]
+(wax8280)web2kindle/web2kindle/script/zhihu_answers.py:109: error: Not all arguments converted during string formatting  [str-format]
+(wax8280)web2kindle/web2kindle/script/zhihu_daily.py:17: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/zhihu_daily.py:17: error: Module 'web2kindle' has no attribute 'CONFIG_ZHIHU_DAILY'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/guoke_scientific.py:15: error: Module 'web2kindle' has no attribute 'MAIN_CONFIG'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/guoke_scientific.py:15: error: Module 'web2kindle' has no attribute 'CONFIG_GUOKE_SCIENTIFIC'  [attr-defined]
+(wax8280)web2kindle/web2kindle/script/guoke_scientific.py:23: error: Module 'web2kindle' has no attribute 'INF'  [attr-defined]
+Found 43 errors in 14 files (checked 1 source file)
+
+[RRepo](ECP-CANDLE)Benchmarks
+
+[RRepo](Stiivi)entigen
+
+[RRepo](sirex)databot
+Success: no issues found in 1 source file
+
+[RRepo](ZhukovAlexander)triegex
+Success: no issues found in 2 source files
+
+[RRepo](madeso)euphoria
+
+[RRepo](desenho-sw-g5)service_control
+
+[RRepo](minlexx)whdbx_web
+
+[RRepo](jkehler)unshortenit
+
+[RRepo](BernardFW)bernard
+
+[RRepo](django-id)website
+
+[RRepo](googleapis)docuploader
+Success: no issues found in 1 source file
+
+[RRepo](abilian)abilian-sbe
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:131: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:131: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:131: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[str, Any]]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:131: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:131: note: Consider using "Mapping" instead, which is covariant in the value type
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:143: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:143: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:143: error: Argument 4 to "info" of "Logger" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[str, Any]]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:143: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:143: note: Consider using "Mapping" instead, which is covariant in the value type
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:157: error: Argument 4 to "warning" of "Logger" has incompatible type "**Dict[str, object]"; expected "Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:157: error: Argument 4 to "warning" of "Logger" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:157: error: Argument 4 to "warning" of "Logger" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[str, Any]]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:157: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:157: note: Consider using "Mapping" instead, which is covariant in the value type
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:160: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:160: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:160: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[str, Any]]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:160: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:160: note: Consider using "Mapping" instead, which is covariant in the value type
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:162: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:162: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:162: error: Argument 4 to "error" of "Logger" has incompatible type "**Dict[str, object]"; expected "Optional[Dict[str, Any]]"  [arg-type]
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:162: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(abilian)abilian-sbe/abilian/sbe/apps/documents/tasks.py:162: note: Consider using "Mapping" instead, which is covariant in the value type
+(abilian)abilian-sbe/abilian/sbe/apps/documents/__init__.py:10: error: Module 'abilian.sbe.apps.documents.views' has no attribute 'blueprint'  [attr-defined]
+Found 16 errors in 2 files (checked 1 source file)
+
+[RRepo](KeepSafe)translation-real-time-validaton
+(KeepSafe)translation-real-time-validaton/notifier/model.py:18: error: "Callable[[Type[_NT], Any, Any, Any], _NT]" has no attribute "__defaults__"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/model.py:24: error: "Callable[[Type[_NT], Any, Any], _NT]" has no attribute "__defaults__"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/translate.py:62: error: "Iterator[Any]" has no attribute "language"  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/middleware.py:6: error: Module 'notifier' has no attribute 'const'  [attr-defined]
+(KeepSafe)translation-real-time-validaton/notifier/__init__.py:6: error: Module 'notifier' has no attribute 'const'  [attr-defined]
+Found 5 errors in 4 files (checked 24 source files)
+
+[RRepo](russss)ukparliament
+
+[RRepo](intel-ctrlsys)actsys
+
+[RRepo](Rhilip)PT-help-server
+(Rhilip)PT-help-server/modules/geo/utils.py:216: error: Name 'ip' is not defined  [name-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](dombold)MyHydroPi
+
+[RRepo](JonDoNym)peinjector
+
+[RRepo](alphagov)digitalmarketplace-api
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'FrameworkLot'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Lot'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'ContactInformation'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Supplier'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'SupplierFramework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'FrameworkAgreement'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'User'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Service'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'ArchivedService'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'DraftService'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Brief'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'BriefUser'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'BriefResponse'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'BriefClarificationQuestion'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'DirectAwardProject'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'DirectAwardProjectUser'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'DirectAwardSearch'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'DirectAwardSearchResultEntry'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/generate_model_schemas.py:3: error: Module 'app.models' has no attribute 'Outcome'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/supplier_utils.py:12: error: Module 'app' has no attribute 'supplier_constants'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/service_utils.py:11: error: Module 'app.models' has no attribute 'ArchivedService'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/service_utils.py:11: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/service_utils.py:11: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/service_utils.py:11: error: Module 'app.models' has no attribute 'Service'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/service_utils.py:11: error: Module 'app.models' has no attribute 'Supplier'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/brief_utils.py:3: error: Module 'app.models' has no attribute 'Service'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/__init__.py:16: error: Module 'app.main.views' has no attribute 'briefs'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/__init__.py:16: error: Module 'app.main.views' has no attribute 'direct_award'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/__init__.py:16: error: Module 'app.main.views' has no attribute 'drafts'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/__init__.py:16: error: Module 'app.main.views' has no attribute 'frameworks'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/__init__.py:16: error: Module 'app.main.views' has no attribute 'suppliers'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'BuyerEmailDomain'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'Service'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'Supplier'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'SupplierFramework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/users.py:13: error: Module 'app.models' has no attribute 'User'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/outcomes.py:8: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/outcomes.py:8: error: Module 'app.models' has no attribute 'Outcome'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/buyer_domains.py:7: error: Module 'app.models' has no attribute 'BuyerEmailDomain'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/buyer_domains.py:7: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/brief_responses.py:10: error: Module 'app.models' has no attribute 'db'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/brief_responses.py:10: error: Module 'app.models' has no attribute 'Brief'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/brief_responses.py:10: error: Module 'app.models' has no attribute 'BriefResponse'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/brief_responses.py:10: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/brief_responses.py:10: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:13: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:27: error: Module has no attribute "Supplier"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:28: error: Module has no attribute "Service"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:29: error: Module has no attribute "Framework"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:30: error: Module has no attribute "User"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:31: error: Module has no attribute "Brief"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:32: error: Module has no attribute "Outcome"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:33: error: Module has no attribute "BriefResponse"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:37: error: Module has no attribute "Supplier"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:38: error: Module has no attribute "Service"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:39: error: Module has no attribute "Framework"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:40: error: Module has no attribute "User"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:41: error: Module has no attribute "Brief"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:42: error: Module has no attribute "Outcome"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/audits.py:43: error: Module has no attribute "BriefResponse"  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'db'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'FrameworkAgreement'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'SupplierFramework'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/agreements.py:8: error: Module 'app.models' has no attribute 'User'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/services.py:8: error: Module 'app.models' has no attribute 'ArchivedService'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/services.py:8: error: Module 'app.models' has no attribute 'Service'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/services.py:8: error: Module 'app.models' has no attribute 'Supplier'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/services.py:8: error: Module 'app.models' has no attribute 'AuditEvent'  [attr-defined]
+(alphagov)digitalmarketplace-api/app/main/views/services.py:8: error: Module 'app.models' has no attribute 'Framework'  [attr-defined]
+Found 75 errors in 12 files (checked 13 source files)
+
+[RRepo](scipy)scipy
+
+[RRepo](bintoro)overloading.py
+Success: no issues found in 1 source file
+
+[RRepo](mara)mara-db
+(mara)mara-db/mara_db/postgresql.py:7: error: Name 'psycopg2' is not defined  [name-defined]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:32: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:37: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/sqlalchemy_engine.py:44: error: Name '__' already defined on line 27  [no-redef]
+(mara)mara-db/mara_db/config.py:7: error: Invalid type comment or annotation  [valid-type]
+(mara)mara-db/mara_db/config.py:22: error: Incompatible return value type (got "str", expected "Pattern[Any]")  [return-value]
+(mara)mara-db/mara_db/views.py:125: error: Need type annotation for 'constrained_columns' (hint: "constrained_columns: Dict[<type>, <type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/views.py:199: error: Need type annotation for 'schema_colors' (hint: "schema_colors: Dict[<type>, <type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/auto_migration.py:18: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(mara)mara-db/mara_db/auto_migration.py:18: note: Did you mean "List[...]"?
+(mara)mara-db/mara_db/auto_migration.py:50: error: Name 'MetaData' is not defined  [name-defined]
+(mara)mara-db/mara_db/auto_migration.py:115: error: Need type annotation for 'models' (hint: "models: List[<type>] = ...")  [var-annotated]
+(mara)mara-db/mara_db/auto_migration.py:117: error: "str" not callable  [operator]
+(mara)mara-db/mara_db/auto_migration.py:119: error: Argument 2 to "isinstance" has incompatible type "_SpecialForm"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(mara)mara-db/mara_db/auto_migration.py:139: error: Unsupported dynamic base class "sqlalchemy.ext.declarative.declarative_base"  [misc]
+(mara)mara-db/mara_db/auto_migration.py:160: error: Name 'MyTable' already defined on line 139  [no-redef]
+(mara)mara-db/mara_db/auto_migration.py:160: error: Unsupported dynamic base class "sqlalchemy.ext.declarative.declarative_base"  [misc]
+Found 16 errors in 5 files (checked 9 source files)
+
+[RRepo](wintoncode)winton-kafka-streams
+
+[RRepo](Yelp)service_configuration_lib
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:100: error: "None" has no attribute "check_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:101: error: "None" has no attribute "read_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/cached_view.py:102: error: "None" has no attribute "process_events"  [attr-defined]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:29: error: Cannot assign to a type  [misc]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:29: error: Incompatible types in assignment (expression has type "Type[SafeLoader]", variable has type "Type[CSafeLoader]")  [assignment]
+(Yelp)service_configuration_lib/service_configuration_lib/__init__.py:33: error: Need type annotation for '_yaml_cache' (hint: "_yaml_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 2 files (checked 3 source files)
+
+[RRepo](bastings)neuralmonkey
+
+[RRepo](wglas85)math
+
+[RRepo](ava-project)AVA
+
+[RRepo](rmvanhees)pys5p
+Success: no issues found in 1 source file
+
+[RRepo](BoPeng)simuPOP
+(BoPeng)simuPOP/simuOpt.py:108: error: "object" has no attribute "extend"  [attr-defined]
+(BoPeng)simuPOP/simuOpt.py:108: error: Item "None" of "Optional[str]" has no attribute "split"  [union-attr]
+(BoPeng)simuPOP/simuOpt.py:113: error: Argument 1 to "int" has incompatible type "Optional[str]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](hsolbrig)shexypy
+
+[RRepo](Riamse)ceterach
+Success: no issues found in 1 source file
+
+[RRepo](marrow)WebCore
+
+[RRepo](wilkeraziz)grasp
+
+[RRepo](cltk)cltk
+(cltk)cltk/cltk/__init__.py:50: error: Module has no attribute "get_cltk_data_dir"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](mitdbg)aurum-datadiscovery
+(mitdbg)aurum-datadiscovery/networkbuildercoordinator.py:3: error: Module 'knowledgerepr' has no attribute 'networkbuilder'  [attr-defined]
+(mitdbg)aurum-datadiscovery/aurum_cli.py:69: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(mitdbg)aurum-datadiscovery/test_algebra.py:266: error: Name 'Hit' is not defined  [name-defined]
+(mitdbg)aurum-datadiscovery/test_algebra.py:266: error: Name 'params' is not defined  [name-defined]
+Found 4 errors in 3 files (checked 7 source files)
+
+[RRepo](schollii)pypubsub
+Success: no issues found in 1 source file
+
+[RRepo](PUNCH-Cyber)stoq
+Success: no issues found in 1 source file
+
+[RRepo](KSG-IT)ksg-nett
+
+[RRepo](project-callisto)callisto-core
+
+[RRepo](zydiig)Container
+(zydiig)Container/namespace.py:27: error: Name 'require_root' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:11: error: Name 'mount' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:17: error: Name 'try_unmount_all' already defined (possibly by an import)  [no-redef]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "uid_map"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "gid_map"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "hostname"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "env"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "cgroup_specs"  [misc]
+(zydiig)Container/contain.py:35: error: "Container" gets multiple values for keyword argument "custom_mounts"  [misc]
+Found 9 errors in 2 files (checked 3 source files)
+
+[RRepo](b-mueller)mythril
+(b-mueller)mythril/setup.py:55: error: Value of type "None" is not indexable  [index]
+(b-mueller)mythril/mythril/laser/smt/__init__.py:27: error: Name 'bool.Bool' is not defined  [name-defined]
+(b-mueller)mythril/mythril/laser/smt/__init__.py:67: error: Name 'bool.Bool' is not defined  [name-defined]
+(b-mueller)mythril/mythril/laser/smt/__init__.py:74: error: Name 'bool.Bool' is not defined  [name-defined]
+(b-mueller)mythril/mythril/support/signatures.py:266: error: Incompatible types in assignment (expression has type "List[str]", variable has type "bytes")  [assignment]
+(b-mueller)mythril/mythril/support/signatures.py:269: error: Unsupported right operand type for in ("int")  [operator]
+(b-mueller)mythril/mythril/support/signatures.py:270: error: "int" has no attribute "split"  [attr-defined]
+(b-mueller)mythril/mythril/support/signatures.py:271: error: "int" has no attribute "split"  [attr-defined]
+(b-mueller)mythril/mythril/disassembler/disassembly.py:95: error: Incompatible return value type (got "Tuple[Any, None, None]", expected "Tuple[str, int, str]")  [return-value]
+(b-mueller)mythril/mythril/laser/ethereum/util.py:102: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(b-mueller)mythril/mythril/laser/ethereum/util.py:122: error: List comprehension has incompatible type List[Union[int, None, BitVec]]; expected List[Union[BitVec, int]]  [misc]
+(b-mueller)mythril/mythril/laser/ethereum/state/calldata.py:77: error: Value of type variable "G" of "simplify" cannot be "bool"  [type-var]
+(b-mueller)mythril/mythril/laser/ethereum/state/calldata.py:78: error: Argument 1 to "_load" of "BaseCalldata" has incompatible type "Expression[Any]"; expected "Union[int, BitVec]"  [arg-type]
+(b-mueller)mythril/mythril/laser/ethereum/state/global_state.py:121: error: Item "None" of "Union[MessageCallTransaction, ContractCreationTransaction, None]" has no attribute "id"  [union-attr]
+(b-mueller)mythril/mythril/laser/ethereum/transaction/transaction_models.py:102: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(b-mueller)mythril/mythril/laser/ethereum/transaction/transaction_models.py:126: error: Argument 1 to "Environment" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(b-mueller)mythril/mythril/laser/ethereum/transaction/transaction_models.py:132: error: Item "None" of "Optional[Account]" has no attribute "code"  [union-attr]
+(b-mueller)mythril/mythril/laser/ethereum/transaction/transaction_models.py:163: error: Argument 1 to "Environment" has incompatible type "Optional[Account]"; expected "Account"  [arg-type]
+(b-mueller)mythril/mythril/laser/ethereum/transaction/transaction_models.py:186: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(b-mueller)mythril/tests/native_test.py:16: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:17: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:18: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:19: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:21: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:22: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:24: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:25: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:27: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+(b-mueller)mythril/tests/native_test.py:28: error: Incompatible types in assignment (expression has type "Tuple[str, bool]", target has type "Tuple[int, bool]")  [assignment]
+Found 29 errors in 9 files (checked 15 source files)
+
+[RRepo](mayhewj)greenstalk
+Success: no issues found in 2 source files
+
+[RRepo](A1014280203)elearning
+(A1014280203)elearning/app/basic.py:71: error: Need type annotation for '_l' (hint: "_l: Dict[<type>, <type>] = ...")  [var-annotated]
+(A1014280203)elearning/app/__init__.py:2: error: Module 'app.main' has no attribute 'main'  [attr-defined]
+(A1014280203)elearning/app/__init__.py:3: error: Module 'app.per' has no attribute 'per'  [attr-defined]
+(A1014280203)elearning/app/__init__.py:4: error: Module 'app.auth' has no attribute 'auth'  [attr-defined]
+(A1014280203)elearning/app/__init__.py:5: error: Module 'app.pay' has no attribute 'pay'  [attr-defined]
+(A1014280203)elearning/app/__init__.py:6: error: Module 'app.cos' has no attribute 'cos'  [attr-defined]
+(A1014280203)elearning/app/__init__.py:7: error: Module 'app.sch' has no attribute 'sch'  [attr-defined]
+Found 7 errors in 2 files (checked 3 source files)
+
+[RRepo](cybertec-postgresql)pgwatch2
+
+[RRepo](miniworld-project)miniworld_core
+(miniworld-project)miniworld_core/miniworld/model/StartableObject.py:1: error: Module 'miniworld.errors' has no attribute 'Base'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/util/JSONConfig.py:11: error: Module 'miniworld.errors' has no attribute 'ConfigError'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/util/JSONConfig.py:11: error: Module 'miniworld.errors' has no attribute 'ConfigNotSet'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/util/JSONConfig.py:11: error: Module 'miniworld.errors' has no attribute 'ConfigMalformed'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/util/JSONConfig.py:11: error: Module 'miniworld.errors' has no attribute 'ConfigOptionNotSupported'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/util/JSONConfig.py:280: error: "JSONConfig" has no attribute "config"  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/management/ShellHelper.py:287: error: Need type annotation for 'subprocesses' (hint: "subprocesses: List[<type>] = ...")  [var-annotated]
+(miniworld-project)miniworld_core/miniworld/log/__init__.py:7: error: Module 'miniworld.errors' has no attribute 'Unsupported'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/__init__.py:10: error: Module 'miniworld.errors' has no attribute 'AlreadyRunning'  [attr-defined]
+(miniworld-project)miniworld_core/miniworld/model/singletons/SingletonInit.py:3: error: Module 'miniworld.management' has no attribute 'SimulationManager'  [attr-defined]
+Found 10 errors in 6 files (checked 5 source files)
+
+[RRepo](arthurmensch)cogspaces
+Success: no issues found in 1 source file
+
+[RRepo](ihipop)TurboPydDNS
+
+[RRepo](Vadman97)PicoSim
+
+[RRepo](d-Rickyy-b)Python-BlackJackBot
+Success: no issues found in 4 source files
+
+[RRepo](aio-libs)aiohttp
+(aio-libs)aiohttp/setup.py:6: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](inviwo)inviwo
+
+[RRepo](xeroc)python-graphenelib
+(xeroc)python-graphenelib/graphenestorage/interfaces.py:33: error: Need type annotation for 'defaults' (hint: "defaults: Dict[<type>, <type>] = ...")  [var-annotated]
+(xeroc)python-graphenelib/graphenestorage/base.py:35: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:37: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:39: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:77: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:79: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:81: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:161: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:162: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+(xeroc)python-graphenelib/graphenestorage/base.py:163: error: Incompatible types in assignment (expression has type "str", base class "SQLiteStore" defined the type as "None")  [assignment]
+Found 10 errors in 2 files (checked 6 source files)
+
+[RRepo](tornadoweb)tornado
+(tornadoweb)tornado/setup.py:35: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(tornadoweb)tornado/setup.py:115: error: Need type annotation for 'ns' (hint: "ns: Dict[<type>, <type>] = ...")  [var-annotated]
+(tornadoweb)tornado/setup.py:128: error: Incompatible types in assignment (expression has type "List[Extension]", target has type "str")  [assignment]
+(tornadoweb)tornado/setup.py:135: error: Incompatible types in assignment (expression has type "Dict[str, Type[custom_build_ext]]", target has type "str")  [assignment]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](piqueserver)piqueserver
+(piqueserver)piqueserver/setup.py:7: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(piqueserver)piqueserver/setup.py:20: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 1 source file)
+

@@ -1,0 +1,865 @@
+[RRepo](PetterKraabol)Twitch-Chat-Downloader
+(PetterKraabol)Twitch-Chat-Downloader/tcd/singleton.py:5: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:43: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:44: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:45: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:46: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:47: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:48: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:49: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:50: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:51: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:52: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:53: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:56: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:57: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[int]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:58: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:59: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:69: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:69: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Attribute 'formats' already defined on line 63  [no-redef]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:77: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:77: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:81: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:81: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:24: error: Argument 1 to "Path" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:53: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:81: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:84: error: Argument 1 to "load" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:95: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:97: error: Argument 1 to "load" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:114: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/downloader.py:77: error: Item "None" of "Optional[Match[str]]" has no attribute "groupdict"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/downloader.py:150: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/__init__.py:11: error: Name '__name__' already defined (possibly by an import)  [no-redef]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/__init__.py:13: error: Type of __all__ must be "Sequence[str]", not "List[Callable[..., Any]]"  [misc]
+Found 36 errors in 5 files (checked 9 source files)
+
+[RRepo](lkorigin)laniakea-spark
+
+[RRepo](miracle2k)k8s-snapshots
+
+[RRepo](stadtgestalten)stadtgestalten
+Success: no issues found in 1 source file
+
+[RRepo](bokeh)bokeh
+(bokeh)bokeh/bokeh/util/future.py:49: error: Name 'collections_abc' already defined (by an import)  [no-redef]
+(bokeh)bokeh/bokeh/command/util.py:32: error: Module 'bokeh.application' has no attribute 'Application'  [attr-defined]
+(bokeh)bokeh/bokeh/command/util.py:33: error: Module 'bokeh.application.handlers' has no attribute 'ScriptHandler'  [attr-defined]
+(bokeh)bokeh/bokeh/command/util.py:33: error: Module 'bokeh.application.handlers' has no attribute 'DirectoryHandler'  [attr-defined]
+(bokeh)bokeh/bokeh/command/util.py:33: error: Module 'bokeh.application.handlers' has no attribute 'NotebookHandler'  [attr-defined]
+(bokeh)bokeh/bokeh/util/logconfig.py:84: error: "Type[Logger]" has no attribute "trace"  [attr-defined]
+(bokeh)bokeh/bokeh/util/logconfig.py:85: error: Module has no attribute "TRACE"  [attr-defined]
+(bokeh)bokeh/bokeh/util/logconfig.py:104: error: Incompatible types in assignment (expression has type "None", variable has type "StreamHandler")  [assignment]
+(bokeh)bokeh/bokeh/command/subcommand.py:48: error: Unsupported dynamic base class "with_metaclass"  [misc]
+(bokeh)bokeh/bokeh/core/enums.py:81: error: Module 'bokeh' has no attribute 'palettes'  [attr-defined]
+(bokeh)bokeh/bokeh/core/enums.py:354: error: Module has no attribute "named"  [attr-defined]
+(bokeh)bokeh/bokeh/protocol/messages/__init__.py:47: error: Need type annotation for 'index' (hint: "index: Dict[<type>, <type>] = ...")  [var-annotated]
+(bokeh)bokeh/bokeh/tile_providers.py:246: error: "_TileProvidersModule" has no attribute "__all__"  [attr-defined]
+(bokeh)bokeh/bokeh/protocol/__init__.py:31: error: Module 'bokeh.protocol' has no attribute 'versions'  [attr-defined]
+(bokeh)bokeh/bokeh/models/mappers.py:31: error: Module 'bokeh' has no attribute 'palettes'  [attr-defined]
+Found 15 errors in 9 files (checked 20 source files)
+
+[RRepo](ekeih)OmNomNom
+Success: no issues found in 1 source file
+
+[RRepo](cprogrammer1994)ModernGL
+
+[RRepo](getzze)gconnect
+
+[RRepo](makerdao)maker.py
+Success: no issues found in 1 source file
+
+[RRepo](asphalt-framework)asphalt-wamp
+
+[RRepo](pybel)pybel-tools
+
+[RRepo](briancappello)flask-react-spa
+
+[RRepo](pypa)warehouse
+
+[RRepo](jpn--)larch
+(jpn--)larch/setup.py:69: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[str]")  [assignment]
+(jpn--)larch/setup.py:72: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[str]")  [assignment]
+(jpn--)larch/setup.py:85: error: Incompatible types in assignment (expression has type "List[<nothing>]", variable has type "Tuple[str]")  [assignment]
+(jpn--)larch/setup.py:88: error: Incompatible types in assignment (expression has type "List[<nothing>]", variable has type "Tuple[str]")  [assignment]
+(jpn--)larch/setup.py:99: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[str]")  [assignment]
+(jpn--)larch/setup.py:102: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Tuple[str]")  [assignment]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](cbozi)edge-server-placement
+
+[RRepo](d10genes)pollen
+(d10genes)pollen/util/utils.py:107: error: "Callable[[Any, Any, Any], Any]" has no attribute "diff"  [attr-defined]
+(d10genes)pollen/util/utils.py:233: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(d10genes)pollen/util/utils.py:233: note: Did you mean "List[...]"?
+(d10genes)pollen/util/utils.py:244: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(d10genes)pollen/util/utils.py:244: note: Did you mean "List[...]"?
+(d10genes)pollen/util/pollen_utils.py:23: error: Syntax error in type annotation  [syntax]
+(d10genes)pollen/util/pollen_utils.py:23: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(d10genes)pollen/util/pollen_utils.py:23: error: Name 'date' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:23: error: Name 'pollen_ct' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:33: error: Syntax error in type annotation  [syntax]
+(d10genes)pollen/util/pollen_utils.py:33: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(d10genes)pollen/util/pollen_utils.py:33: error: Name 'date' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:33: error: Name 'pollen_ct' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:20: error: Name 'pd' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:21: error: Name 'get_ipython' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:26: error: Name 'reload' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:31: error: Name 'reload' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:37: error: Name 'dt' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:43: error: Too many arguments for "test_collapse_dims_"  [call-arg]
+(d10genes)pollen/hyperparams.py:51: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:52: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:53: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:146: error: "Callable[[Any, Any, Any, Any, Any, Any], Any]" has no attribute "mnorm"  [attr-defined]
+(d10genes)pollen/hyperparams.py:251: error: Name 'np' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:259: error: "BatchArray" has no attribute "Dt"  [attr-defined]
+(d10genes)pollen/hyperparams.py:295: error: Too many arguments for "opt_func"  [call-arg]
+(d10genes)pollen/hyperparams.py:295: error: Unexpected keyword argument "dropout" for "opt_func"  [call-arg]
+(d10genes)pollen/hyperparams.py:295: error: Unexpected keyword argument "lr" for "opt_func"  [call-arg]
+(d10genes)pollen/hyperparams.py:295: error: Unexpected keyword argument "n_iters" for "opt_func"  [call-arg]
+(d10genes)pollen/hyperparams.py:340: error: Name 'DataFrame' is not defined  [name-defined]
+(d10genes)pollen/hyperparams.py:349: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:26: error: Name 'get_ipython' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:39: error: Name 'get_ipython' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:44: error: Name 'reload' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:48: error: Name 'reload' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:60: error: Too many arguments for "test_collapse_dims_"  [call-arg]
+(d10genes)pollen/data-fetcher.py:66: error: Name 'pd' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:93: error: Name 'np' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:95: error: Name 'pd' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:116: error: Cannot determine type of 'poldf2'  [has-type]
+(d10genes)pollen/data-fetcher.py:121: error: Cannot determine type of 'poldf2'  [has-type]
+(d10genes)pollen/data-fetcher.py:126: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:131: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:349: error: Name 'pd' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:363: error: Name 'get_ipython' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:368: error: Name 'feather' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:374: error: Name 'hr_dat' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:393: error: Name 'hr_dat' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:398: error: Name 'hr_dat' is not defined  [name-defined]
+(d10genes)pollen/data-fetcher.py:409: error: Name 'hr_dat' is not defined  [name-defined]
+Found 46 errors in 4 files (checked 2 source files)
+
+[RRepo](Ameriks)velo.lv
+Success: no issues found in 2 source files
+
+[RRepo](difu)tnsmaster
+(difu)tnsmaster/tnsnames/tnsnamesparserewithexception.py:8: error: Name 'TokenStream' is not defined  [name-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](QudevETH)PycQED_py3
+(QudevETH)PycQED_py3/ipynb_filter.py:29: error: Name 'c' is not defined  [name-defined]
+(QudevETH)PycQED_py3/ipynb_filter.py:30: error: Name 'c' is not defined  [name-defined]
+(QudevETH)PycQED_py3/ipynb_filter.py:31: error: Name 'c' is not defined  [name-defined]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](DwangoMediaVillage)pqkmeans
+Success: no issues found in 1 source file
+
+[RRepo](rwengine)openrw
+Success: no issues found in 1 source file
+
+[RRepo](Brutus5000)BiReUS
+(Brutus5000)BiReUS/bireus/shared/diff_item.py:71: error: "Sequence[str]" has no attribute "append"  [attr-defined]
+(Brutus5000)BiReUS/bireus/shared/diff_head.py:56: error: "object" has no attribute "append"  [attr-defined]
+(Brutus5000)BiReUS/bireus/server/patch_strategy.py:78: error: Unsupported right operand type for in ("object")  [operator]
+(Brutus5000)BiReUS/bireus/server/patch_strategy.py:78: error: Value of type "object" is not indexable  [index]
+(Brutus5000)BiReUS/bireus/server/compare_tasks/base.py:37: error: Need type annotation for '_compare_tasks' (hint: "_compare_tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(Brutus5000)BiReUS/bireus/server/compare_tasks/base.py:39: error: Too few arguments for "get_version" of "CompareTask"  [call-arg]
+(Brutus5000)BiReUS/bireus/server/__init__.py:20: error: Incompatible types in assignment (expression has type "InstantStrategy", target has type "IncrementalStrategy")  [assignment]
+(Brutus5000)BiReUS/bireus/server/__init__.py:21: error: Incompatible types in assignment (expression has type "InstantStrategy", target has type "IncrementalStrategy")  [assignment]
+(Brutus5000)BiReUS/bireus/server/__init__.py:22: error: Incompatible types in assignment (expression has type "MajorMinorStrategy", target has type "IncrementalStrategy")  [assignment]
+(Brutus5000)BiReUS/bireus/server/__init__.py:23: error: Incompatible types in assignment (expression has type "MajorMinorStrategy", target has type "IncrementalStrategy")  [assignment]
+(Brutus5000)BiReUS/bireus/client/patch_tasks/base.py:45: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(Brutus5000)BiReUS/bireus/client/patch_tasks/base.py:65: error: Need type annotation for '_patch_tasks' (hint: "_patch_tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(Brutus5000)BiReUS/bireus/client/patch_tasks/base.py:67: error: Too few arguments for "get_version" of "PatchTask"  [call-arg]
+(Brutus5000)BiReUS/bireus/client/repository.py:52: error: Incompatible types in assignment (expression has type "AbstractDownloadService", variable has type "BasicDownloadService")  [assignment]
+(Brutus5000)BiReUS/bireus/client/repository.py:98: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(Brutus5000)BiReUS/bireus/client/repository.py:98: note: Possible overload variants:
+(Brutus5000)BiReUS/bireus/client/repository.py:98: note:     def __getitem__(self, int) -> int
+(Brutus5000)BiReUS/bireus/client/repository.py:98: note:     def __getitem__(self, slice) -> bytes
+Found 15 errors in 7 files (checked 3 source files)
+
+[RRepo](leios)algorithm-archive
+
+[RRepo](datawire)telepresence
+
+[RRepo](zeffii)TubeTool
+
+[RRepo](HumanCompatibleAI)imitation
+
+[RRepo](schrockn)graphscale
+
+[RRepo](irmen)synthesizer
+
+[RRepo](borevitzlab)spc-eyepi
+
+[RRepo](smashwilson)slack-emojinator
+(smashwilson)slack-emojinator/upload.py:16: error: Cannot determine type of 'raw_input'  [has-type]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](peer23peer)pymech
+
+[RRepo](daxtens)smart-sparse-diff
+(daxtens)smart-sparse-diff/smart-sparse-diff.py:108: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(daxtens)smart-sparse-diff/smart-sparse-diff.py:111: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(daxtens)smart-sparse-diff/smart-sparse-diff.py:218: error: Argument 1 to "remove_exact_matching_lines" has incompatible type "Optional[List[List[str]]]"; expected "List[List[str]]"  [arg-type]
+(daxtens)smart-sparse-diff/smart-sparse-diff.py:218: error: Argument 2 to "remove_exact_matching_lines" has incompatible type "Optional[List[List[str]]]"; expected "List[List[str]]"  [arg-type]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](glotaran)glotaran
+Success: no issues found in 1 source file
+
+[RRepo](arraylabs)pymyq
+(arraylabs)pymyq/pymyq/api.py:68: error: Need type annotation for '_devices' (hint: "_devices: List[<type>] = ...")  [var-annotated]
+(arraylabs)pymyq/pymyq/api.py:148: error: Item "None" of "Optional[ClientSession]" has no attribute "request"  [union-attr]
+(arraylabs)pymyq/pymyq/api.py:176: error: No overload variant of "__sub__" of "datetime" matches argument type "None"  [operator]
+(arraylabs)pymyq/pymyq/api.py:176: note: Possible overload variants:
+(arraylabs)pymyq/pymyq/api.py:176: note:     def __sub__(self, datetime) -> timedelta
+(arraylabs)pymyq/pymyq/api.py:176: note:     def __sub__(self, timedelta) -> datetime
+(arraylabs)pymyq/pymyq/api.py:219: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/api.py:223: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/api.py:265: error: Need type annotation for 'device_list' (hint: "device_list: List[<type>] = ...")  [var-annotated]
+(arraylabs)pymyq/pymyq/device.py:170: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/device.py:188: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/example.py:43: error: Module has no attribute "login"  [attr-defined]
+Found 9 errors in 3 files (checked 2 source files)
+
+[RRepo](nerosketch)djing
+(nerosketch)djing/djing/lib/__init__.py:73: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(nerosketch)djing/gw_app/models.py:8: error: Module 'gw_app.nas_managers' has no attribute 'NAS_TYPES'  [attr-defined]
+(nerosketch)djing/gw_app/models.py:8: error: Module 'gw_app.nas_managers' has no attribute 'NasNetworkError'  [attr-defined]
+(nerosketch)djing/periodic.py:12: error: Module 'gw_app.nas_managers' has no attribute 'NasNetworkError'  [attr-defined]
+(nerosketch)djing/periodic.py:12: error: Module 'gw_app.nas_managers' has no attribute 'NasFailedResult'  [attr-defined]
+Found 5 errors in 3 files (checked 12 source files)
+
+[RRepo](sernst)cauldron
+(sernst)cauldron/cauldron/render/utils.py:30: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(sernst)cauldron/cauldron/environ/modes.py:8: error: Need type annotation for '_current_modes' (hint: "_current_modes: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/session/writing/components/definitions.py:21: error: Need type annotation for 'flat_components' (hint: "flat_components: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/docker-builder.py:39: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(sernst)cauldron/cauldron/writer.py:33: error: Item "bytes" of "Union[str, bytes]" has no attribute "encode"  [union-attr]
+(sernst)cauldron/cauldron/writer.py:41: error: Incompatible types in assignment (expression has type "None", variable has type "bytes")  [assignment]
+(sernst)cauldron/cauldron/writer.py:46: error: Incompatible types in assignment (expression has type "IO[Any]", variable has type "BinaryIO")  [assignment]
+(sernst)cauldron/cauldron/session/naming.py:14: error: Incompatible return value type (got "str", expected "Dict[Any, Any]")  [return-value]
+(sernst)cauldron/cauldron/session/naming.py:16: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(sernst)cauldron/cauldron/session/naming.py:111: error: Incompatible types in assignment (expression has type "Optional[int]", variable has type "Optional[str]")  [assignment]
+(sernst)cauldron/cauldron/session/naming.py:114: error: Unsupported operand types for - ("str" and "int")  [operator]
+(sernst)cauldron/cauldron/session/naming.py:114: error: Unsupported operand types for - ("None" and "int")  [operator]
+(sernst)cauldron/cauldron/session/naming.py:114: note: Left operand is of type "Optional[str]"
+(sernst)cauldron/cauldron/session/naming.py:164: error: Incompatible types in assignment (expression has type "str", variable has type "Pattern[str]")  [assignment]
+(sernst)cauldron/cauldron/session/naming.py:165: error: Argument 1 to "replace" of "str" has incompatible type "Pattern[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/plotting/__init__.py:60: error: Incompatible types in assignment (expression has type "Tuple[int, ...]", variable has type "Tuple[int, int, int]")  [assignment]
+(sernst)cauldron/cauldron/plotting/__init__.py:60: error: List item 0 has incompatible type "float"; expected "int"  [list-item]
+(sernst)cauldron/cauldron/plotting/__init__.py:141: error: Argument 2 to "randint" has incompatible type "float"; expected "int"  [arg-type]
+(sernst)cauldron/cauldron/plotting/__init__.py:149: error: Incompatible types in assignment (expression has type "Union[Tuple[Any, ...], str]", variable has type "Optional[str]")  [assignment]
+(sernst)cauldron/cauldron/runner/redirection.py:6: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/redirection.py:59: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/environ/logger.py:11: error: Need type annotation for '_logging_paths' (hint: "_logging_paths: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/environ/logger.py:42: error: Argument 1 to "remove" of "list" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/environ/logger.py:214: error: "Thread" has no attribute "logs"  [attr-defined]
+(sernst)cauldron/cauldron/environ/logger.py:221: error: List item 0 has incompatible type "Optional[str]"; expected "str"  [list-item]
+(sernst)cauldron/cauldron/environ/logger.py:252: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(sernst)cauldron/cauldron/environ/systems.py:146: error: Cannot call function of unknown type  [operator]
+(sernst)cauldron/cauldron/environ/configuration.py:14: error: Need type annotation for '_session' (hint: "_session: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/environ/configuration.py:32: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(sernst)cauldron/cauldron/environ/response.py:143: error: Argument "message" to "log" has incompatible type "Union[str, List[str], None]"; expected "Union[str, List[str]]"  [arg-type]
+(sernst)cauldron/cauldron/environ/response.py:161: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/environ/response.py:171: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/environ/response.py:172: error: Incompatible types in assignment (expression has type "None", variable has type "Response")  [assignment]
+(sernst)cauldron/cauldron/environ/response.py:178: error: Incompatible types in assignment (expression has type "None", variable has type "CauldronThread")  [assignment]
+(sernst)cauldron/cauldron/environ/response.py:180: error: Incompatible types in assignment (expression has type "None", variable has type "Response")  [assignment]
+(sernst)cauldron/cauldron/environ/response.py:290: error: Item "None" of "Union[Any, Response, None]" has no attribute "identifier"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:291: error: Item "None" of "Union[Any, Response, None]" has no attribute "failed"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:292: error: Item "None" of "Union[Any, Response, None]" has no attribute "ended"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:293: error: Item "None" of "Union[Any, Response, None]" has no attribute "data"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:294: error: Item "None" of "Union[Any, Response, None]" has no attribute "messages"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:295: error: Item "None" of "Union[Any, Response, None]" has no attribute "errors"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:296: error: Item "None" of "Union[Any, Response, None]" has no attribute "warnings"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:297: error: Item "None" of "Union[Any, Response, None]" has no attribute "thread"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:299: error: Item "None" of "Union[Any, Response, None]" has no attribute "parent"  [union-attr]
+(sernst)cauldron/cauldron/environ/response.py:383: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "Optional[Exception]")  [assignment]
+(sernst)cauldron/cauldron/environ/response.py:387: error: Argument 1 to "as_single_line" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/cli/__init__.py:37: error: Argument "name" to "COMMAND_CONTEXT@10" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/cli/__init__.py:38: error: Argument "raw_args" to "COMMAND_CONTEXT@10" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/cli/interaction/query.py:75: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(sernst)cauldron/cauldron/cli/interaction/query.py:77: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(sernst)cauldron/cauldron/cli/interaction/query.py:79: error: Incompatible return value type (got "Tuple[str, Any]", expected "Tuple[int, str]")  [return-value]
+(sernst)cauldron/cauldron/cli/interaction/query.py:79: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(sernst)cauldron/cauldron/cli/interaction/query.py:79: note: Possible overload variants:
+(sernst)cauldron/cauldron/cli/interaction/query.py:79: note:     def __getitem__(self, int) -> Any
+(sernst)cauldron/cauldron/cli/interaction/query.py:79: note:     def __getitem__(self, slice) -> List[Any]
+(sernst)cauldron/cauldron/cli/commands/sync.py:23: error: Need type annotation for 'synchronized' (hint: "synchronized: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/cli/commands/sync.py:46: error: Module has no attribute "files"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/sync.py:59: error: Module has no attribute "comm"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/sync.py:76: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/sync.py:83: error: Module has no attribute "comm"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/sync.py:102: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/interaction/autocompletion.py:23: error: Need type annotation for 'items' (hint: "items: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/cli/interaction/autocompletion.py:96: error: Need type annotation for 'out' (hint: "out: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/templating.py:97: error: "BaseLoader" has no attribute "searchpath"  [attr-defined]
+(sernst)cauldron/cauldron/templating.py:117: error: Argument 1 to "dedent" has incompatible type "Union[str, Template]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/templating.py:119: error: Item "str" of "Union[str, Template]" has no attribute "render"  [union-attr]
+(sernst)cauldron/cauldron/session/caching.py:90: error: Argument 1 to "fetch" of "SharedCache" has incompatible type "List[str]"; expected "Optional[str]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/file_io.py:84: error: Cannot call function of unknown type  [operator]
+(sernst)cauldron/cauldron/session/writing/components/shared_component.py:52: error: Incompatible return value type (got "None", expected "WEB_INCLUDE")  [return-value]
+(sernst)cauldron/cauldron/session/writing/components/shared_component.py:55: error: Incompatible return value type (got "None", expected "WEB_INCLUDE")  [return-value]
+(sernst)cauldron/cauldron/session/spark/__init__.py:8: error: Need type annotation for 'spark_environment' (hint: "spark_environment: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/session/spark/__init__.py:45: error: Argument 1 to "clean" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/render/stack.py:37: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/render/stack.py:68: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/parse.py:73: error: Need type annotation for 'assigned_args' (hint: "assigned_args: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/cli/parse.py:105: error: Cannot assign to a method  [assignment]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:10: error: Missing return statement  [return]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:57: error: Incompatible types in assignment (expression has type "List[Tuple[str, Dict[str, str]]]", variable has type "Dict[str, Dict[str, str]]")  [assignment]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:58: error: "Dict[str, Dict[str, str]]" has no attribute "sort"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:65: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:85: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:94: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:107: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/actions.py:126: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(sernst)cauldron/cauldron/session/definitions.py:50: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/html.py:10: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:15: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:40: error: Incompatible types in assignment (expression has type "List[str]", variable has type "Iterator[str]")  [assignment]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:40: note: 'list' is missing following 'Iterator' protocol member:
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:40: note:     __next__
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:57: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:73: error: Argument 1 to "merge_components" has incompatible type "*Iterator[COMPONENT]"; expected "List[Union[List[Any], Tuple[Any, ...], COMPONENT]]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:80: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/project_component.py:98: error: Incompatible return value type (got "None", expected "WEB_INCLUDE")  [return-value]
+(sernst)cauldron/cauldron/session/writing/components/plotly_component.py:58: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/bokeh_component.py:22: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/bokeh_component.py:38: error: Argument 1 to "merge_components" has incompatible type "COMPONENT"; expected "List[Union[List[Any], Tuple[Any, ...], COMPONENT]]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/components/bokeh_component.py:44: error: Argument 2 to "merge_components" has incompatible type "COMPONENT"; expected "List[Union[List[Any], Tuple[Any, ...], COMPONENT]]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/components/bokeh_component.py:54: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:64: error: "object" not callable  [operator]
+(sernst)cauldron/cauldron/runner/python_file.py:94: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:95: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:129: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:130: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:170: error: Module has no attribute "StopCondition"  [attr-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:177: error: Module has no attribute "StopCondition"  [attr-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:186: error: Module has no attribute "StopCondition"  [attr-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:196: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/python_file.py:220: error: Item "None" of "Optional[str]" has no attribute "rstrip"  [union-attr]
+(sernst)cauldron/cauldron/runner/python_file.py:226: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/render/texts.py:71: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(sernst)cauldron/cauldron/render/texts.py:72: error: "List[str]" has no attribute "split"  [attr-defined]
+(sernst)cauldron/cauldron/render/texts.py:189: error: Need type annotation for 'library_includes' (hint: "library_includes: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/render/inspection.py:42: error: Need type annotation for 'out'  [var-annotated]
+(sernst)cauldron/cauldron/render/inspection.py:49: error: Item "str" of "Union[List[Any], str, None]" has no attribute "append"  [union-attr]
+(sernst)cauldron/cauldron/render/inspection.py:49: error: Item "None" of "Union[List[Any], str, None]" has no attribute "append"  [union-attr]
+(sernst)cauldron/cauldron/cli/commander.py:8: error: Need type annotation for 'COMMANDS' (hint: "COMMANDS: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/cli/commander.py:104: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commander.py:178: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commander.py:204: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commander.py:217: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/session/report.py:50: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/__init__.py:11: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/components/__init__.py:30: error: Argument 1 to "merge_components" has incompatible type "COMPONENT"; expected "List[Union[List[Any], Tuple[Any, ...], COMPONENT]]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/components/__init__.py:31: error: Argument 2 to "merge_components" has incompatible type "*List[COMPONENT]"; expected "List[Union[List[Any], Tuple[Any, ...], COMPONENT]]"  [arg-type]
+(sernst)cauldron/cauldron/session/writing/components/__init__.py:31: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(sernst)cauldron/cauldron/session/writing/components/__init__.py:31: note: Consider using "Sequence" instead, which is covariant
+(sernst)cauldron/cauldron/render/__init__.py:25: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(sernst)cauldron/cauldron/render/__init__.py:30: error: "float" has no attribute "zfill"  [attr-defined]
+(sernst)cauldron/cauldron/render/__init__.py:193: error: Argument 1 to "code" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/render/__init__.py:313: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(sernst)cauldron/cauldron/render/__init__.py:351: error: Argument 2 to "randint" has incompatible type "float"; expected "int"  [arg-type]
+(sernst)cauldron/cauldron/session/exposed.py:28: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/exposed.py:74: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/exposed.py:97: error: No overload variant of "join" matches argument types "Any", "Tuple[List[str], ...]"  [call-overload]
+(sernst)cauldron/cauldron/session/exposed.py:97: note: Possible overload variants:
+(sernst)cauldron/cauldron/session/exposed.py:97: note:     def join(path: Union[str, _PathLike[str]], *paths: Union[str, _PathLike[str]]) -> str
+(sernst)cauldron/cauldron/session/exposed.py:97: note:     def join(path: Union[bytes, _PathLike[bytes]], *paths: Union[bytes, _PathLike[bytes]]) -> bytes
+(sernst)cauldron/cauldron/session/exposed.py:122: error: Argument 2 to "render_stop_display" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/session/exposed.py:128: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/exposed.py:156: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/exposed.py:166: error: Item "None" of "Optional[Any]" has no attribute "current_step"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:176: error: Item "None" of "Optional[Any]" has no attribute "start_time"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:184: error: Item "None" of "Optional[Any]" has no attribute "end_time"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:194: error: Item "None" of "Optional[Any]" has no attribute "elapsed_time"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:205: error: Item "None" of "Optional[Any]" has no attribute "is_visible"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:210: error: Item "None" of "Optional[Any]" has no attribute "is_visible"  [union-attr]
+(sernst)cauldron/cauldron/session/exposed.py:243: error: Argument 2 to "render_stop_display" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/session/exposed.py:283: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/step.py:23: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/step.py:52: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/step.py:90: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/step.py:102: error: Incompatible return value type (got "None", expected "FILE_WRITE_ENTRY")  [return-value]
+(sernst)cauldron/cauldron/session/writing/step.py:114: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/step.py:145: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/html_file.py:7: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/html_file.py:8: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/__init__.py:15: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/__init__.py:48: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/writing/__init__.py:95: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/session/reloading.py:33: error: Item "None" of "Optional[ModuleSpec]" has no attribute "name"  [union-attr]
+(sernst)cauldron/cauldron/session/reloading.py:119: error: Incompatible types in assignment (expression has type "Optional[Module]", variable has type "Union[str, Module]")  [assignment]
+(sernst)cauldron/cauldron/session/reloading.py:125: error: Item "None" of "Optional[Any]" has no attribute "current_step"  [union-attr]
+(sernst)cauldron/cauldron/__init__.py:2: error: Module 'cauldron.session' has no attribute 'display'  [attr-defined]
+(sernst)cauldron/cauldron/__init__.py:16: error: Incompatible types in assignment (expression has type "Optional[SharedCache]", variable has type "SharedCache")  [assignment]
+(sernst)cauldron/cauldron/__init__.py:34: error: Unsupported target for indexed assignment  [index]
+(sernst)cauldron/cauldron/__init__.py:35: error: Incompatible return value type (got "Optional[Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/run/actions.py:4: error: Module 'cauldron.session.projects' has no attribute 'Project'  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/save.py:80: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/commands/save.py:102: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/commands/save.py:137: error: Module has no attribute "send_remote_command"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/save.py:159: error: Module has no attribute "comm"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/save.py:180: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/save.py:188: error: Argument 2 to "write_file" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/cli/commands/save.py:190: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/save.py:198: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/server/run.py:49: error: Argument 1 to "update" of "dict" has incompatible type "Optional[Dict[Any, Any]]"; expected "Mapping[str, object]"  [arg-type]
+(sernst)cauldron/cauldron/cli/server/run.py:59: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/runner/markdown_file.py:7: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/runner/markdown_file.py:8: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/shell.py:65: error: Item "None" of "Optional[Any]" has no attribute "id"  [union-attr]
+(sernst)cauldron/cauldron/runner/source.py:13: error: Module 'cauldron.session.projects' has no attribute 'Project'  [attr-defined]
+(sernst)cauldron/cauldron/runner/source.py:14: error: Module 'cauldron.session.projects' has no attribute 'ProjectStep'  [attr-defined]
+(sernst)cauldron/cauldron/runner/source.py:15: error: Module 'cauldron.session.projects' has no attribute 'StopCondition'  [attr-defined]
+(sernst)cauldron/cauldron/runner/source.py:68: error: Argument 2 to "has_extension" has incompatible type "str"; expected "Tuple[str]"  [arg-type]
+(sernst)cauldron/cauldron/runner/source.py:71: error: Argument 2 to "has_extension" has incompatible type "str"; expected "Tuple[str]"  [arg-type]
+(sernst)cauldron/cauldron/runner/source.py:77: error: Argument 2 to "has_extension" has incompatible type "str"; expected "Tuple[str]"  [arg-type]
+(sernst)cauldron/cauldron/runner/source.py:125: error: Incompatible types in assignment (expression has type "Optional[SharedCache]", variable has type "SharedCache")  [assignment]
+(sernst)cauldron/cauldron/runner/__init__.py:11: error: Module 'cauldron.session.projects' has no attribute 'Project'  [attr-defined]
+(sernst)cauldron/cauldron/runner/__init__.py:12: error: Module 'cauldron.session.projects' has no attribute 'ProjectStep'  [attr-defined]
+(sernst)cauldron/cauldron/runner/__init__.py:153: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/runner/__init__.py:158: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/runner/__init__.py:205: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/runner/__init__.py:210: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/runner/__init__.py:228: error: Item "None" of "Optional[Any]" has no attribute "stop_condition"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:137: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:143: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:149: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:156: error: Item "None" of "Optional[Any]" has no attribute "results_path"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:160: error: Incompatible types in assignment (expression has type "Optional[SharedCache]", variable has type "SharedCache")  [assignment]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:163: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:169: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:177: error: Item "None" of "Optional[Any]" has no attribute "library_directories"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:179: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:180: error: Item "None" of "Optional[Any]" has no attribute "kernel_serialize"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:186: error: Item "None" of "Optional[Any]" has no attribute "title"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/open/opener.py:192: error: Item "None" of "Optional[Any]" has no attribute "baked_url"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:134: error: Module has no attribute "send_remote_command"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:174: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:206: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:231: error: Name 'projects.Project' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:232: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/cli/commands/run/__init__.py:347: error: Item "None" of "Optional[Any]" has no attribute "steps"  [union-attr]
+(sernst)cauldron/cauldron/cli/commands/close.py:14: error: Module has no attribute "send_remote_command"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/close.py:29: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/close.py:37: error: Incompatible return value type (got "Optional[Response]", expected "Response")  [return-value]
+(sernst)cauldron/cauldron/cli/commands/open/remote.py:25: error: Module has no attribute "comm"  [attr-defined]
+(sernst)cauldron/cauldron/cli/commands/open/__init__.py:213: error: Argument 3 to "matches" has incompatible type "List[str]"; expected "Tuple[Union[str, List[Any], Tuple[Any, ...]]]"  [arg-type]
+(sernst)cauldron/cauldron/cli/batcher.py:108: error: Item "None" of "Optional[Any]" has no attribute "shared"  [union-attr]
+(sernst)cauldron/cauldron/cli/batcher.py:117: error: Item "None" of "Optional[Any]" has no attribute "shared"  [union-attr]
+(sernst)cauldron/cauldron/steptest/results.py:13: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/steptest/results.py:16: error: Name 'projects.ProjectStep' is not defined  [name-defined]
+(sernst)cauldron/cauldron/invoke/invoker.py:54: error: Argument "project_directory" to "run_project" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/invoke/invoker.py:109: error: "None" not callable  [misc]
+(sernst)cauldron/cauldron/invoke/__init__.py:54: error: Argument 1 to "run" has incompatible type "Optional[Any]"; expected "str"  [arg-type]
+(sernst)cauldron/cauldron/steptest/functional.py:34: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(sernst)cauldron/cauldron/steptest/functional.py:60: error: Need type annotation for 'temp_directories' (hint: "temp_directories: Dict[<type>, <type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/steptest/functional.py:61: error: Need type annotation for '_library_paths' (hint: "_library_paths: List[<type>] = ...")  [var-annotated]
+(sernst)cauldron/cauldron/steptest/functional.py:86: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(sernst)cauldron/cauldron/steptest/functional.py:106: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(sernst)cauldron/cauldron/steptest/__init__.py:70: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+Found 220 errors in 60 files (checked 60 source files)
+
+[RRepo](evernym)plenum
+(evernym)plenum/ledger/ledger.py:57: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 46 source files)
+
+[RRepo](Maluuba)qgen-workshop
+
+[RRepo](krother)maze_run
+
+[RRepo](santhoshtr)mlmorph
+
+[RRepo](ESultanik)lenticrypt
+
+[RRepo](chfoo)wpull
+(chfoo)wpull/setup.py:51: error: Need type annotation for 'PROJECT_PACKAGE_DIR' (hint: "PROJECT_PACKAGE_DIR: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](fasiha)ebisu
+(fasiha)ebisu/gb1.py:89: error: Module has no attribute "updateRecall"  [attr-defined]
+(fasiha)ebisu/gb1.py:182: error: Module has no attribute "alternate"  [attr-defined]
+(fasiha)ebisu/gb1.py:191: error: Module has no attribute "predictRecall"  [attr-defined]
+(fasiha)ebisu/gb1.py:192: error: Module has no attribute "predictRecallVar"  [attr-defined]
+(fasiha)ebisu/gb1.py:193: error: Module has no attribute "alternate"  [attr-defined]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](masschallenge)impact-api
+
+[RRepo](codemirror)google-modes
+
+[RRepo](gnachman)iTerm2
+
+[RRepo](theelous3)asks
+(theelous3)asks/asks/http_utils.py:21: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(theelous3)asks/asks/http_utils.py:21: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](longnow)panlex_python_API
+Success: no issues found in 2 source files
+
+[RRepo](Shark-ML)Shark
+
+[RRepo](ctherien)pysptools
+
+[RRepo](cloudera)ibis
+(cloudera)ibis/ibis/util.py:97: error: Cannot use a covariant type variable as a parameter  [misc]
+(cloudera)ibis/ibis/bigquery/api.py:15: error: Module 'ibis.bigquery.udf' has no attribute 'udf'  [attr-defined]
+(cloudera)ibis/ibis/clickhouse/api.py:14: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+Found 3 errors in 3 files (checked 5 source files)
+
+[RRepo](Fahreeve)aiovk
+
+[RRepo](agdsn)pycroft
+(agdsn)pycroft/pycroft/helpers/i18n.py:244: error: "Type[date]" has no attribute "fromisoformat"  [attr-defined]
+(agdsn)pycroft/pycroft/helpers/i18n.py:245: error: "Type[datetime]" has no attribute "fromisoformat"  [attr-defined]
+(agdsn)pycroft/pycroft/helpers/i18n.py:246: error: "Type[time]" has no attribute "fromisoformat"  [attr-defined]
+(agdsn)pycroft/pycroft/model/__init__.py:13: error: Module 'pycroft.model' has no attribute '_all'  [attr-defined]
+(agdsn)pycroft/pycroft/model/host.py:96: error: "Type[ModelBase]" has no attribute "metadata"  [attr-defined]
+(agdsn)pycroft/pycroft/model/host.py:133: error: "Type[Interface]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:48: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:48: error: "Type[IP]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:66: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:113: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:114: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:132: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:161: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:162: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/traffic.py:212: error: "Type[TrafficVolume]" has no attribute "__table__"  [attr-defined]
+(agdsn)pycroft/pycroft/model/task.py:50: error: Name 'parameters' already defined on line 44  [no-redef]
+(agdsn)pycroft/tests/__init__.py:11: error: Module 'flask' has no attribute '_request_ctx_stack'  [attr-defined]
+(agdsn)pycroft/tests/__init__.py:20: error: Module 'tests.factories' has no attribute 'ConfigFactory'  [attr-defined]
+(agdsn)pycroft/tests/__init__.py:20: error: Module 'tests.factories' has no attribute 'UserFactory'  [attr-defined]
+(agdsn)pycroft/tests/__init__.py:20: error: Module 'tests.factories' has no attribute 'AdminPropertyGroupFactory'  [attr-defined]
+(agdsn)pycroft/tests/__init__.py:20: error: Module 'tests.factories' has no attribute 'MembershipFactory'  [attr-defined]
+(agdsn)pycroft/tests/__init__.py:179: error: Incompatible types in assignment (expression has type "str", base class "DialectSpecificTestCase" defined the type as "None")  [assignment]
+(agdsn)pycroft/tests/__init__.py:183: error: Incompatible types in assignment (expression has type "str", base class "DialectSpecificTestCase" defined the type as "None")  [assignment]
+Found 23 errors in 6 files (checked 32 source files)
+
+[RRepo](raviqqe)tensorflow-extenteten
+
+[RRepo](rusthon)Rusthon
+
+[RRepo](baldurk)renderdoc
+
+[RRepo](box)ClusterRunner
+
+[RRepo](lyst)lightfm
+(lyst)lightfm/setup.py:11: error: Module has no attribute "__LIGHTFM_SETUP__"  [attr-defined]
+(lyst)lightfm/setup.py:12: error: Module 'lightfm' has no attribute '__version__'  [attr-defined]
+(lyst)lightfm/setup.py:43: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](reupen)aiogithub
+
+[RRepo](Cog-Creators)Red-DiscordBot
+
+[RRepo](Ge0)chattymarkov
+(Ge0)chattymarkov/setup.py:6: error: Need type annotation for 'KEYWORDS' (hint: "KEYWORDS: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](pengutronix)aiohttp-json-rpc
+
+[RRepo](NLHEALTHCARE)PYELT
+Success: no issues found in 3 source files
+
+[RRepo](google)merge_pyi
+Success: no issues found in 1 source file
+
+[RRepo](robocomp)learnbot
+Success: no issues found in 2 source files
+
+[RRepo](Woile)commitizen
+
+[RRepo](nfnty)dockerfiles
+
+[RRepo](Drummersbrother)rocket-snake
+
+[RRepo](Nic30)HWToolkit
+
+[RRepo](coala)coala
+(coala)coala/coalib/results/TextPosition.py:14: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/TextPosition.py:14: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/AbsolutePosition.py:9: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/AbsolutePosition.py:9: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/AbsolutePosition.py:10: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/AbsolutePosition.py:10: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/TextRange.py:13: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/TextRange.py:13: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/parsing/InvalidFilterException.py:1: error: Module 'coalib.parsing.filters' has no attribute 'available_filters'  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/taste.py:3: error: Module 'coalib.bearlib.languages' has no attribute 'Languages'  [attr-defined]
+(coala)coala/coalib/results/SourceRange.py:14: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/SourceRange.py:14: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/SourceRange.py:55: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/SourceRange.py:55: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/output/Logging.py:14: error: Need type annotation for '_call_counter'  [var-annotated]
+(coala)coala/coalib/settings/FunctionMetadata.py:18: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/FunctionMetadata.py:18: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/settings/FunctionMetadata.py:19: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/FunctionMetadata.py:19: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/settings/FunctionMetadata.py:20: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/FunctionMetadata.py:20: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/settings/FunctionMetadata.py:21: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/FunctionMetadata.py:21: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/settings/FunctionMetadata.py:62: error: Decorated property not supported  [misc]
+(coala)coala/coalib/misc/CachingUtilities.py:14: error: Module has no attribute "USER_DATA_DIR"  [attr-defined]
+(coala)coala/coalib/parsing/DefaultArgParser.py:5: error: Module 'coalib.parsing.filters' has no attribute 'available_filters'  [attr-defined]
+(coala)coala/setup.py:425: error: Need type annotation for 'EXTRAS_REQUIRE' (hint: "EXTRAS_REQUIRE: Dict[<type>, <type>] = ...")  [var-annotated]
+(coala)coala/setup.py:436: error: Dict entry 0 has incompatible type "str": "Type[BuildManPage]"; expected "str": "Type[PyTestCommand]"  [dict-item]
+(coala)coala/coalib/settings/Setting.py:159: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/Setting.py:159: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/misc/Caching.py:106: error: Need type annotation for 'to_untrack' (hint: "to_untrack: Set[<type>] = ...")  [var-annotated]
+(coala)coala/coalib/parsing/FilterHelper.py:4: error: Module 'coalib.parsing.filters' has no attribute 'available_filters'  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/root.py:119: error: Need type annotation for '_tastes' (hint: "_tastes: Dict[<type>, <type>] = ...")  [var-annotated]
+(coala)coala/coalib/bearlib/aspects/root.py:121: error: Method must have at least one argument  [misc]
+(coala)coala/coalib/results/Result.py:60: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:60: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:64: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:64: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:66: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:66: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:157: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:157: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:158: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:158: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:159: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:159: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:160: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:160: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:164: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:164: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/results/Result.py:166: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/results/Result.py:166: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/settings/Section.py:197: error: Syntax error in type annotation  [syntax]
+(coala)coala/coalib/settings/Section.py:197: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:28: error: "Type[Redundancy]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:76: error: "Type[Redundancy]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:115: error: "Type[Redundancy]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:142: error: "Type[UnreachableCode]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:168: error: "Type[UnreachableCode]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:195: error: "Type[Redundancy]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:215: error: "Type[UnusedVariable]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:235: error: "Type[UnusedVariable]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Redundancy.py:256: error: "Type[UnusedVariable]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:32: error: "Type[Formatting]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:57: error: "Type[Length]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:80: error: "Type[Length]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:115: error: "Type[Formatting]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:139: error: "Type[Spacing]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:173: error: "Type[Spacing]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:200: error: "Type[Spacing]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:225: error: "Type[BlankLine]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:259: error: "Type[BlankLine]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:289: error: "Type[BlankLine]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:316: error: "Type[BlankLine]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:345: error: "Type[Spacing]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/bearlib/aspects/Formatting.py:375: error: "Type[Formatting]" has no attribute "subaspect"  [attr-defined]
+(coala)coala/coalib/coala_delete_orig.py:44: error: Name 'sys' is not defined  [name-defined]
+(coala)coala/coalib/results/result_actions/OpenEditorAction.py:163: error: Signature of "apply" incompatible with supertype "ResultAction"  [override]
+(coala)coala/coalib/results/result_actions/OpenEditorAction.py:218: error: "Callable[[OpenEditorAction, Any, Any, Any, str], Any]" has no attribute "__defaults__"  [attr-defined]
+(coala)coala/coalib/results/result_actions/IgnoreResultAction.py:44: error: Signature of "apply" incompatible with supertype "ResultAction"  [override]
+(coala)coala/coalib/results/result_actions/ShowPatchAction.py:86: error: Signature of "apply" incompatible with supertype "ResultAction"  [override]
+(coala)coala/coalib/results/result_actions/ApplyPatchAction.py:17: error: Signature of "apply" incompatible with supertype "ResultAction"  [override]
+(coala)coala/coalib/coala_main.py:52: error: "object" has no attribute "rstrip"  [attr-defined]
+Found 62 errors in 25 files (checked 23 source files)
+
+[RRepo](mlouielu)twstock
+
+[RRepo](ktsstudio)aiokts
+
+[RRepo](caterinaurban)Lyra
+
+[RRepo](WEEE-Open)weeelab-telegram-bot
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:11: error: Need type annotation for 'log' (hint: "log: List[<type>] = ...")  [var-annotated]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:23: error: Need type annotation for 'old_log' (hint: "old_log: List[<type>] = ...")  [var-annotated]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:185: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:197: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:278: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:279: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:280: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:281: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:282: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(WEEE-Open)weeelab-telegram-bot/ToLab.py:26: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+Found 10 errors in 2 files (checked 3 source files)
+
+[RRepo](vakabus)pybakalib
+
+[RRepo](jwkvam)bowtie
+Success: no issues found in 11 source files
+
+[RRepo](twisteroidambassador)pluggabletransportadapter
+
+[RRepo](tonnie17)flowlight
+(tonnie17)flowlight/flowlight/core/connection.py:106: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection, Command], Any]"; expected "Connection"  [arg-type]
+(tonnie17)flowlight/flowlight/core/connection.py:110: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection, Command], Coroutine[Any, Any, Any]]"; expected "Connection"  [arg-type]
+(tonnie17)flowlight/flowlight/core/connection.py:156: error: "IO[bytes]" has no attribute "setblocking"  [attr-defined]
+(tonnie17)flowlight/flowlight/core/connection.py:157: error: "IO[bytes]" has no attribute "exec_command"  [attr-defined]
+(tonnie17)flowlight/flowlight/core/connection.py:176: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection], Any]"; expected "Connection"  [arg-type]
+(tonnie17)flowlight/flowlight/model/machine.py:76: error: "object" has no attribute "host"  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'Connection'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'Response'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'Manager'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'WorkerProxy'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'Command'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:1: error: Module 'flowlight.core' has no attribute 'Setting'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:9: error: Module 'flowlight.model' has no attribute 'Machine'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:9: error: Module 'flowlight.model' has no attribute 'Group'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:9: error: Module 'flowlight.model' has no attribute 'Cluster'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:20: error: Module 'flowlight.utils' has no attribute 'Signal'  [attr-defined]
+(tonnie17)flowlight/flowlight/__init__.py:20: error: Module 'flowlight.utils' has no attribute 'Trigger'  [attr-defined]
+Found 17 errors in 3 files (checked 7 source files)
+
+[RRepo](jbarlow83)OCRmyPDF
+Success: no issues found in 1 source file
+
+[RRepo](quodlibet)quodlibet
+
+[RRepo](jesopo)bitbot
+
+[RRepo](475Cumulus)TBone
+(475Cumulus)TBone/setup.py:13: error: Module 'tbone' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](jrg365)gpytorch
+(jrg365)gpytorch/setup.py:34: error: Module has no attribute "__version__"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](sirex)gramtool
+(sirex)gramtool/gramtool/hunspell.py:22: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(sirex)gramtool/gramtool/hunspell.py:31: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(sirex)gramtool/gramtool/api.py:12: error: Need type annotation for '_dicts' (hint: "_dicts: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 8 source files)
+
+[RRepo](catmaid)CATMAID
+
+[RRepo](MartinHjelmare)home-assistant
+
+[RRepo](hsolbrig)SNOMEDToOWL
+
+[RRepo](OddBloke)jenkins-job-linter
+Success: no issues found in 5 source files
+
+[RRepo](browncoat-ninjas)nimoy
+
+[RRepo](ikvk)imap_tools
+
+[RRepo](mesgarpour)T-CARER
+
+[RRepo](urda)nistbeacon
+
+[RRepo](GVLL)domrj
+
+[RRepo](facebookresearch)ParlAI
+
+[RRepo](XKNX)xknx
+
+[RRepo](anchore)anchore-engine
+(anchore)anchore-engine/anchore_engine/auth/oauth.py:40: error: Argument 1 to "open" has incompatible type "Optional[Any]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(anchore)anchore-engine/anchore_engine/auth/oauth.py:46: error: Argument 1 to "open" has incompatible type "Optional[Any]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(anchore)anchore-engine/anchore_engine/auth/oauth.py:109: error: Need type annotation for '__claim_params__' (hint: "__claim_params__: Dict[<type>, <type>] = ...")  [var-annotated]
+(anchore)anchore-engine/anchore_engine/db/entities/common.py:23: error: Incompatible types in assignment (expression has type "Logger", variable has type Module)  [assignment]
+(anchore)anchore-engine/anchore_engine/clients/services/common.py:12: error: Need type annotation for 'scache' (hint: "scache: Dict[<type>, <type>] = ...")  [var-annotated]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:157: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:157: note: Perhaps you need "Callable[...]" or a callback protocol?
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:181: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:181: note: Perhaps you need "Callable[...]" or a callback protocol?
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:216: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:232: error: callable? not callable  [misc]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:234: error: callable? not callable  [misc]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:239: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(anchore)anchore-engine/anchore_engine/clients/services/internal.py:239: note: Perhaps you need "Callable[...]" or a callback protocol?
+(anchore)anchore-engine/anchore_engine/clients/services/simplequeue.py:26: error: Incompatible types in assignment (expression has type "str", base class "InternalServiceClient" defined the type as "None")  [assignment]
+(anchore)anchore-engine/anchore_engine/subsys/metrics.py:15: error: Need type annotation for 'metrics' (hint: "metrics: Dict[<type>, <type>] = ...")  [var-annotated]
+(anchore)anchore-engine/anchore_engine/subsys/servicestatus.py:10: error: Need type annotation for 'service_statuses' (hint: "service_statuses: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 14 errors in 7 files (checked 1 source file)
+
+[RRepo](Aquafina-water-bottle)Command-Compiler-Unlimited
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/token_classes.py:4: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/token_position.py:195: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/config_data.py:294: error: "ConfigData" has no attribute "team_options"  [attr-defined]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/config_data.py:296: error: "ConfigData" has no attribute "team_options"  [attr-defined]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:39: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:45: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:51: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:59: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:66: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:80: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:84: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:88: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:93: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:98: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:106: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:111: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:116: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:121: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:155: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:170: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:175: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:179: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:183: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:188: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:193: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:196: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:200: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:204: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:208: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:212: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:216: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:222: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:232: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:236: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:244: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:251: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:258: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:265: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:270: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:277: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:285: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:289: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:297: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:303: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:312: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:315: error: Incompatible types in assignment (expression has type "Optional[Token]", base class "tuple" defined the type as "Callable[[Tuple[object, ...], Any], int]")  [assignment]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:317: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:320: error: Incompatible types in assignment (expression has type "Optional[Token]", base class "tuple" defined the type as "Callable[[Tuple[Union[SelectorNode, ItemNode, Token], ...], Any], int]")  [assignment]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:322: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:326: error: Incompatible types in assignment (expression has type "Optional[Token]", base class "tuple" defined the type as "Callable[[Tuple[object, ...], Any], int]")  [assignment]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:328: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:332: error: Incompatible types in assignment (expression has type "Optional[Token]", base class "tuple" defined the type as "Callable[[Tuple[object, ...], Any], int]")  [assignment]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:338: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:343: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:346: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:354: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:359: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:368: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:372: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:376: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:379: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:382: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:387: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:394: error: NamedTuple should be a single base  [misc]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:414: error: List item 0 has incompatible type "int"; expected "ExecuteSubLegacyArg"  [list-item]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:414: error: List item 1 has incompatible type "int"; expected "ExecuteSubLegacyArg"  [list-item]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/nodes.py:414: error: List item 2 has incompatible type "int"; expected "ExecuteSubLegacyArg"  [list-item]
+(Aquafina-water-bottle)Command-Compiler-Unlimited/fenalib/interpreter.py:167: error: "ConfigData" has no attribute "ego"  [attr-defined]
+Found 68 errors in 5 files (checked 2 source files)
+
+[RRepo](oilshell)oil
+
+[RRepo](sheriferson)simplestatistics
+
+[RRepo](sdeslauriers)streamlines
+(sdeslauriers)streamlines/streamlines/io/__init__.py:49: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+Found 1 error in 1 file (checked 8 source files)
+

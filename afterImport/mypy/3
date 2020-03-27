@@ -1,0 +1,995 @@
+[RRepo](dahlia)wikidata
+(dahlia)wikidata/tests/mock.py:46: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](ocadotechnology)aimmo
+(ocadotechnology)aimmo/aimmo-game-worker/service.py: error: Duplicate module named 'service' (also at '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/service.py')  [misc]
+Found 1 error in 1 file (checked 115 source files)
+
+[RRepo](cjdrake)pyeda
+(cjdrake)pyeda/pyeda/parsing/lex.py:46: error: Need type annotation for 'RULES'  [var-annotated]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](jlafon)PynamoDB
+(jlafon)PynamoDB/pynamodb/settings.py:21: error: Need type annotation for 'override_settings' (hint: "override_settings: Dict[<type>, <type>] = ...")  [var-annotated]
+(jlafon)PynamoDB/pynamodb/settings.py:23: error: Incompatible types in assignment (expression has type Module, variable has type "Dict[Any, Any]")  [assignment]
+(jlafon)PynamoDB/pynamodb/pagination.py:3: error: Module 'pynamodb.constants' has no attribute 'SCANNED_COUNT'  [attr-defined]
+(jlafon)PynamoDB/pynamodb/indexes.py:193: error: Incompatible types in assignment (expression has type "str", base class "Projection" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/indexes.py:200: error: Incompatible types in assignment (expression has type "str", base class "Projection" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/indexes.py:212: error: Incompatible types in assignment (expression has type "str", base class "Projection" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/expressions/operand.py:117: error: Incompatible types in assignment (expression has type "str", base class "_Operand" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/expressions/operand.py:135: error: Incompatible types in assignment (expression has type "str", base class "_Operand" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/expressions/operand.py:148: error: Incompatible types in assignment (expression has type "str", base class "_Operand" defined the type as "None")  [assignment]
+(jlafon)PynamoDB/pynamodb/expressions/operand.py:161: error: Incompatible types in assignment (expression has type "str", base class "_Operand" defined the type as "None")  [assignment]
+
+[RRepo](spambusters)instascrape
+Success: no issues found in 5 source files
+
+[RRepo](adbpy)wire-protocol
+(adbpy)wire-protocol/adbwp/message.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](MToyokura)GomiPy.accounting
+(MToyokura)GomiPy.accounting/source/relation_proxy_model.py:248: error: Need type annotation for 'value_row_pair' (hint: "value_row_pair: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](feluxe)very_hungry_pi
+(feluxe)very_hungry_pi/vhpi/constants.py:30: error: Name 'version' already defined on line 26  [no-redef]
+(feluxe)very_hungry_pi/vhpi/__init__.py:41: error: Argument 1 to "_ensure_dir" has incompatible type "None"; expected "str"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/__init__.py:44: error: Argument 1 to "isfile" has incompatible type "None"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:47: error: Missing return statement  [return]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:59: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:95: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:103: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:106: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:109: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:112: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:117: error: Missing return statement  [return]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:128: error: Name 'due_jobs' already defined on line 117  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:228: error: Module has no attribute "FileHandler"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:232: error: Module has no attribute "StreamHandler"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:236: error: Module has no attribute "DEBUG"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:237: error: Module has no attribute "INFO"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:238: error: Module has no attribute "DEBUG"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:240: error: Module has no attribute "getLogger"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:241: error: Module has no attribute "DEBUG"  [attr-defined]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:254: error: Module has no attribute "getLogger"  [attr-defined]
+
+[RRepo](ttssdev)appflow
+(ttssdev)appflow/appflow.py:25: error: Unsupported left operand type for + ("None")  [operator]
+(ttssdev)appflow/appflow.py:25: note: Left operand is of type "Optional[str]"
+(ttssdev)appflow/appflow.py:246: error: Argument 3 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(ttssdev)appflow/appflow.py:246: error: Argument 4 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(ttssdev)appflow/appflow.py:247: error: Argument 5 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 4 errors in 1 file (checked 6 source files)
+
+[RRepo](skftn)waveDIM
+(skftn)waveDIM/waveDIM/controllers/shoutcast.py:9: error: Need type annotation for 'METADATA' (hint: "METADATA: Dict[<type>, <type>] = ...")  [var-annotated]
+(skftn)waveDIM/waveDIM/controllers/wishlist.py:15: error: Incompatible types in assignment (expression has type "datetime", variable has type "int")  [assignment]
+Found 2 errors in 2 files (checked 6 source files)
+
+[RRepo](PyCQA)astroid
+(PyCQA)astroid/astroid/interpreter/_import/spec.py:30: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 70 source files)
+
+[RRepo](stefanlaheij)ha-buderus
+Success: no issues found in 3 source files
+
+[RRepo](DamourYouKnow)HAHA-NO-UR
+(DamourYouKnow)HAHA-NO-UR/core/argument_parser.py:83: error: Need type annotation for 'parsed_args'  [var-annotated]
+
+[RRepo](seekheart)coder_api
+(seekheart)coder_api/app.py:13: error: Module has no attribute "CoderEngine"  [attr-defined]
+(seekheart)coder_api/app.py:14: error: Module has no attribute "LanguageEngine"  [attr-defined]
+(seekheart)coder_api/app.py:28: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:50: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:94: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:116: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:144: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:198: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:221: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:251: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:268: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:287: error: Module has no attribute "authenticate"  [attr-defined]
+Found 12 errors in 1 file (checked 8 source files)
+
+[RRepo](flapjax)FlapJack-Cogs
+(flapjax)FlapJack-Cogs/wordcloud/wordcloud.py:14: error: Module 'wordcloud' has no attribute 'ImageColorGenerator'  [attr-defined]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](grimpunch)CardsAgainstOnline
+(grimpunch)CardsAgainstOnline/CardsAgainstGame/GameHandler.py:150: error: Incompatible return value type (got "None", expected "CAHPlayer")  [return-value]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](Drowrin)Weeabot
+(Drowrin)Weeabot/utils.py:182: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(Drowrin)Weeabot/cogs/anilist.py:38: error: Argument 1 to "parse" has incompatible type "datetime"; expected "Union[bytes, str, IO[str], IO[Any]]"  [arg-type]
+(Drowrin)Weeabot/cogs/moderation.py:20: error: Need type annotation for 'jail_events' (hint: "jail_events: Dict[<type>, <type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/moderation.py:22: error: Syntax error in type annotation  [syntax]
+(Drowrin)Weeabot/cogs/moderation.py:22: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Drowrin)Weeabot/cogs/moderation.py:118: error: "str" has no attribute "id"  [attr-defined]
+(Drowrin)Weeabot/cogs/ffxiv.py:197: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/ffxiv.py:245: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(Drowrin)Weeabot/cogs/mywaifulist.py:76: error: "WaifuData" has no attribute "likes"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:76: error: "WaifuData" has no attribute "trash"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:85: error: "WaifuData" has no attribute "likes"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:85: error: "WaifuData" has no attribute "trash"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:87: error: "WaifuData" has no attribute "trash"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:87: error: "WaifuData" has no attribute "likes"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:95: error: "WaifuData" has no attribute "likes"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:95: error: "WaifuData" has no attribute "trash"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:96: error: "WaifuData" has no attribute "series"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:97: error: "WaifuData" has no attribute "description"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:97: error: "WaifuData" has no attribute "slug"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:98: error: "WaifuData" has no attribute "tags"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:99: error: "WaifuData" has no attribute "tags"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:101: error: "WaifuData" has no attribute "slug"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:102: error: "WaifuData" has no attribute "created_at"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:105: error: "WaifuData" has no attribute "display_picture"  [attr-defined]
+(Drowrin)Weeabot/cogs/mywaifulist.py:107: error: "WaifuData" has no attribute "slug"  [attr-defined]
+(Drowrin)Weeabot/cogs/mal.py:170: error: "str" has no attribute "display_name"  [attr-defined]
+(Drowrin)Weeabot/cogs/mal.py:191: error: "str" has no attribute "mention"  [attr-defined]
+(Drowrin)Weeabot/cogs/pointless.py:19: error: Need type annotation for 'do_messages' (hint: "do_messages: Dict[<type>, <type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/pointless.py:33: error: Missing return statement  [return]
+(Drowrin)Weeabot/cogs/twitter.py:10: error: Module 'twitter' has no attribute 'Api'  [attr-defined]
+(Drowrin)Weeabot/Weeabot.py:383: error: "str" has no attribute "server"  [attr-defined]
+(Drowrin)Weeabot/Weeabot.py:383: error: "str" has no attribute "id"  [attr-defined]
+(Drowrin)Weeabot/Weeabot.py:385: error: "str" has no attribute "name"  [attr-defined]
+(Drowrin)Weeabot/cogs/profiles.py:63: error: Need type annotation for 'verbose_formatters' (hint: "verbose_formatters: Dict[<type>, <type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/profiles.py:145: error: Assignment to variable 'e' outside except: block  [misc]
+(Drowrin)Weeabot/cogs/profiles.py:150: error: Trying to read deleted variable 'e'  [misc]
+(Drowrin)Weeabot/cogs/profiles.py:151: error: Trying to read deleted variable 'e'  [misc]
+(Drowrin)Weeabot/cogs/profiles.py:152: error: Trying to read deleted variable 'e'  [misc]
+(Drowrin)Weeabot/cogs/profiles.py:176: error: Trying to read deleted variable 'e'  [misc]
+(Drowrin)Weeabot/cogs/profiles.py:233: error: Need type annotation for 'f' (hint: "f: List[<type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/twitch.py:40: error: Need type annotation for 'listeners' (hint: "listeners: List[<type>] = ...")  [var-annotated]
+(Drowrin)Weeabot/cogs/twitch.py:41: error: Need type annotation for 'tasks' (hint: "tasks: List[<type>] = ...")  [var-annotated]
+Found 41 errors in 11 files (checked 19 source files)
+
+[RRepo](varapp)varapp-backend-py
+(varapp)varapp-backend-py/varapp/common/gemini.py: error: Duplicate module named 'gemini' (also at '/home/bew/archive/typed_project/(varapp)varapp-backend-py/varapp/models/gemini.py')  [misc]
+Found 1 error in 1 file (checked 77 source files)
+
+[RRepo](sritterbusch)ospac
+(sritterbusch)ospac/create_tab_completion.py:255: error: "object" has no attribute "replace"  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:256: error: Unsupported operand types for + ("str" and "object")  [operator]
+(sritterbusch)ospac/create_tab_completion.py:261: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:263: error: Unsupported operand types for + ("str" and "object")  [operator]
+(sritterbusch)ospac/create_tab_completion.py:283: error: Value of type "object" is not indexable  [index]
+(sritterbusch)ospac/create_tab_completion.py:283: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:306: error: Value of type "object" is not indexable  [index]
+(sritterbusch)ospac/create_tab_completion.py:306: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+Found 8 errors in 1 file (checked 1 source file)
+
+[RRepo](albertyw)git-reviewers
+Success: no issues found in 2 source files
+
+[RRepo](DiCarloLab-Delft)PycQED_py3
+(DiCarloLab-Delft)PycQED_py3/pycqed/measurement/pulse_sequences/standard_sequences.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 92 source files)
+
+[RRepo](thejoeejoee)VUT-FIT-IFJ-2017-toolkit
+(thejoeejoee)VUT-FIT-IFJ-2017-toolkit/ifj2017/benchmark/uploader.py:101: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 26 source files)
+
+[RRepo](patrick-brian-mooney)LibidoMechanica
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:54: error: Need type annotation for 'ret' (hint: "ret: Set[<type>] = ...")  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:60: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "FrozenSet[str]")  [assignment]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:63: error: Incompatible return value type (got "Set[Any]", expected "List[str]")  [return-value]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:76: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:76: error: Argument 1 to "contextmanager" has incompatible type "Callable[[], None]"; expected "Callable[..., Iterator[<nothing>]]"  [arg-type]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:199: error: Name 'strip_trailing_whitespace' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:201: error: Name 'strip_trailing_whitespace' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:205: error: Name 'decapitalize_line_beginnings' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:207: error: Name 'decapitalize_line_beginnings' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:212: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:214: error: Name 'no_dumb_quotes' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:221: error: Name 'no_dumb_quotes' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:225: error: Name 'two_newlines_at_end' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:226: error: "List[str]" has no attribute "endswith"  [attr-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:228: error: "List[str]" has no attribute "endswith"  [attr-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:230: error: Name 'two_newlines_at_end' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:238: error: Argument 1 to "write" of "IO" has incompatible type "List[str]"; expected "str"  [arg-type]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:244: error: Need type annotation for '_'  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/scrapers/poets.org.py:23: error: Need type annotation for 'failed_poems' (hint: "failed_poems: List[<type>] = ...")  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/scrapers/poets.org.py:69: error: "print" does not return a value  [func-returns-value]
+(patrick-brian-mooney)LibidoMechanica/scrapers/theromantic.com.py:23: error: Need type annotation for 'failed_poems' (hint: "failed_poems: List[<type>] = ...")  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/scrapers/theromantic.com.py:49: error: Need type annotation for 'poem_stanzas' (hint: "poem_stanzas: List[<type>] = ...")  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/scrapers/luminarium.org.py:23: error: Need type annotation for 'failed_poems' (hint: "failed_poems: List[<type>] = ...")  [var-annotated]
+Found 23 errors in 4 files (checked 4 source files)
+
+[RRepo](Dentosal)rust_os
+(Dentosal)rust_os/tools/logparser.py:40: error: Missing parentheses in call to 'print'. Did you mean print(x)?  [syntax]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](roguelike2d)TekkenBot
+(roguelike2d)TekkenBot/NotationParser.py:7: error: Need type annotation for 'commands' (hint: "commands: List[<type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/SoundPlayer.py:12: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/SoundPlayer.py:19: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:170: error: Value of type "object" is not indexable  [index]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:179: error: Incompatible types in assignment (expression has type "GameDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:183: error: Incompatible types in assignment (expression has type "PlayerDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:190: error: Incompatible types in assignment (expression has type "EndBlockPlayerDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/ConfigReader.py:10: error: Need type annotation for 'values' (hint: "values: Dict[<type>, <type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/ArtificialKeyboard.py:9: error: Module has no attribute "windll"  [attr-defined]
+(roguelike2d)TekkenBot/CharacterData.py:15: error: Need type annotation for 'move_index' (hint: "move_index: Dict[<type>, <type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/BotData.py:38: error: "BotBehaviors" has no attribute "botCommands"  [attr-defined]
+(roguelike2d)TekkenBot/PIDSearcher.py:3: error: Module has no attribute "WinDLL"  [attr-defined]
+(roguelike2d)TekkenBot/PIDSearcher.py:9: error: Module has no attribute "WinDLL"  [attr-defined]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:18: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:17: error: Incompatible types in assignment (expression has type "int", base class "Enum" defined the type as "str")  [assignment]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:30: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/BotPunisher.py:45: error: Argument 1 to "int" has incompatible type "Optional[Any]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(roguelike2d)TekkenBot/BotPunisher.py:50: error: Unsupported operand types for <= ("int" and "None")  [operator]
+(roguelike2d)TekkenBot/BotPunisher.py:50: note: Left operand is of type "Optional[int]"
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+Found 139 errors in 20 files (checked 34 source files)
+
+[RRepo](websauna)pyramid_sms
+(websauna)pyramid_sms/travis_pypi_setup.py:19: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 1 error in 1 file (checked 13 source files)
+
+[RRepo](yktoo)indicator-sound-switcher
+(yktoo)indicator-sound-switcher/lib/indicator_sound_switcher/port.py:2: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](release-monitoring)anitya
+(release-monitoring)anitya/anitya/app.py:30: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 118 source files)
+
+[RRepo](deepfabric)elasticell
+(deepfabric)elasticell/vendor/github.com/antlr/antlr4/runtime/Swift/boot.py:179: error: Missing parentheses in call to 'print'. Did you mean print(GREEN + "[ANTLR] " + msg + RESET)?  [syntax]
+Found 1 error in 1 file (checked 87 source files)
+
+[RRepo](meraki-analytics)cassiopeia
+(meraki-analytics)cassiopeia/cassiopeia/cassiopeia.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 85 source files)
+
+[RRepo](scivision)raspberrypi_raw_camera
+(scivision)raspberrypi_raw_camera/archive/legacy.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](mesosphere)marathon
+(mesosphere)marathon/tests/shakedown/shakedown/util.py:19: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 47 source files)
+
+[RRepo](coala)corobo
+(coala)corobo/answers/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(coala)corobo/utils/utils.py')  [misc]
+Found 1 error in 1 file (checked 43 source files)
+
+[RRepo](finaldie)skull
+(finaldie)skull/src/user-cpp/share/ycm_extra_conf.py: error: Duplicate module named 'ycm_extra_conf' (also at '/home/bew/archive/typed_project/(finaldie)skull/scripts/share/ycm_extra_conf.py')  [misc]
+(finaldie)skull/src/user-cpp/share/ycm_extra_conf.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 26 source files)
+
+[RRepo](Andrew-Shay)Neuron
+(Andrew-Shay)Neuron/build/hook-cefpython3.py:190: error: Need type annotation for 'binaries' (hint: "binaries: List[<type>] = ...")  [var-annotated]
+(Andrew-Shay)Neuron/build/build.py:45: error: Item "_Loader" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(Andrew-Shay)Neuron/build/build.py:45: error: Item "None" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(Andrew-Shay)Neuron/build/build.py:47: error: Module has no attribute "APP_NAME"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:48: error: Module has no attribute "APP_NAME_NO_SPACE"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:49: error: Module has no attribute "APP_VERSION"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:50: error: Module has no attribute "APP_DESCRIPTION"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:51: error: Module has no attribute "COMPANY_NAME"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:52: error: Module has no attribute "WEBSITE"  [attr-defined]
+(Andrew-Shay)Neuron/build/build.py:127: error: Incompatible types in assignment (expression has type "str", variable has type "TextIO")  [assignment]
+(Andrew-Shay)Neuron/build/build.py:195: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")  [assignment]
+(Andrew-Shay)Neuron/build/build.py:197: error: Argument 1 to "update" of "_Hash" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(Andrew-Shay)Neuron/build/build.py:198: error: Argument 1 to "update" of "_Hash" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(Andrew-Shay)Neuron/build/build.py:199: error: Argument 1 to "update" of "_Hash" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(Andrew-Shay)Neuron/build/build.py:200: error: Argument 1 to "update" of "_Hash" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+(Andrew-Shay)Neuron/neuron/__init__.py:24: error: Argument 1 to "startswith" of "str" has incompatible type "Optional[str]"; expected "Union[str, Tuple[str, ...]]"  [arg-type]
+(Andrew-Shay)Neuron/neuron/__init__.py:80: error: Argument "delay" to "RotatingFileHandler" has incompatible type "int"; expected "bool"  [arg-type]
+Found 17 errors in 3 files (checked 6 source files)
+
+[RRepo](gengo)memsource-wrap
+(gengo)memsource-wrap/memsource/memsource.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](inetprocess)docker-lamp
+(inetprocess)docker-lamp/stakkr/setup.py: error: Duplicate module named 'setup' (also at '/home/bew/archive/typed_project/(inetprocess)docker-lamp/setup.py')  [misc]
+(inetprocess)docker-lamp/stakkr/setup.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 19 source files)
+
+[RRepo](nanobox-io)nanobox-adapter-libcloud
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/utils/models.py:144: error: Name 'key' is not defined  [name-defined]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/utils/models.py:146: error: Name 'key' is not defined  [name-defined]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/ovh.py:49: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/ovh.py:50: error: Need type annotation for '_pricing' (hint: "_pricing: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/gce.py:50: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/scaleway.py:45: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/vultr.py:43: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/__init__.py:30: error: Cannot assign to a method  [assignment]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/azure.py:57: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/azure_arm.py:70: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 10 errors in 8 files (checked 19 source files)
+
+[RRepo](bcj)vectorvondoom
+Success: no issues found in 2 source files
+
+[RRepo](obestwalter)i3configger
+(obestwalter)i3configger/i3configger/base.py:8: error: Module 'i3configger' has no attribute 'exc'  [attr-defined]
+(obestwalter)i3configger/i3configger/context.py:6: error: Module 'i3configger' has no attribute 'exc'  [attr-defined]
+(obestwalter)i3configger/i3configger/partials.py:9: error: Module 'i3configger' has no attribute 'exc'  [attr-defined]
+(obestwalter)i3configger/i3configger/config.py:10: error: Module 'i3configger' has no attribute 'exc'  [attr-defined]
+
+[RRepo](zdict)zdict
+(zdict)zdict/zdict/dictionaries/wiktionary.py:62: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:73: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:77: error: Incompatible types in assignment (expression has type "List[<nothing>]", target has type "str")  [assignment]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:79: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:81: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:83: error: "str" has no attribute "append"  [attr-defined]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:88: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:92: error: Unsupported target for indexed assignment  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:93: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:95: error: "str" has no attribute "append"  [attr-defined]
+(zdict)zdict/zdict/dictionaries/wiktionary.py:95: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(zdict)zdict/zdict/dictionaries/yahoo.py:18: error: Invalid type comment or annotation  [valid-type]
+(zdict)zdict/zdict/dictionaries/yahoo.py:18: note: Suggestion: use type[...] instead of type(...)
+(zdict)zdict/zdict/dictionaries/yahoo.py:18: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(zdict)zdict/zdict/dictionaries/yahoo.py:18: note: Perhaps you need "Callable[...]" or a callback protocol?
+(zdict)zdict/zdict/dictionaries/yahoo.py:226: error: Item "None" of "Optional[Match[Any]]" has no attribute "groups"  [union-attr]
+(zdict)zdict/zdict/dictionaries/yahoo.py:275: error: "object" has no attribute "rpartition"  [attr-defined]
+(zdict)zdict/zdict/dictionaries/spanish.py:70: error: Need type annotation for 'content' (hint: "content: Dict[<type>, <type>] = ...")  [var-annotated]
+(zdict)zdict/zdict/dictionaries/spanish.py:107: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(zdict)zdict/zdict/dictionaries/spanish.py:141: error: Argument 1 to "append" of "list" has incompatible type "Tuple[Any]"; expected "Tuple[Any, Any, Any]"  [arg-type]
+(zdict)zdict/zdict/dictionaries/itaigi.py:85: error: Need type annotation for 'content' (hint: "content: Dict[<type>, <type>] = ...")  [var-annotated]
+(zdict)zdict/zdict/dictionaries/itaigi.py:105: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", target has type "str")  [assignment]
+(zdict)zdict/zdict/dictionaries/itaigi.py:127: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", target has type "str")  [assignment]
+
+[RRepo](marrow)package
+(marrow)package/marrow/package/tarjan.py:28: error: Need type annotation for 'stack' (hint: "stack: List[<type>] = ...")  [var-annotated]
+(marrow)package/marrow/package/tarjan.py:29: error: Need type annotation for 'low' (hint: "low: Dict[<type>, <type>] = ...")  [var-annotated]
+(marrow)package/marrow/package/tarjan.py:61: error: Need type annotation for 'count'  [var-annotated]
+(marrow)package/marrow/package/tarjan.py:94: error: Need type annotation for 'component_graph' (hint: "component_graph: Dict[<type>, <type>] = ...")  [var-annotated]
+(marrow)package/marrow/package/disport.py:30: error: "Sequence" expects 1 type argument, but 2 given  [type-arg]
+(marrow)package/marrow/package/disport.py:43: error: Need type annotation for 'redirects'  [var-annotated]
+(marrow)package/marrow/package/disport.py:50: error: Item "None" of "Optional[Iterable[Sequence[Any]]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(marrow)package/marrow/package/canonical.py:19: error: Item "None" of "Optional[Any]" has no attribute "__name__"  [union-attr]
+(marrow)package/marrow/package/host.py:23: error: Need type annotation for 'plugins' (hint: "plugins: List[<type>] = ...")  [var-annotated]
+Found 9 errors in 4 files (checked 15 source files)
+
+[RRepo](demarlik01)szcal
+(demarlik01)szcal/parse_cj.py:4: error: Module 'zipcode' has no attribute 'path'  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:26: error: "str" has no attribute "read"  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:31: error: "str" has no attribute "namelist"  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:46: error: Cannot find replacement for named format specifier "bad_file"  [str-format]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:46: error: Not all arguments converted during string formatting  [str-format]
+
+[RRepo](johnjohnlin)nicotb
+(johnjohnlin)nicotb/sim/3_protocol_verify2/tb.py: error: Duplicate module named 'tb' (also at '/home/bew/archive/typed_project/(johnjohnlin)nicotb/sim/4_video/tb.py')  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](Yotamho)pcap-grapher
+(Yotamho)pcap-grapher/flow.py:12: error: Need type annotation for 'packets' (hint: "packets: List[<type>] = ...")  [var-annotated]
+(Yotamho)pcap-grapher/flow.py:13: error: Need type annotation for 'protocols'  [var-annotated]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](Jigsaw-Code)net-analysis
+(Jigsaw-Code)net-analysis/netanalysis/traffic/data/model.py: error: Duplicate module named 'model' (also at '/home/bew/archive/typed_project/(Jigsaw-Code)net-analysis/netanalysis/traffic/analysis/model.py')  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](fabric8-analytics)fabric8-analytics-worker
+(fabric8-analytics)fabric8-analytics-worker/f8a_worker/storages/s3_gh_manifests.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 144 source files)
+
+[RRepo](plotly)plotly.py
+(plotly)plotly.py/packages/python/chart-studio/chart_studio/api/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(plotly)plotly.py/packages/python/chart-studio/chart_studio/utils.py')  [misc]
+(plotly)plotly.py/packages/python/chart-studio/chart_studio/api/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 1036 source files)
+
+[RRepo](netsec-ethz)scion
+(netsec-ethz)scion/python/lib/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(netsec-ethz)scion/python/sibra_server/main.py')  [misc]
+Found 1 error in 1 file (checked 157 source files)
+
+[RRepo](cpearce)armpy
+Success: no issues found in 11 source files
+
+[RRepo](mikeckennedy)python-jumpstart-course-demos
+(mikeckennedy)python-jumpstart-course-demos/apps/06_lolcat_factory/final/program.py: error: Duplicate module named 'program' (also at '/home/bew/archive/typed_project/(mikeckennedy)python-jumpstart-course-demos/apps/10_movie_search/final/program.py')  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](laufhannes)GpxTrackPoster
+(laufhannes)GpxTrackPoster/gpxtrackposter/heatmap_drawer.py:16: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](Lattyware)unrpa
+Success: no issues found in 9 source files
+
+[RRepo](dalemyers)xcrun
+Success: no issues found in 10 source files
+
+[RRepo](joequant)ethercalc-python
+(joequant)ethercalc-python/ethercalc/__init__.py:45: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(joequant)ethercalc-python/ethercalc/__init__.py:52: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(joequant)ethercalc-python/ethercalc/__init__.py:168: error: Name 'Ethercalc' is not defined  [name-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](ProjectSky)FrackinUniverse-sChinese-Project
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:23: error: Need type annotation for 'patchfiles' (hint: "patchfiles: Dict[<type>, <type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:25: error: Need type annotation for 'emotes' (hint: "emotes: Dict[<type>, <type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:26: error: Need type annotation for 'glitchFixed' (hint: "glitchFixed: List[<type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:27: error: Need type annotation for 'labelsTotal' (hint: "labelsTotal: Dict[<type>, <type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:28: error: Need type annotation for 'labelsTranslated' (hint: "labelsTranslated: Dict[<type>, <type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/tools/export_mod.py:76: error: Need type annotation for 'specials' (hint: "specials: Dict[<type>, <type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/select_json_files.py:34: error: Need type annotation for 'translated_json_list' (hint: "translated_json_list: List[<type>] = ...")  [var-annotated]
+(ProjectSky)FrackinUniverse-sChinese-Project/script/select_json_files.py:36: error: Need type annotation for 'not_translated_json_list' (hint: "not_translated_json_list: List[<type>] = ...")  [var-annotated]
+Found 8 errors in 2 files (checked 8 source files)
+
+[RRepo](bosondata)badwolf
+(bosondata)badwolf/badwolf/oauth/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(bosondata)badwolf/badwolf/webhook/views.py')  [misc]
+Found 1 error in 1 file (checked 51 source files)
+
+[RRepo](telota)rasmipy
+(telota)rasmipy/rasmipy/__init__.py:31: error: Value expression in dictionary comprehension has incompatible type "None"; expected type "str"  [misc]
+(telota)rasmipy/rasmipy/__init__.py:46: error: Invalid index type "int" for "Dict[str, str]"; expected type "str"  [index]
+(telota)rasmipy/rasmipy/__init__.py:46: error: Incompatible types in assignment (expression has type "None", target has type "str")  [assignment]
+(telota)rasmipy/rasmipy/__init__.py:49: error: Incompatible types in assignment (expression has type "Dict[int, str]", variable has type "Dict[str, str]")  [assignment]
+(telota)rasmipy/rasmipy/__init__.py:54: error: Argument 1 to "translate" of "str" has incompatible type "Dict[str, str]"; expected "Union[Mapping[int, Union[int, str, None]], Sequence[Union[int, str, None]]]"  [arg-type]
+(telota)rasmipy/rasmipy/rest_service.py:37: error: Variable "rasmipy.rest_service.get_text_type" is not valid as a type  [valid-type]
+Found 6 errors in 2 files (checked 3 source files)
+
+[RRepo](chainside)btcpy
+(chainside)btcpy/btcpy/lib/codecs.py:16: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/lib/codecs.py:17: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/lib/codecs.py:18: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/address.py:14: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:14: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:21: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:22: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:23: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:25: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/hd.py:26: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/sig.py:15: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/sig.py:19: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/block.py:15: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/block.py:16: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/crypto.py:13: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/crypto.py:20: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/crypto.py:22: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/structs/crypto.py:23: error: Relative import climbs too many namespaces  [misc]
+(chainside)btcpy/btcpy/lib/parsing.py:207: error: Relative import climbs too many namespaces  [misc]
+Found 19 errors in 7 files (checked 14 source files)
+
+[RRepo](theislab)scanpy
+(theislab)scanpy/scanpy/logging.py:31: error: No parent module -- cannot perform relative import  [misc]
+(theislab)scanpy/scanpy/logging.py:154: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 72 source files)
+
+[RRepo](lupoDharkael)flameshot
+
+[RRepo](mushorg)conpot
+(mushorg)conpot/conpot/protocols/kamstrup/management_protocol/command_responder.py:20: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 85 source files)
+
+[RRepo](jamalmoir)ml_demo
+Success: no issues found in 10 source files
+
+[RRepo](kitelightning)UnrealEnginePython
+(kitelightning)UnrealEnginePython/examples/register_new_native_component.py:9: error: Method must have at least one argument  [misc]
+(kitelightning)UnrealEnginePython/tests/test_randomstream.py:31: error: Name 'test_get_fraction' already defined on line 24  [no-redef]
+(kitelightning)UnrealEnginePython/run_tests.py:17: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(kitelightning)UnrealEnginePython/run_tests.py:18: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+Found 4 errors in 3 files (checked 45 source files)
+
+[RRepo](klaxer)klaxer
+(klaxer)klaxer/klaxer/users.py:35: error: Variable "users.Base" is not valid as a type  [valid-type]
+(klaxer)klaxer/klaxer/users.py:35: error: Invalid base class "Base"  [misc]
+(klaxer)klaxer/klaxer/users.py:81: error: Variable "users.Base" is not valid as a type  [valid-type]
+(klaxer)klaxer/klaxer/users.py:81: error: Invalid base class "Base"  [misc]
+(klaxer)klaxer/klaxer/api.py:16: error: Need type annotation for 'CURRENT_FILTERS' (hint: "CURRENT_FILTERS: List[<type>] = ...")  [var-annotated]
+(klaxer)klaxer/klaxer/sinks.py:54: error: Too many arguments  [misc]
+Found 6 errors in 3 files (checked 8 source files)
+
+[RRepo](allenai)allennlp
+(allenai)allennlp/scripts/nlvr/generate_data_from_erm_model.py: error: Duplicate module named 'generate_data_from_erm_model' (also at '/home/bew/archive/typed_project/(allenai)allennlp/scripts/wikitables/generate_data_from_erm_model.py')  [misc]
+Found 1 error in 1 file (checked 584 source files)
+
+[RRepo](bradysalz)DCI-Scores-Bot-v2
+(bradysalz)DCI-Scores-Bot-v2/src/web_bot.py:89: error: "None" has no attribute "subreddit"  [attr-defined]
+
+[RRepo](ApproxEng)approxeng.input
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:27: error: Missing return statement  [return]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:28: error: Value of type "Optional[Any]" is not indexable  [index]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:29: error: Value of type "Optional[Any]" is not indexable  [index]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:30: error: Value of type "Optional[Any]" is not indexable  [index]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:31: error: Argument 1 to "int" has incompatible type "Optional[str]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:58: error: Value of type "Optional[Any]" is not indexable  [index]
+(ApproxEng)approxeng.input/src/python/approxeng/input/sys.py:59: error: Value of type "Optional[Any]" is not indexable  [index]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:133: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:133: note: Did you mean "List[...]"?
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:148: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Tuple[Any, ...]")  [assignment]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:150: error: Incompatible types in assignment (expression has type "List[ControllerRequirement]", variable has type "Tuple[Any, ...]")  [assignment]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:152: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:152: note: Did you mean "List[...]"?
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:189: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:189: note: Did you mean "List[...]"?
+(ApproxEng)approxeng.input/src/python/approxeng/input/controllers.py:273: error: Item "None" of "Optional[Any]" has no attribute "__iter__" (not iterable)  [union-attr]
+(ApproxEng)approxeng.input/src/docs/conf.py:223: error: Cannot assign to a method  [assignment]
+Found 14 errors in 3 files (checked 19 source files)
+
+[RRepo](fieldOfView)OctoPrintPlugin
+
+[RRepo](janpipek)physt
+(janpipek)physt/physt/compat/dask.py:2: error: No parent module -- cannot perform relative import  [misc]
+(janpipek)physt/physt/compat/dask.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 31 source files)
+
+[RRepo](4Kaylum)Spar.cli
+(4Kaylum)Spar.cli/Cogs/Error_Event.py:20: error: Name 'NoPermissionsForArg' is not defined  [name-defined]
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:27: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:27: note: Possible overload variants:
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:27: note:     def __setitem__(self, int, str) -> None
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:27: note:     def __setitem__(self, slice, Iterable[str]) -> None
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:30: error: No overload variant of "__setitem__" of "list" matches argument types "int", "int"  [call-overload]
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:30: note: Possible overload variants:
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:30: note:     def __setitem__(self, int, str) -> None
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:30: note:     def __setitem__(self, slice, Iterable[str]) -> None
+(4Kaylum)Spar.cli/Cogs/Utils/dice_roller.py:33: error: List item 1 has incompatible type "int"; expected "str"  [list-item]
+
+[RRepo](google)in-silico-labeling
+(google)in-silico-labeling/isl/util.py:106: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:108: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:139: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:141: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:184: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:188: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:222: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:227: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:266: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:267: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:268: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/util.py:269: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/tensorcheck.py:65: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/tensorcheck.py:66: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/tensorcheck.py:121: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/tensorcheck.py:122: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:34: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:36: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:56: error: Item "str" of "Optional[str]" has no attribute "tensor"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:56: error: Item "None" of "Optional[str]" has no attribute "tensor"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:85: error: Item "str" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:85: error: Item "None" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:91: error: Item "str" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:91: error: Item "None" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:97: error: Item "str" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:97: error: Item "None" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:101: error: Item "str" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:101: error: Item "None" of "Optional[str]" has no attribute "axes"  [union-attr]
+(google)in-silico-labeling/isl/augment.py:116: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:129: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:130: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/augment.py:131: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:86: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:102: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:105: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:108: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:111: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:114: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:117: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:121: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:128: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:129: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:152: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(google)in-silico-labeling/isl/test_util.py:165: error: Incompatible return value type (got "Tuple[List[List[str]], List[Any]]", expected "Tuple[List[str], Any]")  [return-value]
+(google)in-silico-labeling/isl/test_util.py:168: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:193: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/test_util.py:211: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:48: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:50: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:169: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:170: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:218: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+(google)in-silico-labeling/isl/ops.py:219: error: Name 'lt.LabeledTensor' is not defined  [name-defined]
+Found 53 errors in 5 files (checked 16 source files)
+
+[RRepo](libnano)libnano
+(libnano)libnano/libnano/seqrecord/location.py:40: error: Need type annotation for 'out_list' (hint: "out_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/seqrecord/location.py:94: error: Name 'split' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/util.py:10: error: Invalid type comment or annotation  [valid-type]
+(libnano)libnano/libnano/fileio/util.py:10: note: Suggestion: use Union[...] instead of Union(...)
+(libnano)libnano/libnano/fileio/util.py:21: error: Incompatible types in assignment (expression has type "bytes", variable has type "Optional[mmap]")  [assignment]
+(libnano)libnano/libnano/fileio/gbtofasta.py:16: error: Name 'gb_reader' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gbtofasta.py:16: error: Name 'seq_fp' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gbtofasta.py:17: error: Incompatible types in assignment (expression has type "str", variable has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/seqrecord/featuretypes.py:40: error: Return value expected  [return-value]
+(libnano)libnano/libnano/seqrecord/featuretypes.py:66: error: Incompatible types in assignment (expression has type "Optional[str]", target has type "str")  [assignment]
+(libnano)libnano/libnano/seqrecord/featuretypes.py:77: error: No overload variant of "__setitem__" of "list" matches argument types "int", "None"  [call-overload]
+(libnano)libnano/libnano/seqrecord/featuretypes.py:77: note: Possible overload variants:
+(libnano)libnano/libnano/seqrecord/featuretypes.py:77: note:     def __setitem__(self, int, str) -> None
+(libnano)libnano/libnano/seqrecord/featuretypes.py:77: note:     def __setitem__(self, slice, Iterable[str]) -> None
+(libnano)libnano/libnano/fileio/gb_writer.py:5: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:53: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:79: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:88: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:93: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:101: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:107: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:112: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:128: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:155: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:173: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:231: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/naformat.py:22: error: Name 'NEWLINE_STR' already defined on line 19  [no-redef]
+(libnano)libnano/libnano/fileio/naformat.py:50: error: Incompatible types in assignment (expression has type "Dict[int, Optional[int]]", variable has type "Dict[int, int]")  [assignment]
+(libnano)libnano/libnano/fileio/naformat.py:137: error: Name 'lim_hi' already defined on line 135  [no-redef]
+(libnano)libnano/libnano/fileio/naformat.py:174: error: Name 'out_rev' already defined on line 167  [no-redef]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:9: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:57: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:86: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:90: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:95: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:100: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:107: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:113: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:118: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:128: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:134: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:149: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:151: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:153: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:161: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:169: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:174: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:179: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:205: error: Argument 1 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:205: error: Argument 2 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:212: error: Argument 1 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:212: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:225: error: Argument 1 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:225: error: Argument 2 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:232: error: Argument 1 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:232: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:237: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/_virtualhelix/strand.py:17: error: Name 'Oligo' is not defined  [name-defined]
+(libnano)libnano/libnano/_virtualhelix/strand.py:21: error: Incompatible types in assignment (expression has type "UUID", variable has type "Optional[str]")  [assignment]
+(libnano)libnano/libnano/_virtualhelix/strand.py:22: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(libnano)libnano/libnano/_virtualhelix/strand.py:24: error: Incompatible types in assignment (expression has type "None", variable has type "Strand")  [assignment]
+(libnano)libnano/libnano/_virtualhelix/strand.py:25: error: Incompatible types in assignment (expression has type "None", variable has type "Strand")  [assignment]
+(libnano)libnano/libnano/_virtualhelix/strand.py:28: error: Name 'Oligo' is not defined  [name-defined]
+(libnano)libnano/libnano/_virtualhelix/strand.py:68: error: Too few arguments for "Strand"  [call-arg]
+(libnano)libnano/libnano/helpers/jsonbytes.py:23: error: Argument 1 to "base_decode_list" has incompatible type "Union[Tuple[Any, ...], List[Any]]"; expected "List[Any]"  [arg-type]
+(libnano)libnano/libnano/helpers/jsonbytes.py:65: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/xmfa.py:17: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/xmfa.py:23: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/xmfa.py:25: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:21: error: Need type annotation for 'd'  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader.py:40: error: Incompatible types in assignment (expression has type "List[Dict[Any, Any]]", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:41: error: Incompatible types in assignment (expression has type "str", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:139: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:141: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:143: error: Incompatible default for argument "isbytes" (default has type "bool", argument has type "str")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:145: error: Item "None" of "Optional[Match[Any]]" has no attribute "groupdict"  [union-attr]
+(libnano)libnano/libnano/fileio/gb_reader.py:210: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:255: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:361: error: Need type annotation for 'out_list' (hint: "out_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:30: error: Need type annotation for 'd'  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:50: error: Incompatible types in assignment (expression has type "List[Dict[Any, Any]]", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:51: error: Incompatible types in assignment (expression has type "bytes", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:144: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:147: error: Item "None" of "Optional[Match[Any]]" has no attribute "groupdict"  [union-attr]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:153: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:168: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:178: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:189: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:199: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:209: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:219: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:263: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:280: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:282: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:284: error: Incompatible types in assignment (expression has type "None", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:286: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:288: error: Incompatible types in assignment (expression has type "None", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:317: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:379: error: Need type annotation for 'out_list' (hint: "out_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/fileio/fasta.py:70: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:95: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:102: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:134: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/fasta.py:146: error: Name '_io' is not defined  [name-defined]
+
+[RRepo](silver-castle)mach9
+(silver-castle)mach9/mach9/views.py:39: error: Need type annotation for 'decorators' (hint: "decorators: List[<type>] = ...")  [var-annotated]
+(silver-castle)mach9/tests/test_config.py:25: error: Name 'test_auto_load_env' already defined on line 19  [no-redef]
+(silver-castle)mach9/mach9/config.py:115: error: Value of type "object" is not indexable  [index]
+(silver-castle)mach9/mach9/config.py:117: error: "object" has no attribute "pop"  [attr-defined]
+(silver-castle)mach9/mach9/config.py:118: error: "object" has no attribute "pop"  [attr-defined]
+(silver-castle)mach9/tests/test_signal_handlers.py:13: error: Need type annotation for 'calledq'  [var-annotated]
+(silver-castle)mach9/mach9/http.py:139: error: Incompatible types in assignment (expression has type "List[<nothing>]", variable has type "None")  [assignment]
+(silver-castle)mach9/mach9/http.py:144: error: "None" has no attribute "feed_data"  [attr-defined]
+(silver-castle)mach9/mach9/http.py:152: error: Incompatible types in assignment (expression has type "bytes", variable has type "None")  [assignment]
+(silver-castle)mach9/mach9/http.py:162: error: "None" has no attribute "append"  [attr-defined]
+(silver-castle)mach9/mach9/http.py:182: error: "None" has no attribute "send"  [attr-defined]
+(silver-castle)mach9/mach9/http.py:284: error: Argument 1 to "len" has incompatible type "Optional[Any]"; expected "Sized"  [arg-type]
+(silver-castle)mach9/mach9/http.py:286: error: "None" has no attribute "write"  [attr-defined]
+(silver-castle)mach9/mach9/http.py:286: error: Incompatible types in string interpolation (expression has type "Optional[Any]", placeholder has type "bytes")  [str-format]
+(silver-castle)mach9/mach9/http.py:289: error: "None" has no attribute "write"  [attr-defined]
+(silver-castle)mach9/mach9/http.py:307: error: Incompatible types in string interpolation (expression has type "Optional[Any]", placeholder has type "Union[int, float, SupportsInt]")  [str-format]
+(silver-castle)mach9/mach9/http.py:307: error: Incompatible types in string interpolation (expression has type "Optional[Any]", placeholder has type "bytes")  [str-format]
+(silver-castle)mach9/mach9/http.py:314: error: "None" has no attribute "write"  [attr-defined]
+(silver-castle)mach9/mach9/websocket.py:38: error: Incompatible types in assignment (expression has type "List[List[bytes]]", variable has type "Headers")  [assignment]
+Found 19 errors in 6 files (checked 44 source files)
+
+[RRepo](AutoGentoo)AutoGentoo
+(AutoGentoo)AutoGentoo/src/worker/worker.py:24: error: Need type annotation for 'running_jobs' (hint: "running_jobs: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](vaniakosmos)memes-reposter
+(vaniakosmos)memes-reposter/apps/reddit/views.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](capergroup)bayou
+(capergroup)bayou/src/main/python/bayou/models/low_level_evidences/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(capergroup)bayou/src/main/python/bayou/models/core/utils.py')  [misc]
+Found 1 error in 1 file (checked 43 source files)
+
+[RRepo](yktoo)indicator-docker
+Success: no issues found in 2 source files
+
+[RRepo](linnarsson-lab)loompy
+Success: no issues found in 18 source files
+
+[RRepo](juliakreutzer)bandit-neuralmonkey
+(juliakreutzer)bandit-neuralmonkey/neuralmonkey/dataset/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(juliakreutzer)bandit-neuralmonkey/neuralmonkey/processors/helpers.py')  [misc]
+Found 1 error in 1 file (checked 98 source files)
+
+[RRepo](MashiMaroLjc)ML-and-DM-in-action
+(MashiMaroLjc)ML-and-DM-in-action/BetaMeow/tree.py: error: Duplicate module named 'tree' (also at '/home/bew/archive/typed_project/(MashiMaroLjc)ML-and-DM-in-action/ml/classify/tree.py')  [misc]
+(MashiMaroLjc)ML-and-DM-in-action/BetaMeow/tree.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 19 source files)
+
+[RRepo](liushilive)HTMLReport
+(liushilive)HTMLReport/HTMLReport/Result.py:17: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](WiseDoge)plume
+(WiseDoge)plume/tests/test_hmm.py:17: error: Name 'HMMEstimator' is not defined  [name-defined]
+(WiseDoge)plume/plume/perceptron.py:32: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(WiseDoge)plume/plume/perceptron.py:49: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(WiseDoge)plume/plume/perceptron.py:64: error: Syntax error in type annotation  [syntax]
+(WiseDoge)plume/plume/perceptron.py:64: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(WiseDoge)plume/plume/svm.py:27: error: Missing return statement  [return]
+(WiseDoge)plume/plume/svm.py:107: error: Missing return statement  [return]
+(WiseDoge)plume/plume/ensemble.py:20: error: Need type annotation for 'clfs' (hint: "clfs: List[<type>] = ...")  [var-annotated]
+Found 7 errors in 4 files (checked 24 source files)
+
+[RRepo](Maselkov)Maselkov-Cogs
+(Maselkov)Maselkov-Cogs/bouncer/bouncer.py:115: error: Item "None" of "Optional[Any]" has no attribute "id"  [union-attr]
+(Maselkov)Maselkov-Cogs/bouncer/bouncer.py:137: error: Item "None" of "Optional[Any]" has no attribute "id"  [union-attr]
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](bjornaa)ladim
+(bjornaa)ladim/models/salmon_lice/animate.py: error: Duplicate module named 'animate' (also at '/home/bew/archive/typed_project/(bjornaa)ladim/models/zladim/animate.py')  [misc]
+Found 1 error in 1 file (checked 49 source files)
+
+[RRepo](dgelessus)python-rsrcfork
+(dgelessus)python-rsrcfork/rsrcfork/__main__.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](qgis)QGIS
+(qgis)QGIS/scripts/widgets_tree.py:119: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 690 source files)
+
+[RRepo](funtoo)funtoo-overlay
+(funtoo)funtoo-overlay/wip/upgrade_steps.py:3: error: Name 'OrderedDict' is not defined  [name-defined]
+(funtoo)funtoo-overlay/utils/python3_kit_qa_check.py:28: error: Name 'iter_completed' is not defined  [name-defined]
+Found 2 errors in 2 files (checked 10 source files)
+
+[RRepo](KrazySoft)Krazy-Cogs
+(KrazySoft)Krazy-Cogs/mtgUtility/mtgUtility.py:36: error: unexpected EOF while parsing  [syntax]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](xlevus)python-diana
+(xlevus)python-diana/diana/module.py:22: error: Item "function" of "Union[Callable[..., Any], Callable[..., Awaitable[Any]]]" has no attribute "__provides__"  [union-attr]
+(xlevus)python-diana/diana/module.py:92: error: "Type[Module]" has no attribute "async_providers"  [attr-defined]
+(xlevus)python-diana/diana/module.py:92: error: Item "function" of "Union[Callable[..., Any], Callable[..., Awaitable[Any]]]" has no attribute "__provides__"  [union-attr]
+(xlevus)python-diana/diana/module.py:94: error: "Type[Module]" has no attribute "providers"  [attr-defined]
+(xlevus)python-diana/diana/module.py:94: error: Item "function" of "Union[Callable[..., Any], Callable[..., Awaitable[Any]]]" has no attribute "__provides__"  [union-attr]
+(xlevus)python-diana/diana/injector.py:25: error: Name 'Dependency' is not defined  [name-defined]
+(xlevus)python-diana/diana/injector.py:26: error: Name 'Dependency' is not defined  [name-defined]
+(xlevus)python-diana/diana/injector.py:27: error: Need type annotation for 'modules' (hint: "modules: List[<type>] = ...")  [var-annotated]
+(xlevus)python-diana/diana/injector.py:28: error: Need type annotation for 'providers' (hint: "providers: Dict[<type>, <type>] = ...")  [var-annotated]
+(xlevus)python-diana/diana/injector.py:29: error: Need type annotation for 'async_providers' (hint: "async_providers: Dict[<type>, <type>] = ...")  [var-annotated]
+(xlevus)python-diana/diana/injector.py:66: error: Module has no attribute "providers"; maybe "provides" or "provider"?  [attr-defined]
+(xlevus)python-diana/diana/injector.py:69: error: Module has no attribute "async_providers"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:94: error: "Callable[..., Any]" has no attribute "__dependencies__"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:109: error: "Callable[..., Any]" has no attribute "__dependencies__"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:125: error: "Callable[..., Any]" has no attribute "__dependencies__"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:151: error: "Callable[..., Any]" has no attribute "__dependencies__"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:152: error: "Callable[..., Any]" has no attribute "__dependencies__"  [attr-defined]
+(xlevus)python-diana/diana/injector.py:189: error: Argument 1 to "update_wrapper" has incompatible type "Dependencies"; expected "Callable[..., Any]"  [arg-type]
+(xlevus)python-diana/diana/injector.py:195: error: Need type annotation for 'dependency_params' (hint: "dependency_params: Dict[<type>, <type>] = ...")  [var-annotated]
+(xlevus)python-diana/diana/injector.py:196: error: Need type annotation for 'dependencies' (hint: "dependencies: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](netquity)err-github-merger
+(netquity)err-github-merger/merge.py:51: error: Incompatible return value type (got "Dict[str, Collection[str]]", expected "str")  [return-value]
+(netquity)err-github-merger/merge.py:62: error: Name 'typing' is not defined  [name-defined]
+(netquity)err-github-merger/merge.py:66: error: "str" has no attribute "copy"  [attr-defined]
+(netquity)err-github-merger/merge.py:86: error: Name 'errbot' is not defined  [name-defined]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](Aalto-LeTech)a-plus
+(Aalto-LeTech)a-plus/notification/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(Aalto-LeTech)a-plus/news/models.py')  [misc]
+Found 1 error in 1 file (checked 164 source files)
+
+[RRepo](AnderssonPeter)pytrafikverket
+(AnderssonPeter)pytrafikverket/pytrafikverket/trafikverket_train.py:67: error: Incompatible return value type (got "None", expected "timedelta")  [return-value]
+(AnderssonPeter)pytrafikverket/pytrafikverket/trafikverket_train.py:76: error: Incompatible return value type (got "None", expected "timedelta")  [return-value]
+(AnderssonPeter)pytrafikverket/pytrafikverket/trafikverket_train.py:128: error: Incompatible return value type (got "List[Type[StationInfo]]", expected "List[StationInfo]")  [return-value]
+Found 3 errors in 1 file (checked 4 source files)
+
+[RRepo](choderalab)perses
+(choderalab)perses/perses/tests/test_analysis.py:25: error: Module 'perses.storage' has no attribute 'NetCDFStorage'  [attr-defined]
+(choderalab)perses/perses/tests/test_analysis.py:25: error: Module 'perses.storage' has no attribute 'NetCDFStorageView'  [attr-defined]
+(choderalab)perses/perses/utils/openeye.py:10: error: Module 'openeye' has no attribute 'oegraphsim'  [attr-defined]
+(choderalab)perses/perses/utils/openeye.py:10: error: Module 'openeye' has no attribute 'oegraphsim'  [attr-defined]
+(choderalab)perses/basesetup.py:15: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(choderalab)perses/perses/tests/test_relative_setup.py:6: error: Module 'perses.app' has no attribute 'relative_setup'  [attr-defined]
+(choderalab)perses/perses/tests/test_relative_setup.py:6: error: Module 'perses.app' has no attribute 'setup_relative_calculation'  [attr-defined]
+(choderalab)perses/examples/freesolv/gather_data_for_analysis.py:4: error: Module 'perses.analysis' has no attribute 'Analysis'  [attr-defined]
+(choderalab)perses/examples/freesolv/freesolv_testsystem.py:7: error: Module 'perses.storage' has no attribute 'NetCDFStorageView'  [attr-defined]
+(choderalab)perses/examples/freesolv/freesolv_testsystem.py:7: error: Module 'perses.storage' has no attribute 'NetCDFStorage'  [attr-defined]
+(choderalab)perses/examples/freesolv/freesolv_testsystem.py:79: error: Need type annotation for 'proposal_metadata' (hint: "proposal_metadata: Dict[<type>, <type>] = ...")  [var-annotated]
+(choderalab)perses/examples/abl-src-selectivity/selectivity.py:8: error: Module 'perses.storage' has no attribute 'NetCDFStorage'  [attr-defined]
+(choderalab)perses/examples/abl-src-selectivity/selectivity.py:8: error: Module 'perses.storage' has no attribute 'NetCDFStorageView'  [attr-defined]
+(choderalab)perses/setup.py:66: error: Need type annotation for 'extensions' (hint: "extensions: List[<type>] = ...")  [var-annotated]
+(choderalab)perses/perses/tests/test_storage.py:23: error: Module 'perses.storage' has no attribute 'NetCDFStorage'  [attr-defined]
+(choderalab)perses/perses/tests/test_storage.py:23: error: Module 'perses.storage' has no attribute 'NetCDFStorageView'  [attr-defined]
+Found 16 errors in 9 files (checked 38 source files)
+
+[RRepo](jamesliu)mxnet
+(jamesliu)mxnet/python/mxnet/contrib/onnx/onnx2mx/import_onnx.py:22: error: No parent module -- cannot perform relative import  [misc]
+(jamesliu)mxnet/python/mxnet/contrib/onnx/onnx2mx/import_onnx.py:23: error: No parent module -- cannot perform relative import  [misc]
+(jamesliu)mxnet/python/mxnet/contrib/onnx/onnx2mx/import_onnx.py:24: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 17 source files)
+
+[RRepo](onyb)reobject
+(onyb)reobject/reobject/query/parser.py:7: error: Relative import climbs too many namespaces  [misc]
+(onyb)reobject/reobject/query/parser.py:37: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(onyb)reobject/reobject/query/parser.py:131: error: Incompatible return type for "__new__" (returns "_Q", but must return a subtype of "Q")  [misc]
+(onyb)reobject/reobject/query/queryset.py:10: error: Relative import climbs too many namespaces  [misc]
+(onyb)reobject/reobject/query/queryset.py:54: error: Name 'Model' is not defined  [name-defined]
+(onyb)reobject/reobject/query/queryset.py:175: error: Return type "QuerySet" of "reverse" incompatible with return type "None" in supertype "list"  [override]
+(onyb)reobject/reobject/query/queryset.py:175: error: Return type "QuerySet" of "reverse" incompatible with return type "None" in supertype "MutableSequence"  [override]
+(onyb)reobject/reobject/models/manager.py:78: error: Name 'Model' is not defined  [name-defined]
+(onyb)reobject/reobject/models/manager.py:165: error: Name 'Model' is not defined  [name-defined]
+(onyb)reobject/reobject/models/model.py:62: error: "Type[Model]" has no attribute "objects"  [attr-defined]
+(onyb)reobject/examples/flux.py:7: error: Need type annotation for 'stores' (hint: "stores: Set[<type>] = ...")  [var-annotated]
+(onyb)reobject/examples/flux.py:54: error: Incompatible types in assignment (expression has type "int", base class "Store" defined the type as "None")  [assignment]
+Found 12 errors in 5 files (checked 16 source files)
+
+[RRepo](jelford)activesoup
+(jelford)activesoup/src/activesoup/html.py:109: error: Module "xml.etree.ElementTree" is not valid as a type  [valid-type]
+(jelford)activesoup/src/activesoup/html.py:114: error: Incompatible return value type (got "Union[Type[BoundTag], BoundTagFactory]", expected "BoundTagFactory")  [return-value]
+Found 2 errors in 1 file (checked 11 source files)
+
+[RRepo](jcarbaugh)butterfield
+(jcarbaugh)butterfield/butterfield/handlers/devel.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](ninja-ide)ninja-ide
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/__init__.py:18: error: Need type annotation for 'NOTIFICATIONS_CHECKERS' (hint: "NOTIFICATIONS_CHECKERS: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/core/template_registry/ntemplate_registry.py:88: error: Need type annotation for 'encoding_string' (hint: "encoding_string: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/core/template_registry/ntemplate_registry.py:89: error: Need type annotation for 'single_line_comment' (hint: "single_line_comment: Dict[<type>, <type>] = ...")  [var-annotated]
+

@@ -1,0 +1,646 @@
+[RRepo](tausackhn)twlived
+
+[RRepo](OpenWeavers)openanalysis
+Success: no issues found in 1 source file
+
+[RRepo](klingtnet)klingt.net
+
+[RRepo](deeppunster)RegEx101
+Success: no issues found in 1 source file
+
+[RRepo](lamenezes)simple-model
+(lamenezes)simple-model/setup.py:17: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](joereynolds)Mr-Figs
+
+[RRepo](janelia-flyem)gala
+
+[RRepo](davidenunes)tensorx
+(davidenunes)tensorx/setup.py:8: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+(davidenunes)tensorx/setup.py:27: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(davidenunes)tensorx/setup.py:56: error: Need type annotation for 'install_requires' (hint: "install_requires: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](thomasperrot)MTGTrader
+
+[RRepo](domino14)Webolith
+
+[RRepo](mRokita)DPLib
+
+[RRepo](HPAC)matchpy
+Success: no issues found in 1 source file
+
+[RRepo](cjlucas)rtorrent-python
+(cjlucas)rtorrent-python/rtorrent/rpc/result.py:6: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cjlucas)rtorrent-python/rtorrent/rpc/result.py:6: note: Did you mean "List[...]"?
+(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py:7: error: Need type annotation for '_rpc_methods' (hint: "_rpc_methods: Dict[<type>, <type>] = ...")  [var-annotated]
+(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py:46: error: Need type annotation for 'keys' (hint: "keys: List[<type>] = ...")  [var-annotated]
+(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py:47: error: Need type annotation for 'args' (hint: "args: List[<type>] = ...")  [var-annotated]
+(cjlucas)rtorrent-python/rtorrent/tracker.py:25: error: Incompatible types in assignment (expression has type "Type[TrackerMetadata]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/tracker.py:26: error: Incompatible types in assignment (expression has type "Type[Tracker]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/tracker.py:27: error: Incompatible types in assignment (expression has type "str", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/file.py:24: error: Incompatible types in assignment (expression has type "Type[FileMetadata]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/file.py:25: error: Incompatible types in assignment (expression has type "Type[File]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/file.py:26: error: Incompatible types in assignment (expression has type "str", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/torrent.py:50: error: Incompatible types in assignment (expression has type "Type[TorrentMetadata]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/torrent.py:51: error: Incompatible types in assignment (expression has type "Type[Torrent]", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/torrent.py:52: error: Incompatible types in assignment (expression has type "str", base class "BaseMulticallBuilder" defined the type as "None")  [assignment]
+(cjlucas)rtorrent-python/rtorrent/__init__.py:24: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cjlucas)rtorrent-python/rtorrent/__init__.py:24: note: Did you mean "List[...]"?
+Found 14 errors in 6 files (checked 11 source files)
+
+[RRepo](Chadsr)NordVPN-NetworkManager
+(Chadsr)NordVPN-NetworkManager/setup.py:3: error: Module 'nordnm' has no attribute '__version__'  [attr-defined]
+(Chadsr)NordVPN-NetworkManager/setup.py:3: error: Module 'nordnm' has no attribute '__license__'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](gopythongo)gopythongo
+
+[RRepo](vmagamedov)grpclib
+
+[RRepo](jacobbridges)veggiecron-server
+
+[RRepo](jvermeir)kata
+
+[RRepo](jamespeterschinner)async_v20
+(jamespeterschinner)async_v20/setup.py:4: error: Module 'async_v20' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](kenkov)kovot
+(kenkov)kovot/kovot/stream/stdio.py:19: error: Missing return statement  [return]
+(kenkov)kovot/test.py:5: error: Module 'kovot.mod' has no attribute 'Mod'  [attr-defined]
+Found 2 errors in 2 files (checked 1 source file)
+
+[RRepo](vrk-kpa)X-Road
+
+[RRepo](shafferm)SCNIC
+
+[RRepo](FRC-1123)frc2017-1123
+
+[RRepo](monarch-initiative)dipper
+Success: no issues found in 1 source file
+
+[RRepo](craws)OpenAtlas
+
+[RRepo](novioleo)crnn.mxnet
+Success: no issues found in 5 source files
+
+[RRepo](getsentry)zeus
+(getsentry)zeus/zeus/exceptions.py:47: error: Missing return statement  [return]
+(getsentry)zeus/zeus/providers/__init__.py:2: error: Module 'zeus.providers.travis' has no attribute 'TravisProvider'  [attr-defined]
+(getsentry)zeus/zeus/cli/__init__.py:5: error: Name '__path__' is not defined  [name-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'ApiToken'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'ApiTokenRepositoryAccess'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'RepositoryAccess'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'RepositoryApiToken'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'User'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:16: error: Module 'zeus.models' has no attribute 'UserApiToken'  [attr-defined]
+(getsentry)zeus/zeus/auth.py:69: error: Unexpected keyword argument "access" for "RepositoryTenant"  [call-arg]
+(getsentry)zeus/zeus/auth.py:89: error: Incompatible return value type (got "None", expected "Mapping[UUID, Permission]")  [return-value]
+(getsentry)zeus/zeus/auth.py:109: error: Incompatible return value type (got "None", expected "Mapping[UUID, Permission]")  [return-value]
+(getsentry)zeus/zeus/auth.py:119: note: "RepositoryTenant" defined here
+(getsentry)zeus/zeus/auth.py:131: error: Incompatible return value type (got "None", expected "Mapping[UUID, Permission]")  [return-value]
+(getsentry)zeus/zeus/auth.py:133: error: Dict entry 0 has incompatible type "str": "Optional[Permission]"; expected "UUID": "Permission"  [dict-item]
+(getsentry)zeus/zeus/auth.py:292: error: Argument 1 to "JSONWebSignatureSerializer" has incompatible type "Union[str, bytes, None]"; expected "Union[str, bytes]"  [arg-type]
+(getsentry)zeus/zeus/auth.py:295: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(getsentry)zeus/zeus/auth.py:295: error: "Tenant" has no attribute "user_id"  [attr-defined]
+(getsentry)zeus/zeus/auth.py:296: error: Incompatible return value type (got "bytes", expected "str")  [return-value]
+(getsentry)zeus/zeus/auth.py:300: error: Argument 1 to "JSONWebSignatureSerializer" has incompatible type "Union[str, bytes, None]"; expected "Union[str, bytes]"  [arg-type]
+(getsentry)zeus/zeus/auth.py:305: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(getsentry)zeus/zeus/auth.py:323: error: Missing return statement  [return]
+(getsentry)zeus/zeus/tasks/import_repo.py:8: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/tasks/import_repo.py:8: error: Module 'zeus.models' has no attribute 'RepositoryStatus'  [attr-defined]
+(getsentry)zeus/zeus/cli/ssh_connect.py:10: error: Module 'zeus.models' has no attribute 'ItemOption'  [attr-defined]
+(getsentry)zeus/zeus/cli/ssh_connect.py:10: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/cli/ssh_connect.py:10: error: Module 'zeus.models' has no attribute 'RepositoryProvider'  [attr-defined]
+(getsentry)zeus/zeus/cli/hooks.py:7: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/cli/hooks.py:7: error: Module 'zeus.models' has no attribute 'RepositoryProvider'  [attr-defined]
+(getsentry)zeus/zeus/cli/hooks.py:7: error: Module 'zeus.models' has no attribute 'Hook'  [attr-defined]
+(getsentry)zeus/zeus/vcs/base.py:11: error: Module 'zeus.models' has no attribute 'Author'  [attr-defined]
+(getsentry)zeus/zeus/vcs/base.py:11: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/vcs/base.py:11: error: Module 'zeus.models' has no attribute 'Revision'  [attr-defined]
+(getsentry)zeus/zeus/vcs/base.py:11: error: Module 'zeus.models' has no attribute 'Source'  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:8: error: Module 'zeus.api.schemas' has no attribute 'BuildSchema'  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:13: error: Module 'zeus.tasks' has no attribute 'aggregate_build_stats_for_job'  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:67: error: Name 'models.Repository' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:67: error: Name 'models.Author' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:69: error: Module has no attribute "Author"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:71: error: Module has no attribute "Author"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:72: error: Module has no attribute "Email"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:73: error: Module has no attribute "Email"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:82: error: Module has no attribute "User"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:83: error: Module has no attribute "AuthorFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:86: error: Name 'models.Repository' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:86: error: Name 'models.Revision' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:110: error: Name 'models.Repository' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:111: error: Name 'models.Revision' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:112: error: Name 'models.Author' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:113: error: Name 'models.Revision' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:113: error: Name 'models.Source' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:114: error: Module has no attribute "RevisionFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:119: error: Module has no attribute "SourceFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:121: error: Module has no attribute "PatchFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:129: error: Name 'models.Repository' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:130: error: Name 'models.Revision' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:131: error: Name 'models.Revision' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:135: error: Name 'models.Build' is not defined  [name-defined]
+(getsentry)zeus/zeus/cli/mocks.py:147: error: Module has no attribute "Source"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:149: error: Module has no attribute "Source"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:150: error: Module has no attribute "Source"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:157: error: Module has no attribute "Source"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:168: error: Module has no attribute "RevisionFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:171: error: Module has no attribute "ChangeRequestFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:182: error: Module has no attribute "BuildFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:195: error: Module has no attribute "FileCoverageFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:203: error: Module has no attribute "JobFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:213: error: Module has no attribute "TestCaseFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:218: error: Module has no attribute "StyleViolationFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:221: error: Module has no attribute "BundleFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:223: error: Module has no attribute "BundleAssetFactory"  [attr-defined]
+(getsentry)zeus/zeus/cli/mocks.py:231: error: Module has no attribute "ArtifactFactory"  [attr-defined]
+(getsentry)zeus/zeus/tasks/sync_repo.py:8: error: Module 'zeus.models' has no attribute 'ItemOption'  [attr-defined]
+(getsentry)zeus/zeus/tasks/sync_repo.py:8: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/tasks/sync_repo.py:8: error: Module 'zeus.models' has no attribute 'RepositoryStatus'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'ItemOption'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'Repository'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'RepositoryAccess'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'RepositoryBackend'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'RepositoryProvider'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'RepositoryStatus'  [attr-defined]
+(getsentry)zeus/zeus/cli/repos.py:5: error: Module 'zeus.models' has no attribute 'User'  [attr-defined]
+Found 82 errors in 11 files (checked 19 source files)
+
+[RRepo](openfisca)openfisca-survey-manager
+
+[RRepo](FAForever)client
+Success: no issues found in 2 source files
+
+[RRepo](brettcannon)gidgethub
+(brettcannon)gidgethub/gidgethub/tornado.py:18: error: Argument 3 to "HTTPRequest" has incompatible type "Mapping[str, str]"; expected "Union[Dict[str, str], HTTPHeaders, None]"  [arg-type]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](ibarbech)learnbot
+Success: no issues found in 2 source files
+
+[RRepo](mathieui)unha2
+
+[RRepo](Prototype-X)Zabbix-Network-Weathermap
+(Prototype-X)Zabbix-Network-Weathermap/mapping.py:15: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:18: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:230: error: Need type annotation for 'cfg_order'  [var-annotated]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:246: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:257: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:272: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+Found 6 errors in 2 files (checked 5 source files)
+
+[RRepo](Digiography)blender_addon_pbr
+
+[RRepo](cliffano)swaggy-jenkins
+
+[RRepo](georgepsarakis)pitch
+
+[RRepo](rmorshea)spectate
+
+[RRepo](Wintellect)WintellectWebinars
+
+[RRepo](arcyfelix)Courses
+
+[RRepo](dmtucker)backlog
+Success: no issues found in 2 source files
+
+[RRepo](yasushi-saito)go-netdicom
+
+[RRepo](scienceopen)lowtran
+(scienceopen)lowtran/Wavelength2LowtranWavenumber.py:5: error: Module 'lowtran' has no attribute 'nm2lt7'  [attr-defined]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](lablup)sorna-common
+
+[RRepo](cyanogen)uchroma
+Success: no issues found in 1 source file
+
+[RRepo](DeNeutoy)deep_qa
+
+[RRepo](datmellow)League.py
+Success: no issues found in 1 source file
+
+[RRepo](repleo)bounca
+Success: no issues found in 1 source file
+
+[RRepo](aio-libs)aioredis
+Success: no issues found in 1 source file
+
+[RRepo](tfgraph)tfgraph
+
+[RRepo](golemfactory)golem
+
+[RRepo](dileep-kishore)microbial-ai
+
+[RRepo](auDeep)auDeep
+
+[RRepo](zrzka)blackmamba
+(zrzka)blackmamba/blackmamba/uikit/keyboard.py:242: error: Need type annotation for '_key_commands' (hint: "_key_commands: List[<type>] = ...")  [var-annotated]
+(zrzka)blackmamba/blackmamba/uikit/keyboard.py:385: error: Need type annotation for '_key_event_handlers' (hint: "_key_event_handlers: List[<type>] = ...")  [var-annotated]
+(zrzka)blackmamba/install.py:20: error: Need type annotation for '_cleanup_paths' (hint: "_cleanup_paths: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 9 source files)
+
+[RRepo](varqox)sim
+
+[RRepo](scienceopen)pybashutils
+(scienceopen)pybashutils/diffdir.py:17: error: Value of type variable "AnyStr" of "dircmp" cannot be "Path"  [type-var]
+(scienceopen)pybashutils/diffdir.py:18: error: Argument 1 to "join" of "str" has incompatible type "List[Path]"; expected "Iterable[str]"  [arg-type]
+(scienceopen)pybashutils/diffdir.py:19: error: Argument 1 to "join" of "str" has incompatible type "List[Path]"; expected "Iterable[str]"  [arg-type]
+(scienceopen)pybashutils/diffdir.py:20: error: Argument 1 to "join" of "str" has incompatible type "List[Path]"; expected "Iterable[str]"  [arg-type]
+(scienceopen)pybashutils/compare_binary.py:18: error: Argument 1 to "cmp" has incompatible type "Path"; expected "Union[bytes, str]"  [arg-type]
+(scienceopen)pybashutils/compare_binary.py:18: error: Argument 2 to "cmp" has incompatible type "Path"; expected "Union[bytes, str]"  [arg-type]
+(scienceopen)pybashutils/pybashutils/getIP.py:32: error: "Curl" has no attribute "URL"  [attr-defined]
+(scienceopen)pybashutils/pybashutils/getIP.py:34: error: "Curl" has no attribute "WRITEDATA"  [attr-defined]
+(scienceopen)pybashutils/meld_all.py:41: error: Argument 1 to "cmp" has incompatible type "Path"; expected "Union[bytes, str]"  [arg-type]
+(scienceopen)pybashutils/meld_all.py:41: error: Argument 2 to "cmp" has incompatible type "Path"; expected "Union[bytes, str]"  [arg-type]
+Found 10 errors in 4 files (checked 12 source files)
+
+[RRepo](EarthLifeConsortium)elc_api
+Success: no issues found in 1 source file
+
+[RRepo](smlbiobot)SML-Cogs
+
+[RRepo](superdesk)Live-Blog
+
+[RRepo](jcchoiling)learningPython
+
+[RRepo](mzdhr)weather
+(mzdhr)weather/weather.py:76: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:77: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:78: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:79: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:80: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:81: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:83: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:84: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:85: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(mzdhr)weather/weather.py:87: error: Argument 1 to "time_converter" has incompatible type "Optional[Any]"; expected "int"  [arg-type]
+(mzdhr)weather/weather.py:88: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+Found 11 errors in 1 file (checked 1 source file)
+
+[RRepo](scivision)soothing-sounds
+Success: no issues found in 5 source files
+
+[RRepo](elsehow)moneybot
+(elsehow)moneybot/moneybot/utils.py:47: error: Unsupported operand types for - ("float" and "None")  [operator]
+(elsehow)moneybot/moneybot/utils.py:47: note: Right operand is of type "Optional[float]"
+(elsehow)moneybot/moneybot/utils.py:51: error: Argument 2 to "estimate_value" of "MarketState" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(elsehow)moneybot/moneybot/utils.py:54: error: Unsupported operand types for + ("float" and "None")  [operator]
+(elsehow)moneybot/moneybot/utils.py:54: note: Right operand is of type "Optional[float]"
+(elsehow)moneybot/moneybot/market/adapters/__init__.py:39: error: Argument 1 to "MarketState" has incompatible type "None"; expected "Dict[str, Dict[str, float]]"  [arg-type]
+(elsehow)moneybot/moneybot/market/adapters/__init__.py:41: error: Argument 3 to "MarketState" has incompatible type "None"; expected "datetime"  [arg-type]
+(elsehow)moneybot/moneybot/market/adapters/poloniex.py:80: error: Argument 3 to "Order" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+Found 6 errors in 3 files (checked 15 source files)
+
+[RRepo](tbaptista)pyafai
+(tbaptista)pyafai/pyafai/objects.py:26: error: Module 'pyafai' has no attribute 'Object'; maybe "objects"?  [attr-defined]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](aio-libs)aiokafka
+(aio-libs)aiokafka/setup.py:5: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](sorz)ssmanager
+Success: no issues found in 5 source files
+
+[RRepo](eirannejad)pyRevit
+
+[RRepo](JustArchi)program-y
+
+[RRepo](StanczakDominik)PythonPIC
+
+[RRepo](WPIRoboticsProjects)GRIP-code-generation
+
+[RRepo](jzadeh)Aktaion
+
+[RRepo](raphaelm)django-hierarkey
+
+[RRepo](fqxp)nete-gtk
+
+[RRepo](mangaki)mangaki
+
+[RRepo](wileykestner)falcon-sqlalchemy-demo
+
+[RRepo](meine-stadt-transparent)meine-stadt-transparent
+
+[RRepo](potfur)strict-hint
+(potfur)strict-hint/strict_hint/strict_hint.py:52: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:57: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:64: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:82: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:82: error: "None" has no attribute "empty"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:85: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:88: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:104: error: Missing return statement  [return]
+(potfur)strict-hint/strict_hint/strict_hint.py:109: error: "_SpecialForm" has no attribute "__name__"  [attr-defined]
+Found 9 errors in 1 file (checked 2 source files)
+
+[RRepo](yinkaisheng)Python-UIAutomation-for-Windows
+Success: no issues found in 1 source file
+
+[RRepo](mdzhang)goodreads-api-client-python
+(mdzhang)goodreads-api-client-python/setup.py:16: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(mdzhang)goodreads-api-client-python/setup.py:19: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](jasperges)pose_thumbnails
+(jasperges)pose_thumbnails/pose_thumbnails/__init__.py:41: error: Cannot resolve name "creation" (possible cyclic definition)  [misc]
+(jasperges)pose_thumbnails/pose_thumbnails/__init__.py:43: error: Module 'pose_thumbnails' has no attribute 'creation'  [attr-defined]
+(jasperges)pose_thumbnails/setup.py:26: error: Module 'distutils.command.bdist' has no attribute 'bdist'  [attr-defined]
+(jasperges)pose_thumbnails/setup.py:37: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+Found 4 errors in 2 files (checked 6 source files)
+
+[RRepo](Azure)azure-sdk-for-python
+Success: no issues found in 1 source file
+
+[RRepo](klieret)pyplot-hierarchical-pie
+
+[RRepo](wdv4758h)python-everywhere
+(wdv4758h)python-everywhere/setup.py:30: error: Need type annotation for 'exclude_from_packages' (hint: "exclude_from_packages: List[<type>] = ...")  [var-annotated]
+(wdv4758h)python-everywhere/setup.py:31: error: Need type annotation for 'requires' (hint: "requires: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](enkore)i3pystatus
+(enkore)i3pystatus/i3pystatus/utils/gpu.py:38: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"  [arg-type]
+(enkore)i3pystatus/i3pystatus/utils/gpu.py:41: error: List comprehension has incompatible type List[Optional[int]]; expected List[bytes]  [misc]
+(enkore)i3pystatus/i3pystatus/utils/gpu.py:41: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+(enkore)i3pystatus/i3pystatus/core/settings.py:69: error: Need type annotation for 'required'  [var-annotated]
+(enkore)i3pystatus/i3pystatus/core/desktop.py:70: error: Name 'DesktopNotification' already defined on line 51  [no-redef]
+(enkore)i3pystatus/i3pystatus/core/modules.py:27: error: Incompatible types in assignment (expression has type Tuple[Tuple[str, str], Tuple[str, str], ... <14 more items>], base class "SettingsBase" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/core/modules.py:284: error: Need type annotation for 'managers' (hint: "managers: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/__init__.py:13: error: Cannot determine type of '__path__'  [has-type]
+(enkore)i3pystatus/i3pystatus/text.py:10: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/clock.py:59: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/clock.py:65: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/clock.py:66: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/zabbix.py:20: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/xkblayout.py:36: error: Need type annotation for 'layouts' (hint: "layouts: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/xkblayout.py:39: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/xkblayout.py:45: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/xkblayout.py:46: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/xkblayout.py:47: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/window_title.py:27: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/weekcal.py:18: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/vk.py:28: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/uptime.py:19: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/travisci.py:52: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/travisci.py:72: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/tlp.py:22: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/timewarrior.py:27: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/timewarrior.py:31: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/timer.py:79: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/timer.py:80: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/timer.py:81: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/timer.py:82: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/timer.py:85: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], str, str, str, Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/temp.py:150: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str, str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:32: error: Need type annotation for 'ready_tasks' (hint: "ready_tasks: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:33: error: Need type annotation for 'urgent_tasks' (hint: "urgent_tasks: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:34: error: Need type annotation for 'current_tasks' (hint: "current_tasks: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:38: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:39: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:40: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:41: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/taskwarrior.py:44: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/swap.py:33: error: Incompatible types in assignment (expression has type Tuple[Tuple[str, str], Tuple[str, str], ... <9 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/spaceapi.py:21: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/spaceapi.py:28: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:40: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:58: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:59: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:60: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:61: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/sonos.py:62: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/solaar.py:30: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/shell.py:19: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sge.py:19: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/scratchpad.py:24: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sabnzbd.py:34: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sabnzbd.py:44: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/sabnzbd.py:45: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/runwatch.py:26: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/regex.py:16: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/redshift.py:128: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], str, Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/redshift.py:140: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/redshift.py:141: error: Need type annotation for 'redshift_parameters' (hint: "redshift_parameters: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/reddit.py:41: error: Incompatible types in assignment (expression has type Tuple[Tuple[str, str], Tuple[str, str], ... <11 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/reddit.py:73: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/random_password.py:24: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/random_password.py:37: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pyload.py:28: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str, str, str, str, str, str, Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/pyload.py:44: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pomodoro.py:32: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/pomodoro.py:64: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pomodoro.py:65: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/plexstatus.py:23: error: Incompatible types in assignment (expression has type "Tuple[str, str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/ping.py:21: error: Incompatible types in assignment (expression has type "Tuple[str, str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/ping.py:47: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pianobar.py:21: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/pianobar.py:30: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pianobar.py:31: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pianobar.py:32: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pianobar.py:33: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/parcel.py:176: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/parcel.py:183: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pagerduty.py:32: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/pagerduty.py:40: error: Incompatible types in assignment (expression has type "List[str]", base class "SettingsBase" defined the type as "Tuple[Any, ...]")  [assignment]
+(enkore)i3pystatus/i3pystatus/openvpn.py:44: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/openstack_vms.py:15: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/openstack_vms.py:34: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/openfiles.py:10: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/online.py:10: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/now_playing.py:77: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/now_playing.py:104: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/now_playing.py:105: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/now_playing.py:106: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/now_playing.py:107: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mpd.py:64: error: Incompatible types in assignment (expression has type Tuple[str, Tuple[str, str], ... <9 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/mpd.py:96: error: Need type annotation for 'color_map' (hint: "color_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/mpd.py:101: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mpd.py:102: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mpd.py:103: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mpd.py:104: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/moon.py:31: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/modsde.py:21: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/modsde.py:40: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/moc.py:26: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/moc.py:44: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/moc.py:45: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/moc.py:46: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/moc.py:47: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mem_bar.py:30: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mem.py:30: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/makewatch.py:13: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/load.py:22: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/lastfm.py:13: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/keyboard_locks.py:20: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/keyboard_locks.py:38: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/group.py:28: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/group.py:29: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/gpu_usage.py:17: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/gpu_temp.py:17: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/gpu_mem.py:20: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/file.py:27: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/file.py:35: error: Need type annotation for 'transforms' (hint: "transforms: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/external_ip.py:23: error: Incompatible types in assignment (expression has type "Tuple[str, str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/external_ip.py:43: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/external_ip.py:44: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/dpms.py:19: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/dpms.py:30: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/dota2wins.py:12: error: Incompatible types in assignment (expression has type Tuple[Tuple[str, str], Tuple[str, str], ... <9 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/disk.py:16: error: Incompatible types in assignment (expression has type Tuple[str, str, ... <9 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/deluge.py:27: error: Incompatible types in assignment (expression has type "Tuple[str, str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cpu_usage.py:38: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cpu_freq.py:18: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cpu_freq.py:59: error: Not all arguments converted during string formatting  [str-format]
+(enkore)i3pystatus/i3pystatus/cmus.py:33: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cmus.py:51: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/cmus.py:52: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/cmus.py:53: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/cmus.py:54: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/circleci.py:52: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/circleci.py:80: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/bitcoin.py:58: error: Incompatible types in assignment (expression has type Tuple[Tuple[str, str], Tuple[str, str], ... <9 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/bitcoin.py:85: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/bitcoin.py:86: error: Incompatible types in assignment (expression has type "List[str]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/anybar.py:37: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/amdgpu.py:20: error: Incompatible types in assignment (expression has type "Tuple[str, str, Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/alsa.py:24: error: Incompatible types in assignment (expression has type Tuple[str, Tuple[str, str], ... <10 more items>], base class "IntervalModule" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/alsa.py:53: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/alsa.py:54: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/alsa.py:55: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/alsa.py:56: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/weather/__init__.py:12: error: Incompatible types in assignment (expression has type "Tuple[]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/weather/__init__.py:163: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/weather/__init__.py:203: error: Incompatible types in assignment (expression has type "List[str]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/weather/__init__.py:204: error: Incompatible types in assignment (expression has type "List[str]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/__init__.py:9: error: Incompatible types in assignment (expression has type "Tuple[]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/__init__.py:55: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str, str, str, Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/__init__.py:85: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/__init__.py:86: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:45: error: Incompatible types in assignment (expression has type Tuple[str, Tuple[str, str], ... <12 more items>], base class "SettingsBase" defined the type as Tuple[Tuple[str, str]])  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:79: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:80: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:81: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:82: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/pulseaudio/__init__.py:83: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/__init__.py:26: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str, str, str, Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/__init__.py:45: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/__init__.py:46: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/__init__.py:47: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/calendar/__init__.py:136: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/calendar/__init__.py:166: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/calendar/__init__.py:167: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/whosonlocation.py:70: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/whosonlocation.py:81: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/syncthing.py:28: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/syncthing.py:29: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/syncthing.py:32: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/sensu.py:22: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str, str, str, str, str, Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/net_speed.py:21: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/net_speed.py:51: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(enkore)i3pystatus/i3pystatus/net_speed.py:55: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(enkore)i3pystatus/i3pystatus/net_speed.py:59: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(enkore)i3pystatus/i3pystatus/net_speed.py:63: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(enkore)i3pystatus/i3pystatus/iinet.py:23: error: Incompatible types in assignment (expression has type "Tuple[str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/exmo.py:23: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cpu_usage_graph.py:24: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/cpu_usage_bar.py:26: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/coin.py:35: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/backlight.py:22: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], str]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/backlight.py:29: error: Incompatible types in assignment (expression has type "Tuple[]", base class "File" defined the type as "Tuple[str, str]")  [assignment]
+(enkore)i3pystatus/i3pystatus/backlight.py:43: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/backlight.py:44: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:41: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "IntervalModule" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:51: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:52: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:53: error: Incompatible types in assignment (expression has type "List[object]", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:54: error: Incompatible types in assignment (expression has type "str", base class "Module" defined the type as "None")  [assignment]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:62: error: Need type annotation for 'show_info' (hint: "show_info: Dict[<type>, <type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/abc_radio.py:69: error: Need type annotation for 'target_stations' (hint: "target_stations: List[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/weather/wunderground.py:85: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/weather/weathercom.py:156: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/yay.py:38: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/yay.py:38: error: Incompatible types in assignment (expression has type "Type[Yay]", variable has type "Type[Backend]")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/yay.py:44: error: List or tuple expected as variable arguments  [misc]
+(enkore)i3pystatus/i3pystatus/updates/yaourt.py:38: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/yaourt.py:38: error: Incompatible types in assignment (expression has type "Type[Yaourt]", variable has type "Type[Backend]")  [assignment]
+(enkore)i3pystatus/i3pystatus/updates/yaourt.py:44: error: List or tuple expected as variable arguments  [misc]
+(enkore)i3pystatus/i3pystatus/updates/pacman.py:17: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/packagekit.py:25: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/dnf.py:72: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/cower.py:18: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/auracle.py:18: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/updates/aptget.py:30: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/thunderbird.py:24: error: Need type annotation for '_unread' (hint: "_unread: Set[<type>] = ...")  [var-annotated]
+(enkore)i3pystatus/i3pystatus/mail/thunderbird.py:55: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/notmuchmail.py:17: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str]]", base class "Backend" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/notmuchmail.py:45: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/mbox.py:11: error: Incompatible types in assignment (expression has type "Tuple[]", base class "Backend" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/mbox.py:24: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/maildir.py:11: error: Incompatible types in assignment (expression has type "Tuple[str]", base class "Backend" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/maildir.py:23: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/imap.py:26: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, Tuple[str, str], str, str]", base class "Backend" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/imap.py:92: error: Decorated property not supported  [misc]
+(enkore)i3pystatus/i3pystatus/mail/imap.py:100: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/mail/ews.py:16: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], str, str, str, Tuple[str, str]]", base class "Backend" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/ews.py:25: error: Incompatible types in assignment (expression has type "None", base class "Backend" defined the type as "str")  [assignment]
+(enkore)i3pystatus/i3pystatus/mail/ews.py:71: error: Cannot assign to a type  [misc]
+(enkore)i3pystatus/i3pystatus/calendar/lightning.py:68: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/calendar/khal_calendar.py:32: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+(enkore)i3pystatus/i3pystatus/calendar/google.py:70: error: Incompatible types in assignment (expression has type "Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]", base class "SettingsBase" defined the type as "Tuple[Tuple[str, str]]")  [assignment]
+Found 228 errors in 107 files (checked 114 source files)
+
+[RRepo](redzej)graphene-permissions
+
+[RRepo](StructuralNeurobiologyLab)SyConn
+
+[RRepo](n8henrie)pycookiecheat
+
+[RRepo](SexualHealthInnovations)callisto-core
+
+[RRepo](anlar)prismriver-lyrics
+
+[RRepo](SWE574-Nerds)friendly-eureka
+
+[RRepo](webyneter)python-humble-utils
+(webyneter)python-humble-utils/travis_pypi_setup.py:18: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](IlyaGusev)rupo
+Success: no issues found in 1 source file
+
+[RRepo](belbio)bel_api
+
+[RRepo](jdanekrh)dispatch-console-tests
+(jdanekrh)dispatch-console-tests/webdriver/page_objects.py:193: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(jdanekrh)dispatch-console-tests/conftest.py:43: error: Name 'driver' already defined on line 40  [no-redef]
+Found 2 errors in 2 files (checked 2 source files)
+
+[RRepo](Beomi)irkshop
+
+[RRepo](EuroPython)epcon
+(EuroPython)epcon/conference/cachef.py:14: error: All conditional function variants must have identical signatures  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](mlindauer)AutoFolio
+
+[RRepo](thorrak)fermentrack
+
+[RRepo](RulersOfAsgard)ALAMO-worker
+
+[RRepo](cprogrammer1994)GLWindow
+(cprogrammer1994)GLWindow/GLWindow/mock.py:13: error: Name 'Window' is not defined  [name-defined]
+(cprogrammer1994)GLWindow/GLWindow/mock.py:18: error: Name 'Window' is not defined  [name-defined]
+(cprogrammer1994)GLWindow/GLWindow/__init__.py:22: error: Module 'GLWindow' has no attribute 'glwnd'  [attr-defined]
+(cprogrammer1994)GLWindow/GLWindow/__init__.py:38: error: Module 'GLWindow' has no attribute 'keys'  [attr-defined]
+Found 4 errors in 2 files (checked 3 source files)
+
+[RRepo](kimjinyong)i2nsf-framework
+

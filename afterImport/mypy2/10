@@ -1,0 +1,413 @@
+[RRepo](illagrenan)block-timer
+Success: no issues found in 1 source file
+
+[RRepo](AlvarBer)Persimmon
+
+[RRepo](manzyun)Setsuna
+
+[RRepo](Brachi)albam
+
+[RRepo](kdechant)eamon
+
+[RRepo](ehouarn-perret)EhouarnPerret.Python.HackerRank
+Success: no issues found in 1 source file
+
+[RRepo](vadimadr)python-algorithms
+Success: no issues found in 1 source file
+
+[RRepo](sgelb)impositioner
+
+[RRepo](pandas-dev)pandas
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'get_option'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'set_option'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'reset_option'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'describe_option'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'option_context'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:43: error: Module 'pandas._config' has no attribute 'options'  [attr-defined]
+(pandas-dev)pandas/pandas/__init__.py:125: error: Module 'pandas.tseries' has no attribute 'offsets'  [attr-defined]
+Found 7 errors in 1 file (checked 8 source files)
+
+[RRepo](habedi)-myPython-LanguageCodes
+
+[RRepo](sipb)homeworld
+
+[RRepo](rlishtaba)py-algorithms
+
+[RRepo](joshbuddy)slick
+(joshbuddy)slick/setup.py:25: error: Need type annotation for 'EXTRAS' (hint: "EXTRAS: Dict[<type>, <type>] = ...")  [var-annotated]
+(joshbuddy)slick/setup.py:32: error: Incompatible types in assignment (expression has type "IO[Any]", variable has type "TextIO")  [assignment]
+(joshbuddy)slick/setup.py:38: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+(joshbuddy)slick/setup.py:50: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](ksindi)implements
+(ksindi)implements/tests.py:458: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](BitLooter)htmlark
+(BitLooter)htmlark/htmlark.py:21: error: Incompatible types in assignment (expression has type "None", variable has type "Callable[[Union[str, bytes], <union: 9 items>, KwArg(Any)], Response]")  [assignment]
+(BitLooter)htmlark/htmlark.py:23: error: Name 'RequestException' already defined (possibly by an import)  [no-redef]
+(BitLooter)htmlark/htmlark.py:44: error: Syntax error in type annotation  [syntax]
+(BitLooter)htmlark/htmlark.py:44: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(BitLooter)htmlark/htmlark.py:64: error: Incompatible types in assignment (expression has type "Tuple[Optional[str], Optional[str]]", variable has type "str")  [assignment]
+(BitLooter)htmlark/htmlark.py:71: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(BitLooter)htmlark/htmlark.py:184: error: Need type annotation for 'tags' (hint: "tags: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](mikeckennedy)cookiecutter-course
+
+[RRepo](Synedh)showdown-battle-bot
+
+[RRepo](pdasigi)neural-event-model
+Success: no issues found in 4 source files
+
+[RRepo](klen)muffin
+(klen)muffin/setup.py:17: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(klen)muffin/setup.py:18: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(klen)muffin/setup.py:19: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](pantsbuild)setup
+
+[RRepo](ros2)launch
+
+[RRepo](grahame)dividebatur
+
+[RRepo](tucuprum)jjal_downloader
+
+[RRepo](SKA-ScienceDataProcessor)algorithm-reference-library
+Success: no issues found in 1 source file
+
+[RRepo](PaulKlinger)Enhance-GoodReads-Export
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export.py:79: error: Name 'e' is not defined  [name-defined]
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export.py:136: error: Incompatible return value type (got "List[Tuple[None, datetime]]", expected "List[Tuple[datetime, datetime]]")  [return-value]
+(PaulKlinger)Enhance-GoodReads-Export/enhance_goodreads_export_gui.py:24: error: Incompatible types in assignment (expression has type "IOQueue", variable has type "TextIO")  [assignment]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](ambv)retype
+
+[RRepo](Hagi17)Public
+
+[RRepo](memento7)KINCluster
+
+[RRepo](SkierPGP)Skier
+(SkierPGP)Skier/db.py:11: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:75: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:94: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/db.py:105: error: Name 'db.Model' is not defined  [name-defined]
+(SkierPGP)Skier/skier/pgp.py:65: error: Item "None" of "Optional[bytes]" has no attribute "decode"  [union-attr]
+(SkierPGP)Skier/skier/pgp.py:80: error: Incompatible return value type (got "None", expected "str")  [return-value]
+Found 6 errors in 2 files (checked 5 source files)
+
+[RRepo](Buchhold)QLever
+
+[RRepo](hemberg-lab)scRNA.seq.course
+
+[RRepo](playpauseandstop)aiohttp-middlewares
+
+[RRepo](jfde)augentbot
+
+[RRepo](Kowlin)refactored-cogs
+
+[RRepo](SecuredByTHEM)ndr
+
+[RRepo](kevinkwl)AoAReader
+(kevinkwl)AoAReader/preprocess.py:86: error: Too many arguments for "LongTensor"  [call-arg]
+(kevinkwl)AoAReader/preprocess.py:86: error: Incompatible types in assignment (expression has type "LongTensor", variable has type "List[Any]")  [assignment]
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](ivandardi)StreamNotificationBot
+(ivandardi)StreamNotificationBot/bot/__init__.py:12: error: Module 'bot.utils' has no attribute 'Database'  [attr-defined]
+(ivandardi)StreamNotificationBot/bot/__init__.py:12: error: Module 'bot.utils' has no attribute 'strings'  [attr-defined]
+(ivandardi)StreamNotificationBot/bot/__init__.py:12: error: Module 'bot.utils' has no attribute 'errors'  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](NEAT-project)neat
+
+[RRepo](ErikBjare)pyzenobase
+
+[RRepo](ResolveWang)WeiboSpider
+
+[RRepo](Parbhat)cookiecutter-django-foundation
+
+[RRepo](Rhilip)cn-mooc-dl
+(Rhilip)cn-mooc-dl/model/login.py:13: error: Need type annotation for 'cookie'  [var-annotated]
+(Rhilip)cn-mooc-dl/model/login.py:20: error: Invalid type comment or annotation  [valid-type]
+(Rhilip)cn-mooc-dl/model/login.py:20: note: Suggestion: use requests.session[...] instead of requests.session(...)
+(Rhilip)cn-mooc-dl/model/download.py:78: error: Need type annotation for 'queue'  [var-annotated]
+(Rhilip)cn-mooc-dl/model/download.py:92: error: Invalid type comment or annotation  [valid-type]
+(Rhilip)cn-mooc-dl/model/download.py:92: note: Suggestion: use requests.Session[...] instead of requests.Session(...)
+Found 4 errors in 2 files (checked 7 source files)
+
+[RRepo](irmen)Tale
+(irmen)Tale/tale/main.py:13: error: Module 'tale.tio' has no attribute 'DEFAULT_SCREEN_DELAY'  [attr-defined]
+(irmen)Tale/tale/main.py:49: error: Module 'tale.tio' has no attribute 'tkinter_io'  [attr-defined]
+(irmen)Tale/tale/cmds/__init__.py:14: error: Module 'tale' has no attribute 'util'  [attr-defined]
+(irmen)Tale/tale/cmds/__init__.py:55: error: Module 'tale.cmds' has no attribute 'wizard'  [attr-defined]
+(irmen)Tale/tale/cmds/__init__.py:56: error: Module 'tale.cmds' has no attribute 'normal'  [attr-defined]
+Found 5 errors in 2 files (checked 10 source files)
+
+[RRepo](dekarrin)moe-serifu-agent
+
+[RRepo](corpnewt)CorpBot.py
+Success: no issues found in 1 source file
+
+[RRepo](threema-ch)ocspresponder
+Success: no issues found in 1 source file
+
+[RRepo](alexarnautu)deenux
+
+[RRepo](BatedUrGonnaDie)salty_bot
+(BatedUrGonnaDie)salty_bot/salty_listener.py:111: error: Missing parentheses in call to 'print'. Did you mean print(address)?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](opendoor-labs)rets
+
+[RRepo](spencer404)PyLoom
+
+[RRepo](BurntSushi)pdoc
+(BurntSushi)pdoc/pdoc/extract.py:57: error: Module has no attribute "util"  [attr-defined]
+(BurntSushi)pdoc/pdoc/extract.py:58: error: Module has no attribute "util"  [attr-defined]
+Found 2 errors in 1 file (checked 7 source files)
+
+[RRepo](stanta)darfchain
+
+[RRepo](mancellin)capytaine
+Success: no issues found in 1 source file
+
+[RRepo](joelgrus)data-science-from-scratch
+
+[RRepo](mmgen)mmgen
+(mmgen)mmgen/mmgen/devtools.py:40: error: Not all arguments converted during string formatting  [str-format]
+(mmgen)mmgen/mmgen/globalvars.py:29: error: Name 'MMGenObject' already defined (possibly by an import)  [no-redef]
+(mmgen)mmgen/mmgen/globalvars.py:124: error: Argument 1 to "die" has incompatible type "int"; expected "g"  [arg-type]
+(mmgen)mmgen/mmgen/globalvars.py:131: error: Argument 1 to "die" has incompatible type "int"; expected "g"  [arg-type]
+(mmgen)mmgen/mmgen/globalvars.py:133: error: Argument 1 to "die" has incompatible type "int"; expected "g"  [arg-type]
+(mmgen)mmgen/setup.py:33: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(mmgen)mmgen/setup.py:34: error: Module 'distutils.command.install_data' has no attribute 'install_data'  [attr-defined]
+Found 7 errors in 3 files (checked 1 source file)
+
+[RRepo](andrewrothstein)dcb
+
+[RRepo](vertexproject)synapse
+Success: no issues found in 1 source file
+
+[RRepo](vialectrum)vialectrum
+
+[RRepo](JulienBalestra)enjoliver
+(JulienBalestra)enjoliver/app/smartdb.py:20: error: Need type annotation for 'engines' (hint: "engines: List[<type>] = ...")  [var-annotated]
+(JulienBalestra)enjoliver/app/smartdb.py:63: error: Cannot assign to a method  [assignment]
+(JulienBalestra)enjoliver/app/smartdb.py:65: error: Cannot assign to a method  [assignment]
+(JulienBalestra)enjoliver/app/ops.py:115: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(JulienBalestra)enjoliver/app/ops.py:119: error: Unsupported target for indexed assignment  [index]
+(JulienBalestra)enjoliver/app/ops.py:121: error: Unsupported target for indexed assignment  [index]
+(JulienBalestra)enjoliver/app/ops.py:132: error: Unsupported target for indexed assignment  [index]
+(JulienBalestra)enjoliver/app/ops.py:147: error: Unsupported target for indexed assignment  [index]
+Found 8 errors in 2 files (checked 2 source files)
+
+[RRepo](mikeckennedy)python-for-entrepreneurs-course-demos
+
+[RRepo](surelyourejoking)ElectrodynamicsPy
+(surelyourejoking)ElectrodynamicsPy/point_charges_2D.py:7: error: Need type annotation for 'registry' (hint: "registry: List[<type>] = ...")  [var-annotated]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:48: error: List item 0 has incompatible type "int"; expected "None"  [list-item]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:53: error: List comprehension has incompatible type List[int]; expected List[None]  [misc]
+(surelyourejoking)ElectrodynamicsPy/Legendre.py:53: error: Unsupported operand types for * ("int" and "None")  [operator]
+Found 4 errors in 2 files (checked 3 source files)
+
+[RRepo](urda)django-letsencrypt
+
+[RRepo](artscoop)django-approval
+Success: no issues found in 1 source file
+
+[RRepo](consbio)landscapesim
+
+[RRepo](utarsuno)quasar_source
+
+[RRepo](tomerfiliba)plumbum
+(tomerfiliba)plumbum/plumbum/lib.py:43: error: Cannot assign to a type  [misc]
+(tomerfiliba)plumbum/plumbum/lib.py:43: error: Incompatible types in assignment (expression has type "ABCMeta", variable has type "Type[ABC]")  [assignment]
+(tomerfiliba)plumbum/plumbum/lib.py:43: note: "ABCMeta.__call__" has type "Callable[[VarArg(Any), KwArg(Any)], Any]"
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessExecutionError'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'CommandNotFound'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessTimedOut'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:37: error: Module 'plumbum.commands' has no attribute 'ProcessLineTimedOut'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'FG'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'BG'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'TEE'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'TF'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'RETCODE'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'ERROUT'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:38: error: Module 'plumbum.commands' has no attribute 'NOHUP'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'Path'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'LocalPath'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:39: error: Module 'plumbum.path' has no attribute 'RemotePath'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'BaseRemoteMachine'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'SshMachine'  [attr-defined]
+(tomerfiliba)plumbum/plumbum/__init__.py:40: error: Module 'plumbum.machines' has no attribute 'PuttyMachine'  [attr-defined]
+(tomerfiliba)plumbum/setup.py:22: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(tomerfiliba)plumbum/setup.py:55: error: Name 'version_string' is not defined  [name-defined]
+(tomerfiliba)plumbum/build.py:10: error: Name 'cli.Application' is not defined  [name-defined]
+(tomerfiliba)plumbum/build.py:12: error: Module has no attribute "Flag"  [attr-defined]
+Found 23 errors in 4 files (checked 9 source files)
+
+[RRepo](declension)squeeze-alexa
+(declension)squeeze-alexa/squeezealexa/transport/ssl_wrap.py:128: error: Return type "Optional[str]" of "communicate" incompatible with return type "List[str]" in supertype "Transport"  [override]
+(declension)squeeze-alexa/squeezealexa/transport/mqtt.py:113: error: Need type annotation for 'message' (hint: "message: List[<type>] = ...")  [var-annotated]
+(declension)squeeze-alexa/squeezealexa/transport/mqtt.py:146: error: Signature of "communicate" incompatible with supertype "Transport"  [override]
+Found 3 errors in 2 files (checked 6 source files)
+
+[RRepo](wongcyrus)ExcelLexBot
+(wongcyrus)ExcelLexBot/setup.py:73: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](eliostvs)tomate
+
+[RRepo](awsdocs)aws-doc-sdk-examples
+Success: no issues found in 1 source file
+
+[RRepo](bblfsh)python-driver
+
+[RRepo](AJudge-team)AJudge
+(AJudge-team)AJudge/start.py:4: error: Module 'provider' has no attribute 'ProblemProvider'  [attr-defined]
+(AJudge-team)AJudge/start.py:5: error: Module 'validator' has no attribute 'StringValidator'  [attr-defined]
+(AJudge-team)AJudge/start.py:11: error: Module 'sandbox' has no attribute 'Sandbox'  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](TsarFox)chandere2
+(TsarFox)chandere2/setup.py:24: error: Module 'chandere' has no attribute '__version__'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](Vim-cn)Vinergy
+
+[RRepo](doctaphred)phredutils
+(doctaphred)phredutils/funccools.py:58: error: "Callable[[Any], Any]" has no attribute "csvoss_edition"  [attr-defined]
+(doctaphred)phredutils/zmqrpc.py:50: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(doctaphred)phredutils/retry.py:88: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(doctaphred)phredutils/retry.py:89: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(doctaphred)phredutils/locksmith.py:87: error: "Locksmith" has no attribute "check"  [attr-defined]
+(doctaphred)phredutils/testgen.py:51: error: Cannot determine type of '__actual'  [has-type]
+(doctaphred)phredutils/testgen.py:101: error: Need type annotation for 'tested'  [var-annotated]
+Found 7 errors in 5 files (checked 40 source files)
+
+[RRepo](austinbyers)esprima-ast-visitor
+Success: no issues found in 2 source files
+
+[RRepo](liqd)a4-meinberlin
+
+[RRepo](Redjumpman)Jumper-Cogs
+(Redjumpman)Jumper-Cogs/casino/data.py:134: error: Unsupported target for indexed assignment  [index]
+(Redjumpman)Jumper-Cogs/dicetable/dicetable.py:23: error: Variable "dicetable.dicetable.BaseCog" is not valid as a type  [valid-type]
+(Redjumpman)Jumper-Cogs/dicetable/dicetable.py:23: error: Invalid base class "BaseCog"  [misc]
+(Redjumpman)Jumper-Cogs/jisho/jisho.py:18: error: Variable "jisho.jisho.BaseCog" is not valid as a type  [valid-type]
+(Redjumpman)Jumper-Cogs/jisho/jisho.py:18: error: Invalid base class "BaseCog"  [misc]
+Found 5 errors in 3 files (checked 20 source files)
+
+[RRepo](nabla-c0d3)sslyze
+(nabla-c0d3)sslyze/sslyze/utils/http_request_generator.py:16: error: Module has no attribute "__version__"  [attr-defined]
+(nabla-c0d3)sslyze/tasks.py:5: error: Module 'sslyze' has no attribute '__version__'  [attr-defined]
+(nabla-c0d3)sslyze/setup.py:5: error: Module 'sslyze' has no attribute '__author__'  [attr-defined]
+(nabla-c0d3)sslyze/setup.py:5: error: Module 'sslyze' has no attribute '__email__'  [attr-defined]
+(nabla-c0d3)sslyze/setup.py:5: error: Module 'sslyze' has no attribute '__version__'  [attr-defined]
+(nabla-c0d3)sslyze/setup.py:5: error: Module 'sslyze' has no attribute 'PROJECT_URL'  [attr-defined]
+(nabla-c0d3)sslyze/setup.py:18: error: Name 'Executable' already defined (possibly by an import)  [no-redef]
+Found 7 errors in 3 files (checked 3 source files)
+
+[RRepo](Kaggle)docker-python
+
+[RRepo](nnadeau)pybotics
+Success: no issues found in 1 source file
+
+[RRepo](markusressel)raspyrfm-client
+(markusressel)raspyrfm-client/setup.py:8: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")  [assignment]
+(markusressel)raspyrfm-client/setup.py:23: error: On Python 3 '%s' % b'abc' produces "b'abc'"; use %r if this is a desired behavior  [str-bytes-safe]
+(markusressel)raspyrfm-client/setup.py:26: error: Missing return statement  [return]
+(markusressel)raspyrfm-client/setup.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:34: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/setup.py:39: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:39: note: Did you mean "List[...]"?
+(markusressel)raspyrfm-client/setup.py:43: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(markusressel)raspyrfm-client/setup.py:43: note: Did you mean "List[...]"?
+Found 6 errors in 1 file (checked 1 source file)
+
+[RRepo](HelpAssistHer)help-assist-her
+
+[RRepo](python-dirbtuves)it-brandos-egzaminai
+(python-dirbtuves)it-brandos-egzaminai/conftest.py:7: error: Invalid base class  [misc]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](cbg-ethz)rnaiutilities
+Success: no issues found in 1 source file
+
+[RRepo](pyecore)pyecoregen
+Success: no issues found in 1 source file
+
+[RRepo](samuelcolvin)aiohttp-devtools
+
+[RRepo](asphalt-framework)asphalt-serialization
+
+[RRepo](cache-rules)email_hunter_python
+
+[RRepo](KarolBedkowski)webmon
+
+[RRepo](bosondata)chrome-prerender
+Success: no issues found in 1 source file
+
+[RRepo](garciparedes)python-examples
+
+[RRepo](alexsavio)hansel
+(alexsavio)hansel/hansel/_utils.py:20: error: Incompatible return value type (got "Iterable[Tuple[str, Optional[str], Optional[str], Optional[str]]]", expected "Iterator[str]")  [return-value]
+(alexsavio)hansel/hansel/_utils.py:20: note: 'Iterable' is missing following 'Iterator' protocol member:
+(alexsavio)hansel/hansel/_utils.py:20: note:     __next__
+(alexsavio)hansel/hansel/_utils.py:20: note: Following member(s) of "Iterable[Tuple[str, Optional[str], Optional[str], Optional[str]]]" have conflicts:
+(alexsavio)hansel/hansel/_utils.py:20: note:     Expected:
+(alexsavio)hansel/hansel/_utils.py:20: note:         def __iter__(self) -> Iterator[str]
+(alexsavio)hansel/hansel/_utils.py:20: note:     Got:
+(alexsavio)hansel/hansel/_utils.py:20: note:         def __iter__(self) -> Iterator[Tuple[str, Optional[str], Optional[str], Optional[str]]]
+(alexsavio)hansel/hansel/_utils.py:24: error: Generator has incompatible item type "Optional[str]"; expected "str"  [misc]
+(alexsavio)hansel/hansel/_utils.py:30: error: Incompatible types in "yield from" (actual type "Tuple[int, Tuple[str, Optional[str], Optional[str], Optional[str]]]", expected type "Tuple[int, str]")  [misc]
+(alexsavio)hansel/hansel/_utils.py:37: error: Incompatible types in assignment (expression has type "slice", variable has type "Optional[int]")  [assignment]
+(alexsavio)hansel/hansel/_utils.py:43: error: Invalid index type "Optional[int]" for "str"; expected type "Union[int, slice]"  [index]
+(alexsavio)hansel/hansel/_utils.py:58: error: Argument 2 to "_depth_items" has incompatible type "slice"; expected "Optional[int]"  [arg-type]
+(alexsavio)hansel/hansel/_utils.py:114: error: Missing return statement  [return]
+(alexsavio)hansel/hansel/_utils.py:120: error: Missing return statement  [return]
+(alexsavio)hansel/hansel/_utils.py:170: error: "str" has no attribute "_path"  [attr-defined]
+(alexsavio)hansel/hansel/utils.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(alexsavio)hansel/hansel/utils.py:34: note: Did you mean "List[...]"?
+(alexsavio)hansel/hansel/utils.py:154: error: Incompatible types in assignment (expression has type "Tuple[]", variable has type "Optional[Callable[..., Any]]")  [assignment]
+(alexsavio)hansel/hansel/utils.py:156: error: List or tuple expected as variable arguments  [misc]
+(alexsavio)hansel/hansel/mktree.py:15: error: Name 'hansel.Crumb' is not defined  [name-defined]
+(alexsavio)hansel/hansel/tests/conftest.py:8: error: Module 'hansel' has no attribute 'Crumb'  [attr-defined]
+(alexsavio)hansel/hansel/tests/conftest.py:41: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(alexsavio)hansel/hansel/tests/conftest.py:41: note: Did you mean "List[...]"?
+(alexsavio)hansel/hansel/tests/conftest.py:55: error: Module not callable  [operator]
+Found 16 errors in 4 files (checked 2 source files)
+
+[RRepo](jeromecc)doctoctocbot
+Success: no issues found in 1 source file
+
+[RRepo](fugwenna)bunkbot
+(fugwenna)bunkbot/src/storage/db.py:46: error: Invalid type comment or annotation  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:56: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:56: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/storage/db.py:62: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:62: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/storage/db.py:67: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:67: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/storage/db.py:98: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:98: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/storage/db.py:100: error: Value of type any? is not indexable  [index]
+(fugwenna)bunkbot/src/storage/db.py:104: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(fugwenna)bunkbot/src/storage/db.py:117: error: Function "builtins.any" is not valid as a type  [valid-type]
+(fugwenna)bunkbot/src/storage/db.py:117: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fugwenna)bunkbot/src/storage/db.py:119: error: Value of type any? is not indexable  [index]
+Found 9 errors in 1 file (checked 1 source file)
+
+[RRepo](ahuei123456)Ruby-Bot
+
+[RRepo](slice)dogbot
+
+[RRepo](jjkester)moneybird-python
+
+[RRepo](scottwernervt)cloudstorage
+Success: no issues found in 1 source file
+

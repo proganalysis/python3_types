@@ -1,0 +1,405 @@
+[RRepo](trustyou)meetups
+
+[RRepo](samkit-jain)Handwriting-Recognition
+
+[RRepo](autozimu)LanguageClient-neovim
+
+[RRepo](thenetcircle)dino
+
+[RRepo](googleapis)synthtool
+Success: no issues found in 1 source file
+
+[RRepo](BookOwl)nustack
+
+[RRepo](googlefonts)fontbakery
+
+[RRepo](easonnie)flint
+(easonnie)flint/torch_util.py:185: error: Too many arguments for "Variable"  [call-arg]
+(easonnie)flint/torch_util.py:191: error: Argument 2 to "__call__" of "RNN" has incompatible type "Tuple[Variable, Variable]"; expected "Optional[Tensor]"  [arg-type]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](MikimotoH)DLink_Harvester
+(MikimotoH)DLink_Harvester/harvest_utils.py:25: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MikimotoH)DLink_Harvester/harvest_utils.py:25: note: Did you mean "List[...]"?
+(MikimotoH)DLink_Harvester/harvest_utils.py:45: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MikimotoH)DLink_Harvester/harvest_utils.py:45: note: Did you mean "List[...]"?
+(MikimotoH)DLink_Harvester/harvest_utils.py:76: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MikimotoH)DLink_Harvester/harvest_utils.py:76: note: Did you mean "List[...]"?
+(MikimotoH)DLink_Harvester/harvest_utils.py:79: error: "Waiter" has no attribute "elems"; maybe "Elems"?  [attr-defined]
+(MikimotoH)DLink_Harvester/harvest_utils.py:176: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MikimotoH)DLink_Harvester/harvest_utils.py:176: note: Did you mean "List[...]"?
+(MikimotoH)DLink_Harvester/harvest_utils.py:179: error: "None" has no attribute "find_elements_by_css_selector"  [attr-defined]
+(MikimotoH)DLink_Harvester/harvest_utils.py:187: error: "None" has no attribute "execute_script"  [attr-defined]
+(MikimotoH)DLink_Harvester/harvest_utils.py:192: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MikimotoH)DLink_Harvester/harvest_utils.py:193: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/harvest_utils.py:197: error: "None" has no attribute "execute_script"  [attr-defined]
+(MikimotoH)DLink_Harvester/harvest_utils.py:221: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(MikimotoH)DLink_Harvester/harvest_utils.py:225: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/harvest_utils.py:226: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/harvest_utils.py:248: error: "None" has no attribute "save_screenshot"  [attr-defined]
+(MikimotoH)DLink_Harvester/harvest_utils.py:250: error: "None" has no attribute "page_source"  [attr-defined]
+(MikimotoH)DLink_Harvester/au_dlink_crawler2.py:34: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(MikimotoH)DLink_Harvester/au_dlink_crawler2.py:39: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(MikimotoH)DLink_Harvester/web_utils.py:47: error: Syntax error in type annotation  [syntax]
+(MikimotoH)DLink_Harvester/web_utils.py:47: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(MikimotoH)DLink_Harvester/web_utils.py:109: error: Incompatible types in assignment (expression has type "Callable[[MyHTTPRedirectHandler, Any, Any, Any, Any, Any], Any]", base class "HTTPRedirectHandler" defined the type as "Callable[[HTTPRedirectHandler, Request, IO[str], int, int, Mapping[str, str]], Optional[Any]]")  [assignment]
+(MikimotoH)DLink_Harvester/zyxel_us_crawler.py:16: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/zyxel_us_crawler.py:135: error: Syntax error in type annotation  [syntax]
+(MikimotoH)DLink_Harvester/zyxel_us_crawler.py:135: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(MikimotoH)DLink_Harvester/tenda_us_crawler.py:15: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/tenda_us_crawler.py:52: error: Item "None" of "Optional[Any]" has no attribute "find_elements_by_css_selector"  [union-attr]
+(MikimotoH)DLink_Harvester/tenda_us_crawler.py:54: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/tenda_cn_crawler.py:17: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/synology_en_us_crawler.py:17: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/netgear_form_submit_crawler.py:14: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:37: error: Argument 2 for "super" not an instance of argument 1  [misc]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:64: error: Name 'timeElapsed' is not defined  [name-defined]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:64: error: Name 'beginTime' is not defined  [name-defined]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:68: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:69: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:82: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:106: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:106: note: Did you mean "List[...]"?
+(MikimotoH)DLink_Harvester/netgear_crawler2.py:114: error: Name 'begin' is not defined  [name-defined]
+(MikimotoH)DLink_Harvester/netgear_cn_crawler.py:16: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/netgear_cn_crawler.py:127: error: Syntax error in type annotation  [syntax]
+(MikimotoH)DLink_Harvester/netgear_cn_crawler.py:127: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(MikimotoH)DLink_Harvester/netgear_cn_crawler.py:132: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(MikimotoH)DLink_Harvester/linksys_0.py:17: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/iptime_kr_crawler.py:22: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+(MikimotoH)DLink_Harvester/foscam_us_crawler.py:17: error: Need type annotation for 'visited' (hint: "visited: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 41 errors in 13 files (checked 33 source files)
+
+[RRepo](hadware)voxpopuli
+
+[RRepo](biosustain)venom
+
+[RRepo](aguinane)nem-reader
+Success: no issues found in 1 source file
+
+[RRepo](jaantollander)CrowdDynamics
+(jaantollander)CrowdDynamics/dodo.py:11: error: Exception type must be derived from BaseException  [misc]
+(jaantollander)CrowdDynamics/dodo.py:13: error: Name 'Path' already defined (possibly by an import)  [no-redef]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](s0hvaperuna)Not-a-bot
+Success: no issues found in 2 source files
+
+[RRepo](conversationai)conversationai-models
+
+[RRepo](nschloe)quadpy
+(nschloe)quadpy/setup.py:8: error: Need type annotation for 'about' (hint: "about: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](coldfix)pystif
+
+[RRepo](and800)aioreloader
+
+[RRepo](GregorCH)ipet
+(GregorCH)ipet/ipet/concepts/Observer.py:17: error: Need type annotation for 'observermap' (hint: "observermap: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](pyGrowler)Growler
+
+[RRepo](Jamjomjara)snu-artoon
+
+[RRepo](KrusnikViers)Zordon
+
+[RRepo](nanoporetech)bwapy
+
+[RRepo](nicfit)nicfit.py
+Success: no issues found in 1 source file
+
+[RRepo](pablotcarreira)django-arangodb
+
+[RRepo](PeerAssets)pypeerassets
+
+[RRepo](googleapis)sample-tester
+
+[RRepo](jacebrowning)doorstop
+Success: no issues found in 1 source file
+
+[RRepo](corradio)electricitymap
+Success: no issues found in 1 source file
+
+[RRepo](chiaki64)Windless
+
+[RRepo](5j9)yadkard
+
+[RRepo](PyAndy)Py3NES
+(PyAndy)Py3NES/cpu.py:30: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](igorcoding)asynctnt
+(igorcoding)asynctnt/asynctnt/_testbase.py:15: error: Module 'asynctnt' has no attribute 'TarantoolTuple'  [attr-defined]
+(igorcoding)asynctnt/asynctnt/_testbase.py:36: error: Unsupported dynamic base class "type"  [misc]
+(igorcoding)asynctnt/asynctnt/_testbase.py:190: error: Name 'asynctnt.Connection' is not defined  [name-defined]
+(igorcoding)asynctnt/tests/__init__.py:14: error: Incompatible types in assignment (expression has type "str", base class "TarantoolTestCase" defined the type as "None")  [assignment]
+(igorcoding)asynctnt/tests/test_response.py:3: error: Module 'asynctnt' has no attribute 'TarantoolTuple'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_upsert.py:1: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_update.py:1: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_sql.py:1: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_select.py:3: error: Module 'asynctnt' has no attribute 'Iterator'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_select.py:4: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_push.py:4: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_push.py:4: error: Module 'asynctnt' has no attribute 'PushIterator'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_ping.py:4: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_insert.py:1: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_eval.py:3: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_delete.py:1: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+(igorcoding)asynctnt/tests/test_op_call.py:3: error: Module 'asynctnt' has no attribute 'Response'  [attr-defined]
+Found 17 errors in 13 files (checked 15 source files)
+
+[RRepo](dashwav)nano-chan
+(dashwav)nano-chan/run.py:6: error: Module 'bot' has no attribute 'Nanochan'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Spoils'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Filter'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Tutoring'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Pingy'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Channels'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Janitor'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Moderation'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Logging'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Stats'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Owner'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Reactions'  [attr-defined]
+(dashwav)nano-chan/run.py:7: error: Module 'cogs' has no attribute 'Fightclub'  [attr-defined]
+Found 13 errors in 1 file (checked 1 source file)
+
+[RRepo](SQbQxeKd3JHD8)simple_ConTeXt
+(SQbQxeKd3JHD8)simple_ConTeXt/test.py:97: error: Unsupported operand types for + ("object" and "int")  [operator]
+(SQbQxeKd3JHD8)simple_ConTeXt/run_script.py:80: error: Incompatible types in assignment (expression has type "None", variable has type "Tuple[Any, Any]")  [assignment]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:141: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:163: error: Argument 2 to "filter_" has incompatible type "Union[str, int]"; expected "str"  [arg-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:260: error: Cannot determine type of 'cur_sels'  [has-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:287: error: Unsupported operand types for + ("List[str]" and "None")  [operator]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:287: note: Right operand is of type "Optional[List[Any]]"
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:301: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:314: error: Cannot determine type of 'cur_sels'  [has-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:332: error: Argument 2 to "filter_" has incompatible type "Union[str, int]"; expected "str"  [arg-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:393: error: Cannot determine type of 'cur_sels'  [has-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:394: error: Cannot determine type of 'cur_sels'  [has-type]
+(SQbQxeKd3JHD8)simple_ConTeXt/show_overlay.py:401: error: Cannot determine type of 'cur_sels'  [has-type]
+Found 12 errors in 3 files (checked 12 source files)
+
+[RRepo](modm-io)modm-devices
+
+[RRepo](team-phoenix)Phoenix
+
+[RRepo](Parsl)parsl
+
+[RRepo](GelaniNijraj)PyMaterial
+
+[RRepo](zyga)textland
+(zyga)textland/demo6.py:19: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo6.py:20: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo6.py:21: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo6.py:22: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo6.py:23: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo6.py:24: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo6.py:25: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo6.py:26: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+(zyga)textland/demo5.py:19: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo5.py:20: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo5.py:21: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo5.py:22: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo5.py:23: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo5.py:24: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo5.py:25: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo5.py:26: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+(zyga)textland/demo4.py:19: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo4.py:20: error: Module 'textland' has no attribute 'BRIGHT_GREEN'  [attr-defined]
+(zyga)textland/demo4.py:21: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo4.py:22: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo4.py:23: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo4.py:24: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo4.py:25: error: Module 'textland' has no attribute 'RED'  [attr-defined]
+(zyga)textland/demo4.py:26: error: Module 'textland' has no attribute 'REVERSE'  [attr-defined]
+(zyga)textland/demo4.py:27: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo4.py:28: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo4.py:29: error: Module 'textland' has no attribute 'UNDERLINE'  [attr-defined]
+(zyga)textland/demo4.py:30: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+(zyga)textland/demo3.py:20: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo3.py:21: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo3.py:22: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo3.py:23: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo3.py:24: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo3.py:25: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo3.py:26: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo3.py:27: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+(zyga)textland/demo2.py:19: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo2.py:20: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo2.py:21: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo2.py:22: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo2.py:23: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo2.py:24: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo2.py:25: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo2.py:26: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+(zyga)textland/demo1.py:21: error: Module 'textland' has no attribute 'DrawingContext'  [attr-defined]
+(zyga)textland/demo1.py:22: error: Module 'textland' has no attribute 'EVENT_KEYBOARD'  [attr-defined]
+(zyga)textland/demo1.py:23: error: Module 'textland' has no attribute 'EVENT_RESIZE'  [attr-defined]
+(zyga)textland/demo1.py:24: error: Module 'textland' has no attribute 'Event'  [attr-defined]
+(zyga)textland/demo1.py:25: error: Module 'textland' has no attribute 'IApplication'  [attr-defined]
+(zyga)textland/demo1.py:26: error: Module 'textland' has no attribute 'KeyboardData'  [attr-defined]
+(zyga)textland/demo1.py:27: error: Module 'textland' has no attribute 'Size'  [attr-defined]
+(zyga)textland/demo1.py:28: error: Module 'textland' has no attribute 'TextImage'  [attr-defined]
+(zyga)textland/demo1.py:29: error: Module 'textland' has no attribute 'get_display'  [attr-defined]
+Found 53 errors in 6 files (checked 6 source files)
+
+[RRepo](autokey-py3)autokey
+
+[RRepo](dylanbstorey)angreal
+(dylanbstorey)angreal/setup.py:19: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](biplap-sarkar)pylimit
+
+[RRepo](zsims)dic
+
+[RRepo](lyft)incubator-airflow
+
+[RRepo](mikesmth)pi-dashboard
+
+[RRepo](berkmancenter)mediacloud
+
+[RRepo](TankerApp)tsrc
+Success: no issues found in 1 source file
+
+[RRepo](PennyDreadfulMTG)Penny-Dreadful-Tools
+
+[RRepo](rhinstaller)anaconda
+
+[RRepo](chengsoonong)acton
+
+[RRepo](rachekalmir)pyJolt
+
+[RRepo](blockauth)smart-contract
+
+[RRepo](spectra-cluster)spectra-cluster-py
+Success: no issues found in 1 source file
+
+[RRepo](Aluriak)PowerGrASP
+
+[RRepo](alexbielen)chainsmoke
+Success: no issues found in 1 source file
+
+[RRepo](JZQT)aioqiniu
+Success: no issues found in 3 source files
+
+[RRepo](petervaro)cutils
+
+[RRepo](mayfield)shellish
+Success: no issues found in 1 source file
+
+[RRepo](philiplessner)USPTOAPI
+Success: no issues found in 5 source files
+
+[RRepo](status-im)status-network-token
+
+[RRepo](Ulauncher)Ulauncher
+Success: no issues found in 1 source file
+
+[RRepo](mitmedialab)MediaCloud-Web-Tools
+
+[RRepo](Svolcano)python_exercise
+
+[RRepo](actionless)oomox
+
+[RRepo](morganbengtsson)microreader
+(morganbengtsson)microreader/favicon.py:5: error: Module 'urllib.request' has no attribute 'urlparse'  [attr-defined]
+(morganbengtsson)microreader/favicon.py:8: error: Name 'Request' already defined (possibly by an import)  [no-redef]
+(morganbengtsson)microreader/favicon.py:8: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(morganbengtsson)microreader/favicon.py:9: error: Module 'urllib' has no attribute 'urlretrieve'  [attr-defined]
+(morganbengtsson)microreader/favicon.py:9: error: Name 'urlretrieve' already defined (possibly by an import)  [no-redef]
+(morganbengtsson)microreader/models.py:12: error: Name 'SqliteDatabase' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:33: error: Name 'Model' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:38: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:39: error: Name 'DateTimeField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:40: error: Name 'DateTimeField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:41: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:42: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:43: error: Name 'IntegerField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:44: error: Name 'IntegerField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:131: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:132: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:133: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:134: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:135: error: Name 'TextField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:136: error: Name 'BooleanField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:137: error: Name 'BooleanField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:138: error: Name 'BooleanField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:139: error: Name 'ForeignKeyField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:140: error: Name 'DateTimeField' is not defined  [name-defined]
+(morganbengtsson)microreader/models.py:141: error: Name 'DateTimeField' is not defined  [name-defined]
+(morganbengtsson)microreader/microreader.py:7: error: Name 'urlunsplit' already defined (possibly by an import)  [no-redef]
+(morganbengtsson)microreader/microreader.py:8: error: Module 'urllib' has no attribute 'urlencode'  [attr-defined]
+(morganbengtsson)microreader/microreader.py:8: error: Name 'urlencode' already defined (possibly by an import)  [no-redef]
+(morganbengtsson)microreader/microreader.py:53: error: Name 'favicon' already defined (by an import)  [no-redef]
+(morganbengtsson)microreader/microreader.py:61: error: Name 'DateField' is not defined  [name-defined]
+(morganbengtsson)microreader/microreader.py:137: error: Incompatible types in assignment (expression has type "str", target has type "List[Any]")  [assignment]
+(morganbengtsson)microreader/microreader.py:139: error: Incompatible types in assignment (expression has type "Optional[str]", target has type "List[Any]")  [assignment]
+(morganbengtsson)microreader/microreader.py:142: error: Incompatible return value type (got "Dict[str, List[Any]]", expected "str")  [return-value]
+(morganbengtsson)microreader/microreader.py:154: error: Incompatible return value type (got "Dict[str, Any]", expected "str")  [return-value]
+(morganbengtsson)microreader/microreader.py:176: error: Incompatible return value type (got "Dict[str, Any]", expected "str")  [return-value]
+(morganbengtsson)microreader/microreader.py:185: error: Incompatible return value type (got "Dict[str, Any]", expected "str")  [return-value]
+(morganbengtsson)microreader/microreader.py:255: error: Name 'update_channels' already defined on line 243  [no-redef]
+Found 37 errors in 3 files (checked 3 source files)
+
+[RRepo](RIP95)kurisu-bot
+Success: no issues found in 1 source file
+
+[RRepo](angstromctf)djangoctf
+
+[RRepo](Pittsburgh-NEH-Institute)Institute-Materials-2017
+
+[RRepo](Nic30)hwtLib
+
+[RRepo](nkantar)Parsenvy
+Success: no issues found in 1 source file
+
+[RRepo](olist)correios
+Success: no issues found in 1 source file
+
+[RRepo](rr-)drill
+
+[RRepo](RRZE-HPC)kerncraft
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:43: error: Need type annotation for 'yticks_labels' (hint: "yticks_labels: List[<type>] = ...")  [var-annotated]
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:44: error: Need type annotation for 'yticks' (hint: "yticks: List[<type>] = ...")  [var-annotated]
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:45: error: Need type annotation for 'xticks_labels' (hint: "xticks_labels: List[<type>] = ...")  [var-annotated]
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:53: error: Value of type "object" is not indexable  [index]
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:59: error: Value of type "object" is not indexable  [index]
+(RRZE-HPC)kerncraft/kerncraft/roofline-plot.py:60: error: Value of type "object" is not indexable  [index]
+(RRZE-HPC)kerncraft/kerncraft/likwid_bench_auto.py:112: error: Incompatible types in assignment (expression has type "List[str]", target has type "str")  [assignment]
+(RRZE-HPC)kerncraft/kerncraft/likwid_bench_auto.py:117: error: Incompatible types in assignment (expression has type "Dict[str, str]", target has type "str")  [assignment]
+(RRZE-HPC)kerncraft/kerncraft/likwid_bench_auto.py:128: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(RRZE-HPC)kerncraft/kerncraft/likwid_bench_auto.py:132: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(RRZE-HPC)kerncraft/kerncraft/likwid_bench_auto.py:133: error: Incompatible types in assignment (expression has type "Dict[str, str]", target has type "str")  [assignment]
+Found 11 errors in 2 files (checked 13 source files)
+
+[RRepo](edio)randrctl
+
+[RRepo](viraja1)grammar-check
+(viraja1)grammar-check/download_lt.py:22: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+(viraja1)grammar-check/download_lt.py:22: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+(viraja1)grammar-check/download_lt.py:23: error: Name 'urljoin' already defined (possibly by an import)  [no-redef]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](azavea)raster-foundry
+
+[RRepo](USTB-LETTers)judger
+Success: no issues found in 5 source files
+
+[RRepo](bittremieux)ANN-SoLo
+
+[RRepo](UCL-INGI)INGInious
+(UCL-INGI)INGInious/inginious/common/message_meta.py:30: error: Need type annotation for '_registered_messages' (hint: "_registered_messages: Dict[<type>, <type>] = ...")  [var-annotated]
+(UCL-INGI)INGInious/inginious/common/custom_yaml.py:15: error: Incompatible import of "SafeLoader" (imported name has type "Type[SafeLoader]", local name has type "Type[CSafeLoader]")  [misc]
+(UCL-INGI)INGInious/inginious/common/custom_yaml.py:15: error: Incompatible import of "SafeDumper" (imported name has type "Type[SafeDumper]", local name has type "Type[CDumper]")  [misc]
+(UCL-INGI)INGInious/inginious/common/task_factory.py:24: error: Need type annotation for '_cache' (hint: "_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(UCL-INGI)INGInious/inginious/common/task_factory.py:25: error: Need type annotation for '_task_file_managers' (hint: "_task_file_managers: Dict[<type>, <type>] = ...")  [var-annotated]
+(UCL-INGI)INGInious/inginious/common/course_factory.py:25: error: Need type annotation for '_cache' (hint: "_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 6 errors in 4 files (checked 3 source files)
+
+[RRepo](douglasmiranda)django-fine-uploader
+(douglasmiranda)django-fine-uploader/setup.py:14: error: Name 'raw_input' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+

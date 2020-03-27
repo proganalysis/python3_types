@@ -1,0 +1,733 @@
+[RRepo](dahlia)wikidata
+
+[RRepo](ocadotechnology)aimmo
+Success: no issues found in 2 source files
+
+[RRepo](cjdrake)pyeda
+
+[RRepo](jlafon)PynamoDB
+Success: no issues found in 1 source file
+
+[RRepo](spambusters)instascrape
+
+[RRepo](adbpy)wire-protocol
+Success: no issues found in 1 source file
+
+[RRepo](MToyokura)GomiPy.accounting
+
+[RRepo](feluxe)very_hungry_pi
+(feluxe)very_hungry_pi/vhpi/constants.py:30: error: Name 'version' already defined on line 26  [no-redef]
+(feluxe)very_hungry_pi/vhpi/__init__.py:41: error: Argument 1 to "_ensure_dir" has incompatible type "None"; expected "str"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/__init__.py:44: error: Argument 1 to "isfile" has incompatible type "None"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:44: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:47: error: Missing return statement  [return]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:59: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:95: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:103: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:106: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:109: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:112: error: Name 'output' already defined on line 91  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:117: error: Missing return statement  [return]
+(feluxe)very_hungry_pi/vhpi/api/logging.py:128: error: Name 'due_jobs' already defined on line 117  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/snapshot.py:72: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(feluxe)very_hungry_pi/vhpi/api/snapshot.py:73: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(feluxe)very_hungry_pi/vhpi/api/snapshot.py:113: error: Incompatible types in assignment (expression has type "range", variable has type "List[int]")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/backup.py:59: error: Name 'excludes' already defined on line 43  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/backup.py:99: error: Name 'duration' already defined on line 78  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/job.py:38: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/job.py:39: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/job.py:75: error: Name 'timestamp' already defined on line 64  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/job.py:79: error: Name 'timestamp' already defined on line 64  [no-redef]
+(feluxe)very_hungry_pi/vhpi/api/job.py:80: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/job.py:80: error: Argument 1 to "mktime" has incompatible type "str"; expected "Union[Tuple[int, int, int, int, int, int, int, int, int], struct_time]"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/api/job.py:83: error: Unsupported operand types for - ("int" and "str")  [operator]
+(feluxe)very_hungry_pi/vhpi/api/job.py:140: error: Argument "snapshots" to "_get_due_snapshots" has incompatible type "Optional[Any]"; expected "Dict[Any, Any]"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/api/main.py:32: error: Incompatible types in assignment (expression has type "TextIO", variable has type "str")  [assignment]
+(feluxe)very_hungry_pi/vhpi/api/main.py:33: error: Argument 1 to "flock" has incompatible type "str"; expected "Union[int, IO[Any], IOBase]"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/api/main.py:67: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(feluxe)very_hungry_pi/vhpi/api/main.py:68: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(feluxe)very_hungry_pi/vhpi/cli/__init__.py:57: error: Argument 1 to "load_yaml" has incompatible type "None"; expected "str"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/cli/__init__.py:58: error: Argument 1 to "init" has incompatible type "None"; expected "str"  [arg-type]
+(feluxe)very_hungry_pi/vhpi/main.py:39: error: Argument 1 to "init" has incompatible type "None"; expected "str"  [arg-type]
+Found 33 errors in 9 files (checked 7 source files)
+
+[RRepo](ttssdev)appflow
+(ttssdev)appflow/appflow.py:25: error: Unsupported left operand type for + ("None")  [operator]
+(ttssdev)appflow/appflow.py:25: note: Left operand is of type "Optional[str]"
+(ttssdev)appflow/appflow.py:246: error: Argument 3 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(ttssdev)appflow/appflow.py:246: error: Argument 4 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(ttssdev)appflow/appflow.py:247: error: Argument 5 to "provision" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](skftn)waveDIM
+
+[RRepo](PyCQA)astroid
+(PyCQA)astroid/setup.py:27: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(PyCQA)astroid/astroid/_ast.py:9: error: Name '_ast_py3' already defined on line 7  [no-redef]
+(PyCQA)astroid/astroid/_ast.py:10: error: Name '_ast_py2' already defined on line 7  [no-redef]
+(PyCQA)astroid/astroid/_ast.py:48: error: Module has no attribute "parse"  [attr-defined]
+(PyCQA)astroid/astroid/interpreter/_import/util.py:6: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(PyCQA)astroid/astroid/interpreter/_import/spec.py:28: error: Name 'lru_cache' already defined (possibly by an import)  [no-redef]
+(PyCQA)astroid/astroid/interpreter/_import/spec.py:232: error: Incompatible types in assignment (expression has type "Tuple[Type[ImpFinder], Type[ZipFinder], Type[PathSpecFinder]]", variable has type "Tuple[Type[ImpFinder], Type[ZipFinder]]")  [assignment]
+(PyCQA)astroid/astroid/interpreter/_import/spec.py:233: error: Incompatible types in assignment (expression has type "Tuple[Type[ImpFinder], Type[ZipFinder], Type[ExplicitNamespacePackageFinder]]", variable has type "Tuple[Type[ImpFinder], Type[ZipFinder]]")  [assignment]
+(PyCQA)astroid/astroid/manager.py:25: error: Module 'astroid' has no attribute 'modutils'  [attr-defined]
+(PyCQA)astroid/astroid/manager.py:47: error: Need type annotation for 'brain' (hint: "brain: Dict[<type>, <type>] = ...")  [var-annotated]
+(PyCQA)astroid/astroid/__init__.py:66: error: Module 'astroid' has no attribute 'inference'; maybe "inference_tip"?  [attr-defined]
+Found 11 errors in 6 files (checked 14 source files)
+
+[RRepo](stefanlaheij)ha-buderus
+Success: no issues found in 3 source files
+
+[RRepo](DamourYouKnow)HAHA-NO-UR
+(DamourYouKnow)HAHA-NO-UR/data_controller/card_controller.py:39: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(DamourYouKnow)HAHA-NO-UR/data_controller/user_controller.py:90: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(DamourYouKnow)HAHA-NO-UR/main.py:11: error: Module 'bot' has no attribute 'HahaNoUR'  [attr-defined]
+(DamourYouKnow)HAHA-NO-UR/main.py:11: error: Module 'bot' has no attribute 'get_session_manager'  [attr-defined]
+Found 4 errors in 3 files (checked 2 source files)
+
+[RRepo](seekheart)coder_api
+(seekheart)coder_api/app.py:13: error: Module has no attribute "CoderEngine"  [attr-defined]
+(seekheart)coder_api/app.py:14: error: Module has no attribute "LanguageEngine"  [attr-defined]
+(seekheart)coder_api/app.py:28: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:50: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:94: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:116: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:144: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:198: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:221: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:251: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:268: error: Module has no attribute "authenticate"  [attr-defined]
+(seekheart)coder_api/app.py:287: error: Module has no attribute "authenticate"  [attr-defined]
+Found 12 errors in 1 file (checked 1 source file)
+
+[RRepo](flapjax)FlapJack-Cogs
+
+[RRepo](grimpunch)CardsAgainstOnline
+(grimpunch)CardsAgainstOnline/CardsAgainstGame/GameHandler.py:150: error: Incompatible return value type (got "None", expected "CAHPlayer")  [return-value]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](Drowrin)Weeabot
+
+[RRepo](varapp)varapp-backend-py
+
+[RRepo](sritterbusch)ospac
+(sritterbusch)ospac/create_tab_completion.py:255: error: "object" has no attribute "replace"  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:256: error: Unsupported operand types for + ("str" and "object")  [operator]
+(sritterbusch)ospac/create_tab_completion.py:261: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:263: error: Unsupported operand types for + ("str" and "object")  [operator]
+(sritterbusch)ospac/create_tab_completion.py:283: error: Value of type "object" is not indexable  [index]
+(sritterbusch)ospac/create_tab_completion.py:283: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(sritterbusch)ospac/create_tab_completion.py:306: error: Value of type "object" is not indexable  [index]
+(sritterbusch)ospac/create_tab_completion.py:306: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+Found 8 errors in 1 file (checked 1 source file)
+
+[RRepo](albertyw)git-reviewers
+
+[RRepo](DiCarloLab-Delft)PycQED_py3
+Success: no issues found in 1 source file
+
+[RRepo](thejoeejoee)VUT-FIT-IFJ-2017-toolkit
+Success: no issues found in 1 source file
+
+[RRepo](patrick-brian-mooney)LibidoMechanica
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:54: error: Need type annotation for 'ret' (hint: "ret: Set[<type>] = ...")  [var-annotated]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:60: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "FrozenSet[str]")  [assignment]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:63: error: Incompatible return value type (got "Set[Any]", expected "List[str]")  [return-value]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:76: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:76: error: Argument 1 to "contextmanager" has incompatible type "Callable[[], None]"; expected "Callable[..., Iterator[<nothing>]]"  [arg-type]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:199: error: Name 'strip_trailing_whitespace' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:201: error: Name 'strip_trailing_whitespace' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:205: error: Name 'decapitalize_line_beginnings' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:207: error: Name 'decapitalize_line_beginnings' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:212: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:214: error: Name 'no_dumb_quotes' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:221: error: Name 'no_dumb_quotes' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:225: error: Name 'two_newlines_at_end' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:226: error: "List[str]" has no attribute "endswith"  [attr-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:228: error: "List[str]" has no attribute "endswith"  [attr-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:230: error: Name 'two_newlines_at_end' is not defined  [name-defined]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:238: error: Argument 1 to "write" of "IO" has incompatible type "List[str]"; expected "str"  [arg-type]
+(patrick-brian-mooney)LibidoMechanica/check_corpus.py:244: error: Need type annotation for '_'  [var-annotated]
+Found 18 errors in 1 file (checked 1 source file)
+
+[RRepo](Dentosal)rust_os
+
+[RRepo](roguelike2d)TekkenBot
+(roguelike2d)TekkenBot/SoundPlayer.py:12: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/SoundPlayer.py:19: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/NotationParser.py:7: error: Need type annotation for 'commands' (hint: "commands: List[<type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:170: error: Value of type "object" is not indexable  [index]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:179: error: Incompatible types in assignment (expression has type "GameDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:183: error: Incompatible types in assignment (expression has type "PlayerDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/MemoryAddressEnum.py:190: error: Incompatible types in assignment (expression has type "EndBlockPlayerDataAddress", variable has type "MemoryAddressOffsets")  [assignment]
+(roguelike2d)TekkenBot/ConfigReader.py:10: error: Need type annotation for 'values' (hint: "values: Dict[<type>, <type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/CharacterData.py:15: error: Need type annotation for 'move_index' (hint: "move_index: Dict[<type>, <type>] = ...")  [var-annotated]
+(roguelike2d)TekkenBot/ArtificialKeyboard.py:9: error: Module has no attribute "windll"  [attr-defined]
+(roguelike2d)TekkenBot/PIDSearcher.py:3: error: Module has no attribute "WinDLL"  [attr-defined]
+(roguelike2d)TekkenBot/PIDSearcher.py:9: error: Module has no attribute "WinDLL"  [attr-defined]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:9: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_Overlay.py:18: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/BotData.py:38: error: "BotBehaviors" has no attribute "botCommands"  [attr-defined]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_TimelineOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunishCoachOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_MatchStatOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:7: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:17: error: Incompatible types in assignment (expression has type "int", base class "Enum" defined the type as "str")  [assignment]
+(roguelike2d)TekkenBot/GUI_FrameDataOverlay.py:30: error: Method must have at least one argument  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_DebugInfoOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_CommandInputOverlay.py:3: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/BotRecorder.py:2: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/BotPunisher.py:45: error: Argument 1 to "int" has incompatible type "Optional[Any]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(roguelike2d)TekkenBot/BotPunisher.py:50: error: Unsupported operand types for <= ("int" and "None")  [operator]
+(roguelike2d)TekkenBot/BotPunisher.py:50: note: Left operand is of type "Optional[int]"
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_PunisherBot.py:8: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_FrameTrapBot.py:8: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Button" (imported name has type "Type[tkinter.ttk.Button]", local name has type "Type[tkinter.Button]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Checkbutton" (imported name has type "Type[tkinter.ttk.Checkbutton]", local name has type "Type[tkinter.Checkbutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Entry" (imported name has type "Type[tkinter.ttk.Entry]", local name has type "Type[tkinter.Entry]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Frame" (imported name has type "Type[tkinter.ttk.Frame]", local name has type "Type[tkinter.Frame]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Label" (imported name has type "Type[tkinter.ttk.Label]", local name has type "Type[tkinter.Label]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Menubutton" (imported name has type "Type[tkinter.ttk.Menubutton]", local name has type "Type[tkinter.Menubutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "OptionMenu" (imported name has type "Type[tkinter.ttk.OptionMenu]", local name has type "Type[tkinter.OptionMenu]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Radiobutton" (imported name has type "Type[tkinter.ttk.Radiobutton]", local name has type "Type[tkinter.Radiobutton]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Scale" (imported name has type "Type[tkinter.ttk.Scale]", local name has type "Type[tkinter.Scale]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Scrollbar" (imported name has type "Type[tkinter.ttk.Scrollbar]", local name has type "Type[tkinter.Scrollbar]")  [misc]
+(roguelike2d)TekkenBot/GUI_TekkenBotPrime.py:2: error: Incompatible import of "Widget" (imported name has type "Type[tkinter.ttk.Widget]", local name has type "Type[tkinter.Widget]")  [misc]
+Found 139 errors in 20 files (checked 32 source files)
+
+[RRepo](websauna)pyramid_sms
+(websauna)pyramid_sms/travis_pypi_setup.py:19: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](yktoo)indicator-sound-switcher
+Success: no issues found in 1 source file
+
+[RRepo](release-monitoring)anitya
+(release-monitoring)anitya/request_oidc_credentials.py:14: error: Name 'HTTPServer' already defined (possibly by an import)  [no-redef]
+(release-monitoring)anitya/request_oidc_credentials.py:14: error: Name 'BaseHTTPRequestHandler' already defined (possibly by an import)  [no-redef]
+(release-monitoring)anitya/request_oidc_credentials.py:15: error: Name 'urlparse' already defined (possibly by an import)  [no-redef]
+(release-monitoring)anitya/request_oidc_credentials.py:15: error: Name 'parse_qs' already defined (possibly by an import)  [no-redef]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](deepfabric)elasticell
+
+[RRepo](meraki-analytics)cassiopeia
+
+[RRepo](scivision)raspberrypi_raw_camera
+(scivision)raspberrypi_raw_camera/getrawimage.py:17: error: Module 'pibayer' has no attribute 'bayerseq'  [attr-defined]
+(scivision)raspberrypi_raw_camera/getrawimage.py:17: error: Module 'pibayer' has no attribute 'writeframes'  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](mesosphere)marathon
+
+[RRepo](coala)corobo
+
+[RRepo](finaldie)skull
+
+[RRepo](Andrew-Shay)Neuron
+(Andrew-Shay)Neuron/neuron/__init__.py:24: error: Argument 1 to "startswith" of "str" has incompatible type "Optional[str]"; expected "Union[str, Tuple[str, ...]]"  [arg-type]
+(Andrew-Shay)Neuron/neuron/__init__.py:80: error: Argument "delay" to "RotatingFileHandler" has incompatible type "int"; expected "bool"  [arg-type]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](gengo)memsource-wrap
+(gengo)memsource-wrap/setup.py:17: error: Module has no attribute "__version__"  [attr-defined]
+(gengo)memsource-wrap/setup.py:19: error: Module has no attribute "__license__"  [attr-defined]
+(gengo)memsource-wrap/setup.py:20: error: Module has no attribute "__author__"  [attr-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](inetprocess)docker-lamp
+Success: no issues found in 1 source file
+
+[RRepo](nanobox-io)nanobox-adapter-libcloud
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/ovh.py:49: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/ovh.py:50: error: Need type annotation for '_pricing' (hint: "_pricing: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/gce.py:50: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/vultr.py:43: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/scaleway.py:45: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/__init__.py:30: error: Cannot assign to a method  [assignment]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/azure_arm.py:70: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/azure.py:57: error: Need type annotation for '_sizes' (hint: "_sizes: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 8 errors in 7 files (checked 16 source files)
+
+[RRepo](bcj)vectorvondoom
+
+[RRepo](obestwalter)i3configger
+Success: no issues found in 2 source files
+
+[RRepo](zdict)zdict
+Success: no issues found in 1 source file
+
+[RRepo](marrow)package
+
+[RRepo](demarlik01)szcal
+(demarlik01)szcal/parse_cj.py:4: error: Module 'zipcode' has no attribute 'path'  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:26: error: "str" has no attribute "read"  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:31: error: "str" has no attribute "namelist"  [attr-defined]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:46: error: Cannot find replacement for named format specifier "bad_file"  [str-format]
+(demarlik01)szcal/zipcode/fetch_zipcode.py:46: error: Not all arguments converted during string formatting  [str-format]
+(demarlik01)szcal/manage.py:7: error: Module 'zipcode' has no attribute 'path'  [attr-defined]
+Found 6 errors in 3 files (checked 4 source files)
+
+[RRepo](johnjohnlin)nicotb
+(johnjohnlin)nicotb/lib/primitives.py:116: error: Too many arguments  [misc]
+(johnjohnlin)nicotb/lib/primitives.py:120: error: Too many arguments  [misc]
+(johnjohnlin)nicotb/lib/event.py:20: error: Need type annotation for 'event_released' (hint: "event_released: Set[<type>] = ...")  [var-annotated]
+(johnjohnlin)nicotb/lib/event.py:21: error: Need type annotation for 'waiting_coro' (hint: "waiting_coro: List[<type>] = ...")  [var-annotated]
+(johnjohnlin)nicotb/lib/event.py:22: error: Need type annotation for 'event_queue'  [var-annotated]
+(johnjohnlin)nicotb/lib/event.py:30: error: Name 'COSIM' is not defined  [name-defined]
+(johnjohnlin)nicotb/lib/event.py:31: error: Name 'BindEvent' is not defined  [name-defined]
+(johnjohnlin)nicotb/lib/event.py:31: error: Name 'TOP_PREFIX' is not defined  [name-defined]
+(johnjohnlin)nicotb/lib/bus.py:22: error: Need type annotation for 'buses' (hint: "buses: List[<type>] = ...")  [var-annotated]
+(johnjohnlin)nicotb/lib/bus.py:115: error: Need type annotation for '_write_pend' (hint: "_write_pend: Set[<type>] = ...")  [var-annotated]
+(johnjohnlin)nicotb/lib/utils.py:37: error: Need type annotation for 'scoreboards' (hint: "scoreboards: List[<type>] = ...")  [var-annotated]
+Found 11 errors in 4 files (checked 5 source files)
+
+[RRepo](Yotamho)pcap-grapher
+(Yotamho)pcap-grapher/flow.py:12: error: Need type annotation for 'packets' (hint: "packets: List[<type>] = ...")  [var-annotated]
+(Yotamho)pcap-grapher/flow.py:13: error: Need type annotation for 'protocols'  [var-annotated]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](Jigsaw-Code)net-analysis
+
+[RRepo](fabric8-analytics)fabric8-analytics-worker
+Success: no issues found in 1 source file
+
+[RRepo](plotly)plotly.py
+Success: no issues found in 1 source file
+
+[RRepo](netsec-ethz)scion
+
+[RRepo](cpearce)armpy
+Success: no issues found in 11 source files
+
+[RRepo](mikeckennedy)python-jumpstart-course-demos
+
+[RRepo](laufhannes)GpxTrackPoster
+(laufhannes)GpxTrackPoster/gpxtrackposter/utils.py:84: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:65: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:66: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:67: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:68: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:69: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:70: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py:76: error: "Track" has no attribute "year"  [attr-defined]
+(laufhannes)GpxTrackPoster/gpxtrackposter/circular_drawer.py:60: error: 'None' object is not iterable  [misc]
+(laufhannes)GpxTrackPoster/gpxtrackposter/circular_drawer.py:129: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(laufhannes)GpxTrackPoster/gpxtrackposter/circular_drawer.py:155: error: Argument 3 to "color" of "TracksDrawer" has incompatible type "List[Track]"; expected "bool"  [arg-type]
+(laufhannes)GpxTrackPoster/gpxtrackposter/calendar_drawer.py:24: error: 'None' object is not iterable  [misc]
+(laufhannes)GpxTrackPoster/gpxtrackposter/calendar_drawer.py:80: error: Argument 3 to "color" of "TracksDrawer" has incompatible type "List[Any]"; expected "bool"  [arg-type]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:27: error: 'None' object is not iterable  [misc]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:28: error: Unsupported operand types for * ("None" and "int")  [operator]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:28: note: Both left and right operands are unions
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:29: error: Unsupported operand types for * ("None" and "int")  [operator]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:29: note: Both left and right operands are unions
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:30: error: Unsupported operand types for * ("int" and "None")  [operator]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:30: note: Both left and right operands are unions
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:31: error: Unsupported operand types for * ("int" and "None")  [operator]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:31: note: Both left and right operands are unions
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:33: error: Unsupported operand types for + ("None" and "float")  [operator]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:33: note: Left operand is of type "Optional[float]"
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:35: error: Argument 1 to "XY" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:35: error: Argument 2 to "XY" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:36: error: Argument 1 to "XY" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+(laufhannes)GpxTrackPoster/gpxtrackposter/grid_drawer.py:36: error: Argument 2 to "XY" has incompatible type "Optional[float]"; expected "float"  [arg-type]
+Found 23 errors in 5 files (checked 1 source file)
+
+[RRepo](Lattyware)unrpa
+Success: no issues found in 4 source files
+
+[RRepo](dalemyers)xcrun
+Success: no issues found in 7 source files
+
+[RRepo](joequant)ethercalc-python
+(joequant)ethercalc-python/ethercalc/__init__.py:45: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(joequant)ethercalc-python/ethercalc/__init__.py:52: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(joequant)ethercalc-python/ethercalc/__init__.py:168: error: Name 'Ethercalc' is not defined  [name-defined]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](ProjectSky)FrackinUniverse-sChinese-Project
+
+[RRepo](bosondata)badwolf
+(bosondata)badwolf/badwolf/utils.py:8: error: Name 're' already defined (possibly by an import)  [no-redef]
+(bosondata)badwolf/badwolf/bitbucket.py:265: error: Not all arguments converted during string formatting  [str-format]
+(bosondata)badwolf/badwolf/spec.py:11: error: Incompatible import of "_Loader" (imported name has type "Type[Loader]", local name has type "Type[CLoader]")  [misc]
+(bosondata)badwolf/badwolf/tasks.py:9: error: Name 're' already defined (possibly by an import)  [no-redef]
+(bosondata)badwolf/badwolf/webhook/views.py:18: error: Need type annotation for '_RUNNING_PIPELINES' (hint: "_RUNNING_PIPELINES: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 5 errors in 5 files (checked 37 source files)
+
+[RRepo](telota)rasmipy
+(telota)rasmipy/rasmipy/__init__.py:31: error: Value expression in dictionary comprehension has incompatible type "None"; expected type "str"  [misc]
+(telota)rasmipy/rasmipy/__init__.py:46: error: Invalid index type "int" for "Dict[str, str]"; expected type "str"  [index]
+(telota)rasmipy/rasmipy/__init__.py:46: error: Incompatible types in assignment (expression has type "None", target has type "str")  [assignment]
+(telota)rasmipy/rasmipy/__init__.py:49: error: Incompatible types in assignment (expression has type "Dict[int, str]", variable has type "Dict[str, str]")  [assignment]
+(telota)rasmipy/rasmipy/__init__.py:54: error: Argument 1 to "translate" of "str" has incompatible type "Dict[str, str]"; expected "Union[Mapping[int, Union[int, str, None]], Sequence[Union[int, str, None]]]"  [arg-type]
+(telota)rasmipy/rasmipy/rest_service.py:37: error: Variable "rasmipy.rest_service.get_text_type" is not valid as a type  [valid-type]
+Found 6 errors in 2 files (checked 2 source files)
+
+[RRepo](chainside)btcpy
+
+[RRepo](theislab)scanpy
+Success: no issues found in 1 source file
+
+[RRepo](lupoDharkael)flameshot
+
+[RRepo](mushorg)conpot
+
+[RRepo](jamalmoir)ml_demo
+
+[RRepo](kitelightning)UnrealEnginePython
+(kitelightning)UnrealEnginePython/run_tests.py:17: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+(kitelightning)UnrealEnginePython/run_tests.py:18: error: Incompatible types in assignment (expression has type "UnrealEngineOutput", variable has type "TextIO")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](klaxer)klaxer
+
+[RRepo](allenai)allennlp
+
+[RRepo](bradysalz)DCI-Scores-Bot-v2
+(bradysalz)DCI-Scores-Bot-v2/src/web_bot.py:89: error: "None" has no attribute "subreddit"  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](ApproxEng)approxeng.input
+
+[RRepo](fieldOfView)OctoPrintPlugin
+
+[RRepo](janpipek)physt
+(janpipek)physt/physt/plotting/ascii.py:40: error: Name 'Histogram2D' is not defined  [name-defined]
+(janpipek)physt/physt/plotting/ascii.py:71: error: Incompatible types in assignment (expression has type "str", variable has type "List[Any]")  [assignment]
+(janpipek)physt/physt/plotting/ascii.py:83: error: Incompatible types in assignment (expression has type "str", variable has type "List[Any]")  [assignment]
+(janpipek)physt/physt/plotting/ascii.py:88: error: Incompatible types in assignment (expression has type "Tuple[str, str]", variable has type "Tuple[str]")  [assignment]
+(janpipek)physt/physt/plotting/common.py:70: error: Incompatible return value type (got "Union[Callable[..., Any], str]", expected "Callable[[float], str]")  [return-value]
+(janpipek)physt/physt/plotting/common.py:112: error: Missing return statement  [return]
+(janpipek)physt/physt/plotting/common.py:151: error: Unsupported operand types for / ("Tuple[int, int, int, int, int, int, int]" and "float")  [operator]
+(janpipek)physt/physt/histogram_collection.py:78: error: Incompatible return value type (got "Tuple[Optional[str]]", expected "Tuple[str]")  [return-value]
+(janpipek)physt/physt/histogram_collection.py:131: error: Name 'physt' is not defined  [name-defined]
+(janpipek)physt/physt/plotting/__init__.py:107: error: Module 'physt.plotting' has no attribute 'matplotlib'  [attr-defined]
+(janpipek)physt/physt/plotting/__init__.py:113: error: Module 'physt.plotting' has no attribute 'vega'  [attr-defined]
+(janpipek)physt/physt/plotting/__init__.py:136: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(janpipek)physt/physt/plotting/__init__.py:177: error: Item "str" of "Optional[str]" has no attribute "types"  [union-attr]
+(janpipek)physt/physt/plotting/__init__.py:177: error: Item "None" of "Optional[str]" has no attribute "types"  [union-attr]
+(janpipek)physt/physt/plotting/__init__.py:177: error: Item "str" of "Optional[str]" has no attribute "dims"  [union-attr]
+(janpipek)physt/physt/plotting/__init__.py:177: error: Item "None" of "Optional[str]" has no attribute "dims"  [union-attr]
+(janpipek)physt/physt/plotting/__init__.py:182: error: Item "str" of "Optional[str]" has no attribute "types"  [union-attr]
+(janpipek)physt/physt/plotting/__init__.py:182: error: Item "None" of "Optional[str]" has no attribute "types"  [union-attr]
+(janpipek)physt/physt/plotting/plotly.py:21: error: Module 'physt.plotting' has no attribute 'matplotlib'  [attr-defined]
+(janpipek)physt/physt/io/__init__.py:48: error: Incompatible types in assignment (expression has type "type", variable has type "Type[HistogramCollection]")  [assignment]
+(janpipek)physt/physt/io/__init__.py:48: note: "type.__call__" has type "Callable[[VarArg(Any), KwArg(Any)], Any]"
+(janpipek)physt/physt/examples/__init__.py:76: error: Argument 1 to "BytesIO" has incompatible type "Optional[bytes]"; expected "bytes"  [arg-type]
+Found 21 errors in 7 files (checked 14 source files)
+
+[RRepo](4Kaylum)Spar.cli
+Success: no issues found in 1 source file
+
+[RRepo](google)in-silico-labeling
+
+[RRepo](libnano)libnano
+(libnano)libnano/libnano/fileio/util.py:10: error: Invalid type comment or annotation  [valid-type]
+(libnano)libnano/libnano/fileio/util.py:10: note: Suggestion: use Union[...] instead of Union(...)
+(libnano)libnano/libnano/fileio/util.py:21: error: Incompatible types in assignment (expression has type "bytes", variable has type "Optional[mmap]")  [assignment]
+(libnano)libnano/libnano/fileio/gbtofasta.py:16: error: Name 'gb_reader' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gbtofasta.py:16: error: Name 'seq_fp' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gbtofasta.py:17: error: Incompatible types in assignment (expression has type "str", variable has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/naformat.py:22: error: Name 'NEWLINE_STR' already defined on line 19  [no-redef]
+(libnano)libnano/libnano/fileio/naformat.py:50: error: Incompatible types in assignment (expression has type "Dict[int, Optional[int]]", variable has type "Dict[int, int]")  [assignment]
+(libnano)libnano/libnano/fileio/naformat.py:137: error: Name 'lim_hi' already defined on line 135  [no-redef]
+(libnano)libnano/libnano/fileio/naformat.py:174: error: Name 'out_rev' already defined on line 167  [no-redef]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:9: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:57: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:86: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:90: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:95: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:100: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:107: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:113: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:118: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:128: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:134: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:149: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:151: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:153: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:161: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:169: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:174: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:179: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:205: error: Argument 1 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:205: error: Argument 2 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:212: error: Argument 1 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:212: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:225: error: Argument 1 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:225: error: Argument 2 to "multiline" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:232: error: Argument 1 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:232: error: Argument 2 to "multiline_spaces" has incompatible type "bytes"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/gb_writer_b.py:237: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:5: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:53: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:79: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:88: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:93: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:101: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:107: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:112: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:128: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:155: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:173: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_writer.py:231: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/helpers/jsonbytes.py:23: error: Argument 1 to "base_decode_list" has incompatible type "Union[Tuple[Any, ...], List[Any]]"; expected "List[Any]"  [arg-type]
+(libnano)libnano/libnano/helpers/jsonbytes.py:65: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/setup.py:65: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(libnano)libnano/setup.py:85: error: Need type annotation for 'libnano_files' (hint: "libnano_files: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/setup.py:88: error: Need type annotation for 'normal_extensions' (hint: "normal_extensions: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/util.py:147: error: Missing return statement  [return]
+(libnano)libnano/libnano/util.py:184: error: Need type annotation for 'base_list' (hint: "base_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/util.py:186: error: Unsupported operand types for * ("List[str]" and "float")  [operator]
+(libnano)libnano/libnano/util.py:189: error: Missing return statement  [return]
+(libnano)libnano/libnano/fileio/xmfa.py:17: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/xmfa.py:23: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/xmfa.py:25: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:30: error: Need type annotation for 'd'  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:50: error: Incompatible types in assignment (expression has type "List[Dict[Any, Any]]", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:51: error: Incompatible types in assignment (expression has type "bytes", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:144: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:147: error: Item "None" of "Optional[Match[Any]]" has no attribute "groupdict"  [union-attr]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:153: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:168: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:178: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:189: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:199: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:209: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:219: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:263: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:280: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:282: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:284: error: Incompatible types in assignment (expression has type "None", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:286: error: Incompatible types in assignment (expression has type "int", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:288: error: Incompatible types in assignment (expression has type "None", target has type "bytes")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:317: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader_b.py:379: error: Need type annotation for 'out_list' (hint: "out_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader.py:21: error: Need type annotation for 'd'  [var-annotated]
+(libnano)libnano/libnano/fileio/gb_reader.py:40: error: Incompatible types in assignment (expression has type "List[Dict[Any, Any]]", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:41: error: Incompatible types in assignment (expression has type "str", target has type "Dict[Any, Any]")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:139: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:141: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:143: error: Incompatible default for argument "isbytes" (default has type "bool", argument has type "str")  [assignment]
+(libnano)libnano/libnano/fileio/gb_reader.py:145: error: Item "None" of "Optional[Match[Any]]" has no attribute "groupdict"  [union-attr]
+(libnano)libnano/libnano/fileio/gb_reader.py:210: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:255: error: Name '_sre' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/gb_reader.py:361: error: Need type annotation for 'out_list' (hint: "out_list: List[<type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/fileio/fasta.py:70: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:95: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:102: error: Argument 4 to "sanitizeRecSeq" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/fileio/fasta.py:134: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/fileio/fasta.py:146: error: Name '_io' is not defined  [name-defined]
+(libnano)libnano/libnano/padlock.py:197: error: "object" has no attribute "append"  [attr-defined]
+(libnano)libnano/libnano/padlock.py:303: error: Incompatible types in assignment (expression has type "Union[Any, object]", variable has type "int")  [assignment]
+(libnano)libnano/libnano/padlock.py:304: error: Incompatible types in assignment (expression has type "Union[Any, object]", variable has type "int")  [assignment]
+(libnano)libnano/libnano/padlock.py:306: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(libnano)libnano/libnano/padlock.py:356: error: Too many arguments for "PadHit"  [call-arg]
+(libnano)libnano/libnano/padlock.py:362: error: Argument 6 to "PadHit" has incompatible type "int"; expected "str"  [arg-type]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:139: error: Missing return statement  [return]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:155: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:162: error: Need type annotation for 'freq_dict' (hint: "freq_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:190: error: Argument 1 to "__iadd__" of "list" has incompatible type "List[Tuple[str, str, int]]"; expected "Iterable[List[Tuple[str, str, int]]]"  [arg-type]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:193: error: Argument 1 to "getOrganismFrequencies" has incompatible type "Tuple[str, str, int]"; expected "int"  [arg-type]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:194: error: Argument 2 to "getOrganismFrequencies" has incompatible type "Tuple[str, str, int]"; expected "str"  [arg-type]
+(libnano)libnano/libnano/datasets/build_codon_freq_dataset.py:196: error: Argument 2 to "dump" has incompatible type "BinaryIO"; expected "IO[str]"  [arg-type]
+(libnano)libnano/libnano/datasets/__init__.py:42: error: Missing return statement  [return]
+(libnano)libnano/libnano/datasets/__init__.py:46: error: Module has no attribute "load"  [attr-defined]
+(libnano)libnano/libnano/datasets/__init__.py:79: error: Module has no attribute "load"  [attr-defined]
+Found 111 errors in 15 files (checked 18 source files)
+
+[RRepo](silver-castle)mach9
+
+[RRepo](AutoGentoo)AutoGentoo
+
+[RRepo](vaniakosmos)memes-reposter
+
+[RRepo](capergroup)bayou
+
+[RRepo](yktoo)indicator-docker
+Success: no issues found in 1 source file
+
+[RRepo](linnarsson-lab)loompy
+
+[RRepo](juliakreutzer)bandit-neuralmonkey
+
+[RRepo](MashiMaroLjc)ML-and-DM-in-action
+
+[RRepo](liushilive)HTMLReport
+
+[RRepo](WiseDoge)plume
+
+[RRepo](Maselkov)Maselkov-Cogs
+
+[RRepo](bjornaa)ladim
+
+[RRepo](dgelessus)python-rsrcfork
+
+[RRepo](qgis)QGIS
+Success: no issues found in 9 source files
+
+[RRepo](funtoo)funtoo-overlay
+
+[RRepo](KrazySoft)Krazy-Cogs
+
+[RRepo](xlevus)python-diana
+Success: no issues found in 1 source file
+
+[RRepo](netquity)err-github-merger
+(netquity)err-github-merger/merge.py:51: error: Incompatible return value type (got "Dict[str, Collection[str]]", expected "str")  [return-value]
+(netquity)err-github-merger/merge.py:62: error: Name 'typing' is not defined  [name-defined]
+(netquity)err-github-merger/merge.py:66: error: "str" has no attribute "copy"  [attr-defined]
+(netquity)err-github-merger/merge.py:86: error: Name 'errbot' is not defined  [name-defined]
+Found 4 errors in 1 file (checked 1 source file)
+
+[RRepo](Aalto-LeTech)a-plus
+Success: no issues found in 1 source file
+
+[RRepo](AnderssonPeter)pytrafikverket
+
+[RRepo](choderalab)perses
+(choderalab)perses/basesetup.py:15: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(choderalab)perses/setup.py:66: error: Need type annotation for 'extensions' (hint: "extensions: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 3 source files)
+
+[RRepo](jamesliu)mxnet
+
+[RRepo](onyb)reobject
+
+[RRepo](jelford)activesoup
+Success: no issues found in 1 source file
+
+[RRepo](jcarbaugh)butterfield
+
+[RRepo](ninja-ide)ninja-ide
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/__init__.py:18: error: Need type annotation for 'NOTIFICATIONS_CHECKERS' (hint: "NOTIFICATIONS_CHECKERS: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/core/template_registry/ntemplate_registry.py:88: error: Need type annotation for 'encoding_string' (hint: "encoding_string: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/core/template_registry/ntemplate_registry.py:89: error: Need type annotation for 'single_line_comment' (hint: "single_line_comment: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/gui/ntoolbar.py:27: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/notification.py:25: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/dynamic_splitter.py:23: error: Module 'ninja_ide.gui.main_panel' has no attribute 'combo_editor'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/main_panel/marks.py:6: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/resources.py:45: error: "str" has no attribute "decode"; maybe "encode"?  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/resources.py:115: error: Need type annotation for 'COLOR_SCHEME' (hint: "COLOR_SCHEME: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/resources.py:116: error: Need type annotation for 'CUSTOM_SCHEME' (hint: "CUSTOM_SCHEME: Dict[<type>, <type>] = ...")  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/gui/menus/menubar.py:10: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/intellisensei/python_intellisense.py:27: error: Module 'ninja_ide.intellisensei' has no attribute 'jedi'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/tools_dock/console_widget.py:31: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/pep8_checker.py:25: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/pep8_checker.py:29: error: Module 'ninja_ide.dependencies' has no attribute 'pycodestyle'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/errors_checker.py:31: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/explorer_container.py:30: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/explorer_container.py:50: error: Need type annotation for '__TABS'  [var-annotated]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/errors_lists.py:35: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/errors_lists.py:36: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/editor/checkers/errors_lists.py:162: error: Incompatible types in assignment (expression has type "None", variable has type "ErrorsWidget")  [assignment]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/tabs/bookmark_manager.py:39: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/tabs/bookmark_manager.py:42: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/tabs/tree_symbols_widget.py:36: error: Module 'ninja_ide' has no attribute 'translations'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/tabs/tree_symbols_widget.py:40: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/explorer/tabs/tree_symbols_widget.py:363: error: Incompatible types in assignment (expression has type "None", variable has type "TreeSymbolsWidget")  [assignment]
+(ninja-ide)ninja-ide/ninja_ide/gui/central_widget.py:27: error: Module 'ninja_ide.gui' has no attribute 'actions'  [attr-defined]
+(ninja-ide)ninja-ide/ninja_ide/gui/central_widget.py:30: error: Module 'ninja_ide.tools' has no attribute 'ui_tools'  [attr-defined]
+Found 28 errors in 17 files (checked 10 source files)
+

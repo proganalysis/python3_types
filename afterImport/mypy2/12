@@ -1,0 +1,1070 @@
+[RRepo](sics-sse)moped
+
+[RRepo](JuliusKunze)thalnet
+(JuliusKunze)thalnet/model.py:133: error: Unsupported operand types for + ("None" and "int")  [operator]
+(JuliusKunze)thalnet/model.py:133: note: Left operand is of type "Optional[int]"
+(JuliusKunze)thalnet/main.py:46: error: Cannot determine type of 'data'  [has-type]
+(JuliusKunze)thalnet/main.py:46: error: Cannot determine type of 'target'  [has-type]
+(JuliusKunze)thalnet/main.py:46: error: Cannot determine type of 'dropout'  [has-type]
+(JuliusKunze)thalnet/main.py:47: error: Cannot determine type of 'data'  [has-type]
+(JuliusKunze)thalnet/main.py:47: error: Cannot determine type of 'target'  [has-type]
+(JuliusKunze)thalnet/main.py:47: error: Cannot determine type of 'dropout'  [has-type]
+(JuliusKunze)thalnet/main.py:48: error: Cannot determine type of 'data'  [has-type]
+(JuliusKunze)thalnet/main.py:48: error: Cannot determine type of 'target'  [has-type]
+(JuliusKunze)thalnet/main.py:48: error: Cannot determine type of 'dropout'  [has-type]
+(JuliusKunze)thalnet/main.py:59: error: Incompatible types in assignment (expression has type "Classifier", variable has type "Callable[[], Classifier]")  [assignment]
+(JuliusKunze)thalnet/main.py:61: error: "Callable[[], Classifier]" has no attribute "num_parameters"  [attr-defined]
+(JuliusKunze)thalnet/main.py:62: error: "Callable[[], Classifier]" has no attribute "num_parameters"  [attr-defined]
+(JuliusKunze)thalnet/main.py:72: error: "Callable[[], Classifier]" has no attribute "optimize"  [attr-defined]
+(JuliusKunze)thalnet/main.py:72: error: "Callable[[], Classifier]" has no attribute "cross_entropy"  [attr-defined]
+(JuliusKunze)thalnet/main.py:72: error: "Callable[[], Classifier]" has no attribute "accuracy"  [attr-defined]
+(JuliusKunze)thalnet/main.py:72: error: "Callable[[], Classifier]" has no attribute "train_summary"  [attr-defined]
+(JuliusKunze)thalnet/main.py:79: error: "Callable[[], Classifier]" has no attribute "cross_entropy"  [attr-defined]
+(JuliusKunze)thalnet/main.py:79: error: "Callable[[], Classifier]" has no attribute "accuracy"  [attr-defined]
+(JuliusKunze)thalnet/main.py:79: error: "Callable[[], Classifier]" has no attribute "test_summary"  [attr-defined]
+(JuliusKunze)thalnet/main.py:82: error: "Callable[[], Classifier]" has no attribute "weights_summary"  [attr-defined]
+Found 21 errors in 2 files (checked 4 source files)
+
+[RRepo](scipag)btle-sniffer
+
+[RRepo](SunDwarf)Kyoukai
+(SunDwarf)Kyoukai/kyoukai/wsgi.py:91: error: Need type annotation for 'environ'  [var-annotated]
+(SunDwarf)Kyoukai/kyoukai/util.py:69: error: Argument "cls" to "dumps" has incompatible type "Optional[JSONEncoder]"; expected "Optional[Type[JSONEncoder]]"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/util.py:74: error: Incompatible default for argument "response_class" (default has type "Type[Response]", argument has type "Response")  [assignment]
+(SunDwarf)Kyoukai/kyoukai/util.py:84: error: Unexpected keyword argument "status" for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/util.py:90: error: Unexpected keyword argument "status" for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/util.py:94: error: Unexpected keyword argument "status" for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/util.py:98: error: Unexpected keyword argument "status" for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/util.py:98: error: Unexpected keyword argument "headers" for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/util.py:102: error: Argument 2 to "isinstance" has incompatible type "Response"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/util.py:107: error: Too few arguments for "__call__"  [call-arg]
+(SunDwarf)Kyoukai/kyoukai/testing.py:117: error: Incompatible types in assignment (expression has type "BytesIO", variable has type "Optional[str]")  [assignment]
+(SunDwarf)Kyoukai/kyoukai/testing.py:119: error: Argument 1 to "to_wsgi_environment" has incompatible type "Dict[Any, Any]"; expected "List[Any]"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/testing.py:119: error: Argument "body" to "to_wsgi_environment" has incompatible type "Optional[str]"; expected "Optional[BytesIO]"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/route.py:50: error: Name 'Blueprint' is not defined  [name-defined]
+(SunDwarf)Kyoukai/kyoukai/route.py:53: error: Need type annotation for 'routes' (hint: "routes: List[<type>] = ...")  [var-annotated]
+(SunDwarf)Kyoukai/kyoukai/route.py:63: error: Need type annotation for 'hooks' (hint: "hooks: Dict[<type>, <type>] = ...")  [var-annotated]
+(SunDwarf)Kyoukai/kyoukai/route.py:184: error: Argument 1 to "len" has incompatible type "Optional[Dict[Any, Any]]"; expected "Sized"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/route.py:186: error: Argument 1 to "len" has incompatible type "Optional[Dict[Any, Any]]"; expected "Sized"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/route.py:201: error: Unsupported right operand type for in ("Optional[Dict[Any, Any]]")  [operator]
+(SunDwarf)Kyoukai/kyoukai/route.py:206: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(SunDwarf)Kyoukai/kyoukai/route.py:273: error: Argument 1 to "check_route_args" of "Route" has incompatible type "Container[Any]"; expected "Optional[Dict[Any, Any]]"  [arg-type]
+(SunDwarf)Kyoukai/kyoukai/route.py:275: error: "Container[Any]" has no attribute "values"  [attr-defined]
+(SunDwarf)Kyoukai/kyoukai/asphalt.py:140: error: Module has no attribute "PROTOCOL_CLASS"  [attr-defined]
+(SunDwarf)Kyoukai/kyoukai/asphalt.py:245: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(SunDwarf)Kyoukai/kyoukai/asphalt.py:248: error: Incompatible types in assignment (expression has type "None", variable has type "Route")  [assignment]
+(SunDwarf)Kyoukai/kyoukai/asphalt.py:254: error: Incompatible types in assignment (expression has type "None", variable has type "Rule")  [assignment]
+(SunDwarf)Kyoukai/kyoukai/asphalt.py:268: error: "None" has no attribute "url_for"  [attr-defined]
+(SunDwarf)Kyoukai/kyoukai/__init__.py:36: error: Incompatible types in assignment (expression has type "Callable[[FormDataParser, Any, Any, Any, Any], Any]", target has type "Callable[[IO[bytes], str, Optional[int], Mapping[str, str]], Tuple[IO[bytes], Any, Any]]")  [assignment]
+Found 28 errors in 6 files (checked 9 source files)
+
+[RRepo](gokudomatic)cobiv
+
+[RRepo](OParl)validator
+
+[RRepo](aaronst)macholibre
+Success: no issues found in 1 source file
+
+[RRepo](google)tink
+
+[RRepo](claws)dump1090-exporter
+Success: no issues found in 1 source file
+
+[RRepo](nint8835)SchoolTracker
+
+[RRepo](alecthomas)flask_injector
+(alecthomas)flask_injector/flask_injector_tests.py:40: error: Too many arguments for "__init__" of "object"  [call-arg]
+(alecthomas)flask_injector/example.py:29: error: Variable "example.Base" is not valid as a type  [valid-type]
+(alecthomas)flask_injector/example.py:29: error: Invalid base class "Base"  [misc]
+Found 3 errors in 2 files (checked 3 source files)
+
+[RRepo](nmdp-bioinformatics)service-act
+Success: no issues found in 1 source file
+
+[RRepo](bukson)steampy
+
+[RRepo](alephobjects)Cura2
+(alephobjects)Cura2/cura_app.py:48: error: Argument 1 to "CDLL" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](Cmoen11)BuffBot
+
+[RRepo](nohupped)ADtoLDAP
+
+[RRepo](Solcast)howto-pandas
+
+[RRepo](marekjm)issue
+
+[RRepo](GoVanguard)check-user-pwned-dradis
+(GoVanguard)check-user-pwned-dradis/haveIBeenPwndDradis.py:61: error: Argument 2 to "createNode" of "HaveIBeenPwndDradis" has incompatible type "str"; expected "int"  [arg-type]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](gabll)some-like-it-hoax
+
+[RRepo](will7200)Yugioh-bot
+(will7200)Yugioh-bot/bot/utils/common.py:13: error: Incompatible types in assignment (expression has type "Callable[[Dict[_KT, _VT], _KT, _VT], None]", base class "object" defined the type as "Callable[[object, str, Any], None]")  [assignment]
+(will7200)Yugioh-bot/bot/utils/common.py:14: error: Incompatible types in assignment (expression has type "Callable[[Dict[_KT, _VT], _KT], None]", base class "object" defined the type as "Callable[[object, str], None]")  [assignment]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:11: error: Need type annotation for '_args' (hint: "_args: List[<type>] = ...")  [var-annotated]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:12: error: Need type annotation for '_kwargs' (hint: "_kwargs: Dict[<type>, <type>] = ...")  [var-annotated]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:65: error: Name 'x' already defined on line 45  [no-redef]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:65: error: "Callable[[DuelLinksInfo], Any]" has no attribute "setter"  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:69: error: Name 'y' already defined on line 49  [no-redef]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:69: error: "Callable[[DuelLinksInfo], Any]" has no attribute "setter"  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:73: error: Name 'page' already defined on line 53  [no-redef]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:73: error: "Callable[[DuelLinksInfo], Any]" has no attribute "setter"  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:77: error: Name 'status' already defined on line 57  [no-redef]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:77: error: "Callable[[DuelLinksInfo], Any]" has no attribute "setter"  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:81: error: Name 'name' already defined on line 61  [no-redef]
+(will7200)Yugioh-bot/bot/providers/duellinks.py:81: error: "Callable[[DuelLinksInfo], Any]" has no attribute "setter"  [attr-defined]
+(will7200)Yugioh-bot/bot/modes/SpecialEvents.py:58: error: Property "status" defined in "DuelLinksInfo" is read-only  [misc]
+(will7200)Yugioh-bot/bot/modes/SpecialEvents.py:82: error: Property "status" defined in "DuelLinksInfo" is read-only  [misc]
+(will7200)Yugioh-bot/install.py:20: error: Argument 1 to "join" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(will7200)Yugioh-bot/bot/providers/provider.py:16: error: Module 'bot.modes' has no attribute 'battle_modes'  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/__init__.py:15: error: Module 'bot.providers.nox' has no attribute 'Nox'  [attr-defined]
+(will7200)Yugioh-bot/bot/providers/__init__.py:16: error: Module 'bot.providers.steam' has no attribute 'Steam'  [attr-defined]
+Found 20 errors in 6 files (checked 16 source files)
+
+[RRepo](SunDwarf)ConfigMaster
+(SunDwarf)ConfigMaster/configmaster/ConfigKey.py:3: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:18: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:107: error: Incompatible types in assignment (expression has type "TextIO", variable has type "str")  [assignment]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:118: error: Incompatible types in assignment (expression has type "TextIO", variable has type "str")  [assignment]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:128: error: "str" has no attribute "read"  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:129: error: "str" has no attribute "seek"  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/ConfigFile.py:193: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(SunDwarf)ConfigMaster/configmaster/ConfigGenerator.py:16: error: Incompatible return value type (got "Callable[[Any, bool], Any]", expected "ConfigFile")  [return-value]
+(SunDwarf)ConfigMaster/configmaster/ConfigGenerator.py:28: error: Incompatible return value type (got "Callable[[Any, bool], Any]", expected "NetworkedConfigObject")  [return-value]
+(SunDwarf)ConfigMaster/configmaster/YAMLConfigFile.py:1: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/YAMLConfigFile.py:33: error: Invalid type: try using Literal[False] instead?  [valid-type]
+(SunDwarf)ConfigMaster/configmaster/YAMLConfigFile.py:74: error: Incompatible types in assignment (expression has type "Type[CDumper]", variable has type "Callable[[VarArg(Any), KwArg(Any)], Any]")  [assignment]
+(SunDwarf)ConfigMaster/configmaster/YAMLConfigFile.py:76: error: Incompatible types in assignment (expression has type "Type[Dumper]", variable has type "Callable[[VarArg(Any), KwArg(Any)], Any]")  [assignment]
+(SunDwarf)ConfigMaster/configmaster/INIConfigFile.py:3: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+(SunDwarf)ConfigMaster/configmaster/JSONConfigFile.py:3: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+(SunDwarf)ConfigMaster/test_configmaster.py:18: error: Module 'configmaster' has no attribute 'exc'  [attr-defined]
+Found 16 errors in 7 files (checked 1 source file)
+
+[RRepo](BlendingJake)JARCH-Vis
+
+[RRepo](adamtheturtle)vws-python
+
+[RRepo](OpenDataScienceLab)skdata
+(OpenDataScienceLab)skdata/setup.py:25: error: Need type annotation for 'test_requirements' (hint: "test_requirements: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](CZ-NIC)knot-resolver
+
+[RRepo](squeaky-pl)japronto
+(squeaky-pl)japronto/conftest.py:7: error: Need type annotation for 'builds' (hint: "builds: List[<type>] = ...")  [var-annotated]
+(squeaky-pl)japronto/cases/__init__.py:11: error: List or tuple literal expected as the second argument to namedtuple()  [misc]
+(squeaky-pl)japronto/build.py:3: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(squeaky-pl)japronto/build.py:3: error: Module 'distutils.command.build_ext' has no attribute 'CompileError'  [attr-defined]
+Found 4 errors in 3 files (checked 4 source files)
+
+[RRepo](arienchen)pytibrv
+(arienchen)pytibrv/pytibrv/types.py:206: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(arienchen)pytibrv/pytibrv/types.py:247: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:250: error: Incompatible types in assignment (expression has type "c_int8", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:251: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:270: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:273: error: Incompatible types in assignment (expression has type "c_uint8", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:274: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:293: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:296: error: Incompatible types in assignment (expression has type "c_int16", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:297: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:317: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:320: error: Incompatible types in assignment (expression has type "c_uint16", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:321: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:340: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:343: error: Incompatible types in assignment (expression has type "c_int32", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:344: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:363: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:366: error: Incompatible types in assignment (expression has type "c_uint32", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:367: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:386: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:389: error: Incompatible types in assignment (expression has type "c_int64", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:390: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:409: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:412: error: Incompatible types in assignment (expression has type "c_uint64", variable has type "int")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:413: error: "int" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:435: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:438: error: Module has no attribute "c_f32"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:439: error: "float" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:462: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:465: error: Module has no attribute "c_f64"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:466: error: "float" has no attribute "value"  [attr-defined]
+(arienchen)pytibrv/pytibrv/types.py:478: error: Function "pytibrv.types.tibrvMsgField.str" is not valid as a type  [valid-type]
+(arienchen)pytibrv/pytibrv/types.py:478: note: Perhaps you need "Callable[...]" or a callback protocol?
+(arienchen)pytibrv/pytibrv/types.py:482: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/types.py:499: error: Incompatible types in assignment (expression has type "Optional[int]", variable has type "None")  [assignment]
+(arienchen)pytibrv/pytibrv/__init__.py:86: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(arienchen)pytibrv/pytibrv/__init__.py:102: error: Argument 1 to "LoadLibrary" of "LibraryLoader" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(arienchen)pytibrv/pytibrv/__init__.py:106: error: Module has no attribute "windll"  [attr-defined]
+(arienchen)pytibrv/pytibrv/api.py:182: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/api.py:184: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/api.py:186: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/api.py:188: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/api.py:190: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/api.py:204: error: Incompatible return value type (got "c_char_p", expected "str")  [return-value]
+(arienchen)pytibrv/pytibrv/api.py:206: error: Incompatible return value type (got "c_char_p", expected "str")  [return-value]
+(arienchen)pytibrv/pytibrv/api.py:223: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(arienchen)pytibrv/pytibrv/api.py:224: error: Value of type "object" is not indexable  [index]
+(arienchen)pytibrv/pytibrv/api.py:238: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(arienchen)pytibrv/pytibrv/api.py:240: error: Incompatible types in assignment (expression has type "bytes", variable has type "c_char_p")  [assignment]
+(arienchen)pytibrv/pytibrv/api.py:243: error: "c_char_p" has no attribute "decode"  [attr-defined]
+(arienchen)pytibrv/pytibrv/api.py:245: error: "c_char_p" has no attribute "decode"  [attr-defined]
+(arienchen)pytibrv/pytibrv/tport.py:68: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:68: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:84: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:87: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:92: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:97: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:112: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:112: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:153: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:156: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:159: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:164: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:170: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:184: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:189: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:199: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:199: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:213: error: Argument 1 to "_pystr" has incompatible type "Array[c_char]"; expected "c_char_p"  [arg-type]
+(arienchen)pytibrv/pytibrv/tport.py:220: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:220: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:240: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:240: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:261: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:261: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:287: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:295: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:300: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:311: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/tport.py:311: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/tport.py:333: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:341: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/tport.py:346: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:83: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/queue.py:83: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/queue.py:98: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:106: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:111: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:132: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:140: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:145: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:160: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:165: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:174: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:190: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/queue.py:190: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/queue.py:211: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/queue.py:211: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/queue.py:235: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:243: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:248: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:262: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/queue.py:262: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/queue.py:292: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:295: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:303: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:310: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:324: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:327: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:335: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:340: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/queue.py:350: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/queue.py:350: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:108: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/ft.py:111: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/ft.py:113: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/ft.py:116: error: "None" not callable  [misc]
+(arienchen)pytibrv/pytibrv/ft.py:150: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:150: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:212: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:216: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:224: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:233: error: Too few arguments for "__reg"  [call-arg]
+(arienchen)pytibrv/pytibrv/ft.py:242: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:242: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:262: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:262: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:281: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:281: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:301: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:301: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:324: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:333: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:352: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:352: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:411: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:416: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:424: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/ft.py:433: error: Too few arguments for "__reg"  [call-arg]
+(arienchen)pytibrv/pytibrv/ft.py:442: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:442: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:462: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:462: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/ft.py:482: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/ft.py:482: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:153: error: Value of type variable "_PT" of "cast" cannot be "py_object[Any]"  [type-var]
+(arienchen)pytibrv/pytibrv/events.py:170: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:170: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:226: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:226: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:281: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:281: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:324: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/events.py:329: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/events.py:337: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/events.py:346: error: Too few arguments for "__reg"  [call-arg]
+(arienchen)pytibrv/pytibrv/events.py:355: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:355: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:376: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:376: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:397: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:397: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:418: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:418: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:439: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/events.py:439: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/events.py:463: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/events.py:471: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/events.py:476: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:84: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:84: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/dq.py:97: error: Incompatible types in assignment (expression has type "c_uint32", variable has type "tibrvTransport")  [assignment]
+(arienchen)pytibrv/pytibrv/dq.py:119: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:119: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/dq.py:137: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:145: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:150: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:161: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:161: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/dq.py:185: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:193: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:198: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:209: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:209: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/dq.py:234: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:242: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:247: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:258: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:258: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/dq.py:283: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:291: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:297: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/dq.py:320: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/dq.py:320: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/disp.py:47: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/disp.py:47: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/disp.py:78: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:83: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:96: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:101: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:115: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:120: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:125: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/disp.py:135: error: Syntax error in type annotation  [syntax]
+(arienchen)pytibrv/pytibrv/disp.py:135: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(arienchen)pytibrv/pytibrv/TibrvFt.py:62: error: Incompatible default for argument "member" (default has type "int", argument has type "tibrvftMember")  [assignment]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:76: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:81: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:98: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:103: error: Incompatible types in assignment (expression has type "int", variable has type "tibrvftMember")  [assignment]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:176: error: Incompatible default for argument "monitor" (default has type "int", argument has type "tibrvftMonitor")  [assignment]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:189: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:194: error: Incompatible return value type (got "int", expected "tibrv_status")  [return-value]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:215: error: Argument 1 to "tibrvftMonitor_Destroy" has incompatible type "tibrvftMonitor"; expected "tibrvftMember"  [arg-type]
+(arienchen)pytibrv/pytibrv/TibrvFt.py:216: error: Incompatible types in assignment (expression has type "int", variable has type "tibrvftMonitor")  [assignment]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:134: error: 'pytibrv.types.tibrv_status' object is not iterable  [misc]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:135: error: Cannot determine type of 'status'  [has-type]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:137: error: Cannot determine type of 'ret'  [has-type]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:141: error: 'pytibrv.types.tibrv_status' object is not iterable  [misc]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:142: error: Cannot determine type of 'status'  [has-type]
+(arienchen)pytibrv/pytibrv/TibrvDQ.py:144: error: Cannot determine type of 'ret'  [has-type]
+Found 183 errors in 11 files (checked 12 source files)
+
+[RRepo](krassowski)Anki-Night-Mode
+
+[RRepo](charmander)nosepass
+(charmander)nosepass/reference.py:19: error: Argument "mode" to "Cipher" has incompatible type "None"; expected "Mode"  [arg-type]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](arnomoonens)DeepRL
+
+[RRepo](pschmitt)hass-config
+
+[RRepo](quasoft)adblockradio
+Success: no issues found in 1 source file
+
+[RRepo](alextremblay)snmp-cmds
+
+[RRepo](manu0466)BookingBot
+
+[RRepo](danaugrs)morphine
+(danaugrs)morphine/polynomial.py:68: error: No overload variant of "__getitem__" of "list" matches argument type "Polynomial"  [call-overload]
+(danaugrs)morphine/polynomial.py:68: note: Possible overload variants:
+(danaugrs)morphine/polynomial.py:68: note:     def __getitem__(self, int) -> Any
+(danaugrs)morphine/polynomial.py:68: note:     def __getitem__(self, slice) -> List[Any]
+(danaugrs)morphine/polynomial.py:93: error: Need type annotation for 'new_elements' (hint: "new_elements: List[<type>] = ...")  [var-annotated]
+(danaugrs)morphine/symmetric.py:29: error: Name 'N' is not defined  [name-defined]
+(danaugrs)morphine/symmetric.py:41: error: Name 'N' is not defined  [name-defined]
+(danaugrs)morphine/bootstrappable.py:10: error: Name 'Q' is not defined  [name-defined]
+Found 5 errors in 3 files (checked 5 source files)
+
+[RRepo](tutorcruncher)pydf
+(tutorcruncher)pydf/docker-entrypoint.py:23: error: Module 'pydf' has no attribute 'AsyncPydf'  [attr-defined]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](bede)tictax
+
+[RRepo](kytos)kytos
+(kytos)kytos/setup.py:12: error: Module 'distutils.command.clean' has no attribute 'clean'  [attr-defined]
+(kytos)kytos/setup.py:28: error: Need type annotation for 'ETC_FILES' (hint: "ETC_FILES: List[<type>] = ...")  [var-annotated]
+(kytos)kytos/setup.py:37: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](strahe)sanic-redis
+
+[RRepo](PUTvision)decision_tree
+
+[RRepo](erp12)pyshgp
+(erp12)pyshgp/pyshgp/validation.py:14: error: Unsupported target for indexed assignment  [index]
+(erp12)pyshgp/pyshgp/validation.py:19: error: Unsupported target for indexed assignment  [index]
+(erp12)pyshgp/pyshgp/validation.py:21: error: Unsupported target for indexed assignment  [index]
+(erp12)pyshgp/pyshgp/validation.py:30: error: Unsupported target for indexed assignment  [index]
+(erp12)pyshgp/pyshgp/validation.py:48: error: Incompatible return value type (got "Optional[List[Type[Any]]]", expected "Sequence[type]")  [return-value]
+(erp12)pyshgp/pyshgp/validation.py:61: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(erp12)pyshgp/setup.py:16: error: Name '__version__' is not defined  [name-defined]
+(erp12)pyshgp/pyshgp/utils.py:86: error: Argument 2 to "dump" has incompatible type "TextIO"; expected "IO[bytes]"  [arg-type]
+(erp12)pyshgp/pyshgp/utils.py:86: error: Argument 3 to "dump" has incompatible type "str"; expected "Optional[int]"  [arg-type]
+(erp12)pyshgp/pyshgp/utils.py:92: error: Argument 1 to "load" has incompatible type "TextIO"; expected "IO[bytes]"  [arg-type]
+(erp12)pyshgp/pyshgp/utils.py:103: error: Missing return statement  [return]
+(erp12)pyshgp/pyshgp/push/types.py:54: error: Incompatible types in assignment (expression has type "Callable[[Any], Any]", variable has type "type")  [assignment]
+(erp12)pyshgp/pyshgp/push/types.py:111: error: Argument 2 to "PushType" has incompatible type "Tuple[Type[int], Any, Any, Any, Any]"; expected "Tuple[type]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/types.py:112: error: Argument 2 to "PushType" has incompatible type "Tuple[Type[float], Any, Any, Any]"; expected "Tuple[type]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/types.py:113: error: Argument 2 to "PushType" has incompatible type "Tuple[Type[str], Any]"; expected "Tuple[type]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/types.py:114: error: Argument 2 to "PushType" has incompatible type "Tuple[Type[bool], Any]"; expected "Tuple[type]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/atoms.py:201: error: Missing return statement  [return]
+(erp12)pyshgp/pyshgp/push/type_library.py:173: error: Missing return statement  [return]
+(erp12)pyshgp/pyshgp/push/type_library.py:212: error: Argument 2 to "Literal" has incompatible type "Optional[PushType]"; expected "PushType"  [arg-type]
+(erp12)pyshgp/pyshgp/push/state.py:25: error: Need type annotation for 'inputs' (hint: "inputs: List[<type>] = ...")  [var-annotated]
+(erp12)pyshgp/pyshgp/push/state.py:26: error: Need type annotation for 'untyped'  [var-annotated]
+(erp12)pyshgp/pyshgp/push/state.py:103: error: Need type annotation for 'counts' (hint: "counts: Dict[<type>, <type>] = ...")  [var-annotated]
+(erp12)pyshgp/pyshgp/push/instruction.py:61: error: Signature of "evaluate" incompatible with supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:97: error: Argument 1 to "push_to_stacks" of "PushState" has incompatible type "Union[List[Any], Tuple[Any, ...]]"; expected "List[Any]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instruction.py:100: error: Return type "Set[str]" of "required_stacks" incompatible with return type "Sequence[str]" in supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:105: error: Unsupported left operand type for + ("Sequence[str]")  [operator]
+(erp12)pyshgp/pyshgp/push/instruction.py:123: error: Signature of "evaluate" incompatible with supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:148: error: Return type "Set[str]" of "required_stacks" incompatible with return type "Sequence[str]" in supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:197: error: Signature of "evaluate" incompatible with supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:229: error: Argument 1 to "push_to_stacks" of "PushState" has incompatible type "Union[List[Any], Tuple[Any, ...]]"; expected "List[Any]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instruction.py:232: error: Return type "Set[str]" of "required_stacks" incompatible with return type "Sequence[str]" in supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:234: error: Unsupported left operand type for + ("Sequence[str]")  [operator]
+(erp12)pyshgp/pyshgp/push/instruction.py:284: error: Signature of "evaluate" incompatible with supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:321: error: Argument 1 to "push_to_stacks" of "PushState" has incompatible type "Union[List[Any], Tuple[Any, ...]]"; expected "List[Any]"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instruction.py:324: error: Return type "Set[str]" of "required_stacks" incompatible with return type "Sequence[str]" in supertype "Instruction"  [override]
+(erp12)pyshgp/pyshgp/push/instruction.py:329: error: Unsupported left operand type for + ("Sequence[str]")  [operator]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:77: error: Incompatible return value type (got "Token", expected "PushState")  [return-value]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:79: error: Incompatible return value type (got "Token", expected "PushState")  [return-value]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:157: error: Argument 1 to "append" of "list" has incompatible type "ProducesManyOfTypeInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:193: error: Argument 1 to "append" of "list" has incompatible type "StateToStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:210: error: Argument 1 to "append" of "list" has incompatible type "TakesStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:219: error: Argument 1 to "append" of "list" has incompatible type "StateToStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:227: error: Argument 1 to "append" of "list" has incompatible type "StateToStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:235: error: Argument 1 to "append" of "list" has incompatible type "StateToStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:243: error: Argument 1 to "append" of "list" has incompatible type "StateToStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/common.py:251: error: Argument 1 to "append" of "list" has incompatible type "TakesStateInstruction"; expected "SimpleInstruction"  [arg-type]
+(erp12)pyshgp/pyshgp/push/instructions/__init__.py:7: error: Module 'pyshgp.push.instructions' has no attribute 'code'  [attr-defined]
+(erp12)pyshgp/pyshgp/push/instructions/__init__.py:13: error: Unsupported operand types for >= ("Set[str]" and "Sequence[str]")  [operator]
+(erp12)pyshgp/pyshgp/push/instructions/__init__.py:32: error: Unsupported operand types for + ("List[Any]" and "Sequence[Instruction]")  [operator]
+(erp12)pyshgp/pyshgp_cli.py:129: error: Module has no attribute "__version__"  [attr-defined]
+Found 50 errors in 11 files (checked 2 source files)
+
+[RRepo](aio-libs)multidict
+(aio-libs)multidict/setup.py:11: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(aio-libs)multidict/setup.py:38: error: Unsupported left operand type for + ("object")  [operator]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](serathius)sanic-sentry
+Success: no issues found in 3 source files
+
+[RRepo](PaulSonOfLars)tgbot
+
+[RRepo](QubesOS)qubes-core-admin
+Success: no issues found in 1 source file
+
+[RRepo](tensorflow)model-analysis
+
+[RRepo](Pelagicore)qface
+Success: no issues found in 1 source file
+
+[RRepo](LonamiWebs)Telethon
+Success: no issues found in 1 source file
+
+[RRepo](mdovgialo)steam-vr-wheel
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/pyvjoy/_sdk.py:117: error: Name 'SetBtn' already defined on line 70  [no-redef]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_SL0'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_SL1'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_X'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_Y'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RX'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_virtualpad.py:7: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RY'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_X'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_Y'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_Z'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RX'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RY'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RZ'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_X'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_Y'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_Z'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RX'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RY'  [attr-defined]
+(mdovgialo)steam-vr-wheel/steam_vr_wheel/_double_joystick.py:3: error: Module 'steam_vr_wheel.pyvjoy.vjoydevice' has no attribute 'HID_USAGE_RZ'  [attr-defined]
+Found 19 errors in 4 files (checked 12 source files)
+
+[RRepo](anokata)pythonPetProjects
+(anokata)pythonPetProjects/test_extract_fun_complex.py:37: error: Method must have at least one argument  [misc]
+(anokata)pythonPetProjects/test_extract_fun_complex.py:40: error: Method must have at least one argument  [misc]
+(anokata)pythonPetProjects/test_extract_fun_complex.py:42: error: Method must have at least one argument  [misc]
+(anokata)pythonPetProjects/pyloc.py:22: error: Need type annotation for 'contents' (hint: "contents: List[<type>] = ...")  [var-annotated]
+(anokata)pythonPetProjects/dumps.py:6: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(anokata)pythonPetProjects/dumps.py:7: error: Need type annotation for 'alldata' (hint: "alldata: Dict[<type>, <type>] = ...")  [var-annotated]
+(anokata)pythonPetProjects/dump.py:8: error: Need type annotation for 'data' (hint: "data: Dict[<type>, <type>] = ...")  [var-annotated]
+(anokata)pythonPetProjects/dump.py:180: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:181: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:182: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:183: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:184: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:185: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:186: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:187: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(anokata)pythonPetProjects/dump.py:190: error: Incompatible types in assignment (expression has type "DictReader", variable has type "_reader")  [assignment]
+Found 16 errors in 4 files (checked 15 source files)
+
+[RRepo](MTB90)CUDA_Blocked_Floyd-Warshall
+
+[RRepo](zynthian)zynthian-ui
+
+[RRepo](janvanrijn)openml-pimp
+
+[RRepo](Abjad)ide
+Success: no issues found in 1 source file
+
+[RRepo](PLUS-POSTECH)study.plus.or.kr
+
+[RRepo](howie6879)owllook
+
+[RRepo](lycantropos)alcor
+(lycantropos)alcor/alcor/services/common.py:3: error: Module 'alcor.models' has no attribute 'Group'  [attr-defined]
+(lycantropos)alcor/alcor/utils.py:18: error: Module 'alcor.models' has no attribute 'Group'  [attr-defined]
+(lycantropos)alcor/alcor/utils.py:18: error: Module 'alcor.models' has no attribute 'Star'  [attr-defined]
+(lycantropos)alcor/alcor/utils.py:65: error: Argument 1 to "map" has incompatible type "Type[Set[Any]]"; expected "Callable[[Mapping[Hashable, Any]], Set[_T]]"  [arg-type]
+(lycantropos)alcor/manage.py:18: error: Module 'alcor.models' has no attribute 'Group'  [attr-defined]
+(lycantropos)alcor/manage.py:22: error: Module 'alcor.services.data_access' has no attribute 'fetch_all'  [attr-defined]
+(lycantropos)alcor/manage.py:22: error: Module 'alcor.services.data_access' has no attribute 'fetch_group_by_id'  [attr-defined]
+(lycantropos)alcor/manage.py:22: error: Module 'alcor.services.data_access' has no attribute 'fetch_last_groups'  [attr-defined]
+(lycantropos)alcor/manage.py:83: error: Module has no attribute "run"  [attr-defined]
+(lycantropos)alcor/manage.py:176: error: Module has no attribute "draw"  [attr-defined]
+Found 10 errors in 3 files (checked 1 source file)
+
+[RRepo](incnone)necrobot
+(incnone)necrobot/necrobot/user/userprefs.py:2: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/util/parse/parseutil.py:32: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/util/parse/parseutil.py:75: error: Need type annotation for 'parsed_dict'  [var-annotated]
+(incnone)necrobot/necrobot/util/console.py:6: error: Item "None" of "Optional[Module]" has no attribute "__name__"  [union-attr]
+(incnone)necrobot/necrobot/util/console.py:11: error: Item "None" of "Optional[Module]" has no attribute "__name__"  [union-attr]
+(incnone)necrobot/necrobot/util/console.py:16: error: Item "None" of "Optional[Module]" has no attribute "__name__"  [union-attr]
+(incnone)necrobot/necrobot/util/console.py:21: error: Item "None" of "Optional[Module]" has no attribute "__name__"  [union-attr]
+(incnone)necrobot/necrobot/util/console.py:26: error: Item "None" of "Optional[Module]" has no attribute "__name__"  [union-attr]
+(incnone)necrobot/necrobot/util/parse/dateparse.py:11: error: List item 1 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(incnone)necrobot/necrobot/util/parse/dateparse.py:13: error: List item 3 has incompatible type "Tuple[str, str, str]"; expected "Tuple[str, str]"  [list-item]
+(incnone)necrobot/necrobot/util/parse/dateparse.py:20: error: Function "pytz.timezone" is not valid as a type  [valid-type]
+(incnone)necrobot/necrobot/util/parse/dateparse.py:20: note: Perhaps you need "Callable[...]" or a callback protocol?
+(incnone)necrobot/necrobot/util/parse/dateparse.py:34: error: pytz.timezone? has no attribute "localize"  [attr-defined]
+(incnone)necrobot/necrobot/util/parse/dateparse.py:36: error: pytz.timezone? has no attribute "localize"  [attr-defined]
+(incnone)necrobot/necrobot/util/writechannel.py:10: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/botbase/command.py:30: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/botbase/command.py:80: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/botbase/command.py:105: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(incnone)necrobot/necrobot/util/server.py:32: error: Item "None" of "Optional[Any]" has no attribute "members"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:33: error: Item "None" of "Optional[Any]" has no attribute "user"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:44: error: Item "None" of "Optional[Any]" has no attribute "channels"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:48: error: Item "None" of "Optional[Any]" has no attribute "channels"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:56: error: Item "None" of "Optional[Any]" has no attribute "categories"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:57: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:65: error: Item "None" of "Optional[Any]" has no attribute "text_channels"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:74: error: Item "None" of "Optional[Any]" has no attribute "categories"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:80: error: Missing return statement  [return]
+(incnone)necrobot/necrobot/util/server.py:86: error: Item "None" of "Optional[Any]" has no attribute "members"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:91: error: Item "None" of "Optional[Any]" has no attribute "members"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:100: error: Item "None" of "Optional[Any]" has no attribute "members"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:108: error: Item "None" of "Optional[Any]" has no attribute "roles"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:116: error: Item "None" of "Optional[Any]" has no attribute "members"  [union-attr]
+(incnone)necrobot/necrobot/util/server.py:127: error: Name 'member' already defined on line 125  [no-redef]
+(incnone)necrobot/necrobot/util/server.py:140: error: Item "None" of "Optional[Any]" has no attribute "create_category"  [union-attr]
+(incnone)necrobot/necrobot/user/necrouser.py:52: error: Incompatible types in "await" (actual type "None", expected type "Awaitable[Any]")  [misc]
+(incnone)necrobot/necrobot/user/necrouser.py:52: error: Too many arguments  [call-arg]
+(incnone)necrobot/necrobot/user/necrouser.py:56: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(incnone)necrobot/necrobot/user/necrouser.py:83: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/necrouser.py:120: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/necrouser.py:125: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(incnone)necrobot/necrobot/user/necrouser.py:128: error: Function "pytz.timezone" is not valid as a type  [valid-type]
+(incnone)necrobot/necrobot/user/necrouser.py:128: note: Perhaps you need "Callable[...]" or a callback protocol?
+(incnone)necrobot/necrobot/user/necrouser.py:132: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/necrouser.py:137: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(incnone)necrobot/necrobot/user/necrouser.py:141: error: Incompatible return value type (got "Optional[str]", expected "str")  [return-value]
+(incnone)necrobot/necrobot/user/userdb.py:127: error: Need type annotation for 'params'  [var-annotated]
+(incnone)necrobot/necrobot/user/userdb.py:330: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/race/racedb.py:55: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/race/racedb.py:101: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/botbase/necrobot.py:94: error: Incompatible types in "await" (actual type "Optional[Any]", expected type "Awaitable[Any]")  [misc]
+(incnone)necrobot/necrobot/botbase/necrobot.py:94: error: Too many arguments  [call-arg]
+(incnone)necrobot/necrobot/botbase/necrobot.py:94: error: "None" not callable  [misc]
+(incnone)necrobot/necrobot/league/leaguestats.py:2: error: Module 'necrobot.match' has no attribute 'matchdb'  [attr-defined]
+(incnone)necrobot/necrobot/race/racestats.py:158: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/userlib.py:17: error: Need type annotation for 'user_library_by_uid' (hint: "user_library_by_uid: Dict[<type>, <type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/user/userlib.py:47: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/userlib.py:160: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/user/userlib.py:195: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/league/leaguedb.py:111: error: Incompatible redefinition (redefinition with type "Callable[[Any], Any]", original type "str")  [misc]
+(incnone)necrobot/necrobot/league/leaguedb.py:145: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:146: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:147: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:148: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:199: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:200: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:201: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:211: error: "str" not callable  [operator]
+(incnone)necrobot/necrobot/league/leaguedb.py:216: error: Argument "commit_fn" to "League" has incompatible type "Callable[[League], Coroutine[Any, Any, None]]"; expected "FunctionType"  [arg-type]
+(incnone)necrobot/necrobot/league/leaguedb.py:300: error: Argument "commit_fn" to "League" has incompatible type "Callable[[League], Coroutine[Any, Any, None]]"; expected "FunctionType"  [arg-type]
+(incnone)necrobot/necrobot/botbase/cmd_role.py:41: error: Item "None" of "Optional[Any]" has no attribute "roles"  [union-attr]
+(incnone)necrobot/necrobot/match/match.py:137: error: Incompatible return value type (got "Optional[NecroUser]", expected "NecroUser")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:141: error: Incompatible return value type (got "Optional[NecroUser]", expected "NecroUser")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:145: error: Incompatible return value type (got "Optional[datetime]", expected "datetime")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:149: error: Incompatible return value type (got "Optional[datetime]", expected "datetime")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:201: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:205: error: Incompatible return value type (got "Optional[int]", expected "int")  [return-value]
+(incnone)necrobot/necrobot/match/match.py:227: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/match.py:232: error: Incompatible types in "await" (actual type "None", expected type "Awaitable[Any]")  [misc]
+(incnone)necrobot/necrobot/match/match.py:232: error: Too many arguments  [call-arg]
+(incnone)necrobot/necrobot/match/match.py:234: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/match.py:389: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/match.py:400: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/match.py:433: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/match.py:441: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/league/leaguemgr.py:63: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/league/leaguemgr.py:86: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:30: error: Need type annotation for '_col_indicies' (hint: "_col_indicies: Dict[<type>, <type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:43: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:97: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:99: error: Incompatible types in assignment (expression has type "Tuple[int, int]", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:104: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:105: error: Incompatible types in assignment (expression has type "Tuple[int, int]", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:110: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:238: error: Unsupported operand types for + ("None" and "int")  [operator]
+(incnone)necrobot/necrobot/gsheet/worksheetindexdata.py:239: error: Unsupported operand types for + ("int" and "None")  [operator]
+(incnone)necrobot/necrobot/match/matchutil.py:8: error: Module 'necrobot.match' has no attribute 'matchdb'  [attr-defined]
+(incnone)necrobot/necrobot/match/matchutil.py:73: error: "Match" gets multiple values for keyword argument "commit_fn"  [misc]
+(incnone)necrobot/necrobot/match/matchutil.py:81: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:5: error: Module 'necrobot.match' has no attribute 'matchdb'  [attr-defined]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:33: error: Item "None" of "Optional[Any]" has no attribute "text_channels"  [union-attr]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:114: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:146: error: Item "None" of "Optional[Any]" has no attribute "default_role"  [union-attr]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:164: error: Item "None" of "Optional[Any]" has no attribute "create_text_channel"  [union-attr]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:178: error: Item "None" of "Optional[Any]" has no attribute "create_text_channel"  [union-attr]
+(incnone)necrobot/necrobot/match/matchchannelutil.py:223: error: "unregister_bot_channel" of "Necrobot" does not return a value  [func-returns-value]
+(incnone)necrobot/necrobot/test/testmatch.py:11: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/test/testmatch.py:12: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/test/testmatch.py:20: error: Incompatible return value type (got "Optional[Match]", expected "Match")  [return-value]
+(incnone)necrobot/necrobot/gsheet/speedrunsheet.py:49: error: Incompatible default for argument "wks_id" (default has type "int", argument has type "str")  [assignment]
+(incnone)necrobot/necrobot/gsheet/speedrunsheet.py:50: error: Argument "wks_name" to "initialize" of "WorksheetIndexData" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:10: error: Module 'necrobot.match' has no attribute 'matchdb'  [attr-defined]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:41: error: Need type annotation for '_not_found_matches' (hint: "_not_found_matches: List[<type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:46: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:50: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:67: error: Argument "wks_name" to "initialize" of "WorksheetIndexData" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:67: error: Argument "wks_id" to "initialize" of "WorksheetIndexData" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:81: error: Unsupported operand types for - ("int" and "None")  [operator]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:83: error: Unsupported operand types for - ("int" and "None")  [operator]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:222: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:223: error: Invalid type comment or annotation  [valid-type]
+(incnone)necrobot/necrobot/gsheet/standingssheet.py:232: error: Incompatible return value type (got "Optional[Match]", expected "Match")  [return-value]
+(incnone)necrobot/necrobot/match/matchmgr.py:5: error: Module 'necrobot.match' has no attribute 'matchdb'  [attr-defined]
+(incnone)necrobot/necrobot/gsheet/sheetlib.py:10: error: Need type annotation for '_matchup_sheet_lib' (hint: "_matchup_sheet_lib: Dict[<type>, <type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/gsheet/sheetlib.py:11: error: Need type annotation for '_sheets_by_id_lib' (hint: "_sheets_by_id_lib: Dict[<type>, <type>] = ...")  [var-annotated]
+(incnone)necrobot/necrobot/gsheet/sheetlib.py:45: error: Argument 1 to "int" has incompatible type "Union[int, str, None]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(incnone)necrobot/necrobot/test/cmd_test.py:50: error: Item "None" of "Optional[Any]" has no attribute "create_channel_category"  [union-attr]
+(incnone)necrobot/necrobot/speedrun/cmd_speedrun.py:57: error: Not all arguments converted during string formatting  [str-format]
+(incnone)necrobot/necrobot/speedrun/cmd_speedrun.py:114: error: Incompatible types in assignment (expression has type "Union[Any, StandingsSheet, SpeedrunSheet]", variable has type "SpeedrunSheet")  [assignment]
+(incnone)necrobot/necrobot/gsheet/cmd_sheet.py:179: error: Incompatible types in assignment (expression has type "Union[Any, StandingsSheet, SpeedrunSheet]", variable has type "StandingsSheet")  [assignment]
+(incnone)necrobot/necrobot/condorbot/condormgr.py:139: error: Incompatible return value type (got "Union[Any, StandingsSheet, SpeedrunSheet]", expected "StandingsSheet")  [return-value]
+(incnone)necrobot/necrobot/condorbot/condorpmchannel.py:3: error: Module 'necrobot.match' has no attribute 'cmd_match'  [attr-defined]
+(incnone)necrobot/necrobot/condorbot/condormainchannel.py:2: error: Module 'necrobot.league' has no attribute 'cmd_league'  [attr-defined]
+(incnone)necrobot/necrobot/condorbot/condormainchannel.py:4: error: Module 'necrobot.match' has no attribute 'cmd_match'  [attr-defined]
+(incnone)necrobot/necrobot/condorbot/condoradminchannel.py:4: error: Module 'necrobot.league' has no attribute 'cmd_league'  [attr-defined]
+(incnone)necrobot/run_condorbot.py:41: error: Argument "load_config_fn" to "logon" has incompatible type "Callable[[Any], Any]"; expected "FunctionType"  [arg-type]
+(incnone)necrobot/run_necrobot.py:52: error: Argument "load_config_fn" to "logon" has incompatible type "Callable[[Any], Any]"; expected "FunctionType"  [arg-type]
+Found 134 errors in 35 files (checked 2 source files)
+
+[RRepo](dmsul)econtools
+Success: no issues found in 1 source file
+
+[RRepo](materialsproject)pymatgen
+(materialsproject)pymatgen/setup.py:25: error: Need type annotation for 'extra_link_args' (hint: "extra_link_args: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](KanColleTool)kcsrv
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'Admiral'  [attr-defined]
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'AdmiralQuest'  [attr-defined]
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'Quest'  [attr-defined]
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'Ship'  [attr-defined]
+(KanColleTool)kcsrv/offline/kccheat.py:2: error: Module 'db' has no attribute 'AdmiralEquipment'  [attr-defined]
+(KanColleTool)kcsrv/forms.py:7: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/forms.py:17: error: Variable "forms.BaseModelForm" is not valid as a type  [valid-type]
+(KanColleTool)kcsrv/forms.py:17: error: Invalid base class "BaseModelForm"  [misc]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'User'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Role'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Recipe'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'RecipeResources'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Admiral'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Kanmusu'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Equipment'  [attr-defined]
+(KanColleTool)kcsrv/admin.py:5: error: Module 'db' has no attribute 'Fleet'  [attr-defined]
+(KanColleTool)kcsrv/commands/user.py:6: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/commands/user.py:6: error: Module 'db' has no attribute 'User'  [attr-defined]
+(KanColleTool)kcsrv/commands/user.py:6: error: Module 'db' has no attribute 'Role'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Equipment'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Ship'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Stats'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Resources'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Remodel'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Usable'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'RecipeResources'  [attr-defined]
+(KanColleTool)kcsrv/offline/dbpopulate.py:2: error: Module 'db' has no attribute 'Expedition'  [attr-defined]
+(KanColleTool)kcsrv/manage.py:8: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/manage.py:8: error: Module 'db' has no attribute 'Role'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'Equipment'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'Kanmusu'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'KanmusuEquipment'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'AdmiralEquipment'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/MemberHelper.py:6: error: Module 'db' has no attribute 'Fleet'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/init.py:3: error: Module 'db' has no attribute 'Kanmusu'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/DockHelper.py:29: error: Module 'db' has no attribute 'Kanmusu'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/DockHelper.py:29: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/helpers/DockHelper.py:54: error: Incompatible return value type (got "None", expected "int")  [return-value]
+(KanColleTool)kcsrv/kancolle/helpers/DockHelper.py:58: error: Incompatible return value type (got "List[Any]", expected "int")  [return-value]
+(KanColleTool)kcsrv/kancolle/api/expedition.py:11: error: Module 'db' has no attribute 'Expedition'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/expedition.py:11: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/member.py:6: error: Module 'db' has no attribute 'Expedition'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/actions.py:2: error: Module 'kancolle.helpers' has no attribute 'AdmiralHelper'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/actions.py:4: error: Module 'db' has no attribute 'Admiral'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/actions.py:5: error: Module 'db' has no attribute 'db'  [attr-defined]
+(KanColleTool)kcsrv/kancolle/api/actions.py:5: error: Module 'db' has no attribute 'Kanmusu'  [attr-defined]
+(KanColleTool)kcsrv/init.py:7: error: Module 'db' has no attribute 'User'  [attr-defined]
+(KanColleTool)kcsrv/init.py:7: error: Module 'db' has no attribute 'Role'  [attr-defined]
+(KanColleTool)kcsrv/init.py:7: error: Module 'db' has no attribute 'Admiral'  [attr-defined]
+Found 53 errors in 13 files (checked 6 source files)
+
+[RRepo](anthok)overwatch-api
+
+[RRepo](codingchili)flashcards-webapp
+
+[RRepo](AndreiBarsan)visualqa
+(AndreiBarsan)visualqa/fabfile.py:38: error: Name 'env' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:58: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:59: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:63: error: Name 'cd' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:64: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:64: error: "_in_screen" does not return a value  [func-returns-value]
+(AndreiBarsan)visualqa/fabfile.py:69: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:70: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:80: error: Name 'cd' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:82: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:84: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:85: error: Argument 1 to "args_to_flags" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(AndreiBarsan)visualqa/fabfile.py:88: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:89: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:99: error: Incompatible types in assignment (expression has type "bool", variable has type "str")  [assignment]
+(AndreiBarsan)visualqa/fabfile.py:106: error: Name 'cd' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:115: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:118: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:119: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:123: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:125: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:128: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:135: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:136: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:144: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:154: error: Name 'task' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:155: error: Name 'hosts' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:165: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(AndreiBarsan)visualqa/fabfile.py:189: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:209: error: Unsupported operand types for - ("int" and "str")  [operator]
+(AndreiBarsan)visualqa/fabfile.py:229: error: Name 'cd' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:232: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:239: error: Name 'cd' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:242: error: Argument 1 to "args_to_flags" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(AndreiBarsan)visualqa/fabfile.py:243: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:257: error: Argument 1 to "args_to_flags" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(AndreiBarsan)visualqa/fabfile.py:266: error: Name 'run' is not defined  [name-defined]
+(AndreiBarsan)visualqa/fabfile.py:292: error: Name 'run' is not defined  [name-defined]
+Found 38 errors in 1 file (checked 2 source files)
+
+[RRepo](pythonprobr)pythonpro-website
+
+[RRepo](5nizza)party-elli
+(5nizza)party-elli/interfaces/solver_interface.py:7: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/interfaces/solver_interface.py:12: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/helpers/python_ext.py:37: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/helpers/python_ext.py:37: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/helpers/python_ext.py:48: error: Need type annotation for 'resulting_items' (hint: "resulting_items: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/interfaces/automaton.py:38: error: List item 0 has incompatible type "str"; expected "Iterable[Tuple[Node, bool]]"  [list-item]
+(5nizza)party-elli/interfaces/automaton.py:38: note: Following member(s) of "str" have conflicts:
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Expected:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[Tuple[Node, bool]]
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Got:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[str]
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Expected:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[Tuple[Node, bool]]
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Got:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[str]
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Expected:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[Tuple[Node, bool]]
+(5nizza)party-elli/interfaces/automaton.py:38: note:     Got:
+(5nizza)party-elli/interfaces/automaton.py:38: note:         def __iter__(self) -> Iterator[str]
+(5nizza)party-elli/interfaces/automaton.py:106: error: Need type annotation for 'dst_nodes' (hint: "dst_nodes: Set[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/syntcomp/aiger_to_tlsf_model.py:8: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/syntcomp/aiger_to_tlsf_model.py:8: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/synthesis/smt_format.py:56: error: Not enough arguments for format string  [str-format]
+(5nizza)party-elli/automata/final_sccs_finder.py:28: error: Need type annotation for 'edges'  [var-annotated]
+(5nizza)party-elli/interfaces/AHT_automaton.py:59: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+(5nizza)party-elli/parsing/python_parser.py:25: error: Module has no attribute "spec"  [attr-defined]
+(5nizza)party-elli/helpers/shell.py:10: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/helpers/shell.py:10: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/synthesis/solver_with_query_storage.py:12: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/automata/helper.py:10: error: Incompatible types in assignment (expression has type "Set[Tuple[interfaces.automaton.Node, bool]]", variable has type "Set[Tuple[interfaces.AHT_automaton.Node, bool]]")  [assignment]
+(5nizza)party-elli/automata/helper.py:14: error: Incompatible return value type (got "List[Tuple[interfaces.automaton.Node, Label, bool]]", expected "List[Tuple[interfaces.AHT_automaton.Node, Label, bool]]")  [return-value]
+(5nizza)party-elli/parsing/acacia_parser.py:47: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/parsing/acacia_parser.py:47: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/module_generation/edges_simplifier.py:18: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/module_generation/edges_simplifier.py:44: error: Need type annotation for 'sig_by_name' (hint: "sig_by_name: Dict[<type>, <type>] = ...")  [var-annotated]
+(5nizza)party-elli/syntcomp/aiger_synthesizer.py:14: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/module_generation/verilog_to_aiger_via_yosys.py:40: error: "remove" does not return a value  [func-returns-value]
+(5nizza)party-elli/synthesis/smt_namings.py:25: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/smt_namings.py:37: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/parsing/tlsf_parser.py:21: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/parsing/tlsf_parser.py:21: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/module_generation/spec_to_tlsf.py:5: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/z3_via_files.py:48: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/z3_via_files.py:53: error: Need type annotation for '_pushes' (hint: "_pushes: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/synthesis/z3_via_files.py:87: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/z3_via_files.py:122: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/z3_via_pipe.py:54: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/z3_via_pipe.py:59: error: Need type annotation for 'lines_response' (hint: "lines_response: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/module_generation/automaton_to_verilog.py:69: error: Argument 1 to "incoming_transitions" has incompatible type "interfaces.automaton.Node"; expected "interfaces.AHT_automaton.Node"  [arg-type]
+(5nizza)party-elli/module_generation/automaton_to_verilog.py:73: error: Invalid index type "interfaces.AHT_automaton.Node" for "Dict[Node, str]"; expected type "interfaces.automaton.Node"  [index]
+(5nizza)party-elli/LTL_to_atm/translator_via_ltl3ba.py:24: error: Signature of "convert" incompatible with supertype "LTLToAutomaton"  [override]
+(5nizza)party-elli/automata/k_reduction.py:28: error: "Node" has no attribute "k"  [attr-defined]
+(5nizza)party-elli/automata/k_reduction.py:36: error: "Node" has no attribute "k"  [attr-defined]
+(5nizza)party-elli/automata/k_reduction.py:58: error: "Node" has no attribute "k"  [attr-defined]
+(5nizza)party-elli/LTL_to_atm/translator_via_spot.py:17: error: Signature of "convert" incompatible with supertype "LTLToAutomaton"  [override]
+(5nizza)party-elli/synthesis/encoder_helper.py:70: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(5nizza)party-elli/synthesis/encoder_helper.py:80: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/encoder_helper.py:105: error: No overload variant of "product" matches argument type "List[object]"  [call-overload]
+(5nizza)party-elli/synthesis/encoder_helper.py:105: note: Possible overload variants:
+(5nizza)party-elli/synthesis/encoder_helper.py:105: note:     def product(iter1: Iterable[Any], iter2: Iterable[Any], iter3: Iterable[Any], iter4: Iterable[Any], iter5: Iterable[Any], iter6: Iterable[Any], iter7: Iterable[Any], *iterables: Iterable[Any]) -> Iterator[Tuple[Any, ...]]
+(5nizza)party-elli/synthesis/encoder_helper.py:105: note:     def product(*iterables: Iterable[Any], repeat: int = ...) -> Iterator[Tuple[Any, ...]]
+(5nizza)party-elli/synthesis/encoder_helper.py:105: note:     <6 more similar overloads not shown, out of 8 total overloads>
+(5nizza)party-elli/helpers/GR1helpers.py:51: error: "Expr" has no attribute "arg"  [attr-defined]
+(5nizza)party-elli/helpers/GR1helpers.py:52: error: "Expr" has no attribute "arg"  [attr-defined]
+(5nizza)party-elli/module_generation/dot.py:65: error: Need type annotation for 'edge_labels' (hint: "edge_labels: Dict[<type>, <type>] = ...")  [var-annotated]
+(5nizza)party-elli/helpers/main_helper.py:47: error: Argument 1 to "setLevel" of "Logger" has incompatible type "Optional[int]"; expected "Union[int, str]"  [arg-type]
+(5nizza)party-elli/helpers/main_helper.py:72: error: Incompatible types in assignment (expression has type "FakeSolver", variable has type "Z3InteractiveViaPipes")  [assignment]
+(5nizza)party-elli/helpers/main_helper.py:75: error: Incompatible types in assignment (expression has type "Z3NonInteractiveViaFiles", variable has type "Z3InteractiveViaPipes")  [assignment]
+(5nizza)party-elli/syntcomp/tasks_manager.py:39: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/syntcomp/tasks_manager.py:40: error: Need type annotation for 'queue'  [var-annotated]
+(5nizza)party-elli/syntcomp/tasks_manager.py:49: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/syntcomp/tasks_manager.py:49: error: Name 'task' already defined on line 46  [no-redef]
+(5nizza)party-elli/syntcomp/tasks_manager.py:49: error: Name 'lts_or_aiger' already defined on line 46  [no-redef]
+(5nizza)party-elli/syntcomp/tasks_manager.py:57: error: "None" has no attribute "name"  [attr-defined]
+(5nizza)party-elli/syntcomp/tasks_manager.py:64: error: "None" has no attribute "is_doing_real_check"  [attr-defined]
+(5nizza)party-elli/synthesis/buchi_cobuchi_encoder.py:22: error: Need type annotation for 'res' (hint: "res: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/tests/common.py:33: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/synthesis/ctl/walker.py:11: error: Syntax error in type annotation  [syntax]
+(5nizza)party-elli/synthesis/ctl/walker.py:11: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_via_aht.py:49: error: Incompatible types in assignment (expression has type "None", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_via_aht.py:84: error: Need type annotation for 'res' (hint: "res: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/automata/aht2dot.py:13: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/automata/aht2dot.py:26: error: Name 'InvNode' is not defined  [name-defined]
+(5nizza)party-elli/automata/aht2dot.py:43: error: Incompatible types in assignment (expression has type "Expr", variable has type "BinOp")  [assignment]
+(5nizza)party-elli/synthesis/model_searcher.py:13: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/CTL_to_LTL_/ctlstar2ltl.py:53: error: Result type of & incompatible in assignment  [misc]
+(5nizza)party-elli/CTL_to_LTL_/ctlstar2ltl.py:115: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/CTL_to_LTL_/ctlstar2ltl.py:152: error: Generator has incompatible item type "Tuple[BinOp, Tuple[Signal, ...]]"; expected "Tuple[BinOp, Tuple[Signal]]"  [misc]
+(5nizza)party-elli/CTL_to_LTL_/ctlstar2ltl.py:156: error: Incompatible types in assignment (expression has type "Tuple[Signal, ...]", variable has type "Tuple[Signal]")  [assignment]
+(5nizza)party-elli/CTL_to_LTL_/ctlstar2ltl.py:157: error: Generator has incompatible item type "Tuple[int, Tuple[Signal, ...]]"; expected "Tuple[int, Tuple[Signal]]"  [misc]
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_direct.py:59: error: Incompatible types in assignment (expression has type "None", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_direct.py:86: error: Need type annotation for 'res' (hint: "res: List[<type>] = ...")  [var-annotated]
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_direct.py:165: error: Argument 1 of "parse_model" is incompatible with supertype "EncoderInterface"; supertype defines the argument type as "Sequence[str]"  [override]
+(5nizza)party-elli/synthesis/ctl/ctl_encoder_direct.py:172: error: Incompatible types in assignment (expression has type "Iterable[int]", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/synthesis/coreach_encoder.py:41: error: Incompatible types in assignment (expression has type "None", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/synthesis/coreach_encoder.py:76: error: "Node" has no attribute "k"  [attr-defined]
+(5nizza)party-elli/synthesis/coreach_encoder.py:96: error: Argument 2 to "encode_run_graph_ucw" has incompatible type "None"; expected "FuncDesc"  [arg-type]
+(5nizza)party-elli/synthesis/cobuchi_encoder.py:42: error: Incompatible types in assignment (expression has type "None", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/synthesis/cobuchi_encoder.py:80: error: Incompatible types in assignment (expression has type "Set[int]", variable has type "List[int]")  [assignment]
+(5nizza)party-elli/test_tlsf_solver.py:59: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/kid.py:43: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(5nizza)party-elli/kid.py:49: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/kid.py:61: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/ctl_to_ltl.py:55: error: "main" does not return a value  [func-returns-value]
+(5nizza)party-elli/synthesis/model_k_searcher.py:14: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/star.py:6: error: Module 'CTL_to_AHT_' has no attribute 'ctl2aht'  [attr-defined]
+(5nizza)party-elli/star.py:38: error: Invalid type comment or annotation  [valid-type]
+(5nizza)party-elli/star.py:72: error: Incompatible types in assignment (expression has type "CTLEncoderViaAHT", variable has type "CTLEncoderDirect")  [assignment]
+(5nizza)party-elli/elli.py:64: error: Incompatible types in assignment (expression has type "CoreachEncoder", variable has type "CoBuchiEncoder")  [assignment]
+(5nizza)party-elli/elli.py:117: error: Incompatible types in assignment (expression has type "CoreachEncoder", variable has type "CoBuchiEncoder")  [assignment]
+Found 87 errors in 45 files (checked 15 source files)
+
+[RRepo](lafranceinsoumise)api-django
+
+[RRepo](thomaspatzke)EQUEL
+(thomaspatzke)EQUEL/equel/engine.py:3: error: Module 'equel.plugins' has no attribute 'output'  [attr-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](epruesse)ymp
+(epruesse)ymp/fastentrypoints.py:52: error: 'classmethod' used with a non-method  [misc]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](Pinafore)qb-api
+
+[RRepo](mostm)pyqiwi
+
+[RRepo](andrewschenck)flask-restful-proxy
+(andrewschenck)flask-restful-proxy/proxy.py:152: error: "None" has no attribute "headers"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:152: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(andrewschenck)flask-restful-proxy/proxy.py:179: error: "None" has no attribute "method"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:179: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(andrewschenck)flask-restful-proxy/proxy.py:205: error: "None" has no attribute "url"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:205: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(andrewschenck)flask-restful-proxy/proxy.py:233: error: "None" has no attribute "payload"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:233: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(andrewschenck)flask-restful-proxy/proxy.py:247: error: "None" has no attribute "payload"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:361: error: "None" has no attribute "make_request"  [attr-defined]
+(andrewschenck)flask-restful-proxy/proxy.py:380: error: Value of type "None" is not indexable  [index]
+(andrewschenck)flask-restful-proxy/proxy.py:381: error: Value of type "None" is not indexable  [index]
+(andrewschenck)flask-restful-proxy/proxy.py:388: error: Value of type "None" is not indexable  [index]
+(andrewschenck)flask-restful-proxy/proxy.py:414: error: "None" has no attribute "make_request"  [attr-defined]
+Found 14 errors in 1 file (checked 1 source file)
+
+[RRepo](5j9)num2fawords
+(5j9)num2fawords/num2fawords/__init__.py:10: error: Incompatible import of "_singledispatch" (imported name has type "Callable[[Callable[..., _T]], singledispatch._SingleDispatchCallable[_T]]", local name has type "Callable[[Callable[..., _T]], functools._SingleDispatchCallable[_T]]")  [misc]
+(5j9)num2fawords/num2fawords/__init__.py:174: error: Name '_' already defined on line 128  [no-redef]
+(5j9)num2fawords/num2fawords/__init__.py:207: error: Name '_' already defined on line 128  [no-redef]
+(5j9)num2fawords/num2fawords/__init__.py:226: error: Name '_' already defined on line 128  [no-redef]
+(5j9)num2fawords/num2fawords/__init__.py:348: error: "Callable[[str, str, str, str, bool, str], Any]" has no attribute "__defaults__"  [attr-defined]
+(5j9)num2fawords/num2fawords/__init__.py:350: error: "Callable[..., str]" has no attribute "__defaults__"  [attr-defined]
+(5j9)num2fawords/num2fawords/__init__.py:351: error: "Callable[[Union[int, str], str, str], str]" has no attribute "__defaults__"  [attr-defined]
+Found 7 errors in 1 file (checked 1 source file)
+
+[RRepo](ischurov)pythonvjs
+(ischurov)pythonvjs/pythonvjs.py:136: error: Need type annotation for 'loc' (hint: "loc: Dict[<type>, <type>] = ...")  [var-annotated]
+(ischurov)pythonvjs/pythonvjs.py:137: error: Need type annotation for 'glob' (hint: "glob: Dict[<type>, <type>] = ...")  [var-annotated]
+(ischurov)pythonvjs/pythonvjs.py:150: error: "append" of "list" does not return a value  [func-returns-value]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](c-w)gutenberg-http
+
+[RRepo](ikosenn)sms-log-handler
+
+[RRepo](rr-)dotfiles
+
+[RRepo](telminov)ansible-manager
+
+[RRepo](Rastii)seproxer
+
+[RRepo](Mirantis)disk_perf_test_tool
+Success: no issues found in 2 source files
+
+[RRepo](horazont)xmpp-crowd
+(horazont)xmpp-crowd/lcdencode/HD44780A00.py:303: error: Module has no attribute "charmap_build"  [attr-defined]
+(horazont)xmpp-crowd/foomodules/Poll.py:12: error: Need type annotation for 'active_polls' (hint: "active_polls: Dict[<type>, <type>] = ...")  [var-annotated]
+(horazont)xmpp-crowd/foomodules/CountDown.py:227: error: Not all arguments converted during string formatting  [str-format]
+(horazont)xmpp-crowd/aiofoomodules/handlers.py:39: error: Return value expected  [return-value]
+(horazont)xmpp-crowd/aiofoomodules/handlers.py:67: error: Return value expected  [return-value]
+(horazont)xmpp-crowd/aiofoomodules/handlers.py:70: error: Return value expected  [return-value]
+Found 6 errors in 4 files (checked 39 source files)
+
+[RRepo](CanopyTax)toggle-meister
+Success: no issues found in 1 source file
+
+[RRepo](dmerejkowsky)twittback
+
+[RRepo](CloverHealth)temporal-sqlalchemy
+Success: no issues found in 1 source file
+
+[RRepo](gadelat)Bulk-Bing-Image-downloader
+(gadelat)Bulk-Bing-Image-downloader/bbid.py:9: error: Need type annotation for 'in_progress' (hint: "in_progress: List[<type>] = ...")  [var-annotated]
+(gadelat)Bulk-Bing-Image-downloader/bbid.py:9: error: Need type annotation for 'tried_urls' (hint: "tried_urls: List[<type>] = ...")  [var-annotated]
+(gadelat)Bulk-Bing-Image-downloader/bbid.py:10: error: Need type annotation for 'image_md5s' (hint: "image_md5s: Dict[<type>, <type>] = ...")  [var-annotated]
+(gadelat)Bulk-Bing-Image-downloader/bbid.py:123: error: Argument 1 to "fetch_images_from_keyword" has incompatible type "BoundedSemaphore"; expected "Semaphore"  [arg-type]
+(gadelat)Bulk-Bing-Image-downloader/bbid.py:134: error: Argument 1 to "fetch_images_from_keyword" has incompatible type "BoundedSemaphore"; expected "Semaphore"  [arg-type]
+Found 5 errors in 1 file (checked 1 source file)
+
+[RRepo](rocky)python-uncompyle6
+Success: no issues found in 1 source file
+
+[RRepo](theY4Kman)infusionsoft-client
+(theY4Kman)infusionsoft-client/setup.py:38: error: Need type annotation for 'context' (hint: "context: Dict[<type>, <type>] = ...")  [var-annotated]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:116: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:117: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:118: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:121: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:122: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:125: error: Name 'cmp' is not defined  [name-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:126: error: "object" has no attribute "_get_current_object"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:152: error: Name 'long' is not defined  [name-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:14: error: Cannot determine type of 'query'  [has-type]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:15: error: Cannot determine type of 'client'  [has-type]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:16: error: Cannot resolve attribute "stubs" (possible cyclic definition)  [misc]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:16: error: Module has no attribute "stubs"  [attr-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:81: error: Name '__path__' is not defined  [name-defined]
+(theY4Kman)infusionsoft-client/infusionsoft/__init__.py:125: error: Incompatible types in assignment (expression has type "LocalProxy", target has type Module)  [assignment]
+Found 15 errors in 3 files (checked 5 source files)
+
+[RRepo](rhettinger)modernpython
+Success: no issues found in 6 source files
+
+[RRepo](dougli1sqrd)yamldown
+Success: no issues found in 2 source files
+
+[RRepo](taigaio)taiga-ncurses
+
+[RRepo](ahitrin)SiebenApp
+
+[RRepo](tim-mitchell)pure_interface
+
+[RRepo](google)kasane
+Success: no issues found in 1 source file
+
+[RRepo](ArchiveTeam)ArchiveBot
+
+[RRepo](Python-Tools)aioorm
+
+[RRepo](WheatonCS)Lexos
+
+[RRepo](MeeseeksBox)MeeseeksDev
+(MeeseeksBox)MeeseeksDev/meeseeksdev/commands.py:77: error: Not all arguments converted during string formatting  [str-format]
+(MeeseeksBox)MeeseeksDev/meeseeksdev/__init__.py:20: error: Need type annotation for 'usr_blacklist' (hint: "usr_blacklist: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 5 source files)
+
+[RRepo](urnote)urnote
+
+[RRepo](nbro)ands
+Success: no issues found in 1 source file
+
