@@ -1,0 +1,4536 @@
+
+------ Function return types ------
+
+Total functions: 25749
+
+type: 61
+List[nothing]: 35
+None: 11697
+bool: 696
+Tuple[Any, Any, Any]: 64
+`_Tnamedtuple-PTCoefficientStandard-a-b-c`: 3
+collections.OrderedDict[str, Any]: 115
+Any: 4861
+werkzeug.wrappers.Response: 10
+_RC: 10
+str: 1368
+Tuple[str, int]: 5
+List[Tuple[socket.AddressFamily, socket.SocketKind, int, str, Tuple[Any, Any]]]: 1
+Tuple[Any, Any]: 212
+list: 472
+Tuple[int, int, int]: 7
+int: 385
+__builtin__.NoneType: 34
+__builtin__.bool: 18
+__builtin__.str: 31
+__builtin__.int: 18
+__builtin__.tuple[__builtin__.list[_T], __builtin__.list[_T]]: 3
+__builtin__.tuple[__builtin__.tuple[_T], __builtin__.tuple[_T]]: 3
+__builtin__.tuple[_T, _T]: 3
+__builtin__.code: 3
+__builtin__.list[__builtin__.str]: 4
+__builtin__.tuple[__builtin__.int, __builtin__.int]: 3
+__builtin__.tuple[__builtin__.complex, __builtin__.complex]: 3
+__builtin__.tuple[__builtin__.float, __builtin__.float]: 3
+Iterator[_T]: 28
+__builtin__.dict[__builtin__.str, Any]: 9
+__builtin__.bytearray_iterator: 3
+__builtin__.`dictionary-keyiterator`[_T]: 3
+__builtin__.generator[_T]: 3
+__builtin__.listiterator[_T]: 3
+__builtin__.setiterator[_T]: 3
+__builtin__.tupleiterator[_T]: 3
+__builtin__.`callable-iterator`[_T2]: 3
+Iterator[nothing]: 27
+_T: 82
+Union[_T, _T2, _T3, _T4]: 6
+Union[_T, _T2, _T3]: 6
+Union[_T, _T2]: 12
+IO: 17
+Union[__builtin__.float, __builtin__.int]: 3
+__builtin__.complex: 3
+__builtin__.float: 6
+__builtin__.module: 3
+__builtin__.list[_T]: 3
+_NUMBER: 3
+Iterator[__builtin__.tuple]: 3
+Iterator[__builtin__.tuple[_T]]: 3
+Iterator[__builtin__.tuple[_T, _T2]]: 3
+_importlib_modulespec.ModuleType: 8
+NoReturn: 289
+bytes: 134
+Match[str]: 2
+float: 115
+Dict[str, Any]: 122
+_T2: 12
+_T0: 141
+List[str]: 92
+Dict[str, str]: 18
+Coroutine[Any, Any, None]: 551
+Coroutine[Any, Any, bool]: 25
+coroutine: 216
+Coroutine[Any, Any, list]: 14
+Coroutine[Any, Any, os.stat_result]: 1
+Generator[Any, Any, None]: 132
+Tuple[numpy.ndarray, numpy.ndarray]: 5
+Coroutine[Any, Any, Dict[str, Any]]: 6
+Tuple[Any, Any, Any, Any]: 34
+socket.socket: 1
+Generator[nothing, Any, Any]: 8
+Tuple[str, Any]: 8
+Generator[Tuple[Any, Any, str, Any, str, int], Any, None]: 1
+Tuple[_T3, _T4]: 1
+hashlib._Hash: 14
+__builtin__.dict[nothing, Any]: 2
+__builtin__.dict[nothing, __builtin__.tuple[Any, Any]]: 1
+__builtin__.tuple: 1
+_TObject: 1
+Tuple[Any, Any, Any, Any, Any]: 8
+`_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`: 3
+`_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`: 3
+Tuple[Any, Any, Any, Any, Any, Any]: 13
+`_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`: 3
+`_Tnamedtuple-DOMLevel-price-size-marketMaker`: 3
+`_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`: 3
+`_Tnamedtuple-FamilyCode-accountID-familyCodeStr`: 3
+`_Tnamedtuple-Fill-contract-execution-commissionReport-time`: 3
+`_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`: 3
+`_Tnamedtuple-HistoricalTick-time-price-size`: 3
+`_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`: 3
+`_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`: 3
+Tuple[Any, Any, Any, Any, Any, Any, Any]: 5
+`_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`: 3
+`_Tnamedtuple-NewsArticle-articleType-articleText`: 3
+`_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`: 3
+`_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`: 3
+`_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`: 3
+Tuple[Any, Any, Any, Any, Any, Any, Any, Any]: 8
+`_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`: 3
+`_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`: 3
+`_Tnamedtuple-Position-account-contract-position-avgCost`: 3
+`_Tnamedtuple-PriceIncrement-lowEdge-increment`: 3
+`_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`: 3
+`_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`: 3
+`_Tnamedtuple-TagValue-tag-value`: 3
+`_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`: 3
+`_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`: 3
+`_Tnamedtuple-TickByTickMidPoint-time-midPoint`: 3
+`_Tnamedtuple-TickData-time-tickType-price-size`: 3
+`_Tnamedtuple-TradeLogEntry-time-status-message`: 3
+dict: 108
+Generator[Tuple[Callable[[Any], Any], str], Any, None]: 1
+List[list]: 11
+_T1: 15
+io.BytesIO: 7
+Union[io.BytesIO, _T1]: 1
+Tuple[Any, str]: 8
+Tuple[Optional[str], Optional[str]]: 3
+List[Union[bool, _T0, _T1]]: 1
+Union[str, _T2]: 4
+__builtin__.generator: 1
+__builtin__.generator[Dict[str, nothing], Any, Any]: 1
+List[int]: 15
+Union[str, _T0]: 24
+argparse.ArgumentParser: 14
+Optional[str]: 57
+Callable[[Any], Any]: 77
+List[Tuple[Any, Any]]: 18
+typing.Counter[nothing]: 3
+Callable[[Any], tuple]: 13
+_TCacheDict: 1
+Union[CacheDict, list, _T0]: 1
+AnyStr: 67
+Union[TranslateOperation, bool]: 1
+Union[type, _T0]: 1
+attr._make._CountingAttr: 1
+List[Dict[str, Any]]: 31
+Tuple[_T1, Any, Any]: 1
+Union[Insert, Remove, Replace]: 1
+`dictionary-keyiterator`: 3
+Generator[Configuration, Any, None]: 1
+Iterator[tuple]: 15
+Iterator[Tuple[_T1]]: 6
+Iterator[Tuple[_T1, _T2]]: 6
+Iterator[Tuple[_T1, _T2, _T3]]: 6
+Iterator[Tuple[_T1, _T2, _T3, _T4]]: 6
+Iterator[Tuple[_T1, _T2, _T3, _T4, _T5]]: 6
+Iterator[Tuple[_T1, _T2, _T3, _T4, _T5, _T6]]: 6
+Callable: 94
+Callable[[Callable], Callable]: 30
+collections.OrderedDict[Any, collections.OrderedDict[Any, ImageBuilder]]: 1
+Generator[tuple, Any, None]: 4
+Tuple[bool, bool]: 1
+generator: 8
+Optional[Order]: 1
+Optional[Shipping]: 1
+Type[_T]: 10
+Callable[[Type[_T]], Type[_T]]: 5
+`namedtuple-Query-query_id-query_name-query_length`: 1
+`_Tnamedtuple-Query-query_id-query_name-query_length`: 3
+Optional[_V]: 1
+Union[_V, _V2]: 1
+Union[float, int]: 4
+IO[str]: 9
+IO[bytes]: 9
+List[AnyStr]: 19
+Generator[Tuple[Any, str], Any, None]: 1
+Optional[dict]: 3
+Iterator: 11
+Optional[int]: 25
+tuple: 20
+urllib.parse.ParseResult: 17
+urllib.parse.ParseResultBytes: 17
+Optional[Tuple[int, int]]: 4
+_FuncT: 36
+Tuple[Any, Any, str]: 3
+Tuple[Optional[str], Any, Any, str]: 1
+Tuple[int, AnyStr]: 1
+List[Dict[str, Union[int, str]]]: 1
+Optional[bytes]: 4
+_TAssertRaises: 1
+Optional[AssertRaises]: 1
+List[Tuple[str, Any]]: 1
+Union[bool, datetime.datetime]: 1
+Optional[float]: 9
+List[Tuple[str, str]]: 4
+_TSVG: 1
+Dict[Any, dict]: 4
+pathlib.Path: 13
+lazy: 1
+Optional[Server]: 1
+GoogleDns: 2
+frozenset: 3
+Tuple[Any, Any, Any, Any, int]: 1
+List[DevicePair]: 2
+Optional[Union[Callable[[signal.Signals, types.FrameType], None], int]]: 1
+Tuple[str, str]: 9
+List[Tuple[int, int]]: 3
+Pattern[AnyStr]: 4
+_TLogistic: 1
+Callable[[], Any]: 13
+Optional[Tuple[Any, Any, Any, Any]]: 2
+List[Tuple[Any, Any, Any, bool, None, bool]]: 1
+List[Tuple[Any, Any, bool, bool, Any, str, Optional[str], Optional[str], Any]]: 2
+sqlite3.dbapi2.Connection: 5
+Type[VLayerConnector]: 1
+gluon_backend_rep.GluonBackendRep: 2
+Tuple[list, list]: 4
+Tuple[Any, float]: 2
+JsonResponse: 1
+asyncio.futures.Future[Tuple[Any]]: 1
+Dict[Any, list]: 5
+Union[str, _T1]: 3
+_TMessageListener: 2
+Optional[_T0]: 5
+array.array[int]: 1
+array.array: 2
+srctools.logger.LoggerAdapter: 1
+Tuple[Any]: 5
+`_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`: 3
+space_engineers.utils.`namedtuple-BoundingBox-fbl-ftl-btl-bbl-fbr-ftr-btr-bbr`: 1
+List[Tuple[Any, Any, Any, Any, Any]]: 1
+xml.etree.ElementTree.Element: 4
+time.struct_time: 2
+Dict[str, bytes]: 2
+Tuple[_T0, Any, Any]: 1
+Tuple[int, int, Any]: 3
+__builtin__.bytes: 1
+Tuple[str, __builtin__.bytes, __builtin__.bytes]: 1
+_TBuckPackage: 1
+Iterator[Tuple[Any, Any]]: 2
+Dict[int, Any]: 2
+Dict[int, float]: 1
+datetime.datetime: 16
+Dict[str, Union[str, Dict[int, float]]]: 1
+logging.Logger: 16
+Optional[bool]: 34
+Union[decimal.Decimal, _T0]: 1
+Union[Dict[str, Union[bool, str]], _T0]: 1
+typing.List[str]: 1
+Tuple[int, bytes, bytes]: 1
+Generator[Tuple[Any, list], Any, None]: 2
+Generator[nothing, Any, None]: 19
+Generator[int, Any, None]: 5
+`_Tnamedtuple-ErrorParams-code-short_desc-context`: 3
+_TProgressBarIterator: 1
+Tuple[Optional[str], Any]: 2
+`_Tnamedtuple-ArgSpec-argname-typespec`: 3
+`_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`: 3
+`_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`: 3
+`_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`: 3
+subprocess.CompletedProcess: 4
+argparse.Namespace: 33
+Optional[Tuple[str, Generator[List[Tuple[str, Any]], Any, None]]]: 1
+Generator[argparse.Namespace, Any, None]: 1
+List[argparse.Namespace]: 1
+Dict[str, Union[float, int, str]]: 1
+unittest.suite.TestSuite: 4
+collections.defaultdict: 11
+Coroutine[Any, Any, str]: 10
+Type: 1
+Generator[str, Any, None]: 16
+Generator[TriegexNode, Any, Any]: 1
+listiterator: 3
+_TTextReplacer: 1
+Coroutine[Any, Any, nothing]: 30
+asyncio.events.AbstractEventLoop: 3
+asyncgenerator: 9
+List[None]: 1
+List[Party]: 1
+Optional[Party]: 1
+_TConfigsFileWatcher: 1
+Optional[`namedtuple-_ServiceConfig-service_name-config_name-config_suffix`]: 1
+`_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`: 3
+collections.deque: 2
+flask.app.Flask: 1
+Tuple[bool, Any]: 10
+listiterator[AbstractRouteDef]: 1
+`_Tnamedtuple-StrongBlock-color-owner`: 3
+Tuple[type, type]: 2
+Coroutine[Any, Any, Optional[Tuple[str, Any]]]: 1
+rinzler.core.route_mapping.RouteMapping: 1
+_TRinzler: 2
+rinzler.core.response.Response: 2
+Rinzler: 1
+multiprocessing.pool.Pool: 4
+_TProgressSpan: 1
+Optional[Tuple[Any, int, str]]: 12
+set: 13
+_T_OperationParser: 1
+Optional[Tuple[Optional[Tuple[Any, str, Any]], Optional[Tuple[Any, Any]]]]: 1
+Tuple[list, dict]: 2
+Tuple[int, ...]: 1
+InsertOnDuplicate: 1
+`_Tnamedtuple-Request-json`: 3
+Tuple[list, List[int]]: 1
+List[set]: 2
+collections.defaultdict[Any, int]: 1
+collections.defaultdict[str, Any]: 2
+Generator[None, Any, nothing]: 1
+`_Tnamedtuple-Selection-start-end`: 3
+_EnumType: 2
+Optional[Union[int, str]]: 4
+Union[int, str]: 3
+Union[Exception, _T0]: 1
+Iterator[Tuple[_T]]: 3
+Iterator[Tuple[_T, _T2]]: 3
+List[bytes]: 7
+List[Dict[str, str]]: 3
+Tuple[Eldag, List[int]]: 1
+Tuple[list, list, int]: 1
+Tuple[Tuple[str, Any], ...]: 1
+Dict[str, Union[str, Dict[str, str]]]: 1
+Dict[str, Union[str, Dict[str, bool]]]: 1
+`_Tnamedtuple-EfetchPackage-accn-xml`: 3
+`_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`: 3
+`_Tnamedtuple-EpostResult-webenv-query_key`: 3
+`_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`: 3
+`_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`: 3
+Optional[`namedtuple-EpostResult-dbfrom-dbto-webenv-query_key`]: 1
+Generator[requests.models.Response, Any, None]: 1
+requests.models.Response: 19
+Optional[requests.models.Response]: 6
+`namedtuple-EpostResult-webenv-query_key`: 2
+Optional[`namedtuple-EsearchResult-ids-count-webenv-query_key`]: 1
+List[`namedtuple-EsummaryResult-id-accn-create_date-update_date`]: 1
+Union[bytes, int]: 3
+flask.wrappers.Response: 6
+Coroutine[Any, Any, Tuple[asyncio.streams.StreamReader, asyncio.streams.StreamWriter]]: 1
+Tuple[bool, str, Optional[sqlite3.dbapi2.Connection]]: 1
+sqlite3.dbapi2.Cursor: 1
+List[Sequence[_T]]: 1
+Union[NotImplementedType, bool]: 5
+Result: 2
+Optional[list]: 10
+_TTree: 1
+Optional[_T1]: 2
+Dict[Tuple[int, int], Any]: 2
+os.stat_result: 1
+Iterator[Tuple[AnyStr, List[AnyStr], List[AnyStr]]]: 4
+Optional[DataPacket]: 1
+H2Protocol: 1
+Tuple[str, str, tuple]: 1
+_Tcontext: 1
+numpy.ndarray: 21
+Tuple[Any, int, Any, int]: 1
+Tuple[int, Any, int, Any]: 1
+Tuple[int, Any, Any, Any]: 1
+Tuple[Iterator[_T], ...]: 1
+_T3: 4
+List[dict]: 2
+Dict[Any, List[Dict[str, Any]]]: 1
+Dict[AnyStr, List[AnyStr]]: 4
+urllib.parse.SplitResult: 4
+urllib.parse.SplitResultBytes: 4
+Tuple[Any, Any, Dict[Any, Dict[Any, tuple]]]: 1
+_TAutoCloseSession: 1
+Dict[str, Dict[str, Any]]: 4
+markupsafe.Markup: 1
+Dict[nothing, nothing]: 11
+Set[nothing]: 2
+Callable[..., contextlib._GeneratorContextManager[_T]]: 17
+Union[float, str]: 1
+List[Union[int, str]]: 1
+Coroutine[Any, Any, Callable[[Any], Any]]: 1
+Coroutine[Any, Any, int]: 3
+Coroutine[Any, Any, Optional[int]]: 1
+Optional[Union[int, _T0]]: 1
+Interface: 2
+Tuple[str, List[int]]: 2
+Tuple[str, list]: 1
+Tuple[str, _T1]: 1
+Tuple[Any, Optional[int]]: 2
+Union[bool, _T3]: 5
+Optional[Dict[str, Any]]: 5
+module: 2
+SemanticTemplate: 1
+Tuple[_T0, _T1]: 1
+Tuple[str, ...]: 4
+Union[bytes, str]: 3
+doctest.TestResults: 1
+`_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`: 3
+`namedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`: 1
+List[List[Tuple[Any, _T0]]]: 1
+Union[Cluster, DataPoint]: 1
+Tuple[List[Dict[str, Any]], int]: 1
+Dict[str, Union[Dict[str, Any], _T0]]: 1
+Optional[Union[str, Tuple[bytes, bytes]]]: 1
+_TAutograderSandbox: 1
+CompletedCommand: 1
+`_Tnamedtuple-map-attribute-name-default_unit-device_class`: 3
+Generator[Union[_T0, _T1], Any, None]: 1
+FileLock: 1
+_TDBReader: 1
+_TDBWriter: 1
+Union[DBReader, DBWriter]: 1
+shutil._ntuple_diskusage: 2
+_TGrouping: 3
+Class: 1
+Var: 1
+List[Class]: 1
+Statistic: 1
+List[Statistic]: 1
+List[Var]: 1
+_TTabulationItem: 2
+List[Dict[_T0, Any]]: 1
+Optional[Match[AnyStr]]: 6
+Optional[List[Tuple[Any, Any]]]: 1
+Union[tuple, List[nothing]]: 1
+Dict[str, Union[str, _T0, _T1, _T2]]: 1
+Dict[str, Dict[str, str]]: 6
+Tuple[xml.etree.ElementTree.ElementTree, xml.etree.ElementTree.Element]: 1
+Optional[List[int]]: 1
+Optional[List[str]]: 1
+Tuple[_T0, datetime.datetime]: 1
+Tuple[list, list, Any, list]: 2
+aoareader.Dict.Dict: 1
+List[Tuple[Any, Any, Any, Any]]: 2
+List[Tuple[list, Any, Any, list]]: 1
+List[datetime.datetime]: 1
+Dict[Any, Dict[Any, Dict[datetime.datetime, Any]]]: 1
+_TMsgTraceNPC: 1
+Tuple[bool, str]: 2
+Tuple[Any, int]: 14
+Generator[Tuple[Any, Any], Any, None]: 17
+Generator[Tuple[int, str], Any, None]: 1
+Union[Callable, functools.partial[nothing]]: 2
+Tuple[tuple, FrozenSet[Tuple[str, Any]]]: 1
+Union[functools.partial[nothing], _T0]: 1
+inspect.Signature: 1
+List[Tuple[Any, int, Any]]: 1
+Tuple[Any, int, Any]: 1
+`_Tnamedtuple-Link-text-url`: 3
+Tuple[str, Callable, Any]: 2
+_TProcedure: 3
+_TSubscriber: 3
+Procedure: 1
+Subscriber: 1
+Callable[[Any, Any], Any]: 2
+Tuple[Callable[[Any], Any], range]: 2
+Tuple[Any, Any, Any, _T0]: 1
+Generator[List[int], Any, None]: 1
+Tuple[Any, Any, bool, dict]: 1
+Tuple[float, Any]: 2
+Group: 1
+Optional[Region]: 1
+Tuple[Union[int, _T3], Any]: 1
+Union[bool, _T1]: 2
+logging.Formatter: 2
+Coroutine[Any, Any, LayoutChangeMonitor]: 1
+Coroutine[Any, Any, NewSessionMonitor]: 1
+Coroutine[Any, Any, SessionTerminationMonitor]: 1
+Coroutine[Any, Any, BaseResponse]: 1
+Generator[Tuple[str, Any], Any, None]: 3
+Coroutine[Any, Any, StreamBody]: 1
+_TStreamBody: 1
+Coroutine[Any, Any, float]: 1
+LimitRateTestDriver: 1
+RankedSeason: 1
+`_Tnamedtuple-Playlist-id-name-platform-population-last_updated`: 3
+`_Tnamedtuple-Season-id-is_current-time_started-time_ended`: 3
+`_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`: 3
+`_Tnamedtuple-Tier-id-name`: 3
+Optional[Tuple[Any, str]]: 1
+Dict[Any, int]: 3
+`_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`: 3
+`namedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`: 1
+Generator[`namedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`, Any, None]: 1
+Iterator[AnyStr]: 1
+Union[float, int, Dict[Union[float, int], Union[float, int, Dict[float, Union[float, int]]]]]: 1
+TextIO: 1
+`_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`: 3
+`_Tnamedtuple-Position-latitude-longitude`: 3
+`namedtuple-Dump1090Resources-base-receiver-stats-aircraft`: 1
+SkDataSet: 1
+SkDataColumn: 1
+Dict[Any, Union[Dict[int, Any], _T3]]: 1
+property: 3
+Tuple[list, _T2]: 1
+Union[str, Callable]: 1
+Union[Callable[[Any], Any], _T0]: 1
+NotImplementedError: 3
+Tuple[Any, list]: 3
+Coroutine[Any, Any, Tuple[_T2, Dict[str, Any]]]: 1
+Tuple[float]: 1
+Tuple[Point]: 1
+Point: 1
+Permissions: 1
+Restrictions: 1
+Tuple[Type[RPCError], Tuple[Any, Any]]: 1
+Union[AnObject, bool]: 1
+Tuple[Any, collections.defaultdict, list]: 1
+Optional[Tuple[str, str]]: 1
+MoleculeStructureComparator: 1
+Tuple[Tuple[nothing, ...], ...]: 1
+Generator[Tuple[Any, int, List[Union[str, _T2]]], Any, None]: 1
+Generator[Dict[str, Any], Any, None]: 9
+Tuple[list, Any]: 4
+Dict[Any, Question]: 2
+Generator[Question, Any, None]: 1
+Dict[Any, List[Question]]: 1
+Tuple[float, str, str]: 1
+_TPost: 3
+collections.OrderedDict[str, Union[float, str]]: 1
+Tuple[str, str, Tuple[bytes, bytes], Optional[str], Optional[str]]: 1
+_TUserInfo: 3
+collections.OrderedDict[str, Optional[Union[str, Tuple[bytes, bytes]]]]: 1
+UserInfo: 1
+Tuple[bytes, Union[bytes, _T1]]: 2
+Iterable[_T]: 1
+List[Post]: 2
+List[Edge]: 2
+Goals: 1
+Tuple[List[Tuple[int, Optional[str], bool]], List[Tuple[int, int, int]], List[Tuple[str, int]]]: 1
+`_Tnamedtuple-Edge-source-target-type`: 3
+_FT: 2
+List[Tuple[Any, str]]: 2
+Dict[str, Union[int, str, Dict[str, Union[str, Dict[str, str], List[Dict[str, Union[int, str]]]]]]]: 1
+List[Tuple[int, Any]]: 1
+Tuple[Any, Any, Optional[list]]: 1
+List[List[str]]: 1
+Generator[list, Any, None]: 4
+Tuple[Any, Dict[str, Dict[str, Any]]]: 1
+_TObservable: 4
+Observable: 1
+Union[int, _T0]: 2
+Dict[str, List[Callable]]: 1
+List[Callable]: 1
+jinja2.environment.Template: 1
+Tuple[Union[Callable[[], Any], dict], asyncio.futures.Future[None]]: 1
+itertools.chain[nothing]: 2
+Tuple[Dict[nothing, nothing], List[nothing], List[nothing]]: 3
+redis.client.Redis: 2
+Dict[Any, numpy.ndarray]: 1
+List[Tuple[int, int, str]]: 1
+Generator[StaticAnalysisCase, Any, None]: 1
+datetime.time: 1
+Generator[Dict[str, str], Any, None]: 1
+_AnyPath: 4
+codecs.StreamReaderWriter: 6
+`_Tnamedtuple-Finals-pinyin-rhyme-tones`: 3
+`namedtuple-Finals-pinyin-rhyme-tones`: 1
+Dict[str, Union[float, str, Dict[str, _T0], List[str]]]: 1
+Dict[str, List[int]]: 1
+Dict[str, List[nothing]]: 2
+Callable[[Any, Any, Any], Any]: 5
+Tuple[int, str, str]: 2
+_TFirmwareImage: 1
+Iterator[bytes]: 1
+dict_keys: 1
+Tuple[bool, _T1]: 1
+Union[str, Pattern[str], _T0]: 1
+Optional[List[Dict[str, Any]]]: 1
+Set[str]: 9
+Coroutine[Any, Any, _T0]: 5
+Optional[Union[tuple, Dict[str, Any]]]: 3
+Optional[Tuple[Union[tuple, Dict[str, Any]], ...]]: 3
+Polygon: 1
+_TPolygon: 6
+Optional[Tuple[Any, Any]]: 8
+_csv._reader: 1
+Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, int]: 1
+Optional[Match]: 2
+Line: 1
+Generator[Tuple[Any, nothing], Any, None]: 1
+List[RflinkCover]: 1
+`_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`: 3
+Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, Any]: 1
+`_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`: 3
+Union[List[_T0], _T0]: 2
+List[bucket_throttling.ThrottlingBucket]: 2
+openfisca_france_data: 1
+Optional[CartItem]: 1
+Tuple[collections.defaultdict[Tuple[Any, Any, Any, Any], Any], Any]: 1
+Optional[Match[str]]: 2
+`_Tnamedtuple-SomeNamedTuple-x`: 3
+MongoSession: 2
+uuid.UUID: 9
+_TEnvironment: 1
+Coroutine[Any, Any, ClientResponse]: 2
+`_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`: 3
+`_Tnamedtuple-TimeSignature-top-bottom`: 3
+Callable[[Callable[..., _T]], functools._lru_cache_wrapper[_T]]: 9
+Union[Type[str], Callable[..., str]]: 1
+typing.Any: 7
+List[Tuple[AnyStr, AnyStr]]: 1
+Tuple[int, str]: 3
+Tuple[Any, None]: 10
+Tuple[Union[int, str], Any]: 2
+Tuple[int, Dict[str, Union[List[Dict[str, Any]], _T1]]]: 1
+Tuple[int, None]: 2
+Union[float, int, _T0]: 1
+_TUrl: 1
+TimeIndependentRtlResource: 2
+Tuple[nothing, ...]: 5
+_TIssueDescription: 3
+collections.OrderedDict[str, None]: 3
+Generator[itertools.chain[nothing], Any, None]: 1
+Generator[List[str], Any, None]: 3
+Union[bool, requests.models.Response]: 1
+Sort: 1
+Generator[badwolf.lint.Problem, Any, None]: 3
+Generator[Tuple[Optional[str], Any, Optional[str]], Any, None]: 2
+Tuple[int, Union[str, List[str]]]: 3
+Generator[Tuple[str, str], Any, nothing]: 1
+Union[decimal.Decimal, Dict[Union[str, Tuple[str, str]], Union[bytearray, bytes, int, str, Tuple[str, str]]]]: 1
+Optional[datetime.datetime]: 7
+Coroutine[Any, Any, WeatherStationInfo]: 1
+Coroutine[Any, Any, TrainStop]: 2
+Coroutine[Any, Any, StationInfo]: 1
+Coroutine[Any, Any, List[Union[StationInfo, Type[StationInfo]]]]: 1
+Tuple[numpy.ndarray, Any, Any, Any]: 1
+HMMCopyNumberCallerUpdateSummary: 1
+Optional[Tuple[Any, Any, Any]]: 1
+Dict[Any, Sound]: 1
+dict_values: 3
+_TPoint: 3
+requests.structures.CaseInsensitiveDict[str]: 1
+Tuple[list, nothing, nothing]: 1
+Generator[Tuple[str, str], Any, None]: 2
+Tuple[Any, Union[Dict[nothing, nothing], _T1]]: 1
+Optional[PollOption]: 1
+Generator[Tuple[str, str, str, str], Any, None]: 1
+Coroutine[Any, Any, Tuple[Any, Any]]: 11
+Dict[str, Optional[datetime.datetime]]: 1
+Generator[Tuple[str, Optional[datetime.datetime]], Any, None]: 1
+Optional[src.utils.MyPolygon]: 1
+Union[str, List[str]]: 2
+Generator[_T0, Any, None]: 2
+`_Tnamedtuple-LinkInfo-link-name-sections`: 3
+Dict[str, List[str]]: 3
+__builtin__.list: 2
+PersistGraphRecord: 1
+_TDictProperty: 3
+subprocess.Popen[str]: 1
+Tuple[_T0, list]: 3
+Tuple[_T0, None]: 3
+Tuple[None, list]: 3
+_TCMake: 4
+Optional[Union[bytes, str]]: 1
+Tuple[bool, None]: 1
+List[Tuple[Tuple[Any, Any], Any]]: 2
+Union[list, Dict[nothing, nothing], _T0]: 2
+Tuple[int, int]: 10
+_TUserVisibleVersionInfo: 1
+ViewRegistrant: 1
+Generator[module, Any, None]: 1
+Tuple[list, List[Dict[str, Any]]]: 1
+Dict[str, List[Dict[str, Any]]]: 1
+Tuple[Any, Dict[str, Union[bool, _T1]]]: 1
+List[Tuple[list, list]]: 1
+Tuple[argparse.Namespace, List[str]]: 1
+Tuple[Any, Any, Any, Any, numpy.ndarray, Any]: 1
+Dict[str, Union[str, _T0]]: 2
+Union[str, Tuple[str, str]]: 1
+List[Tuple[Any, Any, Any]]: 2
+Tuple[list, list, list]: 6
+Generator[Tuple[Any, Any, Any], Any, None]: 2
+DQNTF2: 1
+Tuple[Any, Any, _T1, _T4]: 1
+Tuple[Any, _T2]: 2
+Generator[List[Tuple[Any, Any]], Any, nothing]: 1
+Generator[http.server.HTTPServer, Any, None]: 1
+typing.Iterator[AnyStr]: 1
+Optional[collections.OrderedDict[str, collections.OrderedDict[str, Any]]]: 1
+typing.Generator[Any, Any, None]: 1
+_TMockEngine: 1
+MockEngine: 2
+Dict[Any, List[str]]: 1
+Union[_T0, _T1]: 3
+Generator[int, Any, int]: 1
+Generator[int, Any, nothing]: 2
+Coroutine[Any, Any, Optional[str]]: 1
+Coroutine[Any, Any, frozenset]: 1
+Tuple[AnyStr, AnyStr]: 4
+Generator[Tuple[uuid.UUID, Any, Any], Any, None]: 1
+Dict[str, Optional[Union[int, str]]]: 1
+Dict[str, Union[int, str, List[int]]]: 2
+Dict[str, Optional[Union[int, str, List[int]]]]: 2
+_TLazyCleanPatchExtractor: 1
+Node: 1
+typing.Generator[nothing, Any, None]: 1
+Tuple[Any, Union[str, _T0]]: 1
+Tuple[_T0, Tuple[_T2, _T1]]: 1
+Union[pytz._DstTzInfo, pytz._StaticTzInfo, pytz._UTCclass]: 2
+Generator[Tuple[Callable[[Any, Any], Any], str, Any], Any, None]: 1
+ZabbixAPISubClass: 1
+ssl.SSLContext: 2
+_TFakeFilePaths: 3
+Printer: 1
+pch2csd.patch.Patch: 1
+Optional[Union[pch2csd.patch.Cable, _T1]]: 1
+Generator[nothing, Any, nothing]: 1
+collections.OrderedDict: 9
+Tuple[collections.OrderedDict, Any]: 1
+Optional[Union[list, str]]: 1
+_TPositionalLabel: 2
+PositionalLabel: 1
+Type[ctypes._FuncPointer]: 1
+Type[ctypes.pointer[_CT]]: 1
+List[Tuple[None, Any]]: 1
+Optional[socket.socket]: 2
+TcpConnection: 1
+List[`namedtuple-Installment-number-payment-interest-principal-total_interest-balance`]: 1
+decimal.Decimal: 4
+Tuple[decimal.Decimal, Any]: 1
+`_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`: 3
+Tuple[List[Dict[str, Any]], list]: 1
+List[click.core.Command]: 2
+List[module]: 2
+bytearray: 6
+ScheduleInfo: 2
+List[ScheduleInfo]: 1
+MovieInfo: 1
+unittest.TestProgram: 2
+Token: 5
+Dict[str, List[Union[pyrcrack.models.AccessPoint, pyrcrack.models.Client]]]: 1
+List[pyrcrack.models.AccessPoint]: 1
+Tuple[Union[datetime.datetime, _T0], Union[datetime.datetime, _T1]]: 1
+Optional[Tuple[datetime.datetime, datetime.datetime]]: 1
+Tuple[List[Tuple[int, ...]], List[Tuple[int, ...]]]: 1
+_TTimer: 2
+pkg_resources.Distribution: 2
+`namedtuple-ImageInformation-build_date-image_type`: 1
+`_Tnamedtuple-ImageInformation-build_date-image_type`: 3
+Tuple[int, Any]: 4
+Dict[Any, List[list]]: 1
+_T_: 1
+FileVersionResult: 2
+AsyncGenerator[Tuple[Any, Any], Any]: 1
+AsyncGenerator[Tuple[Any, str], Any]: 1
+__builtin__.dict: 1
+Generator[Node, Any, None]: 1
+Dict[str, Union[bool, str]]: 6
+Optional[TextIO]: 1
+Coroutine[Any, Any, Optional[bytes]]: 1
+_TCreatePerson: 1
+Tuple[str, Union[str, _T1]]: 1
+requests.sessions.Session: 7
+Dict[str, Dict[str, _T0]]: 1
+List[_T]: 3
+Tuple[_T1, Any]: 1
+Tuple[_T1, None]: 1
+proxy.remote.RemoteInfo: 1
+Coroutine[Any, Any, API]: 1
+Tuple[Tuple[str, ...], Tuple[str, ...]]: 1
+Tuple[Tuple[int, ...], ...]: 1
+Union[Tuple[Any, Any, Any], _T3]: 1
+Tuple[_T1, Union[_T1, _T2], _T0]: 1
+Tuple[Any, Any, Union[_T2, _T3]]: 1
+Coroutine[Any, Any, Session]: 1
+Coroutine[Any, Any, CustomClientResponse]: 1
+Tuple[List[str], List[str]]: 2
+Generator[Tuple[int, int, int, int], Any, None]: 1
+chattymarkov.database.databases.MemoryDatabaseAsync: 1
+chattymarkov.database.databases.JSONFileDatabase: 1
+chattymarkov.database.databases.MemoryDatabase: 1
+Optional[Union[chattymarkov.database.databases.RedisDatabase, chattymarkov.database.databases.RedisDatabaseAsync]]: 1
+Optional[chattymarkov.database.databases.RedisDatabaseAsync]: 1
+Dict[Any, str]: 2
+collections.OrderedDict[nothing, nothing]: 5
+List[Dict[str, Union[Callable[[Any], Any], str]]]: 1
+Generator[Tuple[int, int], Any, None]: 1
+`namedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`: 2
+Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any]: 2
+`_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`: 3
+List[Optional[xml.etree.ElementTree.Element]]: 1
+gramtool.hunspell.HunSpell: 1
+Wrapper: 1
+Coroutine[Any, Any, YandexSpeechKitProvider]: 1
+_TRF2DictWriter: 1
+reversed: 7
+_TStreamline: 6
+_TStreamlines: 9
+`_Tnamedtuple-PredefinedOptions-app_id-context_id`: 3
+distutils.extension.Extension: 1
+Dict[Union[str, _T1], Any]: 1
+Dict[Tuple[Any, Any], Tuple[Any, Any]]: 1
+Dict[Any, Tuple[Any, Any]]: 2
+Dict[str, list]: 2
+Tuple[Any, bool]: 3
+Union[functools._SingleDispatchCallable[_T], singledispatch._SingleDispatchCallable[_T]]: 1
+Tuple[Optional[str], str]: 1
+Tuple[Any, Union[str, _T1]]: 1
+Coroutine[Any, Any, Dict[str, _T0]]: 1
+Tuple[dict, str]: 2
+Union[bytes, _T0]: 1
+Coroutine[Any, Any, Union[Reader, _csv._reader]]: 1
+_TReader: 1
+Coroutine[Any, Any, Tuple[Any, list]]: 1
+List[Callable[[Any], Any]]: 1
+Get_Reader: 1
+Session: 1
+Dict[str, Union[_T0, _T1, _T2, _T3]]: 1
+Tuple[collections.defaultdict[Tuple[Any, Any], Any], collections.defaultdict[Tuple[Any, Any], Any]]: 1
+typing.Counter: 1
+List[Tuple[Any, Tuple[str, ...], Any, Any]]: 1
+List[Tuple[str, int]]: 2
+collections.OrderedDict[str, collections.OrderedDict[nothing, nothing]]: 1
+Generator[str, Any, Any]: 3
+Union[List[Union[_T0, _T1]], _T0, _T1]: 1
+Tuple[Any, FrameType, Any]: 1
+Generator[Tuple[Any, FrameType, Any], Any, None]: 1
+Union[ChangeDelta, DeleteDelta, InsertDelta]: 2
+List[numpy.ndarray]: 4
+List[Union[list, Dict[Any, int]]]: 1
+Dict[Any, Iterator]: 1
+Tuple[list, list, List[Dict[str, Any]]]: 1
+Generator[Tuple[Any, Any, int], Any, None]: 1
+`_Tnamedtuple-TestNode-instance_id-unschedulable`: 3
+Generator[None, Any, Any]: 6
+List[asyncio.futures.Future]: 1
+Dict[str, float]: 1
+_TScratchDir: 1
+_TVRepApi: 1
+VRepApi: 1
+__builtin__.dict[str, Any]: 1
+Tuple[list, list, list, list, List[numpy.ndarray]]: 1
+Tuple[list, List[nothing]]: 1
+Tuple[str, Any, str]: 1
+Generator[Tuple[Any, Any], Any, Any]: 3
+Tuple[int, Dict[Any, int]]: 1
+List[Dict[str, Union[bool, str, List[str]]]]: 1
+_TCamera: 1
+Generator[Union[collections.OrderedDict, Dict[Any, _T3], _T1], Any, None]: 1
+Dict[str, Dict[str, int]]: 1
+Dict[str, Dict[int, str]]: 1
+`_Tnamedtuple-Token-kind-value`: 3
+Optional[Union[str, _T1]]: 1
+List[`namedtuple-Token-kind-value`]: 1
+Tuple[WechatHandle, Any, Any]: 1
+Tuple[Any, Optional[str]]: 3
+_Number: 2
+Coroutine[Any, Any, Timer]: 1
+_TAttackContext: 3
+_TInjection: 3
+GoogleVerificationResult: 1
+Optional[FlatbufferPrinter]: 1
+Tuple[Any, List[int], Dict[nothing, int]]: 1
+Tuple[list, Dict[Any, int]]: 1
+RemoveOldDataQueue: 2
+Optional[numpy.ndarray]: 1
+MockActionGenerator: 1
+ctypes.Array[ctypes.c_char]: 1
+posix.uname_result: 1
+`_Tnamedtuple-QuotaTuple-region-size`: 3
+_TBatchGenerator: 1
+Tuple[Union[int, str], Optional[Dict[str, Union[Dict[Any, Union[float, int, str]], List[Dict[str, Union[str, List[Dict[str, str]]]]], _T1]]]]: 1
+Tuple[Union[int, str], Optional[Dict[Any, Union[float, int, str]]]]: 1
+Tuple[int, Optional[int]]: 1
+xml.etree.ElementTree.ElementTree: 2
+Tuple[Any, _T1]: 3
+collections.OrderedDict[str, dict]: 1
+AutoSchemaDescriptor[nothing]: 1
+QuerySet[nothing]: 3
+Dict[Tuple[int, int], str]: 1
+Coroutine[Any, Any, collections.defaultdict]: 1
+typing.Counter[str]: 1
+subprocess.Popen[bytes]: 1
+Union[list, str]: 1
+Dict[Any, Dict[Any, Dict[Any, List[nothing]]]]: 1
+List[Tuple[Any, _T0, _T1, _T2]]: 1
+List[Tuple[Any, Any, _T1, str]]: 1
+Dict[Any, Union[dict, list]]: 1
+Tuple[str, Dict[str, Any], Dict[Any, Dict[Any, str]]]: 1
+Tuple[Union[bytes, mmap.mmap], bool]: 1
+List[Union[APICalls, Keywords, Types]]: 1
+List[Tuple[str, List[str]]]: 2
+List[Dict[str, Union[Dict[str, str], List[Dict[str, str]]]]]: 1
+Tuple[List[nothing], List[str]]: 1
+List[Dict[str, Union[Dict[str, str], List[Dict[str, Any]]]]]: 1
+Dict[str, Union[str, Dict[str, str], List[str]]]: 1
+Callable[[_FT], _FT]: 3
+Generator[functools.partial[nothing], Any, None]: 2
+Generator[Dict[str, Optional[Union[list, str]]], Any, None]: 2
+Coroutine[Any, Any, Group]: 2
+Tuple[LastActivity, str]: 1
+wordinserter.operations.Format: 1
+wordinserter.operations.Group: 1
+Union[str, flask.wrappers.Response]: 1
+GroundAction: 2
+Generator[Tuple[list, Any], Any, None]: 1
+_TState: 1
+Generator[Tuple[GroundAction, Any], Any, None]: 1
+contextlib._GeneratorContextManager: 2
+Tuple[str, str, str]: 2
+_TElianCharacter: 3
+collections.OrderedDict[str, str]: 1
+Generator[List[list], Any, None]: 1
+Generator[ElianCharacter, Any, None]: 1
+_TFileSize: 5
+Tuple[_T0, str]: 1
+_Tsocket: 2
+Tuple[socket, Any]: 1
+socket: 2
+Tuple[socket, socket]: 1
+Generator[Tuple[Any, _T0], Any, None]: 1
+Dict[str, Union[int, str]]: 1
+MockProtocol: 1
+Coroutine[Any, Any, MockResponse]: 1
+Coroutine[Any, Any, MockContext]: 1
+Optional[Dict[Any, Dict[nothing, nothing]]]: 1
+Union[bool, _T0]: 5
+Union[dict, _T0]: 1
+Union[list, _T0]: 7
+Tuple[None, Any, Any, None]: 1
+BodyState: 1
+Dict[str, Union[float, int, list]]: 1
+Union[int, _T1]: 1
+Union[bool, list]: 1
+Row: 2
+Generator[Row, Any, None]: 1
+Optional[Row]: 1
+buildtools.cmake.CMake: 1
+Dict[nothing, Any]: 3
+Union[bytes, list]: 1
+Dict[str, Optional[Union[str, _T0]]]: 1
+Tuple[Any, Any, Dict[nothing, nothing]]: 1
+LabelRunExecutable: 1
+Generator[Tuple[int, Any, nothing, Any], Any, None]: 1
+setiterator[nothing]: 2
+range: 3
+setiterator: 1
+WDFSA: 1
+_TTaintRecord: 1
+TaintResult: 1
+_TClient: 1
+Job: 3
+_TEnsembleClassifier: 1
+Tuple[Any, dict, Any]: 1
+ConnectedDevice: 1
+method_proxy.MethodWrapperProxy: 1
+Tuple[list, Union[Dict[str, Any], _T1]]: 2
+Tuple[Any, Dict[str, Any]]: 4
+Coroutine[Any, Any, Dict[str, Dict[str, Any]]]: 1
+List[Union[bytes, str]]: 1
+Set[bytes]: 1
+Union[str, Tuple[str, int]]: 2
+Tuple[list, Any, Any, Any, Any, Any, list]: 1
+Chain: 2
+FlatModel: 1
+collections.defaultdict[int, list]: 1
+Tuple[datetime.datetime, datetime.datetime, datetime.timedelta]: 2
+Generator[datetime.date, Any, None]: 2
+Generator[NeulionClipMetadata, Any, None]: 1
+common.PreparedVideoInfo: 1
+Generator[`namedtuple-Project-id-name`, Any, None]: 1
+`_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`: 3
+`_Tnamedtuple-Project-id-name`: 3
+collections.OrderedDict[Any, list]: 1
+Union[dict, collections.OrderedDict[Any, List[nothing]]]: 1
+Optional[tuple]: 1
+Tuple[Tuple[str, Any], Tuple[str, Any], Tuple[str, Any], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, Any], Tuple[str, str], Tuple[str, str]]: 1
+IncomingInterface: 1
+Changelog: 1
+_TChat: 1
+`_Tnamedtuple-Chat-users-msgs-id`: 3
+`_Tnamedtuple-Message-timestamp-user-msg`: 3
+Generator[Chat, Any, None]: 1
+Union[BootupMessage, HeartbeatMessage]: 1
+Union[SdoDownloadInitiateRequest, SdoDownloadSegmentRequest, SdoUploadInitiateRequest, SdoUploadSegmentRequest]: 1
+Union[SdoAbortResponse, SdoDownloadInitiateResponse, SdoDownloadSegmentResponse, SdoUploadInitiateResponse, SdoUploadSegmentResponse]: 1
+Optional[Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, Any]]: 1
+_TSearchCliArguments: 20
+Tuple[Any, _T3]: 1
+_TSymbolNUMBER: 16
+List[List[nothing]]: 1
+Tuple[Dict[str, str], Dict[str, Tuple[int, str, str]]]: 1
+Union[float, _T0]: 1
+Tuple[str, str, str, str, str, str, str, str, str]: 1
+Tuple[_T0, Any]: 6
+LocalPort: 1
+TCPIPPort: 1
+Tuple[Any, collections.defaultdict]: 1
+_TPoint_a: 1
+`_Tnamedtuple-Point-x-y`: 3
+`_Tnamedtuple-Point_a-x-y`: 3
+Type[CustomFormSubmission]: 1
+Tuple[Any, list, List[str]]: 1
+Dict[str, Union[float, int]]: 1
+Tuple[Any, Union[Dict[str, Union[float, int, str]], Tuple[nothing, ...]], Union[float, int], Union[float, int], Union[float, int]]: 1
+List[Union[list, str, List[Union[list, str]]]]: 1
+Iterator[Tuple[_S, Iterator[_T]]]: 2
+Iterator[Tuple[_T, Iterator[_T]]]: 2
+types.SimpleNamespace: 2
+Coroutine[Any, Any, Dict[Any, str]]: 2
+multiprocessing.context.Process: 1
+_Ttest_iter: 1
+test_iter: 2
+typing.Tuple[Any, Any]: 1
+typing.Callable[[Any, Any], Any]: 1
+typing.Dict[Any, typing.Union[int, _T0]]: 1
+typing.Dict[Any, typing.Union[str, _T0]]: 1
+typing.Generator[Optional[typing.Union[int, str]], Any, Optional[typing.Union[float, str]]]: 2
+Custom_Generic: 2
+typing.List[int]: 3
+typing.List[typing.Union[_T0, _T1]]: 1
+typing.Tuple[_T0, _T1]: 1
+typing.Dict[typing.Union[_T0, _T1], str]: 1
+Optional[bytearray]: 1
+Dict[int, list]: 1
+_TQJsonTreeItem: 1
+Tuple[Any, Any, List[Tuple[str, Any]]]: 2
+List[Tuple[Any, int]]: 2
+Tuple[bool, Any, _T1]: 1
+Generator[Union[HetAltAllele, HomAltAllele, NocallAllele, RefAllele], Any, None]: 1
+Iterator[Tuple[_T, ...]]: 2
+Generator[PathItem, Any, None]: 1
+Tuple[Generator[Tuple[Any, Any, list], Any, None], collections.defaultdict[HetAltAllele, int]]: 1
+Tuple[Generator[Any, Any, None], Generator[Any, Any, None]]: 1
+List[Union[str, _T0]]: 1
+Generator[Tuple[Callable[[Any, Any, Any, Any, Any, Any], Any], Any, int, Any, Any, Any, Any], Any, None]: 2
+Generator[Tuple[Any, Any, Any, Any, Any, str, str, bool, None, bool], Any, None]: 1
+Generator[Tuple[nothing, Any], Any, None]: 1
+_TEntityBuilder: 6
+_TTypeBuilder: 5
+Dict[Any, Dict[str, Union[dict, list]]]: 1
+Dict[str, Dict[str, Union[int, str]]]: 1
+Generator[Munch, Any, None]: 1
+Tuple[_T0, Callable[[Any, Any], Any]]: 2
+Tuple[int, _T0]: 1
+List[Tuple[list, int]]: 1
+List[Tuple[None, datetime.datetime]]: 1
+AbsoluteUrl: 2
+List[collections.OrderedDict[str, str]]: 1
+Coroutine[Any, Any, Optional[bool]]: 5
+Coroutine[Any, Any, Database]: 1
+Tuple[str, Tuple[Any, Any]]: 1
+telnetlib.Telnet: 1
+Tuple[list, int]: 1
+Coroutine[Any, Any, Optional[float]]: 1
+Tuple[Generator[Tuple[Any, Any], Any, None], Any]: 1
+Tuple[bool, List[str], Optional[str]]: 1
+Tuple[_T7, Any, Any, List[str]]: 1
+Tuple[str, str, Any, _T0]: 1
+bireus.client.repository.ClientRepository: 1
+Callable[[Any, Any, Any, Any, Any, Any, Any], Any]: 4
+Tuple[Any, int, Any, Any, Any]: 1
+Tuple[Any, Any, _T2]: 1
+Coroutine[Any, Any, TokenSession]: 1
+`_Tnamedtuple-JsonRpcMsg-type-data`: 3
+`namedtuple-JsonRpcMsg-type-data`: 1
+Tuple[Optional[Type[BaseException]], Optional[BaseException], Optional[types.TracebackType]]: 2
+Optional[module]: 1
+_TChannel: 1
+asyncio.futures.Future[_T]: 1
+Tuple[collections.defaultdict, List[Tuple[Any, Any]]]: 1
+Generator[Tuple[Word, Word], Any, None]: 1
+Tuple[Any, Any, list]: 1
+List[Tuple[bytes, Optional[str]]]: 1
+`dictionary-keyiterator`[str]: 1
+dict_items[str, Any]: 1
+dict_keys[str]: 1
+_TProxy: 1
+tibrvMsgDateTime: 1
+List[Tuple[socket.AddressFamily, socket.SocketKind, int, str, tuple]]: 1
+_TService: 1
+Union[list, Set[nothing]]: 1
+_TakeoutClient: 1
+Coroutine[Any, Any, _TakeoutClient]: 1
+Tuple[model.vqa_model.VqaModel, model.language_models.LSTMLanguageModel, model.image_models.VGGImageModel]: 1
+Tuple[List[str], List[str], List[str]]: 1
+interfaces.func_description.FuncDesc: 2
+Tuple[str, str, Any]: 1
+interfaces.spec.Spec: 1
+ProbeResult: 1
+List[Tuple[Any, str, bool]]: 1
+Tuple[None, None, None]: 1
+Tuple[dict, dict]: 1
+Tuple[bool, int]: 1
+Dict[str, Union[int, Dict[str, Union[str, Dict[str, str], List[Dict[str, Union[int, str]]]]]]]: 1
+statement.Block: 2
+statement.Exp: 1
+statement.FunDecl: 1
+statement.If: 1
+Union[expression.Ident, expression.Literal]: 1
+statement.Print: 1
+statement.Return: 1
+Union[statement.Block, statement.Break, statement.Exp, statement.Return]: 1
+statement.VarDecl: 1
+statement.While: 1
+Tuple[Tuple[numpy.ndarray, numpy.ndarray], Tuple[numpy.ndarray, numpy.ndarray], List[str]]: 1
+Tuple[str, http.client.HTTPMessage]: 1
+Optional[Union[bool, Match[str]]]: 1
+Generator[int, Any, Any]: 6
+Dict[str, Union[str, List[Dict[str, Union[bool, str, List[nothing]]]], _T0, _T1]]: 1
+List[Dict[str, Union[bool, str, List[nothing]]]]: 1
+DSLContract[nothing]: 2
+Tuple[Dict[str, Any], int]: 3
+Tuple[Union[Callable[[], Any], dict], asyncio.futures.Future]: 1
+MyItem: 1
+DiffNode: 2
+Chromosome: 3
+Dict[Union[str, Tuple[int, int]], Optional[str]]: 1
+List[Move]: 1
+Tuple[Any, bytes]: 1
+List[Dict[str, int]]: 1
+AzureBoundedRetry: 1
+List[AzureVirtualScaleSet]: 1
+dict_values[AzureInstance]: 1
+`_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`: 3
+`_Tnamedtuple-StudentSkill-name-value`: 3
+`_Tnamedtuple-StudentTask-name-attempted-solved-time`: 3
+`namedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`: 1
+List[`namedtuple-StudentSkill-name-value`]: 1
+List[`namedtuple-StudentTask-name-attempted-solved-time`]: 1
+List[List[Tuple[Any, Any, Any]]]: 2
+PrecalculatedTextMeasurer: 1
+AnyJoint: 1
+PassiveJoint: 1
+SphericalJoint: 1
+SpringJoint: 1
+JointWithPositionControl: 1
+JointWithVelocityControl: 1
+Pattern[str]: 1
+Window: 1
+List[Window]: 1
+Dict[Any, Tuple[Any, int]]: 1
+T: 1
+Tuple[Any, Tuple[_T0]]: 1
+Optional[ListNode]: 1
+_TTransceiver: 1
+_TPreset: 1
+Optional[List[ServerInfo]]: 1
+Tuple[str, Set[str]]: 1
+Iterable[str]: 2
+Tuple[str, set]: 1
+OperatorResponse: 7
+Popup: 1
+_TCommand: 3
+_TMakefile: 1
+PhonyRule: 1
+Rule: 2
+_TRule: 2
+_TVector2: 2
+Vector2: 1
+Tuple[Any, int, int]: 2
+Tuple[collections.OrderedDict[str, Any], Any]: 1
+Tuple[Union[int, _T2], Union[int, _T2]]: 1
+Tuple[Dict[str, int], Dict[int, str]]: 2
+Dict[str, Union[bool, str, Dict[str, Union[str, List[Dict[str, str]]]], List[Dict[str, List[Dict[str, str]]]]]]: 1
+Dict[str, Union[int, str, Dict[str, Union[str, List[Dict[str, str]]]], List[Dict[str, List[Dict[str, str]]]]]]: 1
+Iterator[Tuple[Optional[str], str]]: 1
+List[pathlib.Path]: 1
+Callable[[str], bool]: 1
+Tuple[Type[Enum], Tuple[Any]]: 1
+Dict[str, module]: 1
+_TLoop: 1
+_TMoveTrieNode: 1
+Dict[Any, functools.partial[nothing]]: 1
+Dict[Any, List[Tuple[Any, int]]]: 1
+Tuple[list, Any, Any]: 1
+_TAbsData: 1
+datetime.date: 3
+Optional[Union[str, _T0]]: 2
+Union[Sequence, _T0]: 1
+functools.partial[nothing]: 2
+_TIntervalSet: 2
+HasValue: 1
+HasValues: 1
+Prop: 1
+Coroutine[Any, Any, List[Dict[str, Any]]]: 1
+Generator[Tuple[Any, flow.Flow], Any, None]: 1
+Optional[FrozenSet[Tuple[Any, Any]]]: 1
+AsyncGenerator[Tuple[int, Any], Any]: 1
+Purchase: 1
+Tuple[Any, int, Any, Any]: 1
+Union[TFTPServerState, bool]: 1
+`_Tnamedtuple-FakeArgs-`: 3
+Optional[Tuple[List[`namedtuple-Node-num-attribute-value-output`], List[`namedtuple-Edge-a-b`]]]: 1
+`_Tnamedtuple-Edge-a-b`: 3
+`_Tnamedtuple-Node-num-attribute-value-output`: 3
+KlaxerMessage: 1
+KlaxerUser: 2
+physt.histogram_collection.HistogramCollection: 1
+Tuple[Callable[[Any, Any, Any, Any], Any], _T0]: 5
+Tuple[Callable[[Any, Any, Any, Any], Any], Any]: 1
+List[frozenset]: 1
+Optional[xml.etree.ElementTree.Element]: 1
+Tuple[List[collections.OrderedDict[str, Any]], List[str]]: 1
+Union[collections.OrderedDict, functools.partial[nothing]]: 1
+`_Tnamedtuple-Var-name-type-default-help-flags-filename`: 3
+Tuple[float, float]: 1
+Tuple[UserMood, str]: 1
+Iterator[Tuple[int, int]]: 2
+__builtin__.NotImplementedType: 1
+List[Union[EmitsBytes, EmitsError, EmitsWarning, SkipBytes]]: 1
+Tuple[int, Any, List[str]]: 1
+ContactModel: 1
+Tuple[bool, float]: 1
+List[ContactModel]: 1
+`_Tnamedtuple-CLDRMode-name-direction-required`: 3
+Union[Async, Result, Stream]: 1
+Union[dict, list]: 1
+Union[ApiObject, ApiObjectList, _T0]: 1
+Audio: 1
+_TCaptionableMessage: 1
+Contact: 1
+Document: 1
+Location: 1
+_TMessage: 6
+Message: 2
+_TOutApiObject: 1
+Photo: 1
+Sticker: 1
+Video: 1
+VideoNote: 1
+Voice: 1
+Coroutine[Any, Any, dict]: 1
+List[concurrent.futures._base.Future]: 1
+concurrent.futures._base.Future: 1
+dict_keys[nothing]: 1
+_LogChannel: 1
+Optional[`namedtuple-TypeImport-module-symbol`]: 2
+`_Tnamedtuple-TypeImport-module-symbol`: 3
+Application: 1
+_TOCMio: 1
+Dict[Any, datetime.datetime]: 1
+Set[Union[str, _T0]]: 1
+Tuple[Callable[[], None], Any]: 1
+Type[RouteMapping]: 8
+_TRouteMapping: 1
+_TInput: 1
+__builtin__.dict[__builtin__.str, Callable[[Any, Any, Any], Any]]: 1
+__builtin__.dict[__builtin__.str, __builtin__.dict[__builtin__.str, Any]]: 1
+Dict[Any, Dict[Any, Dict[str, Any]]]: 1
+`_Tnamedtuple-ColumnPair-from_column-to_column`: 3
+`_Tnamedtuple-ColumnSort-table_name-column_name-direction`: 3
+`_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`: 3
+`_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`: 3
+Tuple[tuple, Dict[str, Any]]: 1
+Tuple[range, List[int]]: 1
+Dict[str, Type[pairwise_models.simple.SimpleModel]]: 1
+pairwise_models.simple.SimpleModel: 1
+Workflow: 1
+_TConstantModel: 1
+_TKMeansSplitter: 1
+_TStacker: 1
+_TVoter: 1
+_TWorkflow: 1
+Union[int, _T2]: 1
+Tuple[Any, BinaryIO, str]: 1
+card_reader.CardReader: 1
+Iterator[_N]: 1
+Optional[pathlib.Path]: 1
+Generator[pathlib.Path, Any, None]: 1
+tempfile.SpooledTemporaryFile[nothing]: 1
+Tuple[Any, List[str]]: 1
+Union[datetime.datetime, _T0]: 1
+Dict[Any, TaxCalcParam]: 3
+List[Dict[Any, List[Dict[Any, Union[TaxCalcParam, dict, List[Dict[Any, TaxCalcParam]]]]]]]: 1
+List[Dict[Any, List[Dict[Any, dict]]]]: 1
+Display: 1
+Edit: 1
+Coroutine[Any, Any, Optional[_T1]]: 1
+Union[flask.wrappers.Response, Tuple[str, int]]: 1
+Optional[_importlib_modulespec.ModuleSpec]: 1
+Generator[Union[str, List[str]], Any, None]: 2
+List[loaderlib.constants.MatchResult]: 1
+Coroutine[Any, Any, Tuple[Any, Any, Any, Any]]: 1
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`: 3
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`: 3
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`: 3
+`namedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`: 1
+`namedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`: 1
+`namedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`: 1
+Tuple[logging.Logger, multiprocessing.queues.Queue[nothing], logging.Formatter, int, Callable]: 1
+Object: 3
+Union[Transaction, Callable]: 1
+Optional[datetime.date]: 1
+collections.OrderedDict[str, collections.OrderedDict[str, Any]]: 1
+_TInlineToken: 1
+Tuple[list, bool]: 2
+Tuple[Any, numpy.ndarray, Any, Any]: 1
+_TSomfyRTS: 1
+OptionHelpInfo: 1
+OptionScopeHelpInfo: 1
+Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any]: 1
+`_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`: 3
+collections.OrderedDict[__builtin__.str, Any]: 2
+`_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`: 3
+_TNumberOfEntities: 1
+Optional[Leaf]: 1
+_TLeaf: 1
+Union[Leaf, TreeNode]: 1
+Dict[str, Union[dict, list]]: 1
+Optional[enum.Enum]: 1
+_TMods: 1
+`_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`: 3
+`namedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`: 1
+`_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`: 3
+`_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`: 3
+`_Tnamedtuple-PPStats-pp-stars-artist-title-version`: 3
+Coroutine[Any, Any, Optional[`namedtuple-PPStats-pp-stars-artist-title-version`]]: 1
+Tuple[bool, Any, Any, Any]: 1
+_TChain: 3
+List[List[Union[Callable[[Any, Any], Any], Dict[nothing, nothing], List[_T0]]]]: 2
+_T_x: 3
+asyncio.futures.Future[nothing]: 1
+Dict[str, Union[str, Dict[str, Any]]]: 2
+Union[module, _T0]: 1
+Tuple[type, ...]: 1
+Tuple[_T0, Any, Any, Any, Any, Any, Any, Any]: 1
+_T_zk: 1
+Dict[str, int]: 1
+Dict[str, Union[str, _T0, _T1]]: 1
+Union[Dict[nothing, nothing], Tuple[Any, Dict[str, Dict[str, Union[float, int, List[Dict[str, Union[bool, float, Dict[str, Any]]]], Set[int]]]]]]: 1
+collections.OrderedDict[str, Optional[Union[collections.OrderedDict[Any, collections.OrderedDict[Any, collections.OrderedDict[str, Any]]], _T1]]]: 1
+concurrent.futures.thread.ThreadPoolExecutor: 1
+Tuple[Optional[_T0], Any, Any]: 1
+Coroutine[Any, Any, bytes]: 1
+Tuple[numpy.ndarray, numpy.ndarray, Any]: 1
+Tuple[numpy.ndarray, numpy.ndarray, numpy.ndarray]: 1
+Generator[Tuple[Tuple[Optional[int], ...], int], Any, None]: 1
+_TZenobaseAPI: 1
+Config: 1
+Dict[str, Union[_T0, _T1, _T2]]: 1
+List[Optional[str]]: 1
+Dict[Any, Dict[str, Any]]: 1
+List[Tuple[str, bytes]]: 1
+_TColorizer: 1
+Tuple[_T0, Dict[nothing, nothing]]: 1
+Tuple[bool, Any, Any]: 2
+Tuple[bool, Optional[str], Any]: 1
+Tuple[bool, _T2, Any]: 1
+Tuple[bool, Optional[str], Optional[Dict[Any, bool]]]: 2
+Tuple[Any, int, int, int]: 1
+Dict[str, Tuple[Any, Any]]: 1
+DiffHead: 2
+Coroutine[Any, Any, Dict[uuid.UUID, Any]]: 1
+Coroutine[Any, Any, collections.OrderedDict]: 1
+Dict[uuid.UUID, Any]: 1
+Optional[Union[datetime.datetime, _T0]]: 1
+Tuple[Optional[list], Optional[list]]: 1
+Tuple[Optional[List[list]], Optional[List[list]]]: 1
+`_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`: 3
+Tuple[Any, `namedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`]: 1
+_TResponse: 1
+Response: 1
+_TResponseMessage: 4
+List[Tuple[str, int, Any]]: 1
+`_Tnamedtuple-Position-x-y`: 3
+`_Tnamedtuple-TileSet-image-positions`: 3
+Coroutine[Any, Any, PaginatedList[nothing]]: 1
+PaginatedListProxy[nothing]: 1
+Dict[str, dict]: 1
+Dict[str, Union[bool, float, Dict[str, Any]]]: 1
+Tuple[Dict[str, Any], Any]: 1
+_TWeeelabLogs: 2
+Coroutine[Any, Any, _T1]: 1
+_TSniffer: 1
+_TRoute: 1
+werkzeug.routing.Submount: 1
+Tuple[_T1, Any, Dict[nothing, nothing]]: 1
+Dict[Any, Dict[int, Dict[str, list]]]: 1
+Dict[str, Union[int, List[str]]]: 1
+Tuple[Any, List[int], Any, List[int]]: 1
+List[Tuple[List[Tuple[str, str]], Dict[str, int]]]: 1
+List[Tuple[List[Tuple[str, str]], Dict[str, Dict[str, Dict[str, List[Dict[str, Union[float, int, str]]]]]]]]: 1
+Dict[str, Callable]: 1
+Dict[str, Dict[str, _T1]]: 1
+Tuple[Tuple[str, Any], Tuple[str, Any], Tuple[str, Any], Tuple[str, str]]: 3
+Tuple[Tuple[str, Any], Tuple[str, Any], Tuple[Any, str]]: 1
+Tuple[Tuple[str, Any], Tuple[Any, str]]: 1
+Runner: 1
+io.StringIO: 1
+Dict[str, List[float]]: 1
+Dict[str, Union[int, List[int]]]: 1
+List[Dict[str, list]]: 1
+Optional[BuildSystem]: 1
+Coroutine[Any, Any, __builtin__.list]: 1
+Tuple[bool, Optional[smtplib.SMTP_SSL]]: 1
+Dict[str, Union[str, Dict[str, Union[int, str, Dict[str, Union[int, str, _T0]]]], List[Dict[str, Any]]]]: 1
+Tuple[Any, None, int]: 1
+`_Tnamedtuple-FSimilar-name-comment-sim_grade`: 3
+Randomness: 1
+Timestamp: 1
+Tuple[_T0, dict]: 1
+Dict[str, Dict[str, Union[float, int, str, List[nothing]]]]: 1
+Union[bool, _T4]: 1
+_TBaseService: 2
+_TSignature: 1
+List[Tuple[Union[Interpretation, _T1], Any]]: 1
+Operation: 1
+Tuple[Any, Optional[Match]]: 2
+Tuple[List[Tuple[Any, int]], Dict[Any, List[Tuple[Any, int, int, Any]]]]: 1
+`_Tnamedtuple-NFA-state-groups_count-named_groups`: 3
+`namedtuple-NFA-state-groups_count-named_groups`: 1
+Union[str, _T]: 1
+CommandGraphCall: 1
+CommandGraphObject: 1
+Tuple[Tuple[Any, Any], Tuple[Any, Any], Tuple[Any, Any]]: 1
+_THistogramCollection: 2
+HistogramCollection: 2
+Dict[str, Union[list, str]]: 1
+Generator[Tuple[Tuple[int, int, int], Tuple[Any, Any, Any], Tuple[Any, Any, Any]], Any, None]: 1
+Dict[Union[float, int], tuple]: 1
+Optional[Predicate]: 1
+_TSemanticContext: 1
+_TAugeasNode: 1
+Generator[AugeasNode, Any, None]: 2
+_TAugeasWrapper: 1
+Generator[pathlib.Path, None, None]: 1
+TransferTokenTransaction: 1
+
+------ Assignments types ------
+
+Total assignments: 73690
+
+Any: 25150
+None: 423
+...: 23410
+module: 6476
+str: 4627
+Dict[str, Type[Union[DevConfig, ProdConfig, TestConfig]]]: 1
+bool: 552
+int: 1851
+functools.partial[nothing]: 63
+`namedtuple-PTCoefficientStandard-a-b-c`: 2
+collections.OrderedDict[str, Any]: 110
+Tuple[str, str, str]: 50
+Type[`_Tnamedtuple-PTCoefficientStandard-a-b-c`], a, b, c) -> `_Tnamedtuple-PTCoefficientStandard-a-b-c`: 1
+Type[`_Tnamedtuple-PTCoefficientStandard-a-b-c`], iterable: 1
+`_Tnamedtuple-PTCoefficientStandard-a-b-c`, **kwds) -> `_Tnamedtuple-PTCoefficientStandard-a-b-c`: 1
+str, field_names: 42
+List[str]: 553
+flask.wrappers.Request: 40
+int = ..., Response: 20
+Union[str, Iterable[str]], **context) -> str: 16
+Dict[str, str]: 106
+argparse.ArgumentParser: 74
+urllib.request.Request: 1
+argparse.Namespace: 56
+TradeLog: 1
+settings.Settings: 1
+Dict[str, Dict[str, Any]]: 4
+__builtin__.type[builtins.ArithmeticError]: 3
+__builtin__.type[builtins.AssertionError]: 3
+__builtin__.type[builtins.AttributeError]: 3
+__builtin__.type[builtins.BaseException]: 3
+__builtin__.type[builtins.BlockingIOError]: 3
+__builtin__.type[builtins.BrokenPipeError]: 3
+__builtin__.type[builtins.BufferError]: 3
+__builtin__.type[builtins.BytesWarning]: 3
+__builtin__.type[builtins.ChildProcessError]: 3
+__builtin__.type[builtins.ConnectionAbortedError]: 3
+__builtin__.type[builtins.ConnectionError]: 3
+__builtin__.type[builtins.ConnectionRefusedError]: 3
+__builtin__.type[builtins.ConnectionResetError]: 3
+__builtin__.type[builtins.DeprecationWarning]: 3
+__builtin__.type[builtins.EOFError]: 3
+__builtin__.ellipsis: 3
+__builtin__.type[__builtin__.OSError]: 6
+__builtin__.type[builtins.Exception]: 3
+__builtin__.bool: 7
+__builtin__.type[builtins.FileExistsError]: 3
+__builtin__.type[builtins.FileNotFoundError]: 3
+__builtin__.type[builtins.FloatingPointError]: 3
+__builtin__.type[builtins.FutureWarning]: 3
+__builtin__.type[builtins.GeneratorExit]: 3
+__builtin__.type[builtins.ImportError]: 3
+__builtin__.type[builtins.ImportWarning]: 3
+__builtin__.type[builtins.IndentationError]: 3
+__builtin__.type[builtins.IndexError]: 3
+__builtin__.type[builtins.InterruptedError]: 3
+__builtin__.type[builtins.IsADirectoryError]: 3
+__builtin__.type[builtins.KeyError]: 3
+__builtin__.type[builtins.KeyboardInterrupt]: 3
+__builtin__.type[builtins.LookupError]: 3
+__builtin__.type[builtins.MemoryError]: 3
+__builtin__.type[builtins.ModuleNotFoundError]: 3
+__builtin__.type[builtins.NameError]: 3
+__builtin__.NoneType: 3
+__builtin__.type[builtins.NoneType]: 3
+__builtin__.type[builtins.NotADirectoryError]: 3
+__builtin__.NotImplementedType: 3
+__builtin__.type[builtins.NotImplementedError]: 3
+__builtin__.type[builtins.NotImplementedType]: 3
+__builtin__.type[builtins.OSError]: 3
+__builtin__.type[builtins.OverflowError]: 3
+__builtin__.type[builtins.PendingDeprecationWarning]: 3
+__builtin__.type[builtins.PermissionError]: 3
+__builtin__.type[builtins.ProcessLookupError]: 3
+__builtin__.type[builtins.PyCapsule]: 3
+__builtin__.type[builtins.RecursionError]: 3
+__builtin__.type[builtins.ReferenceError]: 3
+__builtin__.type[builtins.ResourceWarning]: 3
+__builtin__.type[builtins.RuntimeError]: 3
+__builtin__.type[builtins.RuntimeWarning]: 3
+__builtin__.type[builtins.StandardError]: 3
+__builtin__.type[builtins.StopAsyncIteration]: 3
+__builtin__.type[builtins.StopIteration]: 3
+__builtin__.type[builtins.SyntaxError]: 3
+__builtin__.type[builtins.SyntaxWarning]: 3
+__builtin__.type[builtins.SystemError]: 3
+__builtin__.type[builtins.SystemExit]: 3
+__builtin__.type[builtins.TabError]: 3
+__builtin__.type[builtins.TimeoutError]: 3
+__builtin__.type[builtins.TypeError]: 3
+__builtin__.type[Union[__builtin__.type, __builtin__.tuple[Union[__builtin__.type, __builtin__.tuple[__builtin__.type]]]]]: 3
+__builtin__.type[builtins.UnboundLocalError]: 3
+__builtin__.type[builtins.UnicodeDecodeError]: 3
+__builtin__.type[builtins.UnicodeEncodeError]: 3
+__builtin__.type[builtins.UnicodeError]: 3
+__builtin__.type[builtins.UnicodeTranslateError]: 3
+__builtin__.type[builtins.UnicodeWarning]: 3
+__builtin__.type[builtins.UserWarning]: 3
+__builtin__.type[builtins.ValueError]: 3
+__builtin__.type[builtins.Warning]: 3
+__builtin__.type[builtins.ZeroDivisionError]: 3
+__future__._Feature: 279
+__builtin__.type[builtins.asyncgenerator]: 3
+__builtin__.type[builtins.bool]: 3
+__builtin__.type[builtins.bytearray]: 3
+__builtin__.type[builtins.bytearray_iterator]: 3
+__builtin__.type[builtins.bytes]: 3
+__builtin__.type[builtins.`callable-iterator`]: 3
+__builtin__.type[builtins.classmethod]: 3
+__builtin__.type[builtins.classobj]: 3
+__builtin__.type[builtins.code]: 3
+__builtin__.type[builtins.complex]: 3
+__builtin__.type[builtins.coroutine]: 3
+__builtin__.type[builtins.dict]: 3
+__builtin__.type[builtins.dict_items]: 3
+__builtin__.type[builtins.dict_keys]: 3
+__builtin__.type[builtins.dict_values]: 3
+__builtin__.type[builtins.`dictionary-itemiterator`]: 3
+__builtin__.type[builtins.`dictionary-keyiterator`]: 3
+__builtin__.type[builtins.`dictionary-valueiterator`]: 3
+__builtin__.type[builtins.ellipsis]: 3
+__builtin__.type[builtins.enumerate]: 3
+__builtin__.type[builtins.float]: 3
+__builtin__.type[builtins.frozenset]: 3
+__builtin__.type[builtins.generator]: 3
+__builtin__.type[builtins.instancemethod]: 3
+__builtin__.type[builtins.int]: 3
+__builtin__.type[builtins.list]: 3
+__builtin__.type[builtins.listiterator]: 3
+__builtin__.type[builtins.listreverseiterator]: 3
+__builtin__.type[builtins.memoryview]: 3
+__builtin__.type[builtins.module]: 3
+__builtin__.type[builtins.object]: 3
+__builtin__.module: 7
+mock._patcher: 4
+__builtin__.type[builtins.property]: 3
+__builtin__.type[builtins.range]: 3
+__builtin__.type[builtins.reversed]: 3
+__builtin__.type[builtins.set]: 3
+__builtin__.type[builtins.setiterator]: 3
+__builtin__.type[builtins.slice]: 3
+__builtin__.type[builtins.staticmethod]: 3
+__builtin__.type[builtins.str]: 3
+__builtin__.type[builtins.super]: 3
+__builtin__.type[builtins.tuple]: 3
+__builtin__.type[builtins.tupleiterator]: 3
+Callable, *args, **kwargs) -> __builtin__.NoneType: 3
+Union[__builtin__.float, __builtin__.int]) -> __builtin__.str: 3
+__builtin__.int) -> __builtin__.str: 9
+__builtin__.list[_T], y: 3
+__builtin__.tuple[_T], y: 3
+_T, y: 3
+__builtin__.str, mode: 3
+Union[__builtin__.bytearray, __builtin__.bytes, __builtin__.str]) -> __builtin__.NoneType: 3
+__builtin__.int, y: 6
+Union[__builtin__.complex, __builtin__.float, __builtin__.int], y: 6
+Union[__builtin__.float, __builtin__.int], y: 6
+__builtin__.str, *args, **kwargs) -> __builtin__.NoneType: 3
+Union[Callable[[_T], Any], __builtin__.NoneType], iterable: 3
+__builtin__.str, *args, **kwargs) -> Any: 3
+__builtin__.str) -> __builtin__.bool: 3
+__builtin__.str = ...) -> __builtin__.str: 3
+Union[__builtin__.bytearray, __builtin__.str]) -> __builtin__.str: 3
+Union[__builtin__.type, __builtin__.tuple[Union[__builtin__.type, __builtin__.tuple[__builtin__.type]]]]) -> __builtin__.bool: 3
+__builtin__.type, class_or_type_or_tuple: 3
+__builtin__.bytearray) -> __builtin__.bytearray_iterator: 3
+__builtin__.dict[_T, _T2]) -> __builtin__.`dictionary-keyiterator`[_T]: 3
+__builtin__.generator[_T]) -> __builtin__.generator[_T]: 3
+__builtin__.list[_T]) -> __builtin__.listiterator[_T]: 3
+__builtin__.set[_T]) -> __builtin__.setiterator[_T]: 3
+__builtin__.tuple[_T]) -> __builtin__.tupleiterator[_T]: 3
+Iterable[_T]) -> Iterator[_T]: 3
+Callable[[], Union[_T, _T2]], sentinel: 3
+Sized) -> __builtin__.int: 3
+Iterable[nothing]) -> Iterator[nothing]: 7
+Callable[..., _T], *sequences: 7
+_T, arg2: 24
+Iterable[_T], key: 11
+Iterator[_T], default: 3
+Union[_PathLike, __builtin__.bytes, __builtin__.int, __builtin__.str], mode: 3
+Union[__builtin__.bytes, __builtin__.str]) -> __builtin__.int: 3
+Callable, iterable: 3
+Callable[..., _T], iterable: 6
+__builtin__.module) -> __builtin__.module: 3
+Union[__builtin__.float, __builtin__.int, SupportsRound], *args, **kwargs) -> __builtin__.float: 3
+__builtin__.str, value) -> __builtin__.NoneType: 3
+Iterable[_T], *args, **kwargs) -> __builtin__.list[_T]: 3
+Iterable[_NUMBER]) -> _NUMBER: 3
+Iterable[_T], start: 7
+Iterable) -> Iterator[__builtin__.tuple]: 3
+Iterable, seq2: 6
+Iterable[nothing], seq2: 6
+Iterable[_T]) -> Iterator[__builtin__.tuple[_T]]: 3
+Iterable[_T], seq2: 6
+Crawler: 1
+Type[datetime.datetime]: 129
+Type[datetime.date]: 19
+Set[nothing]: 9
+str, package: 6
+Type[decimal.Decimal]: 25
+Type[collections.OrderedDict]: 53
+List[List[Union[int, str, decimal.Decimal]]]: 1
+Type[goban.Goban]: 1
+Type[goban.Move]: 1
+GoBot: 1
+Union[float, int]: 14
+IO[bytes], protocol: 1
+IO[bytes], *, fix_imports: 1
+float) -> None: 25
+Dict[str, Union[bool, str, List[Union[str, Tuple[str, str]]]]]: 1
+Type[itertools.chain]: 20
+_T2, **kwargs) -> _T2: 1
+_T0) -> _T0: 104
+Type[contextlib.suppress]: 6
+list: 348
+Callable[[_T, _S], _T], sequence: 12
+Callable[[_T, _T], _T], sequence: 12
+Type[range]: 3
+sqlite3.dbapi2.Connection: 8
+sqlite3.dbapi2.Cursor: 4
+Type[argparse.Namespace]: 8
+pathlib.Path: 49
+logging.Logger: 294
+click.core.Command: 57
+Dict[str, int]: 36
+float: 187
+Dict[Any, numpy.ndarray]: 1
+Generator[Any, Any, None]: 4
+Dict[str, Any]: 147
+numpy.ndarray: 35
+Dict[Any, nothing]: 1
+Sequence[_T]) -> _T: 8
+Optional[socket.socket]: 1
+Pattern[str]: 132
+Dict[str, Type[AnsibleRoleDirective]]: 1
+Dict[str, Dict[nothing, nothing]]: 1
+Dict[str, AnsibleRoleRole]: 1
+_T3, target: 1
+List[nothing]: 153
+List[Type[MLEngineHook]]: 1
+List[Type[MLEngineTrainingOperator]]: 1
+Type[werkzeug.exceptions.Forbidden]: 2
+Type[werkzeug.exceptions.InternalServerError]: 1
+Type[werkzeug.exceptions.NotFound]: 1
+dict: 160
+Union[bytearray, bytes, memoryview] = ...) -> hashlib._Hash: 14
+Tuple[str]: 28
+__builtin__.dict[nothing, nothing]: 6
+_TObject, **kwargs) -> _TObject: 1
+Tuple[str, str, str, str, str]: 14
+Type[`_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`], account, tag, value, currency, modelCode) -> `_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`: 1
+Type[`_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`], iterable: 1
+`_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`, **kwds) -> `_Tnamedtuple-AccountValue-account-tag-value-currency-modelCode`: 1
+Type[`_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`], parent, takeProfit, stopLoss) -> `_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`: 1
+Type[`_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`], iterable: 1
+`_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`, **kwds) -> `_Tnamedtuple-BracketOrder-parent-takeProfit-stopLoss`: 1
+Tuple[str, str, str, str, str, str]: 13
+Type[`_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`], startTime, duration, numBytesRecv, numBytesSent, numMsgRecv, numMsgSent) -> `_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`: 1
+Type[`_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`], iterable: 1
+`_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`, **kwds) -> `_Tnamedtuple-ConnectionStats-startTime-duration-numBytesRecv-numBytesSent-numMsgRecv-numMsgSent`: 1
+Type[`_Tnamedtuple-DOMLevel-price-size-marketMaker`], price, size, marketMaker) -> `_Tnamedtuple-DOMLevel-price-size-marketMaker`: 1
+Type[`_Tnamedtuple-DOMLevel-price-size-marketMaker`], iterable: 1
+`_Tnamedtuple-DOMLevel-price-size-marketMaker`, **kwds) -> `_Tnamedtuple-DOMLevel-price-size-marketMaker`: 1
+Tuple[str, str, str, str]: 30
+Type[`_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`], past12Months, next12Months, nextDate, nextAmount) -> `_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`: 1
+Type[`_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`], iterable: 1
+`_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`, **kwds) -> `_Tnamedtuple-Dividends-past12Months-next12Months-nextDate-nextAmount`: 1
+Tuple[str, str]: 62
+Type[`_Tnamedtuple-FamilyCode-accountID-familyCodeStr`], accountID, familyCodeStr) -> `_Tnamedtuple-FamilyCode-accountID-familyCodeStr`: 1
+Type[`_Tnamedtuple-FamilyCode-accountID-familyCodeStr`], iterable: 1
+`_Tnamedtuple-FamilyCode-accountID-familyCodeStr`, **kwds) -> `_Tnamedtuple-FamilyCode-accountID-familyCodeStr`: 1
+Type[`_Tnamedtuple-Fill-contract-execution-commissionReport-time`], contract, execution, commissionReport, time) -> `_Tnamedtuple-Fill-contract-execution-commissionReport-time`: 1
+Type[`_Tnamedtuple-Fill-contract-execution-commissionReport-time`], iterable: 1
+`_Tnamedtuple-Fill-contract-execution-commissionReport-time`, **kwds) -> `_Tnamedtuple-Fill-contract-execution-commissionReport-time`: 1
+Type[`_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`], time, providerCode, articleId, headline) -> `_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`: 1
+Type[`_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`], iterable: 1
+`_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`, **kwds) -> `_Tnamedtuple-HistoricalNews-time-providerCode-articleId-headline`: 1
+Type[`_Tnamedtuple-HistoricalTick-time-price-size`], time, price, size) -> `_Tnamedtuple-HistoricalTick-time-price-size`: 1
+Type[`_Tnamedtuple-HistoricalTick-time-price-size`], iterable: 1
+`_Tnamedtuple-HistoricalTick-time-price-size`, **kwds) -> `_Tnamedtuple-HistoricalTick-time-price-size`: 1
+Type[`_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`], time, tickAttribBidAsk, priceBid, priceAsk, sizeBid, sizeAsk) -> `_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`: 1
+Type[`_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`], iterable: 1
+`_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`, **kwds) -> `_Tnamedtuple-HistoricalTickBidAsk-time-tickAttribBidAsk-priceBid-priceAsk-sizeBid-sizeAsk`: 1
+Type[`_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`], time, tickAttribLast, price, size, exchange, specialConditions) -> `_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`: 1
+Type[`_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`], iterable: 1
+`_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`, **kwds) -> `_Tnamedtuple-HistoricalTickLast-time-tickAttribLast-price-size-exchange-specialConditions`: 1
+Tuple[str, str, str, str, str, str, str]: 7
+Type[`_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`], time, position, marketMaker, operation, side, price, size) -> `_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`: 1
+Type[`_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`], iterable: 1
+`_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`, **kwds) -> `_Tnamedtuple-MktDepthData-time-position-marketMaker-operation-side-price-size`: 1
+Type[`_Tnamedtuple-NewsArticle-articleType-articleText`], articleType, articleText) -> `_Tnamedtuple-NewsArticle-articleType-articleText`: 1
+Type[`_Tnamedtuple-NewsArticle-articleType-articleText`], iterable: 1
+`_Tnamedtuple-NewsArticle-articleType-articleText`, **kwds) -> `_Tnamedtuple-NewsArticle-articleType-articleText`: 1
+Type[`_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`], msgId, msgType, message, origExchange) -> `_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`: 1
+Type[`_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`], iterable: 1
+`_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`, **kwds) -> `_Tnamedtuple-NewsBulletin-msgId-msgType-message-origExchange`: 1
+Type[`_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`], timeStamp, providerCode, articleId, headline, extraData) -> `_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`: 1
+Type[`_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`], iterable: 1
+`_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`, **kwds) -> `_Tnamedtuple-NewsTick-timeStamp-providerCode-articleId-headline-extraData`: 1
+Type[`_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`], exchange, underlyingConId, tradingClass, multiplier, expirations, strikes) -> `_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`: 1
+Type[`_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`], iterable: 1
+`_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`, **kwds) -> `_Tnamedtuple-OptionChain-exchange-underlyingConId-tradingClass-multiplier-expirations-strikes`: 1
+Tuple[str, str, str, str, str, str, str, str]: 11
+Type[`_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`], impliedVol, delta, optPrice, pvDividend, gamma, vega, theta, undPrice) -> `_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`: 1
+Type[`_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`], iterable: 1
+`_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`, **kwds) -> `_Tnamedtuple-OptionComputation-impliedVol-delta-optPrice-pvDividend-gamma-vega-theta-undPrice`: 1
+Type[`_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`], contract, position, marketPrice, marketValue, averageCost, unrealizedPNL, realizedPNL, account) -> `_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`: 1
+Type[`_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`], iterable: 1
+`_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`, **kwds) -> `_Tnamedtuple-PortfolioItem-contract-position-marketPrice-marketValue-averageCost-unrealizedPNL-realizedPNL-account`: 1
+Type[`_Tnamedtuple-Position-account-contract-position-avgCost`], account, contract, position, avgCost) -> `_Tnamedtuple-Position-account-contract-position-avgCost`: 1
+Type[`_Tnamedtuple-Position-account-contract-position-avgCost`], iterable: 1
+`_Tnamedtuple-Position-account-contract-position-avgCost`, **kwds) -> `_Tnamedtuple-Position-account-contract-position-avgCost`: 1
+Type[`_Tnamedtuple-PriceIncrement-lowEdge-increment`], lowEdge, increment) -> `_Tnamedtuple-PriceIncrement-lowEdge-increment`: 1
+Type[`_Tnamedtuple-PriceIncrement-lowEdge-increment`], iterable: 1
+`_Tnamedtuple-PriceIncrement-lowEdge-increment`, **kwds) -> `_Tnamedtuple-PriceIncrement-lowEdge-increment`: 1
+Type[`_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`], rank, contractDetails, distance, benchmark, projection, legsStr) -> `_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`: 1
+Type[`_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`], iterable: 1
+`_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`, **kwds) -> `_Tnamedtuple-ScanData-rank-contractDetails-distance-benchmark-projection-legsStr`: 1
+Type[`_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`], bitNumber, exchange, exchangeLetter) -> `_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`: 1
+Type[`_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`], iterable: 1
+`_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`, **kwds) -> `_Tnamedtuple-SmartComponent-bitNumber-exchange-exchangeLetter`: 1
+Type[`_Tnamedtuple-TagValue-tag-value`], tag, value) -> `_Tnamedtuple-TagValue-tag-value`: 1
+Type[`_Tnamedtuple-TagValue-tag-value`], iterable: 1
+`_Tnamedtuple-TagValue-tag-value`, **kwds) -> `_Tnamedtuple-TagValue-tag-value`: 1
+Type[`_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`], tickType, time, price, size, tickAttribLast, exchange, specialConditions) -> `_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`: 1
+Type[`_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`], iterable: 1
+`_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`, **kwds) -> `_Tnamedtuple-TickByTickAllLast-tickType-time-price-size-tickAttribLast-exchange-specialConditions`: 1
+Type[`_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`], time, bidPrice, askPrice, bidSize, askSize, tickAttribBidAsk) -> `_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`: 1
+Type[`_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`], iterable: 1
+`_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`, **kwds) -> `_Tnamedtuple-TickByTickBidAsk-time-bidPrice-askPrice-bidSize-askSize-tickAttribBidAsk`: 1
+Type[`_Tnamedtuple-TickByTickMidPoint-time-midPoint`], time, midPoint) -> `_Tnamedtuple-TickByTickMidPoint-time-midPoint`: 1
+Type[`_Tnamedtuple-TickByTickMidPoint-time-midPoint`], iterable: 1
+`_Tnamedtuple-TickByTickMidPoint-time-midPoint`, **kwds) -> `_Tnamedtuple-TickByTickMidPoint-time-midPoint`: 1
+Type[`_Tnamedtuple-TickData-time-tickType-price-size`], time, tickType, price, size) -> `_Tnamedtuple-TickData-time-tickType-price-size`: 1
+Type[`_Tnamedtuple-TickData-time-tickType-price-size`], iterable: 1
+`_Tnamedtuple-TickData-time-tickType-price-size`, **kwds) -> `_Tnamedtuple-TickData-time-tickType-price-size`: 1
+Type[`_Tnamedtuple-TradeLogEntry-time-status-message`], time, status, message) -> `_Tnamedtuple-TradeLogEntry-time-status-message`: 1
+Type[`_Tnamedtuple-TradeLogEntry-time-status-message`], iterable: 1
+`_Tnamedtuple-TradeLogEntry-time-status-message`, **kwds) -> `_Tnamedtuple-TradeLogEntry-time-status-message`: 1
+TkApp: 1
+tkinter.Button: 8
+tkinter.Entry: 3
+asyncio.events.AbstractEventLoop: 24
+tkinter.Tk: 9
+tkinter.Text: 3
+Window: 2
+Tuple[Any, Any, Any]: 4
+TickerTable: 1
+bytes: 49
+Set[str]: 26
+Type[io.BytesIO]: 13
+Type[io.StringIO]: 20
+_T1) -> _T1: 9
+_T1 = ..., folder = ...) -> Union[io.BytesIO, _T1]: 1
+Dict[str, Dict[str, Union[int, str]]]: 3
+Dict[str, Union[str, Tuple[str]]]: 1
+EventDocParser: 1
+Type[collections.defaultdict]: 54
+collections.defaultdict[nothing, list]: 3
+Dict[nothing, nothing]: 81
+io.StringIO: 3
+tempfile.TemporaryDirectory[nothing]: 2
+_T0, b: 6
+Type[appui.Csgogsi]: 1
+object = ...) -> NoReturn: 6
+Dict[Any, Dict[str, Any]]: 5
+EventQueue: 1
+redis.client.Redis: 5
+List[QueuePrinter]: 1
+Union[Iterable[Iterable], Mapping[str, Iterable]], headers: 7
+Type[flask.app.Flask]: 27
+set: 61
+_T2) -> Union[str, _T2]: 2
+Dict[Any, List[Tuple[Any, Any, Any]]]: 1
+Dict[str, Dict[str, Tuple[None, Any]]]: 1
+Base64VlqConverter: 1
+List[list]: 14
+_T0) -> Union[str, _T0]: 16
+Type[lib.ip.IPV4Network]: 1
+Type[lib.scanner.Scanner]: 1
+Type[typing.Counter]: 27
+Type[pathlib.Path]: 83
+tkinter.ttk.Button: 10
+tkinter.ttk.Frame: 12
+Tree: 3
+tkinter.ttk.Scrollbar: 5
+tkinter.ttk.Treeview: 1
+Menu: 1
+Statusbar: 1
+Toolbar: 1
+tkinter.StringVar: 6
+Optional[str]: 70
+tkinter.ttk.Combobox: 2
+tkinter.ttk.Entry: 2
+tkinter.ttk.Label: 3
+Type[werkzeug.contrib.cache.MemcachedCache]: 1
+CacheWrapper: 1
+CacheDict: 1
+_TCacheDict) -> _TCacheDict: 1
+Dict[Any, Tuple[Any, Any]]: 5
+_T0) -> Union[CacheDict, list, _T0]: 1
+Any) -> Any: 56
+Tuple[Any]: 20
+Dict[str, Union[str, Tuple[int, int, int]]]: 4
+Type[main.Solution]: 2
+main.Solution: 2
+MyKeypad: 1
+Union[_PathLike[AnyStr], AnyStr]) -> AnyStr: 45
+Type[collections.deque]: 17
+collections.deque: 4
+Optional[int]: 45
+Optional[Union[float, int]]: 1
+Optional[float]: 9
+Type[functools.partial]: 27
+ImportError: 7
+List[Type[Union[bool, dict, list, set, tuple]]]: 1
+Dict[Any, type]: 1
+_T0) -> Union[type, _T0]: 1
+Type[lib.harvester.Harvester]: 1
+logging.Formatter: 9
+lib.harvester.Harvester: 1
+_T0, place) -> _T0: 1
+bytes, safe: 17
+str, safe: 17
+List[List[str]]: 9
+type: 146
+Type[requests.exceptions.HTTPError]: 3
+Type[datetime.timedelta]: 46
+sdconfig.SDConfig: 1
+flask.globals._FlaskLocalProxy: 8
+unittest.mock._patcher: 28
+bool = ..., metadata = ..., type = ..., converter = ..., factory = ..., kw_only = ..., eq = ..., order = ...) -> attr._make._CountingAttr: 1
+bool = ..., slots = ..., frozen = ..., weakref_slot = ..., str = ..., auto_attribs = ..., kw_only = ..., cache_hash = ..., auto_exc = ..., eq = ..., order = ...) -> Any: 1
+_T1, featurize_inputs = ...) -> Tuple[_T1, Any, Any]: 1
+ChoiceBook: 1
+Type[pathlib.PurePath]: 2
+Type[types.SimpleNamespace]: 4
+pathlib.PurePath: 5
+Iterable, iter2: 5
+Iterable[_T1]) -> Iterator[Tuple[_T1]]: 5
+Iterable[_T1], iter2: 25
+Iterable, repeat: 6
+List[float]: 28
+optparse.Values: 4
+optparse.OptionParser: 4
+List[List[float]]: 4
+Union[int, werkzeug.wrappers.Response], *args, **kwargs) -> NoReturn: 8
+Callable, assigned: 30
+Type[requests.packages.urllib3.exceptions.ReadTimeoutError]: 1
+collections.OrderedDict[Any, collections.OrderedDict[Any, ImageBuilder]]: 1
+Optional[Exception]: 1
+TextIO: 87
+Dict[Any, str]: 13
+List[Tuple[str, Any]]: 7
+Type[_T]) -> Type[_T]: 10
+bool = ..., repr: 6
+Type[`namedtuple-Query-query_id-query_name-query_length`]: 1
+Type[`_Tnamedtuple-Query-query_id-query_name-query_length`], query_id, query_name, query_length) -> `_Tnamedtuple-Query-query_id-query_name-query_length`: 1
+Type[`_Tnamedtuple-Query-query_id-query_name-query_length`], iterable: 1
+`_Tnamedtuple-Query-query_id-query_name-query_length`, **kwds) -> `_Tnamedtuple-Query-query_id-query_name-query_length`: 1
+_V2) -> Union[_V, _V2]: 1
+Dict[str, List[str]]: 13
+Dict[str, Union[str, Dict[str, Any]]]: 1
+Dict[str, Union[int, str, datetime.datetime, datetime.timedelta, List[str]]]: 1
+List[Type[Union[MyFirstOperator, MyFirstSensor]]]: 1
+int = ..., encoding: 18
+str = ..., buffering: 9
+Union[bytes, str, Sequence[Union[_PathLike, bytes, str]]], bufsize: 5
+AnyStr, *, recursive: 20
+Union[_PathLike, bytes, str]) -> bool: 13
+Union[bytes, _PathLike[bytes]], *paths: 32
+Union[str, _PathLike[str]], *paths: 32
+Dict[str, None]: 4
+List[Tuple[str, str, str, str, str]]: 4
+List[Tuple[str, str, str, List[str], int]]: 5
+List[Tuple[str, str, str, str, str, str, str]]: 5
+Iterable: 4
+Iterable[str]: 3
+Callable[..., contextlib._GeneratorContextManager]: 37
+str = ..., version: 4
+List[Tuple[Any, Any, Any]]: 4
+Type[nvim_pygtk3.application.NeovimApplication]: 1
+Type[nvim_pygtk3.window.NeovimWindow]: 2
+str, encoding: 7
+str, scheme: 21
+Optional[bytes], scheme: 21
+Optional[SecurityGroupRuleList]: 1
+Type[configparser.SafeConfigParser]: 1
+Dict[str, Dict[str, str]]: 10
+FrozenSet[str]: 6
+Don't know how to match <class 'pytype.pytd.pytd.NamedType'> against <class 'pytype.pytd.pytd.Literal'>: 22
+Tuple[Any, Any]: 20
+Type[ctypes.c_long]: 2
+Type[ctypes.c_ulong]: 1
+Type[abc.ABC]: 13
+Type[abc.ABCMeta]: 28
+Tuple[float, float, float]: 3
+List[Tuple[int, int, int, int]]: 1
+_T1, max_depth) -> list: 1
+List[Tuple[int, ...]]: 1
+_FuncT) -> _FuncT: 36
+Type[requests.packages.urllib3.util.retry.Retry]: 3
+Type[requests.sessions.Session]: 6
+flask.app.Flask: 24
+Callable: 203
+Optional[AnyStr] = ..., prefix: 2
+bool = ..., attachment_filename = ..., add_etags: 3
+Dict[Any, Tuple[Pattern, Any]]: 1
+Type[unittest.case.TestCase]: 48
+Dict[str, Tuple[str, ...]]: 2
+Tuple[str, str, str, str, str, str, str, str, str, str, str]: 1
+Dict[str, List[bool]]: 1
+List[Tuple[str, list]]: 1
+Type[types.CoroutineType]: 1
+Type[simulation.django_communicator.DjangoCommunicator]: 1
+Type[enum.Enum]: 38
+Timer: 1
+asyncio.futures.Future: 1
+_TAssertRaises) -> _TAssertRaises: 1
+Type[logging.handlers.RotatingFileHandler]: 3
+SupportsFloat) -> int: 8
+Union[BaseException, bool, Tuple[Optional[type], Optional[BaseException], Optional[types.TracebackType]]] = ..., stack_info: 19
+enum.Enum: 2
+Type[controlevents.ConsoleEvent]: 1
+Dict[Any, clsstruct]: 1
+collections.OrderedDict[Any, List[str]]: 1
+Optional[touchhandler.Touchscreen]: 1
+Optional[int] = ..., chain: 2
+Dict[str, Dict[str, Dict[str, Union[bool, str, List[Union[int, str]]]]]]: 1
+Dict[str, Union[bool, str]]: 6
+IO[str]: 2
+collections.defaultdict[str, Any]: 2
+requests.models.Response: 7
+Optional[Match[str]]: 2
+subprocess.CompletedProcess[bytes]: 1
+Type[tkinter.BaseWidget]: 2
+Type[tkinter.BitmapImage]: 2
+Type[tkinter.BooleanVar]: 2
+Type[tkinter.ttk.Button]: 1
+Type[tkinter.CallWrapper]: 2
+Type[tkinter.Canvas]: 3
+Type[tkinter.ttk.Checkbutton]: 1
+Type[tkinter.ttk.Combobox]: 1
+Type[tkinter.DoubleVar]: 2
+Type[tkinter.ttk.Entry]: 1
+Type[tkinter.Event]: 2
+Type[tkinter.ttk.Frame]: 1
+Type[tkinter.Grid]: 2
+Type[tkinter.Image]: 1
+Type[tkinter.IntVar]: 2
+Type[tkinter.ttk.Label]: 1
+Type[tkinter.ttk.LabeledScale]: 1
+Type[tkinter.ttk.Labelframe]: 1
+Type[tkinter.Listbox]: 2
+Type[tkinter.Menu]: 2
+Type[tkinter.ttk.Menubutton]: 1
+Type[tkinter.Message]: 2
+Type[tkinter.Misc]: 2
+Type[tkinter.ttk.Notebook]: 1
+Type[tkinter.ttk.OptionMenu]: 1
+Type[tkinter.Pack]: 2
+Type[tkinter.ttk.Panedwindow]: 1
+Type[tkinter.PhotoImage]: 2
+Type[tkinter.Place]: 2
+Type[tkinter.ttk.Progressbar]: 1
+Type[tkinter.ttk.Radiobutton]: 1
+Type[tkinter.ttk.Scale]: 1
+Type[tkinter.ttk.Scrollbar]: 1
+Type[tkinter.ttk.Separator]: 1
+Type[tkinter.ttk.Sizegrip]: 1
+Type[tkinter.Spinbox]: 2
+Type[tkinter.StringVar]: 2
+Type[tkinter.ttk.Style]: 1
+Type[tkinter.Text]: 2
+Type[tkinter.Tk]: 2
+Type[tkinter.Toplevel]: 2
+Type[types.TracebackType]: 2
+Type[tkinter.ttk.Treeview]: 1
+Type[tkinter.Variable]: 2
+Type[tkinter.ttk.Widget]: 1
+Type[tkinter.Wm]: 2
+Type[tkinter.XView]: 2
+Type[tkinter.YView]: 2
+tkinter.Canvas: 4
+TextRedirector: 1
+str = ..., useTk: 2
+int = ...) -> Any: 4
+Type[cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15]: 1
+str = ..., stream: 2
+bytes, backend) -> Any: 1
+Type[kernel.common.KernelSource]: 1
+Dict[int, str]: 27
+List[Tuple[str, str]]: 24
+Dict[str, list]: 7
+Type[typing.Sequence]: 5
+_TSVG, point) -> _TSVG: 1
+List[pathlib.Path]: 4
+Dict[str, Dict[str, Optional[Union[bool, str, Dict[str, str]]]]]: 1
+Type[typing.MutableMapping]: 5
+Type[threading._RLock]: 1
+threading._RLock: 9
+Type[flask.wrappers.Response]: 11
+List[Tuple[Any, Any]]: 8
+Type[index.InvertedIndex]: 1
+Type[node.create_list.List]: 1
+Type[node.numeric_literal.NumericLiteral]: 1
+Type[node.string_literal.StringLiteral]: 1
+Type[type.type_time.TypeTime]: 1
+Dict[Type[Union[float, int, list, str, tuple]], Type[Union[node.create_list.List, node.numeric_literal.NumericLiteral, node.string_literal.StringLiteral]]]: 1
+Dict[type, Callable[[Any], Any]]: 1
+Dict[Any, list]: 9
+Type[isim.base_types.SimulatorControlBase]: 1
+Type[isim.base_types.SimulatorControlType]: 1
+signal.Signals: 2
+int, handler: 1
+MLGUIApp: 1
+FbxCurvesExtractor: 1
+Union[Pattern[AnyStr], AnyStr], flags: 4
+Type[client.Server]: 2
+Dict[Any, Union[client.Host, Tuple[str, ...]]]: 2
+pprint.PrettyPrinter: 2
+client.Server: 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str]]: 4
+Union[numpy.ndarray, List[nothing]]: 1
+_TLogistic, dataSet, labels, trainN, alpha = ..., printTime = ...) -> _TLogistic: 1
+Optional[VLayerRegistry]: 1
+List[int]: 55
+Tuple[int, int]: 28
+Type[gluon_backend_rep.GluonBackendRep]: 1
+Optional[Callable[[], Any]]: 1
+_T, memo: 21
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]: 1
+Optional[Dict[str, Any]]: 3
+collections.defaultdict: 14
+threading.Lock: 15
+_T1) -> Union[str, _T1]: 1
+Type[threading.Thread]: 13
+subprocess.Popen[bytes]: 3
+int) -> Any: 2
+_TMessageListener, core) -> _TMessageListener: 1
+_TMessageListener) -> _TMessageListener: 1
+subprocess.CalledProcessError: 1
+ErrorHandlingSystem: 1
+Tuple[str, Type[ErrorHandlingSystem]]: 1
+List[Tuple[str, Type[ErrorHandlingSystem]]]: 1
+_T0) -> Optional[_T0]: 3
+Type[http.server.BaseHTTPRequestHandler]: 2
+Optional[threading.Thread]: 5
+Type[array.array]: 3
+Type[srctools.bsp_transform.Context]: 1
+srctools.logger.LoggerAdapter: 1
+Type[argparse.ArgumentParser]: 21
+Union[_PathLike, bytes, int, str]) -> bool: 7
+Union[bytes, str, _PathLike[str]], ignore_errors: 10
+Type[space_engineers.utils.BoxCorner]: 1
+Tuple[float, int, float]: 1
+List[`namedtuple-Side-normal-name-projection-start_vertex-end_vertex`]: 1
+Type[space_engineers.utils.flip]: 1
+Type[space_engineers.utils.mirror]: 1
+Type[space_engineers.utils.rot]: 1
+Type[`_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`], normal, name, projection, start_vertex, end_vertex) -> `_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`: 1
+Type[`_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`], iterable: 1
+`_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`, **kwds) -> `_Tnamedtuple-Side-normal-name-projection-start_vertex-end_vertex`: 1
+SupportsFloat) -> float: 24
+bytearray: 9
+_T0) -> Tuple[_T0, Any, Any]: 1
+ASN1_Node, node2) -> Any: 1
+_TBuckPackage) -> _TBuckPackage: 1
+Dict[Any, Iterator[Tuple[Any, Any]]]: 2
+DuplicatedKeysException: 1
+http.server.HTTPServer: 1
+Type[http.server.HTTPServer]: 3
+MyHandler) -> None: 1
+FornesMusicSymbolsDatasetDownloader: 1
+Type[ItemQuery]: 1
+Type[ItemVersionQuery]: 1
+_T0) -> Union[decimal.Decimal, _T0]: 1
+_T0) -> Union[Dict[str, Union[bool, str]], _T0]: 1
+os._Environ[str]: 7
+Dict[Tuple[Any, Any], Any]: 3
+range: 3
+AttrDict: 1
+tuple: 32
+Type[`_Tnamedtuple-ErrorParams-code-short_desc-context`], code, short_desc, context) -> `_Tnamedtuple-ErrorParams-code-short_desc-context`: 1
+Type[`_Tnamedtuple-ErrorParams-code-short_desc-context`], iterable: 1
+`_Tnamedtuple-ErrorParams-code-short_desc-context`, **kwds) -> `_Tnamedtuple-ErrorParams-code-short_desc-context`: 1
+Callable[[_T], object], iterable: 2
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]: 2
+List[Union[Animated, Bar, Percentage, Timing]]: 1
+ProgressBar: 1
+_TProgressBarIterator) -> _TProgressBarIterator: 1
+Type[asyncio.locks.Lock]: 1
+asyncio.locks.Lock: 11
+Type[base.ScrollArea]: 2
+Type[wsgiref.headers.Headers]: 1
+Type[http.cookies.SimpleCookie]: 2
+http.cookies.SimpleCookie[nothing]: 6
+wsgiref.headers.Headers: 6
+List[bytes]: 20
+AnyStr, url: 13
+Type[iconpy.IconGenerator]: 1
+App: 1
+Frame: 1
+Optional[iconpy.IconGenerator]: 1
+Dict[Any, set]: 3
+List[Dict[str, Any]]: 9
+Tuple[Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int]]: 1
+Dict[Any, `namedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`]: 2
+List[`namedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`]: 1
+Type[`_Tnamedtuple-ArgSpec-argname-typespec`], argname, typespec) -> `_Tnamedtuple-ArgSpec-argname-typespec`: 1
+Type[`_Tnamedtuple-ArgSpec-argname-typespec`], iterable: 1
+`_Tnamedtuple-ArgSpec-argname-typespec`, **kwds) -> `_Tnamedtuple-ArgSpec-argname-typespec`: 1
+Type[`_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`], clsname, superclass, methodspecs, is_protocol, follow_protocols) -> `_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`: 1
+Type[`_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`], iterable: 1
+`_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`, **kwds) -> `_Tnamedtuple-ClassSpec-clsname-superclass-methodspecs-is_protocol-follow_protocols`: 1
+Type[`_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`], pyname, objcname, argspecs, returntype, is_inherited) -> `_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`: 1
+Type[`_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`], iterable: 1
+`_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`, **kwds) -> `_Tnamedtuple-MethodSpec-pyname-objcname-argspecs-returntype-is_inherited`: 1
+Type[`_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`], pytype, objctype, o2p_code, p2o_code) -> `_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`: 1
+Type[`_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`], iterable: 1
+`_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`, **kwds) -> `_Tnamedtuple-TypeSpec-pytype-objctype-o2p_code-p2o_code`: 1
+Type[requests.auth.AuthBase]: 2
+Optional[datetime.datetime]: 5
+List[Dict[str, str]]: 6
+Dict[str, Union[int, Dict[str, Dict[str, Union[int, str, List[str]]]]]]: 1
+Dict[str, Union[int, str, Tuple[str, ...]]]: 1
+List[Dict[str, Union[bool, str, Dict[str, List[str]], Tuple[str]]]]: 1
+Dict[Any, bool]: 5
+queue.Queue[nothing]: 6
+Optional[RequestReplayThread]: 1
+threading.Event: 6
+Type[jinja2.loaders.ChoiceLoader]: 1
+Type[jinja2.loaders.FileSystemLoader]: 5
+Type[jinja2.loaders.PackageLoader]: 3
+SGDWrapper: 1
+threading.Thread: 9
+qllr.db.Cache: 1
+datetime.datetime: 16
+str, path: 2
+_T0, version) -> Union[str, _T0]: 1
+Type[utils.formatting.Table]: 1
+Type[utils.time.Timer]: 1
+TriegexNode: 1
+_TTextReplacer, reg, rep) -> _TTextReplacer: 1
+EsiNamesResolver: 1
+Union[int, str]: 11
+__builtin__.dict[Any, None]: 1
+collections.OrderedDict[nothing, nothing]: 4
+collections.OrderedDict[Any, __builtin__.dict]: 1
+Type[concurrent.futures.thread.ThreadPoolExecutor]: 7
+List[Tuple[str, List[str], str]]: 1
+List[Party]: 1
+Union[str, configparser.RawConfigParser, _PathLike[str], IO[str]], defaults: 3
+Union[B, C, D, Type[Union[B, C, D]]]: 1
+Optional[set]: 2
+_TConfigsFileWatcher) -> _TConfigsFileWatcher: 1
+Type[`_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`], service_name, config_name, config_suffix) -> `_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`: 1
+Type[`_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`], iterable: 1
+`_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`, **kwds) -> `_Tnamedtuple-_ServiceConfig-service_name-config_name-config_suffix`: 1
+Union[CallableDeep, CallableMixed, CallableShallow, Simple], context = ...) -> None: 5
+Type[flask.sessions.SecureCookieSession]: 1
+Type[flask.sessions.SecureCookieSessionInterface]: 1
+click.core.Group: 12
+logging.StreamHandler: 10
+Type[Union[Callable[[Any], Awaitable], type]]: 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str]: 1
+Type[threading.Lock]: 4
+Tuple[int, int, int]: 13
+Type[`_Tnamedtuple-StrongBlock-color-owner`], color, owner) -> `_Tnamedtuple-StrongBlock-color-owner`: 1
+Type[`_Tnamedtuple-StrongBlock-color-owner`], iterable: 1
+`_Tnamedtuple-StrongBlock-color-owner`, **kwds) -> `_Tnamedtuple-StrongBlock-color-owner`: 1
+Type[rinzler.auth.base_auth_service.BaseAuthService]: 1
+Type[logging.Logger]: 3
+Type[rinzler.core.response.Response]: 1
+Type[rinzler.exceptions.RinzlerHttpException]: 1
+Type[rinzler.core.route_mapping.RouteMapping]: 1
+Optional[logging.Logger]: 2
+_TRinzler, auth_service) -> _TRinzler: 1
+_TRinzler) -> _TRinzler: 1
+Optional[str] = ...) -> logging.Logger: 6
+Optional[int] = ..., initializer: 4
+Type[event.EventHook]: 1
+event.EventHook: 1
+_TProgressSpan, other) -> _TProgressSpan: 1
+Type[subprocess.Popen]: 9
+Dict[Any, List[Dict[str, Any]]]: 2
+Dict[Type[Union[_ast.Eq, _ast.Gt, _ast.GtE, _ast.In, _ast.Lt, _ast.LtE, _ast.NotEq]], str]: 1
+_T_OperationParser, stack) -> _T_OperationParser: 1
+Type[string.Template]: 2
+'set' object has no attribute 'extend': 24
+Type[typing.Mapping]: 7
+Config: 3
+List[Tuple[Pattern[str], bool, Any]]: 1
+Tuple[str, ...]: 10
+Type[baseQubit.BaseQubit]: 2
+Type[Bit.Bit]: 2
+Type[Error.CodeError]: 2
+Type[Error.EnvironmentError]: 2
+Type[Error.ExecuteModeError]: 2
+Type[baseGate.Gate]: 1
+Type[Error.GateNameError]: 2
+Type[Error.IBMError]: 2
+Type[Error.IDRepeatError]: 2
+Type[Error.NoCloning]: 2
+Type[baseGate.Noise]: 1
+Type[Error.NotNormal]: 2
+Type[Qubit.Qubit]: 2
+Type[Qubit.Qubits]: 2
+Type[Gate.SplitGate]: 1
+Gate.SplitGate: 1
+Type[`_Tnamedtuple-Request-json`], json) -> `_Tnamedtuple-Request-json`: 1
+Type[`_Tnamedtuple-Request-json`], iterable: 1
+`_Tnamedtuple-Request-json`, **kwds) -> `_Tnamedtuple-Request-json`: 1
+NotImplementedType: 3
+IParser) -> None: 1
+IParser, entry) -> None: 1
+Dict[Any, Callable[[Any], Any]]: 1
+Type[`_Tnamedtuple-Selection-start-end`], start, end) -> `_Tnamedtuple-Selection-start-end`: 1
+Type[`_Tnamedtuple-Selection-start-end`], iterable: 1
+`_Tnamedtuple-Selection-start-end`, **kwds) -> `_Tnamedtuple-Selection-start-end`: 1
+_EnumType) -> _EnumType: 2
+Type[datetime.timezone]: 7
+__builtin__.str: 11
+List[__builtin__.str]: 1
+List[List[Union[float, __builtin__.str]]]: 1
+List[List[nothing]]: 3
+Type[builtins.str]: 3
+_T0) -> Union[Exception, _T0]: 1
+Iterable) -> Iterator[tuple]: 3
+Iterable[_T]) -> Iterator[Tuple[_T]]: 3
+bytes) -> List[bytes]: 5
+Optional[str] = ...) -> List[str]: 5
+Union[int, _PathLike[str]]) -> List[str]: 5
+_T0, data) -> _T0: 1
+Type[jinja2.environment.Environment]: 7
+jinja2.environment.Environment: 4
+str) -> Callable[[Any], tuple]: 4
+int, b: 16
+_Placeholders: 1
+_T2) -> _T2: 11
+Type[`_Tnamedtuple-EfetchPackage-accn-xml`], accn, xml) -> `_Tnamedtuple-EfetchPackage-accn-xml`: 1
+Type[`_Tnamedtuple-EfetchPackage-accn-xml`], iterable: 1
+`_Tnamedtuple-EfetchPackage-accn-xml`, **kwds) -> `_Tnamedtuple-EfetchPackage-accn-xml`: 1
+Type[`_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`], dbfrom, dbto, webenv, query_key) -> `_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`: 1
+Type[`_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`], iterable: 1
+`_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`, **kwds) -> `_Tnamedtuple-EpostResult-dbfrom-dbto-webenv-query_key`: 1
+Type[`_Tnamedtuple-EpostResult-webenv-query_key`], webenv, query_key) -> `_Tnamedtuple-EpostResult-webenv-query_key`: 1
+Type[`_Tnamedtuple-EpostResult-webenv-query_key`], iterable: 1
+`_Tnamedtuple-EpostResult-webenv-query_key`, **kwds) -> `_Tnamedtuple-EpostResult-webenv-query_key`: 1
+Type[`_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`], ids, count, webenv, query_key) -> `_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`: 1
+Type[`_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`], iterable: 1
+`_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`, **kwds) -> `_Tnamedtuple-EsearchResult-ids-count-webenv-query_key`: 1
+Type[`_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`], id, accn, create_date, update_date) -> `_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`: 1
+Type[`_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`], iterable: 1
+`_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`, **kwds) -> `_Tnamedtuple-EsummaryResult-id-accn-create_date-update_date`: 1
+Type[werkzeug.routing.BaseConverter]: 1
+Type[threading.Timer]: 2
+Type[werkzeug.routing.ValidationError]: 1
+flask_sse.Channel: 1
+Type[asyncio.streams.FlowControlMixin]: 1
+Type[asyncio.streams.StreamWriter]: 1
+Optional[asyncio.streams.StreamReader]: 1
+Optional[asyncio.streams.StreamWriter]: 1
+dict_keys: 1
+Sequence[_T], possibilities: 1
+Union[Dict[Any, list], collections.OrderedDict[Any, Sequence], Mapping[Any, Sequence]]: 1
+Dict[str, Union[str, List[str]]]: 2
+Type[crash.commands.ArgumentParser]: 1
+Type[crash.commands.Command]: 1
+Type[crash.commands.CommandLineError]: 1
+Dict[str, Dict[str, bool]]: 1
+SeedZoneSerializer: 1
+_TTree, memo) -> _TTree: 1
+_T1 = ...) -> Optional[_T1]: 2
+_T0) -> Dict[str, Any]: 2
+Type[AptlyAPIException]: 1
+_T0) -> Any: 2
+Type[rpc.RPC]: 1
+rpc.RPC: 1
+random.SystemRandom: 1
+Dict[Union[bytes, str], Any]: 1
+Dict[Union[bytes, str], str]: 1
+Type[Optional[Union[Callable[[], Optional[Iterable[Dict[str, str]]]], Iterable[Dict[str, str]]]]]: 1
+Type[Optional[Iterable[Dict[str, str]]]]: 1
+Dict[str, Type[Union[dict, int, list, str]]]: 1
+ConfigHandler: 1
+Optional[dict]: 3
+Type[OSError]: 2
+Union[_PathLike, bytes, str], *, dir_fd: 4
+Union[_PathLike[AnyStr], AnyStr], topdown: 4
+Optional[bool]: 6
+Optional[BinaryIO]: 3
+Type[contextlib.ExitStack]: 1
+SegmentTree: 1
+MathCollection: 2
+TestAddons: 1
+RecordingMaster: 1
+_Tcontext) -> _Tcontext: 1
+Type[tkinter.Button]: 1
+Type[tkinter.Checkbutton]: 1
+Type[tkinter.Entry]: 1
+Type[tkinter.Frame]: 1
+Type[tkinter.Label]: 1
+Type[tkinter.LabelFrame]: 1
+Type[tkinter.Menubutton]: 1
+Type[tkinter.OptionMenu]: 1
+Type[tkinter.PanedWindow]: 1
+Type[tkinter.Radiobutton]: 1
+Type[tkinter.Scale]: 1
+Type[tkinter.Scrollbar]: 1
+Type[tkinter.Widget]: 1
+tkinter.Label: 2
+tkinter.OptionMenu: 1
+Iterable[_T], n: 1
+_T3 = ...) -> _T3: 1
+Type[html.parser.HTMLParser]: 2
+requests.sessions.Session: 19
+Type[requests.auth.HTTPBasicAuth]: 3
+Optional[AnyStr], keep_blank_values: 4
+Union[Mapping, Sequence[Tuple[Any, Any]]], doseq: 4
+Dict[Any, tuple]: 3
+Mnemonic: 1
+Dict[Any, Optional[int]]: 2
+Type[io.FileIO]: 2
+Union[bytes, str], buffer: 4
+_TAutoCloseSession) -> _TAutoCloseSession: 1
+Type[AutoCloseSession]: 1
+_T0, item, session) -> _T0: 1
+BusParser: 1
+FoodParser: 1
+LibParser: 1
+SubwayParser: 1
+Singleton, *args, **kwargs) -> Any: 2
+Optional[Callable]: 2
+Logger: 1
+Dict[Any, TextIO]: 2
+Set[TextIO]: 1
+TerminalTablePrinter: 1
+Optional[list]: 11
+Callable[..., Iterator[_T]]) -> Callable[..., contextlib._GeneratorContextManager[_T]]: 17
+_T0) -> Optional[Union[int, _T0]]: 1
+_T1, perl_pp_enabled) -> Tuple[str, _T1]: 1
+_T2, line_info: 1
+_T3) -> Union[bool, _T3]: 5
+Dict[str, Dict[Any, Dict[Any, Optional[Dict[str, Any]]]]]: 1
+Type[threading.local]: 2
+threading.local: 2
+types.MappingProxyType[nothing, nothing]: 1
+_T0) -> tuple: 2
+_T0, b) -> _T0: 1
+argparse._MutuallyExclusiveGroup: 1
+str) -> Tuple[str, ...]: 3
+Optional[http.client.HTTPConnection]: 1
+io.BytesIO: 3
+THttpClient) -> Callable: 1
+Type[textwrap.TextWrapper]: 1
+EnhancedTextWrapper: 4
+Optional[EnhancedTextWrapper]: 1
+Optional[_importlib_modulespec.ModuleType] = ..., name: 1
+Type[pathlib.PurePosixPath]: 2
+Type[`_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`], archive, directly, volume, system_file, hidden_file, read_only) -> `_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`: 1
+Type[`_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`], iterable: 1
+`_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`, **kwds) -> `_Tnamedtuple-AttrInfo-archive-directly-volume-system_file-hidden_file-read_only`: 1
+Type[numpy.ndarray]: 7
+Optional[numpy.ndarray]: 5
+bool = ..., order: 2
+Optional[str] = ...) -> numpy.ndarray: 1
+_T0) -> List[List[Tuple[Any, _T0]]]: 1
+_T0, **kwargs) -> Dict[str, Union[Dict[str, Any], _T0]]: 1
+Tuple[int, int, int, int]: 5
+zipfile.ZipFile: 1
+qrays.Qvector: 26
+Type[qrays.Qvector]: 1
+Type[roProgram.RoboProProgram]: 1
+cgi.FieldStorage: 1
+_TAutograderSandbox) -> _TAutograderSandbox: 1
+Type[nfc_scanner.NFCBase]: 1
+Dict[Any, List[`namedtuple-map-attribute-name-default_unit-device_class`]]: 1
+Type[`_Tnamedtuple-map-attribute-name-default_unit-device_class`], attribute, name, default_unit, device_class) -> `_Tnamedtuple-map-attribute-name-default_unit-device_class`: 1
+Type[`_Tnamedtuple-map-attribute-name-default_unit-device_class`], iterable: 1
+`_Tnamedtuple-map-attribute-name-default_unit-device_class`, **kwds) -> `_Tnamedtuple-map-attribute-name-default_unit-device_class`: 1
+List[dict]: 3
+Generator[str, Any, None]: 2
+_T1 = ..., mode = ..., tgz = ..., extract_name = ...) -> Union[str, _T1]: 1
+Union[_PathLike, bytes, int, str]) -> None: 5
+str, sep: 1
+Type[setting_parser.SettingsParser]: 1
+wsgiref.simple_server.WSGIServer: 1
+setting_parser.SettingsParser: 1
+_T0, high: 1
+Tuple[int]: 10
+Type[objetodojogo.ObjetoDoJogo]: 3
+Type[objetodojogo.Posicao2D]: 2
+Params: 1
+Optional[Dict[Any, bytes]]: 1
+_TDBReader) -> _TDBReader: 1
+_TDBWriter) -> _TDBWriter: 1
+nothing: 3
+Union[str, _PathLike[str]]) -> shutil._ntuple_diskusage: 2
+Type[typing.ChainMap]: 5
+Type[saspy.sasresults.SASresults]: 1
+_TGrouping, other) -> _TGrouping: 1
+_TGrouping, other, prepend = ...) -> _TGrouping: 1
+_TGrouping, others, prepend = ...) -> _TGrouping: 1
+_TTabulationItem, other) -> _TTabulationItem: 1
+_TTabulationItem, **kwargs) -> _TTabulationItem: 1
+_T0, value: 2
+Type[contextlib.redirect_stdout]: 3
+Union[Pattern[AnyStr], AnyStr], string: 7
+Tuple[str, str, str, str, str, str, str, str, str]: 4
+Optional[pathlib.Path]: 3
+Producer: 1
+socket.socket: 5
+Union[bytes, str], *v) -> bytes: 4
+_T0, ref: 2
+DefaultMessageSerializer: 1
+Dict[str, Dict[str, Union[Dict[str, str], Tuple[str, List[nothing], Dict[str, str]]]]]: 1
+Dict[str, List[int]]: 2
+Dict[str, Union[float, int]]: 4
+_T0, binding, rotation) -> _T0: 1
+Type[argparse.RawDescriptionHelpFormatter]: 2
+str, color: 8
+Type[implements.Interface]: 2
+Type[configparser.ConfigParser]: 12
+Dict[str, Dict[str, Optional[Union[float, int, str]]]]: 2
+configparser.ConfigParser: 12
+_T0) -> Tuple[_T0, datetime.datetime]: 1
+_importlib_modulespec.ModuleType) -> _importlib_modulespec.ModuleType: 3
+Type[aoareader.Dict.Dict]: 1
+Type[services.picarto.Picarto]: 1
+Type[services.twitch.Twitch]: 1
+Lifelogger_to_Zenobase: 1
+_TMsgTraceNPC, message, *, end = ..., format = ...) -> _TMsgTraceNPC: 1
+Buckets: 1
+Projects: 1
+Queues: 1
+Workers: 1
+List[Tuple[Any, Callable[[Any], Any]]]: 1
+Optional[DatabaseMonitoring]: 1
+SupportsInt) -> int: 1
+Repo2IdCounter: 1
+Type[Repo2IdModel]: 1
+weakref.WeakValueDictionary[nothing, nothing]: 1
+_T0 = ..., *, cache = ...) -> Union[functools.partial[nothing], _T0]: 1
+Callable, *, follow_wrapped: 1
+Dict[str, Union[int, Dict[str, Union[int, List[nothing]]]]]: 1
+Type[`_Tnamedtuple-Link-text-url`], text, url) -> `_Tnamedtuple-Link-text-url`: 1
+Type[`_Tnamedtuple-Link-text-url`], iterable: 1
+`_Tnamedtuple-Link-text-url`, **kwds) -> `_Tnamedtuple-Link-text-url`: 1
+collections.OrderedDict[str, type]: 9
+Type[_TProcedure], name: 1
+Type[_TProcedure], iterable: 1
+_TProcedure, **kwds) -> _TProcedure: 1
+Type[_TSubscriber], topic: 1
+Type[_TSubscriber], iterable: 1
+_TSubscriber, **kwds) -> _TSubscriber: 1
+Dict[Any, Procedure]: 1
+List[Subscriber]: 1
+List[Tuple[Any, Any, Any, Any]]: 1
+List[Tuple[int, int]]: 5
+_T0) -> Tuple[Any, Any, Any, _T0]: 1
+Type[distutils.version.LooseVersion]: 3
+Dict[Any, Instrument]: 1
+Type[werkzeug.exceptions.HTTPException]: 4
+Dict[int, Type[werkzeug.exceptions.HTTPException]]: 1
+Callable[[flask.wrappers.Response], flask.wrappers.Response]: 2
+bool = ..., ensure_ascii: 12
+object) -> Any: 3
+object, strict: 1
+_T3 = ...) -> Tuple[Union[int, _T3], Any]: 1
+_T1 = ...) -> Union[bool, _T1]: 1
+Dict[int, Any]: 7
+asyncio.queues.Queue[nothing]: 4
+Type[asks.errors.BadStatus]: 1
+_TStreamBody, timeout = ...) -> _TStreamBody: 1
+Iterable[_T], stop: 4
+IO[bytes]: 1
+List[Tuple[Tuple[str, str], str]]: 1
+Dict[Any, RankedSeason]: 1
+Type[`_Tnamedtuple-Playlist-id-name-platform-population-last_updated`], id, name, platform, population, last_updated) -> `_Tnamedtuple-Playlist-id-name-platform-population-last_updated`: 1
+Type[`_Tnamedtuple-Playlist-id-name-platform-population-last_updated`], iterable: 1
+`_Tnamedtuple-Playlist-id-name-platform-population-last_updated`, **kwds) -> `_Tnamedtuple-Playlist-id-name-platform-population-last_updated`: 1
+Type[`_Tnamedtuple-Season-id-is_current-time_started-time_ended`], id, is_current, time_started, time_ended) -> `_Tnamedtuple-Season-id-is_current-time_started-time_ended`: 1
+Type[`_Tnamedtuple-Season-id-is_current-time_started-time_ended`], iterable: 1
+`_Tnamedtuple-Season-id-is_current-time_started-time_ended`, **kwds) -> `_Tnamedtuple-Season-id-is_current-time_started-time_ended`: 1
+Type[`_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`], rankPoints, division, matchesPlayed, tier) -> `_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`: 1
+Type[`_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`], iterable: 1
+`_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`, **kwds) -> `_Tnamedtuple-SeasonPlaylistRank-rankPoints-division-matchesPlayed-tier`: 1
+Type[`_Tnamedtuple-Tier-id-name`], id, name) -> `_Tnamedtuple-Tier-id-name`: 1
+Type[`_Tnamedtuple-Tier-id-name`], iterable: 1
+`_Tnamedtuple-Tier-id-name`, **kwds) -> `_Tnamedtuple-Tier-id-name`: 1
+Tuple[Type[str]]: 2
+Type[`_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`], test_name, jobs_yaml, expected_output, expect_success, config, runners_to_skip) -> `_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`: 1
+Type[`_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`], iterable: 1
+`_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`, **kwds) -> `_Tnamedtuple-IntegrationTestcase-test_name-jobs_yaml-expected_output-expect_success-config-runners_to_skip`: 1
+Type[random.Random]: 2
+random.Random: 2
+Dict[Tuple[Any, Any], Tuple[list, int]]: 1
+Dict[Tuple[Any, Any], bool]: 1
+SupportsFloat, __x: 2
+_T0, add) -> _T0: 1
+Type[argparse.FileType]: 2
+IO[str], skipkeys: 3
+Type[asyncio.events.AbstractEventLoop]: 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]: 1
+datetime.timedelta: 11
+Optional[Union[asyncio.tasks.Task, asyncio.futures.Future[nothing]]]: 2
+`namedtuple-Dump1090Resources-base-receiver-stats-aircraft`: 1
+Dict[str, dict]: 3
+Optional[`namedtuple-Position-latitude-longitude`]: 1
+Type[`_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`], base, receiver, stats, aircraft) -> `_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`: 1
+Type[`_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`], iterable: 1
+`_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`, **kwds) -> `_Tnamedtuple-Dump1090Resources-base-receiver-stats-aircraft`: 1
+Type[`_Tnamedtuple-Position-latitude-longitude`], latitude, longitude) -> `_Tnamedtuple-Position-latitude-longitude`: 1
+Type[`_Tnamedtuple-Position-latitude-longitude`], iterable: 1
+`_Tnamedtuple-Position-latitude-longitude`, **kwds) -> `_Tnamedtuple-Position-latitude-longitude`: 1
+TweetQueue: 1
+Type[flask.config.Config]: 1
+Type[werkzeug.local.Local]: 1
+Type[werkzeug.local.LocalManager]: 1
+Type[werkzeug.local.LocalProxy]: 1
+Type[flask.wrappers.Request]: 2
+Type[werkzeug.wrappers.Response]: 3
+werkzeug.local.LocalManager: 1
+werkzeug.local.Local: 1
+object) -> bool: 3
+RadiationFrameHandler, **kwargs) -> Any: 2
+Dict[Any, SkDataSet]: 1
+_T3 = ..., max_categories = ...) -> Dict[Any, Union[Dict[int, Any], _T3]]: 1
+Type[kresd.Kresd]: 2
+Type[types.MethodType]: 1
+Set[AbstractRegisteringType]: 1
+AbstractRegisteringType, name, bases, attributes) -> None: 1
+Set[Type[MenuAction]]: 1
+Set[Type[Setting]]: 1
+Set[SingletonMetaclass]: 1
+SingletonMetaclass, name, bases, attributes) -> None: 1
+Set[StylerMetaclass]: 1
+StylerMetaclass, name, bases, attributes) -> None: 1
+_T2) -> Tuple[list, _T2]: 1
+_T0 = ..., position = ...) -> Union[Callable[[Any], Any], _T0]: 1
+Type[event.Event]: 1
+AppDispatcher: 1
+PlayerDispatcher: 1
+RecorderDispatcher: 1
+StorageDispatcher: 1
+_T0, diamond_path) -> _T0: 1
+_T2, sequence) -> Coroutine[Any, Any, Tuple[_T2, Dict[str, Any]]]: 1
+ConnectionProtocol: 1
+List[List[Point]]: 1
+List[List[Tuple[float]]]: 1
+SupportsFloat, __y: 1
+Dict[int, type]: 1
+ObjectsFactory: 1
+Union[AnObject, bool]: 1
+List[Tuple[Any, Any, str]]: 1
+List[List[Union[list, str]]]: 1
+List[List[Union[int, str]]]: 1
+object, stream: 9
+Dict[str, float]: 6
+Type[str]: 12
+QuestionDatabase: 1
+List[Type[DetectKaraokeCommand]]: 1
+Tuple[nothing, ...]: 23
+List[Callable[[], Any]]: 1
+Dict[Tuple[str, Any], Any]: 1
+Type[float]: 6
+DefaultDict[str, Set[str]]: 2
+Deque[Post]: 1
+List[Tuple[int, str]]: 1
+Dict[str, UserInfo]: 1
+DefaultDict[str, Deque[Post]]: 1
+collections.OrderedDict[str, Union[float, str]]: 2
+Type[_TPost], timestamp: 1
+Type[_TPost], iterable: 1
+_TPost, **kwds: 1
+collections.OrderedDict[str, Optional[Union[str, Tuple[bytes, bytes]]]]: 2
+Tuple[bytes, bytes]: 1
+Type[_TUserInfo], displayname: 1
+Type[_TUserInfo], iterable: 1
+_TUserInfo, **kwds: 1
+Sequence[_T], x: 2
+_T1 = ...) -> Tuple[bytes, Union[bytes, _T1]]: 2
+str) -> str: 7
+List[Tuple[int, Optional[str], bool]], edges: 1
+Goals) -> Tuple[List[Tuple[int, Optional[str], bool]], List[Tuple[int, int, int]], List[Tuple[str, int]]]: 1
+__builtin__.type[`_Tnamedtuple-Edge-source-target-type`], source, target, type) -> `_Tnamedtuple-Edge-source-target-type`: 1
+__builtin__.type[`_Tnamedtuple-Edge-source-target-type`], iterable: 1
+`_Tnamedtuple-Edge-source-target-type`, **kwds) -> `_Tnamedtuple-Edge-source-target-type`: 1
+_FT) -> _FT: 2
+Dict[Optional[str], Tuple[Optional[str], ...]]: 1
+Type[qt.qrcodewidget.QRCodeWidget]: 1
+qt.qrcodewidget.QRCodeWidget: 1
+HelloSchema: 2
+Dict[str, bool]: 5
+BuildRpcServer: 1
+Dict[str, Union[int, str, Dict[str, Union[str, Dict[str, str], List[Dict[str, Union[int, str]]]]]]]: 1
+Dict[str, Optional[str]]: 1
+Dict[str, Dict[str, Union[int, str, List[Union[int, str]], Type[int]]]]: 1
+Union[_PathLike, bytes, str], mode: 8
+DebugFuncsDB: 1
+tuple index out of range: 4
+Callable[[], Any]: 4
+_TObservable, fn) -> _TObservable: 2
+_TObservable, predicate) -> _TObservable: 1
+_TObservable, mapper) -> _TObservable: 1
+TutorialSpiderMiddleware, exception, spider) -> None: 1
+TutorialSpiderMiddleware, spider) -> None: 1
+TutorialSpiderMiddleware, result, spider) -> Generator[Any, Any, None]: 1
+TutorialSpiderMiddleware, spider) -> Generator[Any, Any, None]: 1
+_T0) -> Union[int, _T0]: 1
+Dict[Singleton, nothing]: 1
+Dict[Any, Dict[str, list]]: 1
+Type[urllib.error.HTTPError]: 1
+Type[urllib.request.Request]: 4
+Union[str, urllib.request.Request], data: 5
+codecs.StreamReaderWriter: 7
+DefaultDict[str, list]: 1
+Type[util.PriorityQueue]: 1
+Type[util.PriorityQueueWithFunction]: 1
+Type[util.Queue]: 1
+Type[util.Stack]: 1
+Type[ctypes._FuncPointer]: 7
+ctypes.PyDLL: 1
+Optional[ctypes._FuncPointer]: 1
+Dict[Any, int]: 11
+Dict[Any, Party]: 1
+Type[jinja2.environment.Template]: 3
+Type[timeit.Timer]: 2
+Dict[str, Tuple[str, str]]: 4
+Dict[nothing, Any]: 1
+Dict[int, Tuple[Type[Point], Callable[[Any], Any], Callable[[Any], Any]]]: 2
+Type[redis.client.Redis]: 2
+List[Type[Union[AbradedOpaque, AbradedTranslucent, MatteOpaque]]]: 1
+Type[ctypes.c_bool]: 1
+Type[bool]: 1
+Type[ctypes.c_byte]: 1
+Type[int]: 5
+Type[ctypes.c_short]: 2
+Type[ctypes.c_double]: 2
+Type[ctypes.c_float]: 3
+Type[ctypes.c_int]: 4
+Type[ctypes.c_longlong]: 1
+Dict[str, Union[str, Tuple[int, ...]]]: 3
+Exception: 3
+CharPrinter: 1
+Tuple[Type[BuildGroupTargetsTabularInline]]: 1
+Tuple[Type[BuildTargetPlaybooksTabularInline]]: 1
+Union[str, _PathLike[str]], dst: 7
+List[Tuple[str, str, str]]: 4
+str) -> bool: 3
+Type[werkzeug.exceptions.BadRequest]: 1
+FlexReport: 1
+Optional[xml.etree.ElementTree.Element]: 1
+Type[`_Tnamedtuple-Finals-pinyin-rhyme-tones`], pinyin, rhyme, tones) -> `_Tnamedtuple-Finals-pinyin-rhyme-tones`: 1
+Type[`_Tnamedtuple-Finals-pinyin-rhyme-tones`], iterable: 1
+`_Tnamedtuple-Finals-pinyin-rhyme-tones`, **kwds) -> `_Tnamedtuple-Finals-pinyin-rhyme-tones`: 1
+_T0) -> Dict[str, Union[float, str, Dict[str, _T0], List[str]]]: 1
+List[ExperimentConfiguration]: 1
+MpfLexer) -> Callable[[Any, Any, Any], Any]: 1
+BinaryIO: 6
+FirmwareImage: 2
+Optional[AppDescriptor]: 1
+Optional[bytes]: 1
+IO[Union[bytes, str]]: 2
+_TFirmwareImage) -> _TFirmwareImage: 1
+_T1, force = ...) -> Tuple[bool, _T1]: 1
+Union[time.struct_time, Tuple[int, int, int, int, int, int, int, int, int]] = ...) -> str: 1
+_T0) -> Union[str, Pattern[str], _T0]: 1
+SupportsFloat, base: 2
+Type[test.PelicanPluginTestCase]: 2
+Callable[[Any], Any]: 17
+Type[uchan.lib.exceptions.ArgumentError]: 1
+Type[uchan.lib.exceptions.BadRequestError]: 1
+Optional[uchan.flask.CustomFlaskApp]: 1
+Type[concurrent.futures.process.ProcessPoolExecutor]: 1
+concurrent.futures.process.ProcessPoolExecutor: 2
+_T0) -> Coroutine[Any, Any, _T0]: 3
+Monit: 1
+Work: 1
+Type[croniter.croniter]: 1
+MySQLBase: 1
+pymysql.cursors.Cursor: 1
+pymysql.connections.Connection: 3
+Dict[str, Type[Union[Linear, ReLU, Sigmoid, SoftMax, Sqrt, Tanh]]]: 1
+_TPolygon) -> _TPolygon: 1
+_TPolygon, other) -> _TPolygon: 3
+_TPolygon, point_on_axis, axis_direction) -> _TPolygon: 1
+_TPolygon, x = ..., y = ...) -> _TPolygon: 1
+Union[Sequence[Optional[AnyStr]], Tuple[Optional[AnyStr], Optional[AnyStr], Optional[AnyStr], Optional[AnyStr], Optional[AnyStr], Optional[AnyStr]]]) -> AnyStr: 3
+A: 2
+Optional[DangerousInvite]: 1
+Type[dateutil.relativedelta.relativedelta]: 1
+Dict[Any, dict]: 4
+AutoConfig, prefix = ..., **kwargs) -> None: 1
+_Options: 1
+Config, **kwargs) -> None: 1
+Dict[VariableName, VariableValue]) -> None: 1
+Callable[[VariableValue, type], Any]) -> None: 1
+Union[bytes, str]) -> None: 2
+_Options, prefix = ...) -> Any: 2
+Dict[str, decimal.Decimal]: 2
+Type[numbers.Number]: 1
+Type[ws4py.client.WebSocketBaseClient]: 1
+Ui_WdgWalletTxesFilter: 1
+PasswordEntry: 1
+MovementProcessor: 1
+TextureEnableGroup: 1
+TextureBindGroup: 1
+DemoModelMCMC: 1
+Type[`_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`], version, name, workspace, environment, branches, stages, image_configs, plugin_configs) -> `_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`: 1
+Type[`_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`], iterable: 1
+`_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`, **kwds) -> `_Tnamedtuple-_BuildConfig-version-name-workspace-environment-branches-stages-image_configs-plugin_configs`: 1
+Tuple[str, str, str, str, str, str, str, str, str, str]: 2
+Type[`_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`], name, stage, from_image, environment, volumes, context, build, run, start, plugin_configs) -> `_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`: 1
+Type[`_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`], iterable: 1
+`_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`, **kwds) -> `_Tnamedtuple-_ImageConfig-name-stage-from_image-environment-volumes-context-build-run-start-plugin_configs`: 1
+Type[requests.models.Response]: 4
+List[Tuple[str, ...]]: 1
+_T0) -> Union[List[_T0], _T0]: 2
+Type[bucket_throttling.ThrottlingBucket]: 2
+Type[bucket_throttling.ThrottlingOptions]: 2
+Type[bucket_throttling.ThrottlingRule]: 2
+openfisca_france_data: 1
+Type[pkg_resources.Distribution]: 1
+Type[distutils.fancy_getopt.FancyGetopt]: 1
+Type[pkg_resources.Requirement]: 1
+Union[str, _ast.AST]) -> Any: 3
+Type[`_Tnamedtuple-SomeNamedTuple-x`], x) -> `_Tnamedtuple-SomeNamedTuple-x`: 1
+Type[`_Tnamedtuple-SomeNamedTuple-x`], iterable: 1
+`_Tnamedtuple-SomeNamedTuple-x`, **kwds) -> `_Tnamedtuple-SomeNamedTuple-x`: 1
+_T0 = ...) -> _T0: 2
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]: 1
+Type[werkzeug.datastructures.CallbackDict]: 1
+Type[flask.sessions.SessionInterface]: 1
+Type[flask.sessions.SessionMixin]: 1
+MongoSessionManager: 1
+Optional[TextIO]: 3
+asyncio.locks.Event: 10
+NeovimTabBar: 1
+NeovimBufferBar: 1
+NeovimTerminal: 1
+NeovimViewport: 1
+Type[contextlib.closing]: 4
+_T0, concerned_requests) -> _T0: 1
+_TEnvironment) -> _TEnvironment: 1
+functools._lru_cache_wrapper: 12
+Type[`_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`], delta, measure, signature, tick, bpm, prog, playing) -> `_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`: 1
+Type[`_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`], iterable: 1
+`_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`, **kwds) -> `_Tnamedtuple-TimeReport-delta-measure-signature-tick-bpm-prog-playing`: 1
+Type[`_Tnamedtuple-TimeSignature-top-bottom`], top, bottom) -> `_Tnamedtuple-TimeSignature-top-bottom`: 1
+Type[`_Tnamedtuple-TimeSignature-top-bottom`], iterable: 1
+`_Tnamedtuple-TimeSignature-top-bottom`, **kwds) -> `_Tnamedtuple-TimeSignature-top-bottom`: 1
+Optional[int] = ..., typed: 9
+_T, init: 1
+Callable[[], _T], init: 1
+Type[inet.Client]: 2
+typing.Any: 45
+typing.Optional[HTTPResponse]: 1
+Dict[str, Union[Type[str], Callable[..., str]]]: 1
+typing.Any, port: 1
+typing.Any) -> Union[Type[str], Callable[..., str]]: 1
+typing.Any, path: 1
+Dict[str, typing.Any]: 1
+typing.Any) -> typing.Any: 3
+typing.Any = ...) -> None: 1
+typing.Any, expected_value: 1
+typing.Any, expected_values: 1
+typing.Any) -> None: 2
+typing.Optional[AnyStr], keep_blank_values: 1
+Union[Mapping, Sequence[Tuple[typing.Any, typing.Any]]], doseq: 1
+Optional[asyncio.futures.Future[nothing]]: 1
+Dict[str, List[float]]: 2
+Optional[_csv._writer]: 1
+Optional[_csv._reader]: 1
+_T1) -> Tuple[int, Dict[str, Union[List[Dict[str, Any]], _T1]]]: 1
+_T0) -> Union[float, int, _T0]: 1
+Dict[str, Dict[str, float]]: 1
+tkinter.Frame: 4
+tkinter.ttk.Progressbar: 1
+Optional[RollingShutter]: 1
+tkinter.ttk.Scale: 1
+tkinter.DoubleVar: 1
+tkinter.IntVar: 4
+str = ..., **options) -> Any: 1
+Optional[str] = ..., message: 3
+List[Optional[str]]: 3
+Type[_TUrl], url) -> _TUrl: 1
+Optional[tuple]: 1
+MyClient: 1
+Dict[Any, Union[float, int]]: 2
+Tuple[Tuple[str, int], Tuple[str, int], Tuple[str, Any]]: 1
+collections.OrderedDict[str, None]: 6
+Type[_TIssueDescription]) -> _TIssueDescription: 1
+Type[_TIssueDescription], iterable: 1
+_TIssueDescription, **kwds: 1
+_StandardTextFormat: 3
+_T0, model_params = ...) -> _T0: 1
+Type[pynamodb.connection.base.Connection]: 1
+pynamodb.connection.base.Connection: 1
+Optional[AccountingWindow]: 1
+urllib.request.OpenerDirector: 1
+Type[json.decoder.JSONDecodeError]: 3
+Type[utils.CheckMsg]: 1
+List[Callable]: 1
+List[Callable[[Any], Any]]: 1
+MinType: 1
+logging.handlers.RotatingFileHandler: 1
+Type[typing.Iterable]: 7
+object, indent: 1
+Type[unrpa.versions.version.Version]: 1
+Type[badwolf.lint.linters.Linter]: 2
+Type[badwolf.lint.Problem]: 3
+Dict[str, Union[decimal.Decimal, Dict[Union[str, Tuple[str, str]], Union[bytearray, bytes, int, str, Tuple[str, str]]]]]: 1
+Dict[Any, Optional[Dict[str, Any]]]: 1
+argparse._SubParsersAction: 4
+Union[bytearray, bytes, str], encoding = ..., cls: 5
+Unbound type parameter Feature in FeatureProvider: 2
+Type[apartcore.ApartCore]: 2
+Type[dialog.OkCancelDialog]: 1
+Type[partinfo.PartitionInfo]: 2
+AnyStr) -> AnyStr: 2
+List[BICONode]: 1
+_TPoint, other) -> _TPoint: 2
+_TPoint, scalar) -> _TPoint: 1
+_T1, ignore_tardir = ...) -> _T1: 1
+Type[werkzeug.datastructures.ImmutableDict]: 1
+bool = ...) -> Any: 1
+Dict[Tuple[Any, Any], Tuple[Any, Any, Any]]: 1
+Counter[nothing]: 3
+Dict[Any, Dict[nothing, nothing]]: 1
+collections.defaultdict[int, Any]: 2
+_T1, depth, sizes_by_depth, component_generator) -> Tuple[Any, Union[Dict[nothing, nothing], _T1]]: 1
+Optional[SQLiteDB]: 1
+NamesDB, keys) -> None: 1
+NamesDB, names) -> None: 1
+Optional[sqlite3.dbapi2.Cursor]: 1
+List[Tuple[str, pathlib.Path, pathlib.Path]]: 1
+Type[utils.StopAfterN]: 1
+Type[utils.ValueListSensor]: 1
+package_repository.PackageRepository: 1
+APIContainer: 1
+Dict[str, Poll]: 1
+Dict[str, Union[str, Tuple[str, ...]]]: 1
+Type[zipfile.ZipFile]: 7
+StrategyXbtClose: 1
+Block: 1
+collections.defaultdict[Tuple[Any, Any], Any]: 2
+List[Space]: 1
+Dude: 1
+SokobanState: 1
+Dict[Union[Block, Dude], Space]: 1
+collections.defaultdict[Space, bool]: 2
+Type[argparse.ArgumentDefaultsHelpFormatter]: 1
+Type[redis.filter.FilterSet]: 1
+Set[bytes]: 1
+Type[requests.adapters.HTTPAdapter]: 2
+Type[subprocess.CalledProcessError]: 3
+Dict[str, Union[int, Dict[str, int]]]: 1
+Type[__builtin__.range]: 2
+Optional[Callable[[_T], Any]], iterable: 3
+AnyStr, pat: 4
+str = ...) -> str: 4
+str, mode: 4
+Type[benchmark_base.Benchmark]: 1
+CloudRemover) -> Any: 4
+CloudRemover) -> Callable[[Any], Any]: 1
+CloudRemover, cloudMask) -> Any: 2
+_T0, sample_rate) -> Generator[_T0, Any, None]: 1
+Type[`_Tnamedtuple-LinkInfo-link-name-sections`], link, name, sections) -> `_Tnamedtuple-LinkInfo-link-name-sections`: 1
+Type[`_Tnamedtuple-LinkInfo-link-name-sections`], iterable: 1
+`_Tnamedtuple-LinkInfo-link-name-sections`, **kwds) -> `_Tnamedtuple-LinkInfo-link-name-sections`: 1
+Dict[str, Union[int, str, List[str]]]: 1
+Optional[asyncio.tasks.Task[nothing]]: 1
+Contact: 1
+Type[queue.Queue]: 10
+Tuple[Callable[[Any, Any, Any], Any]]: 4
+Tuple[Callable[[Any, Any], Any]]: 1
+Tuple[Callable[[Any, Any, Any], Any], Callable[[Any, Any, Any], Any]]: 1
+Dict[str, Callable[[Any], Any]]: 4
+MiniSATWrapper: 1
+_TDictProperty, fdel) -> _TDictProperty: 1
+_TDictProperty, fget) -> _TDictProperty: 1
+_TDictProperty, fset) -> _TDictProperty: 1
+Dict[str, Union[str, Dict[str, Union[bool, str, List[Dict[str, Union[bool, str]]], Tuple[bool, str]]]]]: 3
+Type[queue.PriorityQueue]: 3
+_T0) -> Tuple[_T0, list]: 3
+_T0) -> Tuple[_T0, None]: 3
+List[Argument]: 1
+_TCMake, name, value) -> _TCMake: 1
+_TCMake, name, value, type) -> _TCMake: 1
+_TCMake) -> _TCMake: 1
+_TCMake, folder) -> _TCMake: 1
+Type[flask.ctx.RequestContext]: 1
+List[Tuple[str, str, str, str, str, bool]]: 1
+Type[Union[yaml.cyaml.CSafeLoader, yaml.loader.SafeLoader]]: 1
+Dict[str, Callable]: 3
+Type[crudlike.Root]: 1
+ctypes.CDLL: 2
+Type[cryptography.hazmat.primitives.ciphers.aead.AESGCM]: 1
+bytes) -> bytes: 4
+Union[bytes, str]) -> bytes: 1
+_T0) -> Union[list, Dict[nothing, nothing], _T0]: 1
+_T0, escape_keys = ...) -> Union[list, Dict[nothing, nothing], _T0]: 1
+List[DisplaySegment]: 1
+list, random: 4
+Generator[nothing, Any, None]: 2
+_T0, fns) -> _T0: 1
+_T0, unstack) -> _T0: 1
+_T0, **kwargs) -> Optional[_T0]: 1
+Type[models.character.Character]: 1
+Type[cogs.listings.Listing]: 1
+'Constant' object has no attribute 'Lookup': 6
+Type[method_proxy.MethodWrapperProxy]: 2
+_TUserVisibleVersionInfo, spread) -> _TUserVisibleVersionInfo: 1
+_T) -> _T: 6
+Type[vmrayclient.VMRayClient]: 1
+vmrayclient.VMRayClient: 1
+_T1) -> Tuple[Any, Dict[str, Union[bool, _T1]]]: 1
+RedditView: 1
+controller.Display: 2
+Scraper: 1
+Type[rpi_backlight.Backlight]: 1
+jinja2.environment.Template: 3
+Type[src.objects.user.User]: 1
+Type[grice.app.App]: 1
+Type[click.testing.CliRunner]: 1
+MainWindow: 2
+PortSelector: 1
+Optional[Emitter]: 1
+Dict[int, Dict[str, Optional[Union[int, str, Set[Optional[str]]]]]]: 1
+_T0) -> Dict[str, Union[str, _T0]]: 2
+not enough values to unpack (expected 2, got 0): 4
+Dict[int, ThermalZone]: 1
+Dict[int, TripPoint]: 1
+List[datetime.datetime]: 1
+Type[json.encoder.JSONEncoder]: 1
+WebSocket: 1
+bytes, altchars: 2
+int, stop: 4
+Iterable, wlist: 4
+Union[bytes, str]) -> Tuple[int, str]: 1
+_T2 = ..., window_selection_options = ..., options = ...) -> Union[str, _T2]: 1
+_T1, options = ...) -> _T1: 1
+_T1, ids, joueurs, joueurs_a_supprimer: 1
+_T2) -> Tuple[Any, _T2]: 2
+MyPin: 1
+Watcher: 1
+Type[asyncgenerator]: 3
+Type[typing.AsyncIterable]: 3
+Type[typing.AsyncIterator]: 3
+Type[typing.Awaitable]: 3
+Type[typing.ByteString]: 3
+Type[typing.Callable]: 3
+Type[typing.Collection]: 4
+Type[typing.Container]: 3
+Type[coroutine]: 4
+Type[generator]: 3
+Type[typing.Hashable]: 3
+Type[typing.ItemsView]: 3
+Type[typing.Iterator]: 3
+Type[typing.KeysView]: 3
+Type[typing.MappingView]: 3
+Type[typing.MutableSequence]: 3
+Type[typing.MutableSet]: 3
+Type[typing.Reversible]: 3
+Type[set]: 3
+Type[typing.Sized]: 4
+Type[typing.ValuesView]: 3
+typing.Callable: 6
+Union[_PathLike, bytes, int, str], mode: 5
+Dict[int, int]: 9
+Type[requests.exceptions.ConnectionError]: 4
+Type[requests.models.PreparedRequest]: 1
+Type[urllib.parse.SplitResult]: 1
+Optional[Dict[Any, list]]: 2
+_TMockEngine) -> _TMockEngine: 1
+Optional[tkinter.Toplevel]: 1
+Dict[Any, List[str]]: 1
+Type[hash_table.HashTable]: 1
+Union[bytes, _PathLike[bytes]], start: 4
+Union[str, _PathLike[str]], start: 4
+Union[_PathLike[AnyStr], AnyStr]) -> Tuple[AnyStr, AnyStr]: 4
+_TLazyCleanPatchExtractor, X, y = ...) -> _TLazyCleanPatchExtractor: 1
+_T0, index) -> Union[str, _T0]: 1
+Optional[Generator]: 1
+_T0 = ..., desc = ..., color = ..., scope = ..., project_id = ..., **kwargs) -> Tuple[Any, Union[str, _T0]]: 1
+Type[requests.exceptions.RequestException]: 2
+Type[requests.exceptions.SSLError]: 1
+Dict[str, Union[int, Dict[str, Any]]]: 2
+Dict[str, Tuple[str, None]]: 1
+Union[pytz._DstTzInfo, pytz._StaticTzInfo, pytz._UTCclass]: 3
+str) -> Union[pytz._DstTzInfo, pytz._StaticTzInfo, pytz._UTCclass]: 2
+collections.deque[str]: 1
+int = ..., *, cert_reqs: 1
+ProgramConfigFile: 1
+ProgramInfoFile: 1
+Type[_TFakeFilePaths], role, config, template) -> _TFakeFilePaths: 1
+Type[_TFakeFilePaths], iterable: 1
+_TFakeFilePaths, **kwds) -> _TFakeFilePaths: 1
+Type[wpi.port.LocalPort]: 1
+Type[wpi.port.TCPIPPort]: 1
+Type[pch2csd.patch.Cable]: 1
+Type[pch2csd.patch.CableColor]: 1
+Type[pch2csd.patch.CableType]: 1
+Type[pch2csd.patch.Location]: 1
+Type[pch2csd.patch.Module]: 1
+Type[pch2csd.patch.ModuleParameters]: 1
+Type[pch2csd.resources.ProjectData]: 1
+pch2csd.resources.ProjectData: 3
+_T1) -> Optional[Union[pch2csd.patch.Cable, _T1]]: 1
+Dict[str, Dict[str, List[str]]]: 2
+Optional[collections.OrderedDict]: 1
+_T1) -> tuple: 1
+Type[functools.partialmethod]: 2
+LemmaReplacer: 1
+Dict[int, Optional[str]]: 1
+_TPositionalLabel, original_sample_rate) -> _TPositionalLabel: 1
+_TPositionalLabel, correction) -> _TPositionalLabel: 1
+Dict[str, Union[Dict[str, int], List[Dict[str, str]]]]: 1
+Type[config.Configure]: 1
+Dict[int, Type[Union[MethodNotAllowed, Unauthorized]]]: 1
+Type[yaml.cyaml.CLoader]: 1
+crds, period) -> Any: 1
+crds_hors_prestations, period) -> Any: 1
+csg, period) -> Any: 1
+Coroutine[Any, Any, asyncio.events.AbstractServer]: 1
+asyncio.events.AbstractServer: 1
+Optional[tkinter.Canvas]: 1
+List[Level]: 1
+Type[enum.IntFlag]: 1
+Type[ctypes.CDLL]: 2
+Dict[Any, ctypes._FuncPointer]: 1
+ctypes._FuncPointer: 9
+Type[ctypes.c_char_p]: 1
+Type[ctypes.c_int64]: 1
+Type[ctypes.c_void_p]: 1
+Dict[str, Type[Union[ctypes.c_double, ctypes.c_int, ctypes.c_int64]]]: 1
+Optional[Type[ctypes._CData]], *argtypes: 1
+Type[_CT]) -> Type[ctypes.pointer[_CT]]: 1
+str) -> Optional[str]: 4
+Type[tests.Pyas2TestCase]: 3
+Prostokat: 1
+List[Type[AGE_NOT_INT]]: 1
+List[Type[AGE_NEGATIVE]]: 1
+bananas.environment.EnvironWrapper: 1
+List[tuple]: 2
+List[`namedtuple-Installment-number-payment-interest-principal-total_interest-balance`]: 1
+decimal.Decimal: 3
+Type[`_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`], number, payment, interest, principal, total_interest, balance) -> `_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`: 1
+Type[`_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`], iterable: 1
+`_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`, **kwds) -> `_Tnamedtuple-Installment-number-payment-interest-principal-total_interest-balance`: 1
+List[Tuple[int, Union[float, int]]]: 1
+List[Tuple[int, float]]: 3
+Dict[Any, MovieInfo]: 1
+Warning, category = ..., stacklevel: 3
+str, category: 3
+Optional[Union[str, _importlib_modulespec.ModuleType]] = ..., defaultTest: 2
+Type[mixins.DataFileMixin]: 1
+Type[mixins.LevelMixin]: 1
+Type[mixins.ReprMixin]: 1
+Type[mixins.SpritesMixin]: 1
+Character: 1
+Container: 1
+Inventory: 1
+Item: 1
+Player: 1
+Type[http.client.HTTPConnection]: 1
+Optional[int] = ...) -> bytes: 1
+Type[pyrcrack.models.AccessPoint]: 1
+Type[pyrcrack.models.Client]: 1
+Type[pyrcrack.executor.ExecutorHelper]: 2
+List[Dict[str, Union[float, int, str]]]: 1
+_T0, to_date: 1
+WbAnnotateModel: 1
+WbAnnotateTableView: 1
+Mapping[str, List[str]]: 2
+object = ..., file: 1
+_T1) -> Tuple[Any, Any, Any]: 1
+Type[contextlib.ContextDecorator]: 3
+_TTimer) -> _TTimer: 2
+Type[pkg_resources.DistributionNotFound]: 3
+Union[str, pkg_resources.Distribution, pkg_resources.Requirement]) -> pkg_resources.Distribution: 2
+Optional[Callable[..., requests.models.Response]]: 1
+Type[keras_extensions.AnyShapeEmbedding]: 1
+Type[read_data.DataProcessor]: 1
+Type[keras_extensions.MaskedFlatten]: 1
+Type[keras_extensions.TimeDistributedRNN]: 1
+Dict[str, Union[Callable[[Any, Any], Any], Type[Union[keras_extensions.AnyShapeEmbedding, keras_extensions.MaskedFlatten, keras_extensions.TimeDistributedRNN]]]]: 1
+Type[enhance_goodreads_export.EnhanceExportException]: 1
+Signal, D) -> numpy.ndarray: 1
+Set[Union[str, Pattern[str]]]: 1
+Dict[Union[str, Pattern[str]], Union[str, List[str], Set[str]]]: 1
+Type[`_Tnamedtuple-ImageInformation-build_date-image_type`], build_date, image_type) -> `_Tnamedtuple-ImageInformation-build_date-image_type`: 1
+Type[`_Tnamedtuple-ImageInformation-build_date-image_type`], iterable: 1
+`_Tnamedtuple-ImageInformation-build_date-image_type`, **kwds) -> `_Tnamedtuple-ImageInformation-build_date-image_type`: 1
+bytes, password: 1
+Type[datetime.time]: 2
+List[List[int]]: 3
+Type[_T_], s) -> _T_: 1
+FileVersionResult: 2
+List[FileVersionInfo]: 2
+List[Pattern[str]]: 3
+Type[tarfile.TarFile]: 2
+Type[tarfile.TarInfo]: 2
+Type[zipfile.ZipInfo]: 1
+Type[jisho.jisho.Jisho]: 1
+List[Dict[str, Optional[Union[str, Dict[Union[int, str], Union[bool, str, Dict[str, Union[bool, str]]]]]]]]: 1
+Dict[int, Dict[str, Union[bool, str]]]: 1
+_csv._reader: 1
+_csv._writer: 1
+Dict[str, Optional[Union[str, Dict[Union[int, str], Union[bool, str, Dict[str, Union[bool, str]]]]]]]: 1
+Callable[[Any, Any], Any]: 5
+Optional[module]: 3
+_T0, must_exists = ...) -> Union[str, _T0]: 1
+ID3: 2
+_TCreatePerson, args, context, info) -> _TCreatePerson: 1
+TokenAuthentication: 1
+_T1 = ...) -> Tuple[str, Union[str, _T1]]: 1
+Type[tcd.arguments.Arguments]: 1
+Type[tcd.downloader.Downloader]: 1
+Type[tcd.logger.Log]: 1
+Type[tcd.logger.Logger]: 1
+Type[tcd.settings.Settings]: 1
+List[Type[Union[tcd.arguments.Arguments, tcd.downloader.Downloader, tcd.logger.Log, tcd.logger.Logger, tcd.settings.Settings]]]: 1
+_T0) -> Dict[str, Dict[str, _T0]]: 1
+Type[difflib.SequenceMatcher]: 2
+int, iterable: 1
+Type[base_station.BaseStation]: 2
+BatchArraySingle: 4
+Type[proxy.remote.RemoteInfo]: 1
+_T1, expose, add_custom_nameserver) -> Tuple[_T1, Any]: 1
+_T1, expose, add_custom_nameserver) -> Tuple[_T1, None]: 1
+bytes, __value: 1
+_T3) -> Union[Tuple[Any, Any, Any], _T3]: 1
+_T0, alpha: 1
+_T2, tback: 1
+Type[asks.errors.BadHttpResponse]: 1
+Type[asks.cookie_utils.CookieTracker]: 1
+Type[asks.req_structs.SocketQ]: 1
+asks.req_structs.SocketQ: 1
+_T0) -> Tuple[Any, str]: 1
+Type[chattymarkov.database.databases.JSONFileDatabase]: 1
+Type[chattymarkov.database.databases.MemoryDatabase]: 1
+Type[chattymarkov.database.databases.MemoryDatabaseAsync]: 1
+Type[chattymarkov.database.databases.RedisDatabase]: 1
+Type[chattymarkov.database.databases.RedisDatabaseAsync]: 1
+Optional[concurrent.futures.thread.ThreadPoolExecutor]: 2
+Type[HubEntityMetaClass], name, bases, classdict) -> Any: 1
+Type[LinkEntityMetaClass], name, bases, classdict) -> Any: 1
+Type[OrderedTableMetaClass], name, bases, classdict) -> Any: 1
+Type[ValueError]: 1
+Union[TPEXFetcher, TWSEFetcher]: 1
+Type[`_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`], date, capacity, turnover, open, high, low, close, change, transaction) -> `_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`: 1
+Type[`_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`], iterable: 1
+`_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`, **kwds) -> `_Tnamedtuple-Data-date-capacity-turnover-open-high-low-close-change-transaction`: 1
+Type[asyncio.locks.Event]: 1
+_weakref.ReferenceType[nothing]: 1
+Optional[requests.cookies.RequestsCookieJar]: 1
+Pattern[bytes]: 2
+Dict[str, Tuple[Any, None, Tuple[type]]]: 1
+Type[gramtool.grammar.Grammar]: 1
+Dict[Any, Wrapper]: 1
+gramtool.grammar.Grammar: 1
+gramtool.hunspell.HunSpell: 1
+Set[int]: 3
+_TRF2DictWriter) -> _TRF2DictWriter: 1
+Dict[int, Set[Language]]: 1
+Type[distutils.ccompiler.CCompiler]: 1
+distutils.ccompiler.CCompiler) -> None: 1
+distutils.ccompiler.CCompiler, library_dirs: 1
+Optional[str] = ..., platform: 1
+Streamline, right, nb_points = ...) -> Any: 3
+_TStreamline, template) -> _TStreamline: 3
+_TStreamline, knot_distance = ...) -> _TStreamline: 3
+_TStreamlines, other) -> _TStreamlines: 3
+_TStreamlines, min_length = ...) -> _TStreamlines: 3
+_TStreamlines, knot_distance = ...) -> _TStreamlines: 3
+str, t: 2
+`namedtuple-PredefinedOptions-app_id-context_id`: 5
+Type[`namedtuple-PredefinedOptions-app_id-context_id`]: 1
+Type[`_Tnamedtuple-PredefinedOptions-app_id-context_id`], app_id, context_id) -> `_Tnamedtuple-PredefinedOptions-app_id-context_id`: 1
+Type[`_Tnamedtuple-PredefinedOptions-app_id-context_id`], iterable: 1
+`_Tnamedtuple-PredefinedOptions-app_id-context_id`, **kwds) -> `_Tnamedtuple-PredefinedOptions-app_id-context_id`: 1
+PowerFrameHandler, capacity, **kwargs) -> Any: 2
+_T0, keys_to_delete) -> _T0: 2
+Type[configmaster.ConfigKey.ConfigKey]: 1
+Type[distutils.extension.Extension]: 1
+Type[asyncio.queues.Queue]: 1
+Type[logging.Formatter]: 1
+Type[configparser.RawConfigParser]: 2
+logging.Handler: 1
+configparser.RawConfigParser: 2
+Tuple[int, ...]: 3
+AsyncOWAPI) -> Callable: 2
+datetime.date: 6
+_T0 = ...) -> Dict[Union[str, _T1], Any]: 1
+Type[fractions.Fraction]: 3
+Union[functools._SingleDispatchCallable, singledispatch._SingleDispatchCallable]: 1
+Callable[..., _T]) -> Union[functools._SingleDispatchCallable[_T], singledispatch._SingleDispatchCallable[_T]]: 1
+List[Accept]: 2
+frozenset: 1
+_T1 = ...) -> Tuple[Any, Union[str, _T1]]: 1
+_T0) -> Coroutine[Any, Any, Dict[str, _T0]]: 1
+Dict[bytes, Any]: 1
+_T2 = ...) -> Tuple[Any, Any]: 6
+CentralWidget: 1
+_T0) -> Union[bytes, _T0]: 1
+_TReader) -> _TReader: 1
+Type[meeseeksdev.meeseeksbox.scopes.Permission]: 1
+Type[Session]: 2
+Type[enum.IntEnum]: 1
+Dict[str, List[nothing]]: 1
+_T0, namespace: 1
+List[Dict[str, Union[str, Dict[str, Union[str, Dict[str, Dict[str, Union[str, Dict[str, List[str]]]]]]]]]]: 1
+List[Tuple[Any, Tuple[str, ...], Any, Any]]: 1
+Dict[tuple, int]: 1
+Tuple[str, int]: 1
+List[Tuple[str, int]]: 3
+Union[_PathLike, bytes, str]) -> int: 1
+Tuple[Any, str, str, str, str, str, str]: 1
+Optional[Union[JSONRPCResponse, List[JSONRPCResponse]]]: 1
+_T0) -> Union[List[Union[_T0, _T1]], _T0, _T1]: 1
+_T1, reserved_ids = ...) -> Union[str, _T1]: 1
+Type[named_object_list.NamedObjectList]: 1
+File: 3
+named_object_list.NamedObjectList: 1
+Type[struct.error]: 1
+Union[time.struct_time, Tuple[int, ...]]) -> int: 2
+Type[isolation.isolation.Board]: 1
+isolation.isolation.Board: 1
+RandomPlayer: 1
+GreedyPlayer: 1
+Type[sqlite3.dbapi2.Connection]: 1
+CodepointInfo: 1
+__builtin__.type: 6
+Union[list, tuple]: 1
+Type[SDLInterface.SDLInterface]: 1
+Optional[SDLInterface.SDLInterface]: 1
+Type[app.exceptions.base.AuthorizationException]: 1
+Type[app.models.file.File]: 1
+Type[app.exceptions.base.ResourceNotFoundException]: 1
+Type[app.models.user.User]: 1
+Type[app.exceptions.base.ValidationException]: 1
+'logging.StreamHandler': 4
+Type[txmod.TXMOD]: 2
+__builtin__.list[str]: 2
+Type[`_Tnamedtuple-TestNode-instance_id-unschedulable`], instance_id, unschedulable) -> `_Tnamedtuple-TestNode-instance_id-unschedulable`: 1
+Type[`_Tnamedtuple-TestNode-instance_id-unschedulable`], iterable: 1
+`_Tnamedtuple-TestNode-instance_id-unschedulable`, **kwds) -> `_Tnamedtuple-TestNode-instance_id-unschedulable`: 1
+List[List[List[str]]]: 1
+List[Dict[str, Union[str, Dict[str, Union[str, Dict[str, str]]]]]]: 1
+List[Type[SolvingTaskBehavior]]: 1
+Type[UserBehavior]: 1
+Dict[str, Union[int, str]]: 5
+_T) -> Iterator[_T]: 1
+_T, times: 1
+Type[multiprocessing.context.Process]: 7
+multiprocessing.context.Process: 5
+List[multiprocessing.context.Process]: 1
+ExampleBuilder: 1
+Dict[Any, Dict[str, List[Tuple[Any, Any]]]]: 1
+Type[extractors.core.Extractor]: 1
+_TScratchDir) -> _TScratchDir: 1
+threading.Condition: 1
+_TVRepApi) -> _TVRepApi: 1
+Type[ssd300.SSD300]: 1
+Type[Union[ErrorWrapper, Sequence]]: 1
+Dict[Tuple[GenericModel, Any], Any]: 1
+GenericModel, params) -> Any: 1
+simdspec.Specification: 1
+Tuple[Type[RockBuilderPanel], Type[RockBuilderOperator], Type[RockBuilderUpdate], Type[RockGeneratorProperties]]: 1
+Type[docutils.parsers.rst.states.Inliner]: 1
+Dict[Any, Tuple[Any, Any, Any]]: 2
+Type[Registration]: 1
+Dict[Any, Callable]: 1
+_T1 = ...) -> Generator[Tuple[Any, Any], Any, Any]: 1
+Type[email.mime.text.MIMEText]: 4
+Type[smtplib.SMTP]: 1
+MyBaseStation: 1
+_TCamera, memo) -> _TCamera: 1
+_T1, parser, mm_key: 1
+Union[bytes, str, IO], parserinfo: 2
+Type[Union[int, str]]: 1
+Tuple[Tuple[str, int], ...]: 1
+Tuple[Tuple[int, Tuple[str, ...]], ...]: 1
+Dict[str, Dict[str, int]]: 1
+Dict[str, Dict[int, str]]: 2
+Callable[[Union[int, str]], str]: 3
+Callable[[int, int, int], str]: 2
+Type[`_Tnamedtuple-Token-kind-value`], kind, value) -> `_Tnamedtuple-Token-kind-value`: 1
+Type[`_Tnamedtuple-Token-kind-value`], iterable: 1
+`_Tnamedtuple-Token-kind-value`, **kwds) -> `_Tnamedtuple-Token-kind-value`: 1
+_T1) -> Optional[Union[str, _T1]]: 1
+Type[requests.exceptions.MissingSchema]: 1
+Optional[WechatHandle]: 1
+Iterable[_Number]) -> _Number: 1
+Iterable[_Number], xbar: 1
+Type[asyncio.locks.BoundedSemaphore]: 1
+typing.Counter[nothing]: 2
+collections.defaultdict[nothing, bool]: 1
+Type[_TAttackContext]) -> _TAttackContext: 1
+Type[_TAttackContext], iterable: 1
+_TAttackContext, **kwds: 1
+Type[_TInjection]) -> _TInjection: 1
+Type[_TInjection], iterable: 1
+_TInjection, **kwds: 1
+List[Dict[str, Union[int, str]]]: 4
+configparser.SectionProxy: 2
+Type[components.homekit_controller.HomeKitEntity]: 1
+Type[components.vera.VeraDevice]: 1
+Type[multiprocessing.pool.Pool]: 1
+multiprocessing.pool.Pool: 3
+CollapsiblePane: 1
+tkinter.ttk.Checkbutton: 2
+tkinter.ttk.Separator: 1
+Dict[int, float]: 2
+Dict[int, Dict[int, float]]: 1
+property: 1
+Type[Parametrized], name, mro, attrs) -> Any: 1
+List[None]: 1
+tarfile.TarFile: 1
+IO: 2
+Optional[tarfile.TarInfo]: 1
+Optional[float] = ...) -> time.struct_time: 1
+bucket_throttling.ThrottlingOptions: 2
+List[bucket_throttling.ThrottlingRule]: 2
+openfisca_france_data.openfisca_france_data: 1
+Type[dqn.DQNAgent]: 1
+Type[memory.Episode]: 1
+Type[memory.EpisodeHistory]: 1
+Type[memory.ExperienceMemory]: 1
+Type[memory.GameHistory]: 1
+Type[memory.MatchResults]: 1
+dqn.DQNAgent: 1
+memory.EpisodeHistory: 1
+memory.GameHistory: 1
+memory.ExperienceMemory: 1
+Dict[Pattern[str], Type[FlatbufferPrinter]]: 1
+_T0 = ..., *args, **kwargs) -> _T0: 1
+MockProofAssistantWrapper: 1
+List[Tuple[float, float]]: 1
+Type[ctypes.c_char]: 1
+Union[bytes, int], size: 1
+Type[`namedtuple-QuotaTuple-region-size`]: 1
+Type[`_Tnamedtuple-QuotaTuple-region-size`], region, size) -> `_Tnamedtuple-QuotaTuple-region-size`: 1
+Type[`_Tnamedtuple-QuotaTuple-region-size`], iterable: 1
+`_Tnamedtuple-QuotaTuple-region-size`, **kwds) -> `_Tnamedtuple-QuotaTuple-region-size`: 1
+Type[http.HTTPStatus]: 1
+Dict[str, classmethod]: 1
+Type[targets.target.Target]: 1
+_T0, orig_version) -> _T0: 1
+_TBatchGenerator) -> _TBatchGenerator: 1
+_T1) -> Tuple[Union[int, str], Optional[Dict[str, Union[Dict[Any, Union[float, int, str]], List[Dict[str, Union[str, List[Dict[str, str]]]]], _T1]]]]: 1
+Type[xml.etree.ElementTree.Element]: 1
+Type[xml.etree.ElementTree.ElementTree]: 1
+xml.etree.ElementTree.ElementTree: 1
+Union[bytes, str], parser: 1
+_T1, fallback_encoding) -> Tuple[Any, _T1]: 1
+Callable[..., Union[float, int]]: 1
+Tuple[Tuple[str, Any]]: 2
+Type[filecmp.dircmp]: 1
+AutoSchemaDescriptor[nothing], serializer, objtype) -> Any: 1
+AutoSchemaDescriptor[nothing], api_type, id_field, init_kwargs) -> None: 1
+List[Album]: 1
+List[Artist]: 1
+List[Track]: 1
+Type[AlbumObject]: 1
+Type[ArtistObject]: 1
+_T0, validated_data) -> _T0: 2
+QuerySet[nothing], item) -> Any: 1
+QuerySet[nothing], objs) -> None: 1
+QuerySet[nothing]) -> Any: 1
+QuerySet[nothing], obj) -> None: 1
+QuerySet[nothing]) -> int: 1
+QuerySet[nothing], pk) -> Any: 1
+Type[TrackObject]: 1
+Type[axes.handlers.proxy.AxesProxyHandler]: 1
+Optional[AsyncChatBot]: 1
+argparse.Namespace) -> None: 2
+str) -> None: 6
+List[str]) -> typing.Counter[str]: 1
+str, process: 1
+List[str], copy_clipboard: 1
+Union[List[nothing], Set[str]]: 1
+_T0, poem_path) -> _T0: 1
+Type[pyramid_sms.interfaces.ISMSService]: 1
+bytes) -> Any: 1
+Callable[[Optional[Exception]], Any]: 1
+Dict[Any, Union[dict, list]]: 1
+List[special_cases.SpecialSection]: 1
+List[Callable[[Any, Any, Any], Any]]: 1
+Dict[Any, Dict[Any, Dict[str, List[nothing]]]]: 1
+_T0, filename: 1
+_T1, path) -> List[Tuple[Any, Any, _T1, str]]: 1
+MutableSequence[_T], x: 1
+json._Reader, cls: 2
+_T0) -> list: 1
+Type[client.Host]: 1
+Type[client.Token]: 1
+List[Job]: 1
+Optional[_thread.LockType]: 2
+List[Tuple[str, List[str]]]: 2
+_T2 = ...) -> Union[str, _T2]: 1
+Dict[str, Dict[str, Optional[Union[str, List[str]]]]]: 1
+object, reason: 3
+Prototype: 1
+Type[pynga.post.Post]: 1
+Type[pynga.session.Session]: 1
+Type[pynga.thread.Thread]: 1
+Type[pynga.user.AdminLog]: 1
+'Unknown' object has no attribute 'code': 6
+Type[wordinserter.operations.Bold]: 1
+Type[wordinserter.operations.BulletList]: 1
+Type[wordinserter.operations.CodeBlock]: 1
+Type[wordinserter.operations.Footnote]: 1
+Type[wordinserter.operations.Format]: 1
+Type[wordinserter.operations.Group]: 1
+Type[wordinserter.operations.Heading]: 1
+Type[wordinserter.operations.HyperLink]: 1
+Type[wordinserter.operations.IgnoredOperation]: 1
+Type[wordinserter.operations.Image]: 1
+Type[wordinserter.operations.Italic]: 1
+Type[wordinserter.operations.LineBreak]: 1
+Type[wordinserter.operations.ListElement]: 1
+Dict[str, Union[type, functools.partial[nothing]]]: 1
+Type[wordinserter.operations.NumberedList]: 1
+Type[wordinserter.operations.Paragraph]: 1
+Type[wordinserter.operations.Span]: 1
+Type[wordinserter.operations.Style]: 1
+Type[wordinserter.operations.Table]: 1
+Type[wordinserter.operations.TableBody]: 1
+Type[wordinserter.operations.TableCell]: 1
+Type[wordinserter.operations.TableHead]: 1
+Type[wordinserter.operations.TableRow]: 1
+Type[wordinserter.operations.Text]: 1
+Type[wordinserter.operations.UnderLine]: 1
+Type[odie.ClientError]: 1
+Iterator: 1
+Optional[Type[BaseException]], value: 2
+ctypes.c_int: 2
+Type[algobroker.Broker]: 1
+BrokerTwilio: 1
+Dict[Any, Action]: 1
+_TState) -> _TState: 1
+Dict[str, Union[str, Dict[str, Dict[str, str]], List[str]]]: 1
+List[Tuple[Union[bytes, float, int, str, Dict[str, str], List[Union[int, str]], Set[str]], Any]]: 1
+Optional[List[Tuple[str, str]]]: 1
+Optional[Union[int, str]]: 2
+List[Union[int, str]]: 2
+str) -> Optional[Union[int, str]]: 1
+Dict[str, ElianCharacter]: 1
+ElianCharacter: 1
+collections.OrderedDict[str, str]: 2
+Type[_TElianCharacter], upper: 1
+Type[_TElianCharacter], iterable: 1
+_TElianCharacter, **kwds: 1
+_T1, entry_templ) -> _T1: 1
+_TFileSize, file_size) -> _TFileSize: 2
+_TFileSize, amount) -> _TFileSize: 3
+Type[taktyk.request.Request]: 1
+_T0) -> Tuple[_T0, str]: 1
+Dict[Any, Dict[str, Dict[str, str]]]: 1
+_Tsocket) -> _Tsocket: 2
+Type[RuntimeError]: 1
+int = ...) -> int: 1
+_T0) -> Generator[Tuple[Any, _T0], Any, None]: 1
+Union[mock._patcher, unittest.mock._patcher]: 2
+MockCode: 1
+Api: 1
+_T0, convert = ..., allow_none = ...) -> Union[bool, _T0]: 1
+_T0, key_type = ..., value_type = ..., allow_none = ...) -> Union[dict, _T0]: 1
+_T0, allow_none = ...) -> Union[int, _T0]: 1
+_T0, item_type = ..., allow_none = ...) -> Union[list, _T0]: 1
+_T0, convert = ..., allow_none = ...) -> Union[str, _T0]: 1
+Optional[requests.models.Response]: 2
+_T1) -> Union[int, _T1]: 1
+Type[type]: 1
+super: 1
+Row: 1
+Type[platforms.management.PlatformManager]: 1
+platforms.management.PlatformManager: 1
+Dict[str, MemberList]: 1
+Members: 2
+Commons: 1
+House: 1
+IpQuery: 1
+IpDb: 2
+_T0) -> Dict[str, Optional[Union[str, _T0]]]: 1
+List[collections.defaultdict[nothing, Any]]: 1
+Type[namespace.Container]: 1
+Type[namespace.ContainerStatus]: 1
+Type[syscalls.Pipe]: 2
+namespace.Container: 1
+_TTaintRecord) -> _TTaintRecord: 1
+Dict[str, Tuple[int, int]]: 1
+_T1, state_index = ...) -> list: 1
+ExternalCalls: 1
+Type[mythril.laser.ethereum.state.environment.Environment]: 1
+Type[mythril.laser.smt.expression.Expression]: 1
+Type[mythril.laser.ethereum.state.global_state.GlobalState]: 1
+Type[mythril.laser.ethereum.cfg.JumpType]: 1
+Type[mythril.laser.ethereum.cfg.Node]: 1
+Type[mythril.analysis.symbolic.SymExecWrapper]: 1
+Type[mythril.laser.ethereum.taint_analysis.TaintRecord]: 1
+Type[mythril.laser.ethereum.taint_analysis.TaintResult]: 1
+Type[mythril.laser.ethereum.taint_analysis.TaintRunner]: 1
+Type[Union[bytes, str]]: 1
+Dict[bytes, type]: 1
+Type[Union[Job, int]]: 1
+_TClient) -> _TClient: 1
+Type[greenstalk.BuriedError]: 1
+Type[greenstalk.Client]: 1
+Type[greenstalk.DeadlineSoonError]: 1
+Type[greenstalk.JobTooBigError]: 1
+Type[greenstalk.NotFoundError]: 1
+Type[greenstalk.NotIgnoredError]: 1
+Type[greenstalk.TimedOutError]: 1
+Type[greenstalk.UnknownResponseError]: 1
+str = ...) -> None: 2
+_TEnsembleClassifier, X, y, callback = ...) -> _TEnsembleClassifier: 1
+Dict[str, Union[str, List[dict]]]: 1
+Type[updater.FlashState]: 1
+Type[spinner.MDSpinner]: 1
+Type[devices.USBDeviceConnection]: 1
+Dict[int, nothing]: 1
+SonarTransciever: 1
+Type[rnn.Classifier]: 1
+_T1, dropout = ..., train = ...) -> Tuple[list, Union[Dict[str, Any], _T1]]: 2
+Tuple[str, str, bool]: 4
+Tuple[str, str, int]: 5
+Optional[types.TracebackType], limit: 1
+Tuple[str, ...] = ...) -> Tuple[Optional[str], Optional[str]]: 1
+bool = ..., terse: 1
+Dict[Any, Set[nothing]]: 1
+_T0) -> Union[list, _T0]: 4
+Log1pe: 1
+Type[familia_wrapper.InferenceEngineWrapper]: 1
+Type[familia_wrapper.TopicalWordEmbeddingsWrapper]: 1
+familia_wrapper.InferenceEngineWrapper: 2
+collections.defaultdict[int, list]: 1
+familia_wrapper.TopicalWordEmbeddingsWrapper: 1
+Person: 1
+Dict[int, Union[float, int]]: 1
+Type[neulion.NeulionScraperApi]: 1
+Type[common.PreparedVideoInfo]: 1
+Type[common.TimeCode]: 1
+Type[common.VideoMetadata]: 1
+Type[common.VideoProvider]: 1
+Type[`_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`], url, title, rank, descr, start_utc, project, id, duration) -> `_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`: 1
+Type[`_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`], iterable: 1
+`_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`, **kwds) -> `_Tnamedtuple-Clip-url-title-rank-descr-start_utc-project-id-duration`: 1
+Type[`_Tnamedtuple-Project-id-name`], id, name) -> `_Tnamedtuple-Project-id-name`: 1
+Type[`_Tnamedtuple-Project-id-name`], iterable: 1
+`_Tnamedtuple-Project-id-name`, **kwds) -> `_Tnamedtuple-Project-id-name`: 1
+Type[ContextManager]: 1
+enum.auto: 2
+List[numpy.ndarray]: 1
+Optional[float] = ..., localtime: 1
+Type[dino_api.Board]: 1
+Optional[IncomingInterface]: 1
+List[type]: 1
+Type[types.GeneratorType]: 1
+Type[_TChat], msgs, id = ...) -> _TChat: 1
+Type[`_Tnamedtuple-Chat-users-msgs-id`], users, msgs, id) -> `_Tnamedtuple-Chat-users-msgs-id`: 1
+Type[`_Tnamedtuple-Chat-users-msgs-id`], iterable: 1
+`_Tnamedtuple-Chat-users-msgs-id`, **kwds) -> `_Tnamedtuple-Chat-users-msgs-id`: 1
+Type[`_Tnamedtuple-Message-timestamp-user-msg`], timestamp, user, msg) -> `_Tnamedtuple-Message-timestamp-user-msg`: 1
+Type[`_Tnamedtuple-Message-timestamp-user-msg`], iterable: 1
+`_Tnamedtuple-Message-timestamp-user-msg`, **kwds) -> `_Tnamedtuple-Message-timestamp-user-msg`: 1
+Union[bytes, str], timeout: 2
+Type[socketserver.ThreadingMixIn]: 1
+ThreadedHTTPServer: 1
+_T3) -> _T3: 3
+_TSearchCliArguments) -> _TSearchCliArguments: 20
+Type[cryptography.exceptions.UnsupportedAlgorithm]: 1
+_T3, combats) -> Tuple[Any, _T3]: 1
+Foo: 1
+flask.wrappers.Response: 1
+_TSymbolNUMBER, other) -> _TSymbolNUMBER: 16
+Union[Callable, Type[bytes]]: 1
+Type[ftplib.FTP]: 1
+SupportsFloat) -> bool: 1
+_T0) -> Union[float, _T0]: 1
+Dict[str, Union[int, list]]: 3
+Jukebox: 1
+Optional[Callable[[Any, Any], Any]]: 1
+Optional[Callable[[Any], Any]]: 2
+_T0, spider) -> _T0: 2
+collections.OrderedDict: 7
+_T0) -> Tuple[_T0, Any]: 1
+wpi.reg.Tips: 1
+Tuple[int, float, int, float, int, float, int, float]: 1
+HashCache: 1
+Mapping[str, Tuple[set, dict]]: 1
+`namedtuple-Point-x-y`: 3
+Point_a: 3
+_TPoint_a, other) -> _TPoint_a: 1
+Type[`_Tnamedtuple-Point-x-y`], x, y) -> `_Tnamedtuple-Point-x-y`: 1
+Type[`_Tnamedtuple-Point-x-y`], iterable: 1
+`_Tnamedtuple-Point-x-y`, **kwds) -> `_Tnamedtuple-Point-x-y`: 1
+Type[`_Tnamedtuple-Point_a-x-y`], x, y) -> `_Tnamedtuple-Point_a-x-y`: 1
+Type[`_Tnamedtuple-Point_a-x-y`], iterable: 1
+`_Tnamedtuple-Point_a-x-y`, **kwds) -> `_Tnamedtuple-Point_a-x-y`: 1
+List[Union[str, Type[HomePage]]]: 1
+Tuple[Tuple[str, str], Tuple[str, str]]: 3
+types.SimpleNamespace: 4
+List[types.SimpleNamespace]: 1
+Dict[Any, __builtin__.type]: 1
+betterttv: 1
+WasmProcess: 1
+Type[numbers.Real]: 1
+_Ttest_iter) -> _Ttest_iter: 1
+_T0) -> typing.Dict[Any, typing.Union[int, _T0]]: 1
+_T0) -> typing.Dict[Any, typing.Union[str, _T0]]: 1
+Type[requests.auth.HTTPDigestAuth]: 1
+Type[FileGenerator.FileGenerator]: 1
+Type[FileGenerator.IndentScope]: 1
+List[Dict[str, Union[str, List[Dict[str, Any]]]]]: 1
+Dict[int, Dict[str, Any]]: 1
+_T0, query) -> Tuple[_T0, Any]: 1
+QJsonModel: 1
+_TQJsonTreeItem, value, parent = ...) -> _TQJsonTreeItem: 1
+Type[optparse.OptionParser]: 2
+Setting: 1
+Dict[Any, Status]: 1
+List[Tuple[str, str, List[nothing]]]: 2
+List[Tuple[str, str, List[Tuple[str, int]]]]: 4
+List[Type[SET_COOKIE_LEADING_ZERO_MAX_AGE]]: 1
+List[Tuple[str, str, List[Tuple[str, str]]]]: 2
+List[Tuple[str, str, List[Tuple[str, Union[int, str]]]]]: 1
+List[Type[XSS_PROTECTION_BLOCK]]: 1
+Tuple[int, Dict[str, str]]: 1
+List[Type[XSS_PROTECTION_ON]]: 1
+Tuple[int, Dict[nothing, nothing]]: 2
+List[Type[XSS_PROTECTION_OFF]]: 1
+_T0, col_coord, row_coord) -> _T0: 1
+Don't know how to match <class 'pytype.pytd.pytd.Literal'> against <class 'pytype.pytd.pytd.NamedType'>: 4
+Type[queue.Empty]: 1
+List[Set[str]]: 1
+Optional[Pattern[str]]: 1
+Type[provider.buienradar.BuienRadarDataProvider]: 1
+Type[provider.fx.FxDataProvider]: 1
+Type[provider.ns.NSDepartureTimesProvider]: 1
+Type[provider.ns.NSTravelAdviceProvider]: 1
+Type[provider.ovapi.OvApiDataProvider]: 1
+Dict[str, Type[Union[provider.buienradar.BuienRadarDataProvider, provider.fx.FxDataProvider, provider.ns.NSDepartureTimesProvider, provider.ns.NSTravelAdviceProvider, provider.ovapi.OvApiDataProvider]]]: 1
+Type[http.server.SimpleHTTPRequestHandler]: 1
+Dict[str, Callable[[Any, Any], Any]]: 1
+_T1) -> Tuple[bool, Any, _T1]: 1
+Dict[Tuple[Any, tuple, FrozenSet[Tuple[str, Any]]], Any]: 1
+Type[types.FunctionType]: 1
+Type[video.Imagem]: 1
+Type[video.Video]: 1
+Callable[[objetodojogo.ObjetoDoJogo, objetodojogo.ObjetoDoJogo], int]: 1
+video.Video: 1
+PathItem: 1
+_T0, phasesets, antiphasesets) -> Union[list, _T0]: 1
+Iterable[_T], r: 2
+_T1, stop: 1
+List[Tuple[Pattern[str], str]]: 5
+Union[bytes, str], casefold: 1
+_T0) -> List[Union[str, _T0]]: 1
+Dict[Any, SourceInfo]: 1
+_TEntityBuilder, name) -> _TEntityBuilder: 2
+_TEntityBuilder, type, idx) -> _TEntityBuilder: 1
+_TEntityBuilder) -> _TEntityBuilder: 1
+_TEntityBuilder, unknowns) -> _TEntityBuilder: 1
+_TEntityBuilder, value) -> _TEntityBuilder: 1
+Dict[str, Union[dict, list]]: 1
+Dict[Any, Dict[str, Union[dict, list]]]: 1
+_TTypeBuilder, name, type, file, lnr, multi = ..., nullable = ..., comment = ...) -> _TTypeBuilder: 1
+_TTypeBuilder, name, file, lnr, *parents) -> _TTypeBuilder: 1
+_TTypeBuilder, name, type, file, lnr, multi, reverse = ..., comment = ...) -> _TTypeBuilder: 1
+_TTypeBuilder, value) -> _TTypeBuilder: 2
+Optional[Tuple[Any, Any, Any]]: 1
+List[bytearray]: 1
+jafka.Producer: 1
+MockSphinxApp: 1
+EditLine: 1
+Type[yaml.representer.Representer]: 1
+Type[yaml.representer.SafeRepresenter]: 1
+Munch, **options) -> str: 1
+Munch, **options) -> None: 1
+Tuple[str, Callable[[Any, Any], Any]]: 2
+_T0, mapping) -> Tuple[_T0, Callable[[Any, Any], Any]]: 1
+_T0, f) -> Tuple[_T0, Callable[[Any, Any], Any]]: 1
+Optional[_importlib_modulespec.ModuleSpec]: 1
+_T0) -> Tuple[int, _T0]: 1
+AbsoluteUrl: 3
+Type[requests.packages.urllib3.exceptions.InsecureRequestWarning]: 1
+Type[http.cookiejar.Cookie]: 1
+Type[requests.cookies.RequestsCookieJar]: 1
+Union[Callable[[Any, Any], Any], float]: 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]: 1
+Type[squeezealexa.transport.mqtt.CustomClient]: 1
+squeezealexa.settings.LmsSettings: 1
+squeezealexa.settings.MqttSettings: 1
+squeezealexa.transport.mqtt.CustomClient: 1
+Optional[telnetlib.Telnet]: 1
+Optional[Union[str, _PathLike[str]]] = ..., filemode: 1
+List[Tuple[str, Tuple[str, Optional[str]]]]: 2
+Type[csv.DictReader]: 1
+Union[time.struct_time, Tuple[int, int, int, int, int, int, int, int, int]]) -> float: 1
+typing.Iterable, iter2: 1
+typing.Iterable[_T1]) -> Iterator[Tuple[_T1]]: 1
+typing.Iterable[_T1], iter2: 5
+Union[Pattern[AnyStr], AnyStr], repl: 2
+Type[gatekeeper.cog.Gatekeeper]: 1
+_T7) -> Tuple[_T7, Any, Any, List[str]]: 1
+Type[window.base.Example]: 1
+Type[PingProxy]: 1
+PingProxy: 1
+List[Type[ManagLapResultInline]]: 2
+Tuple[Tuple[None, Dict[str, Tuple[str, ...]]]]: 1
+Type[VideoAddForm]: 1
+Tuple[Tuple[None, Dict[str, Tuple[str, str, str, str, str, str, str]]], Tuple[str, Dict[str, Tuple[str, ...]]]]: 1
+int = ..., num_bit: 1
+Iterable[Iterator[int]]) -> Any: 1
+Iterable[Iterator[float]]) -> Any: 1
+_T0, el) -> Tuple[str, str, Any, _T0]: 1
+Type[bireus.client.repository.CheckoutError]: 1
+Type[bireus.client.repository.ClientRepository]: 1
+Type[bireus.client.download_service.DownloadError]: 1
+Type[tests.mocks.mock_download_service.MockDownloadService]: 1
+Type[bireus.shared.repository.ProtocolException]: 1
+Type[bireus.server.repository_manager.RepositoryManager]: 1
+Union[str, pkg_resources.Requirement], resource_name: 2
+_T2, N = ...) -> Tuple[Any, Any, _T2]: 1
+Type[AnnotableMeta], name, bases, dct) -> Any: 1
+_T0 = ...) -> coroutine: 1
+List[weakref.finalize]: 1
+__builtin__.type[`_Tnamedtuple-JsonRpcMsg-type-data`], type, data) -> `_Tnamedtuple-JsonRpcMsg-type-data`: 1
+__builtin__.type[`_Tnamedtuple-JsonRpcMsg-type-data`], iterable: 1
+`_Tnamedtuple-JsonRpcMsg-type-data`, **kwds) -> `_Tnamedtuple-JsonRpcMsg-type-data`: 1
+Dict[Any, collections.deque[float]]: 1
+Dict[Any, float]: 2
+Type[distutils.errors.DistutilsOptionError]: 1
+Optional[List[str]]: 2
+Dict[int, Component]: 1
+Dict[Any, Channel]: 1
+Type[_TChannel], **kwargs) -> _TChannel: 1
+Union[Generator[Any, None, _T], asyncio.futures.Future[_T], Awaitable[_T]], *, loop: 1
+SmallFeatureExtractor: 2
+_T0) -> Generator[Tuple[Any, Any, Any], Any, None]: 1
+email.message.Message: 1
+Union[str, email.header.Header]) -> List[Tuple[bytes, Optional[str]]]: 1
+Type[model.MLPClassifier]: 1
+Type[model.SequenceClassifier]: 1
+Type[model.ThalNetCell]: 1
+Tuple[Optional[int], Optional[int]]: 1
+Match[str]: 1
+Dict[str, Type[Union[int, str]]]: 1
+Dict[str, __builtin__.type[Union[str, List[str]]]]: 1
+db.database.Database: 1
+playlist.Queue: 1
+Database: 1
+Optional[sqlite3.dbapi2.Connection]: 2
+Type[kresd.`namedtuple-Forward-proto-ip-port-hostname-ca_file`]: 1
+Optional[subprocess.Popen[bytes]]: 2
+_TProxy) -> _TProxy: 1
+tibrvQueueLimitPolicy: 4
+tibrvQueue: 1
+tibrvEventType: 3
+int) -> None: 12
+Type[cryptography.hazmat.primitives.ciphers.Cipher]: 1
+Type[socket.gaierror]: 1
+Optional[Union[bytearray, bytes, str]], port: 1
+Union[Dict[str, str], Tuple[Any]]: 1
+_T0, ctx, prefix = ..., use_prefix = ...) -> Union[str, _T0]: 1
+Type[werkzeug.routing.PathConverter]: 1
+_TService) -> _TService: 1
+bool = ..., processes: 1
+TestApp: 1
+Type[steam_vr_wheel._virtualpad.LeftTrackpadAxisDisablerMixin]: 2
+Type[steam_vr_wheel._virtualpad.VirtualPad]: 2
+Counter[int]: 1
+Type[forms.ModelForm]: 1
+Type[forms.MyRegisterForm]: 1
+Iterable, fillvalue = ...) -> Iterator: 2
+Dict[str, Tuple[str]]: 2
+Type[synthesis.cobuchi_encoder.CoBuchiEncoder]: 1
+Type[synthesis.coreach_encoder.CoreachEncoder]: 1
+Type[interfaces.LTL_to_automaton.LTLToAutomaton]: 1
+Type[interfaces.LTS.LTS]: 1
+Type[interfaces.solver_interface.SolverInterface]: 1
+Type[helpers.timer.Timer]: 1
+Type[helpers.main_helper.Z3SolverFactory]: 1
+_T1 = ...) -> Tuple[str, str, Any]: 1
+Type[Union[str, Iterable[str]]]: 1
+List[Tuple[nothing, Pattern]]: 1
+Optional[Tuple[Any, Any]]: 2
+mdiIcons: 1
+Light: 2
+Sensor: 2
+sensorValue: 2
+Type[commands.filters.Filter]: 1
+commands.manager.CommandManager: 1
+Optional[argparse.Namespace]: 1
+collections.OrderedDict[str, Callable[[Any], Any]]: 1
+Type[weakref.WeakKeyDictionary]: 1
+typing.Any, *args, **kwargs) -> typing.Any: 1
+typing.Any = ..., exclude: 1
+CollectUpdateBookmarks: 1
+Dict[str, Union[int, Dict[str, Union[str, Dict[str, str], List[Dict[str, Union[int, str]]]]]]]: 1
+Type[misc.deploy.Application]: 1
+Microservice: 1
+Type[google_images.GoogleSearch]: 1
+google_images.GoogleSearch: 1
+lexer.Lexer: 1
+Pause: 1
+_T0, sep = ..., code = ...) -> _T0: 1
+List[Union[str, Tuple[str, Any]]]: 1
+BlastLimitSet: 4
+List[Dict[str, Union[bool, str]]]: 2
+List[Tuple[Union[float, int], str]]: 1
+List[Union[float, int]]: 1
+str, filename: 1
+Type[api.common.RequestError]: 1
+int, month: 1
+Dict[int, List[int]]: 1
+_T0, command: 1
+DSLContract[nothing]) -> DSLContract[nothing]: 1
+DSLContract[nothing], dsl_impl, expr = ...) -> None: 1
+DSLContract[nothing], expr) -> DSLContract[nothing]: 1
+FlaskMarshmallowFactory: 1
+Type[BaseOpts]: 1
+BlockInfo: 1
+Type[List[Move]]: 1
+Optional[Tuple[int, int]]: 1
+Tuple[int, int, int, int, int]: 1
+List[Tuple[Any, Union[tuple, List[nothing]]]]: 1
+int = ..., false_positive_prob: 1
+float = ..., randfunc = ...) -> Any: 1
+Tuple[Any, str]: 1
+Dict[Any, AzureInstance]: 1
+Type[`_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`], level, mission, phase, credits, tasks, skills, recommendation) -> `_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`: 1
+Type[`_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`], iterable: 1
+`_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`, **kwds) -> `_Tnamedtuple-PracticeOverview-level-mission-phase-credits-tasks-skills-recommendation`: 1
+Type[`_Tnamedtuple-StudentSkill-name-value`], name, value) -> `_Tnamedtuple-StudentSkill-name-value`: 1
+Type[`_Tnamedtuple-StudentSkill-name-value`], iterable: 1
+`_Tnamedtuple-StudentSkill-name-value`, **kwds) -> `_Tnamedtuple-StudentSkill-name-value`: 1
+Type[`_Tnamedtuple-StudentTask-name-attempted-solved-time`], name, attempted, solved, time) -> `_Tnamedtuple-StudentTask-name-attempted-solved-time`: 1
+Type[`_Tnamedtuple-StudentTask-name-attempted-solved-time`], iterable: 1
+`_Tnamedtuple-StudentTask-name-attempted-solved-time`, **kwds) -> `_Tnamedtuple-StudentTask-name-attempted-solved-time`: 1
+AnyStr, pos: 1
+MotionController: 1
+MachineVarDocParser: 1
+_T0, m) -> _T0: 1
+graph: 1
+Dict[Any, Set[int]]: 1
+CubeDrawable: 1
+Type[case.base.Base]: 1
+Dict[Any, Tuple[Any, int]]: 1
+_T1, ext, file_url, url, index = ...) -> Tuple[Any, Any, Any]: 1
+AnyStr, thr_out: 1
+ssl.SSLSocket: 1
+Dict[str, Union[Dict[str, Union[str, Dict[str, str]]], List[Dict[str, Union[int, str]]]]]: 1
+Dict[str, Tuple[int, int, int, int, int]]: 1
+JobConfigValidator: 1
+_T0) -> Tuple[Any, Tuple[_T0]]: 1
+ListNode: 1
+Solution: 1
+Optional[ListNode]: 1
+Type[simplisafe.DeviceType]: 1
+_TTransceiver) -> _TTransceiver: 1
+Net: 1
+AckFrame: 1
+BlockedFrame: 1
+ConnectionCloseFrame: 1
+StreamFrame: 1
+GoAwayFrame: 1
+MaxDataFrame: 1
+MaxStreamIDFrame: 1
+NewConnectionIDFrame: 1
+ResetStreamFrame: 1
+StreamBlockedFrame: 1
+_TPreset, styleobj, fore = ..., back = ..., style = ...) -> _TPreset: 1
+Type[csgo_worker.CSGOWorker]: 1
+csgo_worker.CSGOWorker: 1
+BaseMessage: 1
+Iterable[str], name: 2
+ToasterBox: 1
+Type[Union[_PathLike, str]]: 1
+_TCommand, *args, **kwargs) -> _TCommand: 2
+_TCommand) -> _TCommand: 1
+List[PhonyRule]: 1
+List[Rule]: 1
+_TMakefile) -> _TMakefile: 1
+_TRule, *sources) -> _TRule: 1
+_TRule, *commands) -> _TRule: 1
+ThrottlingOptions: 1
+_T0 = ..., path = ...) -> _T0: 1
+Color, blackRatio = ...) -> Any: 1
+Color, g, b) -> str: 1
+Color, whiteRatio = ...) -> Any: 1
+Color, color2, ratio = ...) -> Any: 1
+_TVector2, val) -> _TVector2: 2
+Dict[bool, str]: 1
+Dict[str, Union[str, Dict[str, str]]]: 1
+Dict[str, StatuspageComponents]: 1
+Dict[str, Union[bool, str, Dict[str, Union[Dict[str, Union[str, Dict[str, str], List[str]]], List[str]]]]]: 1
+Dict[str, Union[bool, str, Dict[str, Dict[str, str]]]]: 1
+Type[flask_multisession.MongoSessionInterface]: 1
+List[List[Union[float, int, str]]]: 1
+List[CityInfo]: 1
+TableDisplay: 1
+List[Union[float, int, str]]: 2
+HelpCategories: 1
+_T2, spectrum_threshold, spectrum_threshold_duration) -> Tuple[Union[int, _T2], Union[int, _T2]]: 1
+_T0, max_result) -> _T0: 1
+_T0, shutter) -> _T0: 1
+Type[staircase_number_generator.StaircaseGenerator]: 1
+List[code]: 1
+Type[enot.packages.package_builder.Builder]: 1
+Type[http.client.HTTPResponse]: 1
+Type[enot.compiler.rebar.RebarCompiler]: 1
+Type[test.abs_test_class.TestClass]: 1
+Context: 1
+_T0, gender) -> _T0: 1
+_T0, start_year = ...) -> _T0: 1
+Iterable[str] = ..., disabled_extensions: 1
+EnumMeta, value) -> Any: 1
+EnumMeta, name) -> Any: 1
+EnumMeta) -> Generator[Any, Any, None]: 1
+EnumMeta) -> int: 1
+Type[EnumMeta], cls, bases, classdict) -> Any: 1
+EnumMeta) -> reversed: 1
+Dict[str, module]: 1
+_TLoop, obj, objtype) -> _TLoop: 1
+List[MoveTrieNode]: 1
+_TMoveTrieNode, sequence, count) -> _TMoveTrieNode: 1
+Tuple[Tuple[str, float]]: 1
+Tuple[Tuple[str, int], Tuple[str, int], Tuple[str, int], Tuple[str, int], Tuple[str, float], Tuple[str, int], Tuple[str, int]]: 1
+Dict[str, Union[int, Dict[str, Dict[str, Union[str, List[str]]]]]]: 1
+Type[onelogin_aws_cli.configuration.Section]: 1
+_TAbsData) -> _TAbsData: 1
+Type[pkg_resources.VersionConflict]: 1
+_T0) -> Optional[Union[str, _T0]]: 2
+_T0, key) -> Union[Sequence, _T0]: 1
+Dict[str, Tuple[Union[Callable[[Any], Any], Type[Union[int, str]]], Tuple[Union[int, str], ...]]]: 1
+Dict[str, Tuple[Any, Tuple[Union[int, str], ...]]]: 1
+Dict[str, Union[str, Tuple[Any, Tuple[str, ...]]]]: 1
+str = ..., width: 1
+Type[Bot.Bot]: 1
+Type[BotData.BotBehaviors]: 1
+Type[MatchRecorder.MatchRecorder]: 1
+Optional[MatchRecorder.MatchRecorder]: 1
+_TIntervalSet, other) -> _TIntervalSet: 1
+_TIntervalSet, start, stop) -> _TIntervalSet: 1
+Type[entity.Entity]: 1
+entity.Entity: 2
+typing.Counter: 1
+Type[flow.Flow]: 1
+Dict[Any, flow.Flow]: 1
+Type[concurrent.futures._base.Executor]: 1
+ssl.SSLContext: 4
+Tuple[int, int, int, int, int, int, int]: 1
+FrozenSet[Type[Union[ZiX12A, ZiX12B]]]: 1
+Type[badwolf.lint.linters.PythonLinter]: 1
+Dict[str, bytes]: 1
+Type[`_Tnamedtuple-FakeArgs-`]) -> `_Tnamedtuple-FakeArgs-`: 1
+Type[`_Tnamedtuple-FakeArgs-`], iterable: 1
+`_Tnamedtuple-FakeArgs-`, **kwds) -> `_Tnamedtuple-FakeArgs-`: 1
+List[`namedtuple-Edge-a-b`]: 1
+List[`namedtuple-Node-num-attribute-value-output`]: 1
+Type[`_Tnamedtuple-Edge-a-b`], a, b) -> `_Tnamedtuple-Edge-a-b`: 1
+Type[`_Tnamedtuple-Edge-a-b`], iterable: 1
+`_Tnamedtuple-Edge-a-b`, **kwds) -> `_Tnamedtuple-Edge-a-b`: 1
+Type[`_Tnamedtuple-Node-num-attribute-value-output`], num, attribute, value, output) -> `_Tnamedtuple-Node-num-attribute-value-output`: 1
+Type[`_Tnamedtuple-Node-num-attribute-value-output`], iterable: 1
+`_Tnamedtuple-Node-num-attribute-value-output`, **kwds) -> `_Tnamedtuple-Node-num-attribute-value-output`: 1
+Type[src.show_manager.ShowManager]: 1
+Type[Union[Callable[[Any, Any, list, Any], Any], Tuple[Callable[[Any, Any, list, Any], Any], int]]]: 1
+_T0) -> Tuple[Callable[[Any, Any, Any, Any], Any], _T0]: 3
+_T0, activation_fn = ..., dropout_keep_prob = ...) -> Tuple[Callable[[Any, Any, Any, Any], Any], _T0]: 1
+_T0, activation_fn = ...) -> Tuple[Callable[[Any, Any, Any, Any], Any], _T0]: 1
+List[Union[str, FrozenSet[str]]]: 1
+Dict[str, List[List[Union[float, str]]]]: 1
+List[List[FrozenSet[str]]]: 1
+Dict[FrozenSet[str], float]: 1
+Union[str, FrozenSet[str]]: 1
+Dict[str, Optional[Union[bool, str]]]: 1
+Dict[Any, Optional[str]]: 1
+str, plural: 1
+JIRA: 1
+Dict[str, Optional[Tuple[str, int, str]]]: 1
+Dict[str, `namedtuple-Var-name-type-default-help-flags-filename`]: 1
+__builtin__.type[`_Tnamedtuple-Var-name-type-default-help-flags-filename`], name, type, default, help, flags, filename) -> `_Tnamedtuple-Var-name-type-default-help-flags-filename`: 1
+__builtin__.type[`_Tnamedtuple-Var-name-type-default-help-flags-filename`], iterable: 1
+`_Tnamedtuple-Var-name-type-default-help-flags-filename`, **kwds) -> `_Tnamedtuple-Var-name-type-default-help-flags-filename`: 1
+dnsupdate.DDNSUpdater: 1
+swarm.SwarmClient: 1
+Dict[str, Tuple[str, Callable[[Any], Any]]]: 1
+Fibonacci: 1
+__builtin__.list[int]: 1
+_T0 = ...) -> Union[bool, _T0]: 1
+neo.Settings.SettingsHolder: 1
+Union[bytes, str], altchars: 1
+_T0 = ..., format = ...) -> _T0: 1
+MeasureVisualizer: 1
+Type[multiprocessing.queues.Queue]: 1
+Dict[str, Tetromino]: 1
+Type[dateutil.rrule.rruleset]: 1
+dateutil.rrule._rrulestr: 1
+Type[datetime.tzinfo]: 1
+pytz._UTCclass: 1
+float = ..., reloader_type: 1
+Optional[requests.sessions.Session]: 1
+Dict[str, Type[Union[EmitsBytes, EmitsError, EmitsWarning, SkipBytes]]]: 1
+_T1) -> Tuple[Any, _T1]: 2
+_T0, output) -> Tuple[_T0, Any]: 3
+_TNotImplementedType, x) -> __builtin__.NotImplementedType: 1
+Type[uplift_backend.models.BugAnalysis]: 1
+Type[uplift_backend.models.BugContributor]: 1
+Type[uplift_backend.models.BugResult]: 1
+Type[uplift_backend.models.Contributor]: 1
+Type[uplift_backend.models.PatchStatus]: 1
+IconGenerator: 1
+str, dst: 1
+collections.OrderedDict[Any, set]: 1
+collections.OrderedDict[Any, collections.OrderedDict]: 1
+Type[`_Tnamedtuple-CLDRMode-name-direction-required`], name, direction, required) -> `_Tnamedtuple-CLDRMode-name-direction-required`: 1
+Type[`_Tnamedtuple-CLDRMode-name-direction-required`], iterable: 1
+`_Tnamedtuple-CLDRMode-name-direction-required`, **kwds) -> `_Tnamedtuple-CLDRMode-name-direction-required`: 1
+AIMLLoader: 1
+Tuple[Tuple[str, List[Tuple[str, Union[int, str]]]], Tuple[str, List[Tuple[str, Union[int, str]]]], Tuple[str, List[Tuple[str, str]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, Union[str, Dict[str, Union[str, List[nothing]]]]]]]]], Tuple[str, List[Tuple[str, str]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, Dict[str, Dict[str, str]]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, List[str]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, Dict[str, str]]]]]], Tuple[str, List[Tuple[str, Optional[str]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, str]]]]], Tuple[str, List[Tuple[str, Union[int, str, Dict[str, Union[str, Dict[str, Union[str, List[nothing]]]]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, Dict[str, Dict[str, Union[str, List[Dict[str, str]]]]]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, Dict[str, Dict[str, Union[str, List[nothing]]]]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, Dict[str, str]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, List[Dict[str, str]]]]]]], Tuple[str, List[Tuple[str, Union[str, Dict[str, List[nothing]]]]]]]: 1
+Union[Async, Result, Stream]: 1
+_T0) -> Union[ApiObject, ApiObjectList, _T0]: 1
+_TCaptionableMessage, caption_text) -> _TCaptionableMessage: 1
+_TMessage) -> _TMessage: 1
+_TMessage, inline_message_id) -> _TMessage: 1
+_TMessage, message = ..., message_id = ...) -> _TMessage: 1
+_TMessage, chat = ..., message = ..., chat_id = ...) -> _TMessage: 1
+_TMessage, message) -> _TMessage: 1
+_TMessage, reply_markup) -> _TMessage: 1
+_TOutApiObject, func) -> _TOutApiObject: 1
+Tuple[Type[INFO_MT_mucollider_add]]: 1
+Tuple[Tuple[Any, Callable[[Any, Any], Any]]]: 1
+Type[threading.Event]: 2
+Type[threading.Condition]: 1
+Dict[Any, _LogChannel]: 1
+Dict[str, `namedtuple-TypeImport-module-symbol`]: 1
+_T0, type) -> Union[str, _T0]: 1
+typing.Type[`_Tnamedtuple-TypeImport-module-symbol`], module, symbol) -> `_Tnamedtuple-TypeImport-module-symbol`: 1
+typing.Type[`_Tnamedtuple-TypeImport-module-symbol`], iterable: 1
+`_Tnamedtuple-TypeImport-module-symbol`, **kwds) -> `_Tnamedtuple-TypeImport-module-symbol`: 1
+Type[ModuleStorageModelForm]: 1
+Type[tests.AsyncContext]: 1
+Type[tests.AsyncTestCase]: 1
+Type[notifier.model.`namedtuple-DiffError-url_errors-md_error-section_link`]: 2
+Type[notifier.model.`namedtuple-DynamicContentItem-key-wti_id-zendesk_item`]: 2
+Type[notifier.model.`namedtuple-GoogleLanguage-language-name`]: 2
+Type[notifier.model.`namedtuple-GoogleTranslation-translatedText-model-detectedSourceLanguage`]: 2
+Type[notifier.model.TranslationError]: 1
+Type[notifier.model.UnknownResponse]: 1
+Type[notifier.model.UnsupportedLocale]: 1
+Type[notifier.model.WtiContentTypes]: 1
+Type[notifier.model.WtiError]: 1
+Type[notifier.model.`namedtuple-WtiProject-id-name-master_locale-filename-content_type`]: 2
+Type[notifier.model.`namedtuple-WtiString-id-locale-text-status-updated_at-plural`]: 2
+Type[notifier.model.WtiStringStatus]: 1
+Type[notifier.model.WtiTranslationStatus]: 1
+Type[notifier.model.`namedtuple-WtiUser-id-email-role`]: 2
+Type[notifier.model.WtiUserRoles]: 1
+Type[notifier.model.`namedtuple-ZendeskItem-id-name-text-variants`]: 2
+notifier.zendesk.ZendeskDynamicContent: 1
+Type[email.mime.multipart.MIMEMultipart]: 3
+_T1) -> Union[bool, _T1]: 1
+_TOCMio) -> _TOCMio: 1
+topic_1) -> None: 1
+topic_2 = ...) -> None: 1
+_T0, language) -> Union[str, _T0]: 1
+_T0) -> Set[Union[str, _T0]]: 1
+Callable[[Callable], Callable]: 6
+_TRouteMapping) -> _TRouteMapping: 1
+PythonShell: 1
+Dict[str, Union[List[str], Set[str]]]: 1
+Dict[str, List[Dict[str, str]]]: 1
+Writer: 1
+_curses._CursesWindow: 2
+_TInput) -> _TInput: 1
+__builtin__.type[threading.Lock]: 1
+MultiTimer: 1
+collections.OrderedDict[Any, int]: 1
+collections.OrderedDict[Any, datetime.timedelta]: 1
+DBService: 1
+Type[`_Tnamedtuple-ColumnPair-from_column-to_column`], from_column, to_column) -> `_Tnamedtuple-ColumnPair-from_column-to_column`: 1
+Type[`_Tnamedtuple-ColumnPair-from_column-to_column`], iterable: 1
+`_Tnamedtuple-ColumnPair-from_column-to_column`, **kwds) -> `_Tnamedtuple-ColumnPair-from_column-to_column`: 1
+Type[`_Tnamedtuple-ColumnSort-table_name-column_name-direction`], table_name, column_name, direction) -> `_Tnamedtuple-ColumnSort-table_name-column_name-direction`: 1
+Type[`_Tnamedtuple-ColumnSort-table_name-column_name-direction`], iterable: 1
+`_Tnamedtuple-ColumnSort-table_name-column_name-direction`, **kwds) -> `_Tnamedtuple-ColumnSort-table_name-column_name-direction`: 1
+Type[`_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`], column_names, page, per_page, filters, sorts, join, group_by, format_as_list) -> `_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`: 1
+Type[`_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`], iterable: 1
+`_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`, **kwds) -> `_Tnamedtuple-QueryArguments-column_names-page-per_page-filters-sorts-join-group_by-format_as_list`: 1
+Type[`_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`], table_name, column_pairs, outer_join) -> `_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`: 1
+Type[`_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`], iterable: 1
+`_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`, **kwds) -> `_Tnamedtuple-TableJoin-table_name-column_pairs-outer_join`: 1
+Tuple[Tuple[int, int, int], Dict[str, bool]]: 1
+Type[pairwise_models.emb_extra_layer.EmbExtraLayer]: 1
+Type[pairwise_models.model.Model]: 1
+Type[pairwise_models.smt.SMTModel]: 1
+Type[pairwise_models.shared_w_trans_layer.SharedWeightTransLayer]: 1
+Type[pairwise_models.simple.SimpleModel]: 1
+_TConstantModel, x, y) -> _TConstantModel: 1
+_TKMeansSplitter, x, y, sample_weight = ...) -> _TKMeansSplitter: 1
+_TStacker, X, y, sample_weight = ...) -> _TStacker: 1
+_TVoter, x, y) -> _TVoter: 1
+_TWorkflow, X, y, sample_weight = ...) -> _TWorkflow: 1
+_T2, last_speeds, last_compute_speed) -> Union[int, _T2]: 1
+Dict[MetaClassSingleton, nothing]: 1
+MetaClassSingleton, *args, **kwargs) -> Any: 1
+_T0) -> Union[bool, _T0]: 3
+collections.OrderedDict[int, Any]: 4
+collections.OrderedDict[str, int]: 5
+Python: 1
+BinaryTree: 1
+Optional[Node]: 1
+Type[typeform.client.Client]: 1
+FormMessages: 1
+Chests: 1
+NPCs: 1
+Signs: 1
+Tiles: 1
+_N = ..., step: 1
+Type[dateutil.tz.tz.tzlocal]: 1
+_T0) -> Union[datetime.datetime, _T0]: 1
+Type[click.exceptions.Abort]: 1
+Type[click.exceptions.ClickException]: 1
+Type[click.types.Path]: 1
+Dict[Tuple[Any, Any], int]: 1
+Rectangle: 1
+List[Window]: 1
+List[TaxCalcField]: 1
+TaxCalcField: 1
+_MapSourceType, attr) -> None: 1
+MutableMapping[str, Any]: 1
+Dict[str, Union[int, Dict[str, Union[str, Dict[str, Any], List[str]]]]]: 3
+Dict[str, Dict[str, Union[int, Dict[str, Union[str, Dict[str, Any], List[str]]]]]]: 1
+_T0, editor) -> Optional[_T0]: 1
+Tuple[Any, Any, Any, Any, Any]: 1
+InstanceID: 2
+__builtin__.bytes: 1
+Type[spotify.client.Client]: 1
+Type[spotify.auth.OAuth]: 1
+Type[framework.Example]: 1
+_T1) -> Coroutine[Any, Any, Optional[_T1]]: 1
+Child: 1
+Parent: 1
+Type[errorlogs.errorlogs.ErrorLogs]: 1
+Type[zipfile.BadZipFile]: 1
+Union[bytes, str], params: 1
+Optional[List[int]]: 2
+Type[search.queue.PriorityQueue]: 1
+PriorityQueue: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`], datetime, hostname, depth, width, days, dropout, optimizer, lr, normalized) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`], iterable: 1
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`, **kwds) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-days-dropout-optimizer-lr-normalized`: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`], datetime, hostname, depth, width, dropout, optimizer, lr, normalized) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`], iterable: 1
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`, **kwds) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-dropout-optimizer-lr-normalized`: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`], datetime, hostname, depth, width, month, dropout, optimizer, lr) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`: 1
+Type[`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`], iterable: 1
+`_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`, **kwds) -> `_Tnamedtuple-ModelParameters-datetime-hostname-depth-width-month-dropout-optimizer-lr`: 1
+Type[universe.package.Version]: 1
+ObjectLayout, ModuleTo, Service, Server, Channel) -> Object: 1
+ObjectLayout, Author, Server, Channel, Service, Roles, User = ..., profilePicture = ..., emojis = ...) -> Object: 1
+ObjectLayout, DeliveryDetails, FormattingOptions, messageUnchanged, formattingSettings = ..., formatType = ..., customArgs = ...) -> Object: 1
+Tuple[float, float]: 3
+List[Tuple[datetime.date, datetime.date]]: 1
+List[Dict[nothing, Dict[str, Any]]]: 1
+_T0, bch) -> _T0: 1
+Set[module]: 1
+string.Template: 1
+_TInlineToken) -> _TInlineToken: 1
+Type[NotificationPagination]: 1
+_TSomfyRTS) -> _TSomfyRTS: 1
+Type[builtins.object]: 1
+collections.OrderedDict[__builtin__.str, Any]: 2
+Tuple[__builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str]: 1
+Type[`_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`], registering_class, display_args, scoped_cmd_line_args, unscoped_cmd_line_args, typ, default, help, deprecated_message, removal_version, removal_hint, choices) -> `_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`: 1
+Type[`_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`], iterable: 1
+`_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`, **kwds) -> `_Tnamedtuple-_OptionHelpInfo-registering_class-display_args-scoped_cmd_line_args-unscoped_cmd_line_args-typ-default-help-deprecated_message-removal_version-removal_hint-choices`: 1
+Tuple[__builtin__.str, __builtin__.str, __builtin__.str, __builtin__.str]: 1
+Type[`_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`], scope, basic, recursive, advanced) -> `_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`: 1
+Type[`_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`], iterable: 1
+`_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`, **kwds) -> `_Tnamedtuple-_OptionScopeHelpInfo-scope-basic-recursive-advanced`: 1
+__builtin__.str, field_names: 1
+Type[rclpy.exceptions.InvalidNamespaceException]: 1
+Type[rclpy.exceptions.NoTypeSupportImportedException]: 1
+_TNumberOfEntities, other) -> _TNumberOfEntities: 1
+float, b: 2
+_TLeaf) -> _TLeaf: 1
+Dict[str, Union[Leaf, TreeNode]]: 1
+Type[_TMods], num) -> _TMods: 1
+Type[`_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`], beatmapset_id, beatmap_id, gamemode) -> `_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`: 1
+Type[`_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`], iterable: 1
+`_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`, **kwds) -> `_Tnamedtuple-BeatmapURLInfo-beatmapset_id-beatmap_id-gamemode`: 1
+`namedtuple-CachedBeatmap-url_or_id-beatmap`: 1
+Type[`_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`], url_or_id, beatmap) -> `_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`: 1
+Type[`_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`], iterable: 1
+`_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`, **kwds) -> `_Tnamedtuple-CachedBeatmap-url_or_id-beatmap`: 1
+Type[`_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`], acc, pp, stars, artist, title, version) -> `_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`: 1
+Type[`_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`], iterable: 1
+`_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`, **kwds) -> `_Tnamedtuple-ClosestPPStats-acc-pp-stars-artist-title-version`: 1
+Type[`_Tnamedtuple-PPStats-pp-stars-artist-title-version`], pp, stars, artist, title, version) -> `_Tnamedtuple-PPStats-pp-stars-artist-title-version`: 1
+Type[`_Tnamedtuple-PPStats-pp-stars-artist-title-version`], iterable: 1
+`_Tnamedtuple-PPStats-pp-stars-artist-title-version`, **kwds) -> `_Tnamedtuple-PPStats-pp-stars-artist-title-version`: 1
+Dict[int, list]: 1
+Type[tests.SequentialTestCase]: 1
+PasswordLayoutForHW: 1
+PasswordLayout: 1
+Dict[int, Tuple[str, int]]: 1
+Dict[Any, Tuple[int, int]]: 1
+Dict[Tuple[Any, Any, Any], Tuple[Any, Tuple[int, int, int]]]: 1
+DefaultComposer: 1
+_TChain, *args, **kwargs) -> _TChain: 1
+_TChain, attr) -> _TChain: 1
+_TChain, item) -> _TChain: 1
+_T0, *args, **kwargs) -> _T0: 3
+_T0) -> List[List[Union[Callable[[Any, Any], Any], Dict[nothing, nothing], List[_T0]]]]: 2
+ParallelComposer: 1
+ThisComposer: 1
+SugarComposer: 1
+_T_x, f) -> _T_x: 3
+Type[lib.vision_cube.VisionCube]: 1
+TapCube: 1
+Union[bytes, str]: 2
+Optional[asyncio.futures.Future]: 1
+Optional[SessionDB]: 1
+Dict[Any, Tuple[Any, Any, Any, Any, Any, Any, Optional[Tuple[Any, Any, Any]], Any]]: 1
+TwitterStreamListener: 1
+Type[musicbot.exceptions.ExtractionError]: 1
+Type[musicbot.constructs.Serializable]: 1
+List[asyncio.futures.Future[nothing]]: 1
+Type[random.SystemRandom]: 1
+EvolvingSetting: 3
+float, beta: 3
+Sequence[_T], weights: 1
+float) -> float: 2
+float, sigma: 3
+int) -> int: 1
+Union[AbstractSet[_T], Sequence[_T]], k: 1
+int = ...) -> None: 1
+object) -> None: 1
+float = ..., high: 1
+float, kappa: 1
+Type[models.base.ACLModel]: 1
+Type[models.base.BModel]: 1
+Type[models.base.BQuerySet]: 1
+_T0) -> Union[module, _T0]: 1
+type) -> Tuple[type, ...]: 1
+Type[core.environment.Environment]: 1
+_zk: 1
+_T0) -> Tuple[_T0, Any, Any, Any, Any, Any, Any, Any]: 1
+_T_zk) -> _T_zk: 1
+_T1 = ...) -> collections.OrderedDict[str, Optional[Union[collections.OrderedDict[Any, collections.OrderedDict[Any, collections.OrderedDict[str, Any]]], _T1]]]: 1
+Type[typed_astunparse.printer.Printer]: 1
+Type[unittest.case.SkipTest]: 1
+Type[memoryview]: 1
+_T0, end, delta) -> Generator[_T0, Any, None]: 1
+Union[str, List[str]]: 1
+InteractivePTY: 1
+selectors.SelectSelector: 1
+_T0, data) -> Tuple[Optional[_T0], Any, Any]: 1
+asyncio.futures.Future[nothing]: 1
+_TZenobaseAPI) -> _TZenobaseAPI: 1
+_T0, color: 1
+Dict[str, Union[modules.apis.kraken.Kraken, modules.apis.newbs.NewbsAPI, modules.apis.osu.OsuAPI, modules.apis.splits_io.SplitsIOAPI, modules.apis.sr_com.SRcomAPI, modules.apis.srl.SRLAPI, modules.apis.youtube.YoutubeAPI]]: 1
+Union[MongoDriver, PickleDriver]: 9
+Dict[Any, Optional[list]]: 1
+Type[point_charges_2D.Charge]: 1
+List[Charge]: 1
+Type[converter.BotJsonConverter.BotJsonConverter]: 1
+Type[converter.IntentConverter.IntentConverter]: 1
+Type[converter.SlotJsonConverter.SlotJsonConverter]: 1
+BotBuilder: 1
+converter.BotJsonConverter.BotJsonConverter: 1
+converter.IntentConverter.IntentConverter: 1
+converter.SlotJsonConverter.SlotJsonConverter: 1
+_TColorizer, name) -> _TColorizer: 1
+Tuple[int, int, int, str, int]: 1
+Required: 1
+_T0, new_date, ctx, meta) -> Tuple[_T0, Dict[nothing, nothing]]: 1
+_T0, new_date, ctx, meta) -> Tuple[_T0, Any]: 1
+_T2, new_date, ctx, meta) -> Tuple[bool, _T2, Any]: 1
+Union[MetricsProm, MetricsSimple]: 1
+Optional[asyncio.events.AbstractEventLoop]: 2
+Tuple[None, None]: 1
+Type[BatteryProxy]: 1
+BatteryProxy: 1
+Type[utils.DataUtils]: 1
+Type[edge_server.EdgeServer]: 1
+Type[algorithms.KMeansServerPlacer]: 1
+Type[algorithms.MIPServerPlacer]: 1
+Type[algorithms.RandomServerPlacer]: 1
+Type[algorithms.ServerPlacer]: 1
+Type[algorithms.TopKServerPlacer]: 1
+utils.DataUtils: 1
+Type[uuid.UUID]: 1
+_T0, type_id, data) -> Coroutine[Any, Any, _T0]: 1
+_T0, type_id, datas) -> Coroutine[Any, Any, _T0]: 1
+_T1, type_id, data) -> _T1: 1
+_T1, type_id, datas) -> _T1: 1
+_T0) -> Optional[Union[datetime.datetime, _T0]]: 1
+Type[..soundapi.miniaudio.MiniaudioMixed]: 1
+Type[..soundapi.miniaudio.MiniaudioSequential]: 1
+Type[..soundapi.pyaudio.PyAudioMixed]: 1
+Type[..soundapi.pyaudio.PyAudioSequential]: 1
+Type[..soundapi.soundcard.SoundcardThreadMixed]: 1
+Type[..soundapi.soundcard.SoundcardThreadSequential]: 1
+Type[..soundapi.sounddevice.SounddeviceMixed]: 1
+Type[..soundapi.sounddevice.SounddeviceThreadMixed]: 1
+Type[..soundapi.sounddevice.SounddeviceThreadSequential]: 1
+Type[..soundapi.winsound.WinsoundSeq]: 1
+Type[`_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`], bag, clp_label, matrix, full_clp_label, clp, residual) -> `_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`: 1
+Type[`_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`], iterable: 1
+`_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`, **kwds) -> `_Tnamedtuple-ResultFuture-bag-clp_label-matrix-full_clp_label-clp-residual`: 1
+Response: 1
+_TResponse) -> _TResponse: 1
+_TResponseMessage, message = ..., whitespace = ..., whitespace_top = ..., whitespace_bottom = ..., indent_by = ..., trace = ..., file_path = ..., append_to_file = ..., **kwargs) -> _TResponseMessage: 1
+_TResponseMessage, text, level = ..., whitespace = ..., whitespace_top = ..., whitespace_bottom = ..., trace = ..., file_path = ..., append_to_file = ..., indent_by = ...) -> _TResponseMessage: 1
+_TResponseMessage, message, trace = ..., file_path = ..., append_to_file = ...) -> _TResponseMessage: 1
+_TResponseMessage, **kwargs) -> _TResponseMessage: 1
+`namedtuple-Position-x-y`: 4
+Dict[str, Union[str, `namedtuple-Position-x-y`, List[str]]]: 1
+Dict[str, Union[str, `namedtuple-Position-x-y`, Dict[int, `namedtuple-Position-x-y`], List[str]]]: 1
+List[Dict[str, Union[str, `namedtuple-Position-x-y`, Dict[int, `namedtuple-Position-x-y`], List[str]]]]: 1
+`namedtuple-TileSet-image-positions`: 1
+Type[`_Tnamedtuple-Position-x-y`], x, y) -> `_Tnamedtuple-Position-x-y`: 1
+Type[`_Tnamedtuple-Position-x-y`], iterable: 1
+`_Tnamedtuple-Position-x-y`, **kwds) -> `_Tnamedtuple-Position-x-y`: 1
+Type[`_Tnamedtuple-TileSet-image-positions`], image, positions) -> `_Tnamedtuple-TileSet-image-positions`: 1
+Type[`_Tnamedtuple-TileSet-image-positions`], iterable: 1
+`_Tnamedtuple-TileSet-image-positions`, **kwds) -> `_Tnamedtuple-TileSet-image-positions`: 1
+Type[mlmorph.Analyser]: 1
+Type[mlmorph.Generator]: 1
+Knob: 4
+_T0, default: 1
+Optional[BaseObject]: 1
+BaseObject: 1
+PaginatedList[nothing]) -> Coroutine[Any, Any, PaginatedList[nothing]]: 1
+PaginatedList[nothing]) -> coroutine: 1
+PaginatedList[nothing], client, element_type, initial_document, limits, links, max_items = ..., fetch_params = ...) -> None: 1
+PaginatedList[nothing]) -> Coroutine[Any, Any, None]: 1
+PaginatedList[nothing]) -> bool: 1
+PaginatedList[nothing]) -> None: 1
+PaginatedList[nothing], document) -> Any: 1
+PaginatedList[nothing]) -> Coroutine[Any, Any, list]: 1
+PaginatedList[nothing], max_items) -> None: 1
+Optional[PaginatedList[nothing]]: 1
+PaginatedListProxy[nothing]) -> coroutine: 3
+PaginatedListProxy[nothing], client, url, element_type, fetch_params) -> None: 1
+PaginatedListProxy[nothing], max_items) -> PaginatedListProxy[nothing]: 1
+'Instance' object has no attribute 'code': 2
+List[WeeelabLine]: 2
+_TWeeelabLogs) -> _TWeeelabLogs: 2
+Node, task, *args, **kwargs) -> Any: 1
+Type[channels.Channel]: 1
+_T1 = ...) -> Coroutine[Any, Any, _T1]: 1
+List[Union[str, Tuple[str, ...]]]: 1
+Iterator[Tuple[str, ...]]: 1
+Tuple[Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes], Tuple[str, bytes]]: 1
+Type[worlds.ExampleGenerator]: 1
+Type[worlds.MTurkImageChatStackRankWorld]: 1
+Type[worlds.RoleOnboardWorld]: 1
+Tuple[Type[FontTest]]: 1
+_T0, y: 1
+_TSniffer) -> _TSniffer: 1
+Type[werkzeug.routing.Rule]: 1
+Type[werkzeug.routing.Submount]: 1
+_TRoute, url, methods = ...) -> _TRoute: 1
+Type[werkzeug.formparser.FormDataParser]: 1
+Type[kyoukai.asphalt.HTTPRequestContext]: 1
+Type[kyoukai.asphalt.KyoukaiComponent]: 1
+Type[werkzeug.exceptions.RequestEntityTooLarge]: 1
+Type[kyoukai.route.Route]: 1
+Type[kyoukai.routegroup.RouteGroup]: 1
+Type[kyoukai.testing.TestKyoukai]: 1
+_T1, mimetype, content_length, options) -> Tuple[_T1, Any, Dict[nothing, nothing]]: 1
+Type[werkzeug.wrappers.Request]: 1
+Type[flask_injector.FlaskInjector]: 1
+_T0, aggressive = ...) -> Union[list, _T0]: 1
+HaveIBeenPwndDradis: 1
+List[StylerCheckButton]: 1
+Dict[Any, Union[float, int, str]]: 1
+Union[float, int, str]: 1
+Tuple[List[Tuple[str, str]], Dict[str, Dict[str, Dict[str, List[Dict[str, int]]]]]]: 1
+Tuple[List[Tuple[str, str]], Dict[str, Dict[str, Dict[str, List[Dict[str, float]]]]]]: 3
+Tuple[List[Tuple[str, str]], Dict[str, Dict[str, Dict[str, List[Dict[str, Union[float, str]]]]]]]: 1
+Dict[str, Dict[str, Dict[str, List[Dict[str, int]]]]]: 1
+Dict[str, Dict[str, Dict[str, List[Dict[str, float]]]]]: 3
+Dict[str, Dict[str, Dict[str, List[Dict[str, Union[float, str]]]]]]: 1
+Tuple[List[Tuple[str, str]], Dict[str, int]]: 5
+Tuple[List[nothing], Dict[str, int]]: 1
+Type[steam_vr_wheel._virtualpad.RightTrackpadAxisDisablerMixin]: 1
+Throttle: 6
+_T1, parser, ctx) -> Dict[str, Dict[str, _T1]]: 1
+OrderedDictMaker: 1
+_T0, src) -> _T0: 1
+Type[guesser.ElasticSearchGuesser]: 1
+Type[datasets.QuizBowlDataset]: 1
+FrozenSet[int]: 1
+Optional[collections.defaultdict]: 1
+multiprocessing.Value: 1
+multiprocessing.synchronize.Event: 1
+Optional[ProxyProc]: 1
+multiprocessing.queues.Queue[nothing]: 1
+Type[archivebot.seesaw.tasks.CheckIP]: 1
+Type[archivebot.seesaw.tasks.DownloadUrlFile]: 1
+Type[archivebot.seesaw.tasks.GetItemFromQueue]: 1
+Type[archivebot.seesaw.tasks.MarkItemAsDone]: 1
+Type[archivebot.seesaw.tasks.MoveFiles]: 1
+Type[archivebot.seesaw.tasks.PreparePaths]: 1
+Type[archivebot.seesaw.tasks.RelabelIfAborted]: 1
+Type[archivebot.seesaw.tasks.SetFetchDepth]: 1
+Type[archivebot.seesaw.tasks.StartHeartbeat]: 1
+Type[archivebot.seesaw.tasks.StopHeartbeat]: 1
+Type[distutils.version.StrictVersion]: 1
+Type[archivebot.seesaw.wpull.WpullArgs]: 1
+Type[archivebot.seesaw.tasks.WriteInfo]: 1
+Union[module, archivebot.control.Control]: 1
+archivebot.seesaw.wpull.WpullArgs: 1
+Type[meeseeksdev.meeseeksbox.utils.Session]: 1
+Type[elements.label.eventLabel]: 1
+elements.icons.mdiIcons: 1
+Optional[asyncio.tasks.Task]: 1
+Tuple[int, int, int, int, int, int]: 1
+Tuple[float, float, float, float, float, float]: 1
+Tuple[Tuple[int], Tuple[int, int, int, int, int, int, int, int, int, int], Tuple[int, int, int, int, int, int, int, int, int, int], Tuple[int, int, int, int, int, int, int, int, int, int], Tuple[int, int, int, int, int, int, int, int, int, int], Tuple[int, int, int, int, int, int, int, int, int, int]]: 1
+Tuple[Tuple[int, ...], ...]: 1
+BetBot: 1
+TPPBotFacade: 1
+TreebankWordTokenizer: 1
+List[Pattern[nothing]]: 2
+Tuple[Pattern[str], str]: 2
+MacIntyreContractions: 1
+Type[pyVK.exceptions.VKAuthError]: 1
+Helpers: 1
+_T0, xmin, xmax) -> _T0: 1
+Type[game.table.Table]: 1
+Type[tenhou.decoder.TenhouDecoder]: 1
+tenhou.decoder.TenhouDecoder: 1
+StaticObject: 1
+List[BuildSystem]: 1
+Optional[Union[BuildSystem, List[nothing]]]: 1
+BuildRequest: 1
+ProgressSaver: 1
+EmailService: 1
+email.mime.multipart.MIMEMultipart: 1
+Dict[str, Union[str, Dict[str, Union[int, str, Dict[str, Union[int, str]]]], List[Dict[str, Any]]]]: 1
+Dict[str, List[Union[float, int]]]: 1
+_T0) -> Dict[str, Union[str, Dict[str, Union[int, str, Dict[str, Union[int, str, _T0]]]], List[Dict[str, Any]]]]: 1
+Type[werkzeug.wrappers.BaseResponse]: 1
+Type[werkzeug.test.Client]: 1
+Type[server.RequestHandler]: 1
+Environment: 1
+TestTManager: 1
+User: 1
+Dict[int, Type[Union[AddFunction, ChooseDB, RequestSimilars]]]: 1
+Dict[int, Type[ResponseSimilars]]: 1
+Type[`_Tnamedtuple-FSimilar-name-comment-sim_grade`], name, comment, sim_grade) -> `_Tnamedtuple-FSimilar-name-comment-sim_grade`: 1
+Type[`_Tnamedtuple-FSimilar-name-comment-sim_grade`], iterable: 1
+`_Tnamedtuple-FSimilar-name-comment-sim_grade`, **kwds) -> `_Tnamedtuple-FSimilar-name-comment-sim_grade`: 1
+__builtin__.int: 1
+memoryview: 4
+uuid.UUID: 1
+VaultLoggerAdapter: 1
+_T0, kwargs) -> Tuple[_T0, dict]: 1
+Type[configparser.ParsingError]: 1
+_T4, options) -> Union[bool, _T4]: 1
+Attribute: 1
+_TBaseService) -> _TBaseService: 1
+_TBaseService, image = ..., options = ..., **attrs) -> _TBaseService: 1
+List[Interpretation]: 1
+_TSignature, new_result) -> _TSignature: 1
+List[Operation]: 1
+Dict[Any, Operation]: 1
+Type[scraper.Scraper]: 1
+Type[scraper.ScraperConfig]: 1
+scraper.ScraperConfig: 1
+Tuple[Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]], Tuple[str, Pattern[str]]]: 1
+Type[`_Tnamedtuple-NFA-state-groups_count-named_groups`], state, groups_count, named_groups) -> `_Tnamedtuple-NFA-state-groups_count-named_groups`: 1
+Type[`_Tnamedtuple-NFA-state-groups_count-named_groups`], iterable: 1
+`_Tnamedtuple-NFA-state-groups_count-named_groups`, **kwds) -> `_Tnamedtuple-NFA-state-groups_count-named_groups`: 1
+ToggledLabelFrame: 1
+str, default: 1
+_T0, short_name = ..., absolute = ...) -> Union[str, _T0]: 1
+Dict[str, Type[CommandGraphObject]]: 1
+Type[toucharea.ManualKeyDesc]: 1
+Type[toucharea.TouchPoint]: 1
+Dict[str, toucharea.TouchPoint]: 3
+List[Tuple[Tuple[Any, Any], Any]]: 1
+Bindings: 1
+_THistogramCollection) -> _THistogramCollection: 1
+_THistogramCollection, inplace = ...) -> _THistogramCollection: 1
+Predicate: 1
+_TSemanticContext, parser, outerContext) -> _TSemanticContext: 1
+_T1, property_name = ..., property_doc = ...) -> _T1: 1
+Tuple[Any, Any, Any, str]: 1
+_TAugeasNode, key) -> _TAugeasNode: 1
+AugeasNode: 1
+_TAugeasWrapper) -> _TAugeasWrapper: 1
+Type[unit.project_loader.grammar.GrammarBaseTestCase]: 1
+List[Tuple[str, Dict[str, Union[str, List[Union[str, Dict[str, List[str]], List[Union[str, Dict[str, List[str]]]]]], Set[str]]]]]: 1
+List[Tuple[str, Dict[str, Any]]]: 1
+ParameterizedClass: 2
+bool = ..., prefix: 1
+Type[email.mime.base.MIMEBase]: 1
+QEmailSignalObject: 1
+Processor: 1
+Optional[imaplib.IMAP4_SSL]: 1
+email.message.Message) -> None: 1
+StyleTagsAwareTextWrapper: 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]]: 1
+Dict[Type[datetime.date], Callable[[Any, Any], Any]]: 1
+threading.BoundedSemaphore: 1

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode
+.pytype
+
+repos/
+allrepo/
+allrepo-old/
+repos-stripped
+repos-test
+test-cases/repos-test
+typed-repos-new/
+sandbox
+TODO.md
+big/

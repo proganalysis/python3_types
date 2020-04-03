@@ -1,9 +1,0 @@
-# (generated with --quick)
-
-from typing import Any
-
-pytest: Any
-
-def __getattr__(name) -> Any: ...
-def test_Bad_Input() -> None: ...
-def test_D_CPT_Zipped() -> None: ...

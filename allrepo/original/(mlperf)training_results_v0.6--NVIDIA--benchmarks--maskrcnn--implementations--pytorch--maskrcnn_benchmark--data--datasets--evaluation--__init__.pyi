@@ -1,9 +1,0 @@
-# (generated with --quick)
-
-from typing import Any
-
-datasets: Any
-
-def coco_evaluation(dataset, predictions, output_folder, box_only, iou_types, expected_results, expected_results_sigma_tol) -> Any: ...
-def evaluate(dataset, predictions, output_folder, **kwargs) -> Any: ...
-def voc_evaluation(dataset, predictions, output_folder, box_only, **_) -> Any: ...

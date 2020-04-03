@@ -1,3 +1,0 @@
-# (generated with --quick)
-
-def test(i) -> str: ...

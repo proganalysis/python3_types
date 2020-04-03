@@ -8,6 +8,28 @@ reg_func = "-> .+:"
 reg_assign = ": .+"
 type_reg = "_T[0-9]"
 
+func_return_map = {}
+assignment_map = {}
+
+def map_types(s, assign=False, func=False):
+    global func_return_map
+    global assignment_map
+    if func:
+        s = s.split('->')[1].split(':')[0].strip()
+        if s in func_return_map.keys():
+            func_return_map[s] += 1
+        else:
+            func_return_map[s] = 1
+    
+    if assign:
+        s = s.split(':')[1].strip()
+        if s in assignment_map.keys():
+            assignment_map[s] += 1
+        else:
+            assignment_map[s] = 1
+
+
+
 def count(s, assign=False, func=False):
     global func_total
     global assign_total
@@ -57,25 +79,30 @@ def count(s, assign=False, func=False):
 
 
 def analyze_files(f):
+    global assign_total
+    global func_total
     fd = open(f, "r")
     lines = fd.readlines()
     for line in lines:
         # Check for func
         res = re.findall(reg_func, line)
         if len(res) == 1:
-            count(res[0], func=True)
+            func_total += 1
+            map_types(res[0], func=True)
         # Check for assign
         res = re.findall(reg_assign, line)
         if len(res) > 0:
             for x in res:
-                count(x, assign=True)
+                assign_total += 1
+                map_types(x, assign=True)
 
 def main():
-    d = "../big/allrepo/original/" 
+    d = "/home/daniel/Documents/College/Semester7/Research/mypy-output/allrepo/original/" 
     for root, dirs, files in os.walk(d):
         for file in files:
             if file.endswith(".pyi"):
                 analyze_files(os.path.join(root, file))
+    '''
     print(f"Total functions: {func_total}")
     for x in func_stats.keys():
         print(f"Total functions with {x} return type: {func_stats[x]}") 
@@ -85,7 +112,16 @@ def main():
     for x in assign_stats.keys():
         print(f"Total assignments with {x} type: {assign_stats[x]}") 
         print(f"Percent of assignments with this type: {(assign_stats[x]/assign_total) * 100}")
-
+    '''
+    print("\n------ Function return types ------\n")
+    print(f"Total functions: {func_total}\n")
+    for k in func_return_map.keys():
+        print(f"{k}: {func_return_map[k]}") 
+    
+    print("\n------ Assignments types ------\n")
+    print(f"Total assignments: {assign_total}\n")
+    for k in assignment_map.keys():
+        print(f"{k}: {assignment_map[k]}")
 
 if __name__ == "__main__":
     main()
