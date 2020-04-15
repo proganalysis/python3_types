@@ -245,7 +245,7 @@ if do_pylint:
 							if y not in z:
 								z.append(y)
 								pylint[name] = z
-								
+
 								if error_type in e_pylint:
 									z = e_pylint[error_type]
 									e_pylint[error_type] = z + 1
@@ -387,13 +387,107 @@ def compare(X, Y, id, does):
 	print("")
 
 
-compare(mypy, pytype, 1, 1)
-compare(pytype, mypy, 2, 1)
-compare(mypy, pylint, 3, 1)
-compare(pylint, mypy, 4, 1)
-compare(pytype, pylint, 5, 1)
-compare(pylint, pytype, 6, 1)
 
+
+compare(mypy, pytype, 1, 0)
+compare(pytype, mypy, 2, 0)
+compare(mypy, pylint, 3, 0)
+compare(pylint, mypy, 4, 0)
+compare(pytype, pylint, 5, 0)
+compare(pylint, pytype, 6, 0)
+
+def compareThree(X, Y, Z, id, does):
+	if does == 0:
+		return
+
+	result = dict()
+	for m in X:
+		if m in Y:
+			if m in Z:
+				xx = X[m]
+				yy = Y[m]
+				vv = Z[m]
+				#print("> {}".format(m))
+				#print(xx)
+				#print(yy)
+
+				# THIS IS INEFFICIENT (how to spell?)
+				for x in xx:
+					for y in yy:
+						for v in vv:
+							if x[0] == "operator" and y[0] == "unsupported-operands" and v[0] == "invalid-unary-operand-type":
+								print(m, x, y, v)
+							if x[1] == y[1] and y[1] == v[1]:
+								#print(">x = {}".format(x))
+								#print(">y = {}".format(y))
+								#print(">v = {}".format(v))
+								if x[0] in result:
+									z = result[x[0]]
+									r = []
+									#print(">x = {}".format(x))
+									#print(">y = {}".format(y))
+									#print(">Z = {}".format(z))
+									incr = 0
+									for u in z:
+										if y[0] == u[0] and v[0] == u[1]:
+											incr = 1
+											r.append([y[0], v[0], u[2] + 1])
+										else:
+											r.append(u)
+									if incr == 0:
+										r.append([y[0], v[0], 1])
+									#print(">R = {}".format(r))
+									result[x[0]] = r
+								else:
+									z = [[y[0],v[0],1]]
+									result[x[0]] = z
+
+	if id == 1:
+		print("----- Mypy -> [Pytype, Pylint] -----")
+	elif id == 2:
+		print("----- Pytype -> Mypy -----")
+	elif id == 3:
+		print("----- Mypy -> Pylint -----")
+	elif id == 4:
+		print("----- Pylint -> Mypy -----")
+	elif id == 5:
+		print("----- Pytype -> Pylint -----")
+	elif id == 6:
+		print("----- Pylint -> Pytype -----")
+
+	for c in result:
+		a = result[c]
+		a.sort(key=itemgetter(2,1,0), reverse=True)
+		result[c] = a
+
+	for c in sorted(result):
+		#print(c, result[c])
+		"""
+		print(c)
+		print(" ",result[c])
+		"""
+		total = -1
+		if id == 1 or id == 3:
+			total = e_mypy[c]
+		elif id == 2 or id == 5:
+			total = e_pytype[c]
+		elif id == 4 or id == 6:
+			total = e_pylint[c]
+		use = 0
+		for r in result[c]:
+			use += r[2]
+		print("{} {}/{}".format(c,use,total))
+		print(" ",result[c])
+
+	print("Not in any:")
+	for i in e_mypy:
+		if i not in result:
+			print(i)
+		
+
+	print("")
+
+compareThree(mypy, pytype, pylint, 1, 1)
 
 
 
