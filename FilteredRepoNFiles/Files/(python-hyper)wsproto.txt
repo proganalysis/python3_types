@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(python-hyper)wsproto/wsproto/__init__.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/compliance/test_client.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/compliance/run-autobahn-tests.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/compliance/test_server.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/wsproto/extensions.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/wsproto/events.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/wsproto/connection.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/wsproto/utilities.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/test/test_extensions.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/test/test_handshake.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/test/helpers.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/test/test_connection.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/example/synchronous_server.py
+/home/bew/archive/typed_project/(python-hyper)wsproto/example/synchronous_client.py

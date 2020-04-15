@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/__init__.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/utils.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/levels.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/loggers.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/handlers/abc.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/handlers/streaming.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/handlers/sockets.py
+/home/bew/archive/typed_project/(vforgione)logging2/logging2/handlers/files.py
+/home/bew/archive/typed_project/(vforgione)logging2/tests/test_levels.py
+/home/bew/archive/typed_project/(vforgione)logging2/tests/test_loggers.py
+/home/bew/archive/typed_project/(vforgione)logging2/tests/handlers/test_sockets.py
+/home/bew/archive/typed_project/(vforgione)logging2/tests/handlers/test_files.py
+/home/bew/archive/typed_project/(vforgione)logging2/tests/handlers/test_streaming.py

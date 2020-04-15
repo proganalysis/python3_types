@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(pypa)virtualenv/setup.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tasks/make_zipapp.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tasks/upgrade_wheels.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tasks/release.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tasks/update_embedded.py
+/home/bew/archive/typed_project/(pypa)virtualenv/docs/conf.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/test_from_source.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/test_source_content.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/test_zipapp.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/conftest.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/test_cmdline.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/test_bootstrap.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/activation/test_activate_this.py
+/home/bew/archive/typed_project/(pypa)virtualenv/tests/activation/test_activation.py
+/home/bew/archive/typed_project/(pypa)virtualenv/virtualenv_embedded/distutils-init.py

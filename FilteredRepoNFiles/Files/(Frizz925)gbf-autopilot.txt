@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/keygen.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/server.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/jsonrpc_client.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/input_controller.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/jsonrpc.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/jsonrpc_methods.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/window/abstract_window.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/window/win32_window.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/controller/window/dummy_window.py
+/home/bew/archive/typed_project/(Frizz925)gbf-autopilot/test/controller/window_test.py

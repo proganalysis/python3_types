@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/Bit.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/Qubit.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/ControlFlow.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/Gate.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/DMO.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/baseGate.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/baseCF.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/baseQubit.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/baseClass/Error.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/Grover.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/Test.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/Teleportation.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/ExpWrong.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/UserSWAP.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/userCode/GroverLite.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/tools/interactCfg.py
+/home/bew/archive/typed_project/(zhangxin20121923)QuanSim/tools/helperFunction.py

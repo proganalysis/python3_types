@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/EventGridTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/BlobTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/EventHubTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/QueueTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/TimerTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/ServiceBusTopicTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/HttpTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/CosmosDBTrigger-Python/__init__.py
+/home/bew/archive/typed_project/(Azure)azure-webjobs-sdk-templates/Functions.Templates/Templates/ServiceBusQueueTrigger-Python/__init__.py

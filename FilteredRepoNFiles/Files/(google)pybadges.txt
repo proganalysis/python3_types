@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(google)pybadges/pybadges/__init__.py
+/home/bew/archive/typed_project/(google)pybadges/setup.py
+/home/bew/archive/typed_project/(google)pybadges/noxfile.py
+/home/bew/archive/typed_project/(google)pybadges/build_golden_images.py
+/home/bew/archive/typed_project/(google)pybadges/pybadges/__main__.py
+/home/bew/archive/typed_project/(google)pybadges/pybadges/precalculated_text_measurer.py
+/home/bew/archive/typed_project/(google)pybadges/pybadges/precalculate_text.py
+/home/bew/archive/typed_project/(google)pybadges/pybadges/text_measurer.py
+/home/bew/archive/typed_project/(google)pybadges/pybadges/pil_text_measurer.py
+/home/bew/archive/typed_project/(google)pybadges/tests/test_precalculated_text_measurer.py
+/home/bew/archive/typed_project/(google)pybadges/tests/test_pybadges.py

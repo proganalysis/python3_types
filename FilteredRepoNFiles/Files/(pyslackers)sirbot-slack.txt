@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/setup.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/api.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/wrapper.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/sync.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/errors.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/dispatcher/dispatcher.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/store/store.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/store/message/action.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/store/message/command.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/store/message/message.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/store/message/attachment.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/database/sqlite/update.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/database/sqlite/channel.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/database/sqlite/user.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/sirbot/slack/database/sqlite/group.py
+/home/bew/archive/typed_project/(pyslackers)sirbot-slack/tests/test_core.py

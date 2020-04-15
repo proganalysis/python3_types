@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/__init__.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/benchmark/plotbench.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/benchmark/conftest.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/benchmark/test_bench.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/utils.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/auth.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/command_cursor.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/gridfs.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/connection.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/aiomongo/client.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/tests/version.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/tests/test_database.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/tests/test_gridfs.py
+/home/bew/archive/typed_project/(ZeoAlliance)aiomongo/tests/test_collation.py

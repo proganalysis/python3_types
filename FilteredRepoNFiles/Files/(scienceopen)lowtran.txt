@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(scienceopen)lowtran/ThermalRadiance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/UserHorizontalTransmittance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/ScatterRadiance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/Wavelength2LowtranWavenumber.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/SolarIrradiance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/TransmittanceGround2Space.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/HorizontalTransmittance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/UserDataHorizontalRadiance.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/lowtran/base.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/lowtran/plots.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/lowtran/scenarios.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/tests/test_mod.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/tests/test_horiz.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/tests/test_scenarios.py
+/home/bew/archive/typed_project/(scienceopen)lowtran/tests/test_matlab.py

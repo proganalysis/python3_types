@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(rmariano)compr/compressor/lib.py
+/home/bew/archive/typed_project/(rmariano)compr/compressor/core.py
+/home/bew/archive/typed_project/(rmariano)compr/compressor/char_node.py
+/home/bew/archive/typed_project/(rmariano)compr/compressor/cli.py
+/home/bew/archive/typed_project/(rmariano)compr/compressor/util.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/conftest.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/unit/test_processor.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/unit/test_cli.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/unit/test_util.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/unit/test_char_node.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/unit/test_core.py
+/home/bew/archive/typed_project/(rmariano)compr/tests/functional/test_smoke.py

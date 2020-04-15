@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(xahhy)Django-vod/admin_resumable/fields.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/admin_resumable/files.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/admin_resumable/views.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/mysite/upload.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/mysite/celery.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/mysite/router.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/utils.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/admin.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/models.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/pagination.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/forms.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/my_storage.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/api/serializers.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/vodmanagement/api/permissions.py
+/home/bew/archive/typed_project/(xahhy)Django-vod/epg/tasks.py

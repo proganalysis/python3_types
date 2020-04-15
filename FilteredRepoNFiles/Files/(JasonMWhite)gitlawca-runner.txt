@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/acts_storage.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/storage.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/install.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/acts_scraper.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/cli.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/logger.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/scraper/spider.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/conftest.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_acts_storage.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_spider.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_pubsub.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_storage.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_acts_scraper.py
+/home/bew/archive/typed_project/(JasonMWhite)gitlawca-runner/tests/scraper/test_integration.py

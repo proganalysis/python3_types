@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/auto_changelog/__init__.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/auto_changelog/repository.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/auto_changelog/__main__.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/auto_changelog/domain_model.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/auto_changelog/presenter.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/tests/test_repository.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/tests/test_presenter.py
+/home/bew/archive/typed_project/(Michael-F-Bryan)auto-changelog/tests/test_domain_model.py

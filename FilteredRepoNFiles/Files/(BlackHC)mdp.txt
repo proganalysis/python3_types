@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(BlackHC)mdp/blackhc/mdp/__init__.py
+/home/bew/archive/typed_project/(BlackHC)mdp/blackhc/mdp/dsl/__init__.py
+/home/bew/archive/typed_project/(BlackHC)mdp/blackhc/mdp/example.py
+/home/bew/archive/typed_project/(BlackHC)mdp/blackhc/mdp/lp.py
+/home/bew/archive/typed_project/(BlackHC)mdp/blackhc/mdp/dsl/ast.py
+/home/bew/archive/typed_project/(BlackHC)mdp/tests/test_lp.py
+/home/bew/archive/typed_project/(BlackHC)mdp/tests/test_dsl.py
+/home/bew/archive/typed_project/(BlackHC)mdp/tests/test_mdp.py
+/home/bew/archive/typed_project/(BlackHC)mdp/tests/test_example.py

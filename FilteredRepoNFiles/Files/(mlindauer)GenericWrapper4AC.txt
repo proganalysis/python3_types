@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/setup.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/examples/artificial_example/wrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/examples/MiniSAT/MiniSATWrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/examples/dummy_wrapper/dummy_wrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/examples/SGD/SGDWrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/test/test_resources/test_limits.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/test/test_calls/test_checker.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/test/test_calls/test_calls.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/genericWrapper4AC/generic_wrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/genericWrapper4AC/domain_specific/satwrapper.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/genericWrapper4AC/argparser/parse.py
+/home/bew/archive/typed_project/(mlindauer)GenericWrapper4AC/genericWrapper4AC/data/data.py

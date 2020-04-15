@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/common.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/ast.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/parser.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/renderer.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/codegen.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/lexer.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/test/test_parser.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/test/test_arguments.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/test/test_lexer.py
+/home/bew/archive/typed_project/(zz-systems)zacc/codegen/codegen/test/test_functions.py

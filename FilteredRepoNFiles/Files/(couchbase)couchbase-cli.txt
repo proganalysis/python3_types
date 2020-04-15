@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/pbar.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/pump_gen.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/pump_csv.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/pump_bfd2.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/pump_json.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/cb_util.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/test/mock_binary_server.py
+/home/bew/archive/typed_project/(couchbase)couchbase-cli/test/test_txn.py

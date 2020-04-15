@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/__main__.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/basics.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/git_log_processing.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/visualizations/chord_diagram.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/visualizations/total_lines_of_code.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/visualizations/punchcard.py
+/home/bew/archive/typed_project/(wagnerpeer)gitexplorer/gitexplorer/queries/aggregation.py

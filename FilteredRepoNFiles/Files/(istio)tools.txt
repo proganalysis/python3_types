@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(istio)tools/perf/load/pilot/load_test.py
+/home/bew/archive/typed_project/(istio)tools/perf/docker/prom_client.py
+/home/bew/archive/typed_project/(istio)tools/perf/docker/redis/client.py
+/home/bew/archive/typed_project/(istio)tools/perf/benchmark/runner/runner.py
+/home/bew/archive/typed_project/(istio)tools/perf/benchmark/runner/fortio.py
+/home/bew/archive/typed_project/(istio)tools/perf/benchmark/runner/graph.py
+/home/bew/archive/typed_project/(istio)tools/bin/update_mesh_config.py
+/home/bew/archive/typed_project/(istio)tools/bin/export_grafana_snapshot.py
+/home/bew/archive/typed_project/(istio)tools/bin/update_dns.py
+/home/bew/archive/typed_project/(istio)tools/metrics/prometheus.py
+/home/bew/archive/typed_project/(istio)tools/metrics/check_metrics.py
+/home/bew/archive/typed_project/(istio)tools/isotope/create_tree_topology.py
+/home/bew/archive/typed_project/(istio)tools/isotope/run_tests.py
+/home/bew/archive/typed_project/(istio)tools/isotope/runner/md5.py
+/home/bew/archive/typed_project/(istio)tools/isotope/runner/config.py

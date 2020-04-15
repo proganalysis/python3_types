@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(jfear)sramongo/tests/test_parsers_sra_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/test_parsers_biosample_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/test_parsers_pubmed_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/test_parsers_bioproject_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/conftest.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/test_xml_helpers.py
+/home/bew/archive/typed_project/(jfear)sramongo/tests/services/test_entrez.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/utils.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/sra2mongo.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/parsers_sra_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/parsers_pubmed_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/logger.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/xml_helpers.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/parsers_biosample_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/parsers_bioproject_xml.py
+/home/bew/archive/typed_project/(jfear)sramongo/sramongo/services/entrez.py

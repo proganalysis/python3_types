@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(micropython)micropython/ports/stm32/make-stmconst.py
+/home/bew/archive/typed_project/(micropython)micropython/py/makeqstrdata.py
+/home/bew/archive/typed_project/(micropython)micropython/tests/run-perfbench.py
+/home/bew/archive/typed_project/(micropython)micropython/tests/basics/builtin_override.py
+/home/bew/archive/typed_project/(micropython)micropython/tests/inlineasm/asmsum.py
+/home/bew/archive/typed_project/(micropython)micropython/tests/micropython/viper_addr.py
+/home/bew/archive/typed_project/(micropython)micropython/tests/import/import_override.py

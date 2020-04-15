@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/service_control/jinja2.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/pages/views/profile.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/api/serializers.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/api/permissions.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/api/views/api_profile_views.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/api/tests/views_test/profile_detail_view_test.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/api/tests/views_test/profile_list_view_test.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/core/models.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/core/enums.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/core/views_verifications.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_1/core/tests/models_test.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_2/framework_prototype.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_2/module_control/some_app/my_modules.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_2/module_control/some_app/views.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_2/module_control/modules/admin.py
+/home/bew/archive/typed_project/(desenho-sw-g5)service_control/Trabalho_2/module_control/modules/templatetags/templates_extras.py

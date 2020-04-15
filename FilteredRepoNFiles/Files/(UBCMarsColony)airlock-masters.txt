@@ -1,0 +1,26 @@
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/FSMDefinitions.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/FSMMockClasses.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/test_Door.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/subsys_door.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/test_Pressure.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/subsys_pool.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/test_Lights.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/subsys_base.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/FSM/Unittest/subsys_pressure.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_subsystem-base.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_door-subsystem.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_control_logic.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/GUI.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-main_simulated.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_hexdisplay-subsystem.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_interface-subsystem.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_subsystem-pool.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_pressure-manager.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-main_primary.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_door-input-subsystem.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_lights-manager.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_communications.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_sensor-reader.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/pi-systems_input-subsystem.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/init.py
+/home/bew/archive/typed_project/(UBCMarsColony)airlock-masters/Jacky's Pi Sys/Pi-arduino comms/pyside.py

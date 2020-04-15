@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/queue.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/connect.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/consumer.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/message.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/helpers.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/src/asynqp_consumer/records.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/utils.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/test_records.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/test_consumer.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/test_queue.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/test_connect.py
+/home/bew/archive/typed_project/(tkukushkin)asynqp-consumer/tests/test_message.py

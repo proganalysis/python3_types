@@ -1,0 +1,1931 @@
+[RRepo](dahlia)wikidata
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check entity
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/entity.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/entity.imports --module-name entity -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/entity.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/entity.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/entity.py", line 14, in <module>: Can't find module 'multilingual'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/entity.py", line 17, in <module>: Can't find module 'client'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check commonsmedia
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/commonsmedia.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/commonsmedia.imports --module-name commonsmedia -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/commonsmedia.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/commonsmedia.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/commonsmedia.py", line 13, in <module>: Can't find module 'client'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check cache
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/cache.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/cache.imports --module-name cache -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/cache.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/cache.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/cache.py", line 87, in get: No attribute 'move_to_end' on collections.OrderedDict [attribute-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/cache.py", line 152, in is_property: Function Pattern.search was called with the wrong arguments [wrong-arg-types]
+         Expected: (self, string: str, ...)
+  Actually passed: (self, string: CacheKey)
+Called from (traceback):
+  line 167, in set
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check multilingual
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/multilingual.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/multilingual.imports --module-name multilingual -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/multilingual.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/multilingual.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/multilingual.py", line 67, in __new__: Can't assign attribute 'locale_code' on str [not-writable]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/multilingual.py", line 68, in __new__: bad option in return type [bad-return-type]
+           Expected: MonolingualText
+  Actually returned: str
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check datavalue
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/datavalue.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/datavalue.imports --module-name datavalue -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/datavalue.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py", line 21, in <module>: Can't find module 'client'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py", line 22, in <module>: Can't find module 'commonsmedia'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py", line 23, in <module>: Can't find module 'multilingual'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py", line 25, in <module>: Can't find module 'entity'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check client
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/client.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/client.imports --module-name client -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/client.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py", line 15, in <module>: Can't find module 'cache'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py", line 16, in <module>: Can't find module 'entity'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py", line 19, in <module>: Can't find module 'datavalue'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py", line 105, in __init__: Can't find module 'datavalue'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check cache_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/cache_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/cache_test.imports --module-name cache_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/cache_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/cache_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/cache_test.py", line 4, in <module>: Can't find module 'wikidata.cache'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check datavalue_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/datavalue_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/datavalue_test.imports --module-name datavalue_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/datavalue_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py", line 6, in <module>: Can't find module 'wikidata.client'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py", line 7, in <module>: Can't find module 'wikidata.commonsmedia'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py", line 8, in <module>: Can't find module 'wikidata.datavalue'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py", line 9, in <module>: Can't find module 'wikidata.entity'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py", line 10, in <module>: Can't find module 'wikidata.multilingual'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check client_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/client_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/client_test.imports --module-name client_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/client_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py", line 5, in <module>: Can't find module 'mock'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py", line 6, in <module>: Can't find module 'wikidata.cache'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py", line 7, in <module>: Can't find module 'wikidata.client'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py", line 8, in <module>: Can't find module 'wikidata.entity'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check mock
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check multilingual_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/multilingual_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/multilingual_test.imports --module-name multilingual_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/multilingual_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/multilingual_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/multilingual_test.py", line 6, in <module>: Can't find module 'wikidata.multilingual'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check conftest
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/conftest.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/conftest.imports --module-name conftest -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/conftest.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py", line 6, in <module>: Can't find module 'mock'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py", line 7, in <module>: Can't find module 'wikidata.client'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py", line 8, in <module>: Can't find module 'wikidata.commonsmedia'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py", line 9, in <module>: Can't find module 'wikidata.entity'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check entity_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/entity_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/entity_test.imports --module-name entity_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/entity_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py", line 8, in <module>: Can't find module 'mock'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py", line 9, in <module>: Can't find module 'wikidata.client'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py", line 10, in <module>: Can't find module 'wikidata.entity'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py", line 11, in <module>: Can't find module 'wikidata.multilingual'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check commonsmedia_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/commonsmedia_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/commonsmedia_test.imports --module-name commonsmedia_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/commonsmedia_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(dahlia)wikidata/tests/commonsmedia_test.py'
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/commonsmedia_test.py", line 7, in <module>: Can't find module 'mock'. [import-error]
+File "/home/bew/archive/typed_project/(dahlia)wikidata/tests/commonsmedia_test.py", line 8, in <module>: Can't find module 'wikidata.commonsmedia'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+[RRepo](ocadotechnology)aimmo
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.__init__
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.pickups.__init__
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/__init__.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.pickups.__init__.imports --module-name interactables.pickups.__init__ -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/__init__.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/__init__.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/__init__.py", line 1, in <module>: Can't find module 'simulation.interactables.pickups.damage_boost_pickup'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/__init__.py", line 2, in <module>: Can't find module 'simulation.interactables.pickups.health_pickup'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/__init__.py", line 3, in <module>: Can't find module 'simulation.interactables.pickups.invulnerability_pickup'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check aimmo_setup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/aimmo_setup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/aimmo_setup.imports --module-name aimmo_setup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/aimmo_setup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_setup.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_setup.py", line 197, in check_for_cmdtest: Name 'raw_input' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/4] infer aimmo_runner.minikube
+[2/4] infer aimmo_runner.runner
+[3/4] infer aimmo_runner.docker_scripts
+[4/4] check all_tests
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/all_tests.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/all_tests.imports --module-name all_tests -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/all_tests.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/all_tests.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/all_tests.py", line 15, in <module>: Can't find module 'docker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 3 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check service
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/service.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/service.imports --module-name service -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/service.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/service.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/service.py", line 5, in <module>: Can't find module 'game_manager'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check kube_components
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/kube_components.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/kube_components.imports --module-name kube_components -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/kube_components.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/kube_components.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/kube_components.py", line 3, in <module>: Can't find module 'kubernetes'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/kube_components.py", line 4, in <module>: Can't find module 'kubernetes.client.rest'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_game_manager
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_game_manager.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_game_manager.imports --module-name test_game_manager -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_game_manager.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/tests/test_game_manager.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/tests/test_game_manager.py", line 6, in <module>: Can't find module 'game_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/tests/test_game_manager.py", line 7, in <module>: Can't find module 'httmock'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_aimmo_game_creator_yaml
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_kube_components
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_kube_components.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_kube_components.imports --module-name test_kube_components -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_kube_components.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/tests/test_kube_components.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-creator/tests/test_kube_components.py", line 6, in <module>: Can't find module 'kube_components'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer connection_api
+[2/2] check test_kubernetes
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_kubernetes.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_kubernetes.imports --module-name test_kubernetes -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_kubernetes.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_kubernetes.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_kubernetes.py", line 5, in <module>: Can't find module 'kubernetes'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_kubernetes.py", line 6, in <module>: Can't find module 'aimmo_runner'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check connection_api
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/connection_api.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/connection_api.imports --module-name connection_api -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/connection_api.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/connection_api.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/connection_api.py", line 133, in _log_in_as_a_superuser: No attribute 'status_code' on None [attribute-error]
+  In Optional[requests.models.Response]
+
+For more details, see https://google.github.io/pytype/errors.html#attribute-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_integration
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_integration.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_integration.imports --module-name test_integration -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_integration.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_integration.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_integration.py", line 7, in <module>: Can't find module 'aimmo_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/integration_tests/tests/test_integration.py", line 10, in <module>: Can't find module 'django.core.urlresolvers'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check settings
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/settings.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/settings.imports --module-name settings -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/settings.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/example_project/example_project/settings.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/example_project/example_project/settings.py", line 117, in <module>: Can't find module 'example_project.local_settings'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/example_project/example_project/settings.py", line 122, in <module>: Can't find module 'django_autoconfig'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check print_collector
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/5] infer simulation.action
+[2/5] infer simulation.direction
+[3/5] infer print_collector
+[4/5] infer user_exceptions
+[5/5] check avatar_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/avatar_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/avatar_runner.imports --module-name avatar_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/avatar_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/avatar_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/avatar_runner.py", line 10, in <module>: Can't find module 'RestrictedPython'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/avatar_runner.py", line 11, in <module>: Can't find module 'RestrictedPython.Guards'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/avatar_runner.py", line 17, in <module>: Can't find module 'RestrictedPython.PrintCollector'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 4 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check user_exceptions
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check code_updater
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/code_updater.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/code_updater.imports --module-name code_updater -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/code_updater.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/code_updater.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/code_updater.py", line 11, in <module>: Can't find module 'RestrictedPython'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/code_updater.py", line 12, in <module>: Can't find module 'RestrictedPython.Guards'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 2 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check action
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/action.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/action.imports --module-name action -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/action.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/action.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/action.py", line 4, in <module>: Metaclass abc.ABCMeta on class Action ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html#ignored-metaclass.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check avatar_state
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/avatar_state.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/avatar_state.imports --module-name avatar_state -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/avatar_state.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/avatar_state.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/avatar_state.py", line 1, in <module>: Can't find module 'simulation.location'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check location
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check world_map
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/world_map.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/world_map.imports --module-name world_map -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/world_map.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 1, in <module>: Can't find module 'avatar_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 2, in <module>: Can't find module 'location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 25, in __repr__: No attribute 'habitable' on Cell [attribute-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 25, in __repr__: No attribute 'interactable' on Cell [attribute-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 51, in interactable_cells: No attribute 'interactable' on Cell [attribute-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 57, in <listcomp>: No attribute 'interactable' on Cell [attribute-error]
+Called from (traceback):
+  line 56, in pickup_cells
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 58, in <listcomp>: No attribute 'interactable' on Cell [attribute-error]
+Called from (traceback):
+  line 56, in pickup_cells
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 59, in <listcomp>: No attribute 'interactable' on Cell [attribute-error]
+Called from (traceback):
+  line 56, in pickup_cells
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 66, in <listcomp>: No attribute 'interactable' on Cell [attribute-error]
+Called from (traceback):
+  line 65, in score_cells
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/simulation/world_map.py", line 70, in partially_fogged_cells: No attribute 'partially_fogged' on Cell [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check direction
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_avatar_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_avatar_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_avatar_runner.imports --module-name test_avatar_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_avatar_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/test_avatar_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/test_avatar_runner.py", line 4, in <module>: Can't find module 'avatar_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/test_avatar_runner.py", line 5, in <module>: Can't find module 'code_updater'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/test_avatar_runner.py", line 6, in <module>: Can't find module 'user_exceptions'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_world_map
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_world_map.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_world_map.imports --module-name test_world_map -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_world_map.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/tests_simulation/test_world_map.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/tests_simulation/test_world_map.py", line 5, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game-worker/tests/tests_simulation/test_world_map.py", line 6, in <module>: Can't find module 'simulation.world_map'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check authentication
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/authentication.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/authentication.imports --module-name authentication -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/authentication.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/authentication.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/authentication.py", line 5, in <module>: Can't find module 'kubernetes'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer simulation.django_communicator
+[2/2] check activity_monitor
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/activity_monitor.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/activity_monitor.imports --module-name activity_monitor -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/activity_monitor.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/activity_monitor.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/activity_monitor.py", line 38, in __init__: Function Timer.__init__ was called with the wrong arguments [wrong-arg-types]
+         Expected: (self, timeout, callback: types.CoroutineType)
+  Actually passed: (self, timeout, callback: Callable[[], Any])
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/activity_monitor.py", line 47, in _start_timer: Function Timer.__init__ was called with the wrong arguments [wrong-arg-types]
+         Expected: (self, timeout, callback: types.CoroutineType)
+  Actually passed: (self, timeout, callback: Callable[[], Any])
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/activity_monitor.py", line 91, in _job: 'CoroutineType' object is not callable [not-callable]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check metrics
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check django_communicator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/django_communicator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/django_communicator.imports --module-name django_communicator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/django_communicator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/django_communicator.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/django_communicator.py", line 23, in mark_game_complete: Function requests.api.post was called with the wrong arguments [wrong-arg-types]
+         Expected: (url: Union[bytes, str], ...)
+  Actually passed: (url: requests.models.Response)
+
+For more details, see https://google.github.io/pytype/errors.html#wrong-arg-types.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check cell
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/cell.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/cell.imports --module-name cell -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/cell.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/cell.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/cell.py", line 1, in <module>: Can't find module 'simulation.action'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check game_state
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/game_state.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/game_state.imports --module-name game_state -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/game_state.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_state.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_state.py", line 4, in <module>: Can't find module 'simulation.interactables'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check game_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/game_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/game_runner.imports --module-name game_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/game_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 9, in <module>: Can't find module 'metrics'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 10, in <module>: Can't find module 'simulation.avatar.avatar_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 11, in <module>: Can't find module 'simulation.django_communicator'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 12, in <module>: Can't find module 'simulation.simulation_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 13, in <module>: Can't find module 'simulation.worker_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_runner.py", line 81, in update_simulation: bad option in return type [bad-return-type]
+           Expected: Awaitable
+  Actually returned: None
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check simulation_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/simulation_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/simulation_runner.imports --module-name simulation_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/simulation_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/simulation_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/simulation_runner.py", line 7, in <module>: Can't find module 'simulation.action'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/simulation_runner.py", line 8, in <module>: Can't find module 'simulation.game_logic'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/simulation_runner.py", line 21, in <module>: Metaclass abc.ABCMeta on class SimulationRunner ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check worker_manager
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/worker_manager.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/worker_manager.imports --module-name worker_manager -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/worker_manager.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/worker_manager.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/worker_manager.py", line 9, in <module>: Can't find module 'eventlet.semaphore'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/worker_manager.py", line 11, in <module>: Can't find module 'simulation.workers'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check map_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/map_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/map_generator.imports --module-name map_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/map_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 11, in <module>: Can't find module 'simulation.direction'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 12, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 13, in <module>: Can't find module 'simulation.interactables.score_location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 14, in <module>: Can't find module 'simulation.level_settings'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 15, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 16, in <module>: Can't find module 'simulation.world_map'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 21, in <module>: Metaclass abc.ABCMeta on class _BaseGenerator ignored in Python 3 [ignored-metaclass]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/map_generator.py", line 195, in <module>: Metaclass abc.ABCMeta on class _BaseLevelGenerator ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check effect_applier
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/effect_applier.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/effect_applier.imports --module-name effect_applier -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/effect_applier.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/effect_applier.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/effect_applier.py", line 5, in <module>: Can't find module 'simulation.game_state'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check map_updaters
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/map_updaters.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/map_updaters.imports --module-name map_updaters -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/map_updaters.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py", line 7, in <module>: Can't find module 'simulation.cell'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py", line 8, in <module>: Can't find module 'simulation.interactables.pickups'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py", line 9, in <module>: Can't find module 'simulation.interactables.score_location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py", line 10, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/game_logic/map_updaters.py", line 17, in <module>: Metaclass abc.ABCMeta on class _MapUpdater ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check spawn_location_finder
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check avatar_appearance
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check avatar_wrapper
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/avatar_wrapper.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/avatar_wrapper.imports --module-name avatar_wrapper -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/avatar_wrapper.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_wrapper.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_wrapper.py", line 4, in <module>: Can't find module 'simulation.action'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_wrapper.py", line 5, in <module>: Can't find module 'simulation.direction'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check avatar_manager
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/avatar_manager.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/avatar_manager.imports --module-name avatar_manager -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/avatar_manager.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_manager.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_manager.py", line 1, in <module>: Can't find module 'simulation.avatar.avatar_wrapper'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/avatar/avatar_manager.py", line 2, in <module>: Can't find module 'simulation.avatar.avatar_appearance'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.interactable
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/interactable.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.interactable.imports --module-name interactables.interactable -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/interactable.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/interactable.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/interactable.py", line 4, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/interactable.py", line 7, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/interactable.py", line 8, in <module>: Can't find module 'simulation.avatar.avatar_wrapper'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/interactable.py", line 11, in <module>: Metaclass abc.ABCMeta on class _Interactable ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.conditions
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/conditions.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.conditions.imports --module-name interactables.conditions -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/conditions.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/conditions.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/conditions.py", line 4, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/conditions.py", line 5, in <module>: Can't find module 'simulation.cell'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.score_location
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/score_location.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.score_location.imports --module-name interactables.score_location -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/score_location.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/score_location.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/score_location.py", line 1, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/score_location.py", line 2, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/score_location.py", line 3, in <module>: Can't find module 'simulation.interactables.interactable'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.effects.imports --module-name interactables.effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/effects.py", line 24, in <module>: Can't find module 'simulation.avatar.avatar_wrapper'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.pickups.damage_boost_pickup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/damage_boost_pickup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.pickups.damage_boost_pickup.imports --module-name interactables.pickups.damage_boost_pickup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/damage_boost_pickup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/damage_boost_pickup.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/damage_boost_pickup.py", line 1, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/damage_boost_pickup.py", line 2, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/damage_boost_pickup.py", line 3, in <module>: Can't find module 'simulation.interactables.interactable'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.pickups.invulnerability_pickup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/invulnerability_pickup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.pickups.invulnerability_pickup.imports --module-name interactables.pickups.invulnerability_pickup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/invulnerability_pickup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/invulnerability_pickup.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/invulnerability_pickup.py", line 1, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/invulnerability_pickup.py", line 2, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/invulnerability_pickup.py", line 3, in <module>: Can't find module 'simulation.interactables.interactable'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check interactables.pickups.health_pickup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/health_pickup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/interactables.pickups.health_pickup.imports --module-name interactables.pickups.health_pickup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/interactables/pickups/health_pickup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/health_pickup.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/health_pickup.py", line 1, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/health_pickup.py", line 2, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/interactables/pickups/health_pickup.py", line 3, in <module>: Can't find module 'simulation.interactables.interactable'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check local_worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/local_worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/local_worker.imports --module-name local_worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/local_worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/local_worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/local_worker.py", line 6, in <module>: Can't find module 'docker'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/local_worker.py", line 7, in <module>: Can't find module 'docker.models.containers'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/local_worker.py", line 9, in <module>: Can't find module 'worker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check kubernetes_worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/kubernetes_worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/kubernetes_worker.imports --module-name kubernetes_worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/kubernetes_worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/kubernetes_worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/kubernetes_worker.py", line 5, in <module>: Can't find module 'kubernetes'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/kubernetes_worker.py", line 6, in <module>: Can't find module 'kubernetes'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/kubernetes_worker.py", line 8, in <module>: Can't find module 'worker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/worker.imports --module-name worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/simulation/workers/worker.py", line 35, in fetch_data: No attribute 'url' on Worker [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html#attribute-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_activity_monitor
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_activity_monitor.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_activity_monitor.imports --module-name test_activity_monitor -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_activity_monitor.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_activity_monitor.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_activity_monitor.py", line 6, in <module>: Can't find module 'activity_monitor'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_activity_monitor.py", line 7, in <module>: Can't find module 'asynctest'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_activity_monitor.py", line 9, in <module>: Can't find module 'test_simulation.mock_communicator'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_service
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_service.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_service.imports --module-name test_service -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_service.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 3, in <module>: Can't find module 'service'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 4, in <module>: Can't find module 'simulation.avatar.avatar_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 5, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 6, in <module>: Can't find module 'simulation.interactables.score_location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 7, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 8, in <module>: Can't find module 'simulation.world_map'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 10, in <module>: Can't find module 'test_simulation.dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_service.py", line 11, in <module>: Can't find module 'test_simulation.maps'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_authentication
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_authentication.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_authentication.imports --module-name test_authentication -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_authentication.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_authentication.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_authentication.py", line 4, in <module>: Can't find module 'kubernetes'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_authentication.py", line 7, in <module>: Can't find module 'authentication'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_socketio
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_socketio.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_socketio.imports --module-name test_socketio -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_socketio.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py", line 8, in <module>: Can't find module 'socketio'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py", line 10, in <module>: Can't find module 'service'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py", line 11, in <module>: Can't find module 'simulation.game_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py", line 12, in <module>: Can't find module 'test_simulation.mock_communicator'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_socketio.py", line 13, in <module>: Can't find module 'test_simulation.mock_worker_manager'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_conditions
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_conditions.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_conditions.imports --module-name test_conditions -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_conditions.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_conditions.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_conditions.py", line 5, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_conditions.py", line 6, in <module>: Can't find module 'simulation.interactables.conditions'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_conditions.py", line 8, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_score_location_and_effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_score_location_and_effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_score_location_and_effects.imports --module-name test_score_location_and_effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_score_location_and_effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_score_location_and_effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_score_location_and_effects.py", line 4, in <module>: Can't find module 'simulation.interactables.score_location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_score_location_and_effects.py", line 5, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_score_location_and_effects.py", line 7, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_damage_pickups_and_effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_damage_pickups_and_effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_damage_pickups_and_effects.imports --module-name test_damage_pickups_and_effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_damage_pickups_and_effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 4, in <module>: Can't find module 'hypothesis'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 5, in <module>: Can't find module 'hypothesis'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 6, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 7, in <module>: Can't find module 'simulation.interactables.pickups'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 8, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_damage_pickups_and_effects.py", line 10, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check mock_world
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/mock_world.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/mock_world.imports --module-name mock_world -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/mock_world.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/mock_world.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/mock_world.py", line 3, in <module>: Can't find module 'simulation'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/mock_world.py", line 4, in <module>: Can't find module 'simulation.simulation_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/mock_world.py", line 5, in <module>: Can't find module 'tests.test_simulation.mock_communicator'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/mock_world.py", line 6, in <module>: Can't find module 'tests.test_simulation.dummy_avatar'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_health_pickups_and_effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_health_pickups_and_effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_health_pickups_and_effects.imports --module-name test_health_pickups_and_effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_health_pickups_and_effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 4, in <module>: Can't find module 'hypothesis'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 5, in <module>: Can't find module 'hypothesis'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 6, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 7, in <module>: Can't find module 'simulation.interactables.pickups'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 8, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_health_pickups_and_effects.py", line 14, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_invulnerability_pickups_and_effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_invulnerability_pickups_and_effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_invulnerability_pickups_and_effects.imports --module-name test_invulnerability_pickups_and_effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_invulnerability_pickups_and_effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_invulnerability_pickups_and_effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_invulnerability_pickups_and_effects.py", line 3, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_invulnerability_pickups_and_effects.py", line 4, in <module>: Can't find module 'simulation.interactables.pickups'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_invulnerability_pickups_and_effects.py", line 6, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_effect_expiry
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_effect_expiry.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_effect_expiry.imports --module-name test_effect_expiry -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_effect_expiry.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_effect_expiry.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_effect_expiry.py", line 4, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_effect_expiry.py", line 5, in <module>: Can't find module 'simulation.interactables.pickups'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_effect_expiry.py", line 6, in <module>: Can't find module 'simulation.interactables.effects'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_effect_expiry.py", line 11, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_movements_in_map
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_movements_in_map.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_movements_in_map.imports --module-name test_movements_in_map -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_movements_in_map.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py", line 3, in <module>: Can't find module 'tests.test_simulation.dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py", line 12, in <module>: Can't find module 'simulation'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py", line 13, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py", line 14, in <module>: Can't find module 'simulation.simulation_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_interactables/test_movements_in_map.py", line 16, in <module>: Can't find module 'mock_world'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_game_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_game_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_game_runner.imports --module-name test_game_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_game_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 6, in <module>: Can't find module 'simulation.avatar.avatar_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 7, in <module>: Can't find module 'simulation.game_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 8, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 10, in <module>: Can't find module 'maps'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 11, in <module>: Can't find module 'mock_communicator'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_runner.py", line 12, in <module>: Can't find module 'mock_worker_manager'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check mock_communicator
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_location
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_location.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_location.imports --module-name test_location -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_location.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_location.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_location.py", line 5, in <module>: Can't find module 'simulation.location'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_map_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_map_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_map_generator.imports --module-name test_map_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_map_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 6, in <module>: Can't find module 'simulation'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 7, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 8, in <module>: Can't find module 'simulation.map_generator'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 9, in <module>: Can't find module 'simulation.simulation_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 10, in <module>: Can't find module 'simulation.world_map'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 12, in <module>: Can't find module 'dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_map_generator.py", line 65, in get_game_state: No attribute 'GENERATOR_CLASS' on _BaseGeneratorTestCase [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_effects
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_effects.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_effects.imports --module-name test_effects -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_effects.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_effects.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_effects.py", line 6, in <module>: Can't find module 'simulation.interactables'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_effects.py", line 8, in <module>: Can't find module 'dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_effects.py", line 9, in <module>: Can't find module 'maps'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_effects.py", line 13, in _BaseCases: Metaclass abc.ABCMeta on class BaseEffectTestCase ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check concrete_worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/concrete_worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/concrete_worker.imports --module-name concrete_worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/concrete_worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/concrete_worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/concrete_worker.py", line 1, in <module>: Can't find module 'simulation.workers.worker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_game_state
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_game_state.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_game_state.imports --module-name test_game_state -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_game_state.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_state.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_state.py", line 5, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_state.py", line 6, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_state.py", line 8, in <module>: Can't find module 'dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_game_state.py", line 9, in <module>: Can't find module 'maps'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_action
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_action.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_action.imports --module-name test_action -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_action.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 5, in <module>: Can't find module 'simulation'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 6, in <module>: Can't find module 'simulation'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 7, in <module>: Can't find module 'simulation.avatar.avatar_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 8, in <module>: Can't find module 'simulation.direction'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 9, in <module>: Can't find module 'simulation.game_state'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 10, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 11, in <module>: Can't find module 'dummy_avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_action.py", line 12, in <module>: Can't find module 'maps'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check maps
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/maps.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/maps.imports --module-name maps -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/maps.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py", line 3, in <module>: Can't find module 'simulation.cell'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py", line 4, in <module>: Can't find module 'simulation.game_logic'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py", line 5, in <module>: Can't find module 'simulation.interactables.score_location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py", line 6, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/maps.py", line 7, in <module>: Can't find module 'simulation.world_map'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check mock_worker_manager
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/mock_worker_manager.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/mock_worker_manager.imports --module-name mock_worker_manager -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/mock_worker_manager.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/mock_worker_manager.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/mock_worker_manager.py", line 1, in <module>: Can't find module 'simulation.worker_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/mock_worker_manager.py", line 2, in <module>: Can't find module 'concrete_worker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_cell
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_cell.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_cell.imports --module-name test_cell -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_cell.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_cell.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_cell.py", line 3, in <module>: Can't find module 'simulation.cell'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_cell.py", line 5, in <module>: Can't find module 'test_world_map'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check dummy_avatar
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/dummy_avatar.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/dummy_avatar.imports --module-name dummy_avatar -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/dummy_avatar.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/dummy_avatar.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/dummy_avatar.py", line 4, in <module>: Can't find module 'simulation.action'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/dummy_avatar.py", line 5, in <module>: Can't find module 'simulation.avatar.avatar_manager'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/dummy_avatar.py", line 6, in <module>: Can't find module 'simulation.avatar.avatar_wrapper'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/dummy_avatar.py", line 7, in <module>: Can't find module 'simulation.direction'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_direction
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_direction.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_direction.imports --module-name test_direction -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_direction.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_direction.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_direction.py", line 5, in <module>: Can't find module 'simulation.direction'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/test_direction.py", line 6, in <module>: Can't find module 'simulation.location'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_avatar_wrapper
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_avatar_wrapper.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_avatar_wrapper.imports --module-name test_avatar_wrapper -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_avatar_wrapper.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 6, in <module>: Can't find module 'tests.test_simulation.concrete_worker'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 8, in <module>: Can't find module 'httmock'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 9, in <module>: Can't find module 'simulation.avatar'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 10, in <module>: Can't find module 'simulation.location'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 35, in __init__: Name 'actions_created' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 87, in add_effects: No attribute 'avatar' on TestAvatarWrapper [attribute-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/avatar/test_avatar_wrapper.py", line 88, in add_effects: No attribute 'avatar' on TestAvatarWrapper [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_worker.imports --module-name test_worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_worker.py", line 4, in <module>: Can't find module 'aioresponses'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_worker.py", line 6, in <module>: Can't find module 'tests.test_simulation.concrete_worker'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_worker.py", line 9, in <module>: Can't find module 'simulation.workers.worker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_local_worker
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_local_worker.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_local_worker.imports --module-name test_local_worker -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_local_worker.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_local_worker.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_local_worker.py", line 7, in <module>: Can't find module 'simulation.workers.local_worker'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo-game/tests/test_simulation/workers/test_local_worker.py", line 8, in <module>: Can't find module 'simulation.worker_manager'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer models
+[2/2] check game_renderer
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/game_renderer.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/game_renderer.imports --module-name game_renderer -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/game_renderer.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/game_renderer.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/game_renderer.py", line 7, in <module>: Can't find module 'aimmo'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check admin
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check models
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/models.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/models.imports --module-name models -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/models.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/models.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/models.py", line 5, in <module>: Can't find module 'aimmo'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/models.py", line 10, in <module>: Name 'xrange' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check apps
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check app_settings
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check serializers
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check forms
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/forms.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/forms.imports --module-name forms -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/forms.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/forms.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/forms.py", line 1, in <module>: Can't find module 'aimmo.models'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer app_settings
+[2/2] check permissions
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/5] infer forms
+[2/5] infer game_renderer
+[3/5] infer permissions
+[4/5] infer serializers
+[5/5] check views
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/views.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/views.imports --module-name views -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/views.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/views.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/views.py", line 1, in <module>: Can't find module 'cPickle'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/views.py", line 5, in <module>: Can't find module 'exceptions'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 6 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check attacking_avatar
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/attacking_avatar.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/attacking_avatar.imports --module-name attacking_avatar -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/attacking_avatar.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 5, in next_turn: Name 'direction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 16, in next_turn: Name 'AttackAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 26, in next_turn: Name 'MoveAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 27, in next_turn: Name 'random' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 29, in next_turn: Name 'MoveAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 29, in next_turn: Name 'random' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 35, in direction_to: Name 'direction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/attacking_avatar.py", line 37, in direction_to: Name 'direction' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check health_seeker_avatar
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/health_seeker_avatar.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/health_seeker_avatar.imports --module-name health_seeker_avatar -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/health_seeker_avatar.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 6, in next_turn: Name 'WaitAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 10, in <listcomp>: Missing parameter 'self' in call to function get_closest_pickup_location [missing-parameter]
+         Expected: (self)
+  Actually passed: ()
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 12, in next_turn: Name 'MoveAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 13, in next_turn: Name 'random' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 19, in is_towards: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 20, in is_towards: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 31, in get_closest_pickup_location: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 35, in <lambda>: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 44, in get_possible_directions: Name 'direction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 45, in get_possible_directions: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 45, in get_possible_directions: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 45, in <listcomp>: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/health_seeker_avatar.py", line 45, in <listcomp>: Name 'avatar_state' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check simple_avatar
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/simple_avatar.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/simple_avatar.imports --module-name simple_avatar -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/simple_avatar.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/simple_avatar.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/simple_avatar.py", line 2, in next_turn: Name 'MoveAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/simple_avatar.py", line 2, in next_turn: Name 'direction' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check winner_avatar
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/winner_avatar.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/winner_avatar.imports --module-name winner_avatar -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/winner_avatar.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 6, in next_turn: Name 'WaitAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 10, in <listcomp>: Missing parameter 'self' in call to function get_closest_score_location [missing-parameter]
+         Expected: (self)
+  Actually passed: ()
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 12, in next_turn: Name 'MoveAction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 13, in next_turn: Name 'random' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 19, in is_towards: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 20, in is_towards: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 31, in get_closest_score_location: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 35, in <lambda>: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 42, in get_possible_directions: Name 'direction' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 43, in get_possible_directions: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 43, in get_possible_directions: Name 'avatar_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 43, in <listcomp>: Name 'world_state' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/avatar_examples/winner_avatar.py", line 43, in <listcomp>: Name 'avatar_state' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check players_utils
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check 0003_auto_20160802_1418
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/0003_auto_20160802_1418.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/0003_auto_20160802_1418.imports --module-name 0003_auto_20160802_1418 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/0003_auto_20160802_1418.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/migrations/0003_auto_20160802_1418.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/migrations/0003_auto_20160802_1418.py", line 7, in <module>: Can't find module 'aimmo'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check 0011_reset_game_tokens
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check generate_players
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/generate_players.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/generate_players.imports --module-name generate_players -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/generate_players.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/management/commands/generate_players.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/management/commands/generate_players.py", line 10, in <module>: Can't find module 'aimmo.views'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/management/commands/generate_players.py", line 14, in _nth_dirname: Name 'xrange' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/management/commands/generate_players.py", line 86, in handle: Name 'xrange' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check delete_generated_players
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_migration_reset_tokens
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_migration_reset_tokens.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_migration_reset_tokens.imports --module-name test_migration_reset_tokens -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_migration_reset_tokens.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/test_migration_reset_tokens.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/test_migration_reset_tokens.py", line 7, in <module>: Can't find module 'aimmo.models'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer base_test_migration
+[2/2] check test_migration_alter_game_token
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check base_test_migration
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check tests_forms
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/tests_forms.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/tests_forms.imports --module-name tests_forms -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/tests_forms.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/tests_forms.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/tests_forms.py", line 4, in <module>: Can't find module 'aimmo'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check tests_models
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/tests_models.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/tests_models.imports --module-name tests_models -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/tests_models.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/tests_models.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo/tests/tests_models.py", line 4, in <module>: Can't find module 'aimmo'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/2] infer base_test_migration
+[2/2] check test_migration_game_status
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/3] infer shell_api
+[2/3] infer docker_scripts
+[3/3] check minikube
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/minikube.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/minikube.imports --module-name minikube -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/minikube.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/minikube.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/minikube.py", line 10, in <module>: Can't find module 'kubernetes'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 2 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/runner.imports --module-name runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/runner.py", line 92, in run: Can't find module 'aimmo_runner'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/runner.py", line 120, in run: Name 'game' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 2 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check docker_scripts
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/docker_scripts.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/docker_scripts.imports --module-name docker_scripts -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/docker_scripts.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/docker_scripts.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/docker_scripts.py", line 6, in <module>: Can't find module 'docker'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 1 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check shell_api
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/shell_api.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/shell_api.imports --module-name shell_api -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/shell_api.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/shell_api.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/shell_api.py", line 8, in <module>: Can't find module 'urllib.urlretrieve'. [import-error]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/shell_api.py", line 8, in <module>: Can't find module 'urllib.urlopen'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_minikube_runner
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_minikube_runner.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_minikube_runner.imports --module-name test_minikube_runner -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_minikube_runner.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/tests/test_minikube_runner.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/aimmo_runner/tests/test_minikube_runner.py", line 4, in <module>: Can't find module 'aimmo_runner.minikube'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_suite
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_suite.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_suite.imports --module-name test_suite -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_suite.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ocadotechnology)aimmo/test_utils/test_suite.py'
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/test_utils/test_suite.py", line 34, in _configure: No attribute 'setup' on module 'django' [module-attr]
+File "/home/bew/archive/typed_project/(ocadotechnology)aimmo/test_utils/test_suite.py", line 37, in run: Function DjangoAutoTestSuite.run expects 2 arg(s), got 3 [wrong-arg-count]
+         Expected: (self, result)
+  Actually passed: (self, result, _)
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+[RRepo](cjdrake)pyeda
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check util
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check minimization
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/minimization.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/minimization.imports --module-name minimization -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/minimization.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py", line 18, in <module>: Can't find module 'pyeda.boolalg'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py", line 19, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py", line 20, in <module>: Can't find module 'pyeda.boolalg.table'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py", line 28, in <module>: Can't find module 'pyeda.boolalg.espresso'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/minimization.py", line 29, in <module>: Can't find module 'pyeda.boolalg.espresso'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_exxpr
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_exxpr.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_exxpr.imports --module-name test_exxpr -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_exxpr.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_exxpr.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_exxpr.py", line 10, in <module>: Can't find module 'pyeda.boolalg'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_exxpr.py", line 11, in <module>: Can't find module 'pyeda.boolalg'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_exxpr.py", line 12, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_exxpr.py", line 13, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_table
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_table.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_table.imports --module-name test_table -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_table.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_table.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_table.py", line 5, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_table.py", line 6, in <module>: Can't find module 'pyeda.boolalg.table'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_bdd
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_bdd.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_bdd.imports --module-name test_bdd -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_bdd.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bdd.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bdd.py", line 5, in <module>: Can't find module 'pyeda.boolalg.bdd'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bdd.py", line 10, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_boolfunc
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_boolfunc.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_boolfunc.imports --module-name test_boolfunc -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_boolfunc.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_boolfunc.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_boolfunc.py", line 7, in <module>: Can't find module 'pyeda.boolalg.boolfunc'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_boolfunc.py", line 18, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_bfarray
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_bfarray.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_bfarray.imports --module-name test_bfarray -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_bfarray.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bfarray.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bfarray.py", line 7, in <module>: Can't find module 'pyeda.boolalg.bdd'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bfarray.py", line 8, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_bfarray.py", line 13, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_espresso
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_espresso.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_espresso.imports --module-name test_espresso -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_espresso.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 10, in <module>: Can't find module 'pyeda.boolalg'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 11, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 12, in <module>: Can't find module 'pyeda.boolalg.minimization'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 13, in <module>: Can't find module 'pyeda.boolalg.table'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 14, in <module>: Can't find module 'pyeda.inter'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 15, in <module>: Can't find module 'pyeda.logic.addition'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_espresso.py", line 16, in <module>: Can't find module 'pyeda.parsing'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_picosat
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_picosat.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_picosat.imports --module-name test_picosat -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_picosat.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_picosat.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_picosat.py", line 5, in <module>: Can't find module 'pyeda.boolalg'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/boolalg/test/test_picosat.py", line 6, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check aes
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/aes.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/aes.imports --module-name aes -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/aes.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/aes.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/aes.py", line 10, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check graycode
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/graycode.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/graycode.imports --module-name graycode -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/graycode.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/graycode.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/graycode.py", line 14, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check addition
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/addition.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/addition.imports --module-name addition -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/addition.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/addition.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/addition.py", line 17, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/addition.py", line 18, in <module>: Can't find module 'pyeda.util'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check sudoku
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/sudoku.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/sudoku.imports --module-name sudoku -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/sudoku.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/sudoku.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/sudoku.py", line 10, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/sudoku.py", line 11, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_graycode
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_graycode.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_graycode.imports --module-name test_graycode -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_graycode.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_graycode.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_graycode.py", line 5, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_graycode.py", line 6, in <module>: Can't find module 'pyeda.logic.graycode'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_sudoku
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_sudoku.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_sudoku.imports --module-name test_sudoku -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_sudoku.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_sudoku.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_sudoku.py", line 8, in <module>: Can't find module 'pyeda.logic.sudoku'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_addition
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_addition.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_addition.imports --module-name test_addition -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_addition.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_addition.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_addition.py", line 9, in <module>: Can't find module 'pyeda.boolalg.bfarray'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/logic/test/test_addition.py", line 10, in <module>: Can't find module 'pyeda.logic.addition'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check lex
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/lex.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/lex.imports --module-name lex -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/lex.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/lex.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/lex.py", line 16, in <module>: Can't find module 'pyeda.parsing.token'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check pla
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/pla.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/pla.imports --module-name pla -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/pla.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/pla.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/pla.py", line 21, in <module>: Can't find module 'pyeda.boolalg.espresso'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/pla.py", line 141, in parse: No attribute 'add' on int [attribute-error]
+  In Union[Any, List[str], int]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/pla.py", line 141, in parse: No attribute 'add' on List[str] [attribute-error]
+  In Union[Any, List[str], int]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check dimacs
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/dimacs.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/dimacs.imports --module-name dimacs -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/dimacs.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/dimacs.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/dimacs.py", line 25, in <module>: Can't find module 'pyeda.parsing'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/dimacs.py", line 26, in <module>: Can't find module 'pyeda.parsing.token'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_dimacs
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_dimacs.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_dimacs.imports --module-name test_dimacs -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_dimacs.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_dimacs.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_dimacs.py", line 7, in <module>: Can't find module 'pyeda.parsing.dimacs'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_pla
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_pla.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_pla.imports --module-name test_pla -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_pla.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_pla.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_pla.py", line 7, in <module>: Can't find module 'pyeda.boolalg.espresso'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_pla.py", line 8, in <module>: Can't find module 'pyeda.parsing.pla'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_boolexpr
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_boolexpr.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_boolexpr.imports --module-name test_boolexpr -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_boolexpr.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_boolexpr.py'
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_boolexpr.py", line 7, in <module>: Can't find module 'pyeda.boolalg.expr'. [import-error]
+File "/home/bew/archive/typed_project/(cjdrake)pyeda/pyeda/parsing/test/test_boolexpr.py", line 12, in <module>: Can't find module 'pyeda.parsing.boolexpr'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+[RRepo](jlafon)PynamoDB
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check setup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/setup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/setup.imports --module-name setup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/setup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/setup.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/setup.py", line 21, in <module>: No attribute '__version__' on module [attribute-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/setup.py", line 33, in <module>: No attribute '__version__' on module [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html#attribute-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check indexes
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/indexes.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/indexes.imports --module-name indexes -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/indexes.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/indexes.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/indexes.py", line 10, in <module>: Can't find module 'pynamodb.compat'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check compat
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check pagination
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/pagination.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/pagination.imports --module-name pagination -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/pagination.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/pagination.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/pagination.py", line 3, in <module>: Can't find module 'pynamodb.constants.SCANNED_COUNT'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check migration
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/migration.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/migration.imports --module-name migration -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/migration.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/migration.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/migration.py", line 11, in <module>: Can't find module 'pynamodb.expressions.operand'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check settings
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check exceptions
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/exceptions.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/exceptions.imports --module-name exceptions -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/exceptions.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/exceptions.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/exceptions.py", line 13, in __init__: No attribute 'msg' on PynamoDBException [attribute-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/exceptions.py", line 13, in __init__: No attribute 'msg' on TableDoesNotExist [attribute-error]
+Called from (traceback):
+  line 87, in __init__
+
+For more details, see https://google.github.io/pytype/errors.html#attribute-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check table
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/table.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/table.imports --module-name table -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/table.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 63, in delete_item: Invalid keyword argument condition to function Connection.delete_item [wrong-keyword-args]
+         Expected: (self, table_name, hash_key, range_key, expected, conditional_operator, return_values, return_consumed_capacity, return_item_collection_metrics)
+  Actually passed: (self, table_name, hash_key, range_key, expected, conditional_operator, return_values, return_consumed_capacity, return_item_collection_metrics, condition)
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 91, in update_item: Invalid keyword arguments (actions, condition) to function Connection.update_item [wrong-keyword-args]
+         Expected: (self, table_name, hash_key, range_key, attribute_updates, expected, return_consumed_capacity, conditional_operator, return_item_collection_metrics, return_values)
+  Actually passed: (self, table_name, hash_key, range_key, attribute_updates, expected, return_consumed_capacity, conditional_operator, return_item_collection_metrics, return_values, actions, condition)
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 115, in put_item: Invalid keyword argument condition to function Connection.put_item [wrong-keyword-args]
+         Expected: (self, table_name, hash_key, range_key, attributes, expected, conditional_operator, return_values, return_consumed_capacity, return_item_collection_metrics)
+  Actually passed: (self, table_name, hash_key, range_key, attributes, expected, conditional_operator, return_values, return_consumed_capacity, return_item_collection_metrics, condition)
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 175, in rate_limited_scan: No attribute 'rate_limited_scan' on pynamodb.connection.base.Connection [attribute-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 221, in scan: Invalid keyword arguments (consistent_read, filter_condition, index_name) to function Connection.scan [wrong-keyword-args]
+         Expected: (self, table_name, attributes_to_get, limit, conditional_operator, scan_filter, return_consumed_capacity, exclusive_start_key, segment, total_segments)
+  Actually passed: (self, table_name, attributes_to_get, limit, conditional_operator, scan_filter, return_consumed_capacity, exclusive_start_key, segment, total_segments, consistent_read, filter_condition, index_name)
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/connection/table.py", line 257, in query: Invalid keyword arguments (filter_condition, range_key_condition) to function Connection.query [wrong-keyword-args]
+         Expected: (self, table_name, hash_key, attributes_to_get, consistent_read, exclusive_start_key, index_name, key_conditions, query_filters, conditional_operator, limit, return_consumed_capacity, scan_index_forward, select)
+  Actually passed: (self, table_name, hash_key, attributes_to_get, consistent_read, exclusive_start_key, index_name, key_conditions, query_filters, conditional_operator, limit, return_consumed_capacity, scan_index_forward, select, filter_condition, range_key_condition)
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check operand
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/operand.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/operand.imports --module-name operand -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/operand.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/operand.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/operand.py", line 5, in <module>: Can't find module 'pynamodb.expressions.condition'. [import-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/operand.py", line 8, in <module>: Can't find module 'pynamodb.expressions.update'. [import-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/operand.py", line 11, in <module>: Can't find module 'pynamodb.expressions.util'. [import-error]
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/operand.py", line 221, in __serialize_based_on_type: Can't find module 'pynamodb.attributes._get_class_for_serialize'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check update
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check util
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check condition
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/condition.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/condition.imports --module-name condition -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/condition.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/condition.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/expressions/condition.py", line 7, in size: Can't find module 'pynamodb.expressions.operand'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check mypy_helpers
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/mypy_helpers.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/mypy_helpers.imports --module-name mypy_helpers -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/mypy_helpers.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/tests/mypy_helpers.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/tests/mypy_helpers.py", line 10, in <module>: Can't find module 'mypy'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_mypy
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_mypy.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_mypy.imports --module-name test_mypy -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_mypy.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/tests/test_mypy.py'
+File "/home/bew/archive/typed_project/(jlafon)PynamoDB/pynamodb/tests/test_mypy.py", line 9, in <module>: Can't find module 'mypy_helpers'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check deep_eq
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check conftest
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+

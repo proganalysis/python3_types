@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/scraping/google_scraping.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/scraping/yandex_scraping.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/scraping/duckduckgo_scraping.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/scraping/bing_scraping.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/scraping/requests.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/server/server.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/parsing/google_result_parser.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/parsing/duckduckgo_result_parser.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/parsing/bing_result_parser.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/parsing/yandex_result_parser.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/common/headers.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/tests/testing_scraping.py
+/home/bew/archive/typed_project/(EdmundMartin)SearchScraperAPI/searchscrapeserver/tests/testing_parsing.py

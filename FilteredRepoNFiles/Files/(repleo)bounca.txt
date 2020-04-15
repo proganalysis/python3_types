@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(repleo)bounca/setup.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/templatetags/templatetags/version_tags.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/webapp/forms.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/webapp/views.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/api/serializers.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/api/permissions.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/api/mixins.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/certificate_engine/utils.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/certificate_engine/decorators.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/certificate_engine/ssl/certificate.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/certificate_engine/ssl/key.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/certificate_engine/tests/test_key.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/x509_pki/admin.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/x509_pki/models.py
+/home/bew/archive/typed_project/(repleo)bounca/bounca/x509_pki/tests/test_factories.py

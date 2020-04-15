@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(adombeck)python-sgx/utils/create_manifest.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/utils/sign_manifest.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/sgx/socket_util.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/sgx/util.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/sgx/trusted/attestation/attestation.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/sgx/trusted/sealing/wrapper.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/sgx/trusted/sealing/sealing.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/tests/test_sealing_wrapper.py
+/home/bew/archive/typed_project/(adombeck)python-sgx/tests/test_seal.py

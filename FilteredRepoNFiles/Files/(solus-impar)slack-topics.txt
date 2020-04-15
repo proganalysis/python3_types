@@ -1,0 +1,6 @@
+/home/bew/archive/typed_project/(solus-impar)slack-topics/slack_topics/bot.py
+/home/bew/archive/typed_project/(solus-impar)slack-topics/slack_topics/topics/utils.py
+/home/bew/archive/typed_project/(solus-impar)slack-topics/slack_topics/topics/callables.py
+/home/bew/archive/typed_project/(solus-impar)slack-topics/tests/test_topic_utils.py
+/home/bew/archive/typed_project/(solus-impar)slack-topics/tests/test_topic_callables.py
+/home/bew/archive/typed_project/(solus-impar)slack-topics/tests/test_slack_bot.py

@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/code_intelligence/graphql.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/code_intelligence/embeddings.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/code_intelligence/util.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/code_intelligence/inference.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/label_microservice/repo_config.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/label_microservice/mlp.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/notifications/notifications.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Label_Microservice/tests/test_mlp.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Issue_Triage/tests/triage_test.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Issue_Embeddings/train.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Issue_Embeddings/flask_app/app.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Issue_Embeddings/hyperparam_sweep/lm_tune.py
+/home/bew/archive/typed_project/(kubeflow)code-intelligence/Notifications/tests/notifications_test.py

@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/src/cloudstorage/__init__.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/setup.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/src/cloudstorage/utils.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/helpers.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/src/cloudstorage/structures.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/src/cloudstorage/exceptions.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_utils.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_microsoft.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_helpers.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_minio.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_local.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_rackspace.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_amazon.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/conftest.py
+/home/bew/archive/typed_project/(scottwernervt)cloudstorage/tests/test_drivers_google.py

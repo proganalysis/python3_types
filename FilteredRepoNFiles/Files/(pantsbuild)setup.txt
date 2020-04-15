@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(pantsbuild)setup/build-support/common.py
+/home/bew/archive/typed_project/(pantsbuild)setup/build-support/mypy.py
+/home/bew/archive/typed_project/(pantsbuild)setup/build-support/precommit.py
+/home/bew/archive/typed_project/(pantsbuild)setup/build-support/shellcheck.py
+/home/bew/archive/typed_project/(pantsbuild)setup/tests/test_base.py
+/home/bew/archive/typed_project/(pantsbuild)setup/tests/test_sanity_check.py
+/home/bew/archive/typed_project/(pantsbuild)setup/tests/test_first_time_install.py

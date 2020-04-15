@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(Brachi)albam/albam/registry.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/engines/mtframework/utils.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/engines/mtframework/arc.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/engines/mtframework/tex.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/engines/mtframework/mod_156.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/lib/half_float.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/lib/structure.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/lib/blender.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/lib/misc.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/lib/geometry.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/ui/blender/operators.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/ui/blender/panels.py
+/home/bew/archive/typed_project/(Brachi)albam/albam/image_formats/dds.py
+/home/bew/archive/typed_project/(Brachi)albam/tests/test_utils.py
+/home/bew/archive/typed_project/(Brachi)albam/tests/conftest.py
+/home/bew/archive/typed_project/(Brachi)albam/tests/mtframework/test_arc.py

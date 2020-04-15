@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/websocket_terminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/logs.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/server.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/WebsocketBinding.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/BaseTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/SocketTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/SshTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/EchoTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/PromptTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/EncodedTerminal.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/wspty/pipe.py
+/home/bew/archive/typed_project/(sorgloomer)websocket_terminal/server-python3/test/test.py

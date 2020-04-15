@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/merge_production_dotenvs_in_dotenv.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/apps.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/adapters.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/forms.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/views.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/tests/factories.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/tests/test_urls.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/tests/test_forms.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/users/tests/test_views.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}/taskapp/celery.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/hooks/post_gen_project.py
+/home/bew/archive/typed_project/(Parbhat)cookiecutter-django-foundation/tests/test_cookiecutter_generation.py

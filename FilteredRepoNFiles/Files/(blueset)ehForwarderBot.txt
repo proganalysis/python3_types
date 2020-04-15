@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/bump.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/dodo.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/ehforwarderbot/chat.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/ehforwarderbot/middleware.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/ehforwarderbot/channel.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/docs/conf.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_middleware.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_status.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_coordinator.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_channel_loading.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/base_class.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_message.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_extra_functions.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/test_chat.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/mocks/master.py
+/home/bew/archive/typed_project/(blueset)ehForwarderBot/tests/mocks/slave.py

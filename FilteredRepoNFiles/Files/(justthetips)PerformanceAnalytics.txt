@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/tests/performanceanalytics/test_table.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/tests/performanceanalytics/test_statistics.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/tests/performanceanalytics/conftest.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/tests/performanceanalytics/test_seriesholder.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/seriesholder.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/drawdowns.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/table/table.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/boxplot.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/performance_summary.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/rolling_performance.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/rolling_regression.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/performance_histogram.py
+/home/bew/archive/typed_project/(justthetips)PerformanceAnalytics/performanceanalytics/charts/riskreturnscatter.py

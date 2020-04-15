@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/utils.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/base.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/log.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/blocks.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/interface.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/pdp/pipeline.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/check_thread_error.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/POC/complex/dataset.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/POC/simple/computations.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/POC/threads/main2thread.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/POC/threads/memory_share.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/prototypes/POC/threads/between_threads.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/examples/simple_example.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/tests/test_base.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/tests/test_pipeline_modular.py
+/home/bew/archive/typed_project/(Egor-Krivov)pdp/tests/test_pipeline.py

@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/utils.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/base.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/extractor.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/linker.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/views.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/providers/wikipedia.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/providers/yandex_maps.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/providers/tests/test_yandex_maps.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/providers/tests/conftest.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/providers/tests/test_wikipedia.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/similarity/lda.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/similarity/tests/test_lda.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/tests/test_utils.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/tests/test_extractor.py
+/home/bew/archive/typed_project/(bureaucratic-labs)pinkerton/pinkerton/tests/test_linker.py

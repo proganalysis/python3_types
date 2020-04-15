@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(systemd)systemd-stable/.ycm_extra_conf.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/man/90-rearrange-path.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/hwdb/parse_hwdb.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/hwdb/acpi-update.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/hwdb/ids_parser.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/make-man-rules.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/make-directive-index.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/xml_helper.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/make-man-index.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/gdb-sd_dump_hashmaps.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/tools/catalog-report.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/src/test/test-systemd-tmpfiles.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/test/create-sys-script.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/test/test-exec-deserialization.py
+/home/bew/archive/typed_project/(systemd)systemd-stable/test/run-unit-tests.py

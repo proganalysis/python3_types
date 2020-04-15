@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(Intrinsec)comission/comission.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/utilsCMS.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/utils/logging.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/WordPress.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/GenericCMS.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/models/Vulnerability.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/models/Alteration.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/models/Addon.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/models/Core.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/Drupal/Drupal8.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/Drupal/GenericDrupal.py
+/home/bew/archive/typed_project/(Intrinsec)comission/comission/CMS/Drupal/Drupal7.py
+/home/bew/archive/typed_project/(Intrinsec)comission/tests/testCMS.py
+/home/bew/archive/typed_project/(Intrinsec)comission/tests/dataset.py

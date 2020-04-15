@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/model/__init__.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/main.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/dto/comment.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/dto/issue.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/service/jira_service.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/service/chat_service.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/utils/date_util.py
+/home/bew/archive/typed_project/(boggard)jira-telegram-bot/utils/markdown.py

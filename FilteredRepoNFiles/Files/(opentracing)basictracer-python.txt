@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/span.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/context.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/propagator.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/tracer.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/binary_propagator.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/util.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/recorder.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/basictracer/text_propagator.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/examples/span_logging.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/tests/utils.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/tests/test_propagation.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/tests/test_span.py
+/home/bew/archive/typed_project/(opentracing)basictracer-python/tests/test_api.py

@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/setup.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/backup.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/main.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/helpers/reddit_ids.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/helpers/threaded_worker.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/helpers/flair.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/helpers/youtube.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/validation.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/posts.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/inbox.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/admin_commands.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/users.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/mentions.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/tor/core/user_interaction.py
+/home/bew/archive/typed_project/(itsthejoker)TranscribersOfReddit/test/core/test_admin_commands.py

@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/process_cadaster.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/evaluation_extraction.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/remove_invalid_shapes.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/clean_manually_annotated_geojson.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/convert_geo2img_coordinates.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/transcription_filtering.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/scripts/merge_and_filter.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/dash/app.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/dash/filtering_geojson.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/parcel_linking_script.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/transcriptions.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/merging.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/evaluation.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/geo_info.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/geojson_processing/filtering.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/src/utils.py
+/home/bew/archive/typed_project/(dhlab-epfl)cadasters/src/process.py

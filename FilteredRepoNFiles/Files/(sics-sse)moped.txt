@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(sics-sse)moped/server/misc/testmoped.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/OptiposRPiClient.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_tc.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_mqtt.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/eight.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_util.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/godircalc.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_log.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_imu.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control-old/nav_signal.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/traffic-control/tcontrol.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/traffic-control/tcontrol_car.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control/nav_comm.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control/driving.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control/nav2.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/car-control/nav_map.py
+/home/bew/archive/typed_project/(sics-sse)moped/position/Optipos/OptiposCloudServer.py

@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(RookieGameDevs)revived/revived/action.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/revived/reducer.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/revived/store.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/tests/test_store.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/tests/test_reducer.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/tests/test_action.py
+/home/bew/archive/typed_project/(RookieGameDevs)revived/tests/test_integration.py

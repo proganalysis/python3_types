@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/__init__.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/userquery.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/credentials.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/configuration.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/cli.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/argparse.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_userCredentials.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_oneLoginAWSArgumentParser.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_configurationFile.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_oneloginAWS.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/helper.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_userquery.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_MFACredentials.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_oneloginAWS_saml.py
+/home/bew/archive/typed_project/(physera)onelogin-aws-cli/onelogin_aws_cli/tests/test_section.py

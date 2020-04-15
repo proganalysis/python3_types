@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/utils.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/__main__.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/events.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/loggingwrapper.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/run.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/persister.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/exceptions.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/config/local.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/gradebook/eventhandlers.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/tests/test_models.py
+/home/bew/archive/typed_project/(jhartz)gradefast/gradefast/tests/test_parsers.py
+/home/bew/archive/typed_project/(jhartz)gradefast/utilities/dump-save-file.py

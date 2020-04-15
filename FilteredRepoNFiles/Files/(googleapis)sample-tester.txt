@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/convention/__init__.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/convention/cloud/__init__.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/gen_manifest/gen_manifest.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/environment_registry.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/runner.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/summary.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/testplan.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/xunit.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/cli.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/testenv.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/convention/tag.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/sampletester/convention/cloud/cloud.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/tests/caserunner_test.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/tests/gen_manifest/gen_manifest_test.py
+/home/bew/archive/typed_project/(googleapis)sample-tester/tests/convention/tag_test.py

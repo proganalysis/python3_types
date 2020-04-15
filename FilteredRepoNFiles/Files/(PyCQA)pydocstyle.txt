@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/docs/conf.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/pydocstyle/utils.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/pydocstyle/__main__.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/pydocstyle/cli.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/pydocstyle/violations.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/pydocstyle/wordlists.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_utils.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_decorators.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_definitions.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_cases/test.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_cases/expected.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_cases/sections.py
+/home/bew/archive/typed_project/(PyCQA)pydocstyle/src/tests/test_cases/noqa.py

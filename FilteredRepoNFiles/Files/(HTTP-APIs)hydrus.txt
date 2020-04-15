@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/cli.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/utils.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/auth.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/helpers.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/app_factory.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/tests/test_crud.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/tests/test_auth.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/data/db_models.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/data/doc_parse.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/data/user.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/data/exceptions.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/hydrus/data/migrations/env.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/examples/drones/doc_gen.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/tests/test_cli.py
+/home/bew/archive/typed_project/(HTTP-APIs)hydrus/tests/test_pep8.py

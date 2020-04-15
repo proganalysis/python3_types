@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/lru_cache.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/lazy_fasta.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/smartfile.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/vgraph.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/bed.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/match.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/dbmatch.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/linearmatch.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/repmatch.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/vgraph/graph.py
+/home/bew/archive/typed_project/(bioinformed)vgraph/tests/test_norm.py

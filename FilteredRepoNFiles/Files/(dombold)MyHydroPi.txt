@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Sensors/rpi_i2c_orp_sensor.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Sensors/rpi_i2c_ph_sensor.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Sensors/rpi_i2c_ec_sensor.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Sensors/read_temperature.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Sensors/rpi_i2c_temp_sensor.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Power/Relay_Auto_Timer.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Website_Code/Power/Hydropi_Relays_Only.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Hydropi_Website/python/restart.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Hydropi_Website/python/shutdown.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Python_Code/power_manager.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Python_Code/sensor_manager.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Python_Code/database_manager.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Python_Code/Hydropi_Main.py
+/home/bew/archive/typed_project/(dombold)MyHydroPi/Pool_Monitor/Python_Code/email_manager.py

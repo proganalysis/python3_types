@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(Beomi)irkshop/fabfile.py
+/home/bew/archive/typed_project/(Beomi)irkshop/ptvs_virtualenv_proxy.py
+/home/bew/archive/typed_project/(Beomi)irkshop/goods/admin.py
+/home/bew/archive/typed_project/(Beomi)irkshop/goods/models.py
+/home/bew/archive/typed_project/(Beomi)irkshop/goods/views.py
+/home/bew/archive/typed_project/(Beomi)irkshop/goods/templatetags/in_category.py
+/home/bew/archive/typed_project/(Beomi)irkshop/irkshop/settings.py
+/home/bew/archive/typed_project/(Beomi)irkshop/irkshop/celery.py
+/home/bew/archive/typed_project/(Beomi)irkshop/core/send_mail.py
+/home/bew/archive/typed_project/(Beomi)irkshop/core/bank.py
+/home/bew/archive/typed_project/(Beomi)irkshop/core/export_csv.py

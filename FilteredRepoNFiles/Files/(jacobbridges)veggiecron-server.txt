@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/server.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/utils/dates.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/utils/config_parser.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/scheduler/parser.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/scheduler/job_scheduler.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/scheduler/job.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/routes/_base.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/scheduler/job_runners/http.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/routes/register.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/routes/login.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/routes/index.py
+/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/database/connection.py

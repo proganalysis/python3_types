@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/funcs_db.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/catalog1.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/server/fcatalog_logic.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/server/fcatalog_proto.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/proto/msg_endpoint.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/proto/serializer.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/proto/frame_endpoint.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/test_funcs_db.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/psign.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/conftest.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/test_catalog1.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/asyncio_util.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/server/test_fcatalog_logic.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/server/test_fcatalog_proto.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/proto/test_frame_endpoint.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/proto/test_serializer.py
+/home/bew/archive/typed_project/(xorpd)fcatalog_server/fcatalog/fcatalog/tests/proto/test_msg_from_frame.py

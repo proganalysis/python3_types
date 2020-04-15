@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(lyst)lightfm/setup.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/cross_validation.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/data.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/evaluation.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/datasets/movielens.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/datasets/_common.py
+/home/bew/archive/typed_project/(lyst)lightfm/lightfm/datasets/stackexchange.py
+/home/bew/archive/typed_project/(lyst)lightfm/examples/dataset/download.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_data.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_evaluation.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_fast_functions.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_api.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_datasets.py
+/home/bew/archive/typed_project/(lyst)lightfm/tests/test_cross_validation.py

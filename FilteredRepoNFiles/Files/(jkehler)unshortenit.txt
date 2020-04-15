@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/module.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/cli.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/unshortenit.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/adfocus.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/adfly.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/shortest.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/linkbucks.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/redirect.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/unshortenit/modules/meta_refresh.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/tests/modules/test_adfly.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/tests/modules/test_adfocus.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/tests/modules/test_meta_refresh.py
+/home/bew/archive/typed_project/(jkehler)unshortenit/tests/modules/test_shortest.py

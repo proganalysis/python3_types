@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/DSL.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/TemplateManager.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/Expression.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/Context.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/TreeBuilder.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Kernel/Contract.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/elliptic/Preprocess/run_preprocessor.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/examples/DSL_Example/src/DSLImpl.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/integration/test_treebuilder.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/integration/conftest.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/unit/test_dsl.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/unit/test_context.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/unit/test_contract.py
+/home/bew/archive/typed_project/(padmec-reservoir)ELLIPTIc/tests/unit/test_expression.py

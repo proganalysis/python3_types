@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dispatcher.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/pgn.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/utilities.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/timecontrol.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/uci/engine.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/uci/read.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/uci/informer.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dgt/cn.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dgt/api.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dgt/iface.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dgt/hw.py
+/home/bew/archive/typed_project/(LocutusOfPenguin)picochess/dgt/pi.py

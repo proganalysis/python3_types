@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(kdechant)eamon/news/models.py
+/home/bew/archive/typed_project/(kdechant)eamon/news/tests.py
+/home/bew/archive/typed_project/(kdechant)eamon/news/views.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/admin.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/serializers.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/management/commands/import_classic.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/management/commands/import_json.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/management/commands/import_hints.py
+/home/bew/archive/typed_project/(kdechant)eamon/adventure/management/commands/import_classic7.py

@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/setup.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/encoder/test_pq_encoder.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/encoder/test_itq_encoder.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/encoder/test_encoder_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/clustering/test_bkmeans.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/clustering/test_pqkmeans.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/clustering/test_cpp_implemented_clustering_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/test/clustering/test_pure_python_clustering_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/evaluation.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pqkmeans.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py
+/home/bew/archive/typed_project/(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/bkmeans.py

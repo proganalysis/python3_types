@@ -1,0 +1,1563 @@
+[RRepo](Den1al)JSShell
+(Den1al)JSShell/shell/utils/screen.py:22:1: error: Missing return statement  [return]
+
+[RRepo](lnmds)jorge
+(lnmds)jorge/ext/stats.py:38:15: error: Need type annotation for 'cnt'  [var-annotated]
+(lnmds)jorge/ext/exec.py:124:33: error: Name 'haste' is not defined  [name-defined]
+(lnmds)jorge/ext/memes.py:267:20: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(lnmds)jorge/ext/memes.py:271:17: error: Unsupported target for indexed assignment  [index]
+(lnmds)jorge/ext/math.py:136:22: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+Found 5 errors in 4 files (checked 20 source files)
+
+[RRepo](frictionlessdata)datapackage-pipelines
+(frictionlessdata)datapackage-pipelines/datapackage_pipelines/utilities/tabulator_txt_parser.py:11:5: error: Need type annotation for 'options' (hint: "options: List[<type>] = ...")  [var-annotated]
+
+[RRepo](adolfosilva)libgen.py
+Success: no issues found in 8 source files
+
+[RRepo](SectorLabs)django-postgres-extra
+(SectorLabs)django-postgres-extra/psqlextra/backend/hstore_required.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(SectorLabs)django-postgres-extra/psqlextra/backend/hstore_unique.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(SectorLabs)django-postgres-extra/psqlextra/query.py:14:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+(SectorLabs)django-postgres-extra/psqlextra/query.py:51:33: error: Cannot determine type of '_annotations'  [has-type]
+(SectorLabs)django-postgres-extra/psqlextra/query.py:103:5: error: Missing return statement  [return]
+(SectorLabs)django-postgres-extra/tests/test_hstore_field.py:3:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_query_values.py:5:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_signals.py:5:1: error: Module 'psqlextra' has no attribute 'signals'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_upsert.py:3:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_hstore_autodetect.py:5:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_conditional_unique_index.py:6:1: error: Module 'psqlextra.indexes' has no attribute 'ConditionalUniqueIndex'  [attr-defined]
+(SectorLabs)django-postgres-extra/tests/test_query.py:5:1: error: Module 'psqlextra.fields' has no attribute 'HStoreField'  [attr-defined]
+
+[RRepo](aluminiumgeek)cc-telegram
+(aluminiumgeek)cc-telegram/modules/utils/http.py:13:56: error: Name 'self' is not defined  [name-defined]
+(aluminiumgeek)cc-telegram/modules/utils/http.py:41:14: error: Incompatible types in assignment (expression has type "None", variable has type "ClientSession")  [assignment]
+
+[RRepo](prihoda)golem
+(prihoda)golem/golem/core/interfaces/test.py:6:5: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/interfaces/test.py:7:5: error: Need type annotation for 'states' (hint: "states: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/interfaces/google.py:11:5: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/interfaces/google.py:12:5: error: Need type annotation for 'states' (hint: "states: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/interfaces/google.py:14:5: error: Need type annotation for 'response_cache' (hint: "response_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/entity_query.py:97:20: error: "str" has no attribute "counter"; maybe "count" or "center"?  [attr-defined]
+(prihoda)golem/golem/core/entity_query.py:97:50: error: "str" has no attribute "value"  [attr-defined]
+(prihoda)golem/golem/core/entity_query.py:111:20: error: "str" has no attribute "counter"; maybe "count" or "center"?  [attr-defined]
+(prihoda)golem/golem/core/entity_query.py:111:50: error: "str" has no attribute "value"  [attr-defined]
+(prihoda)golem/golem/core/entity_query.py:194:22: error: Incompatible types in assignment (expression has type "Union[EntityQuery, Any, None]", variable has type "EntityQuery")  [assignment]
+(prihoda)golem/golem/core/tests.py:295:5: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/flow.py:88:34: error: Unsupported left operand type for + ("None")  [operator]
+(prihoda)golem/golem/core/flow.py:88:44: note: Left operand is of type "Optional[str]"
+(prihoda)golem/golem/core/flow.py:135:9: error: Need type annotation for 'reqs' (hint: "reqs: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/flow.py:153:29: error: Argument 1 to "append" of "list" has incompatible type "EntityRequirement"; expected "ConditionRequirement"  [arg-type]
+(prihoda)golem/golem/core/flow.py:200:9: error: Need type annotation for 'accepted' (hint: "accepted: Set[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/flow.py:206:9: error: Need type annotation for 'states' (hint: "states: Dict[<type>, <type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/flow.py:206:23: error: Argument 1 to "dict" has incompatible type "Generator[Tuple[Any, ...], None, None]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(prihoda)golem/golem/core/flow.py:228:47: error: Invalid type comment or annotation  [valid-type]
+(prihoda)golem/golem/core/context.py:120:9: error: Need type annotation for 'values' (hint: "values: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/core/context.py:148:68: error: Invalid type comment or annotation  [valid-type]
+(prihoda)golem/golem/webgui/interface.py:15:5: error: Need type annotation for 'messages' (hint: "messages: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/webgui/interface.py:16:5: error: Need type annotation for 'states' (hint: "states: List[<type>] = ...")  [var-annotated]
+(prihoda)golem/golem/tasks.py:22:64: error: "Dict[Any, Any]" has no attribute "chat_id"  [attr-defined]
+(prihoda)golem/golem/tasks.py:25:14: error: "Dict[Any, Any]" has no attribute "interface"  [attr-defined]
+(prihoda)golem/golem/tasks.py:75:51: error: "Dict[Any, Any]" has no attribute "chat_id"  [attr-defined]
+(prihoda)golem/golem/tasks.py:77:45: error: "Dict[Any, Any]" has no attribute "chat_id"  [attr-defined]
+(prihoda)golem/golem/tasks.py:77:62: error: "Dict[Any, Any]" has no attribute "interface"  [attr-defined]
+(prihoda)golem/golem/tasks.py:140:23: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "str")  [assignment]
+(prihoda)golem/golem/core/interfaces/facebook.py:107:33: error: Name 'SenderActionMessage' is not defined  [name-defined]
+(prihoda)golem/golem/core/interfaces/facebook.py:113:35: error: Name 'MessageElement' is not defined  [name-defined]
+(prihoda)golem/golem/core/interfaces/facebook.py:257:49: error: Name 'SenderActionMessage' is not defined  [name-defined]
+(prihoda)golem/golem/core/interfaces/telegram.py:136:5: error: Missing return statement  [return]
+Found 32 errors in 10 files (checked 46 source files)
+
+[RRepo](status-im)status-react
+(status-im)status-react/test/appium/support/utilities.py:34:5: error: Need type annotation for 'res' (hint: "res: List[<type>] = ...")  [var-annotated]
+(status-im)status-react/test/appium/views/transactions_view.py:90:5: error: Missing return statement  [return]
+
+[RRepo](xjdr)xio
+(xjdr)xio/configuration-client/configurator/main.py:47:28: error: Missing parentheses in call to 'print'. Did you mean print('dry_run: add_ip', args.ip_address, args.rule_type)?  [syntax]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](srusskih)SublimeJEDI
+(srusskih)SublimeJEDI/dependencies/jedi/debug.py:50:5: error: Name 'Fore' already defined (possibly by an import)  [no-redef]
+(srusskih)SublimeJEDI/sublime_jedi/helper.py:16:65: error: "ImportError" has no attribute "message"  [attr-defined]
+
+[RRepo](jahan-addison)gridpaste
+(jahan-addison)gridpaste/homepage/tests/test_backend.py:5:34: error: EOL while scanning string literal  [syntax]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](tioover)ika
+(tioover)ika/ika/utils.py:13:1: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1:1: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1:1: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/evaluator/__init__.py:1:1: error: Module 'ika.struct' has no attribute 'Function'  [attr-defined]
+(tioover)ika/ika/evaluator/instruction.py:2:1: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/evaluator/instruction.py:2:1: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'String'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'Identifier'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'Number'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'Float'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'Pair'  [attr-defined]
+(tioover)ika/ika/parser.py:3:1: error: Module 'ika.struct' has no attribute 'IkaType'  [attr-defined]
+(tioover)ika/ika/parser.py:37:1: error: "Type[Empty]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:42:1: error: "Type[Quote]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:43:1: error: "Type[Vector]" has no attribute "grammar"  [attr-defined]
+(tioover)ika/ika/parser.py:48:1: error: "Type[List]" has no attribute "grammar"  [attr-defined]
+
+[RRepo](SpoopySaitama)snake
+(SpoopySaitama)snake/cogs/utils/sql.py:12:11: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:12:11: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:25:18: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:25:18: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:39:12: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:39:12: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:53:17: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:53:17: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:67:17: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:67:17: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:81:19: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:81:19: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:90:15: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:90:15: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:106:15: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:106:15: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/sql.py:115:14: error: Variable "utils.sql.Base" is not valid as a type  [valid-type]
+(SpoopySaitama)snake/cogs/utils/sql.py:115:14: error: Invalid base class "Base"  [misc]
+(SpoopySaitama)snake/cogs/utils/music/api.py:194:9: error: Need type annotation for 'tracks' (hint: "tracks: List[<type>] = ...")  [var-annotated]
+(SpoopySaitama)snake/cogs/utils/music/api.py:198:13: error: Too few arguments for "run_coroutine_threadsafe"  [call-arg]
+Found 20 errors in 2 files (checked 15 source files)
+
+[RRepo](ZhukovAlexander)rafter
+(ZhukovAlexander)rafter/tests/test_serverstate.py:12:13: error: Need type annotation for 'peers'  [var-annotated]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](alehander42)pseudo-python
+(alehander42)pseudo-python/examples/lisp.py:9:20: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](Trim21)BGmi
+(Trim21)BGmi/bgmi/website/base.py:4:1: error: Module 'bgmi.lib.models' has no attribute 'DataSourceItem'  [attr-defined]
+(Trim21)BGmi/bgmi/website/base.py:4:1: error: Module 'bgmi.lib.models' has no attribute 'Subtitle'  [attr-defined]
+(Trim21)BGmi/bgmi/website/base.py:5:1: error: Module 'bgmi.utils' has no attribute 'parse_episode'  [attr-defined]
+
+[RRepo](NZSmartie)PyHIDParser
+(NZSmartie)PyHIDParser/hidparser/UsagePage.py:108: error: Function "builtins.object.__class__" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/UsagePage.py:108: note: Perhaps you need "Callable[...]" or a callback protocol?
+(NZSmartie)PyHIDParser/hidparser/Physical.py:95:9: error: Need type annotation for 'descriptors' (hint: "descriptors: List[<type>] = ...")  [var-annotated]
+(NZSmartie)PyHIDParser/hidparser/DeviceBuilder.py:126: error: Function "builtins.object.__class__" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/DeviceBuilder.py:126: note: Perhaps you need "Callable[...]" or a callback protocol?
+(NZSmartie)PyHIDParser/hidparser/Item.py:44:21: error: Incompatible types in assignment (expression has type "Optional[array[Any]]", variable has type "array[Any]")  [assignment]
+(NZSmartie)PyHIDParser/hidparser/Item.py:77:74: error: Incompatible default for argument "data" (default has type "List[<nothing>]", argument has type "array[Any]")  [assignment]
+(NZSmartie)PyHIDParser/hidparser/Item.py:79:13: error: Need type annotation for '_item_map' (hint: "_item_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:19:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:20:9: error: DeviceBuilder? has no attribute "set_usage_page"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:35:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:36:9: error: DeviceBuilder? has no attribute "set_logical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:48:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:49:9: error: DeviceBuilder? has no attribute "set_logical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:61:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:62:9: error: DeviceBuilder? has no attribute "set_physical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:74:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:75:9: error: DeviceBuilder? has no attribute "set_physical_range"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:87:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:88:9: error: DeviceBuilder? has no attribute "unit_exponent"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:100:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:101:9: error: DeviceBuilder? has no attribute "unit"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:117:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:118:9: error: DeviceBuilder? has no attribute "report_size"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:134:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:135:9: error: DeviceBuilder? has no attribute "set_report_id"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:151:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:152:9: error: DeviceBuilder? has no attribute "report_count"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:164:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:165:9: error: DeviceBuilder? has no attribute "push"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:177:33: error: Module "hidparser.DeviceBuilder" is not valid as a type  [valid-type]
+(NZSmartie)PyHIDParser/hidparser/ItemGlobal.py:178:9: error: DeviceBuilder? has no attribute "pop"  [attr-defined]
+(NZSmartie)PyHIDParser/hidparser/__init__.py:3:1: error: Incompatible import of "DeviceBuilder" (imported name has type Module, local name has type "Type[DeviceBuilder]")  [misc]
+Found 31 errors in 6 files (checked 18 source files)
+
+[RRepo](frostidaho)qtile
+(frostidaho)qtile/libqtile/widget/groupbox.py:35:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](evernym)ledger
+(evernym)ledger/ledger/serializers/compact_serializer.py:54:23: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+
+[RRepo](allrod5)extra-trees
+(allrod5)extra-trees/extra_trees/tree/tree.py:23:25: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(allrod5)extra-trees/extra_trees/tree/tree.py:92:13: error: "Callable[[Any], bool]" has no attribute "type"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:93:13: error: "Callable[[Any], bool]" has no attribute "attribute"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:94:13: error: "Callable[[Any], bool]" has no attribute "criteria"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:102:13: error: "Callable[[Any], bool]" has no attribute "type"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:103:13: error: "Callable[[Any], bool]" has no attribute "attribute"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:104:13: error: "Callable[[Any], bool]" has no attribute "criteria"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:116:12: error: "Callable[[object], bool]" has no attribute "type"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:117:33: error: "Callable[[object], bool]" has no attribute "attribute"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:117:52: error: "Callable[[object], bool]" has no attribute "criteria"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:121:36: error: "Callable[[object], bool]" has no attribute "criteria"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:122:35: error: "Callable[[object], bool]" has no attribute "attribute"  [attr-defined]
+(allrod5)extra-trees/extra_trees/tree/tree.py:266:31: error: Item "float" of "Union[float, Any]" has no attribute "argmax"  [union-attr]
+(allrod5)extra-trees/extra_trees/tree/tree.py:284:22: error: Incompatible types in assignment (expression has type "None", variable has type "ExtraTree")  [assignment]
+(allrod5)extra-trees/extra_trees/tree/tree.py:285:27: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(allrod5)extra-trees/extra_trees/tree/tree.py:286:25: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(allrod5)extra-trees/extra_trees/tree/tree.py:287:27: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+(allrod5)extra-trees/extra_trees/tree/tree.py:288:28: error: Incompatible types in assignment (expression has type "None", variable has type "int")  [assignment]
+Found 18 errors in 1 file (checked 5 source files)
+
+[RRepo](mefyl)drake
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:35: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:37:24: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:38:21: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:40:18: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:41:15: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:42:17: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:43:21: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/examples/gnu_builder/drake-utils/gnu_builder.py:55:5: error: Need type annotation for '__env' (hint: "__env: Dict[<type>, <type>] = ...")  [var-annotated]
+(mefyl)drake/src/drake/gnu.py:30: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:32:26: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:33:23: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:35:20: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:36:17: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:37:19: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:38:23: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:41:25: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:42:21: error: Invalid type comment or annotation  [valid-type]
+(mefyl)drake/src/drake/gnu.py:56:5: error: Need type annotation for '__env' (hint: "__env: Dict[<type>, <type>] = ...")  [var-annotated]
+(mefyl)drake/src/drake/log.py:15:1: error: Unexpected keyword argument "values" for "__init_subclass__" of "object"  [call-arg]
+(mefyl)drake/src/drake/log.py:15:1: error: Unexpected keyword argument "orderable" for "__init_subclass__" of "object"  [call-arg]
+(mefyl)drake/src/drake/cmake.py:69:4: error: Decorated property not supported  [misc]
+(mefyl)drake/.githooks/githooks.py:8:1: error: Module 'log' has no attribute 'log'  [attr-defined]
+Found 22 errors in 5 files (checked 30 source files)
+
+[RRepo](technomaniac)trellio
+(technomaniac)trellio/trellio/utils/helpers.py:5:5: error: Need type annotation for '__shared_state' (hint: "__shared_state: Dict[<type>, <type>] = ...")  [var-annotated]
+(technomaniac)trellio/trellio/signals.py:6:5: error: Need type annotation for '_registry_list' (hint: "_registry_list: List[<type>] = ...")  [var-annotated]
+(technomaniac)trellio/trellio/signals.py:24:5: error: Need type annotation for '_registry_list' (hint: "_registry_list: List[<type>] = ...")  [var-annotated]
+(technomaniac)trellio/trellio/management/commands/base.py:9:5: error: Need type annotation for '_management_reg' (hint: "_management_reg: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](ajyoon)brown
+(ajyoon)brown/brown/managed/instruments.py:45:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:46:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:47:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:53:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:54:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:55:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:61:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:62:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:63:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:69:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:70:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:71:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:89:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:90:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:91:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:97:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:98:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:99:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:110:12: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:111:18: error: Incompatible types in assignment (expression has type "str", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/managed/instruments.py:112:14: error: Incompatible types in assignment (expression has type "List[Tuple[Any, None]]", base class "Instrument" defined the type as "None")  [assignment]
+(ajyoon)brown/brown/utils/units.py:225:23: error: Incompatible types in assignment (expression has type "float", base class "Unit" defined the type as "int")  [assignment]
+(ajyoon)brown/brown/utils/units.py:230:23: error: Cannot determine type of 'CONVERSION_RATE'  [has-type]
+(ajyoon)brown/brown/core/brown.py:5:1: error: Module 'brown' has no attribute 'constants'  [attr-defined]
+(ajyoon)brown/brown/core/brown.py:27:1: error: Need type annotation for 'registered_text_fonts' (hint: "registered_text_fonts: Dict[<type>, <type>] = ...")  [var-annotated]
+(ajyoon)brown/doc/utils.py:159:18: error: Cannot find replacement for positional format specifier 3  [str-format]
+(ajyoon)brown/tests/test_core/test_staff_object.py:28:6: error: Argument 1 to "skip" has incompatible type "Callable[[TestStaffObject], Any]"; expected "str"  [arg-type]
+Found 27 errors in 5 files (checked 148 source files)
+
+[RRepo](3liz)QgisCadastrePlugin
+
+[RRepo](systemd)systemd-stable
+(systemd)systemd-stable/hwdb/parse_hwdb.py:51:17: error: Cannot infer type of lambda  [misc]
+(systemd)systemd-stable/hwdb/parse_hwdb.py:51:17: error: Incompatible types in assignment (expression has type "Callable[[], Callable[[Any], Any]]", variable has type "Callable[[Optional[int], bool], Callable[[Callable[..., _T]], _lru_cache_wrapper[_T]]]")  [assignment]
+(systemd)systemd-stable/tools/catalog-report.py:35:1: error: Need type annotation for 'logged' (hint: "logged: Set[<type>] = ...")  [var-annotated]
+Found 3 errors in 2 files (checked 15 source files)
+
+[RRepo](lipschultz)gnumeric-py
+(lipschultz)gnumeric-py/gnumeric/utils.py:66:15: error: Incompatible types in assignment (expression has type "str", variable has type "bool")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/utils.py:67:12: error: Incompatible return value type (got "int", expected "str")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/utils.py:67:22: error: Unsupported operand types for + ("bool" and "str")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:76:11: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/utils.py:77:14: error: Unsupported operand types for < ("str" and "int")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:80:12: error: Unsupported operand types for - ("str" and "int")  [operator]
+(lipschultz)gnumeric-py/gnumeric/utils.py:94:22: error: 'builtins.int' object is not iterable  [misc]
+(lipschultz)gnumeric-py/gnumeric/utils.py:96:73: error: Argument 1 to "row_to_spreadsheet" has incompatible type "Union[int, Tuple[int, int]]"; expected "int"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/expression_evaluation.py:215:16: error: Incompatible return value type (got "Tuple[Any, ...]", expected "CellReference")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/expression.py:90:5: error: Missing return statement  [return]
+(lipschultz)gnumeric-py/gnumeric/cell.py:40:5: error: Need type annotation for '_instances' (hint: "_instances: Dict[<type>, <type>] = ...")  [var-annotated]
+(lipschultz)gnumeric-py/gnumeric/cell.py:117:55: error: Item "None" of "Optional[str]" has no attribute "startswith"  [union-attr]
+(lipschultz)gnumeric-py/gnumeric/cell.py:124:16: error: Incompatible return value type (got "Union[bool, Match[str], None]", expected "bool")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/cell.py:141:20: error: Item "None" of "Optional[str]" has no attribute "lower"  [union-attr]
+(lipschultz)gnumeric-py/gnumeric/cell.py:143:24: error: Argument 1 to "int" has incompatible type "Optional[str]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:145:26: error: Argument 1 to "float" has incompatible type "Optional[str]"; expected "Union[SupportsFloat, _SupportsIndex, str, bytes, bytearray]"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:151:20: error: Cannot determine type of '__cached_value'  [has-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:156:20: error: Incompatible return value type (got "Optional[str]", expected "Union[bool, int, float, Expression, str]")  [return-value]
+(lipschultz)gnumeric-py/gnumeric/cell.py:181:30: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:183:30: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:185:30: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:188:30: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:190:30: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:192:26: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(lipschultz)gnumeric-py/gnumeric/cell.py:218:25: error: Argument 1 to "__set_type" of "Cell" has incompatible type "str"; expected "int"  [arg-type]
+(lipschultz)gnumeric-py/gnumeric/cell.py:219:31: error: Incompatible types in assignment (expression has type "Union[bool, int, float, Expression, str]", variable has type "int")  [assignment]
+Found 26 errors in 4 files (checked 12 source files)
+
+[RRepo](msiemens)RusTiny
+(msiemens)RusTiny/script/build.py:112:13: error: Module has no attribute "arv"; maybe "argv"?  [attr-defined]
+(msiemens)RusTiny/script/test.py:66:25: error: Argument 1 to "int" has incompatible type "Optional[Any]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+(msiemens)RusTiny/script/test.py:67:24: error: Argument 1 to "int" has incompatible type "Optional[Any]"; expected "Union[str, bytes, SupportsInt, _SupportsIndex]"  [arg-type]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](hell03end)hse_ruz
+(hell03end)hse_ruz/ruz/api.py:12:28: error: Function "builtins.map" is not valid as a type  [valid-type]
+(hell03end)hse_ruz/ruz/api.py:12:28: note: Perhaps you need "Callable[...]" or a callback protocol?
+(hell03end)hse_ruz/ruz/api.py:26:32: error: Invalid type comment or annotation  [valid-type]
+(hell03end)hse_ruz/ruz/api.py:27:37: error: Argument 1 to "person_lessons" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "Optional[str]"  [arg-type]
+(hell03end)hse_ruz/ruz/api.py:27:37: error: Argument 1 to "person_lessons" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "str"  [arg-type]
+(hell03end)hse_ruz/ruz/api.py:27:37: error: Argument 1 to "person_lessons" has incompatible type "**Dict[str, Dict[Any, Any]]"; expected "Optional[int]"  [arg-type]
+(hell03end)hse_ruz/ruz/api.py:209:26: error: Invalid type comment or annotation  [valid-type]
+(hell03end)hse_ruz/ruz/api.py:242:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:243:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:244:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:245:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:246:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:247:9: error: "_lru_cache_wrapper[List[Any]]" has no attribute "__name__"  [attr-defined]
+(hell03end)hse_ruz/ruz/api.py:256:32: error: Argument 2 to "isinstance" has incompatible type "_SpecialForm"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(hell03end)hse_ruz/ruz/utils.py:40:17: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Tuple[Any, ...]")  [assignment]
+(hell03end)hse_ruz/ruz/utils.py:46:31: error: Invalid type comment or annotation  [valid-type]
+(hell03end)hse_ruz/ruz/utils.py:77:33: error: Invalid type comment or annotation  [valid-type]
+(hell03end)hse_ruz/ruz/utils.py:95:43: error: Invalid type comment or annotation  [valid-type]
+(hell03end)hse_ruz/ruz/utils.py:185:23: error: Syntax error in type annotation  [syntax]
+(hell03end)hse_ruz/ruz/utils.py:185:23: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 18 errors in 2 files (checked 4 source files)
+
+[RRepo](tensorflow)models
+(tensorflow)models/research/syntaxnet/syntaxnet/conll2tree.py:92:26: error: Missing parentheses in call to 'print'. Did you mean print('Input: %s' % sentence.text)?  [syntax]
+Found 1 error in 1 file (checked 984 source files)
+
+[RRepo](greenmoss)PyWavefront
+(greenmoss)PyWavefront/pywavefront/cache.py:127:31: error: Not all arguments converted during string formatting  [str-format]
+(greenmoss)PyWavefront/pywavefront/visualization.py:43:12: error: Name 'GL_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:44:16: error: Name 'GL_C3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:45:16: error: Name 'GL_N3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:46:16: error: Name 'GL_T2F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:48:20: error: Name 'GL_T2F_C3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:49:20: error: Name 'GL_T2F_N3F_V3F' is not defined  [name-defined]
+(greenmoss)PyWavefront/pywavefront/visualization.py:75:34: error: Name 'GL_FRONT_AND_BACK' is not defined  [name-defined]
+(greenmoss)PyWavefront/examples/boxes.py:25:10: error: Name 'pyglet' is not defined  [name-defined]
+(greenmoss)PyWavefront/examples/boxes.py:81:1: error: Name 'pyglet' is not defined  [name-defined]
+(greenmoss)PyWavefront/examples/boxes.py:82:1: error: Name 'pyglet' is not defined  [name-defined]
+Found 11 errors in 3 files (checked 18 source files)
+
+[RRepo](BotDevGroup)marvin
+(BotDevGroup)marvin/marvinbot/plugins.py:158:16: error: Incompatible return value type (got "None", expected "Blueprint")  [return-value]
+
+[RRepo](letsmeet-click)letsmeet.click
+(letsmeet-click)letsmeet.click/letsmeet/communities/admin.py:24:5: error: "Callable[[CommunityAdmin, Any], Any]" has no attribute "admin_order_field"  [attr-defined]
+(letsmeet-click)letsmeet.click/letsmeet/communities/admin.py:25:5: error: "Callable[[CommunityAdmin, Any], Any]" has no attribute "short_description"  [attr-defined]
+Found 2 errors in 1 file (checked 16 source files)
+
+[RRepo](eweast)BencodePy
+(eweast)BencodePy/build/lib/bencodepy/decoder.py:56:16: error: Incompatible return value type (got "object", expected "Iterable[Any]")  [return-value]
+(eweast)BencodePy/build/lib/bencodepy/decoder.py:69:9: error: Need type annotation for 'd'  [var-annotated]
+Found 2 errors in 1 file (checked 6 source files)
+
+[RRepo](nathanielksmith)prosaic
+(nathanielksmith)prosaic/prosaic/models.py:66:14: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:66:14: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/models.py:77:14: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:77:14: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/models.py:102:14: error: Variable "prosaic.models.Base" is not valid as a type  [valid-type]
+(nathanielksmith)prosaic/prosaic/models.py:102:14: error: Invalid base class "Base"  [misc]
+(nathanielksmith)prosaic/prosaic/parsing.py:92:16: error: "IOBase" has no attribute "peek"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:95:18: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:106:5: error: Need type annotation for 'futures' (hint: "futures: List[<type>] = ...")  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:110:18: error: Need type annotation for 'line_queue'  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:111:19: error: Need type annotation for 'error_queue'  [var-annotated]
+(nathanielksmith)prosaic/prosaic/parsing.py:116:13: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/parsing.py:147:17: error: "IOBase" has no attribute "read"  [attr-defined]
+(nathanielksmith)prosaic/prosaic/generation.py:29: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(nathanielksmith)prosaic/prosaic/generation.py:29: note: Did you mean "List[...]"?
+(nathanielksmith)prosaic/prosaic/generation.py:43:9: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(nathanielksmith)prosaic/prosaic/generation.py:46:22: error: Argument 1 to "dict" has incompatible type "Iterator[List[Any]]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(nathanielksmith)prosaic/prosaic/generation.py:46:26: error: Argument 1 to "map" has incompatible type "Callable[[Any], List[Any]]"; expected "Callable[[Any], Tuple[Any, Any]]"  [arg-type]
+(nathanielksmith)prosaic/prosaic/generation.py:46:36: error: Incompatible return value type (got "List[Any]", expected "Tuple[Any, Any]")  [return-value]
+(nathanielksmith)prosaic/prosaic/generation.py:69:17: error: Incompatible return value type (got "Tuple[str]", expected "str")  [return-value]
+(nathanielksmith)prosaic/prosaic/commands.py:68:12: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:69:20: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:71:9: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/prosaic/commands.py:72:16: error: Cannot determine type of '_db'  [has-type]
+(nathanielksmith)prosaic/test/cli_test.py:38:1: error: Unsupported target for indexed assignment  [index]
+(nathanielksmith)prosaic/test/cli_test.py:39:6: error: Argument after ** must be a mapping, not "Collection[str]"  [misc]
+Found 25 errors in 5 files (checked 12 source files)
+
+[RRepo](Vinc3r)BlenderScripts
+
+[RRepo](boggard)jira-telegram-bot
+Success: no issues found in 8 source files
+
+[RRepo](hardbyte)python-can
+(hardbyte)python-can/test/config.py:15:1: error: syntax error in type comment 'bool'  [syntax]
+(hardbyte)python-can/test/config.py:15:1: note: Suggestion: wrap argument types in parentheses
+Found 1 error in 1 file (checked 64 source files)
+
+[RRepo](Shopify)shopify_python
+(Shopify)shopify_python/tests/functional/global_variable.py:19:32: error: 'Literal[10]?' object is not iterable  [misc]
+(Shopify)shopify_python/tests/functional/global_variable.py:27:23: error: Name 'x' is not defined  [name-defined]
+(Shopify)shopify_python/tests/functional/global_variable.py:29:9: error: Name 'namedtuple' is not defined  [name-defined]
+(Shopify)shopify_python/tests/functional/global_variable.py:31:10: error: Name 'namedtuple' is not defined  [name-defined]
+(Shopify)shopify_python/tests/functional/sequence_of_string_2.py:11:1: error: Name 'string' is not defined  [name-defined]
+(Shopify)shopify_python/shopify_python/__init__.py:6:1: error: Module 'shopify_python' has no attribute 'google_styleguide'  [attr-defined]
+(Shopify)shopify_python/tests/test_functional.py:32:1: error: Module 'tests.shopify_python' has no attribute 'google_styleguide'  [attr-defined]
+(Shopify)shopify_python/tests/test_functional.py:33:1: error: Module 'tests.shopify_python' has no attribute 'shopify_styleguide'  [attr-defined]
+(Shopify)shopify_python/tests/test_functional.py:392: error: Cannot find replacement for positional format specifier 2  [str-format]
+Found 9 errors in 4 files (checked 18 source files)
+
+[RRepo](tuanavu)python-cookbook-3rd
+(tuanavu)python-cookbook-3rd/src/8/implementing_a_data_model_or_type_system/example_clsdec.py:130:5: error: Name 'Stock' already defined on line 115  [no-redef]
+(tuanavu)python-cookbook-3rd/src/8/implementing_a_data_model_or_type_system/example_clsdec.py:142:5: error: Name 'Stock' already defined on line 115  [no-redef]
+(tuanavu)python-cookbook-3rd/src/10/monkeypatching_modules_on_import/postimport.py:7:22: error: Need type annotation for '_post_import_hooks'  [var-annotated]
+(tuanavu)python-cookbook-3rd/src/10/monkeypatching_modules_on_import/postimport.py:40:25: error: Argument 2 to "insert" of "list" has incompatible type "PostImportFinder"; expected "MetaPathFinder"  [arg-type]
+(tuanavu)python-cookbook-3rd/src/12/implementing_publish_subscribe_messaging/exchange1.py:18:14: error: Need type annotation for '_exchanges'  [var-annotated]
+(tuanavu)python-cookbook-3rd/src/12/implementing_publish_subscribe_messaging/exchange2.py:30:14: error: Need type annotation for '_exchanges'  [var-annotated]
+(tuanavu)python-cookbook-3rd/src/15/accessing_c_code_using_ctypes/sample.py:63:18: error: Incompatible types in assignment (expression has type "Tuple[DoubleArrayType, Type[c_int]]", variable has type "Sequence[Type[_CData]]")  [assignment]
+(tuanavu)python-cookbook-3rd/src/11/event_driven_io_explained/tcpserver.py:59:4: error: Need type annotation for 'handlers' (hint: "handlers: List[<type>] = ...")  [var-annotated]
+(tuanavu)python-cookbook-3rd/src/10/loading_modules_from_a_remote_machine_using_import_hooks/urlimport.py:148:1: error: Need type annotation for '_installed_meta_cache' (hint: "_installed_meta_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(tuanavu)python-cookbook-3rd/src/10/loading_modules_from_a_remote_machine_using_import_hooks/urlimport.py:206:1: error: Need type annotation for '_url_path_cache' (hint: "_url_path_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 10 errors in 7 files (checked 72 source files)
+
+[RRepo](vforgione)logging2
+(vforgione)logging2/logging2/levels.py:38:5: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(vforgione)logging2/logging2/levels.py:38:5: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(vforgione)logging2/logging2/levels.py:38:5: note:     def __eq__(self, other: object) -> bool:
+(vforgione)logging2/logging2/levels.py:38:5: note:         if not isinstance(other, LogLevel):
+(vforgione)logging2/logging2/levels.py:38:5: note:             return NotImplemented
+(vforgione)logging2/logging2/levels.py:38:5: note:         return <logic to compare two LogLevel instances>
+(vforgione)logging2/logging2/handlers/sockets.py:29:26: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:30:26: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "str")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:32:28: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "int")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:33:26: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "int")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:38:46: error: Argument 1 to "create_connection" has incompatible type "Tuple[str, str]"; expected "Tuple[Optional[str], int]"  [arg-type]
+(vforgione)logging2/logging2/handlers/sockets.py:43:28: error: Incompatible types in assignment (expression has type "str", variable has type "Tuple[str, str]")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:82:21: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(vforgione)logging2/logging2/handlers/sockets.py:262:21: error: Unsupported operand types for * ("None" and "int")  [operator]
+(vforgione)logging2/logging2/handlers/sockets.py:262:37: note: Left operand is of type "Optional[int]"
+(vforgione)logging2/logging2/handlers/streaming.py:60:57: error: Argument "stream" to "__init__" of "StreamingHandler" has incompatible type "TextIO"; expected "TextIOWrapper"  [arg-type]
+(vforgione)logging2/logging2/handlers/streaming.py:78:57: error: Argument "stream" to "__init__" of "StreamingHandler" has incompatible type "TextIO"; expected "TextIOWrapper"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44:29: error: Argument "mode" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44:44: error: Argument "encoding" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:44:61: error: Argument "errors" to "open" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:45:23: error: Argument "buffering" to "open" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+(vforgione)logging2/logging2/handlers/files.py:47:30: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "str")  [assignment]
+
+[RRepo](aaronduino)asciidots
+(aaronduino)asciidots/dots/world.py:256:46: error: Name 'SingletonLibOuterWarpChar' is not defined  [name-defined]
+(aaronduino)asciidots/dots/world.py:257:49: error: Name 'SingletonLibInnerWarpChar' is not defined  [name-defined]
+(aaronduino)asciidots/dots/world.py:367:21: error: Name 'Char' is not defined  [name-defined]
+(aaronduino)asciidots/dots/world.py:367:21: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "str")  [assignment]
+Found 4 errors in 1 file (checked 12 source files)
+
+[RRepo](Infiziert90)Discord-Skype-Bot
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251:31: error: Item "Match[Any]" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251:31: error: Item "None" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:251:31: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:260:31: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267:31: error: Item "Match[Any]" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267:31: error: Item "None" of "Optional[Match[Any]]" has no attribute "name"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/discord_client.py:267:31: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[Match[Any]]")  [assignment]
+(Infiziert90)Discord-Skype-Bot/skype_client.py:197:59: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/skype_client.py:203:50: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+(Infiziert90)Discord-Skype-Bot/skype_client.py:209:50: error: Item "None" of "Optional[Match[Any]]" has no attribute "group"  [union-attr]
+Found 10 errors in 2 files (checked 5 source files)
+
+[RRepo](terrencepreilly)darglint
+(terrencepreilly)darglint/tests/sphinx_docstrings.py:7:5: error: Cannot assign multiple types to name "FunctionDef" without an explicit "Type[...]" annotation  [misc]
+(terrencepreilly)darglint/tests/sphinx_docstrings.py:7:20: error: Incompatible types in assignment (expression has type "Tuple[Type[FunctionDef], Type[AsyncFunctionDef]]", variable has type "Type[FunctionDef]")  [assignment]
+(terrencepreilly)darglint/darglint/docstring/google.py:17:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/docstring/google.py:21:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/docstring/google.py:24:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/docstring/google.py:27:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/docstring/google.py:28:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:17:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:20:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/function_description.py:23:5: error: Cannot assign multiple types to name "FunctionDef" without an explicit "Type[...]" annotation  [misc]
+(terrencepreilly)darglint/darglint/function_description.py:23:20: error: Incompatible types in assignment (expression has type "Tuple[Type[FunctionDef], Type[AsyncFunctionDef]]", variable has type "Type[FunctionDef]")  [assignment]
+(terrencepreilly)darglint/darglint/function_description.py:171:24: error: "expr" has no attribute "id"  [attr-defined]
+(terrencepreilly)darglint/darglint/function_description.py:207:20: error: "expr" has no attribute "id"  [attr-defined]
+(terrencepreilly)darglint/darglint/function_description.py:209:20: error: "expr" has no attribute "attr"  [attr-defined]
+(terrencepreilly)darglint/darglint/function_description.py:236:16: error: "expr" has no attribute "id"  [attr-defined]
+(terrencepreilly)darglint/darglint/docstring/base.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:72:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:76:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:77:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/setup.py:21:1: error: Need type annotation for 'requirements' (hint: "requirements: List[<type>] = ...")  [var-annotated]
+(terrencepreilly)darglint/setup.py:28:5: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(terrencepreilly)darglint/setup.py:53:5: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(terrencepreilly)darglint/darglint/docstring/base.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:17:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/common.py:20:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:72:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:76:1: error: Relative import climbs too many namespaces  [misc]
+(terrencepreilly)darglint/darglint/parse/sphinx.py:77:1: error: Relative import climbs too many namespaces  [misc]
+
+[RRepo](ischurov)qqmbr
+Success: no issues found in 6 source files
+
+[RRepo](ctxis)cvsslib
+(ctxis)cvsslib/cvsslib/base_enum.py:7:5: error: Name 'lru_cache' already defined (possibly by an import)  [no-redef]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:17:55: error: Name 'AttackVector' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:18:52: error: Name 'AttackComplexity' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:19:51: error: Name 'PrivilegeRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:20:53: error: Name 'UserInteraction' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:24:57: error: Name 'ModifiedAttackVector' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:25:61: error: Name 'ModifiedAttackComplexity' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:26:60: error: Name 'ModifiedPrivilegesRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:27:62: error: Name 'ModifiedUserInteraction' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:31:39: error: Name 'Scope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:32:45: error: Name 'ConfidentialityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:33:46: error: Name 'IntegrityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:34:46: error: Name 'AvailabilityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:37:17: error: Name 'Scope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:46:48: error: Name 'ModifiedScope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:47:56: error: Name 'ModifiedConfidentialityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:48:57: error: Name 'ModifiedIntegrityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:49:57: error: Name 'ModifiedAvailabilityImpact' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:50:51: error: Name 'ConfidentialityRequirement' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:51:52: error: Name 'IntegrityRequirement' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:52:52: error: Name 'AvailabilityRequirement' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:61:17: error: Name 'ModifiedScope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:67:50: error: Name 'Scope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:67:68: error: Name 'PrivilegeRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:75:21: error: Name 'Scope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:77:34: error: Name 'PrivilegeRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:78:53: error: Name 'PrivilegeRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:79:22: error: Name 'PrivilegeRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:85:21: error: Name 'Scope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:92:40: error: Name 'ExploitCodeMaturity' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:93:43: error: Name 'RemediationLevel' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:94:42: error: Name 'ReportConfidence' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:99:51: error: Name 'ModifiedScope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:100:49: error: Name 'ExploitCodeMaturity' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:101:48: error: Name 'RemediationLevel' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:102:47: error: Name 'ReportConfidence' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:103:46: error: Name 'ModifiedPrivilegesRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:110:26: error: Name 'ModifiedScope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:112:30: error: Name 'ModifiedPrivilegesRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:113:49: error: Name 'ModifiedPrivilegesRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:116:67: error: Name 'ModifiedPrivilegesRequired' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/cvss3/calculations.py:118:26: error: Name 'ModifiedScope' is not defined  [name-defined]
+(ctxis)cvsslib/cvsslib/utils.py:8:5: error: Name 'lru_cache' already defined (possibly by an import)  [no-redef]
+(ctxis)cvsslib/cvsslib/__init__.py:11:18: error: Unsupported dynamic base class "class_mixin"  [misc]
+(ctxis)cvsslib/cvsslib/__init__.py:15:18: error: Unsupported dynamic base class "class_mixin"  [misc]
+(ctxis)cvsslib/tests/test_vector.py:42:2: error: Name 'test_v3_vector_files_random2' already defined on line 35  [no-redef]
+Found 46 errors in 5 files (checked 10 source files)
+
+[RRepo](otris)ews-cpp
+(otris)ews-cpp/misc/scrape_response_codes_from_msdn.py:88: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(otris)ews-cpp/misc/scrape_response_codes_from_msdn.py:88: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](MegaShow)college-programming
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 7 Segmentation/unet/unet_model.py:6:12: error: Name 'nn' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 7 Segmentation/unet/unet_model.py:37:20: error: Name 'nn' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 7 Segmentation/unet/unet_model.py:64:16: error: Name 'nn' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:33:15: error: Incompatible types in assignment (expression has type "Union[str, Tensor]", variable has type "Tensor")  [assignment]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:33:32: error: Argument 1 to "type" of "Tensor" has incompatible type "Type[LongTensor]"; expected "Union[str, dtype, None]"  [arg-type]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:35:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:35:19: error: Unexpected keyword argument "requires_grad" for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:35:19: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:36:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:36:19: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:38:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:38:19: error: Unexpected keyword argument "requires_grad" for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:38:19: error: Incompatible types in assignment (expression has type "Variable", variable has type "Tensor")  [assignment]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:39:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:39:19: error: Incompatible types in assignment (expression has type "Variable", variable has type "Tensor")  [assignment]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:43:18: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:43:18: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/class_prototype/generate_prototype.py:45:18: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 15 Image Caption/src/dataset.py:64:22: error: Name 'torch.utils.data.Dataset' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:16:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:16:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:17:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:17:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:18:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:18:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:19:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:19:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:28:5: error: Signature of "forward" incompatible with supertype "Module"  [override]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:34:31: error: Name 'x' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:38:59: error: Name 'x' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:44:30: error: Unsupported left operand type for @ ("Module[Any]")  [operator]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:44:47: note: Left operand is of type "Union[Tensor, Module[Any]]"
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:45:30: error: Unsupported left operand type for @ ("Module[Any]")  [operator]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:45:47: note: Left operand is of type "Union[Tensor, Module[Any]]"
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:47:22: error: Incompatible types in assignment (expression has type "Tensor", variable has type "List[Tensor]")  [assignment]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveRNN.py:48:16: error: Incompatible return value type (got "Tuple[List[Tensor], Tensor]", expected "Tensor")  [return-value]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:19:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:19:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:20:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:20:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:21:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:21:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:22:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:22:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:25:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:25:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:26:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:26:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:27:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:27:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:28:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:28:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:31:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:31:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:32:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:32:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:33:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:33:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:34:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:34:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:36:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:36:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:37:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:37:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:38:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:38:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:39:21: error: Too few arguments for "Parameter"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:39:31: error: Too many arguments for "Tensor"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:48:5: error: Signature of "forward" incompatible with supertype "Module"  [override]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:57:22: error: Need more than 1 value to unpack (2 expected)  [misc]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:58:19: error: Cannot determine type of 'h'  [has-type]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:59:19: error: Cannot determine type of 'c'  [has-type]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:79:22: error: Incompatible types in assignment (expression has type "Tensor", variable has type "List[Tensor]")  [assignment]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 12 RNN 2/NaiveLSTM.py:80:16: error: Incompatible return value type (got "Tuple[List[Tensor], Tuple[Tensor, Any]]", expected "Tuple[Tensor, Tuple[Tensor, Tensor]]")  [return-value]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:10:26: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:10:37: error: Unsupported operand types for + ("str" and "int")  [operator]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:11:24: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:12:75: error: Incompatible types in string interpolation (expression has type "str", placeholder has type "Union[int, float, SupportsFloat]")  [str-format]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:13:20: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:14:9: error: "str" has no attribute "to"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/detect.py:15:1: error: "str" has no attribute "eval"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:75:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:75:19: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:76:21: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:76:21: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:78:19: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:79:21: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:110:23: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:110:23: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:111:25: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:111:25: error: "Variable" has no attribute "cuda"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:113:23: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/sensitivity_analysis/training.py:114:25: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 13 DMN/babi_loader.py:4:1: error: Module 'torch.utils.data.dataloader' has no attribute 'default_collate'  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 13 DMN/babi_loader.py:152:18: error: Unexpected keyword argument "is_train" for "BabiDataset"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/datasets.py:6:1: error: Module 'utils' has no attribute 'transform'  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/cam_based/pytorch_CAM.py:96:16: error: Too many arguments for "Variable"  [call-arg]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/cam_based/pytorch_CAM.py:108:11: error: Incompatible types in string interpolation (expression has type "Tensor", placeholder has type "Union[int, float]")  [str-format]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/cam_based/pytorch_CAM.py:108:51: error: Invalid index type "Union[int, float, bool]" for "Dict[int, Any]"; expected type "int"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 16 Visualization/cam_based/pytorch_CAM.py:118:60: error: Invalid index type "Union[int, float, bool]" for "Dict[int, Any]"; expected type "int"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/eval.py:19:20: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/eval.py:20:9: error: "str" has no attribute "to"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/eval.py:23:1: error: "str" has no attribute "eval"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/train.py:5:1: error: Module 'model' has no attribute 'SSD300'  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/train.py:5:1: error: Module 'model' has no attribute 'MultiBoxLoss'  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/train.py:15:17: error: Name 'label_map' is not defined  [name-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/train.py:32:1: error: Module has no attribute "benchmark"  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/utils1.py:1:1: error: Module 'model' has no attribute 'SSD300'  [attr-defined]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/utils1.py:32:1: error: Name 'train' already defined (possibly by an import)  [no-redef]
+(MegaShow)college-programming/Homework/Principles of Artificial Neural Networks/Week 8 Object Detection/utils1.py:92:1: error: Name 'validate' already defined (possibly by an import)  [no-redef]
+(MegaShow)college-programming/Homework/Development of Applications on Operating System/Cocos - Network/Server/server.py:23:11: error: Need type annotation for 'fake_db'  [var-annotated]
+Found 109 errors in 14 files (checked 27 source files)
+
+[RRepo](sassoftware)sas_kernel
+
+[RRepo](poidl)yassy
+(poidl)yassy/doc/python/utils.py:22:15: error: Invalid type comment or annotation  [valid-type]
+(poidl)yassy/doc/python/utils.py:36:17: error: Invalid type comment or annotation  [valid-type]
+(poidl)yassy/doc/python/utils.py:45:22: error: Invalid type comment or annotation  [valid-type]
+(poidl)yassy/doc/python/utils.py:54:19: error: Invalid type comment or annotation  [valid-type]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](RedFantom)GSF-Parser
+(RedFantom)GSF-Parser/frames/file.py:45:22: error: syntax error in type comment  [syntax]
+(RedFantom)GSF-Parser/frames/file.py:77:22: error: syntax error in type comment  [syntax]
+(RedFantom)GSF-Parser/frames/file.py:109:31: error: syntax error in type comment  [syntax]
+Found 3 errors in 1 file (checked 80 source files)
+
+[RRepo](vijos)vj4
+(vijos)vj4/vj4/service/smallcache.py:12:1: error: Need type annotation for '_cache'  [var-annotated]
+(vijos)vj4/vj4/util/options.py:33:25: error: Incompatible types in assignment (expression has type "Options", target has type Module)  [assignment]
+(vijos)vj4/vj4/job/rp.py:47:3: error: Need type annotation for 'dudoc_incs' (hint: "dudoc_incs: Dict[<type>, <type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/job/rp.py:106:3: error: Need type annotation for 'dudoc_updates' (hint: "dudoc_updates: Dict[<type>, <type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/model/adaptor/setting.py:68:28: error: "Tuple[Any, ...]" has no attribute "key"  [attr-defined]
+(vijos)vj4/vj4/model/adaptor/setting.py:71:48: error: "Tuple[Any, ...]" has no attribute "key"  [attr-defined]
+(vijos)vj4/vj4/util/json.py:8:15: error: Name 'json.JSONEncoder' is not defined  [name-defined]
+(vijos)vj4/vj4/util/json.py:34:15: error: Name 'json.JSONDecoder' is not defined  [name-defined]
+(vijos)vj4/vj4/util/geoip.py:9:13: error: Incompatible types in assignment (expression has type "None", variable has type "Reader")  [assignment]
+(vijos)vj4/vj4/util/geoip.py:41:10: error: Module has no attribute "errors"  [attr-defined]
+(vijos)vj4/vj4/handler/judge.py:119:14: error: Need type annotation for 'update'  [var-annotated]
+(vijos)vj4/vj4/handler/home.py:155:1: error: Name 'HomeAccountHandler' already defined on line 127  [no-redef]
+(vijos)vj4/vj4/handler/training.py:131:5: error: Need type annotation for 'done_nids' (hint: "done_nids: Set[<type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/job/record.py:66:19: error: Need type annotation for 'dudoc_updates'  [var-annotated]
+(vijos)vj4/vj4/job/record.py:77:14: error: Need type annotation for 'psdocs'  [var-annotated]
+(vijos)vj4/vj4/job/difficulty.py:33:11: error: Unsupported operand types for <= ("int" and "object")  [operator]
+(vijos)vj4/vj4/job/difficulty.py:38:8: error: Unsupported operand types for / ("object" and "int")  [operator]
+(vijos)vj4/vj4/job/difficulty.py:39:13: error: Unsupported operand types for > ("int" and "object")  [operator]
+(vijos)vj4/vj4/job/difficulty.py:43:7: error: "object" has no attribute "append"  [attr-defined]
+(vijos)vj4/vj4/job/difficulty.py:44:5: error: Unsupported operand types for + ("object" and "int")  [operator]
+(vijos)vj4/vj4/job/difficulty.py:70:10: error: Value of type "object" is not indexable  [index]
+(vijos)vj4/vj4/job/num.py:16:2: error: Name 'discussion' already defined (possibly by an import)  [no-redef]
+(vijos)vj4/vj4/service/event.py:10:1: error: Need type annotation for '_subscribers' (hint: "_subscribers: Dict[<type>, <type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/service/bus.py:11:1: error: Need type annotation for '_subscribers' (hint: "_subscribers: Dict[<type>, <type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/service/bus.py:12:1: error: Need type annotation for '_throttles' (hint: "_throttles: Dict[<type>, <type>] = ...")  [var-annotated]
+(vijos)vj4/vj4/mq.py:11:1: error: Need type annotation for '_channel_futures' (hint: "_channel_futures: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 26 errors in 15 files (checked 58 source files)
+
+[RRepo](googleapis)releasetool
+(googleapis)releasetool/releasetool/filehelpers.py:91:16: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+
+[RRepo](pravic)pysciter
+(pravic)pysciter/sciter/capi/sctypes.py:59:6: error: Signature of "value" incompatible with supertype "_SimpleCData"  [override]
+(pravic)pysciter/sciter/capi/sctypes.py:60:5: error: Too many arguments  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:107:12: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(pravic)pysciter/sciter/capi/sctypes.py:108:19: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(pravic)pysciter/sciter/capi/sctypes.py:131:5: error: Cannot assign multiple types to name "HWINDOW" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:132:5: error: Cannot assign multiple types to name "HDC" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:134:5: error: Cannot assign multiple types to name "BOOL" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:134:12: error: Incompatible types in assignment (expression has type "Type[c_byte]", variable has type "Type[c_int32]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:135:5: error: Incompatible types in assignment (expression has type "Type[c_utf16_p]", variable has type "Type[c_wchar_p]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:146:5: error: Cannot assign multiple types to name "HWINDOW" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:147:5: error: Cannot assign multiple types to name "HDC" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:149:5: error: Cannot assign multiple types to name "BOOL" without an explicit "Type[...]" annotation  [misc]
+(pravic)pysciter/sciter/capi/sctypes.py:149:12: error: Incompatible types in assignment (expression has type "Type[c_byte]", variable has type "Type[c_int32]")  [assignment]
+(pravic)pysciter/sciter/capi/sctypes.py:150:5: error: Incompatible types in assignment (expression has type "Type[c_utf16_p]", variable has type "Type[c_wchar_p]")  [assignment]
+
+[RRepo](gasabr)AtoD
+(gasabr)AtoD/atod/db_models/common_table.py:3:1: error: Module 'atod.db' has no attribute 'engine'  [attr-defined]
+(gasabr)AtoD/atod/models/interfaces.py:4:1: error: Module 'atod.db_models' has no attribute 'PatchModel'  [attr-defined]
+(gasabr)AtoD/atod/models/interfaces.py:5:1: error: Module 'atod.db' has no attribute 'engine'  [attr-defined]
+
+[RRepo](Ghadjeres)DeepBach
+(Ghadjeres)DeepBach/DeepBach/helpers.py:18:16: error: "Variable" has no attribute "data"  [attr-defined]
+(Ghadjeres)DeepBach/DeepBach/helpers.py:20:16: error: "Variable" has no attribute "data"  [attr-defined]
+(Ghadjeres)DeepBach/flask_server.py:325:19: error: Item "None" of "Optional[Any]" has no attribute "dataset"  [union-attr]
+(Ghadjeres)DeepBach/flask_server.py:335:33: error: Argument 1 to "view" of "Tensor" has incompatible type "Optional[Any]"; expected "Union[Size, List[int], Tuple[int, ...]]"  [arg-type]
+(Ghadjeres)DeepBach/flask_server.py:345:19: error: Item "None" of "Optional[Any]" has no attribute "dataset"  [union-attr]
+(Ghadjeres)DeepBach/musescore_flask_server.py:241:1: error: Name 'get_fermatas_tensor' already defined on line 133  [no-redef]
+Found 6 errors in 3 files (checked 10 source files)
+
+[RRepo](BrighterCommand)Brightside
+(BrighterCommand)Brightside/brightside/registry.py:74:56: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](VieVie31)scene_detection
+(VieVie31)scene_detection/src/main.py:28:5: error: Need type annotation for 'stats' (hint: "stats: List[<type>] = ...")  [var-annotated]
+(VieVie31)scene_detection/src/main.py:33:5: error: Need type annotation for 'ORIGINAL_VIDEOS' (hint: "ORIGINAL_VIDEOS: List[<type>] = ...")  [var-annotated]
+(VieVie31)scene_detection/src/main.py:43:31: error: Invalid tuple index type (actual type "str", expected type "Union[int, slice]")  [misc]
+(VieVie31)scene_detection/src/main.py:65:9: error: Need type annotation for 'L' (hint: "L: List[<type>] = ...")  [var-annotated]
+(VieVie31)scene_detection/src/main.py:172:11: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(VieVie31)scene_detection/src/main.py:182:15: error: Incompatible types in assignment (expression has type "Iterator[Any]", variable has type "List[int]")  [assignment]
+(VieVie31)scene_detection/src/main.py:197:45: error: Slice index must be an integer or None  [misc]
+(VieVie31)scene_detection/src/main.py:207:20: error: Unsupported operand types for + ("str" and "int")  [operator]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:69:9: error: Name 'get_hash_of_hashes' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:82:25: error: Name 'cseq' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:86:5: error: Name 'hamming' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:86:20: error: Name 'get_hash_of_hashes' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:92:25: error: Name 'mseq' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:95:5: error: Name 'hamming' is not defined  [name-defined]
+(VieVie31)scene_detection/src/benchmark_cseq_mseq.py:95:20: error: Name 'get_hash_of_hashes' is not defined  [name-defined]
+Found 15 errors in 2 files (checked 3 source files)
+
+[RRepo](eliostvs)tomate-launcher-plugin
+Success: no issues found in 3 source files
+
+[RRepo](prcutler)nflpool
+(prcutler)nflpool/nflpool/infrastructure/static_cache.py:22:1: error: Need type annotation for '__hash_lookup' (hint: "__hash_lookup: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](apache)airflow
+(apache)airflow/airflow/operators/latest_only_operator.py:22:1: error: Module 'airflow.models' has no attribute 'BaseOperator'  [attr-defined]
+(apache)airflow/airflow/operators/latest_only_operator.py:22:1: error: Module 'airflow.models' has no attribute 'SkipMixin'  [attr-defined]
+(apache)airflow/airflow/operators/branch_operator.py:23:1: error: Module 'airflow.models' has no attribute 'BaseOperator'  [attr-defined]
+(apache)airflow/airflow/operators/branch_operator.py:23:1: error: Module 'airflow.models' has no attribute 'SkipMixin'  [attr-defined]
+
+[RRepo](SergeyPirogov)testcontainers-python
+(SergeyPirogov)testcontainers-python/testcontainers/general.py:21:40: error: inconsistent use of tabs and spaces in indentation  [syntax]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](MicroFocus)CX
+(MicroFocus)CX/middle_tier/services/loader.py:26:9: error: Need type annotation for 'services' (hint: "services: List[<type>] = ...")  [var-annotated]
+(MicroFocus)CX/middle_tier/services/loader.py:27:9: error: Need type annotation for 'auth_services' (hint: "auth_services: List[<type>] = ...")  [var-annotated]
+
+[RRepo](DeDop)dedop-core
+(DeDop)dedop-core/dedop/proc/sar/algorithms/range_compression.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:124:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:125:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:126:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:127:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:128:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:129:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:130:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:131:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_gathering.py:132:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:81:45: error: Incompatible types in assignment (expression has type "float", target has type "int")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:82:16: error: Incompatible return value type (got "Dict[str, int]", expected "Dict[str, float]")  [return-value]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:82:16: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:82:16: note: Consider using "Mapping" instead, which is covariant in the value type
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:82:16: note: Perhaps you need a type annotation for "data"? Suggestion: "Dict[str, float]"
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:250:35: error: Name 'angle_between' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/surface_locations.py:262:40: error: Name 'angle_between' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_masking.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/stack_masking.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/cal/cal2_algorithm.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/base_algorithm.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/base_algorithm.py:2:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/conf/auxiliary_parameter.py:35:9: error: Need type annotation for '_cache' (hint: "_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(DeDop)dedop-core/dedop/conf/auxiliary_parameter.py:37:33: error: Name 'AuxiliaryFileReader' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/auxiliary_parameter.py:58:19: error: Name 'ParameterTypeError' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/auxiliary_parameter.py:99:33: error: Name 'AuxiliaryFileReader' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:4:21: error: Name 'AuxiliaryFileReader' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:11:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:15:10: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:19:23: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:23:23: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:27:20: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:31:18: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:35:18: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:40:54: error: Name 'Any' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/constants.py:40:54: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:102:9: error: Need type annotation for '_dimensions'  [var-annotated]
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:103:9: error: Need type annotation for '_variables'  [var-annotated]
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:105:9: error: Need type annotation for 'dimensions' (hint: "dimensions: Dict[<type>, <type>] = ...")  [var-annotated]
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:106:9: error: Need type annotation for 'variables' (hint: "variables: Dict[<type>, <type>] = ...")  [var-annotated]
+(DeDop)dedop-core/dedop/data/output/netcdf_writer.py:205:13: error: Argument 1 to "VariableDescriptor" has incompatible type "Union[str, Enum]"; expected "str"  [arg-type]
+(DeDop)dedop-core/dedop/data/input/l1a/l1a_dataset.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/data/input/l1a/l1a_dataset.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/data/input/input_dataset.py:4:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/geometry_corrections.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/azimuth_processing.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/azimuth_processing.py:112:9: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/azimuth_processing.py:141:13: error: Unsupported target for indexed assignment  [index]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/beam_angles.py:8:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/sigma_zero_scaling.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/cal/cal1_algorithm.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/geo/ecef2lla.py:94:22: error: Value of type "float" is not indexable  [index]
+(DeDop)dedop-core/dedop/model/processor.py:61:19: error: Name 'ProcessorException' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/model/processor.py:74:17: error: Module has no attribute "sleep"  [attr-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:8:28: error: Name 'AuxiliaryFileReader' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:15:20: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:20:21: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:24:25: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:29:15: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:33:20: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:37:13: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:42:23: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:46:23: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:51:20: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:55:27: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:59:15: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:63:15: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:68:23: error: Name 'AuxiliaryParameterArray' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:71:20: error: Name 'np' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:73:22: error: Name 'AuxiliaryParameterArray' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:76:20: error: Name 'np' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:78:30: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:84:27: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:89:27: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:95:17: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:99:24: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:103:20: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/characterization.py:119:12: error: Cannot determine type of '_chirp_slope_ku'  [has-type]
+(DeDop)dedop-core/dedop/conf/characterization.py:121:16: error: Incompatible return value type (got "Optional[Any]", expected "float")  [return-value]
+(DeDop)dedop-core/dedop/conf/characterization.py:126:12: error: Cannot determine type of '_wv_length_ku'  [has-type]
+(DeDop)dedop-core/dedop/conf/characterization.py:127:34: error: Cannot determine type of 'cst'  [has-type]
+(DeDop)dedop-core/dedop/conf/characterization.py:128:16: error: Incompatible return value type (got "Optional[Any]", expected "float")  [return-value]
+(DeDop)dedop-core/dedop/conf/configuration.py:7:25: error: Name 'AuxiliaryFileReader' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:14:54: error: Name 'Any' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:14:54: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DeDop)dedop-core/dedop/conf/configuration.py:19:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:21:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:23:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:25:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:27:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:31:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:33:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:35:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:37:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:41:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:44:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:46:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:49:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:53:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:55:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:57:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:60:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:65:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:67:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:69:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:74:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:76:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:80:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:82:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:84:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:86:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/configuration.py:90:9: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/util/config.py:96:16: error: Item "None" of "Optional[bytes]" has no attribute "decode"  [union-attr]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:138:26: error: Incompatible types in assignment (expression has type "float", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:139:34: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:140:26: error: Incompatible types in assignment (expression has type "float", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:143:38: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:156:31: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/proc/sar/algorithms/multilooking.py:157:31: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:26:9: error: Need type annotation for '_data' (hint: "_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:30:26: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:47:23: error: Name 'IncompatibleAuxiliaryFileError' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:58:25: error: Name 'UnknownParameterWarning' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:62:9: error: No return value expected  [return-value]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:84:13: error: Incompatible return value type (got "Generator[Any, None, None]", expected "Sequence[str]")  [return-value]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:85:34: error: Name 'AuxiliaryParameter' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/conf/auxiliary_file_reader.py:94:15: error: Name 'MissingParameterError' is not defined  [name-defined]
+(DeDop)dedop-core/dedop/util/monitor.py:171:16: error: Incompatible types in assignment (expression has type "_NullMonitor", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/util/monitor.py:192:23: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/util/monitor.py:193:28: error: Incompatible types in assignment (expression has type "Optional[float]", variable has type "None")  [assignment]
+(DeDop)dedop-core/dedop/util/monitor.py:198:52: error: Unsupported operand types for / ("float" and "None")  [operator]
+(DeDop)dedop-core/tests/data/test_l1bs.py:31:6: error: Argument 1 to "skip" has incompatible type "Callable[[L1BTests], Any]"; expected "str"  [arg-type]
+(DeDop)dedop-core/tests/ui/test_upgrade_config.py:18:9: error: "UpgradeConfigTestBase" has no attribute "assertEqual"  [attr-defined]
+(DeDop)dedop-core/tests/ui/test_upgrade_config.py:21:9: error: "UpgradeConfigTestBase" has no attribute "assertEqual"  [attr-defined]
+(DeDop)dedop-core/tests/ui/test_upgrade_config.py:28:9: error: "UpgradeConfigTestBase" has no attribute "fail"  [attr-defined]
+(DeDop)dedop-core/tests/ui/test_upgrade_config.py:33:37: error: Item "None" of "Optional[bytes]" has no attribute "decode"  [union-attr]
+Found 135 errors in 26 files (checked 67 source files)
+
+[RRepo](GrinningHermit)Cozmo-Explorer-Tool
+(GrinningHermit)Cozmo-Explorer-Tool/explorer_tool.py:45:1: error: Need type annotation for 'lists' (hint: "lists: List[<type>] = ...")  [var-annotated]
+(GrinningHermit)Cozmo-Explorer-Tool/explorer_tool.py:53:5: error: Need type annotation for 'q'  [var-annotated]
+Found 2 errors in 1 file (checked 7 source files)
+
+[RRepo](chupikov)sendmail.py
+(chupikov)sendmail.py/sendmail/factory.py:35:5: error: Need type annotation for 'list' (hint: "list: Dict[<type>, <type>] = ...")  [var-annotated]
+(chupikov)sendmail.py/sendmail/factory.py:36:5: error: Need type annotation for 'mods' (hint: "mods: Dict[<type>, <type>] = ...")  [var-annotated]
+(chupikov)sendmail.py/sendmail/sendmail.py:61:21: error: "None" has no attribute "list"  [attr-defined]
+(chupikov)sendmail.py/sendmail/sendmail.py:62:17: error: "None" has no attribute "get"  [attr-defined]
+(chupikov)sendmail.py/sendmail/watcher.py:45:5: error: Need type annotation for 'directories' (hint: "directories: List[<type>] = ...")  [var-annotated]
+(chupikov)sendmail.py/sendmail/watcher.py:53:5: error: Need type annotation for 'watchers' (hint: "watchers: List[<type>] = ...")  [var-annotated]
+(chupikov)sendmail.py/sendmail/watcher.py:139:9: error: "None" has no attribute "terminate"  [attr-defined]
+Found 7 errors in 3 files (checked 8 source files)
+
+[RRepo](softappeal)yass
+Success: no issues found in 10 source files
+
+[RRepo](remipassmoilesel)linux-utils
+Success: no issues found in 6 source files
+
+[RRepo](BigEgg)LeetCode
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_056_MergeIntervals.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_056_MergeIntervals.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_056_MergeIntervals.py:7:9: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_055_JumpGame.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_055_JumpGame.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_051_NQueens.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_051_NQueens.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_066_PlusOne.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_066_PlusOne.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_059_SpiralMatrix2.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_059_SpiralMatrix2.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_054_SpiralMatrix.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_054_SpiralMatrix.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_063_UniquePaths2.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_063_UniquePaths2.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_064_MinimumPathSum.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_064_MinimumPathSum.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_053_MaximumSubarray.py:4: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_053_MaximumSubarray.py:4: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_068_TextJustification.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_068_TextJustification.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_073_SetMatrixZeroes.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_073_SetMatrixZeroes.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_073_SetMatrixZeroes.py:23: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_073_SetMatrixZeroes.py:23: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_057_InsertInterval.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_051_100/_057_InsertInterval.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_042_TrappingRainWater.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_042_TrappingRainWater.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_003_LongestSubstringWithoutRepeatingCharacters.py:10:9: error: Need type annotation for 'map' (hint: "map: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_020_ValidParentheses.py:3:9: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_018_4Sum.py:10:9: error: Need type annotation for 'two_sum' (hint: "two_sum: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_047_Permutations2.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_047_Permutations2.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_047_Permutations2.py:9:9: error: Need type annotation for 'temp_result' (hint: "temp_result: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_047_Permutations2.py:11: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_047_Permutations2.py:11: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_040_CombinationSum2.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_040_CombinationSum2.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_040_CombinationSum2.py:3: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_040_CombinationSum2.py:3: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_040_CombinationSum2.py:19:9: error: Need type annotation for 'results' (hint: "results: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_030_SubstringWithConcatenationOfAllWords.py:6:9: error: Need type annotation for 'word_dic' (hint: "word_dic: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_030_SubstringWithConcatenationOfAllWords.py:17:13: error: Need type annotation for 'temp_dic' (hint: "temp_dic: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_048_RotateImage.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_048_RotateImage.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_022_GenerateParentheses.py:5:9: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_041_FirstMissingPositive.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_041_FirstMissingPositive.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_045_JumpGame2.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_045_JumpGame2.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_004_MedianOfTwoSortedArrays.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_004_MedianOfTwoSortedArrays.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:3:9: error: Need type annotation for 'res' (hint: "res: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:10: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:10: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_049_GroupAnagrams.py:11:9: error: Need type annotation for 'dic' (hint: "dic: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_039_CombinationSum.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_039_CombinationSum.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_039_CombinationSum.py:3: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_039_CombinationSum.py:3: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_039_CombinationSum.py:17:9: error: Need type annotation for 'results' (hint: "results: List[<type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_046_Permutations.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_046_Permutations.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_015_3Sum.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_015_3Sum.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_015_3Sum.py:4:9: error: Need type annotation for 'counts' (hint: "counts: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_010_RegularExpressionMatching.py:3:9: error: Need type annotation for 'memo' (hint: "memo: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_026_RemoveDuplicatesFromSortedArray.py:2: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_026_RemoveDuplicatesFromSortedArray.py:2: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode/ListNode.py:4:31: error: Incompatible types in assignment (expression has type "None", variable has type "ListNode")  [assignment]
+(BigEgg)LeetCode/Python/LeetCode/_001_050/_019_RemoveNthNodeFromEndOfList.py:9:20: error: Incompatible return value type (got "None", expected "ListNode")  [return-value]
+(BigEgg)LeetCode/Python/LeetCode.Test/TestHelper.py:6: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode.Test/TestHelper.py:6: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode.Test/_001_050/Test_003_LongestSubstringWithoutRepeatingCharacters.py:19:5: error: Name 'test_lengthOfLongestSubstring' already defined on line 10  [no-redef]
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:8: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:8: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:23: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:23: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:32: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(BigEgg)LeetCode/Python/LeetCode.Test/AssertHelper.py:32: note: Did you mean "List[...]"?
+(BigEgg)LeetCode/Python/LeetCode.Test/_001_050/Test_002_AddTwoNumbers.py:100:5: error: Name 'test_addTwoNumbers_l1Long_withZero' already defined on line 70  [no-redef]
+(BigEgg)LeetCode/Python/LeetCode.Test/_001_050/Test_002_AddTwoNumbers.py:110:5: error: Name 'test_addTwoNumbers_l1None' already defined on line 80  [no-redef]
+Found 52 errors in 36 files (checked 148 source files)
+
+[RRepo](laike9m)pdir2
+Success: no issues found in 13 source files
+
+[RRepo](quantumlib)Cirq
+(quantumlib)Cirq/cirq/study/trial_result.py:147:51: error: Incompatible default for argument "fold_func" (default has type "Callable[[Iterable[Any]], Tuple[int, ...]]", argument has type "Callable[[Any], T]")  [assignment]
+(quantumlib)Cirq/cirq/vis/heatmap.py:47:1: error: Missing return statement  [return]
+(quantumlib)Cirq/cirq/protocols/inverse.py:36:1: error: Overloaded function signature 2 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:41:1: error: Overloaded function signature 3 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:41:1: error: Overloaded function signature 3 will never be matched: signature 2's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:46:1: error: Overloaded function signature 4 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:46:1: error: Overloaded function signature 4 will never be matched: signature 2's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:46:1: error: Overloaded function signature 4 will never be matched: signature 3's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:58:1: error: Overloaded function signature 6 will never be matched: signature 5's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:65:1: error: Overloaded function signature 7 will never be matched: signature 5's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:65:1: error: Overloaded function signature 7 will never be matched: signature 6's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:72:1: error: Overloaded function signature 8 will never be matched: signature 5's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:72:1: error: Overloaded function signature 8 will never be matched: signature 6's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/inverse.py:72:1: error: Overloaded function signature 8 will never be matched: signature 7's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:35:1: error: Overloaded function signature 2 will never be matched: signature 1's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:47:1: error: Overloaded function signature 4 will never be matched: signature 3's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:54:1: error: Overloaded function signature 5 will never be matched: signature 3's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:54:1: error: Overloaded function signature 5 will never be matched: signature 4's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:61:1: error: Overloaded function signature 6 will never be matched: signature 3's parameter type(s) are the same or broader  [misc]
+(quantumlib)Cirq/cirq/protocols/pow.py:61:1: error: Overloaded function signature 6 will never be matched: signature 4's parameter type(s) are the same or broader  [misc]
+Found 20 errors in 4 files (checked 362 source files)
+
+[RRepo](Naam)shup
+(Naam)shup/shup/shup.py:142:48: error: "str" has no attribute "block_size"  [attr-defined]
+(Naam)shup/shup/shup.py:143:13: error: "str" has no attribute "update"  [attr-defined]
+(Naam)shup/shup/shup.py:144:12: error: "str" has no attribute "hexdigest"  [attr-defined]
+(Naam)shup/shup/shup.py:197:17: error: "None" has no attribute "finish"  [attr-defined]
+(Naam)shup/shup/shup.py:303:27: error: Item "NoSectionError" of "Union[NoSectionError, NoOptionError]" has no attribute "message"  [union-attr]
+(Naam)shup/shup/shup.py:303:27: error: Item "NoOptionError" of "Union[NoSectionError, NoOptionError]" has no attribute "message"  [union-attr]
+Found 6 errors in 1 file (checked 3 source files)
+
+[RRepo](kayhayen)Nuitka
+(kayhayen)Nuitka/nuitka/build/inline_copy/lib/scons-2.3.2/SCons/Script/__init__.py:366:55: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 524 source files)
+
+[RRepo](jmbr)diffusion-maps
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:31:39: error: Argument 1 to "LoadLibrary" of "LibraryLoader" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:33:38: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:36:39: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:39:42: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:42:46: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:45:47: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:48:38: error: Incompatible types in assignment (expression has type "Type[int]", variable has type "Union[Type[_CData], Callable[[int], None], None]")  [assignment]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:92:25: error: Variable "cusparse.cusparseHandle_t" is not valid as a type  [valid-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:102:29: error: Variable "cusparse.cusparseHandle_t" is not valid as a type  [valid-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:107:5: error: No return value expected  [return-value]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:110:32: error: Variable "cusparse.cusparseHandle_t" is not valid as a type  [valid-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:117:12: error: Incompatible return value type (got "c_int", expected "int")  [return-value]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:127:12: error: Incompatible return value type (got "pointer[cusparseMatDescr]", expected "c_int")  [return-value]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:130:36: error: Variable "cusparse.cusparseMatDescr_t" is not valid as a type  [valid-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:136:28: error: Variable "cusparse.cusparseHandle_t" is not valid as a type  [valid-type]
+(jmbr)diffusion-maps/diffusion_maps/cusparse.py:138:28: error: Variable "cusparse.cusparseMatDescr_t" is not valid as a type  [valid-type]
+Found 16 errors in 1 file (checked 9 source files)
+
+[RRepo](facebook)folly
+(facebook)folly/folly/fibers/scripts/gdb.py:141:30: error: Name 'gdb.Command' is not defined  [name-defined]
+(facebook)folly/folly/fibers/scripts/gdb.py:267:28: error: Name 'gdb.Command' is not defined  [name-defined]
+(facebook)folly/folly/fibers/scripts/gdb.py:279:30: error: Name 'gdb.Command' is not defined  [name-defined]
+(facebook)folly/folly/fibers/scripts/gdb.py:311:16: error: Name 'gdb.Function' is not defined  [name-defined]
+Found 4 errors in 1 file (checked 6 source files)
+
+[RRepo](CameronLonsdale)lantern
+(CameronLonsdale)lantern/examples/shift/image_shift.py:17:17: error: Value of type "Iterable[Any]" is not indexable  [index]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](cemfi)meico
+(cemfi)meico/rest/api/app.py:38:1: error: Need type annotation for 'temp_directories' (hint: "temp_directories: List[<type>] = ...")  [var-annotated]
+(cemfi)meico/rest/api/app.py:69:19: error: Invalid type comment or annotation  [valid-type]
+(cemfi)meico/rest/api/app.py:69:19: note: Suggestion: use hug.types.one_of[...] instead of hug.types.one_of(...)
+(cemfi)meico/rest/api/app.py:78:22: error: Invalid type comment or annotation  [valid-type]
+(cemfi)meico/rest/api/app.py:78:22: note: Suggestion: use hug.types.one_of[...] instead of hug.types.one_of(...)
+(cemfi)meico/rest/api/app.py:114:113: error: Value of type "Set[str]" is not indexable  [index]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](taigaio)taiga-back
+(taigaio)taiga-back/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(taigaio)taiga-back/taiga/base/api/utils/__init__.py')  [misc]
+(taigaio)taiga-back/tests/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 162 source files)
+
+[RRepo](spegelius)filaswitch
+(spegelius)filaswitch/src/preprime.py:197:10: error: Name 'PrePurge' is not defined  [name-defined]
+(spegelius)filaswitch/src/preprime.py:197:30: error: Name 'PEEK' is not defined  [name-defined]
+(spegelius)filaswitch/src/slicer_kisslicer.py:289:14: error: Incompatible types in assignment (expression has type "Logger", variable has type Module)  [assignment]
+(spegelius)filaswitch/src/slicer_kisslicer.py:290:9: error: Too many arguments for "KISSlicerGCodeFile"  [call-arg]
+(spegelius)filaswitch/src/slicer_kisslicer.py:290:36: error: Name 'PEEK' is not defined  [name-defined]
+Found 5 errors in 2 files (checked 13 source files)
+
+[RRepo](apacha)MusicSymbolClassifier
+(apacha)MusicSymbolClassifier/ModelTrainer/reporting/GoogleSpreadsheetReporter.py:51:52: error: Incompatible default for argument "accuracy" (default has type "str", argument has type "float")  [assignment]
+(apacha)MusicSymbolClassifier/ModelTrainer/reporting/GoogleSpreadsheetReporter.py:52:92: error: Incompatible default for argument "execution_time_in_seconds" (default has type "str", argument has type "int")  [assignment]
+(apacha)MusicSymbolClassifier/ModelTrainer/ClassWeightCalculator.py:66:40: error: Value of type "Optional[Dict[Any, Any]]" is not indexable  [index]
+(apacha)MusicSymbolClassifier/ModelTrainer/datasets/MuscimaPlusPlusImageGenerator2.py:122:24: error: Item "None" of "Optional[Any]" has no attribute "inlinks"  [union-attr]
+(apacha)MusicSymbolClassifier/ModelTrainer/datasets/DatasetSplitter.py:43:83: error: Syntax error in type annotation  [syntax]
+(apacha)MusicSymbolClassifier/ModelTrainer/datasets/DatasetSplitter.py:43:83: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+
+[RRepo](PrivacyScore)PrivacyScore
+(PrivacyScore)PrivacyScore/privacyscore/evaluation/evaluation.py:29:16: error: Incompatible return value type (got "Tuple[Any, Dict[<nothing>, <nothing>]]", expected "Tuple[Dict[Any, Any], OrderedDict[Any, Any]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/evaluation/evaluation.py:48:9: error: Need type annotation for 'keys' (hint: "keys: Dict[<type>, <type>] = ...")  [var-annotated]
+(PrivacyScore)PrivacyScore/privacyscore/evaluation/evaluation.py:51:24: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/backend/admin.py:20:5: error: "Callable[[RawScanResultAdmin, Any], Any]" has no attribute "allow_tags"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/backend/admin.py:57:5: error: "Callable[[ScanAdmin, Any], Any]" has no attribute "allow_tags"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/backend/admin.py:62:5: error: "Callable[[ScanAdmin, Any], Any]" has no attribute "allow_tags"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/backend/admin.py:67:5: error: "Callable[[ScanAdmin, Any], Any]" has no attribute "allow_tags"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/celery.py:6:1: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:8:1: error: Module 'celery' has no attribute 'chord'  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:8:1: error: Module 'celery' has no attribute 'shared_task'  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:67:23: error: Incompatible types in assignment (expression has type "List[Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]]]", variable has type "Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:68:56: error: Argument 1 to "_parse_new_results" has incompatible type "Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]]"; expected "List[Tuple[List[Any], Dict[Any, Any]]]"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:69:5: error: "Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]]" has no attribute "update"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:114:24: error: "str" has no attribute "test_site"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:116:25: error: "str" has no attribute "process_test_data"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:118:20: error: Incompatible return value type (got "Tuple[str, Any, Any, Any]", expected "bool")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:118:31: error: "str" has no attribute "test_name"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:120:16: error: Incompatible return value type (got "str", expected "bool")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:120:37: error: "str" has no attribute "test_name"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:142:5: error: Need type annotation for 'errors' (hint: "errors: List[<type>] = ...")  [var-annotated]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:147:27: error: Tuple index out of range  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:149:45: error: Tuple index out of range  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:155:27: error: Tuple index out of range  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/scanner/tasks.py:156:31: error: Tuple index out of range  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:46:25: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:47:37: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:49:39: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:51:22: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:59:23: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:60:30: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:62:24: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:63:31: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:67:55: error: Incompatible types in assignment (expression has type "str", target has type "bool")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:71:44: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:75:19: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:76:14: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:81:34: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:82:58: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:84:34: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:87:54: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:90:51: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", target has type "bool")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:91:22: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:92:17: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:93:13: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:93:62: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:94:34: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:95:29: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:95:48: error: "str" has no attribute "keys"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:96:33: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:101:43: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", target has type "bool")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:102:24: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:103:19: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:104:13: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:104:56: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:105:36: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl/common.py:106:35: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:47:16: error: Incompatible return value type (got "Dict[str, Dict[str, object]]", expected "Dict[str, Dict[str, Union[str, bytes]]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:77:24: error: Incompatible return value type (got "Dict[str, Dict[str, object]]", expected "Dict[str, Dict[str, Union[str, bytes]]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:99:37: error: Argument 1 to "BytesIO" has incompatible type "object"; expected "bytes"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:108:12: error: Incompatible return value type (got "Dict[str, Dict[str, object]]", expected "Dict[str, Dict[str, Union[str, bytes]]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:127:16: error: Incompatible return value type (got "Dict[str, object]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:131:16: error: Incompatible return value type (got "Dict[str, object]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:133:29: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:133:29: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:133:29: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:133:29: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:136:16: error: Incompatible return value type (got "Dict[str, object]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:155:45: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:173:12: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:210:9: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:218:9: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:229:9: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:240:9: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:251:9: error: Unsupported target for indexed assignment  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:284:43: error: Argument 1 to "len" has incompatible type "object"; expected "Sized"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/openwpm.py:291:12: error: Incompatible return value type (got "Dict[str, object]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:53:8: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:53:8: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:53:8: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:53:8: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:55:16: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:58:9: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:58:9: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:58:9: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:58:9: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:64:16: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_https.py:68:16: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:96:28: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:96:28: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:96:28: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:96:28: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:97:13: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:97:13: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:97:13: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:97:13: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:98:16: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:98:16: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:98:16: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:98:16: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:102:9: error: Dict entry 0 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:103:9: error: Dict entry 1 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:104:9: error: Dict entry 2 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:105:9: error: Dict entry 3 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:106:9: error: Dict entry 4 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/example.py:107:9: error: Dict entry 5 has incompatible type "str": "bool"; expected "str": "Dict[str, object]"  [dict-item]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:41:8: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:41:8: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:41:8: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:41:8: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:43:16: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:46:9: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:46:9: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:46:9: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:46:9: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:59:16: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/testssl_mx.py:64:12: error: Incompatible return value type (got "Dict[str, bool]", expected "Dict[str, Dict[str, object]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/frontend/templatetags/arrow.py:4:1: error: Module 'arrow' has no attribute 'Arrow'  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:22:1: error: Need type annotation for 'test_dependencies' (hint: "test_dependencies: List[<type>] = ...")  [var-annotated]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:95:53: error: Argument 1 to "_cname_lookup" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:98:45: error: Argument 1 to "_a_lookup" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:101:47: error: Argument 1 to "_mx_lookup" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:102:8: error: Item "None" of "Optional[str]" has no attribute "startswith"  [union-attr]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:103:52: error: Value of type "Optional[str]" is not indexable  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:106:40: error: List comprehension has incompatible type List[Tuple[str, List[str]]]; expected List[str]  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:109:44: error: List comprehension has incompatible type List[List[str]]; expected List[str]  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:113:10: error: List comprehension has incompatible type List[Tuple[str, List[List[str]]]]; expected List[str]  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:117:35: error: Incompatible types in assignment (expression has type "bool", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:120:39: error: Incompatible types in assignment (expression has type "bool", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:121:39: error: Incompatible types in assignment (expression has type "bool", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:129:47: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:140:55: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:141:43: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:142:43: error: Incompatible types in assignment (expression has type "bool", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:150:16: error: "List[str]" has no attribute "startswith"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:158:57: error: Incompatible types in assignment (expression has type "str", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:166:53: error: Incompatible types in assignment (expression has type "bool", target has type "List[str]")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:180:25: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:180:25: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:180:25: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:180:25: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:187:10: error: Argument 1 to "_get_countries" has incompatible type "Generator[Any, None, None]"; expected "List[str]"  [arg-type]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:199:13: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:199:13: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:199:13: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:199:13: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:200:13: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:200:13: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:200:13: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:200:13: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:222:25: error: List comprehension has incompatible type List[Tuple[Any, Any]]; expected List[str]  [misc]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:259:9: error: Incompatible types in assignment (expression has type "Set[bytes]", variable has type "bytes")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:260:9: error: Incompatible types in assignment (expression has type "Set[bytes]", variable has type "bytes")  [assignment]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:261:20: error: "bytes" has no attribute "intersection"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/network.py:262:13: error: "bytes" has no attribute "union"  [attr-defined]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:171:30: error: Invalid index type "object" for "Dict[str, Dict[str, object]]"; expected type "str"  [index]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:178:12: error: Incompatible return value type (got "Dict[str, Dict[str, object]]", expected "Dict[str, Dict[str, Union[str, bytes]]]")  [return-value]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:187:15: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:187:15: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:187:15: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:187:15: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:198:31: error: No overload variant of "__getitem__" of "list" matches argument type "object"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:198:31: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:198:31: note:     def __getitem__(self, int) -> Any
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:198:31: note:     def __getitem__(self, slice) -> List[Any]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:207:20: error: No overload variant of "match" matches argument type "Any"  [call-overload]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:207:20: note: Possible overload variants:
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:207:20: note:     def [AnyStr in (str, bytes)] match(pattern: AnyStr, string: AnyStr, flags: Union[int, RegexFlag] = ...) -> Optional[Match[AnyStr]]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:207:20: note:     def [AnyStr in (str, bytes)] match(pattern: Pattern[AnyStr], string: AnyStr, flags: Union[int, RegexFlag] = ...) -> Optional[Match[AnyStr]]
+(PrivacyScore)PrivacyScore/privacyscore/test_suites/serverleak.py:215:12: error: Incompatible return value type (got "Dict[str, List[object]]", expected "Dict[str, Dict[str, object]]")  [return-value]
+Found 127 errors in 12 files (checked 31 source files)
+
+[RRepo](DistributedSystemsGroup)zoe
+(DistributedSystemsGroup)zoe/zoe_master/scheduler/elastic_scheduler.py:71:9: error: Need type annotation for 'queue_termination' (hint: "queue_termination: List[<type>] = ...")  [var-annotated]
+(DistributedSystemsGroup)zoe/zoe_master/scheduler/simulated_platform.py:28:9: error: Need type annotation for 'services' (hint: "services: List[<type>] = ...")  [var-annotated]
+(DistributedSystemsGroup)zoe/zoe_master/backends/kubernetes/threads.py:39:9: error: Need type annotation for 'service_id' (hint: "service_id: Dict[<type>, <type>] = ...")  [var-annotated]
+(DistributedSystemsGroup)zoe/zoe_master/backends/interface.py:95:45: error: Item "None" of "Optional[Any]" has no attribute "spawn_service"  [union-attr]
+(DistributedSystemsGroup)zoe/zoe_master/backends/interface.py:150:13: error: Item "None" of "Optional[Any]" has no attribute "terminate_service"  [union-attr]
+(DistributedSystemsGroup)zoe/zoe_master/backends/interface.py:154:13: error: Item "None" of "Optional[Any]" has no attribute "terminate_service"  [union-attr]
+(DistributedSystemsGroup)zoe/zoe_master/backends/interface.py:164:9: error: Item "None" of "Optional[Any]" has no attribute "terminate_service"  [union-attr]
+(DistributedSystemsGroup)zoe/zoe_master/backends/interface.py:179:12: error: Item "None" of "Optional[Any]" has no attribute "platform_state"  [union-attr]
+(DistributedSystemsGroup)zoe/zoe_master/preprocessing.py:34:9: error: Need type annotation for 'images' (hint: "images: List[<type>] = ...")  [var-annotated]
+(DistributedSystemsGroup)zoe/zoe_api/auth/ldap.py:24:12: error: Incompatible types in assignment (expression has type "None", variable has type Module)  [assignment]
+(DistributedSystemsGroup)zoe/zoe_master/metrics/kairosdb.py:60:31: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(DistributedSystemsGroup)zoe/zoe_master/backends/docker/api_client.py:38:5: error: Module has no attribute "DockerClient"  [attr-defined]
+(DistributedSystemsGroup)zoe/zoe_master/backends/docker/api_client.py:60:24: error: Module has no attribute "DockerClient"  [attr-defined]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "Union[str, _PathLike[str], None]"  [arg-type]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "Union[int, str, None]"  [arg-type]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "Optional[IO[str]]"  [arg-type]
+(DistributedSystemsGroup)zoe/zoe_api/entrypoint.py:52:27: error: Argument 1 to "basicConfig" has incompatible type "**Dict[str, object]"; expected "Optional[Iterable[Handler]]"  [arg-type]
+Found 19 errors in 9 files (checked 62 source files)
+
+[RRepo](kaiterra)api
+(kaiterra)api/examples/restv1-hmac.py:49:109: error: Syntax error in type annotation  [syntax]
+(kaiterra)api/examples/restv1-hmac.py:49:109: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](Pink-Silver)PyDoom
+(Pink-Silver)PyDoom/pydoom.py:34:5: error: Name 'GITVERSION' already defined on line 32  [no-redef]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](eliben)code-for-blog
+(eliben)code-for-blog/2009/py_rd_parser_example/rd_parser_infix_expr.py:132:33: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 99 source files)
+
+[RRepo](sigrokproject)libsigrokdecode
+(sigrokproject)libsigrokdecode/decoders/cc1101/pd.py:38:5: error: Need type annotation for 'outputs' (hint: "outputs: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](nextcloud)appstore
+(nextcloud)appstore/scripts/generate_authors.py:53:15: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(nextcloud)appstore/scripts/generate_authors.py:54:16: error: List comprehension has incompatible type List[Dict[str, str]]; expected List[str]  [misc]
+(nextcloud)appstore/scripts/generate_authors.py:55:15: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(nextcloud)appstore/scripts/generate_authors.py:55:44: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(nextcloud)appstore/scripts/generate_authors.py:56:35: error: Argument 1 to "to_markdown" has incompatible type "List[str]"; expected "Iterator[Dict[str, str]]"  [arg-type]
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note: 'list' is missing following 'Iterator' protocol member:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:     __next__
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note: Following member(s) of "List[str]" have conflicts:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:     Expected:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:         def __iter__(self) -> Iterator[Dict[str, str]]
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:     Got:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:         def __iter__(self) -> Iterator[str]
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:     Expected:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:         def __iter__(self) -> Iterator[Dict[str, str]]
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:     Got:
+(nextcloud)appstore/scripts/generate_authors.py:56:35: note:         def __iter__(self) -> Iterator[str]
+(nextcloud)appstore/nextcloudappstore/core/github.py:21:45: error: Argument "params" has incompatible type "Tuple[Tuple[str, int], Tuple[str, int]]"; expected <union: 9 items>  [arg-type]
+Found 6 errors in 2 files (checked 81 source files)
+
+[RRepo](gumblex)coinpricebot
+Success: no issues found in 1 source file
+
+[RRepo](rasguanabana)function-pattern-matching
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:9:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:9:8: note: Suggestion: use fpm.ne[...] instead of fpm.ne(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:10:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:10:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:18:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:18:8: note: Suggestion: use fpm.Isnot[...] instead of fpm.Isnot(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:20:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:20:8: note: Suggestion: use fpm.In[...] instead of fpm.In(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:26:22: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:26:22: note: Suggestion: use fpm.relguard[...] instead of fpm.relguard(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:31:22: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:31:22: note: Suggestion: use fpm.relguard[...] instead of fpm.relguard(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:37:22: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:37:22: note: Suggestion: use fpm.relguard[...] instead of fpm.relguard(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:43:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:43:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:44:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:44:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:45:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:45:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:46:6: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:46:6: note: Suggestion: use fpm.relguard[...] instead of fpm.relguard(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:52:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:52:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:55:6: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:55:6: note: Suggestion: use fpm.relguard[...] instead of fpm.relguard(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:63:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:63:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:64:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:64:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:65:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:65:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:74:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:74:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:83:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:83:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:84:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:84:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:85:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:85:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:92:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:92:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:100:24: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:105:24: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:111:24: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:117:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:117:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:118:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:118:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:119:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:119:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:120:6: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:126:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:126:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:129:6: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:133:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:133:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:134:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:134:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:135:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:135:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:136:6: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:141:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:141:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:142:8: error: Invalid type comment or annotation  [valid-type]
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:142:8: note: Suggestion: use fpm.isoftype[...] instead of fpm.isoftype(...)
+(rasguanabana)function-pattern-matching/tests/py3_defs.py:143:8: error: Invalid type comment or annotation  [valid-type]
+Found 37 errors in 1 file (checked 1 source file)
+
+[RRepo](paultag)aiodocker
+Success: no issues found in 29 source files
+
+[RRepo](sztanko)exaquery
+(sztanko)exaquery/backend/timeline/timeline_app.py:26:1: error: Need type annotation for 'settings' (hint: "settings: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](vprusso)youtube_tutorials
+(vprusso)youtube_tutorials/algorithms/search_algorithms/binary_search/binary_search.py:43:45: error: unexpected EOF while parsing  [syntax]
+Found 1 error in 1 file (checked 112 source files)
+
+[RRepo](nad2000)memrise-scraper
+Success: no issues found in 3 source files
+
+[RRepo](UrbanCCD-UChicago)plenario
+(UrbanCCD-UChicago)plenario/plenario/utils/typeinference.py:104:21: error: The type alias is invalid in runtime context  [misc]
+(UrbanCCD-UChicago)plenario/plenario/utils/typeinference.py:127:34: error: The type alias is invalid in runtime context  [misc]
+(UrbanCCD-UChicago)plenario/plenario/models/User.py:7:1: error: Module 'plenario.models' has no attribute 'bcrypt'  [attr-defined]
+(UrbanCCD-UChicago)plenario/plenario/models/SensorNetwork.py:110:9: error: Need type annotation for 'keys' (hint: "keys: List[<type>] = ...")  [var-annotated]
+(UrbanCCD-UChicago)plenario/plenario/models/SensorNetwork.py:178:9: error: Need type annotation for 'feature_set' (hint: "feature_set: Set[<type>] = ...")  [var-annotated]
+
+[RRepo](pratyushprakash)HackerFeed
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:19:26: error: Value of type "Response" is not indexable  [index]
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:21:15: error: Value of type "Response" is not indexable  [index]
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:40:26: error: Value of type "Response" is not indexable  [index]
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:42:15: error: Value of type "Response" is not indexable  [index]
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:61:26: error: Value of type "Response" is not indexable  [index]
+(pratyushprakash)HackerFeed/hfeedlib/fetchlib.py:63:15: error: Value of type "Response" is not indexable  [index]
+Found 6 errors in 1 file (checked 5 source files)
+
+[RRepo](jenerestain)smart-student
+(jenerestain)smart-student/contracts/student.v.py:1:10: error: Invalid type comment or annotation  [valid-type]
+(jenerestain)smart-student/contracts/student.v.py:1:10: note: Suggestion: use public[...] instead of public(...)
+(jenerestain)smart-student/contracts/student.v.py:10:10: error: Invalid type comment or annotation  [valid-type]
+(jenerestain)smart-student/contracts/student.v.py:10:10: note: Suggestion: use public[...] instead of public(...)
+(jenerestain)smart-student/contracts/student.v.py:11:10: error: Name 'num' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:13:24: error: Name 'address' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:14:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:15:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:17:27: error: Name 'decimal' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:17:46: error: Name 'num' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:18:9: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:18:22: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:19:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:19:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:21:2: error: Name 'payable' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:22:23: error: Name 'bytes32' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:23:13: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:23:26: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:26:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:26:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:27:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:27:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:28:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:28:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:29:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:29:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:31:24: error: Name 'num' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:31:34: error: Name 'address' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:32:9: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:32:23: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:33:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:35:19: error: Name 'address' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:35:37: error: Name 'currency_value' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:36:9: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:36:22: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:38:2: error: Name 'self' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:38:15: error: Name 'msg' is not defined  [name-defined]
+(jenerestain)smart-student/contracts/student.v.py:39:2: error: Name 'self' is not defined  [name-defined]
+Found 36 errors in 1 file (checked 1 source file)
+
+[RRepo](reimandlab)ActiveDriverDB
+(reimandlab)ActiveDriverDB/website/stats/store/objects.py:9:30: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(reimandlab)ActiveDriverDB/website/stats/store/objects.py:9:30: note: Perhaps you need "Callable[...]" or a callback protocol?
+(reimandlab)ActiveDriverDB/website/stats/store/objects.py:35:20: error: Incompatible types in assignment (expression has type "_lru_cache_wrapper[Any]", variable has type "FunctionType")  [assignment]
+(reimandlab)ActiveDriverDB/website/stats/store/objects.py:37:13: error: "FunctionType" has no attribute "name"  [attr-defined]
+(reimandlab)ActiveDriverDB/website/helpers/plots.py:41:9: error: Need type annotation for 'names' (hint: "names: List[<type>] = ...")  [var-annotated]
+
+[RRepo](pynamodb)PynamoDB
+(pynamodb)PynamoDB/pynamodb/connection/table.py:6:1: error: Module 'pynamodb.constants' has no attribute 'DEFAULT_BILLING_MODE'  [attr-defined]
+(pynamodb)PynamoDB/pynamodb/settings.py:21:1: error: Need type annotation for 'override_settings' (hint: "override_settings: Dict[<type>, <type>] = ...")  [var-annotated]
+(pynamodb)PynamoDB/pynamodb/settings.py:23:25: error: Incompatible types in assignment (expression has type Module, variable has type "Dict[Any, Any]")  [assignment]
+(pynamodb)PynamoDB/pynamodb/transactions.py:2:1: error: Module 'pynamodb.models' has no attribute '_ModelFuture'  [attr-defined]
+(pynamodb)PynamoDB/tests/integration/model_integration_test.py:7:1: error: Module 'pynamodb.attributes' has no attribute 'VersionAttribute'  [attr-defined]
+(pynamodb)PynamoDB/examples/attributes.py:57:16: error: Incompatible types in assignment (expression has type "Color", variable has type "Optional[bytes]")  [assignment]
+
+[RRepo](James-Yu)LaTeX-Workshop
+Success: no issues found in 1 source file
+
+[RRepo](darkfeline)animanager
+(darkfeline)animanager/animanager/sqlite/cachetable.py:31:43: error: Name 'Iterable' is not defined  [name-defined]
+(darkfeline)animanager/animanager/sqlite/cachetable.py:31:43: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Iterable")
+(darkfeline)animanager/animanager/db/query/eptype.py:23:1: error: Module 'animanager.sqlite' has no attribute 'CachedView'  [attr-defined]
+(darkfeline)animanager/animanager/db/cachetable.py:20:1: error: Module 'animanager.sqlite' has no attribute 'CacheTableSpec'  [attr-defined]
+(darkfeline)animanager/animanager/db/cachetable.py:20:1: error: Module 'animanager.sqlite' has no attribute 'CacheTableManager'  [attr-defined]
+(darkfeline)animanager/animanager/commands/__init__.py:22:40: error: Name '__path__' is not defined  [name-defined]
+(darkfeline)animanager/animanager/commands/__init__.py:23:16: error: Module has no attribute "command"  [attr-defined]
+(darkfeline)animanager/animanager/db/query/files.py:23:1: error: Module 'animanager.files' has no attribute 'AnimeFiles'  [attr-defined]
+(darkfeline)animanager/animanager/db/query/files.py:24:1: error: Module 'animanager.sqlite' has no attribute 'upsert'  [attr-defined]
+
+[RRepo](bryanforbes)Erasmus
+(bryanforbes)Erasmus/erasmus/json.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/cogs/misc.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/cogs/misc.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(bryanforbes)Erasmus/erasmus/cogs/misc.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(bryanforbes)Erasmus/erasmus/cogs/creeds.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/cogs/creeds.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(bryanforbes)Erasmus/erasmus/cogs/creeds.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(bryanforbes)Erasmus/erasmus/db/bible.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/db/bible.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(bryanforbes)Erasmus/erasmus/exceptions.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/format.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(bryanforbes)Erasmus/erasmus/protocols.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+

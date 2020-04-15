@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(massmutual)py4jdbc/setup.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/utils.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/ansiterm.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/resultset.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/dbapi2.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/sqla_compat.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/gateway_process.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/py4jdbc/exceptions/py4j.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/tests/test_utils.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/tests/test_Cursor.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/tests/test_Cursor_introspection.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/tests/conftest.py
+/home/bew/archive/typed_project/(massmutual)py4jdbc/tests/exceptions/test_sqltate_exceptions.py

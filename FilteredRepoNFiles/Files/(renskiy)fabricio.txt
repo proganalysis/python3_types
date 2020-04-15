@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(renskiy)fabricio/tests/__init__.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/utils.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/kubernetes.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/misc.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/operations.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/decorators.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/docker/base.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/docker/stack.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/docker/image.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/docker/service.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/docker/container.py
+/home/bew/archive/typed_project/(renskiy)fabricio/fabricio/apps/python/django.py
+/home/bew/archive/typed_project/(renskiy)fabricio/examples/roles/fabfile.py
+/home/bew/archive/typed_project/(renskiy)fabricio/examples/apps/django/project/urls.py
+/home/bew/archive/typed_project/(renskiy)fabricio/tests/test_fabricio.py
+/home/bew/archive/typed_project/(renskiy)fabricio/tests/test_utils.py
+/home/bew/archive/typed_project/(renskiy)fabricio/tests/test_decorators.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/address.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/aliases.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/asa.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/caller.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/rulelogging.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/baseconfigobject.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/pyASA/acl.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/test/online/ACL_test.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/test/offline/Aliases_test.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/test/offline/ASA_test.py
+/home/bew/archive/typed_project/(xpac1985)pyASA/test/offline/Address_test.py

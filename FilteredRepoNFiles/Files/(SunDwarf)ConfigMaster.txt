@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/test_configmaster.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/ConfigFile.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/ConfigKey.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/INIConfigFile.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/JSONConfigFile.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/YAMLConfigFile.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/ConfigGenerator.py
+/home/bew/archive/typed_project/(SunDwarf)ConfigMaster/configmaster/SPyCfg.py

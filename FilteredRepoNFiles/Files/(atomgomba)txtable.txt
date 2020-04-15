@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/__main__.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/options_merger.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/table.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/formatters/rst_formatter.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/formatters/base_formatter.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/tests/test_default_formatter.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/tests/test_md_formatter.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/tests/test_table.py
+/home/bew/archive/typed_project/(atomgomba)txtable/txtable/tests/test_rst_formatter.py

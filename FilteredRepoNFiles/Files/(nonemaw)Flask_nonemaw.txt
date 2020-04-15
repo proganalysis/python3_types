@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/app/__init__.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/config.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/web_ssh/ssh_bridge.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/app/db.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/app/decorators.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/app/crawler/forms.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/app/science/compute.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/crawler_core/threadpool.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/crawler_core/thread_base.py
+/home/bew/archive/typed_project/(nonemaw)Flask_nonemaw/crawler_core/workers.py

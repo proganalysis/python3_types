@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(SciTools)cf_units/setup.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tex.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/util.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/config.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/_udunits2_parser/compile.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/_udunits2_parser/graph.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/_udunits2_parser/parser/udunits2ParserVisitor.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/test_coding_standards.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/test_tex.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/integration/test__num2date_to_nearest_second.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/integration/test_date2num.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/integration/parse/test_parse.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/integration/parse/test_graph.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/unit/test__udunits2.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/unit/unit/test_Unit.py
+/home/bew/archive/typed_project/(SciTools)cf_units/cf_units/tests/unit/unit/test_as_unit.py

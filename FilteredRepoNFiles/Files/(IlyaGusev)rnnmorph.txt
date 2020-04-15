@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/char_embeddings_model.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/tag_genres.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/test_predictor.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/train.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/predictor.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/config.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/batch_generator.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/util/timeit.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/util/embeddings.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/util/tqdm_open.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/loader.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/grammeme_vectorizer.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/process_tag.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/converter.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/word_form.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/data_preparation/word_vocabulary.py
+/home/bew/archive/typed_project/(IlyaGusev)rnnmorph/rnnmorph/test/evaluate.py

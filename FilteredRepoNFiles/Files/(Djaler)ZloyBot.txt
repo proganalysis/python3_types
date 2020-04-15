@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(Djaler)ZloyBot/model/__init__.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/utils.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/bot.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/filters.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/bin/check_rss.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/pay_respect.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/forward.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/statistic.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/admin.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/resolve.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/reply_to_pin.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/kto_zloy.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/block_stickerpack.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/user_join_captcha.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/modules/reactions.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/tests/forward_test.py
+/home/bew/archive/typed_project/(Djaler)ZloyBot/tests/resolve_test.py

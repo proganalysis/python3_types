@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/common.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/cli.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/debugger/launcher.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/server/response.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/server/web.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/task/tasks.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/task/request.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/scheduler/client.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/scheduler/handlers/projects.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/scheduler/handlers/buckets.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/scheduler/handlers/workers.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/scheduler/handlers/packages.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/pyloom/worker/prod.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/examples/DouBanBook/captcha.py
+/home/bew/archive/typed_project/(spencer404)PyLoom/tests/test_tasks.py

@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/api.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/object_codec.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/marshalling.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/component.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/json.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/yaml.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/cbor.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/pickle.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/asphalt/serialization/serializers/msgpack.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/examples/simple.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/examples/custom_types.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/tests/test_serializers.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-serialization/tests/test_component.py

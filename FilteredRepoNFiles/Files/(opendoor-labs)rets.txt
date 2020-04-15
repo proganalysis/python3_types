@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/errors.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/http/parsers/parse.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/http/parsers/parse_object.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/tests/utils.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/resource.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/resource_class.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/record.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/decoder.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/client.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/rets/client/object_type.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/tests/http/parsers/parse_multipart_test.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/tests/http/parsers/parse_object_test.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/tests/client/http_client_test.py
+/home/bew/archive/typed_project/(opendoor-labs)rets/tests/client/decoder_test.py

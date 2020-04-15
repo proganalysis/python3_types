@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/setup.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/scripts/bump_year.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/utils.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/poster.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/heatmap_drawer.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/calendar_drawer.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/track.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/circular_drawer.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/xy.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/grid_drawer.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/value_range.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/cli.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/track_loader.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/tracks_drawer.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/gpxtrackposter/year_range.py
+/home/bew/archive/typed_project/(flopp)GpxTrackPoster/tests/test_utils.py

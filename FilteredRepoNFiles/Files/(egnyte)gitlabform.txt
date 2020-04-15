@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(egnyte)gitlabform/setup.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/configuration/core.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/configuration/projects_and_groups.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/configuration/test/test_projects_and_groups.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/projects.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/tags.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/repositories.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/pipelines.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/groups.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/services.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/commits.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/merge_requests.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/branches.py
+/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/gitlab/members.py

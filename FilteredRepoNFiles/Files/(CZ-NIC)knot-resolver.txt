@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/ci/travis.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/proxyutils.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/utils.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/proxy.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/test_conn_mgmt.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/test_rehandshake.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/kresd.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/test_tls.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/test_prefix.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/test_random_close.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/conftest.py
+/home/bew/archive/typed_project/(CZ-NIC)knot-resolver/tests/pytests/conn_flood.py

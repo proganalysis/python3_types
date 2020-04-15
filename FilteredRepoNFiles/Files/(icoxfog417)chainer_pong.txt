@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/run.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/model/dqn_agent.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/model/dqn_trainer.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/model/agent.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/model/environment.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/model/rule_agent.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/tests/test_environment.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/tests/test_rule_agent.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/tests/funfun.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/tests/test_dqn_agent.py
+/home/bew/archive/typed_project/(icoxfog417)chainer_pong/tests/test_dqn_trainer.py

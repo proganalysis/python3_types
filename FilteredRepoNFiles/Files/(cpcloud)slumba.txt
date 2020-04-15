@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/__init__.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/numbaext.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/sqlite.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/scalar.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/aggregate.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/tests/test_numbaext.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/tests/test_scalar.py
+/home/bew/archive/typed_project/(cpcloud)slumba/slumba/tests/test_aggregate.py

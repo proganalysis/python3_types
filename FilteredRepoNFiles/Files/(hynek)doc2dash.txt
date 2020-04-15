@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(hynek)doc2dash/setup.py
+/home/bew/archive/typed_project/(hynek)doc2dash/docs/conf.py
+/home/bew/archive/typed_project/(hynek)doc2dash/src/doc2dash/parsers/utils.py
+/home/bew/archive/typed_project/(hynek)doc2dash/src/doc2dash/parsers/pydoctor.py
+/home/bew/archive/typed_project/(hynek)doc2dash/tests/test_main.py
+/home/bew/archive/typed_project/(hynek)doc2dash/tests/parsers/test_utils.py
+/home/bew/archive/typed_project/(hynek)doc2dash/tests/parsers/test_detectors.py
+/home/bew/archive/typed_project/(hynek)doc2dash/tests/parsers/intersphinx/test_intersphinx.py
+/home/bew/archive/typed_project/(hynek)doc2dash/tests/parsers/pydoctor/test_pydoctor.py

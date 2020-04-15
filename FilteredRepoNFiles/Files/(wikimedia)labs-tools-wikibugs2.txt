@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/manage.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/wblogging.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/redis2irc.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/wikibugs.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/messagebuilder.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/channelfilter.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/grrrrit.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/configfetcher.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/rqueue.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/redis2stdout.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tools/update_contributors.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/test_channels_yaml.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/test_json_events.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/test_wikibugs2.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/test_messagebuilder.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/test_grrrrit.py
+/home/bew/archive/typed_project/(wikimedia)labs-tools-wikibugs2/tests/data/stream_events/anonymize.py

@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/calculator_pb2_grpc.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/server/calculator_service_test.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/server/calculator_service.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/server/server_main.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/client/client_lib.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/client/client_lib_test.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_unittest/client/client_main.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/key_auth_server_interceptor.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/cowsay_client.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/test_quote_service.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/test_cowsay_client.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/test_tracer_client_interceptor.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/tracer_client_interceptor.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/quote_service.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/quote_service/test_key_auth_server_interceptor.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/cowsay_service/cowsay_service.py
+/home/bew/archive/typed_project/(MasuqaT-NET)BlogExamples/Web/gRPC/python_practical_example/client/key_auth_client_interceptor.py

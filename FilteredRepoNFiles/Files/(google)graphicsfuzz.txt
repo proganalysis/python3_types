@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/manage_server_helper.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/cmd_helpers.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/gapidfuzz.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/reduce-spirv-opt-flags.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/report-compute-shader-family-results.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/backtrace-summary.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/run-browser-android.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/inspect_compute_results.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/glsl-generate.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/python/src/main/python/drivers/run-browser.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/build/travis/check_headers.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/build/travis/release.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/third_party/thrift-py/src/main/scripts/transport/sslcompat.py
+/home/bew/archive/typed_project/(google)graphicsfuzz/third_party/thrift-py/src/main/scripts/transport/THttpClient.py

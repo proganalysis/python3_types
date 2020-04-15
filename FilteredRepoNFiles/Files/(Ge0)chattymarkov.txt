@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(Ge0)chattymarkov/src/chattymarkov/database/__init__.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/setup.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/src/chattymarkov/database/base.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/src/chattymarkov/database/databases.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/tests/test_chattymarkov.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/tests/database/test_memory.py
+/home/bew/archive/typed_project/(Ge0)chattymarkov/tests/database/test_init.py

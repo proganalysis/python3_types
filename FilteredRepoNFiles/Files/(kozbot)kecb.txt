@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(kozbot)kecb/utils.py
+/home/bew/archive/typed_project/(kozbot)kecb/generate_dxf.py
+/home/bew/archive/typed_project/(kozbot)kecb/drawable.py
+/home/bew/archive/typed_project/(kozbot)kecb/entity.py
+/home/bew/archive/typed_project/(kozbot)kecb/symbol.py
+/home/bew/archive/typed_project/(kozbot)kecb/exporter/svgexporter.py
+/home/bew/archive/typed_project/(kozbot)kecb/exporter/dxfexporter.py
+/home/bew/archive/typed_project/(kozbot)kecb/exporter/exporter.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/bit.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/generic.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/limit.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/protect.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/coil.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/terminal.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/contact.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/ground.py
+/home/bew/archive/typed_project/(kozbot)kecb/symlib/pilot.py

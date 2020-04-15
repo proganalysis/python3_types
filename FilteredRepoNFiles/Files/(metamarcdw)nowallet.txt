@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowalletd.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/settings_json.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/server.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowallet/socks_http.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowallet/scrape.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowallet/keys.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowallet/bip49.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/nowallet/exchange_rate.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_bip69_bip49.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_keys.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_scrape.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_socks_http.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_nowallet.py
+/home/bew/archive/typed_project/(metamarcdw)nowallet/tests/test_exchange_rate.py

@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/__init__.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/getmultipolygonfromvec.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/cadastre_export_dialog.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/cadastre_identify_parcelle.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/resources.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/cadastre_common_base.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/plugin_upload.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/scripts/pyogr/ogrvrt.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/scripts/pyogr/ogrds.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/processing/provider.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/processing/algorithms/config.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/server/cadastre_server.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/server/cadastre_service.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/tests/test_service.py
+/home/bew/archive/typed_project/(3liz)QgisCadastrePlugin/tests/conftest.py

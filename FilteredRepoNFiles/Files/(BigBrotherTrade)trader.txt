@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/strategy/__init__.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/main.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/utils/fetch_data.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/utils/tick.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/utils/func_container.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/trader/utils/logger.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/panel/models.py
+/home/bew/archive/typed_project/(BigBrotherTrade)trader/test/test_api.py

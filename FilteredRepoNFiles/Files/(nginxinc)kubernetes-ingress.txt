@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/conftest.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_jwt_auth_mergeable.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server_tls.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server_advanced_routing.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_externalname_service.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_smoke.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/custom_resources_utils.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/ssl_utils.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server_configmap_keys.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server_validation.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/yaml_utils.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_wildcard_tls_secret.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/kube_config_utils.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_virtual_server_split_traffic.py
+/home/bew/archive/typed_project/(nginxinc)kubernetes-ingress/tests/suite/test_jwt_secrets.py

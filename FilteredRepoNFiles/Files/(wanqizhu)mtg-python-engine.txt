@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/test.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/parser/parse_mtgjson.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/parser/parse_cockatrice.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/cards.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/spell.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/mana.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/gamesteps.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/play.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/gameobject.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/token.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/helper_funcs.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/abilities.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/card.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/zone.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/combat.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/test/test_player.py
+/home/bew/archive/typed_project/(wanqizhu)mtg-python-engine/MTG/test/test_mana.py

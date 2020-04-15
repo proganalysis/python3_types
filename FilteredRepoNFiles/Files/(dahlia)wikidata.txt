@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/entity.py
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/commonsmedia.py
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/cache.py
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/multilingual.py
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/datavalue.py
+/home/bew/archive/typed_project/(dahlia)wikidata/wikidata/client.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/cache_test.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/datavalue_test.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/client_test.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/mock.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/multilingual_test.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/conftest.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/entity_test.py
+/home/bew/archive/typed_project/(dahlia)wikidata/tests/commonsmedia_test.py

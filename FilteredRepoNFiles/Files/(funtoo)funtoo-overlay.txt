@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/utils/python3_kit_qa_check.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/utils/google_upload_server.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/bug_utils.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/merge/async_engine.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/merge/async_portage.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/merge/config.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/merge/db_core.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/modules/merge/extensions/xproto.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/tests/extra_packages.py
+/home/bew/archive/typed_project/(funtoo)funtoo-overlay/wip/upgrade_steps.py

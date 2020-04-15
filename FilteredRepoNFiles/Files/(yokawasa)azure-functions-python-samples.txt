@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/http-trigger-dump-request/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/queue-trigger-blob-in-out-binding/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/blob-trigger-cosmosdb-out-binding/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/cosmos-trigger-cosmodb-output-binding/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/timer-trigger-cosmosdb-output-binding/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/http-trigger-blob-sas-token/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v2functions/blob-trigger-watermark-blob-out-binding/__init__.py
+/home/bew/archive/typed_project/(yokawasa)azure-functions-python-samples/v1functions/queue-trigger-cosmosdb-in-binding/run.py

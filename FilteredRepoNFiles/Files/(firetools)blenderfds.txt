@@ -1,0 +1,25 @@
+/home/bew/archive/typed_project/(firetools)blenderfds/blenderfds_tools/__init__.py
+/home/bew/archive/typed_project/(firetools)blenderfds/dev/make_test.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/utils.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/custom_list_operators.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/exceptions.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/bl/panels.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/bl/preferences.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/bl/simplified_ui/space_info_normal.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/bl/simplified_ui/space_properties.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/bl/simplified_ui/space_info.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/index_namelists.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/reference_namelists.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/surf.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/to_py.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/head.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/fds/index_namelists_2.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/geometry/to_ge1.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/geometry/tmp_objects.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/test/term_colors.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/test/import.py
+/home/bew/archive/typed_project/(firetools)blenderfds/zzz_blenderfds/test/export.py
+/home/bew/archive/typed_project/(firetools)blenderfds/examples/uni-build/test/run.py
+/home/bew/archive/typed_project/(firetools)blenderfds/blender-py-examples/uilist of files.py
+/home/bew/archive/typed_project/(firetools)blenderfds/blender-py-examples/uilist of objects.py
+/home/bew/archive/typed_project/(firetools)blenderfds/blender-py-examples/bpy.types.UIList.2.py

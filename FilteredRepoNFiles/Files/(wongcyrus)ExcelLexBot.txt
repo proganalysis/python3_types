@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/setup.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/dispatcher.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/s3_trigger_handler.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/lex_customer_resources.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/BotBuilder.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/converter/IntentConverter.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/converter/BotJsonConverter.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/builder/converter/SlotJsonConverter.py
+/home/bew/archive/typed_project/(wongcyrus)ExcelLexBot/playground/delete_log_groups.py

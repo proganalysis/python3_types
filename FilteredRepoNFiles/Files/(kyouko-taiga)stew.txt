@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/utils.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/strategies.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/core.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/matching.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/types/bool.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/types/nat.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/types/abstract.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/translators/simple.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/translators/terms.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/translators/mocks.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/stew/translators/translator.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/tests/test_matching.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/tests/test_core.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/tests/types/test_nat.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/tests/types/test_abstract.py
+/home/bew/archive/typed_project/(kyouko-taiga)stew/tests/types/test_bool.py

@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(opensyllabus)osp-api/manage.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/osp_api/argschemas.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/osp_api/cache.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/osp_api/users.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/osp_api/limits.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/osp_api/gunicorn.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/migrations/versions/b140958ea538_.py
+/home/bew/archive/typed_project/(opensyllabus)osp-api/tests/test_everything.py

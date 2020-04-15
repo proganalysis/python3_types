@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(abertal)alpha/alpha/settings.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/forms.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/filters.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/test_forms.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/pages.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/test_views.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/conftest.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/test_filters.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/forms/test_custodian.py
+/home/bew/archive/typed_project/(abertal)alpha/webapp/tests/forms/test_member.py
+/home/bew/archive/typed_project/(abertal)alpha/core/models.py
+/home/bew/archive/typed_project/(abertal)alpha/core/management/commands/importdata.py
+/home/bew/archive/typed_project/(abertal)alpha/core/tests/test_age.py
+/home/bew/archive/typed_project/(abertal)alpha/core/tests/test_models.py
+/home/bew/archive/typed_project/(abertal)alpha/core/tests/test_command_importdata.py

@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/tournaments/models.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/tournaments/tasks.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/tournaments/serializers.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/tournaments/tests/test_crawl_tournaments.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/config/celery.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/config/settings/base.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/sets/admin.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/stats/utils.py
+/home/bew/archive/typed_project/(thomasperrot)MTGTrader/mtg/stats/tests/test_crawl_mkm.py

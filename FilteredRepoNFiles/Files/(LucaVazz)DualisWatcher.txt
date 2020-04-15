@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/version_recorder.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/main.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/config_helper.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/dhbw_ma_schedule_connector/schedule_service.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/dualis_connector/request_helper.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/dualis_connector/results_handler.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/dualis_connector/dualis_service.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/dualis_connector/login_helper.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/notification_services/notification_service.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/notification_services/mail/mail_shooter.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/notification_services/mail/mail_formater.py
+/home/bew/archive/typed_project/(LucaVazz)DualisWatcher/notification_services/mail/mail_service.py

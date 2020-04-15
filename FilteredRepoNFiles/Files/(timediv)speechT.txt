@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(timediv)speechT/speecht/recording.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/speech_model.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/exporting.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/speech_input.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/record_utils.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/execution.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/training.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/preprocessing.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/vocabulary.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/evaluation.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/corpus.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/parameter_search.py
+/home/bew/archive/typed_project/(timediv)speechT/speecht/tests/test_speechCorpusReader.py

@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(memento7)KINCluster/KINCluster/KINCluster.py
+/home/bew/archive/typed_project/(memento7)KINCluster/KINCluster/lib/stopwords.py
+/home/bew/archive/typed_project/(memento7)KINCluster/KINCluster/lib/tokenizer.py
+/home/bew/archive/typed_project/(memento7)KINCluster/KINCluster/core/extractor.py
+/home/bew/archive/typed_project/(memento7)KINCluster/test_app/item.py
+/home/bew/archive/typed_project/(memento7)KINCluster/test_app/pipeline.py
+/home/bew/archive/typed_project/(memento7)KINCluster/KINCluster/core/cluster.py
+/home/bew/archive/typed_project/(memento7)KINCluster/tests/test_item.py
+/home/bew/archive/typed_project/(memento7)KINCluster/tests/test_extractor.py
+/home/bew/archive/typed_project/(memento7)KINCluster/tests/test_KINCluster.py
+/home/bew/archive/typed_project/(memento7)KINCluster/tests/test_pipeline.py
+/home/bew/archive/typed_project/(memento7)KINCluster/tests/test_cluster.py

@@ -1,0 +1,47 @@
+/home/bew/archive/typed_project/(5agado)data-science-learning/scripts/image_montage.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/scripts/video_mosaic.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/scripts/convert_video.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/test.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/snowflakes.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/gol_donut.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/automata_blender_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/Automaton.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/cellular automata/automata_blender.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/sierpinski.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/blender_addon_template.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/selective_sampling.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/reaction_diffusion/ReactionDiffusionSystem.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/spirograph/spirograph_blender.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/spirograph/Spirograph.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/morphogenesis/morphogenesis_blender.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/morphogenesis/Morphogenesis.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/heartbeat/heartbeat_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/heartbeat/main.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/agents/flock_blender.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/agents/Flock.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/blender/sketch_rnn.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/blender/grease_pencil_tests.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/blender/face_anim.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/blender/growth_anim.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/l_systems/LSystem.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/graphics/l_systems/l_system_blender.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/generative_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/colaboratory_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/blender_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/classification_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/vgg_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/autoencoder_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/CV_template.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/cnn.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/video_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/nlp_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/data_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/pyspark_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/plot_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/super_resolution.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/ds_utils/image_processing.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/deep learning/CPPN/CPPN.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/deep learning/Pix2Pix/pix2pix.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/deep learning/GAN/dcgan.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/deep learning/GAN/gan_utils.py
+/home/bew/archive/typed_project/(5agado)data-science-learning/deep learning/GAN/cgan.py

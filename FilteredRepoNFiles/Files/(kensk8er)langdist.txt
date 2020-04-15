@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(kensk8er)langdist/setup.py
+/home/bew/archive/typed_project/(kensk8er)langdist/tools/tensorflow_rename_variables.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/encoder.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/batch.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/transliterator.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/cli.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/util.py
+/home/bew/archive/typed_project/(kensk8er)langdist/langdist/preprocess.py
+/home/bew/archive/typed_project/(kensk8er)langdist/tests/test_preprocess.py
+/home/bew/archive/typed_project/(kensk8er)langdist/tests/test_transliterator.py
+/home/bew/archive/typed_project/(kensk8er)langdist/tests/test_encoder.py
+/home/bew/archive/typed_project/(kensk8er)langdist/tests/test_langmodel.py

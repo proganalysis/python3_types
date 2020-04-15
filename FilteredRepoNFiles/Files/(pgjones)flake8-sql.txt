@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(pgjones)flake8-sql/flake8_sql/linter.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/flake8_sql/parser.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/tests/test_cases.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/tests/test_cases/linespace.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/tests/test_cases/fstring.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/tests/test_cases/subquery.py
+/home/bew/archive/typed_project/(pgjones)flake8-sql/tests/test_cases/alignment.py

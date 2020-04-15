@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/setup.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/mir/dlsite/workinfo.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/mir/dlsite/api.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/mir/dlsite/cmd/dllist.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/mir/dlsite/cmd/dlmv.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/mir/dlsite/cmd/dlorg.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/tests/test_workinfo.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/tests/test_api.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/tests/conftest.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/tests/test_dlorg.py
+/home/bew/archive/typed_project/(darkfeline)mir.dlsite/tests/test_dllist.py

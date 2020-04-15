@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/app.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/model/ball.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/model/box.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/model/scorer.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/model/board.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/views/gui_client.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/views/pygame_client.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/same/views/events.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/tests/test_model/test_box.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/tests/test_model/test_board.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/tests/test_model/test_scorer.py
+/home/bew/archive/typed_project/(opethe1st)SameGame/src/tests/test_model/test_ball.py

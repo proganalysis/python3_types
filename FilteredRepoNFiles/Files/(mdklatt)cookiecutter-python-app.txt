@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/setup.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/__main__.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/api/cmd2.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/api/cmd1.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/core/logger.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/core/config.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/test/{{cookiecutter.app_name}}/test_cli.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/test/{{cookiecutter.app_name}}/core/test_config.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/test/{{cookiecutter.app_name}}/core/test_logger.py
+/home/bew/archive/typed_project/(mdklatt)cookiecutter-python-app/tests/test_template.py

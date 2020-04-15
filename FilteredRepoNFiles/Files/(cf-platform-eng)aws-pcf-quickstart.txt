@@ -1,0 +1,6 @@
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/copy-image.py
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/delete-stack.py
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/create-stack.py
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/delete-buckets.py
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/generate-packer.py
+/home/bew/archive/typed_project/(cf-platform-eng)aws-pcf-quickstart/ci/check-status.py

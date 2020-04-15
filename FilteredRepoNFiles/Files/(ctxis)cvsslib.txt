@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/utils.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/command.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/vector.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/mixin.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/base_enum.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/contrib/django_model.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/cvsslib/cvss3/calculations.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/tests/test_enums.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/tests/test_django.py
+/home/bew/archive/typed_project/(ctxis)cvsslib/tests/test_vector.py

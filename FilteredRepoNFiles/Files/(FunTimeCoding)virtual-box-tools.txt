@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/tox.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/mccabe.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/tests/test_commands.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/tests/test_scan_code.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/tests/test_command_process.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/tests/test_host_configuration.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/host_configuration.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/windows_password_database.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/extract.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/scan_code.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/command_process.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/custom_argument_parser.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/yaml_config.py
+/home/bew/archive/typed_project/(FunTimeCoding)virtual-box-tools/virtual_box_tools/web_service.py

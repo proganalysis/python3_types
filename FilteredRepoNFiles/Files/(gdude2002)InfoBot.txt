@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/utils.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/__main__.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/log_handler.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/data.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/interpreter.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/base.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/url.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/numbered_list.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/bullet_list.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/text.py
+/home/bew/archive/typed_project/(gdude2002)InfoBot/bot/sections/faq.py

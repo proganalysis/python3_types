@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/setup.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/factories.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/port.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/plugin.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/executor.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/tests/test_janitor.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/tests/test_postgresql.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/tests/test_version.py
+/home/bew/archive/typed_project/(ClearcodeHQ)pytest-postgresql/tests/test_executor.py

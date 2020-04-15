@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(zeromq)pyre/setup.py
+/home/bew/archive/typed_project/(zeromq)pyre/pyre/pyre_event.py
+/home/bew/archive/typed_project/(zeromq)pyre/pyre/zre_msg.py
+/home/bew/archive/typed_project/(zeromq)pyre/pyre/pyre_group.py
+/home/bew/archive/typed_project/(zeromq)pyre/pyre/pyre_peer.py
+/home/bew/archive/typed_project/(zeromq)pyre/pyre/zsocket.py
+/home/bew/archive/typed_project/(zeromq)pyre/examples/chat.py
+/home/bew/archive/typed_project/(zeromq)pyre/examples/high_volume.py
+/home/bew/archive/typed_project/(zeromq)pyre/tests/test_network_disconnect.py
+/home/bew/archive/typed_project/(zeromq)pyre/tests/test_zhelper.py
+/home/bew/archive/typed_project/(zeromq)pyre/tests/test_zbeacon.py
+/home/bew/archive/typed_project/(zeromq)pyre/tests/test_pyre.py
+/home/bew/archive/typed_project/(zeromq)pyre/tests/test_zactor.py

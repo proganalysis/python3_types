@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/__init__.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/singleton.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/downloader.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/logger.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/formatter.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/safedict.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/pipe.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/formats/srt.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/formats/custom.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/formats/ssa.py
+/home/bew/archive/typed_project/(PetterKraabol)Twitch-Chat-Downloader/tcd/formats/format.py

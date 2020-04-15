@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(gallmerci)bico/bico/core.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/nearest_neighbor/base.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/nearest_neighbor/simple_projection.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/nearest_neighbor/random_binary_tree.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/nearest_neighbor/random_binary_projections.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/utils/ClusteringFeature.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/utils/BICONode.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/geometry/squared_euclidean.py
+/home/bew/archive/typed_project/(gallmerci)bico/bico/geometry/point.py
+/home/bew/archive/typed_project/(gallmerci)bico/examples/example.py
+/home/bew/archive/typed_project/(gallmerci)bico/examples/csv_input.py

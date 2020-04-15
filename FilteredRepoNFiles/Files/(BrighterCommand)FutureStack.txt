@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/app/__init__.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/worker.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/testrunner.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/config.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/ports/handlers.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/model/models.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/App/tests/tests_handlers.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/manage.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/app/api/admin.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/app/api/calendar.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/tests/base.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/tests/tests_calendar.py
+/home/bew/archive/typed_project/(BrighterCommand)FutureStack/Calendar/Api/tests/tests_todoitems.py

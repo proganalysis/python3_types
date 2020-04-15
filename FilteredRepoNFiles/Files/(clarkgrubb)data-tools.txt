@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/setup.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/normalize_utf8.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/html_table_to_csv.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/reservoir_sample.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/date_seq.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/tsv_to_json.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/counting_sort.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/date_fill.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/highlight.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/join_tsv.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/xlsx_to_csv.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/csv_to_xlsx.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/csv_to_json.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/convert_date.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/yaml_to_json.py
+/home/bew/archive/typed_project/(clarkgrubb)data-tools/data_tools/trim_tsv.py

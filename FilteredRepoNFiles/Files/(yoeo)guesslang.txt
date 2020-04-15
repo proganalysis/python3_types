@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(yoeo)guesslang/setup.py
+/home/bew/archive/typed_project/(yoeo)guesslang/docs/conf.py
+/home/bew/archive/typed_project/(yoeo)guesslang/guesslang/utils.py
+/home/bew/archive/typed_project/(yoeo)guesslang/guesslang/__main__.py
+/home/bew/archive/typed_project/(yoeo)guesslang/guesslang/extractor.py
+/home/bew/archive/typed_project/(yoeo)guesslang/guesslang/guesser.py
+/home/bew/archive/typed_project/(yoeo)guesslang/guesslang/config.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tools/make_keywords.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tools/download_github_repo.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tools/unzip_repos.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tools/report_graph.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tests/guesslang_fixtures.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tests/test_guesslang_extractor.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tests/test_guesslang_guess.py
+/home/bew/archive/typed_project/(yoeo)guesslang/tests/test_guesslang_utils.py

@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/smoke/bad/badIndent1.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/smoke/bad/badIndent0.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/smoke/bad/HelloWorld.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/smoke/good/good.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/specificLint/lint_unsupportedoperandtypesfor.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/specificLint/lint_revealtype.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/specificLint/lint_argumenthasincompatibletype.py
+/home/bew/archive/typed_project/(elarivie)linter-mypy/spec/fixtures/issue12/call_command.py

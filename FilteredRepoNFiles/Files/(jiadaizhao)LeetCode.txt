@@ -1,0 +1,894 @@
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0200-Number of Islands/0200-Number of Islands.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0171-Excel Sheet Column Number/0171-Excel Sheet Column Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0134-Gas Station/0134-Gas Station.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0133-Clone Graph/0133-Clone Graph.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0138-Copy List with Random Pointer/0138-Copy List with Random Pointer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0102-Binary Tree Level Order Traversal/0102-Binary Tree Level Order Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0122-Best Time to Buy and Sell Stock II/0122-Best Time to Buy and Sell Stock II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0189-Rotate Array/0189-Rotate Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0198-House Robber/0198-House Robber.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0123-Best Time to Buy and Sell Stock III/0123-Best Time to Buy and Sell Stock III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0118-Pascal's Triangle/0118-Pascal's Triangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0141-Linked List Cycle/0141-Linked List Cycle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0128-Longest Consecutive Sequence/0128-Longest Consecutive Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0190-Reverse Bits/0190-Reverse Bits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0155-Min Stack/0155-Min Stack.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0116-Populating Next Right Pointers in Each Node/0116-Populating Next Right Pointers in Each Node.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0124-Binary Tree Maximum Path Sum/0124-Binary Tree Maximum Path Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0109-Convert Sorted List to Binary Search Tree/0109-Convert Sorted List to Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0172-Factorial Trailing Zeroes/0172-Factorial Trailing Zeroes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0136-Single Number/0136-Single Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0147-Insertion Sort List/0147-Insertion Sort List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0110-Balanced Binary Tree/0110-Balanced Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0120-Triangle/0120-Triangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0113-Path Sum II/0113-Path Sum II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0144-Binary Tree Preorder Traversal/0144-Binary Tree Preorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0114-Flatten Binary Tree to Linked List/0114-Flatten Binary Tree to Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0148-Sort List/0148-Sort List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0105-Construct Binary Tree from Preorder and Inorder Traversal/0105-Construct Binary Tree from Preorder and Inorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0154-Find Minimum in Rotated Sorted Array II/0154-Find Minimum in Rotated Sorted Array II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0117-Populating Next Right Pointers in Each Node II/0117-Populating Next Right Pointers in Each Node II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0139-Word Break/0139-Word Break.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0166-Fraction to Recurring Decimal/0166-Fraction to Recurring Decimal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0111-Minimum Depth of Binary Tree/0111-Minimum Depth of Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0173-Binary Search Tree Iterator/0173-Binary Search Tree Iterator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0164-Maximum Gap/0164-Maximum Gap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0132-Palindrome Partitioning II/0132-Palindrome Partitioning II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0142-Linked List Cycle II/0142-Linked List Cycle II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0135-Candy/0135-Candy.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0127-Word Ladder/0127-Word Ladder.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0165-Compare Version Numbers/0165-Compare Version Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0137-Single Number II/0137-Single Number II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0115-Distinct Subsequences/0115-Distinct Subsequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0143-Reorder List/0143-Reorder List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0174-Dungeon Game/0174-Dungeon Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0103-Binary Tree Zigzag Level Order Traversal/0103-Binary Tree Zigzag Level Order Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0130-Surrounded Regions/0130-Surrounded Regions.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0146-LRU Cache/0146-LRU Cache.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0108-Convert Sorted Array to Binary Search Tree/0108-Convert Sorted Array to Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0145-Binary Tree Postorder Traversal/0145-Binary Tree Postorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0101-Symmetric Tree/0101-Symmetric Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0169-Majority Element/0169-Majority Element.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0140-Word Break II/0140-Word Break II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0150-Evaluate Reverse Polish Notation/0150-Evaluate Reverse Polish Notation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0121-Best Time to Buy and Sell Stock/0121-Best Time to Buy and Sell Stock.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0119-Pascal's Triangle II/0119-Pascal's Triangle II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0179-Largest Number/0179-Largest Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0167-Two Sum II - Input array is sorted/0167-Two Sum II - Input array is sorted.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0160-Intersection of Two Linked Lists/0160-Intersection of Two Linked Lists.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0187-Repeated DNA Sequences/0187-Repeated DNA Sequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0104-Maximum Depth of Binary Tree/0104-Maximum Depth of Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0151-Reverse Words in a String/0151-Reverse Words in a String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0131-Palindrome Partitioning/0131-Palindrome Partitioning.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0107-Binary Tree Level Order Traversal II/0107-Binary Tree Level Order Traversal II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0168-Excel Sheet Column Title/0168-Excel Sheet Column Title.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0106-Construct Binary Tree from Inorder and Postorder Traversal/0106-Construct Binary Tree from Inorder and Postorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0153-Find Minimum in Rotated Sorted Array/0153-Find Minimum in Rotated Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0188-Best Time to Buy and Sell Stock IV/0188-Best Time to Buy and Sell Stock IV.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0162-Find Peak Element/0162-Find Peak Element.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0191-Number of 1 Bits/0191-Number of 1 Bits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0125-Valid Palindrome/0125-Valid Palindrome.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0126-Word Ladder II/0126-Word Ladder II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0152-Maximum Product Subarray/0152-Maximum Product Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0112-Path Sum/0112-Path Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0199-Binary Tree Right Side View/0199-Binary Tree Right Side View.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0129-Sum Root to Leaf Numbers/0129-Sum Root to Leaf Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0101-0200/0149-Max Points on a Line/0149-Max Points on a Line.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1125-Smallest Sufficient Team/1125-Smallest Sufficient Team.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1145-Binary Tree Coloring Game/1145-Binary Tree Coloring Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1130-Minimum Cost Tree From Leaf Values/1130-Minimum Cost Tree From Leaf Values.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1106-Parsing A Boolean Expression/1106-Parsing A Boolean Expression.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1109-Corporate Flight Bookings/1109-Corporate Flight Bookings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1110-Delete Nodes And Return Forest/1110-Delete Nodes And Return Forest.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1147-Longest Chunked Palindrome Decomposition/1147-Longest Chunked Palindrome Decomposition.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1128-Number of Equivalent Domino Pairs/1128-Number of Equivalent Domino Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1129-Shortest Path with Alternating Colors/1129-Shortest Path with Alternating Colors.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1111-Maximum Nesting Depth of Two Valid Parentheses Strings/1111-Maximum Nesting Depth of Two Valid Parentheses Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1123-Lowest Common Ancestor of Deepest Leaves/1123-Lowest Common Ancestor of Deepest Leaves.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1139-Largest 1-Bordered Square/1139-Largest 1-Bordered Square.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1104-Path In Zigzag Labelled Binary Tree/1104-Path In Zigzag Labelled Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1138-Alphabet Board Path/1138-Alphabet Board Path.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1103-Distribute Candies to People/1103-Distribute Candies to People.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1122-Relative Sort Array/1122-Relative Sort Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1131-Maximum of Absolute Value Expression/1131-Maximum of Absolute Value Expression.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1114-Print in Order/1114-Print in Order.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1146-Snapshot Array/1146-Snapshot Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1115-Print FooBar Alternately/1115-Print FooBar Alternately.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1144-Decrease Elements To Make Array Zigzag/1144-Decrease Elements To Make Array Zigzag.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1143-Longest Common Subsequence/1143-Longest Common Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1116-Print Zero Even Odd/1116-Print Zero Even Odd.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1140-Stone Game II/1140-Stone Game II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1137-N-th Tribonacci Number/1137-N-th Tribonacci Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1105-Filling Bookcase Shelves/1105-Filling Bookcase Shelves.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1124-Longest Well-Performing Interval/1124-Longest Well-Performing Interval.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1101-1200/1108-Defanging an IP Address/1108-Defanging an IP Address.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0449-Serialize and Deserialize BST/0449-Serialize and Deserialize BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0470-Implement Rand10() Using Rand7()/0470-Implement Rand10() Using Rand7().py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0401-Binary Watch/0401-Binary Watch.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0435-Non-overlapping Intervals/0435-Non-overlapping Intervals.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0492-Construct the Rectangle/0492-Construct the Rectangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0457-Circular Array Loop/0457-Circular Array Loop.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0404-Sum of Left Leaves/0404-Sum of Left Leaves.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0415-Add Strings/0415-Add Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0412-Fizz Buzz/0412-Fizz Buzz.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0495-Teemo Attacking/0495-Teemo Attacking.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0456-132 Pattern/0456-132 Pattern.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0476-Number Complement/0476-Number Complement.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0464-Can I Win/0464-Can I Win.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0493-Reverse Pairs/0493-Reverse Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0453-Minimum Moves to Equal Array Elements/0453-Minimum Moves to Equal Array Elements.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0443-String Compression/0443-String Compression.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0462-Minimum Moves to Equal Array Elements II/0462-Minimum Moves to Equal Array Elements II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0424-Longest Repeating Character Replacement/0424-Longest Repeating Character Replacement.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0452-Minimum Number of Arrows to Burst Balloons/0452-Minimum Number of Arrows to Burst Balloons.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0450-Delete Node in a BST/0450-Delete Node in a BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0409-Longest Palindrome/0409-Longest Palindrome.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0417-Pacific Atlantic Water Flow/0417-Pacific Atlantic Water Flow.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0477-Total Hamming Distance/0477-Total Hamming Distance.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0414-Third Maximum Number/0414-Third Maximum Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0473-Matchsticks to Square/0473-Matchsticks to Square.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0454-4Sum II/0454-4Sum II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0468-Validate IP Address/0468-Validate IP Address.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0406-Queue Reconstruction by Height/0406-Queue Reconstruction by Height.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0483-Smallest Good Base/0483-Smallest Good Base.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0481-Magical String/0481-Magical String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0437-Path Sum III/0437-Path Sum III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0478-Generate Random Point in a Circle/0478-Generate Random Point in a Circle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0413-Arithmetic Slices/0413-Arithmetic Slices.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0442-Find All Duplicates in an Array/0442-Find All Duplicates in an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0403-Frog Jump/0403-Frog Jump.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0419-Battleships in a Board/0419-Battleships in a Board.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0441-Arranging Coins/0441-Arranging Coins.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0446-Arithmetic Slices II - Subsequence/0446-Arithmetic Slices II - Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0402-Remove K Digits/0402-Remove K Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0434-Number of Segments in a String/0434-Number of Segments in a String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0427-Construct Quad Tree/0427-Construct Quad Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0467-Unique Substrings in Wraparound String/0467-Unique Substrings in Wraparound String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0433-Minimum Genetic Mutation/0433-Minimum Genetic Mutation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0445-Add Two Numbers II/0445-Add Two Numbers II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0410-Split Array Largest Sum/0410-Split Array Largest Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0466-Count The Repetitions/0466-Count The Repetitions.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0429-N-ary Tree Level Order Traversal/0429-N-ary Tree Level Order Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0451-Sort Characters By Frequency/0451-Sort Characters By Frequency.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0423-Reconstruct Original Digits from English/0423-Reconstruct Original Digits from English.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0472-Concatenated Words/0472-Concatenated Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0461-Hamming Distance/0461-Hamming Distance.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0455-Assign Cookies/0455-Assign Cookies.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0475-Heaters/0475-Heaters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0496-Next Greater Element I/0496-Next Greater Element I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0416-Partition Equal Subset Sum/0416-Partition Equal Subset Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0430-Flatten a Multilevel Doubly Linked List/0430-Flatten a Multilevel Doubly Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0486-Predict the Winner/0486-Predict the Winner.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0491-Increasing Subsequences/0491-Increasing Subsequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0463-Island Perimeter/0463-Island Perimeter.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0497-Random Point in Non-overlapping Rectangles/0497-Random Point in Non-overlapping Rectangles.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0438-Find All Anagrams in a String/0438-Find All Anagrams in a String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0474-Ones and Zeroes/0474-Ones and Zeroes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0421-Maximum XOR of Two Numbers in an Array/0421-Maximum XOR of Two Numbers in an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0448-Find All Numbers Disappeared in an Array/0448-Find All Numbers Disappeared in an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0407-Trapping Rain Water II/0407-Trapping Rain Water II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0436-Find Right Interval/0436-Find Right Interval.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0458-Poor Pigs/0458-Poor Pigs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0447-Number of Boomerangs/0447-Number of Boomerangs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0459-Repeated Substring Pattern/0459-Repeated Substring Pattern.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0498-Diagonal Traverse/0498-Diagonal Traverse.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0405-Convert a Number to Hexadecimal/0405-Convert a Number to Hexadecimal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0500-Keyboard Row/0500-Keyboard Row.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0494-Target Sum/0494-Target Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0485-Max Consecutive Ones/0485-Max Consecutive Ones.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0482-License Key Formatting/0482-License Key Formatting.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0401-0500/0440-K-th Smallest in Lexicographical Order/0440-K-th Smallest in Lexicographical Order.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0638-Shopping Offers/0638-Shopping Offers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0659-Split Array into Consecutive Subsequences/0659-Split Array into Consecutive Subsequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0691-Stickers to Spell Word/0691-Stickers to Spell Word.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0698-Partition to K Equal Sum Subsets/0698-Partition to K Equal Sum Subsets.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0637-Average of Levels in Binary Tree/0637-Average of Levels in Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0622-Design Circular Queue/0622-Design Circular Queue.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0643-Maximum Average Subarray I/0643-Maximum Average Subarray I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0641-Design Circular Deque/0641-Design Circular Deque.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0668-Kth Smallest Number in Multiplication Table/0668-Kth Smallest Number in Multiplication Table.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0649-Dota2 Senate/0649-Dota2 Senate.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0678-Valid Parenthesis String/0678-Valid Parenthesis String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0672-Bulb Switcher II/0672-Bulb Switcher II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0679-24 Game/0679-24 Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0670-Maximum Swap/0670-Maximum Swap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0650-2 Keys Keyboard/0650-2 Keys Keyboard.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0640-Solve the Equation/0640-Solve the Equation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0658-Find K Closest Elements/0658-Find K Closest Elements.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0632-Smallest Range/0632-Smallest Range.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0690-Employee Importance/0690-Employee Importance.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0697-Degree of an Array/0697-Degree of an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0669-Trim a Binary Search Tree/0669-Trim a Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0605-Can Place Flowers/0605-Can Place Flowers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0654-Maximum Binary Tree/0654-Maximum Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0645-Set Mismatch/0645-Set Mismatch.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0673-Number of Longest Increasing Subsequence/0673-Number of Longest Increasing Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0662-Maximum Width of Binary Tree/0662-Maximum Width of Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0629-K Inverse Pairs Array/0629-K Inverse Pairs Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0606-Construct String from Binary Tree/0606-Construct String from Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0655-Print Binary Tree/0655-Print Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0652-Find Duplicate Subtrees/0652-Find Duplicate Subtrees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0609-Find Duplicate File in System/0609-Find Duplicate File in System.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0630-Course Schedule III/0630-Course Schedule III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0628-Maximum Product of Three Numbers/0628-Maximum Product of Three Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0700-Search in a Binary Search Tree/0700-Search in a Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0675-Cut Off Trees for Golf Event/0675-Cut Off Trees for Golf Event.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0685-Redundant Connection II/0685-Redundant Connection II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0623-Add One Row to Tree/0623-Add One Row to Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0653-Two Sum IV - Input is a BST/0653-Two Sum IV - Input is a BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0657-Robot Return to Origin/0657-Robot Return to Origin.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0648-Replace Words/0648-Replace Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0680-Valid Palindrome II/0680-Valid Palindrome II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0682-Baseball Game/0682-Baseball Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0677-Map Sum Pairs/0677-Map Sum Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0693-Binary Number with Alternating Bits/0693-Binary Number with Alternating Bits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0687-Longest Univalue Path/0687-Longest Univalue Path.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0696-Count Binary Substrings/0696-Count Binary Substrings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0671-Second Minimum Node In a Binary Tree/0671-Second Minimum Node In a Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0617-Merge Two Binary Trees/0617-Merge Two Binary Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0674-Longest Continuous Increasing Subsequence/0674-Longest Continuous Increasing Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0667-Beautiful Arrangement II/0667-Beautiful Arrangement II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0633-Sum of Square Numbers/0633-Sum of Square Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0646-Maximum Length of Pair Chain/0646-Maximum Length of Pair Chain.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0639-Decode Ways II/0639-Decode Ways II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0665-Non-decreasing Array/0665-Non-decreasing Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0689-Maximum Sum of 3 Non-Overlapping Subarrays/0689-Maximum Sum of 3 Non-Overlapping Subarrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0684-Redundant Connection/0684-Redundant Connection.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0699-Falling Squares/0699-Falling Squares.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0664-Strange Printer/0664-Strange Printer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0611-Valid Triangle Number/0611-Valid Triangle Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0688-Knight Probability in Chessboard/0688-Knight Probability in Chessboard.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0647-Palindromic Substrings/0647-Palindromic Substrings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0661-Image Smoother/0661-Image Smoother.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0695-Max Area of Island/0695-Number of Distinct Islands.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0621-Task Scheduler/0621-Task Scheduler.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0692-Top K Frequent Words/0692-Top K Frequent Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0686-Repeated String Match/0686-Repeated String Match.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0676-Implement Magic Dictionary/0676-Implement Magic Dictionary.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0601-0700/0636-Exclusive Time of Functions/0636-Exclusive Time of Functions.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0092-Reverse Linked List II/0092-Reverse Linked List II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0015-3Sum/0015-3Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0080-Remove Duplicates from Sorted Array II/0080-Remove Duplicates from Sorted Array II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0004-Median of Two Sorted Arrays/0004-Median of Two  Sorted Arrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0065-Valid Number/0065-Valid Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0095-Unique Binary Search Trees II/0095-Unique Binary Search Trees II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0046-Permutations/0046-Permutations.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0097-Interleaving String/0097-Interleaving String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0036-Valid Sudoku/0036-Valid Sudoku.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0012-Integer to Roman/0012-Integer to Roman.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0083-Remove Duplicates from Sorted List/0083-Remove Duplicates from Sorted List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0051-N-Queens/0051-N-Queens.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0008-String to Integer (atoi)/0008-String to Integer (atoi).py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0075-Sort Colors/0075-Sort Colors.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0094-Binary Tree Inorder Traversal/0094-Binary Tree Inorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0047-Permutations II/0047-Permutations II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0020-Valid Parentheses/0020-Valid Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0082-Remove Duplicates from Sorted List II/0082-Remove Duplicates from Sorted List II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0062-Unique Paths/0062-Unique Paths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0033-Search in Rotated Sorted Array/0033-Search in Rotated Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0074-Search a 2D Matrix/0074-Search a 2D Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0011-Container With Most Water/0011-Container With Most Water.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0003-Longest Substring Without Repeating Characters/0003-Longest Substring  Without Repeating Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0005-Longest Palindromic Substring/0005-Longest Palindromic Substring.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0084-Largest Rectangle in Histogram/0084-Largest Rectangle in Histogram.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0032-Longest Valid Parentheses/0032-Longest Valid Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0087-Scramble String/0087-Scramble String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0001-Two Sum/0001-Two Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0026-Remove Duplicates from Sorted Array/0026-Remove Duplicates from Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0007-Reverse Integer/0007-Reverse Integer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0017-Letter Combinations of a Phone Number/0017-Letter Combinations of a Phone Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0028-Implement strStr()/0028-Implement strStr().py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0023-Merge k Sorted Lists/0023-Merge k Sorted Lists.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0034-Search for a Range/0034-Search for a Range.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0088-Merge Sorted Array/0088-Merge Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0035-Search Insert Position/0035-Search Insert Position.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0069-Sqrt(x)/0069-Sqrt(x).py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0099-Recover Binary Search Tree/0099-Recover Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0090-Subsets II/0090-Subsets II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0098-Validate Binary Search Tree/0098-Validate Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0024-Swap Nodes in Pairs/0024-Swap Nodes in Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0079-Word Search/0079-Word Search.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0025-Reverse Nodes in k-Group/0025-Reverse Nodes in k-Group.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0093-Restore IP Addresses/0093-Restore IP Addresses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0072-Edit Distance/0072-Edit Distance.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0057-Insert Interval/0057-Insert Interval.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0049-Group Anagrams/0049-Group Anagrams.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0081-Search in Rotated Sorted Array II/0081-Search in Rotated Sorted Array II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0063-Unique Paths II/0063-Unique Paths II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0010-Regular Expression Matching/0010-Regular Expression Matching.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0022-Generate Parentheses/0022-Generate Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0042-Trapping Rain Water/Trapping Rain Water.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0055-Jump Game/0055-Jump Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0030-Substring with Concatenation of All Words/0030-Substring with Concatenation of All Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0064-Minimum Path Sum/0064-Minimum Path Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0018-4Sum/0018-4Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0052-N-Queens II/0052-N-Queens II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0067-Add Binary/0067-Add Binary.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0078-Subsets/0078-Subsets.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0086-Partition List/0086-Partition List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0016-3Sum Closest/0016-3Sum Closest.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0068-Text Justification/0068-Text Justification.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0029-Divide Two Integers/0029-Divide Two Integers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0053-Maximum Subarray/0053-Maximum Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0009-Palindrome Number/0009-Palindrome Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0073-Set Matrix Zeroes/0073-Set Matrix Zeroes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0061-Rotate List/0061-Rotate List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0056-Merge Intervals/0056-Merge Intervals.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0060-Permutation Sequence/0060-Permutation Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0077-Combinations/0077-Combinations.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0059-Spiral Matrix II/0059-Spiral Matrix II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0076-Minimum Window Substring/0076-Minimum Window Substring.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0100-Same Tree/0100-Same Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0027-Remove Element/0027-Remove Element.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0013-Roman to Integer/0013-Roman to Integer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0006-ZigZag Conversion/0006-ZigZag Conversion.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0045-Jump Game II/0045-Jump Game II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0091-Decode Ways/0091-Decode Ways.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0041-First Missing Positive/0041-First Missing Positive.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0089-Gray Code/0089-Gray Code.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0037-Sudoku Solver/0037-Sudoku Solver.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0014-Longest Common Prefix/0014-Longest Common Prefix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0019-Remove Nth Node From End of List/0019-Remove Nth Node From End of List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0054-Spiral Matrix/0054-Spiral Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0038-Count and Say/0038-Count and Say.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0040-Combination Sum II/0040-Combination Sum II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0031-Next Permutation/0031-Next Permutation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0071-Simplify Path/0071-Simplify Path.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0002-Add Two Numbers/0002-Add Two Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0066-Plus One/0066-Plus One.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0050-Pow(x, n)/0050-Pow(x, n).py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0021-Merge Two Sorted Lists/0021-Merge Two Sorted Lists.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0048-Rotate Image/0048-Rotate Image.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0043-Multiply Strings/0043-Multiply Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0039-Combination Sum/0039-Combination Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0044-Wildcard Matching/Wildcard Matching.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0085-Maximal Rectangle/0085-Maximal Rectangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0070-Climbing Stairs/0070-Climbing Stairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0001-0100/0096-Unique Binary Search Trees/0096-Unique Binary Search Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0554-Brick Wall/0554-Brick Wall.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0576-Out of Boundary Paths/0576-Out of Boundary Paths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0524-Longest Word in Dictionary through Deleting/0524-Longest Word in Dictionary through Deleting.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0600-Non-negative Integers without Consecutive Ones/0600-Non-negative Integers without Consecutive Ones.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0515-Find Largest Value in Each Tree Row/0515-Find Largest Value in Each Tree Row.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0502-IPO/0502-IPO.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0528-Random Pick with Weight/0528-Random Pick with Weight.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0540-Single Element in a Sorted Array/0540-Single Element in a Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0581-Shortest Unsorted Continuous Subarray/0581-Shortest Unsorted Continuous Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0575-Distribute Candies/0575-Distribute Candies.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0551-Student Attendance Record I/0551-Student Attendance Record I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0506-Relative Ranks/0506-Relative Ranks.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0503-Next Greater Element II/0503-Next Greater Element II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0583-Delete Operation for Two Strings/0583-Delete Operation for Two Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0539-Minimum Time Difference/0539-Minimum Time Difference.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0589-N-ary Tree Preorder Traversal/0589-N-ary Tree Preorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0530-Minimum Absolute Difference in BST/0530-Minimum Absolute Difference in BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0508-Most Frequent Subtree Sum/0508-Most Frequent Subtree Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0507-Perfect Number/0507-Perfect Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0565-Array Nesting/0565-Array Nesting.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0509-Fibonacci Number/0509-Fibonacci Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0504-Base 7/0504-Base 7.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0532-K-diff Pairs in an Array/0532-K-diff Pairs in an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0526-Beautiful Arrangement/0526-Beautiful Arrangement.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0522-Longest Uncommon Subsequence II/0522-Longest Uncommon Subsequence II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0590-N-ary Tree Postorder Traversal/0590-N-ary Tree Postorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0501-Find Mode in Binary Search Tree/0501-Find Mode in Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0546-Remove Boxes/0546-Remove Boxes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0591-Tag Validator/0591-Tag Validator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0517-Super Washing Machines/0517-Super Washing Machines.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0537-Complex Number Multiplication/0537-Complex Number Multiplication.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0598-Range Addition II/0598-Range Addition II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0552-Student Attendance Record II/0552-Student Attendance Record II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0541-Reverse String II/0541-Reverse String II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0529-Minesweeper/0529-Minesweeper.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0566-Reshape the Matrix/0566-Reshape the Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0547-Friend Circles/0547-Friend Circles.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0543-Diameter of Binary Tree/0543-Diameter of Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0518-Coin Change 2/0518-Coin Change 2.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0514-Freedom Trail/0514-Freedom Trail.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0542-01 Matrix/0542-01 Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0556-Next Greater Element III/0556-Next Greater Element III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0525-Contiguous Array/0525-Contiguous Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0538-Convert BST to Greater Tree/0538-Convert BST to Greater Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0519-Random Flip Matrix/0519-Random Flip Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0572-Subtree of Another Tree/0572-Subtree of Another Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0521-Longest Uncommon Subsequence I/0521-Longest Uncommon Subsequence I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0564-Find the Closest Palindrome/0564-Find the Closest Palindrome.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0592-Fraction Addition and Subtraction/0592-Fraction Addition and Subtraction.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0563-Binary Tree Tilt/0563-Binary Tree Tilt.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0520-Detect Capital/0520-Detect Capital.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0553-Optimal Division/0553-Optimal Division.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0594-Longest Harmonious Subsequence/0594-Longest Harmonious Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0559-Maximum Depth of N-ary Tree/0559-Maximum Depth of N-ary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0561-Array Partition I/0561-Array Partition I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0535-Encode and Decode TinyURL/0535-Encode and Decode TinyURL.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0513-Find Bottom Left Tree Value/0513-Find Bottom Left Tree Value.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0587-Erect the Fence/0587-Erect the Fence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0558-Quad Tree Intersection/0558-Quad Tree Intersection.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0560-Subarray Sum Equals K/0560-Subarray Sum Equals K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0567-Permutation in String/0567-Permutation in String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0599-Minimum Index Sum of Two Lists/0599-Minimum Index Sum of Two Lists.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0516-Longest Palindromic Subsequence/0516-Longest Palindromic Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0593-Valid Square/0593-Valid Square.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0523-Continuous Subarray Sum/0523-Continuous Subarray Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0501-0600/0557-Reverse Words in a String III/0557-Reverse Words in a String III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0390-Elimination Game/0390-Elimination Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0329-Longest Increasing Path in a Matrix/0329-Longest Increasing Path in a Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0334-Increasing Triplet Subsequence/0334-Increasing Triplet Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0399-Evaluate Division/0399-Evaluate Division.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0394-Decode String/0394-Decode String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0377-Combination Sum IV/0377-Combination Sum IV.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0372-Super Pow/372. Super Pow.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0338-Counting Bits/0338-Counting Bits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0327-Count of Range Sum/0327-Count of Range Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0344-Reverse String/0344-Reverse String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0349-Intersection of Two Arrays/0349-Intersection of Two Arrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0391-Perfect Rectangle/0391-Perfect Rectangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0341-Flatten Nested List Iterator/0341-Flatten Nested List Iterator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0376-Wiggle Subsequence/0376-Wiggle Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0354-Russian Doll Envelopes/0354-Russian Doll Envelopes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0393-UTF-8 Validation/0393-UTF-8 Validation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0347-Top K Frequent Elements/0347-Top K Frequent Elements.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0383-Ransom Note/0383-Ransom Note.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0324-Wiggle Sort II/0324-Wiggle Sort II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0378-Kth Smallest Element in a Sorted Matrix/0378-Kth Smallest Element in a Sorted Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0301-Remove Invalid Parentheses/0301-Remove Invalid Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0357-Count Numbers with Unique Digits/0357-Count Numbers with Unique Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0367-Valid Perfect Square/0367-Valid Perfect Square.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0371-Sum of Two Integers/0371-Sum of Two Integers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0316-Remove Duplicate Letters/0316-Remove Duplicate Letters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0368-Largest Divisible Subset/0368-Largest Divisible Subset.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0328-Odd Even Linked List/0328-Odd Even Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0389-Find the Difference/0389-Find the Difference.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0397-Integer Replacement/0397-Integer Replacement.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0374-Guess Number Higher or Lower/0374-Guess Number Higher or Lower.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0309-Best Time to Buy and Sell Stock with Cooldown/0309-Best Time to Buy and Sell Stock with Cooldown.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0395-Longest Substring with At Least K Repeating Characters/0395-Longest Substring with At Least K Repeating Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0382-Linked List Random Node/0382-Linked List Random Node.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0373-Find K Pairs with Smallest Sums/0373-Find K Pairs with Smallest Sums.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0343-Integer Break/0343-Integer Break.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0315-Count of Smaller Numbers After Self/0315-Count of Smaller Numbers After Self.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0380-Insert Delete GetRandom O(1)/0380-Insert Delete GetRandom O(1).py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0375-Guess Number Higher or Lower II/0375-Guess Number Higher or Lower II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0336-Palindrome Pairs/0336-Palindrome Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0332-Reconstruct Itinerary/0332-Reconstruct Itinerary.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0306-Additive Number/0306-Additive Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0313-Super Ugly Number/0313-Super Ugly Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0381-Insert Delete GetRandom O(1) - Duplicates allowed/0381-Insert Delete GetRandom O(1) - Duplicates allowed.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0303-Range Sum Query - Immutable/0303-Range Sum Query - Immutable.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0387-First Unique Character in a String/0387-First Unique Character in a String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0384-Shuffle an Array/0384-Shuffle an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0363-Max Sum of Rectangle No Larger Than K/0363-Max Sum of Rectangle No Larger Than K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0337-House Robber III/0337-House Robber III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0342-Power of Four/0342-Power of Four.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0330-Patching Array/0330-Patching Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0326-Power of Three/0326-Power of Three.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0310-Minimum Height Trees/0310-Minimum Height Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0319-Bulb Switcher/0319-Bulb Switcher.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0386-Lexicographical Numbers/0386-Lexicographical Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0322-Coin Change/0322-Coin Change.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0331-Verify Preorder Serialization of a Binary Tree/0331-Verify Preorder Serialization of a Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0392-Is Subsequence/0392-Is Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0335-Self Crossing/0335-Self Crossing.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0345-Reverse Vowels of a String/0345-Reverse Vowels of a String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0318-Maximum Product of Word Lengths/0318-Maximum Product of Word Lengths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0388-Longest Absolute File Path/0388-Longest Absolute File Path.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0400-Nth Digit/0400-Nth Digit.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0312-Burst Balloons/0312-Burst Balloons.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0365-Water and Jug Problem/0365-Water and Jug Problem.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0304-Range Sum Query 2D - Immutable/0304-Range Sum Query 2D - Immutable.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0321-Create Maximum Number/0321-Create Maximum Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0385-Mini Parser/0385-Mini Parser.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0350-Intersection of Two Arrays II/0350-Intersection of Two Arrays II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0396-Rotate Function/0396-Rotate Function.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0355-Design Twitter/0355-Design Twitter.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0301-0400/0398-Random Pick Index/0398-Random Pick Index.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0791-Custom Sort String/0791-Custom Sort String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0757-Set Intersection Size At Least Two/0757-Set Intersection Size At Least Two.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0752-Open the Lock/0752-Open the Lock.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0767-Reorganize String/0767-Reorganize String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0743-Network Delay Time/0743-Network Delay Time.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0728-Self Dividing Numbers/0728-Self Dividing Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0766-Toeplitz Matrix/0766-Toeplitz Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0789-Escape The Ghosts/0789-Escape The Ghosts.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0709-To Lower Case/0709-To Lower Case.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0726-Number of Atoms/0726-Number of Atoms.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0730-Count Different Palindromic Subsequences/0730-Count Different Palindromic Subsequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0762-Prime Number of Set Bits in Binary Representation/0762-Prime Number of Set Bits in Binary Representation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0740-Delete and Earn/0740-Delete and Earn.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0773-Sliding Puzzle/0773-Sliding Puzzle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0753-Cracking the Safe/0753-Cracking the Safe.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0754-Reach a Number/0754-Reach a Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0738-Monotone Increasing Digits/0738-Monotone Increasing Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0799-Champagne Tower/0799-Champagne Tower.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0788-Rotated Digits/0788-Rotated Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0748-Shortest Completing Word/0748-Shortest Completing Word.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0763-Partition Labels/0763-Partition Labels.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0792-Number of Matching Subsequences/0792-Number of Matching Subsequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0713-Subarray Product Less Than K/0713-Subarray Product Less Than K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0785-Is Graph Bipartite/0785-Is Graph Bipartite.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0701-Insert into a Binary Search Tree/0701-Insert into a Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0714-Best Time to Buy and Sell Stock with Transaction Fee/0714-Best Time to Buy and Sell Stock with Transaction Fee.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0780-Reaching Points/0780-Reaching Points.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0747-Largest Number At Least Twice of Others/0747-Largest Number At Least Twice of Others.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0794-Valid Tic-Tac-Toe State/0794-Valid Tic-Tac-Toe State.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0707-Design Linked List/0707-Design Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0725-Split Linked List in Parts/0725-Split Linked List in Parts.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0706-Design HashMap/0706-Design HashMap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0786-K-th Smallest Prime Fraction/0786-K-th Smallest Prime Fraction.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0768-Max Chunks To Make Sorted II/0768-Max Chunks To Make Sorted II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0720-Longest Word in Dictionary/0720-Longest Word in Dictionary.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0735-Asteroid Collision/0735-Asteroid Collision.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0736-Parse Lisp Expression/0736-Parse Lisp Expression.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0721-Accounts Merge/0721-Accounts Merge.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0703-Kth Largest Element in a Stream/0703-Kth Largest Element in a Stream.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0718-Maximum Length of Repeated Subarray/0718-Maximum Length of Repeated Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0733-Flood Fill/0733-Flood Fill.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0745-Prefix and Suffix Search/0745-Prefix and Suffix Search.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0717-1-bit and 2-bit Characters/0717-1-bit and 2-bit Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0712-Minimum ASCII Delete Sum for Two Strings/0712-Minimum ASCII Delete Sum for Two Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0719-Find K-th Smallest Pair Distance/0719-Find K-th Smallest Pair Distance.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0781-Rabbits in Forest/0781-Rabbits in Forest.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0732-My Calendar III/0732-My Calendar III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0724-Find Pivot Index/0724-Find Pivot Index.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0769-Max Chunks To Make Sorted/0769-Max Chunks To Make Sorted.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0710-Random Pick with Blacklist/0710-Random Pick with Blacklist.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0784-Letter Case Permutation/0784-Letter Case Permutation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0731-My Calendar II/0731-My Calendar II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0749-Contain Virus/0749-Contain Virus.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0746-Min Cost Climbing Stairs/0746-Min Cost Climbing Stairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0765-Couples Holding Hands/0765-Couples Holding Hands.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0796-Rotate String/0796-Rotate String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0777-Swap Adjacent in LR String/0777-Swap Adjacent in LR String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0739-Daily Temperatures/0739-Daily Temperatures.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0795-Number of Subarrays with Bounded Maximum/0795-Number of Subarrays with Bounded Maximum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0704-Binary Search/0704-Binary Search.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0790-Domino and Tromino Tiling/0790-Domino and Tromino Tiling.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0787-Cheapest Flights Within K Stops/0787-Cheapest Flights Within K Stops.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0722-Remove Comments/0722-Remove Comments.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0705-Design HashSet/0705-Design HashSet.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0741-Cherry Pickup/0741-Cherry Pickup.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0764-Largest Plus Sign/0764-Largest Plus Sign.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0783-Minimum Distance Between BST Nodes/0783-Minimum Distance Between BST Nodes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0779-K-th Symbol in Grammar/0779-K-th Symbol in Grammar.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0771-Jewels and Stones/0771-Jewels and Stones.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0798-Smallest Rotation with Highest Score/0798-Smallest Rotation with Highest Score.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0782-Transform to Chessboard/0782-Transform to Chessboard.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0778-Swim in Rising Water/0778-Swim in Rising Water.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0775-Global and Local Inversions/0775-Global and Local Inversions.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0756-Pyramid Transition Matrix/0756-Pyramid Transition Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0793-Preimage Size of Factorial Zeroes Function/0793-Preimage Size of Factorial Zeroes Function.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0761-Special Binary String/0761-Special Binary String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0797-All Paths From Source to Target/0797-All Paths From Source to Target.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0701-0800/0744-Find Smallest Letter Greater Than Target/0744-Find Smallest Letter Greater Than Target.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0992-Subarrays with K Different Integers/0992-Subarrays with K Different Integers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0930-Binary Subarrays With Sum/0930-Binary Subarrays With Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0984-String Without AAA or BBB/0984-String Without AAA or BBB.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0964-Least Operators to Express Number/0964-Least Operators to Express Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0952-Largest Component Size by Common Factor/0952-Largest Component Size by Common Factor.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0967-Numbers With Same Consecutive Differences/0967-Numbers With Same Consecutive Differences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0928-Minimize Malware Spread II/0928-Minimize Malware Spread II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0925-Long Pressed Name/0925-Long Pressed Name.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0999-Available Captures for Rook/0999-Available Captures for Rook.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0968-Binary Tree Cameras/0968-Binary Tree Cameras.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0911-Online Election/0911-Online Election.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0906-Super Palindromes/0906-Super Palindromes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0936-Stamping The Sequence/0936-Stamping The Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0945-Minimum Increment to Make Array Unique/0945-Minimum Increment to Make Array Unique.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0953-Verifying an Alien Dictionary/0953-Verifying an Alien Dictionary.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0993-Cousins in Binary Tree/0993-Cousins in Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0946-Validate Stack Sequences/0946-Validate Stack Sequences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0949-Largest Time for Given Digits/0949-Largest Time for Given Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0978-Longest Turbulent Subarray/0978-Longest Turbulent Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0937-Reorder Log Files/0937-Reorder Log Files.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0982-Triples with Bitwise AND Equal To Zero/0982-Triples with Bitwise AND Equal To Zero.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0956-Tallest Billboard/0956-Tallest Billboard.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0901-Online Stock Span/0901-Online Stock Span.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0917-Reverse Only Letters/0917-Reverse Only Letters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0973-K Closest Points to Origin/0973-K Closest Points to Origin.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0916-Word Subsets/0916-Word Subsets.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0922-Sort Array By Parity II/0922- Sort Array By Parity II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0981-Time Based Key-Value Store/0981-Time Based Key-Value Store.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0932-Beautiful Array/0932-Beautiful Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0983-Minimum Cost For Tickets/0983-Minimum Cost For Tickets.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0989-Add to Array-Form of Integer/0989-Add to Array-Form of Integer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0998-Maximum Binary Tree II/0998-Maximum Binary Tree II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0985-Sum of Even Numbers After Queries/0985-Sum of Even Numbers After Queries.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0974-Subarray Sums Divisible by K/0974-Subarray Sums Divisible by K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0919-Complete Binary Tree Inserter/0919-Complete Binary Tree Inserter.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0913-Cat and Mouse/0913-Cat and Mouse.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0990-Satisfiability of Equality Equations/0990-Satisfiability of Equality Equations.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0940-Distinct Subsequences II/0940-Distinct Subsequences II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0907-Sum of Subarray Minimums/0907-Sum of Subarray Minimums.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0976-Largest Perimeter Triangle/0976-Largest Perimeter Triangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0963-Minimum Area Rectangle II/0963-Minimum Area Rectangle II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0903-Valid Permutations for DI Sequence/0903-Valid Permutations for DI Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0979-Distribute Coins in Binary Tree/0979-Distribute Coins in Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0950-Reveal Cards In Increasing Order/0950-Reveal Cards In Increasing Order.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0958-Check Completeness of a Binary Tree/0958-Check Completeness of a Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0924-Minimize Malware Spread/0924-Minimize Malware Spread.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0994-Rotting Oranges/0994-Rotting Oranges.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0997-Find the Town Judge/0997-Find the Town Judge.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0966-Vowel Spellchecker/0966-Vowel Spellchecker.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0954-Array of Doubled Pairs/0954-Array of Doubled Pairs.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0975-Odd Even Jump/0975-Odd Even Jump.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0935-Knight Dialer/0935-Knight Dialer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0977-Squares of a Sorted Array/0977-Squares of a Sorted Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0986-Interval List Intersections/0986-Interval List Intersections.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0929-Unique Email Addresses/0929-Unique Email Addresses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/1000-Minimum Cost to Merge Stones/1000-Minimum Cost to Merge Stones.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0957-Prison Cells After N Days/0957-Prison Cells After N Days.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0970-Powerful Integers/0970-Powerful Integers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0904-Fruit Into Baskets/0904-Fruit Into Baskets.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0933-Number of Recent Calls/0933-Number of Recent Calls.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0920-Number of Music Playlists/0920-Number of Music Playlists.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0943-Find the Shortest Superstring/0943-Find the Shortest Superstring.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0961-N-Repeated Element in Size 2N Array/0961-N-Repeated Element in Size 2N Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0969-Pancake Sorting/0969-Pancake Sorting.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0944-Delete Columns to Make Sorted/0944-Delete Columns to Make Sorted.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0923-3Sum With Multiplicity/0923-3Sum With Multiplicity.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0912-Sort an Array/0912-Sort an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0908-Smallest Range I/0908-Smallest Range I.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0996-Number of Squareful Arrays/0996-Number of Squareful Arrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0938-Range Sum of BST/0938-Range Sum of BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0965-Univalued Binary Tree/0965-Univalued Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0902-Numbers At Most N Given Digit Set/0902-Numbers At Most N Given Digit Set.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0941-Valid Mountain Array/0941-Valid Mountain Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0939-Minimum Area Rectangle/0939-Minimum Area Rectangle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0955-Delete Columns to Make Sorted II/0955-Delete Columns to Make Sorted II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0951-Flip Equivalent Binary Trees/0951-Flip Equivalent Binary Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0959-Regions Cut By Slashes/0959-Regions Cut By Slashes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0927-Three Equal Parts/0927-Three Equal Parts.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0991-Broken Calculator/0991-Broken Calculator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0947-Most Stones Removed with Same Row or Column/0947-Most Stones Removed with Same Row or Column.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0987-Vertical Order Traversal of a Binary Tree/0987-Vertical Order Traversal of a Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0905-Sort Array By Parity/0905-Sort Array By Parity.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0948-Bag of Tokens/0948-Bag of Tokens.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0910-Smallest Range II/0910-Smallest Range II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0915-Partition Array into Disjoint Intervals/0915-Partition Array into Disjoint Intervals.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0971-Flip Binary Tree To Match Preorder Traversal/0971-Flip Binary Tree To Match Preorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0914-X of a Kind in a Deck of Cards/0914-X of a Kind in a Deck of Cards.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0980-Unique Paths III/0980-Unique Paths III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0909-Snakes and Ladders/0909-Snakes and Ladders.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0931-Minimum Falling Path Sum/0931-Minimum Falling Path Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0962-Maximum Width Ramp/0962-Maximum Width Ramp.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0988-Smallest String Starting From Leaf/0988-Smallest String Starting From Leaf.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0942-DI String Match/0942-DI String Match.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0926-Flip String to Monotone Increasing/0926-Flip String to Monotone Increasing.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0921-Minimum Add to Make Parentheses Valid/0921-Minimum Add to Make Parentheses Valid.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0995-Minimum Number of K Consecutive Bit Flips/0995-Minimum Number of K Consecutive Bit Flips.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0972-Equal Rational Numbers/0972-Equal Rational Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0934-Shortest Bridge/0934-Shortest Bridge.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0960-Delete Columns to Make Sorted III/0960-Delete Columns to Make Sorted III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0901-1000/0918-Maximum Sum Circular Subarray/0918-Maximum Sum Circular Subarray.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0290-Word Pattern/0290-Word Pattern.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0201-Bitwise AND of Numbers Range/0201-Bitwise AND of Numbers Range.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0258-Add Digits/0258-Add Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0229-Majority Element II/0229-Majority Element II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0217-Contains Duplicate/0217-Contains Duplicate.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0206-Reverse Linked List/0206-Reverse Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0235-Lowest Common Ancestor of a Binary Search Tree/0235-Lowest Common Ancestor of a Binary Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0279-Perfect Squares/0279-Perfect Squares.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0242-Valid Anagram/0242-Valid Anagram.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0222-Count Complete Tree Nodes/0222-Count Complete Tree Nodes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0268-Missing Number/0268-Missing Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0211-Add and Search Word - Data structure design/0211-Add and Search Word - Data structure design.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0295-Find Median from Data Stream/0295-Find Median from Data Stream.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0241-Different Ways to Add Parentheses/0241-Different Ways to Add Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0233-Number of Digit One/0233-Number of Digit One.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0203-Remove Linked List Elements/0203-Remove Linked List Elements.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0257-Binary Tree Paths/0257-Binary Tree Paths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0219-Contains Duplicate II/0219-Contains Duplicate II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0221-Maximal Square/0221-Maximal Square.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0228-Summary Ranges/0228-Summary Ranges.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0208-Implement Trie (Prefix Tree)/0208-Implement Trie (Prefix Tree).py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0278-First Bad Version/0278-First Bad Version.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0210-Course Schedule II/0210-Course Schedule II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0239-Sliding Window Maximum/0239-Sliding Window Maximum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0260-Single Number III/0260-Single Number III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0215-Kth Largest Element in an Array/0215-Kth Largest Element in an Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0204-Count Primes/0204-Count Primes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0240-Search a 2D Matrix II/0240-Search a 2D Matrix II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0234-Palindrome Linked List/0234-Palindrome Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0300-Longest Increasing Subsequence/0300-Longest Increasing Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0205-Isomorphic Strings/0205-Isomorphic Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0289-Game of Life/0289-Game of Life.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0236-Lowest Common Ancestor of a Binary Tree/0236-Lowest Common Ancestor of a Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0299-Bulls and Cows/0299-Bulls and Cows.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0202-Happy Number/0202-Happy Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0232-Implement Queue using Stacks/0232-Implement Queue using Stacks.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0223-Rectangle Area/0223-Rectangle Area.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0212-Word Search II/0212-Word Search II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0264-Ugly Number II/0264-Ugly Number II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0283-Move Zeroes/0283-Move Zeroes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0275-H-Index II/0275-H-Index II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0237-Delete Node in a Linked List/0237-Delete Node in a Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0282-Expression Add Operators/0282-Expression Add Operators.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0226-Invert Binary Tree/0226-Invert Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0224-Basic Calculator/0224-Basic Calculator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0297-Serialize and Deserialize Binary Tree/0297-Serialize and Deserialize Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0214-Shortest Palindrome/0214-Shortest Palindrome.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0263-Ugly Number/0263-Ugly Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0207-Course Schedule/0207-Course Schedule.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0216-Combination Sum III/0216-Combination Sum III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0231-Power of Two/0231-Power of Two.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0284-Peeking Iterator/0284-Peeking Iterator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0213-House Robber II/0213-House Robber II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0220-Contains Duplicate III/0220-Contains Duplicate III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0292-Nim Game/0292-Nim Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0230-Kth Smallest Element in a BST/0230-Kth Smallest Element in a BST.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0274-H-Index/0274-H-Index.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0273-Integer to English Words/0273-Integer to English Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0218-The Skyline Problem/0218-The Skyline Problem.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0209-Minimum Size Subarray Sum/0209-Minimum Size Subarray Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0287-Find the Duplicate Number/0287-Find the Duplicate Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0225-Implement Stack using Queues/0225-Implement Stack using Queues.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0238-Product of Array Except Self/0238-Product of Array Except Self.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0201-0300/0227-Basic Calculator II/0227-Basic Calculator II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1041-Robot Bounded In Circle/1041-Robot Bounded In Circle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1008-Construct Binary Search Tree from Preorder Traversal/1008-Construct Binary Search Tree from Preorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1052-Grumpy Bookstore Owner/1052-Grumpy Bookstore Owner.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1027-Longest Arithmetic Sequence/1027-Longest Arithmetic Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1035-Uncrossed Lines/1035-Uncrossed Lines.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1031-Maximum Sum of Two Non-Overlapping Subarrays/1031-Maximum Sum of Two Non-Overlapping Subarrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1005-Maximize Sum Of Array After K Negations/1005-Maximize Sum Of Array After K Negations.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1025-Divisor Game/1025-Divisor Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1033-Moving Stones Until Consecutive/1033-Moving Stones Until Consecutive.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1029-Two City Scheduling/1029-Two City Scheduling.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1023-Camelcase Matching/1023-Camelcase Matching.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1080-Insufficient Nodes in Root to Leaf Paths/1080-Insufficient Nodes in Root to Leaf Paths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1096-Brace Expansion II/1096-Brace Expansion II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1030-Matrix Cells in Distance Order/1030-Matrix Cells in Distance Order.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1071-Greatest Common Divisor of Strings/1071-Greatest Common Divisor of Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1095-Find in Mountain Array/1095-Find in Mountain Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1010-Pairs of Songs With Total Durations Divisible by 60/1010-Pairs of Songs With Total Durations Divisible by 60.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1021-Remove Outermost Parentheses/1021-Remove Outermost Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1043-Partition Array for Maximum Sum/1043-Partition Array for Maximum Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1026-Maximum Difference Between Node and Ancestor/1026-Maximum Difference Between Node and Ancestor.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1028-Recover a Tree From Preorder Traversal/1028-Recover a Tree From Preorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1074-Number of Submatrices That Sum to Target/1074-Number of Submatrices That Sum to Target.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1051-Height Checker/1051-Height Checker.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1047-Remove All Adjacent Duplicates In String/1047-Remove All Adjacent Duplicates In String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1046-Last Stone Weight/1046-Last Stone Weight.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1011-Capacity To Ship Packages Within D Days/1011-Capacity To Ship Packages Within D Days.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1003-Check If Word Is Valid After Substitutions/1003-Check If Word Is Valid After Substitutions.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1073-Adding Two Negabinary Numbers/1073-Adding Two Negabinary Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1017-Convert to Base -2/1017-Convert to Base -2.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1024-Video Stitching/1024-Video Stitching.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1092-Shortest Common Supersequence/1092-Shortest Common Supersequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1094-Car Pooling/1094-Car Pooling.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1016-Binary String With Substrings Representing 1 To N/1016-Binary String With Substrings Representing 1 To N.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1044-Longest Duplicate Substring/1044-Longest Duplicate Substring.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1018-Binary Prefix Divisible By 5/1018-Binary Prefix Divisible By 5.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1022-Sum of Root To Leaf Binary Numbers/1022-Sum of Root To Leaf Binary Numbers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1079-Letter Tile Possibilities/1079-Letter Tile Possibilities.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1089-Duplicate Zeros/1089-Duplicate Zeros.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1038-Binary Search Tree to Greater Sum Tree/1038-Binary Search Tree to Greater Sum Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1001-Grid Illumination/1001-Grid Illumination.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1013-Partition Array Into Three Parts With Equal Sum/1013-Partition Array Into Three Parts With Equal Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1090-Largest Values From Labels/1090-Largest Values From Labels.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1006-Clumsy Factorial/1006-Clumsy Factorial.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1054-Distant Barcodes/1054-Distant Barcodes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1037-Valid Boomerang/1037-Valid Boomerang.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1081-Smallest Subsequence of Distinct Characters/1081-Smallest Subsequence of Distinct Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1014-Best Sightseeing Pair/1014-Best Sightseeing Pair.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1009-Complement of Base 10 Integer/1009-Complement of Base 10 Integer.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1012-Numbers With Repeated Digits/1012-Numbers With Repeated Digits.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1032-Stream of Characters/1032-Stream of Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1019-Next Greater Node In Linked List/1019-Next Greater Node In Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1042-Flower Planting With No Adjacent/1042-Flower Planting With No Adjacent.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1034-Coloring A Border/1034-Coloring A Border.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1072-Flip Columns For Maximum Number of Equal Rows/1072-Flip Columns For Maximum Number of Equal Rows.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1004-Max Consecutive Ones III/1004-Max Consecutive Ones III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1002-Find Common Characters/1002-Find Common Characters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1036-Escape a Large Maze/1036-Escape a Large Maze.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1078-Occurrences After Bigram/1078-Occurrences After Bigram.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1048-Longest String Chain/1048-Longest String Chain.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1040-Moving Stones Until Consecutive II/1040-Moving Stones Until Consecutive II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1007-Minimum Domino Rotations For Equal Row/1007-Minimum Domino Rotations For Equal Row.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1020-Number of Enclaves/1020-Number of Enclaves.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1053-Previous Permutation With One Swap/1053-Previous Permutation With One Swap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1093-Statistics from a Large Sample/1093-Statistics from a Large Sample.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1091-Shortest Path in Binary Matrix/1091-Shortest Path in Binary Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1039-Minimum Score Triangulation of Polygon/1039-Minimum Score Triangulation of Polygon.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1015-Smallest Integer Divisible by K/1015-Smallest Integer Divisible by K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/1001-1100/1049-Last Stone Weight II/1049-Last Stone Weight II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0864-Shortest Path to Get All Keys/0864-Shortest Path to Get All Keys.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0855-Exam Room/0855-Exam Room.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0825-Friends Of Appropriate Ages/0825-Friends Of Appropriate Ages.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0813-Largest Sum of Averages/0813-Largest Sum of Averages.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0806-Number of Lines To Write String/0806-Number of Lines To Write String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0856-Score of Parentheses/0856-Score of Parentheses.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0893-Groups of Special-Equivalent Strings/0893-Groups of Special-Equivalent Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0832-Flipping an Image/0832-Flipping an Image.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0801-Minimum Swaps To Make Sequences Increasing/0801-Minimum Swaps To Make Sequences Increasing.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0845-Longest Mountain in Array/0845-Longest Mountain in Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0876-Middle of the Linked List/0876-Middle of the Linked List.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0891-Sum of Subsequence Widths/0891-Sum of Subsequence Widths.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0839-Similar String Groups/0839-Similar String Groups.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0879-Profitable Schemes/0879-Profitable Schemes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0823-Binary Trees With Factors/0823-Binary Trees With Factors.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0830-Positions of Large Groups/0830-Positions of Large Groups.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0875-Koko Eating Bananas/0875-Koko Eating Bananas.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0818-Race Car/0818-Race Car.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0869-Reordered Power of 2/0869-Reordered Power of 2.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0814-Binary Tree Pruning/0814-Binary Tree Pruning.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0827-Making A Large Island/0827-Making A Large Island.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0877-Stone Game/0877-Stone Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0812-Largest Triangle Area/0812-Largest Triangle Area.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0857-Minimum Cost to Hire K Workers/0857-Minimum Cost to Hire K Workers.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0889-Construct Binary Tree from Preorder and Postorder Traversal/0889-Construct Binary Tree from Preorder and Postorder Traversal.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0802-Find Eventual Safe States/0802-Find Eventual Safe States.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0900-RLE Iterator/0900-RLE Iterator.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0884-Uncommon Words from Two Sentences/0884-Uncommon Words from Two Sentences.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0882-Reachable Nodes In Subdivided Graph/0882-Reachable Nodes In Subdivided Graph.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0810-Chalkboard XOR Game/0810-Chalkboard XOR Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0826-Most Profit Assigning Work/0826-Most Profit Assigning Work.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0888-Fair Candy Swap/0888-Fair Candy Swap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0807-Max Increase to Keep City Skyline/0807-Max Increase to Keep City Skyline.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0811-Subdomain Visit Count/0811-Subdomain Visit Count.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0805-Split Array With Same Average/0805-Split Array With Same Average.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0896-Monotonic Array/0896-Monotonic Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0883-Projection Area of 3D Shapes/0883-Projection Area of 3D Shapes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0866-Prime Palindrome/0866-Prime Palindrome.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0861-Score After Flipping Matrix/0861-Score After Flipping Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0841-Keys and Rooms/0841-Keys and Rooms.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0881-Boats to Save People/0881-Boats to Save People.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0897-Increasing Order Search Tree/0897-Increasing Order Search Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0851-Loud and Rich/0851-Loud and Rich.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0809-Expressive Words/0809-Expressive Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0894-All Possible Full Binary Trees/0894-All Possible Full Binary Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0833-Find And Replace in String/0833-Find And Replace in String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0835-Image Overlap/0835-Image Overlap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0870-Advantage Shuffle/0870-Advantage Shuffle.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0817-Linked List Components/0817-Linked List Components.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0829-Consecutive Numbers Sum/0829-Consecutive Numbers Sum.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0867-Transpose Matrix/0867-Transpose Matrix.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0895-Maximum Frequency Stack/0895-Maximum Frequency Stack.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0865-Smallest Subtree with all the Deepest Nodes/0865-Smallest Subtree with all the Deepest Nodes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0873-Length of Longest Fibonacci Subsequence/0873-Length of Longest Fibonacci Subsequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0838-Push Dominoes/0838-Push Dominoes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0890-Find and Replace Pattern/0890-Find and Replace Pattern.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0853-Car Fleet/0853-Car Fleet.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0808-Soup Servings/0808-Soup Servings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0874-Walking Robot Simulation/0874-Walking Robot Simulation.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0854-K-Similar Strings/0854-K-Similar Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0828-Unique Letter String/0828-Unique Letter String.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0868-Binary Gap/0868-Binary Gap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0803-Bricks Falling When Hit/0803-Bricks Falling When Hit.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0804-Unique Morse Code Words/0804-Unique Morse Code Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0844-Backspace String Compare/0844-Backspace String Compare.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0887-Super Egg Drop/0887-Super Egg Drop.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0840-Magic Squares In Grid/0840-Magic Squares In Grid.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0836-Rectangle Overlap/0836-Rectangle Overlap.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0878-Nth Magical Number/0878-Nth Magical Number.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0892-Surface Area of 3D Shapes/0892-Surface Area of 3D Shapes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0886-Possible Bipartition/0886-Possible Bipartition.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0846-Hand of Straights/0846-Hand of Straights.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0880-Decoded String at Index/0880-Decoded String at Index.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0898-Bitwise ORs of Subarrays/0898-Bitwise ORs of Subarrays.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0820-Short Encoding of Words/0820-Short Encoding of Words.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0837-New 21 Game/0837-New 21 Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0816-Ambiguous Coordinates/0816-Ambiguous Coordinates.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0885-Spiral Matrix III/0885-Spiral Matrix III.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0860-Lemonade Change/0860-Lemonade Change.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0831-Masking Personal Information/0831-Masking Personal Information.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0872-Leaf-Similar Trees/0872-Leaf-Similar Trees.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0819-Most Common Word/0819-Most Common Word.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0847-Shortest Path Visiting All Nodes/0847-Shortest Path Visiting All Nodes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0821-Shortest Distance to a Character/0821-Shortest Distance to a Character.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0863-All Nodes Distance K in Binary Tree/0863-All Nodes Distance K in Binary Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0842-Split Array into Fibonacci Sequence/0842-Split Array into Fibonacci Sequence.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0834-Sum of Distances in Tree/0834-Sum of Distances in Tree.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0822-Card Flipping Game/0822-Card Flipping Game.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0824-Goat Latin/0824-Goat Latin.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0852-Peak Index in a Mountain Array/0852-Peak Index in a Mountain Array.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0858-Mirror Reflection/0858-Mirror Reflection.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0815-Bus Routes/0815-Bus Routes.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0899-Orderly Queue/0899-Orderly Queue.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0843-Guess the Word/0843-Guess the Word.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0850-Rectangle Area II/0850-Rectangle Area II.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0848-Shifting Letters/0848-Shifting Letters.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0859-Buddy Strings/0859-Buddy Strings.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0871-Minimum Number of Refueling Stops/0871-Minimum Number of Refueling Stops.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0862-Shortest Subarray with Sum at Least K/0862-Shortest Subarray with Sum at Least K.py
+/home/bew/archive/typed_project/(jiadaizhao)LeetCode/0801-0900/0849-Maximize Distance to Closest Person/0849-Maximize Distance to Closest Person.py

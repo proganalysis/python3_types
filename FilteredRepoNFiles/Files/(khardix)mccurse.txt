@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(khardix)mccurse/setup.py
+/home/bew/archive/typed_project/(khardix)mccurse/mccurse/addon.py
+/home/bew/archive/typed_project/(khardix)mccurse/mccurse/tui.py
+/home/bew/archive/typed_project/(khardix)mccurse/mccurse/util/yaml.py
+/home/bew/archive/typed_project/(khardix)mccurse/mccurse/util/cerberus.py
+/home/bew/archive/typed_project/(khardix)mccurse/tests/test_addon.py
+/home/bew/archive/typed_project/(khardix)mccurse/tests/test_curse.py
+/home/bew/archive/typed_project/(khardix)mccurse/tests/test_util.py
+/home/bew/archive/typed_project/(khardix)mccurse/tests/conftest.py
+/home/bew/archive/typed_project/(khardix)mccurse/tests/test_proxy.py

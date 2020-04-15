@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/transport.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/cli_runner.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/downloader.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/command/debianize.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/command/common.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/command/install_deb.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/command/bdist_deb.py
+/home/bew/archive/typed_project/(astraw)stdeb/stdeb/command/sdist_dsc.py
+/home/bew/archive/typed_project/(astraw)stdeb/test_data/py2_only_pkg/setup.py
+/home/bew/archive/typed_project/(astraw)stdeb/test_data/py2_only_pkg/py2_only_pkg/py2_module.py
+/home/bew/archive/typed_project/(astraw)stdeb/test_data/py3_only_pkg/py3_only_pkg/py3_module.py

@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/outer_model.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/inner_summary.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/mode.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/unidimensionality.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/scale.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/util.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/bootstrap.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/config.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/weights.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/plspm.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/scheme.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/plspm/inner_model.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/tests/test_regression_nonmetric.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/tests/test_regression_metric.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/tests/test_regression_bootstrap.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/tests/test_util.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)plspm-python/tests/test_config.py

@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(layday)instawow/instawow/migrations/__init__.py
+/home/bew/archive/typed_project/(layday)instawow/tests/test_ws_api.py
+/home/bew/archive/typed_project/(layday)instawow/tests/test_cli_output.py
+/home/bew/archive/typed_project/(layday)instawow/tests/test_config.py
+/home/bew/archive/typed_project/(layday)instawow/tests/test_wa_updater.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/wa_updater.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/models.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/config.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/exceptions.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/migrations/env.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/migrations/versions/e4ae835a34be_change_pkg_options_strategy_checks.py
+/home/bew/archive/typed_project/(layday)instawow/instawow/migrations/versions/58a8306c3a5b_make_basenames.py

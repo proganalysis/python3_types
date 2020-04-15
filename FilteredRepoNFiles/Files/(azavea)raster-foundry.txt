@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/commands/ingest_scene.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/models/base.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/models/upload.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/models/scene.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/uploads/geotiff/factories.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/ingest/io.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-tasks/rf/src/rf/utils/cog.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-lambda/rflambda/fields.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-lambda/rflambda/model.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-lambda/tests/test_sentinel2.py
+/home/bew/archive/typed_project/(azavea)raster-foundry/app-lambda/tests/test_landsat8.py

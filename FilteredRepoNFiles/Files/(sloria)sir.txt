@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(sloria)sir/tasks.py
+/home/bew/archive/typed_project/(sloria)sir/api/handlers.py
+/home/bew/archive/typed_project/(sloria)sir/api/cache.py
+/home/bew/archive/typed_project/(sloria)sir/api/config.py
+/home/bew/archive/typed_project/(sloria)sir/api/tests/test_handlers.py
+/home/bew/archive/typed_project/(sloria)sir/api/tests/test_cache.py
+/home/bew/archive/typed_project/(sloria)sir/api/tests/conftest.py
+/home/bew/archive/typed_project/(sloria)sir/api/tests/test_github/test_process.py
+/home/bew/archive/typed_project/(sloria)sir/api/github/plugin.py
+/home/bew/archive/typed_project/(sloria)sir/api/github/process.py
+/home/bew/archive/typed_project/(sloria)sir/api/github/client.py

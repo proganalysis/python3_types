@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(thepoly)Pipeline/lights/models.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/lights/tests.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/lights/views.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/feeds.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/middleware.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/signals.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/templatetags/core_menu.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/templatetags/rich_text.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/management/commands/wordpress_import.py
+/home/bew/archive/typed_project/(thepoly)Pipeline/core/management/commands/contributor_to_staff.py

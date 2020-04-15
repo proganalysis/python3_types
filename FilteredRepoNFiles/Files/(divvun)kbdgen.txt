@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/filecache/__init__.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/boolmap.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/__main__.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/orderedyaml.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/log.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/gen/base.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/gen/json.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/gen/svgkbd.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/gen/errormodel.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/gen/x11.py
+/home/bew/archive/typed_project/(divvun)kbdgen/kbdgen/filecache/downloader.py

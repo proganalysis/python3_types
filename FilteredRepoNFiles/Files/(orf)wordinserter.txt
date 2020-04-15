@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/__init__.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/renderers/__init__.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/parsers/__init__.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/utils.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/cli.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/operations.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/exceptions.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/parsers/fixes/whitespace.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/parsers/fixes/table_colspans.py
+/home/bew/archive/typed_project/(orf)wordinserter/wordinserter/parsers/fixes/list_elements.py
+/home/bew/archive/typed_project/(orf)wordinserter/tests/test_normalize.py
+/home/bew/archive/typed_project/(orf)wordinserter/tests/conftest.py
+/home/bew/archive/typed_project/(orf)wordinserter/tests/test_parse_docs.py
+/home/bew/archive/typed_project/(orf)wordinserter/tests/comparison/generate_report.py

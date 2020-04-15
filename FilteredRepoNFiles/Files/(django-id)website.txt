@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(django-id)website/app_author/models.py
+/home/bew/archive/typed_project/(django-id)website/app_author/views.py
+/home/bew/archive/typed_project/(django-id)website/app_author/tests/test_models.py
+/home/bew/archive/typed_project/(django-id)website/app_author/tests/test_views.py
+/home/bew/archive/typed_project/(django-id)website/djangoid/utils.py
+/home/bew/archive/typed_project/(django-id)website/app_forum/templatetags/show_markdown.py
+/home/bew/archive/typed_project/(django-id)website/app_forum/tests/test_forms.py

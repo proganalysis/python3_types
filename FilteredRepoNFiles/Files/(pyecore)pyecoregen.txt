@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(pyecore)pyecoregen/setup.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/pyecoregen/ecore.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/pyecoregen/cli.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/pyecoregen/adapter.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_generated_library.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_cli.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_ecore.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_adapter.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/conftest.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_templates.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/test_dependencies_generation.py
+/home/bew/archive/typed_project/(pyecore)pyecoregen/tests/user_provided/module.py

@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/map_vectorizer/detect.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/map_vectorizer/util.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/map_vectorizer/config/vectorize_config_parser.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/map_vectorizer/config/test/test_vectorize_config_parser.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/bin/compare-thresholding.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/bin/opencvtest.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/bin/circleDetect.py
+/home/bew/archive/typed_project/(nypl-spacetime)map-vectorizer/bin/consolidator.py

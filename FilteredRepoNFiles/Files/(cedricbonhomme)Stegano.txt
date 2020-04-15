@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/tools.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/red/red.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/steganalysis/parity.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/steganalysis/statistics.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/exifHeader/exifHeader.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/lsb/lsb.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/lsbset/lsbset.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/stegano/lsbset/generators.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_red.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_generators.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_lsbset.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_exifHeader.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_steganalysis.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_tools.py
+/home/bew/archive/typed_project/(cedricbonhomme)Stegano/tests/test_lsb.py

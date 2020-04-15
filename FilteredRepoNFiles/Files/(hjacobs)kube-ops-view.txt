@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/setup.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/utils.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/mock.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/kubernetes.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/oauth.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/update.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/main.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/cluster_discovery.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/stores.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/kube_ops_view/backoff.py
+/home/bew/archive/typed_project/(hjacobs)kube-ops-view/tests/test_mock.py

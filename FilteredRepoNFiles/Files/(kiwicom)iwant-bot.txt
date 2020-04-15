@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/slack_communicator.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/iwant_process.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/start.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/ignore.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/storage.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/pool.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/iwant_bot/requests.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/src/bot_worker/tasks.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_ignore.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_request_acquisition.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_parse_slack_message.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_storage.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_pool.py
+/home/bew/archive/typed_project/(kiwicom)iwant-bot/tests/unit/test_requests.py

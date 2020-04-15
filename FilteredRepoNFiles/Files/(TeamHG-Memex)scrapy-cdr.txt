@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/utils.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/items.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/v2_to_v3.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/es_download.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/kafka_upload.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/es_download_hashes.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/media_pipeline.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/es_upload.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/tests/test_media_pipeline.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/tests/test_items.py
+/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/tests/mockserver.py

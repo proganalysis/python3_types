@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/models.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/conditions.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/factory.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/tests.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/callbacks.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/graph.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/schema.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/simple_approval/mutation.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/django_workflow/utils.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/django_workflow/workflow.py
+/home/bew/archive/typed_project/(dani0805)django_workflow/django_workflow/management/commands/autotransitions.py

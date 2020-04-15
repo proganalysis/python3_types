@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(fastogt)fastonosql/build/build_server_remote.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/build/build.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/build/build_releases.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/tests/redis_test_keys.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/tests/redis_test_graph.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/tests/redis_test_json.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/tests/redis_test_many_keys.py
+/home/bew/archive/typed_project/(fastogt)fastonosql/tests/redis_test_search.py

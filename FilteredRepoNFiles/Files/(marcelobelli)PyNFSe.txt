@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/base/soap_client.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/base/models.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/base/certificate.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/base/nfse_signer.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/nfse/pr/curitiba/comunicacao.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/nfse/pr/curitiba/_facade.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/PyNFSe/nfse/pr/curitiba/serializacao.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/pr/curitiba/test_curitiba_serializacao_comunicacao.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/pr/curitiba/basetestesserializacao.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/pr/curitiba/test_curitiba_serializacao_entidades.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/base/test_models.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/base/test_nfse_signer.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/base/test_certificate.py
+/home/bew/archive/typed_project/(marcelobelli)PyNFSe/tests/base/conftest.py

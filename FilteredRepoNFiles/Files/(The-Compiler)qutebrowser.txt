@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/scripts/dictcli.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/scripts/dev/build_release.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/scripts/dev/update_version.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/scripts/dev/check_coverage.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/scripts/dev/update_3rdparty.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/components/misccommands.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/misc/earlyinit.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/misc/crashsignal.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/misc/checkpyver.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/browser/shared.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/browser/webkit/webkitelem.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/browser/webengine/interceptor.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/browser/webengine/spell.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/qutebrowser/browser/webengine/webenginesettings.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/tests/end2end/test_invocations.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/tests/unit/scripts/test_check_coverage.py
+/home/bew/archive/typed_project/(The-Compiler)qutebrowser/tests/unit/commands/test_userscripts.py

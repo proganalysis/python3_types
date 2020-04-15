@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/cli.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/migration.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/server.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/bigquery/oauth2.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/bigquery/client.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/protocol/line_receiver.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/events/parser.py
+/home/bew/archive/typed_project/(pypa)linehaul/linehaul/ua/impl.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/strategies.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/test_strategies.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/conftest.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/unit/test_server.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/unit/protocol/test_line_receiver.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/unit/events/test_parser.py
+/home/bew/archive/typed_project/(pypa)linehaul/tests/unit/ua/test_impl.py

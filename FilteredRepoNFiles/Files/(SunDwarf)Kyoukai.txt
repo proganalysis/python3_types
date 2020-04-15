@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/__init__.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/setup.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/test_kyoukai.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/wsgi.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/routegroup.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/asphalt.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/route.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/testing.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/util.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/backends/uwsgi.py
+/home/bew/archive/typed_project/(SunDwarf)Kyoukai/kyoukai/backends/gunicorn.py

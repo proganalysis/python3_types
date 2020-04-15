@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(aawadall)PyProjMan/py_proj_man.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManUI/parser.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManCore/proj_man.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManCore/time_element.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManCore/helpers.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManCore/task.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/PyProjManCore/proj_stats.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_proj_man.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_parser.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_task_happy.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_task_exceptions.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_task.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_proj_stats.py
+/home/bew/archive/typed_project/(aawadall)PyProjMan/UnitTesting/test_helper.py

@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(kenkov)smt/smt/db/createngramdb.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/db/createdb.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/db/tables.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/utils/utility.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/langmodel/ngram.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/phrase/phrase_extract.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/phrase/word_alignment.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/ibmmodel/ibmmodel1.py
+/home/bew/archive/typed_project/(kenkov)smt/smt/ibmmodel/ibmmodel2.py
+/home/bew/archive/typed_project/(kenkov)smt/test/test_ngram.py
+/home/bew/archive/typed_project/(kenkov)smt/test/test_ibmmodel.py
+/home/bew/archive/typed_project/(kenkov)smt/test/test_phrase.py

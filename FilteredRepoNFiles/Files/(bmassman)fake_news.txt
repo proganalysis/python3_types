@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/article_db.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/convert_db_to_csv.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/summary_stats.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/LdaAnalysis.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/article_learner.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/results/text_to_csv.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/results/feature_analysis.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/pipeline/build_df.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/pipeline/db_transformer.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/pipeline/db_cleaner.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/pipeline/sentiment/sentiment.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/pipeline/sentiment/sentimentWordCloud.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/scraper/article_language.py
+/home/bew/archive/typed_project/(bmassman)fake_news/fake_news/scraper/news_scraper.py

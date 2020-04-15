@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/main.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/notification.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/utils.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/kube.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/capacity.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/aws_utils.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/autoscaler/azure.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/test/test_azure_api.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/test/test_capacity.py
+/home/bew/archive/typed_project/(openai)kubernetes-ec2-autoscaler/test/test_azure.py

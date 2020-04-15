@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(JuliusKunze)speechless/main.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/recording.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/tools.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/labeled_example_plotter.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/configuration.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/labeled_example.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/grapheme_enconding.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/corpus.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_net.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_ctc_decoders.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_grapheme_encoding.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_spectrogram_batch.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_labeled_example.py
+/home/bew/archive/typed_project/(JuliusKunze)speechless/speechless/test/test_configuration.py

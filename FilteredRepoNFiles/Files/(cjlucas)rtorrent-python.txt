@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/__init__.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/tracker.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/context.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/file.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/torrent.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/method.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/processors.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/caller.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/result.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/rtorrent/rpc/call.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/test/test_rpc/test_file_methods.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/test/test_rpc/test_torrent_methods.py
+/home/bew/archive/typed_project/(cjlucas)rtorrent-python/test/test_rpc/test_processors.py

@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/aioworkers_redis/base.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/aioworkers_redis/queue.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/aioworkers_redis/storage.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/examples/ping_pong/worker.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/tests/test_connector.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/tests/test_storage.py
+/home/bew/archive/typed_project/(aioworkers)aioworkers-redis/tests/test_queue.py

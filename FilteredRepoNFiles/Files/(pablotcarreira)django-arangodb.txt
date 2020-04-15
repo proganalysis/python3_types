@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/base.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/introspection.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/operations.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/client.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/router.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/schema.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/compiler.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/models/fields.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/models/aql/query.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/arangodb_driver/models/aql/where.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/tests/test_db_router.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/tests/test_relations.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/tests/test_arangodb_driver.py
+/home/bew/archive/typed_project/(pablotcarreira)django-arangodb/tests/test_db_operations.py

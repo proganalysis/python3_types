@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(dpnova)pynerstat/setup.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/utils.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/rig.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/service.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/remote.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/miners/base.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/miners/sgminer.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/miners/ewbf.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/miners/claymore.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/tests/test_utils.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/minerstat/tests/test_minerstat.py
+/home/bew/archive/typed_project/(dpnova)pynerstat/twisted/plugins/minerstat_plugin.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/authentication.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/serializers.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/views.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/tests/test_serializers.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/tests/test_urls.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/tests/test_views.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/bindings.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/models.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/apps.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/consumers.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/signals.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/tests/test_models.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/tests/factories.py
+/home/bew/archive/typed_project/(KDD-OpenSource)fexum/features/tests/test_bindings.py

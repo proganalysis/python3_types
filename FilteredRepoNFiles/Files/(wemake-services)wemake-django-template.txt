@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/manage.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/server/settings/environments/development.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/server/apps/main/views.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/tests/conftest.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/tests/test_apps/test_main/test_views.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/{{cookiecutter.project_name}}/tests/test_server/test_urls.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/hooks/pre_gen_project.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/hooks/post_gen_project.py
+/home/bew/archive/typed_project/(wemake-services)wemake-django-template/tests/test_project_generation.py

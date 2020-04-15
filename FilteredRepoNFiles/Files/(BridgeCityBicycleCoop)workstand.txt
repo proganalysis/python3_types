@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/handlers.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/utils.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/models.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/apps.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/forms.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/search_indexes.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/views.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/tests/test_utils.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/tests/test_models.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/registration/tests/test_views.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/bike/consumers.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/bike/signals.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/bike/tests/test_channels.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/bike/tests/test_signals.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/bikeshop/utils/member_import.py
+/home/bew/archive/typed_project/(BridgeCityBicycleCoop)workstand/core/admin.py

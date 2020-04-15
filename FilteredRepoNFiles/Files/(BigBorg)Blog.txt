@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/models.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/tasks.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/forms.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/views.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/api/serializers.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/Blog/celery_tasks.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/posts/utils.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/posts/templatetags/urlify.py
+/home/bew/archive/typed_project/(BigBorg)Blog/Blog/posts/api/permissions.py

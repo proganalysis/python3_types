@@ -1,0 +1,720 @@
+/home/bew/archive/typed_project/(algorhythms)LeetCode/139 Word Break.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/359 Logger Rate Limiter.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/438 Find All Anagrams in a String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/821 Shortest Distance to a Character.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/801 Minimum Swaps To Make Sequences Increasing.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/623 Add One Row to Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/151 Reverse Words in a String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/763 Partition Labels py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/133 Clone Graph.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/084 Remove Duplicates from Sorted List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/114 Flatten Binary Tree to Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/352 Data Stream as Disjoint Intervals.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/421 Maximum XOR of Two Numbers in an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/298 Binary Tree Longest Consecutive Sequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/922 Sort Array By Parity II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/344 Reverse String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/305 Number of Islands II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/494 Target Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/503 Next Greater Element II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/429 N-ary Tree Level Order Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/543 Diameter of Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/357 Count Numbers with Unique Digits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/663 Equal Tree Partition.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/935 Knight Dialer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/209 Minimum Size Subarray Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/004 Add Two Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/594 Longest Harmonious Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/985 Sum of Even Numbers After Queries.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/875 Koko Eating Bananas.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/018 4Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/258 Add Digits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/784 Letter Case Permutation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/309 Best Time to Buy and Sell Stock with Cooldown.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/150 Evaluate Reverse Polish Notation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/030 Next Permutation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/886 Possible Bipartition.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/814 Binary Tree Pruning.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/504 Base 7.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/284 Peeking Iterator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/048 Pow(x, n).py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/653 Two Sum IV - Input is a BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/082 Largest Rectangle in Histogram.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/205 Isomorphic Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/093 Restore IP Addresses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/380 Insert Delete GetRandom O(1).py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/787 Cheapest Flights Within K Stops.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/273 Integer to English Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/674 Longest Continuous Increasing Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/149 Max Points on a Line.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/091 Decode Ways.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/884 Uncommon Words from Two Sentences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/300 Longest Increasing Subsequence py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/997 Find the Town Judge.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/315 Count of Smaller Numbers After Self.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/759 Employee Free Time.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/826 Most Profit Assigning Work.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/908 Smallest Range I.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/526 Beautiful Arrangement.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/250 Count Univalue Subtrees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/459 Repeated Substring Pattern.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/703 Kth Largest Element in a Stream.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/152 Maximum Product Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/924 Minimize Malware Spread.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/945 Minimum Increment to Make Array Unique.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/733 Flood Fill.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/961 N-Repeated Element in Size 2N Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/863 All Nodes Distance K in Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/230 Kth Smallest Element in a BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1018 Binary Prefix Divisible By 5.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/003 Longest Substring Without Repeating Characters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/016 3Sum Closest.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1022 Sum of Root To Leaf Binary Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/169 Majority Element.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/500 Keyboard Row.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/122 Best Time to Buy and Sell Stock.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/172 Factorial Trailing Zeroes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/648 Replace Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/566 Reshape the Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1027 Longest Arithmetic Sequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/020 Valid Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/307 Range Sum Query - Mutable.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/115 Distinct Subsequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/157 Read N Characters Given Read4.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/130 Surrounded Regions.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/846 Hand of Straights.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/384 Shuffle an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/246 Strobogrammatic Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/068 Text Justification py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/287 Find the Duplicate Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/211 Add and Search Word - Data structure design.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/263 Ugly Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/955 Delete Columns to Make Sorted II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/060 Permutation Sequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/628 Maximum Product of Three Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/433 Minimum Genetic Mutation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/113 Path Sum II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/247 Strobogrammatic Number II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/260 Single Number III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/256 Paint House.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/201 Bitwise AND of Numbers Range.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/496 Next Greater Element I.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/449 Serialize and Deserialize BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/554 Brick Wall.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/856 Score of Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/442 Find All Duplicates in an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/001 Two Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/158 Read N Characters Given Read4 II - Call multiple times.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/855 Exam Room.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/738 Monotone Increasing Digits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/680 Valid Palindrome II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1023 Camelcase Matching.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/044 Jump Game II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/387 First Unique Character in a String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/024 Reverse Nodes in k-Group.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/002 Median of Two Sorted Arrays.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/109 Convert Sorted List to Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/934 Shortest Bridge.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/958 Check Completeness of a Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/807 Max Increase to Keep City Skyline.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/021 Generate Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/670 Maximum Swap.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/400 Nth Digit.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/859 Buddy Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/415 Add Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/561 Array Partition I.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/973 K Closest Points to Origin.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/047 Rotate Image.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/174 Dungeon Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/921 Minimum Add to Make Parentheses Valid.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/302 Smallest Rectangle Enclosing Black Pixels.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/993 Cousins in Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/296 Best Meeting Point.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/700 Search in a Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/990 Satisfiability of Equality Equations.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/802 Find Eventual Safe States.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/012 Integer to Roman.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/117 Populating Next Right Pointers in Each Node II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/964 Least Operators to Express Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/370 Range Addition.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/179 Largest Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/451 Sort Characters By Frequency.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/086 Scramble String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/014 3Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/396 Rotate Function.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/583 Delete Operation for Two Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/611 Valid Triangle Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/266 Palindrome Permutation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/942 DI String Match.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/041 Trapping Rain Water.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/224 Basic Calculator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/869 Reordered Power of 2.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/454 4Sum II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/657 Robot Return to Origin.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/107 Binary Tree Level Order Traversal II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/785 Is Graph Bipartite.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/165 Compare Version Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/498 Diagonal Traverse.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/078 Subsets.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/297 Serialize and Deserialize Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/155 Min Stack.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/643 Maximum Average Subarray I.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/162 Find Peak Element.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/327 Count of Range Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/221 Maximal Square.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/525 Contiguous Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/381 Insert Delete GetRandom O(1) - Duplicates allowed.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/032 Search for a Range.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/276 Paint Fence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/376 Wiggle Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/358 Rearrange String k Distance Apart.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/345 Reverse Vowels of a String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/140 Word Break II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/662 Maximum Width of Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/845 Longest Mountain in Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/279 Perfect Squares.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/190 Reverse Bits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/838 Push Dominoes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/292 Nim Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/320 Generalized Abbreviation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/198 House Robber.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/100 Same Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/039 Combination Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/367 Valid Perfect Square.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/143 Reorder List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/556 Next Greater Element III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/669 Trim a Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/288 Unique Word Abbreviation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/170 Two Sum III - Data structure design.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/406 Queue Reconstruction by Height.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/206 Reverse Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/435 Non-overlapping Intervals.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/075 Sort Colors.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/460 LFU Cache.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/382 Linked List Random Node.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/424 Longest Repeating Character Replacement.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/041 Trapping Rain Water py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/236 Lowest Common Ancestor of a Binary Tree py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/306 Additive Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/938 Range Sum of BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/112 Path Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/027 Divide Two Integers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/153 Find Minimum in Rotated Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/253 Meeting Rooms II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/399 Evaluate Division.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/227 Basic Calculator II py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/464 Can I Win.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/036 Sudoku Solver.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/540 Single Element in a Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/978 Longest Turbulent Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/769 Max Chunks To Make Sorted.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1004 Max Consecutive Ones III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/291 Word Pattern II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1011 Capacity To Ship Packages Within D Days.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/659 Split Array into Consecutive Subsequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1002 Find Common Characters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/461 Hamming Distance.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/203 Remove Linked List Elements.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/234 Palindrome Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/981 Time Based Key-Value Store.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/476 Number Complement.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/235 Lowest Common Ancestor of a Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/144 Binary Tree Preorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/508 Most Frequent Subtree Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/894 All Possible Full Binary Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/312 Burst Balloons.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/207 Course Schedule.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/448 Find All Numbers Disappeared in an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/530 Minimum Absolute Difference in BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/300 Longest Increasing Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/881 Boats to Save People.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/080 Search in Rotated Sorted Array II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/239 Sliding Window Maximum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/142 Linked List Cycle II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/965 Univalued Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/671 Second Minimum Node In a Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/917 Reverse Only Letters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/186 Reverse Words in a String II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/929 Unique Email Addresses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/901 Online Stock Span.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/015 Longest Common Prefix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/111 Minimum Depth of Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/665 Non-decreasing Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/815 Bus Routes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/277 Find the Celebrity.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/349 Intersection of Two Arrays.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/486 Predict the Winner.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/063 Unique Paths II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/501 Find Mode in Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/416 Partition Equal Subset Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/695 Max Area of Island.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/285 Inorder Successor in BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/337 House Robber III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/252 Meeting Rooms.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/979 Distribute Coins in Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/658 Find K Closest Elements.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/986 Interval List Intersections.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/718 Maximum Length of Repeated Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/092 Reverse Linked List II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/129 Sum Root to Leaf Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/021 Generate Parentheses py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/059 Rotate List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/799 Champagne Tower.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1000 Minimum Cost to Merge Stones.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/773 Sliding Puzzle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/245 Shortest Word Distance III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/079 Combinations.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/650 2 Keys Keyboard.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/120 Triangle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/056 Length of Last Word.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1013 Partition Array Into Three Parts With Equal Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/265 Paint House II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/331 Verify Preorder Serialization of a Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/971 Flip Binary Tree To Match Preorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/318 Maximum Product of Word Lengths.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/295 Find Median from Data Stream.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/281 Zigzag Iterator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/606 Construct String from Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/119 Pascal's Triangle II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/925 Long Pressed Name.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/329 Longest Increasing Path in a Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/038 Combination Sum II py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/677 Map Sum Pairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/228 Summary Ranges.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/217 Contains Duplicate.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/928 Minimize Malware Spread II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/915 Partition Array into Disjoint Intervals.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/283 Move Zeroes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/374 Guess Number Higher or Lower.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/860 Lemonade Change.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/844 Backspace String Compare.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/931 Minimum Falling Path Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/039 Combination Sum py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/870 Advantage Shuffle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/373 Find K Pairs with Smallest Sums.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/255 Verify Preorder Sequence in Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/011 Regular Expression Matching.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/261 Graph Valid Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/108 Convert Sorted Array to Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/779 K-th Symbol in Grammar.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1008 Construct Binary Search Tree from Preorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/282 Expression Add Operators.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/088 Merge Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/013 Roman to Integer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/772 Basic Calculator III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/035 Valid Sudoku.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/768 Max Chunks To Make Sorted II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/437 Path Sum III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/079 Word Search py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/038 Combination Sum II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/755 Pour Water.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/405 Convert a Number to Hexadecimal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/523. Continuous Subarray Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1010 Pairs of Songs With Total Durations Divisible by 60.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/105 Construct Binary Tree from Inorder and Postorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/505 The Maze II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/880 Decoded String at Index.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/687 Longest Univalue Path.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/053 Spiral Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/647 Palindromic Substrings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/865 Smallest Subtree with all the Deepest Nodes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/074 Search a 2D Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1031 Maximum Sum of Two Non-Overlapping Subarrays.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/873 Length of Longest Fibonacci Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/073 Set Matrix Zeroes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/797 All Paths From Source to Target.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/911 Online Election.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/049 Anagrams.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/240 Search a 2D Matrix II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/009 Palindrome Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/731 My Calendar II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/222 Count Complete Tree Nodes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/538 Convert BST to Greater Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/383 Ransom Note.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/008 String to Integer (atoi).py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/491 Increasing Subsequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/171 Excel Sheet Column Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/994 Rotting Oranges.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/236 Lowest Common Ancestor of a Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/070 Text Justification.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/355 Design Twitter.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/067 Add Binary.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/264 Ugly Number II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/402 Remove K Digits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/094 Unique Binary Search Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/756 Pyramid Transition Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/254 Factor Combinations.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/477 Total Hamming Distance.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/065 Plus One.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/136 Single Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/006 ZigZag Conversion.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/233 Number of Digit One.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/967 Numbers With Same Consecutive Differences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/293 Flip Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/160 Intersection of Two Linked Lists.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/897 Increasing Order Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/829 Consecutive Numbers Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/456 132 Pattern.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/168 Excel Sheet Column Title.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1026 Maximum Difference Between Node and Ancestor.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/795 Number of Subarrays with Bounded Maximum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/946 Validate Stack Sequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/101 Symmetric Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/167 Two Sum II - Input array is sorted.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/743 Network Delay Time.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/289 Game of Life.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/227 Basic Calculator II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/069 Climbing Stairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/414 Third Maximum Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/310 Minimum Height Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/055 Merge Intervals.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/043 Wildcard Matching.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/102 Binary Tree Level Order Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1041 Robot Bounded In Circle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/323 Number of Connected Components in an Undirected Graph.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/338 Counting Bits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/378 Kth Smallest Element in a Sorted Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/393 UTF-8 Validation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/341 Flatten Nested List Iterator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/923 3Sum With Multiplicity.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/294 Flip Game II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/138 Copy List with Random Pointer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/876 Middle of the Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/962 Maximum Width Ramp.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1021 Remove Outermost Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/434 Number of Segments in a String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/301 Remove Invalid Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/472 Concatenated Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/046 Permutations II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/354 Russian Doll Envelopes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/896 Monotonic Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/954 Array of Doubled Pairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/321 Create Maximum Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/560 Subarray Sum Equals K.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/502 IPO.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/145 Binary Tree Postorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/342 Power of Four.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/257 Binary Tree Paths.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1020 Number of Enclaves.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/395 Longest Substring with At Least K Repeating Characters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/686 Repeated String Match.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/188 Best Time to Buy and Sell Stock IV.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/377 Combination Sum IV.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/739 Daily Temperatures.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/092 Reverse Linked List II py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/645 Set Mismatch.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/403 Frog Jump.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/243 Shortest Word Distance.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/557 Reverse Words in a String III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/518 Coin Change 2.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/106 Construct Binary Tree from Preorder and Inorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/033 Search in Rotated Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/950 Reveal Cards In Increasing Order.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/019 Remove Nth Node From End of List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/325 Maximum Size Subarray Sum Equals k.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/141 Linked List Cycle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/045 Permutation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/832 Flipping an Image.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/361 Bomb Enemy.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/470 Implement Rand10() Using Rand7().py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/275 H-Index II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/124 Binary Tree Maximum Path Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/697 Degree of an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/441 Arranging Coins.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/842 Split Array into Fibonacci Sequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/890 Find and Replace Pattern.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/037 Count and Say.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/360 Sort Transformed Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/099 Recover Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/348 Design Tic-Tac-Toe.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/771 Jewels and Stones.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/701 Insert into a Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/225 Implement Stack using Queues.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/235 Lowest Common Ancestor of a Binary Search Tree py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/379 Design Phone Directory.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/272 Closest Binary Search Tree Value II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/823 Binary Trees With Factors.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/242 Valid Anagram.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/220 Contains Duplicate III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/026 Remove Duplicates from Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/123 Best Time to Buy and Sell Stock III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/398 Random Pick Index.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/900 RLE Iterator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/017 Letter Combinations of a Phone Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/539 Minimum Time Difference.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/388 Longest Absolute File Path.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/054 Jump Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/394 Decode String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/385 Mini Parser Nested Integer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/599 Minimum Index Sum of Two Lists.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/371 Sum of Two Integers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/988 Smallest String Starting From Leaf.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/259 3Sum Smaller.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/042 Multiply Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/208 Implement Trie (Prefix Tree).py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/766 Toeplitz Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1009 Complement of Base 10 Integer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/269 Alien Dictionary.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/238 Product of Array Except Self.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/269 Alien Dictionary py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/735 Asteroid Collision.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/023 Swap Nodes in Pairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/232 Implement Queue using Stacks.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/407 Trapping Rain Water II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/317 Shortest Distance from All Buildings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/304 Range Sum Query 2D - Immutable.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/401 Binary Watch.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/218 The Skyline Problem.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/202 Happy Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/947 Most Stones Removed with Same Row or Column.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/725 Split Linked List in Parts.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/977 Squares of a Sorted Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/646 Maximum Length of Pair Chain.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/328 Odd Even Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/515 Find Largest Value in Each Tree Row.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/131 Palindrome Partitioning.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/617 Merge Two Binary Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/206 Reverse Linked List py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/413 Arithmetic Slices.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/520 Detect Capital.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1014 Best Sightseeing Pair.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/229 Majority Element II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/248 Strobogrammatic Number III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/849 Maximize Distance to Closest Person.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/007 Reverse Integer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/635 Design Log Storage System.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/050 N-Queens.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/652 Find Duplicate Subtrees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/693 Binary Number with Alternating Bits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/767 Reorganize String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/156 Binary Tree Upside Down.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/676 Implement Magic Dictionary.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/028 Implement strStr().py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/280 Wiggle Sort.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/427 Construct Quad Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/121 Best Time to Buy and Sell Stock II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/071 Sqrt(x).py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/692 Top K Frequent Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/362 Design Hit Counter.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/404 Sum of Left Leaves.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/104 Maximum Depth of Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/953 Verifying an Alien Dictionary.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/333 Largest BST Subtree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/389 Find the Difference.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/386 Lexicographical Numbers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/764 Largest Plus Sign.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/754 Reach a Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/713 Subarray Product Less Than K.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/029 Substring with Concatenation of All Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/410 Split Array Largest Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/095 Binary Tree Inorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/565 Array Nesting.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/213 House Robber II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/098 Validate Binary Search Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/072 Edit Distance.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/089 Gray Code.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/356 Line Reflection.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/241 Different Ways to Add Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/216 Combination Sum III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/910 Smallest Range II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/417 Pacific Atlantic Water Flow.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/889 Construct Binary Tree from Preorder and Postorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/199 Binary Tree Right Side View.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/684 Redundant Connection.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/187 Repeated DNA Sequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/622 Design Circular Queue.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/589 N-ary Tree Preorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/987 Vertical Order Traversal of a Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/226 Invert Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/729 My Calendar I.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1030 Matrix Cells in Distance Order.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/654 Maximum Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/712 Minimum ASCII Delete Sum for Two Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/976 Largest Perimeter Triangle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/637 Average of Levels in Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/751 IP to CIDR.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/303 Range Sum Query - Immutable.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/698 Partition to K Equal Sum Subsets.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/137 Single Number II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/351 Android Unlock Patterns.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/134 Gas Station.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/485 Max Consecutive Ones.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/339 Nested List Weight Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/368 Largest Divisible Subset.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/390 Elimination Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/741 Cherry Pickup.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/513 Find Bottom Left Tree Value.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/191 Number of 1 Bits.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/146 LRU Cache.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/439 Ternary Expression Parser.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/467 Unique Substrings in Wraparound String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/343 Integer Break.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/841 Keys and Rooms.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/740 Delete and Earn.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/688 Knight Probability in Chessboard.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/475 Heaters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/244 Shortest Word Distance II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/861 Score After Flipping Matrix.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/673 Number of Longest Increasing Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/837 New 21 Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/147 Insertion Sort List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/888 Fair Candy Swap.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/353 Design Snake Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/918 Maximum Sum Circular Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/436 Find Right Interval.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/087 Partition List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/796 Rotate String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/998 Maximum Binary Tree II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/135 Candy.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/319 Bulb Switcher.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/369 Plus One Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/408 Valid Word Abbreviation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/103 Binary Tree Zigzag Level Order Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/316 Remove Duplicate Letters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/034 Search Insert Position.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/941 Valid Mountain Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/959 Regions Cut By Slashes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/251 Flatten 2D Vector.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/412 Fizz Buzz.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/110 Balanced Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/524 Longest Word in Dictionary through Deleting.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/200 Number of Islands.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/064 Merge Two Sorted Lists.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/210 Course Schedule II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/330 Patching Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/473 Matchsticks to Square.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/926 Flip String to Monotone Increasing.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/848 Shifting Letters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/989 Add to Array-Form of Integer.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/066 Valid Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/068 Simplify Path.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/991 Broken Calculator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/076 Minimum Window Substring.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/450 Delete Node in a BST.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/559 Maximum Depth of N-ary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/474 Ones and Zeroes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/164 Maximum Gap.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1019 Next Greater Node In Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/010 Container With Most Water.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/721 Accounts Merge.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/347. Top K Frequent Elements.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/271 Encode and Decode Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/820 Short Encoding of Words.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/567 Permutation in String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/215 Kth Largest Element in an Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1029 Two City Scheduling.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/040 First Missing Positive.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/146 LRU Cache py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/914 X of a Kind in a Deck of Cards.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/905 Sort Array By Parity.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/081 Remove Duplicates from Sorted Array II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/527 Word Abbreviation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/128 Longest Consecutive Sequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/005 Longest Palindromic Substring.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/576 Out of Boundary Paths.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/334 Increasing Triplet Subsequence py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/223 Rectangle Area.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/313 Super Ugly Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/375 Guess Number Higher or Lower II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/446 Arithmetic Slices II - Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/096 Unique Binary Search Trees II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/204 Count Primes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/278 First Bad Version.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/350 Intersection of Two Arrays II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/364 Nested List Weight Sum II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/214 Shortest Palindrome.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/678 Valid Parenthesis String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/051 N-Queens II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/062 Minimum Path Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/022 Merge k Sorted Lists.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/097 Interleaving String.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/219 Contains Duplicate II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/792 Number of Matching Subsequences.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/409 Longest Palindrome.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/083 Remove Duplicates from Sorted List II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/057 Insert Interval.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/116 Pascal's Triangle.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/249 Group Shifted Strings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/907 Sum of Subarray Minimums.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/581 Shortest Unsorted Continuous Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1024 Video Stitching.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/025 Remove Element.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/696 Count Binary Substrings.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/346 Moving Average from Data Stream.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/334 Increasing Triplet Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/392 Is Subsequence py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/161 One Edit Distance.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1028 Recover a Tree From Preorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/299 Bulls and Cows.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/173 Binary Search Tree Iterator.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/148 Sort List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/322 Coin Change.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/974 Subarray Sums Divisible by K.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/746 Min Cost Climbing Stairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/679 24 Game.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/930 Binary Subarrays With Sum.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/951 Flip Equivalent Binary Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/983 Minimum Cost For Tickets.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/212 Word Search II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/052 Maximum Subarray.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/605 Can Place Flowers.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/372 Super Pow.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/324 Wiggle Sort II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/268 Missing Number.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/187 Repeated DNA Sequences py3.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/453 Minimum Moves to Equal Array Elements.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/332 Reconstruct Itinerary.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/231 Power of Two.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/166 Fraction to Recurring Decimal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/563 Binary Tree Tilt.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/621 Task Scheduler.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/455 Assign Cookies.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1017 Convert to Base -2.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/752 Open the Lock.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/118 Populating Next Right Pointers in Each Node.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1005 Maximize Sum Of Array After K Negations.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/286 Walls and Gates.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/443 String Compression.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/340 Longest Substring with At Most K Distinct Characters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/132 Palindrome Partitioning II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/336 Palindrome Pairs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/813 Largest Sum of Averages.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/365 Water and Jug Problem.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/590 N-ary Tree Postorder Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/314 Binary Tree Vertical Order Traversal.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/447 Number of Boomerangs.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/898 Bitwise ORs of Subarrays.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/090 Subsets II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/783 Minimum Distance Between BST Nodes.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/916 Word Subsets.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/031 Longest Valid Parentheses.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/919 Complete Binary Tree Inserter.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/163 Missing Ranges.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/462 Minimum Moves to Equal Array Elements II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/392 Is Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/968 Binary Tree Cameras.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/290 Word Pattern.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/267 Palindrome Permutation II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/516 Longest Palindromic Subsequence.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/189 Rotate Array.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/270 Closest Binary Search Tree Value.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/077 Word Search.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/159 Longest Substring with At Most Two Distinct Characters.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/1058 Minimize Rounding Error to Meet Target.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/732 My Calendar III.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/830 Positions of Large Groups.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/452 Minimum Number of Arrows to Burst Balloons.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/397 Integer Replacement.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/704 Binary Search.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/411 Minimum Unique Word Abbreviation.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/366 Find Leaves of Binary Tree.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/237 Delete Node in a Linked List.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/836 Rectangle Overlap.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/311 Sparse Matrix Multiplication.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/463 Island Perimeter.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/058 Spiral Matrix II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/872 Leaf-Similar Trees.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/061 Unique Paths.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/154 Find Minimum in Rotated Sorted Array II.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/125 Valid Palindrome.py
+/home/bew/archive/typed_project/(algorhythms)LeetCode/274 H-Index.py

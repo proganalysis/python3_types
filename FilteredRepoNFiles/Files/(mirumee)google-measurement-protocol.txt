@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/google_measurement_protocol/report.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/google_measurement_protocol/pageview.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/google_measurement_protocol/enhanced_purchase.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/google_measurement_protocol/transaction.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/google_measurement_protocol/event.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_item.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_pageview.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_report.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_event.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_enhanced_purchase.py
+/home/bew/archive/typed_project/(mirumee)google-measurement-protocol/tests/test_transaction.py

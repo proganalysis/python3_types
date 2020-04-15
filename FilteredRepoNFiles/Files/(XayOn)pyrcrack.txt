@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/__init__.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/aireplay.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/models.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/aircrack.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/airmon.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/executor.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/pyrcrack/airodump.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/examples/aireplay_deauth.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/examples/scan_for_targets.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/examples/set_monitor.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/examples/scan_for_specific_ap.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/tests/features/steps/steps_package.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/tests/unit/test_import.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/tests/unit/test_executor.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/tests/unit/test_airodump.py
+/home/bew/archive/typed_project/(XayOn)pyrcrack/tests/unit/test_airmon.py

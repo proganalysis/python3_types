@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(lostatc)codot/codot/utils.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/user_files.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/daemon.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/container.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/cli.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commandbase.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commands/list.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commands/role.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commands/add_template.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commands/rm_template.py
+/home/bew/archive/typed_project/(lostatc)codot/codot/commands/sync.py
+/home/bew/archive/typed_project/(lostatc)codot/tests/commands_test.py

@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/dbf.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/entities.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/utils.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/stringsfile.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/cardxml.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/hearthstone/deckstrings.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_deckstrings.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_utils.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_enums.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_cardxml.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_dbf.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_stringsfile.py
+/home/bew/archive/typed_project/(HearthSim)python-hearthstone/tests/test_entities.py

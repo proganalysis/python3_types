@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(AbeelLab)phasm/setup.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/.ycm_extra_conf.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/tests/test_sequence.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/tests/test_rmq.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/tests/test_bubbles.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/tests/test_assembly_graph.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/tests/test_gfa.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/utils.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/rmq.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/alignments.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/filter.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/io/gfa.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/io/sequences.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/io/daligner.py
+/home/bew/archive/typed_project/(AbeelLab)phasm/phasm/cli/convert.py

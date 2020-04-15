@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_py3/__init__.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_tracker.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_pure_contracts.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_module_funcs.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_no_content_checks.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_adaption.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_adapt_args2.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_function_sigs.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_meta_classes.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_isinstance.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_inheritance.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_weakref.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_versions_in_sync.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_implementation_checks.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_py3/test_dataclass_support.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_py3/test_impl3_checks.py
+/home/bew/archive/typed_project/(tim-mitchell)pure_interface/tests/test_py3/test_adapt_args3.py

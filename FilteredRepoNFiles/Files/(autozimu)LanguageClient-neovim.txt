@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/deoplete/sources/LanguageClientSource.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/common.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/lsp/protocol.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/source/codeAction.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/source/workspaceSymbol.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/source/references.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/source/contextMenu.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/rplugin/python3/denite/source/documentSymbol.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/ci/cleanup-binary-tags.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/tests/LanguageClient_test.py
+/home/bew/archive/typed_project/(autozimu)LanguageClient-neovim/tests/data/sample-py/sample.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/utils.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/factory.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/services/temperature_map.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/services/tasks.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/controllers/api.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/controllers/views.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/model/chain.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/model/response.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/model/users_graph.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/app/model/user.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/tests/users_graph_test.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/tests/temperature_map_test.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/tests/utils_test.py
+/home/bew/archive/typed_project/(Djaler)VkGraph/tests/friends_chain_test.py

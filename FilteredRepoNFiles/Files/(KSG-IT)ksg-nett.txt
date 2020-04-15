@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/admin.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/models.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/managers.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/views.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/tests/factories.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/users/tests/tests.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/api/view_mixins.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/api/serializers.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/api/api_docs.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/common/util.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/common/templatetags/ksg_helpers.py
+/home/bew/archive/typed_project/(KSG-IT)ksg-nett/ksg_nett/custom_authentication.py

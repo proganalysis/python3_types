@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/__main__.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/elastic/elastic.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/elastic/elastic_destination.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/elastic/elastic_source.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/file/file_source.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/file/file_destination.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/file/elastic_file.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/meta/helper.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/meta/source.py
+/home/bew/archive/typed_project/(AliceAndTheBuilders)es-tenso/tenso/meta/destination.py

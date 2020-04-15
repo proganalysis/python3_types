@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/urls.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/registration/forms.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/registration/views.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/groups/models.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/groups/templatetags/group_tags.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/base/validators.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/base/autocomplete.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/base/templatetags/userformat.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/base/templatetags/settings_value.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/base/management/commands/importolddudel.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/util.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/poll_permissions.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/comment_permissions.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/poll_watched.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/poll_voted.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/poll_filter.py
+/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/poll/templatetags/vote_permissions.py

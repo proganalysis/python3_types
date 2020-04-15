@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(youtux)wikidump/pages_finder.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/utils.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/dumper.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/extractors/common.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/extractors/pubmed.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/extractors/arxiv.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/extractors/doi.py
+/home/bew/archive/typed_project/(youtux)wikidump/wikidump/extractors/isbn.py
+/home/bew/archive/typed_project/(youtux)wikidump/tests/extractors/test_pubmed.py
+/home/bew/archive/typed_project/(youtux)wikidump/tests/extractors/test_doi.py
+/home/bew/archive/typed_project/(youtux)wikidump/tests/extractors/test_arxiv.py
+/home/bew/archive/typed_project/(youtux)wikidump/tests/extractors/test_misc.py

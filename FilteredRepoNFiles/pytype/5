@@ -1,0 +1,1470 @@
+[RRepo](tensorflow)data-validation
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check setup
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/setup.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/setup.imports --module-name setup -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/setup.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/setup.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/setup.py", line 46, in <module>: Key '__version__' possibly not in dictionary (yet) [key-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/setup.py", line 56, in <module>: Key 'PY_DEP' possibly not in dictionary (yet) [key-error]
+
+For more details, see https://google.github.io/pytype/errors.html#key-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check types
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/types.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/types.imports --module-name types -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/types.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/types.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/types.py", line 21, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/types.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/types.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check merge_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/merge_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/merge_test.imports --module-name merge_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/merge_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/merge_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/merge_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/merge_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check arrow_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/arrow_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/arrow_util.imports --module-name arrow_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/arrow_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util.py", line 22, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.pywrap'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check decoded_examples_to_arrow_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/decoded_examples_to_arrow_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/decoded_examples_to_arrow_test.imports --module-name decoded_examples_to_arrow_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/decoded_examples_to_arrow_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/decoded_examples_to_arrow_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/decoded_examples_to_arrow_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/decoded_examples_to_arrow_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check arrow_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/arrow_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/arrow_util_test.imports --module-name arrow_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/arrow_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/arrow/arrow_util_test.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check batch_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/batch_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/batch_util.imports --module-name batch_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/batch_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 22, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 23, in <module>: Can't find module 'apache_beam.transforms'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 24, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 25, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check anomalies_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/anomalies_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/anomalies_util.imports --module-name anomalies_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/anomalies_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/anomalies_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/anomalies_util.py", line 21, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/anomalies_util.py", line 22, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/anomalies_util.py", line 24, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/anomalies_util.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_util_test.imports --module-name stats_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util_test.py", line 28, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util_test.py", line 30, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check display_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/display_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/display_util_test.imports --module-name display_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/display_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util_test.py", line 23, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util_test.py", line 25, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_util.imports --module-name stats_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util.py", line 22, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util.py", line 25, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_util.py", line 28, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check batch_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/batch_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/batch_util_test.imports --module-name batch_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/batch_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py", line 22, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py", line 23, in <module>: Can't find module 'apache_beam.testing'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/batch_util_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check test_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/test_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/test_util_test.imports --module-name test_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/test_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/test_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/test_util_test.py", line 21, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/test_util_test.py", line 23, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/test_util_test.py", line 24, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_gen_lib
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_gen_lib.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_gen_lib.imports --module-name stats_gen_lib -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_gen_lib.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 27, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 28, in <module>: Can't find module 'apache_beam.io.filesystem'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 29, in <module>: Can't find module 'apache_beam.options.pipeline_options'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 34, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 35, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 36, in <module>: Can't find module 'tensorflow_data_validation.api'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 37, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 38, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 39, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 40, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 41, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 42, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 43, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 46, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/stats_gen_lib.py", line 47, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check schema_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/schema_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/schema_util.imports --module-name schema_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/schema_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/schema_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/schema_util.py", line 23, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/schema_util.py", line 25, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/schema_util.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check display_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/display_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/display_util.imports --module-name display_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/display_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util.py", line 27, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util.py", line 29, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util.py", line 30, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/display_util.py", line 31, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check slicing_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/slicing_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/slicing_util_test.imports --module-name slicing_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/slicing_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check slicing_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/slicing_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/slicing_util.imports --module-name slicing_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/slicing_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 25, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 26, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 29, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/slicing_util.py", line 30, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check validation_lib
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/validation_lib.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/validation_lib.imports --module-name validation_lib -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/validation_lib.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 24, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 25, in <module>: Can't find module 'apache_beam.options.pipeline_options'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 26, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.api'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 29, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 30, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 31, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 32, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 33, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/validation_lib.py", line 36, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check quantiles_util
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/quantiles_util.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/quantiles_util.imports --module-name quantiles_util -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/quantiles_util.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util.py", line 27, in <module>: Can't find module 'tensorflow_transform'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util.py", line 29, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check quantiles_util_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/quantiles_util_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/quantiles_util_test.imports --module-name quantiles_util_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/quantiles_util_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 27, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 28, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 51, in _assert_buckets_almost_equal: No attribute 'low_value' on Tuple[float, float, float] [attribute-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 52, in _assert_buckets_almost_equal: No attribute 'high_value' on Tuple[float, float, float] [attribute-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/utils/quantiles_util_test.py", line 53, in _assert_buckets_almost_equal: No attribute 'sample_count' on Tuple[float, float, float] [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_options
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_options.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_options.imports --module-name stats_options -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_options.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options.py", line 23, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_options_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_options_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_options_test.imports --module-name stats_options_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_options_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/stats_options_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check cross_feature_stats_generator_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/cross_feature_stats_generator_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/cross_feature_stats_generator_test.imports --module-name cross_feature_stats_generator_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/cross_feature_stats_generator_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py", line 22, in <module>: Can't find module 'pyarrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py", line 26, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator_test.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check top_k_uniques_combiner_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/top_k_uniques_combiner_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/top_k_uniques_combiner_stats_generator.imports --module-name top_k_uniques_combiner_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/top_k_uniques_combiner_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 23, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 29, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 31, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/top_k_uniques_combiner_stats_generator.py", line 32, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check image_stats_generator_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/image_stats_generator_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/image_stats_generator_test.imports --module-name image_stats_generator_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/image_stats_generator_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 29, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 31, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator_test.py", line 32, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check natural_language_stats_generator_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/natural_language_stats_generator_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/natural_language_stats_generator_test.imports --module-name natural_language_stats_generator_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/natural_language_stats_generator_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator_test.py", line 21, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator_test.py", line 27, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check partitioned_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/partitioned_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/partitioned_stats_generator.imports --module-name partitioned_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/partitioned_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 27, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 29, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 30, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 31, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 32, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 33, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator.py", line 36, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check sklearn_mutual_information
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/sklearn_mutual_information.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/sklearn_mutual_information.imports --module-name sklearn_mutual_information -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/sklearn_mutual_information.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 26, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 29, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 30, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 31, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 35, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information.py", line 36, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check natural_language_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/natural_language_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/natural_language_stats_generator.imports --module-name natural_language_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/natural_language_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 34, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 35, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 36, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 37, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 38, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/natural_language_stats_generator.py", line 40, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check image_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/image_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/image_stats_generator.imports --module-name image_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/image_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 41, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 42, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 43, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 44, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 45, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 46, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/image_stats_generator.py", line 48, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check time_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/time_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/time_stats_generator.imports --module-name time_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/time_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 45, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 46, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 47, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 48, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 49, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 52, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator.py", line 53, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check sklearn_mutual_information_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/sklearn_mutual_information_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/sklearn_mutual_information_test.imports --module-name sklearn_mutual_information_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/sklearn_mutual_information_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 26, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 28, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/sklearn_mutual_information_test.py", line 29, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check cross_feature_stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/cross_feature_stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/cross_feature_stats_generator.imports --module-name cross_feature_stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/cross_feature_stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 33, in <module>: Can't find module 'pyarrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 34, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 35, in <module>: Can't find module 'tensorflow_data_validation.arrow'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 36, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 37, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 40, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/cross_feature_stats_generator.py", line 41, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_generator
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_generator.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_generator.imports --module-name stats_generator -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_generator.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py", line 56, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py", line 57, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py", line 58, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py", line 60, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/stats_generator.py", line 61, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check partitioned_stats_generator_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/partitioned_stats_generator_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/partitioned_stats_generator_test.imports --module-name partitioned_stats_generator_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/partitioned_stats_generator_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 22, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 23, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 29, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 31, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/partitioned_stats_generator_test.py", line 32, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check time_stats_generator_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/time_stats_generator_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/time_stats_generator_test.imports --module-name time_stats_generator_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/time_stats_generator_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 24, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.statistics.generators'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 29, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/statistics/generators/time_stats_generator_test.py", line 30, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check stats_api
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/stats_api.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/stats_api.imports --module-name stats_api -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/stats_api.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 48, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 49, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 50, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 51, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 52, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 53, in <module>: Can't find module 'tensorflow_data_validation.statistics'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/api/stats_api.py", line 56, in <module>: Can't find module 'tensorflow_metadata.proto.v0'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check tf_example_decoder
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/tf_example_decoder.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/tf_example_decoder.imports --module-name tf_example_decoder -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/tf_example_decoder.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 22, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 23, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 24, in <module>: Can't find module 'tensorflow_data_validation'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.pywrap'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check tf_example_decoder_test
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/tf_example_decoder_test.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/tf_example_decoder_test.imports --module-name tf_example_decoder_test -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/tf_example_decoder_test.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py'
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 22, in <module>: Can't find module 'apache_beam'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 23, in <module>: Can't find module 'apache_beam.testing'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 25, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 26, in <module>: Can't find module 'tensorflow_data_validation.coders'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 27, in <module>: Can't find module 'tensorflow_data_validation.pyarrow_tf'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 28, in <module>: Can't find module 'tensorflow_data_validation.utils'. [import-error]
+File "/home/bew/archive/typed_project/(tensorflow)data-validation/tensorflow_data_validation/coders/tf_example_decoder_test.py", line 30, in <module>: Can't find module 'google.protobuf.text_format'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check strip_type_hints
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+[RRepo](ActiveState)code
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recursive_file_regex_replacer_colorized
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-200566
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-552745
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-552745.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-552745.imports --module-name recipe-552745 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-552745.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py", line 48, in mmToPixels: unsupported operand type(s) for *: 'tkMath' and 'int' [unsupported-operands]
+  No attribute '__mul__' on tkMath or '__rmul__' on int
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py", line 52, in pointsToPixels: No attribute 'PIXELS_PER_POINTS' on Type[tkMath] [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py", line 75, in compare: No attribute 'coordToPixels' on Type[tkMath] [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py", line 80, in add: No attribute 'coordToPixels' on Type[tkMath] [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/552745_tkMath_convert_between_pixels_inches_cm/recipe-552745.py", line 85, in sub: No attribute 'coordToPixels' on Type[tkMath] [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-302498
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-302498.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-302498.imports --module-name recipe-302498 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-302498.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/302498_RE_match_replace_through_operator/recipe-302498.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/302498_RE_match_replace_through_operator/recipe-302498.py", line 32: Missing parentheses in call to 'print'. Did you mean print("a :", a)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-198078
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-198078.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-198078.imports --module-name recipe-198078 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-198078.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/198078_Wrapping_method_calls_metaclass/recipe-198078.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/198078_Wrapping_method_calls_metaclass/recipe-198078.py", line 58: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-496703
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-496703.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-496703.imports --module-name recipe-496703 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-496703.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/496703_importonce/recipe-496703.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/496703_importonce/recipe-496703.py", line 18: Missing parentheses in call to 'print'. Did you mean print(modulename)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-252526
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-252526.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-252526.imports --module-name recipe-252526 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-252526.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/252526_Complex_BooleRegular/recipe-252526.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/252526_Complex_BooleRegular/recipe-252526.py", line 61: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-501151
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-501151.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-501151.imports --module-name recipe-501151 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-501151.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/501151_Generating_combinations/recipe-501151.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/501151_Generating_combinations/recipe-501151.py", line 73: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578547
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578547.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578547.imports --module-name recipe-578547 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578547.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578547_Simple_Method_Compute_Pi/recipe-578547.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578547_Simple_Method_Compute_Pi/recipe-578547.py", line 9: Missing parentheses in call to 'print'. Did you mean print('\nComputing Pi v.01\n')? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-101853
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-101853.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-101853.imports --module-name recipe-101853 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-101853.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/101853_Use_tryexcept_handle_unexpected_input/recipe-101853.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/101853_Use_tryexcept_handle_unexpected_input/recipe-101853.py", line 32: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-65233
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-230113
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-230113.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-230113.imports --module-name recipe-230113 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-230113.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/230113_Implementatisets_using_sorted/recipe-230113.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/230113_Implementatisets_using_sorted/recipe-230113.py", line 179: Missing parentheses in call to 'print'. Did you mean print(a < b)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-305277
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-305277.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-305277.imports --module-name recipe-305277 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-305277.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/305277_Import_modules_remote/recipe-305277.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/305277_Import_modules_remote/recipe-305277.py", line 30: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577053
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577053.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577053.imports --module-name recipe-577053 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577053.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577053_Bible_Verse_Quiz__comparepy/recipe-577053.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577053_Bible_Verse_Quiz__comparepy/recipe-577053.py", line 15, in <module>: Can't find module 'diff'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-576490
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-576490.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-576490.imports --module-name recipe-576490 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-576490.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576490_Using_pythimaging_library_generate_degraded/recipe-576490.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576490_Using_pythimaging_library_generate_degraded/recipe-576490.py", line 44: Missing parentheses in call to 'print'. Did you mean print(area_in_pixels)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577054
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577054.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577054.imports --module-name recipe-577054 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577054.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577054_Comma_float_to_float/recipe-577054.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577054_Comma_float_to_float/recipe-577054.py", line 16: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-498261
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-498261.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-498261.imports --module-name recipe-498261 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-498261.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/498261_Deeply_applying_str_across/recipe-498261.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/498261_Deeply_applying_str_across/recipe-498261.py", line 201: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577274
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-572165
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-572165.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-572165.imports --module-name recipe-572165 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-572165.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/572165_Recreate_MS_Access_table/recipe-572165.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/572165_Recreate_MS_Access_table/recipe-572165.py", line 92: Missing parentheses in call to 'print'. Did you mean print("\tFetched " + "%s" % fetchnum + " rows")? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-579088
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-579088.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-579088.imports --module-name recipe-579088 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-579088.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/579088_edgecoloring_bipartite/recipe-579088.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/579088_edgecoloring_bipartite/recipe-579088.py", line 20: Missing parentheses in call to 'print'. Did you mean print('NEXT COLOR')? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-252158
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-252158.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-252158.imports --module-name recipe-252158 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-252158.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/252158_How_to_freeze_Python_classes/recipe-252158.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/252158_How_to_freeze_Python_classes/recipe-252158.py", line 12, in <module>: Metaclass __metaclass__ on class Frozen ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html#ignored-metaclass.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-438599
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-438599.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-438599.imports --module-name recipe-438599 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-438599.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/438599_Unique_stableunstable/recipe-438599.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/438599_Unique_stableunstable/recipe-438599.py", line 97: Missing parentheses in call to 'print'. Did you mean print("unique asserts" # ************************)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-576755
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-576755.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-576755.imports --module-name recipe-576755 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-576755.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576755_Sorting_big_files_Pyth26/recipe-576755.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576755_Sorting_big_files_Pyth26/recipe-576755.py", line 97, in <module>: Can't find module 'psyco'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-580781
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-580781.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-580781.imports --module-name recipe-580781 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-580781.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580781_Metro_Accordion_for_Tkinter/recipe-580781.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580781_Metro_Accordion_for_Tkinter/recipe-580781.py", line 4, in <module>: Can't find module 'Tkinter'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580781_Metro_Accordion_for_Tkinter/recipe-580781.py", line 5, in <module>: Can't find module 'Tkconstants'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580781_Metro_Accordion_for_Tkinter/recipe-580781.py", line 39, in start_animation: No attribute 'after' on Animation [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580781_Metro_Accordion_for_Tkinter/recipe-580781.py", line 227, in <module>: Can't find module 'Tkinter'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578585
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578585.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578585.imports --module-name recipe-578585 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578585.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578585_pack_multiple_images_different_sizes_inone/recipe-578585.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578585_pack_multiple_images_different_sizes_inone/recipe-578585.py", line 78: Missing parentheses in call to 'print'. Did you mean print(args)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-440564
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-440564.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-440564.imports --module-name recipe-440564 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-440564.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/440564_easy_password_generator_using_standard/recipe-440564.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/440564_easy_password_generator_using_standard/recipe-440564.py", line 57: Missing parentheses in call to 'print'. Did you mean print("Only a maximum of 40 characters is allowed")? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578902
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578902.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578902.imports --module-name recipe-578902 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578902.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578902_Name_a_lambda/recipe-578902.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578902_Name_a_lambda/recipe-578902.py", line 9: Missing parentheses in call to 'print'. Did you mean print(f)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577014
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577014.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577014.imports --module-name recipe-577014 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577014.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577014_Technique_cyclical/recipe-577014.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577014_Technique_cyclical/recipe-577014.py", line 47: Missing parentheses in call to 'print'. Did you mean print(f)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577049
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-457667
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-457667.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-457667.imports --module-name recipe-457667 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-457667.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/457667_SuperGlobal_access_global_values_every/recipe-457667.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/457667_SuperGlobal_access_global_values_every/recipe-457667.py", line 17: Missing parentheses in call to 'print'. Did you mean print(superglobal1.test)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-303415
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-303415.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-303415.imports --module-name recipe-303415 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-303415.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/303415_Constructing_DAGs_Avoid_Redundancy/recipe-303415.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/303415_Constructing_DAGs_Avoid_Redundancy/recipe-303415.py", line 29: Missing parentheses in call to 'print'. Did you mean print("Using existing %s node." % cls.__name__)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-496778
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-496778.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-496778.imports --module-name recipe-496778 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-496778.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/496778_binaryconverter10/recipe-496778.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/496778_binaryconverter10/recipe-496778.py", line 5: Missing parentheses in call to 'print'. Did you mean print("To go back to the main menu type 'e' and press enter")? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-502222
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-502222.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-502222.imports --module-name recipe-502222 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-502222.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/502222_Creating_javclass/recipe-502222.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/502222_Creating_javclass/recipe-502222.py", line 141: Missing parentheses in call to 'print'. Did you mean print('    creating %s.html' % className)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577997
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577997.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577997.imports --module-name recipe-577997 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577997.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577997_Handle_exit_context_manager/recipe-577997.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577997_Handle_exit_context_manager/recipe-577997.py", line 54: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-521885
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-521885.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-521885.imports --module-name recipe-521885 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-521885.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/521885_pythonic/recipe-521885.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/521885_pythonic/recipe-521885.py", line 50, in __getitem__: Name 'long' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577547
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577547.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577547.imports --module-name recipe-577547 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577547.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577547_Flatten_XML_XPath_syntax/recipe-577547.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577547_Flatten_XML_XPath_syntax/recipe-577547.py", line 19: Missing parentheses in call to 'print'. Did you mean print(path)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-533137
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-533137.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-533137.imports --module-name recipe-533137 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-533137.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/533137_simple_TLV_parser/recipe-533137.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/533137_simple_TLV_parser/recipe-533137.py", line 10: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-163968
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-163968.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-163968.imports --module-name recipe-163968 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-163968.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/163968_Generator_arbitrary/recipe-163968.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/163968_Generator_arbitrary/recipe-163968.py", line 7, in peel: Name 'xrange' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-542194
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577068
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-523016
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-523016.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-523016.imports --module-name recipe-523016 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-523016.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/523016_using_xmlrpc_authenticated_proxy/recipe-523016.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/523016_using_xmlrpc_authenticated_proxy/recipe-523016.py", line 42: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577438
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-305320
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-305320.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-305320.imports --module-name recipe-305320 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-305320.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/305320_Simpler_item_retrieval_using_tupled/recipe-305320.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/305320_Simpler_item_retrieval_using_tupled/recipe-305320.py", line 54: Missing parentheses in call to 'print'. Did you mean print(l[0,-1]        # Get only the first and last item)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-483747
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-483747.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-483747.imports --module-name recipe-483747 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-483747.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 17, in <module>: Can't find module 'md5'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 17, in <module>: Can't find module 'sha'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 26, in repgen: Name 'file' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 47, in hashgen: Name 'file' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 53, in hashgen: Name 'file' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/483747_Riddles_Authentication_System/recipe-483747.py", line 67, in hashcmp: Name 'file' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578185
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578185.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578185.imports --module-name recipe-578185 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578185.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578185_Zcgi_Test/recipe-578185.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578185_Zcgi_Test/recipe-578185.py", line 1, in <module>: Can't find module 'Zcgi'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-580753
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-580753.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-580753.imports --module-name recipe-580753 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-580753.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580753_Find_arity/recipe-580753.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580753_Find_arity/recipe-580753.py", line 43: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-343386
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-343386.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-343386.imports --module-name recipe-343386 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-343386.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/343386_Wolframstyle_cellular_automata/recipe-343386.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/343386_Wolframstyle_cellular_automata/recipe-343386.py", line 22, in ca_data: unsupported operand type(s) for item assignment: 'List[int]' and 'float' [unsupported-operands]
+  Function __setitem__ on List[int] expects int
+Called from (traceback):
+  line 65, in current file
+  line 61, in main
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/343386_Wolframstyle_cellular_automata/recipe-343386.py", line 40, in pil_render: Can't find module 'Image'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/343386_Wolframstyle_cellular_automata/recipe-343386.py", line 40, in pil_render: Can't find module 'ImageDraw'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577021
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-576567
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577731
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577731.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577731.imports --module-name recipe-577731 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577731.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577731_Simple_creaticonfiguratiinstallatilogging/recipe-577731.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577731_Simple_creaticonfiguratiinstallatilogging/recipe-577731.py", line 2, in <module>: Name 'logging' is not defined [name-error]
+
+For more details, see https://google.github.io/pytype/errors.html#name-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577689
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577689.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577689.imports --module-name recipe-577689 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577689.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577689_Enforce_all_outside_import_/recipe-577689.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577689_Enforce_all_outside_import_/recipe-577689.py", line 20, in __getattribute__: No attribute '__getattribute__' on Any [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577689_Enforce_all_outside_import_/recipe-577689.py", line 22, in <module>: Can't find module 'example'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578795
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578795.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578795.imports --module-name recipe-578795 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578795.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578795_Convert_Microsoft_Word_files_PDF/recipe-578795.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578795_Convert_Microsoft_Word_files_PDF/recipe-578795.py", line 27: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-355731
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-355731.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-355731.imports --module-name recipe-355731 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-355731.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/355731_Docstring_coverage/recipe-355731.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/355731_Docstring_coverage/recipe-355731.py", line 51: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577268
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577268.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577268.imports --module-name recipe-577268 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577268.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577268_Pythdatstructure_XML/recipe-577268.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577268_Pythdatstructure_XML/recipe-577268.py", line 114: Missing parentheses in call to 'print'. Did you mean print(python_object)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-282085
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-282085.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-282085.imports --module-name recipe-282085 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-282085.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/282085_Watch_That_Post/recipe-282085.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/282085_Watch_That_Post/recipe-282085.py", line 60: Missing parentheses in call to 'print'. Did you mean print("New comment: " + url)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577961
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578807
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578807.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578807.imports --module-name recipe-578807 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578807.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578807_Sending_Email/recipe-578807.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578807_Sending_Email/recipe-578807.py", line 45: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578847
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+Success: no errors found
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-52309
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-52309.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-52309.imports --module-name recipe-52309 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-52309.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/52309_return_None_your_Pythoncallable_C/recipe-52309.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/52309_return_None_your_Pythoncallable_C/recipe-52309.py", line 1: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-576922
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-576922.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-576922.imports --module-name recipe-576922 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-576922.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576922_Delete_all_message_older_thgiven_date_pop/recipe-576922.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576922_Delete_all_message_older_thgiven_date_pop/recipe-576922.py", line 9: Missing parentheses in call to 'print'. Did you mean print(last_wanted)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-500274
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-500274.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-500274.imports --module-name recipe-500274 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-500274.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/500274_exceptihandling_using/recipe-500274.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/500274_exceptihandling_using/recipe-500274.py", line 22: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-155582
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-155582.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-155582.imports --module-name recipe-155582 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-155582.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/155582_Indexing_into_XML/recipe-155582.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/155582_Indexing_into_XML/recipe-155582.py", line 28: Missing parentheses in call to 'print'. Did you mean print("Usage: \n\txmlIndexer -c filename ")? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-440627
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-440627.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-440627.imports --module-name recipe-440627 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-440627.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/440627_Encoding_A_String/recipe-440627.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/440627_Encoding_A_String/recipe-440627.py", line 87: Missing parentheses in call to 'print'. Did you mean print('Content-type: text/plain')? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-327141
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-327141.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-327141.imports --module-name recipe-327141 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-327141.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/327141_Simple_FTP_directory_synch/recipe-327141.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/327141_Simple_FTP_directory_synch/recipe-327141.py", line 9: Missing parentheses in call to 'print'. Did you mean print("Couldn't find server")? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577919
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577919.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577919.imports --module-name recipe-577919 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577919.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577919_Splash_Screen_GTK/recipe-577919.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577919_Splash_Screen_GTK/recipe-577919.py", line 1, in <module>: Can't find module 'gtk'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-302746
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-302746.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-302746.imports --module-name recipe-302746 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-302746.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/302746_simplest_useful_I_hope_thread_pool/recipe-302746.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/302746_simplest_useful_I_hope_thread_pool/recipe-302746.py", line 66: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-576377
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-576377.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-576377.imports --module-name recipe-576377 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-576377.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576377_High_level_inotify_wrapper/recipe-576377.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/576377_High_level_inotify_wrapper/recipe-576377.py", line 53: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-492215
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-492215.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-492215.imports --module-name recipe-492215 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-492215.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/492215_diskdemopy/recipe-492215.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/492215_diskdemopy/recipe-492215.py", line 11: Missing parentheses in call to 'print'. Did you mean print('+---------------------+')? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-303058
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-303058.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-303058.imports --module-name recipe-303058 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-303058.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/303058_Simple_PyObjC_Example/recipe-303058.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/303058_Simple_PyObjC_Example/recipe-303058.py", line 23: inconsistent use of tabs and spaces in indentation [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578183
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578183.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578183.imports --module-name recipe-578183 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578183.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578183_CGI_Directory_Contents/recipe-578183.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578183_CGI_Directory_Contents/recipe-578183.py", line 1, in <module>: Can't find module 'Zcgi'. [import-error]
+
+For more details, see https://google.github.io/pytype/errors.html#import-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-580687
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-580687.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-580687.imports --module-name recipe-580687 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-580687.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580687_convert_hierarchy_datfiles_inconvenient/recipe-580687.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580687_convert_hierarchy_datfiles_inconvenient/recipe-580687.py", line 56, in crutemread: unsupported operand type(s) for item assignment: 'int' [unsupported-operands]
+  No attribute '__setitem__' on int
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580687_convert_hierarchy_datfiles_inconvenient/recipe-580687.py", line 56, in crutemread: unsupported operand type(s) for item assignment: 'float' [unsupported-operands]
+  No attribute '__setitem__' on float
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/580687_convert_hierarchy_datfiles_inconvenient/recipe-580687.py", line 56, in crutemread: unsupported operand type(s) for item assignment: 'str' [unsupported-operands]
+  No attribute '__setitem__' on str
+
+For more details, see https://google.github.io/pytype/errors.html#unsupported-operands.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-577041
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-577041.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-577041.imports --module-name recipe-577041 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-577041.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577041_Merge_multiple_potentially_infinite_sorted/recipe-577041.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/577041_Merge_multiple_potentially_infinite_sorted/recipe-577041.py", line 11, in <module>: No attribute 'next' on tupleiterator[nothing] [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html#attribute-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-286245
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-286245.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-286245.imports --module-name recipe-286245 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-286245.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/286245_fast_prime_number_list_creator/recipe-286245.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/286245_fast_prime_number_list_creator/recipe-286245.py", line 5, in prime_numbers_less_than: unsupported operand type(s) for +: 'List[int]' and 'range' [unsupported-operands]
+  Function __add__ on List[int] expects list
+
+For more details, see https://google.github.io/pytype/errors.html#unsupported-operands.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-361167
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-361167.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-361167.imports --module-name recipe-361167 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-361167.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/361167_metaclass_that_provides_class_behavior_like/recipe-361167.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/361167_metaclass_that_provides_class_behavior_like/recipe-361167.py", line 1, in <module>: Can't find module 'new'. [import-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/361167_metaclass_that_provides_class_behavior_like/recipe-361167.py", line 10, in __new__: No attribute 'f_back' on None [attribute-error]
+  In Optional[types.FrameType]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/361167_metaclass_that_provides_class_behavior_like/recipe-361167.py", line 11, in __new__: No attribute 'has_key' on Dict[str, Any] [attribute-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/361167_metaclass_that_provides_class_behavior_like/recipe-361167.py", line 21, in <module>: Metaclass RubyMetaClass on class RubyObject ignored in Python 3 [ignored-metaclass]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-335390
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-335390.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-335390.imports --module-name recipe-335390 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-335390.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/335390_Closest_elements_target_array_given_input/recipe-335390.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/335390_Closest_elements_target_array_given_input/recipe-335390.py", line 85: Missing parentheses in call to 'print'. Did you mean print("tol: ", tol)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578594
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578594.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578594.imports --module-name recipe-578594 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578594.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578594_Send_Messages__millions_facebook_Users_/recipe-578594.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578594_Send_Messages__millions_facebook_Users_/recipe-578594.py", line 25: Missing parentheses in call to 'print'. Did you mean print(all_attr)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578092
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578092.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578092.imports --module-name recipe-578092 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578092.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578092_Flattening_arbitrarily_deep_list_or_any/recipe-578092.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578092_Flattening_arbitrarily_deep_list_or_any/recipe-578092.py", line 16, in append: Name 'itertools' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578092_Flattening_arbitrarily_deep_list_or_any/recipe-578092.py", line 21, in insert: Name 'itertools' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578092_Flattening_arbitrarily_deep_list_or_any/recipe-578092.py", line 24, in __add__: Name 'itertools' is not defined [name-error]
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578092_Flattening_arbitrarily_deep_list_or_any/recipe-578092.py", line 35, in flatten: No attribute '__next__' on iter2 [attribute-error]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-578200
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-578200.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-578200.imports --module-name recipe-578200 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-578200.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578200_Set_windows_7_lock_itself_uptimeout_if_no/recipe-578200.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/578200_Set_windows_7_lock_itself_uptimeout_if_no/recipe-578200.py", line 33: Missing parentheses in call to 'print'. Did you mean print(message)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-474083
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-474083.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-474083.imports --module-name recipe-474083 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-474083.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/474083_Get_path_currently_executing__pythscript_using/recipe-474083.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/474083_Get_path_currently_executing__pythscript_using/recipe-474083.py", line 18: Missing parentheses in call to 'print'. Did you mean print(LOCATE #)? [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+
+ninja: Entering directory `/home/bew/Desktop/wp2/.pytype'
+[1/1] check recipe-363779
+FAILED: /home/bew/Desktop/wp2/.pytype/pyi/recipe-363779.pyi 
+/usr/bin/python3.6 -m pytype.single --imports_info /home/bew/Desktop/wp2/.pytype/imports/recipe-363779.imports --module-name recipe-363779 -V 3.6 -o /home/bew/Desktop/wp2/.pytype/pyi/recipe-363779.pyi --analyze-annotated --nofail --quick '/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/363779_FunctionDecorators/recipe-363779.py'
+File "/home/bew/archive/typed_project/(ActiveState)code/recipes/Python/363779_FunctionDecorators/recipe-363779.py", line 23: invalid syntax [python-compiler-error]
+
+For more details, see https://google.github.io/pytype/errors.html#python-compiler-error.
+ninja: build stopped: cannot make progress due to previous errors.
+Computing dependencies
+Analyzing 1 sources with 0 local dependencies
+

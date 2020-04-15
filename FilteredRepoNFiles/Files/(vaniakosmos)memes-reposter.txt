@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/memes_reposter/views.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/utils.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/publisher.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/fetcher.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/admin.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/models.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/tasks.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/serializers.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/reddit/filters.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/core/fields.py
+/home/bew/archive/typed_project/(vaniakosmos)memes-reposter/apps/core/errors.py

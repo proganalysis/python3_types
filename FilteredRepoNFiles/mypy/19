@@ -1,0 +1,1114 @@
+[RRepo](jwodder)aptrepo
+(jwodder)aptrepo/aptrepo/archive.py:8:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](tvorogme)gotosite
+(tvorogme)gotosite/main/templatetags/profile_extras.py:3:1: error: Relative import climbs too many namespaces  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](Ex-Mente)auxi.0
+(Ex-Mente)auxi.0/auxi/tools/transportphenomena/dimensionlessquantities.py:102:12: error: Name 'g' is not defined  [name-defined]
+(Ex-Mente)auxi.0/auxi/tools/transportphenomena/dimensionlessquantities.py:102:29: error: Name 'Tinf' is not defined  [name-defined]
+Found 2 errors in 1 file (checked 34 source files)
+
+[RRepo](maldoinc)mamba
+(maldoinc)mamba/mamba/symbol_table.py:9:15: error: Need type annotation for '__table'  [var-annotated]
+(maldoinc)mamba/mamba/__init__.py:15:9: error: Name 'environment' is not defined  [name-defined]
+Found 2 errors in 2 files (checked 7 source files)
+
+[RRepo](Linaro)test-definitions
+(Linaro)test-definitions/automated/linux/igt/print-test-result.py:10:45: error: Missing parentheses in call to 'print'. Did you mean print('<LAVA_SIGNAL_STARTTC %s>' % test)?  [syntax]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](reillysiemens)wb2k
+(reillysiemens)wb2k/layabout.py:81:20: error: Item "None" of "Optional[Any]" has no attribute "get"  [union-attr]
+(reillysiemens)wb2k/wb2k.py:33:9: error: Name 'sys' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:33:18: error: Name 'bail' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:42:9: error: Name 'sys' is not defined  [name-defined]
+(reillysiemens)wb2k/wb2k.py:42:18: error: Name 'bail' is not defined  [name-defined]
+Found 5 errors in 2 files (checked 3 source files)
+
+[RRepo](YU6326)YU6326.github.io
+(YU6326)YU6326.github.io/code/Wpoint.py:1:17: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](aclowes)yawn
+(aclowes)yawn/yawn/worker/executor.py:78:13: error: Item "IO[bytes]" of "Optional[IO[bytes]]" has no attribute "raw"  [union-attr]
+(aclowes)yawn/yawn/worker/executor.py:78:13: error: Item "None" of "Optional[IO[bytes]]" has no attribute "raw"  [union-attr]
+(aclowes)yawn/yawn/worker/executor.py:79:13: error: Item "IO[bytes]" of "Optional[IO[bytes]]" has no attribute "raw"  [union-attr]
+(aclowes)yawn/yawn/worker/executor.py:79:13: error: Item "None" of "Optional[IO[bytes]]" has no attribute "raw"  [union-attr]
+(aclowes)yawn/yawn/worker/executor.py:93:9: error: Need type annotation for 'all_results' (hint: "all_results: Dict[<type>, <type>] = ...")  [var-annotated]
+(aclowes)yawn/yawn/utilities/cron.py:79:28: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+Found 6 errors in 2 files (checked 29 source files)
+
+[RRepo](mozillazg)pinyin-data
+(mozillazg)pinyin-data/unihan/parse_pinyin.py:46: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](edx)repo-tools
+(edx)repo-tools/count_logo_referrers.py:69:8: error: Need type annotation for 'uris'  [var-annotated]
+(edx)repo-tools/count_logo_referrers.py:70:1: error: Need type annotation for 'hosts'  [var-annotated]
+(edx)repo-tools/count_logo_referrers.py:77:20: error: "defaultdict[Any, Any]" has no attribute "iteritems"  [attr-defined]
+(edx)repo-tools/barcalendar.py:88:9: error: Unsupported operand types for + ("None" and "int")  [operator]
+(edx)repo-tools/barcalendar.py:90:9: error: Unsupported operand types for + ("None" and "int")  [operator]
+(edx)repo-tools/barcalendar.py:94:19: error: Unsupported operand types for + ("int" and "None")  [operator]
+(edx)repo-tools/barcalendar.py:94:19: note: Right operand is of type "Optional[int]"
+(edx)repo-tools/barcalendar.py:96:13: error: Incompatible types in assignment (expression has type "Tuple[int, Optional[int]]", variable has type "Tuple[None, None]")  [assignment]
+(edx)repo-tools/yamldata.py:14:5: error: Need type annotation for '_the_data' (hint: "_the_data: Dict[<type>, <type>] = ...")  [var-annotated]
+(edx)repo-tools/edx_repo_tools/drip_survey/upload.py:6:1: error: Module 'backports' has no attribute 'csv'  [attr-defined]
+
+[RRepo](ManuelLR)Notmail_Bot
+(ManuelLR)Notmail_Bot/services/__init__.py:18:1: error: Need type annotation for 'emailsServices' (hint: "emailsServices: Dict[<type>, <type>] = ...")  [var-annotated]
+(ManuelLR)Notmail_Bot/config/loadConfig.py:213:24: error: "OSError" has no attribute "winerror"  [attr-defined]
+
+[RRepo](aaugustin)websockets
+(aaugustin)websockets/src/websockets/extensions/base.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(aaugustin)websockets/src/websockets/extensions/base.py:14:1: error: Relative import climbs too many namespaces  [misc]
+(aaugustin)websockets/src/websockets/uri.py:79:60: error: Argument 5 to "WebSocketURI" has incompatible type "Optional[Tuple[Optional[str], Optional[str]]]"; expected "Optional[Tuple[str, str]]"  [arg-type]
+(aaugustin)websockets/src/websockets/handshake.py:77:18: error: Need type annotation for 'connection'  [var-annotated]
+(aaugustin)websockets/src/websockets/handshake.py:84:15: error: Need type annotation for 'upgrade'  [var-annotated]
+(aaugustin)websockets/src/websockets/handshake.py:151:18: error: Need type annotation for 'connection'  [var-annotated]
+(aaugustin)websockets/src/websockets/handshake.py:158:15: error: Need type annotation for 'upgrade'  [var-annotated]
+(aaugustin)websockets/tests/test_utils.py:12:54: error: List item 0 has incompatible type "Type[bytes]"; expected "Type[bytes]"  [list-item]
+(aaugustin)websockets/example/secure_client.py:12:35: error: Argument 1 to "load_verify_locations" of "SSLContext" has incompatible type "Path"; expected "Optional[str]"  [arg-type]
+(aaugustin)websockets/example/basic_auth_server.py:14:21: error: Argument "create_protocol" to "Serve" has incompatible type "Callable[[Any], BasicAuthWebSocketServerProtocol]"; expected "Optional[Type[WebSocketServerProtocol]]"  [arg-type]
+(aaugustin)websockets/example/counter.py:14:1: error: Need type annotation for 'USERS' (hint: "USERS: Set[<type>] = ...")  [var-annotated]
+(aaugustin)websockets/tests/test_auth.py:76:47: error: Argument "check_credentials" to "basic_auth_protocol_factory" has incompatible type "Callable[[AuthClientServerTests, Any], Any]"; expected "Optional[Callable[[str, str], Awaitable[bool]]]"  [arg-type]
+(aaugustin)websockets/src/websockets/exceptions.py:305: error: Name 'http.HTTPStatus' is not defined  [name-defined]
+(aaugustin)websockets/src/websockets/framing.py:158:21: error: Incompatible types in assignment (expression has type "websockets.framing.Frame", variable has type "framing.Frame")  [assignment]
+(aaugustin)websockets/src/websockets/framing.py:158:38: error: Argument 1 to "decode" of "Extension" has incompatible type "framing.Frame"; expected "websockets.framing.Frame"  [arg-type]
+(aaugustin)websockets/src/websockets/framing.py:193:21: error: Incompatible types in assignment (expression has type "websockets.framing.Frame", variable has type "framing.Frame")  [assignment]
+(aaugustin)websockets/src/websockets/framing.py:193:38: error: Argument 1 to "encode" of "Extension" has incompatible type "framing.Frame"; expected "websockets.framing.Frame"  [arg-type]
+(aaugustin)websockets/src/websockets/auth.py:63:17: error: Module has no attribute "HTTPStatus"  [attr-defined]
+(aaugustin)websockets/src/websockets/auth.py:72:17: error: Module has no attribute "HTTPStatus"  [attr-defined]
+(aaugustin)websockets/src/websockets/auth.py:79:17: error: Module has no attribute "HTTPStatus"  [attr-defined]
+Found 20 errors in 11 files (checked 35 source files)
+
+[RRepo](eachiaradia)IOGeopaparazzi
+
+[RRepo](spoqa)geofront
+(spoqa)geofront/geofront/backends/dbapi.py:19:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/geofront/backends/dbapi.py:20:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/geofront/backends/dbapi.py:19:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/geofront/backends/dbapi.py:20:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/tests/backends/cloud_test.py:15:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/tests/backends/cloud_test.py:16:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/geofront/backends/bitbucket.py:56:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/tests/backends/dbapi_test.py:4:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/tests/backends/dbapi_test.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(spoqa)geofront/geofront/backends/oauth.py:212:23: error: Argument 1 to "Request" has incompatible type "Mapping[str, object]"; expected "Dict[str, Any]"  [arg-type]
+
+[RRepo](ampotty)uip-pc3
+(ampotty)uip-pc3/Ejemplos/ejemplo34/app/__init__.py: error: Duplicate module named 'app' (also at '/home/bew/archive/typed_project/(ampotty)uip-pc3/Ejemplos/FlaskBasico1/app/__init__.py')  [misc]
+Found 1 error in 1 file (checked 35 source files)
+
+[RRepo](angr)angr
+(angr)angr/angr/analyses/propagator/values.py: error: Duplicate module named 'values' (also at '/home/bew/archive/typed_project/(angr)angr/angr/engines/soot/values/__init__.py')  [misc]
+(angr)angr/angr/analyses/propagator/values.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 472 source files)
+
+[RRepo](Geotab)mygeotab-python
+Success: no issues found in 13 source files
+
+[RRepo](knowsuchagency)ninjadog
+(knowsuchagency)ninjadog/fabfile.py:6:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:16:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:25:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:33:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:41:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:53:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:62:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:72:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:95:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:123:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:131:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/fabfile.py:141:2: error: Name 'task' is not defined  [name-defined]
+(knowsuchagency)ninjadog/ninjadog/ninjadog.py:76:23: error: Incompatible types in assignment (expression has type "Union[None, str, Any]", variable has type "Dict[str, Any]")  [assignment]
+
+[RRepo](sourcelair)ceryx
+(sourcelair)ceryx/api/ceryx/db.py:6:1: error: Module 'ceryx' has no attribute 'settings'  [attr-defined]
+
+[RRepo](PlattsSEC)HackerRank
+(PlattsSEC)HackerRank/algorithms/weighted_uniform_strings/prithaj.py:13:5: error: Name 'raw_input' is not defined  [name-defined]
+(PlattsSEC)HackerRank/algorithms/weighted_uniform_strings/prithaj.py:16:10: error: Name 'xrange' is not defined  [name-defined]
+(PlattsSEC)HackerRank/algorithms/weighted_uniform_strings/prithaj.py:17:13: error: Name 'raw_input' is not defined  [name-defined]
+(PlattsSEC)HackerRank/algorithms/equal_stacks/kevin.py:10:14: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+Found 4 errors in 2 files (checked 5 source files)
+
+[RRepo](GoogleCloudPlatform)pubsub
+(GoogleCloudPlatform)pubsub/load-test-framework/python_src/clients/task.py:66:22: error: Need type annotation for 'port_queue'  [var-annotated]
+(GoogleCloudPlatform)pubsub/load-test-framework/python_src/clients/task.py:71:33: error: Incompatible types in assignment (expression has type "None", variable has type "Lock")  [assignment]
+Found 2 errors in 1 file (checked 10 source files)
+
+[RRepo](CZ-NIC)foris
+(CZ-NIC)foris/foris/state.py:20:1: error: Module 'foris' has no attribute '__version__'  [attr-defined]
+(CZ-NIC)foris/foris/utils/routing.py:23:1: error: Module 'foris' has no attribute 'BASE_DIR'  [attr-defined]
+(CZ-NIC)foris/foris/utils/routing.py:29:1: error: Need type annotation for 'static_md5_map' (hint: "static_md5_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(CZ-NIC)foris/foris/utils/translators.py:24:1: error: Module 'foris' has no attribute 'BASE_DIR'  [attr-defined]
+(CZ-NIC)foris/foris/utils/translators.py:55:11: error: Incompatible types in assignment (expression has type "Callable[[Any], Any]", variable has type Module)  [assignment]
+(CZ-NIC)foris/foris/config_handlers/misc.py:23:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/validators.py:69:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:79:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:94:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:117:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:132:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:151:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:170:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:189:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:211:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:229:20: error: Incompatible types in assignment (expression has type "str", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:245:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:257:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:269:21: error: Incompatible types in assignment (expression has type "Tuple[str, str]", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:282:20: error: Incompatible types in assignment (expression has type "str", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:301:20: error: Incompatible types in assignment (expression has type "str", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:320:20: error: Incompatible types in assignment (expression has type "str", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/foris/validators.py:335:20: error: Incompatible types in assignment (expression has type "str", base class "Validator" defined the type as "None")  [assignment]
+(CZ-NIC)foris/setup.py:11:1: error: Module 'foris' has no attribute '__version__'  [attr-defined]
+(CZ-NIC)foris/foris/config/pages/base.py:23:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/updater.py:24:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:19:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:88:38: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:89:41: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", target has type "str")  [assignment]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:90:17: error: Unsupported target for indexed assignment  [index]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:92:42: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:93:21: error: Unsupported target for indexed assignment  [index]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:94:21: error: Unsupported target for indexed assignment  [index]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:124:19: error: Module not callable  [operator]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:125:25: error: Module not callable  [operator]
+(CZ-NIC)foris/foris/config_handlers/wifi.py:134:74: error: Module not callable  [operator]
+(CZ-NIC)foris/foris/config_handlers/guest.py:19:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/lan.py:19:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/dns.py:21:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/networks.py:23:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/profile.py:21:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/remote.py:20:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/notifications.py:17:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+(CZ-NIC)foris/foris/config_handlers/backups.py:19:1: error: Module 'foris' has no attribute 'fapi'  [attr-defined]
+
+[RRepo](bureaucratic-labs)pinkerton
+(bureaucratic-labs)pinkerton/pinkerton/linker.py:45: error: The return type of an async generator function should be "AsyncGenerator" or one of its supertypes  [misc]
+(bureaucratic-labs)pinkerton/pinkerton/linker.py:56: error: The return type of an async generator function should be "AsyncGenerator" or one of its supertypes  [misc]
+(bureaucratic-labs)pinkerton/pinkerton/linker.py:61:46: error: "List[Any]" has no attribute "__aiter__" (not async iterable)  [attr-defined]
+(bureaucratic-labs)pinkerton/pinkerton/extractor.py:31:44: error: Syntax error in type annotation  [syntax]
+(bureaucratic-labs)pinkerton/pinkerton/extractor.py:31:44: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 4 errors in 2 files (checked 15 source files)
+
+[RRepo](kozbot)kecb
+(kozbot)kecb/exporter/dxfexporter.py:17:9: error: Need type annotation for 'attr' (hint: "attr: Dict[<type>, <type>] = ...")  [var-annotated]
+(kozbot)kecb/exporter/dxfexporter.py:82:9: error: Need type annotation for 'attr' (hint: "attr: Dict[<type>, <type>] = ...")  [var-annotated]
+(kozbot)kecb/generate_dxf.py:1:1: error: Module 'exporter' has no attribute 'DxfExporter'; maybe "Exporter"?  [attr-defined]
+Found 3 errors in 2 files (checked 17 source files)
+
+[RRepo](plone)plone.server
+
+[RRepo](dani0805)django_workflow
+(dani0805)django_workflow/simple_approval/models.py:20:9: error: Need type annotation for 'group_map' (hint: "group_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(dani0805)django_workflow/simple_approval/graph.py:31:41: error: Syntax error in type annotation  [syntax]
+(dani0805)django_workflow/simple_approval/graph.py:31:41: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dani0805)django_workflow/simple_approval/graph.py:56: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(dani0805)django_workflow/simple_approval/graph.py:56: note: Did you mean "List[...]"?
+(dani0805)django_workflow/simple_approval/graph.py:56:64: error: Syntax error in type annotation  [syntax]
+(dani0805)django_workflow/simple_approval/graph.py:56:64: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(dani0805)django_workflow/simple_approval/tests.py:13:1: error: Module 'schema' has no attribute 'schema'  [attr-defined]
+(dani0805)django_workflow/simple_approval/factory.py:255: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(dani0805)django_workflow/simple_approval/factory.py:255: note: Did you mean "List[...]"?
+Found 6 errors in 4 files (checked 11 source files)
+
+[RRepo](ThaWeatherman)notify_labor
+(ThaWeatherman)notify_labor/utils.py:25:20: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](Ultimaker)cura-build
+Success: no issues found in 1 source file
+
+[RRepo](markstory)lint-review
+(markstory)lint-review/tests/fixtures/flake8/has_errors.py:18:17: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 84 source files)
+
+[RRepo](adtac)exterminate
+(adtac)exterminate/exterminate/AltString.py:8:15: error: Variable "AltString._str" is not valid as a type  [valid-type]
+(adtac)exterminate/exterminate/AltString.py:8:15: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(adtac)exterminate/exterminate/AltString.py:8:15: error: Invalid base class "_str"  [misc]
+(adtac)exterminate/exterminate/AltMath.py:34:23: error: Incompatible types in assignment (expression has type "AltMath", target has type Module)  [assignment]
+Found 3 errors in 2 files (checked 8 source files)
+
+[RRepo](jumpman24)leela-analysis-36
+(jumpman24)leela-analysis-36/problem_parser.py:105:26: error: Value of type "Optional[List[Any]]" is not indexable  [index]
+(jumpman24)leela-analysis-36/problem_parser.py:106:26: error: Value of type "Optional[List[Any]]" is not indexable  [index]
+(jumpman24)leela-analysis-36/problem_parser.py:113:16: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(jumpman24)leela-analysis-36/problem_parser.py:140:27: error: Argument 2 to "make_sgf" has incompatible type "str"; expected "Optional[List[Any]]"  [arg-type]
+Found 4 errors in 1 file (checked 5 source files)
+
+[RRepo](TheReverend403)ricedb
+(TheReverend403)ricedb/plugins/userdb.py:4:5: error: Name 'json' already defined (by an import)  [no-redef]
+(TheReverend403)ricedb/plugins/userdb.py:40:20: error: Value of type "Optional[Any]" is not indexable  [index]
+(TheReverend403)ricedb/plugins/ai.py:74:16: error: Incompatible return value type (got "Optional[List[Any]]", expected "List[Any]")  [return-value]
+(TheReverend403)ricedb/plugins/urlinfo.py:85:9: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(TheReverend403)ricedb/plugins/urlinfo.py:114:47: error: Argument 2 to "sub" of "Pattern" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(TheReverend403)ricedb/plugins/urlinfo.py:115:38: error: Argument 2 has incompatible type "**Dict[str, object]"; expected <union: 9 items>  [arg-type]
+(TheReverend403)ricedb/plugins/execshell.py:13:22: error: Incompatible types in assignment (expression has type "bytes", variable has type "Optional[str]")  [assignment]
+(TheReverend403)ricedb/plugins/execshell.py:15:12: error: No overload variant of "run" matches argument types "Dict[Any, Any]", "Optional[str]", "int", "int", "int"  [call-overload]
+(TheReverend403)ricedb/plugins/execshell.py:15:12: note: Possible overload variants:
+(TheReverend403)ricedb/plugins/execshell.py:15:12: note:     def run(args: Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]], bufsize: int = ..., executable: Union[bytes, str, _PathLike[Any]] = ..., stdin: Union[None, int, IO[Any]] = ..., stdout: Union[None, int, IO[Any]] = ..., stderr: Union[None, int, IO[Any]] = ..., preexec_fn: Callable[[], Any] = ..., close_fds: bool = ..., shell: bool = ..., cwd: Union[bytes, str, _PathLike[Any], None] = ..., env: Union[Mapping[bytes, Union[bytes, str]], Mapping[str, Union[bytes, str]], None] = ..., universal_newlines: Literal[False] = ..., startupinfo: Any = ..., creationflags: int = ..., restore_signals: bool = ..., start_new_session: bool = ..., pass_fds: Any = ..., *, check: bool = ..., encoding: None = ..., errors: None = ..., input: Optional[bytes] = ..., timeout: Optional[float] = ...) -> CompletedProcess[bytes]
+(TheReverend403)ricedb/plugins/execshell.py:15:12: note:     def run(args: Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]], bufsize: int = ..., executable: Union[bytes, str, _PathLike[Any]] = ..., stdin: Union[None, int, IO[Any]] = ..., stdout: Union[None, int, IO[Any]] = ..., stderr: Union[None, int, IO[Any]] = ..., preexec_fn: Callable[[], Any] = ..., close_fds: bool = ..., shell: bool = ..., cwd: Union[bytes, str, _PathLike[Any], None] = ..., env: Union[Mapping[bytes, Union[bytes, str]], Mapping[str, Union[bytes, str]], None] = ..., universal_newlines: bool = ..., startupinfo: Any = ..., creationflags: int = ..., restore_signals: bool = ..., start_new_session: bool = ..., pass_fds: Any = ..., *, check: bool = ..., encoding: Optional[str] = ..., errors: Optional[str] = ..., input: Union[bytes, str, None] = ..., timeout: Optional[float] = ...) -> CompletedProcess[Any]
+(TheReverend403)ricedb/plugins/execshell.py:15:12: note:     <3 more non-matching overloads not shown>
+Found 8 errors in 4 files (checked 12 source files)
+
+[RRepo](desec-io)desec-stack
+(desec-io)desec-stack/api/desecapi/tests/test_authentication.py:103:29: error: Incompatible types in assignment (expression has type "str", base class "SignUpLoginTestCase" defined the type as "None")  [assignment]
+(desec-io)desec-stack/api/desecapi/tests/test_authentication.py:104:22: error: Incompatible types in assignment (expression has type "str", base class "SignUpLoginTestCase" defined the type as "None")  [assignment]
+(desec-io)desec-stack/api/desecapi/tests/test_authentication.py:109:29: error: Incompatible types in assignment (expression has type "str", base class "SignUpLoginTestCase" defined the type as "None")  [assignment]
+(desec-io)desec-stack/api/desecapi/tests/test_authentication.py:110:22: error: Incompatible types in assignment (expression has type "str", base class "SignUpLoginTestCase" defined the type as "None")  [assignment]
+(desec-io)desec-stack/api/desecapi/models.py:1:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(desec-io)desec-stack/api/desecapi/models.py:85:5: error: Need type annotation for 'REQUIRED_FIELDS' (hint: "REQUIRED_FIELDS: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 2 files (checked 21 source files)
+
+[RRepo](pyther)nrfeed
+
+[RRepo](finaldie)DNSTurbo
+Success: no issues found in 3 source files
+
+[RRepo](harvard-vpal)bridge-adaptivity
+(harvard-vpal)bridge-adaptivity/bridge_adaptivity/module/policies/base.py:31:5: error: Need type annotation for 'require' (hint: "require: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](fujicoin)electrum-fjc
+(fujicoin)electrum-fjc/electrum/plugins/cosigner_pool/qt.py: error: Duplicate module named 'qt' (also at '/home/bew/archive/typed_project/(fujicoin)electrum-fjc/electrum/gui/qt/__init__.py')  [misc]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](Microsoft)bond
+Success: no issues found in 1 source file
+
+[RRepo](singnet)singnet
+(singnet)singnet/agent/sn_agent/job/job_descriptor.py:16:1: error: Need type annotation for 'test_jobs' (hint: "test_jobs: Dict[<type>, <type>] = ...")  [var-annotated]
+(singnet)singnet/agent/sn_agent/job/job_descriptor.py:64: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(singnet)singnet/agent/sn_agent/job/job_descriptor.py:64: note: Did you mean "List[...]"?
+
+[RRepo](AndreiDrang)python-rucaptcha
+(AndreiDrang)python-rucaptcha/setup.py:33:5: error: Need type annotation for 'user_options' (hint: "user_options: List[<type>] = ...")  [var-annotated]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:62:36: error: "RuCaptchaControl" has no attribute "url_response"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:64:13: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:65:20: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:68:13: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:74:20: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:77:13: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:78:20: error: "RuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:139:21: error: "aioRuCaptchaControl" has no attribute "url_response"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:144:13: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:145:20: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:148:13: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:151:20: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:154:13: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/python_rucaptcha/RuCaptchaControl.py:155:20: error: "aioRuCaptchaControl" has no attribute "result"  [attr-defined]
+(AndreiDrang)python-rucaptcha/examples/callback_examples/client.py:41:45: error: Argument "task_id" to "CallbackClient" has incompatible type "str"; expected "int"  [arg-type]
+(AndreiDrang)python-rucaptcha/examples/callback_examples/client.py:45:17: error: Argument "task_id" to "CallbackClient" has incompatible type "str"; expected "int"  [arg-type]
+(AndreiDrang)python-rucaptcha/examples/callback_examples/client.py:47:26: error: Argument "requests_timeout" to "captcha_handler" of "CallbackClient" has incompatible type "float"; expected "int"  [arg-type]
+
+[RRepo](roberthangu)snn_object_recognition
+(roberthangu)snn_object_recognition/visualizer.py:77:1: error: Name 'raw_input' is not defined  [name-defined]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:47:1: error: Need type annotation for 'layer_collection' (hint: "layer_collection: Dict[<type>, <type>] = ...")  [var-annotated]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:52:28: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:54:30: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:56:27: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:58:29: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/dump-c2-spikes.py:63:17: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images.py:54:1: error: Need type annotation for 'layer_collection' (hint: "layer_collection: Dict[<type>, <type>] = ...")  [var-annotated]
+(roberthangu)snn_object_recognition/classify-images.py:59:28: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:61:30: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:63:18: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images.py:67:17: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images.py:70:17: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:50:28: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:52:30: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:54:27: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:56:29: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:58:25: error: Item "None" of "Optional[Match[str]]" has no attribute "group"  [union-attr]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:63:17: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:240:28: error: "str" not callable  [operator]
+(roberthangu)snn_object_recognition/classify-images-one-shot.py:242:16: error: Unexpected keyword argument "protocol" for "open"  [call-arg]
+Found 21 errors in 4 files (checked 8 source files)
+
+[RRepo](JustFixNYC)who-owns-what
+Success: no issues found in 6 source files
+
+[RRepo](rachmadaniHaryono)iqdb_tagger
+Success: no issues found in 5 source files
+
+[RRepo](honux77)practice
+(honux77)practice/python/math_test.py:12:12: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 22 source files)
+
+[RRepo](notnami)phonemes
+(notnami)phonemes/phonemeviewer.py:8:1: error: Module 'phonemelib' has no attribute 'Phoneme'  [attr-defined]
+(notnami)phonemes/phonemeviewer.py:8:1: error: Module 'phonemelib' has no attribute 'FeatureValue'  [attr-defined]
+(notnami)phonemes/phonemeviewer.py:8:1: error: Module 'phonemelib' has no attribute 'phonemes'  [attr-defined]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](sk89q)Plumeria
+(sk89q)Plumeria/plumeria/tests/test_ratelimit.py:4:1: error: Relative import climbs too many namespaces  [misc]
+(sk89q)Plumeria/plumeria/tests/test_ratelimit.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(sk89q)Plumeria/orchard/uptime.py:8:9: error: "object" not callable  [operator]
+(sk89q)Plumeria/orchard/tastekid.py:48:28: error: Not all arguments converted during string formatting  [str-format]
+(sk89q)Plumeria/plumeria/core/oauth/__init__.py:14:28: error: Name 'Endpoint' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/core/oauth/__init__.py:16:16: error: Name 'oauth_manager' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/core/oauth/__init__.py:18:15: error: Name 'CommandError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/core/oauth/__init__.py:39:15: error: Name 'CommandError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/tests/test_config.py:4:1: error: Relative import climbs too many namespaces  [misc]
+(sk89q)Plumeria/plumeria/core/config.py:79:16: error: Not all arguments converted during string formatting  [str-format]
+(sk89q)Plumeria/plumeria/command/parse.py:118:19: error: Name 'UnusedArgumentsError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/command/parse.py:130:19: error: Name 'MissingArgumentError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/command/parse.py:142:19: error: Name 'MissingArgumentError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/command/parse.py:149:5: error: Return type "Tuple[float, str]" of "parse" incompatible with return type "Tuple[str, str]" in supertype "Word"  [override]
+(sk89q)Plumeria/plumeria/command/parse.py:154:19: error: Name 'ArgumentError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/command/parse.py:160:5: error: Return type "Tuple[int, str]" of "parse" incompatible with return type "Tuple[str, str]" in supertype "Word"  [override]
+(sk89q)Plumeria/plumeria/command/parse.py:165:19: error: Name 'ArgumentError' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/command/parse.py:174:19: error: Name 'MissingArgumentError' is not defined  [name-defined]
+(sk89q)Plumeria/orchard/last.py:49:11: error: Need type annotation for 'history'  [var-annotated]
+(sk89q)Plumeria/orchard/strawpoll.py:40:25: error: Not all arguments converted during string formatting  [str-format]
+(sk89q)Plumeria/orchard/woot.py:36:36: error: Not all arguments converted during string formatting  [str-format]
+(sk89q)Plumeria/plumeria/message/message.py:234:70: error: Name 'Attachment' is not defined  [name-defined]
+(sk89q)Plumeria/plumeria/message/attachment.py:98:26: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(sk89q)Plumeria/plumeria/core/alias/manager.py:56:24: error: Incompatible return value type (got "None", expected "Alias")  [return-value]
+(sk89q)Plumeria/plumeria/core/discord_transport.py:36:15: error: Need type annotation for 'DICT_VALUES'  [var-annotated]
+(sk89q)Plumeria/plumeria/core/discord_transport.py:139:25: error: Item "None" of "Optional[Sequence[Any]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(sk89q)Plumeria/plumeria/plugin.py:151:20: error: "object" has no attribute "iscoroutinefunction"  [attr-defined]
+(sk89q)Plumeria/orchard/hangman/__init__.py:36:9: error: Need type annotation for 'guessed' (hint: "guessed: List[<type>] = ...")  [var-annotated]
+(sk89q)Plumeria/orchard/hangman/__init__.py:37:9: error: Need type annotation for 'phrases_guessed' (hint: "phrases_guessed: Set[<type>] = ...")  [var-annotated]
+(sk89q)Plumeria/plumeria/util/network.py:14:20: error: Variable "aiohttp.resolver.DefaultResolver" is not valid as a type  [valid-type]
+(sk89q)Plumeria/plumeria/util/network.py:14:20: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(sk89q)Plumeria/plumeria/util/network.py:14:20: error: Invalid base class "DefaultResolver"  [misc]
+Found 31 errors in 17 files (checked 132 source files)
+
+[RRepo](FRCDiscord)Dozer
+(FRCDiscord)Dozer/dozer/cogs/info.py:11:12: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/info.py:16:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/info.py:58:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/maintenance.py:12:19: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/maintenance.py:23:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/maintenance.py:37:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/maintenance.py:47:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/development.py:14:19: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/development.py:29:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/development.py:42:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/development.py:80:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/fun.py:10:11: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/fun.py:14:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:20:11: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:31:6: error: Name 'group' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:44:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:84:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:108:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:148:79: error: Item "None" of "Optional[str]" has no attribute "format"  [union-attr]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:149:40: error: Item "None" of "Optional[str]" has no attribute "format"  [union-attr]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:153:23: error: Name 'paginate' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:165:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:186:19: error: Name 'paginate' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:225:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:226:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/tba.py:265:6: error: Name 'command' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/toa.py:53:11: error: Name 'Cog' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/toa.py:60:6: error: Name 'group' is not defined  [name-defined]
+(FRCDiscord)Dozer/dozer/cogs/toa.py:73:6: error: Name 'bot_has_permissions' is not defined  [name-defined]
+Found 29 errors in 6 files (checked 9 source files)
+
+[RRepo](Admicos)userfirefox
+(Admicos)userfirefox/userfirefox/UserFirefox.py:120:92: error: Argument 2 to "next" has incompatible type "None"; expected "FFProfile"  [arg-type]
+
+[RRepo](googlestadia)renderdoc
+(googlestadia)renderdoc/util/test/rdtest/logging.py:8:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](GeoscienceAustralia)eo-datasets
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:24:11: error: Need type annotation for 'out'  [var-annotated]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:66:12: error: Unsupported right operand type for in ("Optional[Tuple[str, ...]]")  [operator]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:67:73: error: Argument 1 to "join" of "str" has incompatible type "Optional[Tuple[str, ...]]"; expected "Iterable[str]"  [arg-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:282:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:297:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:314:13: error: Incompatible return value type (got "Tuple[Optional[Any], Optional[Any]]", expected "Tuple[datetime, datetime]")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:330:16: error: Incompatible return value type (got "Optional[Any]", expected "datetime")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:333:5: error: Missing return statement  [return]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:337:28: error: Function "eodatasets3.properties.EoFields.datetime" is not valid as a type  [valid-type]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:337:28: note: Perhaps you need "Callable[...]" or a callback protocol?
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:366:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:387:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/eodatasets3/properties.py:422:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(GeoscienceAustralia)eo-datasets/tests/integration/prepare/test_prepare_landsat_l1.py:5:1: error: Module 'eodatasets3.prepare' has no attribute 'landsat_l1_prepare'  [attr-defined]
+(GeoscienceAustralia)eo-datasets/tests/integration/prepare/test_prepare_s2b_l1c_awspds.py:4:1: error: Module 'eodatasets3.prepare' has no attribute 's2_l1c_aws_pds_prepare'  [attr-defined]
+(GeoscienceAustralia)eo-datasets/tests/integration/prepare/test_prepare_s2a_l1c_safe.py:3:1: error: Module 'eodatasets3.prepare' has no attribute 's2_prepare_cophub_zip'  [attr-defined]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:62:25: error: Item "None" of "Optional[Any]" has no attribute "shape"  [union-attr]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:67:26: error: Item "None" of "Optional[Any]" has no attribute "attrs"  [union-attr]
+(GeoscienceAustralia)eo-datasets/tests/integration/h5downsample.py:70:24: error: Value of type "Optional[Any]" is not indexable  [index]
+(GeoscienceAustralia)eo-datasets/eodatasets3/scripts/packagewagl.py:53:20: error: Incompatible types in assignment (expression has type "Set[str]", variable has type "Sequence[str]")  [assignment]
+
+[RRepo](aio-libs)aioppspp
+Success: no issues found in 13 source files
+
+[RRepo](fastogt)fastonosql
+(fastogt)fastonosql/tests/redis_test_json.py:20:36: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](Talanor)findmyhash
+(Talanor)findmyhash/findmyhash/cracker.py:21:16: error: Name 'HashNotFound' is not defined  [name-defined]
+(Talanor)findmyhash/findmyhash/cracker.py:23:16: error: Incompatible return value type (got "Optional[Any]", expected "str")  [return-value]
+(Talanor)findmyhash/findmyhash/cracker.py:27:13: error: Module has no attribute "Service"  [attr-defined]
+(Talanor)findmyhash/findmyhash/cracker.py:33:16: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(Talanor)findmyhash/findmyhash/cracker.py:51:41: error: Argument 1 to "decodestring" has incompatible type "str"; expected "bytes"  [arg-type]
+(Talanor)findmyhash/findmyhash/cracker.py:72:15: error: Module has no attribute "Service"  [attr-defined]
+
+[RRepo](jromang)picochess
+(jromang)picochess/utilities.py:40:13: error: Need type annotation for 'evt_queue'  [var-annotated]
+(jromang)picochess/utilities.py:41:18: error: Need type annotation for 'dispatch_queue'  [var-annotated]
+(jromang)picochess/dispatcher.py:36:9: error: Need type annotation for 'devices' (hint: "devices: Set[<type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:37:9: error: Need type annotation for 'maxtimer' (hint: "maxtimer: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:38:9: error: Need type annotation for 'maxtimer_running' (hint: "maxtimer_running: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:39:9: error: Need type annotation for 'clock_connected' (hint: "clock_connected: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:41:9: error: Need type annotation for 'tasks' (hint: "tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:43:9: error: Need type annotation for 'display_hash' (hint: "display_hash: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/dispatcher.py:44:9: error: Need type annotation for 'process_lock' (hint: "process_lock: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/uci/engine.py:76:13: error: Need type annotation for 'options' (hint: "options: Dict[<type>, <type>] = ...")  [var-annotated]
+(jromang)picochess/uci/engine.py:256:9: error: Cannot assign to a method  [assignment]
+(jromang)picochess/uci/engine.py:256:30: error: Incompatible types in assignment (expression has type "Type[str]", variable has type "Callable[[str], str]")  [assignment]
+(jromang)picochess/uci/engine.py:265:31: error: Incompatible types in assignment (expression has type "bool", variable has type "List[str]")  [assignment]
+(jromang)picochess/uci/engine.py:267:31: error: Incompatible types in assignment (expression has type "bool", variable has type "List[str]")  [assignment]
+(jromang)picochess/dgt/pi.py:138:16: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(jromang)picochess/dgt/hw.py:53:16: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(jromang)picochess/dgt/hw.py:65:16: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+
+[RRepo](mozilla)http-observatory
+(mozilla)http-observatory/httpobs/scanner/analyzer/misc.py:8:1: error: Missing return statement  [return]
+(mozilla)http-observatory/httpobs/conf/__init__.py:60:24: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(mozilla)http-observatory/httpobs/conf/__init__.py:94:20: error: Unsupported operand types for * ("None" and "int")  [operator]
+(mozilla)http-observatory/httpobs/conf/__init__.py:94:34: note: Left operand is of type "Optional[int]"
+(mozilla)http-observatory/httpobs/scanner/analyzer/content.py:16:5: error: Cannot assign to a type  [misc]
+(mozilla)http-observatory/httpobs/scanner/analyzer/content.py:16:28: error: Incompatible types in assignment (expression has type "Type[ValueError]", variable has type "Type[JSONDecodeError]")  [assignment]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:63:9: error: "Response" has no attribute "verified"  [attr-defined]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:71:13: error: "Response" has no attribute "verified"  [attr-defined]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:75:17: error: Incompatible types in assignment (expression has type "None", variable has type "Response")  [assignment]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:76:17: error: Incompatible types in assignment (expression has type "None", variable has type "Session")  [assignment]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:80:13: error: Incompatible types in assignment (expression has type "None", variable has type "Response")  [assignment]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:81:13: error: Incompatible types in assignment (expression has type "None", variable has type "Session")  [assignment]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:85:9: error: "Session" has no attribute "url"  [attr-defined]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:121:20: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(mozilla)http-observatory/httpobs/scanner/retriever/retriever.py:125:16: error: Incompatible return value type (got "None", expected "str")  [return-value]
+(mozilla)http-observatory/httpobs/scanner/utils.py:19:26: error: Need type annotation for 'http_equiv_headers'  [var-annotated]
+(mozilla)http-observatory/httpobs/scanner/utils.py:97:20: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+(mozilla)http-observatory/httpobs/scanner/utils.py:100:16: error: Incompatible return value type (got "None", expected "Dict[Any, Any]")  [return-value]
+Found 17 errors in 5 files (checked 20 source files)
+
+[RRepo](eliostvs)tomate-notify-plugin
+(eliostvs)tomate-notify-plugin/data/plugins/notify_plugin.py:2:1: error: Module 'locale' has no attribute 'gettext'  [attr-defined]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](DataONEorg)d1_python
+(DataONEorg)d1_python/test_utilities/src/d1_test/stress_tester/shared/transaction.py:27:1: error: No parent module -- cannot perform relative import  [misc]
+(DataONEorg)d1_python/test_utilities/src/d1_test/stress_tester/shared/transaction.py:28:1: error: No parent module -- cannot perform relative import  [misc]
+(DataONEorg)d1_python/test_utilities/src/d1_test/stress_tester/shared/transaction.py:29:1: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 417 source files)
+
+[RRepo](Scille)parsec-cloud
+(Scille)parsec-cloud/parsec/cli.py: error: Duplicate module named 'cli' (also at '/home/bew/archive/typed_project/(Scille)parsec-cloud/parsec/core/cli/__init__.py')  [misc]
+(Scille)parsec-cloud/parsec/cli.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 229 source files)
+
+[RRepo](Yelp)synapse-tools
+(Yelp)synapse-tools/src/synapse_tools/haproxy/qdisc_util.py:22:7: error: Module has no attribute "getLogger"  [attr-defined]
+(Yelp)synapse-tools/src/synapse_tools/haproxy_synapse_reaper.py:46:7: error: Module has no attribute "getLogger"  [attr-defined]
+(Yelp)synapse-tools/src/synapse_tools/haproxy_synapse_reaper.py:154:5: error: Module has no attribute "basicConfig"  [attr-defined]
+(Yelp)synapse-tools/src/synapse_tools/haproxy_synapse_reaper.py:154:31: error: Module has no attribute "INFO"  [attr-defined]
+
+[RRepo](SunDwarf)Jokusoramame
+(SunDwarf)Jokusoramame/jokusoramame/plugins/roles/rolestate.py:123:13: error: Name 'sess' already defined on line 108  [no-redef]
+(SunDwarf)Jokusoramame/jokusoramame/plugins/roles/rolestate.py:125:17: error: Name 'setting' already defined on line 110  [no-redef]
+(SunDwarf)Jokusoramame/jokusoramame/plugins/roles/rolestate.py:171:31: error: Incompatible types in assignment (expression has type "Iterator[Any]", variable has type "List[str]")  [assignment]
+(SunDwarf)Jokusoramame/jokusoramame/plugins/imaging/__init__.py:34:9: error: Cannot assign to a method  [assignment]
+(SunDwarf)Jokusoramame/jokusoramame/redis.py:22:22: error: Module has no attribute "Redis"; maybe "redis"?  [attr-defined]
+
+[RRepo](axsemantics)rohrpost
+(axsemantics)rohrpost/setup.py:3:1: error: Module 'rohrpost' has no attribute '__version__'  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:13:20: error: "NotifyBase" has no attribute "get_group_name"; maybe "_get_group_name"?  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:15:20: error: "NotifyBase" has no attribute "group_name"; maybe "_get_group_name"?  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:15:46: error: "NotifyBase" has no attribute "pk"  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:17:60: error: "NotifyBase" has no attribute "pk"  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:22:24: error: "NotifyBase" has no attribute "get_push_notification_data"  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:26:24: error: "NotifyBase" has no attribute "serializer_class"  [attr-defined]
+(axsemantics)rohrpost/rohrpost/mixins.py:28:31: error: "NotifyBase" has no attribute "pk"  [attr-defined]
+
+[RRepo](felipecustodio)algorithms
+(felipecustodio)algorithms/math/pernicious_number/Python/pernicious.py:36:12: error: inconsistent use of tabs and spaces in indentation  [syntax]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](kitchenbudapest)vr
+(kitchenbudapest)vr/utils.py:53:29: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:80:27: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:85:39: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:85:59: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:90:5: error: Missing return statement  [return]
+(kitchenbudapest)vr/surface.py:116:27: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:121:39: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:121:59: error: Name 'boolean' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:126:34: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:126:54: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:137:36: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:137:56: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:144:31: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:151:37: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:151:57: error: Name 'boolean' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:156:25: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:161:32: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:161:52: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:168:34: error: Invalid type comment or annotation  [valid-type]
+(kitchenbudapest)vr/surface.py:168:54: error: Name 'KX_VertexProxy' is not defined  [name-defined]
+(kitchenbudapest)vr/surface.py:173:29: error: Invalid type comment or annotation  [valid-type]
+Found 21 errors in 2 files (checked 11 source files)
+
+[RRepo](MisterBianco)BoopSuite
+(MisterBianco)BoopSuite/boop/lib/sniffer.py:35:16: error: Name 'ROOT' is not defined  [name-defined]
+(MisterBianco)BoopSuite/boop/lib/sniffer.py:38:29: error: Name 'MWINTERFACES' is not defined  [name-defined]
+(MisterBianco)BoopSuite/boop/lib/sniffer.py:39:29: error: Name 'INTERFACES' is not defined  [name-defined]
+(MisterBianco)BoopSuite/boop/lib/sniffer.py:88:28: error: Need type annotation for 'sniffer_map'  [var-annotated]
+(MisterBianco)BoopSuite/boop/lib/sniffer.py:89:9: error: Need type annotation for 'hidden' (hint: "hidden: List[<type>] = ...")  [var-annotated]
+Found 5 errors in 1 file (checked 8 source files)
+
+[RRepo](masc3d)btrfs-sxbackup
+(masc3d)btrfs-sxbackup/setup.py:18:1: error: Module 'btrfs_sxbackup' has no attribute '__version__'  [attr-defined]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:21:1: error: Module 'btrfs_sxbackup' has no attribute '__version__'  [attr-defined]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:83:47: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:84:52: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:85:39: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[Callable[[str], <nothing>], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Iterable[<nothing>]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:90:44: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[Callable[[str], <nothing>], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Iterable[<nothing>]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:95:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:96:49: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:97:54: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:98:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[Callable[[str], <nothing>], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Iterable[<nothing>]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:103:40: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[Callable[[str], <nothing>], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Iterable[<nothing>]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:112:41: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[Callable[[str], <nothing>], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Iterable[<nothing>]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:116:42: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, object]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:121:48: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Optional[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "Union[str, Tuple[str, ...], None]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:122:53: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Union[str, Type[str], None]]"; expected "str"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[str, Type[Action]]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[int, str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Union[Callable[[str], str], FileType]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "Iterable[str]"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "bool"  [arg-type]
+(masc3d)btrfs-sxbackup/btrfs_sxbackup/cli.py:130:43: error: Argument 2 to "add_argument" of "_ActionsContainer" has incompatible type "**Dict[str, Optional[str]]"; expected "str"  [arg-type]
+
+[RRepo](fcracker79)accrocchio
+(fcracker79)accrocchio/accrocchio/observers.py:14:1: error: Need type annotation for 'ACCROCCHIO_OBSERVERS' (hint: "ACCROCCHIO_OBSERVERS: Dict[<type>, <type>] = ...")  [var-annotated]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:251:1: error: String argument 1 'Accrocchio' to TypeVar(...) does not match variable name '_AccrocchioType'  [misc]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:251:19: error: "object" not callable  [operator]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:254:44: error: Variable "accrocchio.badgeofshame._AccrocchioType" is not valid as a type  [valid-type]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:254:44: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:258:45: error: Variable "accrocchio.badgeofshame._AccrocchioType" is not valid as a type  [valid-type]
+(fcracker79)accrocchio/accrocchio/badgeofshame.py:258:45: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(fcracker79)accrocchio/test/accrocchio/test_badgeofshame.py:5:1: error: Module 'accrocchio.badgeofshame' has no attribute 'detonator'  [attr-defined]
+(fcracker79)accrocchio/test/accrocchio/test_badgeofshame.py:5:1: error: Module 'accrocchio.badgeofshame' has no attribute 'epoxy'  [attr-defined]
+(fcracker79)accrocchio/test/accrocchio/test_badgeofshame.py:5:1: error: Module 'accrocchio.badgeofshame' has no attribute 'compromise'  [attr-defined]
+(fcracker79)accrocchio/test/accrocchio/test_badgeofshame.py:5:1: error: Module 'accrocchio.badgeofshame' has no attribute 'blinder'  [attr-defined]
+(fcracker79)accrocchio/test/accrocchio/test_badgeofshame.py:5:1: error: Module 'accrocchio.badgeofshame' has no attribute 'flypaper'  [attr-defined]
+Found 10 errors in 3 files (checked 5 source files)
+
+[RRepo](kirbyfan64)rejit
+(kirbyfan64)rejit/uni/extract_digits.py:22:1: error: Need type annotation for 'ranges' (hint: "ranges: List[<type>] = ...")  [var-annotated]
+(kirbyfan64)rejit/uni/extract_digits.py:36:6: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(kirbyfan64)rejit/uni/extract_digits.py:39:48: error: Argument "file" to "print" has incompatible type "BinaryIO"; expected "Optional[_Writer]"  [arg-type]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](scherroman)mugen
+(scherroman)mugen/mugen/video/sources/Source.py:46:39: error: Argument 1 to "zip" has incompatible type "Optional[List[Union[Source, SourceList]]]"; expected "Iterable[Union[Source, SourceList]]"  [arg-type]
+(scherroman)mugen/mugen/video/segments/VideoSegment.py:34:16: error: Cannot determine type of 'fps'  [has-type]
+(scherroman)mugen/mugen/video/io/subtitles.py:76:27: error: Incompatible types in assignment (expression has type "str", variable has type "List[Subtitle]")  [assignment]
+(scherroman)mugen/mugen/video/io/subtitles.py:102:5: error: Incompatible types in assignment (expression has type "AudioTrack", variable has type "SubtitleTrack")  [assignment]
+(scherroman)mugen/mugen/video/io/subtitles.py:104:30: error: "SubtitleTrack" has no attribute "audio_file"  [attr-defined]
+(scherroman)mugen/mugen/video/io/subtitles.py:114:5: error: Incompatible types in assignment (expression has type "AudioTrack", variable has type "SubtitleTrack")  [assignment]
+(scherroman)mugen/mugen/mixins/Taggable.py:11:9: error: Too many arguments for "__init__" of "object"  [call-arg]
+(scherroman)mugen/mugen/mixins/Persistable.py:16:19: error: Argument 1 to "open" has incompatible type "Optional[str]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(scherroman)mugen/mugen/mixins/Filterable.py:21:9: error: Cannot assign to a method  [assignment]
+(scherroman)mugen/mugen/mixins/Filterable.py:41:25: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(scherroman)mugen/mugen/lists.py:65:40: error: Argument 1 to "flatten" has incompatible type "Iterable[Any]"; expected "List[Any]"  [arg-type]
+(scherroman)mugen/mugen/location_utility.py:16:41: error: Unsupported operand types for - ("float" and "None")  [operator]
+(scherroman)mugen/mugen/location_utility.py:27:13: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/location_utility.py:30:12: error: Incompatible return value type (got "List[int]", expected "List[float]")  [return-value]
+(scherroman)mugen/mugen/location_utility.py:30:12: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(scherroman)mugen/mugen/location_utility.py:30:12: note: Consider using "Sequence" instead, which is covariant
+(scherroman)mugen/mugen/location_utility.py:30:12: note: Perhaps you need a type annotation for "locations"? Suggestion: "List[float]"
+(scherroman)mugen/mugen/location_utility.py:84:9: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/location_utility.py:86:12: error: Incompatible return value type (got "Tuple[List[int], List[float]]", expected "Tuple[List[float], List[float]]")  [return-value]
+(scherroman)mugen/mugen/video/segments/Segment.py:130:36: error: "Tuple[int, int]" has no attribute "aspect_ratio"  [attr-defined]
+(scherroman)mugen/mugen/video/segments/Segment.py:132:52: error: "Tuple[int, int]" has no attribute "aspect_ratio"  [attr-defined]
+(scherroman)mugen/mugen/video/MusicVideoGenerator.py:97:26: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "float")  [assignment]
+(scherroman)mugen/mugen/video/MusicVideoGenerator.py:167:9: error: Need type annotation for 'video_segments' (hint: "video_segments: List[<type>] = ...")  [var-annotated]
+(scherroman)mugen/mugen/video/MusicVideoGenerator.py:238:74: error: Argument 3 to "_add_preview_auxiliary_tracks" of "MusicVideoGenerator" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(scherroman)mugen/mugen/video/MusicVideo.py:214:58: error: Argument 2 to "_add_auxiliary_tracks" of "MusicVideo" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(scherroman)mugen/mugen/video/sizing.py:66:14: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/video/sizing.py:67:14: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/video/sizing.py:72:14: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/video/sizing.py:73:14: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(scherroman)mugen/mugen/audio/Audio.py:105:55: error: "List[float]" has no attribute "locations"  [attr-defined]
+(scherroman)mugen/mugen/audio/Audio.py:106:56: error: "List[float]" has no attribute "locations"  [attr-defined]
+(scherroman)mugen/mugen/paths.py:9:34: error: Module has no attribute "_RandomNameSequence"  [attr-defined]
+(scherroman)mugen/mugen/paths.py:12:53: error: Syntax error in type annotation  [syntax]
+(scherroman)mugen/mugen/paths.py:12:53: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(scherroman)mugen/mugen/mixins/Weightable.py:22:9: error: Too many arguments for "__init__" of "object"  [call-arg]
+(scherroman)mugen/mugen/utility.py:115:10: error: Incompatible types in assignment (expression has type "TextIO", variable has type "str")  [assignment]
+(scherroman)mugen/mugen/utility.py:116:34: error: Argument 1 to "load" has incompatible type "str"; expected "_Reader"  [arg-type]
+(scherroman)mugen/mugen/utility.py:147:5: error: Need type annotation for 'all_slices' (hint: "all_slices: List[<type>] = ...")  [var-annotated]
+(scherroman)mugen/mugen/utility.py:265:48: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[str, ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/utility.py:272:46: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[str, ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/utility.py:279:48: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[str, ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/utility.py:286:51: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[str, ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/utility.py:290:79: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[str, ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/utility.py:324:56: error: Argument 2 to "preprocess_args" has incompatible type "*Tuple[Dict[Any, Any], ...]"; expected "List[str]"  [arg-type]
+(scherroman)mugen/mugen/events.py:35:25: error: Incompatible types in assignment (expression has type "Optional[Any]", variable has type "float")  [assignment]
+(scherroman)mugen/mugen/events.py:156:6: error: Decorated property not supported  [misc]
+(scherroman)mugen/mugen/events.py:208:25: error: Item "float" of "Union[float, Fraction]" has no attribute "numerator"  [union-attr]
+(scherroman)mugen/mugen/events.py:210:25: error: Item "float" of "Union[float, Fraction]" has no attribute "denominator"  [union-attr]
+(scherroman)mugen/mugen/events.py:306:40: error: Syntax error in type annotation  [syntax]
+(scherroman)mugen/mugen/events.py:306:40: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(scherroman)mugen/mugen/events.py:351:47: error: Argument 1 to "EventList" has incompatible type "object"; expected "Optional[List[Union[Event, Any]]]"  [arg-type]
+Found 46 errors in 17 files (checked 49 source files)
+
+[RRepo](n1amr)dotfiles
+Success: no issues found in 4 source files
+
+[RRepo](mjirik)io3d
+(mjirik)io3d/tests/datasets_test.py:37:5: error: Name 'test_download_package_dry_run' already defined on line 32  [no-redef]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](lablup)sorna-agent
+(lablup)sorna-agent/src/ai/backend/kernel/vendor/aws_polly/__init__.py:9:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](gwax)mtg_ssm
+(gwax)mtg_ssm/mtg_ssm/serialization/csv.py:59:22: error: Module has no attribute "DictWriter"  [attr-defined]
+(gwax)mtg_ssm/mtg_ssm/serialization/csv.py:67:22: error: Module has no attribute "DictReader"  [attr-defined]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:54:5: error: Signature of "_serialize" incompatible with supertype "List"  [override]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:54:5: error: Signature of "_serialize" incompatible with supertype "Field"  [override]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:54:5: error: Signature of "_serialize" incompatible with supertype "FieldABC"  [override]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:60:5: error: Signature of "_deserialize" incompatible with supertype "List"  [override]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:60:5: error: Signature of "_deserialize" incompatible with supertype "Field"  [override]
+(gwax)mtg_ssm/mtg_ssm/scryfall/schema.py:60:5: error: Signature of "_deserialize" incompatible with supertype "FieldABC"  [override]
+Found 8 errors in 2 files (checked 25 source files)
+
+[RRepo](MaxwellBo)neoreader
+(MaxwellBo)neoreader/rplugin/python3/neoreader/plugin.py:238:23: error: Name 'index_level' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](qutebrowser)qutebrowser
+(qutebrowser)qutebrowser/qutebrowser/utils/error.py:24:1: error: Module 'qutebrowser.utils' has no attribute 'log'  [attr-defined]
+(qutebrowser)qutebrowser/qutebrowser/utils/error.py:24:1: error: Module 'qutebrowser.utils' has no attribute 'utils'  [attr-defined]
+(qutebrowser)qutebrowser/qutebrowser/misc/debugcachestats.py:46:5: error: Module 'qutebrowser.utils' has no attribute 'log'  [attr-defined]
+(qutebrowser)qutebrowser/qutebrowser/config/configcache.py:25:1: error: Module 'qutebrowser.config' has no attribute 'config'  [attr-defined]
+(qutebrowser)qutebrowser/qutebrowser/api/config.py:26:1: error: Module 'qutebrowser.config' has no attribute 'config'  [attr-defined]
+(qutebrowser)qutebrowser/qutebrowser/utils/objreg.py:28:1: error: Module 'qutebrowser.utils' has no attribute 'log'  [attr-defined]
+(qutebrowser)qutebrowser/scripts/setupcommon.py:34:17: error: Incompatible types in assignment (expression has type "Callable[[str, str, str, str, int], StreamReaderWriter]", variable has type "Callable[[Union[str, bytes, int, _PathLike[Any]], str, int, Optional[str], Optional[str], Optional[str], bool, Optional[Callable[[str, int], int]]], IO[Any]]")  [assignment]
+(qutebrowser)qutebrowser/tests/unit/browser/webkit/test_downloads.py:22:1: error: Module 'qutebrowser.browser' has no attribute 'downloads'  [attr-defined]
+(qutebrowser)qutebrowser/tests/unit/browser/webkit/test_downloads.py:22:1: error: Module 'qutebrowser.browser' has no attribute 'qtnetworkdownloads'  [attr-defined]
+(qutebrowser)qutebrowser/tests/unit/misc/test_crashdialog.py:24:1: error: Module 'qutebrowser.misc' has no attribute 'crashdialog'  [attr-defined]
+(qutebrowser)qutebrowser/tests/unit/config/test_configcache.py:28:1: error: Module 'qutebrowser.config' has no attribute 'config'  [attr-defined]
+
+[RRepo](tox-dev)tox
+(tox-dev)tox/src/tox/util/spinner.py:13:1: error: Need type annotation for 'threads' (hint: "threads: List[<type>] = ...")  [var-annotated]
+(tox-dev)tox/src/tox/package/local.py:11:1: error: Need type annotation for '_SPEC_2_PACKAGE' (hint: "_SPEC_2_PACKAGE: Dict[<type>, <type>] = ...")  [var-annotated]
+(tox-dev)tox/src/tox/interpreters/windows/pep514.py:8:1: error: Module 'six.moves' has no attribute 'winreg'  [attr-defined]
+(tox-dev)tox/src/tox/interpreters/windows/pep514.py:101:35: error: Not all arguments converted during string formatting  [str-format]
+(tox-dev)tox/src/tox/interpreters/via_path.py:30:1: error: Need type annotation for '_SPECK_LOCK'  [var-annotated]
+(tox-dev)tox/src/tox/interpreters/windows/__init__.py:38:1: error: Need type annotation for '_PY_AVAILABLE' (hint: "_PY_AVAILABLE: List[<type>] = ...")  [var-annotated]
+Found 6 errors in 5 files (checked 65 source files)
+
+[RRepo](Neo23x0)sigma
+(Neo23x0)sigma/contrib/sigma2elastalert.py:77:32: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](MRPT)mrpt
+(MRPT)mrpt/python/prepare_debian.py:24:49: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](redkyn)assigner
+(redkyn)assigner/assigner/backends/base.py:128:1: error: Cannot redefine 'T' as a type variable  [misc]
+(redkyn)assigner/assigner/backends/base.py:128:1: error: Invalid assignment target  [misc]
+(redkyn)assigner/assigner/backends/base.py:128:5: error: "object" not callable  [operator]
+(redkyn)assigner/assigner/backends/base.py:145:1: error: Cannot redefine 'T' as a type variable  [misc]
+(redkyn)assigner/assigner/backends/base.py:145:1: error: Invalid assignment target  [misc]
+(redkyn)assigner/assigner/backends/base.py:145:5: error: "object" not callable  [operator]
+(redkyn)assigner/assigner/backends/base.py:160:12: error: Incompatible types in assignment (expression has type "Type[RepoBase]", variable has type "RepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/base.py:161:21: error: Incompatible types in assignment (expression has type "Type[TemplateRepoBase]", variable has type "TemplateRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/base.py:162:20: error: Incompatible types in assignment (expression has type "Type[StudentRepoBase]", variable has type "StudentRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:268:12: error: Incompatible types in assignment (expression has type "Type[MockRepo]", variable has type "RepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:269:21: error: Incompatible types in assignment (expression has type "Type[MockTemplateRepo]", variable has type "TemplateRepoBase")  [assignment]
+(redkyn)assigner/assigner/backends/mock.py:270:20: error: Incompatible types in assignment (expression has type "Type[MockStudentRepo]", variable has type "StudentRepoBase")  [assignment]
+Found 12 errors in 2 files (checked 31 source files)
+
+[RRepo](tomkdickinson)parsemis_wrapper
+Success: no issues found in 2 source files
+
+[RRepo](google-research)data-driven-pdes
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:59:18: error: Variable "geometry.Dimension" is not valid as a type  [valid-type]
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:59:18: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:181:10: error: Incompatible return value type (got "List[Composition]", expected "List[Transform]")  [return-value]
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:181:10: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:181:10: note: Consider using "Sequence" instead, which is covariant
+(google-research)data-driven-pdes/datadrivenpdes/core/geometry.py:181:10: note: Perhaps you need a type annotation for "transforms"? Suggestion: "List[Transform]"
+(google-research)data-driven-pdes/datadrivenpdes/core/tensor_ops.py:99:16: error: Incompatible types in assignment (expression has type "Tuple[slice, ...]", variable has type "List[slice]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/tensor_ops.py:102:17: error: Incompatible types in assignment (expression has type "Tuple[slice, ...]", variable has type "List[slice]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:60:30: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "str")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:61:25: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "str")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:63:15: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "bool")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:65:21: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "Dict[str, Any]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:66:19: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "Set[str]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:67:19: error: Incompatible types in assignment (expression has type "ellipsis", variable has type "Set[str]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:198:21: error: Incompatible default for argument "size" (default has type "Tuple[]", argument has type "Union[int, Tuple[int]]")  [assignment]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:269:31: error: "Type[T]" has no attribute "CONTINUOUS_EQUATION_NAME"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:272:40: error: "Type[T]" has no attribute "CONTINUOUS_EQUATION_NAME"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:275:26: error: "Type[T]" has no attribute "DISCRETIZATION_NAME"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:278:35: error: "Type[T]" has no attribute "DISCRETIZATION_NAME"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/equations.py:280:12: error: Too many arguments for "object"  [call-arg]
+(google-research)data-driven-pdes/datadrivenpdes/core/grids.py:47:12: error: Too many arguments for "object"  [call-arg]
+(google-research)data-driven-pdes/datadrivenpdes/core/grids.py:52:12: error: Too many arguments for "object"  [call-arg]
+(google-research)data-driven-pdes/datadrivenpdes/core/polynomials.py:84:5: error: Incompatible types in "yield" (actual type "Tuple[<nothing>, ...]", expected type "Tuple[int]")  [misc]
+(google-research)data-driven-pdes/datadrivenpdes/core/polynomials.py:88:9: error: Incompatible types in "yield" (actual type "Tuple[int, int]", expected type "Tuple[int]")  [misc]
+(google-research)data-driven-pdes/datadrivenpdes/core/polynomials.py:138:3: error: Need type annotation for 'all_constraints' (hint: "all_constraints: Dict[<type>, <type>] = ...")  [var-annotated]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:78:12: error: Too many arguments for "object"  [call-arg]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:99:52: error: "T" has no attribute "tensor_indices"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:100:26: error: "T" has no attribute "derivative_orders"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:101:26: error: "T" has no attribute "derivative_orders"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:102:26: error: "T" has no attribute "derivative_orders"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:103:14: error: "T" has no attribute "offset"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:104:12: error: "T" has no attribute "_replace"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:110:24: error: "T" has no attribute "derivative_orders"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:112:12: error: "T" has no attribute "_replace"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:116:12: error: "T" has no attribute "_replace"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:116:46: error: "T" has no attribute "name"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:120:12: error: "T" has no attribute "with_prefix"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:124:12: error: "T" has no attribute "with_prefix"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/states.py:128:12: error: "T" has no attribute "with_prefix"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/core/builders.py:82:13: error: Need type annotation for 'result'  [var-annotated]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:273:11: error: "T" has no attribute "evaluate"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:274:11: error: "T" has no attribute "evaluate"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:276:18: error: "T" has no attribute "amplitudes"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:278:12: error: Too many arguments for "object"  [call-arg]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:278:23: error: "T" has no attribute "x_wavenumbers"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:278:43: error: "T" has no attribute "y_wavenumbers"  [attr-defined]
+(google-research)data-driven-pdes/datadrivenpdes/advection/velocity_fields.py:279:35: error: "T" has no attribute "phase_shifts"  [attr-defined]
+Found 43 errors in 8 files (checked 28 source files)
+
+[RRepo](SP2RC-Coding-Club)Codes
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:12:1: error: Relative import climbs too many namespaces  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:93:6: error: Decorated property not supported  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:95:32: error: Invalid type comment or annotation  [valid-type]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:120:6: error: Decorated property not supported  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:122:34: error: Invalid type comment or annotation  [valid-type]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:148:6: error: Decorated property not supported  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:150:30: error: Invalid type comment or annotation  [valid-type]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:175:6: error: Decorated property not supported  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:216:6: error: Decorated property not supported  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:218:34: error: Invalid type comment or annotation  [valid-type]
+(SP2RC-Coding-Club)Codes/01_06_2017/plasma.py:235:9: error: Property "momentum" defined in "Plasma" is read-only  [misc]
+(SP2RC-Coding-Club)Codes/01_06_2017/simulation.py:11:1: error: Relative import climbs too many namespaces  [misc]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:172:37: error: Slice index must be an integer or None  [misc]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:173:37: error: Slice index must be an integer or None  [misc]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:174:37: error: Slice index must be an integer or None  [misc]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:190:5: error: Missing positional argument "y_spacing" in call to "vector_cut_plane"  [call-arg]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:284:13: error: Cannot determine type of 'field_lines'  [has-type]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:316:13: error: Missing positional argument "y_spacing" in call to "vector_cut_plane"  [call-arg]
+(SP2RC-Coding-Club)Codes/13_07_2017/alfven_mixed_driver.py:329:9: error: Missing positional argument "y_spacing" in call to "vector_cut_plane"  [call-arg]
+Found 19 errors in 3 files (checked 8 source files)
+
+[RRepo](LionelAuroux)pyrser
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:22:9: error: Need type annotation for '_eol' (hint: "_eol: List[<type>] = ...")  [var-annotated]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:112:25: error: Argument 1 to "len" has incompatible type "Optional[str]"; expected "Sized"  [arg-type]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:114:9: error: Need type annotation for '_contexts' (hint: "_contexts: List[<type>] = ...")  [var-annotated]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:117:9: error: Need type annotation for 'value_cache' (hint: "value_cache: Dict[<type>, <type>] = ...")  [var-annotated]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:122:32: error: Invalid type comment or annotation  [valid-type]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:123:16: error: Value of type "Optional[str]" is not indexable  [index]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:128:16: error: Incompatible return value type (got "Optional[str]", expected "int")  [return-value]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:153:16: error: Value of type "Optional[str]" is not indexable  [index]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:162:33: error: Value of type "Optional[str]" is not indexable  [index]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:166:45: error: Value of type "Optional[str]" is not indexable  [index]
+(LionelAuroux)pyrser/pyrser/parsing/stream.py:168:21: error: Value of type "Optional[str]" is not indexable  [index]
+(LionelAuroux)pyrser/pyrser/fmt.py:67:23: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:87:5: error: Signature of "to_str" incompatible with supertype "indentable"  [override]
+(LionelAuroux)pyrser/pyrser/fmt.py:91:27: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:109:5: error: Signature of "to_str" incompatible with supertype "indentable"  [override]
+(LionelAuroux)pyrser/pyrser/fmt.py:113:20: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:140:5: error: Signature of "to_str" incompatible with supertype "indentable"  [override]
+(LionelAuroux)pyrser/pyrser/fmt.py:144:27: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:149:31: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:178:5: error: Signature of "to_str" incompatible with supertype "indentable"  [override]
+(LionelAuroux)pyrser/pyrser/fmt.py:181:20: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/fmt.py:186:31: error: Too many arguments for "to_str" of "indentable"  [call-arg]
+(LionelAuroux)pyrser/pyrser/parsing/ir.py:12:9: error: Need type annotation for 'rules' (hint: "rules: List[<type>] = ...")  [var-annotated]
+
+[RRepo](tomv564)LSP
+(tomv564)LSP/plugin/core/transports.py:51:36: error: Not all arguments converted during string formatting  [str-format]
+(tomv564)LSP/plugin/core/transports.py:186:30: error: Item "None" of "Optional[IO[Any]]" has no attribute "readline"  [union-attr]
+(tomv564)LSP/plugin/core/transports.py:201:35: error: Item "None" of "Optional[IO[Any]]" has no attribute "read"  [union-attr]
+(tomv564)LSP/plugin/core/transports.py:226:21: error: Item "None" of "Optional[IO[Any]]" has no attribute "write"  [union-attr]
+(tomv564)LSP/plugin/core/transports.py:227:21: error: Item "None" of "Optional[IO[Any]]" has no attribute "flush"  [union-attr]
+Found 5 errors in 1 file (checked 51 source files)
+
+[RRepo](signalfx)integrations
+(signalfx)integrations/aws-import/awsimport.py:63: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(signalfx)integrations/aws-import/awsimport.py:82: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(signalfx)integrations/aws-import/awsimport.py:140:16: error: Argument 2 to "DocSet" has incompatible type "List[str]"; expected "Set[str]"  [arg-type]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](HTTP-APIs)hydrus
+(HTTP-APIs)hydrus/hydrus/data/user.py:42:22: error: Unsupported operand types for > ("datetime" and "timedelta")  [operator]
+
+[RRepo](petervaro)python
+(petervaro)python/tests/Python3.py:34:26: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](errbotio)errbot
+(errbotio)errbot/errbot/storage/memory.py:5:1: error: Need type annotation for 'ROOTS' (hint: "ROOTS: Dict[<type>, <type>] = ...")  [var-annotated]
+(errbotio)errbot/errbot/core_plugins/acls.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/errbot/core_plugins/acls.py:2:1: error: Module 'errbot' has no attribute 'cmdfilter'  [attr-defined]
+(errbotio)errbot/tests/matchall_plugin/matchall.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/matchall_plugin/matchall.py:1:1: error: Module 'errbot' has no attribute 'botmatch'  [attr-defined]
+(errbotio)errbot/tests/commandnotfound_plugin/commandnotfound.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/commandnotfound_plugin/commandnotfound.py:1:1: error: Module 'errbot' has no attribute 'cmdfilter'  [attr-defined]
+(errbotio)errbot/tests/mention_plugin/mention.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/template_plugin/test.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/template_plugin/test.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/template_plugin/test.py:2:1: error: Module 'errbot' has no attribute 're_botcmd'  [attr-defined]
+(errbotio)errbot/tests/template_plugin/test.py:2:1: error: Module 'errbot' has no attribute 'arg_botcmd'  [attr-defined]
+(errbotio)errbot/tests/poller_plugin/poller_plugin.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/poller_plugin/poller_plugin.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/borken_plugin/broken.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/borken_plugin/broken.py:1:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/multi_plugin/mp.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/multi_plugin/mp.py:1:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/fail_config_plugin/failp.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/fail_config_plugin/failp.py:1:1: error: Module 'errbot' has no attribute 'ValidationException'  [attr-defined]
+(errbotio)errbot/tests/config_plugin/config.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/dummy_plugin/dummy.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/dummy_plugin/dummy.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/dummy_plugin/dummy.py:2:1: error: Module 'errbot' has no attribute 're_botcmd'  [attr-defined]
+(errbotio)errbot/tests/dummy_plugin/dummy.py:2:1: error: Module 'errbot' has no attribute 'botmatch'  [attr-defined]
+(errbotio)errbot/tests/flow_plugin/flowtest_flows.py:2:1: error: Module 'errbot' has no attribute 'botflow'  [attr-defined]
+(errbotio)errbot/tests/flow_plugin/flowtest_flows.py:2:1: error: Module 'errbot' has no attribute 'FlowRoot'  [attr-defined]
+(errbotio)errbot/tests/flow_plugin/flowtest_flows.py:2:1: error: Module 'errbot' has no attribute 'BotFlow'  [attr-defined]
+(errbotio)errbot/tests/flow_plugin/flowtest.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/flow_plugin/flowtest.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/dyna_plugin/dyna.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/dyna_plugin/dyna.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/dyna_plugin/dyna.py:2:1: error: Module 'errbot' has no attribute 'Command'  [attr-defined]
+(errbotio)errbot/tests/dyna_plugin/dyna.py:2:1: error: Module 'errbot' has no attribute 'botmatch'  [attr-defined]
+(errbotio)errbot/tests/dyna_plugin/dyna.py:2:1: error: Module 'errbot' has no attribute 'arg_botcmd'  [attr-defined]
+(errbotio)errbot/tests/i18n_plugin/i18n.py:2:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/i18n_plugin/i18n.py:2:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/dependent_plugins/single.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+(errbotio)errbot/tests/dependent_plugins/single.py:1:1: error: Module 'errbot' has no attribute 'botcmd'  [attr-defined]
+(errbotio)errbot/tests/dependent_plugins/parent1.py:1:1: error: Module 'errbot' has no attribute 'BotPlugin'  [attr-defined]
+
+[RRepo](enihsyou)PackageTracker
+Success: no issues found in 2 source files
+
+[RRepo](openforis)sepal
+(openforis)sepal/modules/google-earth-engine/docker/sepal-ee/sepal/ee/rx/asset.py: error: Duplicate module named 'asset' (also at '/home/bew/archive/typed_project/(openforis)sepal/modules/google-earth-engine/docker/src/sepalinternal/asset/__init__.py')  [misc]
+(openforis)sepal/modules/google-earth-engine/docker/sepal-ee/sepal/ee/rx/asset.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 83 source files)
+
+[RRepo](RudolfCardinal)crate
+(RudolfCardinal)crate/crate_anon/crateweb/extra/salutation.py:133:33: error: List item 1 has incompatible type "Optional[str]"; expected "str"  [list-item]
+(RudolfCardinal)crate/crate_anon/crateweb/extra/salutation.py:134:29: error: List item 1 has incompatible type "Optional[str]"; expected "str"  [list-item]
+(RudolfCardinal)crate/crate_anon/crateweb/consent/celery.py:217:1: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+(RudolfCardinal)crate/crate_anon/crateweb/consent/celery.py:217:1: error: Module 'celery' has no attribute 'current_task'  [attr-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/number.py:60:20: error: Argument 1 to "abs" has incompatible type "Optional[float]"; expected "SupportsAbs[float]"  [arg-type]
+(RudolfCardinal)crate/crate_anon/nlp_manager/models.py:59:17: error: Variable "models.ProgressBase" is not valid as a type  [valid-type]
+(RudolfCardinal)crate/crate_anon/nlp_manager/models.py:59:17: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(RudolfCardinal)crate/crate_anon/nlp_manager/models.py:59:17: error: Invalid base class "ProgressBase"  [misc]
+(RudolfCardinal)crate/crate_anon/common/extendedconfigparser.py:307:30: error: Variable "extendedconfigparser.DB_SAFE_CONFIG_FWD_REF" is not valid as a type  [valid-type]
+(RudolfCardinal)crate/crate_anon/common/extendedconfigparser.py:307:30: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(RudolfCardinal)crate/crate_anon/common/extendedconfigparser.py:354:13: error: Name 'env' already defined on line 352  [no-redef]
+(RudolfCardinal)crate/crate_anon/common/profiling.py:46:22: error: Too many arguments  [call-arg]
+(RudolfCardinal)crate/crate_anon/anonymise/dbholder.py:57:26: error: Variable "dbholder.DB_SAFE_CONFIG_FWD_REF" is not valid as a type  [valid-type]
+(RudolfCardinal)crate/crate_anon/anonymise/dbholder.py:57:26: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(RudolfCardinal)crate/crate_anon/nlp_webserver/procs.py:57:1: error: Item "_Loader" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(RudolfCardinal)crate/crate_anon/nlp_webserver/procs.py:57:1: error: Item "None" of "Optional[_Loader]" has no attribute "exec_module"  [union-attr]
+(RudolfCardinal)crate/crate_anon/nlp_webserver/procs.py:193:13: error: Module has no attribute "PROCESSORS"  [attr-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/output_user_config.py:165:40: error: Argument 1 to "append" of "list" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:75:8: error: Name 'Crp' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:78:8: error: Name 'Bmi' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:81:8: error: Name 'Mmse' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:84:8: error: Name 'Wbc' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:85:8: error: Name 'Neutrophils' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:86:8: error: Name 'Lymphocytes' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:87:8: error: Name 'Monocytes' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:88:8: error: Name 'Basophils' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:89:8: error: Name 'Eosinophils' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:148:45: error: Name 'Optional' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:148:45: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:171:29: error: Name 'NlpDefinition' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:202:12: error: Name 'Optional' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_manager/all_processors.py:202:12: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+(RudolfCardinal)crate/crate_anon/preprocess/ddhint.py:102:20: error: Argument 1 to "len" has incompatible type "Iterable[str]"; expected "Sized"  [arg-type]
+(RudolfCardinal)crate/docs/source/conf.py:179:1: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(RudolfCardinal)crate/crate_anon/nlp_webserver/tasks.py:272:5: error: Name 'Optional' is not defined  [name-defined]
+(RudolfCardinal)crate/crate_anon/nlp_webserver/tasks.py:272:5: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+(RudolfCardinal)crate/crate_anon/nlp_webserver/tasks.py:303:50: error: Argument 3 to "process_nlp_gate" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(RudolfCardinal)crate/crate_anon/nlp_webserver/tasks.py:335:50: error: Argument 3 to "process_nlp_gate" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+Found 32 errors in 13 files (checked 77 source files)
+
+[RRepo](HeartUnchange)aiospider
+(HeartUnchange)aiospider/examples/ex1.py:31: error: Name 'aiohttp.Response' is not defined  [name-defined]
+(HeartUnchange)aiospider/examples/ex3.py:35: error: Name 'aiohttp.Response' is not defined  [name-defined]
+Found 2 errors in 2 files (checked 8 source files)
+
+[RRepo](SkygearIO)chat
+(SkygearIO)chat/chat/test/test_user_conversation.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_user_conversation.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:8:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:11:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:12:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_get_messages.py:15:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_before_save.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_before_save.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_before_save.py:8:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_predicate.py:2:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_after_save.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_after_save.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_after_save.py:8:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_after_save.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_handle_message_after_save.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/test/test_publish_event.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(SkygearIO)chat/chat/pubsub.py:9: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/pubsub.py:9: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/pubsub.py:23: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/pubsub.py:23: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/user_conversation.py:18:19: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/receipt.py:11:19: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message_history.py:10:19: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/conversation.py:14:19: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message.py:15:19: error: Incompatible types in assignment (expression has type "str", base class "ChatRecord" defined the type as "None")  [assignment]
+(SkygearIO)chat/chat/message.py:56:5: error: Missing return statement  [return]
+(SkygearIO)chat/chat/receipt_handlers.py:26: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/receipt_handlers.py:26: note: Did you mean "List[...]"?
+(SkygearIO)chat/chat/receipt_handlers.py:38: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(SkygearIO)chat/chat/receipt_handlers.py:38: note: Did you mean "List[...]"?
+Found 28 errors in 13 files (checked 31 source files)
+
+[RRepo](borevitzlab)3D-tools
+(borevitzlab)3D-tools/conf.py:53:1: error: Need type annotation for 'templates_path' (hint: "templates_path: List[<type>] = ...")  [var-annotated]
+(borevitzlab)3D-tools/conf.py:111:1: error: Need type annotation for 'html_static_path' (hint: "html_static_path: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 1 file (checked 3 source files)
+
+[RRepo](ccubed)PyMoe
+(ccubed)PyMoe/Pymoe/Anidb/api_http.py:7:15: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](albemala)almoviesrenamer
+(albemala)almoviesrenamer/upload2google.py:187:63: error: Missing parentheses in call to 'print'. Did you mean print('Please enter your googlecode.com password.')?  [syntax]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](msincenselee)vnpy
+(msincenselee)vnpy/vnpy/trader/app/optionMaster/strategy/__init__.py: error: Duplicate module named 'strategy' (also at '/home/bew/archive/typed_project/(msincenselee)vnpy/vnpy/trader/app/cmaStrategy/strategy/__init__.py')  [misc]
+Found 1 error in 1 file (checked 104 source files)
+
+[RRepo](mrachinskiy)booltron
+
+[RRepo](brython-dev)brython
+(brython-dev)brython/www/tests/test_suite.py:498:24: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 311 source files)
+
+[RRepo](Michael-F-Bryan)auto-changelog
+(Michael-F-Bryan)auto-changelog/auto_changelog/domain_model.py:67:16: error: Incompatible return value type (got "Tuple[Note, ...]", expected "Tuple[Note]")  [return-value]
+(Michael-F-Bryan)auto-changelog/auto_changelog/domain_model.py:104:16: error: Incompatible return value type (got "Tuple[Release, ...]", expected "Tuple[Release]")  [return-value]
+(Michael-F-Bryan)auto-changelog/auto_changelog/repository.py:39:26: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, str, str]", variable has type "Tuple[str, Any, Any]")  [assignment]
+(Michael-F-Bryan)auto-changelog/auto_changelog/repository.py:46:9: error: Need type annotation for 'reverse_tag_index' (hint: "reverse_tag_index: Dict[<type>, <type>] = ...")  [var-annotated]
+(Michael-F-Bryan)auto-changelog/tests/test_presenter.py:58:1: error: Name 'test_markdown_presenter_changelog_with_features' already defined on line 38  [no-redef]
+Found 5 errors in 3 files (checked 8 source files)
+
+[RRepo](sloria)ped
+Success: no issues found in 7 source files
+

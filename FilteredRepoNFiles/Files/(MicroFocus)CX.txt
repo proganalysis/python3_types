@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/cache/__init__.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/security/__init__.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/app.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/exceptions.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/proxy/response.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/proxy/request.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/services/handlers.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/services/loader.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/services/service.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/utils/reverse.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/resources/base.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/security/custom.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/plugins/sspr/password.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/plugins/users/edir.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/plugins/osp/osp_security_proxy.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/plugins/aaf/endpoint.py
+/home/bew/archive/typed_project/(MicroFocus)CX/middle_tier/tests/service_tests.py

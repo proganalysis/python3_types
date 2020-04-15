@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(wings27)songci/tune_data/__init__.py
+/home/bew/archive/typed_project/(wings27)songci/run.py
+/home/bew/archive/typed_project/(wings27)songci/nlp/pingze.py
+/home/bew/archive/typed_project/(wings27)songci/nlp/verse.py
+/home/bew/archive/typed_project/(wings27)songci/nlp/emblem.py
+/home/bew/archive/typed_project/(wings27)songci/nlp/pinyin.py
+/home/bew/archive/typed_project/(wings27)songci/writer/songci_writer.py
+/home/bew/archive/typed_project/(wings27)songci/test/test_nlp.py
+/home/bew/archive/typed_project/(wings27)songci/processor/songci_dao.py
+/home/bew/archive/typed_project/(wings27)songci/processor/emblem_processor.py
+/home/bew/archive/typed_project/(wings27)songci/processor/data_source.py
+/home/bew/archive/typed_project/(wings27)songci/mapreduce/driver.py
+/home/bew/archive/typed_project/(wings27)songci/mapreduce/emblem_finals.py
+/home/bew/archive/typed_project/(wings27)songci/mapreduce/emblem_freq.py

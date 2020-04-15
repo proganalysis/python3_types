@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/handlers.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/context_processors.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/server_check.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/storage.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/asset_manifest.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/finders.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/templatetags/cra_helper_tags.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/management/commands/runserver.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/tests/test_asset_manifest.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/tests/test_server_check.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/tests/test_handlers.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/tests/test_cra_helper_tags.py
+/home/bew/archive/typed_project/(MasterKale)django-cra-helper/cra_helper/tests/test_context_processors.py

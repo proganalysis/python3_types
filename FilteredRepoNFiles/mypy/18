@@ -1,0 +1,1176 @@
+[RRepo](DiNitride)GAFBot
+(DiNitride)GAFBot/modules/spotify.py:9:1: error: Module 'utils' has no attribute 'net'  [attr-defined]
+(DiNitride)GAFBot/modules/gaf.py:5:1: error: Module 'utils' has no attribute 'checks'  [attr-defined]
+(DiNitride)GAFBot/modules/admin.py:8:1: error: Module 'utils' has no attribute 'reaction_menu'  [attr-defined]
+(DiNitride)GAFBot/modules/admin.py:11:10: error: Need type annotation for 'CONFIG'  [var-annotated]
+Found 4 errors in 3 files (checked 15 source files)
+
+[RRepo](jaantoots)bridgeview
+(jaantoots)bridgeview/generate.py:45:23: error: Module has no attribute "labels"  [attr-defined]
+(jaantoots)bridgeview/generate.py:47:25: error: Module has no attribute "textures"  [attr-defined]
+(jaantoots)bridgeview/generate.py:51:23: error: Module has no attribute "render"  [attr-defined]
+Found 3 errors in 1 file (checked 4 source files)
+
+[RRepo](CivicTechTO)ttc_subway_times
+(CivicTechTO)ttc_subway_times/setup.py:23:1: error: Need type annotation for 'setup_requires' (hint: "setup_requires: List[<type>] = ...")  [var-annotated]
+(CivicTechTO)ttc_subway_times/src/ttc_api_scraper/writers.py:16:38: error: Argument 2 to "getattr" has incompatible type "Optional[str]"; expected "str"  [arg-type]
+(CivicTechTO)ttc_subway_times/src/ttc_api_scraper/consolidate.py:15:41: error: Argument 1 to "FileHandler" has incompatible type "Optional[str]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+Found 3 errors in 3 files (checked 7 source files)
+
+[RRepo](pytest-dev)pluggy
+(pytest-dev)pluggy/docs/examples/eggsample-spam/eggsample_spam.py:4:2: error: Module has no attribute "hookimpl"  [attr-defined]
+(pytest-dev)pluggy/docs/examples/eggsample-spam/eggsample_spam.py:14:2: error: Module has no attribute "hookimpl"  [attr-defined]
+(pytest-dev)pluggy/docs/examples/eggsample/eggsample/lib.py:4:2: error: Module has no attribute "hookimpl"  [attr-defined]
+(pytest-dev)pluggy/docs/examples/eggsample/eggsample/lib.py:12:2: error: Module has no attribute "hookimpl"  [attr-defined]
+(pytest-dev)pluggy/docs/examples/eggsample/eggsample/host.py:6:1: error: Module 'eggsample' has no attribute 'hookspecs'  [attr-defined]
+(pytest-dev)pluggy/docs/examples/eggsample/eggsample/host.py:6:1: error: Module 'eggsample' has no attribute 'lib'  [attr-defined]
+Found 6 errors in 3 files (checked 19 source files)
+
+[RRepo](romanpitak)torrentfile
+Success: no issues found in 2 source files
+
+[RRepo](BlackHC)mdp
+(BlackHC)mdp/blackhc/mdp/dsl/ast.py:65:5: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(BlackHC)mdp/blackhc/mdp/dsl/ast.py:70:5: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(BlackHC)mdp/blackhc/mdp/__init__.py:60:9: error: Need type annotation for 'deduped_outcomes'  [var-annotated]
+(BlackHC)mdp/blackhc/mdp/__init__.py:77:5: error: Argument 1 of "get_choices" is incompatible with supertype "Outcome"; supertype defines the argument type as "Iterable[Outcome]"  [override]
+(BlackHC)mdp/blackhc/mdp/__init__.py:89:5: error: Argument 1 of "get_choices" is incompatible with supertype "Outcome"; supertype defines the argument type as "Iterable[Outcome]"  [override]
+(BlackHC)mdp/blackhc/mdp/__init__.py:267:39: error: Incompatible types in assignment (expression has type "None", variable has type "State")  [assignment]
+(BlackHC)mdp/blackhc/mdp/__init__.py:268:41: error: Incompatible types in assignment (expression has type "None", variable has type "Action")  [assignment]
+(BlackHC)mdp/blackhc/mdp/__init__.py:269:30: error: Incompatible types in assignment (expression has type "None", variable has type "State")  [assignment]
+Found 8 errors in 2 files (checked 9 source files)
+
+[RRepo](siddhantgoel)tornado-sqlalchemy
+(siddhantgoel)tornado-sqlalchemy/tests/test_request_handlers.py:22:9: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/tests/test_request_handlers.py:32:9: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/tests/test_request_handlers.py:40:9: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/tests/test_request_handlers.py:47:9: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/tests/_common.py:17:12: error: Variable "_common.Base" is not valid as a type  [valid-type]
+(siddhantgoel)tornado-sqlalchemy/tests/_common.py:17:12: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(siddhantgoel)tornado-sqlalchemy/tests/_common.py:17:12: error: Invalid base class "Base"  [misc]
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:17:12: error: Variable "tornado_web.DeclarativeBase" is not valid as a type  [valid-type]
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:17:12: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:17:12: error: Invalid base class "DeclarativeBase"  [misc]
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:24:1: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:34:1: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+(siddhantgoel)tornado-sqlalchemy/examples/tornado_web.py:43:1: error: Definition of "application" in base class "SessionMixin" is incompatible with definition in base class "RequestHandler"  [misc]
+Found 11 errors in 3 files (checked 7 source files)
+
+[RRepo](paulhoule)gastrodon
+(paulhoule)gastrodon/gastrodon/domain/__init__.py:75:20: error: Need type annotation for 'initial_data'  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](kovidgoyal)kitty
+(kovidgoyal)kitty/kitty/notify.py:28:5: error: Need type annotation for 'alloc_map' (hint: "alloc_map: Dict[<type>, <type>] = ...")  [var-annotated]
+(kovidgoyal)kitty/kittens/tui/operations.py:70:13: error: Cannot call function of unknown type  [operator]
+(kovidgoyal)kitty/kittens/tui/operations.py:74:13: error: Cannot call function of unknown type  [operator]
+(kovidgoyal)kitty/kittens/tui/operations.py:154:9: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kittens/tui/operations.py:157:9: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kittens/tui/operations.py:160:9: error: "append" of "list" does not return a value  [func-returns-value]
+(kovidgoyal)kitty/kitty/borders.py:15:5: error: Incompatible import of "IntFlag" (imported name has type "Type[IntEnum]", local name has type "Type[IntFlag]")  [misc]
+
+[RRepo](mbourqui)django-celery-growthmonitor
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/forms.py:7:16: error: Module has no attribute "util"  [attr-defined]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/admin.py:49:5: error: "Callable[[HasJobAdminMixin, Any], Any]" has no attribute "short_description"  [attr-defined]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/admin.py:55:5: error: "Callable[[HasJobAdminMixin, Any], Any]" has no attribute "short_description"  [attr-defined]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/tests/taskapp/celery.py:5:1: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/canvas.py:13:9: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[Any]")  [assignment]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/models/task.py:1:1: error: Module 'celery' has no attribute 'Task'  [attr-defined]
+(mbourqui)django-celery-growthmonitor/celery_growthmonitor/tasks.py:5:1: error: Module 'celery' has no attribute 'shared_task'  [attr-defined]
+Found 7 errors in 6 files (checked 8 source files)
+
+[RRepo](legoktm)toolforge
+(legoktm)toolforge/tests/main_test.py:27:45: error: Cannot infer type of lambda  [misc]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](dpausp)arguments
+
+[RRepo](clarkgrubb)data-tools
+Success: no issues found in 16 source files
+
+[RRepo](liweitianux)atoolbox
+(liweitianux)atoolbox/cli/dict.py:89:18: error: Missing parentheses in call to 'print'. Did you mean print(RED+BOLD+word+DEFAULT)?  [syntax]
+Found 1 error in 1 file (checked 56 source files)
+
+[RRepo](just806me)voiceru_bot
+(just806me)voiceru_bot/extentions.py:56:18: error: "Enum" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(just806me)voiceru_bot/extentions.py:120:16: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(just806me)voiceru_bot/extentions.py:121:17: error: Argument 1 to "md5" has incompatible type "str"; expected "Union[bytes, bytearray, memoryview]"  [arg-type]
+Found 3 errors in 1 file (checked 3 source files)
+
+[RRepo](ICTU)quality-time
+(ICTU)quality-time/components/server/src/utilities/ldap.py:15:15: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ICTU)quality-time/components/server/src/utilities/ldap.py:16:15: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(ICTU)quality-time/components/server/src/utilities/ldap.py:17:16: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+
+[RRepo](Karaage-Cluster)karaage
+(Karaage-Cluster)karaage/karaage/common/views/common.py: error: Duplicate module named 'common' (also at '/home/bew/archive/typed_project/(Karaage-Cluster)karaage/karaage/common/__init__.py')  [misc]
+(Karaage-Cluster)karaage/karaage/common/views/common.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 76 source files)
+
+[RRepo](mokemokechicken)keras_npi
+(mokemokechicken)keras_npi/src/npi/add/lib.py:125:9: error: Need type annotation for 'step_queue_stack' (hint: "step_queue_stack: List[<type>] = ...")  [var-annotated]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:126:9: error: Need type annotation for 'sub_program' (hint: "sub_program: Dict[<type>, <type>] = ...")  [var-annotated]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:191:25: error: Argument 1 to "append" of "list" has incompatible type "Tuple[Any, None]"; expected "Tuple[WriteProgram, Tuple[int, Any]]"  [arg-type]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:192:20: error: Incompatible types in assignment (expression has type "Tuple[Any, WriteProgram, Tuple[int, Any]]", target has type "Tuple[WriteProgram, Tuple[int, Any]]")  [assignment]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:208:21: error: Argument 1 to "append" of "list" has incompatible type "Tuple[Any, MovePtrProgram, Tuple[int, int]]"; expected "Tuple[MovePtrProgram, Tuple[int, int]]"  [arg-type]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:217:21: error: Argument 1 to "append" of "list" has incompatible type "Tuple[Any, MovePtrProgram, Tuple[int, int]]"; expected "Tuple[MovePtrProgram, Tuple[int, int]]"  [arg-type]
+(mokemokechicken)keras_npi/src/npi/add/lib.py:226:21: error: Argument 1 to "append" of "list" has incompatible type "Tuple[Any, MovePtrProgram, Tuple[int, int]]"; expected "Tuple[MovePtrProgram, Tuple[int, int]]"  [arg-type]
+(mokemokechicken)keras_npi/src/npi/terminal_core.py:119:9: error: Need type annotation for 'step_list' (hint: "step_list: List[<type>] = ...")  [var-annotated]
+(mokemokechicken)keras_npi/src/npi/terminal_core.py:151:9: error: Item "None" of "Optional[Any]" has no attribute "enter_function"  [union-attr]
+(mokemokechicken)keras_npi/src/npi/terminal_core.py:160:22: error: Item "None" of "Optional[Any]" has no attribute "step"  [union-attr]
+(mokemokechicken)keras_npi/src/npi/terminal_core.py:172:9: error: Item "None" of "Optional[Any]" has no attribute "exit_function"  [union-attr]
+Found 11 errors in 2 files (checked 6 source files)
+
+[RRepo](Codepoints)unidump
+(Codepoints)unidump/unidump/cli.py:147:22: error: Incompatible types in assignment (expression has type "None", variable has type "IO[bytes]")  [assignment]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](EpicEricEE)ShopChest
+Success: no issues found in 1 source file
+
+[RRepo](hsoft)dupeguru
+(hsoft)dupeguru/core/tests/markable_test.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/block_test.py:12:5: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/gui/directory_tree.py:11:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/directories_test.py:16:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/directories_test.py:17:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/prioritize_test.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/ignore_test.py:13:1: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/cache_test.py:13:5: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/cache_test.py:14:5: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/tests/cache_test.py:15:5: error: Relative import climbs too many namespaces  [misc]
+(hsoft)dupeguru/core/pe/iphoto_plist.py:11:25: error: Name 'plistlib._PlistParser' is not defined  [name-defined]
+(hsoft)dupeguru/run.py:19:1: error: Module 'qt' has no attribute 'dg_rc'  [attr-defined]
+(hsoft)dupeguru/run.py:21:1: error: Module 'core' has no attribute '__version__'  [attr-defined]
+(hsoft)dupeguru/run.py:21:1: error: Module 'core' has no attribute '__appname__'; maybe "__name__"?  [attr-defined]
+Found 14 errors in 9 files (checked 43 source files)
+
+[RRepo](larbibaraka)Bitly_clone
+(larbibaraka)Bitly_clone/bitly_clone/bitly__clone_app/models.py:43:19: error: syntax error in type comment  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](haifengat)hf_at_py
+(haifengat)hf_at_py/hfpy/strategy.py:271: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(haifengat)hf_at_py/hfpy/strategy.py:271: note: Did you mean "List[...]"?
+(haifengat)hf_at_py/hfpy/strategy.py:275: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(haifengat)hf_at_py/hfpy/strategy.py:275: note: Did you mean "List[...]"?
+(haifengat)hf_at_py/hfpy/strategy.py:287: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(haifengat)hf_at_py/hfpy/strategy.py:287: note: Did you mean "List[...]"?
+(haifengat)hf_at_py/hfpy/strategy.py:291: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(haifengat)hf_at_py/hfpy/strategy.py:291: note: Did you mean "List[...]"?
+(haifengat)hf_at_py/hfpy/strategy.py:329:30: error: Invalid type comment or annotation  [valid-type]
+(haifengat)hf_at_py/hfpy/strategy.py:329:30: note: Suggestion: use OrderField[...] instead of OrderField(...)
+(haifengat)hf_at_py/hfpy/strategy.py:333:30: error: Invalid type comment or annotation  [valid-type]
+(haifengat)hf_at_py/hfpy/strategy.py:333:30: note: Suggestion: use TradeField[...] instead of TradeField(...)
+
+[RRepo](kubeflow)examples
+(kubeflow)examples/pytorch_mnist/web-ui/proto/prediction_pb2_grpc.py:4:1: error: Module 'proto' has no attribute 'prediction_pb2'  [attr-defined]
+(kubeflow)examples/code_search/src/setup.py:4:1: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+
+[RRepo](codeforboston)cornerwise
+(codeforboston)cornerwise/server/site_config/site_config.py:5:5: error: Need type annotation for 'hostnames' (hint: "hostnames: List[<type>] = ...")  [var-annotated]
+(codeforboston)cornerwise/server/site_config/site_config.py:9:5: error: Need type annotation for 'extra_context' (hint: "extra_context: Dict[<type>, <type>] = ...")  [var-annotated]
+(codeforboston)cornerwise/server/site_config/site_config.py:11:5: error: Need type annotation for 'extra_js_config' (hint: "extra_js_config: Dict[<type>, <type>] = ...")  [var-annotated]
+(codeforboston)cornerwise/server/site_config/site_config.py:18:5: error: Need type annotation for 'query_defaults' (hint: "query_defaults: Dict[<type>, <type>] = ...")  [var-annotated]
+(codeforboston)cornerwise/server/site_config/somervillema.py:10:18: error: Incompatible types in assignment (expression has type "str", base class "SiteConfig" defined the type as "None")  [assignment]
+(codeforboston)cornerwise/server/site_config/somervillema.py:15:15: error: Incompatible types in assignment (expression has type "int", base class "SiteConfig" defined the type as "None")  [assignment]
+(codeforboston)cornerwise/server/cornerwise/settings.py:355:17: error: Cannot determine type of 'SITE_REDIRECT'  [has-type]
+(codeforboston)cornerwise/server/cornerwise/settings.py:382:4: error: Name 'SENDGRID_API_KEY' is not defined  [name-defined]
+(codeforboston)cornerwise/server/site_config/__init__.py:49:37: error: Argument 2 to "get" of "Mapping" has incompatible type "Optional[SiteConfig]"; expected "SiteConfig"  [arg-type]
+(codeforboston)cornerwise/server/site_config/__init__.py:56:12: error: Incompatible return value type (got "Optional[SiteConfig]", expected "SiteConfig")  [return-value]
+(codeforboston)cornerwise/server/cornerwise/adapt.py:21:1: error: Missing return statement  [return]
+(codeforboston)cornerwise/server/cornerwise/adapt.py:23:39: error: Argument 1 to "fromtimestamp" of "datetime" has incompatible type "Number"; expected "float"  [arg-type]
+(codeforboston)cornerwise/server/cornerwise/celery.py:6:1: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+
+[RRepo](aamalev)aiohttp_apiset
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/operations.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/tests/test_router.py:5:1: error: Module 'aiohttp_apiset' has no attribute 'SwaggerRouter'  [attr-defined]
+(aamalev)aiohttp_apiset/tests/conftest.py:4:1: error: Module 'aiohttp_apiset' has no attribute 'ApiSet'  [attr-defined]
+(aamalev)aiohttp_apiset/tests/conftest.py:4:1: error: Module 'aiohttp_apiset' has no attribute 'SwaggerRouter'  [attr-defined]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:5:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/aiohttp_apiset/swagger/route.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(aamalev)aiohttp_apiset/tests/test_middleware.py:4:1: error: Module 'aiohttp_apiset' has no attribute 'SwaggerRouter'  [attr-defined]
+(aamalev)aiohttp_apiset/examples/docstring/main.py:4:1: error: Module 'aiohttp_apiset' has no attribute 'SwaggerRouter'  [attr-defined]
+(aamalev)aiohttp_apiset/tests/test_validate.py:11:1: error: Module 'aiohttp_apiset' has no attribute 'SwaggerRouter'  [attr-defined]
+Found 13 errors in 7 files (checked 22 source files)
+
+[RRepo](GOVCERT-LU)eml_parser
+Success: no issues found in 6 source files
+
+[RRepo](telegram-bots)telegram-channels-feed
+(telegram-bots)telegram-channels-feed/bot/src/component/db.py:27:13: error: "Callable[[], Any]" has no attribute "commit"  [attr-defined]
+(telegram-bots)telegram-channels-feed/bot/src/component/db.py:29:13: error: "Callable[[], Any]" has no attribute "rollback"  [attr-defined]
+
+[RRepo](raphaelm)python-fints
+(raphaelm)python-fints/fints/message.py:43:17: error: Incompatible types in assignment (expression has type "MessageDirection", base class "FinTSMessage" defined the type as "None")  [assignment]
+(raphaelm)python-fints/fints/message.py:48:17: error: Incompatible types in assignment (expression has type "MessageDirection", base class "FinTSMessage" defined the type as "None")  [assignment]
+(raphaelm)python-fints/fints/fields.py:186:17: error: Incompatible types in assignment (expression has type "Type[bool]", base class "TextField" defined the type as "Type[str]")  [assignment]
+(raphaelm)python-fints/fints/fields.py:262:17: error: Incompatible types in assignment (expression has type "Type[date]", base class "NumericField" defined the type as "Type[int]")  [assignment]
+(raphaelm)python-fints/fints/fields.py:280:17: error: Incompatible types in assignment (expression has type "Type[time]", base class "DigitsField" defined the type as "Type[str]")  [assignment]
+(raphaelm)python-fints/fints/connection.py:33:19: error: Name 'FinTSConnectionError' is not defined  [name-defined]
+Found 6 errors in 3 files (checked 13 source files)
+
+[RRepo](hrsetyono)theme_pacific
+(hrsetyono)theme_pacific/sample/python.py:29:13: error: Missing parentheses in call to 'print'. Did you mean print(queens)?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](pfalcon)micropython
+(pfalcon)micropython/tests/micropython/viper_args.py:43:7: error: named arguments must follow bare *  [syntax]
+Found 1 error in 1 file (checked 109 source files)
+
+[RRepo](tfeldmann)organize
+(tfeldmann)organize/organize/config.py:26:5: error: syntax error in type comment '(dict)'  [syntax]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](ziirish)burp-ui
+(ziirish)burp-ui/docker/docker-alpine/assets/config/burp-ui/burpui_gunicorn.py:76:12: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 45 source files)
+
+[RRepo](klieret)anki-template-tester
+(klieret)anki-template-tester/previewtemplate.py:115:34: error: Syntax error in type annotation  [syntax]
+(klieret)anki-template-tester/previewtemplate.py:115:34: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(klieret)anki-template-tester/previewtemplate.py:134:33: error: Argument 1 to "groups" of "Match" has incompatible type "int"; expected "str"  [arg-type]
+(klieret)anki-template-tester/previewtemplate.py:165:12: error: Incompatible return value type (got "Union[str, bool]", expected "bool")  [return-value]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](vladcalin)gemstone
+(vladcalin)gemstone/tests/services/service_jsonrpc_specs.py:1:1: error: Module 'gemstone.core' has no attribute 'MicroService'  [attr-defined]
+(vladcalin)gemstone/tests/services/service_jsonrpc_specs.py:1:1: error: Module 'gemstone.core' has no attribute 'exposed_method'  [attr-defined]
+(vladcalin)gemstone/tests/services/service_microservice.py:1:1: error: Module 'gemstone.core' has no attribute 'MicroService'  [attr-defined]
+(vladcalin)gemstone/tests/services/service_microservice.py:1:1: error: Module 'gemstone.core' has no attribute 'exposed_method'  [attr-defined]
+(vladcalin)gemstone/tests/configuration/test_configurables.py:1:1: error: Module 'gemstone.config' has no attribute 'Configurable'  [attr-defined]
+(vladcalin)gemstone/tests/configuration/test_cmd_configuration.py:4:1: error: Module 'gemstone.config' has no attribute 'CommandLineConfigurator'  [attr-defined]
+(vladcalin)gemstone/tests/configuration/test_cmd_configuration.py:4:1: error: Module 'gemstone.config' has no attribute 'Configurable'  [attr-defined]
+
+[RRepo](apirobot)shmitter
+Success: no issues found in 12 source files
+
+[RRepo](labsquare)CuteVariant
+(labsquare)CuteVariant/cutevariant/gui/settings.py:5:18: error: Name 'QTabWidget' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/settings.py:40:22: error: Name 'QDialog' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/settings.py:75:13: error: Name 'QListWidgetItem' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:19:18: error: Name 'QAbstractItemModel' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:28:31: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:34:34: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:55:32: error: Name 'Qt' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:67:53: error: Name 'Qt' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:114:54: error: Name 'Qt' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:121:21: error: Name 'QStyledItemDelegate' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/viewquerywidget.py:164:23: error: Name 'Signal' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/variantplugin.py:6:21: error: Name 'QWidget' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/selectionquerywidget.py:11:27: error: Name 'QStandardItemModel' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/widgets.py:6:22: error: Name 'QWidget' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/abstractquerywidget.py:6:27: error: Name 'QWidget' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/abstractquerywidget.py:14:15: error: Name 'Signal' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/queryrouter.py:9:19: error: Name 'QObject' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/columnquerywidget.py:11:24: error: Name 'QStandardItemModel' is not defined  [name-defined]
+(labsquare)CuteVariant/pocs/vql.py:36:21: error: Module "operator" is not valid as a type  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:55:5: error: "Callable[[str, Tuple[Any, ...], Dict[Any, Any]], type]" has no attribute "classes"  [attr-defined]
+(labsquare)CuteVariant/pocs/vql.py:59:1: error: "Callable[[str, Tuple[Any, ...], Dict[Any, Any]], type]" has no attribute "classes"  [attr-defined]
+(labsquare)CuteVariant/pocs/vql.py:63:30: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:73:27: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:79:26: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:90:27: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:96:30: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:102:23: error: Invalid metaclass 'model_class'  [misc]
+(labsquare)CuteVariant/pocs/vql.py:109:23: error: "Callable[[str, Tuple[Any, ...], Dict[Any, Any]], type]" has no attribute "classes"  [attr-defined]
+(labsquare)CuteVariant/pocs/vql.py:131:49: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:135:47: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:139:48: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:147:48: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:153:7: error: Syntax error in type annotation  [syntax]
+(labsquare)CuteVariant/pocs/vql.py:153:7: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(labsquare)CuteVariant/pocs/vql.py:184:21: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:186:21: error: Incompatible return value type (got "Tuple[Any, ...]", expected "List[Any]")  [return-value]
+(labsquare)CuteVariant/pocs/vql.py:187:17: error: Incompatible return value type (got "Tuple[Any]", expected "List[Any]")  [return-value]
+(labsquare)CuteVariant/pocs/vql.py:189:37: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(labsquare)CuteVariant/pocs/vql.py:189:37: note: Perhaps you need "Callable[...]" or a callback protocol?
+(labsquare)CuteVariant/pocs/vql.py:191:9: error: Need type annotation for 'operators' (hint: "operators: List[<type>] = ...")  [var-annotated]
+(labsquare)CuteVariant/pocs/vql.py:217:9: error: Need type annotation for 'tree' (hint: "tree: Dict[<type>, <type>] = ...")  [var-annotated]
+(labsquare)CuteVariant/pocs/vql.py:243:15: error: Need type annotation for 'postfix'  [var-annotated]
+(labsquare)CuteVariant/pocs/vql.py:245:20: error: Argument 1 to "as_tree" has incompatible type "Tuple[Any, ...]"; expected "List[Any]"  [arg-type]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:15:18: error: Name 'QStandardItem' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:36:24: error: Name 'QStandardItemModel' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:52:37: error: Name 'QStandardItem' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:71:30: error: Name 'QStandardItem' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:74:20: error: Need type annotation for 'data'  [var-annotated]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:88:24: error: Name 'QDialog' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:89:30: error: Name 'QStandardItem' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:91:22: error: Name 'QLineEdit' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:92:25: error: Name 'QLineEdit' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:93:22: error: Name 'QLineEdit' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:96:23: error: Name 'QFormLayout' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:102:18: error: Name 'QVBoxLayout' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/filterquerywidget.py:103:21: error: Name 'QDialogButtonBox' is not defined  [name-defined]
+(labsquare)CuteVariant/pocs/test_vql.py:51:58: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(labsquare)CuteVariant/pocs/test_vql.py:51:58: note: Perhaps you need "Callable[...]" or a callback protocol?
+(labsquare)CuteVariant/pocs/test_vql.py:68:60: error: Argument 2 to "template_test_case" has incompatible type "object"; expected "Dict[Any, Any]"  [arg-type]
+(labsquare)CuteVariant/pocs/test_vql.py:79:69: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(labsquare)CuteVariant/pocs/test_vql.py:79:69: note: Perhaps you need "Callable[...]" or a callback protocol?
+(labsquare)CuteVariant/cutevariant/gui/vqleditor.py:13:28: error: Name 'QSyntaxHighlighter' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:9:18: error: Name 'QWizardPage' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:58:16: error: Name 'QWizardPage' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:92:20: error: Name 'QThread' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:94:24: error: Name 'Signal' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:95:23: error: Name 'Signal' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:132:18: error: Name 'QWizardPage' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/wizard/projetwizard.py:214:20: error: Name 'QWizard' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/mainwindow.py:25:18: error: Name 'QMainWindow' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/mainwindow.py:109:37: error: Name 'Qt' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/mainwindow.py:150:6: error: Name 'Slot' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/mainwindow.py:162:6: error: Name 'Slot' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/mainwindow.py:170:6: error: Name 'Slot' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:73:16: error: Name 'QAbstractItemModel' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:80:34: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:83:31: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:86:42: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:86:42: note: Suggestion: use QModelIndex[...] instead of QModelIndex(...)
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:89:20: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:96:20: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:98:29: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:98:29: note: Suggestion: use QModelIndex[...] instead of QModelIndex(...)
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:100:20: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:106:20: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:110:37: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:133:35: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:137:35: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:138:21: error: Name 'QModelIndex' is not defined  [name-defined]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:148:33: error: Invalid type comment or annotation  [valid-type]
+(labsquare)CuteVariant/cutevariant/gui/hpoquerywidget.py:148:33: note: Suggestion: use QModelIndex[...] instead of QModelIndex(...)
+Found 84 errors in 15 files (checked 28 source files)
+
+[RRepo](jreese)tasky
+(jreese)tasky/tasky/config.py:65:21: error: Incompatible types in assignment (expression has type "None", variable has type "Dict[Any, Any]")  [assignment]
+(jreese)tasky/tasky/config.py:88:27: error: Argument 1 to "open" has incompatible type "Optional[str]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+(jreese)tasky/tasky/stats.py:88:9: error: Need type annotation for 'data'  [var-annotated]
+(jreese)tasky/tasky/tasks/task.py:33:25: error: Name 'Config' is not defined  [name-defined]
+(jreese)tasky/tasky/tasks/task.py:36:16: error: "None" has no attribute "configuration"  [attr-defined]
+(jreese)tasky/tasky/tasks/task.py:39:32: error: Name 'Config' is not defined  [name-defined]
+(jreese)tasky/tasky/tasks/task.py:42:16: error: "None" has no attribute "configuration"  [attr-defined]
+(jreese)tasky/tasky/tasks/task.py:45:27: error: Name 'DictWrapper' is not defined  [name-defined]
+(jreese)tasky/tasky/tasks/task.py:47:16: error: "None" has no attribute "stats"  [attr-defined]
+(jreese)tasky/tasky/tasks/task.py:82:16: error: "None" has no attribute "loop"  [attr-defined]
+(jreese)tasky/tasky/tasks/task.py:92:13: error: "None" has no attribute "cancel"  [attr-defined]
+(jreese)tasky/tasky/tasks/queue.py:69:24: error: "None" has no attribute "get_nowait"  [attr-defined]
+(jreese)tasky/tasky/tasks/queue.py:75:17: error: "None" has no attribute "task_done"  [attr-defined]
+(jreese)tasky/tasky/tasks/queue.py:87:17: error: "None" has no attribute "task_done"  [attr-defined]
+(jreese)tasky/tasky/tasks/queue.py:92:17: error: "None" has no attribute "task_done"  [attr-defined]
+(jreese)tasky/tasky/loop.py:48:41: error: Argument 1 to "set_exception_handler" of "AbstractEventLoop" has incompatible type "Callable[[BaseEventLoop, Dict[Any, Any]], None]"; expected "Optional[Callable[[AbstractEventLoop, Dict[str, Any]], Any]]"  [arg-type]
+(jreese)tasky/tasky/loop.py:55:9: error: Need type annotation for 'all_tasks' (hint: "all_tasks: Dict[<type>, <type>] = ...")  [var-annotated]
+(jreese)tasky/tasky/loop.py:56:9: error: Need type annotation for 'running_tasks' (hint: "running_tasks: Set[<type>] = ...")  [var-annotated]
+(jreese)tasky/tasky/loop.py:57:35: error: Argument 1 to "list" has incompatible type "Optional[List[Any]]"; expected "Iterable[Any]"  [arg-type]
+(jreese)tasky/tasky/loop.py:108:24: error: Incompatible types in assignment (expression has type "Future[None]", variable has type "bool")  [assignment]
+(jreese)tasky/tasky/loop.py:201:13: error: No return value expected  [return-value]
+(jreese)tasky/tasky/loop.py:275:24: error: Incompatible types in assignment (expression has type "None", variable has type "bool")  [assignment]
+Found 22 errors in 5 files (checked 7 source files)
+
+[RRepo](eliasdorneles)drawingapp-voc
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:8:1: error: Unexpected keyword argument "implements" for "__init_subclass__" of "object"  [call-arg]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:8:48: error: Name 'OnClickListener' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:14:51: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:17:1: error: Unexpected keyword argument "extends" for "__init_subclass__" of "object"  [call-arg]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:18:6: error: "super" not callable  [operator]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:18:13: error: Name 'context' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:41:70: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:47:58: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:64:9: error: "DrawingView" has no attribute "invalidate"  [attr-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:67:42: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:72:46: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:76:24: error: Name 'void' is not defined  [name-defined]
+(eliasdorneles)drawingapp-voc/drawingapp/app.py:79:9: error: "DrawingView" has no attribute "invalidate"  [attr-defined]
+Found 13 errors in 1 file (checked 1 source file)
+
+[RRepo](taige)PyTools
+(taige)PyTools/tsproxy/https_listener.py:4:21: error: Name 'HttpListener' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:5:12: error: Name 'Factories' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:28:46: error: Name 'Schedule' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:35:33: error: Name 'Product' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:37:9: error: Need type annotation for '_consumed' (hint: "_consumed: List[<type>] = ...")  [var-annotated]
+(taige)PyTools/simcity/shop.py:45:30: error: Name 'Product' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:73:42: error: Name 'Product' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:130:20: error: Name 'FactorySchedule' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:138:28: error: Name 'time' is not defined  [name-defined]
+(taige)PyTools/simcity/shop.py:138:42: error: Name 'zero_timing' is not defined  [name-defined]
+(taige)PyTools/simcity/warehouse.py:5:17: error: Name 'MaterialList' is not defined  [name-defined]
+(taige)PyTools/simcity/warehouse.py:42:133: error: Name 'Product' is not defined  [name-defined]
+(taige)PyTools/tsproxy/__init__.py:25:1: error: Need type annotation for 'conf_path' (hint: "conf_path: List[<type>] = ...")  [var-annotated]
+(taige)PyTools/tsproxy/streams.py:7:1: error: Module 'tsproxy' has no attribute 'topendns'  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:318: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(taige)PyTools/tsproxy/streams.py:321:37: error: "StreamReader" has no attribute "_limit"  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:325:52: error: "StreamReader" has no attribute "_loop"  [attr-defined]
+(taige)PyTools/tsproxy/streams.py:327:25: error: "yield from" can't be applied to "Coroutine[Any, Any, bytes]"  [misc]
+(taige)PyTools/tsproxy/streams.py:329:25: error: "yield from" can't be applied to "Coroutine[Any, Any, bytes]"  [misc]
+(taige)PyTools/tsproxy/streams.py:340: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(taige)PyTools/tsproxy/streams.py:340:5: error: Signature of "read" incompatible with supertype "StreamReader"  [override]
+(taige)PyTools/tsproxy/streams.py:344:17: error: Function does not return a value  [func-returns-value]
+Found 22 errors in 5 files (checked 6 source files)
+
+[RRepo](rtfd)readthedocs.org
+(rtfd)readthedocs.org/readthedocs/builds/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(rtfd)readthedocs.org/readthedocs/core/utils/__init__.py')  [misc]
+(rtfd)readthedocs.org/readthedocs/builds/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 152 source files)
+
+[RRepo](xgouchet)AutoMergeTool
+(xgouchet)AutoMergeTool/automergetool/amt_launcher.py:22:40: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](NEU-Partner)NEU_Scripts
+(NEU-Partner)NEU_Scripts/ipgw_login_python3/main.py:47:12: error: Incompatible return value type (got "bytes", expected "str")  [return-value]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](s-leger)archipack
+(s-leger)archipack/pygeos/index_chain.py:100:9: error: "MonotoneChain" has no attribute "computeSelect"; maybe "_computeSelect"?  [attr-defined]
+(s-leger)archipack/pygeos/index_chain.py:174:9: error: Need type annotation for 'startIndex' (hint: "startIndex: List[<type>] = ...")  [var-annotated]
+(s-leger)archipack/pygeos/index_chain.py:284:36: error: "MonotoneChainOverlapAction" has no attribute "_overlapSeg1"; maybe "overlapSeg1", "overlapSeg2", or "_overlap"?  [attr-defined]
+(s-leger)archipack/pygeos/index_chain.py:285:36: error: "MonotoneChainOverlapAction" has no attribute "_overlapSeg2"; maybe "overlapSeg2", "overlapSeg1", or "_overlap"?  [attr-defined]
+(s-leger)archipack/pygeos/index_chain.py:286:23: error: "MonotoneChainOverlapAction" has no attribute "_overlapSeg1"; maybe "overlapSeg1", "overlapSeg2", or "_overlap"?  [attr-defined]
+(s-leger)archipack/pygeos/index_chain.py:286:42: error: "MonotoneChainOverlapAction" has no attribute "_overlapSeg2"; maybe "overlapSeg2", "overlapSeg1", or "_overlap"?  [attr-defined]
+(s-leger)archipack/pygeos/op_simple.py:46:9: error: "EndpointInfo" has no attribute "dregree"; maybe "degree"?  [attr-defined]
+(s-leger)archipack/archipack_2d_layout.py:92:35: error: Value of type "object" is not indexable  [index]
+(s-leger)archipack/archipack_2d_layout.py:93:35: error: Value of type "object" is not indexable  [index]
+(s-leger)archipack/archipack_snap.py:96:5: error: Need type annotation for 'sel' (hint: "sel: List[<type>] = ...")  [var-annotated]
+Found 10 errors in 4 files (checked 27 source files)
+
+[RRepo](ZeoAlliance)aiomongo
+(ZeoAlliance)aiomongo/aiomongo/gridfs.py:12: error: Name 'aiomongo' is not defined  [name-defined]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:49:18: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:52:18: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:56:18: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:58:9: error: Too many arguments  [call-arg]
+(ZeoAlliance)aiomongo/aiomongo/auth.py:89:12: error: Incompatible return value type (got "Callable[[Any, Connection], Coroutine[Any, Any, None]]", expected "Callable[[Any, Connection], None]")  [return-value]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:51:9: error: Need type annotation for '__request_futures' (hint: "__request_futures: Dict[<type>, <type>] = ...")  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:63:40: error: Incompatible types in assignment (expression has type "StreamReader", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:63:40: error: Incompatible types in assignment (expression has type "StreamWriter", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:67:40: error: Incompatible types in assignment (expression has type "StreamReader", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:67:40: error: Incompatible types in assignment (expression has type "StreamWriter", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:71:16: error: "None" has no attribute "transport"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:79:31: error: Incompatible types in assignment (expression has type "Future[None]", variable has type "None")  [assignment]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:146:27: error: Need type annotation for 'response_future'  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:162:9: error: "None" has no attribute "write"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:236:9: error: Incompatible types in "await" (actual type "None", expected type "Awaitable[Any]")  [misc]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:279:24: error: "None" has no attribute "readexactly"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/connection.py:291:30: error: "None" has no attribute "readexactly"  [attr-defined]
+(ZeoAlliance)aiomongo/aiomongo/client.py:29:9: error: Need type annotation for '_pool' (hint: "_pool: List[<type>] = ...")  [var-annotated]
+(ZeoAlliance)aiomongo/aiomongo/command_cursor.py:79:13: error: No return value expected  [return-value]
+(ZeoAlliance)aiomongo/aiomongo/command_cursor.py:117:9: error: No return value expected  [return-value]
+Found 21 errors in 5 files (checked 14 source files)
+
+[RRepo](Otetz)modulbank
+(Otetz)modulbank/setup.py:14:1: error: Need type annotation for 'version' (hint: "version: Dict[<type>, <type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:12:5: error: Need type annotation for '_fields' (hint: "_fields: List[<type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:13:5: error: Need type annotation for '_mandatory_fields' (hint: "_mandatory_fields: List[<type>] = ...")  [var-annotated]
+(Otetz)modulbank/modulbank/client_bank_exchange.py:100:5: error: Need type annotation for '_mandatory_fields' (hint: "_mandatory_fields: List[<type>] = ...")  [var-annotated]
+Found 4 errors in 2 files (checked 4 source files)
+
+[RRepo](the-it)WS_THEbotIT
+(the-it)WS_THEbotIT/scripts/service/ws_re/template/property.py:19:16: error: Incompatible return value type (got "Union[str, bool]", expected "str")  [return-value]
+(the-it)WS_THEbotIT/scripts/service/ws_re/template/property.py:41:27: error: Incompatible types in assignment (expression has type "Union[str, bool]", variable has type "None")  [assignment]
+(the-it)WS_THEbotIT/scripts/service/ws_re/template/property.py:44:31: error: Incompatible types in assignment (expression has type "bool", variable has type "None")  [assignment]
+(the-it)WS_THEbotIT/scripts/service/ws_re/template/property.py:45:27: error: Incompatible types in assignment (expression has type "bool", variable has type "None")  [assignment]
+(the-it)WS_THEbotIT/scripts/service/ws_re/template/property.py:45:49: error: Argument 1 to "_set_bool_by_str" of "Property" has incompatible type "Union[str, bool]"; expected "str"  [arg-type]
+
+[RRepo](PythonJS)PythonJS
+(PythonJS)PythonJS/regtests/webclgl/gpu_sibling_class.py:16:7: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 121 source files)
+
+[RRepo](Reaktoro)Reaktoro
+(Reaktoro)Reaktoro/python/reaktoro/__init__.py:13:1: error: Name 'ChemicalOutput' is not defined  [name-defined]
+(Reaktoro)Reaktoro/python/reaktoro/__init__.py:23:1: error: Name 'ChemicalOutput' is not defined  [name-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_solver.py:4:1: error: Module 'reaktoro' has no attribute 'ChemicalState'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_solver.py:4:1: error: Module 'reaktoro' has no attribute 'equilibrate'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_solver.py:4:1: error: Module 'reaktoro' has no attribute 'EquilibriumSolver'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_solver.py:4:1: error: Module 'reaktoro' has no attribute 'EquilibriumOptions'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'ChemicalEditor'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'ChemicalSystem'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'Database'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'equilibrate'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'EquilibriumProblem'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'KineticPath'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'Partition'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_kinetic_solver.py:6:1: error: Module 'reaktoro' has no attribute 'ReactionSystem'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'ChemicalEditor'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'ChemicalSystem'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'Database'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'equilibrate'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'EquilibriumPath'  [attr-defined]
+(Reaktoro)Reaktoro/tests/regression/test_equilibrium_path.py:5:1: error: Module 'reaktoro' has no attribute 'EquilibriumProblem'  [attr-defined]
+(Reaktoro)Reaktoro/tests/python_tools.py:3:1: error: Module 'reaktoro' has no attribute 'ChemicalProperty'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumProblem-test.py:18:1: error: Module 'reaktoro' has no attribute 'ChemicalState'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumProblem-test.py:18:1: error: Module 'reaktoro' has no attribute 'EquilibriumProblem'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumSolver-test.py:18:1: error: Module 'reaktoro' has no attribute 'EquilibriumSolver'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumSolver-test.py:18:1: error: Module 'reaktoro' has no attribute 'ChemicalState'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumSolver-test.py:18:1: error: Module 'reaktoro' has no attribute 'EquilibriumProblem'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Equilibrium/EquilibriumSolver-test.py:18:1: error: Module 'reaktoro' has no attribute 'equilibrate'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Thermodynamics/Core/ChemicalEditor-test.py:18:1: error: Module 'reaktoro' has no attribute 'ChemicalEditor'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Thermodynamics/Core/ChemicalEditor-test.py:18:1: error: Module 'reaktoro' has no attribute 'ChemicalSystem'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/Core/ChemicalProperties-test.py:22:1: error: Module 'reaktoro' has no attribute 'ChemicalProperties'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/conftest.py:4:1: error: Module 'reaktoro' has no attribute 'ChemicalEditor'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/conftest.py:4:1: error: Module 'reaktoro' has no attribute 'ChemicalSystem'  [attr-defined]
+(Reaktoro)Reaktoro/Reaktoro/conftest.py:4:1: error: Module 'reaktoro' has no attribute 'Partition'  [attr-defined]
+(Reaktoro)Reaktoro/tasks.py:50:12: error: Incompatible return value type (got "Tuple[Path, Path]", expected "Path")  [return-value]
+(Reaktoro)Reaktoro/Reaktoro/Thermodynamics/Core/Database-test.py:18:1: error: Module 'reaktoro' has no attribute 'Database'  [attr-defined]
+(Reaktoro)Reaktoro/utilities/supcrt-parser/experimental/convert_supcrt_yaml_to_xml.py:13:1: error: Module 'yaml.constructor' has no attribute 'MappingNode'  [attr-defined]
+Found 36 errors in 13 files (checked 19 source files)
+
+[RRepo](DerAtrox)backup-rotation.py
+(DerAtrox)backup-rotation.py/backup-rotation.py:211:34: error: Incompatible types in assignment (expression has type "List[Dict[str, object]]", target has type "Dict[str, object]")  [assignment]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](fnl)medic
+(fnl)medic/src/medic/crud.py:30:1: error: Missing return statement  [return]
+(fnl)medic/src/medic/crud.py:30:46: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:30:46: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:35:1: error: Missing return statement  [return]
+(fnl)medic/src/medic/crud.py:35:46: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:35:46: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:40:37: error: Invalid type comment or annotation  [valid-type]
+(fnl)medic/src/medic/crud.py:40:37: note: Suggestion: use list[...] instead of list(...)
+(fnl)medic/src/medic/crud.py:40:53: note: Suggestion: use iter[...] instead of iter(...)
+(fnl)medic/src/medic/crud.py:66:37: error: Invalid type comment or annotation  [valid-type]
+(fnl)medic/src/medic/crud.py:66:37: note: Suggestion: use list[...] instead of list(...)
+(fnl)medic/src/medic/crud.py:83:17: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:83:17: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:124:14: error: iter? has no attribute "__iter__" (not iterable)  [attr-defined]
+(fnl)medic/src/medic/crud.py:162:44: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:162:44: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:169:20: error: iter? has no attribute "__iter__" (not iterable)  [attr-defined]
+(fnl)medic/src/medic/crud.py:198:56: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:198:56: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:211:21: error: iter? has no attribute "__iter__" (not iterable)  [attr-defined]
+(fnl)medic/src/medic/crud.py:224:30: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:224:30: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/crud.py:226:5: error: Need type annotation for 'pub_types' (hint: "pub_types: List[<type>] = ...")  [var-annotated]
+(fnl)medic/src/medic/crud.py:227:5: error: Need type annotation for 'citation' (hint: "citation: List[<type>] = ...")  [var-annotated]
+(fnl)medic/src/medic/crud.py:230:21: error: iter? has no attribute "__iter__" (not iterable)  [attr-defined]
+(fnl)medic/src/medic/crud.py:292:43: error: Function "builtins.iter" is not valid as a type  [valid-type]
+(fnl)medic/src/medic/crud.py:292:43: note: Perhaps you need "Callable[...]" or a callback protocol?
+(fnl)medic/src/medic/test/crud_test.py:65:29: error: Not all arguments converted during string formatting  [str-format]
+(fnl)medic/src/medic/web.py:19:5: error: Name 'HTTPResponse' already defined (possibly by an import)  [no-redef]
+(fnl)medic/src/medic/web.py:21:5: error: Name 'build_opener' already defined (possibly by an import)  [no-redef]
+Found 20 errors in 3 files (checked 4 source files)
+
+[RRepo](KmolYuan)Pyslvs-PyQt5
+(KmolYuan)Pyslvs-PyQt5/core/synthesis/collections/dialogs/collections.py: error: Duplicate module named 'collections' (also at '/home/bew/archive/typed_project/(KmolYuan)Pyslvs-PyQt5/core/synthesis/collections/__init__.py')  [misc]
+(KmolYuan)Pyslvs-PyQt5/core/synthesis/collections/dialogs/collections.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 54 source files)
+
+[RRepo](Zo0x)hedhes
+Success: no issues found in 6 source files
+
+[RRepo](MTgeophysics)mtpy
+(MTgeophysics)mtpy/legacy/instrument.py:89:97: error: Missing parentheses in call to 'print'. Did you mean print('no instrument response in this frequency range - spectrum set to zero here: ', freq)?  [syntax]
+Found 1 error in 1 file (checked 191 source files)
+
+[RRepo](winpython)winpython_afterdoc
+(winpython)winpython_afterdoc/docs/WASM_almar_klein_demo/play_python.py:8:24: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](IgniparousTempest)py-minutiae-viewer
+(IgniparousTempest)py-minutiae-viewer/pyminutiaeviewer/mindtct/__init__.py:26:14: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(IgniparousTempest)py-minutiae-viewer/pyminutiaeviewer/mindtct/__init__.py:29:18: error: Unsupported left operand type for / ("str")  [operator]
+(IgniparousTempest)py-minutiae-viewer/pyminutiaeviewer/mindtct/__init__.py:33:19: error: Unsupported left operand type for / ("str")  [operator]
+Found 3 errors in 1 file (checked 9 source files)
+
+[RRepo](denisenkom)pytds
+(denisenkom)pytds/tests/sspi_test.py:4:5: error: Name 'unittest' already defined (possibly by an import)  [no-redef]
+(denisenkom)pytds/tests/simple_server.py:270:5: error: Too few arguments for "run"  [call-arg]
+Found 2 errors in 2 files (checked 13 source files)
+
+[RRepo](mdevaev)emonoda
+(mdevaev)emonoda/emonoda/helpers/surprise.py:24:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/surprise.py:26:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/surprise.py:27:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/tcollection.py:28:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/tcollection.py:29:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/tcollection.py:31:1: error: Relative import climbs too many namespaces  [misc]
+(mdevaev)emonoda/emonoda/helpers/tcollection.py:64:12: error: Need type annotation for 'torrent'  [var-annotated]
+(mdevaev)emonoda/emonoda/helpers/tcollection.py:72:5: error: Need type annotation for 'torrent'  [var-annotated]
+(mdevaev)emonoda/emonoda/tfile.py:160:65: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(mdevaev)emonoda/emonoda/web/sockshandler.py:91:27: error: Module has no attribute "_GLOBAL_DEFAULT_TIMEOUT"  [attr-defined]
+(mdevaev)emonoda/emonoda/web/sockshandler.py:113:26: error: Module has no attribute "_GLOBAL_DEFAULT_TIMEOUT"  [attr-defined]
+(mdevaev)emonoda/emonoda/web/sockshandler.py:126:26: error: Module has no attribute "_GLOBAL_DEFAULT_TIMEOUT"  [attr-defined]
+Found 12 errors in 4 files (checked 14 source files)
+
+[RRepo](rokups)paste2box
+(rokups)paste2box/libp2b/backend/interface.py:22:5: error: Need type annotation for 'default_config' (hint: "default_config: Dict[<type>, <type>] = ...")  [var-annotated]
+(rokups)paste2box/gui/hotkeys/win32/hook.py:15:1: error: Module 'ctypes' has no attribute 'windll'  [attr-defined]
+(rokups)paste2box/gui/hotkeys/win32/hook.py:50:5: error: Module 'ctypes' has no attribute 'WINFUNCTYPE'; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(rokups)paste2box/gui/hotkeys/win32/global_hotkey_win.py:111:25: error: Module has no attribute "WINFUNCTYPE"; maybe "CFUNCTYPE" or "PYFUNCTYPE"?  [attr-defined]
+(rokups)paste2box/gui/hotkeys/win32/global_hotkey_win.py:161:16: error: "None" not callable  [misc]
+Found 5 errors in 3 files (checked 19 source files)
+
+[RRepo](ralph-group)pymeasure
+(ralph-group)pymeasure/pymeasure/instruments/srs/sg380.py:105:6: error: "Callable[[SG380], Any]" has no attribute "setter"  [attr-defined]
+(ralph-group)pymeasure/tests/experiment/test_workers.py:36:19: error: Too few arguments for "load_module" of "InspectLoader"  [call-arg]
+(ralph-group)pymeasure/tests/experiment/test_workers.py:36:19: error: Module has no attribute "RandomProcedure"  [attr-defined]
+(ralph-group)pymeasure/pymeasure/instruments/agilent/agilent8722ES.py:160:5: error: Method must have at least one argument  [misc]
+(ralph-group)pymeasure/pymeasure/instruments/ni/daqmx.py:33:13: error: Module has no attribute "windll"  [attr-defined]
+(ralph-group)pymeasure/pymeasure/experiment/listeners.py:28:1: error: Relative import climbs too many namespaces  [misc]
+(ralph-group)pymeasure/pymeasure/experiment/listeners.py:29:1: error: Relative import climbs too many namespaces  [misc]
+(ralph-group)pymeasure/pymeasure/experiment/procedure.py:56:5: error: Need type annotation for 'DATA_COLUMNS' (hint: "DATA_COLUMNS: List[<type>] = ...")  [var-annotated]
+(ralph-group)pymeasure/pymeasure/experiment/procedure.py:57:5: error: Need type annotation for 'MEASURE' (hint: "MEASURE: Dict[<type>, <type>] = ...")  [var-annotated]
+(ralph-group)pymeasure/pymeasure/experiment/procedure.py:65:5: error: Need type annotation for '_parameters' (hint: "_parameters: Dict[<type>, <type>] = ...")  [var-annotated]
+(ralph-group)pymeasure/pymeasure/experiment/workers.py:36:1: error: Relative import climbs too many namespaces  [misc]
+(ralph-group)pymeasure/pymeasure/experiment/workers.py:37:1: error: Relative import climbs too many namespaces  [misc]
+(ralph-group)pymeasure/pymeasure/process.py:37:24: error: Name 'context.Process' is not defined  [name-defined]
+Found 13 errors in 8 files (checked 82 source files)
+
+[RRepo](kensk8er)langdist
+(kensk8er)langdist/langdist/transliterator.py:104:27: error: "MappingView" has no attribute "__iter__" (not iterable)  [attr-defined]
+
+[RRepo](zhuoju36)StructEngPy
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:15:1: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:85:16: error: Name 'eigen_mode' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:121:5: error: Need type annotation for 'R' (hint: "R: List[<type>] = ...")  [var-annotated]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:141:21: error: Name 'R_' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:152:16: error: Name 'eigen_mode' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:167:28: error: Name 'm' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:212:8: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:218:23: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:226:8: error: Name 'pd' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:244:8: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:255:23: error: Name 'self' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/dynamic.py:268:8: error: Name 'pd' is not defined  [name-defined]
+(zhuoju36)StructEngPy/fe_solver/static.py:12:1: error: Module 'fe_model' has no attribute 'Model'  [attr-defined]
+
+[RRepo](sourcegraph)python-langserver
+(sourcegraph)python-langserver/langserver/fs.py:26:5: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:30:5: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:38:15: error: Invalid self argument "FileSystem" to attribute function "listdir" with type "Callable[[str, Any], List[str]]"  [misc]
+(sourcegraph)python-langserver/langserver/fs.py:149:5: error: Signature of "open" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:154:5: error: Signature of "listdir" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:173:16: error: Incompatible return value type (got "ValuesView[Entry]", expected "List[Entry]")  [return-value]
+(sourcegraph)python-langserver/langserver/fs.py:183:5: error: Signature of "open" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/langserver/fs.py:195:5: error: Signature of "listdir" incompatible with supertype "FileSystem"  [override]
+(sourcegraph)python-langserver/test/repos/fizzbuzz_service/fizzbuzz_service/checkers/fizzbuzz/fizzbuzz_checker.py:1:1: error: Relative import climbs too many namespaces  [misc]
+(sourcegraph)python-langserver/test/repos/fizzbuzz_service/fizzbuzz_service/checkers/fizzbuzz/fizzbuzz_checker.py:2:1: error: Relative import climbs too many namespaces  [misc]
+(sourcegraph)python-langserver/test/repos/fizzbuzz_service/fizzbuzz_service/string_deciders/number_decision.py:2:1: error: Relative import climbs too many namespaces  [misc]
+(sourcegraph)python-langserver/test/repos/fizzbuzz_service/fizzbuzz_service/string_deciders/number_decision.py:3:1: error: Relative import climbs too many namespaces  [misc]
+(sourcegraph)python-langserver/test/repos/fizzbuzz_service/fizzbuzz_service/string_deciders/number_decision.py:4:1: error: Relative import climbs too many namespaces  [misc]
+
+[RRepo](mosen)commandment
+(mosen)commandment/commandment/mutablelist.py:14:5: error: Name 'MutableList' already defined (possibly by an import)  [no-redef]
+(mosen)commandment/commandment/plistutil/nonewriter.py:2:1: error: Module 'plistlib' has no attribute '_PlistWriter'  [attr-defined]
+(mosen)commandment/commandment/plistutil/nonewriter.py:2:1: error: Module 'plistlib' has no attribute '_FORMATS'  [attr-defined]
+(mosen)commandment/tests/vpp/vpp_test.py:75:9: error: Need type annotation for 'licenses' (hint: "licenses: List[<type>] = ...")  [var-annotated]
+(mosen)commandment/commandment/pkg/appmanifest.py:49:28: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "List[str]")  [assignment]
+
+[RRepo](josuemontano)API-platform
+(josuemontano)API-platform/tests/conftest.py:22:2: error: Name 'pytest' is not defined  [name-defined]
+(josuemontano)API-platform/tests/conftest.py:28:2: error: Name 'pytest' is not defined  [name-defined]
+(josuemontano)API-platform/tests/conftest.py:43:2: error: Name 'pytest' is not defined  [name-defined]
+(josuemontano)API-platform/tests/conftest.py:60:2: error: Name 'pytest' is not defined  [name-defined]
+(josuemontano)API-platform/tests/conftest.py:77:2: error: Name 'pytest' is not defined  [name-defined]
+(josuemontano)API-platform/tests/conftest.py:93:2: error: Name 'pytest' is not defined  [name-defined]
+Found 6 errors in 1 file (checked 19 source files)
+
+[RRepo](halcy)MastodonToTwitter
+Success: no issues found in 5 source files
+
+[RRepo](evernym)sovrin-client-rust
+Success: no issues found in 2 source files
+
+[RRepo](socialwifi)jsonapi-requests
+(socialwifi)jsonapi-requests/jsonapi_requests/data.py:86:5: error: Need type annotation for 'schema' (hint: "schema: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 13 source files)
+
+[RRepo](jkbrzt)cointrol
+(jkbrzt)cointrol/cointrol/trader/bitstamp.py:65:5: error: Need type annotation for 'schema' (hint: "schema: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](chfoo)tellnext
+(chfoo)tellnext/tellnext/training.py:67:1: error: Need type annotation for '_latin_letters' (hint: "_latin_letters: Dict[<type>, <type>] = ...")  [var-annotated]
+
+[RRepo](Frizz925)gbf-autopilot
+(Frizz925)gbf-autopilot/test/controller/window_test.py:4:1: error: Module 'controller.window' has no attribute 'DummyWindow'  [attr-defined]
+(Frizz925)gbf-autopilot/test/controller/window_test.py:5:1: error: Module 'controller' has no attribute 'InputController'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:13:1: error: Module 'controller.window' has no attribute 'Window'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14:1: error: Module 'controller' has no attribute 'JsonRpcMethods'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14:1: error: Module 'controller' has no attribute 'JsonRpcClient'  [attr-defined]
+(Frizz925)gbf-autopilot/server.py:14:1: error: Module 'controller' has no attribute 'InputController'  [attr-defined]
+Found 6 errors in 2 files (checked 10 source files)
+
+[RRepo](blackmatrix7)apizen
+(blackmatrix7)apizen/app/apizen/version.py:60:5: error: Need type annotation for 'api_methods' (hint: "api_methods: Dict[<type>, <type>] = ...")  [var-annotated]
+(blackmatrix7)apizen/app/apizen/schema.py:142:1: error: 'bool' is not a valid base class  [misc]
+Found 2 errors in 2 files (checked 22 source files)
+
+[RRepo](rtfd)sphinx-autoapi
+(rtfd)sphinx-autoapi/tests/python/pypackageexample/example/foo.py:18:9: error: Method must have at least one argument  [misc]
+(rtfd)sphinx-autoapi/tests/python/pypackageexample/example/_private_module.py:4:5: error: Method must have at least one argument  [misc]
+(rtfd)sphinx-autoapi/autoapi/mappers/python/objects.py:3:1: error: Relative import climbs too many namespaces  [misc]
+(rtfd)sphinx-autoapi/autoapi/mappers/python/objects.py:272:6: error: overloaded function has no attribute "getter"  [attr-defined]
+(rtfd)sphinx-autoapi/autoapi/mappers/python/objects.py:285:6: error: overloaded function has no attribute "getter"  [attr-defined]
+(rtfd)sphinx-autoapi/docs/conf.py:204:1: error: Need type annotation for 'latex_elements' (hint: "latex_elements: Dict[<type>, <type>] = ...")  [var-annotated]
+(rtfd)sphinx-autoapi/tests/python/pypackagecomplex/complex/wildall/simple/__init__.py:1:1: error: Relative import climbs too many namespaces  [misc]
+
+[RRepo](timabbott)zulip
+(timabbott)zulip/zerver/webhooks/jira/view.py: error: Duplicate module named 'view' (also at '/home/bew/archive/typed_project/(timabbott)zulip/zerver/webhooks/trello/view/__init__.py')  [misc]
+(timabbott)zulip/zerver/webhooks/jira/view.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 210 source files)
+
+[RRepo](meyt)sqlalchemy-dict
+(meyt)sqlalchemy-dict/sqlalchemy_dict/field.py:63:29: error: Incompatible types in assignment (expression has type "bool", target has type "str")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/field.py:88:29: error: Incompatible types in assignment (expression has type "bool", target has type "str")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/field.py:91:28: error: Incompatible types in assignment (expression has type "bool", target has type "str")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/field.py:118:29: error: Incompatible types in assignment (expression has type "bool", target has type "str")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/field.py:121:28: error: Incompatible types in assignment (expression has type "bool", target has type "str")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:51: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:51: note: Did you mean "List[...]"?
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:61: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:61: note: Did you mean "List[...]"?
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:71: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/formatter.py:71: note: Did you mean "List[...]"?
+(meyt)sqlalchemy-dict/sqlalchemy_dict/base_model.py:118:22: error: Incompatible types in assignment (expression has type "None", variable has type "List[Any]")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/base_model.py:133:22: error: Incompatible types in assignment (expression has type "str", variable has type "List[Any]")  [assignment]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/base_model.py:186:22: error: "Type[BaseModel]" has no attribute "__table__"  [attr-defined]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/base_model.py:248:9: error: Need type annotation for 'result' (hint: "result: Dict[<type>, <type>] = ...")  [var-annotated]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:70:15: error: Variable "test_base_model.DeclarativeBase" is not valid as a type  [valid-type]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:70:15: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:70:15: error: Invalid base class "DeclarativeBase"  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:76:22: error: Variable "test_base_model.DeclarativeBase" is not valid as a type  [valid-type]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:76:22: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:76:22: error: Invalid base class "DeclarativeBase"  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:82:14: error: Variable "test_base_model.DeclarativeBase" is not valid as a type  [valid-type]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:82:14: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:82:14: error: Invalid base class "DeclarativeBase"  [misc]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:152:6: error: Name 'is_visible' already defined on line 148  [no-redef]
+(meyt)sqlalchemy-dict/sqlalchemy_dict/tests/test_base_model.py:157:6: error: Name 'is_visible' already defined on line 148  [no-redef]
+Found 20 errors in 4 files (checked 6 source files)
+
+[RRepo](Morwenn)cpp-sort
+Success: no issues found in 4 source files
+
+[RRepo](IlyaGusev)rnnmorph
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/word_form.py:28:9: error: Need type annotation for 'possible_forms' (hint: "possible_forms: List[<type>] = ...")  [var-annotated]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/process_tag.py:25:12: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/process_tag.py:27:13: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/grammeme_vectorizer.py:51:20: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/grammeme_vectorizer.py:65:25: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/grammeme_vectorizer.py:66:51: error: Argument 2 to "__build_vector" of "GrammemeVectorizer" has incompatible type "str"; expected "List[str]"  [arg-type]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/loader.py:26:9: error: Need type annotation for 'char_set' (hint: "char_set: Set[<type>] = ...")  [var-annotated]
+(IlyaGusev)rnnmorph/rnnmorph/data_preparation/loader.py:46:25: error: Incompatible types in assignment (expression has type "str", variable has type "Set[Any]")  [assignment]
+(IlyaGusev)rnnmorph/rnnmorph/batch_generator.py:42:25: error: Need type annotation for 'buckets'  [var-annotated]
+(IlyaGusev)rnnmorph/rnnmorph/predictor.py:185:25: error: "str" has no attribute "normal_form"  [attr-defined]
+(IlyaGusev)rnnmorph/rnnmorph/predictor.py:189:13: error: Need type annotation for 'pos_map'  [var-annotated]
+(IlyaGusev)rnnmorph/rnnmorph/train.py:52:15: error: Item "None" of "Optional[Any]" has no attribute "shape"  [union-attr]
+Found 12 errors in 7 files (checked 17 source files)
+
+[RRepo](MaT1g3R)YasenBaka
+(MaT1g3R)YasenBaka/bot/anime_searcher.py:13:9: error: Need type annotation for 'names' (hint: "names: List[<type>] = ...")  [var-annotated]
+(MaT1g3R)YasenBaka/music/abstract_source.py:7:38: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(MaT1g3R)YasenBaka/music/abstract_source.py:7:38: note: Perhaps you need "Callable[...]" or a callback protocol?
+
+[RRepo](calebj)Red-DiscordBot
+(calebj)Red-DiscordBot/redbot/pytest/admin.py: error: Duplicate module named 'admin' (also at '/home/bew/archive/typed_project/(calebj)Red-DiscordBot/redbot/cogs/admin/__init__.py')  [misc]
+(calebj)Red-DiscordBot/redbot/pytest/admin.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 83 source files)
+
+[RRepo](fedora-infra)bodhi
+(fedora-infra)bodhi/devel/ci/integration/tests/fixtures/resultsdb.py:21:1: error: Relative import climbs too many namespaces  [misc]
+(fedora-infra)bodhi/devel/ci/integration/tests/fixtures/waiverdb.py:21:1: error: Relative import climbs too many namespaces  [misc]
+(fedora-infra)bodhi/devel/ci/integration/tests/fixtures/bodhi.py:23:1: error: Relative import climbs too many namespaces  [misc]
+
+[RRepo](ingokegel)intellij-community
+(ingokegel)intellij-community/python/testData/inspections/PyAsyncCallInspection/ScheduleTask37/asyncio/__init__.py: error: Duplicate module named 'asyncio' (also at '/home/bew/archive/typed_project/(ingokegel)intellij-community/python/testData/inspections/PyAsyncCallInspection/ScheduleFutureBuiltin/asyncio/__init__.py')  [misc]
+Found 1 error in 1 file (checked 3350 source files)
+
+[RRepo](CompLab-StonyBrook)mgproc
+
+[RRepo](googleapis)google-cloud-java
+(googleapis)google-cloud-java/utilities/new_client.py:31:20: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:32:24: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:33:26: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:34:34: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:38:26: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:40:27: error: Incompatible types in assignment (expression has type "None", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:48:27: error: Incompatible types in assignment (expression has type "None", variable has type "List[str]")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:49:30: error: Incompatible types in assignment (expression has type "None", variable has type "Environment")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:175:16: error: Incompatible types in assignment (expression has type "Template", variable has type "str")  [assignment]
+(googleapis)google-cloud-java/utilities/new_client.py:176:11: error: "str" has no attribute "stream"  [attr-defined]
+(googleapis)google-cloud-java/utilities/new_client.py:203:23: error: "str" has no attribute "module"  [attr-defined]
+(googleapis)google-cloud-java/utilities/new_client.py:207:29: error: Value of type "Optional[Match[Any]]" is not indexable  [index]
+Found 12 errors in 1 file (checked 3 source files)
+
+[RRepo](mgerst)pyquiz
+(mgerst)pyquiz/jeopardy/controllers/main.py:13:6: error: Incompatible types in assignment (expression has type "None", variable has type "BoardManager")  [assignment]
+(mgerst)pyquiz/jeopardy/controllers/main.py:14:9: error: Incompatible types in assignment (expression has type "None", variable has type "Redis")  [assignment]
+
+[RRepo](JuezUN)INGInious
+(JuezUN)INGInious/inginious/frontend/pages/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(JuezUN)INGInious/inginious/frontend/plugins/utils/__init__.py')  [misc]
+(JuezUN)INGInious/inginious/frontend/pages/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 83 source files)
+
+[RRepo](soxofaan)dahuffman
+(soxofaan)dahuffman/train/train_utils.py:15:12: error: Incompatible types in assignment (expression has type "Path", variable has type "str")  [assignment]
+(soxofaan)dahuffman/train/train_utils.py:16:12: error: "str" has no attribute "exists"  [attr-defined]
+(soxofaan)dahuffman/train/train_utils.py:17:20: error: "str" has no attribute "parent"  [attr-defined]
+(soxofaan)dahuffman/train/train_utils.py:21:18: error: "str" has no attribute "open"  [attr-defined]
+(soxofaan)dahuffman/train/train_utils.py:27:12: error: Incompatible return value type (got "str", expected "Path")  [return-value]
+Found 5 errors in 1 file (checked 8 source files)
+
+[RRepo](darkfeline)mir.dlsite
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:44:13: error: Name 'Optional' is not defined  [name-defined]
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:44:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:45:18: error: Name 'Optional' is not defined  [name-defined]
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:45:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:46:16: error: Name 'Optional' is not defined  [name-defined]
+(darkfeline)mir.dlsite/mir/dlsite/workinfo.py:46:16: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Optional")
+
+[RRepo](KeepSafe)aiohttp
+(KeepSafe)aiohttp/aiohttp/abc.py:3:1: error: Module 'abc' has no attribute 'ABC'  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/abc.py:3:1: error: Module 'abc' has no attribute 'abstractmethod'  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/cookiejar.py:128:23: error: Need type annotation for 'tmp'  [var-annotated]
+(KeepSafe)aiohttp/aiohttp/cookiejar.py:192:20: error: Need type annotation for 'filtered'  [var-annotated]
+(KeepSafe)aiohttp/aiohttp/cookiejar.py:302:29: error: Incompatible types in assignment (expression has type "Optional[int]", variable has type "int")  [assignment]
+(KeepSafe)aiohttp/aiohttp/client_proto.py:60:21: error: Cannot determine type of 'transport'  [has-type]
+(KeepSafe)aiohttp/setup.py:5:1: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:39:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:39:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:40:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:40:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:41:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:41:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:42:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:42:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:43:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:43:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:44:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:44:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:45:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:45:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:46:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:46:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:47:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:47:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:48:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:48:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:49:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:49:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:50:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:50:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:51:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:51:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:52:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:52:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:53:9: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:53:9: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:66:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:67:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:68:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:69:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:70:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:71:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:72:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:73:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:74:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:75:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:76:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:77:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:78:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:79:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:80:9: error: _Signal? has no attribute "freeze"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:83:35: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:83:35: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:87:40: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:87:40: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:91:45: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:91:45: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:95:33: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:95:33: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:99:39: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:99:39: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:103:38: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:103:38: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:107:45: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:107:45: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:111:43: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:111:43: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:115:45: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:115:45: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:119:43: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:119:43: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:123:42: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:123:42: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:127:43: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:127:43: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:131:41: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:131:41: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:135:35: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:135:35: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:139:36: error: Variable "tracing._Signal" is not valid as a type  [valid-type]
+(KeepSafe)aiohttp/aiohttp/tracing.py:139:36: note: See https://mypy.readthedocs.io/en/latest/common_issues.html#variables-vs-type-aliases
+(KeepSafe)aiohttp/aiohttp/tracing.py:255:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:262:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:269:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:280:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:291:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:302:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:309:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:316:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:323:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:330:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:337:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:344:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:351:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:358:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/tracing.py:365:22: error: _Signal? has no attribute "send"  [attr-defined]
+(KeepSafe)aiohttp/aiohttp/client_exceptions.py:189:16: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+(KeepSafe)aiohttp/tests/test_resolver.py:150:5: error: Need type annotation for 'ips' (hint: "ips: List[<type>] = ...")  [var-annotated]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:10:44: error: Argument 1 to "ServerFingerprintMismatch" has incompatible type "str"; expected "bytes"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:10:51: error: Argument 2 to "ServerFingerprintMismatch" has incompatible type "str"; expected "bytes"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:25:46: error: Argument "history" to "ClientResponseError" has incompatible type "None"; expected "Tuple[ClientResponse, ...]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:26:51: error: Argument "request_info" to "ClientResponseError" has incompatible type "None"; expected "RequestInfo"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:32:46: error: Argument "history" to "ClientResponseError" has incompatible type "None"; expected "Tuple[ClientResponse, ...]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:33:51: error: Argument "request_info" to "ClientResponseError" has incompatible type "None"; expected "RequestInfo"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:40:50: error: Argument "history" to "ClientResponseError" has incompatible type "None"; expected "Tuple[ClientResponse, ...]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:41:55: error: Argument "request_info" to "ClientResponseError" has incompatible type "None"; expected "RequestInfo"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:45:20: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:54:44: error: Argument "history" to "ClientResponseError" has incompatible type "None"; expected "Tuple[ClientResponse, ...]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_client_exceptions.py:55:49: error: Argument "request_info" to "ClientResponseError" has incompatible type "None"; expected "RequestInfo"  [arg-type]
+(KeepSafe)aiohttp/tests/test_worker.py:44:21: error: Name 'base_worker.GunicornWebWorker' is not defined  [name-defined]
+(KeepSafe)aiohttp/tests/test_worker.py:51:24: error: Name 'base_worker.GunicornUVLoopWebWorker' is not defined  [name-defined]
+(KeepSafe)aiohttp/tests/test_web_urldispatcher.py:371:12: error: Item "None" of "Optional[AbstractResource]" has no attribute "raw_match"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_urldispatcher.py:374:12: error: Item "None" of "Optional[AbstractResource]" has no attribute "raw_match"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_urldispatcher.py:390:31: error: Only concrete class can be given where "Type[AbstractView]" is expected  [misc]
+(KeepSafe)aiohttp/tests/test_web_urldispatcher.py:447:24: error: Only concrete class can be given where "Type[AbstractView]" is expected  [misc]
+(KeepSafe)aiohttp/tests/test_web_log.py:118:23: error: Argument 1 to "log" of "AccessLogger" has incompatible type "None"; expected "BaseRequest"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:118:29: error: Argument 2 to "log" of "AccessLogger" has incompatible type "None"; expected "StreamResponse"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:125:23: error: Argument 1 to "log" of "AccessLogger" has incompatible type "None"; expected "BaseRequest"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:125:29: error: Argument 2 to "log" of "AccessLogger" has incompatible type "None"; expected "StreamResponse"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:125:35: error: Argument 3 to "log" of "AccessLogger" has incompatible type "str"; expected "float"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:132:23: error: Argument 1 to "log" of "AccessLogger" has incompatible type "None"; expected "BaseRequest"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:132:29: error: Argument 2 to "log" of "AccessLogger" has incompatible type "None"; expected "StreamResponse"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:142:41: error: Argument 2 to "Logger" has incompatible type "None"; expected "str"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:145:27: error: Argument 1 to "log" of "AbstractAccessLogger" has incompatible type "None"; expected "BaseRequest"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:145:33: error: Argument 2 to "log" of "AbstractAccessLogger" has incompatible type "None"; expected "StreamResponse"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:145:39: error: Argument 3 to "log" of "AbstractAccessLogger" has incompatible type "None"; expected "float"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:147:5: error: Name 'Logger' already defined on line 137  [no-redef]
+(KeepSafe)aiohttp/tests/test_web_log.py:157:23: error: Argument 1 to "log" of "AbstractAccessLogger" has incompatible type "str"; expected "BaseRequest"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_log.py:157:34: error: Argument 2 to "log" of "AbstractAccessLogger" has incompatible type "str"; expected "StreamResponse"  [arg-type]
+(KeepSafe)aiohttp/tests/test_payload.py:29:30: error: Only concrete class can be given where "Type[Payload]" is expected  [misc]
+(KeepSafe)aiohttp/tests/test_payload.py:39:34: error: Only concrete class can be given where "Type[Payload]" is expected  [misc]
+(KeepSafe)aiohttp/tests/test_payload.py:39:63: error: Argument "order" to "register_payload" has incompatible type "object"; expected "Order"  [arg-type]
+(KeepSafe)aiohttp/tests/test_payload.py:68:30: error: Argument 1 to "BytesPayload" has incompatible type "object"; expected "ByteString"  [arg-type]
+(KeepSafe)aiohttp/tests/test_payload.py:115:38: error: Argument 1 to "AsyncIterablePayload" has incompatible type "object"; expected "AsyncIterable[bytes]"  [arg-type]
+(KeepSafe)aiohttp/examples/web_cookies.py:45:13: error: Too few arguments for "init"  [call-arg]
+(KeepSafe)aiohttp/tests/test_web_app.py:59:28: error: Argument "loop" to "_set_loop" of "Application" has incompatible type "object"; expected "Optional[AbstractEventLoop]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_app.py:98:44: error: Argument "access_log_class" to "_make_handler" of "Application" has incompatible type "Type[Logger]"; expected "Type[AbstractAccessLogger]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_app.py:100:5: error: Name 'Logger' already defined on line 92  [no-redef]
+(KeepSafe)aiohttp/tests/test_web_app.py:107:40: error: Argument "access_log_class" to "_make_handler" of "Application" has incompatible type "Type[Logger]"; expected "Type[AbstractAccessLogger]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_app.py:115:40: error: Argument "access_log_class" to "_make_handler" of "Application" has incompatible type "Type[Logger]"; expected "Type[AbstractAccessLogger]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_test_utils.py:66: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(KeepSafe)aiohttp/tests/test_test_utils.py:259:21: error: Argument 1 to "TestClient" has incompatible type "str"; expected "BaseTestServer"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_runner.py:100:23: error: Argument 1 to "AppRunner" has incompatible type "object"; expected "Application"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:116:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:116:18: error: Incompatible types in assignment (expression has type "Callable[[], Any]", variable has type "Callable[[Optional[float]], Coroutine[Any, Any, WSMessage]]")  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:130:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:130:18: error: Incompatible types in assignment (expression has type "Callable[[], Any]", variable has type "Callable[[Optional[float]], Coroutine[Any, Any, WSMessage]]")  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:141:27: error: Argument 1 to "send_str" of "WebSocketResponse" has incompatible type "bytes"; expected "str"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:149:29: error: Argument 1 to "send_bytes" of "WebSocketResponse" has incompatible type "str"; expected "bytes"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:239:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:244:12: error: "Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None]" has no attribute "called"  [attr-defined]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:251:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:256:12: error: "Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None]" has no attribute "called"  [attr-defined]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:263:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:268:12: error: "Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None]" has no attribute "called"  [attr-defined]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:275:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:280:12: error: "Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None]" has no attribute "called"  [attr-defined]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:287:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:292:12: error: "Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None]" has no attribute "called"  [attr-defined]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:299:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:300:44: error: Argument "message" to "close" of "WebSocketResponse" has incompatible type "str"; expected "bytes"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:302:48: error: Argument "message" to "close" of "WebSocketResponse" has incompatible type "str"; expected "bytes"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:336:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:353:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:353:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:354:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:354:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:355:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:356:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:372:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:372:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:373:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:373:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:374:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:375:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:391:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:391:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:405:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:405:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:415:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "feed_data"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:431:19: error: Incompatible types in assignment (expression has type "bool", variable has type "Optional[Future[bool]]")  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:445:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:445:5: error: Item "function" of "Union[Callable[[], Coroutine[Any, Any, WSMessage]], Any]" has no attribute "return_value"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:446:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:446:5: error: Item "function" of "Union[Callable[[], Coroutine[Any, Any, WSMessage]], Any]" has no attribute "return_value"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:447:5: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:447:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:448:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:449:5: error: Item "None" of "Optional[AbstractStreamWriter]" has no attribute "drain"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:456:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:456:5: error: Item "function" of "Union[Callable[[], Coroutine[Any, Any, WSMessage]], Any]" has no attribute "return_value"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:457:5: error: Item "None" of "Optional[FlowControlDataQueue[WSMessage]]" has no attribute "read"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:457:5: error: Item "function" of "Union[Callable[[], Coroutine[Any, Any, WSMessage]], Any]" has no attribute "return_value"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:471:5: error: Item "None" of "Optional[WebSocketWriter]" has no attribute "close"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:471:5: error: Item "function" of "Union[Callable[[int, bytes], Coroutine[Any, Any, None]], Any]" has no attribute "side_effect"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:477:5: error: Item "None" of "Optional[WebSocketWriter]" has no attribute "close"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:477:5: error: Item "function" of "Union[Callable[[int, bytes], Coroutine[Any, Any, None]], Any]" has no attribute "side_effect"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:495:19: error: Cannot assign to a method  [assignment]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:495:19: error: Item "None" of "Optional[WebSocketWriter]" has no attribute "send"  [union-attr]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:497:42: error: Argument "compress" to "send_str" of "WebSocketResponse" has incompatible type "int"; expected "Optional[bool]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:500:44: error: Argument "compress" to "send_bytes" of "WebSocketResponse" has incompatible type "int"; expected "Optional[bool]"  [arg-type]
+(KeepSafe)aiohttp/tests/test_web_websocket.py:503:41: error: Argument "compress" to "send_json" of "WebSocketResponse" has incompatible type "int"; expected "Optional[bool]"  [arg-type]
+Found 173 errors in 17 files (checked 38 source files)
+
+[RRepo](mapsme)omim
+(mapsme)omim/tools/download_statistics/aggregator.py:14:46: error: inconsistent use of tabs and spaces in indentation  [syntax]
+Found 1 error in 1 file (checked 72 source files)
+
+[RRepo](openatx)facebook-wda
+(openatx)facebook-wda/tests/test_element.py:17:16: error: Item "None" of "Optional[Any]" has no attribute "label"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:18:28: error: Item "None" of "Optional[Any]" has no attribute "value"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:19:16: error: Item "None" of "Optional[Any]" has no attribute "displayed"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:20:16: error: Item "None" of "Optional[Any]" has no attribute "visible"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:21:16: error: Item "None" of "Optional[Any]" has no attribute "enabled"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:22:21: error: Item "None" of "Optional[Any]" has no attribute "bounds"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:23:9: error: Item "None" of "Optional[Any]" has no attribute "clear_text"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:24:9: error: Item "None" of "Optional[Any]" has no attribute "set_text"  [union-attr]
+(openatx)facebook-wda/tests/test_element.py:25:28: error: Item "None" of "Optional[Any]" has no attribute "value"  [union-attr]
+Found 9 errors in 1 file (checked 6 source files)
+
+[RRepo](olivierkes)manuskript
+(olivierkes)manuskript/manuskript/ui/exporters/exporter.py: error: Duplicate module named 'exporter' (also at '/home/bew/archive/typed_project/(olivierkes)manuskript/manuskript/exporter/__init__.py')  [misc]
+(olivierkes)manuskript/manuskript/ui/exporters/exporter.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 111 source files)
+
+[RRepo](google)python-spanner-orm
+(google)python-spanner-orm/spanner_orm/query.py:33:5: error: Need type annotation for '_parameters' (hint: "_parameters: Dict[<type>, <type>] = ...")  [var-annotated]
+(google)python-spanner-orm/spanner_orm/query.py:34:5: error: Need type annotation for '_types' (hint: "_types: Dict[<type>, <type>] = ...")  [var-annotated]
+(google)python-spanner-orm/spanner_orm/query.py:97:21: error: Need type annotation for 'parameters' (hint: "parameters: Dict[<type>, <type>] = ...")  [var-annotated]
+(google)python-spanner-orm/spanner_orm/query.py:151:3: error: Return type "int" of "process_results" incompatible with return type "None" in supertype "SpannerQuery"  [override]
+(google)python-spanner-orm/spanner_orm/query.py:189:3: error: Return type "List[Type[Any]]" of "process_results" incompatible with return type "None" in supertype "SpannerQuery"  [override]
+(google)python-spanner-orm/spanner_orm/admin/schema.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/column.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/update.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration_status.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/scripts.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/scripts.py:47:16: error: Unexpected keyword argument "required" for "add_subparsers" of "ArgumentParser"  [call-arg]
+/usr/local/lib/python3.6/dist-packages/mypy/typeshed/stdlib/2and3/argparse.pyi:149:9: note: "add_subparsers" of "ArgumentParser" defined here
+(google)python-spanner-orm/spanner_orm/index.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/relationship.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/relationship.py:75:12: error: Incompatible return value type (got "None", expected "Type[Any]")  [return-value]
+(google)python-spanner-orm/spanner_orm/relationship.py:85:31: error: "None" has no attribute "fields"  [attr-defined]
+(google)python-spanner-orm/spanner_orm/api.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/api.py:101:21: error: "str" has no attribute "database"  [attr-defined]
+(google)python-spanner-orm/spanner_orm/metadata.py:31:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/metadata.py:52:5: error: Need type annotation for 'columns' (hint: "columns: List[<type>] = ...")  [var-annotated]
+(google)python-spanner-orm/spanner_orm/metadata.py:58:5: error: Need type annotation for 'primary_keys' (hint: "primary_keys: List[<type>] = ...")  [var-annotated]
+(google)python-spanner-orm/spanner_orm/decorator.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/registry.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration_executor.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration_executor.py:156:36: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "None")  [assignment]
+(google)python-spanner-orm/spanner_orm/admin/migration_executor.py:161:12: error: Incompatible return value type (got "None", expected "Dict[str, bool]")  [return-value]
+(google)python-spanner-orm/spanner_orm/admin/migration_manager.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration_manager.py:70:26: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "None")  [assignment]
+(google)python-spanner-orm/spanner_orm/admin/migration_manager.py:71:12: error: Incompatible return value type (got "None", expected "List[Any]")  [return-value]
+(google)python-spanner-orm/spanner_orm/admin/migration_manager.py:77:12: error: Module has no attribute "util"  [attr-defined]
+(google)python-spanner-orm/spanner_orm/admin/migration_manager.py:78:14: error: Module has no attribute "util"  [attr-defined]
+(google)python-spanner-orm/spanner_orm/table_apis.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+(google)python-spanner-orm/spanner_orm/field.py:17:1: error: Module '__future__' has no attribute 'annotations'  [attr-defined]
+Found 33 errors in 17 files (checked 28 source files)
+
+[RRepo](TingPing)transmission-remote-gnome
+(TingPing)transmission-remote-gnome/trg/bencode.py:72:9: error: Need type annotation for 'd'  [var-annotated]
+(TingPing)transmission-remote-gnome/trg/torrent_file_view.py:29:8: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent_file_view.py:30:8: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent_file_view.py:31:9: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent_file_view.py:177:12: error: Incompatible types in assignment (expression has type "int", base class "Enum" defined the type as "str")  [assignment]
+(TingPing)transmission-remote-gnome/trg/torrent.py:55:32: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:60:18: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:64:18: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:68:33: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:73:28: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:77:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:82:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:87:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:92:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:97:20: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:102:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:107:34: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:112:19: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/torrent.py:116:28: error: Name '_' is not defined  [name-defined]
+(TingPing)transmission-remote-gnome/trg/gi_composites.py:146:5: error: Need type annotation for '__slots__' (hint: "__slots__: List[<type>] = ...")  [var-annotated]
+Found 20 errors in 4 files (checked 15 source files)
+
+[RRepo](bogdanvuk)sydpy
+(bogdanvuk)sydpy/tests/test_sata.py:18:6: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 69 source files)
+
+[RRepo](pydata)xarray
+(pydata)xarray/xarray/core/accessor_dt.py:195:34: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:197:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:199:33: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:200:34: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:201:36: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:202:36: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:204:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:207:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:210:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:214:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:219:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:223:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:225:37: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:227:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:231:36: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/accessor_dt.py:234:9: error: Argument 1 to "_tslib_field_accessor" has incompatible type "str"; expected "DatetimeAccessor"  [arg-type]
+(pydata)xarray/xarray/core/indexes.py:7:1: error: Module 'xarray.core' has no attribute 'formatting'  [attr-defined]
+(pydata)xarray/xarray/coding/strings.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/coding/strings.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/coding/strings.py:8:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/plot/dataset_plot.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/memory.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/doc/examples/_code/accessor_example.py:4:2: error: Module has no attribute "register_dataset_accessor"  [attr-defined]
+(pydata)xarray/xarray/testing.py:9:1: error: Module 'xarray.core' has no attribute 'formatting'  [attr-defined]
+(pydata)xarray/xarray/coding/variables.py:9:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/coding/variables.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/coding/variables.py:11:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/coding/variables.py:12:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/core/resample_cftime.py:44:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/core/resample_cftime.py:54:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/file_manager.py:6:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/file_manager.py:7:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/common.py:10:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/common.py:11:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/common.py:12:1: error: Relative import climbs too many namespaces  [misc]
+(pydata)xarray/xarray/backends/common.py:13:1: error: Relative import climbs too many namespaces  [misc]
+
+[RRepo](ze-phyr-us)pearhash
+Success: no issues found in 2 source files
+
+[RRepo](pektin)jam
+(pektin)jam/compiler/jam/builtins.py:6:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](piontec)docker-enforcer
+(piontec)docker-enforcer/dockerenforcer/config.py:22:32: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(piontec)docker-enforcer/dockerenforcer/config.py:23:38: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+
+[RRepo](illagrenan)django-brotli
+(illagrenan)django-brotli/tests/test_middleware.py:47:9: error: Unsupported target for indexed assignment  [index]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](massmutual)py4jdbc
+(massmutual)py4jdbc/setup.py:8:1: error: Module 'distutils.command.build' has no attribute 'build'  [attr-defined]
+(massmutual)py4jdbc/setup.py:9:1: error: Module 'distutils.command.clean' has no attribute 'clean'  [attr-defined]
+(massmutual)py4jdbc/setup.py:10:1: error: Module 'distutils.command.sdist' has no attribute 'sdist'  [attr-defined]
+(massmutual)py4jdbc/setup.py:21:11: error: Name '__version__' is not defined  [name-defined]
+(massmutual)py4jdbc/setup.py:22:82: error: Name '__version__' is not defined  [name-defined]
+(massmutual)py4jdbc/py4jdbc/resultset.py:140:17: error: Need type annotation for '__slots__'  [var-annotated]
+

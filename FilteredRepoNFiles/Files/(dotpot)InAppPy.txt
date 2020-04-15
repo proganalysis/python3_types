@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(dotpot)InAppPy/setup.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/inapppy/appstore.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/inapppy/googleplay.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/inapppy/errors.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/tests/test_google_verifier.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/tests/test_errors.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/tests/conftest.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/tests/test_appstore.py
+/home/bew/archive/typed_project/(dotpot)InAppPy/tests/asyncio/test_asyncio_appstore.py

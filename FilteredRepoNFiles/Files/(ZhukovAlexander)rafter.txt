@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/utils.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/storage.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/service.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/network.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/serverstate.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/rafter/raftconsole.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/test_service.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/test_log.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/test_network.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/test_server.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/mocks.py
+/home/bew/archive/typed_project/(ZhukovAlexander)rafter/tests/test_serverstate.py

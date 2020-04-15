@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/pv.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/brl_model.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/trigon.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/test/test_trigon.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/test/test_climatedata_interface.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/test/test_pre_gsee_processing.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/climatedata_interface/pre_gsee_processing.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/climatedata_interface/util.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/climatedata_interface/generate_pdfs.py
+/home/bew/archive/typed_project/(renewables-ninja)gsee/gsee/climatedata_interface/progress.py

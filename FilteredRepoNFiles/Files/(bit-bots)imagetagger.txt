@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/urls.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/administration/views.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/users/models.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/users/management/commands/updatepoints.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/tools/forms.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/annotations/fields.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/annotations/serializers.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/annotations/migrations/0006_auto_20170826_1431.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/annotations/migrations/export_format_conversion_20180504.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/annotations/migrations/0008_auto_20170826_1533.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/images/tests.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/images/templates/images/download.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/images/migrations/0004_auto_20170825_1114.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/images/migrations/0016_settag_test.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/images/management/commands/runzipdaemon.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/base/context_processors.py
+/home/bew/archive/typed_project/(bit-bots)imagetagger/imagetagger/imagetagger/tagger_messages/management/commands/testdb.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform_project/crash_logger.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/tasks/models.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/tasks/management/commands/task_processor.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/serviceform/utils.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/serviceform/urls.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/serviceform/models/email.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/serviceform/management/commands/create_default_email_templates.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/serviceform/serviceform/management/commands/send_emails.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/tests/test_utils.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/tests/test_tasks.py
+/home/bew/archive/typed_project/(tuomas2)serviceform/tests/conftest.py

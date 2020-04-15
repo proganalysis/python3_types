@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(movidius)ncappzoo/caffe/face-detection-retail-0004/face_detect.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/caffe/AgeGenderNet/age_gender_net.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/caffe/SSD_Mobilenet/ssd_mobilenet.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/classifier_gui/classifier_gui.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/simple_classifier_py_camera/run.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/mnist_calc/mnist_calc.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/mnist_calc/mnist_processor.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/mnist_calc/calcui.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/birds/birds.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/birds/googlenet_processor.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/birds/tiny_yolo_processor.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/apps/classifier_grid/canvas.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/tensorflow/mnist/mnist.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/networks/ssd_inception_v2_food/ssd_inception_v2_food.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/networks/ssd_inception_v2_food/download_weights.py
+/home/bew/archive/typed_project/(movidius)ncappzoo/networks/ssd_inception_v2_gesture/ssd_inception_v2_gesture.py

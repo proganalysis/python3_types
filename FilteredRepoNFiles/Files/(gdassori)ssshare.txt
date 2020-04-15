@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/__init__.py
+/home/bew/archive/typed_project/(gdassori)ssshare/tests/__init__.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/app.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/services/fxc/api.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/combine.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/session.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/master.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/user.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/secret.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/domain/split.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/blueprints/validators.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/repository/memory.py
+/home/bew/archive/typed_project/(gdassori)ssshare/ssshare/repository/abstract.py
+/home/bew/archive/typed_project/(gdassori)ssshare/tests/test_split_session.py
+/home/bew/archive/typed_project/(gdassori)ssshare/tests/test_combine_session.py
+/home/bew/archive/typed_project/(gdassori)ssshare/tests/test_validators.py

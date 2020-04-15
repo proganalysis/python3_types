@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(ament)ament_lint/ament_copyright/ament_copyright/__init__.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_flake8/ament_flake8/legacy.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_flake8/ament_flake8/main.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_flake8/ament_flake8/pytest_marker.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_flake8/test/test_flake8.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_cpplint/test/test_copyright.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_cpplint/test/test_pep257.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_mypy/test/test_mypy.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_mypy/test/test_ament_mypy.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_pyflakes/test/test_pep8.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_copyright/ament_copyright/parser.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_copyright/ament_copyright/licenses.py
+/home/bew/archive/typed_project/(ament)ament_lint/ament_copyright/ament_copyright/crawler.py

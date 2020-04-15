@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/__init__.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/modules/submods/__init__.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/render.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/extract.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/cli.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/web.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/html_helpers.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/pdoc/static.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/tutils.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/test_extract.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/test_render.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/test_pdoc.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/test_doc.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/test_static.py
+/home/bew/archive/typed_project/(BurntSushi)pdoc/test/onpath/simple.py

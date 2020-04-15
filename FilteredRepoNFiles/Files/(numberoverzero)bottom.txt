@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(numberoverzero)bottom/setup.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/bottom/unpack.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/bottom/protocol.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/bottom/client.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/docs/conf.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/examples/echo.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/examples/common.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/examples/regex.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/unit/test_pack.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/unit/test_client.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/unit/test_protocol.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/unit/conftest.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/unit/test_unpack.py
+/home/bew/archive/typed_project/(numberoverzero)bottom/tests/integ/test_local.py

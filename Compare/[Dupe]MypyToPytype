@@ -1,0 +1,49 @@
+----- Mypy -> Pytype -----
+abstract 8/10
+  [['not-instantiable', 7], ['missing-parameter', 1]]
+arg-type 441/1851
+  [['wrong-arg-types', 373], ['name-error', 23], ['bad-return-type', 19], ['attribute-error', 14], ['unsupported-operands', 8], ['missing-parameter', 3], ['wrong-arg-count', 1]]
+assignment 55/3104
+  [['attribute-error', 20], ['wrong-arg-types', 16], ['not-supported-yet', 8], ['name-error', 6], ['bad-return-type', 2], ['not-instantiable', 1], ['invalid-type-comment', 1], ['invalid-annotation', 1]]
+attr-defined 1214/9731
+  [['attribute-error', 767], ['module-attr', 321], ['python-compiler-error', 65], ['not-writable', 34], ['pyi-error', 10], ['name-error', 5], ['bad-return-type', 5], ['unsupported-operands', 4], ['missing-parameter', 2], ['wrong-arg-types', 1]]
+call-arg 92/528
+  [['missing-parameter', 43], ['wrong-arg-count', 33], ['wrong-keyword-args', 12], ['name-error', 3], ['bad-return-type', 1]]
+call-overload 83/229
+  [['unsupported-operands', 44], ['wrong-arg-types', 25], ['wrong-keyword-args', 7], ['missing-parameter', 3], ['name-error', 2], ['mro-error', 1], ['attribute-error', 1]]
+dict-item 3/50
+  [['bad-return-type', 3]]
+func-returns-value 11/77
+  [['attribute-error', 3], ['wrong-arg-types', 2], ['unsupported-operands', 2], ['name-error', 2], ['bad-return-type', 2]]
+has-type 81/485
+  [['name-error', 51], ['attribute-error', 25], ['not-supported-yet', 5]]
+index 131/864
+  [['unsupported-operands', 114], ['attribute-error', 12], ['name-error', 3], ['wrong-arg-types', 1], ['bad-return-type', 1]]
+misc 633/4901
+  [['invalid-annotation', 485], ['invalid-typevar', 46], ['name-error', 38], ['bad-return-type', 15], ['attribute-error', 14], ['mro-error', 8], ['wrong-arg-types', 6], ['bad-unpacking', 4], ['not-indexable', 3], ['missing-parameter', 2], ['duplicate-keyword-argument', 2], ['wrong-arg-count', 1], ['unsupported-operands', 1], ['recursion-error', 1], ['python-compiler-error', 1], ['not-writable', 1], ['module-attr', 1], ['invalid-type-comment', 1], ['ignored-metaclass', 1], ['ignored-abstractmethod', 1], ['base-class-error', 1]]
+name-defined 3199/9318
+  [['name-error', 3084], ['module-attr', 57], ['invalid-annotation', 22], ['invalid-type-comment', 12], ['attribute-error', 10], ['python-compiler-error', 4], ['wrong-arg-count', 3], ['wrong-arg-types', 2], ['ignored-abstractmethod', 2], ['unsupported-operands', 1], ['not-supported-yet', 1], ['bad-return-type', 1]]
+no-redef 10/810
+  [['name-error', 3], ['attribute-error', 3], ['module-attr', 2], ['invalid-annotation', 2]]
+operator 123/674
+  [['invalid-typevar', 46], ['unsupported-operands', 35], ['wrong-arg-types', 14], ['name-error', 14], ['not-callable', 10], ['bad-return-type', 3], ['key-error', 1]]
+override 3/201
+  [['invalid-annotation', 2], ['name-error', 1]]
+return 17/292
+  [['invalid-annotation', 11], ['name-error', 5], ['python-compiler-error', 1]]
+return-value 553/1399
+  [['bad-return-type', 553]]
+str-format 15/211
+  [['name-error', 15]]
+syntax 461/515
+  [['invalid-annotation', 236], ['python-compiler-error', 193], ['ignored-type-comment', 16], ['attribute-error', 8], ['invalid-type-comment', 6], ['redundant-function-type-comment', 1], ['name-error', 1]]
+type-arg 23/69
+  [['not-indexable', 18], ['not-supported-yet', 2], ['invalid-annotation', 2], ['name-error', 1]]
+type-var 2/20
+  [['wrong-arg-types', 2]]
+union-attr 1164/1592
+  [['attribute-error', 1157], ['bad-return-type', 4], ['name-error', 2], ['unsupported-operands', 1]]
+valid-type 744/1564
+  [['invalid-annotation', 508], ['python-compiler-error', 122], ['name-error', 95], ['not-supported-yet', 11], ['not-callable', 2], ['invalid-typevar', 2], ['attribute-error', 2], ['unsupported-operands', 1], ['invalid-type-comment', 1]]
+var-annotated 6/2761
+  [['attribute-error', 3], ['wrong-arg-types', 2], ['invalid-annotation', 1]]

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(jelford)activesoup/setup.py
+/home/bew/archive/typed_project/(jelford)activesoup/src/activesoup/html.py
+/home/bew/archive/typed_project/(jelford)activesoup/src/activesoup/driver.py
+/home/bew/archive/typed_project/(jelford)activesoup/src/activesoup/json_response.py
+/home/bew/archive/typed_project/(jelford)activesoup/src/activesoup/response.py
+/home/bew/archive/typed_project/(jelford)activesoup/src/activesoup/csv.py
+/home/bew/archive/typed_project/(jelford)activesoup/tests/test_forms.py
+/home/bew/archive/typed_project/(jelford)activesoup/tests/test_gets.py
+/home/bew/archive/typed_project/(jelford)activesoup/tests/conftest.py
+/home/bew/archive/typed_project/(jelford)activesoup/tests/test_xpath_finds.py
+/home/bew/archive/typed_project/(jelford)activesoup/tests/test_json_decode.py

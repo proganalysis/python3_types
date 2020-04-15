@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(matrix-org)sygnal/setup.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/utils.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/sygnal.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/notifications.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/http.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/apnspushkin.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/apnstruncate.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/exceptions.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/sygnal/helper/context_factory.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/tests/test_gcm.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/tests/testutils.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/tests/test_apnstruncate.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/tests/test_apns.py
+/home/bew/archive/typed_project/(matrix-org)sygnal/tests/test_pushgateway_api_v1.py

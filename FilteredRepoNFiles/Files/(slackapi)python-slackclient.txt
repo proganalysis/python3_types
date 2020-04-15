@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(slackapi)python-slackclient/slack/web/classes/__init__.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/setup.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tutorial/PythOnBoardingBot/onboarding_tutorial.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tutorial/PythOnBoardingBot/app.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tutorial/PythOnBoardingBot/async_app.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/slack/errors.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/slack/web/base_client.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/slack/web/slack_response.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/helpers.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/rtm/test_rtm_client.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/rtm/test_rtm_client_functional.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/web/test_web_client.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/web/test_web_client_functional.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/web/classes/test_actions.py
+/home/bew/archive/typed_project/(slackapi)python-slackclient/tests/web/classes/test_attachments.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(carbonblack)cb-integration/vol/eventforwarder/remoterpcinterface.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/analysis.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/integration.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/binary_collector.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/threatintel.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/flask_feed.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/globals.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/detonation.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/debug.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/cbint/utils/helpers.py
+/home/bew/archive/typed_project/(carbonblack)cb-integration/tests/test_import.py

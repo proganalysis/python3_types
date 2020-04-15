@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/__init__.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/inxs/utils.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/inxs/cli.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/inxs/contrib.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_conditions.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_utils.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_cli.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_lib.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/conftest.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_contrib.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_core.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_wikipedia_examples.py
+/home/bew/archive/typed_project/(funkyfuture)inxs/tests/test_cli/mods_to_tei.py

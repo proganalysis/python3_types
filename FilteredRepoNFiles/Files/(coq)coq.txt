@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/regen_readme.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/checkdeps.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/coqdoc/main.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/repl/coqtop.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/repl/ansicolors.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/regexp.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/sphinx.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/html.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/TacticNotationsVisitor.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/plain.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/parsing.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py
+/home/bew/archive/typed_project/(coq)coq/doc/tools/coqrst/notations/fontsupport.py
+/home/bew/archive/typed_project/(coq)coq/tools/TimeFileMaker.py

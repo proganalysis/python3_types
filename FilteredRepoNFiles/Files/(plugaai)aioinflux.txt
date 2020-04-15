@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(plugaai)aioinflux/docs/conf.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/aioinflux/iterutils.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/aioinflux/serialization/usertype.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/aioinflux/serialization/common.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/aioinflux/serialization/dataframe.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/aioinflux/serialization/mapping.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_client.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_dataframe.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/testing_utils.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_serialization.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_cache.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_usertype.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/conftest.py
+/home/bew/archive/typed_project/(plugaai)aioinflux/tests/test_iter.py

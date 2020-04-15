@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/contrib/sites/migrations/0003_set_site_domain_and_name.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/users/models.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/users/serializers.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/users/permissions.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/users/mixins.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/users/views.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/tweets/services.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/shmitter/authentication/backends.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/tests/factories.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/tests/fixtures.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/tests/users/test_validators.py
+/home/bew/archive/typed_project/(apirobot)shmitter/backend/tests/base/test_permissions.py

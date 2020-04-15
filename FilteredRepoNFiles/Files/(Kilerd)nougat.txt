@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/manage.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/utils.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/test_client.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/asgi.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/signal.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/app.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/config.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/exceptions.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/context/response.py
+/home/bew/archive/typed_project/(Kilerd)nougat/nougat/context/request.py
+/home/bew/archive/typed_project/(Kilerd)nougat/demos/basic.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/test_middleware.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/test_http.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/test_config.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/conftest.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/test_signal.py
+/home/bew/archive/typed_project/(Kilerd)nougat/tests/test_manage.py

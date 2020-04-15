@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/watcher.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/factory.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/sendmail.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/processors/MandrillProcessor.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/processors/SmtpProcessor.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/processors/FilesystemProcessor.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/processors/NotifyProcessor.py
+/home/bew/archive/typed_project/(chupikov)sendmail.py/sendmail/processors/abstractprocessor.py

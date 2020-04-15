@@ -1,0 +1,42 @@
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/version.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/auth.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/objects.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/netassets.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/operator.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/perf.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/icc.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/alarms.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/groups.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/plat/vrm.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/wsm/clientinfo.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/wsm/acinfo.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/pyhpeimc/wsm/apinfo.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/hppyimctest.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/11 real_time_locate.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/7 HP_IMC_Custom_Views.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/5 HP_IMC_Change_Dev_Category.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/1 HP IMC Create Operators.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/4 HP_IMC_Auto_Discovery.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/3 HP_IMC_Plat_Device_Import.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/9 HP_IMC_Get_hosts.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/10 HP_IMC_Terminal_Access_IP_Scope.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/6 HP_IMC_CreateCustomViews.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/8 HP_IMC_Set_Interface_Descriptions.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/archived/Samples Scripts/2 HP_IMC_Change_Operator_Password.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/build/lib/pyhpeimc/plat/vlanm.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/build/lib/pyhpimc/plat/device.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/build/lib/pyhpimc/plat/termaccess.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/examples/HPE IMC Custom Views.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/examples/hpeimcImportOperators.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_icc.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_operator.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_groups.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_system.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_wsm_acinfo.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_vrm.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_alarms.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_plat_perf.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_objects.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_machine.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_wsm_apinfo.py
+/home/bew/archive/typed_project/(HPENetworking)PYHPEIMC/tests/test_pyhpeimc_wsm_clientinfo.py

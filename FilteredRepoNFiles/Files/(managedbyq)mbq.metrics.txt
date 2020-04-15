@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/mbq/metrics/utils.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/mbq/metrics/contrib/django/middleware/connection_stats.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/mbq/metrics/contrib/django/middleware/timing.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/test_utils.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/test_globals.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/test_collector.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/contrib/django/middleware/compat.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/contrib/django/middleware/test_timing.py
+/home/bew/archive/typed_project/(managedbyq)mbq.metrics/tests/contrib/django/middleware/test_connection_stats.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/preprocess/__init__.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/cli/__init__.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/stabs/gensim/models/__init__.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/stabs/gensim/utils/__init__.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/actions/infer.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/actions/train.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/preprocess/tex_doc.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/cli/dataset.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/cli/main.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/dataset/utils.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/dataset/merge_json.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/dataset/json_arxiv.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/model/doc2vec_common.py
+/home/bew/archive/typed_project/(n-kats)arxiv2vec/tests/test_tex_doc.py

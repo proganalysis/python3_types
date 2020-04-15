@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(hl037)torefl/torefl/__init__.py
+/home/bew/archive/typed_project/(hl037)torefl/setup.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/core.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/parser.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/shell.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/legacyFilter.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/filter.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/config.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/formatters/ASCIIFormatter.py
+/home/bew/archive/typed_project/(hl037)torefl/torefl/exporters/BibtexExporter.py
+/home/bew/archive/typed_project/(hl037)torefl/tests/test_parsers.py
+/home/bew/archive/typed_project/(hl037)torefl/tests/test_core.py

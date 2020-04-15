@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(medeor413)Red_Star/setup.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/config_manager.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/__main__.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugin_manager.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/channel_manager.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/command_dispatcher.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/rs_errors.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/client.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/rpn_executor.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/voting.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/channel_manager_commands.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/reminder.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/admin_commands.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/roles.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/info.py
+/home/bew/archive/typed_project/(medeor413)Red_Star/red_star/plugins/announcer.py

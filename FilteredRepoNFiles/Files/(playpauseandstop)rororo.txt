@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/utils.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/logger.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/aio.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/schemas/validators.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/rororo/schemas/schema.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/tests/test_utils.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/tests/test_logger.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/tests/test_timedelta.py
+/home/bew/archive/typed_project/(playpauseandstop)rororo/tests/test_aio.py

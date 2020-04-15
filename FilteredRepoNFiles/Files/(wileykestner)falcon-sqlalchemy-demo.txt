@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/postgres_people_repository.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/application_routes.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/person_resources.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/persistence.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/migrations/versions/c92129dda39a_create_people_table.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_people_DELETE.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_wsgi.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_postgres_people_repository.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_people_POST.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_person_GET.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/test_people_GET.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/conftest.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/utils/helpers.py
+/home/bew/archive/typed_project/(wileykestner)falcon-sqlalchemy-demo/test/utils/assertions.py

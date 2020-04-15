@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/tests/helpers/__init__.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/setup.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/bump_version.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/bitmex_websocket/_instrument.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/bitmex_websocket/_bitmex_websocket.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/bitmex_websocket/constants.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/bitmex_websocket/auth/api_key_auth.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/tests/test_instrument.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/tests/test_websocket.py
+/home/bew/archive/typed_project/(joliveros)bitmex-websocket/tests/fixtures/_data.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(lamenezes)simple-model/setup.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/utils.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/base.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/models.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/fields.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/exceptions.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/builder.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/simple_model/converters.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/test_utils.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/test_version.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/conftest.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/test_converters.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/test_fields.py
+/home/bew/archive/typed_project/(lamenezes)simple-model/tests/test_builder.py

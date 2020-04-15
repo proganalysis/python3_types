@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/__init__.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/onprem.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/dcos_engine.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/cli.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/gcp.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/util.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/terraform.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/aws.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/dcos_launch/arm.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/test/test_arm.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/test/test_cli.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/test/test_aws.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/test/test_config.py
+/home/bew/archive/typed_project/(dcos)dcos-launch/test/test_onprem.py

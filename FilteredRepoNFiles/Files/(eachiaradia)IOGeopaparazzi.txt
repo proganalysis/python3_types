@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/__init__.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/export_spatialite_algorithm.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/export_tiles_algorithm.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/io_geopaparazzi_provider.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/io_geopaparazzi.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/qtiles.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/JSONparser.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/tile.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/writers.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/qtiles_utils.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/mbutils.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/image_post_processor.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/ParameterGpap.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/tilingthread.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/tools/Table.py
+/home/bew/archive/typed_project/(eachiaradia)IOGeopaparazzi/imageviewer/imageviewer.py

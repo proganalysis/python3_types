@@ -1,0 +1,53 @@
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/__init__.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/wrap/__init__.py
+/home/bew/archive/typed_project/(mesonbuild)meson/ghwt.py
+/home/bew/archive/typed_project/(mesonbuild)meson/skip_ci.py
+/home/bew/archive/typed_project/(mesonbuild)meson/run_cross_test.py
+/home/bew/archive/typed_project/(mesonbuild)meson/run_meson_command_tests.py
+/home/bew/archive/typed_project/(mesonbuild)meson/run_tests.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/mdist.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/mlog.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/clangformat.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/scanbuild.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/vcstagger.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/coverage.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/commandrunner.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/uninstall.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/delwithsuffix.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/msgfmthelper.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/cleantrees.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/regen_checker.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/scripts/dirchanger.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/backend/vs2015backend.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/backend/vs2017backend.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/backend/vs2019backend.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/dependencies/platform.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/swift.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/rust.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/java.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/objc.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/objcpp.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/cs.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/mixins/elbrus.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/mixins/ccrx.py
+/home/bew/archive/typed_project/(mesonbuild)meson/mesonbuild/compilers/mixins/pgi.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/frameworks/1 boost/test_python_module.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/python3/1 basic/gluon/gluonator.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/14 configure file/touch.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/14 configure file/basename.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/14 configure file/file_contains.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/215 link custom/custom_stlib.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/68 build always/version_gen.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/175 generator link whole/generator.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/191 test depends/test.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/191 test depends/gen.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/217 link custom_i multiple from multiple/generate_stlibs.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/156 index customtarget/check_args.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/156 index customtarget/gen_sources.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/common/216 link custom_i single from multiple/generate_conflicting_stlibs.py
+/home/bew/archive/typed_project/(mesonbuild)meson/test cases/linuxlike/14 static dynamic linkage/verify_static.py
+/home/bew/archive/typed_project/(mesonbuild)meson/docs/genrelnotes.py
+/home/bew/archive/typed_project/(mesonbuild)meson/tools/cmake2meson.py
+/home/bew/archive/typed_project/(mesonbuild)meson/tools/boost_names.py
+/home/bew/archive/typed_project/(mesonbuild)meson/tools/dircondenser.py
+/home/bew/archive/typed_project/(mesonbuild)meson/msi/createmsi.py

@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/transactionmanager.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/pool.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/pgsingleton.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/connection.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/testing/mockconnection.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/testing/mockpreparedstmt.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/testing/mockpool.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/testing/mockpgsingleton.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/asyncpgsa/testing/mocktransactionmanager.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/tests/test_test_framework.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/tests/test_pool.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/tests/test_defaults.py
+/home/bew/archive/typed_project/(CanopyTax)asyncpgsa/tests/test_connection.py

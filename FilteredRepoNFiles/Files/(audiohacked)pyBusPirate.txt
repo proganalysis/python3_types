@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/setup.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/base.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/uart.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/spi.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/openocd.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/i2c.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/onewire.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/utilities.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/src/buspirate/rawwire.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_rawwire.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_uart.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_onewire.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_base.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_utilities.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_i2c.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/test_buspirate_spi.py
+/home/bew/archive/typed_project/(audiohacked)pyBusPirate/tests/mocks/serial.py

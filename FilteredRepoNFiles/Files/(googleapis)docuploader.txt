@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(googleapis)docuploader/noxfile.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/__main__.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/tar.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/upload.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/credentials.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/log.py
+/home/bew/archive/typed_project/(googleapis)docuploader/docuploader/shell.py
+/home/bew/archive/typed_project/(googleapis)docuploader/tests/test_tar.py

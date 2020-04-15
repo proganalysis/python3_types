@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/utils.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/tokenize.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/baseline.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/lesk.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/cosine.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/allwords_wsd.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/similarity.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/semeval.py
+/home/bew/archive/typed_project/(alvations)pywsd/pywsd/test/test_all_words.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/simple_data_set.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/perceptron.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/mira.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/svm.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/naive_bayes.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/linear_classifier.py
+/home/bew/archive/typed_project/(alvations)pywsd/merlin/gaussian.py

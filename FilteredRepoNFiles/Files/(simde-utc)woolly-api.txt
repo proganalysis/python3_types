@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(simde-utc)woolly-api/scripts.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/payment/views.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/payment/services/payutc.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/sales/admin.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/sales/models.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/sales/tests.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/sales/permissions.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/authentication/helpers.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/authentication/oauth.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/authentication/forms.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/core/utils.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/core/serializers.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/core/viewsets.py
+/home/bew/archive/typed_project/(simde-utc)woolly-api/woolly_api/settings.py

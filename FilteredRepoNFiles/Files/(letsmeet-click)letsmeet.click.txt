@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/users/models.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/users/views.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/users/templatetags/users_tags.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/users/migrations/0009_userprofile_personal_ical_uuid.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/letsmeet/context_processors.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/main/utils.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/main/templatetags/letsmeet_tags.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/main/templatetags/rich_text.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/communities/admin.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/communities/forms.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/communities/templatetags/community_tags.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/events/feeds.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/events/templatetags/event_tags.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/tests/test_home.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/tests/conftest.py
+/home/bew/archive/typed_project/(letsmeet-click)letsmeet.click/letsmeet/tests/communities/test_communities.py

@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(adsharma)flattools/fbs/parser/__init__.py
+/home/bew/archive/typed_project/(adsharma)flattools/fbs/_compat.py
+/home/bew/archive/typed_project/(adsharma)flattools/fbs/fbs.py
+/home/bew/archive/typed_project/(adsharma)flattools/fbs/parser/parsetab.py
+/home/bew/archive/typed_project/(adsharma)flattools/fbs/parser/lexer.py
+/home/bew/archive/typed_project/(adsharma)flattools/bin/flatc.py
+/home/bew/archive/typed_project/(adsharma)flattools/flattools/pp.py
+/home/bew/archive/typed_project/(adsharma)flattools/tests/test_flatc.py
+/home/bew/archive/typed_project/(adsharma)flattools/tests/thrift2fbs.py
+/home/bew/archive/typed_project/(adsharma)flattools/tests/test_fbs_parser.py

@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(chris104957)django-carrot/setup.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/run_tests.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/models.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/urls.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/tests.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/api.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/objects.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/test_carrot.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/scheduler.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/mocks.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/utilities.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/migrations/0003_populate_task_name.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/management/commands/carrot.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/management/commands/carrot_send.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/carrot/management/commands/carrot_daemon.py
+/home/bew/archive/typed_project/(chris104957)django-carrot/legacy_docs/source/conf.py

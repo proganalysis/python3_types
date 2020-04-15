@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/commands/__init__.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/services/__init__.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/notmail_bot.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/commands/generic.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/commands/account.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/commands/email.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/config/loadConfig.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/utils/imap.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/utils/telegram.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/utils/scheduler.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/utils/populateDatabase.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/repository/repository.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/repository/email_server.py
+/home/bew/archive/typed_project/(ManuelLR)Notmail_Bot/repository/user.py

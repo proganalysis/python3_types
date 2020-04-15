@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/__init__.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/reader/__init__.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/source/__init__.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/__init__.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/message.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/writer.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/experimental.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/remote.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/util.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/exceptions.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/pandasdmx/reader/sdmxjson.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/excluded_test_structspec_dataset.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/test_performance.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/test_util.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/test_experimental.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/test_source.py
+/home/bew/archive/typed_project/(dr-leo)pandaSDMX/tests/test_model.py

@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/ciphers.py
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/proxies/http/parser.py
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/proxies/aead/client.py
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/proxies/base/udpserver.py
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/plugins/base.py
+/home/bew/archive/typed_project/(guyingbo)socks5/shadowproxy/plugins/tls_parser.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_main.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_cli.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_protocols.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_udp.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_ciphers.py
+/home/bew/archive/typed_project/(guyingbo)socks5/tests/test_http_request.py

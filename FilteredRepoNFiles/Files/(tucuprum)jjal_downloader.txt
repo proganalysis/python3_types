@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/crawler/common.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/crawler/page_analyze.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/crawler/downloader.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/crawler/list_analyze.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_duplicate.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_info.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_popup_message.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_gall_search.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_manual_add.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/gui/_option_window.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/misc/remove_duplicate.py
+/home/bew/archive/typed_project/(tucuprum)jjal_downloader/misc/config.py

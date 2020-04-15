@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/run.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/envs/trading_env.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/envs/simulator.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/envs/feature_engineering.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/envs/portfolio.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/envs/Q_learning.py
+/home/bew/archive/typed_project/(AdrianP-)gym_trading/gym_trading/test/TestPortfolio.py

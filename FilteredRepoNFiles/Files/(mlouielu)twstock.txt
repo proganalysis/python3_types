@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/mock/__init__.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/cli/__init__.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/proxy.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/analytics.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/legacy.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/realtime.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/cli/stock.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/cli/best_four_point.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/codes/fetch.py
+/home/bew/archive/typed_project/(mlouielu)twstock/twstock/codes/codes.py
+/home/bew/archive/typed_project/(mlouielu)twstock/docs/serve.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_mock.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_cli.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_realtime.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_analytics.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_stock.py
+/home/bew/archive/typed_project/(mlouielu)twstock/test/test_proxy.py

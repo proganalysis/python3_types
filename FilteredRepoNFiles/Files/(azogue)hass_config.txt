@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(azogue)hass_config/service_vigil.py
+/home/bew/archive/typed_project/(azogue)hass_config/cronip.py
+/home/bew/archive/typed_project/(azogue)hass_config/slave_hass/check_motion_config.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/hue.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/binary_sensor/psychrometrics.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/camera/enerpi.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/sensor/myopenweathermap.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/sensor/raspioanalog.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/sensor/mysensehat.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/sensor/myonewire.py
+/home/bew/archive/typed_project/(azogue)hass_config/custom_components/switch/cecswitch.py

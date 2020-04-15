@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(balancehero)kinsumer/setup.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/checkpointer.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/consumer.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/ctx.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/streams.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/helpers.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/bucket.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/globals.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/logging.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/kinsumer/config.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/tests/test_config.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/tests/conftest.py
+/home/bew/archive/typed_project/(balancehero)kinsumer/tests/examples.py

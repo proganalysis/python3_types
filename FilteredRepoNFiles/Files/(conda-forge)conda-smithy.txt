@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/bootstrap-obvious-ci-and-miniconda.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/setup.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/conda_smithy/utils.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/conda_smithy/github.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/conda_smithy/feedstock_io.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/conda_smithy/azure_ci_utils.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/conda_smithy/variant_algebra.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/tests/test_feedstock_io.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/tests/test_cli.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/tests/test_variant_algebra.py
+/home/bew/archive/typed_project/(conda-forge)conda-smithy/tests/conftest.py

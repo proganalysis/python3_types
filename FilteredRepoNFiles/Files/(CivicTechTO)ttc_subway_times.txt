@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/setup.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/fetch_s3.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/cronic.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/src/ttc_api_scraper/writers.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/src/ttc_api_scraper/consolidate.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/tests/test_ttc_api_scraper.py
+/home/bew/archive/typed_project/(CivicTechTO)ttc_subway_times/tests/test_writers.py

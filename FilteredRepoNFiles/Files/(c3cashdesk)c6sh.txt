@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/core/utils/__init__.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/troubleshooter/views/information.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/backoffice/views/wizard.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/backoffice/views/record.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/backoffice/views/supply.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/core/admin.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/core/models/cashdesk.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/core/utils/pdf.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/postix/core/management/commands/export_records.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/factories.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_preorder.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_desk.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/troubleshooter/test_troubleshooter_views_constraints.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/core/models/test_quota.py
+/home/bew/archive/typed_project/(c3cashdesk)c6sh/src/tests/core/models/test_cashdesk.py

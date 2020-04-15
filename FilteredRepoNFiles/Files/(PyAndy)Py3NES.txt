@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(PyAndy)Py3NES/apu.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/memory_owner.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/helpers.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/ram.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/addressing.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/nes_test.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/main.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/status.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/rom.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/cpu.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/ppu.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/graphics/graphics.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/instructions/bit_instructions.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/instructions/generic_instructions.py
+/home/bew/archive/typed_project/(PyAndy)Py3NES/tests/test_instructions.py

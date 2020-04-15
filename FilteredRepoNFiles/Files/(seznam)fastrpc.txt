@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(seznam)fastrpc/python/setup.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/fastrpc/handler/flask.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/fastrpc/handler/tornado.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/fastrpc/handler/aiohttp.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/bool.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/dumptree.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/serverproxytest.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/datetime.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/exceptions.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/test/server.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/example/server_flask_example.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/example/server_aiohttp_example.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/example/server_tornado_example.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/example/client_example2.py
+/home/bew/archive/typed_project/(seznam)fastrpc/python/example/server_example.py

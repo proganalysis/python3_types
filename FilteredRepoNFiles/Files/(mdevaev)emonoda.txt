@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/optconf/__init__.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/apps/__init__.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/plugins/__init__.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/setup.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/tfile.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/tools.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/optconf/loader.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/optconf/converters.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/web/gziphandler.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/web/sockshandler.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/helpers/tcollection.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/helpers/surprise.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/apps/hooks/rtorrent/collectd_stat.py
+/home/bew/archive/typed_project/(mdevaev)emonoda/emonoda/apps/hooks/rtorrent/manage_trackers.py

@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/__init__.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/config/__init__.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/utils/__init__.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/server.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/models.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/views.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/db/mongodb.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/config/default.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/utils/monkey_patch.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/utils/rpc.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/utils/decorators.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/everyclass/server/calendar/ics_generator.py
+/home/bew/archive/typed_project/(fr0der1c)EveryClass-server/tests/test_basic_function.py

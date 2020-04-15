@@ -1,0 +1,7 @@
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/main_test.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/helpers/orders/helpers.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/helpers/orders/data_classes.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/middlewares/auth.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/middlewares/form_validation.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/app/blueprints/sell/blueprint.py
+/home/bew/archive/typed_project/(GoogleCloudPlatform)serverless-store-demo/functions/detect_labels/main.py

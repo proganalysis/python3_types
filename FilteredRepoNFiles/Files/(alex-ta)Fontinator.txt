@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Alex/dataloader/loader.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Alex/dataloader/serialize.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Alex/dataloader/plot.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Alex/modelpipe/Callback.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Alex/modelpipe/pipe.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/SavedModels/downloadModels.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/libs/ImageLoader.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/libs/ProcessingPipeline.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/libs/Preprocessor.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/libs/ModelSerializer.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/NeuralNet/Oli/libs/TrainingLogger.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/FeatureEngineering/extractGlyphes.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/FeatureEngineering/extractFeatures.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/FeatureEngineering/classifier.py
+/home/bew/archive/typed_project/(alex-ta)Fontinator/DataGenerator/libs/WordDict.py

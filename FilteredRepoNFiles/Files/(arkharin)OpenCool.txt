@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/main.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/nodes/CoolPropHeos.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/components/expansion_valve/theoretical.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/components/compressor/theoretical_victor.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/solver.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/postsolvers/postsolver.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/postsolvers/postsolver_v01.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/presolvers/presolver.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/solvers_algorithm/LeastSquares.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/solvers_algorithm/Root.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/solvers/solvers_algorithm/solver_algorithm.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/logic/refrigerants/refrigerant.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/helpers/singleton.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/helpers/properties.py
+/home/bew/archive/typed_project/(arkharin)OpenCool/scr/model/model.py

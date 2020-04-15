@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Message.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/LegoError.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Utilities.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Lego.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Legos/Help.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Legos/TestingConnector.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Connectors/Discord.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/Connectors/IRC.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Legobot/LegoTests/test_TestingConnector.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Test/test_IRC.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Test/test_Lego.py
+/home/bew/archive/typed_project/(bbriggs)Legobot/Test/test_Message.py

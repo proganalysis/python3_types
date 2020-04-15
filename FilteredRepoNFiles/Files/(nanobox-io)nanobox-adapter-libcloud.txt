@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/__init__.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/tasks/__init__.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/__init__.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/controllers/__init__.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/etc/gunicorn.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/utils/models.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/utils/output.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/tasks/azure_arm.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/tasks/azure.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/vultr.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/scaleway.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/gce.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/ovh.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/adapters/packet.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/controllers/keys.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/controllers/servers.py
+/home/bew/archive/typed_project/(nanobox-io)nanobox-adapter-libcloud/nanobox_libcloud/controllers/meta.py

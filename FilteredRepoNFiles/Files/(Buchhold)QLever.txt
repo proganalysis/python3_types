@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(Buchhold)QLever/e2e/queryit.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/broccoli_docs_file_to_orig_text_file.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/compare_performance_only_own.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/create_boxplot_from_compare_out.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/move_language_into_relation.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/clueweb_sentences_to_context_and_orig_files.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/fb_compare_performance.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/wordsfile_to_context_literals.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/broccoli_words_file_to_context_file.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/broccoli_ontology_txt_to_nt.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/fix_nt_file.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/wordsfile_to_nt.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/compare_performance_permutate_queries.py
+/home/bew/archive/typed_project/(Buchhold)QLever/misc/transform_queries.py

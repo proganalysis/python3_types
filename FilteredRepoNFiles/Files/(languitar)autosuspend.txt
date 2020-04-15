@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(languitar)autosuspend/src/autosuspend/util/__init__.py
+/home/bew/archive/typed_project/(languitar)autosuspend/src/autosuspend/checks/__init__.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/__init__.py
+/home/bew/archive/typed_project/(languitar)autosuspend/src/autosuspend/util/ical.py
+/home/bew/archive/typed_project/(languitar)autosuspend/src/autosuspend/util/systemd.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/test_util_systemd.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/test_checks.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/test_util_ical.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/conftest.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/test_checks_util.py
+/home/bew/archive/typed_project/(languitar)autosuspend/tests/test_integration.py

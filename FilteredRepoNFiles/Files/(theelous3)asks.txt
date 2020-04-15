@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(theelous3)asks/asks/__init__.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/sessions.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/utils.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/http_utils.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/auth.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/req_structs.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/base_funcs.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/cookie_utils.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/response_objects.py
+/home/bew/archive/typed_project/(theelous3)asks/asks/errors.py
+/home/bew/archive/typed_project/(theelous3)asks/tests/test_anyio.py
+/home/bew/archive/typed_project/(theelous3)asks/tests/test_request_object.py
+/home/bew/archive/typed_project/(theelous3)asks/tests/test_response_objects.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/test/__init__.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/main.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/encoder.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/util.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/models/typing.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/models/feature.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/models/seqdiff.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/models/base_model_.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/models/error.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/controllers/type_seq_controller.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/controllers/annotate_controller.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/controllers/type_align_controller.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/test/test_type_seq_controller.py
+/home/bew/archive/typed_project/(nmdp-bioinformatics)service-act/swagger_server/test/test_annotate_controller.py

@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/rdl_compiler.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/Common.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/logger.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/parser/CustomErrorListener.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/parser/preproc.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/parser/antlr/SystemRDLListener.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/targets/rtl/rtl_axilite_gen.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/tests/test_parser.py
+/home/bew/archive/typed_project/(robinkjoy)systemrdl-compiler/systemrdlcompiler/tests/conftest.py

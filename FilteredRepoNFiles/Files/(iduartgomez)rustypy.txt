@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/root_module_1.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/root_module_2.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/basics/nested_types.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/basics/primitives.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/firstdir/call_from_first.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rslib/tests/test_package/firstdir/subfirstdir/call_from_subfirst.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rustypy/scripts.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/src/rustypy/rswrapper/ffi_defs.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/tests/test_rs_to_py.py
+/home/bew/archive/typed_project/(iduartgomez)rustypy/tests/test_py_to_rs.py

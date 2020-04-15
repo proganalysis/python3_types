@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(EOSIO)eos/scripts/abi_is_json.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/nodeos_voting_test.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/nodeos_protocol_feature_test.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/p2p_test_peers.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/consensus-validation-malicious-producers.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/p2p_stress.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/nodeos_startup_catchup.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/impaired_network.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/validate-dirty-db.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/WalletMgr.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/nodeos_multiple_version_protocol_feature_test.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/TestHelper.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/lossy_network.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/testUtils.py
+/home/bew/archive/typed_project/(EOSIO)eos/tests/nodeos_under_min_avail_ram.py

@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/doubly_stochastic_dgp/utils.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/doubly_stochastic_dgp/layer_initializations.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/doubly_stochastic_dgp/model_zoo.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/doubly_stochastic_dgp/dgp.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/demos/datasets.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/demos/run_regression.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/tests/test_utils.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/tests/test_collapsed.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/tests/test_dgp.py
+/home/bew/archive/typed_project/(ICL-SML)Doubly-Stochastic-DGP/tests/test_zoo_models.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/setup.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/cache.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/compressors/base.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/compressors/zlib.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/compressors/lzma.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/compressors/identity.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/serializers/json.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/serializers/pickle.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/django_asyncio_redis/serializers/msgpack.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/tests/runner.py
+/home/bew/archive/typed_project/(mackeyja92)django-asyncio-redis/tests/testapp/tests.py

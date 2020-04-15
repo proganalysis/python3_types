@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/run_tests.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_service_cluster.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_zero_buffer_size.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_soap_fault.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_outputspec.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_limited_operational_data_response.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_get_metadata.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_metaservices.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_attachments.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/integration/testcases/test_time_interval.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/misc/test_bulk_operational_data.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/zabbix_api/examples/zabbix/import_sample_host.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/src/systemtest/op-monitoring/zabbix_api/examples/zabbix/configure_hosts.py
+/home/bew/archive/typed_project/(vrk-kpa)X-Road/ansible/roles/xroad-ca/files/home/ca/TSA/tsa_server.py

@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/create_poster.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/scripts/bump_year.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/utils.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/poster.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/track.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/xy.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/value_range.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/track_loader.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/gpxtrackposter/year_range.py
+/home/bew/archive/typed_project/(laufhannes)GpxTrackPoster/tests/test_utils.py

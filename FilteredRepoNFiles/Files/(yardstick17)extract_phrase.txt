@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/nlp/chunker.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/nlp/pos_tagger.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/nlp/pattern_grammer.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/nlp/main.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/nlp/string_cleaner.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/tests/nlp/test_pattern_grammar.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/tests/nlp/test_string_cleaner.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/tests/nlp/test_chunker.py
+/home/bew/archive/typed_project/(yardstick17)extract_phrase/tests/nlp/test_pos_tagger.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/aho_corasick/__init__.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/qc/__init__.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/tests/__init__.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/utils.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/metadata.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/subtyping_params.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/subtype_stats.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/subtype.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/parsers.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/bio_hansel/qc/checks.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/tests/test_metadata.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/tests/test_qc_utils.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/tests/test_qc.py
+/home/bew/archive/typed_project/(phac-nml)bio_hansel/tests/test_subtyping_processing.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/setup.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/ethereum_cli.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/ethereumd/utils.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/ethereumd/poller.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/ethereumd/server.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/base.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/test_utils.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/fakers.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/test_server.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/test_poller.py
+/home/bew/archive/typed_project/(DeV1doR)ethereumd-proxy/tests/test_proxy.py

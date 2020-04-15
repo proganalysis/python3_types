@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(item4)item4.net/api/admin.py
+/home/bew/archive/typed_project/(item4)item4.net/api/models.py
+/home/bew/archive/typed_project/(item4)item4.net/api/views.py
+/home/bew/archive/typed_project/(item4)item4.net/api/users/viewsets.py
+/home/bew/archive/typed_project/(item4)item4.net/api/auth/fields.py
+/home/bew/archive/typed_project/(item4)item4.net/api/auth/serializers.py
+/home/bew/archive/typed_project/(item4)item4.net/api/auth/adapter.py
+/home/bew/archive/typed_project/(item4)item4.net/tests/conftest.py
+/home/bew/archive/typed_project/(item4)item4.net/tests/models/user_test.py
+/home/bew/archive/typed_project/(item4)item4.net/tests/views/auth_test.py
+/home/bew/archive/typed_project/(item4)item4.net/tests/views/index_test.py
+/home/bew/archive/typed_project/(item4)item4.net/tests/views/users_test.py

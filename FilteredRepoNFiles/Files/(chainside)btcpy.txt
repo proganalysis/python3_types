@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/setup.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/constants.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/base58.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/opcodes.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/parsing.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/bech32.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/types.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/lib/codecs.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/structs/address.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/structs/crypto.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/structs/block.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/structs/sig.py
+/home/bew/archive/typed_project/(chainside)btcpy/btcpy/structs/hd.py
+/home/bew/archive/typed_project/(chainside)btcpy/tests/regtest.py

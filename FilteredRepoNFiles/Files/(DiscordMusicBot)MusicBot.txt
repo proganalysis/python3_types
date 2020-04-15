@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/__init__.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/run.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/playlist.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/utils.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/entry.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/downloader.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/constructs.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/config.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/opus_loader.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/permissions.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/exceptions.py
+/home/bew/archive/typed_project/(DiscordMusicBot)MusicBot/musicbot/lib/event_emitter.py

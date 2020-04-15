@@ -1,0 +1,6 @@
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/websocket/__init__.py
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/socketcan/__init__.py
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/adapters/can-udp.py
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/adapters/websocketcan-server.py
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/adapters/can-http.py
+/home/bew/archive/typed_project/(bggardner)canopen-rpi/socketcanopen/indicators.py

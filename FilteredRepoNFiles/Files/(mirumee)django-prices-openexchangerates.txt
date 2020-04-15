@@ -1,0 +1,5 @@
+/home/bew/archive/typed_project/(mirumee)django-prices-openexchangerates/django_prices_openexchangerates/__init__.py
+/home/bew/archive/typed_project/(mirumee)django-prices-openexchangerates/django_prices_openexchangerates/models.py
+/home/bew/archive/typed_project/(mirumee)django-prices-openexchangerates/django_prices_openexchangerates/tasks.py
+/home/bew/archive/typed_project/(mirumee)django-prices-openexchangerates/django_prices_openexchangerates/management/commands/update_exchange_rates.py
+/home/bew/archive/typed_project/(mirumee)django-prices-openexchangerates/tests/test_openexchangerates.py

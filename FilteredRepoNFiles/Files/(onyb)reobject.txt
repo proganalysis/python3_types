@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(onyb)reobject/reobject/utils.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/transaction.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/models/fields.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/models/model.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/models/manager.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/query/queryset.py
+/home/bew/archive/typed_project/(onyb)reobject/reobject/query/parser.py
+/home/bew/archive/typed_project/(onyb)reobject/examples/singleton.py
+/home/bew/archive/typed_project/(onyb)reobject/examples/prototype.py
+/home/bew/archive/typed_project/(onyb)reobject/examples/flyweight.py
+/home/bew/archive/typed_project/(onyb)reobject/examples/flux.py
+/home/bew/archive/typed_project/(onyb)reobject/examples/facade.py
+/home/bew/archive/typed_project/(onyb)reobject/tests/unit/test_manager.py
+/home/bew/archive/typed_project/(onyb)reobject/tests/unit/test_queryset.py
+/home/bew/archive/typed_project/(onyb)reobject/tests/unit/test_Q.py
+/home/bew/archive/typed_project/(onyb)reobject/tests/unit/test_transaction.py

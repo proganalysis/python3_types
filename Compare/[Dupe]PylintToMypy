@@ -1,0 +1,67 @@
+----- Pylint -> Mypy -----
+abstract-class-instantiated 5/97
+  [['valid-type', 2], ['abstract', 2], ['assignment', 1]]
+access-member-before-definition 25/485
+  [['has-type', 24], ['attr-defined', 1]]
+assignment-from-none 1/85
+  [['func-returns-value', 1]]
+catching-non-exception 4/13
+  [['misc', 4]]
+duplicate-argument-name 2/22
+  [['syntax', 2]]
+function-redefined 230/1850
+  [['no-redef', 193], ['valid-type', 20], ['misc', 8], ['syntax', 5], ['name-defined', 4]]
+import-error 182/170405
+  [['misc', 121], ['attr-defined', 57], ['no-redef', 4]]
+inconsistent-mro 3/8
+  [['misc', 3]]
+inherit-non-class 5/129
+  [['misc', 3], ['valid-type', 2]]
+invalid-all-object 6/16
+  [['misc', 6]]
+invalid-unary-operand-type 8/217
+  [['operator', 8]]
+method-hidden 9/301
+  [['no-redef', 7], ['misc', 2]]
+no-member 2492/108258
+  [['attr-defined', 1888], ['name-defined', 272], ['has-type', 176], ['call-arg', 52], ['arg-type', 31], ['assignment', 27], ['misc', 14], ['valid-type', 12], ['operator', 7], ['no-redef', 3], ['union-attr', 2], ['syntax', 2], ['return-value', 2], ['call-overload', 2], ['var-annotated', 1], ['list-item', 1]]
+no-method-argument 67/414
+  [['misc', 66], ['return', 1]]
+no-name-in-module 29801/100081
+  [['attr-defined', 29799], ['no-redef', 2]]
+no-self-argument 60/1322
+  [['misc', 33], ['valid-type', 25], ['override', 1], ['no-redef', 1]]
+no-value-for-parameter 99/3369
+  [['call-arg', 66], ['attr-defined', 11], ['name-defined', 8], ['arg-type', 6], ['assignment', 4], ['misc', 2], ['call-overload', 1], ['abstract', 1]]
+not-an-iterable 5/327
+  [['attr-defined', 4], ['misc', 1]]
+not-callable 32/3879
+  [['operator', 18], ['misc', 7], ['attr-defined', 6], ['call-arg', 1]]
+raising-bad-type 1/119
+  [['misc', 1]]
+relative-beyond-top-level 2832/23819
+  [['misc', 2816], ['attr-defined', 16]]
+return-outside-function 3/10
+  [['name-defined', 2], ['misc', 1]]
+syntax-error 224/4571
+  [['syntax', 224]]
+too-few-format-args 15/54
+  [['str-format', 15]]
+too-many-format-args 127/306
+  [['str-format', 127]]
+too-many-function-args 28/534
+  [['call-arg', 14], ['name-defined', 12], ['misc', 1], ['attr-defined', 1]]
+undefined-variable 13067/62781
+  [['name-defined', 12767], ['no-redef', 165], ['valid-type', 60], ['misc', 26], ['attr-defined', 20], ['str-format', 9], ['return', 5], ['assignment', 4], ['union-attr', 3], ['index', 2], ['call-arg', 2], ['operator', 1], ['has-type', 1], ['func-returns-value', 1], ['call-overload', 1]]
+unexpected-keyword-arg 42/1451
+  [['arg-type', 23], ['call-arg', 11], ['call-overload', 6], ['name-defined', 1], ['misc', 1]]
+unpacking-non-sequence 1/76
+  [['misc', 1]]
+unsubscriptable-object 68/1542
+  [['index', 65], ['valid-type', 1], ['call-overload', 1], ['attr-defined', 1]]
+unsupported-assignment-operation 3/206
+  [['index', 2], ['valid-type', 1]]
+unsupported-membership-test 3/183
+  [['operator', 3]]
+used-before-assignment 21/717
+  [['has-type', 9], ['name-defined', 8], ['misc', 3], ['operator', 1]]

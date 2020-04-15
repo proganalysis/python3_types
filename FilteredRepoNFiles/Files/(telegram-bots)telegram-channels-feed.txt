@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/run.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/utils.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/bot.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/service/settings.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/service/subscriptions.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/exception/settings_exception.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/exception/subscription_exception.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/component/config.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/component/db.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/domain/command.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/domain/callback.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/repository/channel_repository.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/repository/subscription_repository.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/repository/user_repository.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/handler/callback_handler.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/handler/command_handler.py
+/home/bew/archive/typed_project/(telegram-bots)telegram-channels-feed/bot/src/handler/commands/base.py

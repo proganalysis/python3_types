@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/__init__.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/travis_pypi_setup.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/utils.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/dummy.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/validators.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/outgoing.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/events.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/ovh.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/twilio.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/pyramid_sms/interfaces.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/tests/test_valid.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/tests/test_normalize.py
+/home/bew/archive/typed_project/(websauna)pyramid_sms/tests/test_pyramid_sms.py

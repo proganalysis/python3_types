@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(osantana)prettyconf/setup.py
+/home/bew/archive/typed_project/(osantana)prettyconf/prettyconf/configuration.py
+/home/bew/archive/typed_project/(osantana)prettyconf/prettyconf/loaders.py
+/home/bew/archive/typed_project/(osantana)prettyconf/prettyconf/casts.py
+/home/bew/archive/typed_project/(osantana)prettyconf/prettyconf/parsers.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/base.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_commandline.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_filediscover.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_envfile.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_cfgfile.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_config.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_envvar.py
+/home/bew/archive/typed_project/(osantana)prettyconf/tests/test_casts.py

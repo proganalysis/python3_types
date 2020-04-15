@@ -1,0 +1,5 @@
+/home/bew/archive/typed_project/(derfenix)django_stored_procedures/django_sp/__init__.py
+/home/bew/archive/typed_project/(derfenix)django_stored_procedures/django_sp/management/commands/upload_sp.py
+/home/bew/archive/typed_project/(derfenix)django_stored_procedures/django_sp/tests/base.py
+/home/bew/archive/typed_project/(derfenix)django_stored_procedures/django_sp/tests/test_loader.py
+/home/bew/archive/typed_project/(derfenix)django_stored_procedures/django_sp/tests/test_rest_framework_helper.py

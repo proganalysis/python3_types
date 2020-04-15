@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(urda)nistbeacon/scripts/version_manager.py
+/home/bew/archive/typed_project/(urda)nistbeacon/nistbeacon/nistbeaconvalue.py
+/home/bew/archive/typed_project/(urda)nistbeacon/nistbeacon/nistbeacon.py
+/home/bew/archive/typed_project/(urda)nistbeacon/nistbeacon/nistbeaconcrypto.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/integration/nistbeacon/test_cert_boundaries.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/integration/nistbeacon/test_nistbeacon.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/test_nistbeaconcrypto.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/test_nistbeaconcrypto_chainchecks.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/nistbeaconvalue/test_properties.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/nistbeaconvalue/test_xml.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/nistbeaconvalue/test_comparison_methods.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/nistbeaconvalue/test_pseudo_random.py
+/home/bew/archive/typed_project/(urda)nistbeacon/tests/unit/nistbeacon/nistbeaconvalue/test_json.py

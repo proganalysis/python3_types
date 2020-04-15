@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/context.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/registry.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/events.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/extras_providers.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/serializers.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/asphalt/wamp/component.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/examples/rpc/client.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/examples/rpc/server.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/examples/pubsub/publisher.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/examples/pubsub/subscriber.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/test_serializers.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/test_registry.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/test_context.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/test_events.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/test_component.py
+/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/tests/conftest.py

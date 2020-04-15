@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/__init__.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/nlp.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/models.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/generation.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/commands.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/dogma.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/parsing.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/cfg.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/prosaic/util.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/test/cli_test.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/test/nlp_test.py
+/home/bew/archive/typed_project/(nathanielksmith)prosaic/test/cfgfile.py

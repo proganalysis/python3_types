@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/base.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/auth.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/request_factory.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/data.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/configuration.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/orm/api_model.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/orm/registry.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/orm/fields.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/orm/api.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/jsonapi_requests/orm/repositories.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/tests/test_data.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/tests/test_auth.py
+/home/bew/archive/typed_project/(socialwifi)jsonapi-requests/tests/test_request_factory.py

@@ -1,0 +1,14 @@
+/home/bew/archive/typed_project/(ekeih)OmNomNom/setup.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/canteens/canteen.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/canteens/cafenero.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/canteens/studierendenwerk.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/canteens/singh.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/canteens/personalkantine.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/utils/studierendenwerk_get_ids.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/frontend/frontend.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/backend/backend.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/stats/tasks.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/tests/test_canteen.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/tests/test_frontend.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/tests/test_cafenero.py
+/home/bew/archive/typed_project/(ekeih)OmNomNom/tests/test_studierendenwerk.py

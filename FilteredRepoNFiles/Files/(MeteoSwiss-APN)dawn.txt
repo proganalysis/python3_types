@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/scripts/refactor/update-header.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/scripts/cmake/FindClangGenDeps.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/python/dawn/sir_printer.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/python/dawn/test_sir.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/docs/_extension/cmake.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/docs/_extension/edit_on_github.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/docs/proto2cpp/proto2cpp.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/examples/python/hori_diff.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/examples/python/tridiagonal_solve.py
+/home/bew/archive/typed_project/(MeteoSwiss-APN)dawn/examples/python/copy_stencil.py

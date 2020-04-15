@@ -1,0 +1,10 @@
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/admin/release.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/src/vws/query.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/src/vws/_result_codes.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/src/vws/exceptions.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/src/vws/_authorization.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/tests/test_query.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/tests/test_exceptions.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/tests/test_meta.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/tests/conftest.py
+/home/bew/archive/typed_project/(adamtheturtle)vws-python/tests/fixtures/images.py

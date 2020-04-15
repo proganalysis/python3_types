@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(mynlp)jigg/python/pyjigg/pipeline.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/basetest.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/comparison.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/example_test.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/syntaxnet/test_syntaxnet.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/benepar/test_benepar.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/udpipe/test_udpipe_parse.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/udpipe/test_udpipe_tokenize.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/corenlp/test_ssplit.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/corenlp/test_tokenize.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/mecab/test_mecab.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/juman/test_juman.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/depccg/test_depccg_ccg.py
+/home/bew/archive/typed_project/(mynlp)jigg/.checker/tests/cabocha/test_cabocha.py
+/home/bew/archive/typed_project/(mynlp)jigg/src/main/resources/python/_depccg.py
+/home/bew/archive/typed_project/(mynlp)jigg/src/main/resources/python/bene_par.py

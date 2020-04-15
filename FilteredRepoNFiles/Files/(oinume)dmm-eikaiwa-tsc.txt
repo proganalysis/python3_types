@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/setup.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/app.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/migration/env.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/migration/versions/b237d39155_create_teacher_table.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/migration/versions/b4001f70c_create_schedule_table.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tsc/tracker.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tsc/fetcher.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tsc/models.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tsc/log.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tsc/mailer.py
+/home/bew/archive/typed_project/(oinume)dmm-eikaiwa-tsc/tests/test_models.py

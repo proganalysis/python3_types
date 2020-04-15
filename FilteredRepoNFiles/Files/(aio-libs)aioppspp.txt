@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/channel_ids.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/connector.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/udp.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/connection.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/utils.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_messages.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/strategies.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_connector.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_datagrams.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_udp.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_address.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_ppspp.py
+/home/bew/archive/typed_project/(aio-libs)aioppspp/aioppspp/tests/test_connection.py

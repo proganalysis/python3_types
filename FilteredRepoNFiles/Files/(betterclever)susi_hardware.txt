@@ -1,0 +1,17 @@
+/home/bew/archive/typed_project/(betterclever)susi_hardware/config_generator.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/susi_state_machine.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/idle_state.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/error_state.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/busy_state.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/recognizing_state.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/states/base_state.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/renderer/configuration_window.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/renderer/login_window.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/hotword_engine/snowboy_detector.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/hotword_engine/hotword_detector.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/hotword_engine/sphinx_detector.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/speech/TTS.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/hardware_components/wake_button.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/main/hardware_components/rpi_wake_button.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/utils/websocket_utils.py
+/home/bew/archive/typed_project/(betterclever)susi_hardware/tests/test_api_interaction.py

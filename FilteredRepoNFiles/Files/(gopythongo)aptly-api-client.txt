@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/base.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/client.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/repos.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/snapshots.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/packages.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/misc.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/publish.py
+/home/bew/archive/typed_project/(gopythongo)aptly-api-client/aptly_api/parts/files.py

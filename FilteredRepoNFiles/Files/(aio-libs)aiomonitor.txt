@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/setup.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/aiomonitor/utils.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/aiomonitor/cli.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/examples/web_srv.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/examples/simple_aiohttp_srv.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/examples/web_srv_custom_monitor.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/tests/test_monitor.py
+/home/bew/archive/typed_project/(aio-libs)aiomonitor/tests/conftest.py

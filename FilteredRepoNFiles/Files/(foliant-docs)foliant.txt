@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/cli/__init__.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/utils.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/backends/base.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/backends/pre.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/config/path.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/config/include.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/cli/make.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/foliant/preprocessors/_unescape.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/tests/test_pre.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/tests/test_utils.py
+/home/bew/archive/typed_project/(foliant-docs)foliant/tests/test_unescape.py

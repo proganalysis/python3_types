@@ -1,0 +1,8 @@
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/conftest.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/ballots/models.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/voters/helpers.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/voters/managers.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/voters/management/commands/send_reminder_emails.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/config/urls.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/core/views.py
+/home/bew/archive/typed_project/(citizenlabsgr)voter-engagement/api/core/management/commands/gendata.py

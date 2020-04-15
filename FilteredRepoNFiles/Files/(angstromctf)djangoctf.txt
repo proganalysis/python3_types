@@ -1,0 +1,9 @@
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/handlers.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/utils.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/models.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/views.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/management/commands/report.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/management/commands/emailusers.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/management/commands/importproblems.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/management/commands/exportshellusers.py
+/home/bew/archive/typed_project/(angstromctf)djangoctf/api/management/commands/fixscores.py

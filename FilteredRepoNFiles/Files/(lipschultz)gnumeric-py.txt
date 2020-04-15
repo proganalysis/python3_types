@@ -1,0 +1,12 @@
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/__init__.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/manual_tests.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/utils.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/cell.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/expression.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/expression_evaluation.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/exceptions.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/evaluation_errors.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/formula_functions/argument_helpers.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/formula_functions/statistics.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/gnumeric/formula_functions/mathematics.py
+/home/bew/archive/typed_project/(lipschultz)gnumeric-py/tests/workbook.py

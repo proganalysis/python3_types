@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(jsandovalc)poster/setup.py
+/home/bew/archive/typed_project/(jsandovalc)poster/conftest.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/__main__.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/app.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/routes.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/users/db_utils.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/users/tests/test_db_utils.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/main/views.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/main/tests/test_views.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/utils/common.py
+/home/bew/archive/typed_project/(jsandovalc)poster/poster/migrations/env.py

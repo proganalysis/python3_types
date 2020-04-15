@@ -1,0 +1,175 @@
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/shelve_EXAMPLE.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/portscan.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/scptransfer.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/testNoHttpResponseException.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/2AXtranstoSTR.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/decorate_demo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/hash_encrypt.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/checkWeixinApi.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/downloadFileWithUrllib.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/getopt_ex.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/pydaemon2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/ClearDupDictItem.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/generator_funtool_demo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PIL/identifying code.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PIL/pic2ascill.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PIL/identifying code2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/sqlite3_isolation_levels_demo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/sqlalchemy1.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/pyMysqlLoginMonitor.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/MysqlLoginMonitor.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/sqlalchemy_comprehensive.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/pySelectMysqlWithGevent.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mysql/sqlalchemy2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/redis/RedisPubSYS.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/redis/redis_hash_del.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/redis/Redis_sub.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mongo/pymongo_control2_bulkinsert.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mongo/pymongoconn.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/mongo/pymongo_control1.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/rabbitmq/rabbitmqexchangerecv_topic.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/rabbitmq/rabbitmqexchangerecv_direct.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/rabbitmq/rabbitmqexchangerecv_topic2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/rabbitmq/rabbitmqrecv.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/sql/rabbitmq/rabbitmqexchangerecv_fanout.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process/process_percent.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process/pyCrontabKillProcess.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process_thread/MultiprocessingPool.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process_thread/MultiprocessingCommunicateByQueue.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process_thread/MultiprocessingCommunicateByManger.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/process_thread/MultiprocessingCommunicateByPipe.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PythonDraw/FLAG.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PythonDraw/line.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/PythonDraw/heart.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/downloads-redis/downloads/test.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/cdb_backup_to_cos/main.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/tarfile_exec.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/backupSmallFileToTarToLocal.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/backupfiles.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/findfileindir.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/datafilter.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/backupLargeFilesToLocal.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/CompactZip.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/readlinetofile.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/site-db-backup.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/firewalls.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelApi.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/common.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/tomcat.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelSSL.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/data.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/ftp.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelSafe.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelPing.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/vilidate.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelMysql.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelPort.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/crontab.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/db.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/panelWaf.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/page.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/FileSystem/BTpanel/btclass/firewalld.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/other/tcpserver/Server2Multclient/client.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/other/tcpserver/Server2Multclient/server.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/other/tcpserver/one2onebystruct/Client.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/Mysql_Status_py/Monitor_Mysql.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/emailOps/alterscript_msmtp_public.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/emailOps/alterscript_msmtp.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/emailOps/sendemail.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/choose_opt/exceptionbox.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/choose_opt/askUserAnswerYesNo2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/choose_opt/askUserAnswerYesNo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/simplehttp.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/runner.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/import_utils.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/monitor.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/backend/console.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/backend/smtpconnection.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/url_monitor/backend/mail.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/batch_url_alert/test/monitor_test.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/algorithm/Joseph Queue.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/algorithm/linklist.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/python/algorithm/ReverseList.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/salt/ceph/ceph/latency.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/curlHttpHealthCheck.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/check_if_executable_exists.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/ini_operate.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locustcircle_url_test.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locustcircle_url_test2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locustlogintest.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locustcircle_url_test3.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locust_mult_task.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/locust/locustbasictest.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Scheduler/TimeScheduler.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Scheduler/APScheduler_Mongo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Scheduler/APScheduler2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Scheduler/APScheduler1.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Scheduler/APScheduler_sqlalchemy.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-csdncontent-download.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/zachcrwallib.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/urllibrequest.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/laughEncyclopedia-download.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/urllib+gevent.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider1-picwget163.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/urllib+gevent-sample.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider2-picwget163-multtheading.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-cnblog-content.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-csdnblog-getlist.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-movieinfo-download.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-zhilianzhaoping.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider-byg-getlist.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/urlfetchANDcolor/webspider3-blockdownload699pic.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/excel/csv_control.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/cdb_backup_to_cos/getcdbbakurl.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/cdb_backup_to_cos/uploadcos.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/cdb_backup_to_cos/loghelper.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/xml_json.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/xmlsaxparser.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/html2text.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/check_xml_file.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/make_html_skeleton.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/xml_json_yaml/yaml_json.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/Log-template.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/warning_mod_customize.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/pythonLogging.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/logging.yaml_parse.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/LoggerWithRotate.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/logging2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/logging3_sub.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/logging and warning/logging.json_parse.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/emptyRecycleBin.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/cmd_exec_in_DOUB_SYSTEM.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/rmDirectory.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/RandomUserAndPassword.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/DNS/dns2ipINFO.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/systemmange/DNS/dnsresolver.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/file_service/untar.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/getLocalIP_M3.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/ipaddr_getresult.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/Hostinfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/detectfreedisk.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/unixinfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/basicinfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/getPublicIPAddress.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/getip_linux.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/humanreadsize.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/wininfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/getLocalIP（hard）.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/unixtool/meminfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/unixtool/diskinfo2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/unixtool/cpuinfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Serverinfo/unixtool/diskinfo.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Mission/OnlineCheckState.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Mission/HistoryCheckstate.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/mailsystem/sendEmail.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/mailsystem/ZachMaillib/smtplib_text163.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/mailsystem/ZachMaillib/poplib_sys.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/mailsystem/ZachMaillib/smtplib_combine.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/mailsystem/ZachMaillib/SmtpSystem.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Data-filter/diffSyncandAsync.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Data-filter/stripcommentline.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Fabric and pexpect/fabfile.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Fabric and pexpect/fabfile3.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Fabric and pexpect/fabfile2.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Fabric and pexpect/pyexpect-sshtun.py
+/home/bew/archive/typed_project/(WZQ1397)automatic-repo/project/Fabric and pexpect/pyexpect.py

@@ -1,0 +1,11 @@
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/fabfile.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/main.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/utils.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/evaluateMLP.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/trainMLP.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/bow_vgg_baseline.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/features.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/preprocess.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/model/vqa_model.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/model/language_models.py
+/home/bew/archive/typed_project/(AndreiBarsan)visualqa/visualqa/model/image_models.py

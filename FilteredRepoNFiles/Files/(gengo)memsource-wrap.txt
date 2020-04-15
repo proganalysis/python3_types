@@ -1,0 +1,15 @@
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/__init__.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/setup.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/memsource/models.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/memsource/exceptions.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/memsource/lib/mxliff.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/test_memsource.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/models/test_asynchronous_response.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/lib/mxliff/test_mxliff_parser.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_client.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_language.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_term_base.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_analysis.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_base_api.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_domain.py
+/home/bew/archive/typed_project/(gengo)memsource-wrap/test/api/test_project.py

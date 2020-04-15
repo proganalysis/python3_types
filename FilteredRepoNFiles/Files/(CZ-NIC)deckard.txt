@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(CZ-NIC)deckard/rplint.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/conftest.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/deckard_pytest.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/sets/resolver/rfc5011/dns2rpl.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/tools/parse.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/tools/invalid_dsa.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/tools/network_check.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/tools/answer_checker.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/matchpart.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/testserver.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/augwrap.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/mock_client.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/tests/test_parse_config.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/pydnstest/tests/test_scenario.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/ci/junit-compare.py
+/home/bew/archive/typed_project/(CZ-NIC)deckard/tests/test_deckard.py

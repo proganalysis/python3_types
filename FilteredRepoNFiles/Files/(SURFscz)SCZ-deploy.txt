@@ -1,0 +1,6 @@
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/scripts/surf-check-env.py
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/callback_plugins/summary_by_role.py
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/filter_plugins/ldap_escape.py
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/filter_plugins/listutils.py
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/filter_plugins/hashes.py
+/home/bew/archive/typed_project/(SURFscz)SCZ-deploy/filter_plugins/certificates.py

@@ -1,0 +1,16 @@
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/circleci.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/aiopipe.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/update_pinnings.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/gitter.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/cran_skeleton.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/bot/worker.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/bot/config.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/bioconda_utils/bot/views.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/docs/source/conf.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/test_recipe.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/helpers.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/test_lint.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/conftest.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/test_bioconductor_skeleton.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/test_hosters.py
+/home/bew/archive/typed_project/(bioconda)bioconda-utils/test/test_pkg_test.py

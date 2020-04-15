@@ -1,0 +1,13 @@
+/home/bew/archive/typed_project/(jromang)picochess/dispatcher.py
+/home/bew/archive/typed_project/(jromang)picochess/pgn.py
+/home/bew/archive/typed_project/(jromang)picochess/utilities.py
+/home/bew/archive/typed_project/(jromang)picochess/timecontrol.py
+/home/bew/archive/typed_project/(jromang)picochess/uci/engine.py
+/home/bew/archive/typed_project/(jromang)picochess/uci/write.py
+/home/bew/archive/typed_project/(jromang)picochess/uci/read.py
+/home/bew/archive/typed_project/(jromang)picochess/uci/informer.py
+/home/bew/archive/typed_project/(jromang)picochess/build/books.py
+/home/bew/archive/typed_project/(jromang)picochess/build/voices.py
+/home/bew/archive/typed_project/(jromang)picochess/dgt/iface.py
+/home/bew/archive/typed_project/(jromang)picochess/dgt/hw.py
+/home/bew/archive/typed_project/(jromang)picochess/dgt/pi.py

@@ -1,0 +1,57 @@
+----- Pytype -> Pylint -----
+attribute-error 7950/39332
+  [['no-member', 7632], ['undefined-variable', 144], ['not-an-iterable', 35], ['access-member-before-definition', 24], ['unpacking-non-sequence', 22], ['not-context-manager', 15], ['assignment-from-no-return', 15], ['unexpected-keyword-arg', 10], ['no-value-for-parameter', 10], ['not-callable', 7], ['not-async-context-manager', 7], ['misplaced-format-function', 7], ['unsubscriptable-object', 6], ['too-many-function-args', 5], ['bad-super-call', 5], ['used-prior-global-declaration', 1], ['unsupported-delete-operation', 1], ['too-many-format-args', 1], ['raising-bad-type', 1], ['function-redefined', 1], ['abstract-class-instantiated', 1]]
+bad-return-type 12/2851
+  [['undefined-variable', 7], ['no-self-argument', 2], ['not-async-context-manager', 1], ['no-method-argument', 1], ['no-member', 1]]
+base-class-error 9/28
+  [['inherit-non-class', 9]]
+duplicate-keyword-argument 11/115
+  [['redundant-keyword-arg', 9], ['too-many-function-args', 1], ['no-value-for-parameter', 1]]
+ignored-abstractmethod 3/404
+  [['undefined-variable', 1], ['no-member', 1], ['invalid-metaclass', 1]]
+ignored-metaclass 1/227
+  [['inconsistent-mro', 1]]
+ignored-type-comment 20/233
+  [['syntax-error', 20]]
+invalid-annotation 74/2784
+  [['no-self-argument', 24], ['function-redefined', 18], ['no-member', 17], ['undefined-variable', 9], ['used-before-assignment', 4], ['unsubscriptable-object', 1], ['syntax-error', 1]]
+invalid-function-type-comment 3/119
+  [['syntax-error', 3]]
+invalid-type-comment 6/490
+  [['no-member', 6]]
+invalid-typevar 8/416
+  [['undefined-variable', 4], ['assignment-from-no-return', 3], ['no-member', 1]]
+key-error 17/824
+  [['no-member', 13], ['undefined-variable', 3], ['unsubscriptable-object', 1]]
+missing-parameter 385/706
+  [['no-value-for-parameter', 347], ['missing-kwoa', 14], ['undefined-variable', 4], ['not-an-iterable', 4], ['no-member', 4], ['unsupported-delete-operation', 2], ['unsupported-assignment-operation', 2], ['unsubscriptable-object', 2], ['function-redefined', 2], ['unsupported-membership-test', 1], ['too-many-function-args', 1], ['raising-non-exception', 1], ['not-callable', 1]]
+module-attr 1986/5814
+  [['no-member', 1808], ['import-error', 77], ['no-name-in-module', 71], ['undefined-variable', 18], ['not-callable', 5], ['no-value-for-parameter', 4], ['assignment-from-no-return', 3]]
+mro-error 9/312
+  [['inconsistent-mro', 5], ['catching-non-exception', 4]]
+name-error 40286/49702
+  [['undefined-variable', 39427], ['no-member', 412], ['used-before-assignment', 157], ['not-callable', 118], ['no-value-for-parameter', 42], ['function-redefined', 32], ['too-many-function-args', 22], ['unsubscriptable-object', 20], ['too-many-format-args', 15], ['unexpected-keyword-arg', 10], ['assignment-from-no-return', 6], ['unsupported-assignment-operation', 5], ['no-method-argument', 5], ['not-an-iterable', 4], ['access-member-before-definition', 3], ['syntax-error', 2], ['invalid-unary-operand-type', 2], ['not-context-manager', 1], ['no-self-argument', 1], ['import-error', 1], ['assignment-from-none', 1]]
+not-callable 384/740
+  [['not-callable', 280], ['notimplemented-raised', 79], ['undefined-variable', 21], ['not-an-iterable', 2], ['not-a-mapping', 1], ['no-member', 1]]
+not-indexable 6/76
+  [['unsubscriptable-object', 6]]
+not-instantiable 18/69
+  [['abstract-class-instantiated', 15], ['no-member', 3]]
+not-supported-yet 1/203
+  [['unexpected-keyword-arg', 1]]
+not-writable 17/372
+  [['assigning-non-slot', 11], ['no-member', 5], ['undefined-variable', 1]]
+pyi-error 29/1054
+  [['import-error', 14], ['no-name-in-module', 10], ['unsubscriptable-object', 3], ['no-member', 2]]
+python-compiler-error 3592/6470
+  [['syntax-error', 3447], ['no-name-in-module', 84], ['undefined-variable', 11], ['relative-beyond-top-level', 10], ['duplicate-argument-name', 10], ['return-outside-function', 8], ['not-in-loop', 6], ['yield-inside-async-function', 5], ['nonlocal-without-binding', 4], ['function-redefined', 3], ['continue-in-finally', 2], ['yield-outside-function', 1], ['not-an-iterable', 1]]
+reveal-type 2/2
+  [['undefined-variable', 2]]
+unsupported-operands 494/3296
+  [['unsubscriptable-object', 192], ['unsupported-assignment-operation', 94], ['no-member', 49], ['undefined-variable', 42], ['unsupported-delete-operation', 36], ['invalid-sequence-index', 36], ['unsupported-membership-test', 34], ['invalid-unary-operand-type', 9], ['used-before-assignment', 1], ['no-value-for-parameter', 1]]
+wrong-arg-count 161/964
+  [['too-many-function-args', 129], ['undefined-variable', 11], ['no-member', 9], ['raising-non-exception', 5], ['not-callable', 5], ['no-value-for-parameter', 1], ['bad-super-call', 1]]
+wrong-arg-types 124/4728
+  [['no-member', 43], ['undefined-variable', 30], ['bad-reversed-sequence', 22], ['invalid-envvar-value', 19], ['too-many-function-args', 4], ['unsubscriptable-object', 2], ['bad-super-call', 2], ['used-before-assignment', 1], ['access-member-before-definition', 1]]
+wrong-keyword-args 96/381
+  [['unexpected-keyword-arg', 65], ['no-value-for-parameter', 23], ['too-many-function-args', 3], ['no-member', 3], ['unsubscriptable-object', 1], ['undefined-variable', 1]]
