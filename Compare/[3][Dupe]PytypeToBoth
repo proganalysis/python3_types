@@ -1,0 +1,66 @@
+----- Pytype -> [Pylint, Mypy] -----
+attribute-error 397/47366
+  [['no-member', 'attr-defined', 371], ['undefined-variable', 'name-defined', 4], ['no-member', 'name-defined', 4], ['access-member-before-definition', 'has-type', 4], ['undefined-variable', 'union-attr', 3], ['no-member', 'valid-type', 2], ['no-member', 'has-type', 2], ['no-member', 'call-overload', 2], ['not-an-iterable', 'attr-defined', 2], ['access-member-before-definition', 'attr-defined', 2], ['undefined-variable', 'attr-defined', 1]]
+bad-return-type 2/3056
+  [['undefined-variable', 'name-defined', 1], ['no-method-argument', 'misc', 1]]
+ignored-abstractmethod 2/970
+  [['undefined-variable', 'name-defined', 2]]
+ignored-metaclass 1/241
+  [['inconsistent-mro', 'misc', 1]]
+ignored-type-comment 13/239
+  [['syntax-error', 'syntax', 13]]
+invalid-annotation 85/3489
+  [['no-self-argument', 'valid-type', 38], ['no-self-argument', 'misc', 29], ['function-redefined', 'syntax', 9], ['function-redefined', 'valid-type', 4], ['no-member', 'syntax', 2], ['undefined-variable', 'name-defined', 1], ['used-before-assignment', 'misc', 1], ['undefined-variable', 'misc', 1]]
+missing-parameter 55/775
+  [['no-value-for-parameter', 'call-arg', 47], ['no-value-for-parameter', 'misc', 2], ['no-value-for-parameter', 'arg-type', 2], ['no-value-for-parameter', 'call-overload', 1], ['no-value-for-parameter', 'attr-defined', 1], ['no-member', 'attr-defined', 1], ['no-value-for-parameter', 'abstract', 1]]
+module-attr 179/6316
+  [['no-member', 'attr-defined', 113], ['no-member', 'name-defined', 63], ['no-member', 'no-redef', 2], ['no-member', 'misc', 1]]
+mro-error 6/338
+  [['inconsistent-mro', 'misc', 3], ['catching-non-exception', 'misc', 3]]
+name-error 3841/60212
+  [['undefined-variable', 'name-defined', 3748], ['too-many-format-args', 'str-format', 15], ['function-redefined', 'valid-type', 14], ['undefined-variable', 'str-format', 8], ['undefined-variable', 'misc', 7], ['used-before-assignment', 'has-type', 6], ['undefined-variable', 'valid-type', 5], ['no-method-argument', 'misc', 5], ['no-member', 'name-defined', 4], ['undefined-variable', 'no-redef', 3], ['used-before-assignment', 'name-defined', 3], ['undefined-variable', 'index', 3], ['undefined-variable', 'union-attr', 2], ['too-many-function-args', 'name-defined', 2], ['undefined-variable', 'call-overload', 2], ['undefined-variable', 'call-arg', 2], ['too-many-function-args', 'call-arg', 2], ['undefined-variable', 'attr-defined', 2], ['undefined-variable', 'assignment', 2], ['used-before-assignment', 'operator', 1], ['undefined-variable', 'operator', 1], ['unexpected-keyword-arg', 'name-defined', 1], ['undefined-variable', 'has-type', 1], ['undefined-variable', 'func-returns-value', 1], ['no-member', 'attr-defined', 1]]
+not-callable 4/791
+  [['not-callable', 'operator', 4]]
+not-instantiable 3/80
+  [['abstract-class-instantiated', 'abstract', 2], ['abstract-class-instantiated', 'assignment', 1]]
+pyi-error 1/1113
+  [['no-name-in-module', 'attr-defined', 1]]
+python-compiler-error 269/6871
+  [['syntax-error', 'syntax', 190], ['no-name-in-module', 'attr-defined', 65], ['undefined-variable', 'name-defined', 4], ['function-redefined', 'valid-type', 3], ['duplicate-argument-name', 'syntax', 2], ['return-outside-function', 'name-defined', 2], ['undefined-variable', 'misc', 2], ['return-outside-function', 'misc', 1]]
+unsupported-operands 39/3896
+  [['unsubscriptable-object', 'index', 25], ['invalid-unary-operand-type', 'operator', 8], ['unsupported-membership-test', 'operator', 2], ['no-member', 'operator', 2], ['unsupported-assignment-operation', 'valid-type', 1], ['unsupported-assignment-operation', 'index', 1]]
+wrong-arg-count 14/1087
+  [['too-many-function-args', 'call-arg', 7], ['undefined-variable', 'name-defined', 3], ['too-many-function-args', 'name-defined', 2], ['undefined-variable', 'call-arg', 2]]
+wrong-arg-types 4/5245
+  [['no-member', 'call-overload', 2], ['undefined-variable', 'operator', 1], ['undefined-variable', 'name-defined', 1]]
+wrong-keyword-args 10/419
+  [['unexpected-keyword-arg', 'call-overload', 6], ['unexpected-keyword-arg', 'call-arg', 2], ['too-many-function-args', 'call-arg', 2]]
+Not in any:
+arg-type
+name-defined
+attr-defined
+assignment
+valid-type
+misc
+override
+no-redef
+union-attr
+var-annotated
+type-var
+syntax
+str-format
+index
+return
+return-value
+operator
+dict-item
+call-arg
+has-type
+func-returns-value
+call-overload
+list-item
+str-bytes-safe
+type-arg
+exit-return
+abstract
+valid-newtype
