@@ -1,38 +1,38 @@
 ----- Mypy -> [Pytype, Pylint] -----
 abstract 3/10
   [['not-instantiable', 'abstract-class-instantiated', 2], ['missing-parameter', 'no-value-for-parameter', 1]]
-arg-type 2/1702
+arg-type 2/1554
   [['missing-parameter', 'no-value-for-parameter', 2]]
-assignment 2/3095
-  [['name-error', 'undefined-variable', 1], ['not-instantiable', 'abstract-class-instantiated', 1]]
-attr-defined 435/7377
-  [['attribute-error', 'no-member', 258], ['module-attr', 'no-member', 105], ['python-compiler-error', 'no-name-in-module', 62], ['name-error', 'undefined-variable', 2], ['attribute-error', 'not-an-iterable', 2], ['attribute-error', 'undefined-variable', 1], ['missing-parameter', 'no-value-for-parameter', 1], ['pyi-error', 'no-name-in-module', 1], ['name-error', 'no-member', 1], ['missing-parameter', 'no-member', 1], ['attribute-error', 'access-member-before-definition', 1]]
-call-arg 51/454
-  [['missing-parameter', 'no-value-for-parameter', 37], ['wrong-arg-count', 'too-many-function-args', 6], ['wrong-arg-count', 'undefined-variable', 2], ['name-error', 'undefined-variable', 2], ['name-error', 'too-many-function-args', 2], ['wrong-keyword-args', 'unexpected-keyword-arg', 1], ['wrong-keyword-args', 'too-many-function-args', 1]]
-call-overload 12/229
-  [['wrong-keyword-args', 'unexpected-keyword-arg', 6], ['wrong-arg-types', 'no-member', 2], ['attribute-error', 'no-member', 2], ['name-error', 'undefined-variable', 1], ['missing-parameter', 'no-value-for-parameter', 1]]
-func-returns-value 1/77
+assignment 3/3075
+  [['name-error', 'undefined-variable', 2], ['not-instantiable', 'abstract-class-instantiated', 1]]
+attr-defined 1884/7225
+  [['import-error', 'no-name-in-module', 1456], ['attribute-error', 'no-member', 206], ['module-attr', 'no-member', 88], ['python-compiler-error', 'no-name-in-module', 72], ['import-error', 'import-error', 44], ['import-error', 'relative-beyond-top-level', 8], ['attribute-error', 'not-an-iterable', 3], ['name-error', 'undefined-variable', 2], ['attribute-error', 'undefined-variable', 1], ['missing-parameter', 'no-value-for-parameter', 1], ['pyi-error', 'no-name-in-module', 1], ['name-error', 'no-member', 1], ['attribute-error', 'access-member-before-definition', 1]]
+call-arg 52/411
+  [['missing-parameter', 'no-value-for-parameter', 37], ['wrong-arg-count', 'too-many-function-args', 6], ['wrong-arg-count', 'undefined-variable', 2], ['name-error', 'undefined-variable', 2], ['name-error', 'too-many-function-args', 2], ['wrong-keyword-args', 'unexpected-keyword-arg', 1], ['wrong-keyword-args', 'too-many-function-args', 1], ['module-attr', 'no-member', 1]]
+call-overload 10/228
+  [['wrong-keyword-args', 'unexpected-keyword-arg', 6], ['name-error', 'undefined-variable', 1], ['missing-parameter', 'no-value-for-parameter', 1], ['wrong-arg-types', 'no-member', 1], ['attribute-error', 'no-member', 1]]
+func-returns-value 1/74
   [['name-error', 'undefined-variable', 1]]
-has-type 11/412
-  [['name-error', 'used-before-assignment', 6], ['attribute-error', 'access-member-before-definition', 3], ['name-error', 'undefined-variable', 1], ['attribute-error', 'no-member', 1]]
-index 27/861
-  [['unsupported-operands', 'unsubscriptable-object', 24], ['name-error', 'undefined-variable', 2], ['unsupported-operands', 'unsupported-assignment-operation', 1]]
-misc 43/4692
-  [['invalid-annotation', 'no-self-argument', 15], ['name-error', 'undefined-variable', 7], ['name-error', 'no-method-argument', 5], ['mro-error', 'inconsistent-mro', 3], ['mro-error', 'catching-non-exception', 3], ['python-compiler-error', 'undefined-variable', 2], ['missing-parameter', 'no-value-for-parameter', 2], ['invalid-annotation', 'used-before-assignment', 1], ['invalid-annotation', 'undefined-variable', 1], ['python-compiler-error', 'return-outside-function', 1], ['bad-return-type', 'no-method-argument', 1], ['module-attr', 'no-member', 1], ['ignored-metaclass', 'inconsistent-mro', 1]]
-name-defined 2508/9298
-  [['name-error', 'undefined-variable', 2430], ['module-attr', 'no-member', 45], ['python-compiler-error', 'undefined-variable', 4], ['attribute-error', 'undefined-variable', 4], ['name-error', 'no-member', 4], ['attribute-error', 'no-member', 4], ['name-error', 'used-before-assignment', 3], ['wrong-arg-count', 'undefined-variable', 3], ['wrong-arg-count', 'too-many-function-args', 2], ['name-error', 'too-many-function-args', 2], ['python-compiler-error', 'return-outside-function', 2], ['name-error', 'unexpected-keyword-arg', 1], ['wrong-arg-types', 'undefined-variable', 1], ['invalid-annotation', 'undefined-variable', 1], ['ignored-abstractmethod', 'undefined-variable', 1], ['bad-return-type', 'undefined-variable', 1]]
-no-redef 5/808
-  [['name-error', 'undefined-variable', 3], ['module-attr', 'no-member', 2]]
-operator 19/639
-  [['unsupported-operands', 'invalid-unary-operand-type', 8], ['not-callable', 'not-callable', 4], ['unsupported-operands', 'unsupported-membership-test', 2], ['unsupported-operands', 'no-member', 2], ['name-error', 'used-before-assignment', 1], ['wrong-arg-types', 'undefined-variable', 1], ['name-error', 'undefined-variable', 1]]
-str-format 21/200
-  [['name-error', 'too-many-format-args', 13], ['name-error', 'undefined-variable', 8]]
-syntax 195/514
-  [['python-compiler-error', 'syntax-error', 173], ['ignored-type-comment', 'syntax-error', 13], ['invalid-annotation', 'function-redefined', 5], ['invalid-annotation', 'no-member', 2], ['python-compiler-error', 'duplicate-argument-name', 2]]
-union-attr 5/1486
+has-type 13/368
+  [['name-error', 'used-before-assignment', 6], ['attribute-error', 'access-member-before-definition', 5], ['name-error', 'undefined-variable', 1], ['attribute-error', 'no-member', 1]]
+index 26/820
+  [['unsupported-operands', 'unsubscriptable-object', 23], ['name-error', 'undefined-variable', 2], ['unsupported-operands', 'unsupported-assignment-operation', 1]]
+misc 2656/4686
+  [['import-error', 'relative-beyond-top-level', 2612], ['invalid-annotation', 'no-self-argument', 15], ['name-error', 'undefined-variable', 7], ['name-error', 'no-method-argument', 5], ['mro-error', 'inconsistent-mro', 3], ['mro-error', 'catching-non-exception', 3], ['name-error', 'used-before-assignment', 2], ['missing-parameter', 'no-value-for-parameter', 2], ['invalid-annotation', 'used-before-assignment', 1], ['python-compiler-error', 'undefined-variable', 1], ['invalid-annotation', 'undefined-variable', 1], ['python-compiler-error', 'return-outside-function', 1], ['bad-return-type', 'no-method-argument', 1], ['module-attr', 'no-member', 1], ['ignored-metaclass', 'inconsistent-mro', 1]]
+name-defined 2012/7839
+  [['name-error', 'undefined-variable', 1974], ['module-attr', 'no-member', 9], ['attribute-error', 'undefined-variable', 4], ['attribute-error', 'no-member', 4], ['name-error', 'used-before-assignment', 3], ['wrong-arg-count', 'undefined-variable', 3], ['name-error', 'no-member', 3], ['wrong-arg-count', 'too-many-function-args', 2], ['name-error', 'too-many-function-args', 2], ['name-error', 'unexpected-keyword-arg', 1], ['wrong-arg-types', 'undefined-variable', 1], ['python-compiler-error', 'undefined-variable', 1], ['invalid-annotation', 'undefined-variable', 1], ['ignored-abstractmethod', 'undefined-variable', 1], ['bad-return-type', 'undefined-variable', 1], ['python-compiler-error', 'return-outside-function', 1], ['name-error', 'function-redefined', 1]]
+no-redef 7/807
+  [['name-error', 'undefined-variable', 3], ['module-attr', 'no-member', 2], ['import-error', 'import-error', 2]]
+operator 15/617
+  [['not-callable', 'not-callable', 4], ['unsupported-operands', 'invalid-unary-operand-type', 4], ['unsupported-operands', 'unsupported-membership-test', 2], ['unsupported-operands', 'no-member', 2], ['name-error', 'used-before-assignment', 1], ['wrong-arg-types', 'undefined-variable', 1], ['name-error', 'undefined-variable', 1]]
+str-format 23/200
+  [['name-error', 'too-many-format-args', 14], ['name-error', 'undefined-variable', 9]]
+syntax 214/514
+  [['python-compiler-error', 'syntax-error', 192], ['ignored-type-comment', 'syntax-error', 15], ['invalid-annotation', 'function-redefined', 5], ['invalid-annotation', 'no-member', 1], ['python-compiler-error', 'duplicate-argument-name', 1]]
+union-attr 5/1412
   [['attribute-error', 'undefined-variable', 3], ['name-error', 'undefined-variable', 2]]
-valid-type 43/1564
-  [['invalid-annotation', 'no-self-argument', 24], ['name-error', 'function-redefined', 9], ['name-error', 'undefined-variable', 3], ['python-compiler-error', 'function-redefined', 3], ['invalid-annotation', 'function-redefined', 2], ['unsupported-operands', 'unsupported-assignment-operation', 1], ['attribute-error', 'no-member', 1]]
+valid-type 51/1534
+  [['invalid-annotation', 'no-self-argument', 24], ['name-error', 'function-redefined', 9], ['name-error', 'undefined-variable', 8], ['python-compiler-error', 'function-redefined', 3], ['invalid-annotation', 'function-redefined', 2], ['unsupported-operands', 'unsupported-assignment-operation', 1], ['not-indexable', 'unsubscriptable-object', 1], ['name-error', 'unsubscriptable-object', 1], ['not-indexable', 'undefined-variable', 1], ['attribute-error', 'no-member', 1]]
 Not in any:
 override
 var-annotated

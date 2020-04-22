@@ -1,14 +1,14 @@
 ----- Pylint -> Mypy -----
 abstract-class-instantiated 4/90
   [['abstract', 2], ['valid-type', 1], ['assignment', 1]]
-access-member-before-definition 25/485
+access-member-before-definition 25/465
   [['has-type', 24], ['attr-defined', 1]]
 assignment-from-none 1/85
   [['func-returns-value', 1]]
 catching-non-exception 4/13
   [['misc', 4]]
-duplicate-argument-name 2/22
-  [['syntax', 2]]
+duplicate-argument-name 1/11
+  [['syntax', 1]]
 function-redefined 230/1850
   [['no-redef', 193], ['valid-type', 20], ['misc', 8], ['syntax', 5], ['name-defined', 4]]
 import-error 64/170233
@@ -17,51 +17,107 @@ inconsistent-mro 3/8
   [['misc', 3]]
 inherit-non-class 5/129
   [['misc', 3], ['valid-type', 2]]
-invalid-all-object 6/16
-  [['misc', 6]]
-invalid-unary-operand-type 8/184
-  [['operator', 8]]
+invalid-all-object 2/9
+  [['misc', 2]]
+invalid-unary-operand-type 4/157
+  [['operator', 4]]
 method-hidden 9/301
   [['no-redef', 7], ['misc', 2]]
-no-member 2390/108013
-  [['attr-defined', 1886], ['name-defined', 259], ['has-type', 89], ['call-arg', 52], ['arg-type', 31], ['assignment', 27], ['misc', 14], ['valid-type', 12], ['operator', 7], ['no-redef', 3], ['union-attr', 2], ['syntax', 2], ['return-value', 2], ['call-overload', 2], ['var-annotated', 1], ['list-item', 1]]
+no-member 2102/100335
+  [['attr-defined', 1679], ['name-defined', 241], ['has-type', 55], ['call-arg', 39], ['assignment', 26], ['arg-type', 19], ['misc', 14], ['valid-type', 12], ['operator', 6], ['no-redef', 3], ['union-attr', 2], ['return-value', 2], ['var-annotated', 1], ['syntax', 1], ['list-item', 1], ['call-overload', 1]]
 no-method-argument 67/414
   [['misc', 66], ['return', 1]]
-no-name-in-module 1830/87415
+no-name-in-module 1830/87411
   [['attr-defined', 1828], ['no-redef', 2]]
 no-self-argument 60/1322
   [['misc', 33], ['valid-type', 25], ['override', 1], ['no-redef', 1]]
-no-value-for-parameter 79/2335
-  [['call-arg', 51], ['attr-defined', 11], ['name-defined', 7], ['arg-type', 4], ['misc', 2], ['assignment', 2], ['call-overload', 1], ['abstract', 1]]
+no-value-for-parameter 76/2303
+  [['call-arg', 51], ['attr-defined', 10], ['name-defined', 5], ['arg-type', 4], ['misc', 2], ['assignment', 2], ['call-overload', 1], ['abstract', 1]]
 not-an-iterable 5/327
   [['attr-defined', 4], ['misc', 1]]
-not-callable 32/3875
+not-callable 32/3781
   [['operator', 18], ['misc', 7], ['attr-defined', 6], ['call-arg', 1]]
 raising-bad-type 1/119
   [['misc', 1]]
 relative-beyond-top-level 2779/23819
   [['misc', 2771], ['attr-defined', 8]]
-return-outside-function 3/10
-  [['name-defined', 2], ['misc', 1]]
+return-outside-function 2/10
+  [['name-defined', 1], ['misc', 1]]
 syntax-error 224/4588
   [['syntax', 224]]
 too-few-format-args 12/54
   [['str-format', 12]]
-too-many-format-args 127/306
+too-many-format-args 127/301
   [['str-format', 127]]
-too-many-function-args 27/534
-  [['call-arg', 13], ['name-defined', 12], ['misc', 1], ['attr-defined', 1]]
-undefined-variable 13067/62780
-  [['name-defined', 12767], ['no-redef', 165], ['valid-type', 60], ['misc', 26], ['attr-defined', 20], ['str-format', 9], ['return', 5], ['assignment', 4], ['union-attr', 3], ['index', 2], ['call-arg', 2], ['operator', 1], ['has-type', 1], ['func-returns-value', 1], ['call-overload', 1]]
-unexpected-keyword-arg 25/987
-  [['arg-type', 10], ['call-arg', 7], ['call-overload', 6], ['name-defined', 1], ['misc', 1]]
+too-many-function-args 20/533
+  [['call-arg', 13], ['name-defined', 5], ['misc', 1], ['attr-defined', 1]]
+undefined-variable 6657/52277
+  [['name-defined', 6374], ['no-redef', 165], ['valid-type', 54], ['misc', 24], ['attr-defined', 11], ['str-format', 9], ['return', 5], ['assignment', 4], ['union-attr', 3], ['index', 2], ['call-arg', 2], ['operator', 1], ['has-type', 1], ['func-returns-value', 1], ['call-overload', 1]]
+unexpected-keyword-arg 23/983
+  [['arg-type', 8], ['call-arg', 7], ['call-overload', 6], ['name-defined', 1], ['misc', 1]]
 unpacking-non-sequence 1/76
   [['misc', 1]]
-unsubscriptable-object 68/1540
-  [['index', 65], ['valid-type', 1], ['call-overload', 1], ['attr-defined', 1]]
-unsupported-assignment-operation 3/206
+unsubscriptable-object 67/1385
+  [['index', 64], ['valid-type', 1], ['call-overload', 1], ['attr-defined', 1]]
+unsupported-assignment-operation 3/203
   [['index', 2], ['valid-type', 1]]
-unsupported-membership-test 3/183
+unsupported-membership-test 3/176
   [['operator', 3]]
-used-before-assignment 21/717
-  [['has-type', 9], ['name-defined', 8], ['misc', 3], ['operator', 1]]
+used-before-assignment 20/705
+  [['has-type', 9], ['name-defined', 7], ['misc', 3], ['operator', 1]]
+Not in any:
+unsupported-delete-operation
+invalid-sequence-index
+logging-too-many-args
+bad-super-call
+notimplemented-raised
+undefined-all-variable
+misplaced-bare-raise
+missing-kwoa
+assignment-from-no-return
+not-context-manager
+bad-except-order
+non-iterator-returned
+invalid-length-returned
+bad-string-format-type
+assigning-non-slot
+nonexistent-operator
+bad-exception-context
+unexpected-special-method-signature
+used-prior-global-declaration
+truncated-format-string
+not-async-context-manager
+raising-non-exception
+bad-option-value
+return-in-init
+not-a-mapping
+dict-iter-missing-items
+unused-import
+bad-reversed-sequence
+arguments-differ
+bad-format-character
+redundant-keyword-arg
+bad-str-strip-call
+continue-in-finally
+yield-inside-async-function
+misplaced-format-function
+not-in-loop
+nonlocal-without-binding
+nonlocal-and-global
+yield-outside-function
+class-variable-slots-conflict
+repeated-keyword
+invalid-metaclass
+logging-format-truncated
+logging-too-few-args
+logging-unsupported-format
+mixed-format-string
+missing-format-string-key
+format-needs-mapping
+invalid-slice-index
+invalid-envvar-value
+invalid-slots
+invalid-slots-object
+init-is-generator
+useless-suppression
+wrong-import-order

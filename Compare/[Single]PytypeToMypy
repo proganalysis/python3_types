@@ -1,59 +1,69 @@
 ----- Pytype -> Mypy -----
-attribute-error 1580/39332
-  [['union-attr', 867], ['attr-defined', 614], ['has-type', 20], ['assignment', 20], ['misc', 13], ['arg-type', 13], ['name-defined', 10], ['index', 10], ['var-annotated', 3], ['syntax', 3], ['func-returns-value', 3], ['no-redef', 2], ['valid-type', 1], ['call-overload', 1]]
-bad-return-type 566/2851
-  [['return-value', 513], ['arg-type', 17], ['misc', 14], ['attr-defined', 5], ['union-attr', 4], ['operator', 3], ['dict-item', 3], ['func-returns-value', 2], ['assignment', 2], ['name-defined', 1], ['index', 1], ['call-arg', 1]]
-bad-unpacking 4/152
+attribute-error 1430/34956
+  [['union-attr', 727], ['attr-defined', 588], ['has-type', 22], ['assignment', 20], ['misc', 17], ['arg-type', 17], ['index', 15], ['name-defined', 9], ['var-annotated', 3], ['syntax', 3], ['func-returns-value', 3], ['no-redef', 2], ['call-arg', 2], ['valid-type', 1], ['call-overload', 1]]
+bad-return-type 590/2589
+  [['return-value', 534], ['arg-type', 20], ['misc', 14], ['attr-defined', 6], ['union-attr', 4], ['operator', 3], ['func-returns-value', 2], ['dict-item', 2], ['assignment', 2], ['name-defined', 1], ['index', 1], ['call-arg', 1]]
+bad-unpacking 4/145
   [['misc', 4]]
-base-class-error 1/28
+base-class-error 1/50
   [['misc', 1]]
-duplicate-keyword-argument 1/115
+duplicate-keyword-argument 1/108
   [['misc', 1]]
-ignored-abstractmethod 2/404
+ignored-abstractmethod 2/352
   [['name-defined', 1], ['misc', 1]]
-ignored-metaclass 1/227
+ignored-metaclass 1/226
   [['misc', 1]]
-ignored-type-comment 16/233
-  [['syntax', 16]]
-invalid-annotation 1029/2784
-  [['valid-type', 419], ['misc', 378], ['syntax', 196], ['name-defined', 20], ['return', 8], ['type-arg', 2], ['override', 2], ['no-redef', 2], ['var-annotated', 1], ['assignment', 1]]
-invalid-type-comment 20/490
-  [['name-defined', 12], ['syntax', 5], ['valid-type', 1], ['misc', 1], ['assignment', 1]]
-invalid-typevar 86/416
-  [['operator', 42], ['misc', 42], ['valid-type', 2]]
-key-error 1/824
+ignored-type-comment 17/226
+  [['syntax', 17]]
+import-error 4523/252993
+  [['misc', 2622], ['attr-defined', 1845], ['no-redef', 56]]
+invalid-annotation 1032/2631
+  [['valid-type', 427], ['misc', 383], ['syntax', 191], ['name-defined', 15], ['return', 8], ['type-arg', 2], ['override', 2], ['assignment', 2], ['var-annotated', 1], ['no-redef', 1]]
+invalid-type-comment 23/464
+  [['name-defined', 11], ['syntax', 9], ['valid-type', 1], ['misc', 1], ['assignment', 1]]
+invalid-typevar 88/389
+  [['operator', 43], ['misc', 43], ['valid-type', 2]]
+key-error 1/714
   [['operator', 1]]
-missing-parameter 54/706
-  [['call-arg', 43], ['call-overload', 3], ['arg-type', 3], ['misc', 2], ['attr-defined', 2], ['abstract', 1]]
-module-attr 357/5814
-  [['attr-defined', 306], ['name-defined', 48], ['no-redef', 2], ['misc', 1]]
-mro-error 9/312
+missing-parameter 55/655
+  [['call-arg', 44], ['call-overload', 3], ['arg-type', 3], ['misc', 2], ['union-attr', 1], ['attr-defined', 1], ['abstract', 1]]
+module-attr 316/5575
+  [['attr-defined', 296], ['name-defined', 16], ['no-redef', 2], ['misc', 1], ['call-arg', 1]]
+mro-error 9/251
   [['misc', 8], ['call-overload', 1]]
-name-error 2532/49702
-  [['name-defined', 2307], ['valid-type', 62], ['has-type', 45], ['misc', 38], ['arg-type', 22], ['operator', 14], ['str-format', 13], ['return', 5], ['attr-defined', 5], ['assignment', 5], ['no-redef', 3], ['call-arg', 3], ['union-attr', 2], ['index', 2], ['func-returns-value', 2], ['type-arg', 1], ['syntax', 1], ['override', 1], ['call-overload', 1]]
-not-callable 12/740
-  [['operator', 10], ['valid-type', 2]]
-not-indexable 21/76
-  [['type-arg', 18], ['misc', 3]]
-not-instantiable 8/69
-  [['abstract', 7], ['assignment', 1]]
-not-supported-yet 24/203
-  [['valid-type', 10], ['assignment', 6], ['has-type', 5], ['type-arg', 2], ['name-defined', 1]]
-not-writable 27/372
-  [['attr-defined', 26], ['misc', 1]]
-pyi-error 4/1054
-  [['attr-defined', 4]]
-python-compiler-error 361/6470
-  [['syntax', 176], ['valid-type', 117], ['attr-defined', 62], ['name-defined', 4], ['return', 1], ['misc', 1]]
+name-error 2638/48783
+  [['name-defined', 2425], ['valid-type', 67], ['has-type', 45], ['misc', 27], ['operator', 15], ['str-format', 14], ['arg-type', 12], ['assignment', 7], ['return', 5], ['attr-defined', 5], ['no-redef', 3], ['call-arg', 3], ['union-attr', 2], ['index', 2], ['func-returns-value', 2], ['type-arg', 1], ['syntax', 1], ['override', 1], ['call-overload', 1]]
+not-callable 13/648
+  [['operator', 11], ['valid-type', 2]]
+not-indexable 22/61
+  [['type-arg', 18], ['misc', 3], ['valid-type', 1]]
+not-instantiable 9/78
+  [['abstract', 6], ['valid-type', 2], ['assignment', 1]]
+not-supported-yet 24/195
+  [['valid-type', 9], ['assignment', 7], ['has-type', 5], ['type-arg', 2], ['name-defined', 1]]
+not-writable 21/321
+  [['attr-defined', 20], ['misc', 1]]
+pyi-error 2/734
+  [['attr-defined', 2]]
+python-compiler-error 391/6591
+  [['syntax', 196], ['valid-type', 118], ['attr-defined', 72], ['name-defined', 3], ['return', 1], ['misc', 1]]
 recursion-error 1/2
   [['misc', 1]]
-redundant-function-type-comment 1/30
-  [['syntax', 1]]
-unsupported-operands 187/3296
-  [['index', 104], ['operator', 34], ['call-overload', 34], ['arg-type', 6], ['attr-defined', 3], ['func-returns-value', 2], ['valid-type', 1], ['union-attr', 1], ['name-defined', 1], ['misc', 1]]
-wrong-arg-count 34/964
+unsupported-operands 185/2529
+  [['index', 105], ['call-overload', 34], ['operator', 32], ['arg-type', 5], ['attr-defined', 4], ['func-returns-value', 2], ['valid-type', 1], ['union-attr', 1], ['name-defined', 1]]
+wrong-arg-count 34/864
   [['call-arg', 29], ['name-defined', 3], ['misc', 1], ['arg-type', 1]]
-wrong-arg-types 433/4728
-  [['arg-type', 365], ['call-overload', 23], ['assignment', 16], ['operator', 14], ['misc', 6], ['var-annotated', 2], ['type-var', 2], ['name-defined', 2], ['index', 1], ['func-returns-value', 1], ['attr-defined', 1]]
-wrong-keyword-args 16/381
-  [['call-arg', 9], ['call-overload', 7]]
+wrong-arg-types 415/4679
+  [['arg-type', 345], ['call-overload', 24], ['assignment', 16], ['operator', 14], ['misc', 6], ['var-annotated', 2], ['type-var', 2], ['name-defined', 2], ['index', 1], ['func-returns-value', 1], ['dict-item', 1], ['attr-defined', 1]]
+wrong-keyword-args 17/346
+  [['call-arg', 9], ['call-overload', 8]]
+Not in any:
+invalid-function-type-comment
+annotation-type-mismatch
+redundant-function-type-comment
+invalid-namedtuple-arg
+invalid-function-definition
+invalid-super-call
+bad-slots
+bad-concrete-type
+reveal-type
