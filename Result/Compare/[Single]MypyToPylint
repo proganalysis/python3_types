@@ -43,6 +43,7 @@ valid-type 116/1534
   [['undefined-variable', 54], ['no-self-argument', 25], ['function-redefined', 20], ['no-member', 12], ['inherit-non-class', 2], ['unsupported-assignment-operation', 1], ['unsubscriptable-object', 1], ['abstract-class-instantiated', 1]]
 var-annotated 1/2743
   [['no-member', 1]]
+
 Not in any:
 type-var
 dict-item

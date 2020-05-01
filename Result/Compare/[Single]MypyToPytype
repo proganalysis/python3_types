@@ -5,10 +5,10 @@ arg-type 403/1554
   [['wrong-arg-types', 345], ['bad-return-type', 20], ['attribute-error', 17], ['name-error', 12], ['unsupported-operands', 5], ['missing-parameter', 3], ['wrong-arg-count', 1]]
 assignment 56/3075
   [['attribute-error', 20], ['wrong-arg-types', 16], ['not-supported-yet', 7], ['name-error', 7], ['invalid-annotation', 2], ['bad-return-type', 2], ['not-instantiable', 1], ['invalid-type-comment', 1]]
-attr-defined 2840/7225
-  [['import-error', 1845], ['attribute-error', 588], ['module-attr', 296], ['python-compiler-error', 72], ['not-writable', 20], ['bad-return-type', 6], ['name-error', 5], ['unsupported-operands', 4], ['pyi-error', 2], ['wrong-arg-types', 1], ['missing-parameter', 1]]
-call-arg 89/411
-  [['missing-parameter', 44], ['wrong-arg-count', 29], ['wrong-keyword-args', 9], ['name-error', 3], ['attribute-error', 2], ['module-attr', 1], ['bad-return-type', 1]]
+attr-defined 2905/7225
+  [['import-error', 1907], ['attribute-error', 586], ['module-attr', 301], ['python-compiler-error', 72], ['not-writable', 20], ['bad-return-type', 6], ['name-error', 5], ['unsupported-operands', 4], ['pyi-error', 2], ['wrong-arg-types', 1], ['missing-parameter', 1]]
+call-arg 90/411
+  [['missing-parameter', 45], ['wrong-arg-count', 29], ['wrong-keyword-args', 9], ['name-error', 3], ['attribute-error', 2], ['module-attr', 1], ['bad-return-type', 1]]
 call-overload 72/228
   [['unsupported-operands', 34], ['wrong-arg-types', 24], ['wrong-keyword-args', 8], ['missing-parameter', 3], ['name-error', 1], ['mro-error', 1], ['attribute-error', 1]]
 dict-item 3/48
@@ -19,20 +19,20 @@ has-type 72/368
   [['name-error', 45], ['attribute-error', 22], ['not-supported-yet', 5]]
 index 124/820
   [['unsupported-operands', 105], ['attribute-error', 15], ['name-error', 2], ['wrong-arg-types', 1], ['bad-return-type', 1]]
-misc 3139/4686
-  [['import-error', 2622], ['invalid-annotation', 383], ['invalid-typevar', 43], ['name-error', 27], ['attribute-error', 17], ['bad-return-type', 14], ['mro-error', 8], ['wrong-arg-types', 6], ['bad-unpacking', 4], ['not-indexable', 3], ['missing-parameter', 2], ['wrong-arg-count', 1], ['recursion-error', 1], ['python-compiler-error', 1], ['not-writable', 1], ['module-attr', 1], ['invalid-type-comment', 1], ['ignored-metaclass', 1], ['ignored-abstractmethod', 1], ['duplicate-keyword-argument', 1], ['base-class-error', 1]]
+misc 3270/4686
+  [['import-error', 2754], ['invalid-annotation', 383], ['invalid-typevar', 43], ['name-error', 26], ['attribute-error', 17], ['bad-return-type', 14], ['mro-error', 8], ['wrong-arg-types', 6], ['bad-unpacking', 4], ['not-indexable', 3], ['missing-parameter', 2], ['wrong-arg-count', 1], ['recursion-error', 1], ['python-compiler-error', 1], ['not-writable', 1], ['module-attr', 1], ['invalid-type-comment', 1], ['ignored-metaclass', 1], ['ignored-abstractmethod', 1], ['duplicate-keyword-argument', 1], ['base-class-error', 1]]
 name-defined 2488/7839
   [['name-error', 2425], ['module-attr', 16], ['invalid-annotation', 15], ['invalid-type-comment', 11], ['attribute-error', 9], ['wrong-arg-count', 3], ['python-compiler-error', 3], ['wrong-arg-types', 2], ['unsupported-operands', 1], ['not-supported-yet', 1], ['ignored-abstractmethod', 1], ['bad-return-type', 1]]
 no-redef 64/807
   [['import-error', 56], ['name-error', 3], ['module-attr', 2], ['attribute-error', 2], ['invalid-annotation', 1]]
-operator 119/617
-  [['invalid-typevar', 43], ['unsupported-operands', 32], ['name-error', 15], ['wrong-arg-types', 14], ['not-callable', 11], ['bad-return-type', 3], ['key-error', 1]]
+operator 121/617
+  [['invalid-typevar', 43], ['unsupported-operands', 32], ['name-error', 15], ['wrong-arg-types', 14], ['not-callable', 11], ['bad-return-type', 3], ['module-attr', 2], ['key-error', 1]]
 override 3/182
   [['invalid-annotation', 2], ['name-error', 1]]
 return 14/292
   [['invalid-annotation', 8], ['name-error', 5], ['python-compiler-error', 1]]
-return-value 534/1399
-  [['bad-return-type', 534]]
+return-value 535/1399
+  [['bad-return-type', 535]]
 str-format 14/200
   [['name-error', 14]]
 syntax 417/514
@@ -41,12 +41,13 @@ type-arg 23/47
   [['not-indexable', 18], ['not-supported-yet', 2], ['invalid-annotation', 2], ['name-error', 1]]
 type-var 2/17
   [['wrong-arg-types', 2]]
-union-attr 735/1412
-  [['attribute-error', 727], ['bad-return-type', 4], ['name-error', 2], ['unsupported-operands', 1], ['missing-parameter', 1]]
+union-attr 733/1412
+  [['attribute-error', 725], ['bad-return-type', 4], ['name-error', 2], ['unsupported-operands', 1], ['missing-parameter', 1]]
 valid-type 631/1534
   [['invalid-annotation', 427], ['python-compiler-error', 118], ['name-error', 67], ['not-supported-yet', 9], ['not-instantiable', 2], ['not-callable', 2], ['invalid-typevar', 2], ['unsupported-operands', 1], ['not-indexable', 1], ['invalid-type-comment', 1], ['attribute-error', 1]]
 var-annotated 6/2743
   [['attribute-error', 3], ['wrong-arg-types', 2], ['invalid-annotation', 1]]
+
 Not in any:
 list-item
 str-bytes-safe

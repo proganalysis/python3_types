@@ -23,8 +23,8 @@ duplicate-argument-name 7/11
   [['python-compiler-error', 7]]
 function-redefined 61/1850
   [['name-error', 36], ['invalid-annotation', 18], ['python-compiler-error', 4], ['missing-parameter', 2], ['attribute-error', 1]]
-import-error 149583/170233
-  [['import-error', 149468], ['module-attr', 100], ['pyi-error', 14], ['name-error', 1]]
+import-error 156478/170233
+  [['import-error', 156365], ['module-attr', 98], ['pyi-error', 14], ['name-error', 1]]
 inconsistent-mro 6/8
   [['mro-error', 5], ['ignored-metaclass', 1]]
 inherit-non-class 14/129
@@ -41,16 +41,16 @@ misplaced-format-function 7/8
   [['attribute-error', 7]]
 missing-kwoa 18/34
   [['missing-parameter', 18]]
-no-member 9690/100335
-  [['attribute-error', 7312], ['module-attr', 1868], ['name-error', 353], ['wrong-arg-types', 50], ['unsupported-operands', 42], ['invalid-annotation', 16], ['key-error', 13], ['wrong-arg-count', 8], ['invalid-type-comment', 6], ['not-writable', 5], ['wrong-keyword-args', 4], ['missing-parameter', 3], ['pyi-error', 2], ['not-instantiable', 2], ['ignored-abstractmethod', 2], ['python-compiler-error', 1], ['not-callable', 1], ['invalid-typevar', 1], ['bad-return-type', 1]]
+no-member 9691/100335
+  [['attribute-error', 7312], ['module-attr', 1871], ['name-error', 353], ['wrong-arg-types', 48], ['unsupported-operands', 42], ['invalid-annotation', 16], ['key-error', 13], ['wrong-arg-count', 8], ['invalid-type-comment', 6], ['not-writable', 5], ['wrong-keyword-args', 4], ['missing-parameter', 3], ['pyi-error', 2], ['not-instantiable', 2], ['ignored-abstractmethod', 2], ['python-compiler-error', 1], ['not-callable', 1], ['invalid-typevar', 1], ['bad-return-type', 1]]
 no-method-argument 6/414
   [['name-error', 5], ['bad-return-type', 1]]
-no-name-in-module 66002/87411
-  [['import-error', 65795], ['python-compiler-error', 105], ['module-attr', 92], ['pyi-error', 10]]
+no-name-in-module 69004/87411
+  [['import-error', 68799], ['python-compiler-error', 105], ['module-attr', 90], ['pyi-error', 10]]
 no-self-argument 27/1322
   [['invalid-annotation', 24], ['bad-return-type', 2], ['name-error', 1]]
-no-value-for-parameter 445/2303
-  [['missing-parameter', 366], ['name-error', 32], ['wrong-keyword-args', 28], ['attribute-error', 10], ['module-attr', 4], ['duplicate-keyword-argument', 3], ['wrong-arg-count', 1], ['unsupported-operands', 1]]
+no-value-for-parameter 446/2303
+  [['missing-parameter', 367], ['name-error', 32], ['wrong-keyword-args', 28], ['attribute-error', 10], ['module-attr', 4], ['duplicate-keyword-argument', 3], ['wrong-arg-count', 1], ['unsupported-operands', 1]]
 nonlocal-without-binding 6/18
   [['python-compiler-error', 6]]
 not-a-mapping 1/25
@@ -73,20 +73,20 @@ raising-non-exception 8/34
   [['wrong-arg-count', 7], ['missing-parameter', 1]]
 redundant-keyword-arg 13/40
   [['duplicate-keyword-argument', 13]]
-relative-beyond-top-level 19906/23819
-  [['import-error', 19895], ['python-compiler-error', 11]]
+relative-beyond-top-level 23138/23819
+  [['import-error', 23127], ['python-compiler-error', 11]]
 return-outside-function 8/10
   [['python-compiler-error', 8]]
-syntax-error 4042/4588
-  [['python-compiler-error', 3749], ['import-error', 265], ['ignored-type-comment', 22], ['invalid-function-type-comment', 3], ['name-error', 2], ['invalid-annotation', 1]]
+syntax-error 4044/4588
+  [['python-compiler-error', 3750], ['import-error', 266], ['ignored-type-comment', 22], ['invalid-function-type-comment', 3], ['name-error', 2], ['invalid-annotation', 1]]
 too-few-format-args 1/54
   [['attribute-error', 1]]
 too-many-format-args 17/301
   [['name-error', 16], ['attribute-error', 1]]
 too-many-function-args 186/533
   [['wrong-arg-count', 144], ['name-error', 24], ['attribute-error', 6], ['wrong-keyword-args', 4], ['wrong-arg-types', 4], ['missing-parameter', 3], ['duplicate-keyword-argument', 1]]
-undefined-variable 36388/52277
-  [['name-error', 36062], ['attribute-error', 189], ['unsupported-operands', 32], ['wrong-arg-types', 24], ['module-attr', 18], ['not-callable', 11], ['wrong-arg-count', 9], ['invalid-annotation', 9], ['python-compiler-error', 7], ['bad-return-type', 7], ['invalid-typevar', 5], ['missing-parameter', 4], ['key-error', 3], ['reveal-type', 2], ['wrong-keyword-args', 1], ['not-writable', 1], ['not-indexable', 1], ['import-error', 1], ['ignored-abstractmethod', 1], ['bad-unpacking', 1]]
+undefined-variable 36418/52277
+  [['name-error', 36089], ['attribute-error', 192], ['unsupported-operands', 32], ['wrong-arg-types', 24], ['module-attr', 18], ['not-callable', 11], ['wrong-arg-count', 9], ['invalid-annotation', 9], ['python-compiler-error', 7], ['bad-return-type', 7], ['invalid-typevar', 5], ['missing-parameter', 4], ['key-error', 3], ['reveal-type', 2], ['wrong-keyword-args', 1], ['not-writable', 1], ['not-indexable', 1], ['import-error', 1], ['ignored-abstractmethod', 1], ['bad-unpacking', 1]]
 unexpected-keyword-arg 97/983
   [['wrong-keyword-args', 75], ['name-error', 11], ['attribute-error', 10], ['not-supported-yet', 1]]
 unpacking-non-sequence 31/76
@@ -109,6 +109,7 @@ yield-inside-async-function 6/7
   [['python-compiler-error', 6]]
 yield-outside-function 1/1
   [['python-compiler-error', 1]]
+
 Not in any:
 method-hidden
 logging-too-many-args

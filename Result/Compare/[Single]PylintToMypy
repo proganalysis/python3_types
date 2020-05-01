@@ -65,6 +65,7 @@ unsupported-membership-test 3/176
   [['operator', 3]]
 used-before-assignment 20/705
   [['has-type', 9], ['name-defined', 7], ['misc', 3], ['operator', 1]]
+
 Not in any:
 unsupported-delete-operation
 invalid-sequence-index
