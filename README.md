@@ -38,3 +38,55 @@ Old result. Probably not needed now.
 - **typed-repos-divided** = List of all repos divided into 27 files of 100 repo each.
 - **others.py** = Several tools
 
+
+# MyPy statistic.
+
+GLOBAL SUMMARY: Total repo = 2678
+
+"Bad" repo = 195: If encountered, it prevents mypy from checking the repo.  
+115: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')   
+43: No parent module -- cannot perform relative import    
+37: Other errors resulting in empty output. Eg. ____ is not a valid python package name
+
+"Good" repo = 2678 - (115 + 43 + 37) = 2483   
+Below is a statistic from the "Good" repo. The number means # of repo with atleast 1 of that error type. 
+```plain
+  attr-defined 989
+  var-annotated 899
+  misc 789
+  assignment 697
+  name-defined 500
+  arg-type 490
+  return-value 339
+  syntax 331
+  union-attr 297
+  valid-type 291
+  no-redef 283
+  operator 207
+  index 196
+  return 180
+  call-arg 127
+  str-format 125
+  call-overload 101
+  override 81
+  has-type 76
+  func-returns-value 40
+  list-item 27
+  str-bytes-safe 25
+  dict-item 20
+  type-var 15
+  abstract 8
+  type-arg 7
+  exit-return 3
+  valid-newtype 1
+
+318: Success: no issues found in #NUMBER source files
+```
+
+(misc) - Number of repo with these errors. One repo can have more than 1 type   
+115: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')   
+43: No parent module -- cannot perform relative import   
+75: Bracketed expression '[...]' is not valid as a type     
+225: Relative import climbs too many namespaces   
+12: Incompatible import of 'aaa' (imported name has type 'yyy', local name has type 'zzz'
+
