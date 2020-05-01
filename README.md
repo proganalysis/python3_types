@@ -1,69 +1,40 @@
-# Mypy config
-Currently, every file in the repo is passed to Mypy to check together, along with 3 flags.
+# Folders and files
+**[Data]**
+
+Result from running following tools. Divided into 27 files of 100 repo each.
+```bash
+mypy --show-error-codes --namespace-packages --ignore-missing-imports --show-column-numbers PATH/file1.py PATH/file2.py PATH/file3.py ...
+pylint -d I,R,C,W,F PATH/file1.py PATH/file2.py PATH/file3.py ...
+pytype --keep-going PATH/file1.py
 ```
-mypy --show-error-codes --namespace-packages --ignore-missing-imports PATH/file1.py PATH/file2.py PATH/file3.py ...
-```
+mypy and pylint were run on all selected files each repo.
+pytype was run on each individual file in each repo.
 
---namespace-packages = "this allows discovery of imported packages that don’t have an __init__.py file"
-
---show-error-codes = Add an error code which we use to categorize error types.
-
---ignore-missing-imports = Ignore all missing imports.
-
-# Stats
-```
-GLOBAL SUMMARY: Total repo = 2678
-- subtract:
-  714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
-  440: No parent module -- cannot perform relative import
-
-Remaining repo = 1524 repo. 
-  Following is the number of repo that have at least 1 type of a given error, and the number of total errors.
-  misc 267 (= 1421 - 714 - 440)
-
-                    #repo   #total errors
-  var-annotated       476    1467
-  attr-defined        449    2509
-  assignment          366    1459
-  arg-type            257     843
-  name-defined        254    3785
-  syntax              237     332
-  return-value        180     543
-  union-attr          152    1007
-  valid-type          150     805
-  no-redef            119     312
-  return              101     156
-  index               100     420
-  operator            100     311
-  call-arg             58     202
-  str-format           56      86
-  call-overload        50     114
-  override             43      88
-  has-type             33     222
-  func-returns-value   19      28
-  list-item            17      33
-  str-bytes-safe       11      16
-  type-var              8      12
-  dict-item             7      25
-  type-arg              2      10
-  exit-return           2       2
-  abstract              2       2
-  valid-newtype         1       1
-                            14790
-
-  Success             251 out of 1524 (16.47%)
+Selected files from each repo are from filtering out duplicate names + files with "from . import xxx".
+Resulting in 2673 repo with 142982 files. 
 
 
+**[Result]**
+- **Compare** = Comparison of errors that appear on the same line across 3 tools.
+- **Error Code** = Small examples of each error type from Mypy. They are from older running version.
+- **Images** = Weekely summary
+- **Included_files_each_repo** = List of selected files in each repo.
+- **import_Statistic**
+  - by files = # of files that import these packages
+  - by repo = # of repo that import these packages in atleast 1 file
+- **pyi comparison** = 25 examples of type inference from pytype. More detail in its README.
+- **Error_examples_comparison.txt** = Comparison between 4 tools (3 + PyCharm) across 41 examples. 
+- **Repo_Stats** = For each repo: # of selected files, # of all files, percentage, repo name
+- **Result.txt** = Detailed info of 41 examples from all mypy's error types. It's from an older version which is before filtering out some files.
 
-(misc 1421) - Number of repo with these errors. One repo can have more than 1 type
-714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
-440: No parent module -- cannot perform relative import
-49: Bracketed expression '[...]' is not valid as a type
-43: Relative import climbs too many namespaces
-5: Incompatible import of 'aaa' (imported name has type 'yyy', local name has type 'zzz'
+
+**[OlderVer]Data**
+
+Old result. Probably not needed now.
  
-251: Success: no issues found in #NUMBER source files
-```
 
-# Notes
-- Duplicate module named (714) means there are 2 or more files with the same name in the repo.
+**[type_tools]**
+- **Dan_tools** = modified Dan's pyi tools.
+- **typed-repos-divided** = List of all repos divided into 27 files of 100 repo each.
+- **others.py** = Several tools
+
