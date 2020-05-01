@@ -1,0 +1,1083 @@
+-------------------------------------------------------------------------------
+OLDER VERSION - BEFORE FILTER OUT DUPLICATED FILES etc.
+
+GLOBAL SUMMARY: Total repo = 2678
+- subtract:
+  714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+  440: No parent module -- cannot perform relative import
+  
+Remaining repo = 1524 repo. 
+  Following is the number of repo that have at least 1 type of a given error, and the number of total errors.
+  misc 267 (= 1421 - 714 - 440)
+
+      --show-error-codes
+      --namespace-packages (enables import discovery)
+      --ignore-missing-imports 
+                    #repo   #total errors
+  var-annotated       476    1467
+  attr-defined        449    2509
+  assignment          366    1459
+  arg-type            257     843
+  name-defined        254    3785
+  syntax              237     332
+  return-value        180     543
+  union-attr          152    1007
+  valid-type          150     805
+  no-redef            119     312
+  return              101     156
+  index               100     420
+  operator            100     311
+  call-arg             58     202
+  str-format           56      86
+  call-overload        50     114
+  override             43      88
+  has-type             33     222
+  func-returns-value   19      28
+  list-item            17      33
+  str-bytes-safe       11      16
+  type-var              8      12
+  dict-item             7      25
+  type-arg              2      10
+  exit-return           2       2
+  abstract              2       2
+  valid-newtype         1       1
+                            14790
+
+  Success             251 out of 1524 (16.47%)
+
+
+
+
+(misc 1421) - Number of repo with these errors. One repo can have more than 1 type
+714: Duplicate module named 'xxx' (also at 'PATH/TO/ANOTHER/MODULE/xxx')
+440: No parent module -- cannot perform relative import
+49: Bracketed expression '[...]' is not valid as a type
+43: Relative import climbs too many namespaces
+5: Incompatible import of 'aaa' (imported name has type 'yyy', local name has type 'zzz'
+ 
+251: Success: no issues found in #NUMBER source files
+
+-------------------------------------------------------------------------------
+
+(1) https://mypy.readthedocs.io/en/latest/error_code_list.html
+
+-------------------------------------------------------------------------------
+
+[valid-newtype] 1
+Example: (polygraph-python)polygraph/polygraph/schema.py:17
+
+>	UnresolvedType = NewType("UnresolvedType", Union[PolygraphType, DeferredType])
+
+Error Message:
+	error: Argument 2 to NewType(...) must be subclassable (got "Union[Any, Any]")  [valid-newtype]
+Reason:
+	"NewType accepts exactly two arguments. The first argument must be a string literal containing the name of the new type and must equal the name of the variable to which the new type is assigned. The second argument must be a properly subclassable class, i.e., not a type construct like Union, etc."
+	- Official Mypy documentation (https://mypy.readthedocs.io/en/stable/more_types.html)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+-------------------------------------------------------------------------------
+
+[abstract] 2
+Example: (OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83
+
+	class Logging(metaclass=ABCMeta): # pragma: no cover
+	    """Base class for time-stamped logging.
+	    
+	    Do not instantiate this class, but ConsoleLogging or FileLogging!
+	    """
+	    @property
+	    def _current_time(self):
+	        """Formatted time stamp"""
+	        return time.strftime('%Y-%m-%d %H:%M:%S')
+	    
+	    @abstractmethod
+	    def message(self):
+	        ...
+	    @abstractmethod
+	    def warning(self):
+	        ...
+	    @abstractmethod
+	    def error(self):
+	        ...
+
+	(...)
+>	log = Logging()
+
+Error Message:
+	error: Cannot instantiate abstract class 'Logging' with abstract attributes 'error', 'message' and 'warning'  [abstract]
+Reason:
+	As above.
+VS Code (pylint):
+	(error) Abstract class 'Logging' with abstract methods instantiated
+Insufficiencies in Mypy OR User error?
+	User error.
+
+-------------------------------------------------------------------------------
+
+[exit-return] 2
+Example: (rmvanhees)pys5p/pys5p/l1b_patch.py:64
+
+>   def __exit__(self, exc_type, exc_value, traceback) -> bool:
+        """
+        method called when exiting the context manager
+        """
+        self.close()
+        return False  # any exception is raised by the with statement.
+
+Error Message:
+	error: "bool" is invalid as return type for "__exit__" that always returns False  [exit-return]
+Reason:
+	As above.
+VS Code (pylint):
+	No complaint. Maybe because of import errors earlier in the code.
+Insufficiencies in Mypy OR User error?
+ 	Mypy. They acknowleged this problem though. (https://github.com/python/mypy/issues/7666)
+
+-------------------------------------------------------------------------------
+
+[type-arg] 2
+Example: (marrow)package/marrow/package/disport.py:30
+
+>	def __init__(self, redirect:Iterable[Sequence[str, str]]=None, namespace:str=None,
+				separators:Sequence[str]=('.', ':'), executable:bool=False, protect:bool=True):
+
+Error Message:
+	error: "Sequence" expects 1 type argument, but 2 given  [type-arg]
+Reason:
+	Type argument mismatch. All errors are in the form 'expect _ type argument, but _ given'
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error
+
+-------------------------------------------------------------------------------
+
+[dict-item] 7
+Example: (Pitt-CSC)PittAPI/PittAPI/laundry.py:71-74
+
+	def get_status_simple(building_name: str) -> Dict[str, str]:
+		(...)
+	    return {
+	        'building': building_name,
+>	        'free_washers': int(washer_match.group(1)),
+>	        'total_washers': int(washer_match.group(2)),
+>	        'free_dryers': int(dryer_match.group(1)),
+>	        'total_dryers': int(dryer_match.group(2))
+	    }
+
+Error Message:
+	error: Dict entry 1 has incompatible type "str": "int"; expected "str": "str"  [dict-item]
+Reason:
+	Incompatible type in dict entry.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error
+
+Example2: (mnot)redbot/redbot/message/link_parse.py:46-50
+
+    self.link_types = {
+        "link": ("href", ["stylesheet"]),
+>       "a": ("href", None),
+>       "img": ("src", None),
+>       "script": ("src", None),
+>       "frame": ("src", None),
+>       "iframe": ("src", None),
+    }  # type: Dict[str, Tuple[str, List[str]]]
+
+Error Message:
+	error: Dict entry 1 has incompatible type "str": "Tuple[str, None]"; expected "str": "Tuple[str, List[str]]"  [dict-item]
+Note:
+	The errors can be overloooked by the flag '--no-strict-optional' which "disables strict checking of Optional types and None values"
+
+-------------------------------------------------------------------------------
+
+[type-var] 8
+Example: (mesgarpour)T-CARER/Features/FeatureParserThread.py:90,94
+
+    def aggregate_cell(postfixes: str,
+                       variable_type: str,
+                       prevalence: Dict,
+                       variable_cell: str) -> NumpyNdarray:
+    (...)
+    variable_cell = variable_cell.split('|')
+    variable_cell = [v2 for v1 in variable_cell for v2 in set(v1.split(','))]
+    variable_cell = [v if v != "" else 0 for v in variable_cell]
+    if variable_type == "INT":
+            variable_cell = list(map(int, variable_cell))
+    (...)
+>   features_temp[p] = statistics.mean(variable_cell)
+    (...)
+>   features_temp[p] = statistics.median(variable_cell)
+
+Error Message:
+	error: Value of type variable "_Number" of "mean" cannot be "str"  [type-var]
+	error: Value of type variable "_Number" of "median" cannot be "str"  [type-var]
+Reason:
+	Type of variable_cell changes from str to int.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Mypy. They acknowleged this problem though. (https://mypy.readthedocs.io/en/stable/common_issues.html#redefinitions-with-incompatible-types)
+
+Example2: (ahawker)scratchdir/scratchdir.py:107
+    def teardown(self) -> None:
+>       shutil.rmtree(self.wd)
+        self.wd = None
+
+Error Message:
+	error: Value of type variable "_AnyPath" of "rmtree" cannot be "Optional[str]"  [type-var]
+Note:
+	The errors can be overloooked by the flag '--no-strict-optional' which "disables strict checking of Optional types and None values"
+	Out of 12 [type-var] errors in 8 repo, 8 of them have Optinal type.
+
+-------------------------------------------------------------------------------
+
+[str-bytes-safe] 11
+Example: (chengsoonong)acton/acton/cli.py:53
+
+	length = read_bytes_from_buffer(8, sys.stdin.buffer)
+    length, = struct.unpack('<Q', length)
+>   logging.debug('Reading {} bytes from stdin.'.format(length))
+
+Error Message:
+	error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior  [str-bytes-safe]
+Reason:
+VS Code (pylint):
+	W1202: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+Insufficiencies in Mypy OR User error?
+	User error(?)
+Note: 
+	All 16 [str-bytes-safe] errors are in this form.
+
+-------------------------------------------------------------------------------
+
+[list-item] 17
+Example: (loopspace)microbit/ziphalo/ball.py:53-54
+
+	balls = []
+	balls.append( [0,0,0] )
+>	balls.append( [2*math.pi/3,0,1] )
+>	balls.append( [4*math.pi/3,0,2] )
+
+Error Message:
+	error: List item 0 has incompatible type "float"; expected "int"  [list-item]
+Reason:
+	"When constructing a list using [item, ...], mypy checks that each item is compatible with the list type that is inferred from the surrounding context." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (sdadas)warsaw-transport/scripts/shape_data.py:28
+
+	res = dict()
+    res["center"] = [52.237049, 21.017532]
+>   res["box"] = [[52.097851, 20.851688], [52.368153, 21.271151]]
+    res["hborder"] = hborder
+    res["vborder"] = vborder
+    res["size"] = [width, height]
+    res["river"] = river
+
+Error Message:
+	error: List item 0 has incompatible type "List[float]"; expected "float"  [list-item]
+Reason:
+	Mypy probably infer the type from previouse line.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Mypy(?). This should be fine.
+
+-------------------------------------------------------------------------------
+
+[func-returns-value] 19
+Example: (M1ND-B3ND3R)BoopSuite/boop/__init__.py:160, 163
+
+    if 2 in frequencies:
+>       [self.channels.append(x) for x in channels if x in range(12)]
+    if 5 in frequencies:
+>       [self.channels.append(x) for x in channels if x in FIVEHERTZ]
+
+Error Message:
+	error: "append" of "list" does not return a value  [func-returns-value]
+Reason:
+	Append returns None. Mypy knows this and decided that this is an error.
+	(https://github.com/python/mypy/issues/3226)
+VS Code (pylint):
+	W0106: Expression "[self.channels.append(x) for x in channels if x in range(12)]" is assigned to nothing
+Insufficiencies in Mypy OR User error?
+	User error since Mypy knows the issue and decided to treat it as an error.
+Note:
+	Out of 28 [func-returns-value] errors, 21 are of this type (append/print/chmod/memset etc.).
+
+-------------------------------------------------------------------------------
+
+[has-type] 33
+Example: (lpfann)fri/fri/genData.py:314-316
+
+    X_regression, Y_regression = genRegressionData(n_samples=int(n_samples),
+                                                   n_features=int(n_features),
+                                                   n_redundant=int(n_redundant),
+                                                   n_strel=int(n_strel),
+                                                   n_repeated=int(n_repeated),
+                                                   noise=0,
+                                                   random_state=random_state,
+                                                   partition=partition)
+
+    bin_size = int(np.floor(n_samples / n_target_bins))
+    rest = int(n_samples - (bin_size * n_target_bins))
+
+    # Sort the target values and rearange the data accordingly
+>   sort_indices = np.argsort(Y_regression)
+>   X = X_regression[sort_indices]
+>   Y = Y_regression[sort_indices]
+
+Error Message:
+	error: Cannot determine type of 'Y_regression'  [has-type]
+	error: Cannot determine type of 'X_regression'  [has-type]
+Reason:
+	"Mypy sometimes generates an error when it hasn’t inferred any type for a variable being referenced." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error(?)
+
+Example2: (ChrisTimperley)roshammer/roshammer/bag.py:149
+
+	@attr.s(frozen=True, slots=True)
+	class DelayMessage(BagMutation):
+	    """Delays a given message by a fixed period of time."""
+	    index: int = attr.ib()
+	    secs: int = attr.ib()
+
+	    def __call__(self, bag: Bag) -> Bag:
+>	        msg = attr.evolve(bag[self.index], time=msg.time + self.secs)
+	        return bag.replace(self.index, msg)
+
+Error Message:
+	error: Cannot determine type of 'msg'  [has-type]
+Reason:
+	Same as the first Example
+VS Code (pylint):
+	E0601: Using variable 'msg' before assignment (used-before-assignment)
+Insufficiencies in Mypy OR User error?
+	User error(?)
+Note:
+	All errors are in the form "Cannot determine type of ___".
+
+-------------------------------------------------------------------------------
+
+[override] 43
+Example: (opethe1st)SameGame/src/same/views/pygame_client.py:51,60
+
+	class GuiClient:
+		(...)
+		def game_over(self):
+		    raise NotImplementedErro
+		def draw_score_board(self, score, highest_score, current_move_score):  # pylint: disable=unused-argument
+		    raise NotImplementedError
+	
+	class PyGameClient(GuiClient):
+		def draw_score_board(self, score: int, highest_score: int, current_move_score: int, moves: int):
+>			(...)
+		def game_over(self, score: int, high_score: int):
+>			(...)
+
+Error Message:
+	error: Signature of "draw_score_board" incompatible with supertype "GuiClient"  [override]
+	error: Signature of "game_over" incompatible with supertype "GuiClient"  [override]
+Reason:
+	"Mypy checks that an overridden method or attribute is compatible with the base class. A method in a subclass must accept all arguments that the base class method accepts, and the return type must conform to the return type in the base class (Liskov substitution principle)." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note: 
+	Out of 88 [override] errors, 41 are of this type (Signature of ___ incompatible wit supertype ___).
+	                             32 are of "Arguement # of ___ is incompatible with supertype ___".
+	                             15 are of "Return type ___ of ___ incompatible with return type ___ in supertype ___""
+
+-------------------------------------------------------------------------------
+
+[call-overload] 50
+Example: (emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55
+
+	def write_str(octet: bytes, pos: int, length: int, value: str, big_endian: bool = False):
+	    octet = bytearray(octet)
+	    if big_endian:
+	        for i in range(length):
+>	           octet[pos + length - i - 1] = value[i]
+	    else:
+	        for i in range(length):
+>	           octet[pos + i] = value[i]
+	    return bytes(octet)
+
+Error Message:
+	error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"  [call-overload]
+Reason:
+	"When you call an overloaded function, mypy checks that at least one of the signatures of the overload items match the argument types in the call." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All 114 [call-overload] errors are in the form of "No overload variant of ___ matches argument type ___".
+
+-------------------------------------------------------------------------------
+
+[str-format] 56
+Example: (dylanbstorey)angreal/setup.py:19
+
+	VERSION = open(os.path.join('angreal', 'VERSION')).read().strip()
+>	py_version_tag = '-%s.%s'.format(sys.version_info[:2])
+
+Error Message:
+	error: Not all arguments converted during string formatting  [str-format]
+Reason:
+	Problem in string formatting.
+VS Code (pylint):
+	E1305: Too many arguments for format string (too-many-format-args)
+Insufficiencies in Mypy OR User error?
+	User error
+
+Example2: (mittagessen)kraken/kraken/repo.py:151
+
+    if  resp['hits']['total'] != 1:
+        logger.error('Found {} models when querying for id \'{}\''.format(resp['hits']['total'], model_id))
+>       raise KrakenRepoException('Found {} models when querying for id \'{}\''.format(model_id))
+
+Error Message:
+	error: Cannot find replacement for positional format specifier 1  [str-format]
+Reason:
+	As above.
+VS Code (pylint):
+	E1306: Not enough arguments for format string (too-few-format-args)
+Insufficiencies in Mypy OR User error?:
+	User error.
+Note: 
+	Out of 86 [str-format] errors, 65 are of "Not all arguments converted during string formatting".
+                                 , 6 are of "Cannot find replacement for positional format specifier #".
+                                 , 6 are of "Incompatible types in string interpolation (expression has type ___, placeholder has type ___)"
+                                 , 4 are of "Cannot find replacement for named format specifier ___".
+                                 , 2 are of "Not enough arguments for format string".
+                                 , 1 is of "Numeric flags are only allowed for numeric types".
+                                 , 1 is of "Invalid conversion specifier in format string: unexpected } ".
+                                 , 1 is of "Cannot combine automatic field numbering and manual field specification".
+
+-------------------------------------------------------------------------------
+
+[call-arg] 58
+Example: (libnano)libnano/libnano/_virtualhelix/strand.py:68
+
+	class Strand:
+	    def __init__(self,
+	            seq: str,
+	            oligo: 'Oligo',
+	            uid: str = None,
+	            ctx: dict = None):
+	(...)
+
+	def UnknownStrand(length: int) -> Strand:
+	    seq: str = 'N'*length
+>	    return Strand(seq)
+
+Error Message:
+	error: Too few arguments for "Strand"  [call-arg]
+Reason:
+	"Mypy expects that the number and names of arguments match the called function." (1)
+VS Code (pylint):
+	E1120: No value for argument 'oligo' in constructor call (no-value-for-parameter).
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	About 1/3 of them are related to __init__. Some of them seem to be Mypy issues too. Have to look into this. (TODO)
+
+-------------------------------------------------------------------------------
+
+[operator] 100
+Example: (abiosoft)dotfiles/i3/window.py:243
+
+	def get_window_pos(window_id: str) -> Window:
+	    window = Window(window_id)
+
+	    cmd = subprocess.Popen(
+	        ["xwininfo", "-id", window_id], stdout=subprocess.PIPE)
+	    lines = cmd.stdout.readlines()
+
+	    for line in lines:
+	        line = line.decode()
+	        value = 0
+	        cols = line.split()
+	        if len(cols) > 0:
+	            try:
+	                value = int(cols[-1])
+	            except:
+	                pass
+
+>	        if "Absolute upper-left X:" in line:
+	            window.x = value
+
+Error Message:
+	error: Unsupported operand types for in ("str" and "bytes")  [operator]
+Reason:
+	Not sure. Mypy thinks that line has type "bytes" (???)
+VS Code (pylint):
+	No complaint
+Insufficiencies in Mypy OR User error?
+	?
+
+Example2: (ChristophGaukel)ev3-python3/ev3_sound.py:313:
+
+	class Jukebox(ev3.EV3):
+	    """
+	    plays songs and uses LEDs
+	    """
+	    def __init__(self, protocol: str=None, host: str=None, ev3_obj=None):
+	        super().__init__(protocol=protocol, host=host, ev3_obj=ev3_obj)
+	        self._volume = 1
+	        self._temperament = 440
+	        self._pos_color = None
+	        self._pos_tone = None
+	        self._pos_led = None
+		(...)
+
+	    def _init_tone(self) -> None:
+	        self._pos_tone = 0
+
+	    def _next_tone(self, song) -> float:
+	        if self._pos_tone == len(song["tones"]):
+	            return -1
+	        tone, beats = song["tones"][self._pos_tone]
+	        self.play_tone(tone)
+>	        self._pos_tone += 1
+	        return 60 * beats / song["tempo"]
+
+Error Message:
+	error: Unsupported operand types for + ("None" and "int")  [operator]
+Reason:
+	Although it is not by design, there is a chance that _next_tone() is caleed after initialization.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example3: (wongcyrus)ExcelLexBot/builder/converter/ExcelConverterBase.py:73,74: 
+  
+    def _get_variable_length_column_data(self, column: int, start_row: int, worksheet, json_encode=True):
+        data = []
+        i = start_row
+        column = string.ascii_uppercase[column - 1]
+>       while worksheet[column + str(i)].value is not None and worksheet[column + str(i)].value:
+>           data.append(self._get_cell_value(worksheet, column + str(i), json_encode))
+            i = i + 1
+        return data
+
+Error Message:
+	error: Unsupported operand types for + ("int" and "str")  [operator]
+Reason:
+	Column used to be int and got assigned to be a string later. Mypy does not support this.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Mypy. They acknowledged this. (https://mypy.readthedocs.io/en/stable/common_issues.html#redefinitions-with-incompatible-types)
+Note:
+	Out of 311 [operator] errors, 110 are of type "None" which can be overlook by --no-strict-optional.
+
+-------------------------------------------------------------------------------
+
+[index] 100
+Example: (Beafantles)Asurix-bot/modules/utils/utils.py:75
+
+	def convert_int_to_str(number: int, char: str = "'"):
+	    """Converts an ugly int into a beautiful and sweet str
+
+	    Parameters:
+	        nb: The number which is gonna be converted.
+	        char: The characters which are gonna be inserted between every 3 digits.
+
+	    Example: 2364735247 --> 2'364'735'247"""
+	    number = str(number)
+	    for index in range(len(number) - 3, 0, -3):
+>	        number = number[:index] + char + number[index:]
+	    return number
+
+Error Message:
+	error: Value of type "int" is not indexable  [index]
+Reason:
+	Number used to be int and got assigned to be a string later. Mypy does not support this.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Mypy. They acknowledged this. (https://mypy.readthedocs.io/en/stable/common_issues.html#redefinitions-with-incompatible-types)
+
+Example2: (jotyGill)openpyn-nordvpn/openpyn/filters.py:41:
+
+	def filter_by_location(location: float, type_filtered_servers: List) -> List:
+	    remaining_servers = []
+	    for aServer in type_filtered_servers:
+>	        if aServer["location"]["lat"] == location[0] and \
+>	                aServer["location"]["long"] == location[1]:
+	            # logger.debug(aServer)
+	            remaining_servers.append(aServer)
+	    return remaining_servers
+
+Error Message:
+	error: Value of type "float" is not indexable  [index]
+Reason:
+	"Mypy checks that the indexed value in indexing operation such as x[y] supports indexing, and that the index expression has a valid type." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+-------------------------------------------------------------------------------
+
+[return] 101
+Example: (Rafiot)uwhoisd/uwhoisd/helpers.py:58: 
+
+>	def check_running(name: str) -> bool:
+	    socket_path = get_socket_path(name)
+	    print(socket_path)
+	    try:
+	        r = Redis(unix_socket_path=socket_path)
+	        if r.ping():
+	            return True
+	    except ConnectionError:
+	        return False
+
+Error Message:
+	error: Missing return statement  [return]
+Reason:
+	Function does not return in every case.
+VS Code (pylint):
+	Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Insufficiencies in Mypy OR User error?
+	User error.
+Note: 
+	All 156 [return] errors are in the form of "Missing return statement"
+
+-------------------------------------------------------------------------------
+
+[no-redef] 119
+Example: (rachekalmir)pyJolt/pyjolt/transforms/shiftr.py:156: 
+
+	def shiftr(data: dict, spec: dict) -> dict:
+	    data_manager = TreeManager(data, [])
+	    spec_manager = TreeManager(spec, [])
+	    process_queue = Queue()
+
+	    result = ResultManager()
+
+	    # Walk through data and spec
+	    process_queue.put((spec_manager, data_manager))
+
+	    properties = PropertyManager()
+
+	    while not process_queue.empty():
+>	        spec, data = process_queue.get() 
+	    (...)
+
+Error Message:
+	error: Name 'spec' already defined on line 143  [no-redef]
+	error: Name 'data' already defined on line 143  [no-redef]
+Reason:
+	"Mypy may generate an error if you have multiple definitions for a name in the same namespace. The reason is that this is often an error, as the second definition may overwrite the first one. Also, mypy often can’t be able to determine whether references point to the first or the second definition, which would compromise type checking." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All 312 [no-redef] errors are in the form of "Name ___ already defined on line ___".
+
+-------------------------------------------------------------------------------
+
+[valid-type] 150
+Example: (kitchenbudapest)vr/surface.py:85, 116
+
+>	def __getitem__(self, identifier: 'index or name') -> 'KX_VertexProxy':
+        return self._vertices.children[identifier]
+
+>	def selected(self) -> 'tuples of index and KX_VertexProxy pair':
+        yield from self._selected.items()
+
+Error Message:
+	error: Invalid type comment or annotation  [valid-type]
+Reason:
+	Invalid annotation.
+VS Code (pylint):
+	No. complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (juancarlospaco)anglerfish/anglerfish/walk2dict.py:22
+
+	def walk2dict(folder: Path, topdown: bool=True,
+              onerror: object=None, followlinks: bool=False,
+>             showhidden: bool=False, strip: bool=False) -> namedtuple:
+
+Error Message:
+	error: Function "collections.namedtuple" is not valid as a type  [valid-type]
+Reason:
+	"Examples of invalid types include bare integer literals, functions, variables, and modules." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note: 
+	Out of 805 [valid-type] errors, 467 are of type "Invalid type comment or annotation"
+								  , 310 are of type "Variable/Function ___ is not valid as a type"
+-------------------------------------------------------------------------------
+
+(TODO: Need more info)
+[union-attr] 152 
+Example: (slice)dogbot/dog/guild_config.py:66
+
+    def can_edit(self, user: discord.User, guild: GuildOrGuildID, *, with_config: dict = None) -> bool:
+        guild = self.resolve_guild(guild)
+        if not guild:
+            return False
+
+        if guild.owner == user:
+            return True
+
+        config = with_config or self.get(guild)
+        member = guild.get_member(user.id)
+
+        if config is None:
+            return member is not None and member.guild_permissions.ban_members
+
+>       editors = config.get('editors', [])
+
+Error Message:
+	error: Item "str" of "Union[Dict[Any, Any], str]" has no attribute "get"  [union-attr]
+Reason:
+	"If you access the attribute of a value with a union type, mypy checks that the attribute is defined for every type in that union. Otherwise the operation can fail at runtime. This also applies to optional types." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	Probably user error(?)
+Note:
+	Out of 1007 [union-attr], 932 are of type "error: Item "None" of "Optional[___]" has no attribute "___"".
+	This can be overlook by --no-strict-optional 
+
+-------------------------------------------------------------------------------
+
+[return-value] 180
+Example: (tmthyjames)SQLCell/sqlcell/sqlcell.py:107
+
+    def sql(self, line: str="", cell: str="") -> None:
+       	(...)
+        if refresh and cell in self.refresh_options:
+            if cell in self.tables:
+                self.session.query(getattr(self.classes, cell)).delete()
+                self.session.commit()
+>           return ('Removed all records from ' + cell)
+        (...)
+
+Error Message:
+	error: No return value expected  [return-value]
+Reason:
+	Return str but type signature is None
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (osrsbox)osrsbox-db/extraction_tools_wiki/infobox_cleaner.py:66
+
+	def clean_boolean(value: str) -> bool:
+	    if value is None:
+	        return None
+	    value = clean_wikitext(value)
+
+	    if value in ["True", "true", True, "Yes", "yes"]:
+	        value = True
+	    elif value in ["False", "false", False, "No", "no"]:
+	        value = False
+	    else:
+	        # If unable to determine boolean, set to False
+	        value = False
+
+>	    return value
+
+Error Message:
+	error: Incompatible return value type (got "str", expected "bool")  [return-value]
+Reason:
+	Type of 'value' changes from str to bool. Mypy does not support this.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	In this case, Mypy. They acknowledged this. (https://mypy.readthedocs.io/en/stable/common_issues.html#redefinitions-with-incompatible-types)
+Note:
+	Out of 543 [return-value] errors, 495 are of type "Incompatible return value type (got "___", expected "___")"
+									, 48 are of type "Return value expected"
+									, 10 are of type "No return value expected"
+	192 has type "None" which can be overlook by --no-strict-optional.
+	115 has type "Optional[___]"
+	43 has type "Union[___]
+
+-------------------------------------------------------------------------------
+
+[syntax] 237
+Example:
+		(manerfan)python-game-snake/src/search/tools.py:20
+>	def cell_equal(cell1: (int, int), cell2: (int, int)):
+		(dhlab-epfl)cadasters/src/process.py:55, 98
+>	def get_rotation_matrix(image_shape: tuple, angle: float) -> (np.array, np.array):
+>	def find_orientation_blob(blob_contour: np.array) -> (Tuple, np.array, float):
+
+Error Message:
+	error: Syntax error in type annotation  [syntax]
+Reason:
+	"If the code being checked is not syntactically valid, mypy issues a syntax error. Most, but not all, syntax errors are blocking errors: they can’t be ignored with a # type: ignore comment." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (samuroi)SamuROI/doc/examples/masks.py:27
+
+	import sys
+	(...)
+>	sys.exit(app.exec_())
+
+Error Message:
+	error: invalid syntax  [syntax]
+Reason:
+	Invalid syntax
+VS Code (pylint):
+	E0001: invalid syntax (<unknown>, line 27) (syntax-error)
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	Out of 332 [syntax] errors, 125 are of type "Syntax error in type annotation".
+							  , 85 are of type "invalid syntax".
+							  , 52 are of type "Missing parentheses in call to 'print'. Did you mean print(___)?"
+
+
+-------------------------------------------------------------------------------
+
+[name-defined] 254
+Example: (benmoran56)esper/examples/pythonista_ios_example.py:7
+Error Message:
+	error: Name 'SpriteNode' is not defined  [name-defined]
+Reason:
+	All or most of the errors are resulting from the import error.
+VS Code (pylint):
+	Complaint sometime when it cannot import too.
+	E0602: Undefined variable 'SpriteNode' (undefined-variable)
+Insufficiencies in Mypy OR User error?
+	?
+Note: 
+	All 3785 [name-defined] errors are of type "Name ___ is not defined"
+
+-------------------------------------------------------------------------------
+
+[arg-type] 257
+Example: (Josca)im/im/display.py:11, 12
+
+	import curses
+	(...)
+>	self.scr.keypad(1)
+>	self.scr.nodelay(1)    
+
+Error Message:
+	error: Argument 1 to "keypad" of "_CursesWindow" has incompatible type "int"; expected "bool"  [arg-type]
+Reason:
+	"Mypy checks that argument types in a call match the declared argument types in the signature of the called function (if one exists)." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (seisatsu)Driftwood/src/widget.py:100
+
+	class Widget:
+		(...)
+		def __init__(self,
+		                 manager: 'widgetmanager.WidgetManager',
+		                 wid: int,
+		                 parent: Optional[int],
+		                 x: int,
+		                 y: int,
+		                 width: int,
+		                 height: int):
+		(...)
+
+	class ContainerWidget(Widget):
+	    def __init__(self,
+	                 manager: 'widgetmanager.WidgetManager',
+	                 wid: int,
+	                 parent: Optional[int],
+	                 image: filetype.ImageFile,
+	                 x: Optional[int],
+	                 y: Optional[int],
+	                 width: int,
+	                 height: int):
+>	        super(ContainerWidget, self).__init__(manager, wid, parent, x, y, width, height)
+
+Error Message:
+	error: Argument 4 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+	error: Argument 5 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"  [arg-type]
+Reason:
+	Mismatch argument type
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All 843 [arg-type] errors are of type "Argument 1 to "_ensure_dir" has incompatible type ___; expected ___"
+	
+	About 500 have type "None"
+	About 338 have type "Optional[___]"
+	About 291 have type "Union[___]"
+	About 100 have type "bytes"
+	About 100 have type "Tuple[___]"
+	
+	Some of errors are because of changing variable type on the same variable (eg. from str to int). Mypy does not like this.
+
+-------------------------------------------------------------------------------
+
+[assignment] 366
+Example: (BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36: 
+
+    def __init__(self, url: Union[list, str], key: Union[list, str], ssl: Union[list, bool]=True,
+                 name: Union[list, str]='Unnamed'):
+        self.misp_connections = []
+        if type(url) is list:
+            for idx, server in enumerate(url):
+                verify = True
+                if os.path.isfile(ssl[idx]):
+                    verify = ssl[idx]
+                self.misp_connections.append(pymisp.PyMISP(url=server,
+                                                           key=key[idx],
+                                                           ssl=verify))
+        else:
+            verify = True
+            if os.path.isfile(ssl):
+>               verify = ssl
+
+Error Message: 
+	error: Incompatible types in assignment (expression has type "Union[List[Any], bool]", variable has type "bool")  [assignment]
+Reason:
+	"Mypy checks that the assigned expression is compatible with the assignment target (or targets)." (1)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	Out of 1459 [assignment] errors, 1413 are of type "Incompatible types in assignment (expression has type ___, variable has type ___)""
+								   , 26 are of type "Incompatible default for argument ___ (default has type ___, argument has type ___)"
+
+-------------------------------------------------------------------------------
+
+[attr-defined] 449
+Example: (cernyd)gnunigma/data_handler.py:37-43
+
+	class Base:
+	    """Base initiation class for Tk and TopLevel derivatives"""
+	    def __init__(self, icon: str, wm_title: str):
+>	        self.attributes("-alpha", 0.0)
+>	        self.after(0, self.attributes, "-alpha", 1.0)
+>	        self.resizable(False, False)
+	        if platform == "Windows":
+>	            self.iconbitmap(path.join('icons', icon))
+>	        self.wm_title(wm_title)
+>	        self.grab_set()
+
+Error Message:
+	error: "Base" has no attribute "attributes"  [attr-defined]
+	error: "Base" has no attribute "after"  [attr-defined]
+	(...)
+Reason:
+	"Mypy checks that an attribute is defined in the target class or module when using the dot operator. This applies to both getting and setting an attribute." (1)
+VS Code (pylint):
+	E1101: Instance of 'Base' has no 'attributes' member (no-member)
+	E1101: Instance of 'Base' has no 'after' member (no-member)
+	(...)
+Insufficiencies in Mypy OR User error?
+	User error.
+
+Example2: (alexheretic)apart-gtk/src/running_job.py:83
+
+	class RunningJob:
+	    def __init__(self, core: ApartCore, on_finish: Callable[[Dict], None]):
+	        (...)
+	        self.last_message = None  # Dict
+	        (...)
+	    (...)
+
+	    def handle_message(self, msg: Dict):
+	        if msg['type'] in ['clone', 'restore']:
+	            self.last_message = msg
+	            self.progress_bar.set_fraction(msg['complete'])
+	            if not self.start:
+	                self.start = msg['start'].replace(tzinfo=msg['start'].tzinfo or timezone.utc)
+	                self.update()
+	            if msg.get('finish'):
+	                self.finish()
+	            else:
+	                self.rate.value_label.set_text(msg.get('rate') or 'Initializing')
+>	                if not self.syncing and self.last_message.get('syncing'):
+	                	(...)
+
+Error Message:
+	error: "None" has no attribute "get"  [attr-defined]
+Reason:
+	"self.last_message" first got assigned as None. Then "self.last_message = msg" reassigned it. However, Mypy still thinks it's a type None.
+	Might be in the same case of reassigning type.
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	?
+Note:
+	Out of 2509 [attr-defined] error, 394 are of type "Module has no attribute ___"
+	All of them are of type "___ has no attribute ___"
+	About 203 have type "None"
+
+-------------------------------------------------------------------------------
+
+[var-annotated] 476 
+Example: (132nd-etcher)EMFT/emft/core/properties/watched_property.py:39
+
+    def __init__(self, func: callable, default):
+        self.func = func
+        self._default = default
+>       self._watchers = []
+
+
+		(efenka)dropbox-paper-backup/dropbox-paper-backup.py:165
+	def replace_images(tracker: Tracker, folders: list, document_reference: str, body: bytes):
+	    pattern = re.compile(rb'(<img[^<]+src=)(?P<delimiter>[\'"])(?P<url>[^\'"]+)(?P=delimiter)([^>]*>)')
+	    relative_resource_dir = '.%s' % document_reference
+>	    cache = {}
+
+Error Message:
+	error: Need type annotation for '_watchers' (hint: "_watchers: List[<type>] = ...")  [var-annotated]
+	error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Reason:
+	Need to annoate type for a list or dictionary
+	"The type checker cannot always infer the type of a list or a dictionary. This often arises when creating an empty list or dictionary and assigning it to a new variable that doesn’t have an explicit variable type."
+	(https://mypy.readthedocs.io/en/latest/type_inference_and_annotations.html)
+VS Code (pylint):
+	No complaint.
+Insufficiencies in Mypy OR User error?
+	User error.
+Note:
+	All of 1467 [var-annotated] errors are of type "Need type annotation for ___ (hint: ___)"
+	1179 has 'hint:'
+
+-------------------------------------------------------------------------------
+
+[] 
+Example:
+Error Message:
+Reason:
+VS Code (pylint):
+Insufficiencies in Mypy OR User error?
+Note:
+
+-------------------------------------------------------------------------------
