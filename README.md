@@ -49,36 +49,38 @@ GLOBAL SUMMARY: Total repo = 2678
 37: Other errors resulting in empty output. Eg. ____ is not a valid python package name
 
 "Good" repo = 2678 - (115 + 43 + 37) = 2483   
-Below is a statistic from the "Good" repo. The number means # of repo with atleast 1 of that error type. 
+Below is a statistic from the "Good" repo. 
+The first number is # of repo with atleast 1 of that error type.
+The second number is the total # of error reported over all reepo.
 ```plain
-  attr-defined 989
-  var-annotated 899
-  misc 789
-  assignment 697
-  name-defined 500
-  arg-type 490
-  return-value 339
-  syntax 331
-  union-attr 297
-  valid-type 291
-  no-redef 283
-  operator 207
-  index 196
-  return 180
-  call-arg 127
-  str-format 125
-  call-overload 101
-  override 81
-  has-type 76
-  func-returns-value 40
-  list-item 27
-  str-bytes-safe 25
-  dict-item 20
-  type-var 15
-  abstract 8
-  type-arg 7
-  exit-return 3
-  valid-newtype 1
+  attr-defined 989 9732
+  var-annotated 899 2761
+  misc 789 5143
+  assignment 697 3104
+  name-defined 500 9319
+  arg-type 490 1851
+  return-value 339 1399
+  syntax 331 515
+  union-attr 297 1592
+  valid-type 291 1564
+  no-redef 283 810
+  operator 207 674
+  index 196 864
+  return 180 292
+  call-arg 127 528
+  str-format 125 211
+  call-overload 101 229
+  override 81 201
+  has-type 76 485
+  func-returns-value 40 77
+  list-item 27 72
+  str-bytes-safe 25 31
+  dict-item 20 50
+  type-var 15 20
+  abstract 8 10
+  type-arg 7 69
+  exit-return 3 3
+  valid-newtype 1 1
 
 318: Success: no issues found in #NUMBER source files
 ```
