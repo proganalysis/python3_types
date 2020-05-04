@@ -1,0 +1,2 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/init_is_generator.py:4:4: E0100: __init__ method is a generator (init-is-generator)
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/init_is_generator.py:4:4: E0100: __init__ method is a generator (init-is-generator)

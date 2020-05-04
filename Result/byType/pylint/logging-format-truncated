@@ -1,0 +1,1 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e12xx.py:16:4: E1201: Logging format string ends in middle of conversion specifier (logging-format-truncated)

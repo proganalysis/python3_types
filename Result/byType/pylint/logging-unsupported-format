@@ -1,0 +1,1 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e12xx.py:18:4: E1200: Unsupported logging format character 'y' (0x79) at index 3 (logging-unsupported-format)

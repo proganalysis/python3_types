@@ -1,0 +1,8 @@
+(christabor)MoAL/MOAL/type_theory/nominal_structural.py:25:0: E0240: Inconsistent method resolution order for class 'PrimaryNominal' (inconsistent-mro)
+(christabor)MoAL/MOAL/type_theory/nominal_structural.py:29:0: E0240: Inconsistent method resolution order for class 'SubNominal' (inconsistent-mro)
+(christabor)MoAL/MOAL/type_theory/nominal_structural.py:33:0: E0240: Inconsistent method resolution order for class 'StructuralType' (inconsistent-mro)
+(christabor)MoAL/MOAL/type_theory/nominal_structural.py:74:0: E0240: Inconsistent method resolution order for class 'ValidSubStructuralType' (inconsistent-mro)
+(christabor)MoAL/MOAL/type_theory/nominal_structural.py:80:0: E0240: Inconsistent method resolution order for class 'InvalidSubstructuralType' (inconsistent-mro)
+(Microsoft)PTVS/Python/Tests/TestData/AstAnalysis/Classes.py:7:0: E0240: Inconsistent method resolution order for class 'C4' (inconsistent-mro)
+(trezor)micropython/tests/misc/non_compliant.py:139:0: E0240: Inconsistent method resolution order for class 'B' (inconsistent-mro)
+(ingokegel)intellij-community/python/testData/inspections/PyUnresolvedReferencesInspection/noUnresolvedReferencesForClassesWithBadMRO.py:22:0: E0240: Inconsistent method resolution order for class 'C' (inconsistent-mro)

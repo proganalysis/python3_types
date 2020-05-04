@@ -1,0 +1,3 @@
+(Microsoft)PTVS/Python/Tests/TestData/Grammar/NonlocalStmtIllegal.py:8:4: E0115: Name 'x' is nonlocal and global (nonlocal-and-global)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/nonlocal_and_global.py:4:0: E0115: Name 'missing' is nonlocal and global (nonlocal-and-global)
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/nonlocal_and_global.py:4:0: E0115: Name 'missing' is nonlocal and global (nonlocal-and-global)

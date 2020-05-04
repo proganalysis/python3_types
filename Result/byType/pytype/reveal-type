@@ -1,0 +1,2 @@
+(elarivie)linter-mypy/spec/fixtures/smoke/bad/HelloWorld.py", line 9, in <module>: Any [reveal-type]
+(elarivie)linter-mypy/spec/fixtures/specificLint/lint_revealtype.py", line 9, in <module>: int [reveal-type]

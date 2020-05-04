@@ -1,0 +1,2 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:17:10: E1303: Expected mapping for format string, not Tuple (format-needs-mapping)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:18:10: E1303: Expected mapping for format string, not List (format-needs-mapping)

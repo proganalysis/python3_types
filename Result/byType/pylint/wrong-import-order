@@ -1,0 +1,1 @@
+(axbaretto)beam/sdks/python/apache_beam/examples/fastavro_it_test.py:56:0: C0411: third party import "from nose.plugins.attrib import attr" should be placed before "from fastavro import parse_schema" (wrong-import-order)

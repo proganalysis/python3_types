@@ -1,0 +1,4 @@
+(open-homeautomation)home-assistant/homeassistant/util/__init__.py:157:4: W0221: Parameters differ from overridden 'add' method (arguments-differ)
+(open-homeautomation)home-assistant/homeassistant/util/__init__.py:173:4: W0221: Parameters differ from overridden 'discard' method (arguments-differ)
+(endlessm)chromium-browser/third_party/chromite/appengine/cq_stats/build_annotations/views.py:75:2: W0221: Parameters differ from overridden 'get_context_data' method (arguments-differ)
+(endlessm)chromium-browser/third_party/catapult/third_party/google-endpoints/apitools/base/py/app2.py:309:4: W0221: Parameters differ from overridden 'do_help' method (arguments-differ)

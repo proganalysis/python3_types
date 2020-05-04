@@ -1,0 +1,3 @@
+(drhagen)parsita/src/parsita/state.py", line 342, in <module>: Invalid instantiation of generic class [bad-concrete-type]
+(tek)amino/amino/maybe.py", line 132, in unsafe_await: Invalid instantiation of generic class [bad-concrete-type]
+(tek)amino/unit/tree_spec.py", line 16, in <module>: Invalid instantiation of generic class [bad-concrete-type]

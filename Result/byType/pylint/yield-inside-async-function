@@ -1,0 +1,7 @@
+(snakeleon)YouCompleteMe-x64/third_party/ycmd/third_party/jedi_deps/parso/test/normalizer_issue_files/allowed_syntax_python3.5.py:9:4: E1700: Yield inside async function (yield-inside-async-function)
+(snakeleon)YouCompleteMe-x64/third_party/ycmd/third_party/jedi_deps/parso/test/normalizer_issue_files/allowed_syntax_python3.5.py:20:4: E1700: Yield inside async function (yield-inside-async-function)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/yield_inside_async_function.py:12:4: E1700: Yield inside async function (yield-inside-async-function)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/yield_inside_async_function_py36.py:12:4: E1700: Yield inside async function (yield-inside-async-function)
+(kayhayen)Nuitka/tests/syntax/YieldInAsync35.py:19:3: E1700: Yield inside async function (yield-inside-async-function)
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/yield_inside_async_function.py:12:4: E1700: Yield inside async function (yield-inside-async-function)
+(ms-iot)python/cpython/Lib/test/badsyntax_async7.py:2:4: E1700: Yield inside async function (yield-inside-async-function)

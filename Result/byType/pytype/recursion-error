@@ -1,0 +1,2 @@
+(python-bonobo)bonobo/bonobo/config/configurables.py", line 73, in <module>: Detected recursion in functools.partial [recursion-error]
+(python-bonobo)bonobo/bonobo/config/processors.py", line 3, in <module>: Detected recursion in functools.partial [recursion-error]

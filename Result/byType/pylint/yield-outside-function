@@ -1,0 +1,1 @@
+(Microsoft)PTVS/Python/Tests/TestData/Grammar/YieldStmtIllegal.py:1:0: E0105: Yield outside function (yield-outside-function)

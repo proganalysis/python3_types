@@ -1,0 +1,4 @@
+(szeged)servo/etc/servo_gdb.py:86:15: E1310: Suspicious argument in str.lstrip call (bad-str-strip-call)
+(numba)numba/numba/tests/test_deprecations.py:56:24: E1310: Suspicious argument in str.strip call (bad-str-strip-call)
+(EeOneDown)spbu4u/tg_bot/functions.py:290:45: E1310: Suspicious argument in str.strip call (bad-str-strip-call)
+(howie6879)owllook/owllook/views/novels_blueprint.py:62:18: E1310: Suspicious argument in str.strip call (bad-str-strip-call)

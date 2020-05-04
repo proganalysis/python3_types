@@ -1,0 +1,2 @@
+(snakeleon)YouCompleteMe-x64/third_party/ycmd/third_party/jedi_deps/parso/test/normalizer_issue_files/allowed_syntax.py:20:8: E0116: 'continue' not supported inside 'finally' clause (continue-in-finally)
+(kayhayen)Nuitka/tests/syntax/TryFinallyContinue.py:23:12: E0116: 'continue' not supported inside 'finally' clause (continue-in-finally)

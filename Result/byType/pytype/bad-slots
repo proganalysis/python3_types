@@ -1,0 +1,3 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/slots_checks.py", line 42, in <module>: Invalid __slot__ entry: '2' [bad-slots]
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/slots_checks.py", line 45, in <module>: Invalid __slot__ entry: '2' [bad-slots]
+(PyCQA)pylint/tests/functional/slots_checks.py", line 42, in <module>: Invalid __slot__ entry: '2' [bad-slots]

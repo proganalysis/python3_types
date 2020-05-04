@@ -41,6 +41,7 @@ Old result. Probably not needed now.
 
 # MyPy statistic.
 
+
 GLOBAL SUMMARY: Total repo = 2678
 
 "Bad" repo = 195: If encountered, it prevents mypy from checking the repo.  
@@ -50,7 +51,9 @@ GLOBAL SUMMARY: Total repo = 2678
 
 "Good" repo = 2678 - (115 + 43 + 37) = 2483   
 Below is a statistic from the "Good" repo. 
+
 The first number is # of repo with atleast 1 of that error type.
+
 The second number is the total # of error reported over all reepo.
 ```plain
   attr-defined 989 9732
@@ -92,3 +95,13 @@ The second number is the total # of error reported over all reepo.
 225: Relative import climbs too many namespaces   
 12: Incompatible import of 'aaa' (imported name has type 'yyy', local name has type 'zzz'
 
+# misc
+
+mypy 0.770
+
+pytype 2020.04.01
+
+pylint 2.4.4
+astroid 2.3.3
+Python 3.6.9 (default, Apr 18 2020, 01:56:04) 
+[GCC 8.4.0]

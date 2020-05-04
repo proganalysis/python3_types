@@ -1,0 +1,7 @@
+(theheros)kbengine/kbe/res/scripts/common/Lib/test/test_raise.py:137:12: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/bad_exception_context.py:14:4: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/bad_exception_context.py:17:4: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/bad_exception_context.py:23:4: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(r-lyeh)scriptorium/python/micropython/tests/bytecode/mp-tests/raise1.py:6:4: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(brython-dev)brython/www/src/Lib/test/test_raise.py:174:12: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)
+(gopythongo)gopythongo/src/py/gopythongo/builders/__init__.py:189:12: E0703: Exception context set to something which is not an exception, nor None (bad-exception-context)

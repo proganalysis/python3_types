@@ -1,0 +1,4 @@
+(lbryio)lbry/lbry/lbry/wallet/server/daemon.py", line 20, in getrawtransaction: Missing 'self' argument to 'super' call. [invalid-super-call]
+(yotchang4s)cafebabepy/src/main/python/test/test_super.py", line 315, in f: Missing 'self' argument to 'super' call. [invalid-super-call]
+(brython-dev)brython/www/src/Lib/test/test_code.py", line 137, in external_getitem: Missing __class__ closure for super call. [invalid-super-call]
+(Microvellum)Fluid-Designer/win64-vc/2.78/Python/bin/2.78/scripts/modules/bl_app_override/__init__.py", line 147, in operator: Missing 'self' argument to 'super' call. [invalid-super-call]

@@ -1,0 +1,5 @@
+(theheros)kbengine/kbe/src/lib/python/Parser/asdl.py:137:38: E1301: Format string ends in middle of conversion specifier (truncated-format-string)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:20:10: E1301: Format string ends in middle of conversion specifier (truncated-format-string)
+(brython-dev)brython/www/tests/test_string_format.py:181:4: E1301: Format string ends in middle of conversion specifier (truncated-format-string)
+(quantmind)pulsar/pulsar/utils/http/parser.py:336:47: E1301: Format string ends in middle of conversion specifier (truncated-format-string)
+(JHUISI)charm/charm/schemes/pkenc/pkenc_rsa.py:131:28: E1301: Format string ends in middle of conversion specifier (truncated-format-string)

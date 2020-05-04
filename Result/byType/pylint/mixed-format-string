@@ -1,0 +1,1 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:13:10: E1302: Mixing named and unnamed conversion specifiers in format string (mixed-format-string)

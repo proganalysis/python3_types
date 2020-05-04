@@ -1,0 +1,6 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/slots_checks.py:43:22: E0236: Invalid object '2' in __slots__, must contain only non empty strings (invalid-slots-object)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/functional/slots_checks.py:49:27: E0236: Invalid object "''" in __slots__, must contain only non empty strings (invalid-slots-object)
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/slots_checks.py:46:22: E0236: Invalid object '2' in __slots__, must contain only non empty strings (invalid-slots-object)
+(axbaretto)beam/sdks/python/.tox/lint/lib/python2.7/site-packages/pylint/test/functional/slots_checks.py:52:27: E0236: Invalid object "''" in __slots__, must contain only non empty strings (invalid-slots-object)
+(PyCQA)pylint/tests/functional/slots_checks.py:43:22: E0236: Invalid object '2' in __slots__, must contain only non empty strings (invalid-slots-object)
+(PyCQA)pylint/tests/functional/slots_checks.py:49:27: E0236: Invalid object "''" in __slots__, must contain only non empty strings (invalid-slots-object)

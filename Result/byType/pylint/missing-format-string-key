@@ -1,0 +1,2 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:14:10: E1304: Missing key 'PARG_2' in format string dictionary (missing-format-string-key)
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e13xx.py:16:10: E1304: Missing key 'PARG_2' in format string dictionary (missing-format-string-key)

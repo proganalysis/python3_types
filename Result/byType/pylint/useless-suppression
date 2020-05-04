@@ -1,0 +1,6 @@
+(The-Compiler)qutebrowser/qutebrowser/misc/earlyinit.py:136:0: I0021: Useless suppression of 'unused-import' (useless-suppression)
+(The-Compiler)qutebrowser/qutebrowser/misc/earlyinit.py:199:0: I0021: Useless suppression of 'unused-import' (useless-suppression)
+(The-Compiler)qutebrowser/qutebrowser/misc/earlyinit.py:211:0: I0021: Useless suppression of 'bad-continuation' (useless-suppression)
+(qutebrowser)qutebrowser/qutebrowser/misc/earlyinit.py:214:0: I0021: Useless suppression of 'unused-import' (useless-suppression)
+(qutebrowser)qutebrowser/qutebrowser/misc/earlyinit.py:143:0: I0021: Useless suppression of 'protected-access' (useless-suppression)
+(qutebrowser)qutebrowser/qutebrowser/misc/earlyinit.py:226:0: I0021: Useless suppression of 'bad-continuation' (useless-suppression)

@@ -1,0 +1,6 @@
+(vntarasov)openpilot/pyextra/werkzeug/local.py:290:28: E0242: Value '__dict__' in slots conflicts with class variable (class-variable-slots-conflict)
+(theY4Kman)infusionsoft-client/infusionsoft/vendor/werkzeug/local.py:51:28: E0242: Value '__dict__' in slots conflicts with class variable (class-variable-slots-conflict)
+(samba-team)samba/third_party/waf/waflib/extras/qnxnto.py:19:37: E0242: Value 'verbose' in slots conflicts with class variable (class-variable-slots-conflict)
+(PyCQA)pylint/tests/functional/slots_checks.py:89:17: E0242: Value 'first' in slots conflicts with class variable (class-variable-slots-conflict)
+(PyCQA)pylint/tests/functional/slots_checks.py:89:36: E0242: Value 'third' in slots conflicts with class variable (class-variable-slots-conflict)
+(PyCQA)pylint/tests/functional/slots_checks.py:89:45: E0242: Value 'fourth' in slots conflicts with class variable (class-variable-slots-conflict)

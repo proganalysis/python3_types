@@ -1,0 +1,5 @@
+(ruchee)vimrc/vimfiles/bundle/vim-python/submodules/pylint/pylint/test/input/func_e12xx.py:17:4: E1206: Not enough arguments for logging format string (logging-too-few-args)
+(singnet)singnet/agent/sn_agent/api/__init__.py:18:4: E1206: Not enough arguments for logging format string (logging-too-few-args)
+(hsoft)pdfmasher/ebooks/conversion/preprocess.py:110:20: E1206: Not enough arguments for logging format string (logging-too-few-args)
+(ric2b)Vivaldi-browser/chromium/tools/sublime/compile_current_file.py:112:6: E1206: Not enough arguments for logging format string (logging-too-few-args)
+(pilotak)HomeAssistant-CustomComponents/arpspoof/arpspoof.py:122:12: E1206: Not enough arguments for logging format string (logging-too-few-args)
