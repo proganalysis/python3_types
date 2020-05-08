@@ -10,7 +10,7 @@ Only care about type related errors, or errors on the same line as Mypy's error.
 [N] = Not a typed error
 
 Summary		#	[T]	[N]
-Mypy 		41	37	4
+Mypy 		40	36	4
 Pylint		13	6	7
 PyCharm		12	10	2
 Pytype 		18	17	1
@@ -118,7 +118,7 @@ Pytype [T]: in __call__: Name 'msg' is not defined [name-error]
 
 
 15. [override] (opethe1st)SameGame/src/same/views/pygame_client.py:51,60
-Mypy: error: Signature of "draw_score_board" incompatible with supertype "GuiClient"
+Mypy [T]: error: Signature of "draw_score_board" incompatible with supertype "GuiClient"
 Pylint: NONE
 PyCharm: NONE
 Pytype: NONE
@@ -264,35 +264,35 @@ PyCharm: NONE
 Pytype [T]:  in __init__: Function _CursesWindow.keypad was called with the wrong arguments [wrong-arg-types]; Expected: (self, yes: Optional[bool]); Actually passed: (self, yes: int)
 
 
-37. [arg-type] (seisatsu)Driftwood/src/widget.py:100
+36. [arg-type] (seisatsu)Driftwood/src/widget.py:100
 Mypy [T]: error: Argument 4 to "__init__" of "Widget" has incompatible type "Optional[int]"; expected "int"
 Pylint: NONE
 PyCharm: NONE
 Pytype: NONE
 
 
-38. [assignment] (BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36
+37. [assignment] (BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36
 Mypy [T]: error: Incompatible types in assignment (expression has type "Union[List[Any], bool]", variable has type "bool")
 Pylint: NONE
 PyCharm [T]: Expected type 'Union[bytes, str, PathLike]', got 'Union[list, bool]' instead 
 Pytype [T]: in __init__: Function os.path.isfile was called with the wrong arguments [wrong-arg-types]; Expected: (path: Union[_PathLike, bytes, str]); Actually passed: (path: Union[bool, list])
 
 
-39. [attr-defined] (cernyd)gnunigma/data_handler.py:37-43
+38. [attr-defined] (cernyd)gnunigma/data_handler.py:37-43
 Mypy [T]: error: "Base" has no attribute "attributes"  [attr-defined]
 Pylint [T]: E1101: Instance of 'Base' has no 'attributes' member (no-member)
 PyCharm [T]: Unresolved attribute reference 'attributes' for class 'Base'
 Pytype [T]: in __init__: No attribute 'attributes' on Base [attribute-error]
 
 
-40. [attr-defined] (alexheretic)apart-gtk/src/running_job.py:83
+39. [attr-defined] (alexheretic)apart-gtk/src/running_job.py:83
 Mypy [T]: error: "None" has no attribute "get"
 Pylint: NONE
 PyCharm: NONE
 Pytype: NONE
 
 
-41. [var-annotated] (132nd-etcher)EMFT/emft/core/properties/watched_property.py:39
+40. [var-annotated] (132nd-etcher)EMFT/emft/core/properties/watched_property.py:39
 Mypy [T]: error: Need type annotation for '_watchers' (hint: "_watchers: List[<type>] = ...")
 Pylint: NONE
 PyCharm: NONE
