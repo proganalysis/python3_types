@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+import functools
+from typing import Any, NoReturn, Type
+
+_Task: Any
+partial: Type[functools.partial]
+
+class Node:
+    __doc__: str
+    name: Any
+    def __init__(self, name) -> None: ...
+    def enable_connection(self) -> NoReturn: ...
+    def run(self, cmd) -> NoReturn: ...
+    def run_task(node: Node, task, *args, **kwargs) -> Any: ...
+    def run_tasks(self, tasks, *args, **kwargs) -> list: ...

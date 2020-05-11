@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+from typing import NoReturn
+
+def main(type = ...) -> NoReturn: ...
+def main_tw() -> NoReturn: ...

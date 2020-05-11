@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def load_text_file(text_file: str) -> str: ...

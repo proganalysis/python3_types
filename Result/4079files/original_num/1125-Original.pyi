@@ -1,0 +1,29 @@
+# (generated with --quick)
+
+from typing import Any, Tuple
+
+np: module
+tf: Any
+
+class DQNAgent(object):
+    action_count: Any
+    action_placeholder: Any
+    h_fc1: Any
+    loss: Any
+    losses: Any
+    readout: Any
+    readout_action: Any
+    reward_placeholder: Any
+    state_placeholder: Any
+    summaries: Any
+    train_step: Any
+    def __init__(self, action_count) -> None: ...
+    def act(self, session, state) -> Any: ...
+    def score_actions(self, session, state_batch) -> Any: ...
+    def train(self, session, reward_batch, action_batch, state_batch) -> Tuple[Any, Any]: ...
+
+def bias_variable(shape) -> Any: ...
+def conv2d(x, W, stride) -> Any: ...
+def createNetwork(action_count) -> Tuple[Any, Any, Any]: ...
+def max_pool_2x2(x) -> Any: ...
+def weight_variable(shape) -> Any: ...

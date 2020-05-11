@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+class TnsnamesStack:
+    _stack: list
+    get_top: Any
+    pop: Any
+    stack_size: int
+    def __init__(self) -> None: ...
+    def contains_entry(self, entry) -> bool: ...
+    def is_ontop_of(self, base, top) -> bool: ...
+    def push(self, entry) -> None: ...

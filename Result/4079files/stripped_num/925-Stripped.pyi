@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+import __future__
+from typing import Any, List
+
+A: List[int]
+N: int
+math: module
+print_function: __future__._Feature
+segt: SegmentTree
+
+class SegmentTree:
+    N: Any
+    flag: list
+    lazy: list
+    st: list
+    def __init__(self, N) -> None: ...
+    def build(self, idx, l, r, A) -> None: ...
+    def left(self, idx) -> Any: ...
+    def query(self, idx, l, r, a, b) -> Any: ...
+    def right(self, idx) -> Any: ...
+    def showData(self) -> None: ...
+    def update(self, idx, l, r, a, b, val) -> bool: ...

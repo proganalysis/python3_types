@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+logging: module
+
+class LoggingConfig:
+    _LoggingConfig__debug: bool
+    _LoggingConfig__filename: str
+    _LoggingConfig__max_bytes: int
+    _LoggingConfig__root_logger: logging.Logger
+    def __init__(self, filename: str, max_bytes: int) -> None: ...
+    def enable_debug(self, debug: bool) -> None: ...
+    def get_logger(self) -> logging.Logger: ...
+    def set_error_hadler(self, type, value, tb) -> None: ...

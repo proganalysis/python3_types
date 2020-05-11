@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def add(a: int, b: int) -> int: ...

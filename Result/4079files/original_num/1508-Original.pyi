@@ -1,0 +1,29 @@
+# (generated with --quick)
+
+from typing import Any, Coroutine, Match, Optional, Pattern, Sequence, TypeVar, Union
+
+aiohttp: Any
+asyncio: Any
+auto: Any
+character_match: str
+client: Any
+discord: Any
+plugins: Any
+tutorial: str
+word_list_url: str
+wordsearch: list
+wordsearch_: Any
+wordsearch_words: Any
+
+AnyStr = TypeVar('AnyStr', str, bytes)
+_T = TypeVar('_T')
+
+def auto_word(count = ...) -> Coroutine[Any, Any, str]: ...
+def choice(seq: Sequence[_T]) -> _T: ...
+def format_hint(hint) -> str: ...
+def match(pattern: Union[Pattern[AnyStr], AnyStr], string: AnyStr, flags: int = ...) -> Optional[Match[AnyStr]]: ...
+def on_reload(name: str) -> Coroutine[Any, Any, None]: ...
+def start_wordsearch(channel, host, word: Optional[str] = ...) -> Coroutine[Any, Any, None]: ...
+def stop_wordsearch(channel) -> None: ...
+def valid_guess(message) -> bool: ...
+def valid_word(message) -> bool: ...

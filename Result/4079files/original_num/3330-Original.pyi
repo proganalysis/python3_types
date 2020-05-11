@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def read_rom(rom_path: str) -> bytes: ...

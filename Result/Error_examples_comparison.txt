@@ -11,7 +11,7 @@ Only care about type related errors, or errors on the same line as Mypy's error.
 
 Summary		#	[T]	[N]
 Mypy 		40	36	4
-Pylint		13	6	7
+Pylint		8	5	3
 PyCharm		12	10	2
 Pytype 		18	17	1
 
@@ -28,7 +28,7 @@ Pytype: NONE
 
 2. [abstract] (OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83
 Mypy [T]: error: Cannot instantiate abstract class 'Logging' with abstract attributes 'error', 'message' and 'warning'
-Pylint [T]: Abstract class 'Logging' with abstract methods instantiated (abstract-class-instantiated)
+Pylint [T]: E0110: AAbstract class 'Logging' with abstract methods instantiated (abstract-class-instantiated)
 PyCharm: NONE 
 Pytype [T]: Can't instantiate Logging with abstract methods error, message, warning [not-instantiable]
 
@@ -42,7 +42,7 @@ Pytype: NONE
 
 4. [type-arg] (marrow)package/marrow/package/disport.py:30
 Mypy [T]: error: "Sequence" expects 1 type argument, but 2 given
-Pylint [N]: R0913: Too many arguments (6/5) (too-many-arguments)
+Pylint: NONE
 PyCharm: NONE
 Pytype [T]: in Importer: Invalid type annotation for typing.Sequence[_T] [invalid-annotation] Expected 1 parameter(s), got 2
 
@@ -77,7 +77,7 @@ Pytype: NONE
 
 9. [str-bytes-safe] (chengsoonong)acton/acton/cli.py:53
 Mypy [N]: error: On Python 3 '{}'.format(b'abc') produces "b'abc'"; use !r if this is a desired behavior
-Pylint [N]: W1202: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+Pylint: NONE
 PyCharm: NONE
 Pytype: NONE
 
@@ -98,7 +98,7 @@ Pytype: NONE
 
 12. [func-returns-value] (M1ND-B3ND3R)BoopSuite/boop/__init__.py:160, 163
 Mypy [T]: error: "append" of "list" does not return a value
-Pylint [N]: W0106: Expression "[self.channels.append(x) for x in channels if x in range(12)]" is assigned to nothing (expression-not-assigned)
+Pylint: NONE
 PyCharm: NONE 
 Pytype: NONE
 
@@ -189,7 +189,7 @@ Pytype [T]: in filter_by_location: unsupported operand type(s) for item retrieva
 
 25. [return] (Rafiot)uwhoisd/uwhoisd/helpers.py:58
 Mypy [T]: error: Missing return statement
-Pylint [T]: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Pylint; NONE
 PyCharm: NONE
 Pytype: NONE
 
@@ -210,7 +210,7 @@ Pytype [T]: line 85, in Surface: Name 'KX_VertexProxy' is not defined [name-erro
 
 28. [valid-type] (juancarlospaco)anglerfish/anglerfish/walk2dict.py:22
 Mypy [T]: error: Function "collections.namedtuple" is not valid as a type
-Pylint [N]: R0914: Too many local variables (27/15) (too-many-locals)
+Pylint: NONE
 PyCharm: NONE 
 Pytype [T]: line 22, in <module>: Invalid type annotation '<instance of Callable>' for return [invalid-annotation]; Not a type
 

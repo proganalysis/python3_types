@@ -1,0 +1,39 @@
+# (generated with --quick)
+
+from typing import Any, Dict, Iterable, Iterator, Tuple, TypeVar
+import unittest.case
+
+Workbook: Any
+model: module
+unittest: module
+
+_T1 = TypeVar('_T1')
+_T2 = TypeVar('_T2')
+_T3 = TypeVar('_T3')
+_T4 = TypeVar('_T4')
+_T5 = TypeVar('_T5')
+_T6 = TypeVar('_T6')
+
+class TestConversionBetweenQtmodelAndOpenpyxl(unittest.case.TestCase):
+    __doc__: str
+    def test_convert_openpyxl_to_qtmodel(self) -> None: ...
+
+def convert_index_value_pair_to_openpyxl(data) -> Any: ...
+def convert_qtmodel_to_index_value_pair(qt_model, header = ...) -> Dict[Tuple[int, int], Any]: ...
+def create_fruit_price_data() -> Dict[Tuple[int, int], str]: ...
+@overload
+def product(iter1: Iterable, iter2: Iterable, iter3: Iterable, iter4: Iterable, iter5: Iterable, iter6: Iterable, iter7: Iterable, *iterables: Iterable) -> Iterator[tuple]: ...
+@overload
+def product(iter1: Iterable[_T1]) -> Iterator[Tuple[_T1]]: ...
+@overload
+def product(iter1: Iterable[_T1], iter2: Iterable[_T2]) -> Iterator[Tuple[_T1, _T2]]: ...
+@overload
+def product(iter1: Iterable[_T1], iter2: Iterable[_T2], iter3: Iterable[_T3]) -> Iterator[Tuple[_T1, _T2, _T3]]: ...
+@overload
+def product(iter1: Iterable[_T1], iter2: Iterable[_T2], iter3: Iterable[_T3], iter4: Iterable[_T4]) -> Iterator[Tuple[_T1, _T2, _T3, _T4]]: ...
+@overload
+def product(iter1: Iterable[_T1], iter2: Iterable[_T2], iter3: Iterable[_T3], iter4: Iterable[_T4], iter5: Iterable[_T5]) -> Iterator[Tuple[_T1, _T2, _T3, _T4, _T5]]: ...
+@overload
+def product(iter1: Iterable[_T1], iter2: Iterable[_T2], iter3: Iterable[_T3], iter4: Iterable[_T4], iter5: Iterable[_T5], iter6: Iterable[_T6]) -> Iterator[Tuple[_T1, _T2, _T3, _T4, _T5, _T6]]: ...
+@overload
+def product(*iterables: Iterable, repeat: int = ...) -> Iterator[tuple]: ...

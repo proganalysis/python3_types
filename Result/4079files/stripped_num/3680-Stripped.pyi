@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+CLRMessage: Any
+
+class CLRNull(Any):
+    __doc__: str
+    def __init__(self, v = ...) -> None: ...
+    def deserialize(self, sock) -> None: ...
+    def serialize(self, sock) -> None: ...
+
+def __getattr__(name) -> Any: ...

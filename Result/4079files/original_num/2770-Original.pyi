@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+sys: module
+
+def pytest_addoption(parser) -> None: ...
+def pytest_configure(config) -> None: ...

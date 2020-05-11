@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+from typing import Any, Tuple
+
+HawkesCumulantMatching: Any
+InferenceTest: Any
+np: module
+os: module
+pickle: module
+skip: bool
+tensorflow: Any
+unittest: module
+
+class Test(Any):
+    dim: int
+    @staticmethod
+    def get_train_data(decay) -> Tuple[Any, Any, Any]: ...
+    def setUp(self) -> None: ...
+    def test_hawkes_cumulants(self) -> None: ...
+    def test_hawkes_cumulants_solve(self) -> None: ...
+    def test_hawkes_cumulants_solve_l1(self) -> None: ...
+    def test_hawkes_cumulants_solve_l2(self) -> None: ...
+    def test_hawkes_cumulants_unfit(self) -> None: ...

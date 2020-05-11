@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+from typing import Any
+
+def uniform(a: float, b: float) -> float: ...
+def weighted_choice(choices, weights) -> Any: ...

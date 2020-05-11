@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+from typing import Any
+
+def query(ep, params) -> Any: ...
+def translate(expn, startLang, endLang) -> Any: ...

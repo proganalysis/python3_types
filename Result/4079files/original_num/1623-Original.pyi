@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+import __future__
+import crudlike
+from typing import Any, Type
+
+Application: Any
+Request: Any
+Root: Type[crudlike.Root]
+pytest: Any
+unicode_literals: __future__._Feature
+
+class TestCrudlikeCollection(object):
+    def test_resolve_specific_user(self) -> None: ...
+    def test_resolve_specific_user_action(self) -> None: ...
+    def test_resolve_user_collection(self) -> None: ...
+
+class TestCrudlikeRoot(object):
+    def test_no_resolve_other(self) -> None: ...
+    def test_no_resolve_private(self) -> None: ...
+    def test_resolve_root(self) -> None: ...
+
+def do(path) -> Any: ...

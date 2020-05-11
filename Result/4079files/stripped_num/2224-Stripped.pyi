@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+tvm: Any
+
+def test_create_read_graph() -> None: ...
+def test_scan() -> None: ...
+def test_scan_fix_point() -> None: ...
