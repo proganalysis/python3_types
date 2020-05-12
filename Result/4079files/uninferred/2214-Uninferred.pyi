@@ -1,0 +1,6 @@
+from typing import Any
+
+_logger: Any
+
+def fix_name_clash(value: Any): ...
+def pythonic_names(): ...

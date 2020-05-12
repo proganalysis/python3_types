@@ -1,0 +1,3 @@
+from typing import Any
+
+def main(path: Any) -> None: ...

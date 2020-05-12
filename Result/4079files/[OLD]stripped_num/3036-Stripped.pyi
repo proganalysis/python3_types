@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import NoReturn
+
+class Version(object):
+    __doc__: str
+    def __delattr__(self, *args) -> NoReturn: ...
+    def __init__(self, num) -> None: ...
+    def __setattr__(self, *args) -> NoReturn: ...

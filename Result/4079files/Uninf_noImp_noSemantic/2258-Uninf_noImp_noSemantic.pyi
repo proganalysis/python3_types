@@ -1,0 +1,16 @@
+from typing import Any, Optional
+
+__author__: str
+__copyright__: str
+__credits__: Any
+__license__: str
+__version__: str
+__maintainer__: str
+__status__: str
+
+class Capua:
+    ma: Any = ...
+    mioc: Any = ...
+    ifu: Any = ...
+    eu: Any = ...
+    def __init__(self, ma: Optional[Any] = ..., mioc: Optional[Any] = ..., name: str = ...) -> None: ...

@@ -1,0 +1,3 @@
+test_filename: str
+
+def assemble_from_html() -> None: ...

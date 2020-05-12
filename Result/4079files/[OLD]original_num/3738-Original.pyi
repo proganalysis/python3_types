@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+g: Python
+
+class Python:
+    V: Any
+    graph: list
+    def __init__(self, vertices) -> None: ...
+    def minKey(self, key, mstSet) -> int: ...
+    def primMST(self) -> None: ...
+    def printMST(self, parent) -> None: ...

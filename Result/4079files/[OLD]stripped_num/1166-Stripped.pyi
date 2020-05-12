@@ -1,0 +1,19 @@
+# (generated with --quick)
+
+from typing import Any
+
+pdoc: Any
+tutils: module
+
+class Dummy:
+    @classmethod
+    def class_method(cls) -> None: ...
+    def method(self) -> None: ...
+    @staticmethod
+    def static_method() -> None: ...
+
+class DummyChild(Dummy):
+    def class_method(self) -> None: ...
+
+def test_is_static() -> None: ...
+def test_simple() -> None: ...

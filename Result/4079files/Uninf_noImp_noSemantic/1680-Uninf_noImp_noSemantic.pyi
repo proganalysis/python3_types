@@ -1,0 +1,9 @@
+import asyncio
+import ipaddress
+from typing import Dict, Optional, Union
+
+ARGS_ENCODING: str
+
+def encode_args(args: Dict[str, str]) -> bytes: ...
+async def negotiate_socks5_userpass(reader: asyncio.StreamReader, writer: asyncio.StreamWriter, host: Union[str, ipaddress.IPv4Address, ipaddress.IPv6Address], port: int, args: Optional[Dict[str, str]]) -> None: ...
+async def negotiate_socks4_userid(reader: asyncio.StreamReader, writer: asyncio.StreamWriter, host: Union[str, ipaddress.IPv4Address, ipaddress.IPv6Address], port: int, args: Optional[Dict[str, str]]) -> None: ...

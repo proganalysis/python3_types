@@ -1,0 +1,3 @@
+from zeroconf import ServiceStateChange, Zeroconf
+
+def on_service_state_change(zeroconf: Zeroconf, service_type: str, name: str, state_change: ServiceStateChange) -> None: ...

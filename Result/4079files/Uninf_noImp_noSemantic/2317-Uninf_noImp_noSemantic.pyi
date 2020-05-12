@@ -1,0 +1,9 @@
+from html_wrapper import HtmlWrapper
+
+SEC_IN_MIN: int
+MIN_IN_HR: int
+NO_MSG_CONTENT: str
+
+def fmt_duration(sec: HtmlWrapper) -> str: ...
+def get_duration_str(part: HtmlWrapper) -> str: ...
+def format_msg(msg: str) -> str: ...

@@ -1,0 +1,6 @@
+from .common import Cog
+from typing import Any
+
+class Phone(Cog): ...
+
+def setup(bot: Any) -> None: ...

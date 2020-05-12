@@ -1,0 +1,6 @@
+from typing import Any, Optional
+
+class FunkyReward:
+    def __call__(self, obs: Any, act: Any, next_obs: Any, *, steps: Optional[Any] = ...): ...
+
+def test_reward_overwrite() -> None: ...

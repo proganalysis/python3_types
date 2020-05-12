@@ -1,0 +1,3 @@
+from typing import Any
+
+def handle_exception(etype: Any, val: Any, traceback: Any) -> None: ...

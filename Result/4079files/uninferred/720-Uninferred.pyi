@@ -1,0 +1,3 @@
+from typing import Any
+
+def LinearReductionMethod(DifferentialProblemReductionMethod_DerivedClass: Any): ...

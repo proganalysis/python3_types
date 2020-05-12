@@ -1,0 +1,3 @@
+from typing import Any
+
+def my_applications(request: Any, context: Any): ...

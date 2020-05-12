@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any, Optional, Tuple
+
+ET: module
+base64: module
+datetime: module
+hashlib: module
+
+def __get_hash_level_1(username, password, salt) -> str: ...
+def __get_hash_level_2(hash_level_1) -> str: ...
+def __get_salt(client, username) -> Any: ...
+def get_token(client, *args) -> Optional[Tuple[Any, str]]: ...

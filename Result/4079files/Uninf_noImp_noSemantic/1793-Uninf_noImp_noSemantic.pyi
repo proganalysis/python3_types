@@ -1,0 +1,6 @@
+import torch
+from allennlp.common import Registrable
+
+class SimilarityFunction(torch.nn.Module, Registrable):
+    default_implementation: str = ...
+    def forward(self, tensor_1: torch.Tensor, tensor_2: torch.Tensor) -> torch.Tensor: ...

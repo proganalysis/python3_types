@@ -1,0 +1,3 @@
+from cassiopeia import Maps as Maps
+
+def get_maps() -> None: ...

@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any
+
+Admiral: Any
+AdmiralEquipment: Any
+AdmiralQuest: Any
+Quest: Any
+Ship: Any
+db: Any
+
+def __getattr__(name) -> Any: ...
+def equip_add(admiral_id, equip_id) -> None: ...
+def quest_add(admiral_id, quest_id) -> None: ...
+def quest_complete(admiral_id, quest_id) -> None: ...
+def ship_add(admiral_id, ship_id) -> None: ...

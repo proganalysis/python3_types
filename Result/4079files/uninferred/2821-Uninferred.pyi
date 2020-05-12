@@ -1,0 +1,3 @@
+from typing import Any
+
+def gcd_bin(u: Any, v: Any): ...

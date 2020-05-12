@@ -1,0 +1,9 @@
+from .base import Generator
+from typing import Any, Optional
+
+logger: Any
+
+class SVGGenerator(Generator):
+    def generate(self, base: str = ...) -> None: ...
+    def _make_key_group(self, primary: Any, secondary: Any, cls: Optional[Any] = ...): ...
+    def generate_svg(self, layout: Any, root: Any): ...

@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def ICD9_PCA(numer_of_components: int = ..., print_details: bool = ..., save_as_csv_filename: Optional[Any] = ...): ...

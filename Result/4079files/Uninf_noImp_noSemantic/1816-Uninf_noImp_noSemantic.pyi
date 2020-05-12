@@ -1,0 +1,13 @@
+from pyelt.datalayers.database import *
+from typing import Any
+
+class OrderedTableMetaClass(type):
+    @classmethod
+    def __prepare__(mcs: Any, name: Any, bases: Any): ...
+    def __new__(mcs: Any, name: Any, bases: Any, classdict: Any): ...
+
+class HubEntityMetaClass(type):
+    def __new__(mcs: Any, name: Any, bases: Any, classdict: Any): ...
+
+class LinkEntityMetaClass(type):
+    def __new__(mcs: Any, name: Any, bases: Any, classdict: Any): ...

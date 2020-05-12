@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+argparse: module
+os: module
+sys: module
+
+def graph(args, fp) -> None: ...
+def main() -> None: ...
+def scan(diry) -> None: ...

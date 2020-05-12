@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+Module: Any
+
+class Sera(Any):
+    def diga_ola_para(self, para) -> str: ...
+    def has_action(self, action) -> Any: ...
+
+class Vish(Any):
+    def has_action(self, action) -> Any: ...
+    def vish_vish(self, para) -> str: ...

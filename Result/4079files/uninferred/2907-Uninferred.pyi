@@ -1,0 +1,3 @@
+from typing import Any
+
+def form(template: Any, output: Any) -> None: ...

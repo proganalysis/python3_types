@@ -1,0 +1,19 @@
+from scrapy.item import Item
+from scrapy.spiders import CrawlSpider
+from typing import Any
+
+parser: Any
+results: Any
+domainer: str
+DOMAIN = domainer
+URL: Any
+
+class MyItem(Item):
+    url: Any = ...
+
+class someSpider(CrawlSpider):
+    name: str = ...
+    allowed_domains: Any = ...
+    start_urls: Any = ...
+    rules: Any = ...
+    def parse_obj(self, response: Any): ...

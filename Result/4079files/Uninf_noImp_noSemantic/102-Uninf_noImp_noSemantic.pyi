@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def get_permission_change_data(sender: Any, permissions: Optional[Any] = ..., **kwargs: Any) -> None: ...

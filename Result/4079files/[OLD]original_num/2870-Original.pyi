@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any, Callable
+
+np: module
+
+def MyJacobian(fun, eps = ...) -> Callable[[Any], Any]: ...
+def cartesian(arrays, out = ...) -> Any: ...
+def mlinspace(a, b, orders, out = ...) -> Any: ...

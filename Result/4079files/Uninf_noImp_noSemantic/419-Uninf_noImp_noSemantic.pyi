@@ -1,0 +1,3 @@
+from typing import Tuple
+
+def quadratic(a: float, b: float, c: float) -> Tuple[complex, complex]: ...

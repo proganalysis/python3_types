@@ -1,0 +1,9 @@
+from typing import Any
+
+class MyExample: ...
+
+class Traits:
+    def for_all_classes(self) -> None: ...
+    def for_single_instance(self) -> None: ...
+
+instance: Any

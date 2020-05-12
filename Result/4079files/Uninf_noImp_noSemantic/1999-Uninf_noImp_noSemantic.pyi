@@ -1,0 +1,6 @@
+from typing import Any
+
+config: Any
+
+def load_config(path: Any) -> None: ...
+def save_config(path: Any, config: Any) -> None: ...

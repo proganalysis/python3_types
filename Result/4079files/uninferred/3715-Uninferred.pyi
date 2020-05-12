@@ -1,0 +1,3 @@
+from typing import Any
+
+def commit_to_git(path: Any) -> None: ...

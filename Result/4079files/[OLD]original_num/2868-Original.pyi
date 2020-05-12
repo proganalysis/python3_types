@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Dict, Union
+
+datetime: module
+log: logging.Logger
+logging: module
+time: module
+
+def convertToHumanReadable(date_time) -> str: ...
+def makeEpochTime(date_time) -> int: ...
+def makeFancyDatetime(req_datetime) -> Dict[str, Union[int, str]]: ...
+def test() -> None: ...

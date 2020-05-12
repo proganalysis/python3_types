@@ -1,0 +1,13 @@
+from typing import Any
+
+SERVER: str
+AGENT: str
+CONNECTION_EXCEPTIONS: Any
+
+def get_case_count(server: str) -> int: ...
+def run_case(server: str, case: int, agent: str) -> None: ...
+def update_reports(server: str, agent: str) -> None: ...
+
+CASE: Any
+
+def run_tests(server: str, agent: str) -> None: ...

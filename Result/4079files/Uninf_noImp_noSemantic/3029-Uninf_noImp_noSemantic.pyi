@@ -1,0 +1,3 @@
+from typing import Any
+
+def calculate_histogram(image: Any, number_of_bins: Any) -> None: ...

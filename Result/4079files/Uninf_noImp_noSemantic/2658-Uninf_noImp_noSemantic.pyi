@@ -1,0 +1,9 @@
+import time as time
+from nvidia.dali.pipeline import Pipeline as Pipeline
+from torch.utils.data import DataLoader as DataLoader
+from typing import Any
+from utils import COCODetection as COCODetection, DefaultBoxes as DefaultBoxes, SSDTransformer as SSDTransformer
+
+def parse_args(): ...
+def print_image(image: Any, model: Any, encoder: Any, inv_map: Any, name_map: Any, category_id_to_color: Any, threshold: Any) -> None: ...
+def main() -> None: ...

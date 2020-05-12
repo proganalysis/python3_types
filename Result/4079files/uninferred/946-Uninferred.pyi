@@ -1,0 +1,3 @@
+from typing import Any
+
+def to_mat_str(x: Any, format_string: str = ...): ...

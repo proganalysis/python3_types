@@ -1,0 +1,3 @@
+from typing import Any
+
+def dead_code(a: Any): ...

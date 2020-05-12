@@ -1,0 +1,6 @@
+from typing import Any
+
+class Constants:
+    _lookup: Any = ...
+    @staticmethod
+    def get(key: Any): ...

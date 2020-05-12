@@ -1,0 +1,9 @@
+from django.core.management.base import BaseCommand
+from typing import Any
+
+STSIM_LIBRARY_DIRECTORY: Any
+
+class Command(BaseCommand):
+    help: str = ...
+    def add_arguments(self, parser: Any) -> None: ...
+    def handle(self, name: Any, file: Any, *args: Any, **options: Any) -> None: ...

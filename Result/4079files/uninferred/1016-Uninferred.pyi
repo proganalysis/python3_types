@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_split_long_labels(source: Any, result: Any) -> None: ...

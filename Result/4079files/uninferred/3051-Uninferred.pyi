@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_scrape_electrum_servers(event_loop: Any) -> None: ...

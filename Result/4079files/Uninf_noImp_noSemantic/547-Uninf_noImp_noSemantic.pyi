@@ -1,0 +1,6 @@
+from pylama.lint import Linter as BaseLinter
+from typing import Any, Dict, List
+
+class Linter(BaseLinter):
+    def allow(self, path: str) -> bool: ...
+    def run(self, path: str, **meta: Any) -> List[Dict[str, Any]]: ...

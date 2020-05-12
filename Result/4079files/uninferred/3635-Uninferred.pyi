@@ -1,0 +1,9 @@
+from typing import Any
+
+class DL:
+    @staticmethod
+    def image_classifier_lr(df: Any, input_col: str = ..., output_col: str = ..., model_name: str = ...): ...
+    @staticmethod
+    def evaluate_image_classifier(df: Any, model: Any): ...
+    @staticmethod
+    def image_predictor(path: Any, input_col: str = ..., output_col: str = ..., model_name: str = ..., decode_predictions: bool = ..., topK: int = ...): ...

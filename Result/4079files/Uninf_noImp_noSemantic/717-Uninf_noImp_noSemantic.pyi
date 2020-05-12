@@ -1,0 +1,6 @@
+from typing import Any
+
+CHAINS: Any
+
+def make_chain(): ...
+def gen_roar(): ...

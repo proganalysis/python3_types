@@ -1,0 +1,6 @@
+from typing import Any
+
+async def ping(): ...
+async def main(websocket: Any, path: Any) -> None: ...
+
+start_server: Any

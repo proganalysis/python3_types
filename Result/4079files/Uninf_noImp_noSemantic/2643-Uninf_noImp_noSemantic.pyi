@@ -1,0 +1,13 @@
+from typing import Any
+
+TRANSLATION_TABLE: Any
+
+class GitExplorerBase:
+    @staticmethod
+    def get_gitexplorer_database(): ...
+    @staticmethod
+    def _mongodb_escape(input_string: Any): ...
+    @staticmethod
+    def _mongodb_unescape(input_string: Any): ...
+    @staticmethod
+    def _get_code(file_name: Any): ...

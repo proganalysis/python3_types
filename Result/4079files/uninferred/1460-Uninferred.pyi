@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def VGG_16(weights_path: Optional[Any] = ...): ...

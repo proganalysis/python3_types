@@ -1,0 +1,3 @@
+from typing import Any
+
+def url_status(line: Any): ...

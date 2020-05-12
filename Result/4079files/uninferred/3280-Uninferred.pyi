@@ -1,0 +1,6 @@
+from plasoscaffolder.model import base_data_model
+from typing import Any
+
+class InitDataModel(base_data_model.BaseDataModel):
+    is_create_template: Any = ...
+    def __init__(self, plugin_name: str, is_create_template: bool) -> None: ...

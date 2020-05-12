@@ -1,0 +1,3 @@
+from typing import Any
+
+def parse_weights(module_weights: Any) -> dict: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+ping_ze_def: Any
+
+def is_yun(chars: None) -> bool: ...
+def to_tones_regex(chars: None) -> str: ...

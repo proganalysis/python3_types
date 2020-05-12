@@ -1,0 +1,3 @@
+from typing import Any
+
+def response(flow: Any) -> None: ...

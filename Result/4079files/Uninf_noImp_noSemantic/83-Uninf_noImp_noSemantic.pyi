@@ -1,0 +1,6 @@
+from typing import Any
+
+_dir: Any
+
+def ver_question() -> tuple: ...
+def get_real_answer(index: Any) -> str: ...

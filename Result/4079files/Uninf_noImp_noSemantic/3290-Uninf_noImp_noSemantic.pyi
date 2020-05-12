@@ -1,0 +1,3 @@
+from typing import Any
+
+def analyze_symmetries(sgf_file: Any, dual_network: Any): ...

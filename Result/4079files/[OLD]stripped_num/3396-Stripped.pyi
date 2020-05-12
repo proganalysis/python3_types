@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any
+
+MDHKinematicChain: Any
+MDHLink: Any
+PyboticsError: Any
+RevoluteMDHLink: Any
+np: module
+raises: Any
+
+def test_init() -> None: ...
+def test_num_parameters() -> None: ...
+def test_repr() -> None: ...
+def test_to_dict() -> None: ...
+def test_vector() -> None: ...

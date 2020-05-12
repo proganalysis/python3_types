@@ -1,0 +1,46 @@
+# (generated with --quick)
+
+from typing import Any, Generator, MutableMapping, TypeVar
+
+AUGEAS_ERROR_PATH: str
+AUGEAS_FILES_PATH: str
+AUGEAS_LOAD_PATH: str
+Augeas: Any
+collections: module
+log: logging.Logger
+logging: module
+os: module
+
+_TAugeasNode = TypeVar('_TAugeasNode', bound=AugeasNode)
+_TAugeasWrapper = TypeVar('_TAugeasWrapper', bound=AugeasWrapper)
+
+class AugeasNode(MutableMapping):
+    __doc__: str
+    _aug: Any
+    _path: Any
+    _span: None
+    char: Any
+    path: Any
+    span: Any
+    value: Any
+    def __delitem__(self, key) -> None: ...
+    def __getitem__(self: _TAugeasNode, key) -> _TAugeasNode: ...
+    def __init__(self, aug, path) -> None: ...
+    def __iter__(self) -> Generator[Any, Any, None]: ...
+    def __len__(self) -> int: ...
+    def __setitem__(self, key, value) -> None: ...
+    def match(self, subpath) -> Generator[AugeasNode, Any, None]: ...
+
+class AugeasWrapper:
+    __doc__: str
+    _aug: Any
+    _loaded: bool
+    tree: AugeasNode
+    def __enter__(self: _TAugeasWrapper) -> _TAugeasWrapper: ...
+    def __exit__(self, exc_type, exc_value, traceback) -> None: ...
+    def __init__(self, confpath, lens, root = ..., loadpath = ..., flags = ...) -> None: ...
+    def close(self) -> None: ...
+    def match(self, path) -> Generator[AugeasNode, Any, None]: ...
+    def save(self) -> None: ...
+
+def join(*paths) -> str: ...

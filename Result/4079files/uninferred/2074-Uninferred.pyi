@@ -1,0 +1,6 @@
+from django import forms
+from typing import Any
+
+class SearchForm(forms.Form):
+    def __init__(self, *args: Any, **kwargs: Any) -> None: ...
+    q: Any = ...

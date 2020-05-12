@@ -1,0 +1,3 @@
+from runtime import *
+
+def main() -> None: ...

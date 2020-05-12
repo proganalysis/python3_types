@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def parallel_max(local_value_max: Any, local_args: Optional[Any] = ..., postprocessor: Optional[Any] = ..., mpi_comm: Optional[Any] = ...): ...

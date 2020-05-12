@@ -1,0 +1,3 @@
+from typing import Any
+
+def serve(application: Any, host: str = ..., port: int = ...) -> None: ...

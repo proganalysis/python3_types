@@ -1,0 +1,6 @@
+from ppci.wasm import read_wat as read_wat
+from ppci.wasm.util import datastring2bytes as datastring2bytes
+from typing import Any
+
+def tst_spec_suite_parsing() -> None: ...
+def do_func(fname: Any) -> None: ...

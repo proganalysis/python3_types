@@ -1,0 +1,9 @@
+from typing import Any
+
+newPath: Any
+EYRA_ROOT: str
+_db: Any
+
+def run(data_path: Any, tsv_name: Any) -> None: ...
+def insertIntoDatabase(session_path: Any, tsv_data: Any): ...
+def copyToFilesystem(data_path: Any, session_path: Any, session_id: Any) -> None: ...

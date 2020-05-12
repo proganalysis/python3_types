@@ -1,0 +1,29 @@
+# (generated with --quick)
+
+from typing import Any
+import unittest.case
+
+KroneckerProductLazyTensor: Any
+LazyTensorTestCase: Any
+NonLazyTensor: Any
+RectangularLazyTensorTestCase: Any
+torch: Any
+unittest: module
+
+class TestKroneckerProductLazyTensor(Any, unittest.case.TestCase):
+    def create_lazy_tensor(self) -> Any: ...
+    def evaluate_lazy_tensor(self, lazy_tensor) -> Any: ...
+
+class TestKroneckerProductLazyTensorBatch(Any, unittest.case.TestCase):
+    def create_lazy_tensor(self) -> Any: ...
+    def evaluate_lazy_tensor(self, lazy_tensor) -> Any: ...
+
+class TestKroneckerProductLazyTensorRectangular(Any, unittest.case.TestCase):
+    def create_lazy_tensor(self) -> Any: ...
+    def evaluate_lazy_tensor(self, lazy_tensor) -> Any: ...
+
+class TestKroneckerProductLazyTensorRectangularBatch(Any, unittest.case.TestCase):
+    def create_lazy_tensor(self) -> Any: ...
+    def evaluate_lazy_tensor(self, lazy_tensor) -> Any: ...
+
+def kron(a, b) -> Any: ...

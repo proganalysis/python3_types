@@ -1,0 +1,6 @@
+from typing import Any
+
+rootdir: str
+
+def getFileExt(f: Any): ...
+def scanAllFile() -> None: ...

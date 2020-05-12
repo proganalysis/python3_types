@@ -1,0 +1,3 @@
+from astroid import inference_tip as inference_tip
+
+def pkg_resources_transform(): ...

@@ -1,0 +1,73 @@
+# This file is part of Gajim.
+#
+# Gajim is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published
+# by the Free Software Foundation; version 3 only.
+#
+# Gajim is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Gajim. If not, see <http://www.gnu.org/licenses/>.
+
+# XEP-0107: User Mood
+
+from typing import Any
+from typing import Tuple
+
+import nbxmpp
+
+from gajim.common import app
+from gajim.common.nec import NetworkEvent
+from gajim.common.modules.base import BaseModule
+from gajim.common.modules.util import event_node
+from gajim.common.modules.util import store_publish
+from gajim.common.const import PEPEventType
+
+
+class UserMood(BaseModule):
+
+    _nbxmpp_extends = 'Mood'
+    _nbxmpp_methods = [
+        'set_mood',
+    ]
+
+    def __init__(self, con):
+        BaseModule.__init__(self, con)
+        self._register_pubsub_handler(self._mood_received)
+
+    @event_node(nbxmpp.NS_MOOD)
+    def _mood_received(self, _con, _stanza, properties):
+        data = properties.pubsub_event.data
+        empty = properties.pubsub_event.empty
+
+        for contact in app.contacts.get_contacts(self._account,
+                                                 str(properties.jid)):
+            if not empty:
+                contact.pep[PEPEventType.MOOD] = data
+            else:
+                contact.pep.pop(PEPEventType.MOOD, None)
+
+        if properties.is_self_message:
+            if not empty:
+                self._con.pep[PEPEventType.MOOD] = data
+            else:
+                self._con.pep.pop(PEPEventType.MOOD, None)
+
+        app.nec.push_incoming_event(
+            NetworkEvent('mood-received',
+                         account=self._account,
+                         jid=properties.jid.getBare(),
+                         mood=data,
+                         is_self_message=properties.is_self_message))
+
+    @store_publish
+    def set_mood(self, mood):
+        self._log.info('Send %s', mood)
+        self._nbxmpp('Mood').set_mood(mood)
+
+
+def get_instance(*args: Any, **kwargs: Any) -> Tuple[UserMood, str]:
+    return UserMood(*args, **kwargs), 'UserMood'

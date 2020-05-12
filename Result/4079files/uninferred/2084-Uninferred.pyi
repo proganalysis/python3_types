@@ -1,0 +1,6 @@
+from gitlabform.gitlab.core import GitLabCore
+from typing import Any
+
+class GitLabGroups(GitLabCore):
+    def get_groups(self): ...
+    def get_projects(self, group: Any): ...

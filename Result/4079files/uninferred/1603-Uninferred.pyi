@@ -1,0 +1,6 @@
+from typing import Any
+
+here: Any
+
+def run_generator(spec: Any, src: Any, dst: Any, features: Any, force: Any) -> None: ...
+def main(rules: Any, target: Any, reload: Any, source: Any, watch: Any, scaffold: Any, feature: Any, force: Any, run: Any) -> None: ...

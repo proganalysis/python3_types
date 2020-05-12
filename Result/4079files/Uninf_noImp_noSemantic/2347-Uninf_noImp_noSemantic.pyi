@@ -1,0 +1,3 @@
+from typing import Any
+
+def euclidean_distance(A: Any, B: Any): ...

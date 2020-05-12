@@ -1,0 +1,3 @@
+from typing import Any
+
+def get_fixtures(timeout: Any) -> None: ...

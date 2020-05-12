@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any
+
+ADDITIONAL: list
+ENGLISH_URL: str
+TRUMP_URL: str
+__author__: str
+re: module
+urllib: module
+
+def add_additional_words(words) -> None: ...
+def add_words(word_set, url, line_function) -> None: ...
+def get_allowed_words(filename) -> None: ...
+def get_only_word(line) -> Any: ...
+def get_second_word(line) -> Any: ...

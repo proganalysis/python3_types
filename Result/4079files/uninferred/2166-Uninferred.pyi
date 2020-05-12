@@ -1,0 +1,3 @@
+from typing import Any
+
+def main(start: str = ..., end: str = ..., i: str = ..., img: bool = ..., gif: bool = ..., email: bool = ..., **kw: Any) -> None: ...

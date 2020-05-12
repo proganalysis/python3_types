@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_zap_zeros(sample_list: Any, amount: Any) -> None: ...

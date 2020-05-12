@@ -1,0 +1,6 @@
+from .Analyser_Merge import Analyser_Merge
+from typing import Any, Optional
+
+class Analyser_Merge_Recycling_FR_capp_glass(Analyser_Merge):
+    missing_official: Any = ...
+    def __init__(self, config: Any, logger: Optional[Any] = ...) -> None: ...

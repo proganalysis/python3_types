@@ -1,0 +1,3 @@
+import numpy
+
+def logloss(y: numpy.array, y_hat: numpy.array) -> float: ...

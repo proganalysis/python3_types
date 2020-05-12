@@ -1,0 +1,6 @@
+from typing import Any, Dict, List
+
+sess: Any
+
+def _load_n_items(feed: str, max_news_items: int) -> Any: ...
+def get_news(feed: str=..., max_news_items: int=...) -> List[Dict[str, Any]]: ...

@@ -1,0 +1,16 @@
+from typing import Any
+
+log: Any
+logs: Any
+loge: Any
+neo: Any
+total: int
+
+def led0() -> None: ...
+def led1() -> None: ...
+def led2() -> None: ...
+def led3() -> None: ...
+def master_of_universe() -> None: ...
+
+now: Any
+sched: Any

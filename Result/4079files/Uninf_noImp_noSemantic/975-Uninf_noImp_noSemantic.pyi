@@ -1,0 +1,9 @@
+from typing import Any
+
+class ModuleTest02:
+    def __init__(self, mparam: Any) -> None: ...
+    def worker(self, param: Any) -> None: ...
+
+def test(m: Any) -> None: ...
+
+m: Any

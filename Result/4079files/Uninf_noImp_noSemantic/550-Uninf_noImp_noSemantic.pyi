@@ -1,0 +1,3 @@
+from typing import Any
+
+def obtain_marginal_contributions(result_directory: Any): ...

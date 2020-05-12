@@ -1,0 +1,9 @@
+from typing import Any
+
+dDay: int
+obsTimes: Any
+verbose: bool
+
+def readTimes(obsfile: Any): ...
+def parseObsTimes() -> None: ...
+def validate(sumoBinary: Any): ...

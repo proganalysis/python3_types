@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+sys: module
+
+def check_version() -> bool: ...
+def run_excalibot() -> None: ...

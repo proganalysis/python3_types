@@ -1,0 +1,33 @@
+# (generated with --quick)
+
+from typing import Any, Dict, Tuple
+
+ValueRange: Any
+XY: Any
+YearRange: Any
+svgwrite: Any
+
+class Poster:
+    __doc__: str
+    athlete: None
+    colors: Dict[str, str]
+    height: int
+    length_range: Any
+    length_range_by_date: Any
+    title: str
+    tracks: Any
+    tracks_by_date: Dict[Any, list]
+    tracks_drawer: Any
+    units: str
+    width: int
+    years: Any
+    def _Poster__compute_track_statistics(self) -> Tuple[Any, Any, Any, Any, int]: ...
+    def _Poster__compute_years(self, tracks) -> None: ...
+    def _Poster__draw_footer(self, d) -> None: ...
+    def _Poster__draw_header(self, d) -> None: ...
+    def _Poster__draw_tracks(self, d, size, offset) -> None: ...
+    def __init__(self) -> None: ...
+    def draw(self, drawer, output) -> None: ...
+    def m2u(self, m) -> Any: ...
+    def set_tracks(self, tracks) -> None: ...
+    def u(self) -> str: ...

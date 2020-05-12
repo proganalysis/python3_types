@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def parallel_plot(df: Any, color: Optional[Any] = ..., palette: Optional[Any] = ...): ...

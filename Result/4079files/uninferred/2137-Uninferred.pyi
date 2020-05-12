@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_main(mock_parse_args: Any, mock_autoscale_services: Any, logging: Any) -> None: ...

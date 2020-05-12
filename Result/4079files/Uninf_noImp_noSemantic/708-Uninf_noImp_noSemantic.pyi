@@ -1,0 +1,6 @@
+from typing import Any
+
+_connection: Any
+
+async def _create_connect(): ...
+async def database(): ...

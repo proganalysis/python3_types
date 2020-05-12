@@ -1,0 +1,3 @@
+from .utils import load_plugin as load_plugin
+
+def main() -> None: ...

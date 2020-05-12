@@ -1,0 +1,3 @@
+from typing import Any
+
+def group_by(iterable: Any, predicate: Any) -> None: ...

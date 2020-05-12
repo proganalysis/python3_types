@@ -1,0 +1,3 @@
+from django.http import HttpRequest as HttpRequest, HttpResponse as HttpResponse
+
+def index(request: HttpRequest) -> HttpResponse: ...

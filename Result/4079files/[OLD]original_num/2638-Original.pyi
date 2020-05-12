@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def my_cool_function(a: int, b: int) -> int: ...

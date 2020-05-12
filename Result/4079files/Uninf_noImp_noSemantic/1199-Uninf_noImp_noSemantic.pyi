@@ -1,0 +1,3 @@
+from typing import Any, List
+
+def add(lst: List[int]) -> Any: ...

@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def main(args: Optional[Any] = ...) -> None: ...

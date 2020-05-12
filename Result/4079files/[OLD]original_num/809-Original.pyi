@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+pytest: Any
+
+def test_instance() -> None: ...
+def test_sssrm() -> None: ...
+def test_wrong_input() -> None: ...

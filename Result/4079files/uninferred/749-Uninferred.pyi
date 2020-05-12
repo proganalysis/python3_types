@@ -1,0 +1,3 @@
+from typing import Any
+
+def deprecation_warn(message: str=...) -> Any: ...

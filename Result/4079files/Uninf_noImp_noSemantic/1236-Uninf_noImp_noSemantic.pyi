@@ -1,0 +1,9 @@
+import pandas as pd
+from matplotlib.colors import Colormap
+from typing import Any, List, Tuple
+
+logger: Any
+
+def plot(stars: pd.DataFrame, axes: str, *, uv_filename: str=..., uw_filename: str=..., vw_filename: str=..., u_label: str=..., v_label: str=..., w_label: str=...) -> None: ...
+def draw_plot(xlabel: str, ylabel: str, xdata: List[float], ydata: List[float], filename: str, *, figure_size: Tuple[float, float]=..., ratio: float=..., spacing: float=..., figure_grid_height_ratios: List[float]=..., bins_count: int=..., vmin: float=...) -> None: ...
+def colormap_by_name(name: str, *, under: str=...) -> Colormap: ...

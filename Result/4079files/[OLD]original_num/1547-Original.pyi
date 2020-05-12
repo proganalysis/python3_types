@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+Configurator: Any
+account: Any
+albums: Any
+home: Any
+
+def add_controller_routes(config, ctrl, prefix) -> None: ...
+def init_includes(config) -> None: ...
+def init_routing(config) -> None: ...
+def main(_, **settings) -> Any: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+DEFAULT_MAX_MESSAGE_SIZE: Any
+
+def packagesize(messagesize: Any, batchsize: Any, topic: Any): ...
+def check_message_size(messagesize: Any, batchsize: Any, topic: Any): ...

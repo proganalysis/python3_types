@@ -1,0 +1,6 @@
+from cortex.plugins import DatasetPlugin
+from typing import Any
+
+class ImageFolder(DatasetPlugin):
+    sources: Any = ...
+    def handle(self, source: Any, copy_to_local: bool = ..., normalize: bool = ..., tanh_normalization: bool = ..., **transform_args: Any) -> None: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+resource: Any
+
+def read(name: Any, **kwargs: Any): ...
+def test_portfolio(): ...

@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+import isim.base_types
+from typing import Any, Dict, List, Type
+
+SimulatorControlBase: Type[isim.base_types.SimulatorControlBase]
+SimulatorControlType: Type[isim.base_types.SimulatorControlType]
+
+class DevicePair(isim.base_types.SimulatorControlBase):
+    __doc__: str
+    identifier: str
+    phone_udid: Any
+    raw_info: Dict[str, Any]
+    watch_udid: Any
+    def __init__(self, device_pair_identifier: str, device_pair_info: Dict[str, Any]) -> None: ...
+    def activate(self) -> None: ...
+    @staticmethod
+    def from_simctl_info(info: Dict[str, Any]) -> List[DevicePair]: ...
+    @staticmethod
+    def list_all() -> List[DevicePair]: ...
+    def phone(self) -> None: ...
+    def unpair(self) -> None: ...
+    def watch(self) -> None: ...

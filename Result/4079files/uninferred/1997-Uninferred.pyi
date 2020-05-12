@@ -1,0 +1,3 @@
+from typing import Any
+
+def translate(expn: Any, startLang: Any, endLang: Any): ...

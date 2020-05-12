@@ -1,0 +1,3 @@
+from typing import Any
+
+def step_impl(context: Any) -> None: ...

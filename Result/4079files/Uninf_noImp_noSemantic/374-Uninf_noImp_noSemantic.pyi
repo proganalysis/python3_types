@@ -1,0 +1,3 @@
+from typing import Any
+
+def pytest_generate_tests(metafunc: Any) -> None: ...

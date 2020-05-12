@@ -1,0 +1,46 @@
+# (generated with --quick)
+
+import __builtin__
+import collections
+from typing import Any, Callable, Iterable, Sized, Tuple, TypeVar, Union
+
+JsonRpcMsg = `namedtuple-JsonRpcMsg-type-data`
+
+JSONRPC: str
+RpcError: Any
+RpcInvalidRequestError: Any
+RpcParseError: Any
+error_code_to_exception: Any
+json: module
+
+_Tnamedtuple-JsonRpcMsg-type-data = TypeVar('_Tnamedtuple-JsonRpcMsg-type-data', bound=`namedtuple-JsonRpcMsg-type-data`)
+
+class JsonRpcMsgTyp:
+    ERROR: int
+    NOTIFICATION: int
+    REQUEST: int
+    RESPONSE: int
+    RESULT: int
+
+class `namedtuple-JsonRpcMsg-type-data`(tuple):
+    __slots__ = ["data", "type"]
+    __dict__: collections.OrderedDict[str, Any]
+    _fields: Tuple[str, str]
+    data: Any
+    type: Any
+    def __getnewargs__(self) -> Tuple[Any, Any]: ...
+    def __getstate__(self) -> None: ...
+    def __init__(self, *args, **kwargs) -> None: ...
+    def __new__(cls: __builtin__.type[`_Tnamedtuple-JsonRpcMsg-type-data`], type, data) -> `_Tnamedtuple-JsonRpcMsg-type-data`: ...
+    def _asdict(self) -> collections.OrderedDict[str, Any]: ...
+    @classmethod
+    def _make(cls: __builtin__.type[`_Tnamedtuple-JsonRpcMsg-type-data`], iterable: Iterable, new = ..., len: Callable[[Sized], int] = ...) -> `_Tnamedtuple-JsonRpcMsg-type-data`: ...
+    def _replace(self: `_Tnamedtuple-JsonRpcMsg-type-data`, **kwds) -> `_Tnamedtuple-JsonRpcMsg-type-data`: ...
+
+def decode_error(msg: `namedtuple-JsonRpcMsg-type-data`) -> Any: ...
+def decode_msg(raw_msg) -> `namedtuple-JsonRpcMsg-type-data`: ...
+def encode_error(error, id = ...) -> str: ...
+def encode_notification(method, params = ...) -> str: ...
+def encode_request(method, id = ..., params = ...) -> str: ...
+def encode_result(id, result) -> str: ...
+def namedtuple(typename: str, field_names: Union[str, Iterable[str]], *, verbose: bool = ..., rename: bool = ...) -> type: ...

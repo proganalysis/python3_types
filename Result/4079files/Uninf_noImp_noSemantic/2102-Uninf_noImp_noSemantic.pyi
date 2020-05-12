@@ -1,0 +1,6 @@
+from typing import Any, List, Optional
+
+choices: Any
+
+def _parser(): ...
+def main(bands: Optional[List[str]]=..., verbose: bool=...) -> None: ...

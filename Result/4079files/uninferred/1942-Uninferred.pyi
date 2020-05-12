@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def main(i: Any, f: Optional[Any] = ..., start: int = ..., end: Any = ..., img: bool = ..., gif: bool = ..., email: bool = ..., **kw: Any) -> None: ...

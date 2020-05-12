@@ -1,0 +1,6 @@
+from typing import Any
+
+DOIT_CONFIG: Any
+
+def task_flake8(): ...
+def task_docs(): ...

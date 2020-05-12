@@ -1,0 +1,3 @@
+from typing import Any
+
+def main(message: Any, upper: bool = ..., repeat: bool = ...) -> None: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+def find_xdg_data_files(syspath: Any, relativepath: Any, pkgname: Any, data_files: Any = ...): ...
+def find_data_files(data_map: Any, pkgname: Any): ...
+
+DATA_FILES: Any
