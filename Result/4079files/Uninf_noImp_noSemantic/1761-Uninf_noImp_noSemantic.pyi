@@ -1,0 +1,6 @@
+from typing import Any
+
+DATA_FILE: Any
+
+def yield_test_data() -> None: ...
+def test_rasmify() -> None: ...

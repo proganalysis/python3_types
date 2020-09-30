@@ -1,0 +1,13 @@
+from runner.executor import *
+from typing import Any
+
+ERROR_STATE: int
+SUCCESS_STATE: int
+NO_AUTH_STATE: int
+
+class AsyncState:
+    id: Any = ...
+
+def deploy(request: Any): ...
+def deploy_group(request: Any): ...
+def invalidate(request: Any): ...

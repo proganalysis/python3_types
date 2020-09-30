@@ -1,0 +1,6 @@
+from pybel import BELGraph
+from pybel.struct.mutation import get_nodes_in_all_shortest_paths as get_nodes_in_all_shortest_paths
+from typing import Any, List
+
+def get_shortest_directed_path_between_subgraphs(graph: BELGraph, a: BELGraph, b: BELGraph) -> List[List[Any]]: ...
+def get_shortest_undirected_path_between_subgraphs(graph: BELGraph, a: BELGraph, b: BELGraph) -> List[List[Any]]: ...

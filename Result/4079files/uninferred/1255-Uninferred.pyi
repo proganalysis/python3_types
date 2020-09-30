@@ -1,0 +1,9 @@
+import unittest
+from typing import Any
+
+class TestSamplesOnPython(unittest.TestCase):
+    opt_level: int = ...
+    def do(self, src: Any, expected_output: Any, lang: str = ...) -> None: ...
+
+class TestSamplesOnPythonO2(TestSamplesOnPython):
+    opt_level: int = ...

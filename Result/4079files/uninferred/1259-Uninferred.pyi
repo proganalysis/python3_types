@@ -1,0 +1,3 @@
+from typing import Any
+
+def dataset_delete(sender: Any, instance: Any, **kwargs: Any) -> None: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+async def test_connect(loop: Any) -> None: ...

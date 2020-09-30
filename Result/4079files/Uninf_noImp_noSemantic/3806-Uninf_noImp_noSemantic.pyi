@@ -1,0 +1,6 @@
+from typing import Any, Optional
+
+__all__: Any
+
+def gyield(switch_back: bool = ...) -> None: ...
+def trampoline(fd: Any, evtype: Any, timeout: Optional[Any] = ..., timeout_exc: Any = ...): ...

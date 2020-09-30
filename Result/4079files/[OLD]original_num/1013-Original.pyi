@@ -1,0 +1,19 @@
+# (generated with --quick)
+
+from typing import Any, Dict, List, TypeVar, Union
+
+_T0 = TypeVar('_T0')
+_T1 = TypeVar('_T1')
+_T2 = TypeVar('_T2')
+_T3 = TypeVar('_T3')
+
+class SubmoduleBaseclass(object):
+    name: str
+    results: List[Dict[str, Any]]
+    summary: Dict[str, List[nothing]]
+    def add_result_subsection(self, subsection_header, results) -> None: ...
+    def analyze_file(self, path) -> Dict[nothing, nothing]: ...
+    def build_taxonomy(self, level: _T0, namespace: _T1, predicate: _T2, value: _T3) -> Dict[str, Union[_T0, _T1, _T2, _T3]]: ...
+    def check_file(self, **kwargs) -> bool: ...
+    def get_name(self) -> str: ...
+    def module_summary(self) -> Dict[str, List[nothing]]: ...

@@ -1,0 +1,43 @@
+# (generated with --quick)
+
+import collections
+import flask.wrappers
+from typing import Any, Dict, Type
+
+Queue: Any
+Response: Type[flask.wrappers.Response]
+deque: Type[collections.deque]
+gevent: Any
+json: module
+random: module
+request: flask.wrappers.Request
+string: module
+
+class Channel(object):
+    history: collections.deque
+    subscriptions: list
+    def __init__(self, history_size = ...) -> None: ...
+    def _add_history(self, q, last_id) -> None: ...
+    def comment(self, msg = ...) -> None: ...
+    def event_generator(self, last_id) -> generator: ...
+    def get_last_id(self) -> Any: ...
+    def notify(self, message) -> None: ...
+    def publish(self, event, message) -> None: ...
+    def subscribe(self) -> flask.wrappers.Response: ...
+
+class Comment(object):
+    event_id: Any
+    msg: Any
+    def __init__(self, msg) -> None: ...
+    def encode(self) -> str: ...
+
+class ServerSentEvent(object):
+    __doc__: str
+    data: Any
+    desc_map: Dict[Any, str]
+    event: Any
+    event_id: Any
+    def __init__(self, data, event) -> None: ...
+    def encode(self) -> str: ...
+
+def generate_id(size = ..., chars = ...) -> str: ...

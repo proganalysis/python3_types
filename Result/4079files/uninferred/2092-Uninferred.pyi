@@ -1,0 +1,6 @@
+from typing import Any
+
+class GetTempsToISY:
+    def __init__(self) -> None: ...
+    @staticmethod
+    def SendTemps(alert: Any) -> None: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def playlist_index_changed(position: Any) -> None: ...

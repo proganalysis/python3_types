@@ -1,0 +1,3 @@
+TEST_STRINGS: str
+
+def test_load_blank_line() -> None: ...

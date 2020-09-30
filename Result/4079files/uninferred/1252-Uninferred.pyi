@@ -1,0 +1,3 @@
+from typing import Any
+
+def compare_images(image_a: Any, image_b: Any, title: Any) -> None: ...

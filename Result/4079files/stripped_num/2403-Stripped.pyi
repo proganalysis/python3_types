@@ -1,0 +1,43 @@
+# (generated with --quick)
+
+import __future__
+from typing import Any, List, Tuple
+
+absolute_import: __future__._Feature
+beam: Any
+division: __future__._Feature
+math_util: Any
+metric_keys: Any
+metrics_for_slice_pb2: Any
+np: module
+print_function: __future__._Feature
+six: module
+slicer: Any
+tf: Any
+types: Any
+
+class SerializeMetrics(Any):
+    __doc__: str
+    _post_export_metrics: Any
+    def __init__(self, post_export_metrics) -> None: ...
+    def expand(self, metrics) -> Any: ...
+
+class SerializeMetricsAndPlots(Any):
+    __doc__: str
+    _post_export_metrics: Any
+    def __init__(self, post_export_metrics) -> None: ...
+    def expand(self, metrics_and_plots) -> Tuple[Any, Any]: ...
+
+class SerializePlots(Any):
+    __doc__: str
+    _post_export_metrics: Any
+    def __init__(self, post_export_metrics) -> None: ...
+    def expand(self, plots) -> Any: ...
+
+def _convert_slice_plots(slice_plots, post_export_metrics, plot_data) -> None: ...
+def _convert_to_array_value(array) -> Any: ...
+def _serialize_metrics(metrics, post_export_metrics) -> Any: ...
+def _serialize_plots(plots, post_export_metrics) -> Any: ...
+def convert_slice_metrics(slice_metrics, post_export_metrics, metrics_for_slice) -> None: ...
+def load_and_deserialize_metrics(path) -> List[Tuple[Any, Any]]: ...
+def load_and_deserialize_plots(path) -> List[Tuple[Any, Any]]: ...

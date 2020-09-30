@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+pytest: Any
+
+def configured_connection_factory(autocommit_database, test_database_url) -> Any: ...
+def session_factory(autocommit_database, transactional_connection_fixture_name) -> Any: ...
+def transactional_connection_factory(autocommit_database, sqlalchemy_session, configured_connection_fixture_name) -> Any: ...

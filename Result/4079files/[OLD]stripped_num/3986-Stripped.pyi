@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def merge_dicts(dict1, dict2) -> dict: ...

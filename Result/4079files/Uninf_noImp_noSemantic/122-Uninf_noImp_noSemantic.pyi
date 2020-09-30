@@ -1,0 +1,6 @@
+from typing import Any
+
+HELP_TEXT: Any
+
+def call(salty_inst: Any, c_msg: Any, **kwargs: Any): ...
+def test(salty_inst: Any, c_msg: Any, **kwargs: Any) -> None: ...

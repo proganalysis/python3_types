@@ -1,0 +1,6 @@
+from typing import Any
+
+OPTIONAL_CYTHON: Any
+
+def _multidict(request: Any): ...
+def pytest_generate_tests(metafunc: Any) -> None: ...

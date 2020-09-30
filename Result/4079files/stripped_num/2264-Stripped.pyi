@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any
+
+ast: module
+sys: module
+
+class MockRam(dict):
+    def __missing__(self, addr) -> None: ...
+
+def b2i(l) -> Any: ...
+def i2b(i) -> list: ...
+def main(fn, mreq) -> None: ...

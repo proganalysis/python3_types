@@ -1,0 +1,3 @@
+from typing import Any, Tuple
+
+def start_service(filename: str, monkeypatch: Any=..., wait: bool=...) -> Tuple: ...

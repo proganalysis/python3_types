@@ -1,0 +1,3 @@
+from typing import Any
+
+def make_reporter(title: Any, notes: bool = ..., viz: bool = ...): ...

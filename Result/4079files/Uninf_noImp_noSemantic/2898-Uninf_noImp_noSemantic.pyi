@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def run(main: Optional[Any] = ...): ...

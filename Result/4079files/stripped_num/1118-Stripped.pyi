@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+from typing import Any, Callable
+
+def combine_batches(inputs) -> tuple: ...
+def unpack_args(func) -> Callable[[Any], Any]: ...

@@ -1,0 +1,6 @@
+from programy.mappings.base import SingleStringCollection
+from typing import Any
+
+class PronounsCollection(SingleStringCollection):
+    def __init__(self) -> None: ...
+    def is_pronoun(self, word: Any): ...

@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def pytest_configure(config) -> None: ...

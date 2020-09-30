@@ -1,0 +1,89 @@
+# (generated with --quick)
+
+import datetime
+from typing import Any, List, TypeVar, Union
+
+__author__: str
+__license__: str
+dateutil: module
+openhab: Any
+typing: module
+
+_T0 = TypeVar('_T0')
+
+class ContactItem(Item):
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    state: str
+    type_: Any
+    types: list
+    def closed(self) -> None: ...
+    def open(self) -> None: ...
+
+class DateTimeItem(Item):
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    type_: Any
+    types: list
+    def __eq__(self, other) -> Any: ...
+    def __gt__(self, other) -> Any: ...
+    def __lt__(self, other) -> bool: ...
+    def __ne__(self, other) -> bool: ...
+    def _parse_rest(self, value) -> datetime.datetime: ...
+    def _rest_format(self, value) -> Any: ...
+
+class DimmerItem(Item):
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    type_: Any
+    types: list
+    def _parse_rest(self, value) -> int: ...
+    def _rest_format(self, value: _T0) -> Union[str, _T0]: ...
+    def decrease(self) -> None: ...
+    def increase(self) -> None: ...
+    def off(self) -> None: ...
+    def on(self) -> None: ...
+
+class Item:
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    state: Any
+    type_: Any
+    types: List[type]
+    def _Item__set_state(self, value) -> None: ...
+    def __init__(self, openhab_conn, json_data) -> None: ...
+    def __str__(self) -> str: ...
+    def _parse_rest(self, value: _T0) -> _T0: ...
+    def _rest_format(self, value: _T0) -> _T0: ...
+    def _validate_value(self, value) -> None: ...
+    def command(self, value) -> None: ...
+    def init_from_json(self, json_data) -> None: ...
+    def update(self, value) -> None: ...
+
+class NumberItem(Item):
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    type_: Any
+    types: list
+    def _parse_rest(self, value) -> float: ...
+    def _rest_format(self, value) -> str: ...
+
+class SwitchItem(Item):
+    __doc__: str
+    _state: Any
+    name: Any
+    openhab: Any
+    type_: Any
+    types: list
+    def off(self) -> None: ...
+    def on(self) -> None: ...

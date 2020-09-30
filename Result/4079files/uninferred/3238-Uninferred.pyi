@@ -1,0 +1,6 @@
+import torch.nn.functional as nn
+import torch.nn.functional
+from typing import Any
+
+def train_cl_clf(device: torch.device, category_clf_net: nn.Module, site_clf_net: nn.Module, type_clf_net: nn.Module, data_loader: torch.utils.data.DataLoader, max_num_batches: int, optimizer: torch.optim) -> Any: ...
+def valid_cl_clf(device: torch.device, category_clf_net: nn.Module, site_clf_net: nn.Module, type_clf_net: nn.Module, data_loader: torch.utils.data.DataLoader) -> Any: ...

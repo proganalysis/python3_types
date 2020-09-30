@@ -1,0 +1,3 @@
+from typing import Any
+
+def empty_authenticated_user_saved_citation_list(sender: Any, request: Any, user: Any, **kwargs: Any) -> None: ...

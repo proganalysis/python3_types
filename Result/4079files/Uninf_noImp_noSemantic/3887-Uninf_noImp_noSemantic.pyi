@@ -1,0 +1,13 @@
+from typing import Any, Optional
+
+FORMATTERS: Any
+FILE_LOGGING: Any
+CONSOLE_LOGGING: Any
+FILE_CONSOLE_LOGGING: Any
+NO_LOGGING: Any
+LOGGING_CONFIGS: Any
+
+def is_python34() -> bool: ...
+def setup_main_logger(file_logging: Any=..., console: Any=..., path: Optional[str]=..., level: Any=...) -> Any: ...
+def log_sockeye_version(logger: Any) -> None: ...
+def log_mxnet_version(logger: Any) -> None: ...

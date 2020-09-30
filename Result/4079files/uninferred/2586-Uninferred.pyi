@@ -1,0 +1,3 @@
+from typing import Any
+
+def pretty_print_recursive(obj: Any, indent: int = ...) -> None: ...

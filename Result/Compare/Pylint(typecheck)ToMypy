@@ -1,0 +1,47 @@
+----- Pylint -> Mypy -----
+assignment-from-none 1/85
+  [['func-returns-value', 1]]
+c-extension-no-member 92/3442
+  [['attr-defined', 63], ['name-defined', 27], ['misc', 2]]
+invalid-unary-operand-type 4/169
+  [['operator', 4]]
+isinstance-second-argument-not-valid-type 1/155
+  [['arg-type', 1]]
+no-member 2124/93740
+  [['attr-defined', 1692], ['name-defined', 241], ['has-type', 55], ['call-arg', 47], ['assignment', 26], ['arg-type', 19], ['misc', 14], ['valid-type', 12], ['operator', 7], ['no-redef', 3], ['union-attr', 2], ['return-value', 2], ['var-annotated', 1], ['syntax', 1], ['list-item', 1], ['call-overload', 1]]
+no-value-for-parameter 75/2292
+  [['call-arg', 49], ['attr-defined', 10], ['name-defined', 5], ['arg-type', 5], ['misc', 2], ['assignment', 2], ['call-overload', 1], ['abstract', 1]]
+not-an-iterable 5/283
+  [['attr-defined', 4], ['misc', 1]]
+not-callable 33/3751
+  [['operator', 18], ['misc', 7], ['attr-defined', 7], ['call-arg', 1]]
+syntax-error 1/18
+  [['syntax', 1]]
+too-many-function-args 21/499
+  [['call-arg', 14], ['name-defined', 5], ['misc', 1], ['attr-defined', 1]]
+unexpected-keyword-arg 23/906
+  [['arg-type', 8], ['call-arg', 7], ['call-overload', 6], ['name-defined', 1], ['misc', 1]]
+unsubscriptable-object 65/1053
+  [['index', 64], ['valid-type', 1]]
+unsupported-assignment-operation 3/205
+  [['index', 2], ['valid-type', 1]]
+unsupported-membership-test 3/178
+  [['operator', 3]]
+
+Use_all = 2451, Total_all = 106776
+Not in any:
+keyword-arg-before-vararg
+unsupported-delete-operation
+invalid-sequence-index
+missing-kwoa
+assignment-from-no-return
+not-context-manager
+arguments-out-of-order
+not-a-mapping
+dict-iter-missing-items
+non-str-assignment-to-dunder-name
+redundant-keyword-arg
+repeated-keyword
+invalid-metaclass
+invalid-slice-index
+useless-suppressio

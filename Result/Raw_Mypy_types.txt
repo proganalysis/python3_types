@@ -1,0 +1,2294 @@
+Total = 2291
+All Counting = 21530
+
+None 3717
+str 2937
+int 1486
+Optional[Any] 905
+object 750
+Optional[str] 721
+float 444
+List[Any] 341
+List[str] 311
+bool 290
+Dict[Any, Any] 248
+bytes 227
+Optional[int] 174
+Optional[List[Any]] 147
+Optional[Match[str]] 119
+Tuple[Any, ...] 113
+Tensor 107
+datetime 87
+Tuple[] 87
+Sized 86
+Path 86
+Optional[Dict[Any, Any]] 81
+tibrv_status 77
+ExampleClass 75
+TextIO 72
+Union[int, slice] 72
+Optional[Match[Any]] 72
+Callable[[Any], Any] 65
+**Dict[str, object] 65
+Namespace 63
+Dict[str, Any] 61
+List[int] 60
+ellipsis 60
+Dict[str, str] 59
+Union[str, bytes, SupportsInt, _SupportsIndex] 53
+Tuple[str, str] 50
+Tuple[str] 48
+**Dict[str, Union[str, Type[str], None]] 48
+Response 45
+Callable[..., Any] 45
+T 44
+Optional[Element] 43
+Iterable[str] 41
+Iterable[Any] 41
+EDBOWebApiMethods 40
+Optional[bool] 39
+Optional[IO[bytes]] 37
+**Dict[str, Optional[str]] 36
+BinaryIO 34
+Set[Any] 34
+type 33
+Decimal 33
+Optional[FlowControlDataQueue[WSMessage]] 32
+list 31
+List[<nothing>] 31
+Dict[<nothing>, <nothing>] 31
+Union[str, _PathLike[str]] 30
+Optional[bytes] 30
+Iterator[Any] 29
+List[float] 28
+Type[Code] 28
+Set[str] 27
+AxisBinaryEvent 27
+Callable[[Any, Any], Any] 26
+Optional[SurfaceProp] 26
+SurfaceProp 26
+Callable[[List[Any], NumpyNDArray?, PandasSeries?], None] 26
+BaseServer 25
+Tuple[Any] 24
+ReifiedConverter 24
+Union[int, str] 23
+Type[Option] 23
+Callable[[Any, Any, Any], Any] 23
+Union[str, bool, int] 23
+Callable[[], Any] 21
+Number 21
+Node 21
+Tuple[str, str, str] 21
+Union[str, None, Any] 21
+getLogger 21
+Instrument 21
+Optional[Path] 20
+Tuple[int, int] 20
+Optional[float] 20
+Optional[List[str]] 20
+List[List[Any]] 20
+Callable[[ThriftLinterTest], Any] 20
+ThriftLinterTest 20
+Type[ExampleClass] 20
+Tuple[Any, Any] 19
+function 19
+timedelta 19
+Logger 19
+Union[str, int, bytes] 19
+PyInvestmentError 19
+Opcode 19
+Optional[Dict[str, Any]] 18
+Optional[IO[str]] 18
+Union[str, bytes] 18
+Optional[AbstractStreamWriter] 18
+Optional[IO[Any]] 18
+Tuple[str, ...] 17
+Callable[[ReadOnlyContainer, VarArg(Any), KwArg(Any)], Any] 17
+WaifuData 17
+Variable 17
+Optional[datetime] 17
+Union[str, int] 17
+time 17
+Task[Any] 17
+Validator 17
+Optional[Tileset] 17
+Iterator[str] 16
+Optional[BaseProtocol] 16
+PTMConverter 16
+**Dict[str, bool] 16
+DatetimeAccessor 16
+Union[str, Type[Action]] 16
+Dict[str, Dict[str, object]] 16
+IO[bytes] 15
+property 15
+Type[Logger] 15
+CommandLineOption 15
+Union[bytes, str, _PathLike[Any]] 15
+LongTensor 15
+Dict[str, object] 15
+Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]] 15
+CPU32 15
+Optional[Tile] 15
+Optional[_Loader] 14
+Union[str, bytes, int, _PathLike[Any]] 14
+Union[str, Any] 14
+Iterable[<nothing>] 14
+procDecorator 14
+Union[List[Any], Dict[Any, Any], int, str] 14
+Union[bytes, bytearray, memoryview] 13
+Sequence[Any] 13
+Type[int] 13
+Callable[[Any], None] 13
+Future?[_T`-1] 13
+Properties 13
+Optional[Logger] 13
+Union[str, Tuple[str, ...], None] 13
+List[Dict[str, Any]] 12
+List[Dict[Any, Any]] 12
+Sequence[str] 12
+List[List[str]] 12
+Optional[Tensor] 12
+Tuple[None, None] 12
+PackageMakerBase 12
+set 12
+Any 11
+Union[Tuple[Any, ...], Dict[str, Any], None] 11
+Type[Type] 11
+IO[Any] 11
+State 11
+Tuple[object] 11
+Optional[Sequence[str]] 11
+Meta 11
+Optional[Node] 11
+Callable[[], Classifier] 11
+STOS 11
+Type[Any] 11
+partial[Any] 10
+_T 10
+FunctionType 10
+Callable[..., Iterator[<nothing>]] 10
+_lru_cache_wrapper[Any] 10
+BaseProtocol 10
+Awaitable[Any] 10
+Union[Type[_CData], Callable[[int], None], None] 10
+RecordDataUtil 10
+BaseRequest 10
+StreamResponse 10
+Callable[[Any, VarArg(Any), DefaultNamedArg(Union[None, bool, Union[Tuple[type, BaseException, Optional[TracebackType]], Tuple[None, None, None]], BaseException], 'exc_info'), DefaultNamedArg(bool, 'stack_info'), DefaultNamedArg(Optional[Dict[str, Any]], 'extra'), KwArg(Any)], None] 10
+Tuple[str, str, str, str, str, str, str] 10
+Optional[Tuple[int, int]] 10
+Astronaut 10
+Tuple[str, str, str, str, str, str] 10
+List[Tuple[int, int]] 10
+Set[Tuple[int, int]] 10
+Union[int, float, List[Any]] 10
+Sequence[float] 10
+Optional[object] 10
+BaseEventLoop 10
+Callable[[TestAlertaPageView], Any] 10
+_SpecialForm 9
+List[Path] 9
+dict 9
+int8 9
+Callable[[Any], bool] 9
+range 9
+MatrixWithOpposite 9
+Optional[FrameType] 9
+Type[str] 9
+Iterable[Tuple[<nothing>, <nothing>]] 9
+Tuple[str, None] 9
+Optional[FormatIncome] 9
+Type[SegmentRegs] 9
+Dict[int, Any] 9
+DictLike 9
+Union[Callable[[str], str], FileType] 9
+BaseMulticallBuilder 9
+_Textbox 9
+Tuple[object, object] 9
+Iterable[int] 8
+AbstractEventLoop 8
+ComparisonOp 8
+Tuple 8
+_Loader 8
+Optional[Dict[str, str]] 8
+Dropout 8
+Optional[LongTensor] 8
+TOCSection 8
+Dict[str, Dict[Any, Any]] 8
+expr 8
+Union[Callable[[], Coroutine[Any, Any, WSMessage]], Any] 8
+Field 8
+**Dict[str, int] 8
+Template 8
+bytearray 8
+StreamReader 8
+Brand 8
+BinaryToolBase 8
+AST 8
+Tuple[str, str, str, str, str] 8
+Type[TrafficVolume] 8
+Game 8
+Collection[str] 8
+Tuple[int] 8
+BaseClaim 8
+FCOMP 8
+TreeNode 8
+Tuple[<nothing>, ...] 8
+Pointlike 8
+AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]] 8
+Slot 8
+Dict[Tuple[int, int], None] 8
+TreeManager 8
+array[int] 7
+Quality 7
+ListNode 7
+Optional[BaseEventLoop] 7
+Dict[str, Dict[str, str]] 7
+Track 7
+Union[bytes, str] 7
+deque[Any] 7
+List[Tuple[Any, ...]] 7
+Union[str, bool] 7
+FileIO 7
+ReportData 7
+Optional[Tuple[str, str, str]] 7
+Connection 7
+FileSize 7
+_FileSizeType 7
+Tuple[str, str, str, str, str, str, str, str] 7
+C 7
+Union[Any, Dict[str, Any]] 7
+Generator[Any, None, None] 7
+A 7
+Union[Any, int] 7
+Union[str, Callable[[], Any], Module, None] 7
+Sequence[int] 7
+Ports 7
+Event 7
+Callable[[Element], bool] 7
+Tuple[str, int] 7
+Player 7
+Solution 7
+FSTCW 7
+Dict[str, bool] 7
+RuCaptchaControl 7
+aioRuCaptchaControl 7
+Union[Callable[[str], <nothing>], FileType] 7
+indentable 7
+List[Tuple[Any, None]] 7
+Tuple[object, bool] 7
+Base 7
+Callable[[PandaViewer.logger.Logger], logging.Logger] 7
+Tuple[partial[Any]] 7
+_ValueConverter 7
+Callable[[object], int] 6
+TestBreak 6
+UnrealEngineOutput 6
+Dict[str, float] 6
+Exception 6
+Optional[Response] 6
+int12 6
+List[Tuple[str, Any]] 6
+Type[T] 6
+Optional[Dict[str, int]] 6
+Linear 6
+Union[Tensor, Module[Any]] 6
+Tuple[Any, str] 6
+Pattern[str] 6
+SemanticContext 6
+Future[Any] 6
+Handler 6
+Type[Kms] 6
+Callable[[NullSlice, Any, Any], Any] 6
+Tuple[ClientResponse, ...] 6
+RequestHandler 6
+Optional[WebSocketWriter] 6
+Union[Future[_T], Future?[_T`-1]] 6
+Union[str, bytes, bytearray] 6
+StreamWriter 6
+Optional[Callable[[Any], Any]] 6
+Collection[Any] 6
+date 6
+Union[str, Dict[Any, Any]] 6
+Callable[[Dict[_KT, _VT], _KT, _VT], None] 6
+Callable[[object, str, Any], None] 6
+SessionManager 6
+ArgumentParser 6
+RunJvmPrepCommandBase 6
+RunPrepCommandBase 6
+Callable[[VodModelAdmin, Any, Any], Any] 6
+actionable 6
+Iterable[float] 6
+Tuple[str, str, str, str] 6
+Type[VhdlSerializer_ops] 6
+c_char_p 6
+CurioSketchContext 6
+Tuple[float, float, float] 6
+Type[TLVType] 6
+Callable[[AES], int] 6
+FST 6
+FIST 6
+BinlogReader 6
+Dict[str, int] 6
+Callable[[int], Coroutine[Any, Any, None]] 6
+Point2 6
+Type[Tuple[Any, ...]] 6
+PolygraphType 6
+_lru_cache_wrapper[List[Any]] 6
+Move 6
+List[Optional[Any]] 6
+WebMetadata 6
+Coroutine[Any, Any, None] 5
+Type[bytes] 5
+ClientSession 5
+Application 5
+Optional[Mapping[str, Any]] 5
+NodeID 5
+Union[int, str, None] 5
+RTCPPacket 5
+List 5
+Tuple[Any, Any, Any] 5
+Union[List[Any], Any, None] 5
+Optional[Type[Any]] 5
+Dict[str, Tensor] 5
+Union[None, int, slice, Tensor, List[Any], Tuple[Any, ...]] 5
+FloatTensor 5
+Parameter 5
+Embedding 5
+Generator[TextureFileName, None, None] 5
+UUID 5
+Union[Module, Type[Any], MethodType, FunctionType, TracebackType, FrameType, CodeType, Callable[..., Any]] 5
+socket 5
+Callable[[Any], Coroutine[Any, Any, Any]] 5
+Dict[str, List[str]] 5
+Callable[[Bench, Any, Any, Any], Any] 5
+Union[List[Any], Tuple[Any, ...]] 5
+Optional[TextIO] 5
+List[Tuple[str, str]] 5
+IOBase 5
+Popen[Any] 5
+BaseSentenceTokenizer 5
+ConfigParserInterface 5
+Tuple[str, List[str]] 5
+Element 5
+reference 5
+FrozenSet[Any] 5
+slice 5
+RpcError 5
+Optional[Tuple[str, int]] 5
+Callable[[int, float], None] 5
+Union[Any, str] 5
+Match[Any] 5
+AsyncioSketchContext 5
+B 5
+Cell 5
+load 5
+Union[BlobPriceResponse, BlobAvailabilityResponse, BlobDownloadResponse, BlobErrorResponse, BlobPaymentAddressResponse] 5
+REP 5
+FLDCW 5
+Dict[bytes, bytes] 5
+Optional[API] 5
+Callable[[Sanitizer, Any, Any], Any] 5
+LazyNum 5
+Distribution 5
+Configuration 5
+Optional[Tuple[str, ...]] 5
+NotifyBase 5
+*Tuple[str, ...] 5
+ChatRecord 5
+AbstractOnpremLauncher 5
+Callable[[Task], Any] 5
+Callable[[object], bool] 5
+ShapeFactory 5
+Union[Dict[str, Any], List[Any]] 5
+Tuple[Optional[str], str, str, str, str] 5
+Thread 5
+Optional[Sequence[UndoableCommand]] 5
+Callable[[VarArg(Any), KwArg(Any)], Any] 5
+DiffNode 5
+Type[U] 5
+Type[Search] 5
+Settings 4
+Bound 4
+Handlers 4
+Callable[[object], None] 4
+Callable[[], None] 4
+List[Tuple[Any, Any]] 4
+Generator[Path, None, None] 4
+Popen[bytes] 4
+Process 4
+NullHandler 4
+Enum 4
+polyphony.typing.Tuple 4
+Tuple[Tuple[str, str], Tuple[str, str]] 4
+MigrationTestCase 4
+_Operand 4
+BufferedReader 4
+Tuple[Any, List[str]] 4
+Iterator[Tuple[Any, Any]] 4
+Iterable[None] 4
+Tuple[str, Dict[str, List[Any]]] 4
+Service 4
+Station 4
+RuleNode 4
+Tuple[Optional[str], Optional[str]] 4
+Callable[[Mail], Any] 4
+Callable[[IssueAdmin, Any, Any], Any] 4
+CounterReport 4
+NotImplementedType 4
+HBoxLayout 4
+VBoxLayout 4
+InspectLoader 4
+Optional[AbstractResource] 4
+Optional[Transport] 4
+Union[Callable[[int, bytes], Coroutine[Any, Any, None]], Any] 4
+Union[List[Any], bool] 4
+CaseInsensitiveDict[str] 4
+Type[object] 4
+Union[List[Any], Tuple[Any]] 4
+Type[datetime] 4
+Optional[Callable[..., Any]] 4
+Version 4
+Callable[[SessionManager, Any], Any] 4
+Session 4
+BarplotStyle 4
+Union[SupportsFloat, _SupportsIndex, str, bytes, bytearray] 4
+Optional[VideoList] 4
+Union[str, List[str]] 4
+Optional[List[Dict[Any, Any]]] 4
+List[object] 4
+NistBeaconValue 4
+BytesIO 4
+Tuple[type] 4
+Callable[[AsyncOWAPI, str, Any, Any, Any, Any, Any, Any], Coroutine[Any, Any, Any]] 4
+AsyncOWAPI 4
+TaskOperationsMixin 4
+Optional[Default] 4
+PokemonStats 4
+AsyncioTestHelper 4
+CurioTestHelper 4
+Union[Sequence[str], Set[str], None] 4
+Union[Sequence[str], Set[str]] 4
+Optional[PulseRuleSettings] 4
+PulseRuleSettings 4
+FrameType 4
+Union[BlobPriceRequest, BlobAvailabilityRequest, BlobDownloadRequest, BlobPaymentAddressRequest] 4
+FDIV 4
+FXCH 4
+Union[Dict[str, str], bool] 4
+Optional[Buffer] 4
+Future[None] 4
+Callable[[WaitSuite, Any], Any] 4
+dependency_parser 4
+Aromatize 4
+Iterator[int] 4
+Arrow 4
+Callable[[str, Optional[str]], Coroutine[Any, Any, None]] 4
+Optional[BinaryIO] 4
+Union[str, Callable[..., Any]] 4
+Union[bytes, Payload, None] 4
+SiteConfig 4
+RequestInfo 4
+websockets.framing.Frame 4
+framing.Frame 4
+SignUpLoginTestCase 4
+Callable[[Strategy], Any] 4
+AbstractLauncher 4
+BaseCipher 4
+Type[Car] 4
+Tuple[int, ...] 4
+Dict[str, Dict[str, Union[str, bytes]]] 4
+Mastodon 4
+ControlFlowStatement 4
+FrequencyAutoencoder 4
+Optional[DiffNode] 4
+Tuple[int, str, Any] 4
+DatasetContainer 4
+Tuple[Dict[str, str], int] 4
+Tuple[slice, int] 4
+CommonConfig 4
+TriggerRule 4
+Type[TypingConverter] 4
+Callable[[InspectionTestCase], Any] 4
+AUTO_ADDR 4
+Optional[Viewport] 4
+Optional[Tuple[Any, ...]] 3
+Optional[DrawdownHolder] 3
+Optional[SDLCreator] 3
+OrderedDict[str, str] 3
+classmethod 3
+Dict[int, str] 3
+contextmanager 3
+BoundedSemaphore 3
+ByteString 3
+BaseException 3
+defaultdict[Any, Any] 3
+*List[object] 3
+IO[str] 3
+_Reader 3
+Tuple[Any, Any, int] 3
+EnumMeta 3
+ElementTree 3
+polyphony.typing.List 3
+File 3
+Projection 3
+FrozenSet[str] 3
+MemoryAddressOffsets 3
+Optional[Dict[str, List[str]]] 3
+Cursor 3
+List[Tensor] 3
+Module[Any] 3
+Optional[IntTensor] 3
+Union[Callable[..., Any], str] 3
+Headers 3
+Union[Callable[..., Any], Callable[..., Awaitable[Any]]] 3
+Dict[str, Dict[str, List[Any]]] 3
+Optional[Tuple[List[Any], Optional[List[Any]], Any]] 3
+Generator[Any, Any, Any] 3
+Type[NotImplementedError] 3
+ReportTrans 3
+TafData 3
+Timestamp 3
+Optional[List[KinesisRecord]] 3
+ParseTree 3
+Redis 3
+CompletionState 3
+NoReturn 3
+Callable[[Any], HelpFormatter] 3
+Type[HelpFormatter] 3
+Callable[[Sum, Any, Any], Any] 3
+Mapping[str, Any] 3
+<subclass of  3
+ and  3
+> 3
+DirectedAcyclicGraph 3
+IncomingInterface 3
+Optional[Sequence[Any]] 3
+NotIterable 3
+Union[bytes, str, None] 3
+BaseTransport 3
+Type[List[Any]] 3
+Callable[[Dict[_KT, _VT], _KT], None] 3
+Callable[[object, str], None] 3
+marshmallow.fields.List 3
+Union[int, Tuple[Any, ...]] 3
+Optional[Type[JSONEncoder]] 3
+Optional[Tuple[str, str]] 3
+auto 3
+User 3
+Optional[Dict[str, Dict[str, str]]] 3
+StreamHandler 3
+SrvType 3
+Callable[[Vod], Any] 3
+Kelvin 3
+HttpClientFactory 3
+Kontakt 3
+Callable[[ContactAdmin, Any], Any] 3
+Konto 3
+ZipFile 3
+List[Dict[str, str]] 3
+Mapping[str, str] 3
+Optional[BaseException] 3
+Type[Munch] 3
+Callable[[Element], Union[List[Element], bool]] 3
+Union[List[Element], bool] 3
+Callable[[Element], str] 3
+Optional[tzinfo] 3
+Callable[[Question], Any] 3
+Union[Dict[Any, Any], str] 3
+MIPServerPlacer 3
+Union[int, bytes] 3
+Union[str, IPv4Address, IPv6Address] 3
+Callable[[str], str] 3
+Union[int, List[Any]] 3
+tibrvftMember 3
+tibrvftMonitor 3
+List[None] 3
+Union[Dict[str, Any], str] 3
+Union[Callable[[str], Pattern[AnyStr]], FileType] 3
+BattleSession 3
+Resources 3
+SomeData 3
+Callable[[BusPirateRawWireTest], Any] 3
+Iterable[Tuple[NumericTensorTypes?, NumericTensorTypes?]] 3
+Union[int, List[int]] 3
+Optional[Callable[[OSError], Any]] 3
+Tuple[int, int, int, int] 3
+Optional[Queue[Any]] 3
+FakeComponent 3
+DatagramTransport 3
+Optional[Callable[[AbstractBlob], None]] 3
+Memory 3
+FetchLoopMixin 3
+TemporalReferenceSystem 3
+MySQLRowData 3
+Callable[[Any, Any, Any, Any], Any] 3
+Optional[ListNode] 3
+Union[str, float] 3
+Optional[List[Color]] 3
+List[Color] 3
+Tuple[Tuple[Any, ...], Tuple[str, str]] 3
+Callable[[VarArg(object), DefaultNamedArg(Optional[str], 'sep'), DefaultNamedArg(Optional[str], 'end'), DefaultNamedArg(Optional[_Writer], 'file'), DefaultNamedArg(bool, 'flush')], None] 3
+ElmProject 3
+Union[float, Any] 3
+Tuple[Any, MovePtrProgram, Tuple[int, int]] 3
+Tuple[MovePtrProgram, Tuple[int, int]] 3
+Callable[[str, Tuple[Any, ...], Dict[Any, Any]], type] 3
+Type[AbstractAccessLogger] 3
+SubtitleTrack 3
+**Dict[str, Dict[Any, Any]] 3
+UpgradeConfigTestBase 3
+Callable[[ScanAdmin, Any], Any] 3
+Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]] 3
+HTTPStatus 3
+RSAPrivateKey 3
+Iterator[Iterator[_T]] 3
+Optional[Mapping[str, int]] 3
+SQLHelper 3
+Optional[TracebackType] 3
+Union[Union[bytes, str], Sequence[Union[bytes, str, _PathLike[Any]]]] 3
+ChainableFuture 3
+Optional[SSLContext] 3
+Callable[[SearchQueryAdmin, Any], Any] 3
+Callable[[Vertex], Any] 3
+Callable[[KeyPoint], Any] 3
+photonpump_eventrecord@314 3
+Iterator[Tuple[str, Any]] 3
+RawIOBase 3
+Tuple[Dict[str, int], int] 3
+Tuple[bytes, str] 3
+EventChannel 3
+Metadata 3
+Search 3
+Callable[[Any], Tuple[]] 3
+Callable[[Any], Tuple[Any]] 3
+Union[Callable[[Signals, FrameType], None], int, Handlers, None] 3
+StringIO 2
+Union[Union[bytes, str, _PathLike[Any]], int] 2
+Union[Any, float] 2
+Uri 2
+ProblemType 2
+DataclassType 2
+Callable[[Any, Any], bytearray] 2
+Dict[int, Optional[int]] 2
+**Dict[str, str] 2
+MutableMapping[str, Any] 2
+Callable[[int, FrameType], None] 2
+Injection 2
+PurePath 2
+Optional[ThrottlingRule] 2
+Callable[[List[Any], Any], None] 2
+Callable[[List[Any]], None] 2
+List[Tuple[int, Any]] 2
+setdefaultencoding 2
+Callable[[Union[str, bytes, int, _PathLike[Any]], str, int, Optional[str], Optional[str], Optional[str], bool, Optional[Callable[[str, int], int]]], IO[Any]] 2
+Modifier 2
+home_path 2
+Optional[Mapping[str, str]] 2
+LogLevel 2
+Union[Dict[Any, Any], List[Any], None] 2
+Object 2
+Union[Element, None, Any] 2
+uint8 2
+Tuple[int, int, int, int, int, int, int, int, int] 2
+bit 2
+bit8 2
+int64 2
+int16 2
+BaseWebhook 2
+MessageStatus 2
+ConfigurationFile 2
+OrderedDict[Any, Any] 2
+Tuple[Type[ImpFinder], Type[ZipFinder]] 2
+Union[bytes, str, IO[str], IO[Any]] 2
+Tuple[Tuple[str, Any]] 2
+Union[str, Tuple[str, ...]] 2
+HostAddrBase 2
+Optional[List[List[int]]] 2
+Iterable[List[int]] 2
+Dict[str, List[float]] 2
+Tuple[str, Dict[str, Any]] 2
+_LRScheduler 2
+Adamax 2
+ASGD 2
+Union[Tuple[Tensor, ...], List[Tensor]] 2
+tqdm 2
+Union[int, LongTensor] 2
+Dict[int, int] 2
+Union[Tuple[Any, ...], List[Any]] 2
+Rouge 2
+Type[Module] 2
+QuerySet 2
+Type[AttributeError] 2
+Type[IndexError] 2
+Type[TypeError] 2
+Type[Empty] 2
+Dict[Any, str] 2
+PartitionInfo 2
+NullStream 2
+Icing 2
+Location 2
+Turbulance 2
+Type[Service] 2
+Units 2
+**Dict[str, List[Any]] 2
+AirepData 2
+TextureType 2
+Operation 2
+Text 2
+Callable[[ObjectDetector], Any] 2
+Callable[[IssueAdmin, Any], Any] 2
+StringCfg 2
+Events 2
+Queue[Any] 2
+Optional[type] 2
+CFUNCTYPE 2
+AnyStr 2
+HttpRequest 2
+Tuple[List[int], List[int]] 2
+Dict[str, Iterable[str]] 2
+Optional[TypeImport] 2
+TypeImport 2
+BaseOption 2
+Dict[str, Dict[str, Any]] 2
+Mapping[Any, Any] 2
+Callable[[Type[_NT], Any, Any], _NT] 2
+Callable[[Erf, Any], Any] 2
+Callable[[Radius, Any, Any, Any, Any, Any], Any] 2
+Callable[[Neighbors, Any, Any, Any, Any, Any, Any], Any] 2
+Callable[[Bench, Any, Any], Any] 2
+Callable[[User], Any] 2
+Callable[[QuestionInline, Any], Any] 2
+_LegacyReportStorageHelper 2
+Order 2
+AsyncIterable[bytes] 2
+TestClient 2
+BaseTestServer 2
+Callable[[], Coroutine[Any, Any, None]] 2
+Optional[Future[bool]] 2
+Team 2
+ValuesView[Parameter] 2
+Callable[[PythonOpTestCase], Any] 2
+stmt 2
+Callable[[Any, VarArg(Any), KwArg(Any)], Any] 2
+CompletedProcess[Any] 2
+Portal 2
+Noise 2
+Type[StructuralType] 2
+List[Tuple[str, Tuple[str]]] 2
+Union[List[Any], Dict[Any, Any]] 2
+Optional[List[Response]] 2
+Reader 2
+Tuple[float, float] 2
+minute 2
+Union[datetime, date] 2
+Iterable[Dict[Any, Any]] 2
+List[EventqItem] 2
+Tuple[Decimal] 2
+Callable[[str], AnyStr] 2
+Callable[[Any, Any, Any, Any, Any, Any], Any] 2
+Optional[Callable[[Any], None]] 2
+Callable[[Any, Any], None] 2
+__Singleton 2
+Iterable[object] 2
+BaseDataSet 2
+Callable[[MSLEventModelAdmin, Any], Any] 2
+KeysView[str] 2
+Schema 2
+Method 2
+Tuple[int, Any] 2
+Union[Iterable[int], SupportsBytes] 2
+Union[int, _SupportsIndex] 2
+QuadraticFitter 2
+CubicFitter 2
+Callable[[SessionManager, Any, Any], Any] 2
+Coroutine[Any, Any, AsyncIterator[bytes]] 2
+BaseAssembler 2
+TypeLike 2
+List[bytes] 2
+Callable[[Any], Tuple[Any, Any]] 2
+Callable[..., None] 2
+Supported 2
+Repo 2
+Generator[List[str], None, None] 2
+TestMigrations 2
+Tuple[Type[object]] 2
+Type[Throttle] 2
+Com 2
+role 2
+Setosa 2
+Type[EventManager] 2
+Bank 2
+Callable[[ExportCsvMixin, Any, Any, Any], Any] 2
+Message 2
+List[Tuple[str, Optional[str]]] 2
+Callable[[Circle], Any] 2
+Config 2
+MetaPathFinder 2
+Lambda 2
+FormatInflation 2
+*Iterator[int] 2
+Union[str, TextIOBase] 2
+Coroutine[Any, Any, Any] 2
+Optional[Future[Any]] 2
+Item 2
+Counter[Any] 2
+Union[List[str], str] 2
+ImportError 2
+_Writer 2
+Tuple[int, str] 2
+Optional[T] 2
+Union[Dict[Any, Any], str, T] 2
+Union[List[str], str, None] 2
+Type[Resource] 2
+BaseStation 2
+TPent 2
+Pent 2
+Optional[List[List[str]]] 2
+Tuple[IO[bytes], ...] 2
+Sequence[BinaryIO] 2
+Type[Schema] 2
+Type[date] 2
+Type[time] 2
+Type[ModelBase] 2
+Union[Tuple[Tuple[int, int], TransTmpl], OneOfTransaction] 2
+TransPartGroup 2
+Tuple[Optional[str], int] 2
+Callable[[Dict[Any, Any], CollectionsOrderedDict?], None] 2
+Container[Any] 2
+Entry 2
+Union[Any, None, bool] 2
+ItemsView[Any, Any] 2
+c_uint32 2
+TibrvFtMember 2
+List[bool] 2
+Semaphore 2
+Optional[HoldRuleSettings] 2
+HoldRuleSettings 2
+Stm 2
+Block 2
+BaseEvent 2
+Dict[Any, int] 2
+AwaitableGenerator[Any, Any, Any, bytes] 2
+SASL 2
+Type[SessionMixin] 2
+CcrxCompiler 2
+Iterable[T1] 2
+Optional[Iterable[T2]] 2
+Optional[Parameter] 2
+Callable[[str], Pattern[AnyStr]] 2
+Tuple[int, Any, Any, Any, Any, Any, Any, Any, Any, str] 2
+Edge 2
+List[Optional[str]] 2
+UserSchema 2
+super 2
+Optional[Iterable[Handler]] 2
+Callable[[SubscriptioAdmin, Any], Any] 2
+SPAPluginMixin 2
+TimerHandle 2
+FindResponse 2
+Callable[[AbstractBlob], ContextManager[BinaryIO]] 2
+Optional[Callable[[AbstractBlob], Task[Any]]] 2
+KernelMeta 2
+FMUL 2
+FADDP 2
+VM 2
+Coroutine[Any, Any, AsyncIterator[Any]] 2
+AsyncIterator[T] 2
+Union[bool, Any] 2
+SpatialReferenceSystem2d 2
+Tuple[List[Any], List[Any]] 2
+Encoding 2
+Callable[[Stream], Any] 2
+Callable[[Sanitizer, Any, Any, Any], Any] 2
+Optional[TreeNode] 2
+Generator[str, None, None] 2
+List[Union[str, float]] 2
+Color 2
+OSError 2
+BaseParser 2
+_reader 2
+RouteResolved 2
+Optional[Player] 2
+Callable[[str, str, Optional[str], Optional[str], Optional[str]], Coroutine[Any, Any, None]] 2
+Callable[[str, Optional[str], Optional[str]], Coroutine[Any, Any, int]] 2
+Callable[[str, Optional[str]], Coroutine[Any, Any, int]] 2
+Callable[[str], Coroutine[Any, Any, None]] 2
+Callable[[], CDLL] 2
+Tuple[Optional[int], ...] 2
+Union[Any, List[Point2], Set[Point2]] 2
+Union[IO[Any], bool] 2
+Callable[[BoundedResistance], Any] 2
+CustomException 2
+Optional[DataLoader[Any]] 2
+Optional[List[List[Any]]] 2
+Iterable[List[Any]] 2
+Optional[PublishVariableHeader] 2
+Optional[ConnectPayload] 2
+Callable[[], _lru_cache_wrapper[_T]] 2
+Coroutine[Any, Any, AbstractServer] 2
+Tuple[Dict[Any, Any], Dict[Any, Any]] 2
+Payload 2
+Callable[[int], Any] 2
+List[Type[ParsingState]] 2
+List[Type[NothingSpecial]] 2
+Dict[str, datetime] 2
+CheckstyleBear 2
+List[ResultThread] 2
+List[Thread] 2
+StringReader 2
+Tuple[Callable[[], str]] 2
+Iterable[Outcome] 2
+Action 2
+Callable[[HasJobAdminMixin, Any], Any] 2
+Tuple[WriteProgram, Tuple[int, Any]] 2
+Optional[SiteConfig] 2
+MessageDirection 2
+FinTSMessage 2
+DrawingView 2
+Optional[AbstractEventLoop] 2
+Callable[[Optional[float]], Coroutine[Any, Any, WSMessage]] 2
+Tuple[int, Optional[int]] 2
+AudioTrack 2
+Union[float, Fraction] 2
+RepoBase 2
+TemplateRepoBase 2
+StudentRepoBase 2
+Tuple[slice, ...] 2
+List[slice] 2
+Callable[[NotifiedUserAdmin, Any], Any] 2
+Union[Dict[Any, Any], bool] 2
+deque[Dict[str, Union[str, float]]] 2
+SignalCancelBase 2
+numc_usuario 2
+Type[SanityTests] 2
+Type[TestTopologyReactionCount] 2
+OsisCache 2
+Callable[[EditorMaterialAdmin, Any], Any] 2
+Client 2
+_levelNames 2
+Union[int, HasFileno] 2
+array[Any] 2
+Union[bool, int, float, Expression, str] 2
+Callable[[CommunityAdmin, Any], Any] 2
+TextIOWrapper 2
+Tuple[Type[FunctionDef], Type[AsyncFunctionDef]] 2
+Type[FunctionDef] 2
+Union[int, float, bool] 2
+Type[c_byte] 2
+Type[c_int32] 2
+Type[c_utf16_p] 2
+Type[c_wchar_p] 2
+Union[NoSectionError, NoOptionError] 2
+c_int 2
+Set[bytes] 2
+House 2
+Curl 2
+BlogFilterServiceAlchemyBase 2
+Type[GNUTranslations] 2
+ConnectionPool 2
+Dict[str, Union[str, int]] 2
+Type[AutoSlots_meta] 2
+RSAPublicKey 2
+Union[RSAPrivateKey, RSAPublicKey] 2
+Callable[[], bool] 2
+InputBox 2
+List[Optional[Dict[Any, Any]]] 2
+Awaitable[HTTPResponse] 2
+Dict[str, Optional[str]] 2
+Type[Distribution] 2
+Type[SimpleWordSplitter] 2
+List[defaultdict[Any, int]] 2
+List[Dict[str, int]] 2
+INT 2
+NEW_INT 2
+Callable[[int], None] 2
+Type[HTTPError] 2
+Union[str, TemporaryDirectory[Any]] 2
+Callable[[EmailMessage], str] 2
+Optional[photonpump_eventrecord@314] 2
+Callable[[OrganizerInfoAdmin, Any, Any], Any] 2
+Callable[[JudgeInfoAdmin, Any, Any], Any] 2
+Callable[[MentorInfoAdmin, Any, Any], Any] 2
+Callable[[JudgingExpoAdmin, Any, Any], Any] 2
+Callable[[HackerAdmin, Any, Any], Any] 2
+Timer 2
+Model 2
+Reconciler 2
+Type[ChangeDelta] 2
+Callable[[bytes], str] 2
+Callable[[bytes], bytes] 2
+Tuple[int, int, Any] 2
+Type[TestDummy] 2
+Union[int, Dict[Any, Any]] 2
+Union[str, Path] 2
+MultipartReader 2
+Union[MultipartReader, BodyPartReader] 2
+Callable[[ServerAdmin, Any], Any] 2
+Callable[[BuildTargetAdmin, Any], Any] 2
+Callable[[BuildGroupAdmin, Any], Any] 2
+Set[int] 2
+BaseTestFactory 2
+FieldTestFactory 2
+ModelTestFactory 2
+Interpretation 2
+BaseBotInstance 2
+Optional[Dict[str, Union[Any, Any, List[Any]]]] 2
+Callable[[object], str] 2
+Type[IOElement] 2
+Optional[DataMeta] 2
+Union[Iterable[BoundaryType], BoundaryType] 2
+Union[Iterable[float], float] 2
+Callable[[GceClusterResolver], Any] 2
+Callable[[TFConfigClusterResolver], Any] 2
+Callable[[LegislationAdmin, Any], Any] 2
+BaseMaster 2
+Type[SymbolKind] 2
+key_type 2
+Tuple[Type[Any], Type[Any]] 2
+Dict[Type[Any], Type[MessageTranscoder]] 2
+Union[Any, Type[Any], None] 2
+Union[Type[Any], Any, None] 2
+Union[Dict[Any, Any], List[Any]] 2
+Union[Dict[Any, Any], List[Any], Tuple[Any, ...], str, None] 2
+List[Union[List[Any], Tuple[Any, ...]]] 2
+Callable[[Optional[int], Optional[int], bool], None] 2
+Union[str, datetime] 2
+Union[Decision, Action] 2
+Optional[Display] 2
+AwaitableGenerator[Any, Any, Any, Any] 1
+Dict[str, List[int]] 1
+Union[bytes, Union[str, _PathLike[str]]] 1
+Tuple[Optional[str], str, Optional[str]] 1
+ServerThread 1
+precision 1
+Type[RevGrad] 1
+Dict[AnnotationKey, InferenceValue] 1
+Optional[InferenceValue] 1
+InferenceValue 1
+Gaf 1
+Entity 1
+Callable[[Any], DataclassType] 1
+Callable[[DataclassType, str, Any], None] 1
+Callable[[str, Any], None] 1
+dataclass 1
+Callable[[SupportsAbs[_T]], int] 1
+Callable[[SupportsAbs[_T]], _T] 1
+SupportsAbs[_T] 1
+Callable[[Any, Any, Any, Any, Any], Any] 1
+Callable[[str, Optional[Mapping[str, Any]], Optional[Mapping[str, Any]], Sequence[str], int], Any] 1
+Union[str, Tuple[str]] 1
+Tuple[Union[str, Tuple[str], None], ...] 1
+Tuple[Union[str, Tuple[str], None]] 1
+_PathLike[Any] 1
+CreateTable 1
+Union[Tensor, Tuple[Tensor, Tensor]] 1
+ActivationFunction 1
+Callable[[ActivationFunction, Any], Any] 1
+Iterator[Tuple[Any, str]] 1
+DiskSource 1
+Union[Source, DiskSource] 1
+DictMapper 1
+Tuple[Tuple[str, str, Callable[[str], Any]], Tuple[str, str, Type[float]], Tuple[str, str, Type[float]]] 1
+Tuple[Tuple[str, str, Type[int]], Tuple[str, str, Callable[[Any], Any]]] 1
+TestProgram 1
+List[Tuple[Feature, bool]] 1
+List[Feature] 1
+Optional[Injection] 1
+ColumnedSortFilterProxyModel 1
+Tuple[Sequence[int], Any] 1
+Tuple[bytearray, int] 1
+Gruppe 1
+ColumnChange 1
+Callable[[], Tuple[str, str]] 1
+Column 1
+DummyTqdmFile 1
+_SqlitePool 1
+end_date 1
+Type[BoostPadState] 1
+Type[TileInfo] 1
+Type[TeamInfo] 1
+Type[BoostPad] 1
+Type[GoalInfo] 1
+Callable[[Dict[Any, Any]], None] 1
+MutableMapping 1
+Callable[[Dict[Any, Any]], Tuple[Any, Any]] 1
+Callable[[Dict[Any, Any], Any, Any], Any] 1
+Callable[[Dict[Any, Any], Any, Any], None] 1
+Callable[[Dict[Any, Any], Any], None] 1
+Callable[[List[Any], Iterable[Any]], None] 1
+Callable[[List[Any], int, Any], None] 1
+Callable[[List[Any], int], Any] 1
+Callable[[List[Any], DefaultNamedArg(Optional[Callable[[Any], Any]], 'key'), DefaultNamedArg(bool, 'reverse')], None] 1
+Callable[[List[Any], Union[int, slice]], None] 1
+PythonAIController 1
+self 1
+List[STATE_ENC_TYPE?] 1
+enumerate[Any] 1
+List[NodeID] 1
+Callable[[int], Iterable[int]] 1
+DuplicateOptionError 1
+Callable[[Any, str, int, Optional[str], Optional[str], Optional[str]], IO[Any]] 1
+FileHandler 1
+code 1
+CodeConverter 1
+Optional[Tuple[Union[Tuple[Any, ...], Dict[str, Any]], ...]] 1
+Dict[str, Union[str, Dict[Any, Any]]] 1
+Tuple[Dict[str, Dict[str, int]], Dict[Any, Any]] 1
+Tuple[Dict[str, int], Dict[int, str]] 1
+Array[c_uint8] 1
+Type[forward_count] 1
+i 1
+builtins.int 1
+polyphony._internal._builtins.int 1
+b 1
+PARAM1 1
+parameter01 1
+module_method02 1
+bit64 1
+int32 1
+EmailSendMethod 1
+List[EmailRecipientModel] 1
+SmsSendMethod 1
+List[SmsRecipientModel] 1
+MandrillMessageStatus 1
+MessageBirdMessageStatus 1
+AuthView 1
+View 1
+TemplateView 1
+Iterable[Tuple[str, Dict[Any, Any]]] 1
+Tuple[Type[ImpFinder], Type[ZipFinder], Type[PathSpecFinder]] 1
+Tuple[Type[ImpFinder], Type[ZipFinder], Type[ExplicitNamespacePackageFinder]] 1
+CAHPlayer 1
+GameDataAddress 1
+PlayerDataAddress 1
+EndBlockPlayerDataAddress 1
+BotBehaviors 1
+Sequence 1
+Optional[Iterable[Sequence[Any]]] 1
+Dict[Type[object], Any] 1
+Dict[type, Any] 1
+List[Track] 1
+Union[Mapping[int, Union[int, str, None]], Sequence[Union[int, str, None]]] 1
+Callable[[Test_MySQLlogger], Any] 1
+QuaRelType 1
+List[Tuple[str, Iterator[Any]]] 1
+Dict[Tuple[int, int], str] 1
+Optional[List[Dict[str, int]]] 1
+List[List[Dict[str, Any]]] 1
+Extraction 1
+List[Extraction] 1
+ReduceLROnPlateau 1
+Union[int, Any] 1
+ByteTensor 1
+Optional[List[Tuple[str, str]]] 1
+Iterable[Tuple[str, str]] 1
+Dict[str, FloatTensor] 1
+Optional[Dict[str, List[Any]]] 1
+List[Dict[str, Tensor]] 1
+Union[Tensor, Dict[str, Tensor]] 1
+Optional[device] 1
+Union[List[Any], Dict[str, Any]] 1
+device 1
+Optional[Linear] 1
+Union[Tensor, int] 1
+PackedSequence 1
+Tuple[PackedSequence, Tuple[List[Any], List[Any]]] 1
+Tuple[PackedSequence, Tuple[Tensor, Tensor]] 1
+Dict[int, List[StateType]] 1
+Dict[int, List[List[Tuple[float, List[int]]]]] 1
+List[List[Dict[str, Tensor]]] 1
+Dict[Tuple[int, int], Any] 1
+List[Tuple[Tuple[Any, ...], Tuple[Any, ...]]] 1
+Tuple[List[str], List[str]] 1
+queue.Queue[Any] 1
+multiprocessing.queues.Queue[Any] 1
+List[ControllerRequirement] 1
+Callable[[float], str] 1
+Tuple[int, int, int, int, int, int, int] 1
+Tuple[Optional[str]] 1
+Type[HistogramCollection] 1
+Tuple[List[List[str]], List[Any]] 1
+Tuple[List[str], Any] 1
+isbytes 1
+List[List[bytes]] 1
+Dependencies 1
+Dict[str, Collection[str]] 1
+List[Type[StationInfo]] 1
+List[StationInfo] 1
+Type[Model] 1
+Store 1
+Union[Type[BoundTag], BoundTagFactory] 1
+BoundTagFactory 1
+List[Tuple[List[Any], Any]] 1
+Tuple[str, bytes, Any, str, bytes] 1
+Callable[[int, Any, Any, Any, Any], Any] 1
+Optional[Callable[[int, Any, Any, Any, Any], Any]] 1
+Tuple[List[Any], Any, Optional[List[Any]], Any] 1
+Iterable[Optional[List[Any]]] 1
+Sequence[<nothing>] 1
+NullRedis 1
+List[Tuple[int, str]] 1
+GridRowTenant 1
+Dict[Any, Tuple[Any, ...]] 1
+Dict[int, Tuple[float, float, float]] 1
+Optional[Tuple[str, int, str]] 1
+SurfChar 1
+Tuple[object, ...] 1
+List[Command] 1
+Type[NOAA] 1
+MetarTrans 1
+MetarData 1
+PirepData 1
+List[TafLineData] 1
+Tuple[TafData, Units] 1
+List[Sequence[str]] 1
+Tuple[Tuple[str, str, str], str] 1
+Dict[bytes, Any] 1
+_RequestContextManager 1
+Iterator[TextureFileName] 1
+List[TextureFileName] 1
+Iterator[Tuple[Any, Iterator[TextureFileName]]] 1
+Dict[Any, Dict[Any, Any]] 1
+Set[None] 1
+Dict[str, None] 1
+Loader 1
+Predicate 1
+ParseTreeWalker 1
+BaseList 1
+ListElement 1
+ADXL345 1
+Tuple[Set[Future[Any]], Set[Future[Any]]] 1
+Tuple[Optional[str], Optional[float]] 1
+Tuple[Optional[float], Optional[str]] 1
+Future[<nothing>] 1
+Callable[[Any, Dict[Any, Any], Any], Dict[Any, Any]] 1
+Callable[..., Generator[Any, Any, <nothing>]] 1
+Callable[[concurrent.futures._base.Future[Any]], None] 1
+Callable[[asyncio.futures.Future[Any]], None] 1
+Union[Tuple[Type[BaseException], BaseException, TracebackType], Tuple[None, None, None]] 1
+Optional[Tuple[type, Any, Any]] 1
+Callable[[StreamReader], None] 1
+Tuple[Optional[Any], Any, Any] 1
+TOCChapter 1
+BaseWindow 1
+Union[Type[Any], List[Type[Any]]] 1
+Union[List[Type[Any]], Type[Any]] 1
+RecentSeries 1
+Medias 1
+ContentTypeHeader 1
+Union[type, _ParamType, Tuple[Union[type, _ParamType], ...], Callable[[str], Any], Callable[[Optional[str]], Any], None] 1
+uri 1
+Type[ByteString] 1
+Type[Iterable[Any]] 1
+Type[Sequence[Any]] 1
+List[ElianCharacter] 1
+frames 1
+Pool 1
+XiamiApi 1
+Tuple[Union[bytes, str]] 1
+Sentence 1
+MessageData 1
+Tuple[List[int], ...] 1
+Type[Module[Any]] 1
+Type[Tensor] 1
+Tuple[int, int, int, int, int, int] 1
+Optional[Tuple[int, int, int, int, int, int, int, int, int]] 1
+Tuple[List[int], List[int], Any] 1
+Optional[List[Type]] 1
+WHEffect 1
+Optional[IntentsDb] 1
+Caller 1
+Coroutine[Any, Any, Optional[float]] 1
+Callable[[Type[_NT], Any, Any, Any], _NT] 1
+Tuple[Type[int], Any] 1
+Tuple[Type[int], Any, Any] 1
+Callable[[Lstsq, Any, Any, Any], Any] 1
+Callable[[BenchmarkOneNormEst, Any, Any], Any] 1
+Callable[[Query, Any, Any, Any, Any], Any] 1
+Infinity 1
+Type[Infinity] 1
+NegativeInfinity 1
+Type[NegativeInfinity] 1
+Callable[[Matmul], Any] 1
+Callable[[NullSlice], Any] 1
+Callable[[Diagonal, Any, Any], Any] 1
+Callable[[Densify, Any, Any], Any] 1
+Callable[[Distribution, Any, Any], Any] 1
+Pattern[Any] 1
+Type[SafeLoader] 1
+Type[CSafeLoader] 1
+Iterator[Tuple[Any, ...]] 1
+Type[Context] 1
+Type[ContextGroup] 1
+Tuple[Type[IOBase], Any] 1
+Type[IOBase] 1
+OrderedDict[Any, List[Tuple[Any, Any]]] 1
+defaultdict[Any, List[Tuple[Any, Any]]] 1
+OrderedDict[FrozenSet[Any], List[Tuple[Any, Any]]] 1
+defaultdict[FrozenSet[Any], List[Tuple[Any, Any]]] 1
+Union[str, URL] 1
+Type[Dict[Any, Any]] 1
+Type[SimpleNamespace] 1
+Type[ContextVar[Any]] 1
+Transport 1
+List[Extension] 1
+Dict[str, Type[custom_build_ext]] 1
+List[Union[bytes, str]] 1
+Future?[None] 1
+List[Optional[Match[str]]] 1
+Logging 1
+ConsoleLogging 1
+List[Parameter] 1
+Optional[Sequence[Parameter]] 1
+Callable[[VarArg(Any), KwArg(Any)], returnType] 1
+List[Tuple[List[str], List[Any]]] 1
+Nil 1
+Type[Nil] 1
+delay 1
+Union[str, bytes, Path] 1
+Callable[[Backlight, float], None] 1
+CompletedProcessWithVars 1
+Type[DatabaseObject] 1
+Moderation 1
+Dict[int, Dict[str, object]] 1
+Dict[str, Callable[[], Any]] 1
+PrimaryNominal 1
+SubNominal 1
+DirectedGraph 1
+Union[Number, datetime, timedelta, List[Any], Tuple[Any, ...], List[Number]] 1
+Union[timedelta, Number, datetime, List[Any], Tuple[Any, ...], List[timedelta]] 1
+Union[datetime, Number, timedelta, List[Any], Tuple[Any, ...], List[datetime]] 1
+InterpolatedTable 1
+ScalarTable 1
+Union[List[str], Any] 1
+List[Sequence[Any]] 1
+Tuple[float, None] 1
+Callable[[Notable], Any] 1
+Union[bool, Match[Any], None] 1
+Tuple[Any, Any, Any, Any, Any] 1
+Type[TestCli] 1
+Iterable[Union[str, int]] 1
+Bus 1
+QueryParams 1
+BaseSerializer 1
+Tuple[Union[Any, int], Union[Any, int], Union[Any, int]] 1
+Tuple[int, str, str] 1
+Tuple[Any, Decimal, Decimal] 1
+Tuple[Any, Any, Any, Decimal] 1
+Tuple[Any, Optional[Any], Optional[Any]] 1
+Tuple[bool, bool, bool] 1
+Tuple[Any, Optional[bool], Any] 1
+Tuple[bool, bool, Any] 1
+SupportsAbs[<nothing>] 1
+Program 1
+Tuple[int, float] 1
+Type[DefragResult] 1
+Type[DefragResultBytes] 1
+Test2 1
+Test 1
+Optional[Callable[[Any, Any], None]] 1
+sleep_ms 1
+Optional[Application] 1
+renderers 1
+force_negotiation 1
+force_rendering 1
+Callable[[Application], None] 1
+Callable[[Application], AsyncIterator[None]] 1
+Optional[List[socket]] 1
+Optional[List[Tuple[float, int]]] 1
+List[Tuple[float, int]] 1
+Loss 1
+Callable[[List[int]], List[_T]] 1
+Optional[Callable[[<nothing>], Any]] 1
+Type[C] 1
+L 1
+D 1
+ValueError 1
+List[Generator[Any, None, None]] 1
+List[Iterator[str]] 1
+Type[PeopleTest] 1
+Type[LibraryTest] 1
+Type[NewsTest] 1
+Api 1
+Nested 1
+Union[None, bytes, MutableMapping[str, str]] 1
+ActivityType 1
+Tuple[float, Any] 1
+Optional[List[Tuple[int, Any]]] 1
+Optional[Cable] 1
+Cable 1
+Union[array[int], bytes, bytearray, memoryview, mmap] 1
+AsyncIterator[bytes] 1
+ToolEditorClient 1
+Dict[int, Dict[int, str]] 1
+Callable[[Any], Optional[str]] 1
+WebSocketCommonProtocol 1
+Tuple[<nothing>] 1
+Optional[Tuple[int, str, int]] 1
+HmipConfig 1
+ConfigParser 1
+partial[Popen[str]] 1
+Task[None] 1
+Tuple[Iterator[bool], Any] 1
+Optional[Set[str]] 1
+CaseInsensitiveDict 1
+Type[JSTask] 1
+EventHandler 1
+Callable[[THttpClient], Any] 1
+THttpClient 1
+Optional[EnhancedTextWrapper] 1
+Type[SkipFirst] 1
+Type[Once] 1
+MsgType 1
+Callable[[VideoCategoryModelAdmin, Any], Any] 1
+Callable[[VideoCategory], Any] 1
+Versicolor 1
+Virginica 1
+Type[X] 1
+Type[Y] 1
+Type[Z] 1
+List[Address] 1
+Union[None, bytes, Tuple[bytes, bytes]] 1
+Union[Any, int, bytes] 1
+Dict[str, Set[Any]] 1
+Dict[str, Union[RobotFileParser, DummyChecker]] 1
+Callable[[str], int] 1
+Optional[Callable[[str], None]] 1
+Tuple[Optional[int], Optional[int], Optional[int], Optional[int], Optional[int], Optional[int]] 1
+Union[Tuple[int, ...], struct_time] 1
+Smell 1
+Optional[FileIO] 1
+Union[None, int, IO[Any]] 1
+Type[AsyncGraphExecutionContext] 1
+Strategy 1
+Type[GraphExecutionContext] 1
+Generator[List[object], None, None] 1
+Generator[List[Any], None, None] 1
+ReadTimeout 1
+ThisComposer 1
+_x 1
+SugarComposer 1
+Type[VFolderPermission] 1
+Union[ArgumentParser, Any] 1
+TapCube 1
+Union[str, int, float, None] 1
+Union[int, float, str] 1
+Tuple[Match[Any], Union[str, MutableSequence[str]]] 1
+Tuple[str, Any, bool] 1
+Tuple[str, Any] 1
+Callable[[ObjetoDoJogo, ObjetoDoJogo], int] 1
+Yikes 1
+FormatExpense 1
+FormatProfit 1
+FormatAssets 1
+FormatLoans 1
+FormatEquity 1
+FormatReturns 1
+_FormatReport 1
+WbTrackedModeless 1
+Callable[[Element], Union[str, List[Element]]] 1
+Union[str, List[Element]] 1
+Callable[[Union[str, bytes], <union: 9 items>, KwArg(Any)], Response] 1
+_OrderedDictItemsView[str, str] 1
+Union[str, List[Any]] 1
+Tuple[Type[int], Type[float], Type[bool], Type[str]] 1
+Tuple[Type[int], Type[float], Type[bool], Type[List[Any]], Type[str]] 1
+_module_wrapper 1
+Union[bytes, IO[bytes], str, IO[str]] 1
+List[Tuple[None, datetime]] 1
+List[Tuple[datetime, datetime]] 1
+IOQueue 1
+Tuple[Any, int] 1
+Union[Set[Any], List[Counter[Any]]] 1
+List[Tuple[Any, float]] 1
+Tuple[List[Any], Any] 1
+Dict[str, Section] 1
+Type[eating] 1
+Type[drinking] 1
+Type[booping] 1
+Type[spooky] 1
+Type[highfives] 1
+Type[petting] 1
+Type[ResourceManager] 1
+Callable[[DeezerProvider], Any] 1
+Tuple[Dict[Any, Any], ...] 1
+Callable[[AcmeChallengeAdmin, Any], Any] 1
+Type[Day] 1
+Day 1
+ABCMeta 1
+Type[ABC] 1
+Type[TarFile] 1
+Optional[ProgrammingLanguage] 1
+ProgrammingLanguage 1
+Locksmith 1
+Callable[[LogEntryAdmin, Any], Any] 1
+Tuple[Callable[[str], str]] 1
+Optional[Sequence[Tuple[int, int]]] 1
+Sequence[Tuple[int, int]] 1
+Tuple[float, ...] 1
+List[Tuple[float]] 1
+Iterable[Tuple[str, Optional[str], Optional[str], Optional[str]]] 1
+Tuple[int, Tuple[str, Optional[str], Optional[str], Optional[str]]] 1
+StructuredError 1
+name 1
+Union[Dict[Any, Any], Awaitable[Dict[Any, Any]]] 1
+Tuple[Any, Any, Tuple[Any, ...]] 1
+Tuple[Any, Any, Tuple[str]] 1
+Tuple[Any, ellipsis, bool, bool, Any] 1
+Optional[Tuple[Any, str, bool, bool, Any]] 1
+Callable[[Any, Any, str, Any], Optional[Tuple[Any, str, bool, bool, Any]]] 1
+Callable[[Any], Optional[Tuple[Any, str, bool, bool, Any]]] 1
+Iterable[Tuple[Any, Any]] 1
+X 1
+Optional[Callable[[List[Any]], bool]] 1
+Callable[[List[Any]], Any] 1
+Optional[Callable[[Tuple[Any, ...]], bool]] 1
+Callable[[Tuple[Any, ...]], Any] 1
+KMeansServerPlacer 1
+TopKServerPlacer 1
+RandomServerPlacer 1
+Dict[str, MIPServerPlacer] 1
+Dict[str, ServerPlacer] 1
+Callable[[Any, Any, Any, Any, Any, Any, Any], Any] 1
+TrainedITQEncoder 1
+Dict[str, Optional[Tuple[int, ...]]] 1
+Dict[str, Tuple[int, ...]] 1
+Optional[UUID] 1
+Optional[ClientSession] 1
+Callable[[DevBase], bool] 1
+List[Tuple[Any, int]] 1
+Union[bytes, int, Sequence[Any], Any] 1
+Tuple[bytearray, ...] 1
+Tuple[Tuple[int, ...], ...] 1
+Tuple[Tuple[int, ...]] 1
+Type[Interface] 1
+Type[IP] 1
+RouteNode 1
+TransTmpl 1
+otherObjItCtx 1
+_DummyIteratorCtx 1
+ObjIteratorCtx 1
+Tuple[TransTmpl] 1
+StreamTransaction 1
+Generator[Union[Tuple[Tuple[int, int], TransTmpl], OneOfTransaction], None, None] 1
+Union[bool, None, Tuple[int, int]] 1
+Tuple[Any, bool] 1
+Tuple[bool, List[Any]] 1
+List[Tuple[Any, List[Any]]] 1
+Callable[[Connection, Command], Any] 1
+Callable[[Connection, Command], Coroutine[Any, Any, Any]] 1
+Callable[[Connection], Any] 1
+Iterator[Tuple[str, ...]] 1
+append 1
+derivative 1
+Classifier 1
+Optional[JSONEncoder] 1
+response_class 1
+Type[Response] 1
+Optional[BytesIO] 1
+Route 1
+Rule 1
+Callable[[FormDataParser, Any, Any, Any, Any], Any] 1
+Callable[[IO[bytes], str, Optional[int], Mapping[str, str]], Tuple[IO[bytes], Any, Any]] 1
+max_na_values 1
+max_unique_values 1
+Callable[[str, TLSProxy, Optional[Dict[Any, Any]], Optional[Dict[Any, Any]]], Kresd] 1
+c_int8 1
+c_uint8 1
+c_int16 1
+c_uint16 1
+c_int32 1
+c_int64 1
+c_uint64 1
+tibrvTransport 1
+Array[c_char] 1
+member 1
+monitor 1
+Polynomial 1
+Optional[List[Type[Any]]] 1
+Sequence[type] 1
+Tuple[Type[int], Any, Any, Any, Any] 1
+Tuple[Type[float], Any, Any, Any] 1
+Tuple[Type[str], Any] 1
+Tuple[Type[bool], Any] 1
+Tuple[EqInlineKeyboardButton] 1
+Tuple[EqInlineKeyboardButton, EqInlineKeyboardButton] 1
+List[Dict[str, Union[Dict[str, Any], str]]] 1
+List[Dict[str, Union[Dict[Union[float, str], Any], str]]] 1
+APSP 1
+FormatterTest 1
+Callable[[str, str, str, str, bool, str], Any] 1
+Callable[..., str] 1
+Callable[[Union[int, str], str, str], str] 1
+SMSHandler 1
+Tuple[Any, Path, FontInfo] 1
+ActorsTagger 1
+FormMixin 1
+Callable[[Server], Any] 1
+Dict[str, Union[int, str, None]] 1
+_NonmetricWeights 1
+_MetricWeights 1
+Optional[AsyncioSketchContext] 1
+LogMixin 1
+Tuple[str, Dict[str, float]] 1
+Callable[[int], Tuple[float, int]] 1
+OpenPixelClient 1
+Generator[int, None, None] 1
+Assign 1
+Ident 1
+ModuleMock 1
+FriendTags 1
+CurrentApplicationDlcs 1
+InstalledApplications 1
+CurrentApplication 1
+Tuple[Any, bytes] 1
+Coroutine[Any, Any, Response] 1
+Union[str, RancherUpgradeException] 1
+Tuple[Iterable[Any], Iterable[Any]] 1
+Cont 1
+partial[B] 1
+Callable[[<nothing>], <nothing>] 1
+Tuple[int, int, int] 1
+Dict[str, Set[str]] 1
+Dict[str, List[List[str]]] 1
+Map 1
+CellActions 1
+M2PermissionCheckMixin 1
+Optional[HTTPResponse] 1
+HTTPResponse 1
+RESTTest 1
+PGICompiler 1
+List[Union[int, bytes, None]] 1
+MappedDataLoader 1
+SeqDataset 1
+TensorDataset 1
+Sequence[T1] 1
+Sequence[T2] 1
+BatchedIterableDataloader 1
+_BaseDataLoaderIter 1
+Iterator[Tuple[T1, T2]] 1
+Generator[Tuple[NumericTensorTypes?, NumericTensorTypes?], None, None] 1
+AsyncExitStack 1
+WineRCBase 1
+WorkspaceTab 1
+HTTPConnection 1
+HTTPSConnection 1
+Union[Type[Any], Type[None]] 1
+feature_minimap_maps_to_use 1
+feature_screen_maps_to_use 1
+deployed 1
+Optional[SingleCheckpoint] 1
+SingleCheckpoint 1
+Union[Type[str], Any] 1
+List[Union[str, str, Dict[Any, Any]]] 1
+Lwm2mAsserts 1
+wikicode 1
+Callable[[str, Type[Warning], str, int, Optional[str]], str] 1
+Iterator[Tuple[str, List[str], List[str]]] 1
+Optional[Point] 1
+Set[Callable[[Any, Any, Any], Any]] 1
+Iterable[Set[Callable[[Any, Any, Any], Any]]] 1
+kwargs 1
+MappingProxyType[Any, Any] 1
+Integer 1
+Float 1
+Boolean 1
+AjaxResponseMixin 1
+Callable[[SubscriptioAdmin, Any, Any], Any] 1
+Union[int, bytes, List[Any], Tuple[Any, ...], Dict[Any, Any]] 1
+lbrycrd_address 1
+Type[BlobAvailabilityRequest] 1
+Type[BlobPriceRequest] 1
+Type[BlobDownloadRequest] 1
+Type[BlobPaymentAddressRequest] 1
+Type[BlobErrorResponse] 1
+Type[BlobAvailabilityResponse] 1
+Type[BlobPriceResponse] 1
+Type[BlobDownloadResponse] 1
+Type[BlobPaymentAddressResponse] 1
+Type[TrackTest] 1
+Type[FileStorageTests] 1
+Type[ContentClaimStorageTests] 1
+Type[TestContactLastReplied] 1
+Type[TestContactLastRequested] 1
+Callable[[TestManagedStream], Any] 1
+Callable[[Any, Optional[Tuple[str, int]]], None] 1
+Callable[[Callable[[], Any], Tuple[str, int]], Coroutine[Any, Any, Any]] 1
+Callable[[Callable[[], BaseProtocol], Optional[Tuple[str, int]], Optional[Tuple[str, int]], DefaultNamedArg(int, 'family'), DefaultNamedArg(int, 'proto'), DefaultNamedArg(int, 'flags'), DefaultNamedArg(Optional[bool], 'reuse_address'), DefaultNamedArg(Optional[bool], 'reuse_port'), DefaultNamedArg(Optional[bool], 'allow_broadcast'), DefaultNamedArg(Optional[socket], 'sock')], Coroutine[Any, Any, Tuple[BaseTransport, BaseProtocol]]] 1
+Union[Any, Match[str], None] 1
+Callable[[BlobBuffer], ContextManager[BinaryIO]] 1
+Callable[[BlobFile], ContextManager[BinaryIO]] 1
+Optional[Callable[[Any], Task[Any]]] 1
+Union[Future[Any], Generator[Any, None, Any], Awaitable[Any]] 1
+Selection 1
+Type[directions] 1
+Type[c_uint32] 1
+Union[str, Requirement] 1
+Tuple[bool, str] 1
+Tuple[bool, Any] 1
+Movie 1
+salt 1
+Optional[AsyncObservable[Any]] 1
+Different 1
+TT 1
+Awaitable[T] 1
+Callable[[T], T] 1
+Union[Callable[[T, int], bool], Awaitable[Any]] 1
+Union[Callable[[T], bool], Awaitable[bool]] 1
+Awaitable[bool] 1
+Callable[[], Coroutine[Any, Any, Coroutine[Any, Any, None]]] 1
+CatchException[Any] 1
+FormData 1
+Tuple[Dict[str, str], str] 1
+Tuple[Dict[str, str], Union[bytes, FormData]] 1
+Coroutine[Any, Any, Boto] 1
+SpatialReferenceSystem3d 1
+Type[Mapper] 1
+Type[Reducer] 1
+Type[PongEnv] 1
+Union[None, str, Tuple[str, str]] 1
+List[Card] 1
+holding_cost_percentage 1
+shortage_cost_percentage 1
+Funcs 1
+PublicFormat 1
+PrivateFormat 1
+CMakeRTagsProject 1
+Type[dependency_parser] 1
+CDLL 1
+Callable[[AbstractConjunction], Any] 1
+Callable[[Encoding], Any] 1
+Status 1
+AbstractSet[int] 1
+Callable[[Any], Type[Any]] 1
+Union[Iterable[str], Callable[[Any, Any], str]] 1
+Callable[[Any, Any], Coroutine[Any, Any, Any]] 1
+Type[BaseWSGIServer] 1
+HeaderArrayObj 1
+Union[Any, HeaderArrayObj] 1
+HarFileObj 1
+TypeHarFileObj 1
+Callable[[Token], Any] 1
+StreamReaderWriter 1
+Callable[[Player, Any], Any] 1
+Optional[TimeoutError] 1
+URL 1
+List[Dict[str, List[Dict[str, Dict[str, Any]]]]] 1
+Callable[[object, object], object] 1
+defaultdict[_T, List[Iterator[_T]]] 1
+List[List[int]] 1
+Tuple[Tuple[Any, Any], Tuple[Any, Any], Tuple[Any, Any], Tuple[Any, Any]] 1
+Tuple[Any, int, Any] 1
+Union[List[str], List[float]] 1
+List[FrozenSet[Any]] 1
+List[Number] 1
+Optional[List[Value]] 1
+List[Value] 1
+Optional[Color] 1
+Optional[Value] 1
+Value 1
+defaultdict[str, List[str]] 1
+TypeAlias 1
+Strand 1
+Union[bytes, Any] 1
+AttributeTable 1
+ClassVersion 1
+GitHubApp 1
+Union[timedelta, None, Any] 1
+Tuple[Optional[int]] 1
+Union[Any, Point2] 1
+List[Point2] 1
+List[_wrap_close] 1
+List[TextIO] 1
+Union[Any, Any] 1
+List[Tuple[List[str], str]] 1
+List[Union[str, Tuple[List[str], str]]] 1
+TrainScheduler 1
+learning_rate 1
+Optional[ConnectVariableHeader] 1
+MQTTPayload 1
+Optional[MQTTVariableHeader] 1
+MQTTVariableHeader 1
+Union[str, float, Dict[Any, Any], List[Any]] 1
+Callable[[URLDispatchRouter, str], Any] 1
+Callable[[URLDispatchRouter, str, str], Optional[Any]] 1
+Union[str, istr] 1
+Union[str, datetime, Number] 1
+Type[MongoSqlBase] 1
+JsonObject 1
+Union[JsonObject, List[JsonObject], str] 1
+Union[Dict[Any, Any], List[JsonObject], str] 1
+Union[Dict[Any, Any], List[Dict[Any, Any]], str] 1
+Mapping[str, int] 1
+Union[date, datetime] 1
+Union[bool, str] 1
+SavedEndpoint 1
+Tuple[Any, str, Any, Any, Any, str, Any] 1
+Tuple[Any, str, Any, Any, Any, str] 1
+Callable[[Type[DaemonExiter], Any, Callable[[], None]], None] 1
+Callable[[PrintStatementsTest], Any] 1
+Footer 1
+tuple 1
+Union[str, List[Any], Any] 1
+Callable[[], str] 1
+ElmPackage 1
+Dict[FrozenSet[Any], Iterable[Any]] 1
+Mapping[FrozenSet[Any], List[Any]] 1
+Tuple[Dict[Any, Any], Counter[Any]] 1
+TorchAttributes 1
+Type[Meta] 1
+Union[Type[Any], Callable[..., Any]] 1
+Dict[type, Type[Field]] 1
+Mapping[str, T] 1
+Union[str, Mapping[str, T]] 1
+Tuple[str, str, Any] 1
+Type[ScalaLintBear] 1
+CPPCheckBear 1
+Type[HappinessLintBear] 1
+PyDocStyleBear 1
+Dict[str, Tuple[]] 1
+Tuple[str, str, str, str, Any, str, str] 1
+Tuple[str, str, str, str, Any] 1
+Tuple[Any, str, str] 1
+Tuple[Any, defaultdict[Any, Dict[Any, Any]]] 1
+Tuple[Any, Dict[str, str]] 1
+Union[bool, int] 1
+List[Union[int, float]] 1
+Dict[Tuple[int, int], int] 1
+Dict[Tuple[int, int], Union[int, float]] 1
+SequenceReader 1
+Tuple[Callable[[], str], Callable[[], str]] 1
+Tuple[Any, None] 1
+Tuple[Any, WriteProgram, Tuple[int, Any]] 1
+Type[bool] 1
+TextField 1
+NumericField 1
+DigitsField 1
+Callable[[BaseEventLoop, Dict[Any, Any]], None] 1
+Optional[Callable[[AbstractEventLoop, Dict[str, Any]], Any]] 1
+Callable[[Any, Connection], Coroutine[Any, Any, None]] 1
+Callable[[Any, Connection], None] 1
+Tuple[Path, Path] 1
+List[Dict[str, object]] 1
+Callable[[SG380], Any] 1
+MappingView 1
+ValuesView[Entry] 1
+List[Entry] 1
+Type[BaseModel] 1
+Environment 1
+BoardManager 1
+List[Type[Any]] 1
+Optional[Tuple[Optional[str], Optional[str]]] 1
+Callable[[Any], BasicAuthWebSocketServerProtocol] 1
+Optional[Type[WebSocketServerProtocol]] 1
+Callable[[AuthClientServerTests, Any], Any] 1
+Optional[Callable[[str, str], Awaitable[bool]]] 1
+Mapping[str, object] 1
+Union[None, str, Any] 1
+Lock 1
+AltMath 1
+Tuple[float, str] 1
+Alias 1
+FFProfile 1
+Tuple[Optional[Any], Optional[Any]] 1
+Tuple[datetime, datetime] 1
+Type[ValueError] 1
+Type[JSONDecodeError] 1
+Optional[_Writer] 1
+Optional[List[Union[Source, SourceList]]] 1
+Iterable[Union[Source, SourceList]] 1
+List[Subtitle] 1
+Tuple[List[int], List[float]] 1
+Tuple[List[float], List[float]] 1
+*Tuple[Dict[Any, Any], ...] 1
+Optional[List[Union[Event, Any]]] 1
+Callable[[str, str, str, str, int], StreamReaderWriter] 1
+Type[RepoBase] 1
+Type[TemplateRepoBase] 1
+Type[StudentRepoBase] 1
+Type[MockRepo] 1
+Type[MockTemplateRepo] 1
+Type[MockStudentRepo] 1
+List[Composition] 1
+List[Transform] 1
+size 1
+Union[int, Tuple[int]] 1
+SupportsAbs[float] 1
+Tuple[Note, ...] 1
+Tuple[Note] 1
+Tuple[Release, ...] 1
+Tuple[Release] 1
+Tuple[str, Any, Any] 1
+LazyGettextProxy 1
+Union[str, Dict[str, str], None] 1
+Union[str, Version, None] 1
+Type[InvalidMofileFormat] 1
+UserList 1
+Union[Match[Any], None, Any] 1
+_TileLoader 1
+Optional[List[Union[int, Any]]] 1
+Optional[c_ubyte] 1
+Optional[Tuple[c_ubyte, c_ubyte, c_ubyte]] 1
+Union[type, List[type]] 1
+Vector2 1
+Tuple[str, str, bytes] 1
+MockRequest 1
+Type[TrainingType] 1
+Type[MiniTrainingType] 1
+Type[GroupType] 1
+Callable[[PersonEntityAdmin, Any], Any] 1
+Callable[[Organization], Any] 1
+Callable[[AttributionNewAdmin, Any, Any], Any] 1
+Callable[[TutorApplicationAdmin, Any, Any], Any] 1
+Callable[[JobItem], str] 1
+number 1
+Tuple[str, None, None] 1
+Tuple[str, Any, str] 1
+_SExprParser 1
+Callable[[Experiment], Any] 1
+Tuple[str, Type[MarkdownExtension]] 1
+render_fragments 1
+Union[EntityQuery, Any, None] 1
+EntityQuery 1
+EntityRequirement 1
+ConditionRequirement 1
+Generator[Tuple[Any, ...], None, None] 1
+Type[Quote] 1
+Type[Vector] 1
+Type[ika.parser.List] 1
+Optional[array[Any]] 1
+data 1
+ExtraTree 1
+Unit 1
+Callable[[TestStaffObject], Any] 1
+Callable[[], Callable[[Any], Any]] 1
+Callable[[Optional[int], bool], Callable[[Callable[..., _T]], _lru_cache_wrapper[_T]]] 1
+Union[int, Tuple[int, int]] 1
+CellReference 1
+Union[bool, Match[str], None] 1
+arv 1
+Blueprint 1
+Iterator[List[Any]] 1
+Callable[[Any], List[Any]] 1
+PostImportFinder 1
+Tuple[DoubleArrayType, Type[c_int]] 1
+Sequence[Type[_CData]] 1
+Union[str, Tensor] 1
+Type[LongTensor] 1
+Union[str, dtype, None] 1
+Tuple[List[Tensor], Tensor] 1
+Tuple[List[Tensor], Tuple[Tensor, Any]] 1
+Tuple[Tensor, Tuple[Tensor, Tensor]] 1
+Options 1
+Union[Size, List[int], Tuple[int, ...]] 1
+Union[str, Enum] 1
+_NullMonitor 1
+Callable[[L1BTests], Any] 1
+fold_func 1
+Callable[[Iterable[Any]], Tuple[int, ...]] 1
+Callable[[Any], T] 1
+NoSectionError 1
+NoOptionError 1
+pointer[cusparseMatDescr] 1
+accuracy 1
+execution_time_in_seconds 1
+Tuple[Any, Dict[<nothing>, <nothing>]] 1
+Tuple[Dict[Any, Any], OrderedDict[Any, Any]] 1
+Callable[[RawScanResultAdmin, Any], Any] 1
+List[Tuple[List[Any], Dict[Any, Any], Dict[Any, Any]]] 1
+List[Tuple[List[Any], Dict[Any, Any]]] 1
+Tuple[str, Any, Any, Any] 1
+Dict[str, List[object]] 1
+Union[str, _PathLike[str], None] 1
+Iterator[Dict[str, str]] 1
+Tuple[Tuple[str, int], Tuple[str, int]] 1
+max_count 1
+Type[FileMetadata] 1
+Type[File] 1
+Type[TrackerMetadata] 1
+Type[Tracker] 1
+Type[TorrentMetadata] 1
+Type[Torrent] 1
+Union[LegacyVersion, Version] 1
+ProcessedStringWithTemplates 1
+Optional[List[Union[Rule, List[Any], Tuple[Union[str, Matcher], Any], Tuple[Union[str, Matcher], Any, Dict[str, Any]], Tuple[Union[str, Matcher], Any, Dict[str, Any], str]]]] 1
+BasePlugin 1
+List[Movie] 1
+local 1
+BasicAuth 1
+LiveMatch 1
+List[LeagueEntry] 1
+Key 1
+List[Tuple[str, int]] 1
+loads 1
+UserString 1
+List[PermissionFilter] 1
+Foo 1
+Tuple[object, object, object] 1
+SecretString 1
+Dict[str, Dict[str, float]] 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str] 1
+Callable[[AccountTest], Any] 1
+Type[TestCitytools] 1
+Iterable[_T_co] 1
+shape 1
+Tuple[int, int, int, int, int] 1
+Dict[Union[str, Any], Any] 1
+Dict[Any, None] 1
+Optional[Tuple[int, int, int]] 1
+DataParallel[Any] 1
+D_net_gauss 1
+Tuple[Any, Optional[int]] 1
+Tuple[Response, int] 1
+UserSession 1
+Callable[[ColorTracker], None] 1
+ActorContext 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str] 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str] 1
+getfilesystemencodeerrors 1
+Tuple[Optional[str], str, str, str, str, str, str, str] 1
+Tuple[Optional[str], str, str, str, str, str] 1
+Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str] 1
+List[List[float]] 1
+__MultiProcessed 1
+cwebp 1
+Type[_ZipRotator] 1
+Optional[Callable[[str, str], None]] 1
+Callable[[Any, Any, Any], int] 1
+Callable[[str, str], bool] 1
+TestinClass 1
+Callable[[str, str], str] 1
+custom_functions 1
+Union[Dict[Any, Any], Set[Any], List[Any]] 1
+extra_importers 1
+confirm_button 1
+cancel_button 1
+Tuple[bytes, bytes] 1
+prompt_suffix 1
+Union[List[Any], Dict[Any, Any], Cursor] 1
+Tuple[bytes, Any] 1
+Tuple[Message, str] 1
+Sequence[UndoableCommand] 1
+Mapping[Any, str] 1
+Type[Utils] 1
+Union[Dict[str, str], _Environ[str]] 1
+Union[object, Any] 1
+Union[str, int, bool, None] 1
+Union[FrameType, None, Any] 1
+Callable[[VisitAdmin, Any], Any] 1
+Mapping[str, bool] 1
+c_size_t 1
+ParseResult 1
+port 1
+EphemeralHiddenService 1
+Callable[[NotificationEmailAdmin, Any, Any], Any] 1
+Callable[[A], Any] 1
+Callable[[], Union[bool, Any]] 1
+Tuple[Type[bytes], Type[str]] 1
+Tuple[Type[str]] 1
+install 1
+Optional[Dict[str, Optional[str]]] 1
+Tuple[str, List[str], Optional[str], Dict[str, Optional[str]]] 1
+Union[Tuple[str, List[str], str, Dict[str, Optional[str]]], Tuple[None, None, None, None]] 1
+UnbalancedBracesException 1
+Type[PorterStemmer] 1
+Type[PassThroughWordStemmer] 1
+Type[StopwordFilter] 1
+Type[PassThroughWordFilter] 1
+Type[NltkWordSplitter] 1
+Type[SpacyWordSplitter] 1
+ngram_filter_sizes 1
+Callable[[], List[<nothing>]] 1
+Callable[[], int] 1
+Type[CNNEncoder] 1
+Type[BOWEncoder] 1
+Type[ClientResponse] 1
+Optional[ClientResponse] 1
+Dict[istr, str] 1
+Union[Mapping[Union[str, istr], <nothing>], Dict[Union[str, istr], <nothing>], MultiMapping[<nothing>], Iterable[Tuple[Union[str, istr], <nothing>]]] 1
+CIMultiDict[Any] 1
+ClientResponse 1
+List[Tuple[str, Union[Union[str, Any], List[Union[str, Any]]]]] 1
+List[Tuple[Union[str, Any], List[Union[str, Any]]]] 1
+Optional[ToplevelWriter] 1
+partial[FunctionType] 1
+Union[FunctionType, str] 1
+Type[MigParser] 1
+Optional[BinaryTree] 1
+List[Union[int, str]] 1
+Callable[[str], None] 1
+Callable[[Any], int] 1
+Optional[Type[BaseException]] 1
+action 1
+RealDebridAction 1
+Union[None, str, bytes, MutableMapping[str, Any], MutableMapping[str, Any], Iterable[Tuple[str, Optional[str]]], IO[Any]] 1
+Callable[[Image], Any] 1
+client.RawClient 1
+Optional[bottom.client.RawClient] 1
+Tuple[List[str], Dict[Any, Any], Dict[Any, Any]] 1
+Tuple[List[Any], object, TemporaryDirectory[str]] 1
+TimeoutError 1
+Optional[Iterable[Any]] 1
+BoopSniff 1
+Type[Position] 1
+Optional[Credential] 1
+Callable[[Type[_NT], Any, Any, Any, Any, Any, Any], _NT] 1
+Type[photonpump_eventrecord@314] 1
+Position 1
+Callable[[NominationAdmin, Nomination], Any] 1
+Callable[[AttendeeStatusAdmin, Any, Any], Any] 1
+Callable[[JudgingAssignmentAdmin, Any, Any], Any] 1
+Callable[[HackathonSponsorAdmin, Any, Any], Any] 1
+Tuple[Any, int, int, int, int] 1
+List[Tuple[Any, int, int, int, int]] 1
+Iterable[Tuple[str, str, str, str, str]] 1
+Union[Any, bool] 1
+Union[Callable[[Any], Any], Any] 1
+__property 1
+Callable[[DBTest], Any] 1
+Tuple[List[int], List[Any]] 1
+List[Mapping[Any, Any]] 1
+OrderedDict[str, Any] 1
+MARCRecordMixin 1
+Type[Enum] 1
+Tuple[str, List[Dict[str, Any]], Dict[<nothing>, <nothing>]] 1
+LocalizedValue 1
+Union[bool, List[str]] 1
+Type[DeleteDelta] 1
+Type[InsertDelta] 1
+Type[MyExample] 1
+MyExample 1
+Inspector 1
+Type[_T] 1
+List[Union[str, Any]] 1
+Callable[[Visit], Any] 1
+Type[EventLogger] 1
+Type[pang_result] 1
+Type[pang_args] 1
+Type[Iface] 1
+Type[ContextIface] 1
+search_path 1
+Union[FrameType, TracebackType] 1
+NullValue 1
+Type[NullValue] 1
+TextStyleSchema 1
+Tuple[bytes, Optional[str]] 1
+Type[GenericMeta] 1
+Type[deque[Any]] 1
+Type[Counter[Any]] 1
+Toplevel 1
+Processor 1
+World 1
+Tuple[Any, List[Any]] 1
+Type[TypeTime] 1
+HTTPBasicAuth 1
+Collection 1
+Callable[[Collection[Any]], int] 1
+Iterable 1
+Callable[[Iterable[Any]], Iterator[Any]] 1
+Mapping 1
+Callable[[Mapping[Any, Any], Any], Any] 1
+Tuple[Number, Number] 1
+OrderedDict[<nothing>, <nothing>] 1
+Union[Dict[str, str], Dict[Any, Any]] 1
+Type[StdoutElement] 1
+Type[DocElement] 1
+JavaScript 1
+Callable[[Type[_NT], Any, Any, Any, Any, Any, Any, Any, Any], _NT] 1
+BaseAlgorithmFactory 1
+Serializer 1
+Deserializer 1
+BaseType 1
+Mapping[str, Optional[float]] 1
+Optional[PikaProducer] 1
+Optional[FileProducer] 1
+Optional[KafkaProducer] 1
+Union[str, Dict[str, Any]] 1
+Iterable[Dict[str, Any]] 1
+Optional[Metadata] 1
+Type[Config] 1
+Tuple[Any, List[Tuple[Any, int]], List[Tuple[Any, int]], List[Tuple[Any, int]], Dict[str, Tuple[Union[str, Tuple[str, int]], Union[str, Tuple[str, int]]]]] 1
+Tuple[str, List[Union[str, Tuple[str, int]]], List[Union[str, Tuple[str, int]]], List[Union[str, Tuple[str, int]]], Dict[str, Tuple[Union[str, Tuple[str, int]], Union[str, Tuple[str, int]]]]] 1
+BaseChannel 1
+records 1
+Union[Tuple[Point, Point, Point], List[Point]] 1
+List[Point] 1
+CSVFile 1
+Widget 1
+_HelpFlag 1
+Callable[[LegislationAdmin, Any, Any], Any] 1
+Callable[[BaseUserAdmin, Any], Any] 1
+Callable[[Logger, Any], Any] 1
+Tuple[Tuple[datetime, int], int] 1
+Tuple[datetime, int] 1
+Tuple[Tuple[Any, ...], int] 1
+Tuple[Tuple[int, int, int, int], int] 1
+List[Union[float, bytes, str]] 1
+TimedMessage 1
+JobDef 1
+Optional[JobResult] 1
+IndexerContext 1
+method_locals 1
+current_generics 1
+Error 1
+Union[List[bytes], Any] 1
+_Proxy 1
+LedCanvas 1
+MonomeGrid 1
+Db 1
+q 1
+Optional[Callable[[Any], bool]] 1
+Union[str, Path, Any] 1
+StatefulUnit 1
+Vocabulary 1
+WordHashing 1
+NgramLetter 1
+List[NgramLetter] 1
+List[Unit] 1
+Tuple[Variable, Variable] 1
+Callable[[MyHTTPRedirectHandler, Any, Any, Any, Any, Any], Any] 1
+HTTPRedirectHandler 1
+Callable[[HTTPRedirectHandler, Request, IO[str], int, int, Mapping[str, str]], Optional[Any]] 1
+Tuple[Any, Any, Any, Any, Any, Any, Any] 1
+ServiceManager 1
+Type[T?] 1
+Converter 1
+Type[_M?] 1
+ConverterField 1
+MapField 1
+Callable[[MethodTestCase], Any] 1
+Callable[[StubTestCase], Any] 1
+MyInt 1
+Callable[[MessageTestCase], Any] 1
+V 1
+Tuple[Tuple[str], ...] 1
+Union[Union[str, int, float, bool, bytes], Dict[str, Any], List[Any]] 1
+Set[Tuple[str, None]] 1
+Union[bool, Tuple[str, ...]] 1
+Iterable[Type[Any]] 1
+ValuesView[Union[Service, Any]] 1
+Iterable[Type[Service]] 1
+GrowlerExtensionImporter 1
+Optional[Iterator[Any]] 1
+Optional[Tuple[Tuple[str, str, Any], ...]] 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]] 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]] 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]] 1
+Tuple[Tuple[str, str], Tuple[str, str], Tuple[str, str], Tuple[str, str]] 1
+Callable[[Optional[int], Optional[int]], None] 1
+Tuple[List[Any]] 1
+Optional[Module] 1
+Optional[List[int]] 1
+Dict[str, List[Dict[str, str]]] 1
+Decision 1
+StackSummary 1
+Dict[str, List[Any]] 1
+Competition 1
+InNodeInfo 1
+OutNodeInfo 1
+Tuple[List[Any], int] 1
+deque[List[List[int]]] 1
+List[Tuple[List[bool], List[bool]]] 1
+SimpleTranslitStreamFilter 1
+Optional[Dict[str, FineUploaderWidget]] 1

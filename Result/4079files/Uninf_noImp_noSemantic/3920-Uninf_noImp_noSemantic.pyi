@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_handshake(monkeypatch: Any, ignite_host: Any, ignite_port: Any, use_ssl: Any, ssl_keyfile: Any, ssl_certfile: Any, ssl_ca_certfile: Any, ssl_cert_reqs: Any, ssl_ciphers: Any, ssl_version: Any, username: Any, password: Any) -> None: ...

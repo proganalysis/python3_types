@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any, Optional
+
+datetime: module
+
+def first(seq) -> Any: ...
+def first_or(seq, alternative) -> Any: ...
+def timestamp(dt: Optional[datetime.datetime] = ...) -> float: ...

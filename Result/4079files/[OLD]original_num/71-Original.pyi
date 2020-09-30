@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+from typing import Any, BinaryIO
+
+argparse: module
+base64: module
+bitarray: Any
+lArgParser: argparse.ArgumentParser
+lArgs: argparse.Namespace
+lEncryptionActionGroup: argparse._MutuallyExclusiveGroup
+lFile: BinaryIO
+lInput: bytearray
+lInputSourceGroup: argparse._MutuallyExclusiveGroup
+lKey: list
+sys: module
+
+def derive_key(pKeyString: str) -> list: ...
+def encrypt(pInput: bytearray, pKey: list) -> bytearray: ...
+def initialize_registers(pKey: list) -> tuple: ...
+def is_unprintable(pBytes: bytearray) -> bool: ...
+def key_is_involutary(pKey: list) -> bool: ...
+def key_is_trivial(pKey: list) -> bool: ...
+def print_ciphertext(pInput: bytearray, pKey: list, pVerbose: bool, pOutputFormat: str) -> None: ...

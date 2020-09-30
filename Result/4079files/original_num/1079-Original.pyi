@@ -1,0 +1,29 @@
+# (generated with --quick)
+
+from typing import NoReturn, TextIO
+
+os: module
+sys: module
+time: module
+
+class Monitor:
+    CurrentTimeEpoch: int
+    Exitstatus: int
+    LogTimeEpoch: int
+    errorThreshold: int
+    f: TextIO
+    path: str
+    pattern: str
+    seekbuffer: int
+    seekto: int
+    timestamp: str
+    warningThreshold: int
+    def _Monitor__check__thresholds(self) -> None: ...
+    def _Monitor__checklogexists(self) -> None: ...
+    def _Monitor__generate_alert(self) -> None: ...
+    def _Monitor__get__epoch(self) -> None: ...
+    def _Monitor__get__last__line(self) -> NoReturn: ...
+    def _Monitor__get__time(self) -> None: ...
+    def __init__(self, path: str, warningThreshold: int, ErrorThreshold: int) -> None: ...
+    def init(self) -> NoReturn: ...
+    def toString(self) -> NoReturn: ...

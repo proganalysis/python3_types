@@ -1,0 +1,3 @@
+from typing import Any
+
+def test(peer_addr: Any) -> None: ...

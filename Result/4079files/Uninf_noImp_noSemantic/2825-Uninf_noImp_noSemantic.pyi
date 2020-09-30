@@ -1,0 +1,3 @@
+from typing import Any
+
+def app(request: Any): ...

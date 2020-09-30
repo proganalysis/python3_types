@@ -1,0 +1,3 @@
+from typing import Any
+
+def generate_dev_version(version: Any): ...

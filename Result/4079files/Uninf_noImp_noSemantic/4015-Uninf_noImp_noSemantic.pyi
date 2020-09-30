@@ -1,0 +1,3 @@
+from typing import Any
+
+def drop_outdated_inprogress_file(abs_folder: Any, filename: Any): ...

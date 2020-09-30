@@ -1,0 +1,51 @@
+----- Mypy -> Pylint(typecheck) -----
+abstract 1/10
+  [['no-value-for-parameter', 1]]
+arg-type 33/1554
+  [['no-member', 19], ['unexpected-keyword-arg', 8], ['no-value-for-parameter', 5], ['isinstance-second-argument-not-valid-type', 1]]
+assignment 28/3075
+  [['no-member', 26], ['no-value-for-parameter', 2]]
+attr-defined 1777/7225
+  [['no-member', 1692], ['c-extension-no-member', 63], ['no-value-for-parameter', 10], ['not-callable', 7], ['not-an-iterable', 4], ['too-many-function-args', 1]]
+call-arg 118/411
+  [['no-value-for-parameter', 49], ['no-member', 47], ['too-many-function-args', 14], ['unexpected-keyword-arg', 7], ['not-callable', 1]]
+call-overload 8/228
+  [['unexpected-keyword-arg', 6], ['no-value-for-parameter', 1], ['no-member', 1]]
+func-returns-value 1/74
+  [['assignment-from-none', 1]]
+has-type 55/368
+  [['no-member', 55]]
+index 66/820
+  [['unsubscriptable-object', 64], ['unsupported-assignment-operation', 2]]
+list-item 1/53
+  [['no-member', 1]]
+misc 28/4686
+  [['no-member', 14], ['not-callable', 7], ['no-value-for-parameter', 2], ['c-extension-no-member', 2], ['unexpected-keyword-arg', 1], ['too-many-function-args', 1], ['not-an-iterable', 1]]
+name-defined 279/7839
+  [['no-member', 241], ['c-extension-no-member', 27], ['too-many-function-args', 5], ['no-value-for-parameter', 5], ['unexpected-keyword-arg', 1]]
+no-redef 3/807
+  [['no-member', 3]]
+operator 32/617
+  [['not-callable', 18], ['no-member', 7], ['invalid-unary-operand-type', 4], ['unsupported-membership-test', 3]]
+return-value 2/1399
+  [['no-member', 2]]
+syntax 2/514
+  [['syntax-error', 1], ['no-member', 1]]
+union-attr 2/1412
+  [['no-member', 2]]
+valid-type 14/1534
+  [['no-member', 12], ['unsupported-assignment-operation', 1], ['unsubscriptable-object', 1]]
+var-annotated 1/2743
+  [['no-member', 1]]
+
+Use_all = 367, Total_all = 15619
+Not in any:
+override
+type-var
+str-format
+return
+dict-item
+str-bytes-safe
+type-arg
+exit-return
+valid-newtype

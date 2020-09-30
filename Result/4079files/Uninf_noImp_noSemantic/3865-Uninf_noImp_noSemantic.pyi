@@ -1,0 +1,3 @@
+from gempy.assets.geophysics import GeophysicsPreprocessing as GeophysicsPreprocessing
+
+def test_irregular_grid() -> None: ...

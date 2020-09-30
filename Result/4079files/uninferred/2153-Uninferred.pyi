@@ -1,0 +1,3 @@
+from typing import Any
+
+def path_traverse(root_dir: Any, file_tail: str = ...) -> None: ...

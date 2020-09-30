@@ -1,0 +1,3 @@
+from typing import Any
+
+def turn_back(lbot: Any) -> None: ...

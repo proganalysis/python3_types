@@ -1,0 +1,36 @@
+# (generated with --quick)
+
+from typing import Any, List, Tuple
+
+T: int
+c: Any
+c2: Any
+cumulative_noise: Any
+i: int
+j: int
+key: int
+m: Any
+mad: int
+mads: List[int]
+mmd: int
+q: Any
+q2: int
+random: module
+sk: Any
+
+class KeyType:
+    LARGEST: int
+    RANDOM: int
+    SMALLEST: int
+
+def __getattr__(name) -> Any: ...
+def consistency(func, args, expected, n = ...) -> None: ...
+def decrypt(sk, c) -> Any: ...
+def encrypt(sk, b, mbits = ...) -> Any: ...
+def encryptD(sk, b, mbits = ...) -> Tuple[Any, int]: ...
+def keygen(kt = ...) -> Any: ...
+def keygenEncryptDecrypt(b) -> Any: ...
+def keygenEncryptMult(b1, b2) -> Any: ...
+def keygenEncryptSum(b1, b2) -> Any: ...
+def noise(sk, c) -> Any: ...
+def noiseQ(sk, c, q) -> Any: ...

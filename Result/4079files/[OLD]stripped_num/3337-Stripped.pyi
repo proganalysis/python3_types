@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+import asyncio.events
+import concurrent.futures.thread
+from typing import Any
+
+EXECUTOR: Any
+EXECUTOR_THREAD_COUNT: int
+asyncio: module
+futures: module
+
+def create_executor() -> concurrent.futures.thread.ThreadPoolExecutor: ...
+def get_executor() -> Any: ...
+def get_or_create_event_loop() -> asyncio.events.AbstractEventLoop: ...
+def get_or_create_executor() -> Any: ...
+def set_executor(executor) -> None: ...

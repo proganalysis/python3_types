@@ -1,0 +1,3 @@
+from typing import Any
+
+def post_factory(uid: Any): ...

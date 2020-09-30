@@ -1,0 +1,13 @@
+import argparse
+import asyncio
+from curb_energy import models as models
+from curb_energy.client import AuthToken as AuthToken, RealTimeClient
+from typing import Any
+
+logger: Any
+is_streaming: bool
+
+def stop() -> None: ...
+async def stream(client: RealTimeClient) -> Any: ...
+async def main(args: argparse.Namespace, event_loop: asyncio.AbstractEventLoop) -> Any: ...
+def get_parser() -> argparse.ArgumentParser: ...

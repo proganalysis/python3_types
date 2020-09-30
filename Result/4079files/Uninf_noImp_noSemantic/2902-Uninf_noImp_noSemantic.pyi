@@ -1,0 +1,6 @@
+from typing import Any
+
+env: Any
+
+def init() -> None: ...
+def callback(page: Any, filename: Any): ...

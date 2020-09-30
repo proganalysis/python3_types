@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def write_rom(rom_path: str, rom_content: bytes) -> int: ...

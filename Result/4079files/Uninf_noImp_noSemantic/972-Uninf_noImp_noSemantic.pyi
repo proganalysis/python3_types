@@ -1,0 +1,3 @@
+REQUIRE_PLATFORM: str
+
+def main() -> None: ...

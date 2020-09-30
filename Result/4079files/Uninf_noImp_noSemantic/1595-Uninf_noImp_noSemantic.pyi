@@ -1,0 +1,3 @@
+from typing import Any
+
+async def log_in(websocket: Any, challid: Any, chall: Any) -> None: ...

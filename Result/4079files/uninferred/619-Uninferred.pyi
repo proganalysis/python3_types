@@ -1,0 +1,3 @@
+from pytest import fixture as fixture
+
+async def test_select_user(tables: fixture, sa_engine: fixture) -> None: ...

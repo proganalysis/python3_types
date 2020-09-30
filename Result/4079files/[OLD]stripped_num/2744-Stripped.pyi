@@ -1,0 +1,33 @@
+# (generated with --quick)
+
+from typing import Any, Coroutine, Dict
+
+CLIApplicationComponent: Any
+Component: Any
+ContainerComponent: Any
+Context: Any
+asyncio: module
+component_types: Any
+monkeypatch_plugins: Any
+pytest: Any
+
+class DummyComponent(Any):
+    kwargs: Dict[str, Any]
+    started: bool
+    def __init__(self, **kwargs) -> None: ...
+    def start(self, ctx) -> Coroutine[Any, Any, None]: ...
+
+class TestCLIApplicationComponent:
+    def test_run_exception(self, event_loop) -> None: ...
+    def test_run_return_5(self, event_loop) -> None: ...
+    def test_run_return_invalid_type(self, event_loop) -> None: ...
+    def test_run_return_invalid_value(self, event_loop) -> None: ...
+    def test_run_return_none(self, event_loop) -> None: ...
+
+class TestContainerComponent:
+    container: Any
+    test_add_component_errors: Any
+    test_start: Any
+    def test_add_component(self, container) -> None: ...
+    def test_add_component_with_type(self) -> None: ...
+    def test_add_duplicate_component(self, container) -> None: ...

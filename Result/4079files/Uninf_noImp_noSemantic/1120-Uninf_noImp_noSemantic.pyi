@@ -1,0 +1,6 @@
+from insteonplm.devices import Device
+from typing import Any, Optional
+
+class UnknownDevice(Device):
+    _aldb: Any = ...
+    def __init__(self, plm: Any, address: Any, cat: Optional[Any] = ..., subcat: Optional[Any] = ..., product_key: int = ..., description: str = ..., model: str = ...) -> None: ...

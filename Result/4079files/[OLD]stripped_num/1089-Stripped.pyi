@@ -1,0 +1,26 @@
+# (generated with --quick)
+
+from typing import Any, Dict, Tuple, TypeVar, Union
+
+Comment: Any
+Http404: Any
+HttpResponsePermanentRedirect: Any
+Page: Any
+Paginator: Any
+Q: Any
+QuerySet: Any
+Topic: Any
+WSGIRequest: Any
+reverse: Any
+settings: Any
+
+_T1 = TypeVar('_T1')
+
+def _get_comment_pageid(qs_comments, comment_id, comments_per_page) -> Any: ...
+def _get_comments_per_page(request) -> Any: ...
+def _prefetch_for_comments(qs_comments) -> Any: ...
+def _topic_comment_sanitize(request, comment_id: _T1) -> Tuple[Any, Dict[str, Union[bool, _T1]]]: ...
+def list_comments(request, topic_slug, comment_id = ...) -> Tuple[Any, Any]: ...
+def prev_comments_down(request, topic_slug, comment_id, scroll_to_id) -> Tuple[Any, Any]: ...
+def replies_up(request, topic_slug, comment_id, scroll_to_id) -> Tuple[Any, Any]: ...
+def replies_up_recursive(request, topic_slug, comment_id, scroll_to_id) -> Tuple[Any, Any]: ...

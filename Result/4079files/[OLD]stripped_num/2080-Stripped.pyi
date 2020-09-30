@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def antigravity() -> None: ...

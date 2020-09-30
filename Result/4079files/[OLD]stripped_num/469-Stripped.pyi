@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+from typing import Any, List, TypeVar
+
+FieldDoesNotExist: Any
+modelform_factory: Any
+models: Any
+six: module
+
+_T2 = TypeVar('_T2')
+
+class FormFilter:
+    form: Any
+    form_instance: Any
+    request: Any
+    def __init__(self, request, form = ...) -> None: ...
+    def get_build_param(self, value, data, params: _T2) -> _T2: ...
+    def get_cleaned_fields(self) -> dict: ...
+    def get_filter(self, queryset) -> Any: ...
+    def get_params(self, exclude = ...) -> List[str]: ...
+    def render(self) -> Any: ...
+
+def get_filters(model, list_filter, request) -> list: ...

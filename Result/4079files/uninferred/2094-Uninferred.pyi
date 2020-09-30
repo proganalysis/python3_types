@@ -1,0 +1,9 @@
+from tcd.formats.format import Format
+from twitch.helix import Video as Video
+from twitch.v5 import Comment as Comment, Comments as Comments
+from typing import Generator, Tuple
+
+class Custom(Format):
+    def __init__(self, video: Video, format_name: str) -> None: ...
+    def use(self) -> Tuple[Generator[Tuple[str, Comment], None, None], str]: ...
+    def comment_generator(self, comments: Comments) -> Generator[Tuple[str, Comment], None, None]: ...

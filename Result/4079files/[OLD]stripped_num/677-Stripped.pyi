@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any, Callable
+
+logging: module
+os: module
+
+class InfoOrLessCritical(logging.Filter):
+    def filter(self, record) -> Any: ...
+
+def GeneralLogger() -> Any: ...
+def __getattr__(name) -> Any: ...
+def singleton(cls, *args, **kw) -> Callable[[], Any]: ...

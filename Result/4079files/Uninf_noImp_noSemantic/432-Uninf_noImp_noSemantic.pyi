@@ -1,0 +1,3 @@
+from typing import Any
+
+def getBaseCond(c: Any): ...

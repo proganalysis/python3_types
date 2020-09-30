@@ -1,0 +1,36 @@
+# (generated with --quick)
+
+from typing import Any, Dict, Optional, Type, TypeVar
+
+__author__: str
+
+_T10 = TypeVar('_T10')
+_T11 = TypeVar('_T11')
+_T12 = TypeVar('_T12')
+_T13 = TypeVar('_T13')
+_T14 = TypeVar('_T14')
+_T15 = TypeVar('_T15')
+_T2 = TypeVar('_T2')
+_T3 = TypeVar('_T3')
+_T4 = TypeVar('_T4')
+_T5 = TypeVar('_T5')
+_T6 = TypeVar('_T6')
+_T7 = TypeVar('_T7')
+_T8 = TypeVar('_T8')
+_T9 = TypeVar('_T9')
+_TRouteMapping = TypeVar('_TRouteMapping', bound=RouteMapping)
+
+class RouteMapping(object):
+    _RouteMapping__routes: Dict[Any, list]
+    __doc__: str
+    def _RouteMapping__set_route(self, type_route, route) -> Type[RouteMapping]: ...
+    def delete(self, route, callback) -> Type[RouteMapping]: ...
+    def flush_routes(self: _TRouteMapping) -> _TRouteMapping: ...
+    def get(self, route, callback) -> Type[RouteMapping]: ...
+    def get_routes(self) -> Dict[Any, list]: ...
+    def head(self, route, callback) -> Type[RouteMapping]: ...
+    def options(self, route, callback) -> Type[RouteMapping]: ...
+    def patch(self, route, callback) -> Type[RouteMapping]: ...
+    def post(self, route, callback) -> Type[RouteMapping]: ...
+    def put(self, route, callback) -> Type[RouteMapping]: ...
+    def verify_route_already_bound(self, type_route, route) -> Optional[bool]: ...

@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+import argparse
+import json.encoder
+from typing import Any, Callable, IO, Optional, TextIO, Tuple, Type, Union
+
+ArgumentParser: Type[argparse.ArgumentParser]
+FileType: Type[argparse.FileType]
+Parser: Any
+RawDescriptionHelpFormatter: Type[argparse.RawDescriptionHelpFormatter]
+
+def dump(obj, fp: IO[str], skipkeys: bool = ..., ensure_ascii: bool = ..., check_circular: bool = ..., allow_nan: bool = ..., cls: Optional[Type[json.encoder.JSONEncoder]] = ..., indent: Optional[Union[int, str]] = ..., separators: Optional[Tuple[str, str]] = ..., default: Optional[Callable[[Any], Any]] = ..., sort_keys: bool = ..., **kwds) -> None: ...
+def dumps(obj, skipkeys: bool = ..., ensure_ascii: bool = ..., check_circular: bool = ..., allow_nan: bool = ..., cls: Optional[Type[json.encoder.JSONEncoder]] = ..., indent: Optional[Union[int, str]] = ..., separators: Optional[Tuple[str, str]] = ..., default: Optional[Callable[[Any], Any]] = ..., sort_keys: bool = ..., **kwds) -> str: ...
+def main() -> None: ...
+def output_file(out) -> TextIO: ...
+def parse(macho, certs = ..., out = ...) -> Any: ...

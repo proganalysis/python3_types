@@ -1,0 +1,6 @@
+from typing import Any
+
+steam_ids: Any
+
+def test_player_json(service: Any, steam_id: Any) -> None: ...
+def test_deprecated_player_json(service: Any, steam_id: Any) -> None: ...

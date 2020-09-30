@@ -1,0 +1,3 @@
+from typing import Any
+
+def create_magic_link_for_user(user: Any, next_view: Any): ...

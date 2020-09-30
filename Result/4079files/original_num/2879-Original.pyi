@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+class Box:
+    colour: Any
+    def __eq__(self, other) -> bool: ...
+    def __init__(self, colour) -> None: ...
+    def __repr__(self) -> str: ...

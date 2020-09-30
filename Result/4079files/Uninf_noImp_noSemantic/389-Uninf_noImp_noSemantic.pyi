@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_create(person: Any) -> None: ...

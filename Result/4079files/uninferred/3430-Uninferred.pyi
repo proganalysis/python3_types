@@ -1,0 +1,3 @@
+from typing import Any
+
+def perdelta(start: Any, end: Any, delta: Any) -> None: ...

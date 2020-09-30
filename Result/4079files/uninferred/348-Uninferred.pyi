@@ -1,0 +1,9 @@
+from typing import Any
+
+description: str
+startup_extensions: Any
+bot: Any
+
+async def on_ready() -> None: ...
+async def on_member_join(member: Any) -> None: ...
+async def on_message(message: Any) -> None: ...

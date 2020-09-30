@@ -1,0 +1,6 @@
+from typing import Any
+
+async def device_updated_cb(device: Any) -> None: ...
+async def main() -> None: ...
+
+loop: Any

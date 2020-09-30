@@ -1,0 +1,13 @@
+from . import BaseInterface
+from .. import SignalSender
+from typing import Any
+
+class ClosedSignalInterface(BaseInterface):
+    @property
+    def closed(self) -> SignalSender: ...
+    @property
+    def cannot_closed(self) -> SignalSender: ...
+    @property
+    def can_close(self) -> bool: ...
+    @can_close.setter
+    def can_close(self, value: Any) -> None: ...

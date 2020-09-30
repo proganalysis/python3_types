@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any, Callable, Generator, TypeVar, Union
+
+cl: Any
+
+_T0 = TypeVar('_T0')
+_T1 = TypeVar('_T1')
+
+def attrgetter(*attrs: str) -> Callable[[Any], tuple]: ...
+def get_default_device(use_gpu = ...) -> Any: ...
+def get_devices_by_name(name, case_sensitive = ...) -> list: ...
+def range_bitwise_shift(low: _T0, high: _T1, n) -> Generator[Union[_T0, _T1], Any, None]: ...

@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any
+
+Event: Any
+EventMsgDict: Any
+create_event: Any
+json: module
+logger: logging.Logger
+logging: module
+
+def create_event_from_msg(msg) -> Any: ...
+def event_handler(msg) -> Any: ...
+def log_handler(level, message) -> None: ...
+def on_websocket_message(message) -> None: ...
+def response_handler(msg) -> None: ...

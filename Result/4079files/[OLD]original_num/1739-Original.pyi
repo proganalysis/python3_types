@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+TOTP: Any
+
+def get_otpauth_url(serial: str, secret: str) -> str: ...
+def normalize_serial(serial: str) -> str: ...
+def prettify_serial(serial: str) -> str: ...

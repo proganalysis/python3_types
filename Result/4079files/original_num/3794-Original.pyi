@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any, List
+
+CommandOnCooldown: Any
+Context: Any
+HTTPStatusError: Any
+NoMongo: Any
+
+def command_error_handler(exception: Exception) -> str: ...
+def format_command_error(ex: Exception, context) -> tuple: ...
+def format_traceback(tb: str) -> List[str]: ...
+def wrap(text: str = ..., width: int = ..., *, initial_indent: str = ..., subsequent_indent: str = ..., expand_tabs: bool = ..., tabsize: int = ..., replace_whitespace: bool = ..., fix_sentence_endings: bool = ..., break_long_words: bool = ..., break_on_hyphens: bool = ..., drop_whitespace: bool = ..., max_lines: int = ..., placeholder: str = ...) -> List[str]: ...

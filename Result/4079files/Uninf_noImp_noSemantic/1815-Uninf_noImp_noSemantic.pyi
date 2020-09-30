@@ -1,0 +1,9 @@
+import umachine as machine
+from typing import Any, Optional
+
+class MyPin(machine.PinBase):
+    v: bool = ...
+    def __init__(self) -> None: ...
+    def value(self, v: Optional[Any] = ...): ...
+
+p: Any

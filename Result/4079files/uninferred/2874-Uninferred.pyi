@@ -1,0 +1,9 @@
+from libraries.code_api.code_manager.build_step import BuildProcessStep
+from typing import Any
+
+_PREPROCESSED: str
+
+class BuildProcessShaders(BuildProcessStep):
+    def __init__(self, domain: Any) -> None: ...
+    shaders: Any = ...
+    def step_0x0(self) -> None: ...

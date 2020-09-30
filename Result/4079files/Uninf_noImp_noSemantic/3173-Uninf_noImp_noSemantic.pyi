@@ -1,0 +1,3 @@
+from typing import Any
+
+def weighted_choice(choices: Any, weights: Any): ...

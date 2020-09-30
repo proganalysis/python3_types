@@ -1,0 +1,6 @@
+from typing import Any
+
+BOT: Any
+
+def handle(msg: Any) -> None: ...
+def run_bot(token: Any) -> None: ...

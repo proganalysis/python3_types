@@ -1,0 +1,29 @@
+import argparse
+import numpy as np
+from bubblesub.api import Api
+from bubblesub.api.cmd import BaseCommand
+from typing import Any
+
+FRAME_WIDTH: int
+FRAME_HEIGHT: int
+FRAME_CROP: int
+BLACK_THRESHOLD: int
+WHITE_THRESHOLD: int
+DIFF_THRESHOLD: int
+
+def is_black(frame: np.array) -> bool: ...
+def is_white(frame: np.array) -> bool: ...
+
+class DetectKaraokeCommand(BaseCommand):
+    names: Any = ...
+    help_text: str = ...
+    @property
+    def is_enabled(self): ...
+    @staticmethod
+    def decorate_parser(api: Api, parser: argparse.ArgumentParser) -> None: ...
+    async def run(self) -> None: ...
+    def add_sub(self, start: int, end: int) -> None: ...
+    def get_frame(self, frame_idx: int) -> np.array: ...
+
+COMMANDS: Any
+MENU: Any

@@ -1,0 +1,6 @@
+from typing import Any
+from workers.worker_base import WorkerBase
+
+class AlgorithmWorker(WorkerBase):
+    def train(self, book1: Any, book2: Any, result: Any) -> None: ...
+    def predict(self, book1: Any, book2: Any): ...

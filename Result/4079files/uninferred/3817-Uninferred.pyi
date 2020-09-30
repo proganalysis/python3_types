@@ -1,0 +1,3 @@
+from HOMELY import HERE as HERE, jerjerrod_addline as jerjerrod_addline, wantjerjerrod as wantjerjerrod
+
+def jerjerrod_install() -> None: ...

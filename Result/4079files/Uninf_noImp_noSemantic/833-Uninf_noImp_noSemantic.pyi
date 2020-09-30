@@ -1,0 +1,3 @@
+from typing import List
+
+def split_camel(s: str) -> List[str]: ...

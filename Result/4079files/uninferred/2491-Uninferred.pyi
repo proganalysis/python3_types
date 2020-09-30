@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def firstitem(pl: Any, todofile: Optional[Any] = ...): ...

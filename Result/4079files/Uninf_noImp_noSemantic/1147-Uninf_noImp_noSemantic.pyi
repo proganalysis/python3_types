@@ -1,0 +1,6 @@
+from typing import Any
+
+__author__: str
+
+def test_tokenize_file(filename: Any, expected: Any): ...
+def test_compile(filename: Any) -> None: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+endpoint: str
+
+def get_bus_stops(account_key: str, offset: int) -> Any: ...
+def main() -> None: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def notify(subject: Any, body: Any) -> None: ...

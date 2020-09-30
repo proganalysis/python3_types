@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+import asyncio.events
+import concurrent.futures.thread
+from typing import Optional
+
+EXECUTOR: Optional[concurrent.futures.thread.ThreadPoolExecutor]
+EXECUTOR_THREAD_COUNT: int
+asyncio: module
+futures: module
+
+def create_executor() -> concurrent.futures.thread.ThreadPoolExecutor: ...
+def get_executor() -> Optional[concurrent.futures.thread.ThreadPoolExecutor]: ...
+def get_or_create_event_loop() -> asyncio.events.AbstractEventLoop: ...
+def get_or_create_executor() -> concurrent.futures.thread.ThreadPoolExecutor: ...
+def set_executor(executor: concurrent.futures.thread.ThreadPoolExecutor) -> None: ...

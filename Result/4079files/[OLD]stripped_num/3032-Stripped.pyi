@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+class Reference:
+    _obj: Any
+    def __init__(self, obj = ...) -> None: ...
+    def get_value(self) -> Any: ...
+    def set_value(self, obj) -> None: ...

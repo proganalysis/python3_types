@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any
+
+binascii: module
+
+class intel_hex(object):
+    address: Any
+    lineno: int
+    memory: dict
+    start_address: Any
+    def __init__(self, filename) -> None: ...
+    def add_data(self, count, offset, data) -> None: ...
+    def calc_checksum(self, byte_count, offset, type_code, data) -> Any: ...
+    def pack(self) -> None: ...
+    def parse_line(self, line) -> int: ...

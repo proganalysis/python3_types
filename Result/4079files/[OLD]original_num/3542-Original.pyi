@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+class UndecoratedClass:
+    def method(self, argument: int) -> int: ...
+
+def undecorated_function(argument: int) -> int: ...

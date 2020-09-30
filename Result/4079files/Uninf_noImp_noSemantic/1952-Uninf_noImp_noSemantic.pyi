@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_load_data(journalist_app: Any, config: Any) -> None: ...

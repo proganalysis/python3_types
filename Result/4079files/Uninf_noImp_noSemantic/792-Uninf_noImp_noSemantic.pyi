@@ -1,0 +1,19 @@
+from typing import Any
+
+s: Any
+
+def cfg1() -> None: ...
+
+data_paths: Any
+
+def cfg2(settings: Any) -> None: ...
+
+data: Any
+
+def cfg3(paths: Any) -> None: ...
+def foo(basepath: Any, filename: Any, paths: Any, settings: Any): ...
+
+ex: Any
+
+def cfg(dataset: Any) -> None: ...
+def main(a: Any, b: Any, c: Any, out_base: Any, out_filename: Any, dataset: Any) -> None: ...

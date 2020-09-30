@@ -1,0 +1,3 @@
+from typing import Any
+
+def WebIDLTest(parser: Any, harness: Any) -> None: ...

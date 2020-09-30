@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+class Task:
+    description: str
+    done: bool
+    id: int
+    def __init__(self, id_: int, description: str, done: bool) -> None: ...
+    def is_done(self) -> bool: ...
+    def set_done(self, done: bool) -> None: ...

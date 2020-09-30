@@ -1,0 +1,3 @@
+from typing import Any
+
+def cli(ffmpeg: Any, source: Any, output: Any, duration: Any, reset: Any, peak: Any, extra: Any) -> None: ...

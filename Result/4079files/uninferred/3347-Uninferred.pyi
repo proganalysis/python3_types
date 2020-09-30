@@ -1,0 +1,3 @@
+from typing import Any
+
+def test_serialize(api_rf: Any, config_factory: Any) -> None: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def fib(n: Any, lookup: Any): ...

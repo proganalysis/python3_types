@@ -1,0 +1,16 @@
+# (generated with --quick)
+
+from typing import Any, Dict, Union
+
+irirefEscapeSequence: str
+re: module
+semactEscapeReplacements: Dict[str, str]
+stringEscapeReplacements: Dict[str, str]
+stringEscapeSequence: str
+u: Any
+
+def f(sequence, unicode4, unicode8, escaped_char) -> Any: ...
+def sub_unicode4(unicode4) -> str: ...
+def sub_unicode8(unicode8) -> Union[int, str]: ...
+def unescape(string, regex, replacements) -> Any: ...
+def unescape_string(string: str, trim_length: int = ...) -> str: ...

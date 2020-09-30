@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+K: Any
+
+def f1_score(y_true, y_pred) -> Any: ...
+def precision(y_true, y_pred) -> Any: ...
+def recall(y_true, y_pred) -> Any: ...

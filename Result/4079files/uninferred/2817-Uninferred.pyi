@@ -1,0 +1,6 @@
+from django.http import HttpRequest as HttpRequest
+from frontpage.models import Profile as Profile
+from typing import Any
+
+def render_media_list(request: HttpRequest, u: Profile) -> Any: ...
+def render_media_page(request: HttpRequest) -> Any: ...

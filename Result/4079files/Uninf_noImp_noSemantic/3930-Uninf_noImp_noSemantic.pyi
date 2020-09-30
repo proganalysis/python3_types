@@ -1,0 +1,16 @@
+from typing import Any
+
+skipIfNonUnix: Any
+skipOnTravis: Any
+skipIfNoNetwork: Any
+skipNotCPython: Any
+skipPypy3V58: Any
+
+def _detect_ipv6(): ...
+
+skipIfNoIPv6: Any
+
+def refusing_port(): ...
+def exec_test(caller_globals: Any, caller_locals: Any, s: Any): ...
+def subTest(test: Any, *args: Any, **kwargs: Any): ...
+def ignore_deprecation() -> None: ...

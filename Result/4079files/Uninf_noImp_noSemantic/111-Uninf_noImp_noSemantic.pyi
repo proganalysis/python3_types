@@ -1,0 +1,3 @@
+from typing import Any
+
+def load_json_file(pathname: str) -> Any: ...

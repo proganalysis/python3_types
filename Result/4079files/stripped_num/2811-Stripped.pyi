@@ -1,0 +1,13 @@
+# (generated with --quick)
+
+from typing import Any, Optional
+
+json: module
+os: module
+utils: Any
+yaml: module
+
+def add_value(orig_file, orig_key, value) -> str: ...
+def get_value(_file, key = ...) -> Optional[str]: ...
+def rm_value(_file, key) -> str: ...
+def set_value(_file, key, value) -> str: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def application(environ: Any, start_response: Any): ...

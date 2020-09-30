@@ -1,0 +1,9 @@
+# (generated with --quick)
+
+from typing import Any
+
+T: Any
+
+def strtobool(val: str) -> bool: ...
+def to_bool(value) -> bool: ...
+def to_int(value: str, default = ...) -> Any: ...

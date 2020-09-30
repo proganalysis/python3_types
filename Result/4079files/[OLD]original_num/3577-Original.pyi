@@ -1,0 +1,19 @@
+# (generated with --quick)
+
+from typing import List
+
+class StaircaseGenerator(object):
+    _StaircaseGenerator__generated_numbers: List[nothing]
+    _StaircaseGenerator__legal: bool
+    _StaircaseGenerator__lower_bound: int
+    _StaircaseGenerator__percentage: int
+    _StaircaseGenerator__print_distance: int
+    _StaircaseGenerator__upper_bound: int
+    __doc__: str
+    def _StaircaseGenerator__check_bounds_for_range_restrictions(self) -> None: ...
+    @staticmethod
+    def _StaircaseGenerator__check_single_number(number_to_check) -> bool: ...
+    def __init__(self, lower_bound: int, upper_bound: int) -> None: ...
+    def generate_staircase_from_lower_to_upper_bound(self) -> None: ...
+    def print_generated_numbers(self) -> None: ...
+    def reset_bounds(self, lower_bound: int, upper_bound: int) -> None: ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+parser: Any
+
+def classification_model(depth: Any, width: Any, input_length: int = ..., categories: int = ..., activation: str = ..., reduce_width: bool = ...): ...
+def train(args: Any) -> None: ...

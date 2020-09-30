@@ -1,0 +1,3 @@
+from typing import Any
+
+def make_batch_blocks(batch_size: Any, buffer_size: Any): ...

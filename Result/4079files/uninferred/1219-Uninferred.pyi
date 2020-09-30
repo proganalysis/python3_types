@@ -1,0 +1,6 @@
+import unittest
+from btclib.utils import point_from_octets as point_from_octets
+
+class TestEcdh(unittest.TestCase):
+    def test_ecdh(self) -> None: ...
+    def test_key_deployment(self) -> None: ...
