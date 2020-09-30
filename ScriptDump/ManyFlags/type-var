@@ -1,0 +1,3 @@
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:90: error: Value of type variable "_Number" of "mean" cannot be "object"  [type-var]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:94: error: Value of type variable "_Number" of "median" cannot be "object"  [type-var]
+(ento)elm-doc/src/elm_doc/elm_project.py:278: error: Value of type variable "AnyStr" of "fnmatch" cannot be "object"  [type-var]

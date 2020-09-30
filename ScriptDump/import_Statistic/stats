@@ -1,0 +1,4 @@
+Total repos = 2678
+Total files = 172842, # files with ast.parse error = 6685 (there should be a better way to gather imports without error)
+By files: Number of files that import these packages
+By repo: Number of repos that import these packages in at least 1 file

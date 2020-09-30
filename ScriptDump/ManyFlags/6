@@ -1,0 +1,980 @@
+[RRepo](semanticbits)survey_stats
+(semanticbits)survey_stats/src/survey_stats/etl/spss.py:24: error: Type signature has too few arguments  [syntax]
+(semanticbits)survey_stats/src/survey_stats/etl/load.py: error: Duplicate module named 'load' (also at '/home/bew/archive/typed_project/(semanticbits)survey_stats/src/survey_stats/load.py')  [misc]
+(semanticbits)survey_stats/src/survey_stats/etl/load.py: error: Are you missing an __init__.py?  [misc]
+Found 3 errors in 2 files (checked 23 source files)
+
+[RRepo](TheEnigmaBlade)holo
+(TheEnigmaBlade)holo/src/services/info/anilist.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](pachev)gsbot
+(pachev)gsbot/models/character.py:8: error: Name 'Document' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:30: error: Name 'StringField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:31: error: Name 'StringField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:32: error: Name 'StringField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:33: error: Name 'StringField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:34: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:35: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:36: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:37: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:38: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:39: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:40: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:41: error: Name 'DateTimeField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:42: error: Name 'FloatField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:43: error: Name 'URLField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:44: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:45: error: Name 'BooleanField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:46: error: Name 'IntField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:47: error: Name 'ListField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:47: error: Name 'ReferenceField' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:52: error: Name 'queryset_manager' is not defined  [name-defined]
+(pachev)gsbot/models/character.py:57: error: Name 'queryset_manager' is not defined  [name-defined]
+
+[RRepo](feliphebueno)Rinzler
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:16: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:16: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:16: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:24: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:24: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:24: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:32: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:32: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:32: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:40: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:40: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:40: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:48: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:48: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:48: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:56: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:56: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:56: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:64: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:64: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:64: note: Suggestion: use object[...] instead of object(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:84: error: Invalid type comment or annotation  [valid-type]
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:84: note: Suggestion: use str[...] instead of str(...)
+(feliphebueno)Rinzler/rinzler/core/route_mapping.py:84: note: Suggestion: use dict[...] instead of dict(...)
+
+[RRepo](szeged)servo
+(szeged)servo/etc/memory_reports_over_time.py:72: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 1144 source files)
+
+[RRepo](olitheolix)azrael
+(olitheolix)azrael/demos/ship_boostercube.py:269: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/demos/ship_boostercube.py:269: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/pyazrael/wsclient.py:55: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/pyazrael/wsclient.py:55: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:198: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:198: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:199: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:199: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:200: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:200: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:201: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:201: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:202: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:202: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:203: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:203: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:204: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:204: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:205: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:205: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:206: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:206: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:207: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:207: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:209: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:209: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(olitheolix)azrael/azrael/test/test.py:210: error: Syntax error in type annotation  [syntax]
+(olitheolix)azrael/azrael/test/test.py:210: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+
+[RRepo](OFAI)hub-toolbox-python3
+(OFAI)hub-toolbox-python3/hub_toolbox/goodman_kruskal.py:314: error: Argument 1 to "len" has incompatible type "int"; expected "Sized"  [arg-type]
+(OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83: error: Cannot instantiate abstract class 'Logging' with abstract attributes 'error', 'message' and 'warning'  [abstract]
+(OFAI)hub-toolbox-python3/hub_toolbox/htlogging.py:83: error: Incompatible types in assignment (expression has type "Logging", variable has type "FileLogging")  [assignment]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:14: error: Module 'multiprocessing' has no attribute 'RawArray'; maybe "Array"?  [attr-defined]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:235: error: Name 'kth' is not defined  [name-defined]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:236: error: Name 'kth' is not defined  [name-defined]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:237: error: Name 'kth' is not defined  [name-defined]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:244: error: Name 'histograms' is not defined  [name-defined]
+(OFAI)hub-toolbox-python3/hub_toolbox/distances.py:247: error: Name 'histograms' is not defined  [name-defined]
+Found 9 errors in 3 files (checked 19 source files)
+
+[RRepo](kubeflow)pipelines
+(kubeflow)pipelines/samples/contrib/resnet-cmle/resnet_model/trainer/imagenet_input.py:26: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 250 source files)
+
+[RRepo](yousseb)meld
+(yousseb)meld/osx/conf.py: error: Duplicate module named 'conf' (also at '/home/bew/archive/typed_project/(yousseb)meld/meld/conf.py')  [misc]
+Found 1 error in 1 file (checked 57 source files)
+
+[RRepo](spark)device-updater
+(spark)device-updater/src/app.py:169: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](AMDmi3)repology
+(AMDmi3)repology/repology/packageproc.py: error: Duplicate module named 'packageproc' (also at '/home/bew/archive/typed_project/(AMDmi3)repology/repologyapp/packageproc.py')  [misc]
+Found 1 error in 1 file (checked 137 source files)
+
+[RRepo](facebookexperimental)eden
+(facebookexperimental)eden/eden/integration/stale_test.py:23: error: Invalid "type: ignore" comment  [syntax]
+Found 1 error in 1 file (checked 155 source files)
+
+[RRepo](project-lovelace)lovelace-engine
+(project-lovelace)lovelace-engine/engine/simple_lxd/simple_lxd.py:156: error: Cannot find replacement for positional format specifier 1  [str-format]
+(project-lovelace)lovelace-engine/engine/api.py:18: error: Module has no attribute "config"  [attr-defined]
+Found 2 errors in 2 files (checked 5 source files)
+
+[RRepo](BSI-CERT-Bund)cortex-analyzers
+(BSI-CERT-Bund)cortex-analyzers/analyzers/CIRCLPassiveSSL/circl_passivessl.py:38: error: "Sequence[str]" has no attribute "append"  [attr-defined]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:28: error: Value of type "Union[List[Any], bool]" is not indexable  [index]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:29: error: Value of type "Union[List[Any], bool]" is not indexable  [index]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:35: error: Argument 1 to "isfile" has incompatible type "Union[List[Any], bool]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/MISP/mispclient.py:36: error: Incompatible types in assignment (expression has type "Union[List[Any], bool]", variable has type "bool")  [assignment]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/GoogleSafebrowsing/safebrowsing.py:54: error: List item 0 has incompatible type "Dict[str, str]"; expected "str"  [list-item]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/GoogleSafebrowsing/safebrowsing.py:55: error: Incompatible types in assignment (expression has type "Dict[str, List[str]]", target has type "Dict[str, str]")  [assignment]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/Virusshare/download_hashes.py:22: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "CaseInsensitiveDict[str]")  [assignment]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/VMRay/vmrayclient.py:43: error: Argument 1 to "isfile" has incompatible type "Union[str, bool]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/VMRay/vmrayclient.py:50: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "CaseInsensitiveDict[str]")  [assignment]
+(BSI-CERT-Bund)cortex-analyzers/analyzers/VMRay/vmray.py:36: error: Need type annotation for 'result'  [var-annotated]
+Found 11 errors in 6 files (checked 20 source files)
+
+[RRepo](pipermerriam)ethereum-abi-utils
+(pipermerriam)ethereum-abi-utils/tests/test_abi/test_encode_abi.py:10: error: Relative import climbs too many namespaces  [misc]
+(pipermerriam)ethereum-abi-utils/tests/test_abi/test_encode_single.py:7: error: Relative import climbs too many namespaces  [misc]
+(pipermerriam)ethereum-abi-utils/tests/test_abi/test_decode_abi.py:13: error: Relative import climbs too many namespaces  [misc]
+(pipermerriam)ethereum-abi-utils/tests/test_abi/test_decode_single.py:7: error: Relative import climbs too many namespaces  [misc]
+(pipermerriam)ethereum-abi-utils/tests/common/unit.py:42: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(pipermerriam)ethereum-abi-utils/tests/common/unit.py:44: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+(pipermerriam)ethereum-abi-utils/tests/common/unit.py:47: error: Argument 1 to "rjust" of "str" has incompatible type "str"; expected "int"  [arg-type]
+(pipermerriam)ethereum-abi-utils/tests/common/unit.py:50: error: Argument 1 to "ljust" of "str" has incompatible type "str"; expected "int"  [arg-type]
+(pipermerriam)ethereum-abi-utils/tests/common/unit.py:52: error: Argument 1 to "rjust" of "str" has incompatible type "str"; expected "int"  [arg-type]
+Found 9 errors in 5 files (checked 31 source files)
+
+[RRepo](piannucci)blurt
+(piannucci)blurt/exploring_l_infinity.py:133: error: Missing parentheses in call to 'print'. Did you mean print('can increase SNR by %.4f dB' % change_SNR)?  [syntax]
+Found 1 error in 1 file (checked 56 source files)
+
+[RRepo](karolyi)forum-django
+(karolyi)forum-django/backend/forum/rating/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(karolyi)forum-django/backend/forum/event/models.py')  [misc]
+Found 1 error in 1 file (checked 44 source files)
+
+[RRepo](slott56)NMEA-Tools
+(slott56)NMEA-Tools/nmeatools/nmea_checksum.py:43: error: EOL while scanning string literal  [syntax]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](mas178)Fragments
+(mas178)Fragments/sample_blockchane/simplest/user.py:6: error: Name 'Network' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/network.py:17: error: Name 'Block' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/transaction.py:8: error: Name 'User' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/transaction.py:13: error: Name 'User' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/transaction.py:23: error: Name 'User' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/transaction.py:32: error: Name 'User' is not defined  [name-defined]
+(mas178)Fragments/sample_blockchane/simplest/verifier.py:29: error: Name 'Block' is not defined  [name-defined]
+Found 7 errors in 4 files (checked 10 source files)
+
+[RRepo](elarivie)BUILDME
+Success: no issues found in 1 source file
+
+[RRepo](gusutabopb)imongo
+(gusutabopb)imongo/imongo/kernel.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](kenkov)seq2seq
+(kenkov)seq2seq/util.py:31: error: Exception must be derived from BaseException  [misc]
+(kenkov)seq2seq/util.py:61: error: Not all arguments converted during string formatting  [str-format]
+(kenkov)seq2seq/util.py:66: error: Not all arguments converted during string formatting  [str-format]
+(kenkov)seq2seq/util.py:141: error: Incompatible return value type (got "List[List[Any]]", expected "List[str]")  [return-value]
+(kenkov)seq2seq/util.py:183: error: Incompatible return value type (got "List[Tuple[List[str], List[Any]]]", expected "Tuple[List[int], List[int]]")  [return-value]
+(kenkov)seq2seq/rnn.py:113: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(kenkov)seq2seq/rnn.py:113: note: Did you mean "List[...]"?
+(kenkov)seq2seq/relu_rnn.py:118: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(kenkov)seq2seq/relu_rnn.py:119: error: Value of type "None" is not indexable  [index]
+(kenkov)seq2seq/relu_rnn.py:141: error: Name 'Classifier' already defined on line 15  [no-redef]
+(kenkov)seq2seq/relu_rnn.py:152: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(kenkov)seq2seq/relu_rnn.py:152: note: Did you mean "List[...]"?
+Found 10 errors in 3 files (checked 4 source files)
+
+[RRepo](kyouko-taiga)stew
+(kyouko-taiga)stew/stew/translators/terms.py:4: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/simple.py:1: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/types/nat.py:1: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/types/nat.py:2: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/types/nat.py:3: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/types/nat.py:28: error: Method must have at least one argument  [misc]
+(kyouko-taiga)stew/stew/types/bool.py:1: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/types/bool.py:7: error: Method must have at least one argument  [misc]
+(kyouko-taiga)stew/stew/types/bool.py:10: error: Method must have at least one argument  [misc]
+(kyouko-taiga)stew/stew/translators/translator.py:7: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/translator.py:8: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/translator.py:9: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/translator.py:10: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/mocks.py:5: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/mocks.py:6: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/translators/mocks.py:7: error: Relative import climbs too many namespaces  [misc]
+(kyouko-taiga)stew/stew/core.py:370: error: "stmt" has no attribute "value"  [attr-defined]
+(kyouko-taiga)stew/tests/test_core.py:9: error: Method must have at least one argument  [misc]
+(kyouko-taiga)stew/tests/test_matching.py:11: error: Method must have at least one argument  [misc]
+Found 19 errors in 9 files (checked 16 source files)
+
+[RRepo](alvinwan)quupod
+(alvinwan)quupod/quupod/queue/logic.py: error: Duplicate module named 'logic' (also at '/home/bew/archive/typed_project/(alvinwan)quupod/quupod/public/logic.py')  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](ziyadedher)rpi-display-projects
+(ziyadedher)rpi-display-projects/controller.py:158: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(ziyadedher)rpi-display-projects/controller.py:158: note: Perhaps you need "Callable[...]" or a callback protocol?
+(ziyadedher)rpi-display-projects/writer.py:22: error: Incompatible default for argument "delay" (default has type "float", argument has type "int")  [assignment]
+Found 2 errors in 2 files (checked 3 source files)
+
+[RRepo](GoogleCloudPlatform)django-cloud-deploy
+(GoogleCloudPlatform)django-cloud-deploy/django_cloud_deploy/tests/lib/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(GoogleCloudPlatform)django-cloud-deploy/django_cloud_deploy/skeleton/utils.py')  [misc]
+(GoogleCloudPlatform)django-cloud-deploy/django_cloud_deploy/tests/lib/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 55 source files)
+
+[RRepo](linusg)rpi-backlight
+(linusg)rpi-backlight/rpi_backlight/__init__.py:38: error: Argument 1 to "Path" has incompatible type "Union[str, bytes, Path]"; expected "Union[str, _PathLike[str]]"  [arg-type]
+(linusg)rpi-backlight/rpi_backlight/__init__.py:68: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(linusg)rpi-backlight/rpi_backlight/__init__.py:108: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(linusg)rpi-backlight/rpi_backlight/__init__.py:141: error: Argument 1 to "_denormalize_brightness" of "Backlight" has incompatible type "float"; expected "int"  [arg-type]
+(linusg)rpi-backlight/rpi_backlight/__init__.py:145: error: Argument 1 to "_denormalize_brightness" of "Backlight" has incompatible type "float"; expected "int"  [arg-type]
+(linusg)rpi-backlight/tests/test_internals.py:22: error: "_set_value" of "Backlight" does not return a value  [func-returns-value]
+(linusg)rpi-backlight/tests/test_backlight.py:28: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(linusg)rpi-backlight/tests/test_backlight.py:52: error: Incompatible types in assignment (expression has type "str", variable has type "float")  [assignment]
+(linusg)rpi-backlight/tests/test_backlight.py:82: error: Incompatible types in assignment (expression has type "str", variable has type "bool")  [assignment]
+(linusg)rpi-backlight/tests/test_backlight.py:85: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(linusg)rpi-backlight/tests/test_backlight.py:97: error: Need type annotation for '_val'  [var-annotated]
+Found 11 errors in 3 files (checked 7 source files)
+
+[RRepo](snakeleon)YouCompleteMe-x64
+(snakeleon)YouCompleteMe-x64/third_party/ycmd/run_tests.py: error: Duplicate module named 'run_tests' (also at '/home/bew/archive/typed_project/(snakeleon)YouCompleteMe-x64/run_tests.py')  [misc]
+(snakeleon)YouCompleteMe-x64/third_party/ycmd/run_tests.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 457 source files)
+
+[RRepo](metamarcdw)nowallet
+(metamarcdw)nowallet/nowallet/__main__.py:58: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](sdementen)gnucash-utilities
+(sdementen)gnucash-utilities/tests/test_basic.py:8: error: Argument 1 to "__call__" of "_StreamWriter" has incompatible type "TextIO"; expected "IO[bytes]"  [arg-type]
+(sdementen)gnucash-utilities/tests/test_basic.py:10: error: Incompatible types in assignment (expression has type "TextIO", variable has type "StreamWriter")  [assignment]
+(sdementen)gnucash-utilities/scripts/gc_report.py:6: error: Module 'piecash_utilities' has no attribute 'update_config_user'  [attr-defined]
+(sdementen)gnucash-utilities/scripts/gc_report.py:6: error: Module 'piecash_utilities' has no attribute 'get_user_config_path'  [attr-defined]
+(sdementen)gnucash-utilities/scripts/gc_report_create.py:5: error: Module 'piecash_utilities' has no attribute 'generate_sample_report_html'  [attr-defined]
+(sdementen)gnucash-utilities/scripts/gc_report_create.py:6: error: Module 'piecash_utilities' has no attribute 'generate_sample_report_python'  [attr-defined]
+(sdementen)gnucash-utilities/scripts/gc_report_create.py:7: error: Module 'piecash_utilities' has no attribute 'get_user_config_path'  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:11: error: Module 'distutils.command.install_scripts' has no attribute 'install_scripts'  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:25: error: Incompatible types in assignment (expression has type "Callable[[Any, VarArg(Any), KwArg(Any)], Any]", variable has type overloaded function)  [assignment]
+(sdementen)gnucash-utilities/setup.py:275: error: Module has no attribute "package"; maybe "__package__"?  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:276: error: Module has no attribute "version"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:277: error: Module has no attribute "authors"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:278: error: Module has no attribute "emails"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:279: error: Module has no attribute "authors"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:280: error: Module has no attribute "emails"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:281: error: Module has no attribute "url"  [attr-defined]
+(sdementen)gnucash-utilities/setup.py:282: error: Module has no attribute "description"  [attr-defined]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:7: error: Module 'piecash_utilities.report' has no attribute 'RangeOption'  [attr-defined]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:7: error: Module 'piecash_utilities.report' has no attribute 'DateOption'  [attr-defined]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:7: error: Module 'piecash_utilities.report' has no attribute 'StringOption'  [attr-defined]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:7: error: Module 'piecash_utilities.report' has no attribute 'execute_report'  [attr-defined]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:10: error: Module not callable  [operator]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:18: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:18: note: Suggestion: use RangeOption[...] instead of RangeOption(...)
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:23: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:23: note: Suggestion: use StringOption[...] instead of StringOption(...)
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:28: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:28: note: Suggestion: use DateOption[...] instead of DateOption(...)
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:33: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/piecash_utilities/report/report_example.py:33: note: Suggestion: use RangeOption[...] instead of RangeOption(...)
+(sdementen)gnucash-utilities/report_example/report_simplest_book.py:3: error: Module 'piecash_utilities.report' has no attribute 'execute_report'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest_book.py:6: error: Module not callable  [operator]
+(sdementen)gnucash-utilities/report_example/report_simplest.py:1: error: Module 'piecash_utilities.report' has no attribute 'execute_report'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest.py:4: error: Module not callable  [operator]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:1: error: Module 'piecash_utilities.report' has no attribute 'RangeOption'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:1: error: Module 'piecash_utilities.report' has no attribute 'DateOption'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:1: error: Module 'piecash_utilities.report' has no attribute 'StringOption'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:1: error: Module 'piecash_utilities.report' has no attribute 'execute_report'  [attr-defined]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:4: error: Module not callable  [operator]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:12: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:12: note: Suggestion: use RangeOption[...] instead of RangeOption(...)
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:17: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:17: note: Suggestion: use StringOption[...] instead of StringOption(...)
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:22: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:22: note: Suggestion: use DateOption[...] instead of DateOption(...)
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:27: error: Invalid type comment or annotation  [valid-type]
+(sdementen)gnucash-utilities/report_example/report_simplest_parameters.py:27: note: Suggestion: use RangeOption[...] instead of RangeOption(...)
+Found 39 errors in 8 files (checked 12 source files)
+
+[RRepo](gvalkov)gnu-make-toolkit
+(gvalkov)gnu-make-toolkit/tests/make_runner.py:118: error: "CompletedProcess[Any]" has no attribute "vars"  [attr-defined]
+(gvalkov)gnu-make-toolkit/tests/make_runner.py:120: error: Incompatible return value type (got "CompletedProcess[Any]", expected "CompletedProcessWithVars")  [return-value]
+Found 2 errors in 1 file (checked 6 source files)
+
+[RRepo](OpenMineMods)OpenMineMods
+(OpenMineMods)OpenMineMods/Utils/Utils.py:9: error: Name 'QLayout' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:17: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:17: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:18: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:22: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:23: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:26: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:29: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:29: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:31: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:33: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:36: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:37: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:42: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/Utils/Utils.py:43: error: Name 'QFileDialog' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/DownloadDialogWrapper.py:51: error: Invalid type comment or annotation  [valid-type]
+(OpenMineMods)OpenMineMods/GUI/InitialSetupWrapper.py:20: error: Name 'QDialog' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/FileDialogWrapper.py:12: error: Name 'QDialog' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/FileDialogWrapper.py:17: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/FileDialogWrapper.py:26: error: Name 'QSpacerItem' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/FileDialogWrapper.py:26: error: Name 'QSizePolicy' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:24: error: Need type annotation for 'installed_mods' (hint: "installed_mods: List[<type>] = ...")  [var-annotated]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:27: error: Need type annotation for 'mod_widgets' (hint: "mod_widgets: List[<type>] = ...")  [var-annotated]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:29: error: Name 'QMainWindow' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:111: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:125: error: Name 'QSpacerItem' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/InstanceWindowWrapper.py:125: error: Name 'QSizePolicy' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/API/MultiMC.py:68: error: Value of type "object" is not indexable  [index]
+(OpenMineMods)OpenMineMods/API/MultiMC.py:72: error: Value of type "object" is not indexable  [index]
+(OpenMineMods)OpenMineMods/API/MultiMC.py:109: error: Need type annotation for 'mods' (hint: "mods: List[<type>] = ...")  [var-annotated]
+(OpenMineMods)OpenMineMods/API/MultiMC.py:114: error: Incompatible types in assignment (expression has type "object", variable has type "List[Any]")  [assignment]
+(OpenMineMods)OpenMineMods/API/MultiMC.py:117: error: Argument 1 to "groups" of "Match" has incompatible type "int"; expected "str"  [arg-type]
+(OpenMineMods)OpenMineMods/GUI/MainWindowWrapper.py:180: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/MainWindowWrapper.py:190: error: Name 'QSpacerItem' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/MainWindowWrapper.py:190: error: Name 'QSizePolicy' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/MainWindowWrapper.py:215: error: Name 'QMessageBox' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/MainWindowWrapper.py:273: error: Name 'QDialog' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/ExportDialogWrapper.py:35: error: Name 'QDialog' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/ExportDialogWrapper.py:43: error: Name 'QWidget' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/ExportDialogWrapper.py:53: error: Name 'QSpacerItem' is not defined  [name-defined]
+(OpenMineMods)OpenMineMods/GUI/ExportDialogWrapper.py:53: error: Name 'QSizePolicy' is not defined  [name-defined]
+Found 41 errors in 8 files (checked 18 source files)
+
+[RRepo](RudolfCardinal)pythonlib
+(RudolfCardinal)pythonlib/cardinal_pythonlib/django/reprfunc.py: error: Duplicate module named 'reprfunc' (also at '/home/bew/archive/typed_project/(RudolfCardinal)pythonlib/cardinal_pythonlib/reprfunc.py')  [misc]
+(RudolfCardinal)pythonlib/cardinal_pythonlib/django/reprfunc.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 92 source files)
+
+[RRepo](vk-brain)sketal
+(vk-brain)sketal/plugins/content/content_calculation/tests.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 62 source files)
+
+[RRepo](MarcoBuster)OrarioTreniBot
+(MarcoBuster)OrarioTreniBot/src/viaggiatreno/viaggiatreno.py:28: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](endreman0)Excalibot
+(endreman0)Excalibot/excalibot/__main__.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 32 source files)
+
+[RRepo](zhangxin20121923)QuanSim
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:33: error: Name 'DMif' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:37: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:38: error: Name 'X' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:39: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:40: error: Name 'CNOT' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:41: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:43: error: Name 'X' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/GroverLite.py:44: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:67: error: Name 'DMif' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:72: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:76: error: Name 'X' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:77: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:82: error: Name 'DMif' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:85: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:87: error: Name 'X' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/userCode/Grover.py:91: error: Name 'H' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/tools/interactCfg.py:98: error: Too few arguments for "writeErrorMsg"  [call-arg]
+(zhangxin20121923)QuanSim/tools/interactCfg.py:111: error: Too few arguments for "writeErrorMsg"  [call-arg]
+(zhangxin20121923)QuanSim/tools/interactCfg.py:113: error: Too few arguments for "writeErrorMsg"  [call-arg]
+(zhangxin20121923)QuanSim/tools/interactCfg.py:115: error: Too few arguments for "writeErrorMsg"  [call-arg]
+(zhangxin20121923)QuanSim/baseClass/Bit.py:39: error: Name '__add__' already defined on line 36  [no-redef]
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:14: error: Name 'get_curl_info' already defined (possibly by an import)  [no-redef]
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:134: error: Need type annotation for 'result'  [var-annotated]
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:349: error: Need type annotation for 'newMatrix' (hint: "newMatrix: List[<type>] = ...")  [var-annotated]
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:365: error: No overload variant of "__setitem__" of "list" matches argument types "int", "float"  [call-overload]
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:365: note: Possible overload variants:
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:365: note:     def __setitem__(self, int, int) -> None
+(zhangxin20121923)QuanSim/baseClass/Qubit.py:365: note:     def __setitem__(self, slice, Iterable[int]) -> None
+(zhangxin20121923)QuanSim/baseClass/baseGate.py:439: error: "Noise" has no attribute "get_curl_info"  [attr-defined]
+(zhangxin20121923)QuanSim/baseClass/baseGate.py:447: error: "Noise" has no attribute "get_curl_info"  [attr-defined]
+(zhangxin20121923)QuanSim/baseClass/Gate.py:120: error: Name 'singleGate' is not defined  [name-defined]
+(zhangxin20121923)QuanSim/baseClass/Gate.py:250: error: Name 'qtype' is not defined  [name-defined]
+Found 29 errors in 7 files (checked 17 source files)
+
+[RRepo](DeV1doR)ethereumd-proxy
+(DeV1doR)ethereumd-proxy/ethereumd/poller.py:165: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(DeV1doR)ethereumd-proxy/ethereumd/poller.py:165: note: Did you mean "List[...]"?
+
+[RRepo](cache-rules)grice
+(cache-rules)grice/grice/db_service.py:302: error: "QueryArguments" has no attribute "table_name"  [attr-defined]
+
+[RRepo](eyesee1)python-pinballmap
+Success: no issues found in 2 source files
+
+[RRepo](GPflow)GPflow
+(GPflow)GPflow/gpflow/session_manager.py:21: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 79 source files)
+
+[RRepo](EldarAliiev)python-edbo-connector
+(EldarAliiev)python-edbo-connector/edbo_connector/connector.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](baidu)Familia
+Success: no issues found in 7 source files
+
+[RRepo](christabor)MoAL
+(christabor)MoAL/MOAL/maths/combinatorics/basic.py: error: Duplicate module named 'basic' (also at '/home/bew/archive/typed_project/(christabor)MoAL/MOAL/maths/numbers/basic.py')  [misc]
+Found 1 error in 1 file (checked 205 source files)
+
+[RRepo](hynek)doc2dash
+(hynek)doc2dash/src/doc2dash/__main__.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](juanjux)neme
+(juanjux)neme/src/core/python/backend.py:51: error: Name 'List' is not defined  [name-defined]
+(juanjux)neme/src/core/python/backend.py:51: note: Did you forget to import it from "typing"? (Suggestion: "from typing import List")
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](KDD-OpenSource)fexum
+(KDD-OpenSource)fexum/features/serializers.py: error: Duplicate module named 'serializers' (also at '/home/bew/archive/typed_project/(KDD-OpenSource)fexum/users/serializers.py')  [misc]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](DamnWidget)anaconda_go
+(DamnWidget)anaconda_go/plugin/handlers_go/commands/callees.py: error: Duplicate module named 'callees' (also at '/home/bew/archive/typed_project/(DamnWidget)anaconda_go/commands/callees.py')  [misc]
+(DamnWidget)anaconda_go/plugin/handlers_go/commands/callees.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 64 source files)
+
+[RRepo](ruddy17)PlottiPy
+(ruddy17)PlottiPy/plottipy.py:20: error: Variable "plottipy.TemplateBaseClass" is not valid as a type  [valid-type]
+(ruddy17)PlottiPy/plottipy.py:20: error: Invalid base class "TemplateBaseClass"  [misc]
+(ruddy17)PlottiPy/plottipy.py:157: error: Need type annotation for 'check_availability_list' (hint: "check_availability_list: List[<type>] = ...")  [var-annotated]
+Found 3 errors in 1 file (checked 1 source file)
+
+[RRepo](HPENetworking)PYHPEIMC
+(HPENetworking)PYHPEIMC/archived/hppyimctest.py:5: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 61 source files)
+
+[RRepo](doconix)django-mako-plus
+(doconix)django-mako-plus/django_mako_plus/router/decorators.py: error: Duplicate module named 'decorators' (also at '/home/bew/archive/typed_project/(doconix)django-mako-plus/django_mako_plus/decorators.py')  [misc]
+(doconix)django-mako-plus/django_mako_plus/router/decorators.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 64 source files)
+
+[RRepo](ihmeuw)vivarium
+(ihmeuw)vivarium/src/vivarium/framework/utilities.py: error: Duplicate module named 'utilities' (also at '/home/bew/archive/typed_project/(ihmeuw)vivarium/src/vivarium/interface/utilities.py')  [misc]
+Found 1 error in 1 file (checked 46 source files)
+
+[RRepo](simonsfoundation)CaImAn
+(simonsfoundation)CaImAn/use_cases/eLife_scripts/train_cnns/prepare_training_set.py:83: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 63 source files)
+
+[RRepo](frafra)is-osm-uptodate
+(frafra)is-osm-uptodate/is-osm-uptodate.py:182: error: Need type annotation for 'responses' (hint: "responses: List[<type>] = ...")  [var-annotated]
+(frafra)is-osm-uptodate/is-osm-uptodate.py:211: error: "Type[datetime]" has no attribute "fromisoformat"  [attr-defined]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](jrkerns)pylinac
+(jrkerns)pylinac/pylinac/core/pdf.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 40 source files)
+
+[RRepo](vcarceler)glaza
+(vcarceler)glaza/rest/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(vcarceler)glaza/ui/views.py')  [misc]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](wemake-services)wemake-django-template
+Success: no issues found in 9 source files
+
+[RRepo](rbcarson)councillor-party
+(rbcarson)councillor-party/common.py:154: error: Need type annotation for 'grouped'  [var-annotated]
+(rbcarson)councillor-party/insinc.py:193: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")  [assignment]
+(rbcarson)councillor-party/insinc.py:193: note: 'list' is missing following 'Iterator' protocol member:
+(rbcarson)councillor-party/insinc.py:193: note:     __next__
+(rbcarson)councillor-party/insinc.py:197: error: Value of type "Iterator[Any]" is not indexable  [index]
+(rbcarson)councillor-party/insinc.py:198: error: Value of type "Iterator[Any]" is not indexable  [index]
+(rbcarson)councillor-party/insinc.py:199: error: Value of type "Iterator[Any]" is not indexable  [index]
+(rbcarson)councillor-party/granicus.py:67: error: Need type annotation for 'seen_dates' (hint: "seen_dates: Set[<type>] = ...")  [var-annotated]
+Found 6 errors in 3 files (checked 13 source files)
+
+[RRepo](ItsLastDay)academic_university_2016-2018
+(ItsLastDay)academic_university_2016-2018/subjects/SoftwareDesign/au-software_design-2017/roguelike/src/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(ItsLastDay)academic_university_2016-2018/subjects/SoftwareDesign/au-software_design-2017/chat/src/main.py')  [misc]
+Found 1 error in 1 file (checked 128 source files)
+
+[RRepo](Remper)sociallink
+(Remper)sociallink/align-train/evaluation/common.py: error: Duplicate module named 'common' (also at '/home/bew/archive/typed_project/(Remper)sociallink/align-train/utils/common.py')  [misc]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](REGOVAR)Regovar
+(REGOVAR)Regovar/regovar/core/managers/imports/ped.py:27: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 75 source files)
+
+[RRepo](martinpilat)dag-evaluate
+(martinpilat)dag-evaluate/method_params.py:114: error: Too many arguments for "create_param_set"  [call-arg]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](shmuelamar)cbox
+(shmuelamar)cbox/cbox/streams.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](jaywink)the-federation.info
+(jaywink)the-federation.info/thefederation/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(jaywink)the-federation.info/thefederation/utils.py')  [misc]
+(jaywink)the-federation.info/thefederation/tests/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 21 source files)
+
+[RRepo](zsck)result_py
+Success: no issues found in 2 source files
+
+[RRepo](MU94W)TFCommon
+Success: no issues found in 10 source files
+
+[RRepo](stefanocasazza)FrameworkBenchmarks
+(stefanocasazza)FrameworkBenchmarks/frameworks/Python/cherrypy/app.py: error: Duplicate module named 'app' (also at '/home/bew/archive/typed_project/(stefanocasazza)FrameworkBenchmarks/frameworks/Python/morepath/app/app.py')  [misc]
+(stefanocasazza)FrameworkBenchmarks/frameworks/Python/cherrypy/app.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 92 source files)
+
+[RRepo](lukemerrett)Workflowy-Automation
+Success: no issues found in 1 source file
+
+[RRepo](pauloalves86)go_dino
+(pauloalves86)go_dino/dino_api.py:44: error: Argument 4 to "compute_speed" of "Board" has incompatible type "List[int]"; expected "List[float]"  [arg-type]
+(pauloalves86)go_dino/dino_api.py:44: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(pauloalves86)go_dino/dino_api.py:44: note: Consider using "Sequence" instead, which is covariant
+(pauloalves86)go_dino/dino_api.py:93: error: Syntax error in type annotation  [syntax]
+(pauloalves86)go_dino/dino_api.py:93: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](tschijnmo)drudge
+(tschijnmo)drudge/tests/bogoliubov_test.py:25: error: Need type annotation for 'orders' (hint: "orders: Dict[<type>, <type>] = ...")  [var-annotated]
+(tschijnmo)drudge/tests/bogoliubov_test.py:28: error: Need type annotation for 'an_indices' (hint: "an_indices: List[<type>] = ...")  [var-annotated]
+(tschijnmo)drudge/drudge/drs.py:269: error: "expr" has no attribute "ctx"  [attr-defined]
+(tschijnmo)drudge/drudge/genquad.py:146: error: Need type annotation for 'comm_terms' (hint: "comm_terms: List[<type>] = ...")  [var-annotated]
+(tschijnmo)drudge/drudge/report.py:39: error: Need type annotation for '_sects' (hint: "_sects: List[<type>] = ...")  [var-annotated]
+Found 5 errors in 4 files (checked 28 source files)
+
+[RRepo](Rhilip)Pt-Autoseed
+(Rhilip)Pt-Autoseed/utils/cookie.py:15: error: Need type annotation for 'cookie'  [var-annotated]
+
+[RRepo](autokey)autokey
+(autokey)autokey/lib/autokey/qtapp.py:19: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 42 source files)
+
+[RRepo](grycap)scar
+(grycap)scar/test/functional/aws.py: error: Duplicate module named 'aws' (also at '/home/bew/archive/typed_project/(grycap)scar/scar/providers/aws/__init__.py')  [misc]
+(grycap)scar/test/functional/aws.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 32 source files)
+
+[RRepo](lucasoldaini)python3-utils
+(lucasoldaini)python3-utils/features.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](jfear)sramongo
+(jfear)sramongo/sramongo/parsers_bioproject_xml.py:22: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_bioproject_xml.py:30: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_biosample_xml.py:62: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_biosample_xml.py:70: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_pubmed_xml.py:80: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_pubmed_xml.py:88: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_sra_xml.py:161: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/parsers_sra_xml.py:169: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/services/entrez.py:74: error: Return value expected  [return-value]
+(jfear)sramongo/sramongo/services/entrez.py:162: error: Return value expected  [return-value]
+(jfear)sramongo/sramongo/services/entrez.py:174: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/services/entrez.py:223: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfear)sramongo/sramongo/services/entrez.py:358: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 13 errors in 5 files (checked 16 source files)
+
+[RRepo](jdunkerley)AlteryxAddIns
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:50: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:56: error: Incompatible types in assignment (expression has type "object", variable has type "bool")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:70: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:73: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:76: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:79: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:84: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:85: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:88: error: Incompatible types in assignment (expression has type "List[str]", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:91: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:92: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:96: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:97: error: Unsupported left operand type for + ("None")  [operator]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:98: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:99: error: "object" has no attribute "output_message"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:102: error: "object" has no attribute "get_output_anchor"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:112: error: "object" has no attribute "pre_sort"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:113: error: Incompatible types in assignment (expression has type "IncomingInterface", variable has type "None")  [assignment]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:138: error: "None" has no attribute "assert_close"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:175: error: "object" has no attribute "is_initialized"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:179: error: "object" has no attribute "clone"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:180: error: "object" has no attribute "output_field_size"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:181: error: "object" has no attribute "output_field"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:181: error: "object" has no attribute "output_field_name"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:181: error: "object" has no attribute "output_field_type"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:181: error: "object" has no attribute "output_field_size"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:183: error: "object" has no attribute "output_field"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:183: error: "object" has no attribute "output_field_name"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:183: error: "object" has no attribute "output_field_type"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:184: error: "object" has no attribute "output_anchor"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:191: error: "object" has no attribute "num_fields"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:192: error: "None" has no attribute "add"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:193: error: "None" has no attribute "done_adding"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:196: error: "object" has no attribute "grouping_fields_objects"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:197: error: "object" has no attribute "grouping_fields"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:199: error: "object" has no attribute "get_field_by_name"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:200: error: "object" has no attribute "grouping_fields_objects"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:200: error: "object" has no attribute "get_field_by_name"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:202: error: "IncomingInterface" has no attribute "alteryx_engine"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:202: error: "IncomingInterface" has no attribute "n_tool_id"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:214: error: "object" has no attribute "is_initialized"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:218: error: "None" has no attribute "reset"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:219: error: "None" has no attribute "copy"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:222: error: "object" has no attribute "grouping_fields_objects"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:224: error: "object" has no attribute "grouping_fields_objects"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:231: error: "object" has no attribute "current_group"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:232: error: "object" has no attribute "current_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:234: error: "object" has no attribute "current_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:234: error: "object" has no attribute "starting_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:235: error: "object" has no attribute "current_group"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:237: error: "object" has no attribute "current_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:240: error: "object" has no attribute "output_field_type"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:241: error: "object" has no attribute "output_field"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:241: error: "object" has no attribute "current_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:241: error: "object" has no attribute "output_field_size"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:243: error: "object" has no attribute "output_field"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:243: error: "object" has no attribute "current_value"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:245: error: "None" has no attribute "finalize_record"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:248: error: "object" has no attribute "output_anchor"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:258: error: "object" has no attribute "alteryx_engine"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:258: error: "object" has no attribute "n_tool_id"  [attr-defined]
+(jdunkerley)AlteryxAddIns/OmniBus.GroupedRecordID/OmniBus.GroupedRecordID.py:259: error: "object" has no attribute "output_anchor"  [attr-defined]
+Found 62 errors in 1 file (checked 1 source file)
+
+[RRepo](KawashiroNitori)Anubis
+(KawashiroNitori)Anubis/anubis/model/record.py: error: Duplicate module named 'record' (also at '/home/bew/archive/typed_project/(KawashiroNitori)Anubis/anubis/job/record.py')  [misc]
+Found 1 error in 1 file (checked 55 source files)
+
+[RRepo](snapcore)snapcraft
+(snapcore)snapcraft/snapcraft/internal/project_loader/grammar/_on.py:23: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 430 source files)
+
+[RRepo](pckv)pcbot
+(pckv)pcbot/plugins/twitchlib/twitch.py: error: Duplicate module named 'twitch' (also at '/home/bew/archive/typed_project/(pckv)pcbot/plugins/twitch.py')  [misc]
+(pckv)pcbot/plugins/twitchlib/twitch.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 22 source files)
+
+[RRepo](mischnic)python-ci
+(mischnic)python-ci/server/src/compile.py:65: error: Unsupported target for indexed assignment  [index]
+(mischnic)python-ci/server/src/compile.py:68: error: Unsupported target for indexed assignment  [index]
+(mischnic)python-ci/server/src/compile.py:219: error: Need type annotation for 'q'  [var-annotated]
+Found 3 errors in 1 file (checked 6 source files)
+
+[RRepo](sim0nx)python-openhab
+Success: no issues found in 3 source files
+
+[RRepo](paulbodean88)automation-design-patterns
+(paulbodean88)automation-design-patterns/tests/builder/test_template.py: error: Duplicate module named 'test_template' (also at '/home/bew/archive/typed_project/(paulbodean88)automation-design-patterns/src/page_object_pattern/test_template.py')  [misc]
+Found 1 error in 1 file (checked 32 source files)
+
+[RRepo](minus7)asif
+Success: no issues found in 4 source files
+
+[RRepo](ebsuku)python3-qoqa
+(ebsuku)python3-qoqa/libqoqa/qoqa.py:9: error: No parent module -- cannot perform relative import  [misc]
+(ebsuku)python3-qoqa/libqoqa/qoqa.py:10: error: No parent module -- cannot perform relative import  [misc]
+(ebsuku)python3-qoqa/libqoqa/qoqa.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 4 source files)
+
+[RRepo](Naught0)qtbot
+(Naught0)qtbot/cogs/league.py: error: Duplicate module named 'league' (also at '/home/bew/archive/typed_project/(Naught0)qtbot/utils/league.py')  [misc]
+Found 1 error in 1 file (checked 41 source files)
+
+[RRepo](olivierfriard)BORIS
+(olivierfriard)BORIS/src/subjects_pad.py:34: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:36: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:37: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:37: error: Name 'QEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:38: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:38: error: Name 'QRect' is not defined  [name-defined]
+(olivierfriard)BORIS/src/subjects_pad.py:100: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/observations_list.py:43: error: Name 'QTableWidgetItem' is not defined  [name-defined]
+(olivierfriard)BORIS/src/observations_list.py:53: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:34: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:36: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:37: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:37: error: Name 'QEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:38: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:38: error: Name 'QRect' is not defined  [name-defined]
+(olivierfriard)BORIS/src/coding_pad.py:118: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/plot_waveform_rt.py:38: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/plot_spectrogram_rt.py:35: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:52: error: Name 'TEXT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:54: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:55: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:56: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:57: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:60: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:61: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:62: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:73: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:73: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:73: error: Name 'MEDIA' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:74: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:74: error: Name 'FILE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:75: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:75: error: Name 'FILE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:76: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:76: error: Name 'FILE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:84: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:84: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:84: error: Name 'LIVE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:85: error: Name 'LIVE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:89: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:89: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:91: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:91: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:92: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:92: error: Name 'INDEPENDENT_VARIABLES' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:108: error: Name 'OPEN' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:109: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:112: error: Name 'VIEW' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:113: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:117: error: Name 'EDIT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:118: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:121: error: Name 'SINGLE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:122: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:127: error: Name 'MULTIPLE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:128: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:133: error: Name 'SELECT1' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:134: error: Name 'QAbstractItemView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:139: error: Name 'Qt' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:158: error: Name 'OPEN' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:160: error: Name 'EDIT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_observations.py:162: error: Name 'VIEW' is not defined  [name-defined]
+(olivierfriard)BORIS/src/param_panel.py:38: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/param_panel.py:58: error: Name 'TIME_FULL_OBS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/param_panel.py:59: error: Name 'TIME_EVENTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/param_panel.py:60: error: Name 'TIME_ARBITRARY_INTERVAL' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:14: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:16: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:109: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:111: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:129: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/duration_widget.py:222: error: Name 'QApplication' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:37: error: Name 'Qt' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:40: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:42: error: Name 'QGraphicsView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:44: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:44: error: Name 'QMouseEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:45: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:45: error: Name 'QMouseEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:66: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:67: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:67: error: Name 'QEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:68: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/behaviors_coding_map.py:192: error: Name 'QApplication' is not defined  [name-defined]
+(olivierfriard)BORIS/src/time_budget_widget.py:41: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/select_modifiers.py:34: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:36: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:38: error: Name 'QGraphicsView' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:40: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:40: error: Name 'QMouseEvent' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:163: error: Name 'QApplication' is not defined  [name-defined]
+(olivierfriard)BORIS/src/modifiers_coding_map.py:167: error: Name 'codingMapWindowClass' is not defined  [name-defined]
+(olivierfriard)BORIS/src/irr.py:128: error: Need type annotation for 'total_states' (hint: "total_states: List[<type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/irr.py:143: error: Unsupported operand types for + ("Decimal" and "float")  [operator]
+(olivierfriard)BORIS/src/irr.py:151: error: Need type annotation for 'seq1' (hint: "seq1: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/irr.py:152: error: Need type annotation for 'seq2' (hint: "seq2: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/irr.py:173: error: Unsupported operand types for + ("Decimal" and "float")  [operator]
+(olivierfriard)BORIS/src/irr.py:214: error: Name 'nan' is not defined  [name-defined]
+(olivierfriard)BORIS/src/measurement_widget.py:34: error: Name 'QWidget' is not defined  [name-defined]
+(olivierfriard)BORIS/src/measurement_widget.py:38: error: Name 'pyqtSignal' is not defined  [name-defined]
+(olivierfriard)BORIS/src/measurement_widget.py:146: error: Name 'QApplication' is not defined  [name-defined]
+(olivierfriard)BORIS/src/preferences.py:37: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/otx_parser.py:88: error: Need type annotation for 'modifiers' (hint: "modifiers: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/otx_parser.py:89: error: Need type annotation for 'modifiers_set' (hint: "modifiers_set: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/otx_parser.py:134: error: Need type annotation for 'behaviors' (hint: "behaviors: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/otx_parser.py:215: error: Need type annotation for 'subjects' (hint: "subjects: Dict[<type>, <type>] = ...")  [var-annotated]
+(olivierfriard)BORIS/src/edit_event.py:39: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/edit_event.py:80: error: Name 'QDialog' is not defined  [name-defined]
+(olivierfriard)BORIS/src/edit_event.py:165: error: Name 'QApplication' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:37: error: Name 'TIME_FULL_OBS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:55: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:55: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:56: error: Name 'STATE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:56: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:56: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:57: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:57: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:60: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:60: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:61: error: Name 'POINT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:61: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:61: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:62: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:62: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:85: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:85: error: Name 'EVENTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:87: error: Name 'EVENT_BEHAVIOR_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:90: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:90: error: Name 'EVENT_SUBJECT_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:91: error: Name 'EVENT_SUBJECT_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:97: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:97: error: Name 'EVENT_SUBJECT_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:98: error: Name 'EVENT_BEHAVIOR_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:99: error: Name 'STATE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:99: error: Name 'EVENT_BEHAVIOR_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:99: error: Name 'POINT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:100: error: Name 'EVENT_MODIFIER_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:101: error: Name 'EVENT_TIME_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:102: error: Name 'EVENT_COMMENT_FIELD_IDX' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:133: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:137: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:137: error: Name 'SUBJECT_NAME' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:137: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:141: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:141: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:146: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:147: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:148: error: Name 'HHMMSS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:155: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:155: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:156: error: Name 'STATE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:156: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:156: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:157: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:157: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:160: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:160: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:161: error: Name 'POINT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:161: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:161: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:162: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:162: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:212: error: Name 'POINT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/db_functions.py:220: error: Name 'STATE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:144: error: Name 'PROJECT_NAME' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:145: error: Name 'PROJECT_DATE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:146: error: Name 'PROJECT_DESCRIPTION' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:151: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:152: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:153: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:153: error: Name 'BEHAVIOR_CODE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:154: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:155: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:155: error: Name 'TYPE' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:161: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:162: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:163: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:167: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:169: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:170: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:175: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:175: error: Name 'EVENTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:177: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:177: error: Name 'EVENTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:204: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:204: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:204: error: Name 'HHMMSS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:212: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Dict[Any, Any]")  [assignment]
+(olivierfriard)BORIS/src/boris_cli.py:212: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:215: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:216: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:216: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:226: error: Name 'OBSERVATIONS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:227: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:241: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:242: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:242: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:246: error: Argument 3 to "load_aggregated_events_in_db" has incompatible type "Dict[Any, Any]"; expected "List[Any]"  [arg-type]
+(olivierfriard)BORIS/src/boris_cli.py:281: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:282: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:282: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:302: error: Name 'HHMMSS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:316: error: Name 'ETHOGRAM' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:317: error: Name 'SUBJECTS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:317: error: Name 'NO_FOCAL_SUBJECT' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:345: error: Name 'TIME_FULL_OBS' is not defined  [name-defined]
+(olivierfriard)BORIS/src/boris_cli.py:347: error: Name 'BEHAVIORS_PLOT_COLORS' is not defined  [name-defined]
+Found 206 errors in 19 files (checked 34 source files)
+
+[RRepo](fuomag9)ChaturbateBot
+(fuomag9)ChaturbateBot/modules/Preferences.py:49: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(fuomag9)ChaturbateBot/modules/Preferences.py:51: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(fuomag9)ChaturbateBot/modules/Preferences.py:81: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+(fuomag9)ChaturbateBot/modules/Preferences.py:83: error: Incompatible types in assignment (expression has type "int", variable has type "bool")  [assignment]
+Found 4 errors in 1 file (checked 3 source files)
+
+[RRepo](ARM-software)lisa
+(ARM-software)lisa/lisa/tests/scheduler/sanity.py: error: Duplicate module named 'sanity' (also at '/home/bew/archive/typed_project/(ARM-software)lisa/lisa/tests/cpufreq/sanity.py')  [misc]
+Found 1 error in 1 file (checked 127 source files)
+
+[RRepo](dmwyatt)disney.api
+(dmwyatt)disney.api/pages/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(dmwyatt)disney.api/helpers.py')  [misc]
+(dmwyatt)disney.api/pages/helpers.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 11 source files)
+
+[RRepo](OpenGenus)cosmos
+(OpenGenus)cosmos/code/string_algorithms/src/palindrome_checker/palindrome.py: error: Duplicate module named 'palindrome' (also at '/home/bew/archive/typed_project/(OpenGenus)cosmos/code/utility/src/palindrome/palindrome_check/palindrome.py')  [misc]
+(OpenGenus)cosmos/code/string_algorithms/src/palindrome_checker/palindrome.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 320 source files)
+
+[RRepo](underdogio)typeform
+(underdogio)typeform/typeform/client.py:20: error: Function "builtins.any" is not valid as a type  [valid-type]
+(underdogio)typeform/typeform/client.py:20: note: Perhaps you need "Callable[...]" or a callback protocol?
+(underdogio)typeform/typeform/client.py:26: error: any? has no attribute "keys"  [attr-defined]
+(underdogio)typeform/typeform/forms.py:18: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+(underdogio)typeform/typeform/forms.py:25: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "str")  [return-value]
+(underdogio)typeform/typeform/forms.py:29: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+(underdogio)typeform/typeform/forms.py:36: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+(underdogio)typeform/typeform/forms.py:43: error: Function "builtins.any" is not valid as a type  [valid-type]
+(underdogio)typeform/typeform/forms.py:43: note: Perhaps you need "Callable[...]" or a callback protocol?
+(underdogio)typeform/typeform/forms.py:64: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+(underdogio)typeform/typeform/forms.py:72: error: Incompatible return value type (got "Union[str, Dict[Any, Any]]", expected "str")  [return-value]
+Found 9 errors in 2 files (checked 7 source files)
+
+[RRepo](Princeton-CDH)derrida-django
+(Princeton-CDH)derrida-django/derrida/people/tests.py: error: Duplicate module named 'tests' (also at '/home/bew/archive/typed_project/(Princeton-CDH)derrida-django/derrida/places/tests.py')  [misc]
+Found 1 error in 1 file (checked 49 source files)
+
+[RRepo](intellij-rust)intellij-rust.github.io
+Success: no issues found in 1 source file
+
+[RRepo](nachoaguadoc)aimlx-demos
+(nachoaguadoc)aimlx-demos/grocery/grocery_controller.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](Nitrokey)nitrokey-start-firmware
+(Nitrokey)nitrokey-start-firmware/tool/pageant_proxy_to_gpg.py:31: error: Missing parentheses in call to 'print'. Did you mean print("DEBUG: %s" % string)?  [syntax]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](sped-br)python-sped
+(sped-br)python-sped/sped/ecd/blocos.py: error: Duplicate module named 'blocos' (also at '/home/bew/archive/typed_project/(sped-br)python-sped/sped/blocos.py')  [misc]
+(sped-br)python-sped/sped/ecd/blocos.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 22 source files)
+
+[RRepo](pybel)pybel
+(pybel)pybel/src/pybel/parser/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(pybel)pybel/src/pybel/utils.py')  [misc]
+(pybel)pybel/src/pybel/parser/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 124 source files)
+
+[RRepo](thismachinechills)save_skype
+(thismachinechills)save_skype/save_skype/extract.py:80: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(thismachinechills)save_skype/save_skype/extract.py:87: error: List or tuple literal expected as the second argument to namedtuple()  [misc]
+(thismachinechills)save_skype/save_skype/extract.py:96: error: Need type annotation for 'skype_map'  [var-annotated]
+(thismachinechills)save_skype/save_skype/extract.py:104: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 4 errors in 1 file (checked 2 source files)
+
+[RRepo](bggardner)canopen-rpi
+(bggardner)canopen-rpi/socketcanopen/messages.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](wasp)waspy
+(wasp)waspy/waspy/app.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 26 source files)
+

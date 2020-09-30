@@ -1,0 +1,2 @@
+to run annotation_distribution:
+python3 annotation_distributuion.py type_repos.txt

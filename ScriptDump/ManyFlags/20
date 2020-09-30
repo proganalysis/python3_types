@@ -1,0 +1,1038 @@
+[RRepo](efenka)dropbox-paper-backup
+(efenka)dropbox-paper-backup/dropbox-paper-backup.py:165: error: Need type annotation for 'cache' (hint: "cache: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](firebase)firebase-android-sdk
+(firebase)firebase-android-sdk/ci/fireci/fireci/commands.py:20: error: No parent module -- cannot perform relative import  [misc]
+(firebase)firebase-android-sdk/ci/fireci/fireci/commands.py:21: error: No parent module -- cannot perform relative import  [misc]
+(firebase)firebase-android-sdk/ci/fireci/fireci/commands.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 14 source files)
+
+[RRepo](jonathanslenders)python-prompt-toolkit
+(jonathanslenders)python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/validation.py: error: Duplicate module named 'validation' (also at '/home/bew/archive/typed_project/(jonathanslenders)python-prompt-toolkit/prompt_toolkit/validation.py')  [misc]
+(jonathanslenders)python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/validation.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 200 source files)
+
+[RRepo](BigBrotherTrade)trader
+(BigBrotherTrade)trader/panel/models.py:43: error: Name 'AddressType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:44: error: Name 'OperatorType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:56: error: Name 'ContractType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:109: error: "Callable[[Strategy], Any]" has no attribute "short_description"  [attr-defined]
+(BigBrotherTrade)trader/panel/models.py:110: error: "Callable[[Strategy], Any]" has no attribute "allow_tags"  [attr-defined]
+(BigBrotherTrade)trader/panel/models.py:114: error: "Callable[[Strategy], Any]" has no attribute "short_description"  [attr-defined]
+(BigBrotherTrade)trader/panel/models.py:115: error: "Callable[[Strategy], Any]" has no attribute "allow_tags"  [attr-defined]
+(BigBrotherTrade)trader/panel/models.py:137: error: Name 'ExchangeType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:138: error: Name 'SectionType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:167: error: Name 'SignalType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:172: error: Name 'PriorityType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:184: error: Name 'ExchangeType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:206: error: Name 'ExchangeType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:236: error: Name 'DirectionType' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:237: error: Name 'OffsetFlag' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:238: error: Name 'OrderStatus' is not defined  [name-defined]
+(BigBrotherTrade)trader/panel/models.py:259: error: Name 'DirectionType' is not defined  [name-defined]
+(BigBrotherTrade)trader/test/test_api.py:25: error: Name 'json' already defined (by an import)  [no-redef]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:40: error: Name 'config' is not defined  [name-defined]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:41: error: Name 'config' is not defined  [name-defined]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:42: error: Name 'config' is not defined  [name-defined]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:44: error: Name 'config' is not defined  [name-defined]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:45: error: Name 'config' is not defined  [name-defined]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:47: error: Need type annotation for 'sub_tasks' (hint: "sub_tasks: List[<type>] = ...")  [var-annotated]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:48: error: Need type annotation for 'sub_channels' (hint: "sub_channels: List[<type>] = ...")  [var-annotated]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:49: error: Need type annotation for 'channel_router' (hint: "channel_router: Dict[<type>, <type>] = ...")  [var-annotated]
+(BigBrotherTrade)trader/trader/strategy/__init__.py:50: error: Need type annotation for 'crontab_router'  [var-annotated]
+Found 27 errors in 3 files (checked 8 source files)
+
+[RRepo](unicef)un-partner-portal
+(unicef)un-partner-portal/backend/unpp_api/apps/notification/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(unicef)un-partner-portal/backend/unpp_api/apps/account/models.py')  [misc]
+Found 1 error in 1 file (checked 113 source files)
+
+[RRepo](Khrisbie)blender-woodworking
+(Khrisbie)blender-woodworking/woodwork/__init__.py:16: error: Not enough arguments for format string  [str-format]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:20: error: Cannot resolve name "mortise" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:22: error: Cannot resolve name "tenon" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:25: error: Cannot resolve name "piece_properties" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:26: error: Cannot resolve name "piece" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:32: error: Cannot resolve name "translations" (possible cyclic definition)  [misc]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:35: error: Not enough arguments for format string  [str-format]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:38: error: Module 'woodwork' has no attribute 'mortise'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:40: error: Module 'woodwork' has no attribute 'tenon'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:43: error: Module 'woodwork' has no attribute 'piece_properties'; maybe "mortise_properties"?  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:44: error: Module 'woodwork' has no attribute 'piece'  [attr-defined]
+(Khrisbie)blender-woodworking/woodwork/__init__.py:50: error: Module 'woodwork' has no attribute 'translations'  [attr-defined]
+Found 12 errors in 1 file (checked 9 source files)
+
+[RRepo](galactics)beyond
+(galactics)beyond/beyond/frames/frames.py:51: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 47 source files)
+
+[RRepo](Admicos)DiscordBot
+(Admicos)DiscordBot/bot/cleverbot/cleverbot.py: error: Duplicate module named 'cleverbot' (also at '/home/bew/archive/typed_project/(Admicos)DiscordBot/bot/commands/cleverbot.py')  [misc]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](dcos)dcos-launch
+(dcos)dcos-launch/dcos_launch/terraform.py:238: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(dcos)dcos-launch/dcos_launch/util.py:127: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:134: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:142: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/util.py:170: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(dcos)dcos-launch/dcos_launch/util.py:171: error: "AbstractLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/gcp.py:8: error: Module 'dcos_launch.platforms' has no attribute 'gcp'  [attr-defined]
+(dcos)dcos-launch/dcos_launch/gcp.py:87: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(dcos)dcos-launch/dcos_launch/gcp.py:87: note: Did you mean "List[...]"?
+(dcos)dcos-launch/dcos_launch/onprem.py:52: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:75: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:85: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:113: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+(dcos)dcos-launch/dcos_launch/onprem.py:141: error: "AbstractOnpremLauncher" has no attribute "config"  [attr-defined]
+Found 13 errors in 4 files (checked 15 source files)
+
+[RRepo](raphaelm)django-i18nfield
+(raphaelm)django-i18nfield/tests/testapp/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(raphaelm)django-i18nfield/demoproject/bookshelf/models.py')  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](BigBorg)Blog
+(BigBorg)Blog/Blog/accounts/api/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(BigBorg)Blog/Blog/accounts/views.py')  [misc]
+(BigBorg)Blog/Blog/accounts/api/views.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 18 source files)
+
+[RRepo](unosviluppatore)antlr-mega-tutorial
+(unosviluppatore)antlr-mega-tutorial/antlr-python/ChatErrorListener.py:8: error: Name 'ErrorListener' is not defined  [name-defined]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](strongrandom)awesome-fedora
+Success: no issues found in 1 source file
+
+[RRepo](SEL-Columbia)dokomoforms
+(SEL-Columbia)dokomoforms/dokomoforms/handlers/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(SEL-Columbia)dokomoforms/dokomoforms/models/util.py')  [misc]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](bede)kindel
+(bede)kindel/kindel/cli.py:12: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:13: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:14: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:15: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:16: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:17: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:18: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:19: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:33: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:34: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:35: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:41: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:47: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:48: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:49: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:50: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:51: error: Invalid type comment or annotation  [valid-type]
+(bede)kindel/kindel/cli.py:69: error: Invalid type comment or annotation  [valid-type]
+Found 18 errors in 1 file (checked 3 source files)
+
+[RRepo](SUSE)DeepSea
+(SUSE)DeepSea/srv/salt/_modules/deepsea.py: error: Duplicate module named 'deepsea' (also at '/home/bew/archive/typed_project/(SUSE)DeepSea/srv/salt/_states/deepsea.py')  [misc]
+Found 1 error in 1 file (checked 83 source files)
+
+[RRepo](sphinx-doc)sphinx-intl
+(sphinx-doc)sphinx-intl/sphinx_intl/commands.py:17: error: No parent module -- cannot perform relative import  [misc]
+(sphinx-doc)sphinx-intl/sphinx_intl/commands.py:18: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](MrSenko)Kiwi
+(MrSenko)Kiwi/tcms/testplans/forms.py: error: Duplicate module named 'forms' (also at '/home/bew/archive/typed_project/(MrSenko)Kiwi/tcms/testcases/forms.py')  [misc]
+Found 1 error in 1 file (checked 32 source files)
+
+[RRepo](LucaVazz)DualisWatcher
+(LucaVazz)DualisWatcher/version_recorder.py:5: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/version_recorder.py:5: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/version_recorder.py:5: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/version_recorder.py:90: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(LucaVazz)DualisWatcher/version_recorder.py:130: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/version_recorder.py:130: note: Did you mean "List[...]"?
+(LucaVazz)DualisWatcher/config_helper.py:28: error: Function "builtins.any" is not valid as a type  [valid-type]
+(LucaVazz)DualisWatcher/config_helper.py:28: note: Perhaps you need "Callable[...]" or a callback protocol?
+(LucaVazz)DualisWatcher/config_helper.py:34: error: Function "builtins.any" is not valid as a type  [valid-type]
+(LucaVazz)DualisWatcher/config_helper.py:34: note: Perhaps you need "Callable[...]" or a callback protocol?
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:25: error: Invalid type comment or annotation  [valid-type]
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:36: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(LucaVazz)DualisWatcher/notification_services/notification_service.py:36: note: Did you mean "List[...]"?
+
+[RRepo](thomasleese)mo
+(thomasleese)mo/mo/steps.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](citizenlabsgr)voter-engagement
+(citizenlabsgr)voter-engagement/api/ballots/admin.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](guyingbo)socks5
+(guyingbo)socks5/shadowproxy/utils.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 34 source files)
+
+[RRepo](tum-i22)macke
+(tum-i22)macke/macke/CallGraph.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 50 source files)
+
+[RRepo](hsoft)pdfmasher
+(hsoft)pdfmasher/hscommon/loc.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 96 source files)
+
+[RRepo](ric2b)Vivaldi-browser
+(ric2b)Vivaldi-browser/scripts/rungn.py:162: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 2195 source files)
+
+[RRepo](HackBinghamton)club
+(HackBinghamton)club/demo/python-overview/intro.py:102: error: Invalid index type "int" for "Dict[str, int]"; expected type "str"  [index]
+(HackBinghamton)club/demo/regex/demo.py:115: error: Name 'example_7' already defined on line 87  [no-redef]
+(HackBinghamton)club/demo/regex/demo.py:125: error: Name 'example_7' already defined on line 87  [no-redef]
+Found 3 errors in 2 files (checked 8 source files)
+
+[RRepo](smerkousdavid)drunkbot
+(smerkousdavid)drunkbot/drunk_bot/command_package/add.py:6: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(smerkousdavid)drunkbot/drunk_bot/command_package/randomstuff.py:27: error: Name 'words' is not defined  [name-defined]
+(smerkousdavid)drunkbot/drunk_bot/command_package/randomstuff.py:28: error: Name 'words' is not defined  [name-defined]
+(smerkousdavid)drunkbot/drunk_bot/command_package/randomstuff.py:62: error: Name 'words' is not defined  [name-defined]
+(smerkousdavid)drunkbot/drunk_bot/Sounds.py:77: error: Need type annotation for 'voice_states' (hint: "voice_states: Dict[<type>, <type>] = ...")  [var-annotated]
+Found 5 errors in 3 files (checked 12 source files)
+
+[RRepo](GalAvineri)ISIC-Archive-Downloader
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note: Possible overload variants:
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note:     def __getitem__(self, int) -> Any
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:130: note:     def __getitem__(self, slice) -> List[Any]
+(GalAvineri)ISIC-Archive-Downloader/download_archive.py:188: error: Not all arguments converted during string formatting  [str-format]
+Found 2 errors in 1 file (checked 2 source files)
+
+[RRepo](kchawla-pi)united-states-of-browsers
+(kchawla-pi)united-states-of-browsers/utils/reconstructing_requirements_from_site_packages.py:56: error: unexpected EOF while parsing  [syntax]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](Chandlercjy)OnePy
+(Chandlercjy)OnePy/OnePy/custom_module/cleaner_talib.py:17: error: "dict" is not subscriptable, use "typing.Dict" instead  [misc]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_series.py:25: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "deque[Any]")  [assignment]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_series.py:27: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", target has type "deque[Any]")  [assignment]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_series.py:129: error: Incompatible types in assignment (expression has type "deque[Dict[str, Union[str, float]]]", base class "UserList" defined the type as "List[Any]")  [assignment]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_series.py:134: error: Incompatible types in assignment (expression has type "List[Dict[str, Any]]", variable has type "deque[Dict[str, Union[str, float]]]")  [assignment]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_series.py:140: error: Incompatible return value type (got "Union[str, float]", expected "float")  [return-value]
+(Chandlercjy)OnePy/OnePy/sys_module/components/order_generator.py:73: error: Need type annotation for 'orders_basket' (hint: "orders_basket: List[<type>] = ...")  [var-annotated]
+(Chandlercjy)OnePy/OnePy/sys_module/models/base_log.py:10: error: Only concrete class can be given where "Type[TradeLogBase]" is expected  [misc]
+(Chandlercjy)OnePy/OnePy/sys_module/base_cleaner.py:56: error: Need type annotation for 'single_data'  [var-annotated]
+(Chandlercjy)OnePy/OnePy/custom_module/oanda_reader.py:52: error: No overload variant of "__getitem__" of "list" matches argument type "str"  [call-overload]
+(Chandlercjy)OnePy/OnePy/custom_module/oanda_reader.py:52: note: Possible overload variants:
+(Chandlercjy)OnePy/OnePy/custom_module/oanda_reader.py:52: note:     def __getitem__(self, int) -> Any
+(Chandlercjy)OnePy/OnePy/custom_module/oanda_reader.py:52: note:     def __getitem__(self, slice) -> List[Any]
+Found 10 errors in 6 files (checked 69 source files)
+
+[RRepo](Ultimaker)Cura
+
+[RRepo](cvem8165)KodeFest12
+(cvem8165)KodeFest12/db/connection_template.py:50: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cvem8165)KodeFest12/db/connection_template.py:50: note: Did you mean "List[...]"?
+(cvem8165)KodeFest12/db/connection_template.py:56: error: "None" has no attribute "cursor"  [attr-defined]
+(cvem8165)KodeFest12/db/connection_template.py:59: error: "None" has no attribute "commit"  [attr-defined]
+(cvem8165)KodeFest12/model/consignacion.py:17: error: Incompatible default for argument "numc_usuario" (default has type "str", argument has type "int")  [assignment]
+(cvem8165)KodeFest12/model/retiro.py:16: error: Incompatible default for argument "numc_usuario" (default has type "str", argument has type "int")  [assignment]
+(cvem8165)KodeFest12/tools/tools.py:29: error: Argument 1 to "MIMEText" has incompatible type "bytes"; expected "str"  [arg-type]
+(cvem8165)KodeFest12/tools/tools.py:55: error: Module has no attribute "socket"  [attr-defined]
+Found 7 errors in 4 files (checked 6 source files)
+
+[RRepo](sjtug)mirror-docker
+(sjtug)mirror-docker/lug/worker-script/anaconda.py:74: error: Name 'filemath' is not defined  [name-defined]
+Found 1 error in 1 file (checked 1 source file)
+
+[RRepo](prusnak)micropython-extmod-generator
+Success: no issues found in 2 source files
+
+[RRepo](kupiakos)LapisMirror
+(kupiakos)LapisMirror/plugins/imgur.py:138: error: Name 're' is not defined  [name-defined]
+(kupiakos)LapisMirror/plugins/furaffinity.py:115: error: "str" has no attribute "text"  [attr-defined]
+(kupiakos)LapisMirror/plugins/furaffinity.py:174: error: Incompatible return value type (got "Union[Match[Any], Any]", expected "Optional[str]")  [return-value]
+(kupiakos)LapisMirror/plugins/furaffinity.py:194: error: Incompatible types in assignment (expression has type "Optional[str]", variable has type "int")  [assignment]
+Found 4 errors in 2 files (checked 16 source files)
+
+[RRepo](robertmuth)PyZwaver
+(robertmuth)PyZwaver/pyzwaver/command_helper.py:86: error: Need type annotation for 'STATIC_PROPERTY_QUERIES_LAST'  [var-annotated]
+(robertmuth)PyZwaver/pyzwaver/command_translator.py:73: error: Need type annotation for '_listeners' (hint: "_listeners: List[<type>] = ...")  [var-annotated]
+
+[RRepo](SBRG)EscherConverter
+(SBRG)EscherConverter/api/models.py:83: error: Variable "models.Base" is not valid as a type  [valid-type]
+(SBRG)EscherConverter/api/models.py:83: error: Invalid base class "Base"  [misc]
+(SBRG)EscherConverter/api/models.py:114: error: Variable "models.Base" is not valid as a type  [valid-type]
+(SBRG)EscherConverter/api/models.py:114: error: Invalid base class "Base"  [misc]
+(SBRG)EscherConverter/api/models.py:141: error: Variable "models.Base" is not valid as a type  [valid-type]
+(SBRG)EscherConverter/api/models.py:141: error: Invalid base class "Base"  [misc]
+Found 6 errors in 1 file (checked 7 source files)
+
+[RRepo](mlindauer)asapy
+Success: no issues found in 3 source files
+
+[RRepo](ResolveWang)algrithm_qa
+(ResolveWang)algrithm_qa/bitoper/q3.py: error: Duplicate module named 'q3' (also at '/home/bew/archive/typed_project/(ResolveWang)algrithm_qa/arrandmatrix/q3.py')  [misc]
+Found 1 error in 1 file (checked 265 source files)
+
+[RRepo](Ge0)okita-poc
+(Ge0)okita-poc/okita-poc/detection.py:11: error: unexpected EOF while parsing  [syntax]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](Beafantles)Asurix-bot
+(Beafantles)Asurix-bot/modules/utils/utils.py:11: error: Module "json" is not valid as a type  [valid-type]
+
+[RRepo](sdlm)dev_idwell_bot
+(sdlm)dev_idwell_bot/test_bamboo_api.py:3: error: Module 'bamboo_api' has no attribute 'BambooAPIClient'  [attr-defined]
+(sdlm)dev_idwell_bot/utils.py:8: error: Module 'bamboo_api' has no attribute 'BambooAPIClient'  [attr-defined]
+Found 2 errors in 2 files (checked 5 source files)
+
+[RRepo](zulip)zulip
+(zulip)zulip/corporate/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(zulip)zulip/zilencer/models.py')  [misc]
+Found 1 error in 1 file (checked 548 source files)
+
+[RRepo](jwodder)ghutil
+(jwodder)ghutil/ghutil/types/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(jwodder)ghutil/ghutil/util.py')  [misc]
+(jwodder)ghutil/ghutil/types/util.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 109 source files)
+
+[RRepo](nordledger)eireg
+(nordledger)eireg/tests/test_registry.py:51: error: Incompatible return value type (got "List[Any]", expected "Dict[Any, Any]")  [return-value]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](rmariano)compr
+(rmariano)compr/tests/functional/test_smoke.py:20: error: Argument 1 to "open" has incompatible type "List[str]"; expected "Union[str, bytes, int, _PathLike[Any]]"  [arg-type]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](seisatsu)Driftwood
+(seisatsu)Driftwood/src/inputmanager.py:95: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:96: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:118: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:119: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:155: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:156: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:157: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:158: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:159: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:160: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:168: error: Argument 1 to "keysym" of "InputManager" has incompatible type "Union[int, str]"; expected "str"  [arg-type]
+(seisatsu)Driftwood/src/inputmanager.py:198: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:199: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:220: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:221: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:244: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:245: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/inputmanager.py:246: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tileset.py:80: error: Need type annotation for 'properties' (hint: "properties: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tileset.py:81: error: Need type annotation for 'tileproperties' (hint: "tileproperties: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tileset.py:95: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tileset.py:96: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tileset.py:97: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:58: error: Need type annotation for 'properties' (hint: "properties: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/layer.py:85: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:86: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:87: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:113: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:114: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:115: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/layer.py:156: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:159: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:160: error: Cannot determine type of 'nowalk'  [has-type]
+(seisatsu)Driftwood/src/layer.py:160: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:164: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:167: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:171: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:186: error: Cannot determine type of 'exits'  [has-type]
+(seisatsu)Driftwood/src/layer.py:197: error: Cannot determine type of 'exits'  [has-type]
+(seisatsu)Driftwood/src/layer.py:202: error: Cannot determine type of 'exits'  [has-type]
+(seisatsu)Driftwood/src/layer.py:202: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:205: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:206: error: Cannot determine type of 'properties'  [has-type]
+(seisatsu)Driftwood/src/layer.py:236: error: Incompatible types in assignment (expression has type "List[<nothing>]", variable has type "_TileLoader")  [assignment]
+(seisatsu)Driftwood/src/tile.py:81: error: Need type annotation for 'exits' (hint: "exits: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tile.py:135: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:136: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:137: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:157: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:159: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:161: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tile.py:162: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tilemap.py:64: error: Need type annotation for 'properties' (hint: "properties: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tilemap.py:66: error: Need type annotation for 'layers' (hint: "layers: List[<type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tilemap.py:67: error: Need type annotation for 'tilesets' (hint: "tilesets: List[<type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/tilemap.py:70: error: Need type annotation for '__tilemap' (hint: "__tilemap: Dict[<type>, <type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/cachemanager.py:82: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:83: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:84: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:112: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:113: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:136: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/cachemanager.py:137: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:95: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:96: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:97: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:98: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:99: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:130: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:131: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:156: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:157: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/tickmanager.py:232: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:234: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:234: error: Unsupported target for indexed assignment  [index]
+(seisatsu)Driftwood/src/tickmanager.py:237: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:240: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:241: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:248: error: Unsupported target for indexed assignment  [index]
+(seisatsu)Driftwood/src/tickmanager.py:249: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:250: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:251: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:252: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:254: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:257: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/tickmanager.py:258: error: Value of type "Callable[..., Any]" is not indexable  [index]
+(seisatsu)Driftwood/src/pathmanager.py:91: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:92: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:160: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:161: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:197: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:198: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:230: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:231: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:270: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:272: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:273: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:290: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/pathmanager.py:291: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:94: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:95: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:96: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:128: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:129: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:130: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:131: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:132: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:134: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:135: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:169: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:170: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:196: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:197: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:198: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:207: error: Too many values to unpack (4 expected, 7 provided)  [misc]
+(seisatsu)Driftwood/src/scriptmanager.py:208: error: Cannot determine type of 'args'  [has-type]
+(seisatsu)Driftwood/src/scriptmanager.py:208: error: Cannot determine type of 'varargs'  [has-type]
+(seisatsu)Driftwood/src/scriptmanager.py:208: error: Cannot determine type of 'keywords'  [has-type]
+(seisatsu)Driftwood/src/scriptmanager.py:208: error: Cannot determine type of 'defaults'  [has-type]
+(seisatsu)Driftwood/src/scriptmanager.py:231: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:232: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:233: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:250: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:251: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/scriptmanager.py:351: error: "_Loader" has no attribute "exec_module"  [attr-defined]
+(seisatsu)Driftwood/src/windowmanager.py:81: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:82: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:86: error: Name 'SDL_SetWindowTitle' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:100: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:101: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:130: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:131: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:132: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:165: error: Name 'SDL_RenderSetLogicalSize' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:168: error: Name 'SDL_RenderClear' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:171: error: Name 'SDL_RenderCopy' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:173: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:175: error: Name 'SDL_RenderSetLogicalSize' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:178: error: Name 'SDL_RenderPresent' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:185: error: Name 'SDL_Init' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:185: error: Name 'SDL_INIT_EVERYTHING' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:186: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:187: error: Name 'IMG_INIT_JPG' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:187: error: Name 'IMG_INIT_PNG' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:188: error: Name 'IMG_Init' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:189: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:197: error: Name 'SDL_WINDOW_FULLSCREEN_DESKTOP' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:204: error: Name 'SDL_WINDOW_ALLOW_HIGHDPI' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:205: error: Name 'SDL_CreateWindow' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:205: error: Name 'SDL_WINDOWPOS_CENTERED' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:206: error: Name 'SDL_WINDOWPOS_CENTERED' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:208: error: Name 'SDL_CreateRenderer' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:208: error: Name 'SDL_RENDERER_ACCELERATED' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:208: error: Name 'SDL_RENDERER_PRESENTVSYNC' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:211: error: Name 'SDL_CreateRenderer' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:211: error: Name 'SDL_RENDERER_SOFTWARE' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:213: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:216: error: Name 'SDL_SetHint' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:216: error: Name 'SDL_HINT_RENDER_SCALE_QUALITY' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:227: error: Name 'SDL_GetWindowDisplayIndex' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:228: error: Name 'SDL_DisplayMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:229: error: Name 'SDL_GetCurrentDisplayMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:240: error: Name 'SDL_DestroyRenderer' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:242: error: Name 'SDL_DestroyWindow' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:245: error: Name 'IMG_Quit' is not defined  [name-defined]
+(seisatsu)Driftwood/src/windowmanager.py:246: error: Name 'SDL_Quit' is not defined  [name-defined]
+(seisatsu)Driftwood/src/configmanager.py:110: error: Argument "formatter_class" to "ArgumentParser" has incompatible type "Callable[[Any], HelpFormatter]"; expected "Type[HelpFormatter]"  [arg-type]
+(seisatsu)Driftwood/src/databasemanager.py:100: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:101: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:139: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:140: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:166: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:167: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:195: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/databasemanager.py:196: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:56: error: Name 'Mix_LoadMUS_RW' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:56: error: Name 'SDL_RWFromConstMem' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:58: error: Name 'Mix_LoadWAV_RW' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:58: error: Name 'SDL_RWFromConstMem' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:61: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:68: error: Name 'Mix_FreeMusic' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:71: error: Name 'Mix_FreeChunk' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:100: error: Name 'TTF_OpenFontRW' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:100: error: Name 'SDL_RWFromConstMem' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:102: error: Name 'TTF_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:108: error: Name 'TTF_CloseFont' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:122: error: Name 'SDL_Renderer' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:136: error: Name 'SDL_QueryTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:143: error: Name 'IMG_Load_RW' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:143: error: Name 'SDL_RWFromConstMem' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:145: error: Name 'IMG_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:147: error: Name 'SDL_CreateTextureFromSurface' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:149: error: Name 'IMG_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:157: error: Name 'SDL_FreeSurface' is not defined  [name-defined]
+(seisatsu)Driftwood/src/filetype.py:160: error: Name 'SDL_DestroyTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/spritesheet.py:67: error: "None" has no attribute "texture"  [attr-defined]
+(seisatsu)Driftwood/src/spritesheet.py:69: error: Name 'c_int' is not defined  [name-defined]
+(seisatsu)Driftwood/src/spritesheet.py:70: error: Name 'SDL_QueryTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:101: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:102: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:103: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:104: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:105: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:177: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:178: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:187: error: Name '_entity.Entity' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:198: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:199: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:200: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:209: error: Name '_entity.Entity' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:219: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:220: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:244: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:245: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:272: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:273: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:277: error: Need type annotation for 'to_kill' (hint: "to_kill: List[<type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/entitymanager.py:307: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:308: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/entitymanager.py:318: error: Name '_entity.Entity' is not defined  [name-defined]
+(seisatsu)Driftwood/tools/dbedit.py:160: error: Argument "formatter_class" to "ArgumentParser" has incompatible type "Callable[[Any], HelpFormatter]"; expected "Type[HelpFormatter]"  [arg-type]
+(seisatsu)Driftwood/src/framemanager.py:88: error: Name 'SDL_SetRenderTarget' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:90: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:94: error: Name 'SDL_RenderClear' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:97: error: Name 'SDL_SetRenderTarget' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:99: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:118: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:119: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:120: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:126: error: Name 'SDL_DestroyTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:129: error: Name 'SDL_CreateTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:130: error: Name 'SDL_PIXELFORMAT_ARGB8888' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:130: error: Name 'SDL_TEXTUREACCESS_TARGET' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:134: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:145: error: Name 'c_int' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:146: error: Name 'SDL_QueryTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:154: error: Name 'SDL_Rect' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:238: error: Name 'SDL_Texture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:260: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:260: error: Name 'SDL_Texture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:261: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:262: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:263: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:264: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:265: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:266: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:274: error: Name 'SDL_Rect' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:275: error: Name 'SDL_Rect' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:279: error: Name 'SDL_SetRenderTarget' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:281: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:290: error: Name 'SDL_GetTextureAlphaMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:292: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:295: error: Name 'SDL_SetTextureAlphaMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:297: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:301: error: Name 'c_int' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:302: error: Name 'SDL_GetTextureBlendMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:304: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:307: error: Name 'SDL_SetTextureBlendMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:309: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:314: error: Name 'SDL_GetTextureColorMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:316: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:319: error: Name 'SDL_SetTextureColorMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:321: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:325: error: Name 'SDL_RenderCopy' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:327: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:331: error: Name 'SDL_SetTextureAlphaMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:333: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:337: error: Name 'SDL_SetTextureBlendMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:339: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:343: error: Name 'SDL_SetTextureColorMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:345: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:349: error: Name 'SDL_SetRenderTarget' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:351: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:356: error: Name 'SDL_Texture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:369: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:369: error: Name 'SDL_Texture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:370: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:371: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:372: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/framemanager.py:385: error: Name 'SDL_DestroyTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:103: error: Need type annotation for 'contains' (hint: "contains: List[<type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/widget.py:115: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:117: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:124: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:127: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:197: error: Name 'TTF_SizeUTF8' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:198: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:211: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:214: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(seisatsu)Driftwood/src/widget.py:244: error: Name 'SDL_Color' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:249: error: Name 'TTF_RenderUTF8_Solid' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:253: error: Name 'SDL_CreateTextureFromSurface' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:255: error: Name 'SDL_FreeSurface' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:257: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:260: error: Name 'TTF_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/widget.py:269: error: Name 'SDL_DestroyTexture' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:109: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:110: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:111: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:112: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:113: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:114: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:116: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:117: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:118: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:149: error: Name 'SDL_BLENDMODE_ADD' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:151: error: Name 'SDL_BLENDMODE_BLEND' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:182: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:183: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:202: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:203: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:204: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:223: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:224: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:246: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:247: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:268: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:269: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:271: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:272: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:288: error: Name 'SDL_SetTextureColorMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:291: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:295: error: Name 'SDL_SetTextureAlphaMod' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:297: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:303: error: Name 'SDL_SetTextureBlendMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:303: error: Name 'SDL_BLENDMODE_BLEND' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:305: error: Name 'SDL_SetTextureBlendMode' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:305: error: Name 'SDL_BLENDMODE_ADD' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:307: error: Name 'SDL_GetError' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:356: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:357: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:380: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:381: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/lightmanager.py:385: error: Need type annotation for 'to_kill' (hint: "to_kill: List[<type>] = ...")  [var-annotated]
+(seisatsu)Driftwood/src/resourcemanager.py:73: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:74: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:95: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:96: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:119: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:120: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:129: error: Incompatible types in assignment (expression has type "str", variable has type "Optional[bytes]")  [assignment]
+(seisatsu)Driftwood/src/resourcemanager.py:154: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:155: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:156: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:225: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:226: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:227: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:254: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:255: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:256: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:283: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:284: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:311: error: Name 'CHECK' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:312: error: Name 'CheckFailure' is not defined  [name-defined]
+(seisatsu)Driftwood/src/resourcemanager.py:356: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")  [assignment]
+(seisatsu)Driftwood/src/driftwood.py:154: error: Name 'SDL_QUIT' is not defined  [name-defined]
+(seisatsu)Driftwood/src/driftwood.py:158: error: Name 'SDL_KEYDOWN' is not defined  [name-defined]
+(seisatsu)Driftwood/src/driftwood.py:162: error: Name 'SDL_KEYUP' is not defined  [name-defined]
+(seisatsu)Driftwood/src/driftwood.py:166: error: Name 'SDL_WINDOWEVENT' is not defined  [name-defined]
+(seisatsu)Driftwood/src/driftwood.py:166: error: Name 'SDL_WINDOWEVENT_EXPOSED' is not defined  [name-defined]
+(seisatsu)Driftwood/src/driftwood.py:250: error: Not all arguments converted during string formatting  [str-format]
+(seisatsu)Driftwood/src/driftwood.py:254: error: Unsupported right operand type for in ("Union[type, List[type]]")  [operator]
+(seisatsu)Driftwood/src/__main__.py:96: error: Module has no attribute "CHECK"  [attr-defined]
+(seisatsu)Driftwood/src/__main__.py:97: error: Module has no attribute "CheckFailure"  [attr-defined]
+(seisatsu)Driftwood/src/__main__.py:98: error: Module has no attribute "fncopy"  [attr-defined]
+(seisatsu)Driftwood/src/__main__.py:104: error: Module has no attribute "Driftwood"  [attr-defined]
+(seisatsu)Driftwood/src/__main__.py:107: error: Module has no attribute "_"  [attr-defined]
+Found 367 errors in 22 files (checked 26 source files)
+
+[RRepo](bvanrijn)rules-bot
+Success: no issues found in 5 source files
+
+[RRepo](getninjas)adwords-client
+(getninjas)adwords-client/adwords_client/adwords_api/campaign_criterion_service.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 40 source files)
+
+[RRepo](fyabc)MiniGames
+(fyabc)MiniGames/GamePack/GamePack/utils/vector2.py: error: Duplicate module named 'vector2' (also at '/home/bew/archive/typed_project/(fyabc)MiniGames/Utils/vector2.py')  [misc]
+(fyabc)MiniGames/GamePack/GamePack/utils/vector2.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 176 source files)
+
+[RRepo](afg984)thegame
+(afg984)thegame/client/python/thegame/gui/client.py:3: error: Module 'thegame' has no attribute 'HeadlessClient'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/bullet.py:9: error: Module 'thegame.gui' has no attribute 'const'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/view.py:5: error: Module 'thegame' has no attribute 'Ability'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/view.py:6: error: Module 'thegame.gui' has no attribute 'const'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/healthbar.py:9: error: Module 'thegame.gui' has no attribute 'const'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/hero.py:11: error: Module 'thegame.gui' has no attribute 'const'  [attr-defined]
+(afg984)thegame/client/python/thegame/gui/polygon.py:11: error: Module 'thegame.gui' has no attribute 'const'  [attr-defined]
+(afg984)thegame/client/python/thegame/entity.py:136: error: List or tuple literal expected as the second argument to namedtuple()  [misc]
+
+[RRepo](gengstrand)clojure-news-feed
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:1: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:4: error: Name 'Outbound' already defined (possibly by an import)  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:35: error: Name '_from' already defined on line 5  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:36: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:38: error: Name 'subject' already defined on line 6  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/outbound_dao.py:41: error: Name 'story' already defined on line 7  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/participant_dao.py:5: error: Name 'db.Model' is not defined  [name-defined]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:1: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:38: error: Name '_from' already defined on line 5  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:39: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:41: error: Name 'to' already defined on line 6  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:42: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:44: error: Name 'subject' already defined on line 7  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/inbound_dao.py:47: error: Name 'story' already defined on line 8  [no-redef]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/daos/friend_dao.py:5: error: Name 'db.Model' is not defined  [name-defined]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/models/participant.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/models/friend.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/models/inbound.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/models/outbound.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/inbound_service.py:2: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/inbound_service.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/friend_service.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/friend_service.py:4: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/outbound_service.py:4: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/outbound_service.py:5: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/outbound_service.py:6: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/outbound_service.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/participant_service.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/services/participant_service.py:4: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/participant_controller.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/participant_controller.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/outbound_controller.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/outbound_controller.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/friend_controller.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/friend_controller.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/inbound_controller.py:3: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/controllers/inbound_controller.py:7: error: Relative import climbs too many namespaces  [misc]
+(gengstrand)clojure-news-feed/server/feed5/swagger_server/models/base_model_.py:4: error: Relative import climbs too many namespaces  [misc]
+Found 38 errors in 17 files (checked 28 source files)
+
+[RRepo](lap00zza)arc
+Success: no issues found in 5 source files
+
+[RRepo](harrystech)arthur-redshift-etl
+Success: no issues found in 27 source files
+
+[RRepo](HugoSoaresFontes)robotic-arm-control-lynxmotion
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:10: error: Name 'Braco' is not defined  [name-defined]
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:33: error: Name 'QSlider' already defined (possibly by an import)  [no-redef]
+(HugoSoaresFontes)robotic-arm-control-lynxmotion/interface.py:48: error: Name 'QDial' already defined (possibly by an import)  [no-redef]
+Found 3 errors in 1 file (checked 2 source files)
+
+[RRepo](CodersOfTheNight)oshino
+(CodersOfTheNight)oshino/oshino/core/heart.py:123: error: Variable "typing.Generic" is not valid as a type  [valid-type]
+(CodersOfTheNight)oshino/oshino/core/heart.py:124: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(CodersOfTheNight)oshino/oshino/core/heart.py:124: note: Perhaps you need "Callable[...]" or a callback protocol?
+(CodersOfTheNight)oshino/oshino/core/heart.py:127: error: "Generic?[T`-1]" not callable  [misc]
+(CodersOfTheNight)oshino/oshino/core/heart.py:158: error: callable? not callable  [misc]
+Found 4 errors in 1 file (checked 23 source files)
+
+[RRepo](rljacobson)FoxySheep
+(rljacobson)FoxySheep/python_target/FoxySheep/Types/Types.py:95: error: Invalid type comment or annotation  [valid-type]
+(rljacobson)FoxySheep/python_target/FoxySheep/Types/Types.py:95: note: Suggestion: use list[...] instead of list(...)
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormListener.py:9: error: Name 'ParseTreeListener' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormVisitor.py:10: error: Name 'ParseTreeVisitor' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormLexer.py:149: error: Name 'Lexer' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormLexer.py:151: error: Name 'ATNDeserializer' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormLexer.py:153: error: Name 'DFA' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormLexer.py:211: error: Name 'LexerATNSimulator' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/generated/FullFormLexer.py:211: error: Name 'PredictionContextCache' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/Utils/misc.py:1: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(rljacobson)FoxySheep/python_target/FoxySheep/LexerBase.py:13: error: Name 'Lexer' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:11: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:12: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:13: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:14: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:15: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:16: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:17: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:18: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:19: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:20: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:21: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:22: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:23: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:24: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:25: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:26: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:27: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:28: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:29: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:30: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:31: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:32: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:33: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:34: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:35: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:36: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:37: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:38: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:39: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:40: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/lexermembers.py:41: error: Name 'FoxySheepParser' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:3: error: Module 'FoxySheep' has no attribute 'FoxySheepLexer'; maybe "FoxySheepParser"?  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:4: error: Module 'FoxySheep' has no attribute 'FoxySheepParser'; maybe "FoxySheepLexer"?  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:5: error: Module 'FoxySheep' has no attribute 'FullFormEmitter'  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:6: error: Module 'FoxySheep' has no attribute 'PostParser'; maybe "postParse"?  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:7: error: Module 'FoxySheep' has no attribute 'FullFormLexer'  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:8: error: Module 'FoxySheep' has no attribute 'FullFormParser'  [attr-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:46: error: Name 'InputStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:48: error: Name 'InputStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:50: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:52: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:66: error: Name 'InputStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:68: error: Name 'InputStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:71: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep.py:75: error: Name 'CommonTokenStream' is not defined  [name-defined]
+(rljacobson)FoxySheep/python_target/FoxySheep/AST/ASTNode.py:14: error: Invalid type comment or annotation  [valid-type]
+(rljacobson)FoxySheep/python_target/FoxySheep/AST/ASTNode.py:14: note: Suggestion: use list[...] instead of list(...)
+
+[RRepo](DoumanAsh)collectionScripts
+(DoumanAsh)collectionScripts/python/tpp/bencodepy/encode.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](readdy)readdy
+(readdy)readdy/wrappers/python/src/python/readdy/api/conf/UnitConfiguration.py:41: error: No parent module -- cannot perform relative import  [misc]
+(readdy)readdy/wrappers/python/src/python/readdy/api/conf/UnitConfiguration.py:42: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 41 source files)
+
+[RRepo](tensorflow)federated
+(tensorflow)federated/tensorflow_federated/python/simulation/datasets/stackoverflow/load_data.py: error: Duplicate module named 'load_data' (also at '/home/bew/archive/typed_project/(tensorflow)federated/tensorflow_federated/python/simulation/datasets/emnist/load_data.py')  [misc]
+Found 1 error in 1 file (checked 133 source files)
+
+[RRepo](esPass)pretix-espass
+(esPass)pretix-espass/pretix_espass/espass.py:162: error: Incompatible return value type (got "Tuple[str, str, bytes]", expected "Tuple[str, str, str]")  [return-value]
+(esPass)pretix-espass/pretix_espass/signals.py:17: error: Name 'register_global_settings' already defined (possibly by an import)  [no-redef]
+Found 2 errors in 2 files (checked 4 source files)
+
+[RRepo](mjj4791)python-buienradar
+Success: no issues found in 6 source files
+
+[RRepo](uclouvain)osis
+(uclouvain)osis/attribution/business/attribution_charge_new.py: error: Duplicate module named 'attribution_charge_new' (also at '/home/bew/archive/typed_project/(uclouvain)osis/attribution/models/attribution_charge_new.py')  [misc]
+Found 1 error in 1 file (checked 525 source files)
+
+[RRepo](pythondigest)pythondigest
+(pythondigest)pythondigest/jobs/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(pythondigest)pythondigest/landings/views.py')  [misc]
+Found 1 error in 1 file (checked 55 source files)
+
+[RRepo](item4)item4.net
+(item4)item4.net/api/auth/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(item4)item4.net/api/views.py')  [misc]
+(item4)item4.net/api/auth/views.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](delph-in)pydelphin
+(delph-in)pydelphin/delphin/eds/_operations.py: error: Duplicate module named '_operations' (also at '/home/bew/archive/typed_project/(delph-in)pydelphin/delphin/dmrs/_operations.py')  [misc]
+Found 1 error in 1 file (checked 60 source files)
+
+[RRepo](kirbyUK)pkmntcg-discord-bot
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:69: error: Need type annotation for 'cards' (hint: "cards: List[<type>] = ...")  [var-annotated]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:255: error: "str" has no attribute "set_code"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:261: error: "str" has no attribute "set_code"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:267: error: "str" has no attribute "supertype"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:269: error: "str" has no attribute "name"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:269: error: "str" has no attribute "types"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:273: error: "str" has no attribute "hp"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:274: error: "str" has no attribute "hp"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:278: error: "str" has no attribute "subtype"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:279: error: "str" has no attribute "evolves_from"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:280: error: "str" has no attribute "evolves_from"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:284: error: "str" has no attribute "ability"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:286: error: "str" has no attribute "ability"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:287: error: "str" has no attribute "ability"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:289: error: "str" has no attribute "ability"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:293: error: "str" has no attribute "attacks"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:294: error: "str" has no attribute "attacks"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:307: error: "str" has no attribute "weaknesses"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:308: error: "str" has no attribute "weaknesses"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:313: error: "str" has no attribute "resistances"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:314: error: "str" has no attribute "resistances"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:319: error: "str" has no attribute "retreat_cost"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:320: error: "str" has no attribute "retreat_cost"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:323: error: "str" has no attribute "supertype"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:324: error: "str" has no attribute "name"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:325: error: "str" has no attribute "subtype"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:326: error: "str" has no attribute "text"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/pokemontcg.py:331: error: "str" has no attribute "number"  [attr-defined]
+(kirbyUK)pkmntcg-discord-bot/cardbot/cardbot.py:108: error: Return value expected  [return-value]
+Found 29 errors in 2 files (checked 2 source files)
+
+[RRepo](LazoCoder)Pokemon-Terminal
+(LazoCoder)Pokemon-Terminal/pokemonterminal/main.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](portfoliome)postpy
+(portfoliome)postpy/postpy/pg_encodings.py:1: error: Module 'encodings' has no attribute 'normalize_encoding'  [attr-defined]
+(portfoliome)postpy/postpy/pg_encodings.py:1: error: Module 'encodings' has no attribute 'aliases'  [attr-defined]
+(portfoliome)postpy/postpy/sql.py:7: error: Module 'postpy' has no attribute 'connect'  [attr-defined]
+
+[RRepo](alerta)python-alerta-client
+(alerta)python-alerta-client/alertaclient/auth/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(alerta)python-alerta-client/alertaclient/utils.py')  [misc]
+(alerta)python-alerta-client/alertaclient/auth/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 80 source files)
+
+[RRepo](Thomasedv)Grabber
+(Thomasedv)Grabber/Modules/parameterTree.py:382: error: Argument 1 to "ParameterTree" has incompatible type "object"; expected "Dict[Any, Any]"  [arg-type]
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](elarivie)linter-mypy
+(elarivie)linter-mypy/spec/fixtures/issue12/backends/Bla.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](ucloud)uai-sdk
+(ucloud)uai-sdk/uaitrain/arch/pytorch/uargs.py: error: Duplicate module named 'uargs' (also at '/home/bew/archive/typed_project/(ucloud)uai-sdk/uaitrain/arch/mxnet/uargs.py')  [misc]
+Found 1 error in 1 file (checked 311 source files)
+
+[RRepo](outlierbio)ob-pipelines
+(outlierbio)ob-pipelines/ob_pipelines/pipelines/sra_download.py: error: Duplicate module named 'sra_download' (also at '/home/bew/archive/typed_project/(outlierbio)ob-pipelines/ob_pipelines/tasks/sra_download.py')  [misc]
+Found 1 error in 1 file (checked 49 source files)
+
+[RRepo](jfcherng)Sublime-AutoSetSyntax
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:45: error: Module has no attribute "_levelNames"; maybe "_levelToName"?  [attr-defined]
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:47: error: Module has no attribute "_levelNames"; maybe "_levelToName"?  [attr-defined]
+(jfcherng)Sublime-AutoSetSyntax/AutoSetSyntax.py:223: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:78: error: Need type annotation for 'syntax_files' (hint: "syntax_files: List[<type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:86: error: Need type annotation for 'syntax_griddle' (hint: "syntax_griddle: Dict[<type>, <type>] = ...")  [var-annotated]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:267: error: Argument 2 to "_get_attributes_from_xml_string" of "SyntaxMappings" has incompatible type "Iterator[Any]"; expected "List[Any]"  [arg-type]
+(jfcherng)Sublime-AutoSetSyntax/SyntaxMappings.py:269: error: Argument 2 to "_get_attributes_from_yaml_string" of "SyntaxMappings" has incompatible type "Iterator[Any]"; expected "List[Any]"  [arg-type]
+Found 7 errors in 2 files (checked 5 source files)
+
+[RRepo](opentracing)basictracer-python
+Success: no issues found in 13 source files
+
+[RRepo](Mazuh)Algs
+Success: no issues found in 6 source files
+
+[RRepo](ascoderu)opwen-cloudserver
+(ascoderu)opwen-cloudserver/opwen_email_server/integration/celery.py:1: error: Module 'celery' has no attribute 'Celery'; maybe "celery"?  [attr-defined]
+(ascoderu)opwen-cloudserver/opwen_email_server/services/storage.py:1: error: Module 'collections' has no attribute 'namedtuple'  [attr-defined]
+(ascoderu)opwen-cloudserver/opwen_email_server/services/storage.py:66: error: Variable "storage.AccessInfo" is not valid as a type  [valid-type]
+(ascoderu)opwen-cloudserver/opwen_email_server/services/storage.py:198: error: Variable "storage.AccessInfo" is not valid as a type  [valid-type]
+(ascoderu)opwen-cloudserver/tests/opwen_email_server/integration/test_celery.py:3: error: Module 'string' has no attribute 'ascii_letters'  [attr-defined]
+(ascoderu)opwen-cloudserver/tests/opwen_email_server/utils/test_collections.py:1: error: Module 'collections' has no attribute 'Counter'  [attr-defined]
+(ascoderu)opwen-cloudserver/opwen_email_server/services/sendgrid.py:6: error: Module 'sendgrid' has no attribute 'SendGridAPIClient'  [attr-defined]
+Found 7 errors in 5 files (checked 27 source files)
+
+[RRepo](SteemData)steemdata-mongo
+
+[RRepo](sportorg)pysport
+(sportorg)pysport/sportorg/modules/backup/file.py:3: error: No parent module -- cannot perform relative import  [misc]
+(sportorg)pysport/sportorg/modules/backup/file.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 108 source files)
+
+[RRepo](SlashNephy)PyChroner-Bot
+(SlashNephy)PyChroner-Bot/pychroner/thread/manager.py: error: Duplicate module named 'manager' (also at '/home/bew/archive/typed_project/(SlashNephy)PyChroner-Bot/pychroner/discord/manager.py')  [misc]
+Found 1 error in 1 file (checked 93 source files)
+
+[RRepo](PUNCH-Cyber)stoq-plugins-public
+(PUNCH-Cyber)stoq-plugins-public/symhash/symhash/symhash.py:25: error: Module 'symhash' has no attribute 'create_sym_hash'  [attr-defined]
+(PUNCH-Cyber)stoq-plugins-public/mimetype/mimetype/mimetype.py:45: error: Name 'mime' is not defined  [name-defined]
+
+[RRepo](hoh)reloadr
+(hoh)reloadr/examples/02_threaded_reload.py:24: error: "Type[Car]" has no attribute "_start_timer_reload"  [attr-defined]
+(hoh)reloadr/examples/01_manual_reload.py:28: error: "Type[Car]" has no attribute "_reload"  [attr-defined]
+(hoh)reloadr/examples/04_both.py:36: error: "Type[Car]" has no attribute "_reload"  [attr-defined]
+(hoh)reloadr/examples/05_watch_file.py:24: error: "Type[Car]" has no attribute "_start_watch_reload"  [attr-defined]
+Found 4 errors in 4 files (checked 8 source files)
+
+[RRepo](SuLab)WikidataIntegrator
+(SuLab)WikidataIntegrator/wikidataintegrator/wdi_helpers/__init__.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 22 source files)
+
+[RRepo](ceos-seo)data_cube_notebooks
+Success: no issues found in 3 source files
+
+[RRepo](3Scan)3scan-skeleton
+(3Scan)3scan-skeleton/runscripts/objWrite.py:112: error: Too many arguments for "getObjPointsWrite"  [call-arg]
+
+[RRepo](Entscheider)SeamEater
+Success: no issues found in 9 source files
+
+[RRepo](youtux)wikidump
+(youtux)wikidump/wikidump/__main__.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](samuelcolvin)harrier
+(samuelcolvin)harrier/harrier/extensions.py: error: Duplicate module named 'extensions' (also at '/home/bew/archive/typed_project/(samuelcolvin)harrier/docs/extensions.py')  [misc]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](mighty-justice)django-super-deduper
+(mighty-justice)django-super-deduper/tests/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(mighty-justice)django-super-deduper/django_super_deduper/models.py')  [misc]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](toast254)SimpleDaemon
+Success: no issues found in 4 source files
+
+[RRepo](JockeTF)fimfarchive
+(JockeTF)fimfarchive/fimfarchive/converters/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(JockeTF)fimfarchive/fimfarchive/commands/base.py')  [misc]
+Found 1 error in 1 file (checked 45 source files)
+
+[RRepo](dpshelio)sunpy
+(dpshelio)sunpy/sunpy/coordinates/tests/test_frames.py:18: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 185 source files)
+
+[RRepo](DEIB-GECO)PyGMQL
+(DEIB-GECO)PyGMQL/gmql/dataset/storers/parserToXML.py:2: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 40 source files)
+
+[RRepo](samdroid-apps)something-for-reddit
+(samdroid-apps)something-for-reddit/redditisgtk/sublist.py:134: error: Name 's' is not defined  [name-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/sublist.py:135: error: Name 's' is not defined  [name-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/sublist.py:136: error: Name 's' is not defined  [name-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/sublist.py:139: error: Name 's' is not defined  [name-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/readcontroller.py:45: error: Need type annotation for '_set' (hint: "_set: Set[<type>] = ...")  [var-annotated]
+(samdroid-apps)something-for-reddit/redditisgtk/newmarkdown.py:95: error: Syntax error in type annotation  [syntax]
+(samdroid-apps)something-for-reddit/redditisgtk/newmarkdown.py:95: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(samdroid-apps)something-for-reddit/redditisgtk/test_identity.py:32: error: Cannot use isinstance() with Any type  [misc]
+(samdroid-apps)something-for-reddit/redditisgtk/conftest.py:29: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(samdroid-apps)something-for-reddit/redditisgtk/identity.py:46: error: Need type annotation for '_tokens' (hint: "_tokens: Dict[<type>, <type>] = ...")  [var-annotated]
+(samdroid-apps)something-for-reddit/redditisgtk/main.py:127: error: "None" has no attribute "request_failed"  [attr-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/main.py:130: error: "None" has no attribute "new_other_pane"  [attr-defined]
+(samdroid-apps)something-for-reddit/redditisgtk/main.py:133: error: "None" has no attribute "show"  [attr-defined]
+Found 12 errors in 7 files (checked 34 source files)
+
+[RRepo](henrymzhao)csss-minion
+(henrymzhao)csss-minion/remindme.py:30: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](googleapis)proto-plus-python
+(googleapis)proto-plus-python/proto/marshal/rules/enums.py: error: Duplicate module named 'enums' (also at '/home/bew/archive/typed_project/(googleapis)proto-plus-python/proto/enums.py')  [misc]
+(googleapis)proto-plus-python/proto/marshal/rules/enums.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 36 source files)
+
+[RRepo](aawadall)PyProjMan
+Success: no issues found in 14 source files
+
+[RRepo](kashifrazzaqui)vyked
+(kashifrazzaqui)vyked/tests/integration/test_registry.py: error: Duplicate module named 'test_registry' (also at '/home/bew/archive/typed_project/(kashifrazzaqui)vyked/tests/test_registry.py')  [misc]
+(kashifrazzaqui)vyked/tests/integration/test_registry.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 21 source files)
+
+[RRepo](spanezz)egt
+(spanezz)egt/egtlib/project.py:164: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 21 source files)
+

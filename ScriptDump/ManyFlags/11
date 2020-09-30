@@ -1,0 +1,974 @@
+[RRepo](PetterKraabol)Twitch-Chat-Downloader
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:43: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:44: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:45: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:46: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:47: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:48: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:49: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:50: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:51: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:52: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "str")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:53: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "bool")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:56: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:57: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[int]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:58: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:59: error: Incompatible types in assignment (expression has type "Union[str, bool, int]", variable has type "Optional[str]")  [assignment]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:69: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:69: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Attribute 'formats' already defined on line 63  [no-redef]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:73: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:77: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:77: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:81: error: Item "bool" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/arguments.py:81: error: Item "int" of "Union[str, bool, int]" has no attribute "lower"  [union-attr]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:53: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:81: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:84: error: Argument 1 to "load" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:95: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:97: error: Argument 1 to "load" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/settings.py:114: error: Argument 1 to "write" of "Settings" has incompatible type "Path"; expected "str"  [arg-type]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/__init__.py:11: error: Name '__name__' already defined (possibly by an import)  [no-redef]
+(PetterKraabol)Twitch-Chat-Downloader/tcd/__init__.py:13: error: Type of __all__ must be "Sequence[str]", not "List[Callable[..., Any]]"  [misc]
+Found 32 errors in 3 files (checked 13 source files)
+
+[RRepo](lkorigin)laniakea-spark
+(lkorigin)laniakea-spark/spark/runners/image_build.py:65: error: Not all arguments converted during string formatting  [str-format]
+(lkorigin)laniakea-spark/spark/runners/image_build.py:138: error: Not all arguments converted during string formatting  [str-format]
+Found 2 errors in 1 file (checked 16 source files)
+
+[RRepo](miracle2k)k8s-snapshots
+(miracle2k)k8s-snapshots/k8s_snapshots/errors.py:26: error: Incompatible types in assignment (expression has type "BaseException", variable has type "StructuredError")  [assignment]
+(miracle2k)k8s-snapshots/k8s_snapshots/rule.py:52: error: Incompatible default for argument "name" (default has type "bool", argument has type "str")  [assignment]
+(miracle2k)k8s-snapshots/k8s_snapshots/logconf.py:62: error: Return value expected  [return-value]
+(miracle2k)k8s-snapshots/k8s_snapshots/logconf.py:75: error: Return value expected  [return-value]
+(miracle2k)k8s-snapshots/k8s_snapshots/snapshot.py:36: error: Argument 2 to "load_snapshots" has incompatible type "List[Any]"; expected "Set[Any]"  [arg-type]
+(miracle2k)k8s-snapshots/k8s_snapshots/snapshot.py:224: error: Incompatible types in "await" (actual type "Union[Dict[Any, Any], Awaitable[Dict[Any, Any]]]", expected type "Awaitable[Any]")  [misc]
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:25: error: Type variable "kube.Resource" is unbound  [valid-type]
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:25: note: (Hint: Use "Generic[Resource]" or "Protocol[Resource]" base class to bind "Resource" inside a class)
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:25: note: (Hint: Use "Resource" in function signature to bind "Resource" inside a function)
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:59: error: "Type[Resource]" has no attribute "objects"  [attr-defined]
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:72: error: "Type[Resource]" has no attribute "objects"  [attr-defined]
+(miracle2k)k8s-snapshots/k8s_snapshots/kube.py:124: error: Need type annotation for 'async_gen'  [var-annotated]
+Found 10 errors in 5 files (checked 22 source files)
+
+[RRepo](stadtgestalten)stadtgestalten
+(stadtgestalten)stadtgestalten/features/tags/apps.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 160 source files)
+
+[RRepo](bokeh)bokeh
+(bokeh)bokeh/bokeh/models/mappers.py:31: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 526 source files)
+
+[RRepo](ekeih)OmNomNom
+(ekeih)OmNomNom/omnomgram/tasks.py: error: Duplicate module named 'tasks' (also at '/home/bew/archive/typed_project/(ekeih)OmNomNom/stats/tasks.py')  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](cprogrammer1994)ModernGL
+(cprogrammer1994)ModernGL/moderngl/next/buffer.py: error: Duplicate module named 'buffer' (also at '/home/bew/archive/typed_project/(cprogrammer1994)ModernGL/moderngl/buffer.py')  [misc]
+(cprogrammer1994)ModernGL/moderngl/next/buffer.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 210 source files)
+
+[RRepo](getzze)gconnect
+Success: no issues found in 5 source files
+
+[RRepo](makerdao)maker.py
+(makerdao)maker.py/pymaker/proxy.py:129: error: Syntax error in type annotation  [syntax]
+(makerdao)maker.py/pymaker/proxy.py:129: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](asphalt-framework)asphalt-wamp
+(asphalt-framework)asphalt-wamp/examples/rpc_progress/client.py: error: Duplicate module named 'client' (also at '/home/bew/archive/typed_project/(asphalt-framework)asphalt-wamp/examples/rpc/client.py')  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](pybel)pybel-tools
+(pybel)pybel-tools/src/pybel_tools/analysis/epicom/algorithm.py: error: Duplicate module named 'algorithm' (also at '/home/bew/archive/typed_project/(pybel)pybel-tools/src/pybel_tools/analysis/neurommsig/algorithm.py')  [misc]
+Found 1 error in 1 file (checked 67 source files)
+
+[RRepo](briancappello)flask-react-spa
+(briancappello)flask-react-spa/backend/extensions/celery.py: error: Duplicate module named 'celery' (also at '/home/bew/archive/typed_project/(briancappello)flask-react-spa/backend/commands/celery.py')  [misc]
+Found 1 error in 1 file (checked 94 source files)
+
+[RRepo](pypa)warehouse
+(pypa)warehouse/warehouse/cache/http.py: error: Duplicate module named 'http' (also at '/home/bew/archive/typed_project/(pypa)warehouse/warehouse/http.py')  [misc]
+(pypa)warehouse/warehouse/cache/http.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 303 source files)
+
+[RRepo](jpn--)larch
+(jpn--)larch/larch/data_services/h5/h5data.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 75 source files)
+
+[RRepo](cbozi)edge-server-placement
+(cbozi)edge-server-placement/src/utils.py:61: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cbozi)edge-server-placement/src/utils.py:61: note: Did you mean "List[...]"?
+(cbozi)edge-server-placement/src/utils.py:166: error: Need type annotation for 'distances' (hint: "distances: List[<type>] = ...")  [var-annotated]
+(cbozi)edge-server-placement/src/run_and_print.py:42: error: Incompatible types in assignment (expression has type "KMeansServerPlacer", target has type "MIPServerPlacer")  [assignment]
+(cbozi)edge-server-placement/src/run_and_print.py:43: error: Incompatible types in assignment (expression has type "TopKServerPlacer", target has type "MIPServerPlacer")  [assignment]
+(cbozi)edge-server-placement/src/run_and_print.py:44: error: Incompatible types in assignment (expression has type "RandomServerPlacer", target has type "MIPServerPlacer")  [assignment]
+(cbozi)edge-server-placement/src/run_and_print.py:61: error: Argument 1 to "run_with_parameters" has incompatible type "Dict[str, MIPServerPlacer]"; expected "Dict[str, ServerPlacer]"  [arg-type]
+(cbozi)edge-server-placement/src/run_and_print.py:61: note: "Dict" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(cbozi)edge-server-placement/src/run_and_print.py:61: note: Consider using "Mapping" instead, which is covariant in the value type
+Found 6 errors in 2 files (checked 5 source files)
+
+[RRepo](d10genes)pollen
+(d10genes)pollen/util/junk.py:6: error: Name 'ends_with' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:6: error: Name 'xdf' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:7: error: Name 'ends_with' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:7: error: Name 'xdf' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:9: error: Name 'xdf' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:15: error: Name 'impute' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:17: error: Name 'np' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:26: error: Name 'select_features' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:29: error: Name 'load_robot_execution_failures' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:36: error: Name 'np' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:53: error: Name 'get_batch' already defined on line 36  [no-redef]
+(d10genes)pollen/util/junk.py:117: error: "Callable[[Any, Any, Any, Any, Any, Any], Any]" has no attribute "mnorm"  [attr-defined]
+(d10genes)pollen/util/junk.py:157: error: "Callable[[Any, Any, Any, Any, Any, Any, Any], Any]" has no attribute "mnorm"  [attr-defined]
+(d10genes)pollen/util/junk.py:186: error: Name 'ddf' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:186: error: Name 'null_col' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:187: error: Name 'null_col' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:189: error: Name 'RandomForestRegressor' is not defined  [name-defined]
+(d10genes)pollen/util/junk.py:198: error: Name 'pred' is not defined  [name-defined]
+(d10genes)pollen/util/utils.py:107: error: "Callable[[Any, Any, Any], Any]" has no attribute "diff"  [attr-defined]
+(d10genes)pollen/util/utils.py:233: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(d10genes)pollen/util/utils.py:233: note: Did you mean "List[...]"?
+(d10genes)pollen/util/utils.py:244: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(d10genes)pollen/util/utils.py:244: note: Did you mean "List[...]"?
+(d10genes)pollen/util/pollen_utils.py:23: error: Syntax error in type annotation  [syntax]
+(d10genes)pollen/util/pollen_utils.py:23: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(d10genes)pollen/util/pollen_utils.py:23: error: Name 'date' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:23: error: Name 'pollen_ct' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:33: error: Syntax error in type annotation  [syntax]
+(d10genes)pollen/util/pollen_utils.py:33: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(d10genes)pollen/util/pollen_utils.py:33: error: Name 'date' is not defined  [name-defined]
+(d10genes)pollen/util/pollen_utils.py:33: error: Name 'pollen_ct' is not defined  [name-defined]
+
+[RRepo](Ameriks)velo.lv
+(Ameriks)velo.lv/velo/registration/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(Ameriks)velo.lv/velo/results/utils.py')  [misc]
+Found 1 error in 1 file (checked 108 source files)
+
+[RRepo](difu)tnsmaster
+(difu)tnsmaster/tnsnames/tnsnamesparserewithexception.py:8: error: Name 'TokenStream' is not defined  [name-defined]
+
+[RRepo](QudevETH)PycQED_py3
+(QudevETH)PycQED_py3/pycqed/analysis/fit_toolbox/fit.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 179 source files)
+
+[RRepo](DwangoMediaVillage)pqkmeans
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/bkmeans.py:13: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/bkmeans.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/bkmeans.py:23: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/bkmeans.py:23: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:13: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:13: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:18: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:18: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:28: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/cpp_implemented_clustering_sample.py:28: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pqkmeans.py:27: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pqkmeans.py:27: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:22: error: "Iterable[float]" has no attribute "shape"  [attr-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:22: error: "Iterable[float]" has no attribute "dtype"  [attr-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:31: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:44: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/clustering/pure_python_clustering_sample.py:44: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_sample.py:14: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_sample.py:14: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_sample.py:19: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_sample.py:19: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:11: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:11: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:15: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:15: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:24: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:24: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:29: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:29: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:34: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/encoder_base.py:34: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:14: error: Name 'PQEncoder.TrainedPQEncoder' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:22: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:31: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:31: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:36: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/pq_encoder.py:36: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py:71: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py:71: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py:76: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py:76: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+(DwangoMediaVillage)pqkmeans/pqkmeans/encoder/itq_encoder.py:78: error: Exception must be derived from BaseException  [misc]
+(DwangoMediaVillage)pqkmeans/test/clustering/test_bkmeans.py:8: error: Name 'Any' is not defined  [name-defined]
+(DwangoMediaVillage)pqkmeans/test/clustering/test_bkmeans.py:8: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+Found 25 errors in 9 files (checked 17 source files)
+
+[RRepo](rwengine)openrw
+Success: no issues found in 4 source files
+
+[RRepo](Brutus5000)BiReUS
+(Brutus5000)BiReUS/bireus/client/patch_tasks/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(Brutus5000)BiReUS/bireus/server/compare_tasks/base.py')  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](leios)algorithm-archive
+Success: no issues found in 16 source files
+
+[RRepo](datawire)telepresence
+(datawire)telepresence/telepresence/outbound/container.py: error: Duplicate module named 'container' (also at '/home/bew/archive/typed_project/(datawire)telepresence/packaging/container.py')  [misc]
+(datawire)telepresence/telepresence/outbound/container.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 45 source files)
+
+[RRepo](zeffii)TubeTool
+
+[RRepo](HumanCompatibleAI)imitation
+(HumanCompatibleAI)imitation/src/imitation/scripts/config/policy_eval.py: error: Duplicate module named 'policy_eval' (also at '/home/bew/archive/typed_project/(HumanCompatibleAI)imitation/src/imitation/scripts/policy_eval.py')  [misc]
+(HumanCompatibleAI)imitation/src/imitation/scripts/config/policy_eval.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 44 source files)
+
+[RRepo](schrockn)graphscale
+(schrockn)graphscale/graphscale/test/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(schrockn)graphscale/graphscale/utils.py')  [misc]
+(schrockn)graphscale/graphscale/test/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 33 source files)
+
+[RRepo](irmen)synthesizer
+(irmen)synthesizer/synthplayer/playback.py:17: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](borevitzlab)spc-eyepi
+(borevitzlab)spc-eyepi/ansible/plugins/callback_plugins/human_log.py:21: error: Name 'reload' is not defined  [name-defined]
+(borevitzlab)spc-eyepi/ansible/plugins/callback_plugins/human_log.py:22: error: Module has no attribute "setdefaultencoding"; maybe "getdefaultencoding"?  [attr-defined]
+(borevitzlab)spc-eyepi/ansible/plugins/callback_plugins/human_log.py:27: error: Name 'json' already defined (by an import)  [no-redef]
+(borevitzlab)spc-eyepi/libs/CryptUtil.py:11: error: Module 'cryptography' has no attribute 'utils'  [attr-defined]
+(borevitzlab)spc-eyepi/libs/CryptUtil.py:50: error: "RSAPublicNumbers" has no attribute "e"  [attr-defined]
+(borevitzlab)spc-eyepi/libs/CryptUtil.py:51: error: "RSAPublicNumbers" has no attribute "n"  [attr-defined]
+(borevitzlab)spc-eyepi/libs/Updater.py:17: error: Module 'dateutil' has no attribute 'zoneinfo'  [attr-defined]
+Found 7 errors in 3 files (checked 7 source files)
+
+[RRepo](smashwilson)slack-emojinator
+(smashwilson)slack-emojinator/upload.py:16: error: Cannot determine type of 'raw_input'  [has-type]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](peer23peer)pymech
+(peer23peer)pymech/pymech/fmt/Point.py: error: Duplicate module named 'Point' (also at '/home/bew/archive/typed_project/(peer23peer)pymech/pymech/fluid/Point.py')  [misc]
+Found 1 error in 1 file (checked 26 source files)
+
+[RRepo](daxtens)smart-sparse-diff
+Success: no issues found in 1 source file
+
+[RRepo](glotaran)glotaran
+(glotaran)glotaran/glotaran/analysis/optimize.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 66 source files)
+
+[RRepo](arraylabs)pymyq
+(arraylabs)pymyq/pymyq/device.py:170: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/device.py:188: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/api.py:68: error: Need type annotation for '_devices' (hint: "_devices: List[<type>] = ...")  [var-annotated]
+(arraylabs)pymyq/pymyq/api.py:219: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/api.py:223: error: Incompatible types in assignment (expression has type "Dict[str, str]", variable has type "None")  [assignment]
+(arraylabs)pymyq/pymyq/api.py:265: error: Need type annotation for 'device_list' (hint: "device_list: List[<type>] = ...")  [var-annotated]
+
+[RRepo](nerosketch)djing
+(nerosketch)djing/group_app/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(nerosketch)djing/traf_stat/models.py')  [misc]
+Found 1 error in 1 file (checked 88 source files)
+
+[RRepo](sernst)cauldron
+(sernst)cauldron/cauldron/cli/server/run.py: error: Duplicate module named 'run' (also at '/home/bew/archive/typed_project/(sernst)cauldron/cauldron/cli/commands/run/__init__.py')  [misc]
+(sernst)cauldron/cauldron/cli/server/run.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 207 source files)
+
+[RRepo](evernym)plenum
+(evernym)plenum/plenum/server/request_handlers/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(evernym)plenum/plenum/server/catchup/utils.py')  [misc]
+Found 1 error in 1 file (checked 960 source files)
+
+[RRepo](Maluuba)qgen-workshop
+Success: no issues found in 5 source files
+
+[RRepo](krother)maze_run
+(krother)maze_run/07_interactive_debugger/draw_maze.py: error: Duplicate module named 'draw_maze' (also at '/home/bew/archive/typed_project/(krother)maze_run/10_test_suite/maze_run/draw_maze.py')  [misc]
+(krother)maze_run/07_interactive_debugger/draw_maze.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 52 source files)
+
+[RRepo](santhoshtr)mlmorph
+(santhoshtr)mlmorph/python/mlmorph/mlmorph.py:66: error: Need type annotation for 'result' (hint: "result: Dict[<type>, <type>] = ...")  [var-annotated]
+(santhoshtr)mlmorph/python/mlmorph/mlmorph.py:172: error: Incompatible return value type (got "List[Tuple[Any, int]]", expected "Tuple[Any, ...]")  [return-value]
+Found 2 errors in 1 file (checked 4 source files)
+
+[RRepo](ESultanik)lenticrypt
+(ESultanik)lenticrypt/lenticrypt/iowrapper.py:54: error: Signature of "__getitem__" incompatible with supertype "Sequence"  [override]
+(ESultanik)lenticrypt/lenticrypt/iowrapper.py:56: error: Incompatible return value type (got "Union[bytes, int, Sequence[Any], Any]", expected "Union[int, bytes]")  [return-value]
+(ESultanik)lenticrypt/lenticrypt/__main__.py:39: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")  [assignment]
+(ESultanik)lenticrypt/tests/test_main.py:22: error: Incompatible return value type (got "Tuple[Tuple[int, ...], ...]", expected "Tuple[Tuple[int, ...]]")  [return-value]
+(ESultanik)lenticrypt/tests/test_main.py:40: error: Argument 1 to "make_plaintexts" has incompatible type "Tuple[IO[bytes], ...]"; expected "Sequence[BinaryIO]"  [arg-type]
+(ESultanik)lenticrypt/tests/test_main.py:44: error: Argument 1 to "make_keys" has incompatible type "Tuple[IO[bytes], ...]"; expected "Sequence[BinaryIO]"  [arg-type]
+Found 6 errors in 3 files (checked 8 source files)
+
+[RRepo](chfoo)wpull
+(chfoo)wpull/wpull/protocol/ftp/util_test.py: error: Duplicate module named 'util_test' (also at '/home/bew/archive/typed_project/(chfoo)wpull/wpull/util_test.py')  [misc]
+(chfoo)wpull/wpull/protocol/ftp/util_test.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 184 source files)
+
+[RRepo](fasiha)ebisu
+(fasiha)ebisu/gb1.py:192: error: Module has no attribute "predictRecallVar"; maybe "predictRecall"?  [attr-defined]
+(fasiha)ebisu/ebisu/tests/test_ebisu.py:149: error: Argument 1 to "loadTestsFromModule" of "TestLoader" has incompatible type "TestEbisu"; expected Module  [arg-type]
+Found 2 errors in 2 files (checked 4 source files)
+
+[RRepo](masschallenge)impact-api
+(masschallenge)impact-api/web/impact/impact/v1/views/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(masschallenge)impact-api/web/impact/impact/utils.py')  [misc]
+(masschallenge)impact-api/web/impact/impact/v1/views/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 167 source files)
+
+[RRepo](codemirror)google-modes
+(codemirror)google-modes/test/py/grammar.py:3: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](gnachman)iTerm2
+(gnachman)iTerm2/api/library/python/iterm2/docs/examples/launch_and_run.py:1: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 36 source files)
+
+[RRepo](theelous3)asks
+(theelous3)asks/asks/http_utils.py:21: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(theelous3)asks/asks/http_utils.py:21: note: Did you mean "List[...]"?
+Found 1 error in 1 file (checked 13 source files)
+
+[RRepo](longnow)panlex_python_API
+Success: no issues found in 2 source files
+
+[RRepo](Shark-ML)Shark
+(Shark-ML)Shark/doc/tools/replaceHeaders.py:54: error: Missing parentheses in call to 'print'. Did you mean print("\nShark header replacement tool v0.1\n\n")?  [syntax]
+Found 1 error in 1 file (checked 2 source files)
+
+[RRepo](ctherien)pysptools
+(ctherien)pysptools/pysptools/eea/nfindr.py:29: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 64 source files)
+
+[RRepo](cloudera)ibis
+(cloudera)ibis/ibis/sql/postgres/tests/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(cloudera)ibis/conftest.py')  [misc]
+(cloudera)ibis/ibis/sql/postgres/tests/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 93 source files)
+
+[RRepo](Fahreeve)aiovk
+(Fahreeve)aiovk/aiovk/longpoll.py:11: error: Invalid type comment or annotation  [valid-type]
+(Fahreeve)aiovk/aiovk/longpoll.py:68: error: Unsupported left operand type for + ("None")  [operator]
+(Fahreeve)aiovk/aiovk/longpoll.py:83: error: Unsupported left operand type for + ("None")  [operator]
+(Fahreeve)aiovk/aiovk/sessions.py:122: error: Invalid type comment or annotation  [valid-type]
+(Fahreeve)aiovk/aiovk/sessions.py:191: error: Syntax error in type annotation  [syntax]
+(Fahreeve)aiovk/aiovk/sessions.py:191: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Fahreeve)aiovk/aiovk/sessions.py:222: error: Syntax error in type annotation  [syntax]
+(Fahreeve)aiovk/aiovk/sessions.py:222: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(Fahreeve)aiovk/aiovk/sessions.py:246: error: Syntax error in type annotation  [syntax]
+(Fahreeve)aiovk/aiovk/sessions.py:246: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 7 errors in 2 files (checked 14 source files)
+
+[RRepo](agdsn)pycroft
+(agdsn)pycroft/web/app.py:16: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 141 source files)
+
+[RRepo](raviqqe)tensorflow-extenteten
+(raviqqe)tensorflow-extenteten/extenteten/classification.py:4: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 46 source files)
+
+[RRepo](rusthon)Rusthon
+(rusthon)Rusthon/regtests/run-benchmarks.py:100: error: Missing parentheses in call to 'print'. Did you mean print(name)?  [syntax]
+Found 1 error in 1 file (checked 25 source files)
+
+[RRepo](baldurk)renderdoc
+(baldurk)renderdoc/util/test/rdtest/runner.py:12: error: No parent module -- cannot perform relative import  [misc]
+(baldurk)renderdoc/util/test/rdtest/runner.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 46 source files)
+
+[RRepo](box)ClusterRunner
+(box)ClusterRunner/test/unit/common/test_build_artifact.py: error: Duplicate module named 'test_build_artifact' (also at '/home/bew/archive/typed_project/(box)ClusterRunner/test/integration/common/test_build_artifact.py')  [misc]
+Found 1 error in 1 file (checked 143 source files)
+
+[RRepo](lyst)lightfm
+(lyst)lightfm/examples/movielens/data.py: error: Duplicate module named 'data' (also at '/home/bew/archive/typed_project/(lyst)lightfm/lightfm/data.py')  [misc]
+(lyst)lightfm/examples/movielens/data.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 15 source files)
+
+[RRepo](reupen)aiogithub
+(reupen)aiogithub/aiogithub/helpers/typing.py:1: error: Module 'typing' has no attribute 'GenericMeta'  [attr-defined]
+(reupen)aiogithub/aiogithub/helpers/typing.py:1: error: Module 'typing' has no attribute 'List'  [attr-defined]
+(reupen)aiogithub/aiogithub/aiogithub.py:2: error: Module 'typing' has no attribute 'Optional'  [attr-defined]
+
+[RRepo](Cog-Creators)Red-DiscordBot
+(Cog-Creators)Red-DiscordBot/redbot/cogs/mod/mod.py:23: error: Unsupported dynamic base class "type"  [misc]
+(Cog-Creators)Red-DiscordBot/redbot/cogs/mod/mod.py:62: error: Need type annotation for 'default_user_settings'  [var-annotated]
+(Cog-Creators)Red-DiscordBot/redbot/core/drivers/red_json.py:178: error: Module has no attribute "get_running_loop"; maybe "_get_running_loop" or "_set_running_loop"?  [attr-defined]
+Found 3 errors in 2 files (checked 2 source files)
+
+[RRepo](Ge0)chattymarkov
+Success: no issues found in 8 source files
+
+[RRepo](pengutronix)aiohttp-json-rpc
+(pengutronix)aiohttp-json-rpc/aiohttp_json_rpc/client.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](NLHEALTHCARE)PYELT
+(NLHEALTHCARE)PYELT/pyelt/process/old/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(NLHEALTHCARE)PYELT/pyelt/process/base.py')  [misc]
+(NLHEALTHCARE)PYELT/pyelt/process/old/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 72 source files)
+
+[RRepo](google)merge_pyi
+(google)merge_pyi/testdata/packed_tuple.py:3: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 50 source files)
+
+[RRepo](robocomp)learnbot
+(robocomp)learnbot/learnbot_components/laser/src/VL53L0X.py: error: Duplicate module named 'VL53L0X' (also at '/home/bew/archive/typed_project/(robocomp)learnbot/learnbot_components/laser/python/VL53L0X.py')  [misc]
+Found 1 error in 1 file (checked 174 source files)
+
+[RRepo](Woile)commitizen
+(Woile)commitizen/commitizen/commands/bump.py: error: Duplicate module named 'bump' (also at '/home/bew/archive/typed_project/(Woile)commitizen/commitizen/bump.py')  [misc]
+(Woile)commitizen/commitizen/commands/bump.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 29 source files)
+
+[RRepo](nfnty)dockerfiles
+Success: no issues found in 7 source files
+
+[RRepo](Drummersbrother)rocket-snake
+(Drummersbrother)rocket-snake/rocket_snake/basic_requests.py:28: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](Nic30)HWToolkit
+(Nic30)HWToolkit/hwt/interfaces/agents/structIntf.py: error: Duplicate module named 'structIntf' (also at '/home/bew/archive/typed_project/(Nic30)HWToolkit/hwt/interfaces/structIntf.py')  [misc]
+(Nic30)HWToolkit/hwt/interfaces/agents/structIntf.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 155 source files)
+
+[RRepo](coala)coala
+(coala)coala/tests/settings/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(coala)coala/conftest.py')  [misc]
+(coala)coala/tests/settings/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 223 source files)
+
+[RRepo](mlouielu)twstock
+(mlouielu)twstock/twstock/stock.py:17: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](ktsstudio)aiokts
+(ktsstudio)aiokts/aiokts/manage.py:118: error: Name 'Manage' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:135: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:140: error: Name 'supply_mysql_conn' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:141: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:183: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:208: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:234: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:260: error: Name 'supply_persist_conn_trx' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:261: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:268: error: Name 'supply_mysql_conn' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:269: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:274: error: Name 'supply_mysql_conn' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:275: error: Name 'mysql_connected_check' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:286: error: Name 'supply_mysql_conn' is not defined  [name-defined]
+(ktsstudio)aiokts/aiokts/store/base_accessors/base_mysql.py:287: error: Name 'mysql_connected_check' is not defined  [name-defined]
+Found 15 errors in 2 files (checked 26 source files)
+
+[RRepo](caterinaurban)Lyra
+(caterinaurban)Lyra/src/lyra/engine/forward.py: error: Duplicate module named 'forward' (also at '/home/bew/archive/typed_project/(caterinaurban)Lyra/src/lyra/semantics/forward.py')  [misc]
+Found 1 error in 1 file (checked 58 source files)
+
+[RRepo](WEEE-Open)weeelab-telegram-bot
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:11: error: Need type annotation for 'log' (hint: "log: List[<type>] = ...")  [var-annotated]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:23: error: Need type annotation for 'old_log' (hint: "old_log: List[<type>] = ...")  [var-annotated]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:185: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(WEEE-Open)weeelab-telegram-bot/Weeelablib.py:197: error: "None" has no attribute "__iter__" (not iterable)  [attr-defined]
+(WEEE-Open)weeelab-telegram-bot/ToLab.py:26: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+Found 5 errors in 2 files (checked 3 source files)
+
+[RRepo](vakabus)pybakalib
+Success: no issues found in 7 source files
+
+[RRepo](jwkvam)bowtie
+Success: no issues found in 28 source files
+
+[RRepo](twisteroidambassador)pluggabletransportadapter
+(twisteroidambassador)pluggabletransportadapter/ptadapter/contexts.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](tonnie17)flowlight
+(tonnie17)flowlight/flowlight/core/connection.py:106: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection, Command], Any]"; expected "Connection"  [arg-type]
+(tonnie17)flowlight/flowlight/core/connection.py:110: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection, Command], Coroutine[Any, Any, Any]]"; expected "Connection"  [arg-type]
+(tonnie17)flowlight/flowlight/core/connection.py:156: error: "IO[bytes]" has no attribute "setblocking"  [attr-defined]
+(tonnie17)flowlight/flowlight/core/connection.py:157: error: "IO[bytes]" has no attribute "exec_command"  [attr-defined]
+(tonnie17)flowlight/flowlight/core/connection.py:176: error: Argument 1 to "ensure_connect" has incompatible type "Callable[[Connection], Any]"; expected "Connection"  [arg-type]
+
+[RRepo](jbarlow83)OCRmyPDF
+(jbarlow83)OCRmyPDF/src/ocrmypdf/__main__.py:23: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 50 source files)
+
+[RRepo](quodlibet)quodlibet
+(quodlibet)quodlibet/quodlibet/quodlibet/config.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 549 source files)
+
+[RRepo](jesopo)bitbot
+(jesopo)bitbot/modules/channel_op.py:133: error: Name 'op' already defined on line 121  [no-redef]
+(jesopo)bitbot/modules/location.py:11: error: "None" not callable  [misc]
+(jesopo)bitbot/src/EventManager.py:40: error: Need type annotation for '_kwargs' (hint: "_kwargs: Dict[<type>, <type>] = ...")  [var-annotated]
+(jesopo)bitbot/src/EventManager.py:41: error: Need type annotation for '_multi_kwargs' (hint: "_multi_kwargs: Dict[<type>, <type>] = ...")  [var-annotated]
+(jesopo)bitbot/src/EventManager.py:97: error: Argument 5 to "_hook" of "EventRoot" has incompatible type "List[Tuple[str, Any]]"; expected "Dict[Any, Any]"  [arg-type]
+(jesopo)bitbot/src/EventManager.py:149: error: Argument 5 to "EventHook" has incompatible type "Dict[Any, Any]"; expected "List[Tuple[str, Any]]"  [arg-type]
+(jesopo)bitbot/src/ModuleManager.py:184: error: Module has no attribute "util"  [attr-defined]
+(jesopo)bitbot/src/ModuleManager.py:186: error: Module has no attribute "util"  [attr-defined]
+(jesopo)bitbot/src/utils/__init__.py:244: error: Argument 1 of "__contains__" is incompatible with supertype "Mapping"; supertype defines the argument type as "object"  [override]
+(jesopo)bitbot/src/utils/__init__.py:244: error: Argument 1 of "__contains__" is incompatible with supertype "Container"; supertype defines the argument type as "object"  [override]
+(jesopo)bitbot/src/IRCLine.py:118: error: Incompatible return value type (got "List[str]", expected "Tuple[str, str]")  [return-value]
+(jesopo)bitbot/src/IRCLine.py:148: error: Name 'EventManager' is not defined  [name-defined]
+(jesopo)bitbot/modules/git_webhooks/__init__.py:8: error: Module 'git_webhooks' has no attribute 'colors'  [attr-defined]
+(jesopo)bitbot/modules/git_webhooks/__init__.py:8: error: Module 'git_webhooks' has no attribute 'github'  [attr-defined]
+(jesopo)bitbot/src/utils/consts.py:2: error: Module 'utils' has no attribute '_consts_256_color'  [attr-defined]
+Found 15 errors in 8 files (checked 154 source files)
+
+[RRepo](475Cumulus)TBone
+(475Cumulus)TBone/tbone/data/fields/mongo.py: error: Duplicate module named 'mongo' (also at '/home/bew/archive/typed_project/(475Cumulus)TBone/tbone/resources/mongo.py')  [misc]
+(475Cumulus)TBone/tbone/data/fields/mongo.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 56 source files)
+
+[RRepo](jrg365)gpytorch
+(jrg365)gpytorch/gpytorch/likelihoods/gaussian_likelihood.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 202 source files)
+
+[RRepo](sirex)gramtool
+(sirex)gramtool/gramtool/hunspell.py:22: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+(sirex)gramtool/gramtool/hunspell.py:31: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](catmaid)CATMAID
+(catmaid)CATMAID/scripts/remote/upload_swc.py:61: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 143 source files)
+
+[RRepo](MartinHjelmare)home-assistant
+(MartinHjelmare)home-assistant/script/hassfest/__main__.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 554 source files)
+
+[RRepo](hsolbrig)SNOMEDToOWL
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:34: error: Name 'StatedRelationshipFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:35: error: Name 'RelationshipFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:54: error: Name 'Defining_relationship_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:55: error: Name 'Some_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:56: error: Name 'Is_a_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:63: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Relationship.py:71: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:38: error: Name 'LanguageFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:56: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:62: error: Name 'Preferred_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:64: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:70: error: Name 'Acceptable_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Language.py:72: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Concept.py:35: error: Name 'Primitive_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Concept.py:39: error: Name 'ConceptFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Concept.py:60: error: Name 'Linkage_concept_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Concept.py:62: error: Name 'Concept_model_attribute_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:43: error: Name 'DescriptionFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:44: error: Name 'TextDefinitionFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:50: error: Need type annotation for '_members' (hint: "_members: Dict[<type>, <type>] = ...")  [var-annotated]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:74: error: Name 'Concept_model_attribute_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:75: error: Name 'Fully_specified_name_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:77: error: Name 'AlwaysEmitOWLFor' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:80: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:87: error: Name 'Fully_specified_name_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:110: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:116: error: Name 'Synonym_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:118: error: Name 'SCTID' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Files/Description.py:124: error: Name 'Definition_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:10: error: Name 'Is_a_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:10: error: Name 'Concept_model_attribute_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:10: error: Name 'Linkage_concept_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:10: error: Name 'Defined_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:11: error: Name 'Primitive_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:11: error: Name 'Fully_specified_name_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:11: error: Name 'Definition_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:11: error: Name 'Synonym_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:11: error: Name 'Module_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:12: error: Name 'Preferred_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:12: error: Name 'Acceptable_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:12: error: Name 'Role_group_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:12: error: Name 'Defining_relationship_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:12: error: Name 'Some_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:13: error: Name 'Inferred_relationship_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:13: error: Name 'Stated_relationship_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:13: error: Name 'IHTSDO_maintained_module_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:14: error: Name 'Namespace_concept_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:14: error: Name 'Core_metadata_concept_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:14: error: Name 'SNOMED_CT_Model_Component_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:25: error: Need type annotation for '_matched_concepts' (hint: "_matched_concepts: Set[<type>] = ...")  [var-annotated]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:26: error: Need type annotation for '_visited_concepts' (hint: "_visited_concepts: Set[<type>] = ...")  [var-annotated]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:27: error: Need type annotation for '_visited_descriptions' (hint: "_visited_descriptions: Set[<type>] = ...")  [var-annotated]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:34: error: Name 'Concept_model_attribute_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:53: error: Name 'RelationshipFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:62: error: Name 'Is_a_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:82: error: Name 'RelationshipFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:83: error: Name 'StatedRelationshipFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:100: error: Name 'Is_a_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:103: error: "add" of "set" does not return a value  [func-returns-value]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:109: error: Name 'ConceptFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:120: error: Name 'DescriptionFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:126: error: Name 'Fully_specified_name_sctid' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:132: error: Name 'TextDefinitionFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/RF2Filter.py:143: error: Name 'LanguageFilePrefix' is not defined  [name-defined]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/CompareRDF.py:36: error: Incompatible return value type (got "float", expected "str")  [return-value]
+(hsolbrig)SNOMEDToOWL/SNOMEDCTToOWL/CompareRDF.py:40: error: Incompatible types in string interpolation (expression has type "str", placeholder has type "Union[int, float]")  [str-format]
+Found 66 errors in 6 files (checked 14 source files)
+
+[RRepo](OddBloke)jenkins-job-linter
+(OddBloke)jenkins-job-linter/tests/test_linters.py:35: error: Argument 1 to "list" has incompatible type "Iterator[Tuple[str, ...]]"; expected "Iterable[str]"  [arg-type]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](browncoat-ninjas)nimoy
+(browncoat-ninjas)nimoy/nimoy/assertions/exceptions.py: error: Duplicate module named 'exceptions' (also at '/home/bew/archive/typed_project/(browncoat-ninjas)nimoy/nimoy/runner/exceptions.py')  [misc]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](ikvk)imap_tools
+(ikvk)imap_tools/imap_tools/folder.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](mesgarpour)T-CARER
+(mesgarpour)T-CARER/Stats/TransformThread.py:27: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/TransformThread.py:27: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/TransformThread.py:50: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:60: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:60: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:63: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:73: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:73: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:76: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:91: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:93: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:96: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:111: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:112: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:115: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:130: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:131: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:134: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:145: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:145: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:148: error: Variable "TransformThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TransformThread.py:160: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:163: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TransformThread.py:164: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:26: error: String argument 1 'KNeighborsClassifier' to TypeVar(...) does not match variable name 'SklearnKNeighborsClassifier'  [misc]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:47: error: Variable "_KNeighborsClassifier.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:50: error: Variable "_KNeighborsClassifier.SklearnKNeighborsClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:61: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:65: error: Variable "_KNeighborsClassifier.SklearnKNeighborsClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:71: error: Need type annotation for 'summaries' (hint: "summaries: Dict[<type>, <type>] = ...")  [var-annotated]
+(mesgarpour)T-CARER/Stats/_KNeighborsClassifier.py:76: error: Variable "_KNeighborsClassifier.SklearnKNeighborsClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:26: error: String argument 1 'MultinomialNB' to TypeVar(...) does not match variable name 'SklearnMultinomialNB'  [misc]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:46: error: Variable "_NaiveBayes.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:49: error: Variable "_NaiveBayes.SklearnMultinomialNB" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:59: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:63: error: Variable "_NaiveBayes.SklearnMultinomialNB" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:70: error: SklearnMultinomialNB? has no attribute "class_log_prior_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:71: error: SklearnMultinomialNB? has no attribute "intercept_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:72: error: SklearnMultinomialNB? has no attribute "feature_log_prob_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:73: error: SklearnMultinomialNB? has no attribute "coef_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:74: error: SklearnMultinomialNB? has no attribute "class_count_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:75: error: SklearnMultinomialNB? has no attribute "feature_count_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NaiveBayes.py:79: error: Variable "_NaiveBayes.SklearnMultinomialNB" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:39: error: Variable "FactoringThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:52: error: Variable "FactoringThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:62: error: PandasDataFrame? has no attribute "add"  [attr-defined]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:66: error: Variable "FactoringThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:71: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:77: error: Variable "FactoringThread.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FactoringThread.py:83: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:26: error: String argument 1 'LogisticRegression' to TypeVar(...) does not match variable name 'SklearnLogisticRegression'  [misc]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:47: error: Variable "_LogisticRegression.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:50: error: Variable "_LogisticRegression.SklearnLogisticRegression" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:62: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:66: error: Variable "_LogisticRegression.SklearnLogisticRegression" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:74: error: SklearnLogisticRegression? has no attribute "coef_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:76: error: SklearnLogisticRegression? has no attribute "intercept_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:78: error: SklearnLogisticRegression? has no attribute "n_iter_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegression.py:82: error: Variable "_LogisticRegression.SklearnLogisticRegression" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:26: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:27: error: String argument 1 'MixedLM' to TypeVar(...) does not match variable name 'StatsmodelsMixedLM'  [misc]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:27: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:48: error: Variable "_MixedLinearModel.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:51: error: Variable "_MixedLinearModel.StatsmodelsMixedLM" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:64: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:65: error: PandasDataFrame? has no attribute "drop"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:77: error: Variable "_MixedLinearModel.StatsmodelsMixedLM" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:83: error: Need type annotation for 'summaries' (hint: "summaries: Dict[<type>, <type>] = ...")  [var-annotated]
+(mesgarpour)T-CARER/Stats/_MixedLinearModel.py:88: error: Variable "_MixedLinearModel.StatsmodelsMixedLM" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:26: error: String argument 1 'MLPClassifier' to TypeVar(...) does not match variable name 'SklearnMLPClassifier'  [misc]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:47: error: Variable "_NeuralNetwork.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:50: error: Variable "_NeuralNetwork.SklearnMLPClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:60: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:64: error: Variable "_NeuralNetwork.SklearnMLPClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:71: error: SklearnMLPClassifier? has no attribute "classes_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:72: error: SklearnMLPClassifier? has no attribute "loss_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:73: error: SklearnMLPClassifier? has no attribute "coefs_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:74: error: SklearnMLPClassifier? has no attribute "intercepts_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:75: error: SklearnMLPClassifier? has no attribute "n_iter_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:76: error: SklearnMLPClassifier? has no attribute "n_layers_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:77: error: SklearnMLPClassifier? has no attribute "n_outputs_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:78: error: SklearnMLPClassifier? has no attribute "out_activation_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_NeuralNetwork.py:82: error: Variable "_NeuralNetwork.SklearnMLPClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:26: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:27: error: String argument 1 'DecisionTreeClassifier' to TypeVar(...) does not match variable name 'SklearnDecisionTreeClassifier'  [misc]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:27: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:28: error: String argument 1 'pydotplus.graphviz.Dot' to TypeVar(...) does not match variable name 'GraphvizDot'  [misc]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:28: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:49: error: Variable "_DecisionTreeClassifier.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:52: error: Variable "_DecisionTreeClassifier.SklearnDecisionTreeClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:64: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:68: error: Variable "_DecisionTreeClassifier.SklearnDecisionTreeClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:75: error: SklearnDecisionTreeClassifier? has no attribute "classes_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:76: error: SklearnDecisionTreeClassifier? has no attribute "feature_importances_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:77: error: SklearnDecisionTreeClassifier? has no attribute "max_features_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:78: error: SklearnDecisionTreeClassifier? has no attribute "n_classes_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:79: error: SklearnDecisionTreeClassifier? has no attribute "n_features_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:80: error: SklearnDecisionTreeClassifier? has no attribute "n_outputs_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:81: error: SklearnDecisionTreeClassifier? has no attribute "tree_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:85: error: Variable "_DecisionTreeClassifier.SklearnDecisionTreeClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_DecisionTreeClassifier.py:87: error: Variable "_DecisionTreeClassifier.GraphvizDot" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:27: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:27: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:28: error: String argument 1 'RandomForestClassifier' to TypeVar(...) does not match variable name 'SklearnRandomForestClassifier'  [misc]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:28: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:48: error: Variable "_RandomForestClassifier.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:51: error: Variable "_RandomForestClassifier.SklearnRandomForestClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:64: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:68: error: Variable "_RandomForestClassifier.SklearnRandomForestClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:75: error: SklearnRandomForestClassifier? has no attribute "estimators_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:76: error: SklearnRandomForestClassifier? has no attribute "classes_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:77: error: SklearnRandomForestClassifier? has no attribute "n_classes_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:78: error: SklearnRandomForestClassifier? has no attribute "n_features_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:79: error: SklearnRandomForestClassifier? has no attribute "n_outputs_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:80: error: SklearnRandomForestClassifier? has no attribute "feature_importances_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:84: error: Variable "_RandomForestClassifier.SklearnRandomForestClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_RandomForestClassifier.py:94: error: SklearnRandomForestClassifier? has no attribute "__iter__" (not iterable)  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:26: error: String argument 1 'LogisticRegressionCV' to TypeVar(...) does not match variable name 'SklearnLogisticRegressionCV'  [misc]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:47: error: Variable "_LogisticRegressionCV.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:50: error: Variable "_LogisticRegressionCV.SklearnLogisticRegressionCV" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:66: error: Variable "_LogisticRegressionCV.SklearnLogisticRegressionCV" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:74: error: SklearnLogisticRegressionCV? has no attribute "coef_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:76: error: SklearnLogisticRegressionCV? has no attribute "intercept_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:78: error: SklearnLogisticRegressionCV? has no attribute "n_iter_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_LogisticRegressionCV.py:82: error: Variable "_LogisticRegressionCV.SklearnLogisticRegressionCV" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:25: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:25: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:26: error: String argument 1 'GradientBoostingClassifier' to TypeVar(...) does not match variable name 'SklearnGradientBoostingClassifier'  [misc]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:47: error: Variable "_GradientBoostingClassifier.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:50: error: Variable "_GradientBoostingClassifier.SklearnGradientBoostingClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:62: error: PandasDataFrame? has no attribute "values"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:66: error: Variable "_GradientBoostingClassifier.SklearnGradientBoostingClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:73: error: SklearnGradientBoostingClassifier? has no attribute "feature_importances_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:74: error: SklearnGradientBoostingClassifier? has no attribute "train_score_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:75: error: SklearnGradientBoostingClassifier? has no attribute "loss_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:76: error: SklearnGradientBoostingClassifier? has no attribute "init"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:77: error: SklearnGradientBoostingClassifier? has no attribute "estimators_"  [attr-defined]
+(mesgarpour)T-CARER/Stats/_GradientBoostingClassifier.py:81: error: Variable "_GradientBoostingClassifier.SklearnGradientBoostingClassifier" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:29: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:29: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:109: error: Variable "_CsvFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:125: error: Variable "_CsvFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:163: error: Variable "_CsvFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:182: error: Variable "_CsvFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:196: error: PandasDataFrame? has no attribute "shape"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:197: error: PandasDataFrame? has no attribute "shape"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_CsvFile.py:198: error: PandasDataFrame? has no attribute "to_csv"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:32: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:32: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:33: error: String argument 1 'OrderedDict' to TypeVar(...) does not match variable name 'CollectionsOrderedDict'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:33: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:65: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:121: error: Variable "_TextFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:151: error: Variable "_TextFile.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:159: error: PandasDataFrame? has no attribute "to_string"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:159: error: PandasDataFrame? has no attribute "columns"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:184: error: Variable "_TextFile.CollectionsOrderedDict" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:191: error: "Callable[[Dict[Any, Any], CollectionsOrderedDict?], None]" has no attribute "items"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_TextFile.py:193: error: Argument 1 to "__append_pretty_dict" of "TextFile" has incompatible type "Dict[Any, Any]"; expected "Callable[[Dict[Any, Any], CollectionsOrderedDict?], None]"  [arg-type]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:84: error: "None" has no attribute "sections"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:93: error: "None" has no attribute "items"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:105: error: "None" has no attribute "get"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:129: error: Need type annotation for 'values' (hint: "values: List[<type>] = ...")  [var-annotated]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:132: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", variable has type "List[Any]")  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:135: error: "None" has no attribute "get"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:143: error: Incompatible return value type (got "List[Any]", expected "Dict[Any, Any]")  [return-value]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:164: error: Incompatible types in assignment (expression has type "List[str]", target has type "Dict[Any, Any]")  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:170: error: Incompatible default for argument "append" (default has type "bool", argument has type "str")  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:179: error: Cannot assign to a method  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/PyConfigParser.py:179: error: Incompatible types in assignment (expression has type "Type[str]", variable has type "Callable[[str], str]")  [assignment]
+(mesgarpour)T-CARER/ReadersWriters/_PickleSerialised.py:29: error: String argument 1 'stat_result' to TypeVar(...) does not match variable name 'OsStatResult'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_PickleSerialised.py:29: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_PickleSerialised.py:147: error: Variable "_PickleSerialised.OsStatResult" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:30: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:30: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:31: error: String argument 1 'Engine' to TypeVar(...) does not match variable name 'SqlalchemyEngine'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:31: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:32: error: String argument 1 'sessionmaker' to TypeVar(...) does not match variable name 'SqlAlchemySessionMaker'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:32: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:46: error: Variable "_MysqlCommand.SqlalchemyEngine" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:62: error: Variable "_MysqlCommand.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:82: error: Variable "_MysqlCommand.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:99: error: SqlalchemyEngine? has no attribute "connect"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:145: error: SqlalchemyEngine? has no attribute "connect"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:181: error: SqlalchemyEngine? has no attribute "raw_connection"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:218: error: SqlalchemyEngine? has no attribute "raw_connection"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:239: error: Variable "_MysqlCommand.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:260: error: Variable "_MysqlCommand.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:277: error: SqlalchemyEngine? has no attribute "connect"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:283: error: PandasDataFrame? has no attribute "to_sql"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:314: error: SqlalchemyEngine? has no attribute "connect"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:334: error: Variable "_MysqlCommand.SqlAlchemySessionMaker" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlCommand.py:340: error: SqlAlchemySessionMaker? has no attribute "execute"  [attr-defined]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlConnection.py:33: error: String argument 1 'Engine' to TypeVar(...) does not match variable name 'SqlalchemyEngine'  [misc]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlConnection.py:33: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlConnection.py:75: error: Variable "_MysqlConnection.SqlalchemyEngine" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/ReadersWriters/_MysqlConnection.py:81: error: Name 'create_engine' is not defined  [name-defined]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:35: error: String argument 1 'ndarray' to TypeVar(...) does not match variable name 'NumpyNDArray'  [misc]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:35: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:36: error: String argument 1 'Series' to TypeVar(...) does not match variable name 'PandasSeries'  [misc]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:36: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:41: error: Variable "YeoJohnson.NumpyNDArray" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:41: error: Variable "YeoJohnson.PandasSeries" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:43: error: Incompatible default for argument "derivative" (default has type "int", argument has type "Callable[[int, float], None]")  [assignment]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:100: error: Unsupported operand types for - ("Callable[[int, float], None]" and "int")  [operator]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:100: error: Argument "derivative" to "fit" of "YeoJohnson" has incompatible type "int"; expected "Callable[[int, float], None]"  [arg-type]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:110: error: Unsupported operand types for + ("Callable[[int, float], None]" and "int")  [operator]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:120: error: Unsupported operand types for + ("Callable[[int, float], None]" and "int")  [operator]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:124: error: Variable "YeoJohnson.NumpyNDArray" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/YeoJohnson.py:124: error: Variable "YeoJohnson.PandasSeries" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:31: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:31: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:51: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:77: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:98: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:124: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:149: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:173: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:201: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:223: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:243: error: Variable "FeatureSelection.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/FeatureSelection.py:261: error: PandasDataFrame? has no attribute "shape"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:38: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:38: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:39: error: String argument 1 'ndarray' to TypeVar(...) does not match variable name 'NumpyNDArray'  [misc]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:39: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:40: error: String argument 1 'OrderedDict' to TypeVar(...) does not match variable name 'CollectionsOrderedDict'  [misc]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:40: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:74: error: Need type annotation for 'model_predict' (hint: "model_predict: Dict[<type>, <type>] = ...")  [var-annotated]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:86: error: Variable "TrainingMethod.NumpyNDArray" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:122: error: Incompatible types in assignment (expression has type "Optional[List[Any]]", variable has type "None")  [assignment]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:128: error: Variable "TrainingMethod.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:138: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "None")  [assignment]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:138: error: PandasDataFrame? has no attribute "columns"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:139: error: "None" has no attribute "train"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:140: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:148: error: "None" has no attribute "plot"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:155: error: "None" has no attribute "train_summaries"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:158: error: Variable "TrainingMethod.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:159: error: Variable "TrainingMethod.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:166: error: "None" has no attribute "predict"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:166: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:171: error: Variable "TrainingMethod.CollectionsOrderedDict" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:179: error: "None" has no attribute "predict_summaries"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:184: error: Variable "TrainingMethod.CollectionsOrderedDict" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:193: error: "None" has no attribute "predict_summaries_cutoffs_table"  [attr-defined]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:197: error: Variable "TrainingMethod.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:211: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:233: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", target has type "str")  [assignment]
+(mesgarpour)T-CARER/Stats/TrainingMethod.py:250: error: Incompatible types in assignment (expression has type "Dict[Any, Any]", target has type "str")  [assignment]
+(mesgarpour)T-CARER/Features/FeatureParser.py:33: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Features/FeatureParser.py:33: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Features/FeatureParser.py:34: error: String argument 1 'ndarray' to TypeVar(...) does not match variable name 'NumpyNdarray'  [misc]
+(mesgarpour)T-CARER/Features/FeatureParser.py:34: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Features/FeatureParser.py:49: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:67: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:68: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:69: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:79: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:88: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:94: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:94: error: Value of type NumpyNdarray? is not indexable  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:97: error: Value of type PandasDataFrame? is not indexable  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:100: error: Unsupported target for indexed assignment  [index]
+(mesgarpour)T-CARER/Features/FeatureParser.py:104: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:107: error: Variable "FeatureParser.NumpyNdarray" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParser.py:128: error: Variable "FeatureParser.PandasDataFrame" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:26: error: String argument 1 'DataFrame' to TypeVar(...) does not match variable name 'PandasDataFrame'  [misc]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:26: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:27: error: String argument 1 'ndarray' to TypeVar(...) does not match variable name 'NumpyNdarray'  [misc]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:27: error: "object" not callable  [operator]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:45: error: Variable "FeatureParserThread.NumpyNdarray" is not valid as a type  [valid-type]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:65: error: Argument 1 to "map" has incompatible type "Type[int]"; expected "Callable[[object], int]"  [arg-type]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:65: error: Argument 1 to "map" has incompatible type "Type[int]"; expected "Callable[[object], object]"  [arg-type]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:90: error: Value of type variable "_Number" of "mean" cannot be "object"  [type-var]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:94: error: Value of type variable "_Number" of "median" cannot be "object"  [type-var]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:111: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:112: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:113: error: Incompatible types in assignment (expression has type "List[object]", variable has type "str")  [assignment]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:114: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(mesgarpour)T-CARER/Features/FeatureParserThread.py:115: error: Incompatible return value type (got "str", expected "List[Any]")  [return-value]
+Found 301 errors in 22 files (checked 26 source files)
+
+[RRepo](urda)nistbeacon
+(urda)nistbeacon/tests/unit/nistbeacon/test_nistbeacon.py: error: Duplicate module named 'test_nistbeacon' (also at '/home/bew/archive/typed_project/(urda)nistbeacon/tests/integration/nistbeacon/test_nistbeacon.py')  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](GVLL)domrj
+(GVLL)domrj/domrj/utils.py:37: error: Incompatible return value type (got "int", expected "str")  [return-value]
+Found 1 error in 1 file (checked 6 source files)
+
+[RRepo](facebookresearch)ParlAI
+(facebookresearch)ParlAI/projects/convai2/baselines/seq2seq/eval_f1.py: error: Duplicate module named 'eval_f1' (also at '/home/bew/archive/typed_project/(facebookresearch)ParlAI/projects/convai2/eval_f1.py')  [misc]
+(facebookresearch)ParlAI/projects/convai2/baselines/seq2seq/eval_f1.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 402 source files)
+
+[RRepo](XKNX)xknx
+(XKNX)xknx/xknx/xknx.py: error: Duplicate module named 'xknx' (also at '/home/bew/archive/typed_project/(XKNX)xknx/home-assistant-plugin/custom_components/xknx/__init__.py')  [misc]
+(XKNX)xknx/xknx/xknx.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 172 source files)
+
+[RRepo](anchore)anchore-engine
+(anchore)anchore-engine/anchore_engine/db/entities/common.py: error: Duplicate module named 'common' (also at '/home/bew/archive/typed_project/(anchore)anchore-engine/anchore_engine/subsys/events/common.py')  [misc]
+Found 1 error in 1 file (checked 254 source files)
+
+[RRepo](Aquafina-water-bottle)Command-Compiler-Unlimited
+(Aquafina-water-bottle)Command-Compiler-Unlimited/test_fena/other/test_all.py: error: Duplicate module named 'test_all' (also at '/home/bew/archive/typed_project/(Aquafina-water-bottle)Command-Compiler-Unlimited/test_fena/v1_12/test_all.py')  [misc]
+Found 1 error in 1 file (checked 55 source files)
+
+[RRepo](oilshell)oil
+(oilshell)oil/opy/callgraph.py:50: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 811 source files)
+
+[RRepo](sheriferson)simplestatistics
+(sheriferson)simplestatistics/simplestatistics/statistics/mode.py:41: error: Need type annotation for 'number_counter' (hint: "number_counter: Dict[<type>, <type>] = ...")  [var-annotated]
+(sheriferson)simplestatistics/simplestatistics/statistics/mode.py:45: error: Argument 1 to "len" has incompatible type "Union[int, List[Any]]"; expected "Sized"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/mode.py:46: error: Item "int" of "Union[int, List[Any]]" has no attribute "sort"  [union-attr]
+(sheriferson)simplestatistics/simplestatistics/statistics/mode.py:48: error: Item "int" of "Union[int, List[Any]]" has no attribute "__iter__" (not iterable)  [union-attr]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:42: error: Argument 1 to "float" has incompatible type "Union[int, float, List[Any]]"; expected "Union[SupportsFloat, _SupportsIndex, str, bytes, bytearray]"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:44: error: Item "int" of "Union[int, float, List[Any]]" has no attribute "sort"  [union-attr]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:44: error: Item "float" of "Union[int, float, List[Any]]" has no attribute "sort"  [union-attr]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:46: error: Argument 1 to "len" has incompatible type "Union[int, float, List[Any]]"; expected "Sized"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:47: error: Value of type "Union[int, float, List[Any]]" is not indexable  [index]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:48: error: Argument 1 to "len" has incompatible type "Union[int, float, List[Any]]"; expected "Sized"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:49: error: Value of type "Union[int, float, List[Any]]" is not indexable  [index]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:49: error: Argument 1 to "len" has incompatible type "Union[int, float, List[Any]]"; expected "Sized"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:52: error: Argument 1 to "len" has incompatible type "Union[int, float, List[Any]]"; expected "Sized"  [arg-type]
+(sheriferson)simplestatistics/simplestatistics/statistics/median.py:53: error: Value of type "Union[int, float, List[Any]]" is not indexable  [index]
+Found 14 errors in 2 files (checked 41 source files)
+
+[RRepo](sdeslauriers)streamlines
+Success: no issues found in 8 source files
+

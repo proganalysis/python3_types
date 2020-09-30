@@ -1,0 +1,78 @@
+----- Pylint -> [Mypy, Pyliint] -----
+abstract-class-instantiated 3/97
+  [['abstract', 'not-instantiable', 2], ['assignment', 'not-instantiable', 1]]
+access-member-before-definition 6/485
+  [['has-type', 'attribute-error', 4], ['attr-defined', 'attribute-error', 2]]
+catching-non-exception 3/13
+  [['misc', 'mro-error', 3]]
+duplicate-argument-name 2/22
+  [['syntax', 'python-compiler-error', 2]]
+function-redefined 30/1850
+  [['valid-type', 'name-error', 14], ['syntax', 'invalid-annotation', 9], ['valid-type', 'invalid-annotation', 4], ['valid-type', 'python-compiler-error', 3]]
+inconsistent-mro 4/8
+  [['misc', 'mro-error', 3], ['misc', 'ignored-metaclass', 1]]
+invalid-unary-operand-type 8/217
+  [['operator', 'unsupported-operands', 8]]
+no-member 572/108258
+  [['attr-defined', 'attribute-error', 371], ['attr-defined', 'module-attr', 113], ['name-defined', 'module-attr', 63], ['name-defined', 'name-error', 4], ['name-defined', 'attribute-error', 4], ['call-overload', 'wrong-arg-types', 2], ['operator', 'unsupported-operands', 2], ['no-redef', 'module-attr', 2], ['syntax', 'invalid-annotation', 2], ['valid-type', 'attribute-error', 2], ['has-type', 'attribute-error', 2], ['call-overload', 'attribute-error', 2], ['attr-defined', 'name-error', 1], ['misc', 'module-attr', 1], ['attr-defined', 'missing-parameter', 1]]
+no-method-argument 6/414
+  [['misc', 'name-error', 5], ['misc', 'bad-return-type', 1]]
+no-name-in-module 66/100081
+  [['attr-defined', 'python-compiler-error', 65], ['attr-defined', 'pyi-error', 1]]
+no-self-argument 67/1322
+  [['valid-type', 'invalid-annotation', 38], ['misc', 'invalid-annotation', 29]]
+no-value-for-parameter 54/3369
+  [['call-arg', 'missing-parameter', 47], ['misc', 'missing-parameter', 2], ['arg-type', 'missing-parameter', 2], ['call-overload', 'missing-parameter', 1], ['attr-defined', 'missing-parameter', 1], ['abstract', 'missing-parameter', 1]]
+not-an-iterable 2/327
+  [['attr-defined', 'attribute-error', 2]]
+not-callable 4/3879
+  [['operator', 'not-callable', 4]]
+return-outside-function 3/10
+  [['name-defined', 'python-compiler-error', 2], ['misc', 'python-compiler-error', 1]]
+syntax-error 203/4589
+  [['syntax', 'python-compiler-error', 190], ['syntax', 'ignored-type-comment', 13]]
+too-many-format-args 15/306
+  [['str-format', 'name-error', 15]]
+too-many-function-args 15/534
+  [['call-arg', 'wrong-arg-count', 7], ['call-arg', 'wrong-keyword-args', 2], ['name-defined', 'wrong-arg-count', 2], ['name-defined', 'name-error', 2], ['call-arg', 'name-error', 2]]
+undefined-variable 3813/62781
+  [['name-defined', 'name-error', 3748], ['str-format', 'name-error', 8], ['misc', 'name-error', 7], ['valid-type', 'name-error', 5], ['name-defined', 'python-compiler-error', 4], ['name-defined', 'attribute-error', 4], ['name-defined', 'wrong-arg-count', 3], ['no-redef', 'name-error', 3], ['index', 'name-error', 3], ['union-attr', 'attribute-error', 3], ['call-arg', 'wrong-arg-count', 2], ['misc', 'python-compiler-error', 2], ['union-attr', 'name-error', 2], ['call-overload', 'name-error', 2], ['call-arg', 'name-error', 2], ['attr-defined', 'name-error', 2], ['assignment', 'name-error', 2], ['name-defined', 'ignored-abstractmethod', 2], ['operator', 'wrong-arg-types', 1], ['name-defined', 'wrong-arg-types', 1], ['operator', 'name-error', 1], ['has-type', 'name-error', 1], ['func-returns-value', 'name-error', 1], ['name-defined', 'invalid-annotation', 1], ['misc', 'invalid-annotation', 1], ['name-defined', 'bad-return-type', 1], ['attr-defined', 'attribute-error', 1]]
+unexpected-keyword-arg 9/1451
+  [['call-overload', 'wrong-keyword-args', 6], ['call-arg', 'wrong-keyword-args', 2], ['name-defined', 'name-error', 1]]
+unsubscriptable-object 25/1542
+  [['index', 'unsupported-operands', 25]]
+unsupported-assignment-operation 2/206
+  [['valid-type', 'unsupported-operands', 1], ['index', 'unsupported-operands', 1]]
+unsupported-membership-test 2/183
+  [['operator', 'unsupported-operands', 2]]
+used-before-assignment 11/717
+  [['has-type', 'name-error', 6], ['name-defined', 'name-error', 3], ['operator', 'name-error', 1], ['misc', 'invalid-annotation', 1]]
+Not in any:
+arg-type
+name-defined
+attr-defined
+assignment
+valid-type
+misc
+override
+no-redef
+union-attr
+var-annotated
+type-var
+syntax
+str-format
+index
+return
+return-value
+operator
+dict-item
+call-arg
+has-type
+func-returns-value
+call-overload
+list-item
+str-bytes-safe
+type-arg
+exit-return
+abstract
+valid-newtype

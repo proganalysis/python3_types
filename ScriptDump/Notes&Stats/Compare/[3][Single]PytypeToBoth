@@ -1,0 +1,61 @@
+----- Pytype -> [Pylint, Mypy] -----
+attribute-error 230/34367
+  [['no-member', 'attr-defined', 206], ['access-member-before-definition', 'has-type', 5], ['undefined-variable', 'name-defined', 4], ['no-member', 'name-defined', 4], ['undefined-variable', 'union-attr', 3], ['not-an-iterable', 'attr-defined', 3], ['no-member', 'valid-type', 1], ['no-member', 'has-type', 1], ['no-member', 'call-overload', 1], ['undefined-variable', 'attr-defined', 1], ['access-member-before-definition', 'attr-defined', 1]]
+bad-return-type 2/2577
+  [['undefined-variable', 'name-defined', 1], ['no-method-argument', 'misc', 1]]
+ignored-abstractmethod 1/353
+  [['undefined-variable', 'name-defined', 1]]
+ignored-metaclass 1/226
+  [['inconsistent-mro', 'misc', 1]]
+ignored-type-comment 15/226
+  [['syntax-error', 'syntax', 15]]
+import-error 4311/266986
+  [['relative-beyond-top-level', 'misc', 2744], ['no-name-in-module', 'attr-defined', 1513], ['import-error', 'attr-defined', 44], ['relative-beyond-top-level', 'attr-defined', 8], ['import-error', 'no-redef', 2]]
+invalid-annotation 50/2617
+  [['no-self-argument', 'valid-type', 24], ['no-self-argument', 'misc', 15], ['function-redefined', 'syntax', 5], ['function-redefined', 'valid-type', 2], ['no-member', 'syntax', 1], ['undefined-variable', 'name-defined', 1], ['used-before-assignment', 'misc', 1], ['undefined-variable', 'misc', 1]]
+missing-parameter 45/654
+  [['no-value-for-parameter', 'call-arg', 38], ['no-value-for-parameter', 'misc', 2], ['no-value-for-parameter', 'arg-type', 2], ['no-value-for-parameter', 'call-overload', 1], ['no-value-for-parameter', 'attr-defined', 1], ['no-value-for-parameter', 'abstract', 1]]
+module-attr 102/5596
+  [['no-member', 'attr-defined', 89], ['no-member', 'name-defined', 9], ['no-member', 'no-redef', 2], ['no-member', 'misc', 1], ['no-member', 'call-arg', 1]]
+mro-error 6/251
+  [['inconsistent-mro', 'misc', 3], ['catching-non-exception', 'misc', 3]]
+name-error 2066/48700
+  [['undefined-variable', 'name-defined', 1974], ['too-many-format-args', 'str-format', 14], ['function-redefined', 'valid-type', 9], ['undefined-variable', 'str-format', 9], ['undefined-variable', 'valid-type', 8], ['undefined-variable', 'misc', 7], ['used-before-assignment', 'has-type', 6], ['no-method-argument', 'misc', 5], ['undefined-variable', 'no-redef', 3], ['used-before-assignment', 'name-defined', 3], ['no-member', 'name-defined', 3], ['undefined-variable', 'union-attr', 2], ['too-many-function-args', 'name-defined', 2], ['used-before-assignment', 'misc', 2], ['undefined-variable', 'index', 2], ['undefined-variable', 'call-arg', 2], ['too-many-function-args', 'call-arg', 2], ['undefined-variable', 'attr-defined', 2], ['undefined-variable', 'assignment', 2], ['unsubscriptable-object', 'valid-type', 1], ['used-before-assignment', 'operator', 1], ['undefined-variable', 'operator', 1], ['unexpected-keyword-arg', 'name-defined', 1], ['function-redefined', 'name-defined', 1], ['undefined-variable', 'has-type', 1], ['undefined-variable', 'func-returns-value', 1], ['undefined-variable', 'call-overload', 1], ['no-member', 'attr-defined', 1]]
+not-callable 4/648
+  [['not-callable', 'operator', 4]]
+not-indexable 2/61
+  [['unsubscriptable-object', 'valid-type', 1], ['undefined-variable', 'valid-type', 1]]
+not-instantiable 3/78
+  [['abstract-class-instantiated', 'abstract', 2], ['abstract-class-instantiated', 'assignment', 1]]
+pyi-error 1/721
+  [['no-name-in-module', 'attr-defined', 1]]
+python-compiler-error 272/6580
+  [['syntax-error', 'syntax', 192], ['no-name-in-module', 'attr-defined', 72], ['function-redefined', 'valid-type', 3], ['duplicate-argument-name', 'syntax', 1], ['undefined-variable', 'name-defined', 1], ['return-outside-function', 'name-defined', 1], ['undefined-variable', 'misc', 1], ['return-outside-function', 'misc', 1]]
+unsupported-operands 33/2525
+  [['unsubscriptable-object', 'index', 23], ['invalid-unary-operand-type', 'operator', 4], ['unsupported-membership-test', 'operator', 2], ['no-member', 'operator', 2], ['unsupported-assignment-operation', 'valid-type', 1], ['unsupported-assignment-operation', 'index', 1]]
+wrong-arg-count 13/863
+  [['too-many-function-args', 'call-arg', 6], ['undefined-variable', 'name-defined', 3], ['too-many-function-args', 'name-defined', 2], ['undefined-variable', 'call-arg', 2]]
+wrong-arg-types 3/4657
+  [['undefined-variable', 'operator', 1], ['undefined-variable', 'name-defined', 1], ['no-member', 'call-overload', 1]]
+wrong-keyword-args 8/345
+  [['unexpected-keyword-arg', 'call-overload', 6], ['unexpected-keyword-arg', 'call-arg', 1], ['too-many-function-args', 'call-arg', 1]]
+  
+Not in any:
+invalid-type-comment
+key-error
+not-supported-yet
+invalid-typevar
+bad-unpacking
+duplicate-keyword-argument
+not-writable
+invalid-function-type-comment
+annotation-type-mismatch
+redundant-function-type-comment
+base-class-error
+invalid-namedtuple-arg
+invalid-function-definition
+recursion-error
+invalid-super-call
+bad-slots
+bad-concrete-type
+reveal-type

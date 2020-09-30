@@ -1,0 +1,2 @@
+(TeamSpen210)srctools/srctools/__init__.py:287: error: "bool" is invalid as return type for "__exit__" that always returns False  [exit-return]
+(rmvanhees)pys5p/pys5p/l1b_patch.py:64: error: "bool" is invalid as return type for "__exit__" that always returns False  [exit-return]

@@ -1,0 +1,865 @@
+[RRepo](gleb812)pch2csd
+(gleb812)pch2csd/pch2csd/app.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](Leixb)jutge_cli
+(Leixb)jutge_cli/jutge_cli/commands/import_zip.py:36: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/import_zip.py:37: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/import_zip.py:53: error: "str" has no attribute "name"  [attr-defined]
+(Leixb)jutge_cli/jutge_cli/commands/import_zip.py:105: error: Argument 1 to "symlink" has incompatible type "List[str]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(Leixb)jutge_cli/jutge_cli/commands/new.py:43: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/new.py:56: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/new.py:57: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/new.py:80: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/add_test.py:32: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/archive.py:31: error: Invalid type comment or annotation  [valid-type]
+(Leixb)jutge_cli/jutge_cli/commands/archive.py:32: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/archive.py:33: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:42: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:43: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:45: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:147: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:149: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")  [assignment]
+(Leixb)jutge_cli/jutge_cli/commands/test.py:182: error: Argument 2 to "print_color" has incompatible type "str"; expected "Optional[List[Any]]"  [arg-type]
+(Leixb)jutge_cli/jutge_cli/commands/cookie.py:36: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/cookie.py:37: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/cookie.py:59: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/cookie.py:60: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/get_code.py:39: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/get_code.py:106: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/download.py:38: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/login.py:33: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/login.py:34: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/check_submissions.py:38: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/check_submissions.py:39: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:39: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:40: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:41: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:59: error: Invalid index type "str" for "str"; expected type "Union[int, slice]"  [index]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:69: error: Need type annotation for 'submit_queue' (hint: "submit_queue: List[<type>] = ...")  [var-annotated]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:116: error: Name 'Boolean' is not defined  [name-defined]
+(Leixb)jutge_cli/jutge_cli/commands/upload.py:117: error: Name 'Boolean' is not defined  [name-defined]
+Found 36 errors in 11 files (checked 14 source files)
+
+[RRepo](vixcess)falcon-sqlalchemy
+(vixcess)falcon-sqlalchemy/falcon_sqlalchemy/resource.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](gomjellie)SoongSiri
+(gomjellie)SoongSiri/app/managers.py:20: error: Name 'FoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:21: error: Name 'TimeTableMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:22: error: Name 'PupilFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:23: error: Name 'FacultyFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:24: error: Name 'DormFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:25: error: Name 'FoodCourtMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:26: error: Name 'SnackCornerMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:27: error: Name 'TheKitchenMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:28: error: Name 'BusMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:29: error: Name 'BusFrontMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:30: error: Name 'BusBeraMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:31: error: Name 'BusMiddleMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:32: error: Name 'SubMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:33: error: Name 'LibMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:39: error: Name 'TomorrowFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:42: error: Name 'TomorrowPupilFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:43: error: Name 'TomorrowFacultyFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:44: error: Name 'TomorrowDormFoodMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:45: error: Name 'TomorrowFoodCourtMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:46: error: Name 'TomorrowSnackCornerMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:47: error: Name 'TomorrowTheKitchenMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:61: error: Name 'ReviewInitMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:64: error: Name 'ReviewBrowseMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:65: error: Name 'ReviewPostMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:66: error: Name 'OnGoingMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:70: error: Name 'OnGoingMessage' is not defined  [name-defined]
+(gomjellie)SoongSiri/app/managers.py:197: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any], Any]"; expected "SessionManager"  [arg-type]
+(gomjellie)SoongSiri/app/managers.py:201: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any, Any], Any]"; expected "SessionManager"  [arg-type]
+(gomjellie)SoongSiri/app/managers.py:209: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any], Any]"; expected "SessionManager"  [arg-type]
+(gomjellie)SoongSiri/app/managers.py:215: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any, Any], Any]"; expected "SessionManager"  [arg-type]
+(gomjellie)SoongSiri/app/managers.py:221: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any], Any]"; expected "SessionManager"  [arg-type]
+(gomjellie)SoongSiri/app/managers.py:227: error: Argument 1 to "verify_session" has incompatible type "Callable[[SessionManager, Any], Any]"; expected "SessionManager"  [arg-type]
+Found 32 errors in 1 file (checked 10 source files)
+
+[RRepo](stasfilin)fastread
+(stasfilin)fastread/fastread/core.py:16: error: Incompatible types in assignment (expression has type "List[str]", variable has type "str")  [assignment]
+(stasfilin)fastread/tests/test_fastread_class.py:3: error: Module 'fastread' has no attribute 'Fastread'  [attr-defined]
+(stasfilin)fastread/examples/lines_example.py:3: error: Module 'fastread' has no attribute 'Fastread'  [attr-defined]
+(stasfilin)fastread/setup.py:6: error: Module 'fastread' has no attribute '__version__'  [attr-defined]
+Found 4 errors in 4 files (checked 4 source files)
+
+[RRepo](peterhinch)micropython-tft-gui
+(peterhinch)micropython-tft-gui/touch_bytecode.py:42: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:43: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:44: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:45: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:49: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:50: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:51: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:52: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:54: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch_bytecode.py:55: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:43: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:44: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:45: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:46: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:50: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:51: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:52: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:53: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:55: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:56: error: Name 'const' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:243: error: Name 'micropython' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:245: error: Name 'ptr16' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/touch.py:246: error: Name 'ptr16' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:52: error: Name 'YELLOW' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:123: error: Name 'YELLOW' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:166: error: Name 'WHITE' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:167: error: Name 'LIGHTGREEN' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:212: error: Name 'WHITE' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/plot.py:213: error: Name 'LIGHTGREEN' is not defined  [name-defined]
+(peterhinch)micropython-tft-gui/asyn.py:12: error: Name 'asyncio' already defined (possibly by an import)  [no-redef]
+Found 30 errors in 4 files (checked 21 source files)
+
+[RRepo](bioconda)bioconda-utils
+(bioconda)bioconda-utils/bioconda_utils/upload.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](jiny2001)dcscn-super-resolution
+(jiny2001)dcscn-super-resolution/helper/optimize_for_inference.py:62: error: Module 'google.protobuf' has no attribute 'text_format'  [attr-defined]
+(jiny2001)dcscn-super-resolution/convert_y.py:16: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/augmentation.py:18: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/helper/tf_graph.py:14: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/helper/loader.py:16: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/train.py:17: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+(jiny2001)dcscn-super-resolution/evaluate.py:35: error: Module 'helper' has no attribute 'utilty'  [attr-defined]
+Found 7 errors in 7 files (checked 10 source files)
+
+[RRepo](RasaHQ)rasa_nlu
+(RasaHQ)rasa_nlu/rasa/nlu/model.py:140: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 172 source files)
+
+[RRepo](samshadwell)TrumpScript
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:71: error: Name 'T_Plus' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:73: error: Name 'T_Minus' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:75: error: Name 'T_Times' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:77: error: Name 'T_Over' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:79: error: Name 'T_Less' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:81: error: Name 'T_Greater' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:85: error: Name 'T_LParen' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:87: error: Name 'T_RParen' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:89: error: Name 'T_LBrace' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:91: error: Name 'T_RBrace' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:95: error: Name 'T_Question' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:104: error: Name 'T_Num' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:119: error: Name 'T_Is' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:121: error: Name 'T_If' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:123: error: Name 'T_Else' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:125: error: Name 'T_Not' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:127: error: Name 'T_And' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:129: error: Name 'T_Or' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:131: error: Name 'T_Make' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:133: error: Name 'T_Print' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:135: error: Name 'T_Input' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:138: error: Name 'T_False' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:140: error: Name 'T_True' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:143: error: Name 'T_True' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:145: error: Name 'T_False' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:148: error: Name 'T_Plus' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:150: error: Name 'T_Minus' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:152: error: Name 'T_Times' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:154: error: Name 'T_Over' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:156: error: Name 'T_Mod' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:158: error: Name 'T_Less' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:160: error: Name 'T_Greater' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:164: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:175: error: Name 'T_Quote' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:216: error: Name 'T_Quote' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:235: error: Name 'T_Num' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:269: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:284: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:285: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:286: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:290: error: Need type annotation for 'non_overlapping' (hint: "non_overlapping: List[<type>] = ...")  [var-annotated]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:301: error: Name 'T_While' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:318: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:319: error: Name 'T_Is' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/tokenizer.py:320: error: Name 'T_Word' is not defined  [name-defined]
+(samshadwell)TrumpScript/src/trumpscript/utils.py:14: error: The return type of "__init__" must be None  [misc]
+(samshadwell)TrumpScript/src/trumpscript/utils.py:97: error: No overload variant of "__getitem__" of "bytes" matches argument type "str"  [call-overload]
+(samshadwell)TrumpScript/src/trumpscript/utils.py:97: note: Possible overload variants:
+(samshadwell)TrumpScript/src/trumpscript/utils.py:97: note:     def __getitem__(self, int) -> int
+(samshadwell)TrumpScript/src/trumpscript/utils.py:97: note:     def __getitem__(self, slice) -> bytes
+(samshadwell)TrumpScript/src/trumpscript/vocabulary.py:59: error: Need type annotation for 'words' (hint: "words: Set[<type>] = ...")  [var-annotated]
+Found 48 errors in 3 files (checked 6 source files)
+
+[RRepo](pablodav)burp_server_reports
+(pablodav)burp_server_reports/burp_reports/__main__.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](niwinz)cobrascript
+(niwinz)cobrascript/cobra/base.py:9: error: No parent module -- cannot perform relative import  [misc]
+(niwinz)cobrascript/cobra/base.py:10: error: No parent module -- cannot perform relative import  [misc]
+(niwinz)cobrascript/cobra/base.py:11: error: No parent module -- cannot perform relative import  [misc]
+(niwinz)cobrascript/cobra/base.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 4 errors in 1 file (checked 11 source files)
+
+[RRepo](rmtew)peasauce
+(rmtew)peasauce/python/testlib/tool_assembler_vasm.py:57: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](vitchyr)rlkit
+(vitchyr)rlkit/rlkit/exploration_strategies/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(vitchyr)rlkit/rlkit/samplers/data_collector/base.py')  [misc]
+(vitchyr)rlkit/rlkit/exploration_strategies/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 72 source files)
+
+[RRepo](jython234)PyRakLib
+(jython234)PyRakLib/pyraklib/protocol/Packet.py:35: error: Incompatible return value type (got "str", expected "bytearray")  [return-value]
+(jython234)PyRakLib/pyraklib/protocol/Packet.py:59: error: Incompatible return value type (got "bytearray", expected "str")  [return-value]
+
+[RRepo](Kilerd)nougat
+(Kilerd)nougat/demos/manage.py: error: Duplicate module named 'manage' (also at '/home/bew/archive/typed_project/(Kilerd)nougat/nougat/manage.py')  [misc]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](manerfan)python-game-snake
+(manerfan)python-game-snake/src/search/tools.py:20: error: Syntax error in type annotation  [syntax]
+(manerfan)python-game-snake/src/search/tools.py:20: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+
+[RRepo](algorhythms)LeetCode
+(algorhythms)LeetCode/030 Next Permutation.py:52: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 720 source files)
+
+[RRepo](dbader)photosorter
+Success: no issues found in 2 source files
+
+[RRepo](nkmk)python-snippets
+(nkmk)python-snippets/notebook/args.py:17: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 109 source files)
+
+[RRepo](TeamHG-Memex)scrapy-cdr
+(TeamHG-Memex)scrapy-cdr/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(TeamHG-Memex)scrapy-cdr/scrapy_cdr/utils.py')  [misc]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](fin-ger)color-harmonization
+(fin-ger)color-harmonization/color_harmonization/gui/assistant.py:39: error: Module has no attribute "bindtextdomain"  [attr-defined]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](bruecksen)impacts-world
+(bruecksen)impacts-world/impacts_world/core/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(bruecksen)impacts-world/impacts_world/pages/models.py')  [misc]
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](puhitaku)typedmarshal
+(puhitaku)typedmarshal/typedmarshal/model.py:52: error: Unsupported right operand type for in (Module)  [operator]
+(puhitaku)typedmarshal/typedmarshal/model.py:54: error: Unsupported right operand type for in (Module)  [operator]
+(puhitaku)typedmarshal/typedmarshal/model.py:114: error: Need type annotation for 'attr_tree'  [var-annotated]
+(puhitaku)typedmarshal/typedmarshal/model.py:134: error: Need type annotation for 't'  [var-annotated]
+(puhitaku)typedmarshal/typedmarshal/model.py:140: error: Need type annotation for 't'  [var-annotated]
+(puhitaku)typedmarshal/typedmarshal/model.py:160: error: Tuple index out of range  [misc]
+(puhitaku)typedmarshal/typedmarshal/model.py:163: error: Tuple index out of range  [misc]
+(puhitaku)typedmarshal/typedmarshal/model.py:175: error: Tuple index out of range  [misc]
+(puhitaku)typedmarshal/typedmarshal/model.py:190: error: Argument 2 to "_unmarshal_with_type_check" of "MarshalModel" has incompatible type "TypeLike"; expected "Tuple[<nothing>]"  [arg-type]
+(puhitaku)typedmarshal/typedmarshal/model.py:195: error: Tuple index out of range  [misc]
+(puhitaku)typedmarshal/typedmarshal/model.py:200: error: Argument 2 to "isinstance" has incompatible type "TypeLike"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+(puhitaku)typedmarshal/typedmarshal/model.py:215: error: Argument 1 to "load" has incompatible type "IOBase"; expected "_Reader"  [arg-type]
+(puhitaku)typedmarshal/typedmarshal/model.py:236: error: Incompatible types in assignment (expression has type "List[bytes]", variable has type "List[str]")  [assignment]
+Found 13 errors in 1 file (checked 3 source files)
+
+[RRepo](GerritCodeReview)gerrit
+(GerritCodeReview)gerrit/contrib/mitm-ui/serve-app-dev.py:115: error: Incompatible types in assignment (expression has type "bytes", variable has type "str")  [assignment]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](magicgoose)simple_dr_meter
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:130: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:164: error: Need type annotation for 'tracks' (hint: "tracks: List[<type>] = ...")  [var-annotated]
+(magicgoose)simple_dr_meter/audio_io/audio_io.py:288: error: Need type annotation for 'd'  [var-annotated]
+
+[RRepo](getpelican)pelican-plugins
+(getpelican)pelican-plugins/video_privacy_enhancer/video_privacy_enhancer.py:29: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 144 source files)
+
+[RRepo](drewm1980)multi_view_stereo_benchmark
+(drewm1980)multi_view_stereo_benchmark/camera_models.py:229: error: Name 'test_division_model_invertability' is not defined  [name-defined]
+(drewm1980)multi_view_stereo_benchmark/camera_models.py:230: error: Name 'test_division_model_invertability' is not defined  [name-defined]
+(drewm1980)multi_view_stereo_benchmark/reconstruct.py:12: error: Argument 1 to "append" of "list" has incompatible type "Path"; expected "str"  [arg-type]
+(drewm1980)multi_view_stereo_benchmark/load_ply_test.py:13: error: Name 'test_save_ply_file' is not defined  [name-defined]
+Found 4 errors in 3 files (checked 14 source files)
+
+[RRepo](jbaiter)demetsiiify
+(jbaiter)demetsiiify/demetsiiify/blueprints/api.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 23 source files)
+
+[RRepo](maxmalysh)tiny-py-interpreter
+(maxmalysh)tiny-py-interpreter/tinypy/runtime/Errors.py: error: Duplicate module named 'Errors' (also at '/home/bew/archive/typed_project/(maxmalysh)tiny-py-interpreter/tinypy/parser/Errors.py')  [misc]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](leyhline)vix-term-structure
+(leyhline)vix-term-structure/thesis/slides/interactive_plot.py:16: error: Slice index must be an integer or None  [misc]
+(leyhline)vix-term-structure/thesis/slides/interactive_plot.py:18: error: Slice index must be an integer or None  [misc]
+(leyhline)vix-term-structure/vixstructure/utils.py:39: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:40: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:41: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:42: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:43: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:44: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:45: error: Incompatible types in assignment (expression has type "bool", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:86: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:87: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:88: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:89: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:90: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:91: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:92: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:93: error: Incompatible types in assignment (expression has type "bool", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:134: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:135: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:136: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:137: error: Incompatible types in assignment (expression has type "int", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:138: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:139: error: Incompatible types in assignment (expression has type "str", target has type "datetime")  [assignment]
+(leyhline)vix-term-structure/vixstructure/utils.py:140: error: Incompatible types in assignment (expression has type "float", target has type "datetime")  [assignment]
+
+[RRepo](Dioptas)Dioptas
+(Dioptas)Dioptas/dioptas/widgets/UtilityWidgets.py:24: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 78 source files)
+
+[RRepo](coreGreenberet)homematicip-rest-api
+(coreGreenberet)homematicip-rest-api/tests/aio_tests/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(coreGreenberet)homematicip-rest-api/homematicip/base/helpers.py')  [misc]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](EconForge)dolo
+(EconForge)dolo/dolo/compiler/misc.py: error: Duplicate module named 'misc' (also at '/home/bew/archive/typed_project/(EconForge)dolo/dolo/numeric/misc.py')  [misc]
+Found 1 error in 1 file (checked 107 source files)
+
+[RRepo](Trilarion)imperialism-remake
+(Trilarion)imperialism-remake/examples/lib/network_example.py: error: Duplicate module named 'network_example' (also at '/home/bew/archive/typed_project/(Trilarion)imperialism-remake/examples/server/network_example.py')  [misc]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](fsinfuhh)Bitpoll
+(fsinfuhh)Bitpoll/bitpoll/groups/forms.py: error: Duplicate module named 'forms' (also at '/home/bew/archive/typed_project/(fsinfuhh)Bitpoll/bitpoll/registration/forms.py')  [misc]
+Found 1 error in 1 file (checked 25 source files)
+
+[RRepo](CommunicationsSecurityEstablishment)spartacus
+(CommunicationsSecurityEstablishment)spartacus/ToolChain/Assembler/Assembler.py: error: Duplicate module named 'Assembler' (also at '/home/bew/archive/typed_project/(CommunicationsSecurityEstablishment)spartacus/Assembler.py')  [misc]
+(CommunicationsSecurityEstablishment)spartacus/ToolChain/Assembler/Assembler.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 21 source files)
+
+[RRepo](pvizeli)ha-ffmpeg
+(pvizeli)ha-ffmpeg/haffmpeg/tools.py:70: error: Return value expected  [return-value]
+(pvizeli)ha-ffmpeg/haffmpeg/sensor.py:227: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(pvizeli)ha-ffmpeg/haffmpeg/sensor.py:239: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:49: error: Incompatible types in assignment (expression has type "List[str]", variable has type "None")  [assignment]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:54: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:58: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:67: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:69: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:74: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:79: error: "None" has no attribute "extend"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:81: error: "None" has no attribute "append"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:86: error: Need type annotation for 'filter_list' (hint: "filter_list: List[<type>] = ...")  [var-annotated]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:88: error: Need type annotation for 'cmd_iter'  [var-annotated]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:98: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "None")  [assignment]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:136: error: Argument 2 to "run_in_executor" of "BaseEventLoop" has incompatible type "partial[Popen[str]]"; expected "Callable[..., None]"  [arg-type]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:136: note: "partial[Popen[str]].__call__" has type "Callable[[VarArg(Any), KwArg(Any)], Popen[str]]"
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:170: error: "None" has no attribute "kill"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:171: error: "None" has no attribute "communicate"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:181: error: "None" has no attribute "stdout"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:185: error: "None" has no attribute "stderr"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:199: error: Need type annotation for '_que'  [var-annotated]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:211: error: No return value expected  [return-value]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:223: error: "None" has no attribute "readline"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:236: error: "None" has no attribute "wait"  [attr-defined]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:276: error: Incompatible types in assignment (expression has type "StreamReader", variable has type "None")  [assignment]
+(pvizeli)ha-ffmpeg/haffmpeg/core.py:279: error: Incompatible types in assignment (expression has type "Task[None]", variable has type "None")  [assignment]
+Found 25 errors in 3 files (checked 9 source files)
+
+[RRepo](diyclassics)cltk
+(diyclassics)cltk/cltk/stem/middle_high_german/stem.py: error: Duplicate module named 'stem' (also at '/home/bew/archive/typed_project/(diyclassics)cltk/cltk/stem/french/stem.py')  [misc]
+Found 1 error in 1 file (checked 101 source files)
+
+[RRepo](mesosphere)dcos-kafka-service
+(mesosphere)dcos-kafka-service/frameworks/kafka/tests/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(mesosphere)dcos-kafka-service/conftest.py')  [misc]
+(mesosphere)dcos-kafka-service/frameworks/kafka/tests/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 83 source files)
+
+[RRepo](DXsmiley)mathbot
+(DXsmiley)mathbot/mathbot/update_logo.py:17: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 53 source files)
+
+[RRepo](ginoledesma)curb_energy
+(ginoledesma)curb_energy/src/curb_energy/models.py:177: error: Argument 1 of "__ne__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: note:     def __eq__(self, other: object) -> bool:
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: note:         if not isinstance(other, SensorGroup):
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: note:             return NotImplemented
+(ginoledesma)curb_energy/src/curb_energy/models.py:209: note:         return <logic to compare two SensorGroup instances>
+(ginoledesma)curb_energy/src/curb_energy/models.py:215: error: Argument 1 of "__ne__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+Found 3 errors in 1 file (checked 11 source files)
+
+[RRepo](ament)ament_lint
+(ament)ament_lint/ament_cpplint/ament_cpplint/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(ament)ament_lint/ament_flake8/ament_flake8/main.py')  [misc]
+Found 1 error in 1 file (checked 44 source files)
+
+[RRepo](robinkjoy)systemrdl-compiler
+(robinkjoy)systemrdl-compiler/systemrdlcompiler/parser/antlr/SystemRDLListener.py:9: error: Name 'ParseTreeListener' is not defined  [name-defined]
+Found 1 error in 1 file (checked 9 source files)
+
+[RRepo](secrary)SSMA
+(secrary)SSMA/ext/validate_email.py:38: error: Name 'ServerError' already defined on line 33  [no-redef]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](google)pikov
+(google)pikov/python/pikov/json.py:18: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](JuliusKunze)speechless
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:9: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:9: note: Perhaps you need "Callable[...]" or a callback protocol?
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:15: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:15: note: Perhaps you need "Callable[...]" or a callback protocol?
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:65: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:65: note: Perhaps you need "Callable[...]" or a callback protocol?
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:122: error: Function "builtins.chr" is not valid as a type  [valid-type]
+(JuliusKunze)speechless/speechless/grapheme_enconding.py:122: note: Perhaps you need "Callable[...]" or a callback protocol?
+
+[RRepo](brettcannon)free-labour
+(brettcannon)free-labour/freelabour/conf.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](popcorn9499)chatBot
+(popcorn9499)chatBot/modulesOld/fileIO.py: error: Duplicate module named 'fileIO' (also at '/home/bew/archive/typed_project/(popcorn9499)chatBot/utils/fileIO.py')  [misc]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](Cloudzero)cloudzero-reactor-aws
+(Cloudzero)cloudzero-reactor-aws/reactor/features/resources/enrich_plugins/plugin_loader.py: error: Duplicate module named 'plugin_loader' (also at '/home/bew/archive/typed_project/(Cloudzero)cloudzero-reactor-aws/reactor/features/accounts/probe_plugins/plugin_loader.py')  [misc]
+Found 1 error in 1 file (checked 120 source files)
+
+[RRepo](Karaage-Cluster)python-tldap
+(Karaage-Cluster)python-tldap/tldap/database/helpers.py: error: Duplicate module named 'helpers' (also at '/home/bew/archive/typed_project/(Karaage-Cluster)python-tldap/tldap/django/helpers.py')  [misc]
+Found 1 error in 1 file (checked 30 source files)
+
+[RRepo](baffelli)pyperator
+(baffelli)pyperator/pyperator/exceptions.py:32: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/gui.py:14: error: Name 'gui' is not defined  [name-defined]
+(baffelli)pyperator/pyperator/tests/test_DAG.py:4: error: Relative import climbs too many namespaces  [misc]
+(baffelli)pyperator/pyperator/shell.py:269: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/shell.py:387: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/shell.py:405: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/nodes.py:107: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/components.py:354: error: Name 'Repeat' already defined on line 239  [no-redef]
+(baffelli)pyperator/pyperator/DAG.py:219: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/DAG.py:230: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/utils.py:193: error: Not all arguments converted during string formatting  [str-format]
+(baffelli)pyperator/pyperator/utils.py:261: error: Not all arguments converted during string formatting  [str-format]
+Found 12 errors in 8 files (checked 12 source files)
+
+[RRepo](scienceopen)pymap3d
+(scienceopen)pymap3d/archive/ecef.py: error: Duplicate module named 'ecef' (also at '/home/bew/archive/typed_project/(scienceopen)pymap3d/pymap3d/ecef.py')  [misc]
+Found 1 error in 1 file (checked 28 source files)
+
+[RRepo](IniterWorker)epitech-stats-notes
+(IniterWorker)epitech-stats-notes/config/config.py:2: error: Module 'jsonpo.jsonpo' has no attribute 'JSONPO'  [attr-defined]
+(IniterWorker)epitech-stats-notes/config/config.py:3: error: Module 'jsonpo.jsonpo' has no attribute 'JSONSD'  [attr-defined]
+(IniterWorker)epitech-stats-notes/profiling/context.py:10: error: The return type of "__init__" must be None  [misc]
+
+[RRepo](h2non)siringa
+(h2non)siringa/tests/conftest.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](SergeySatskiy)cdm-flowparser
+(SergeySatskiy)cdm-flowparser/thirdparty/pycxx-7.1.3/Demo/Python2/test_simple.py:67: error: Missing parentheses in call to 'print'. Did you mean print('Error: did not raised RuntimeError')?  [syntax]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](qiime2)qiime2
+(qiime2)qiime2/qiime2/metadata/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(qiime2)qiime2/qiime2/plugin/model/base.py')  [misc]
+(qiime2)qiime2/qiime2/metadata/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 68 source files)
+
+[RRepo](repology)repology
+(repology)repology/repology/packageproc.py: error: Duplicate module named 'packageproc' (also at '/home/bew/archive/typed_project/(repology)repology/repologyapp/packageproc.py')  [misc]
+Found 1 error in 1 file (checked 164 source files)
+
+[RRepo](mrachinskiy)commotion
+
+[RRepo](jstasiak)python-zeroconf
+Success: no issues found in 1 source file
+
+[RRepo](leofnch)kc
+(leofnch)kc/hodl/block/Block.py:10: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](ClearcodeHQ)pytest-postgresql
+(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py:32: error: Variable "janitor.Version" is not valid as a type  [valid-type]
+(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py:54: error: Need type annotation for 'cur'  [var-annotated]
+(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py:65: error: Need type annotation for 'cur'  [var-annotated]
+(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py:77: error: Function "janitor.DatabaseJanitor.cursor" is not valid as a type  [valid-type]
+(ClearcodeHQ)pytest-postgresql/src/pytest_postgresql/janitor.py:77: note: Perhaps you need "Callable[...]" or a callback protocol?
+Found 4 errors in 1 file (checked 10 source files)
+
+[RRepo](Stewori)pytypes
+(Stewori)pytypes/tests/testhelpers/override_testhelper.py:151: error: Type signature has too few arguments  [syntax]
+(Stewori)pytypes/tests/testhelpers/override_testhelper_py3.py:229: error: Type signature has too few arguments  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:32: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:36: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:49: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:98: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:102: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:131: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:164: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:168: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:173: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:216: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:220: error: Function has duplicate type signatures  [syntax]
+(Stewori)pytypes/tests/testhelpers/modulewide_typecheck_testhelper.py:230: error: Function has duplicate type signatures  [syntax]
+Found 14 errors in 3 files (checked 10 source files)
+
+[RRepo](vinitkumar)instabote
+(vinitkumar)instabote/tests/unit/test_version.py:6: error: Name 'unittest' is not defined  [name-defined]
+(vinitkumar)instabote/tests/unit/test_example.py:7: error: Name 'unittest' is not defined  [name-defined]
+(vinitkumar)instabote/tests/unit/test_example.py:18: error: Name 'pytest' is not defined  [name-defined]
+Found 3 errors in 2 files (checked 7 source files)
+
+[RRepo](Kane610)axis
+(Kane610)axis/axis/param_cgi.py:29: error: "Brand" has no attribute "update"  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:33: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:37: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:41: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:45: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:49: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:53: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:57: error: Value of type "Brand" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:65: error: "Ports" has no attribute "update"  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:66: error: "Ports" has no attribute "update"  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:67: error: "Ports" has no attribute "update"  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:72: error: Value of type "Ports" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:77: error: Value of type "Ports" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:83: error: Value of type "Ports" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:84: error: "Ports" has no attribute "__iter__" (not iterable)  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:94: error: "Properties" has no attribute "update"  [attr-defined]
+(Kane610)axis/axis/param_cgi.py:98: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:102: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:106: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:110: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:114: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:118: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:122: error: Unsupported right operand type for in ("Properties")  [operator]
+(Kane610)axis/axis/param_cgi.py:123: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:128: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:132: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:136: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:140: error: Value of type "Properties" is not indexable  [index]
+(Kane610)axis/axis/param_cgi.py:154: error: Need type annotation for 'raw_params' (hint: "raw_params: Dict[<type>, <type>] = ...")  [var-annotated]
+(Kane610)axis/axis/param_cgi.py:154: error: Argument 1 to "dict" has incompatible type "Generator[List[str], None, None]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(Kane610)axis/tests/test_event_stream.py:161: error: Name 'test_manage_event_port_any_init' already defined on line 117  [no-redef]
+(Kane610)axis/axis/pwdgrp_cgi.py:94: error: Need type annotation for 'raw_dict' (hint: "raw_dict: Dict[<type>, <type>] = ...")  [var-annotated]
+(Kane610)axis/axis/pwdgrp_cgi.py:94: error: Argument 1 to "dict" has incompatible type "Generator[List[str], None, None]"; expected "Iterable[Tuple[<nothing>, <nothing>]]"  [arg-type]
+(Kane610)axis/axis/event_stream.py:39: error: Need type annotation for 'events' (hint: "events: Dict[<type>, <type>] = ...")  [var-annotated]
+(Kane610)axis/axis/event_stream.py:116: error: Need type annotation for '_callbacks' (hint: "_callbacks: List[<type>] = ...")  [var-annotated]
+(Kane610)axis/axis/port_cgi.py:33: error: "object" has no attribute "ports"  [attr-defined]
+(Kane610)axis/axis/port_cgi.py:38: error: "object" has no attribute "update_ports"  [attr-defined]
+(Kane610)axis/axis/port_cgi.py:39: error: "object" has no attribute "ports"  [attr-defined]
+(Kane610)axis/axis/port_cgi.py:47: error: Need type annotation for 'raw_ports' (hint: "raw_ports: Dict[<type>, <type>] = ...")  [var-annotated]
+(Kane610)axis/axis/api.py:15: error: Need type annotation for '_items' (hint: "_items: Dict[<type>, <type>] = ...")  [var-annotated]
+(Kane610)axis/axis/vapix.py:40: error: "None" has no attribute "update_ports"  [attr-defined]
+(Kane610)axis/axis/__main__.py:54: error: Module has no attribute "run"  [attr-defined]
+Found 42 errors in 8 files (checked 18 source files)
+
+[RRepo](emeric254)PyHawaiiBiosReader
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"  [call-overload]
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note: Possible overload variants:
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note:     def __setitem__(self, int, int) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:55: note:     def __setitem__(self, slice, Union[Iterable[int], bytes]) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: error: No overload variant of "__setitem__" of "bytearray" matches argument types "int", "str"  [call-overload]
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note: Possible overload variants:
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note:     def __setitem__(self, int, int) -> None
+(emeric254)PyHawaiiBiosReader/tools/BytesWriter.py:58: note:     def __setitem__(self, slice, Union[Iterable[int], bytes]) -> None
+
+[RRepo](egnyte)gitlabform
+(egnyte)gitlabform/gitlabform/gitlab/core.py: error: Duplicate module named 'core' (also at '/home/bew/archive/typed_project/(egnyte)gitlabform/gitlabform/configuration/core.py')  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](Yelp)nerve-tools
+Success: no issues found in 6 source files
+
+[RRepo](azogue)hass_config
+(azogue)hass_config/custom_components/camera/psychrometrics.py: error: Duplicate module named 'psychrometrics' (also at '/home/bew/archive/typed_project/(azogue)hass_config/custom_components/binary_sensor/psychrometrics.py')  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](lgautier)mashing-pumpkins
+(lgautier)mashing-pumpkins/src/sequence.py:6: error: Syntax error in type annotation  [syntax]
+(lgautier)mashing-pumpkins/src/sequence.py:6: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](jhartz)gradefast
+(jhartz)gradefast/gradefast/events.py:139: error: Argument 1 has incompatible type "Event"; expected "T"  [arg-type]
+Found 1 error in 1 file (checked 12 source files)
+
+[RRepo](openfisca)openfisca-france
+(openfisca)openfisca-france/openfisca_france/reforms/inversion_revenus.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 79 source files)
+
+[RRepo](google)graphicsfuzz
+(google)graphicsfuzz/python/src/main/python/drivers/backtrace-summary.py:23: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(google)graphicsfuzz/python/src/main/python/drivers/backtrace-summary.py:44: error: Need type annotation for 'files_to_check' (hint: "files_to_check: List[<type>] = ...")  [var-annotated]
+(google)graphicsfuzz/third_party/thrift-py/src/main/scripts/transport/sslcompat.py:80: error: Incompatible types in assignment (expression has type "Callable[[Any, Any, Any], Any]", variable has type "Callable[[Any, Any], Any]")  [assignment]
+(google)graphicsfuzz/third_party/thrift-py/src/main/scripts/transport/THttpClient.py:155: error: Argument 1 to "__withTimeout" has incompatible type "Callable[[THttpClient], Any]"; expected "THttpClient"  [arg-type]
+Found 4 errors in 3 files (checked 14 source files)
+
+[RRepo](leosac)leosac
+(leosac)leosac/scripts/remote_control.py:31: error: Missing parentheses in call to 'print'. Did you mean print("Non-handled command: ", cmd)?  [syntax]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](databricks-edu)build-tooling
+(databricks-edu)build-tooling/setup.py:14: error: Module 'distutils.command.sdist' has no attribute 'sdist'  [attr-defined]
+(databricks-edu)build-tooling/db_edu_util/__init__.py:230: error: Incompatible types in "yield" (actual type "str", expected type "None")  [misc]
+(databricks-edu)build-tooling/gendbc/__init__.py:125: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:155: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:173: error: Need type annotation for 'paths' (hint: "paths: Set[<type>] = ...")  [var-annotated]
+(databricks-edu)build-tooling/gendbc/__init__.py:213: error: Name 'Notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/gendbc/__init__.py:304: error: Name 'parse_source_notebook' is not defined  [name-defined]
+(databricks-edu)build-tooling/db_edu_util/tests/databricks/test_workspace_path.py:7: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(databricks-edu)build-tooling/db_edu_util/tests/databricks/test_config.py:40: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(databricks-edu)build-tooling/db_edu_util/tests/databricks/test_config.py:52: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+Found 10 errors in 5 files (checked 17 source files)
+
+[RRepo](yunity)foodsaving-backend
+(yunity)foodsaving-backend/karrot/unsubscribe/api.py: error: Duplicate module named 'api' (also at '/home/bew/archive/typed_project/(yunity)foodsaving-backend/karrot/community_feed/api.py')  [misc]
+Found 1 error in 1 file (checked 210 source files)
+
+[RRepo](ANR-COMPASS)shesha
+(ANR-COMPASS)shesha/shesha/util/make_apodizer.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](TadLeonard)tfatool
+(TadLeonard)tfatool/tfatool/upload.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](RagtagOpen)bidwire
+(RagtagOpen)bidwire/bidwire/tests/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(RagtagOpen)bidwire/bidwire/utils.py')  [misc]
+(RagtagOpen)bidwire/bidwire/tests/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 43 source files)
+
+[RRepo](RalphLipe)somfyrts
+Success: no issues found in 3 source files
+
+[RRepo](twitter)pants
+(twitter)pants/contrib/scalajs/src/python/pants/contrib/scalajs/register.py: error: Duplicate module named 'register' (also at '/home/bew/archive/typed_project/(twitter)pants/contrib/thrifty/src/python/pants/contrib/thrifty/register.py')  [misc]
+Found 1 error in 1 file (checked 1087 source files)
+
+[RRepo](undystopia)libjournal
+Success: no issues found in 2 source files
+
+[RRepo](darcamo)pyphysim
+(darcamo)pyphysim/pyphysim/channels/singleuser.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 31 source files)
+
+[RRepo](Clinical-Genomics)scout
+(Clinical-Genomics)scout/scout/commands/load/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(Clinical-Genomics)scout/scout/commands/base.py')  [misc]
+(Clinical-Genomics)scout/scout/commands/load/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 304 source files)
+
+[RRepo](PetrPPetrov)beautiful-capi
+(PetrPPetrov)beautiful-capi/source/ExternalNamespaceGenerator.py:30: error: Need type annotation for 'nested_namespaces' (hint: "nested_namespaces: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/ExternalNamespaceGenerator.py:31: error: Need type annotation for 'classes' (hint: "classes: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/ExternalNamespaceGenerator.py:32: error: Need type annotation for 'enums' (hint: "enums: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/ExternalNamespaceGenerator.py:39: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/ExternalNamespaceGenerator.py:39: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/Helpers.py:168: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/Helpers.py:168: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/ExternalClassGenerator.py:30: error: Need type annotation for 'enums' (hint: "enums: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/ExternalClassGenerator.py:41: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/ExternalClassGenerator.py:41: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/ExtensionSemantic.py:31: error: Need type annotation for 'class_stack' (hint: "class_stack: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/Templates.py:42: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileGenerator.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileGenerator.py:34: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileGenerator.py:91: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileGenerator.py:169: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileGenerator.py:169: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/OverloadSuffixes.py:31: error: Need type annotation for 'namespace_stack' (hint: "namespace_stack: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/OverloadSuffixes.py:34: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/OverloadSuffixes.py:48: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/OverloadSuffixes.py:48: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/OverloadSuffixes.py:50: error: Need type annotation for 'existing_names' (hint: "existing_names: Dict[<type>, <type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:29: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:29: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:37: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:37: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:38: error: Need type annotation for 'result_lines' (hint: "result_lines: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:66: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:66: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/DoxygenCpp.py:165: error: Need type annotation for 'result' (hint: "result: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/Xsd2Markdown.py:168: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/Xsd2Markdown.py:168: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:79: error: Need type annotation for 'file2generator' (hint: "file2generator: Dict[<type>, <type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:82: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:82: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:82: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:87: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:87: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:94: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:94: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:94: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:100: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:100: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:100: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:106: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:106: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:106: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:112: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:112: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:112: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:118: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:118: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:118: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:124: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:124: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:124: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:130: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:130: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:130: error: Invalid type comment or annotation  [valid-type]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:147: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:147: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:151: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:151: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:155: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:155: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:159: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:159: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:163: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:163: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:167: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:167: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:174: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:174: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:177: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:177: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:180: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:180: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:183: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:183: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:186: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:186: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:189: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:189: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/FileCache.py:196: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/FileCache.py:196: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:37: error: Need type annotation for 'enum_generators' (hint: "enum_generators: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:38: error: Need type annotation for 'nested_namespaces' (hint: "nested_namespaces: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:39: error: Need type annotation for 'external_namespaces' (hint: "external_namespaces: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:40: error: Need type annotation for 'templates' (hint: "templates: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:41: error: Need type annotation for 'classes' (hint: "classes: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:42: error: Need type annotation for 'functions' (hint: "functions: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:54: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/NamespaceGenerator.py:54: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:35: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:35: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:38: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:38: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:50: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:50: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:82: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:82: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:94: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:94: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:105: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:105: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:121: error: Syntax error in type annotation  [syntax]
+(PetrPPetrov)beautiful-capi/source/BuiltinTypeGenerator.py:121: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(PetrPPetrov)beautiful-capi/source/NatvisGenerator.py:33: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/NatvisGenerator.py:33: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/EnumGenerator.py:42: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/EnumGenerator.py:42: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/EnumGenerator.py:107: error: Need type annotation for 'namespace_stack' (hint: "namespace_stack: List[<type>] = ...")  [var-annotated]
+(PetrPPetrov)beautiful-capi/source/Callbacks.py:150: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/Callbacks.py:150: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/Callbacks.py:188: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(PetrPPetrov)beautiful-capi/source/Callbacks.py:188: note: Did you mean "List[...]"?
+(PetrPPetrov)beautiful-capi/source/LibraryCallbacks.py:209: error: Need type annotation for 'callback_names' (hint: "callback_names: List[<type>] = ...")  [var-annotated]
+Found 73 errors in 16 files (checked 28 source files)
+
+[RRepo](hpparvi)PyTransit
+(hpparvi)PyTransit/notebooks/contamination/src/core.py: error: Duplicate module named 'core' (also at '/home/bew/archive/typed_project/(hpparvi)PyTransit/notebooks/core.py')  [misc]
+(hpparvi)PyTransit/notebooks/contamination/src/core.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 42 source files)
+
+[RRepo](mdklatt)cookiecutter-python-app
+(mdklatt)cookiecutter-python-app/{{cookiecutter.project_slug}}/src/{{cookiecutter.app_name}}/cli.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 11 source files)
+
+[RRepo](samuelbroscheit)elvis
+(samuelbroscheit)elvis/elvis/elvis.py:11: error: Name 'get_mentions_info' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:11: error: Name 'gold_info_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:14: error: Name 'pd' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:16: error: Need type annotation for 'result' (hint: "result: Dict[<type>, <type>] = ...")  [var-annotated]
+(samuelbroscheit)elvis/elvis/elvis.py:28: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:30: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:36: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:40: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:42: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:48: error: Name 'documents_path' is not defined  [name-defined]
+(samuelbroscheit)elvis/elvis/elvis.py:53: error: Name 'documents_path' is not defined  [name-defined]
+Found 11 errors in 1 file (checked 2 source files)
+
+[RRepo](ros2)rclpy
+(ros2)rclpy/rclpy/rclpy/exceptions.py:74: error: Cannot find replacement for named format specifier "error_msg"  [str-format]
+(ros2)rclpy/rclpy/rclpy/exceptions.py:74: error: Cannot find replacement for named format specifier "parameters"  [str-format]
+(ros2)rclpy/rclpy/rclpy/exceptions.py:74: error: Not all arguments converted during string formatting  [str-format]
+(ros2)rclpy/rclpy/rclpy/client.py:79: error: "SrvType" has no attribute "Request"  [attr-defined]
+(ros2)rclpy/rclpy/rclpy/client.py:122: error: "SrvType" has no attribute "Request"  [attr-defined]
+(ros2)rclpy/rclpy/rclpy/service.py:71: error: "SrvType" has no attribute "Response"  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_graph.py:19: error: Module 'rclpy.action' has no attribute 'ActionClient'  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_graph.py:20: error: Module 'rclpy.action' has no attribute 'ActionServer'  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_graph.py:21: error: Module 'rclpy.action' has no attribute 'get_action_client_names_and_types_by_node'  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_graph.py:22: error: Module 'rclpy.action' has no attribute 'get_action_names_and_types'  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_graph.py:23: error: Module 'rclpy.action' has no attribute 'get_action_server_names_and_types_by_node'  [attr-defined]
+(ros2)rclpy/rclpy/test/test_action_client.py:20: error: Module 'rclpy.action' has no attribute 'ActionClient'  [attr-defined]
+(ros2)rclpy/rclpy/rclpy/impl/rcutils_logger.py:178: error: Incompatible types in assignment (expression has type "Type[SkipFirst]", target has type "Type[Throttle]")  [assignment]
+(ros2)rclpy/rclpy/rclpy/impl/rcutils_logger.py:179: error: Incompatible types in assignment (expression has type "Type[Once]", target has type "Type[Throttle]")  [assignment]
+(ros2)rclpy/rclpy/rclpy/publisher.py:67: error: Argument 2 to "isinstance" has incompatible type "MsgType"; expected "Union[type, Tuple[Union[type, Tuple[Any, ...]], ...]]"  [arg-type]
+Found 15 errors in 7 files (checked 67 source files)
+
+[RRepo](REGOVAR)Annso
+(REGOVAR)Annso/annso/core/framework/tus.py: error: Duplicate module named 'tus' (also at '/home/bew/archive/typed_project/(REGOVAR)Annso/annso/api_rest/tus.py')  [misc]
+(REGOVAR)Annso/annso/core/framework/tus.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 21 source files)
+
+[RRepo](MrBenGriffin)Amaze
+(MrBenGriffin)Amaze/Maze/util.py:62: error: "Com" has no attribute "opposite"  [attr-defined]
+(MrBenGriffin)Amaze/Maze/util.py:66: error: "Com" has no attribute "opposite"  [attr-defined]
+
+[RRepo](EeOneDown)spbu4u
+(EeOneDown)spbu4u/tg_bot/handlers/attestation.py: error: Duplicate module named 'attestation' (also at '/home/bew/archive/typed_project/(EeOneDown)spbu4u/tg_bot/keyboards/attestation.py')  [misc]
+Found 1 error in 1 file (checked 44 source files)
+
+[RRepo](abertal)alpha
+(abertal)alpha/webapp/tests/test_functional.py:3: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](texta-tk)texta
+(texta-tk)texta/account/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(texta-tk)texta/ontology_viewer/views.py')  [misc]
+Found 1 error in 1 file (checked 127 source files)
+
+[RRepo](xahhy)Django-vod
+(xahhy)Django-vod/vodmanagement/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(xahhy)Django-vod/admin_resumable/views.py')  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](hadware)katalixia
+Success: no issues found in 3 source files
+
+[RRepo](cpcloud)slumba
+Success: no issues found in 10 source files
+
+[RRepo](Ryp)Reaper
+Success: no issues found in 5 source files
+
+[RRepo](JetBrains)kotlin-web-site
+(JetBrains)kotlin-web-site/kotlin-website.py:333: error: Name 'page' already defined on line 327  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:359: error: Name 'api_page' already defined on line 343  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:394: error: Name 'asset' already defined on line 384  [no-redef]
+(JetBrains)kotlin-web-site/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "Union[int, str, None]"  [arg-type]
+(JetBrains)kotlin-web-site/kotlin-website.py:468: error: Argument 4 to "run" of "Flask" has incompatible type "**Dict[str, Set[str]]"; expected "bool"  [arg-type]
+Found 5 errors in 1 file (checked 2 source files)
+
+[RRepo](emeric254)microservice-squeleton
+Success: no issues found in 5 source files
+

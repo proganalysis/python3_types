@@ -1,0 +1,805 @@
+[RRepo](maas)python-libmaas
+(maas)python-libmaas/maas/client/flesh/subnets.py:9: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 105 source files)
+
+[RRepo](miyakogi)syncer
+Success: no issues found in 3 source files
+
+[RRepo](EnergieID)entsoe-py
+(EnergieID)entsoe-py/entsoe/parsers.py:422: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(EnergieID)entsoe-py/tests.py:6: error: Module 'entsoe' has no attribute 'EntsoeRawClient'  [attr-defined]
+(EnergieID)entsoe-py/tests.py:6: error: Module 'entsoe' has no attribute 'EntsoePandasClient'  [attr-defined]
+Found 3 errors in 2 files (checked 3 source files)
+
+[RRepo](beerfactory)hbmqtt
+(beerfactory)hbmqtt/hbmqtt/codecs.py:58: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(beerfactory)hbmqtt/hbmqtt/codecs.py:77: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(beerfactory)hbmqtt/hbmqtt/codecs.py:101: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:33: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:34: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:36: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:79: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:80: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:82: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/topic_checking.py:84: error: Incompatible return value type (got "bool", expected "AwaitableGenerator[Any, Any, Any, AwaitableGenerator[Any, Any, Any, Any]]")  [return-value]
+(beerfactory)hbmqtt/hbmqtt/plugins/authentication.py:41: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/hbmqtt/mqtt/protocol/broker_handler.py:29: error: Need type annotation for '_pending_subscriptions'  [var-annotated]
+(beerfactory)hbmqtt/hbmqtt/mqtt/protocol/broker_handler.py:30: error: Need type annotation for '_pending_unsubscriptions'  [var-annotated]
+(beerfactory)hbmqtt/hbmqtt/mqtt/protocol/client_handler.py:25: error: Need type annotation for '_pingresp_queue'  [var-annotated]
+(beerfactory)hbmqtt/hbmqtt/mqtt/protocol/client_handler.py:26: error: Need type annotation for '_subscriptions_waiter' (hint: "_subscriptions_waiter: Dict[<type>, <type>] = ...")  [var-annotated]
+(beerfactory)hbmqtt/hbmqtt/mqtt/protocol/client_handler.py:27: error: Need type annotation for '_unsubscriptions_waiter' (hint: "_unsubscriptions_waiter: Dict[<type>, <type>] = ...")  [var-annotated]
+(beerfactory)hbmqtt/hbmqtt/adapters.py:72: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(beerfactory)hbmqtt/hbmqtt/adapters.py:141: error: The return type of a generator function should be "Generator" or one of its supertypes  [misc]
+(beerfactory)hbmqtt/hbmqtt/adapters.py:160: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/hbmqtt/adapters.py:192: error: Incompatible return value type (got "bytes", expected "AwaitableGenerator[Any, Any, Any, bytes]")  [return-value]
+(beerfactory)hbmqtt/samples/client_subscribe.py:14: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_subscribe.py:41: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_subscribe.py:41: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_start.py:6: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_start.py:46: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_start.py:46: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_acl.py:6: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_acl.py:52: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_acl.py:52: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ssl.py:13: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ssl.py:42: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ssl.py:42: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_acl.py:12: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_acl.py:35: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_acl.py:35: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_subscribe_acl.py:14: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_subscribe_acl.py:45: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_subscribe_acl.py:45: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_keepalive.py:13: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_keepalive.py:32: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_keepalive.py:32: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish.py:13: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish.py:57: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish.py:57: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_taboo.py:6: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_taboo.py:47: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/broker_taboo.py:47: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ws.py:13: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ws.py:43: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/samples/client_publish_ws.py:43: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/scripts/broker_script.py:49: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/hbmqtt/mqtt/packet.py:173: error: Too few arguments for "to_bytes" of "MQTTPayload"  [call-arg]
+(beerfactory)hbmqtt/hbmqtt/mqtt/packet.py:204: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(beerfactory)hbmqtt/hbmqtt/mqtt/packet.py:242: error: Incompatible types in assignment (expression has type "datetime", variable has type "None")  [assignment]
+(beerfactory)hbmqtt/scripts/sub_script.py:46: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/scripts/pub_script.py:48: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_authentication.py:14: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_authentication.py:14: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_manager.py:10: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_manager.py:10: error: Module has no attribute "INFO"  [attr-defined]
+(beerfactory)hbmqtt/tests/test_client.py:13: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/tests/test_client.py:13: error: Module has no attribute "ERROR"  [attr-defined]
+(beerfactory)hbmqtt/tests/test_client.py:14: error: Module has no attribute "getLogger"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_persistence.py:14: error: Module has no attribute "basicConfig"  [attr-defined]
+(beerfactory)hbmqtt/tests/plugins/test_persistence.py:14: error: Module has no attribute "DEBUG"  [attr-defined]
+(beerfactory)hbmqtt/hbmqtt/utils.py:9: error: Module has no attribute "getLogger"  [attr-defined]
+Found 66 errors in 25 files (checked 59 source files)
+
+[RRepo](MycroftAI)mycroft-core
+(MycroftAI)mycroft-core/mycroft/messagebus/service/__main__.py: error: Duplicate module named '__main__' (also at '/home/bew/archive/typed_project/(MycroftAI)mycroft-core/mycroft/skills/__main__.py')  [misc]
+(MycroftAI)mycroft-core/mycroft/messagebus/service/__main__.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 128 source files)
+
+[RRepo](valesi)CloudBot
+(valesi)CloudBot/cloudbot/util/timeparse.py:56: error: Not all arguments converted during string formatting  [str-format]
+
+[RRepo](mmathioudakis)geotopics
+(mmathioudakis)geotopics/model/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(mmathioudakis)geotopics/visualization/utils.py')  [misc]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](gratefulfrog)ArduGuitar
+(gratefulfrog)ArduGuitar/Ardu3/DraftDevt/Pyboard/Old/AD75019/spiMgr.py: error: Duplicate module named 'spiMgr' (also at '/home/bew/archive/typed_project/(gratefulfrog)ArduGuitar/Ardu3/DraftDevt/Pyboard/AD75019GUITester/Version01/spiMgr.py')  [misc]
+Found 1 error in 1 file (checked 188 source files)
+
+[RRepo](morefigs)pymba
+(morefigs)pymba/pymba/feature.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 10 source files)
+
+[RRepo](OpenNetworkingFoundation)Snowmass-ONFOpenTransport
+Success: no issues found in 339 source files
+
+[RRepo](Scthe)MeshFromCurve_blender
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:258: error: Invalid type comment or annotation  [valid-type]
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:258: note: Suggestion: use IntProperty[...] instead of IntProperty(...)
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:265: error: Invalid type comment or annotation  [valid-type]
+(Scthe)MeshFromCurve_blender/meshFromCurve.py:265: note: Suggestion: use BoolProperty[...] instead of BoolProperty(...)
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](kubeflow)code-intelligence
+(kubeflow)code-intelligence/Issue_Embeddings/flask_app/inference.py: error: Duplicate module named 'inference' (also at '/home/bew/archive/typed_project/(kubeflow)code-intelligence/py/code_intelligence/inference.py')  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](asphalt-framework)asphalt-web
+(asphalt-framework)asphalt-web/asphalt/web/rpc/xmlrpc/endpoint.py: error: Duplicate module named 'endpoint' (also at '/home/bew/archive/typed_project/(asphalt-framework)asphalt-web/asphalt/web/endpoint.py')  [misc]
+(asphalt-framework)asphalt-web/asphalt/web/rpc/xmlrpc/endpoint.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 25 source files)
+
+[RRepo](kolypto)py-mongosql
+(kolypto)py-mongosql/tests/t_selectinquery_test.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](slackapi)python-slackclient
+(slackapi)python-slackclient/tests/web/classes/test_dialogs.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](IlyaGusev)PoetryCorpus
+(IlyaGusev)PoetryCorpus/poetry/apps/corpus/sitemaps.py: error: Duplicate module named 'sitemaps' (also at '/home/bew/archive/typed_project/(IlyaGusev)PoetryCorpus/poetry/sitemaps.py')  [misc]
+(IlyaGusev)PoetryCorpus/poetry/apps/corpus/sitemaps.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 32 source files)
+
+[RRepo](mbouchenoire)discloud
+(mbouchenoire)discloud/discloud/message_factory.py:21: error: Argument 1 to "update" of "dict" has incompatible type "Dict[str, float]"; expected "Mapping[str, int]"  [arg-type]
+(mbouchenoire)discloud/discloud/__init__.py:89: error: "__abort_start__" of "ConfigurationFactory" does not return a value  [func-returns-value]
+(mbouchenoire)discloud/discloud/weather.py:65: error: Need type annotation for '_past_requests' (hint: "_past_requests: List[<type>] = ...")  [var-annotated]
+(mbouchenoire)discloud/discloud/weather.py:86: error: Incompatible return value type (got "str", expected "int")  [return-value]
+(mbouchenoire)discloud/discloud/weather.py:221: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+Found 5 errors in 3 files (checked 5 source files)
+
+[RRepo](ssola)python-flask-microservice
+(ssola)python-flask-microservice/services/elasticsearch.py:1: error: Module 'elasticsearch' has no attribute 'Elasticsearch'; maybe "ElasticSearchIndex"?  [attr-defined]
+(ssola)python-flask-microservice/services/elasticsearch.py:41: error: "None" has no attribute "indices"  [attr-defined]
+(ssola)python-flask-microservice/services/elasticsearch.py:42: error: "None" has no attribute "indices"  [attr-defined]
+
+[RRepo](chwarr)bond
+(chwarr)bond/tools/ci-scripts/linux/image-cleanup/collect_images.py:84: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](firetools)blenderfds
+(firetools)blenderfds/zzz_blenderfds/bl/handlers.py:5: error: No parent module -- cannot perform relative import  [misc]
+(firetools)blenderfds/zzz_blenderfds/bl/handlers.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 34 source files)
+
+[RRepo](ibis-project)ibis
+(ibis-project)ibis/ibis/sql/postgres/api.py: error: Duplicate module named 'api' (also at '/home/bew/archive/typed_project/(ibis-project)ibis/ibis/sql/mysql/api.py')  [misc]
+Found 1 error in 1 file (checked 167 source files)
+
+[RRepo](linsalrob)EdwardsLab
+(linsalrob)EdwardsLab/perl/alignment/gapped_alignment.py:99: error: Missing parentheses in call to 'print'. Did you mean print('should not get here')?  [syntax]
+Found 1 error in 1 file (checked 139 source files)
+
+[RRepo](kprestel)PyInvestment
+(kprestel)PyInvestment/pytech/data/handler.py: error: Duplicate module named 'handler' (also at '/home/bew/archive/typed_project/(kprestel)PyInvestment/pytech/fin/handler.py')  [misc]
+Found 1 error in 1 file (checked 45 source files)
+
+[RRepo](ERA-URBAN)wrfpy
+(ERA-URBAN)wrfpy/wrfpy/cylc/upp.py: error: Duplicate module named 'upp' (also at '/home/bew/archive/typed_project/(ERA-URBAN)wrfpy/wrfpy/upp.py')  [misc]
+(ERA-URBAN)wrfpy/wrfpy/cylc/upp.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 27 source files)
+
+[RRepo](DatapuntAmsterdam)handelsregister
+(DatapuntAmsterdam)handelsregister/web/handelsregister/handelsregister/tests/test_vestiging_filter_api.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](hasadna)knesset-data-pipelines
+(hasadna)knesset-data-pipelines/datapackage_pipelines_knesset/processors/flow_dpp.py: error: Duplicate module named 'flow_dpp' (also at '/home/bew/archive/typed_project/(hasadna)knesset-data-pipelines/web_ui/flow_dpp.py')  [misc]
+(hasadna)knesset-data-pipelines/datapackage_pipelines_knesset/processors/flow_dpp.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 75 source files)
+
+[RRepo](decathorpe)kentauros
+(decathorpe)kentauros/kentauros/modules/module.py:3: error: Module 'kentauros.context' has no attribute 'KtrContext'  [attr-defined]
+(decathorpe)kentauros/kentauros/modules/module.py:4: error: Module 'kentauros.package' has no attribute 'KtrPackage'  [attr-defined]
+(decathorpe)kentauros/kentauros/context/test_context.py:5: error: Module 'kentauros.config' has no attribute 'KtrRealConfig'  [attr-defined]
+(decathorpe)kentauros/kentauros/context/test_context.py:6: error: Module 'kentauros.state' has no attribute 'KtrTestState'  [attr-defined]
+(decathorpe)kentauros/kentauros/context/test_context.py:55: error: Incompatible return value type (got "Union[bool, str]", expected "bool")  [return-value]
+(decathorpe)kentauros/kentauros/context/meta_context.py:3: error: Module 'kentauros.config' has no attribute 'KtrConfig'  [attr-defined]
+(decathorpe)kentauros/kentauros/context/meta_context.py:4: error: Module 'kentauros.state' has no attribute 'KtrState'  [attr-defined]
+(decathorpe)kentauros/kentauros/package/real_package.py:1: error: Module 'kentauros.config' has no attribute 'KtrRealConfig'  [attr-defined]
+(decathorpe)kentauros/kentauros/package/real_package.py:2: error: Module 'kentauros.context' has no attribute 'KtrContext'  [attr-defined]
+(decathorpe)kentauros/kentauros/package/test_package.py:1: error: Module 'kentauros.config' has no attribute 'KtrConfig'  [attr-defined]
+(decathorpe)kentauros/kentauros/package/test_package.py:2: error: Module 'kentauros.context' has no attribute 'KtrContext'  [attr-defined]
+(decathorpe)kentauros/kentauros/modules/constructor/rpm/spec_version_out.py:1: error: Module 'kentauros.package' has no attribute 'KtrPackage'  [attr-defined]
+(decathorpe)kentauros/kentauros/modules/constructor/rpm/spec_source_out.py:3: error: Module 'kentauros.package' has no attribute 'KtrPackage'  [attr-defined]
+(decathorpe)kentauros/kentauros/modules/constructor/rpm/spec_preamble_out.py:3: error: Module 'kentauros.package' has no attribute 'KtrPackage'  [attr-defined]
+(decathorpe)kentauros/kentauros/modules/constructor/rpm/spec_preamble_out.py:30: error: Need type annotation for 'preamble'  [var-annotated]
+(decathorpe)kentauros/kentauros/modules/constructor/rpm/spec_preamble_out.py:36: error: Need type annotation for 'preamble'  [var-annotated]
+
+[RRepo](metacontainer)metac
+(metacontainer)metac/py/metac/core.py:2: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 5 source files)
+
+[RRepo](ekiro)chaps
+(ekiro)chaps/samples/autodiscover/services/bases.py:1: error: Module 'haps' has no attribute 'base'  [attr-defined]
+(ekiro)chaps/haps/config.py:42: error: "Configuration" has no attribute "cache"  [attr-defined]
+(ekiro)chaps/haps/config.py:43: error: "Configuration" has no attribute "resolvers"; maybe "resolver", "env_resolver", or "_resolve_var"?  [attr-defined]
+(ekiro)chaps/haps/config.py:47: error: "Configuration" has no attribute "resolvers"; maybe "resolver", "env_resolver", or "_resolve_var"?  [attr-defined]
+(ekiro)chaps/haps/config.py:48: error: "Configuration" has no attribute "resolvers"; maybe "resolver", "env_resolver", or "_resolve_var"?  [attr-defined]
+(ekiro)chaps/haps/config.py:64: error: "Configuration" has no attribute "cache"  [attr-defined]
+(ekiro)chaps/haps/config.py:77: error: "Configuration" has no attribute "cache"  [attr-defined]
+(ekiro)chaps/haps/config.py:100: error: Incompatible return value type (got "Callable[[Any], Any]", expected "FunctionType")  [return-value]
+(ekiro)chaps/haps/config.py:135: error: "Configuration" has no attribute "cache"  [attr-defined]
+(ekiro)chaps/haps/config.py:136: error: "Configuration" has no attribute "cache"  [attr-defined]
+(ekiro)chaps/haps/config.py:174: error: Incompatible types in assignment (expression has type "str", variable has type "None")  [assignment]
+
+[RRepo](Celeo)Preston
+(Celeo)Preston/preston/cache.py:39: error: Name 'requests' is not defined  [name-defined]
+(Celeo)Preston/preston/preston.py:141: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(Celeo)Preston/preston/preston.py:142: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(Celeo)Preston/preston/preston.py:142: error: Unsupported operand types for + ("float" and "str")  [operator]
+(Celeo)Preston/preston/preston.py:153: error: Unsupported operand types for > ("float" and "str")  [operator]
+(Celeo)Preston/preston/preston.py:199: error: Incompatible types in assignment (expression has type "float", target has type "str")  [assignment]
+(Celeo)Preston/preston/preston.py:328: error: Incompatible return value type (got "Tuple[Dict[Any, Any], Dict[Any, Any]]", expected "Dict[Any, Any]")  [return-value]
+Found 7 errors in 2 files (checked 4 source files)
+
+[RRepo](amcat)amcat
+(amcat)amcat/api/rest/viewset.py:37: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 267 source files)
+
+[RRepo](ChrisTimperley)roshammer
+(ChrisTimperley)roshammer/roshammer/bag.py:149: error: Cannot determine type of 'msg'  [has-type]
+
+[RRepo](mulonemartin)kaira
+(mulonemartin)kaira/kaira/routing/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(mulonemartin)kaira/kaira/utils.py')  [misc]
+(mulonemartin)kaira/kaira/routing/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 50 source files)
+
+[RRepo](aio-libs)aiopg
+(aio-libs)aiopg/aiopg/sa/transaction.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 37 source files)
+
+[RRepo](foursquare)fsqio
+(foursquare)fsqio/src/python/fsqio/pants/rpmbuild/register.py: error: Duplicate module named 'register' (also at '/home/bew/archive/typed_project/(foursquare)fsqio/src/python/fsqio/pants/tags/register.py')  [misc]
+Found 1 error in 1 file (checked 82 source files)
+
+[RRepo](arghblargh)feh-inheritance-tool
+Success: no issues found in 1 source file
+
+[RRepo](bmassman)fake_news
+(bmassman)fake_news/fake_news/LdaAnalysis.py:54: error: Name 'dataset' is not defined  [name-defined]
+(bmassman)fake_news/fake_news/article_db.py:83: error: Syntax error in type annotation  [syntax]
+(bmassman)fake_news/fake_news/article_db.py:83: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(bmassman)fake_news/fake_news/article_db.py:133: error: Incompatible types in assignment (expression has type "Sequence[int]", variable has type "None")  [assignment]
+(bmassman)fake_news/fake_news/article_db.py:145: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:146: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:147: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:148: error: "None" has no attribute "loc"  [attr-defined]
+(bmassman)fake_news/fake_news/article_db.py:149: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:150: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:151: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:152: error: Value of type "None" is not indexable  [index]
+(bmassman)fake_news/fake_news/article_db.py:185: error: Incompatible types in assignment (expression has type "Dict[<nothing>, <nothing>]", variable has type "None")  [assignment]
+(bmassman)fake_news/fake_news/article_db.py:187: error: "None" has no attribute "items"  [attr-defined]
+(bmassman)fake_news/fake_news/article_db.py:190: error: Unsupported target for indexed assignment  [index]
+(bmassman)fake_news/fake_news/article_db.py:191: error: "None" has no attribute "getcol"  [attr-defined]
+(bmassman)fake_news/fake_news/article_db.py:209: error: "None" has no attribute "values"  [attr-defined]
+(bmassman)fake_news/fake_news/pipeline/sentiment/sentiment.py:128: error: Incompatible return value type (got "List[float]", expected "Dict[str, float]")  [return-value]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:21: error: Syntax error in type annotation  [syntax]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:21: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:33: error: Need type annotation for 'dummy_col'  [var-annotated]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:46: error: Syntax error in type annotation  [syntax]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:46: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:75: error: Need type annotation for 'url_labels'  [var-annotated]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:80: error: Incompatible types in assignment (expression has type "float", variable has type "str")  [assignment]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:81: error: Incompatible types in assignment (expression has type "str", target has type "float")  [assignment]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:126: error: Incompatible types in assignment (expression has type "Iterator[str]", variable has type "List[str]")  [assignment]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:172: error: Need type annotation for 'scores' (hint: "scores: List[<type>] = ...")  [var-annotated]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:194: error: Syntax error in type annotation  [syntax]
+(bmassman)fake_news/fake_news/pipeline/db_transformer.py:194: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(bmassman)fake_news/fake_news/results/text_to_csv.py:62: error: Cannot determine type of 'class_type'  [has-type]
+(bmassman)fake_news/fake_news/results/text_to_csv.py:62: error: Cannot determine type of 'class_param'  [has-type]
+(bmassman)fake_news/fake_news/results/text_to_csv.py:62: error: Argument 3 to "parse_learner_run" has incompatible type "List[str]"; expected "List[bool]"  [arg-type]
+(bmassman)fake_news/fake_news/article_learner.py:170: error: Argument 3 to "train_model" has incompatible type "object"; expected "Dict[Any, Any]"  [arg-type]
+(bmassman)fake_news/fake_news/scraper/news_scraper.py:71: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any, Any, str, Any]", variable has type "Tuple[Any, str, Any, Any, Any, str]")  [assignment]
+Found 31 errors in 7 files (checked 14 source files)
+
+[RRepo](sloria)sir
+(sloria)sir/api/app.py:5: error: No parent module -- cannot perform relative import  [misc]
+(sloria)sir/api/app.py:6: error: No parent module -- cannot perform relative import  [misc]
+(sloria)sir/api/app.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 13 source files)
+
+[RRepo](DeflatedPickle)Colony
+(DeflatedPickle)Colony/colony/item.py:5: error: Module 'colony.entities' has no attribute 'Entity'  [attr-defined]
+
+[RRepo](manly-man)moodle-destroyer-tools
+(manly-man)moodle-destroyer-tools/frontend/commands.py: error: Duplicate module named 'commands' (also at '/home/bew/archive/typed_project/(manly-man)moodle-destroyer-tools/commands/__init__.py')  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](weka-io)easypy
+(weka-io)easypy/easypy/decorations.py:62: error: Argument 1 to "update_wrapper" has incompatible type "DecoratingDescriptor"; expected "Callable[..., Any]"  [arg-type]
+(weka-io)easypy/easypy/random.py:3: error: Module 'random' has no attribute 'choice'  [attr-defined]
+(weka-io)easypy/easypy/random.py:3: error: Module 'random' has no attribute 'sample'  [attr-defined]
+
+[RRepo](michaelkuty)mbot
+(michaelkuty)mbot/mbot/contrib/system.py:1: error: Module 'mbot' has no attribute '__version__'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/system.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/dialogs.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/connections.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/connections.py:2: error: Module 'mbot' has no attribute 'Dialog'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/joker.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/python.py:3: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/airflow.py:4: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/salt.py:4: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/scheduler.py:8: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/debug.py:4: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/hackernews.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/bash.py:3: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/jinja2.py:5: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/console.py:3: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/help.py:2: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/sql.py:5: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/contrib/yfinance.py:3: error: Module 'mbot' has no attribute 'Middleware'  [attr-defined]
+(michaelkuty)mbot/mbot/cli.py:6: error: Module 'mbot' has no attribute 'Bot'  [attr-defined]
+
+[RRepo](parttimenerd)temci
+(parttimenerd)temci/temci/build/build_processor.py:17: error: misplaced type annotation  [syntax]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](mynlp)jigg
+Success: no issues found in 3 source files
+
+[RRepo](lk-geimfari)mimesis
+(lk-geimfari)mimesis/mimesis/builtins/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(lk-geimfari)mimesis/mimesis/providers/base.py')  [misc]
+Found 1 error in 1 file (checked 76 source files)
+
+[RRepo](MagicStack)asyncpg
+(MagicStack)asyncpg/asyncpg/cursor.py:10: error: No parent module -- cannot perform relative import  [misc]
+(MagicStack)asyncpg/asyncpg/cursor.py:11: error: No parent module -- cannot perform relative import  [misc]
+(MagicStack)asyncpg/asyncpg/cursor.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 30 source files)
+
+[RRepo](MrLeeh)pdftools
+(MrLeeh)pdftools/pdftools/parseutil.py:2: error: Module 'pdftools' has no attribute '__version__'  [attr-defined]
+(MrLeeh)pdftools/pdftools/parseutil.py:23: error: Need type annotation for 'pageset' (hint: "pageset: Set[<type>] = ...")  [var-annotated]
+(MrLeeh)pdftools/pdftools/pdftools.py:16: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:16: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:57: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:57: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:111: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:111: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:142: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:142: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:249: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:249: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:315: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:315: note: Did you mean "List[...]"?
+(MrLeeh)pdftools/pdftools/pdftools.py:354: error: Argument 1 to "remove" has incompatible type "IO[bytes]"; expected "Union[bytes, str, _PathLike[Any]]"  [arg-type]
+(MrLeeh)pdftools/pdftools/pdftools.py:357: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(MrLeeh)pdftools/pdftools/pdftools.py:357: note: Did you mean "List[...]"?
+
+[RRepo](Egregors)django-cbrf
+(Egregors)django-cbrf/django_cbrf/management/commands/load_rates.py:11: error: Relative import climbs too many namespaces  [misc]
+(Egregors)django-cbrf/django_cbrf/abstract_models.py:106: error: Invalid type comment or annotation  [valid-type]
+Found 2 errors in 2 files (checked 5 source files)
+
+[RRepo](1337)yesterday-i-learned
+(1337)yesterday-i-learned/scripts/multiplicative_persistence.py:33: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 44 source files)
+
+[RRepo](rosjat)python-scsi
+(rosjat)python-scsi/tools/mtx.py:32: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 77 source files)
+
+[RRepo](AlertaDengue)AlertaDengue
+(AlertaDengue)AlertaDengue/AlertaDengue/api/tests/test_views.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](pantsbuild)pants
+(pantsbuild)pants/contrib/scalajs/src/python/pants/contrib/scalajs/register.py: error: Duplicate module named 'register' (also at '/home/bew/archive/typed_project/(pantsbuild)pants/contrib/thrifty/src/python/pants/contrib/thrifty/register.py')  [misc]
+Found 1 error in 1 file (checked 1065 source files)
+
+[RRepo](ajbouh)tfi
+(ajbouh)tfi/src/tfi/parse/biblib/test.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 67 source files)
+
+[RRepo](Moe-Team)MysteryOnline
+Success: no issues found in 34 source files
+
+[RRepo](precedenceguo)mxnet
+(precedenceguo)mxnet/python/mxnet/contrib/io.py:22: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 128 source files)
+
+[RRepo](facebook)FBSimulatorControl
+(facebook)FBSimulatorControl/idb/daemon/server.py: error: Duplicate module named 'server' (also at '/home/bew/archive/typed_project/(facebook)FBSimulatorControl/idb/grpc/server.py')  [misc]
+Found 1 error in 1 file (checked 116 source files)
+
+[RRepo](CloudBoltSoftware)cloudbolt-forge
+(CloudBoltSoftware)cloudbolt-forge/actions/cloudbolt_plugins/load_balancers/f5_lb_pool_adddel_wrap.py:172: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 101 source files)
+
+[RRepo](catb0t)mouse16
+(catb0t)mouse16/mouseStack.py:61: error: Need type annotation for '__stack__' (hint: "__stack__: List[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 3 source files)
+
+[RRepo](roosemberth)dotfiles
+
+[RRepo](atbentley)aiohttp-rest
+Success: no issues found in 8 source files
+
+[RRepo](dr-leo)pandaSDMX
+(dr-leo)pandaSDMX/pandasdmx/util.py:2: error: Module 'typing' has no attribute 'KT'; maybe "_KT"?  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:2: error: Module 'typing' has no attribute 'VT'; maybe "_VT"?  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:10: error: Module 'typing' has no attribute 'OrderedDict'  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/util.py:15: error: Module 'typing' has no attribute '_alias'  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/experimental.py:33: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/source/estat.py:6: error: Module 'requests.compat' has no attribute 'urlparse'  [attr-defined]
+(dr-leo)pandaSDMX/pandasdmx/message.py:93: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:94: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:95: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:96: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:97: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:98: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:99: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+(dr-leo)pandaSDMX/pandasdmx/message.py:100: error: "DictLike" expects no type arguments, but 2 given  [type-arg]
+Found 14 errors in 4 files (checked 35 source files)
+
+[RRepo](ClearcodeHQ)mirakuru
+(ClearcodeHQ)mirakuru/src/mirakuru/base_env.py:85: error: Incompatible types in assignment (expression has type "List[bytes]", variable has type "str")  [assignment]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](coq)coq
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py:41: error: Name 'Lexer' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py:43: error: Name 'ATNDeserializer' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py:45: error: Name 'DFA' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py:77: error: Name 'LexerATNSimulator' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsLexer.py:77: error: Name 'PredictionContextCache' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/TacticNotationsVisitor.py:10: error: Name 'ParseTreeVisitor' is not defined  [name-defined]
+(coq)coq/doc/tools/coqrst/notations/sphinx.py:21: error: Module 'sphinx' has no attribute 'addnodes'; maybe "nodes"?  [attr-defined]
+(coq)coq/doc/tools/coqrst/repl/coqtop.py:44: error: The return type of "__init__" must be None  [misc]
+(coq)coq/doc/tools/coqrst/regen_readme.py:7: error: Module 'os' has no attribute 'sys'  [attr-defined]
+Found 9 errors in 5 files (checked 14 source files)
+
+[RRepo](laanwj)bitcoin
+(laanwj)bitcoin/test/functional/p2p_leak.py:23: error: Name 'P2PInterface' is not defined  [name-defined]
+(laanwj)bitcoin/test/functional/feature_maxuploadtarget.py:20: error: Name 'P2PInterface' is not defined  [name-defined]
+(laanwj)bitcoin/test/functional/p2p_timeouts.py:30: error: Name 'P2PInterface' is not defined  [name-defined]
+(laanwj)bitcoin/test/functional/p2p_feefilter.py:25: error: Name 'P2PInterface' is not defined  [name-defined]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:293: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:295: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:297: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:299: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:303: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:304: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:305: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:306: error: Incompatible types in assignment (expression has type "bytes", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-data.py:307: error: Incompatible types in assignment (expression has type "int", target has type "str")  [assignment]
+(laanwj)bitcoin/contrib/linearize/linearize-hashes.py:14: error: Name 'httplib' already defined (by an import)  [no-redef]
+(laanwj)bitcoin/contrib/devtools/github-merge.py:29: error: Name 'Request' already defined (possibly by an import)  [no-redef]
+(laanwj)bitcoin/contrib/devtools/github-merge.py:29: error: Name 'urlopen' already defined (possibly by an import)  [no-redef]
+Found 16 errors in 7 files (checked 54 source files)
+
+[RRepo](AVSystem)avs_commons
+(AVSystem)avs_commons/gdb/print-avs-rbtree.py:21: error: Name 'gdb.Command' is not defined  [name-defined]
+(AVSystem)avs_commons/gdb/print-avs-list.py:21: error: Name 'gdb.Command' is not defined  [name-defined]
+(AVSystem)avs_commons/tools/check-license-headers.py:43: error: Argument 1 to "map" has incompatible type overloaded function; expected "Callable[[str], Pattern[AnyStr]]"  [arg-type]
+Found 3 errors in 3 files (checked 6 source files)
+
+[RRepo](instantshare)instantshare
+(instantshare)instantshare/src/tools/audio.py: error: Duplicate module named 'audio' (also at '/home/bew/archive/typed_project/(instantshare)instantshare/src/cli/audio.py')  [misc]
+Found 1 error in 1 file (checked 32 source files)
+
+[RRepo](mrachinskiy)jewelcraft
+
+[RRepo](nonemaw)Flask_nonemaw
+(nonemaw)Flask_nonemaw/app/crawler/views.py:5: error: No parent module -- cannot perform relative import  [misc]
+(nonemaw)Flask_nonemaw/app/crawler/views.py:8: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 27 source files)
+
+[RRepo](dpnova)pynerstat
+(dpnova)pynerstat/minerstat/miners/base.py:16: error: Method must have at least one argument  [misc]
+(dpnova)pynerstat/minerstat/miners/base.py:39: error: No overload variant of "join" matches argument types "Callable[[], str]", "Any"  [call-overload]
+(dpnova)pynerstat/minerstat/miners/base.py:39: note: Possible overload variants:
+(dpnova)pynerstat/minerstat/miners/base.py:39: note:     def join(path: Union[str, _PathLike[str]], *paths: Union[str, _PathLike[str]]) -> str
+(dpnova)pynerstat/minerstat/miners/base.py:39: note:     def join(path: Union[bytes, _PathLike[bytes]], *paths: Union[bytes, _PathLike[bytes]]) -> bytes
+
+[RRepo](un-def)polypie
+(un-def)polypie/tests/samples/specialattrs.py:9: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(un-def)polypie/tests/samples/specialattrs.py:12: error: "Callable[[int], Any]" has no attribute "attr1"  [attr-defined]
+(un-def)polypie/tests/samples/specialattrs.py:20: error: Name 'check_special_attrs' already defined on line 9  [no-redef]
+(un-def)polypie/tests/samples/specialattrs.py:20: error: Self argument missing for a non-static method (or an invalid type for self)  [misc]
+(un-def)polypie/tests/samples/specialattrs.py:23: error: "Callable[[int], Any]" has no attribute "attr2"  [attr-defined]
+
+[RRepo](ErikBjare)dotfiles
+
+[RRepo](132nd-etcher)EMFT
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:30: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:30: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:39: error: Need type annotation for '_watchers' (hint: "_watchers: List[<type>] = ...")  [var-annotated]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:42: error: callable? has no attribute "__name__"  [attr-defined]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:45: error: callable? has no attribute "__doc__"  [attr-defined]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:47: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:47: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:55: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:55: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:130: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/watched_property.py:130: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:18: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:18: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:27: error: callable? has no attribute "__name__"  [attr-defined]
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:28: error: callable? has no attribute "__doc__"  [attr-defined]
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:102: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/core/properties/typed_property.py:102: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:7: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:7: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:11: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:11: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:20: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:20: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:21: error: Function "builtins.callable" is not valid as a type  [valid-type]
+(132nd-etcher)EMFT/emft/gui/main_ui_msgbox_adapter.py:21: note: Perhaps you need "Callable[...]" or a callback protocol?
+(132nd-etcher)EMFT/emft/core/progress.py:76: error: Syntax error in type annotation  [syntax]
+(132nd-etcher)EMFT/emft/core/progress.py:76: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(132nd-etcher)EMFT/emft/core/progress.py:83: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+
+[RRepo](junjihashimoto)mathflow
+(junjihashimoto)mathflow/util/gen_function_list.py:94: error: Incompatible return value type (got "bool", expected "str")  [return-value]
+(junjihashimoto)mathflow/util/gen_function_list.py:95: error: Incompatible return value type (got "bool", expected "str")  [return-value]
+Found 2 errors in 1 file (checked 1 source file)
+
+[RRepo](WZQ1397)automatic-repo
+(WZQ1397)automatic-repo/python/shelve_EXAMPLE.py:23: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 177 source files)
+
+[RRepo](jfcherng)Sublime-ASS
+(jfcherng)Sublime-ASS/AssToggleComment.py:59: error: Need type annotation for 'comment_points' (hint: "comment_points: Set[<type>] = ...")  [var-annotated]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](ento)elm-doc
+(ento)elm-doc/src/elm_doc/elm_parser/lines.py:274: error: Incompatible types in assignment (expression has type "List[Type[ParsingState]]", variable has type "List[Type[NothingSpecial]]")  [assignment]
+(ento)elm-doc/src/elm_doc/elm_parser/lines.py:274: error: Argument 2 to "on_source_line" of "NothingSpecial" has incompatible type "List[Type[NothingSpecial]]"; expected "List[Type[ParsingState]]"  [arg-type]
+(ento)elm-doc/src/elm_doc/elm_parser/lines.py:274: note: "List" is invariant -- see http://mypy.readthedocs.io/en/latest/common_issues.html#variance
+(ento)elm-doc/src/elm_doc/elm_parser/lines.py:274: note: Consider using "Sequence" instead, which is covariant
+(ento)elm-doc/dodo.py:44: error: "str" has no attribute "parent"  [attr-defined]
+(ento)elm-doc/dodo.py:65: error: Argument 1 to "_create_tarball" has incompatible type "str"; expected "Path"  [arg-type]
+(ento)elm-doc/src/elm_doc/elm_project.py:30: error: "ElmProject" has no attribute "DESCRIPTION_FILENAME"  [attr-defined]
+(ento)elm-doc/src/elm_doc/elm_project.py:55: error: Return value expected  [return-value]
+(ento)elm-doc/src/elm_doc/elm_project.py:59: error: Return value expected  [return-value]
+(ento)elm-doc/src/elm_doc/elm_project.py:127: error: Return value expected  [return-value]
+(ento)elm-doc/src/elm_doc/elm_project.py:131: error: Return value expected  [return-value]
+(ento)elm-doc/src/elm_doc/elm_project.py:197: error: Incompatible types in "yield" (actual type "ElmProject", expected type "ElmPackage")  [misc]
+(ento)elm-doc/src/elm_doc/elm_project.py:220: error: "type" has no attribute "from_path"  [attr-defined]
+(ento)elm-doc/src/elm_doc/elm_project.py:256: error: No overload variant of "normpath" matches argument type "_T"  [call-overload]
+(ento)elm-doc/src/elm_doc/elm_project.py:256: note: Possible overload variants:
+(ento)elm-doc/src/elm_doc/elm_project.py:256: note:     def [AnyStr in (str, bytes)] normpath(path: _PathLike[AnyStr]) -> AnyStr
+(ento)elm-doc/src/elm_doc/elm_project.py:256: note:     def [AnyStr in (str, bytes)] normpath(path: AnyStr) -> AnyStr
+(ento)elm-doc/src/elm_doc/elm_project.py:257: error: "ElmProject" has no attribute "source_directories"  [attr-defined]
+(ento)elm-doc/src/elm_doc/elm_project.py:267: error: Argument 2 to "_matches_include_path" has incompatible type "_T"; expected "Path"  [arg-type]
+(ento)elm-doc/src/elm_doc/elm_project.py:278: error: Value of type variable "AnyStr" of "fnmatch" cannot be "object"  [type-var]
+Found 15 errors in 3 files (checked 26 source files)
+
+[RRepo](flyinactor91)AVWX-API
+(flyinactor91)AVWX-API/avwx_api/validators.py:24: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/validators.py:24: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/validators.py:45: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/validators.py:45: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/validators.py:62: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/validators.py:62: note: Suggestion: Is there a spurious trailing comma?
+(flyinactor91)AVWX-API/avwx_api/validators.py:69: error: Incompatible return value type (got "List[<nothing>]", expected "str")  [return-value]
+(flyinactor91)AVWX-API/avwx_api/validators.py:74: error: Incompatible return value type (got "List[str]", expected "str")  [return-value]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:37: error: Name 'stringable' is not defined  [name-defined]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:38: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/__init__.py:38: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:19: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:19: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:34: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:34: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:35: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:35: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:62: error: Incompatible types in assignment (expression has type "str", target has type "Dict[str, datetime]")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:68: error: Dict entry 1 has incompatible type "str": "str"; expected "str": "datetime"  [dict-item]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:79: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:95: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/pirep.py:99: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:33: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:33: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:58: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:58: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:92: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:108: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:108: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:109: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:109: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:140: error: Incompatible types in assignment (expression has type "str", target has type "Dict[str, datetime]")  [assignment]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:146: error: Dict entry 1 has incompatible type "str": "str"; expected "str": "datetime"  [dict-item]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:160: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:200: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/metar.py:204: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:21: error: Module 'avwx_api' has no attribute 'structs'  [attr-defined]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:78: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:78: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:92: error: Return value expected  [return-value]
+(flyinactor91)AVWX-API/avwx_api/api/__init__.py:304: error: Name 'err' is not defined  [name-defined]
+(flyinactor91)AVWX-API/avwx_api/cache.py:36: error: Return value expected  [return-value]
+(flyinactor91)AVWX-API/avwx_api/cache.py:54: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/cache.py:77: error: Invalid type comment or annotation  [valid-type]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:9: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: note: Did you mean "List[...]"?
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: error: Syntax error in type annotation  [syntax]
+(flyinactor91)AVWX-API/avwx_api/handle/taf.py:13: note: Suggestion: Use Tuple[T1, ..., Tn] instead of (T1, ..., Tn)
+(flyinactor91)AVWX-API/tests/test_metar_taf.py:18: error: Name 'Response' is not defined  [name-defined]
+Found 44 errors in 8 files (checked 17 source files)
+
+[RRepo](bieberg0n)bjdns
+(bieberg0n)bjdns/cache.py:15: error: Function "builtins.map" is not valid as a type  [valid-type]
+(bieberg0n)bjdns/cache.py:15: note: Perhaps you need "Callable[...]" or a callback protocol?
+(bieberg0n)bjdns/cache.py:19: error: map? has no attribute "get"  [attr-defined]
+(bieberg0n)bjdns/cache.py:27: error: Function "builtins.map" is not valid as a type  [valid-type]
+(bieberg0n)bjdns/cache.py:27: note: Perhaps you need "Callable[...]" or a callback protocol?
+(bieberg0n)bjdns/cache.py:28: error: map? has no attribute "get"  [attr-defined]
+(bieberg0n)bjdns/cache.py:49: error: Value of type map? is not indexable  [index]
+Found 5 errors in 1 file (checked 6 source files)
+
+[RRepo](GoogleCloudPlatform)cloud-opensource-python
+(GoogleCloudPlatform)cloud-opensource-python/compatibility_lib/compatibility_lib/testpkgs/removed_func/0.2.0/main.py: error: Duplicate module named 'main' (also at '/home/bew/archive/typed_project/(GoogleCloudPlatform)cloud-opensource-python/compatibility_lib/compatibility_lib/testpkgs/removed_func/0.1.0/main.py')  [misc]
+Found 1 error in 1 file (checked 39 source files)
+
+[RRepo](OpenMined)PySyft
+(OpenMined)PySyft/syft/frameworks/torch/tensors/interpreters/autograd.py:7: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 89 source files)
+
+[RRepo](guillemborrell)pyledger
+(guillemborrell)pyledger/examples/hello_counter/server.py: error: Duplicate module named 'server' (also at '/home/bew/archive/typed_project/(guillemborrell)pyledger/examples/currency/server.py')  [misc]
+Found 1 error in 1 file (checked 26 source files)
+
+[RRepo](sloria)environs
+Success: no issues found in 4 source files
+
+[RRepo](AdrianP-)gym_trading
+(AdrianP-)gym_trading/run.py:108: error: Not all arguments converted during string formatting  [str-format]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](mesonbuild)wrapweb
+(mesonbuild)wrapweb/mesonwrap/tempfile.py:16: error: Name 'TemporaryDirectory' is not defined  [name-defined]
+
+[RRepo](JasonMWhite)python_template
+Success: no issues found in 5 source files
+
+[RRepo](adamcaudill)yawast
+(adamcaudill)yawast/yawast/shared/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(adamcaudill)yawast/tests/utils.py')  [misc]
+(adamcaudill)yawast/yawast/shared/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 79 source files)
+
+[RRepo](hl037)torefl
+(hl037)torefl/torefl/formatters/ASCIIFormatter.py:22: error: List or tuple expected as variable arguments  [misc]
+
+[RRepo](coala)coala-bears
+(coala)coala-bears/bears/hypertext/HTTPoliceLintBear.py:29: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/hypertext/HTTPoliceLintBear.py:29: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/hypertext/HTTPoliceLintBear.py:39: error: Incompatible types in assignment (expression has type "Tuple[Any, ...]", variable has type "Tuple[str, str, Any]")  [assignment]
+(coala)coala-bears/bears/scala/ScalaLintBear.py:43: error: "Type[ScalaLintBear]" has no attribute "jar"  [attr-defined]
+(coala)coala-bears/bears/c_languages/CPPCheckBear.py:32: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/c_languages/CPPCheckBear.py:32: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/c_languages/CPPCheckBear.py:42: error: "CPPCheckBear" has no attribute "file_dict"  [attr-defined]
+(coala)coala-bears/bears/c_languages/CPPCheckBear.py:45: error: Incompatible types in assignment (expression has type "Tuple[str, str]", variable has type "Tuple[str]")  [assignment]
+(coala)coala-bears/bears/c_languages/CPPCleanBear.py:29: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/c_languages/CPPCleanBear.py:29: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/php/PHPMessDetectorBear.py:44: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/php/PHPMessDetectorBear.py:44: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/java/CheckstyleBear.py:67: error: Function "bears.java.CheckstyleBear.known_checkstyle_or_path" is not valid as a type  [valid-type]
+(coala)coala-bears/bears/java/CheckstyleBear.py:67: note: Perhaps you need "Callable[...]" or a callback protocol?
+(coala)coala-bears/bears/java/CheckstyleBear.py:98: error: "CheckstyleBear" has no attribute "download_cached_file"  [attr-defined]
+(coala)coala-bears/bears/java/CheckstyleBear.py:100: error: Unsupported left operand type for + (known_checkstyle_or_path?)  [operator]
+(coala)coala-bears/bears/java/CheckstyleBear.py:102: error: "CheckstyleBear" has no attribute "checkstyle_jar_file"  [attr-defined]
+(coala)coala-bears/bears/go/GofmtBear.py:34: error: Incompatible types in assignment (expression has type "Tuple[str]", variable has type "Tuple[]")  [assignment]
+(coala)coala-bears/bears/js/HappinessLintBear.py:29: error: "Type[HappinessLintBear]" has no attribute "name"  [attr-defined]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:23: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:23: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyDocStyleBear.py:24: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:24: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyDocStyleBear.py:25: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:25: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyDocStyleBear.py:26: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:26: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyDocStyleBear.py:45: error: "PyDocStyleBear" has no attribute "err"  [attr-defined]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:50: error: Incompatible types in assignment (expression has type "Tuple[Any, str]", variable has type "Tuple[Any]")  [assignment]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:53: error: Incompatible types in assignment (expression has type "Tuple[Any, str]", variable has type "Tuple[Any]")  [assignment]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:57: error: Incompatible types in assignment (expression has type "Tuple[Any, str]", variable has type "Tuple[Any]")  [assignment]
+(coala)coala-bears/bears/python/PyDocStyleBear.py:61: error: Incompatible types in assignment (expression has type "Tuple[Any, str]", variable has type "Tuple[Any]")  [assignment]
+(coala)coala-bears/bears/python/PyImportSortBear.py:103: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyImportSortBear.py:103: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyImportSortBear.py:105: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyImportSortBear.py:105: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyImportSortBear.py:106: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyImportSortBear.py:106: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyImportSortBear.py:107: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyImportSortBear.py:107: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyImportSortBear.py:109: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PyImportSortBear.py:109: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PyUnusedCodeBear.py:15: error: Unexpected keyword argument "aspects" for "__init_subclass__" of "object"  [call-arg]
+(coala)coala-bears/bears/python/PyUnusedCodeBear.py:15: error: Unexpected keyword argument "languages" for "__init_subclass__" of "object"  [call-arg]
+(coala)coala-bears/bears/python/PEP8Bear.py:26: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PEP8Bear.py:26: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/python/PEP8Bear.py:27: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/python/PEP8Bear.py:27: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/general/AnnotationBear.py:61: error: Incompatible types in assignment (expression has type "Dict[str, Tuple[]]", variable has type "str")  [assignment]
+(coala)coala-bears/bears/shell/ShellCheckBear.py:44: error: Incompatible types in assignment (expression has type "Tuple[str, str, str, str, Any, str, str]", variable has type "Tuple[str, str, str, str, Any]")  [assignment]
+(coala)coala-bears/bears/shell/BashateBear.py:24: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/shell/BashateBear.py:24: note: Suggestion: use typed_list[...] instead of typed_list(...)
+(coala)coala-bears/bears/shell/BashateBear.py:30: error: Incompatible types in assignment (expression has type "Tuple[Any, str, str]", variable has type "Tuple[Any]")  [assignment]
+(coala)coala-bears/bears/hypertext/BootLintBear.py:30: error: Invalid type comment or annotation  [valid-type]
+(coala)coala-bears/bears/hypertext/BootLintBear.py:30: note: Suggestion: use typed_list[...] instead of typed_list(...)
+
+[RRepo](fyookball)electrum
+(fyookball)electrum/ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:9: error: No parent module -- cannot perform relative import  [misc]
+(fyookball)electrum/ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:10: error: No parent module -- cannot perform relative import  [misc]
+(fyookball)electrum/ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 3 errors in 1 file (checked 123 source files)
+
+[RRepo](J-CPelletier)webcomix
+(J-CPelletier)webcomix/webcomix/scrapy/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(J-CPelletier)webcomix/webcomix/util.py')  [misc]
+(J-CPelletier)webcomix/webcomix/scrapy/util.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 21 source files)
+
+[RRepo](Paulius-Maruska)python-isign
+(Paulius-Maruska)python-isign/src/isign/model/error.py: error: Duplicate module named 'error' (also at '/home/bew/archive/typed_project/(Paulius-Maruska)python-isign/src/isign/error.py')  [misc]
+(Paulius-Maruska)python-isign/src/isign/model/error.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 35 source files)
+
+[RRepo](salsita)shishito
+(salsita)shishito/shishito/runtime/platform/generic/control_execution.py: error: Duplicate module named 'control_execution' (also at '/home/bew/archive/typed_project/(salsita)shishito/shishito/runtime/platform/node_webkit/control_execution.py')  [misc]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](uyamazak)oceanus
+(uyamazak)oceanus/revelation/app/task/sendgrid/tasks.py: error: Duplicate module named 'tasks' (also at '/home/bew/archive/typed_project/(uyamazak)oceanus/revelation/app/task/googlebigquery/tasks.py')  [misc]
+Found 1 error in 1 file (checked 27 source files)
+
+[RRepo](moddevices)mod-ui
+(moddevices)mod-ui/bluetooth.py:21: error: Missing parentheses in call to 'print'. Did you mean print("Can't connect")?  [syntax]
+Found 1 error in 1 file (checked 20 source files)
+
+[RRepo](mesosphere)dcos-commons
+(mesosphere)dcos-commons/frameworks/helloworld/tests/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(mesosphere)dcos-commons/conftest.py')  [misc]
+(mesosphere)dcos-commons/frameworks/helloworld/tests/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 69 source files)
+
+[RRepo](pgjones)flake8-sql
+(pgjones)flake8-sql/flake8_sql/parser.py:64: error: Name 'Tuple' is not defined  [name-defined]
+(pgjones)flake8-sql/flake8_sql/parser.py:64: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Tuple")
+(pgjones)flake8-sql/flake8_sql/linter.py:117: error: Need type annotation for 'roots' (hint: "roots: List[<type>] = ...")  [var-annotated]
+Found 2 errors in 2 files (checked 7 source files)
+
+[RRepo](JulyJ)MindBot
+(JulyJ)MindBot/mindbot/command/help/commands.py:9: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/remember/searchtag.py:11: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/search/wiki.py:18: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/weather/weather.py:4: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/weather/forecast.py:4: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/tools/qrgenerator.py:13: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/search/google.py:10: error: Relative import climbs too many namespaces  [misc]
+(JulyJ)MindBot/mindbot/command/remember/db.py:37: error: Variable "mindbot.command.remember.db.Base" is not valid as a type  [valid-type]
+(JulyJ)MindBot/mindbot/command/remember/db.py:37: error: Invalid base class "Base"  [misc]
+(JulyJ)MindBot/mindbot/command/remember/db.py:50: error: Variable "mindbot.command.remember.db.Base" is not valid as a type  [valid-type]
+(JulyJ)MindBot/mindbot/command/remember/db.py:50: error: Invalid base class "Base"  [misc]
+(JulyJ)MindBot/mindbot/command/remember/db.py:91: error: "None" has no attribute "add"  [attr-defined]
+(JulyJ)MindBot/mindbot/command/remember/db.py:92: error: "None" has no attribute "commit"  [attr-defined]
+
+[RRepo](rigetticomputing)grove
+(rigetticomputing)grove/grove/tests/bernstein_vazirani/test_utils.py: error: Duplicate module named 'test_utils' (also at '/home/bew/archive/typed_project/(rigetticomputing)grove/grove/tests/simon/test_utils.py')  [misc]
+Found 1 error in 1 file (checked 62 source files)
+
+[RRepo](Mondanzo)vlt-Music
+(Mondanzo)vlt-Music/log.py:15: error: Name 'get_time' already defined on line 7  [no-redef]
+Found 1 error in 1 file (checked 4 source files)
+
+[RRepo](drhagen)parsita
+(drhagen)parsita/src/parsita/metaclasses.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 10 source files)
+

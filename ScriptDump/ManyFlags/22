@@ -1,0 +1,557 @@
+[RRepo](tausackhn)twlived
+Success: no issues found in 10 source files
+
+[RRepo](OpenWeavers)openanalysis
+(OpenWeavers)openanalysis/analysistest/data_structures.py: error: Duplicate module named 'data_structures' (also at '/home/bew/archive/typed_project/(OpenWeavers)openanalysis/openanalysis/data_structures.py')  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](klingtnet)klingt.net
+Success: no issues found in 1 source file
+
+[RRepo](deeppunster)RegEx101
+Success: no issues found in 1 source file
+
+[RRepo](lamenezes)simple-model
+(lamenezes)simple-model/tests/test_builder.py:6: error: Module 'simple_model' has no attribute 'Model'  [attr-defined]
+(lamenezes)simple-model/tests/test_builder.py:6: error: Module 'simple_model' has no attribute 'to_dict'  [attr-defined]
+(lamenezes)simple-model/tests/test_converters.py:5: error: Module 'simple_model' has no attribute 'Model'  [attr-defined]
+(lamenezes)simple-model/tests/test_converters.py:5: error: Module 'simple_model' has no attribute 'to_dict'  [attr-defined]
+Found 4 errors in 2 files (checked 14 source files)
+
+[RRepo](joereynolds)Mr-Figs
+(joereynolds)Mr-Figs/src/gui/effects.py: error: Duplicate module named 'effects' (also at '/home/bew/archive/typed_project/(joereynolds)Mr-Figs/src/effects.py')  [misc]
+(joereynolds)Mr-Figs/src/gui/effects.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 35 source files)
+
+[RRepo](janelia-flyem)gala
+(janelia-flyem)gala/gala/session_manager.py:39: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 38 source files)
+
+[RRepo](davidenunes)tensorx
+(davidenunes)tensorx/tensorx/callbacks.py:371: error: Incompatible types in assignment (expression has type "Iterator[Any]", variable has type "List[Any]")  [assignment]
+
+[RRepo](thomasperrot)MTGTrader
+(thomasperrot)MTGTrader/mtg/tournaments/views.py:11: error: No parent module -- cannot perform relative import  [misc]
+(thomasperrot)MTGTrader/mtg/tournaments/views.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 19 source files)
+
+[RRepo](domino14)Webolith
+(domino14)Webolith/scripts/digoceanssh.py:26: error: Missing parentheses in call to 'print'. Did you mean print("************")?  [syntax]
+Found 1 error in 1 file (checked 61 source files)
+
+[RRepo](mRokita)DPLib
+(mRokita)DPLib/examples/server_manager.py:94: error: Return value expected  [return-value]
+(mRokita)DPLib/examples/server_manager.py:96: error: Incompatible types in assignment (expression has type "int", variable has type "None")  [assignment]
+Found 2 errors in 1 file (checked 9 source files)
+
+[RRepo](HPAC)matchpy
+(HPAC)matchpy/matchpy/expressions/functions.py: error: Duplicate module named 'functions' (also at '/home/bew/archive/typed_project/(HPAC)matchpy/matchpy/functions.py')  [misc]
+(HPAC)matchpy/matchpy/expressions/functions.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 18 source files)
+
+[RRepo](cjlucas)rtorrent-python
+(cjlucas)rtorrent-python/rtorrent/rpc/result.py:6: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cjlucas)rtorrent-python/rtorrent/rpc/result.py:6: note: Did you mean "List[...]"?
+(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py:46: error: Need type annotation for 'keys' (hint: "keys: List[<type>] = ...")  [var-annotated]
+(cjlucas)rtorrent-python/rtorrent/rpc/__init__.py:47: error: Need type annotation for 'args' (hint: "args: List[<type>] = ...")  [var-annotated]
+(cjlucas)rtorrent-python/rtorrent/__init__.py:24: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(cjlucas)rtorrent-python/rtorrent/__init__.py:24: note: Did you mean "List[...]"?
+Found 4 errors in 3 files (checked 14 source files)
+
+[RRepo](Chadsr)NordVPN-NetworkManager
+(Chadsr)NordVPN-NetworkManager/setup.py:3: error: Module 'nordnm' has no attribute '__version__'  [attr-defined]
+(Chadsr)NordVPN-NetworkManager/setup.py:3: error: Module 'nordnm' has no attribute '__license__'  [attr-defined]
+(Chadsr)NordVPN-NetworkManager/nordnm/benchmarking.py:1: error: Module 'nordnm' has no attribute 'nordnm'  [attr-defined]
+(Chadsr)NordVPN-NetworkManager/nordnm/networkmanager.py:2: error: Module 'nordnm' has no attribute 'paths'  [attr-defined]
+(Chadsr)NordVPN-NetworkManager/nordnm/__main__.py:3: error: Module 'nordnm' has no attribute 'nordnm'  [attr-defined]
+Found 5 errors in 4 files (checked 8 source files)
+
+[RRepo](gopythongo)gopythongo
+Success: no issues found in 50 source files
+
+[RRepo](vmagamedov)grpclib
+(vmagamedov)grpclib/grpclib/metadata.py:11: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 55 source files)
+
+[RRepo](jacobbridges)veggiecron-server
+(jacobbridges)veggiecron-server/src/routes/_base.py: error: Duplicate module named '_base' (also at '/home/bew/archive/typed_project/(jacobbridges)veggiecron-server/src/scheduler/job_runners/_base.py')  [misc]
+(jacobbridges)veggiecron-server/src/routes/_base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 14 source files)
+
+[RRepo](jvermeir)kata
+Success: no issues found in 4 source files
+
+[RRepo](jamespeterschinner)async_v20
+(jamespeterschinner)async_v20/async_v20/interface/account.py: error: Duplicate module named 'account' (also at '/home/bew/archive/typed_project/(jamespeterschinner)async_v20/bin/account.py')  [misc]
+(jamespeterschinner)async_v20/async_v20/interface/account.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 52 source files)
+
+[RRepo](kenkov)kovot
+(kenkov)kovot/kovot/stream/mastodon.py:5: error: Module 'mastodon' has no attribute 'StreamListener'  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:5: error: Module 'mastodon' has no attribute 'MastodonError'; maybe "Mastodon"?  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:8: error: Module 'kovot' has no attribute 'Message'  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:8: error: Module 'kovot' has no attribute 'Response'  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:8: error: Module 'kovot' has no attribute 'Speaker'  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:39: error: Too few arguments for "Mastodon"  [call-arg]
+(kenkov)kovot/kovot/stream/mastodon.py:40: error: Argument 1 to "Mastodon" has incompatible type "str"; expected "Logger"  [arg-type]
+(kenkov)kovot/kovot/stream/mastodon.py:45: error: "Mastodon" has no attribute "account_verify_credentials"  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:47: error: Need type annotation for '_cached' (hint: "_cached: Dict[<type>, <type>] = ...")  [var-annotated]
+(kenkov)kovot/kovot/stream/mastodon.py:51: error: "Mastodon" has no attribute "stream_user"  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:69: error: "Mastodon" has no attribute "status_post"  [attr-defined]
+(kenkov)kovot/kovot/stream/mastodon.py:71: error: "Mastodon" has no attribute "status_post"  [attr-defined]
+(kenkov)kovot/kovot/stream/twitter.py:28: error: Bracketed expression "[...]" is not valid as a type  [misc]
+(kenkov)kovot/kovot/stream/twitter.py:28: note: Did you mean "List[...]"?
+(kenkov)kovot/test/test_bot.py:6: error: Module 'kovot' has no attribute 'Bot'  [attr-defined]
+(kenkov)kovot/test/test_bot.py:7: error: Module 'kovot' has no attribute 'Response'  [attr-defined]
+(kenkov)kovot/test/test_bot.py:8: error: Module 'kovot' has no attribute 'Message'  [attr-defined]
+(kenkov)kovot/test/test_bot.py:9: error: Module 'kovot' has no attribute 'Speaker'  [attr-defined]
+(kenkov)kovot/test.py:5: error: Module 'kovot.mod' has no attribute 'Mod'  [attr-defined]
+Found 18 errors in 4 files (checked 20 source files)
+
+[RRepo](vrk-kpa)X-Road
+(vrk-kpa)X-Road/src/systemtest/op-monitoring/zabbix_api/examples/zabbix/import_sample_host.py:117: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](shafferm)SCNIC
+(shafferm)SCNIC/SCNIC/between_correls.py:23: error: Name 'spearmanr' already defined (possibly by an import)  [no-redef]
+(shafferm)SCNIC/SCNIC/correlation_analysis.py:26: error: Name 'spearmanr' already defined (possibly by an import)  [no-redef]
+Found 2 errors in 2 files (checked 20 source files)
+
+[RRepo](FRC-1123)frc2017-1123
+Success: no issues found in 31 source files
+
+[RRepo](monarch-initiative)dipper
+(monarch-initiative)dipper/tests/test_source.py:66: error: Argument 1 to "skip" has incompatible type "Callable[[SourceTestCase], Any]"; expected "str"  [arg-type]
+
+[RRepo](craws)OpenAtlas
+(craws)OpenAtlas/openatlas/views/imports.py: error: Duplicate module named 'imports' (also at '/home/bew/archive/typed_project/(craws)OpenAtlas/openatlas/models/imports.py')  [misc]
+Found 1 error in 1 file (checked 41 source files)
+
+[RRepo](novioleo)crnn.mxnet
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:69: error: Name 'label_file_path' is not defined  [name-defined]
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:70: error: Name 'label_file_path' is not defined  [name-defined]
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:71: error: Name 'label_file_path' is not defined  [name-defined]
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:131: error: Name 'label_file_path' is not defined  [name-defined]
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:146: error: Name 'label_file_path' is not defined  [name-defined]
+(novioleo)crnn.mxnet/generate_data/simple_generate_scene_text.py:147: error: Name 'label_file_path' is not defined  [name-defined]
+Found 6 errors in 1 file (checked 6 source files)
+
+[RRepo](getsentry)zeus
+(getsentry)zeus/zeus/vcs/providers/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(getsentry)zeus/zeus/vcs/base.py')  [misc]
+(getsentry)zeus/zeus/vcs/providers/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 297 source files)
+
+[RRepo](openfisca)openfisca-survey-manager
+(openfisca)openfisca-survey-manager/openfisca_survey_manager/scripts/build_collection.py:159: error: Too few arguments for "check_template_config_files"  [call-arg]
+Found 1 error in 1 file (checked 29 source files)
+
+[RRepo](FAForever)client
+(FAForever)client/src/fa/replayserver.py:16: error: No parent module -- cannot perform relative import  [misc]
+(FAForever)client/src/fa/replayserver.py:17: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 150 source files)
+
+[RRepo](brettcannon)gidgethub
+(brettcannon)gidgethub/gidgethub/test/test_exceptions.py:3: error: No parent module -- cannot perform relative import  [misc]
+(brettcannon)gidgethub/gidgethub/test/test_exceptions.py:5: error: No parent module -- cannot perform relative import  [misc]
+Found 2 errors in 1 file (checked 13 source files)
+
+[RRepo](ibarbech)learnbot
+(ibarbech)learnbot/learnbot_dsl/Clients/EBO.py:19: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 19 source files)
+
+[RRepo](mathieui)unha2
+(mathieui)unha2/unha2/subscriptions.py:1: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 18 source files)
+
+[RRepo](Prototype-X)Zabbix-Network-Weathermap
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:230: error: Need type annotation for 'cfg_order'  [var-annotated]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:246: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:257: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+(Prototype-X)Zabbix-Network-Weathermap/converter.py:272: error: "object" has no attribute "__iter__"; maybe "__str__" or "__dir__"? (not iterable)  [attr-defined]
+Found 4 errors in 1 file (checked 6 source files)
+
+[RRepo](Digiography)blender_addon_pbr
+
+[RRepo](cliffano)swaggy-jenkins
+(cliffano)swaggy-jenkins/clients/python/generated/swaggyjenkins/models/pipeline_activity.py: error: Duplicate module named 'pipeline_activity' (also at '/home/bew/archive/typed_project/(cliffano)swaggy-jenkins/clients/python-flask/generated/openapi_server/models/pipeline_activity.py')  [misc]
+Found 1 error in 1 file (checked 291 source files)
+
+[RRepo](georgepsarakis)pitch
+(georgepsarakis)pitch/pitch/runner/structures.py: error: Duplicate module named 'structures' (also at '/home/bew/archive/typed_project/(georgepsarakis)pitch/pitch/structures.py')  [misc]
+(georgepsarakis)pitch/pitch/runner/structures.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 18 source files)
+
+[RRepo](rmorshea)spectate
+(rmorshea)spectate/examples/mvc/advanced.py: error: Duplicate module named 'advanced' (also at '/home/bew/archive/typed_project/(rmorshea)spectate/examples/advanced.py')  [misc]
+(rmorshea)spectate/examples/mvc/advanced.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 17 source files)
+
+[RRepo](Wintellect)WintellectWebinars
+(Wintellect)WintellectWebinars/2019-01-24-async-python-kennedy/code/web_scraping/async_scrape/program.py: error: Duplicate module named 'program' (also at '/home/bew/archive/typed_project/(Wintellect)WintellectWebinars/2019-01-24-async-python-kennedy/code/web_scraping/sync_scrape/program.py')  [misc]
+Found 1 error in 1 file (checked 113 source files)
+
+[RRepo](arcyfelix)Courses
+(arcyfelix)Courses/18-04-18-REST APIs with Flask and Python/Section 6 - Simplifying storage with Flask-SQLAlchemy/2_SQLAlchemy implementation/resources/item.py: error: Duplicate module named 'item' (also at '/home/bew/archive/typed_project/(arcyfelix)Courses/18-04-18-REST APIs with Flask and Python/Section 6 - Simplifying storage with Flask-SQLAlchemy/2_SQLAlchemy implementation/models/item.py')  [misc]
+Found 1 error in 1 file (checked 78 source files)
+
+[RRepo](dmtucker)backlog
+Success: no issues found in 9 source files
+
+[RRepo](yasushi-saito)go-netdicom
+Success: no issues found in 2 source files
+
+[RRepo](scienceopen)lowtran
+(scienceopen)lowtran/Wavelength2LowtranWavenumber.py:5: error: Module 'lowtran' has no attribute 'nm2lt7'  [attr-defined]
+Found 1 error in 1 file (checked 15 source files)
+
+[RRepo](lablup)sorna-common
+(lablup)sorna-common/src/ai/backend/common/logging.py:20: error: Name 'logging.Handler' is not defined  [name-defined]
+(lablup)sorna-common/src/ai/backend/common/logging.py:126: error: Name 'logging.LoggerAdapter' is not defined  [name-defined]
+(lablup)sorna-common/src/ai/backend/common/identity.py:21: error: Module has no attribute "getLogger"; maybe "Logger"?  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/etcd.py:26: error: Module has no attribute "getLogger"; maybe "Logger"?  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:27: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:36: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:39: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:42: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:45: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:48: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:49: error: Incompatible return value type (got "Tuple[int, ...]", expected "Tuple[int, int]")  [return-value]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:58: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:68: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:117: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:132: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:141: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/argparse.py:151: error: Module has no attribute "ArgumentTypeError"  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/plugin.py:10: error: Module has no attribute "getLogger"; maybe "Logger"?  [attr-defined]
+(lablup)sorna-common/src/ai/backend/common/etcd_beta.py:20: error: Module has no attribute "getLogger"; maybe "Logger"?  [attr-defined]
+Found 19 errors in 6 files (checked 18 source files)
+
+[RRepo](cyanogen)uchroma
+(cyanogen)uchroma/uchroma/server/types.py:43: error: Need type annotation for 'LOGO'  [var-annotated]
+(cyanogen)uchroma/uchroma/server/types.py:44: error: Need type annotation for 'BACKLIGHT'  [var-annotated]
+
+[RRepo](DeNeutoy)deep_qa
+Success: no issues found in 1 source file
+
+[RRepo](datmellow)League.py
+(datmellow)League.py/league/__init__.py:41: error: Name 'NullHandler' already defined (possibly by an import)  [no-redef]
+(datmellow)League.py/league/summoner.py:187: error: Incompatible return value type (got "Dict[Any, Any]", expected "int")  [return-value]
+Found 2 errors in 2 files (checked 12 source files)
+
+[RRepo](repleo)bounca
+(repleo)bounca/bounca/api/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(repleo)bounca/bounca/webapp/views.py')  [misc]
+Found 1 error in 1 file (checked 17 source files)
+
+[RRepo](aio-libs)aioredis
+(aio-libs)aioredis/aioredis/sentinel/commands.py: error: Duplicate module named 'commands' (also at '/home/bew/archive/typed_project/(aio-libs)aioredis/aioredis/commands/__init__.py')  [misc]
+Found 1 error in 1 file (checked 58 source files)
+
+[RRepo](tfgraph)tfgraph
+(tfgraph)tfgraph/examples/example_import_datasets.py:18: error: Module has no attribute "DataSets"  [attr-defined]
+(tfgraph)tfgraph/tfgraph/algorithms/pagerank/iterative_pagerank.py:6: error: Module 'tfgraph.algorithms.pagerank' has no attribute 'PageRank'  [attr-defined]
+(tfgraph)tfgraph/tfgraph/algorithms/pagerank/iterative_pagerank.py:7: error: Module 'tfgraph.algorithms.pagerank' has no attribute 'TransitionResetMatrix'  [attr-defined]
+(tfgraph)tfgraph/tfgraph/algorithms/pagerank/algebraic_pagerank.py:7: error: Module 'tfgraph.algorithms.pagerank' has no attribute 'PageRank'  [attr-defined]
+(tfgraph)tfgraph/tfgraph/algorithms/pagerank/algebraic_pagerank.py:8: error: Module 'tfgraph.algorithms.pagerank' has no attribute 'TransitionMatrix'  [attr-defined]
+Found 5 errors in 3 files (checked 35 source files)
+
+[RRepo](golemfactory)golem
+(golemfactory)golem/scripts/concent_acceptance_tests/force_download/base.py: error: Duplicate module named 'base' (also at '/home/bew/archive/typed_project/(golemfactory)golem/scripts/concent_acceptance_tests/base.py')  [misc]
+(golemfactory)golem/scripts/concent_acceptance_tests/force_download/base.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 553 source files)
+
+[RRepo](dileep-kishore)microbial-ai
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/dfba.py:13: error: Relative import climbs too many namespaces  [misc]
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: note:     def __eq__(self, other: object) -> bool:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: note:         if not isinstance(other, Component):
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: note:             return NotImplemented
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/media.py:53: note:         return <logic to compare two Component instances>
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:23: error: Variable "model_table.Base" is not valid as a type  [valid-type]
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:23: error: Invalid base class "Base"  [misc]
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: note:     def __eq__(self, other: object) -> bool:
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: note:         if not isinstance(other, Model):
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: note:             return NotImplemented
+(dileep-kishore)microbial-ai/microbial_ai/io/model_table.py:72: note:         return <logic to compare two Model instances>
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: note:     def __eq__(self, other: object) -> bool:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: note:         if not isinstance(other, Reaction):
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: note:             return NotImplemented
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/reaction.py:88: note:         return <logic to compare two Reaction instances>
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: error: Argument 1 of "__eq__" is incompatible with supertype "object"; supertype defines the argument type as "object"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: note: It is recommended for "__eq__" to work with arbitrary objects, for example:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: note:     def __eq__(self, other: object) -> bool:
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: note:         if not isinstance(other, Metabolite):
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: note:             return NotImplemented
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:58: note:         return <logic to compare two Metabolite instances>
+(dileep-kishore)microbial-ai/microbial_ai/metabolism/metabolite.py:178: error: Name 'ExReaction' is not defined  [name-defined]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:111: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:112: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:182: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:183: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:250: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/visualization/plot_results.py:251: error: Unsupported target for indexed assignment  [index]
+(dileep-kishore)microbial-ai/microbial_ai/simulation/simulation.py:18: error: Relative import climbs too many namespaces  [misc]
+(dileep-kishore)microbial-ai/microbial_ai/simulation/simulation.py:19: error: Relative import climbs too many namespaces  [misc]
+(dileep-kishore)microbial-ai/microbial_ai/regulation/dqnregulator.py:108: error: Argument 1 of "update" is incompatible with supertype "Regulator"; supertype defines the argument type as "Dict[str, float]"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/regulation/dqnregulator.py:108: error: Argument 3 of "update" is incompatible with supertype "Regulator"; supertype defines the argument type as "Dict[str, float]"  [override]
+(dileep-kishore)microbial-ai/microbial_ai/regulation/__init__.py:9: error: Name 'A3CRegulator' is not defined  [name-defined]
+Found 19 errors in 9 files (checked 30 source files)
+
+[RRepo](auDeep)auDeep
+(auDeep)auDeep/audeep/backend/training/time_autoencoder.py: error: Duplicate module named 'time_autoencoder' (also at '/home/bew/archive/typed_project/(auDeep)auDeep/audeep/backend/models/time_autoencoder.py')  [misc]
+Found 1 error in 1 file (checked 50 source files)
+
+[RRepo](zrzka)blackmamba
+(zrzka)blackmamba/blackmamba/lib/flake8/utils.py:17: error: Type signature has too few arguments  [syntax]
+(zrzka)blackmamba/blackmamba/lib/rope/refactor/rename.py: error: Duplicate module named 'rename' (also at '/home/bew/archive/typed_project/(zrzka)blackmamba/blackmamba/script/refactoring/rename.py')  [misc]
+(zrzka)blackmamba/blackmamba/lib/rope/refactor/rename.py: error: Are you missing an __init__.py?  [misc]
+Found 3 errors in 2 files (checked 277 source files)
+
+[RRepo](varqox)sim
+Success: no issues found in 2 source files
+
+[RRepo](scienceopen)pybashutils
+(scienceopen)pybashutils/pybashutils/getIP.py: error: Duplicate module named 'getIP' (also at '/home/bew/archive/typed_project/(scienceopen)pybashutils/getIP.py')  [misc]
+(scienceopen)pybashutils/pybashutils/getIP.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 22 source files)
+
+[RRepo](EarthLifeConsortium)elc_api
+(EarthLifeConsortium)elc_api/swagger_server/models/error_model.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/reference.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/taxonomy_inner.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/occurrence.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/agebasis.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/locale.py:7: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/models/taxonomy.py:8: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/taxonomy_controller.py:8: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/taxonomy_controller.py:9: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/locale_controller.py:15: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/locale_controller.py:16: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/occurrence_controller.py:15: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/occurrence_controller.py:16: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/misc_controller.py:18: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/reference_controller.py:16: error: Relative import climbs too many namespaces  [misc]
+(EarthLifeConsortium)elc_api/swagger_server/controllers/reference_controller.py:17: error: Relative import climbs too many namespaces  [misc]
+Found 16 errors in 12 files (checked 30 source files)
+
+[RRepo](smlbiobot)SML-Cogs
+(smlbiobot)SML-Cogs/challonge/challonge.py:108: error: Module has no attribute "tournaments"  [attr-defined]
+(smlbiobot)SML-Cogs/challonge/challonge.py:131: error: Module has no attribute "tournaments"  [attr-defined]
+(smlbiobot)SML-Cogs/challonge/challonge.py:139: error: Module has no attribute "api"  [attr-defined]
+(smlbiobot)SML-Cogs/search/search.py:121: error: Module has no attribute "search"  [attr-defined]
+(smlbiobot)SML-Cogs/search/search.py:138: error: Module has no attribute "search_images"  [attr-defined]
+(smlbiobot)SML-Cogs/reactionpoll/reactionpoll.py:104: error: Name 'reactionpoll_add' already defined on line 76  [no-redef]
+(smlbiobot)SML-Cogs/banned/banned.py:331: error: Not all arguments converted during string formatting  [str-format]
+(smlbiobot)SML-Cogs/discordgram/discordgram.py:37: error: Need type annotation for 'SERVER_DEFAULTS'  [var-annotated]
+(smlbiobot)SML-Cogs/ascii/ascii.py:98: error: Module has no attribute "loadFromUrl"  [attr-defined]
+(smlbiobot)SML-Cogs/rolehist/rolehist.py:97: error: Need type annotation for 'prev_roles' (hint: "prev_roles: List[<type>] = ...")  [var-annotated]
+(smlbiobot)SML-Cogs/post/post.py:180: error: "TextIO" has no attribute "get"  [attr-defined]
+(smlbiobot)SML-Cogs/post/post.py:181: error: "TextIO" has no attribute "get"  [attr-defined]
+Found 12 errors in 8 files (checked 53 source files)
+
+[RRepo](superdesk)Live-Blog
+(superdesk)Live-Blog/sandbox/plugins/superdesk-article/superdesk/article/api/article_ctx.py: error: Duplicate module named 'article_ctx' (also at '/home/bew/archive/typed_project/(superdesk)Live-Blog/sandbox/plugins/superdesk-article/superdesk/article/impl/article_ctx.py')  [misc]
+Found 1 error in 1 file (checked 295 source files)
+
+[RRepo](jcchoiling)learningPython
+(jcchoiling)learningPython/s13/Day11/practice/s1.py: error: Duplicate module named 's1' (also at '/home/bew/archive/typed_project/(jcchoiling)learningPython/s13/Day10/practice/s1.py')  [misc]
+Found 1 error in 1 file (checked 196 source files)
+
+[RRepo](mzdhr)weather
+Success: no issues found in 1 source file
+
+[RRepo](scivision)soothing-sounds
+Success: no issues found in 6 source files
+
+[RRepo](elsehow)moneybot
+Success: no issues found in 23 source files
+
+[RRepo](tbaptista)pyafai
+(tbaptista)pyafai/pyafai/objects.py:26: error: Module 'pyafai' has no attribute 'Object'; maybe "objects"?  [attr-defined]
+(tbaptista)pyafai/examples/bouncer.py:38: error: Module has no attribute "World2D"  [attr-defined]
+(tbaptista)pyafai/examples/bouncer.py:39: error: Module has no attribute "Display"  [attr-defined]
+(tbaptista)pyafai/examples/grid_example.py:23: error: Name 'pyafai.Display' is not defined  [name-defined]
+(tbaptista)pyafai/examples/braitenberg.py:34: error: Name 'pyafai.Object' is not defined  [name-defined]
+(tbaptista)pyafai/examples/braitenberg.py:46: error: Name 'pyafai.Perception' is not defined  [name-defined]
+(tbaptista)pyafai/examples/braitenberg.py:97: error: Name 'pyafai.Agent' is not defined  [name-defined]
+(tbaptista)pyafai/examples/braitenberg.py:161: error: Name 'pyafai.World2D' is not defined  [name-defined]
+(tbaptista)pyafai/examples/braitenberg.py:191: error: Name 'pyafai.Display' is not defined  [name-defined]
+(tbaptista)pyafai/examples/random_walk.py:27: error: Name 'pyafai.Agent' is not defined  [name-defined]
+(tbaptista)pyafai/examples/random_walk.py:48: error: Module has no attribute "World2D"  [attr-defined]
+(tbaptista)pyafai/examples/random_walk.py:49: error: Module has no attribute "Display"  [attr-defined]
+Found 12 errors in 5 files (checked 8 source files)
+
+[RRepo](aio-libs)aiokafka
+(aio-libs)aiokafka/aiokafka/record/util.py: error: Duplicate module named 'util' (also at '/home/bew/archive/typed_project/(aio-libs)aiokafka/aiokafka/util.py')  [misc]
+(aio-libs)aiokafka/aiokafka/record/util.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 41 source files)
+
+[RRepo](sorz)ssmanager
+Success: no issues found in 5 source files
+
+[RRepo](eirannejad)pyRevit
+(eirannejad)pyRevit/extensions/pyRevitTools.extension/pyRevit.tab/Toggles.panel/toggles1.stack3/Sync Views.smartbutton/script.py: error: Duplicate module named 'script' (also at '/home/bew/archive/typed_project/(eirannejad)pyRevit/extensions/pyRevitTools.extension/pyRevit.tab/Toggles.panel/toggles1.stack3/SectionBox.pushbutton/script.py')  [misc]
+Found 1 error in 1 file (checked 279 source files)
+
+[RRepo](JustArchi)program-y
+(JustArchi)program-y/src/programy/parser/pattern/nodes/bot.py: error: Duplicate module named 'bot' (also at '/home/bew/archive/typed_project/(JustArchi)program-y/src/programy/bot.py')  [misc]
+(JustArchi)program-y/src/programy/parser/pattern/nodes/bot.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 330 source files)
+
+[RRepo](StanczakDominik)PythonPIC
+(StanczakDominik)PythonPIC/pythonpic/configs/tests/test_beamplasma.py:6: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 33 source files)
+
+[RRepo](WPIRoboticsProjects)GRIP-code-generation
+Success: no issues found in 3 source files
+
+[RRepo](jzadeh)Aktaion
+(jzadeh)Aktaion/python/researchDev/Parse.py:3: error: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \uXXXX escape  [syntax]
+Found 1 error in 1 file (checked 34 source files)
+
+[RRepo](raphaelm)django-hierarkey
+(raphaelm)django-hierarkey/tests/testapp/models.py: error: Duplicate module named 'models' (also at '/home/bew/archive/typed_project/(raphaelm)django-hierarkey/demoproject/demoapp/models.py')  [misc]
+Found 1 error in 1 file (checked 8 source files)
+
+[RRepo](fqxp)nete-gtk
+(fqxp)nete-gtk/tests/nete/gui/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(fqxp)nete-gtk/tests/conftest.py')  [misc]
+(fqxp)nete-gtk/tests/nete/gui/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 40 source files)
+
+[RRepo](mangaki)mangaki
+(mangaki)mangaki/mangaki/mangaki/apps.py:13: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 90 source files)
+
+[RRepo](wileykestner)falcon-sqlalchemy-demo
+(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/postgres_people_repository.py:11: error: Variable "postgres_people_repository.Base" is not valid as a type  [valid-type]
+(wileykestner)falcon-sqlalchemy-demo/falcon_web_demo/postgres_people_repository.py:11: error: Invalid base class "Base"  [misc]
+Found 2 errors in 1 file (checked 14 source files)
+
+[RRepo](meine-stadt-transparent)meine-stadt-transparent
+(meine-stadt-transparent)meine-stadt-transparent/mainapp/documents/paper.py: error: Duplicate module named 'paper' (also at '/home/bew/archive/typed_project/(meine-stadt-transparent)meine-stadt-transparent/mainapp/models/paper.py')  [misc]
+Found 1 error in 1 file (checked 112 source files)
+
+[RRepo](potfur)strict-hint
+(potfur)strict-hint/strict_hint/strict_hint.py:52: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:57: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:64: error: "None" has no attribute "parameters"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:82: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:82: error: "None" has no attribute "empty"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:85: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:88: error: "None" has no attribute "return_annotation"  [attr-defined]
+(potfur)strict-hint/strict_hint/strict_hint.py:109: error: "_SpecialForm" has no attribute "__name__"  [attr-defined]
+Found 8 errors in 1 file (checked 2 source files)
+
+[RRepo](yinkaisheng)Python-UIAutomation-for-Windows
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/collapse_tree_item_under_cursor.py:30: error: Name 'Event' is not defined  [name-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/automation_calculator.py:151: error: Module has no attribute "sys"  [attr-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/automation_calculator.py:161: error: Module has no attribute "kbhit"  [attr-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/automation_devicemanager.py:101: error: Module has no attribute "kbhit"  [attr-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/expand_tree_item_under_cursor.py:60: error: Name 'Event' is not defined  [name-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/hide_window_with_hotkey.py:40: error: Name 'Event' is not defined  [name-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/automation_notepad.py:145: error: Module has no attribute "windll"  [attr-defined]
+(yinkaisheng)Python-UIAutomation-for-Windows/demos/automation_help_demo.py:190: error: Module has no attribute "windll"  [attr-defined]
+Found 8 errors in 7 files (checked 18 source files)
+
+[RRepo](mdzhang)goodreads-api-client-python
+(mdzhang)goodreads-api-client-python/goodreads_api_client/tests/resources/conftest.py: error: Duplicate module named 'conftest' (also at '/home/bew/archive/typed_project/(mdzhang)goodreads-api-client-python/goodreads_api_client/tests/conftest.py')  [misc]
+(mdzhang)goodreads-api-client-python/goodreads_api_client/tests/resources/conftest.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 45 source files)
+
+[RRepo](jasperges)pose_thumbnails
+(jasperges)pose_thumbnails/pose_thumbnails/__init__.py:41: error: Cannot resolve name "creation" (possible cyclic definition)  [misc]
+(jasperges)pose_thumbnails/pose_thumbnails/__init__.py:43: error: Module 'pose_thumbnails' has no attribute 'creation'  [attr-defined]
+(jasperges)pose_thumbnails/setup.py:26: error: Module 'distutils.command.bdist' has no attribute 'bdist'  [attr-defined]
+Found 3 errors in 2 files (checked 6 source files)
+
+[RRepo](Azure)azure-sdk-for-python
+(Azure)azure-sdk-for-python/scripts/templates/_operations_mixin.py:14: error: invalid syntax  [syntax]
+Found 1 error in 1 file (checked 9703 source files)
+
+[RRepo](klieret)pyplot-hierarchical-pie
+(klieret)pyplot-hierarchical-pie/examples/tests/test_disk_usage_exploded.py:17: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 14 source files)
+
+[RRepo](wdv4758h)python-everywhere
+Success: no issues found in 6 source files
+
+[RRepo](enkore)i3pystatus
+(enkore)i3pystatus/i3pystatus/utils/gpu.py:38: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"  [arg-type]
+(enkore)i3pystatus/i3pystatus/utils/gpu.py:41: error: Unsupported operand types for in ("str" and "bytes")  [operator]
+
+[RRepo](redzej)graphene-permissions
+Success: no issues found in 8 source files
+
+[RRepo](StructuralNeurobiologyLab)SyConn
+(StructuralNeurobiologyLab)SyConn/syconn/reps/rep_helper.py:14: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 48 source files)
+
+[RRepo](n8henrie)pycookiecheat
+Success: no issues found in 2 source files
+
+[RRepo](SexualHealthInnovations)callisto-core
+(SexualHealthInnovations)callisto-core/callisto_core/delivery/models.py:12: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 86 source files)
+
+[RRepo](anlar)prismriver-lyrics
+(anlar)prismriver-lyrics/prismriver/preprocessor.py:4: error: Invalid type comment or annotation  [valid-type]
+(anlar)prismriver-lyrics/prismriver/preprocessor.py:11: error: Invalid type comment or annotation  [valid-type]
+Found 2 errors in 1 file (checked 69 source files)
+
+[RRepo](SWE574-Nerds)friendly-eureka
+(SWE574-Nerds)friendly-eureka/backend/eureka/accounts/views.py: error: Duplicate module named 'views' (also at '/home/bew/archive/typed_project/(SWE574-Nerds)friendly-eureka/backend/eureka/home/views.py')  [misc]
+Found 1 error in 1 file (checked 21 source files)
+
+[RRepo](webyneter)python-humble-utils
+(webyneter)python-humble-utils/tests/test_commands.py:62: error: Argument 1 has incompatible type "Tuple[Any, ...]"; expected "str"  [arg-type]
+(webyneter)python-humble-utils/travis_pypi_setup.py:18: error: Module 'urllib' has no attribute 'urlopen'  [attr-defined]
+Found 2 errors in 2 files (checked 6 source files)
+
+[RRepo](IlyaGusev)rupo
+(IlyaGusev)rupo/rupo/metre/pattern_analyzer.py:228: error: Need type annotation for 'variants' (hint: "variants: Set[<type>] = ...")  [var-annotated]
+
+[RRepo](belbio)bel_api
+(belbio)bel_api/api/resources/tasks.py: error: Duplicate module named 'tasks' (also at '/home/bew/archive/typed_project/(belbio)bel_api/api/services/tasks.py')  [misc]
+Found 1 error in 1 file (checked 24 source files)
+
+[RRepo](jdanekrh)dispatch-console-tests
+(jdanekrh)dispatch-console-tests/conftest.py:43: error: Name 'driver' already defined on line 40  [no-redef]
+Found 1 error in 1 file (checked 7 source files)
+
+[RRepo](Beomi)irkshop
+(Beomi)irkshop/irkshop/celery.py:3: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+(Beomi)irkshop/irkshop/celery.py:3: error: Module 'celery' has no attribute 'Celery'  [attr-defined]
+Found 2 errors in 1 file (checked 11 source files)
+
+[RRepo](EuroPython)epcon
+(EuroPython)epcon/assopy/settings.py:28: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 141 source files)
+
+[RRepo](mlindauer)AutoFolio
+(mlindauer)AutoFolio/autofolio/selector/classifiers/random_forest.py: error: Duplicate module named 'random_forest' (also at '/home/bew/archive/typed_project/(mlindauer)AutoFolio/autofolio/selector/regressors/random_forest.py')  [misc]
+Found 1 error in 1 file (checked 16 source files)
+
+[RRepo](thorrak)fermentrack
+(thorrak)fermentrack/brewpi-script/scriptlibs/expandLogMessage.py:20: error: No parent module -- cannot perform relative import  [misc]
+Found 1 error in 1 file (checked 47 source files)
+
+[RRepo](RulersOfAsgard)ALAMO-worker
+(RulersOfAsgard)ALAMO-worker/alamo_worker/alerter/utils.py: error: Duplicate module named 'utils' (also at '/home/bew/archive/typed_project/(RulersOfAsgard)ALAMO-worker/alamo_worker/utils.py')  [misc]
+(RulersOfAsgard)ALAMO-worker/alamo_worker/alerter/utils.py: error: Are you missing an __init__.py?  [misc]
+Found 2 errors in 1 file (checked 50 source files)
+
+[RRepo](cprogrammer1994)GLWindow
+(cprogrammer1994)GLWindow/GLWindow/mock.py:13: error: Name 'Window' is not defined  [name-defined]
+(cprogrammer1994)GLWindow/GLWindow/mock.py:18: error: Name 'Window' is not defined  [name-defined]
+(cprogrammer1994)GLWindow/GLWindow/__init__.py:22: error: Module 'GLWindow' has no attribute 'glwnd'  [attr-defined]
+(cprogrammer1994)GLWindow/GLWindow/__init__.py:38: error: Module 'GLWindow' has no attribute 'keys'  [attr-defined]
+Found 4 errors in 2 files (checked 4 source files)
+
+[RRepo](kimjinyong)i2nsf-framework
+(kimjinyong)i2nsf-framework/Hackathon-104/stack/openstack_server.py:10: error: inconsistent use of tabs and spaces in indentation  [syntax]
+Found 1 error in 1 file (checked 60 source files)
+

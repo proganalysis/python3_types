@@ -1,0 +1,45 @@
+----- Mypy -> Pylint -----
+abstract 3/10
+  [['abstract-class-instantiated', 2], ['no-value-for-parameter', 1]]
+arg-type 60/1851
+  [['no-member', 31], ['unexpected-keyword-arg', 23], ['no-value-for-parameter', 6]]
+assignment 36/3104
+  [['no-member', 27], ['undefined-variable', 4], ['no-value-for-parameter', 4], ['abstract-class-instantiated', 1]]
+attr-defined 31804/9731
+  [['no-name-in-module', 29799], ['no-member', 1888], ['import-error', 57], ['undefined-variable', 20], ['relative-beyond-top-level', 16], ['no-value-for-parameter', 11], ['not-callable', 6], ['not-an-iterable', 4], ['unsubscriptable-object', 1], ['too-many-function-args', 1], ['access-member-before-definition', 1]]
+call-arg 146/528
+  [['no-value-for-parameter', 66], ['no-member', 52], ['too-many-function-args', 14], ['unexpected-keyword-arg', 11], ['undefined-variable', 2], ['not-callable', 1]]
+call-overload 11/229
+  [['unexpected-keyword-arg', 6], ['no-member', 2], ['unsubscriptable-object', 1], ['undefined-variable', 1], ['no-value-for-parameter', 1]]
+func-returns-value 2/77
+  [['undefined-variable', 1], ['assignment-from-none', 1]]
+has-type 210/485
+  [['no-member', 176], ['access-member-before-definition', 24], ['used-before-assignment', 9], ['undefined-variable', 1]]
+index 69/864
+  [['unsubscriptable-object', 65], ['unsupported-assignment-operation', 2], ['undefined-variable', 2]]
+list-item 1/72
+  [['no-member', 1]]
+misc 3120/4901
+  [['relative-beyond-top-level', 2816], ['import-error', 121], ['no-method-argument', 66], ['no-self-argument', 33], ['undefined-variable', 26], ['no-member', 14], ['function-redefined', 8], ['not-callable', 7], ['invalid-all-object', 6], ['catching-non-exception', 4], ['used-before-assignment', 3], ['inherit-non-class', 3], ['inconsistent-mro', 3], ['no-value-for-parameter', 2], ['method-hidden', 2], ['unpacking-non-sequence', 1], ['unexpected-keyword-arg', 1], ['too-many-function-args', 1], ['return-outside-function', 1], ['raising-bad-type', 1], ['not-an-iterable', 1]]
+name-defined 13074/9318
+  [['undefined-variable', 12767], ['no-member', 272], ['too-many-function-args', 12], ['used-before-assignment', 8], ['no-value-for-parameter', 8], ['function-redefined', 4], ['return-outside-function', 2], ['unexpected-keyword-arg', 1]]
+no-redef 375/810
+  [['function-redefined', 193], ['undefined-variable', 165], ['method-hidden', 7], ['import-error', 4], ['no-member', 3], ['no-name-in-module', 2], ['no-self-argument', 1]]
+operator 38/674
+  [['not-callable', 18], ['invalid-unary-operand-type', 8], ['no-member', 7], ['unsupported-membership-test', 3], ['used-before-assignment', 1], ['undefined-variable', 1]]
+override 1/201
+  [['no-self-argument', 1]]
+return 6/292
+  [['undefined-variable', 5], ['no-method-argument', 1]]
+return-value 2/1399
+  [['no-member', 2]]
+str-format 151/211
+  [['too-many-format-args', 127], ['too-few-format-args', 15], ['undefined-variable', 9]]
+syntax 233/515
+  [['syntax-error', 224], ['function-redefined', 5], ['no-member', 2], ['duplicate-argument-name', 2]]
+union-attr 5/1592
+  [['undefined-variable', 3], ['no-member', 2]]
+valid-type 123/1564
+  [['undefined-variable', 60], ['no-self-argument', 25], ['function-redefined', 20], ['no-member', 12], ['inherit-non-class', 2], ['abstract-class-instantiated', 2], ['unsupported-assignment-operation', 1], ['unsubscriptable-object', 1]]
+var-annotated 1/2761
+  [['no-member', 1]]
